@@ -53,8 +53,21 @@ export async function loadCSV<T = unknown>(url: string): Promise<T[]> {
 }
 
 
-export async function loadCSVMany<T = unknown>(urls: string[]): Promise<T[]> {
-  const datasets = await Promise.all(urls.map((url) => loadCSV<T>(url)));
+export async function loadCSVMany<T = unknown>(urls: string[], concurrency = 2): Promise<T[]> {
+  const datasets: T[][] = [];
+
+  for (let index = 0; index < urls.length; index += concurrency) {
+    const batch = urls.slice(index, index + concurrency);
+    const batchRows = await Promise.all(batch.map((url) => loadCSV<T>(url)));
+    datasets.push(...batchRows);
+
+    if (index + concurrency < urls.length) {
+      await new Promise<void>((resolve) => {
+        window.setTimeout(resolve, 0);
+      });
+    }
+  }
+
   return datasets.flat();
 }
 
