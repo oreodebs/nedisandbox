@@ -408,7 +408,7 @@ export default function MinisterDashboardPage({
   const [dimLgas, setDimLgas] = useState<DimLga[]>([]);
   const [dimWards, setDimWards] = useState<DimWard[]>([]);
   const [dimSchools, setDimSchools] = useState<DimSchool[]>([]);
-  const [teacherLocationSeedRows, setTeacherLocationSeedRows] = useState<TeacherLocationSeed[]>([]);
+  const [, setTeacherLocationSeedRows] = useState<TeacherLocationSeed[]>([]);
   const [teacherAttrSeedRows, setTeacherAttrSeedRows] = useState<TeacherAttrSeed[]>([]);
   const [accessLocationSeedRows, setAccessLocationSeedRows] = useState<AccessCoverageLocationSeed[]>([]);
   const [accessAttrSeedRows, setAccessAttrSeedRows] = useState<AccessCoverageAttrSeed[]>([]);
@@ -899,14 +899,6 @@ export default function MinisterDashboardPage({
       .filter((row) => (filters.school ? row.school === filters.school : true));
   }, [transitionGeneralLocationRows, transitionDirectLocationRows, directMode, filters.zone, filters.state, filters.lga, filters.ward, filters.school]);
 
-  const transitionOptionRows = useMemo(() => {
-    return (directMode ? transitionDirectOptionSeedRows : transitionGeneralOptionSeedRows)
-      .filter((row) => (filters.session ? row.session === filters.session : true))
-      .filter((row) => (filters.gender ? row.gender === filters.gender : true))
-      .filter((row) => (disabilityMode ? row.disability === "Disabled" : row.disability === "ALL"))
-      .filter((row) => (filters.exam_body ? row.exam_body === filters.exam_body : true))
-      .filter((row) => (directMode || !filters.gap_band ? true : normalizeTransitionGapBand(row.gap_band ?? "") === filters.gap_band));
-  }, [transitionGeneralOptionSeedRows, transitionDirectOptionSeedRows, directMode, filters.session, filters.gender, filters.exam_body, filters.gap_band, disabilityMode]);
 
   const performanceSessionScopeRows = useMemo(() => {
     return performanceLocationSeedRows
@@ -917,13 +909,6 @@ export default function MinisterDashboardPage({
       .filter((row) => (filters.school ? row.school === filters.school : true));
   }, [performanceLocationSeedRows, filters.zone, filters.state, filters.lga, filters.ward, filters.school]);
 
-  const performanceOptionRows = useMemo(() => {
-    return performanceOptionSeedRows
-      .filter((row) => (filters.session ? row.session === filters.session : true))
-      .filter((row) => (filters.gender ? row.gender === filters.gender : true))
-      .filter((row) => (disabilityMode ? row.disability === "Disabled" : true))
-      .filter((row) => (filters.exam_body ? row.exam_body === filters.exam_body : true));
-  }, [performanceOptionSeedRows, filters.session, filters.gender, filters.exam_body, disabilityMode]);
 
   const transitionScopeRowsForSessions = useMemo(() => {
     return Array.from(new Set(transitionSessionScopeRows.map((row) => row.session).filter(Boolean))).sort();
