@@ -254,12 +254,6 @@ function orderedUnique(values: string[], preferredOrder: readonly string[]): str
 }
 
 
-function normalizeTransitionGapBand(value: string): string {
-  const normalized = value.trim().toLowerCase();
-  if (normalized === "3-5 years" || normalized === "3-5-year") return "3-5-year";
-  if (normalized === "5+ years" || normalized === "5+-year") return "5+-year";
-  return value;
-}
 
 function PlaceholderPage({ title, sections }: { title: string; sections: SectionDef[] }) {
   return (
@@ -416,10 +410,10 @@ export default function MinisterDashboardPage({
   const [policyImpactSeedRows, setPolicyImpactSeedRows] = useState<PolicyImpactSeed[]>([]);
   const [transitionGeneralLocationRows, setTransitionGeneralLocationRows] = useState<TransitionLocationSeed[]>([]);
   const [transitionDirectLocationRows, setTransitionDirectLocationRows] = useState<TransitionLocationSeed[]>([]);
-  const [transitionGeneralOptionSeedRows, setTransitionGeneralOptionSeedRows] = useState<TransitionOptionSeed[]>([]);
-  const [transitionDirectOptionSeedRows, setTransitionDirectOptionSeedRows] = useState<TransitionOptionSeed[]>([]);
+  const [, setTransitionGeneralOptionSeedRows] = useState<TransitionOptionSeed[]>([]);
+  const [, setTransitionDirectOptionSeedRows] = useState<TransitionOptionSeed[]>([]);
   const [performanceLocationSeedRows, setPerformanceLocationSeedRows] = useState<PerformanceLocationSeed[]>([]);
-  const [performanceOptionSeedRows, setPerformanceOptionSeedRows] = useState<PerformanceOptionSeed[]>([]);
+  const [, setPerformanceOptionSeedRows] = useState<PerformanceOptionSeed[]>([]);
   const [teacherSeedsLoaded, setTeacherSeedsLoaded] = useState(false);
   const [accessSeedsLoaded, setAccessSeedsLoaded] = useState(false);
   const [policySeedsLoaded, setPolicySeedsLoaded] = useState(false);
