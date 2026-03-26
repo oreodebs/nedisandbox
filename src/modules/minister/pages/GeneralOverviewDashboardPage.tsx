@@ -8,7 +8,7 @@ import {
   FileCheck, GraduationCap, HelpCircle, Maximize2, Minus, RotateCw, School, Users, X,
 } from "lucide-react";
 import type { DimSession, MinisterFilters } from "../types";
-import { loadCSV } from "../utils/loadCSV";
+import { loadCSV, loadCSVMany, ACCESS_COVERAGE_WARD_FILES, TEACHER_CAPACITY_SCHOOL_FILES, TRANSITION_DIRECT_FILES } from "../utils/loadCSV";
 import { getDataBaseUrl } from "../utils/loadAgg";
 // ─── Row types ────────────────────────────────────────────────────────────────
 type AccessWardRow = {
@@ -2088,10 +2088,17 @@ export default function GeneralOverviewDashboard({
             return await loadCSV<T>(`/data/${p}`);
           }
         };
+        const loadMany = async <T,>(paths: readonly string[]): Promise<T[]> => {
+          try {
+            return await loadCSVMany<T>(paths.map((path) => `${db}/${path}`));
+          } catch {
+            return await loadCSVMany<T>(paths.map((path) => `/data/${path}`));
+          }
+        };
         const [wards, teachers, transitions, policies, loans] = await Promise.all([
-          load<AccessWardRow>("fact_access_coverage_ward.csv").catch(() => []),
-          load<TeacherCapacityRow>("fact_teacher_capacity_school.csv").catch(() => []),
-          load<TransitionDirectRow>("fact_transition_direct.csv").catch(() => []),
+          loadMany<AccessWardRow>(ACCESS_COVERAGE_WARD_FILES).catch(() => []),
+          loadMany<TeacherCapacityRow>(TEACHER_CAPACITY_SCHOOL_FILES).catch(() => []),
+          loadMany<TransitionDirectRow>(TRANSITION_DIRECT_FILES).catch(() => []),
           load<PolicyImpactRow>("fact_policy_impact_tertiary.csv").catch(() => []),
           load<PolicyLoanRow>("fact_policy_impact_loans.csv").catch(() => []),
         ]);

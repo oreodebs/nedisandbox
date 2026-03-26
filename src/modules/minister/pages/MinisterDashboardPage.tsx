@@ -22,7 +22,7 @@ import type {
   SchoolLevelFilter,
   SchoolTypeFilter,
 } from "../types";
-import { loadCSV } from "../utils/loadCSV";
+import { loadCSV, loadCSVMany, ACCESS_COVERAGE_WARD_FILES, PERFORMANCE_SCHOOL_FILES, TEACHER_CAPACITY_SCHOOL_FILES, TRANSITION_GENERAL_FILES, TRANSITION_DIRECT_FILES } from "../utils/loadCSV";
 
 type CategoryKey =
   | "general_overview"
@@ -481,9 +481,9 @@ export default function MinisterDashboardPage({
 
     const loadTeacherSeeds = async () => {
       try {
-        const rows = await loadCSV<TeacherFilterSeed>(`${dataBase}/fact_teacher_capacity_school.csv`).catch(() =>
-          loadCSV<TeacherFilterSeed>(`/data/fact_teacher_capacity_school.csv`),
-        );
+        const rows = await loadCSVMany<TeacherFilterSeed>(
+          TEACHER_CAPACITY_SCHOOL_FILES.map((path) => `${dataBase}/${path}`),
+        ).catch(() => loadCSVMany<TeacherFilterSeed>(TEACHER_CAPACITY_SCHOOL_FILES.map((path) => `/data/${path}`)));
         if (!alive) return;
         setTeacherSeedRows(rows);
         setTeacherSeedsLoaded(true);
@@ -511,8 +511,8 @@ export default function MinisterDashboardPage({
     const loadAccessSeeds = async () => {
       try {
         const [wardRows, almajiriRows] = await Promise.all([
-          loadCSV<AccessCoverageWardSeed>(`${dataBase}/fact_access_coverage_ward.csv`).catch(() =>
-            loadCSV<AccessCoverageWardSeed>(`/data/fact_access_coverage_ward.csv`),
+          loadCSVMany<AccessCoverageWardSeed>(ACCESS_COVERAGE_WARD_FILES.map((path) => `${dataBase}/${path}`)).catch(() =>
+            loadCSVMany<AccessCoverageWardSeed>(ACCESS_COVERAGE_WARD_FILES.map((path) => `/data/${path}`)),
           ),
           loadCSV<AccessCoverageAlmajiriSeed>(`${dataBase}/fact_access_coverage_almajiri_state.csv`).catch(() =>
             loadCSV<AccessCoverageAlmajiriSeed>(`/data/fact_access_coverage_almajiri_state.csv`),
@@ -576,11 +576,11 @@ export default function MinisterDashboardPage({
     const loadTransitionSeeds = async () => {
       try {
         const [generalRows, directRows] = await Promise.all([
-          loadCSV<TransitionFilterSeed>(`${dataBase}/fact_transition_general.csv`).catch(() =>
-            loadCSV<TransitionFilterSeed>(`/data/fact_transition_general.csv`),
+          loadCSVMany<TransitionFilterSeed>(TRANSITION_GENERAL_FILES.map((path) => `${dataBase}/${path}`)).catch(() =>
+            loadCSVMany<TransitionFilterSeed>(TRANSITION_GENERAL_FILES.map((path) => `/data/${path}`)),
           ),
-          loadCSV<TransitionFilterSeed>(`${dataBase}/fact_transition_direct.csv`).catch(() =>
-            loadCSV<TransitionFilterSeed>(`/data/fact_transition_direct.csv`),
+          loadCSVMany<TransitionFilterSeed>(TRANSITION_DIRECT_FILES.map((path) => `${dataBase}/${path}`)).catch(() =>
+            loadCSVMany<TransitionFilterSeed>(TRANSITION_DIRECT_FILES.map((path) => `/data/${path}`)),
           ),
         ]);
         if (!alive) return;
@@ -611,9 +611,9 @@ export default function MinisterDashboardPage({
 
     const loadPerformanceSeeds = async () => {
       try {
-        const rows = await loadCSV<PerformanceFilterSeed>(`${dataBase}/fact_performance_school.csv`).catch(() =>
-          loadCSV<PerformanceFilterSeed>(`/data/fact_performance_school.csv`),
-        );
+        const rows = await loadCSVMany<PerformanceFilterSeed>(
+          PERFORMANCE_SCHOOL_FILES.map((path) => `${dataBase}/${path}`),
+        ).catch(() => loadCSVMany<PerformanceFilterSeed>(PERFORMANCE_SCHOOL_FILES.map((path) => `/data/${path}`)));
         if (!alive) return;
         setPerformanceSeedRows(rows);
         setPerformanceSeedsLoaded(true);

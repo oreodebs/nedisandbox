@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadCSV } from "../utils/loadCSV";
+import { loadCSV, loadCSVMany, PERFORMANCE_SCHOOL_FILES } from "../utils/loadCSV";
 import { getDataBaseUrl } from "../utils/loadAgg";
 
 type PerformanceRow = {
@@ -1212,9 +1212,16 @@ export default function PerformanceDashboard({
             return await loadCSV<T>(`/data/${path}`);
           }
         };
+        const tryLoadMany = async <T,>(paths: readonly string[]): Promise<T[]> => {
+          try {
+            return await loadCSVMany<T>(paths.map((path) => `${dataBase}/${path}`));
+          } catch {
+            return await loadCSVMany<T>(paths.map((path) => `/data/${path}`));
+          }
+        };
 
         const [factRows, benchmarkRows] = await Promise.all([
-          tryLoad<PerformanceRow>("fact_performance_school.csv"),
+          tryLoadMany<PerformanceRow>(PERFORMANCE_SCHOOL_FILES),
           tryLoad<BenchmarkRow>("dim_benchmarks.csv"),
         ]);
 

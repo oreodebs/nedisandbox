@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadCSV } from "../utils/loadCSV";
+import { loadCSV, loadCSVMany, TEACHER_CAPACITY_SCHOOL_FILES } from "../utils/loadCSV";
 
 type TeacherCapacityRow = {
   session: string;
@@ -1700,9 +1700,16 @@ export default function TeacherCapacityDashboard({
             return await loadCSV<T>(`/data/${path}`);
           }
         };
+        const tryLoadMany = async <T,>(paths: readonly string[]): Promise<T[]> => {
+          try {
+            return await loadCSVMany<T>(paths.map((path) => `${dataBase}/${path}`));
+          } catch {
+            return await loadCSVMany<T>(paths.map((path) => `/data/${path}`));
+          }
+        };
 
         const [teacherRows, benchmarkRows] = await Promise.all([
-          tryLoad<TeacherCapacityRow>("fact_teacher_capacity_school.csv"),
+          tryLoadMany<TeacherCapacityRow>(TEACHER_CAPACITY_SCHOOL_FILES),
           tryLoad<TeacherBenchmarkRow>("dim_teacher_capacity_benchmarks.csv"),
         ]);
 

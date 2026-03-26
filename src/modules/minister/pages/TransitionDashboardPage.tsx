@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadCSV } from "../utils/loadCSV";
+import { loadCSV, loadCSVMany, TRANSITION_GENERAL_FILES, TRANSITION_DIRECT_FILES } from "../utils/loadCSV";
 import { getDataBaseUrl } from "../utils/loadAgg";
 
 type TransitionGeneralRow = {
@@ -745,10 +745,17 @@ export default function TransitionDashboard(props: {
             return await loadCSV<T>(`/data/${path}`);
           }
         };
+        const tryLoadMany = async <T,>(paths: readonly string[]): Promise<T[]> => {
+          try {
+            return await loadCSVMany<T>(paths.map((path) => `${dataBase}/${path}`));
+          } catch {
+            return await loadCSVMany<T>(paths.map((path) => `/data/${path}`));
+          }
+        };
 
         const [generalData, directData] = await Promise.all([
-          tryLoad<TransitionGeneralRow>("fact_transition_general.csv"),
-          tryLoad<TransitionDirectRow>("fact_transition_direct.csv"),
+          tryLoadMany<TransitionGeneralRow>(TRANSITION_GENERAL_FILES),
+          tryLoadMany<TransitionDirectRow>(TRANSITION_DIRECT_FILES),
         ]);
 
         if (!mounted) return;

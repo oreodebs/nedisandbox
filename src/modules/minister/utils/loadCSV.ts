@@ -51,3 +51,55 @@ export async function loadCSV<T = unknown>(url: string): Promise<T[]> {
     throw error;
   }
 }
+
+
+export async function loadCSVMany<T = unknown>(urls: string[]): Promise<T[]> {
+  const datasets = await Promise.all(urls.map((url) => loadCSV<T>(url)));
+  return datasets.flat();
+}
+
+export const ACCESS_COVERAGE_WARD_FILES = [
+  "fact_access_coverage_ward.part01.csv",
+  "fact_access_coverage_ward.part02.csv",
+  "fact_access_coverage_ward.part03.csv",
+  "fact_access_coverage_ward.part04.csv",
+  "fact_access_coverage_ward.part05.csv",
+  "fact_access_coverage_ward.part06.csv",
+  "fact_access_coverage_ward.part07.csv",
+  "fact_access_coverage_ward.part08.csv",
+  "fact_access_coverage_ward.part09.csv",
+  "fact_access_coverage_ward.part10.csv",
+  "fact_access_coverage_ward.part11.csv",
+  "fact_access_coverage_ward.part12.csv",
+  "fact_access_coverage_ward.part13.csv",
+  "fact_access_coverage_ward.part14.csv",
+] as const;
+
+export const PERFORMANCE_SCHOOL_FILES = [
+  "fact_performance_school.part01.csv",
+  "fact_performance_school.part02.csv",
+  "fact_performance_school.part03.csv",
+  "fact_performance_school.part04.csv",
+  "fact_performance_school.part05.csv",
+  "fact_performance_school.part06.csv",
+] as const;
+
+export const TEACHER_CAPACITY_SCHOOL_FILES = [
+  "fact_teacher_capacity_school.part01.csv",
+  "fact_teacher_capacity_school.part02.csv",
+  "fact_teacher_capacity_school.part03.csv",
+  "fact_teacher_capacity_school.part04.csv",
+] as const;
+
+export const TRANSITION_GENERAL_FILES = [
+  "fact_transition_general.part01.csv",
+  "fact_transition_general.part02.csv",
+  "fact_transition_general.part03.csv",
+  "fact_transition_general.part04.csv",
+  "fact_transition_general.part05.csv",
+] as const;
+
+export const TRANSITION_DIRECT_FILES = [
+  "fact_transition_direct.part01.csv",
+  "fact_transition_direct.part02.csv",
+] as const;

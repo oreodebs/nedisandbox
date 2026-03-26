@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadCSV } from "../utils/loadCSV";
+import { loadCSV, loadCSVMany, ACCESS_COVERAGE_WARD_FILES } from "../utils/loadCSV";
 
 type AccessWardRow = {
   session: string;
@@ -2240,9 +2240,16 @@ export default function AccessCoverageDashboard({
             return await loadCSV<T>(`/data/${path}`);
           }
         };
+        const tryLoadMany = async <T,>(paths: readonly string[]): Promise<T[]> => {
+          try {
+            return await loadCSVMany<T>(paths.map((path) => `${dataBase}/${path}`));
+          } catch {
+            return await loadCSVMany<T>(paths.map((path) => `/data/${path}`));
+          }
+        };
 
         const [wardData, almajiriData] = await Promise.all([
-          tryLoad<AccessWardRow>("fact_access_coverage_ward.csv"),
+          tryLoadMany<AccessWardRow>(ACCESS_COVERAGE_WARD_FILES),
           tryLoad<AlmajiriRow>("fact_access_coverage_almajiri_state.csv"),
         ]);
 
