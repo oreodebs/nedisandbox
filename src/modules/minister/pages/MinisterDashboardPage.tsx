@@ -1,9 +1,15 @@
-import { Suspense, lazy, useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { ChangeEvent, ReactNode } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Accessibility, ArrowRight, BookOpen, Users } from "lucide-react";
 
 import MinisterLayout from "../../../layouts/MinisterLayout";
+import TransitionDashboard from "./TransitionDashboardPage";
+import PerformanceDashboard from "./PerformanceDashboardPage";
+import TeacherCapacityDashboard from "./TeacherCapacityDashboardPage";
+import AccessCoverageDashboard from "./AccessCoverageDashboardPage";
+import PolicyImpactDashboard from "./PolicyImpactDashboardPage";
+import GeneralOverviewDashboard from "./GeneralOverviewDashboardPage";
 import type {
   DimLga,
   DimSchool,
@@ -17,13 +23,6 @@ import type {
   SchoolTypeFilter,
 } from "../types";
 import { loadCSV, loadCSVMany, ACCESS_COVERAGE_WARD_FILES, PERFORMANCE_SCHOOL_FILES, TEACHER_CAPACITY_SCHOOL_FILES, TRANSITION_GENERAL_FILES, TRANSITION_DIRECT_FILES } from "../utils/loadCSV";
-
-const TransitionDashboard = lazy(() => import("./TransitionDashboardPage"));
-const PerformanceDashboard = lazy(() => import("./PerformanceDashboardPage"));
-const TeacherCapacityDashboard = lazy(() => import("./TeacherCapacityDashboardPage"));
-const AccessCoverageDashboard = lazy(() => import("./AccessCoverageDashboardPage"));
-const PolicyImpactDashboard = lazy(() => import("./PolicyImpactDashboardPage"));
-const GeneralOverviewDashboard = lazy(() => import("./GeneralOverviewDashboardPage"));
 
 type CategoryKey =
   | "general_overview"
@@ -391,6 +390,7 @@ export default function MinisterDashboardPage({
   const isBasicSecondary = category === "basic_secondary";
   const showAccessCoverage = isBasicSecondary && basicSecondaryView === "access_coverage";
   const showTeacherCapacity = isBasicSecondary && basicSecondaryView === "teacher_capacity";
+  const [visitedPages, setVisitedPages] = useState<Record<string, boolean>>({});
 
   const [loadingDims, setLoadingDims] = useState(true);
   const [dataErr, setDataErr] = useState<string | null>(null);
@@ -1070,6 +1070,17 @@ export default function MinisterDashboardPage({
     document.body.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, [category, basicSecondaryView, directMode]);
 
+  useEffect(() => {
+    if (!ready) return;
+
+    const activePageKey = category === "basic_secondary" ? `basic_secondary:${basicSecondaryView}` : category;
+
+    setVisitedPages((current) => {
+      if (current[activePageKey]) return current;
+      return { ...current, [activePageKey]: true };
+    });
+  }, [basicSecondaryView, category, ready]);
+
   const resetFilters = () => {
     const latestSession = dimSessions.length ? dimSessions[dimSessions.length - 1].session_id : "";
     setFilters({
@@ -1401,81 +1412,71 @@ export default function MinisterDashboardPage({
           </div>
         ) : null}
 
-        {ready ? (
-          <Suspense
-            fallback={
-              <div className="mt-6 rounded-xl border border-border bg-card p-10 text-center text-slate-600">
-                Loading dashboard page…
-              </div>
-            }
-          >
-            {category === "transition" ? (
-              <div className="mt-6">
-                <TransitionDashboard
-                  filters={filters}
-                  setFilters={setFilters}
-                  dimSessions={dimSessions}
-                  disabilityMode={disabilityMode}
-                  directMode={directMode}
-                />
-              </div>
-            ) : null}
+        {ready && visitedPages.transition ? (
+          <div className={category === "transition" ? "mt-6" : "hidden"}>
+            <TransitionDashboard
+              filters={filters}
+              setFilters={setFilters}
+              dimSessions={dimSessions}
+              disabilityMode={disabilityMode}
+              directMode={directMode}
+            />
+          </div>
+        ) : null}
 
-            {category === "performance" ? (
-              <div className="mt-6">
-                <PerformanceDashboard
-                  filters={filters}
-                  setFilters={setFilters}
-                  dimSessions={dimSessions}
-                  disabilityMode={disabilityMode}
-                />
-              </div>
-            ) : null}
+        {ready && visitedPages.performance ? (
+          <div className={category === "performance" ? "mt-6" : "hidden"}>
+            <PerformanceDashboard
+              filters={filters}
+              setFilters={setFilters}
+              dimSessions={dimSessions}
+              disabilityMode={disabilityMode}
+            />
+          </div>
+        ) : null}
 
-            {showAccessCoverage ? (
-              <div className="mt-6">
-                <AccessCoverageDashboard
-                  filters={filters}
-                  setFilters={setFilters}
-                  dimSessions={dimSessions}
-                  disabilityMode={disabilityMode}
-                />
-              </div>
-            ) : null}
+        {ready && visitedPages["basic_secondary:access_coverage"] ? (
+          <div className={showAccessCoverage ? "mt-6" : "hidden"}>
+            <AccessCoverageDashboard
+              filters={filters}
+              setFilters={setFilters}
+              dimSessions={dimSessions}
+              disabilityMode={disabilityMode}
+            />
+          </div>
+        ) : null}
 
-            {showTeacherCapacity ? (
-              <div className="mt-6">
-                <TeacherCapacityDashboard
-                  filters={filters}
-                  setFilters={setFilters}
-                  dimSessions={dimSessions}
-                  disabilityMode={disabilityMode}
-                />
-              </div>
-            ) : null}
+        {ready && visitedPages["basic_secondary:teacher_capacity"] ? (
+          <div className={showTeacherCapacity ? "mt-6" : "hidden"}>
+            <TeacherCapacityDashboard
+              filters={filters}
+              setFilters={setFilters}
+              dimSessions={dimSessions}
+              disabilityMode={disabilityMode}
+            />
+          </div>
+        ) : null}
 
-            {category === "policy_impact" ? (
-              <div className="mt-6">
-                <PolicyImpactDashboard
-                  filters={filters}
-                  setFilters={setFilters}
-                  dimSessions={dimSessions}
-                  disabilityMode={disabilityMode}
-                />
-              </div>
-            ) : null}
+        {ready && visitedPages.policy_impact ? (
+          <div className={category === "policy_impact" ? "mt-6" : "hidden"}>
+            <PolicyImpactDashboard
+              filters={filters}
+              setFilters={setFilters}
+              dimSessions={dimSessions}
+              disabilityMode={disabilityMode}
+            />
+          </div>
+        ) : null}
 
-            {category === "general_overview" ? (
-              <div className="mt-6">
-                <GeneralOverviewDashboard
-                  filters={filters}
-                  setFilters={setFilters}
-                  dimSessions={dimSessions}
-                  disabilityMode={disabilityMode}
-                />
-              </div>
-            ) : null}
-          </Suspense>
+        {ready && visitedPages.general_overview ? (
+          <div className={category === "general_overview" ? "mt-6" : "hidden"}>
+            <GeneralOverviewDashboard
+              filters={filters}
+              setFilters={setFilters}
+              dimSessions={dimSessions}
+              disabilityMode={disabilityMode}
+            />
+          </div>
         ) : null}
 
         {ready && category !== "transition" && category !== "performance" && category !== "basic_secondary" && category !== "policy_impact" && category !== "general_overview" ? (
