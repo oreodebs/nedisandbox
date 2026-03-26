@@ -1,0 +1,4 @@
+public/data/fact_access_coverage_ward.csv filter=lfs diff=lfs merge=lfs -text
+public/data/fact_performance_school.csv filter=lfs diff=lfs merge=lfs -text
+public/data/fact_teacher_capacity_school.csv filter=lfs diff=lfs merge=lfs -text
+public/data/fact_transition_general.csv filter=lfs diff=lfs merge=lfs -text

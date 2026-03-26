@@ -1,0 +1,5 @@
+metric_key,label,exam_body,benchmark_pct,source_note
+waec_pass_rate,WAEC Pass Rate,WAEC,72.1,2024 WASSCE national pass-rate benchmark used in dashboard spec
+neco_pass_rate,NECO Pass Rate,NECO,67.4,2024 SSCE External NECO benchmark used in dashboard spec
+nabteb_pass_rate,NABTEB Pass Rate,NABTEB,73.2,2023 in-school NABTEB benchmark used in dashboard spec
+utme_qualifying_rate,UTME Qualifying Rate,UTME,37.5,150/400 equivalent benchmark used in dashboard spec
