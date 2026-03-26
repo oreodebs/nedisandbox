@@ -738,13 +738,6 @@ export default function TransitionDashboard(props: {
         setLoading(true);
         setError(null);
         const dataBase = getDataBaseUrl();
-        const tryLoad = async <T,>(path: string): Promise<T[]> => {
-          try {
-            return await loadCSV<T>(`${dataBase}/${path}`);
-          } catch {
-            return await loadCSV<T>(`/data/${path}`);
-          }
-        };
         const tryLoadMany = async <T,>(paths: readonly string[]): Promise<T[]> => {
           try {
             return await loadCSVMany<T>(paths.map((path) => `${dataBase}/${path}`));
