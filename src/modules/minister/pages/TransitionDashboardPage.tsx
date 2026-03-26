@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadCSV, loadCSVMany, TRANSITION_GENERAL_FILES, TRANSITION_DIRECT_FILES } from "../utils/loadCSV";
+import { loadCSVMany, TRANSITION_GENERAL_FILES, TRANSITION_DIRECT_FILES } from "../utils/loadCSV";
 import { getDataBaseUrl } from "../utils/loadAgg";
 
 type TransitionGeneralRow = {
