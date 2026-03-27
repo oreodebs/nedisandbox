@@ -3,11 +3,11 @@ import { getDataBaseUrl } from './loadAgg';
 
 type AnyRow = Record<string, unknown>;
 
-export function canonicalState(value: string): string {
-  const trimmed = value.trim();
+export function canonicalState(value: unknown): string {
+  const trimmed = typeof value === 'string' ? value.trim() : '';
   if (!trimmed) return '';
   if (/^(Federal Capital Territory|Abuja Federal Capital Territory|Abuja FCT)$/i.test(trimmed)) {
-    return 'Abuja FCT';
+    return 'Abuja Federal Capital Territory';
   }
   return trimmed;
 }

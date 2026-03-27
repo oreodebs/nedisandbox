@@ -201,6 +201,11 @@ function avg(values: number[]): number {
   return values.reduce((sum, value) => sum + value, 0) / values.length;
 }
 
+function avgPositive(values: number[]): number {
+  const positive = values.filter((value) => Number.isFinite(value) && value > 0);
+  return positive.length ? avg(positive) : 0;
+}
+
 function locationLabel(row: BaseRow, level: LocationLevel): string {
   if (level === "zone") return row.zone;
   if (level === "state") return row.state;
@@ -217,7 +222,7 @@ function aggregateRows(rows: BaseRow[]): AggregateMetrics {
     admitted_students: rows.reduce((sum, row) => sum + safeNum(row.admitted_students), 0),
     matriculated_students: rows.reduce((sum, row) => sum + safeNum(row.matriculated_students), 0),
     delayed_transition_students: rows.reduce((sum, row) => sum + safeNum(row.delayed_transition_students), 0),
-    median_time_to_matriculation_years: avg(rows.map((row) => safeNum(row.median_time_to_matriculation_years))),
+    median_time_to_matriculation_years: avgPositive(rows.map((row) => safeNum(row.median_time_to_matriculation_years))),
   };
 }
 
@@ -817,9 +822,22 @@ export default function TransitionDashboard(props: {
   const currentMetrics = useMemo(() => aggregateRows(filteredCurrentRows), [filteredCurrentRows]);
   const previousMetrics = useMemo(() => aggregateRows(filteredPreviousRows), [filteredPreviousRows]);
   const sessionMedianFallback = useMemo(() => {
+    const scopedSessionRows = currentRows.filter((row) => {
+      if (row.session !== filters.session) return false;
+      if (filters.gender && row.gender !== filters.gender) return false;
+      if (disabilityMode && row.disability !== 'Disabled') return false;
+      if (!disabilityMode && row.disability !== 'ALL') return false;
+      if (filters.exam_body && row.exam_body !== filters.exam_body) return false;
+      if (mode === 'general' && filters.gap_band && 'gap_band' in row && row.gap_band !== filters.gap_band) return false;
+      return true;
+    });
+    const scopedMedian = aggregateRows(scopedSessionRows).median_time_to_matriculation_years;
+    if (scopedMedian > 0) return scopedMedian;
     const sessionRows = currentRows.filter((row) => row.session === filters.session);
-    return aggregateRows(sessionRows).median_time_to_matriculation_years;
-  }, [currentRows, filters.session]);
+    const sessionMedian = aggregateRows(sessionRows).median_time_to_matriculation_years;
+    if (sessionMedian > 0) return sessionMedian;
+    return aggregateRows(currentRows).median_time_to_matriculation_years;
+  }, [currentRows, filters.session, filters.gender, filters.exam_body, filters.gap_band, disabilityMode, mode]);
   const lossRows = useMemo(() => buildLossRows(currentMetrics, mode), [currentMetrics, mode]);
 
   const cards = useMemo<MetricCard[]>(() => {
