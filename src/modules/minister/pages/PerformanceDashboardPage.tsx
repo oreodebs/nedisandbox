@@ -1201,7 +1201,7 @@ export default function PerformanceDashboard({
 
     const fetchData = async () => {
       try {
-        setLoading(true);
+        setLoading((prev) => prev && !rows.length);
         setError(null);
         const [factRows, benchmarkRows] = await Promise.all([
           loadRefinedPageRows<PerformanceRow>("performance", filters.state),

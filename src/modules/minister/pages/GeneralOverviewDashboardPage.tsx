@@ -146,7 +146,7 @@ function fmtInt(value: number): string {
 function shortLocationLabel(label: string): string {
   const normalized = label.trim();
   if (!normalized) return label;
-  if (/^abuja\s+federal\s+capital\s+territory$/i.test(normalized)) return "Abuja FCT";
+  if (/^(abuja\s+federal\s+capital\s+territory|federal\s+capital\s+territory|abuja\s+fct)$/i.test(normalized)) return "Abuja FCT";
   return normalized;
 }
 

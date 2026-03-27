@@ -3,12 +3,19 @@ import { getDataBaseUrl } from './loadAgg';
 
 type AnyRow = Record<string, unknown>;
 
+export function canonicalState(value: string): string {
+  const trimmed = value.trim();
+  if (!trimmed) return '';
+  if (/^(Federal Capital Territory|Abuja Federal Capital Territory|Abuja FCT)$/i.test(trimmed)) {
+    return 'Abuja Federal Capital Territory';
+  }
+  return trimmed;
+}
+
 function stateFileCandidates(state: string): string[] {
-  const trimmed = state.trim();
+  const trimmed = canonicalState(state);
   if (!trimmed) return [];
-  const variants = new Set<string>([trimmed]);
-  if (/^Abuja Federal Capital Territory$/i.test(trimmed)) variants.add('Federal Capital Territory');
-  if (/^Federal Capital Territory$/i.test(trimmed)) variants.add('Abuja Federal Capital Territory');
+  const variants = new Set<string>([trimmed, 'Federal Capital Territory', 'Abuja FCT']);
   return Array.from(variants).map((value) =>
     value
       .replace(/[\/]+/g, ' ')
@@ -41,10 +48,7 @@ export function normalizeRefinedRows<T extends AnyRow>(rows: T[]): T[] {
       next.disability_scope = next.disability;
     }
     if (typeof next.state === 'string') {
-      const stateValue = next.state.trim().toLowerCase();
-      if (stateValue === 'federal capital territory' || stateValue === 'abuja federal capital territory' || stateValue === 'abuja fct') {
-        next.state = 'Federal Capital Territory';
-      }
+      next.state = canonicalState(next.state);
     }
     if (next.olevel_exam_body == null && next.exam_body != null) {
       next.olevel_exam_body = next.exam_body;

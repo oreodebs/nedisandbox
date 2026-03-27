@@ -734,7 +734,7 @@ export default function TransitionDashboard(props: {
 
     (async () => {
       try {
-        setLoading(true);
+        setLoading((prev) => prev && !generalRows.length && !directRows.length);
         setError(null);
         const depth = !filters.state ? "top" : filters.school ? "school" : filters.ward ? "school" : filters.lga ? "ward" : "lga";
         const [generalData, directData] = await Promise.all([
@@ -816,6 +816,10 @@ export default function TransitionDashboard(props: {
 
   const currentMetrics = useMemo(() => aggregateRows(filteredCurrentRows), [filteredCurrentRows]);
   const previousMetrics = useMemo(() => aggregateRows(filteredPreviousRows), [filteredPreviousRows]);
+  const sessionMedianFallback = useMemo(() => {
+    const sessionRows = currentRows.filter((row) => row.session === filters.session);
+    return aggregateRows(sessionRows).median_time_to_matriculation_years;
+  }, [currentRows, filters.session]);
   const lossRows = useMemo(() => buildLossRows(currentMetrics, mode), [currentMetrics, mode]);
 
   const cards = useMemo<MetricCard[]>(() => {
@@ -918,15 +922,18 @@ export default function TransitionDashboard(props: {
       {
         label: "Median Time to Matriculation",
           help: "The median number of years between an O-Level result and full tertiary matriculation. A value above 1.0 signals that most learners are not transitioning directly in the same session.",
-        value: currentMetrics.median_time_to_matriculation_years,
-        delta: delta(currentMetrics.median_time_to_matriculation_years, previousMetrics.median_time_to_matriculation_years),
+        value: currentMetrics.median_time_to_matriculation_years > 0 ? currentMetrics.median_time_to_matriculation_years : sessionMedianFallback,
+        delta: delta(
+          currentMetrics.median_time_to_matriculation_years > 0 ? currentMetrics.median_time_to_matriculation_years : sessionMedianFallback,
+          previousMetrics.median_time_to_matriculation_years,
+        ),
         icon: <Clock3 className="h-5 w-5" />,
         accent: COLORS.olevel,
         bg: "#f0fdf4",
         suffix: "yrs",
       },
     ];
-  }, [currentMetrics, previousMetrics, mode]);
+  }, [currentMetrics, previousMetrics, mode, sessionMedianFallback]);
 
 
 const progressionChart = useMemo<ChartBundle>(() => {

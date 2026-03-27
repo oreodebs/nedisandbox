@@ -17,7 +17,7 @@ import type {
   SchoolTypeFilter,
 } from "../types";
 import { loadCSV } from "../utils/loadCSV";
-import { loadRefinedFile } from "../utils/refinedPageData";
+import { canonicalState, loadRefinedFile } from "../utils/refinedPageData";
 
 const TransitionDashboard = lazy(() => import("./TransitionDashboardPage"));
 const PerformanceDashboard = lazy(() => import("./PerformanceDashboardPage"));
@@ -460,12 +460,17 @@ export default function MinisterDashboardPage({
 
         if (!alive) return;
 
+        const normalizedStates = statesRaw.map((row) => ({ ...row, state: canonicalState(row.state) }));
+        const normalizedLgas = lgasRaw.map((row) => ({ ...row, state: canonicalState(row.state) }));
+        const normalizedWards = wardsRaw.map((row) => ({ ...row, state: canonicalState(row.state) }));
+        const normalizedSchools = schoolsRaw.map((row) => ({ ...row, state: canonicalState(row.state) }));
+
         setDimSessions(sessionsRaw);
-        setDimStates(statesRaw);
-        setDimLgas(lgasRaw);
-        setDimWards(wardsRaw);
-        setDimSchools(schoolsRaw);
-        setZones(Array.from(new Set(statesRaw.map((row) => row.zone).filter(Boolean))).sort());
+        setDimStates(normalizedStates);
+        setDimLgas(normalizedLgas);
+        setDimWards(normalizedWards);
+        setDimSchools(normalizedSchools);
+        setZones(Array.from(new Set(normalizedStates.map((row) => row.zone).filter(Boolean))).sort());
 
         const latestSession = sessionsRaw.length ? sessionsRaw[sessionsRaw.length - 1].session_id : "";
         setFilters((prev) => (prev.session ? prev : { ...prev, session: latestSession }));
@@ -488,8 +493,6 @@ export default function MinisterDashboardPage({
     if (!showTeacherCapacity || teacherSeedsLoaded) return;
 
     let alive = true;
-    const baseUrl = (import.meta as { env?: { BASE_URL?: string } }).env?.BASE_URL ?? "/";
-    const dataBase = baseUrl.endsWith("/") ? `${baseUrl}data` : `${baseUrl}/data`;
 
     const loadTeacherSeeds = async () => {
       try {
