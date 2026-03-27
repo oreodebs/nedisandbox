@@ -493,6 +493,8 @@ export default function MinisterDashboardPage({
     if (!showTeacherCapacity || teacherSeedsLoaded) return;
 
     let alive = true;
+    const baseUrl = (import.meta as { env?: { BASE_URL?: string } }).env?.BASE_URL ?? "/";
+    const dataBase = baseUrl.endsWith("/") ? `${baseUrl}data` : `${baseUrl}/data`;
 
     const loadTeacherSeeds = async () => {
       try {

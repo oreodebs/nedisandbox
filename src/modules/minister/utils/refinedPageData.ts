@@ -7,7 +7,7 @@ export function canonicalState(value: string): string {
   const trimmed = value.trim();
   if (!trimmed) return '';
   if (/^(Federal Capital Territory|Abuja Federal Capital Territory|Abuja FCT)$/i.test(trimmed)) {
-    return 'Abuja Federal Capital Territory';
+    return 'Abuja FCT';
   }
   return trimmed;
 }
@@ -15,7 +15,7 @@ export function canonicalState(value: string): string {
 function stateFileCandidates(state: string): string[] {
   const trimmed = canonicalState(state);
   if (!trimmed) return [];
-  const variants = new Set<string>([trimmed, 'Federal Capital Territory', 'Abuja FCT']);
+  const variants = new Set<string>([trimmed, 'Federal Capital Territory', 'Abuja Federal Capital Territory', 'Abuja FCT']);
   return Array.from(variants).map((value) =>
     value
       .replace(/[\/]+/g, ' ')
@@ -77,6 +77,22 @@ export async function loadRefinedStateShardRows<T extends AnyRow>(page: string, 
       return normalizeRefinedRows(rows);
     } catch (error) {
       lastError = error;
+      const partRows: T[] = [];
+      let loadedPart = false;
+      for (let part = 1; part <= 12; part += 1) {
+        try {
+          const rows = await tryLoadPath<T>(`pages/${page}/${level}/${candidate}_part${part}.csv`);
+          if (rows.length) {
+            partRows.push(...rows);
+            loadedPart = true;
+          }
+        } catch {
+          if (loadedPart) break;
+        }
+      }
+      if (loadedPart) {
+        return normalizeRefinedRows(partRows);
+      }
     }
   }
   throw lastError instanceof Error ? lastError : new Error(`Failed to load ${page} ${level} shard for ${state}`);
