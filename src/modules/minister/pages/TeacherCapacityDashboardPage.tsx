@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadCSV, loadCSVMany, TEACHER_CAPACITY_SCHOOL_FILES } from "../utils/loadCSV";
+import { loadRefinedFile, loadRefinedPageRows } from "../utils/refinedPageData";
 
 type TeacherCapacityRow = {
   session: string;
@@ -1691,26 +1691,9 @@ export default function TeacherCapacityDashboard({
         setLoading(true);
         setError(null);
 
-        const baseUrl = (import.meta as { env?: { BASE_URL?: string } }).env?.BASE_URL ?? "/";
-        const dataBase = baseUrl.endsWith("/") ? `${baseUrl}data` : `${baseUrl}/data`;
-        const tryLoad = async <T,>(path: string): Promise<T[]> => {
-          try {
-            return await loadCSV<T>(`${dataBase}/${path}`);
-          } catch {
-            return await loadCSV<T>(`/data/${path}`);
-          }
-        };
-        const tryLoadMany = async <T,>(paths: readonly string[]): Promise<T[]> => {
-          try {
-            return await loadCSVMany<T>(paths.map((path) => `${dataBase}/${path}`));
-          } catch {
-            return await loadCSVMany<T>(paths.map((path) => `/data/${path}`));
-          }
-        };
-
         const [teacherRows, benchmarkRows] = await Promise.all([
-          tryLoadMany<TeacherCapacityRow>(TEACHER_CAPACITY_SCHOOL_FILES),
-          tryLoad<TeacherBenchmarkRow>("dim_teacher_capacity_benchmarks.csv"),
+          loadRefinedPageRows<TeacherCapacityRow>("teacher_capacity", filters.state),
+          loadRefinedFile<TeacherBenchmarkRow>("dimensions/dim_teacher_capacity_benchmarks.csv"),
         ]);
 
         if (!alive) return;
@@ -1728,7 +1711,7 @@ export default function TeacherCapacityDashboard({
     return () => {
       alive = false;
     };
-  }, []);
+  }, [filters.state]);
 
   useEffect(() => {
     if (!expandState) return undefined;
@@ -1951,7 +1934,7 @@ export default function TeacherCapacityDashboard({
 
   const expandedBundle = expandedEntry?.bundle;
 
-  if (loading) {
+  if (loading && !rows.length) {
     return (
       <div className="mt-6 rounded-xl border border-slate-200 bg-white p-10 text-center text-slate-600 shadow-sm">
         Loading Teacher Capacity dashboard…

@@ -8,8 +8,7 @@ import {
   FileCheck, GraduationCap, HelpCircle, Maximize2, Minus, RotateCw, School, Users, X,
 } from "lucide-react";
 import type { DimSession, MinisterFilters } from "../types";
-import { loadCSV, loadCSVMany, ACCESS_COVERAGE_WARD_FILES, TEACHER_CAPACITY_SCHOOL_FILES, TRANSITION_DIRECT_FILES } from "../utils/loadCSV";
-import { getDataBaseUrl } from "../utils/loadAgg";
+import { loadRefinedFile, loadRefinedScopedRows } from "../utils/refinedPageData";
 // ─── Row types ────────────────────────────────────────────────────────────────
 type AccessWardRow = {
   session: string; zone: string; state: string; lga: string; ward: string;
@@ -2080,27 +2079,12 @@ export default function GeneralOverviewDashboard({
     (async () => {
       try {
         setLoading(true);
-        const db = getDataBaseUrl();
-        const load = async <T,>(p: string): Promise<T[]> => {
-          try {
-            return await loadCSV<T>(`${db}/${p}`);
-          } catch {
-            return await loadCSV<T>(`/data/${p}`);
-          }
-        };
-        const loadMany = async <T,>(paths: readonly string[]): Promise<T[]> => {
-          try {
-            return await loadCSVMany<T>(paths.map((path) => `${db}/${path}`));
-          } catch {
-            return await loadCSVMany<T>(paths.map((path) => `/data/${path}`));
-          }
-        };
         const [wards, teachers, transitions, policies, loans] = await Promise.all([
-          loadMany<AccessWardRow>(ACCESS_COVERAGE_WARD_FILES).catch(() => []),
-          loadMany<TeacherCapacityRow>(TEACHER_CAPACITY_SCHOOL_FILES).catch(() => []),
-          loadMany<TransitionDirectRow>(TRANSITION_DIRECT_FILES).catch(() => []),
-          load<PolicyImpactRow>("fact_policy_impact_tertiary.csv").catch(() => []),
-          load<PolicyLoanRow>("fact_policy_impact_loans.csv").catch(() => []),
+          loadRefinedScopedRows<AccessWardRow>("access_coverage", filters.state, !filters.state ? "top" : filters.school ? "school" : filters.ward ? "school" : filters.lga ? "ward" : "lga").catch(() => []),
+          loadRefinedScopedRows<TeacherCapacityRow>("teacher_capacity", filters.state, !filters.state ? "top" : filters.school ? "school" : filters.ward ? "school" : filters.lga ? "ward" : "lga").catch(() => []),
+          loadRefinedScopedRows<TransitionDirectRow>("transition_direct", filters.state, !filters.state ? "top" : filters.school ? "school" : filters.ward ? "school" : filters.lga ? "ward" : "lga").catch(() => []),
+          loadRefinedFile<PolicyImpactRow>("pages/policy_impact/policy_programme.csv").catch(() => []),
+          loadRefinedFile<PolicyLoanRow>("pages/policy_impact/policy_loans_programme.csv").catch(() => []),
         ]);
         if (!alive) return;
         setWardRows(wards);
@@ -2116,7 +2100,7 @@ export default function GeneralOverviewDashboard({
       }
     })();
     return () => { alive = false; };
-  }, []);
+  }, [filters.state]);
 
   // ── Filtered rows ────────────────────────────────────────────────────────────
   const currentRows = useMemo(() => wardRows.filter(r => {
@@ -2556,7 +2540,7 @@ setDropoffDrill({}); setIqsDrill({});
   }, [iqsRows, iqsDrill, filters.state]);
 
   // ── Render ───────────────────────────────────────────────────────────────────
-  if (loading) return <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center text-slate-500">Loading General Overview…</div>;
+  if (loading && !wardRows.length && !teacherRows.length && !transitionRows.length && !policyRows.length && !loanRows.length) return <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center text-slate-500">Loading General Overview…</div>;
   if (dataErr) return <div className="rounded-2xl border border-rose-200 bg-rose-50 p-10 text-center text-rose-700">{dataErr}</div>;
 
   return (

@@ -19,8 +19,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadCSV, loadCSVMany, PERFORMANCE_SCHOOL_FILES } from "../utils/loadCSV";
-import { getDataBaseUrl } from "../utils/loadAgg";
+import { loadRefinedFile, loadRefinedPageRows } from "../utils/refinedPageData";
 
 type PerformanceRow = {
   session: string;
@@ -1204,25 +1203,9 @@ export default function PerformanceDashboard({
       try {
         setLoading(true);
         setError(null);
-        const dataBase = getDataBaseUrl();
-        const tryLoad = async <T,>(path: string): Promise<T[]> => {
-          try {
-            return await loadCSV<T>(`${dataBase}/${path}`);
-          } catch {
-            return await loadCSV<T>(`/data/${path}`);
-          }
-        };
-        const tryLoadMany = async <T,>(paths: readonly string[]): Promise<T[]> => {
-          try {
-            return await loadCSVMany<T>(paths.map((path) => `${dataBase}/${path}`));
-          } catch {
-            return await loadCSVMany<T>(paths.map((path) => `/data/${path}`));
-          }
-        };
-
         const [factRows, benchmarkRows] = await Promise.all([
-          tryLoadMany<PerformanceRow>(PERFORMANCE_SCHOOL_FILES),
-          tryLoad<BenchmarkRow>("dim_benchmarks.csv"),
+          loadRefinedPageRows<PerformanceRow>("performance", filters.state),
+          loadRefinedFile<BenchmarkRow>("dimensions/dim_benchmarks.csv"),
         ]);
 
         if (!mounted) return;
@@ -1243,7 +1226,7 @@ export default function PerformanceDashboard({
     return () => {
       mounted = false;
     };
-  }, [dimSessions]);
+  }, [dimSessions, filters.state]);
 
   useEffect(() => {
     if (!expandState) return undefined;
@@ -1498,7 +1481,7 @@ export default function PerformanceDashboard({
   const expandedEntry = getExpandedChartEntry();
   const expandedBundle = useMemo(() => cloneChartBundle(expandedEntry.bundle), [expandedEntry.bundle]);
 
-  if (loading) {
+  if (loading && !rows.length) {
     return <div className="rounded-xl border border-border bg-card p-10 text-center text-slate-600">Loading performance dashboard…</div>;
   }
 

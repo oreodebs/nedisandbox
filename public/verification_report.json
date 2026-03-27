@@ -1,0 +1,55 @@
+{
+  "bundle_type": "final rewritten csv bundle",
+  "notes": [
+    "Each page has ready base and/or rollup prepared files instead of the original raw split fact files.",
+    "Rollup files contain precomputed totals and derived rates or ratios for zone/state/lga/ward levels.",
+    "Access school rows were allocated from ward rows by splitting across listed schools so school totals roll back up to ward totals.",
+    "Transition all-scope follows the current app logic using disability=ALL rows; disabled-scope uses disability=Disabled rows."
+  ],
+  "pages": {
+    "access_coverage": {
+      "filters.csv": 46045224,
+      "filter_schools.csv": 480316,
+      "access_rollup.csv": 60721912,
+      "access_school.csv": 75216518,
+      "access_almajiri_state.csv": 18079,
+      "access_kpi_summary.csv": 745
+    },
+    "teacher_capacity": {
+      "filters.csv": 50176687,
+      "teacher_school.csv": 114391148,
+      "teacher_rollup.csv": 132960194,
+      "teacher_kpi_summary.csv": 485
+    },
+    "performance": {
+      "filters.csv": 47492027,
+      "performance_school.csv": 127755651,
+      "performance_rollup.csv": 13185087,
+      "performance_kpi_summary.csv": 2489
+    },
+    "transition_general": {
+      "filters.csv": 39926734,
+      "transition_general_school.csv": 102347480,
+      "transition_general_rollup.csv": 75161034,
+      "transition_general_kpi_summary.csv": 11799
+    },
+    "transition_direct": {
+      "filters.csv": 11503030,
+      "transition_direct_school.csv": 28335108,
+      "transition_direct_rollup.csv": 18123688,
+      "transition_direct_kpi_summary.csv": 3389
+    },
+    "policy_impact": {
+      "filters.csv": 5011539,
+      "policy_programme.csv": 10453688,
+      "policy_rollup.csv": 19009288,
+      "policy_loans_programme.csv": 6744526,
+      "policy_loans_rollup.csv": 12573797,
+      "policy_kpi_summary.csv": 437,
+      "policy_loans_kpi_summary.csv": 288
+    },
+    "general_overview": {
+      "general_overview_sources.csv": 740
+    }
+  }
+}

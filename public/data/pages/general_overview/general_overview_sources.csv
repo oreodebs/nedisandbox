@@ -1,0 +1,8 @@
+source_page,base_file,rollup_file
+access_coverage,../access_coverage/access_school.csv,../access_coverage/access_rollup.csv
+teacher_capacity,../teacher_capacity/teacher_school.csv,../teacher_capacity/teacher_rollup.csv
+performance,../performance/performance_school.csv,../performance/performance_rollup.csv
+transition_general,../transition_general/transition_general_school.csv,../transition_general/transition_general_rollup.csv
+transition_direct,../transition_direct/transition_direct_school.csv,../transition_direct/transition_direct_rollup.csv
+policy_impact,../policy_impact/policy_programme.csv,../policy_impact/policy_rollup.csv
+policy_impact_loans,../policy_impact/policy_loans_programme.csv,../policy_impact/policy_loans_rollup.csv

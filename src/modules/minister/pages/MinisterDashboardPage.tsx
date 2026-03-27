@@ -17,6 +17,7 @@ import type {
   SchoolTypeFilter,
 } from "../types";
 import { loadCSV } from "../utils/loadCSV";
+import { loadRefinedFile } from "../utils/refinedPageData";
 
 const TransitionDashboard = lazy(() => import("./TransitionDashboardPage"));
 const PerformanceDashboard = lazy(() => import("./PerformanceDashboardPage"));
@@ -109,15 +110,6 @@ type PerformanceFilterSeed = {
   exam_body: string;
 };
 
-type AccessCoverageLocationSeed = Pick<AccessCoverageWardSeed, "session" | "zone" | "state" | "lga" | "ward" | "school">;
-type AccessCoverageAttrSeed = Pick<AccessCoverageWardSeed, "session" | "zone" | "state" | "lga" | "ward" | "school_type" | "school_level" | "class_grade">;
-type TeacherLocationSeed = Pick<TeacherFilterSeed, "session" | "zone" | "state" | "lga" | "ward" | "school">;
-type TeacherAttrSeed = Pick<TeacherFilterSeed, "session" | "zone" | "state" | "lga" | "ward" | "school" | "school_type" | "school_level" | "class_grade" | "qualification_status">;
-type TransitionLocationSeed = Pick<TransitionFilterSeed, "session" | "zone" | "state" | "lga" | "ward" | "school">;
-type TransitionOptionSeed = Pick<TransitionFilterSeed, "session" | "gender" | "disability" | "exam_body" | "gap_band">;
-type PerformanceLocationSeed = Pick<PerformanceFilterSeed, "session" | "zone" | "state" | "lga" | "ward" | "school">;
-type PerformanceOptionSeed = Pick<PerformanceFilterSeed, "session" | "gender" | "disability" | "exam_body">;
-
 const GAP_BANDS: Array<MinisterFilters["gap_band"]> = ["1-year", "2-year", "3-5-year", "5+-year"];
 const EXAM_BODIES: Array<MinisterFilters["exam_body"]> = ["WAEC", "NECO", "NABTEB"];
 const TEACHER_QUALIFICATION_OPTIONS: QualificationStatusFilter[] = ["Qualified", "Unqualified"];
@@ -199,15 +191,18 @@ const GENERAL_OVERVIEW_SECTIONS: SectionDef[] = [
 ];
 
 const SCHOOL_TYPE_FILTER_ORDER = ["Public", "Private"] as const;
-const SCHOOL_LEVEL_FILTER_ORDER = ["Pre-Primary/Primary", "JSS", "SSS"] as const;
+const SCHOOL_LEVEL_FILTER_ORDER = ["Pre-Primary/Primary", "JSS", "SSS", "Adult & Non-Formal"] as const;
 const ACCESS_SCHOOL_TYPE_FILTER_ORDER = ["Public", "Private"] as const;
-const ACCESS_SCHOOL_LEVEL_FILTER_ORDER = ["Pre-Primary/Primary", "JSS", "SSS"] as const;
+const ACCESS_SCHOOL_LEVEL_FILTER_ORDER = ["Pre-Primary/Primary", "JSS", "SSS", "Adult & Non-Formal", "Vocational"] as const;
 
 // Display label overrides for school level values from CSV
 const SCHOOL_LEVEL_DISPLAY: Record<string, string> = {
   "Pre-Primary/Primary": "Pre/Primary",
 };
 const ACCESS_CLASS_GRADE_FILTER_ORDER = [
+  "IQS/IQTS Stage 1",
+  "IQS/IQTS Stage 2",
+  "IQS/IQTS Stage 3",
   "Primary 1",
   "Primary 2",
   "Primary 3",
@@ -254,6 +249,12 @@ function orderedUnique(values: string[], preferredOrder: readonly string[]): str
 }
 
 
+function normalizeTransitionGapBand(value: string): string {
+  const normalized = value.trim().toLowerCase();
+  if (normalized === "3-5 years" || normalized === "3-5-year") return "3-5-year";
+  if (normalized === "5+ years" || normalized === "5+-year") return "5+-year";
+  return value;
+}
 
 function PlaceholderPage({ title, sections }: { title: string; sections: SectionDef[] }) {
   return (
@@ -402,18 +403,13 @@ export default function MinisterDashboardPage({
   const [dimLgas, setDimLgas] = useState<DimLga[]>([]);
   const [dimWards, setDimWards] = useState<DimWard[]>([]);
   const [dimSchools, setDimSchools] = useState<DimSchool[]>([]);
-  const [, setTeacherLocationSeedRows] = useState<TeacherLocationSeed[]>([]);
-  const [teacherAttrSeedRows, setTeacherAttrSeedRows] = useState<TeacherAttrSeed[]>([]);
-  const [accessLocationSeedRows, setAccessLocationSeedRows] = useState<AccessCoverageLocationSeed[]>([]);
-  const [accessAttrSeedRows, setAccessAttrSeedRows] = useState<AccessCoverageAttrSeed[]>([]);
+  const [teacherSeedRows, setTeacherSeedRows] = useState<TeacherFilterSeed[]>([]);
+  const [accessWardSeedRows, setAccessWardSeedRows] = useState<AccessCoverageWardSeed[]>([]);
   const [accessAlmajiriSeedRows, setAccessAlmajiriSeedRows] = useState<AccessCoverageAlmajiriSeed[]>([]);
   const [policyImpactSeedRows, setPolicyImpactSeedRows] = useState<PolicyImpactSeed[]>([]);
-  const [transitionGeneralLocationRows, setTransitionGeneralLocationRows] = useState<TransitionLocationSeed[]>([]);
-  const [transitionDirectLocationRows, setTransitionDirectLocationRows] = useState<TransitionLocationSeed[]>([]);
-  const [, setTransitionGeneralOptionSeedRows] = useState<TransitionOptionSeed[]>([]);
-  const [, setTransitionDirectOptionSeedRows] = useState<TransitionOptionSeed[]>([]);
-  const [performanceLocationSeedRows, setPerformanceLocationSeedRows] = useState<PerformanceLocationSeed[]>([]);
-  const [, setPerformanceOptionSeedRows] = useState<PerformanceOptionSeed[]>([]);
+  const [transitionGeneralSeedRows, setTransitionGeneralSeedRows] = useState<TransitionFilterSeed[]>([]);
+  const [transitionDirectSeedRows, setTransitionDirectSeedRows] = useState<TransitionFilterSeed[]>([]);
+  const [performanceSeedRows, setPerformanceSeedRows] = useState<PerformanceFilterSeed[]>([]);
   const [teacherSeedsLoaded, setTeacherSeedsLoaded] = useState(false);
   const [accessSeedsLoaded, setAccessSeedsLoaded] = useState(false);
   const [policySeedsLoaded, setPolicySeedsLoaded] = useState(false);
@@ -442,7 +438,15 @@ export default function MinisterDashboardPage({
           try {
             return await loadCSV<T>(`${dataBase}/${path}`);
           } catch {
-            return await loadCSV<T>(`/data/${path}`);
+            try {
+              return await loadCSV<T>(`/data/${path}`);
+            } catch {
+              try {
+                return await loadCSV<T>(`${dataBase}/dimensions/${path}`);
+              } catch {
+                return await loadCSV<T>(`/data/dimensions/${path}`);
+              }
+            }
           }
         };
 
@@ -489,22 +493,13 @@ export default function MinisterDashboardPage({
 
     const loadTeacherSeeds = async () => {
       try {
-        const [locationRows, attrRows] = await Promise.all([
-          loadCSV<TeacherLocationSeed>(`${dataBase}/fact_teacher_filter_locations.csv`).catch(() =>
-            loadCSV<TeacherLocationSeed>(`/data/fact_teacher_filter_locations.csv`),
-          ),
-          loadCSV<TeacherAttrSeed>(`${dataBase}/fact_teacher_filter_attrs.csv`).catch(() =>
-            loadCSV<TeacherAttrSeed>(`/data/fact_teacher_filter_attrs.csv`),
-          ),
-        ]);
+        const rows = await loadRefinedFile<TeacherFilterSeed>("pages/teacher_capacity/top_rollup.csv");
         if (!alive) return;
-        setTeacherLocationSeedRows(locationRows);
-        setTeacherAttrSeedRows(attrRows);
+        setTeacherSeedRows(rows);
         setTeacherSeedsLoaded(true);
       } catch {
         if (!alive) return;
-        setTeacherLocationSeedRows([]);
-        setTeacherAttrSeedRows([]);
+        setTeacherSeedRows([]);
         setTeacherSeedsLoaded(true);
       }
     };
@@ -520,31 +515,19 @@ export default function MinisterDashboardPage({
     if (!showAccessCoverage || accessSeedsLoaded) return;
 
     let alive = true;
-    const baseUrl = (import.meta as { env?: { BASE_URL?: string } }).env?.BASE_URL ?? "/";
-    const dataBase = baseUrl.endsWith("/") ? `${baseUrl}data` : `${baseUrl}/data`;
-
     const loadAccessSeeds = async () => {
       try {
-        const [locationRows, attrRows, almajiriRows] = await Promise.all([
-          loadCSV<AccessCoverageLocationSeed>(`${dataBase}/fact_access_filter_locations.csv`).catch(() =>
-            loadCSV<AccessCoverageLocationSeed>(`/data/fact_access_filter_locations.csv`),
-          ),
-          loadCSV<AccessCoverageAttrSeed>(`${dataBase}/fact_access_filter_attrs.csv`).catch(() =>
-            loadCSV<AccessCoverageAttrSeed>(`/data/fact_access_filter_attrs.csv`),
-          ),
-          loadCSV<AccessCoverageAlmajiriSeed>(`${dataBase}/fact_access_coverage_almajiri_state.csv`).catch(() =>
-            loadCSV<AccessCoverageAlmajiriSeed>(`/data/fact_access_coverage_almajiri_state.csv`),
-          ),
+        const [wardRows, almajiriRows] = await Promise.all([
+          loadRefinedFile<AccessCoverageWardSeed>("pages/access_coverage/top_rollup.csv"),
+          loadRefinedFile<AccessCoverageAlmajiriSeed>("pages/access_coverage/access_almajiri_state.csv"),
         ]);
         if (!alive) return;
-        setAccessLocationSeedRows(locationRows);
-        setAccessAttrSeedRows(attrRows);
+        setAccessWardSeedRows(wardRows);
         setAccessAlmajiriSeedRows(almajiriRows);
         setAccessSeedsLoaded(true);
       } catch {
         if (!alive) return;
-        setAccessLocationSeedRows([]);
-        setAccessAttrSeedRows([]);
+        setAccessWardSeedRows([]);
         setAccessAlmajiriSeedRows([]);
         setAccessSeedsLoaded(true);
       }
@@ -561,14 +544,9 @@ export default function MinisterDashboardPage({
     if (category !== "policy_impact" || policySeedsLoaded) return;
 
     let alive = true;
-    const baseUrl = (import.meta as { env?: { BASE_URL?: string } }).env?.BASE_URL ?? "/";
-    const dataBase = baseUrl.endsWith("/") ? `${baseUrl}data` : `${baseUrl}/data`;
-
     const loadPolicySeeds = async () => {
       try {
-        const rows = await loadCSV<PolicyImpactSeed>(`${dataBase}/fact_policy_impact_filter_seed.csv`).catch(() =>
-          loadCSV<PolicyImpactSeed>(`/data/fact_policy_impact_filter_seed.csv`),
-        );
+        const rows = await loadRefinedFile<PolicyImpactSeed>("pages/policy_impact/policy_programme.csv");
         if (!alive) return;
         setPolicyImpactSeedRows(rows);
         setPolicySeedsLoaded(true);
@@ -590,37 +568,20 @@ export default function MinisterDashboardPage({
     if (category !== "transition" || transitionSeedsLoaded) return;
 
     let alive = true;
-    const baseUrl = (import.meta as { env?: { BASE_URL?: string } }).env?.BASE_URL ?? "/";
-    const dataBase = baseUrl.endsWith("/") ? `${baseUrl}data` : `${baseUrl}/data`;
-
     const loadTransitionSeeds = async () => {
       try {
-        const [generalLocationRows, generalOptionRows, directLocationRows, directOptionRows] = await Promise.all([
-          loadCSV<TransitionLocationSeed>(`${dataBase}/fact_transition_general_filter_locations.csv`).catch(() =>
-            loadCSV<TransitionLocationSeed>(`/data/fact_transition_general_filter_locations.csv`),
-          ),
-          loadCSV<TransitionOptionSeed>(`${dataBase}/fact_transition_general_filter_options.csv`).catch(() =>
-            loadCSV<TransitionOptionSeed>(`/data/fact_transition_general_filter_options.csv`),
-          ),
-          loadCSV<TransitionLocationSeed>(`${dataBase}/fact_transition_direct_filter_locations.csv`).catch(() =>
-            loadCSV<TransitionLocationSeed>(`/data/fact_transition_direct_filter_locations.csv`),
-          ),
-          loadCSV<TransitionOptionSeed>(`${dataBase}/fact_transition_direct_filter_options.csv`).catch(() =>
-            loadCSV<TransitionOptionSeed>(`/data/fact_transition_direct_filter_options.csv`),
-          ),
+        const [generalRows, directRows] = await Promise.all([
+          loadRefinedFile<TransitionFilterSeed>("pages/transition_general/top_rollup.csv"),
+          loadRefinedFile<TransitionFilterSeed>("pages/transition_direct/top_rollup.csv"),
         ]);
         if (!alive) return;
-        setTransitionGeneralLocationRows(generalLocationRows);
-        setTransitionGeneralOptionSeedRows(generalOptionRows);
-        setTransitionDirectLocationRows(directLocationRows);
-        setTransitionDirectOptionSeedRows(directOptionRows);
+        setTransitionGeneralSeedRows(generalRows);
+        setTransitionDirectSeedRows(directRows);
         setTransitionSeedsLoaded(true);
       } catch {
         if (!alive) return;
-        setTransitionGeneralLocationRows([]);
-        setTransitionGeneralOptionSeedRows([]);
-        setTransitionDirectLocationRows([]);
-        setTransitionDirectOptionSeedRows([]);
+        setTransitionGeneralSeedRows([]);
+        setTransitionDirectSeedRows([]);
         setTransitionSeedsLoaded(true);
       }
     };
@@ -636,27 +597,15 @@ export default function MinisterDashboardPage({
     if (category !== "performance" || performanceSeedsLoaded) return;
 
     let alive = true;
-    const baseUrl = (import.meta as { env?: { BASE_URL?: string } }).env?.BASE_URL ?? "/";
-    const dataBase = baseUrl.endsWith("/") ? `${baseUrl}data` : `${baseUrl}/data`;
-
     const loadPerformanceSeeds = async () => {
       try {
-        const [locationRows, optionRows] = await Promise.all([
-          loadCSV<PerformanceLocationSeed>(`${dataBase}/fact_performance_filter_locations.csv`).catch(() =>
-            loadCSV<PerformanceLocationSeed>(`/data/fact_performance_filter_locations.csv`),
-          ),
-          loadCSV<PerformanceOptionSeed>(`${dataBase}/fact_performance_filter_options.csv`).catch(() =>
-            loadCSV<PerformanceOptionSeed>(`/data/fact_performance_filter_options.csv`),
-          ),
-        ]);
+        const rows = await loadRefinedFile<PerformanceFilterSeed>("pages/performance/top_rollup.csv");
         if (!alive) return;
-        setPerformanceLocationSeedRows(locationRows);
-        setPerformanceOptionSeedRows(optionRows);
+        setPerformanceSeedRows(rows);
         setPerformanceSeedsLoaded(true);
       } catch {
         if (!alive) return;
-        setPerformanceLocationSeedRows([]);
-        setPerformanceOptionSeedRows([]);
+        setPerformanceSeedRows([]);
         setPerformanceSeedsLoaded(true);
       }
     };
@@ -669,13 +618,22 @@ export default function MinisterDashboardPage({
   }, [category, performanceSeedsLoaded]);
 
   const accessScopedRows = useMemo(() => {
-    return accessAttrSeedRows
+    return accessWardSeedRows
       .filter((row) => (filters.session ? row.session === filters.session : true))
       .filter((row) => (filters.zone ? row.zone === filters.zone : true))
       .filter((row) => (filters.state ? row.state === filters.state : true))
       .filter((row) => (filters.lga ? row.lga === filters.lga : true))
-      .filter((row) => (filters.ward ? row.ward === filters.ward : true));
-  }, [accessAttrSeedRows, filters.session, filters.zone, filters.state, filters.lga, filters.ward]);
+      .filter((row) => (filters.ward ? row.ward === filters.ward : true))
+      .filter((row) =>
+        filters.school
+          ? row.school
+              .split(" | ")
+              .map((value) => value.trim())
+              .filter(Boolean)
+              .includes(filters.school)
+          : true,
+      );
+  }, [accessWardSeedRows, filters.session, filters.zone, filters.state, filters.lga, filters.ward, filters.school]);
 
 
 
@@ -706,7 +664,7 @@ export default function MinisterDashboardPage({
     ).sort();
   }, [policyImpactSeedRows, filters.zone, filters.state, filters.lga]);
   const accessScopeRowsForSessions = useMemo(() => {
-    const wardSessions = accessLocationSeedRows
+    const wardSessions = accessWardSeedRows
       .filter((row) => (filters.zone ? row.zone === filters.zone : true))
       .filter((row) => (filters.state ? row.state === filters.state : true))
       .filter((row) => (filters.lga ? row.lga === filters.lga : true))
@@ -719,11 +677,11 @@ export default function MinisterDashboardPage({
       .map((row) => row.session);
 
     return Array.from(new Set([...wardSessions, ...almajiriSessions].filter(Boolean))).sort();
-  }, [accessLocationSeedRows, accessAlmajiriSeedRows, filters.zone, filters.state, filters.lga, filters.ward]);
+  }, [accessWardSeedRows, accessAlmajiriSeedRows, filters.zone, filters.state, filters.lga, filters.ward]);
 
   useEffect(() => {
     if (showAccessCoverage) {
-      const wardStates = accessLocationSeedRows
+      const wardStates = accessWardSeedRows
         .filter((row) => (filters.session ? row.session === filters.session : true))
         .filter((row) => (filters.zone ? row.zone === filters.zone : true))
         .map((row) => row.state);
@@ -739,11 +697,11 @@ export default function MinisterDashboardPage({
       .filter((row) => (filters.zone ? row.zone === filters.zone : true))
       .map((row) => row.state);
     setStates(Array.from(new Set(nextStates)).sort());
-  }, [category, dimStates, accessLocationSeedRows, accessAlmajiriSeedRows, filters.session, filters.zone]);
+  }, [category, dimStates, accessWardSeedRows, accessAlmajiriSeedRows, filters.session, filters.zone]);
 
   useEffect(() => {
     if (showAccessCoverage) {
-      const nextLgas = accessLocationSeedRows
+      const nextLgas = accessWardSeedRows
         .filter((row) => (filters.session ? row.session === filters.session : true))
         .filter((row) => (filters.zone ? row.zone === filters.zone : true))
         .filter((row) => (filters.state ? row.state === filters.state : true))
@@ -757,11 +715,11 @@ export default function MinisterDashboardPage({
       .filter((row) => (filters.state ? row.state === filters.state : true))
       .map((row) => row.lga);
     setLgas(Array.from(new Set(nextLgas)).sort());
-  }, [category, dimLgas, accessLocationSeedRows, filters.session, filters.zone, filters.state]);
+  }, [category, dimLgas, accessWardSeedRows, filters.session, filters.zone, filters.state]);
 
   useEffect(() => {
     if (showAccessCoverage) {
-      const nextWards = accessLocationSeedRows
+      const nextWards = accessWardSeedRows
         .filter((row) => (filters.session ? row.session === filters.session : true))
         .filter((row) => (filters.zone ? row.zone === filters.zone : true))
         .filter((row) => (filters.state ? row.state === filters.state : true))
@@ -777,19 +735,19 @@ export default function MinisterDashboardPage({
       .filter((row) => (filters.lga ? row.lga === filters.lga : true))
       .map((row) => row.ward);
     setWards(Array.from(new Set(nextWards)).sort());
-  }, [category, dimWards, accessLocationSeedRows, filters.session, filters.zone, filters.state, filters.lga]);
+  }, [category, dimWards, accessWardSeedRows, filters.session, filters.zone, filters.state, filters.lga]);
 
   useEffect(() => {
     if (showAccessCoverage) {
       const nextSchools = Array.from(
         new Set(
-          accessLocationSeedRows
+          accessWardSeedRows
             .filter((row) => (filters.session ? row.session === filters.session : true))
             .filter((row) => (filters.zone ? row.zone === filters.zone : true))
             .filter((row) => (filters.state ? row.state === filters.state : true))
             .filter((row) => (filters.lga ? row.lga === filters.lga : true))
             .filter((row) => (filters.ward ? row.ward === filters.ward : true))
-            .flatMap((row) => row.school.split(" | ").map((value) => value.trim()))
+            .flatMap((row) => String(row.school ?? "").split(" | ").map((value) => value.trim()))
             .filter(Boolean),
         ),
       ).sort();
@@ -804,17 +762,17 @@ export default function MinisterDashboardPage({
       .filter((row) => (filters.ward ? row.ward === filters.ward : true))
       .map((row) => row.school);
     setSchools(Array.from(new Set(nextSchools)).sort());
-  }, [category, dimSchools, accessLocationSeedRows, filters.session, filters.zone, filters.state, filters.lga, filters.ward]);
+  }, [category, dimSchools, accessWardSeedRows, filters.session, filters.zone, filters.state, filters.lga, filters.ward]);
 
   const scopedTeacherSeedRows = useMemo(() => {
-    return teacherAttrSeedRows
+    return teacherSeedRows
       .filter((row) => (filters.session ? row.session === filters.session : true))
       .filter((row) => (filters.zone ? row.zone === filters.zone : true))
       .filter((row) => (filters.state ? row.state === filters.state : true))
       .filter((row) => (filters.lga ? row.lga === filters.lga : true))
       .filter((row) => (filters.ward ? row.ward === filters.ward : true))
       .filter((row) => (filters.school ? row.school === filters.school : true));
-  }, [teacherAttrSeedRows, filters.session, filters.zone, filters.state, filters.lga, filters.ward, filters.school]);
+  }, [teacherSeedRows, filters.session, filters.zone, filters.state, filters.lga, filters.ward, filters.school]);
 
   useEffect(() => {
     if (showAccessCoverage) {
@@ -885,24 +843,48 @@ export default function MinisterDashboardPage({
 
 
   const transitionSessionScopeRows = useMemo(() => {
-    return (directMode ? transitionDirectLocationRows : transitionGeneralLocationRows)
+    const rows = directMode ? transitionDirectSeedRows : transitionGeneralSeedRows;
+    return rows
       .filter((row) => (filters.zone ? row.zone === filters.zone : true))
       .filter((row) => (filters.state ? row.state === filters.state : true))
       .filter((row) => (filters.lga ? row.lga === filters.lga : true))
       .filter((row) => (filters.ward ? row.ward === filters.ward : true))
-      .filter((row) => (filters.school ? row.school === filters.school : true));
-  }, [transitionGeneralLocationRows, transitionDirectLocationRows, directMode, filters.zone, filters.state, filters.lga, filters.ward, filters.school]);
+      .filter((row) => (filters.school ? row.school === filters.school : true))
+      .filter((row) => (filters.gender ? row.gender === filters.gender : true))
+      .filter((row) => (disabilityMode ? row.disability === "Disabled" : row.disability === "ALL"))
+      .filter((row) => (filters.exam_body ? row.exam_body === filters.exam_body : true))
+      .filter((row) => (directMode || !filters.gap_band ? true : normalizeTransitionGapBand(row.gap_band ?? "") === filters.gap_band));
+  }, [transitionGeneralSeedRows, transitionDirectSeedRows, directMode, filters.zone, filters.state, filters.lga, filters.ward, filters.school, filters.gender, filters.exam_body, filters.gap_band, disabilityMode]);
 
+  const transitionOptionRows = useMemo(() => {
+    const rows = directMode ? transitionDirectSeedRows : transitionGeneralSeedRows;
+    return rows
+      .filter((row) => (filters.session ? row.session === filters.session : true))
+      .filter((row) => (filters.gender ? row.gender === filters.gender : true))
+      .filter((row) => (disabilityMode ? row.disability === "Disabled" : row.disability === "ALL"))
+      .filter((row) => (filters.exam_body ? row.exam_body === filters.exam_body : true))
+      .filter((row) => (directMode || !filters.gap_band ? true : normalizeTransitionGapBand(row.gap_band ?? "") === filters.gap_band));
+  }, [transitionGeneralSeedRows, transitionDirectSeedRows, directMode, filters.session, filters.gender, filters.exam_body, filters.gap_band, disabilityMode]);
 
   const performanceSessionScopeRows = useMemo(() => {
-    return performanceLocationSeedRows
+    return performanceSeedRows
       .filter((row) => (filters.zone ? row.zone === filters.zone : true))
       .filter((row) => (filters.state ? row.state === filters.state : true))
       .filter((row) => (filters.lga ? row.lga === filters.lga : true))
       .filter((row) => (filters.ward ? row.ward === filters.ward : true))
-      .filter((row) => (filters.school ? row.school === filters.school : true));
-  }, [performanceLocationSeedRows, filters.zone, filters.state, filters.lga, filters.ward, filters.school]);
+      .filter((row) => (filters.school ? row.school === filters.school : true))
+      .filter((row) => (filters.gender ? row.gender === filters.gender : true))
+      .filter((row) => (disabilityMode ? row.disability === "Disabled" : true))
+      .filter((row) => (filters.exam_body ? row.exam_body === filters.exam_body : true));
+  }, [performanceSeedRows, filters.zone, filters.state, filters.lga, filters.ward, filters.school, filters.gender, filters.exam_body, disabilityMode]);
 
+  const performanceOptionRows = useMemo(() => {
+    return performanceSeedRows
+      .filter((row) => (filters.session ? row.session === filters.session : true))
+      .filter((row) => (filters.gender ? row.gender === filters.gender : true))
+      .filter((row) => (disabilityMode ? row.disability === "Disabled" : true))
+      .filter((row) => (filters.exam_body ? row.exam_body === filters.exam_body : true));
+  }, [performanceSeedRows, filters.session, filters.gender, filters.exam_body, disabilityMode]);
 
   const transitionScopeRowsForSessions = useMemo(() => {
     return Array.from(new Set(transitionSessionScopeRows.map((row) => row.session).filter(Boolean))).sort();
@@ -912,27 +894,17 @@ export default function MinisterDashboardPage({
     return Array.from(new Set(performanceSessionScopeRows.map((row) => row.session).filter(Boolean))).sort();
   }, [performanceSessionScopeRows]);
 
-  const transitionLocationOptionRows = useMemo(() => {
-    return (directMode ? transitionDirectLocationRows : transitionGeneralLocationRows)
-      .filter((row) => (filters.session ? row.session === filters.session : true));
-  }, [transitionGeneralLocationRows, transitionDirectLocationRows, directMode, filters.session]);
+  const transitionZones = useMemo(() => Array.from(new Set(transitionOptionRows.map((row) => row.zone).filter(Boolean))).sort(), [transitionOptionRows]);
+  const transitionStates = useMemo(() => Array.from(new Set(dimStates.filter((row) => (filters.zone ? row.zone === filters.zone : true)).map((row) => row.state).filter(Boolean))).sort(), [dimStates, filters.zone]);
+  const transitionLgas = useMemo(() => Array.from(new Set(dimLgas.filter((row) => (filters.zone ? row.zone === filters.zone : true)).filter((row) => (filters.state ? row.state === filters.state : true)).map((row) => row.lga).filter(Boolean))).sort(), [dimLgas, filters.zone, filters.state]);
+  const transitionWards = useMemo(() => Array.from(new Set(dimWards.filter((row) => (filters.zone ? row.zone === filters.zone : true)).filter((row) => (filters.state ? row.state === filters.state : true)).filter((row) => (filters.lga ? row.lga === filters.lga : true)).map((row) => row.ward).filter(Boolean))).sort(), [dimWards, filters.zone, filters.state, filters.lga]);
+  const transitionSchools = useMemo(() => Array.from(new Set(dimSchools.filter((row) => (filters.zone ? row.zone === filters.zone : true)).filter((row) => (filters.state ? row.state === filters.state : true)).filter((row) => (filters.lga ? row.lga === filters.lga : true)).filter((row) => (filters.ward ? row.ward === filters.ward : true)).map((row) => row.school).filter(Boolean))).sort(), [dimSchools, filters.zone, filters.state, filters.lga, filters.ward]);
 
-  const performanceLocationOptionRows = useMemo(() => {
-    return performanceLocationSeedRows
-      .filter((row) => (filters.session ? row.session === filters.session : true));
-  }, [performanceLocationSeedRows, filters.session]);
-
-  const transitionZones = useMemo(() => Array.from(new Set(transitionLocationOptionRows.map((row) => row.zone).filter(Boolean))).sort(), [transitionLocationOptionRows]);
-  const transitionStates = useMemo(() => Array.from(new Set(transitionLocationOptionRows.filter((row) => (filters.zone ? row.zone === filters.zone : true)).map((row) => row.state).filter(Boolean))).sort(), [transitionLocationOptionRows, filters.zone]);
-  const transitionLgas = useMemo(() => Array.from(new Set(transitionLocationOptionRows.filter((row) => (filters.zone ? row.zone === filters.zone : true)).filter((row) => (filters.state ? row.state === filters.state : true)).map((row) => row.lga).filter(Boolean))).sort(), [transitionLocationOptionRows, filters.zone, filters.state]);
-  const transitionWards = useMemo(() => Array.from(new Set(transitionLocationOptionRows.filter((row) => (filters.zone ? row.zone === filters.zone : true)).filter((row) => (filters.state ? row.state === filters.state : true)).filter((row) => (filters.lga ? row.lga === filters.lga : true)).map((row) => row.ward).filter(Boolean))).sort(), [transitionLocationOptionRows, filters.zone, filters.state, filters.lga]);
-  const transitionSchools = useMemo(() => Array.from(new Set(transitionLocationOptionRows.filter((row) => (filters.zone ? row.zone === filters.zone : true)).filter((row) => (filters.state ? row.state === filters.state : true)).filter((row) => (filters.lga ? row.lga === filters.lga : true)).filter((row) => (filters.ward ? row.ward === filters.ward : true)).map((row) => row.school).filter(Boolean))).sort(), [transitionLocationOptionRows, filters.zone, filters.state, filters.lga, filters.ward]);
-
-  const performanceZones = useMemo(() => Array.from(new Set(performanceLocationOptionRows.map((row) => row.zone).filter(Boolean))).sort(), [performanceLocationOptionRows]);
-  const performanceStates = useMemo(() => Array.from(new Set(performanceLocationOptionRows.filter((row) => (filters.zone ? row.zone === filters.zone : true)).map((row) => row.state).filter(Boolean))).sort(), [performanceLocationOptionRows, filters.zone]);
-  const performanceLgas = useMemo(() => Array.from(new Set(performanceLocationOptionRows.filter((row) => (filters.zone ? row.zone === filters.zone : true)).filter((row) => (filters.state ? row.state === filters.state : true)).map((row) => row.lga).filter(Boolean))).sort(), [performanceLocationOptionRows, filters.zone, filters.state]);
-  const performanceWards = useMemo(() => Array.from(new Set(performanceLocationOptionRows.filter((row) => (filters.zone ? row.zone === filters.zone : true)).filter((row) => (filters.state ? row.state === filters.state : true)).filter((row) => (filters.lga ? row.lga === filters.lga : true)).map((row) => row.ward).filter(Boolean))).sort(), [performanceLocationOptionRows, filters.zone, filters.state, filters.lga]);
-  const performanceSchools = useMemo(() => Array.from(new Set(performanceLocationOptionRows.filter((row) => (filters.zone ? row.zone === filters.zone : true)).filter((row) => (filters.state ? row.state === filters.state : true)).filter((row) => (filters.lga ? row.lga === filters.lga : true)).filter((row) => (filters.ward ? row.ward === filters.ward : true)).map((row) => row.school).filter(Boolean))).sort(), [performanceLocationOptionRows, filters.zone, filters.state, filters.lga, filters.ward]);
+  const performanceZones = useMemo(() => Array.from(new Set(performanceOptionRows.map((row) => row.zone).filter(Boolean))).sort(), [performanceOptionRows]);
+  const performanceStates = useMemo(() => Array.from(new Set(performanceOptionRows.filter((row) => (filters.zone ? row.zone === filters.zone : true)).map((row) => row.state).filter(Boolean))).sort(), [performanceOptionRows, filters.zone]);
+  const performanceLgas = useMemo(() => Array.from(new Set(performanceOptionRows.filter((row) => (filters.zone ? row.zone === filters.zone : true)).filter((row) => (filters.state ? row.state === filters.state : true)).map((row) => row.lga).filter(Boolean))).sort(), [performanceOptionRows, filters.zone, filters.state]);
+  const performanceWards = useMemo(() => Array.from(new Set(performanceOptionRows.filter((row) => (filters.zone ? row.zone === filters.zone : true)).filter((row) => (filters.state ? row.state === filters.state : true)).filter((row) => (filters.lga ? row.lga === filters.lga : true)).map((row) => row.ward).filter(Boolean))).sort(), [performanceOptionRows, filters.zone, filters.state, filters.lga]);
+  const performanceSchools = useMemo(() => Array.from(new Set(performanceOptionRows.filter((row) => (filters.zone ? row.zone === filters.zone : true)).filter((row) => (filters.state ? row.state === filters.state : true)).filter((row) => (filters.lga ? row.lga === filters.lga : true)).filter((row) => (filters.ward ? row.ward === filters.ward : true)).map((row) => row.school).filter(Boolean))).sort(), [performanceOptionRows, filters.zone, filters.state, filters.lga, filters.ward]);
 
   useEffect(() => {
     if (category !== "transition") return;

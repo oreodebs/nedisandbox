@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadCSV } from "../utils/loadCSV";
+import { loadRefinedFile } from "../utils/refinedPageData";
 
 type PolicyImpactRow = {
   session: string;
@@ -624,18 +624,9 @@ export default function PolicyImpactDashboard({
       try {
         setLoading(true);
         setError(null);
-        const baseUrl = (import.meta as { env?: { BASE_URL?: string } }).env?.BASE_URL ?? "/";
-        const dataBase = baseUrl.endsWith("/") ? `${baseUrl}data` : `${baseUrl}/data`;
-        const tryLoad = async <T,>(path: string): Promise<T[]> => {
-          try {
-            return await loadCSV<T>(`${dataBase}/${path}`);
-          } catch {
-            return await loadCSV<T>(`/data/${path}`);
-          }
-        };
         const [tertiaryData, loansData] = await Promise.all([
-          tryLoad<PolicyImpactRow>("fact_policy_impact_tertiary.csv"),
-          tryLoad<PolicyLoanRow>("fact_policy_impact_loans.csv"),
+          loadRefinedFile<PolicyImpactRow>("pages/policy_impact/policy_programme.csv"),
+          loadRefinedFile<PolicyLoanRow>("pages/policy_impact/policy_loans_programme.csv"),
         ]);
         if (!mounted) return;
         setRows(tertiaryData);

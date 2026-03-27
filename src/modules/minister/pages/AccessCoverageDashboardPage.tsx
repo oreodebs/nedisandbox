@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadCSV, loadCSVMany, ACCESS_COVERAGE_WARD_FILES } from "../utils/loadCSV";
+import { loadRefinedFile, loadRefinedScopedRows } from "../utils/refinedPageData";
 
 type AccessWardRow = {
   session: string;
@@ -2231,30 +2231,15 @@ export default function AccessCoverageDashboard({
       try {
         setLoading(true);
         setError(null);
-        const baseUrl = (import.meta as { env?: { BASE_URL?: string } }).env?.BASE_URL ?? "/";
-        const dataBase = baseUrl.endsWith("/") ? `${baseUrl}data` : `${baseUrl}/data`;
-        const tryLoad = async <T,>(path: string): Promise<T[]> => {
-          try {
-            return await loadCSV<T>(`${dataBase}/${path}`);
-          } catch {
-            return await loadCSV<T>(`/data/${path}`);
-          }
-        };
-        const tryLoadMany = async <T,>(paths: readonly string[]): Promise<T[]> => {
-          try {
-            return await loadCSVMany<T>(paths.map((path) => `${dataBase}/${path}`));
-          } catch {
-            return await loadCSVMany<T>(paths.map((path) => `/data/${path}`));
-          }
-        };
-
-        const [wardData, almajiriData] = await Promise.all([
-          tryLoadMany<AccessWardRow>(ACCESS_COVERAGE_WARD_FILES),
-          tryLoad<AlmajiriRow>("fact_access_coverage_almajiri_state.csv"),
+        const depth = !filters.state ? "top" : filters.school ? "school" : filters.ward ? "school" : filters.lga ? "ward" : "lga";
+        const [topWardData, scopedWardData, almajiriData] = await Promise.all([
+          loadRefinedFile<AccessWardRow>("pages/access_coverage/top_rollup.csv"),
+          loadRefinedScopedRows<AccessWardRow>("access_coverage", filters.state, depth),
+          loadRefinedFile<AlmajiriRow>("pages/access_coverage/access_almajiri_state.csv"),
         ]);
 
         if (!active) return;
-        setWardRows(wardData);
+        setWardRows(filters.state ? [...topWardData, ...scopedWardData] : scopedWardData);
         setAlmajiriRows(almajiriData);
       } catch (loadError) {
         if (!active) return;
@@ -2267,7 +2252,7 @@ export default function AccessCoverageDashboard({
     return () => {
       active = false;
     };
-  }, []);
+  }, [filters.state, filters.lga, filters.ward, filters.school]);
 
   useEffect(() => {
     // Reset chart-level drills when non-location global filters change
@@ -3975,7 +3960,7 @@ export default function AccessCoverageDashboard({
 
   const expandedChart = expandState ? (expandedCharts[expandState.key] ?? null) : null;
 
-  if (loading) return <EmptyState title="Loading Access & Coverage dashboard…" />;
+  if (loading && !wardRows.length) return <EmptyState title="Loading Access & Coverage dashboard…" />;
   if (error) return <EmptyState title={`Could not load Access & Coverage CSVs: ${error}`} />;
 
   return (

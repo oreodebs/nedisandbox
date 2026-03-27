@@ -18,8 +18,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadCSVMany, TRANSITION_GENERAL_FILES, TRANSITION_DIRECT_FILES } from "../utils/loadCSV";
-import { getDataBaseUrl } from "../utils/loadAgg";
+import { loadRefinedScopedRows } from "../utils/refinedPageData";
 
 type TransitionGeneralRow = {
   session: string;
@@ -737,18 +736,10 @@ export default function TransitionDashboard(props: {
       try {
         setLoading(true);
         setError(null);
-        const dataBase = getDataBaseUrl();
-        const tryLoadMany = async <T,>(paths: readonly string[]): Promise<T[]> => {
-          try {
-            return await loadCSVMany<T>(paths.map((path) => `${dataBase}/${path}`));
-          } catch {
-            return await loadCSVMany<T>(paths.map((path) => `/data/${path}`));
-          }
-        };
-
+        const depth = !filters.state ? "top" : filters.school ? "school" : filters.ward ? "school" : filters.lga ? "ward" : "lga";
         const [generalData, directData] = await Promise.all([
-          tryLoadMany<TransitionGeneralRow>(TRANSITION_GENERAL_FILES),
-          tryLoadMany<TransitionDirectRow>(TRANSITION_DIRECT_FILES),
+          loadRefinedScopedRows<TransitionGeneralRow>("transition_general", filters.state, depth),
+          loadRefinedScopedRows<TransitionDirectRow>("transition_direct", filters.state, depth),
         ]);
 
         if (!mounted) return;
@@ -767,7 +758,7 @@ export default function TransitionDashboard(props: {
     return () => {
       mounted = false;
     };
-  }, [dimSessions]);
+  }, [dimSessions, filters.state, filters.lga, filters.ward, filters.school]);
 
   useEffect(() => {
     setGeneralTransitionZoneDrill({});
@@ -1524,7 +1515,7 @@ const expandedCharts: Record<
 
 const expandedChart = expandState && "chartKey" in expandState && expandState.chartKey ? expandedCharts[expandState.chartKey] : null;
 
-  if (loading) {
+  if (loading && !generalRows.length && !directRows.length) {
     return <EmptyState title="Loading Transition dashboard…" />;
   }
 
