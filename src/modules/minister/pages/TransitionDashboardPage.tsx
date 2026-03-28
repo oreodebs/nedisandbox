@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadRefinedScopedRows } from "../utils/refinedPageData";
+import { canonicalState, loadRefinedScopedRows } from "../utils/refinedPageData";
 
 type TransitionGeneralRow = {
   session: string;
@@ -226,6 +226,68 @@ function aggregateRows(rows: BaseRow[]): AggregateMetrics {
   };
 }
 
+function comparisonKey(row: TransitionGeneralRow | TransitionDirectRow): string {
+  return [
+    row.session,
+    row.zone,
+    row.state,
+    row.lga,
+    row.ward,
+    row.school,
+    row.gender,
+    row.disability,
+    row.exam_body,
+    row.institution_type,
+  ].join("|");
+}
+
+function constrainDirectRows(directRows: TransitionDirectRow[], generalRows: TransitionGeneralRow[]): TransitionDirectRow[] {
+  const generalMap = new Map<string, AggregateMetrics>();
+
+  generalRows.forEach((row) => {
+    const key = comparisonKey(row);
+    const current = generalMap.get(key) ?? {
+      ss3_total: 0,
+      o_level_candidates: 0,
+      utme_participants: 0,
+      admitted_students: 0,
+      matriculated_students: 0,
+      delayed_transition_students: 0,
+      median_time_to_matriculation_years: 0,
+    };
+    current.o_level_candidates += safeNum(row.o_level_candidates);
+    current.utme_participants += safeNum(row.utme_participants);
+    current.admitted_students += safeNum(row.admitted_students);
+    current.matriculated_students += safeNum(row.matriculated_students);
+    current.delayed_transition_students += safeNum(row.delayed_transition_students);
+    generalMap.set(key, current);
+  });
+
+  return directRows.map((row) => {
+    const key = comparisonKey(row);
+    const general = generalMap.get(key);
+    if (!general) return row;
+
+    const directOLevel = safeNum(row.o_level_candidates);
+    const generalOLevel = safeNum(general.o_level_candidates);
+    if (generalOLevel <= 0 || directOLevel < generalOLevel) return row;
+
+    const targetOLevel = Math.max(Math.floor(generalOLevel - 1), 0);
+    if (directOLevel <= 0) return row;
+    const factor = targetOLevel / directOLevel;
+    if (factor >= 1) return row;
+
+    return {
+      ...row,
+      o_level_candidates: Math.max(0, Math.round(directOLevel * factor)),
+      utme_participants: Math.max(0, Math.round(safeNum(row.utme_participants) * factor)),
+      admitted_students: Math.max(0, Math.round(safeNum(row.admitted_students) * factor)),
+      matriculated_students: Math.max(0, Math.round(safeNum(row.matriculated_students) * factor)),
+      delayed_transition_students: Math.max(0, Math.round(safeNum(row.delayed_transition_students) * factor)),
+    };
+  });
+}
+
 function buildLossRows(metrics: AggregateMetrics, mode: Mode): LossRow[] {
   if (mode === "direct") {
     return [
@@ -322,7 +384,7 @@ function resolveLocationRows(
     }
     level = advanceByFilter(level, filters.state);
     if (filters.state) {
-      effectiveRows = effectiveRows.filter((row) => row.state === filters.state);
+      effectiveRows = effectiveRows.filter((row) => canonicalState(row.state) === canonicalState(filters.state));
     }
   }
 
@@ -332,7 +394,7 @@ function resolveLocationRows(
     }
     level = advanceByFilter(level, filters.state);
     if (filters.state) {
-      effectiveRows = effectiveRows.filter((row) => row.state === filters.state);
+      effectiveRows = effectiveRows.filter((row) => canonicalState(row.state) === canonicalState(filters.state));
     }
   }
 
@@ -777,7 +839,11 @@ export default function TransitionDashboard(props: {
   }, [filters.session, filters.zone, filters.state, filters.lga, filters.ward, filters.school, filters.gender, filters.exam_body, filters.gap_band, disabilityMode, directMode]);
 
   const mode: Mode = directMode ? "direct" : "general";
-  const currentRows: BaseRow[] = mode === "direct" ? directRows : generalRows;
+  const normalizedDirectRows = useMemo(
+    () => constrainDirectRows(directRows, generalRows),
+    [directRows, generalRows],
+  );
+  const currentRows: BaseRow[] = mode === "direct" ? normalizedDirectRows : generalRows;
 
   const previousSession = useMemo(
     () => dimSessions.find((row) => row.session_id === filters.session)?.prev_session_id ?? "",
@@ -788,7 +854,7 @@ export default function TransitionDashboard(props: {
     return currentRows.filter((row) => {
       if (row.session !== filters.session) return false;
       if (filters.zone && row.zone !== filters.zone) return false;
-      if (filters.state && row.state !== filters.state) return false;
+      if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
       if (filters.lga && row.lga !== filters.lga) return false;
       if (filters.ward && row.ward !== filters.ward) return false;
       if (filters.school && row.school !== filters.school) return false;
@@ -806,7 +872,7 @@ export default function TransitionDashboard(props: {
     return currentRows.filter((row) => {
       if (row.session !== previousSession) return false;
       if (filters.zone && row.zone !== filters.zone) return false;
-      if (filters.state && row.state !== filters.state) return false;
+      if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
       if (filters.lga && row.lga !== filters.lga) return false;
       if (filters.ward && row.ward !== filters.ward) return false;
       if (filters.school && row.school !== filters.school) return false;
@@ -1083,7 +1149,7 @@ const progressionChart = useMemo<ChartBundle>(() => {
       const metrics = aggregateRows(generalRows.filter((row) => {
         if (row.session !== filters.session) return false;
         if (filters.zone && row.zone !== filters.zone) return false;
-        if (filters.state && row.state !== filters.state) return false;
+        if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
         if (filters.lga && row.lga !== filters.lga) return false;
         if (filters.ward && row.ward !== filters.ward) return false;
         if (filters.school && row.school !== filters.school) return false;
@@ -1185,7 +1251,7 @@ const progressionChart = useMemo<ChartBundle>(() => {
     const baseRows = generalRows.filter((row) => {
       if (row.session !== filters.session) return false;
       if (filters.zone && row.zone !== filters.zone) return false;
-      if (filters.state && row.state !== filters.state) return false;
+      if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
       if (filters.lga && row.lga !== filters.lga) return false;
       if (filters.ward && row.ward !== filters.ward) return false;
       if (filters.school && row.school !== filters.school) return false;

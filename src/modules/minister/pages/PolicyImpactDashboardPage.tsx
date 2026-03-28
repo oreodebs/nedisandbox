@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadRefinedFile } from "../utils/refinedPageData";
+import { canonicalState, loadRefinedFile } from "../utils/refinedPageData";
 
 type PolicyImpactRow = {
   session: string;
@@ -180,7 +180,7 @@ function fmtPct(value: number): string {
 
 function percentDelta(current: number, previous: number): number | null {
   if (!Number.isFinite(current) || !Number.isFinite(previous)) return null;
-  if (previous === 0) return current === 0 ? 0 : 100;
+  if (previous <= 0) return current === 0 ? 0 : null;
   return ((current - previous) / previous) * 100;
 }
 
@@ -244,8 +244,8 @@ function disciplineColor(label: string): string {
 
 
 function normaliseDisability(disabilityMode: boolean, value: string): boolean {
-  if (!disabilityMode) return true;
-  return value === "Disabled";
+  if (disabilityMode) return value === "Disabled";
+  return value !== "Disabled";
 }
 
 function baseLayout(height = 320): Partial<PlotlyLayout> {
@@ -668,7 +668,7 @@ export default function PolicyImpactDashboard({
     source.filter((row) => {
       if (filters.session && row.session !== filters.session) return false;
       if (filters.zone && row.zone !== filters.zone) return false;
-      if (filters.state && row.state !== filters.state) return false;
+      if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
       if (filters.lga && row.lga !== filters.lga) return false;
       if (filters.gender && row.gender !== filters.gender) return false;
       if (filters.institution_type && row.institution_type !== filters.institution_type) return false;
@@ -701,7 +701,7 @@ export default function PolicyImpactDashboard({
     return rows.filter((row) => {
       if (row.session !== previousSession) return false;
       if (filters.zone && row.zone !== filters.zone) return false;
-      if (filters.state && row.state !== filters.state) return false;
+      if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
       if (filters.lga && row.lga !== filters.lga) return false;
       if (filters.gender && row.gender !== filters.gender) return false;
       if (filters.institution_type && row.institution_type !== filters.institution_type) return false;
@@ -718,7 +718,7 @@ export default function PolicyImpactDashboard({
     () =>
       loanRows.filter((row) => {
         if (filters.zone && row.zone !== filters.zone) return false;
-        if (filters.state && row.state !== filters.state) return false;
+        if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
         if (filters.lga && row.lga !== filters.lga) return false;
         if (filters.gender && row.gender !== filters.gender) return false;
         if (filters.institution_type && row.institution_type !== filters.institution_type) return false;
@@ -737,7 +737,7 @@ export default function PolicyImpactDashboard({
     return loanRows.filter((row) => {
       if (row.session !== previousSession) return false;
       if (filters.zone && row.zone !== filters.zone) return false;
-      if (filters.state && row.state !== filters.state) return false;
+      if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
       if (filters.lga && row.lga !== filters.lga) return false;
       if (filters.gender && row.gender !== filters.gender) return false;
       if (filters.institution_type && row.institution_type !== filters.institution_type) return false;
@@ -758,7 +758,7 @@ export default function PolicyImpactDashboard({
       .filter((row) => {
         if (filters.session && row.session !== filters.session) return false;
         if (filters.zone && row.zone !== filters.zone) return false;
-        if (filters.state && row.state !== filters.state) return false;
+        if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
         if (filters.lga && row.lga !== filters.lga) return false;
         if (filters.gender && row.gender !== filters.gender) return false;
         if (filters.institution_type && row.institution_type !== filters.institution_type) return false;

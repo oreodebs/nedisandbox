@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadRefinedFile, loadRefinedPageRows } from "../utils/refinedPageData";
+import { canonicalState, loadRefinedFile, loadRefinedPageRows } from "../utils/refinedPageData";
 
 type TeacherCapacityRow = {
   session: string;
@@ -24,6 +24,7 @@ type TeacherCapacityRow = {
   lga: string;
   ward: string;
   school: string;
+  loc_level?: string;
   gender: string;
   school_type: string;
   school_level: string;
@@ -293,10 +294,12 @@ function filterTeacherRows(
   options?: { ignoreSession?: boolean; ignoreQualificationStatus?: boolean },
   disabilityMode = false,
 ): TeacherCapacityRow[] {
+  const expectedLocLevel: "state" | "school" = filters.state ? "school" : "state";
   return rows.filter((row) => {
     if (!options?.ignoreSession && row.session !== filters.session) return false;
+    if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
     if (filters.zone && row.zone !== filters.zone) return false;
-    if (filters.state && row.state !== filters.state) return false;
+    if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
     if (filters.lga && row.lga !== filters.lga) return false;
     if (filters.ward && row.ward !== filters.ward) return false;
     if (filters.school && row.school !== filters.school) return false;
@@ -307,7 +310,7 @@ function filterTeacherRows(
     if (!options?.ignoreQualificationStatus && filters.qualification_status && row.qualification_status !== filters.qualification_status) {
       return false;
     }
-    if (disabilityMode && row.disability && row.disability !== "Disabled") return false;
+    if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
     return true;
   });
 }
@@ -362,7 +365,7 @@ function resolveLocationRows(
   }
 
   if (filters.state) {
-    scopedRows = scopedRows.filter((row) => row.state === filters.state);
+    scopedRows = scopedRows.filter((row) => canonicalState(row.state) === canonicalState(filters.state));
     currentLevel = "lga";
   }
 

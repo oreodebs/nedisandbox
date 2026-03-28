@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadRefinedFile, loadRefinedPageRows } from "../utils/refinedPageData";
+import { canonicalState, loadRefinedFile, loadRefinedPageRows } from "../utils/refinedPageData";
 
 type PerformanceRow = {
   session: string;
@@ -28,6 +28,7 @@ type PerformanceRow = {
   lga: string;
   ward: string;
   school: string;
+  loc_level?: string;
   gender: string;
   disability: string;
   olevel_exam_body: string;
@@ -311,16 +312,18 @@ function locationLabel(row: PerformanceRow, level: LocationLevel): string {
 
 
 function filterRows(rows: PerformanceRow[], filters: MinisterFilters, disabilityMode: boolean, ignoreSession = false): PerformanceRow[] {
+  const expectedLocLevel: "state" | "school" = filters.state ? "school" : "state";
   return rows.filter((row) => {
     if (!ignoreSession && row.session !== filters.session) return false;
+    if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
     if (filters.zone && row.zone !== filters.zone) return false;
-    if (filters.state && row.state !== filters.state) return false;
+    if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
     if (filters.lga && row.lga !== filters.lga) return false;
     if (filters.ward && row.ward !== filters.ward) return false;
     if (filters.school && row.school !== filters.school) return false;
     if (filters.gender && row.gender !== filters.gender) return false;
     if (filters.exam_body && row.olevel_exam_body !== filters.exam_body) return false;
-    if (disabilityMode && row.disability !== "Disabled") return false;
+    if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
     return true;
   });
 }

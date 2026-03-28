@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { loadRefinedFile, loadRefinedScopedRows } from "../utils/refinedPageData";
+import { canonicalState, loadRefinedFile, loadRefinedScopedRows } from "../utils/refinedPageData";
 
 type AccessWardRow = {
   session: string;
@@ -28,6 +28,7 @@ type AccessWardRow = {
   state: string;
   lga: string;
   ward: string;
+  loc_level?: string;
   gender: string;
   disability: string;
   school_type: string;
@@ -49,6 +50,18 @@ type AlmajiriRow = {
   state: string;
   gender: string;
   almajiri_count: number;
+};
+
+type TransitionDirectRow = {
+  session: string;
+  zone: string;
+  state: string;
+  lga: string;
+  ward: string;
+  school: string;
+  gender: string;
+  disability: string;
+  o_level_candidates: number;
 };
 
 type PlotPoint = { x?: unknown; y?: unknown; location?: unknown; customdata?: unknown };
@@ -176,7 +189,6 @@ export const ACCESS_COVERAGE_SECTIONS = [
 
 const CLASSROOM_BENCHMARK = 25;
 const UBE_CLASSROOM_BENCHMARK = 35;
-const DIRECT_O_LEVEL_TOTAL = 2_846_300;
 const KEY_ENTRY_LEVELS = ["Primary 1", "JSS1", "SSS1"] as const;
 const CLASS_LEVELS = [
   "Primary 1",
@@ -2191,6 +2203,7 @@ export default function AccessCoverageDashboard({
 }) {
   const [wardRows, setWardRows] = useState<AccessWardRow[]>([]);
   const [almajiriRows, setAlmajiriRows] = useState<AlmajiriRow[]>([]);
+  const [transitionRows, setTransitionRows] = useState<TransitionDirectRow[]>([]);
   const [almajiriDrill, setAlmajiriDrill] = useState<{ state?: string }>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -2232,18 +2245,21 @@ export default function AccessCoverageDashboard({
         setLoading(true);
         setError(null);
         const depth = !filters.state ? "top" : filters.school ? "school" : filters.ward ? "school" : filters.lga ? "ward" : "lga";
-        const [topWardData, scopedWardData, almajiriData] = await Promise.all([
+        const [topWardData, scopedWardData, almajiriData, transitionData] = await Promise.all([
           loadRefinedFile<AccessWardRow>("pages/access_coverage/top_rollup.csv"),
           loadRefinedScopedRows<AccessWardRow>("access_coverage", filters.state, depth),
           loadRefinedFile<AlmajiriRow>("pages/access_coverage/access_almajiri_state.csv"),
+          loadRefinedScopedRows<TransitionDirectRow>("transition_direct", filters.state, depth),
         ]);
 
         if (!active) return;
         setWardRows(filters.state ? [...topWardData, ...scopedWardData] : scopedWardData);
         setAlmajiriRows(almajiriData);
+        setTransitionRows(transitionData);
       } catch (loadError) {
         if (!active) return;
         setError(loadError instanceof Error ? loadError.message : "Failed to load Access & Coverage data");
+        setTransitionRows([]);
       } finally {
         if (active) setLoading(false);
       }
@@ -2277,21 +2293,27 @@ export default function AccessCoverageDashboard({
     [dimSessions, filters.session],
   );
 
+  const expectedLocLevel = useMemo<"state" | "lga" | "ward" | "school">(
+    () => (!filters.state ? "state" : filters.school || filters.ward ? "school" : filters.lga ? "ward" : "lga"),
+    [filters.state, filters.lga, filters.ward, filters.school],
+  );
+
   const baseRows = useMemo(() => {
     return wardRows.filter((row) => {
       if (filters.zone && row.zone !== filters.zone) return false;
-      if (filters.state && row.state !== filters.state) return false;
+      if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
       if (filters.lga && row.lga !== filters.lga) return false;
       if (filters.ward && row.ward !== filters.ward) return false;
+      if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
       if (filters.gender && row.gender !== filters.gender) return false;
       if (filters.school && !rowIncludesSchool(row, filters.school)) return false;
       if (filters.school_type && row.school_type !== filters.school_type) return false;
       if (filters.school_level && row.school_level !== filters.school_level) return false;
       if (filters.class_grade && row.class_grade !== filters.class_grade) return false;
-      if (disabilityMode && row.disability !== "Disabled") return false;
+      if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
       return true;
     });
-  }, [wardRows, filters, disabilityMode]);
+  }, [wardRows, filters, disabilityMode, expectedLocLevel]);
 
   const currentRows = useMemo(() => baseRows.filter((row) => row.session === filters.session), [baseRows, filters.session]);
 
@@ -2301,6 +2323,34 @@ export default function AccessCoverageDashboard({
   const previousRows = useMemo(
     () => (previousSession ? baseRows.filter((row) => row.session === previousSession) : []),
     [baseRows, previousSession],
+  );
+
+  const currentTransitionRows = useMemo(
+    () =>
+      transitionRows.filter((row) => {
+        if (row.session !== filters.session) return false;
+        if (filters.zone && row.zone !== filters.zone) return false;
+        if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
+        if (filters.lga && row.lga !== filters.lga) return false;
+        if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
+        return true;
+      }),
+    [transitionRows, filters.session, filters.zone, filters.state, filters.lga, disabilityMode],
+  );
+
+  const previousTransitionRows = useMemo(
+    () =>
+      previousSession
+        ? transitionRows.filter((row) => {
+            if (row.session !== previousSession) return false;
+            if (filters.zone && row.zone !== filters.zone) return false;
+            if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
+            if (filters.lga && row.lga !== filters.lga) return false;
+            if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
+            return true;
+          })
+        : [],
+    [transitionRows, previousSession, filters.zone, filters.state, filters.lga, disabilityMode],
   );
 
   const uniqueSchoolFacilityCount = (rows: AccessWardRow[]): number => {
@@ -2322,6 +2372,7 @@ export default function AccessCoverageDashboard({
     const totalFormalPrimaryStudents = formalPrimaryRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
     const totalJss1Students = jss1Rows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
     const totalSs1Students = ss1Rows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
+    const totalOLevelStudents = currentTransitionRows.reduce((sum, row) => sum + safeNum(row.o_level_candidates), 0);
     const totalSchools = uniqueSchoolFacilityCount(currentRows);
     const totalPublicSchools = uniqueSchoolFacilityCount(currentRows.filter((row) => row.school_type === "Public"));
     const totalPrivateSchools = uniqueSchoolFacilityCount(currentRows.filter((row) => row.school_type === "Private"));
@@ -2338,6 +2389,10 @@ export default function AccessCoverageDashboard({
     const previousTotalSs1Students = previousRows
       .filter((row) => row.class_grade === "SSS1")
       .reduce((sum, row) => sum + safeNum(row.student_count), 0);
+    const previousTotalOLevelStudents = previousTransitionRows.reduce(
+      (sum, row) => sum + safeNum(row.o_level_candidates),
+      0,
+    );
 
     const cards: MetricCard[] = [
       {
@@ -2386,17 +2441,14 @@ export default function AccessCoverageDashboard({
       },
       {
         label: "Total O-Level Students",
-        value: DIRECT_O_LEVEL_TOTAL,
-        delta: computeDelta(
-          DIRECT_O_LEVEL_TOTAL,
-          previousRows.reduce((sum, row) => sum + (safeNum(row.is_o_level_student) > 0 ? safeNum(row.student_count) : 0), 0),
-        ),
+        value: totalOLevelStudents,
+        delta: computeDelta(totalOLevelStudents, previousTotalOLevelStudents),
         accent: "#7c3aed",
         bg: "rgba(124,58,237,0.12)",
         icon: <GraduationCap className="h-5 w-5" />,
         help: "Total O-Level Students is aligned to the Direct Transition total so this page matches the transition dashboard headline figure while still showing movement versus the previous session view.",
         prevSessionLabel: previousSession || undefined,
-        note: "Aligned to Direct Transition headline total.",
+        note: "Derived from Direct Transition data for the same filters.",
       },
       {
         label: "Total Schools",
@@ -2434,7 +2486,7 @@ export default function AccessCoverageDashboard({
     ];
 
     return cards;
-  }, [currentRows, previousRows, previousSession]);
+  }, [currentRows, previousRows, currentTransitionRows, previousTransitionRows, previousSession]);
 
   const availableSessions = useMemo(() => {
     const ordered = [...new Set(wardRows.map((row) => row.session).filter(Boolean))];
@@ -3813,7 +3865,7 @@ export default function AccessCoverageDashboard({
       const rows = almajiriRows.filter((row) => {
         if (row.session !== filters.session) return false;
         if (filters.zone && row.zone !== filters.zone) return false;
-        if (filters.state && row.state !== filters.state) return false;
+        if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
         return true;
       });
       labels = [...new Set(rows.map((row) => row.state).filter(Boolean))].sort((a, b) => a.localeCompare(b));
