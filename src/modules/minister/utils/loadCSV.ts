@@ -1,7 +1,7 @@
 import Papa from "papaparse";
 
 const csvPromiseCache = new Map<string, Promise<unknown[]>>();
-const DATA_VERSION = (import.meta as { env?: { VITE_DATA_VERSION?: string } }).env?.VITE_DATA_VERSION ?? "v1";
+const DATA_VERSION = (import.meta as { env?: { VITE_DATA_VERSION?: string } }).env?.VITE_DATA_VERSION ?? "v20260328";
 
 function normalizeKey(url: string): string {
   const [base] = url.split("?");
