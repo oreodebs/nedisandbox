@@ -2234,6 +2234,11 @@ export default function AccessCoverageDashboard({
     setFilters((previous) => ({ ...previous, state: "", lga: "", ward: "", school: "" }));
   };
   const [expandState, setExpandState] = useState<ExpandState>(null);
+  const requestedScopeKey = useMemo(
+    () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}|${filters.school}`,
+    [filters.state, filters.lga, filters.ward, filters.school],
+  );
+  const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
 
   const expandedPanelRef = useOutsideClose<HTMLDivElement>(Boolean(expandState), () => setExpandState(null));
 
@@ -2256,6 +2261,7 @@ export default function AccessCoverageDashboard({
         setWardRows(filters.state ? [...topWardData, ...scopedWardData] : scopedWardData);
         setAlmajiriRows(almajiriData);
         setTransitionRows(transitionData);
+        setLoadedScopeKey(requestedScopeKey);
       } catch (loadError) {
         if (!active) return;
         setError(loadError instanceof Error ? loadError.message : "Failed to load Access & Coverage data");
@@ -2268,7 +2274,7 @@ export default function AccessCoverageDashboard({
     return () => {
       active = false;
     };
-  }, [filters.state, filters.lga, filters.ward, filters.school]);
+  }, [filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey]);
 
   useEffect(() => {
     // Reset chart-level drills when non-location global filters change
@@ -2315,17 +2321,16 @@ export default function AccessCoverageDashboard({
     });
   }, [wardRows, filters, disabilityMode, expectedLocLevel]);
 
-  const currentRows = useMemo(() => baseRows.filter((row) => row.session === filters.session), [baseRows, filters.session]);
+  const currentRowsRaw = useMemo(() => baseRows.filter((row) => row.session === filters.session), [baseRows, filters.session]);
 
   // All charts must follow the fully filtered current session view so every filter
   // and every chart drill affects every other chart consistently.
-  const sessionRows = currentRows;
-  const previousRows = useMemo(
+  const previousRowsRaw = useMemo(
     () => (previousSession ? baseRows.filter((row) => row.session === previousSession) : []),
     [baseRows, previousSession],
   );
 
-  const currentTransitionRows = useMemo(
+  const currentTransitionRowsRaw = useMemo(
     () =>
       transitionRows.filter((row) => {
         if (row.session !== filters.session) return false;
@@ -2338,7 +2343,7 @@ export default function AccessCoverageDashboard({
     [transitionRows, filters.session, filters.zone, filters.state, filters.lga, disabilityMode],
   );
 
-  const previousTransitionRows = useMemo(
+  const previousTransitionRowsRaw = useMemo(
     () =>
       previousSession
         ? transitionRows.filter((row) => {
@@ -2351,6 +2356,52 @@ export default function AccessCoverageDashboard({
           })
         : [],
     [transitionRows, previousSession, filters.zone, filters.state, filters.lga, disabilityMode],
+  );
+
+  const [lastNonEmptyCurrentRows, setLastNonEmptyCurrentRows] = useState<AccessWardRow[]>([]);
+  const [lastNonEmptyPreviousRows, setLastNonEmptyPreviousRows] = useState<AccessWardRow[]>([]);
+  const [lastNonEmptyCurrentTransitionRows, setLastNonEmptyCurrentTransitionRows] = useState<TransitionDirectRow[]>([]);
+  const [lastNonEmptyPreviousTransitionRows, setLastNonEmptyPreviousTransitionRows] = useState<TransitionDirectRow[]>([]);
+
+  useEffect(() => {
+    if (currentRowsRaw.length) setLastNonEmptyCurrentRows(currentRowsRaw);
+  }, [currentRowsRaw]);
+
+  useEffect(() => {
+    if (previousRowsRaw.length) setLastNonEmptyPreviousRows(previousRowsRaw);
+  }, [previousRowsRaw]);
+
+  useEffect(() => {
+    if (currentTransitionRowsRaw.length) setLastNonEmptyCurrentTransitionRows(currentTransitionRowsRaw);
+  }, [currentTransitionRowsRaw]);
+
+  useEffect(() => {
+    if (previousTransitionRowsRaw.length) setLastNonEmptyPreviousTransitionRows(previousTransitionRowsRaw);
+  }, [previousTransitionRowsRaw]);
+  const scopePending = requestedScopeKey !== loadedScopeKey;
+
+  const currentRows = useMemo(
+    () => ((loading || scopePending) && !currentRowsRaw.length && lastNonEmptyCurrentRows.length ? lastNonEmptyCurrentRows : currentRowsRaw),
+    [loading, scopePending, currentRowsRaw, lastNonEmptyCurrentRows],
+  );
+  const sessionRows = currentRows;
+  const previousRows = useMemo(
+    () => ((loading || scopePending) && !previousRowsRaw.length && lastNonEmptyPreviousRows.length ? lastNonEmptyPreviousRows : previousRowsRaw),
+    [loading, scopePending, previousRowsRaw, lastNonEmptyPreviousRows],
+  );
+  const currentTransitionRows = useMemo(
+    () =>
+      (loading || scopePending) && !currentTransitionRowsRaw.length && lastNonEmptyCurrentTransitionRows.length
+        ? lastNonEmptyCurrentTransitionRows
+        : currentTransitionRowsRaw,
+    [loading, scopePending, currentTransitionRowsRaw, lastNonEmptyCurrentTransitionRows],
+  );
+  const previousTransitionRows = useMemo(
+    () =>
+      (loading || scopePending) && !previousTransitionRowsRaw.length && lastNonEmptyPreviousTransitionRows.length
+        ? lastNonEmptyPreviousTransitionRows
+        : previousTransitionRowsRaw,
+    [loading, scopePending, previousTransitionRowsRaw, lastNonEmptyPreviousTransitionRows],
   );
 
   const uniqueSchoolFacilityCount = (rows: AccessWardRow[]): number => {

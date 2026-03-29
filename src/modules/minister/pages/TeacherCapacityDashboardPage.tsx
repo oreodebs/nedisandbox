@@ -1685,6 +1685,8 @@ export default function TeacherCapacityDashboard({
   const [error, setError] = useState<string | null>(null);
   const [expandState, setExpandState] = useState<ExpandState>(null);
   const expandedPanelRef = useRef<HTMLDivElement | null>(null);
+  const requestedScopeKey = useMemo(() => canonicalState(filters.state), [filters.state]);
+  const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
 
   useEffect(() => {
     let alive = true;
@@ -1703,6 +1705,7 @@ export default function TeacherCapacityDashboard({
 
         setRows(teacherRows);
         setBenchmarks(benchmarkRows);
+        setLoadedScopeKey(requestedScopeKey);
       } catch (err) {
         if (!alive) return;
         setError(err instanceof Error ? err.message : "Failed to load teacher capacity CSVs");
@@ -1714,7 +1717,7 @@ export default function TeacherCapacityDashboard({
     return () => {
       alive = false;
     };
-  }, [filters.state]);
+  }, [filters.state, requestedScopeKey]);
 
   useEffect(() => {
     if (!expandState) return undefined;
@@ -1730,7 +1733,18 @@ export default function TeacherCapacityDashboard({
     return () => document.removeEventListener("mousedown", onDocumentMouseDown);
   }, [expandState]);
 
-  const filteredRows = useMemo(() => filterTeacherRows(rows, filters, undefined, false), [rows, filters]);
+  const filteredRowsRaw = useMemo(() => filterTeacherRows(rows, filters, undefined, false), [rows, filters]);
+  const [lastNonEmptyFilteredRows, setLastNonEmptyFilteredRows] = useState<TeacherCapacityRow[]>([]);
+
+  useEffect(() => {
+    if (filteredRowsRaw.length) setLastNonEmptyFilteredRows(filteredRowsRaw);
+  }, [filteredRowsRaw]);
+  const scopePending = requestedScopeKey !== loadedScopeKey;
+
+  const filteredRows = useMemo(
+    () => ((loading || scopePending) && !filteredRowsRaw.length && lastNonEmptyFilteredRows.length ? lastNonEmptyFilteredRows : filteredRowsRaw),
+    [loading, scopePending, filteredRowsRaw, lastNonEmptyFilteredRows],
+  );
 
   const teacherRows = filteredRows;
 
@@ -1758,17 +1772,46 @@ export default function TeacherCapacityDashboard({
 
   const currentTeacherRows = useMemo(() => (effectiveSession ? teacherRows.filter((row) => row.session === effectiveSession) : teacherRows), [teacherRows, effectiveSession]);
   const currentStudentRows = useMemo(() => (effectiveSession ? studentRows.filter((row) => row.session === effectiveSession) : studentRows), [studentRows, effectiveSession]);
-  const previousTeacherRows = useMemo(() => {
+  const previousTeacherRowsRaw = useMemo(() => {
     if (!previousSessionLabel) return [] as TeacherCapacityRow[];
     return filterTeacherRows(rows, { ...filters, session: previousSessionLabel }, undefined, false);
   }, [rows, filters, previousSessionLabel]);
+  const [lastNonEmptyPreviousTeacherRows, setLastNonEmptyPreviousTeacherRows] = useState<TeacherCapacityRow[]>([]);
+
+  useEffect(() => {
+    if (previousTeacherRowsRaw.length) setLastNonEmptyPreviousTeacherRows(previousTeacherRowsRaw);
+  }, [previousTeacherRowsRaw]);
+
+  const previousTeacherRows = useMemo(
+    () =>
+      (loading || scopePending) && !previousTeacherRowsRaw.length && lastNonEmptyPreviousTeacherRows.length
+        ? lastNonEmptyPreviousTeacherRows
+        : previousTeacherRowsRaw,
+    [loading, scopePending, previousTeacherRowsRaw, lastNonEmptyPreviousTeacherRows],
+  );
+  const previousDisabilityRowsRaw = useMemo(() => {
+    if (!previousSessionLabel) return [] as TeacherCapacityRow[];
+    return filterTeacherRows(rows, { ...filters, session: previousSessionLabel }, undefined, true);
+  }, [rows, filters, previousSessionLabel]);
+  const [lastNonEmptyPreviousDisabilityRows, setLastNonEmptyPreviousDisabilityRows] = useState<TeacherCapacityRow[]>([]);
+
+  useEffect(() => {
+    if (previousDisabilityRowsRaw.length) setLastNonEmptyPreviousDisabilityRows(previousDisabilityRowsRaw);
+  }, [previousDisabilityRowsRaw]);
+
+  const previousDisabilityRows = useMemo(
+    () =>
+      (loading || scopePending) && !previousDisabilityRowsRaw.length && lastNonEmptyPreviousDisabilityRows.length
+        ? lastNonEmptyPreviousDisabilityRows
+        : previousDisabilityRowsRaw,
+    [loading, scopePending, previousDisabilityRowsRaw, lastNonEmptyPreviousDisabilityRows],
+  );
+
   const previousStudentRows = useMemo(() => {
     if (!previousSessionLabel) return [] as TeacherCapacityRow[];
-    const scopedTeacherRows = filterTeacherRows(rows, { ...filters, session: previousSessionLabel }, undefined, false);
-    if (!disabilityMode) return scopedTeacherRows;
-    const disabilityScopedRows = filterTeacherRows(rows, { ...filters, session: previousSessionLabel }, undefined, true);
-    return applyStudentDisabilityOverlay(scopedTeacherRows, disabilityScopedRows);
-  }, [rows, filters, previousSessionLabel, disabilityMode]);
+    if (!disabilityMode) return previousTeacherRows;
+    return applyStudentDisabilityOverlay(previousTeacherRows, previousDisabilityRows);
+  }, [previousSessionLabel, previousTeacherRows, previousDisabilityRows, disabilityMode]);
 
   const cards = useMemo<MetricCard[]>(() => {
     const totalTeachers = currentTeacherRows.reduce((sum, row) => sum + safeNum(row.teacher_count), 0);

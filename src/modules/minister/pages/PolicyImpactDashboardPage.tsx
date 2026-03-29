@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { canonicalState, loadRefinedFile } from "../utils/refinedPageData";
+import { canonicalState, loadRefinedFile, loadRefinedScopedRows } from "../utils/refinedPageData";
 
 type PolicyImpactRow = {
   session: string;
@@ -50,6 +50,16 @@ type PolicyLoanRow = {
   loan_applications: number;
   loan_approved: number;
   loan_disbursed: number;
+};
+
+type TransitionMatricRow = {
+  session: string;
+  zone: string;
+  state: string;
+  lga: string;
+  gender: string;
+  disability: string;
+  matriculated_students: number;
 };
 
 type PlotPointEvent = Readonly<PlotMouseEvent>;
@@ -612,11 +622,18 @@ export default function PolicyImpactDashboard({
 }) {
   const [rows, setRows] = useState<PolicyImpactRow[]>([]);
   const [loanRows, setLoanRows] = useState<PolicyLoanRow[]>([]);
+  const [transitionRows, setTransitionRows] = useState<TransitionMatricRow[]>([]);
+  const [transitionLoading, setTransitionLoading] = useState(true);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [zoneDrill, setZoneDrill] = useState<DrillState>({});
   const [stateDrill, setStateDrill] = useState<DrillState>({});
   const [expandState, setExpandState] = useState<ExpandState>(null);
+  const requestedTransitionScopeKey = useMemo(
+    () => `${canonicalState(filters.state)}|${filters.lga}`,
+    [filters.state, filters.lga],
+  );
+  const [loadedTransitionScopeKey, setLoadedTransitionScopeKey] = useState(requestedTransitionScopeKey);
 
   useEffect(() => {
     let mounted = true;
@@ -642,6 +659,29 @@ export default function PolicyImpactDashboard({
       mounted = false;
     };
   }, []);
+
+  useEffect(() => {
+    let mounted = true;
+    (async () => {
+      try {
+        setTransitionLoading(true);
+        const depth = !filters.state ? "top" : filters.lga ? "ward" : "lga";
+        const scopedRows = await loadRefinedScopedRows<TransitionMatricRow>("transition_general", filters.state, depth);
+        if (!mounted) return;
+        setTransitionRows(scopedRows);
+        setLoadedTransitionScopeKey(requestedTransitionScopeKey);
+      } catch {
+        if (!mounted) return;
+        setTransitionRows([]);
+      } finally {
+        if (mounted) setTransitionLoading(false);
+      }
+    })();
+
+    return () => {
+      mounted = false;
+    };
+  }, [filters.state, filters.lga, requestedTransitionScopeKey]);
 
   // Reset drills only when non-location filters change (session, gender, etc.)
   // Location filter changes come FROM drills, so including them would cause a loop.
@@ -714,6 +754,59 @@ export default function PolicyImpactDashboard({
     });
   }, [rows, filters, disabilityMode, previousSession]);
 
+  const filteredTransitionRowsRaw = useMemo(() => {
+    return transitionRows.filter((row) => {
+      if (filters.session && row.session !== filters.session) return false;
+      if (filters.zone && row.zone !== filters.zone) return false;
+      if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
+      if (filters.lga && row.lga !== filters.lga) return false;
+      if (filters.gender && row.gender !== filters.gender) return false;
+      if (disabilityMode ? row.disability !== "Disabled" : row.disability !== "ALL") return false;
+      return true;
+    });
+  }, [transitionRows, filters.session, filters.zone, filters.state, filters.lga, filters.gender, disabilityMode]);
+
+  const previousTransitionRowsRaw = useMemo(() => {
+    if (!previousSession) return [] as TransitionMatricRow[];
+    return transitionRows.filter((row) => {
+      if (row.session !== previousSession) return false;
+      if (filters.zone && row.zone !== filters.zone) return false;
+      if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
+      if (filters.lga && row.lga !== filters.lga) return false;
+      if (filters.gender && row.gender !== filters.gender) return false;
+      if (disabilityMode ? row.disability !== "Disabled" : row.disability !== "ALL") return false;
+      return true;
+    });
+  }, [transitionRows, previousSession, filters.zone, filters.state, filters.lga, filters.gender, disabilityMode]);
+
+  const [lastNonEmptyTransitionRows, setLastNonEmptyTransitionRows] = useState<TransitionMatricRow[]>([]);
+  const [lastNonEmptyPreviousTransitionRows, setLastNonEmptyPreviousTransitionRows] = useState<TransitionMatricRow[]>([]);
+
+  useEffect(() => {
+    if (filteredTransitionRowsRaw.length) setLastNonEmptyTransitionRows(filteredTransitionRowsRaw);
+  }, [filteredTransitionRowsRaw]);
+
+  useEffect(() => {
+    if (previousTransitionRowsRaw.length) setLastNonEmptyPreviousTransitionRows(previousTransitionRowsRaw);
+  }, [previousTransitionRowsRaw]);
+  const transitionScopePending = requestedTransitionScopeKey !== loadedTransitionScopeKey;
+
+  const filteredTransitionRows = useMemo(
+    () =>
+      (transitionLoading || transitionScopePending) && !filteredTransitionRowsRaw.length && lastNonEmptyTransitionRows.length
+        ? lastNonEmptyTransitionRows
+        : filteredTransitionRowsRaw,
+    [transitionLoading, transitionScopePending, filteredTransitionRowsRaw, lastNonEmptyTransitionRows],
+  );
+
+  const previousTransitionRows = useMemo(
+    () =>
+      (transitionLoading || transitionScopePending) && !previousTransitionRowsRaw.length && lastNonEmptyPreviousTransitionRows.length
+        ? lastNonEmptyPreviousTransitionRows
+        : previousTransitionRowsRaw,
+    [transitionLoading, transitionScopePending, previousTransitionRowsRaw, lastNonEmptyPreviousTransitionRows],
+  );
+
   const filteredLoanRows = useMemo(
     () =>
       loanRows.filter((row) => {
@@ -770,12 +863,12 @@ export default function PolicyImpactDashboard({
         return true;
       })
       .reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
-    const totalMatriculated = filteredRows.reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
+    const totalMatriculated = filteredTransitionRows.reduce((sum, row) => sum + safeNum(row.matriculated_students), 0);
     const stemmValue = filteredRows.filter((row) => row.programme_cluster === "STEMM").reduce((sum, row) => sum + currentValue(row), 0);
     const nonStemmValue = filteredRows.filter((row) => row.programme_cluster === "Non-STEMM").reduce((sum, row) => sum + currentValue(row), 0);
     const totalStage = stemmValue + nonStemmValue;
     const previousAdmitted = previousRows.reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
-    const previousMatriculated = previousRows.reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
+    const previousMatriculated = previousTransitionRows.reduce((sum, row) => sum + safeNum(row.matriculated_students), 0);
     const prevStemmValue = previousRows.filter((row) => row.programme_cluster === "STEMM").reduce((sum, row) => sum + currentValue(row), 0);
     const prevNonStemmValue = previousRows.filter((row) => row.programme_cluster === "Non-STEMM").reduce((sum, row) => sum + currentValue(row), 0);
     const prevStage = prevStemmValue + prevNonStemmValue;
@@ -793,7 +886,7 @@ export default function PolicyImpactDashboard({
       stemmShareDelta: percentDelta(totalStage ? (stemmValue / totalStage) * 100 : 0, prevStage ? (prevStemmValue / prevStage) * 100 : 0),
       nonStemmShareDelta: percentDelta(totalStage ? (nonStemmValue / totalStage) * 100 : 0, prevStage ? (prevNonStemmValue / prevStage) * 100 : 0),
     };
-  }, [rows, filteredRows, previousRows, filteredLoanRows, previousLoanRows, filters, disabilityMode]);
+  }, [rows, filteredRows, previousRows, filteredTransitionRows, previousTransitionRows, filteredLoanRows, previousLoanRows, filters, disabilityMode]);
 
   const metricCards = useMemo<MetricCard[]>(() => [
     {
@@ -1219,7 +1312,7 @@ export default function PolicyImpactDashboard({
 
   const expandedChart = expandState ? expandedCharts[expandState.key] : null;
 
-  if (loading) {
+  if (loading || (transitionLoading && !transitionRows.length)) {
     return <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center text-slate-500">Loading Policy Impact dashboard…</div>;
   }
 
@@ -1348,3 +1441,4 @@ export default function PolicyImpactDashboard({
     </div>
   );
 }
+

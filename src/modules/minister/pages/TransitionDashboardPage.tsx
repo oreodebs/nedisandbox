@@ -795,13 +795,18 @@ export default function TransitionDashboard(props: {
   const [directDropoffStateDrill, setDirectDropoffStateDrill] = useState<DrillState>({});
 
   const [expandState, setExpandState] = useState<ExpandState>(null);
+  const requestedScopeKey = useMemo(
+    () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}|${filters.school}`,
+    [filters.state, filters.lga, filters.ward, filters.school],
+  );
+  const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
 
   useEffect(() => {
     let mounted = true;
 
     (async () => {
       try {
-        setLoading((prev) => prev && !generalRows.length && !directRows.length);
+        setLoading(true);
         setError(null);
         const depth = !filters.state ? "top" : filters.school ? "school" : filters.ward ? "school" : filters.lga ? "ward" : "lga";
         const [generalData, directData] = await Promise.all([
@@ -812,6 +817,7 @@ export default function TransitionDashboard(props: {
         if (!mounted) return;
         setGeneralRows(generalData);
         setDirectRows(directData);
+        setLoadedScopeKey(requestedScopeKey);
       } catch (err) {
         if (!mounted) return;
         setError(err instanceof Error ? err.message : "Failed to load transition data");
@@ -825,7 +831,7 @@ export default function TransitionDashboard(props: {
     return () => {
       mounted = false;
     };
-  }, [dimSessions, filters.state, filters.lga, filters.ward, filters.school]);
+  }, [dimSessions, filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey]);
 
   useEffect(() => {
     setGeneralTransitionZoneDrill({});
@@ -850,7 +856,7 @@ export default function TransitionDashboard(props: {
     [dimSessions, filters.session],
   );
 
-  const filteredCurrentRows = useMemo(() => {
+  const filteredCurrentRowsRaw = useMemo(() => {
     return currentRows.filter((row) => {
       if (row.session !== filters.session) return false;
       if (filters.zone && row.zone !== filters.zone) return false;
@@ -867,7 +873,7 @@ export default function TransitionDashboard(props: {
     });
   }, [currentRows, filters, disabilityMode, mode]);
 
-  const filteredPreviousRows = useMemo(() => {
+  const filteredPreviousRowsRaw = useMemo(() => {
     if (!previousSession) return [] as BaseRow[];
     return currentRows.filter((row) => {
       if (row.session !== previousSession) return false;
@@ -884,6 +890,34 @@ export default function TransitionDashboard(props: {
       return true;
     });
   }, [currentRows, previousSession, filters, disabilityMode, mode]);
+
+  const [lastNonEmptyCurrentRows, setLastNonEmptyCurrentRows] = useState<BaseRow[]>([]);
+  const [lastNonEmptyPreviousRows, setLastNonEmptyPreviousRows] = useState<BaseRow[]>([]);
+
+  useEffect(() => {
+    if (filteredCurrentRowsRaw.length) setLastNonEmptyCurrentRows(filteredCurrentRowsRaw);
+  }, [filteredCurrentRowsRaw]);
+
+  useEffect(() => {
+    if (filteredPreviousRowsRaw.length) setLastNonEmptyPreviousRows(filteredPreviousRowsRaw);
+  }, [filteredPreviousRowsRaw]);
+  const scopePending = requestedScopeKey !== loadedScopeKey;
+
+  const filteredCurrentRows = useMemo(
+    () =>
+      (loading || scopePending) && !filteredCurrentRowsRaw.length && lastNonEmptyCurrentRows.length
+        ? lastNonEmptyCurrentRows
+        : filteredCurrentRowsRaw,
+    [loading, scopePending, filteredCurrentRowsRaw, lastNonEmptyCurrentRows],
+  );
+
+  const filteredPreviousRows = useMemo(
+    () =>
+      (loading || scopePending) && !filteredPreviousRowsRaw.length && lastNonEmptyPreviousRows.length
+        ? lastNonEmptyPreviousRows
+        : filteredPreviousRowsRaw,
+    [loading, scopePending, filteredPreviousRowsRaw, lastNonEmptyPreviousRows],
+  );
 
   const currentMetrics = useMemo(() => aggregateRows(filteredCurrentRows), [filteredCurrentRows]);
   const previousMetrics = useMemo(() => aggregateRows(filteredPreviousRows), [filteredPreviousRows]);

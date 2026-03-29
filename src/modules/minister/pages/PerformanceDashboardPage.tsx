@@ -1198,13 +1198,15 @@ export default function PerformanceDashboard({
   const [error, setError] = useState<string | null>(null);
   const [expandState, setExpandState] = useState<ExpandState>(null);
   const expandedPanelRef = useRef<HTMLDivElement | null>(null);
+  const requestedScopeKey = useMemo(() => canonicalState(filters.state), [filters.state]);
+  const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
 
   useEffect(() => {
     let mounted = true;
 
     const fetchData = async () => {
       try {
-        setLoading((prev) => prev && !rows.length);
+        setLoading(true);
         setError(null);
         const [factRows, benchmarkRows] = await Promise.all([
           loadRefinedPageRows<PerformanceRow>("performance", filters.state),
@@ -1214,6 +1216,7 @@ export default function PerformanceDashboard({
         if (!mounted) return;
         setRows(factRows);
         setBenchmarks(benchmarkRows);
+        setLoadedScopeKey(requestedScopeKey);
       } catch (loadError) {
         if (!mounted) return;
         setError(loadError instanceof Error ? loadError.message : "Failed to load performance data");
@@ -1229,7 +1232,7 @@ export default function PerformanceDashboard({
     return () => {
       mounted = false;
     };
-  }, [dimSessions, filters.state]);
+  }, [dimSessions, filters.state, requestedScopeKey]);
 
   useEffect(() => {
     if (!expandState) return undefined;
@@ -1251,11 +1254,28 @@ export default function PerformanceDashboard({
     return current?.prev_session_id ?? "";
   }, [dimSessions, filters.session]);
 
-  const baseRows = useMemo(() => filterRows(rows, filters, disabilityMode), [rows, filters, disabilityMode]);
-  const previousRows = useMemo(() => {
+  const baseRowsRaw = useMemo(() => filterRows(rows, filters, disabilityMode), [rows, filters, disabilityMode]);
+  const previousRowsRaw = useMemo(() => {
     if (!previousSession) return [];
     return filterRows(rows, { ...filters, session: previousSession }, disabilityMode);
   }, [rows, filters, previousSession, disabilityMode]);
+  const [lastNonEmptyBaseRows, setLastNonEmptyBaseRows] = useState<PerformanceRow[]>([]);
+  const [lastNonEmptyPreviousRows, setLastNonEmptyPreviousRows] = useState<PerformanceRow[]>([]);
+  useEffect(() => {
+    if (baseRowsRaw.length) setLastNonEmptyBaseRows(baseRowsRaw);
+  }, [baseRowsRaw]);
+  useEffect(() => {
+    if (previousRowsRaw.length) setLastNonEmptyPreviousRows(previousRowsRaw);
+  }, [previousRowsRaw]);
+  const scopePending = requestedScopeKey !== loadedScopeKey;
+  const baseRows = useMemo(
+    () => ((loading || scopePending) && !baseRowsRaw.length && lastNonEmptyBaseRows.length ? lastNonEmptyBaseRows : baseRowsRaw),
+    [loading, scopePending, baseRowsRaw, lastNonEmptyBaseRows],
+  );
+  const previousRows = useMemo(
+    () => ((loading || scopePending) && !previousRowsRaw.length && lastNonEmptyPreviousRows.length ? lastNonEmptyPreviousRows : previousRowsRaw),
+    [loading, scopePending, previousRowsRaw, lastNonEmptyPreviousRows],
+  );
   const trendRows = useMemo(() => filterRows(rows, filters, disabilityMode, true), [rows, filters, disabilityMode]);
 
   const waecRows = useMemo(() => filterRowsForExam(baseRows, "WAEC"), [baseRows]);

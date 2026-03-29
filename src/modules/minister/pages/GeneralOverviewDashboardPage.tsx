@@ -8,7 +8,7 @@ import {
   FileCheck, GraduationCap, HelpCircle, Maximize2, Minus, RotateCw, School, Users, X,
 } from "lucide-react";
 import type { DimSession, MinisterFilters } from "../types";
-import { loadRefinedFile, loadRefinedScopedRows } from "../utils/refinedPageData";
+import { canonicalState, loadRefinedFile, loadRefinedScopedRows } from "../utils/refinedPageData";
 // ─── Row types ────────────────────────────────────────────────────────────────
 type AccessWardRow = {
   session: string; zone: string; state: string; lga: string; ward: string;
@@ -456,7 +456,7 @@ function buildPupilTeacherRatioByLocationChart(
       data,
       layout,
       scrollable: true,
-      scrollMaxHeight: 300,
+      scrollMaxHeight: 350,
       expandedMaxHeight: 340,
       expandedWidthClass: "max-w-[920px]",
       fixedLegend: [
@@ -2076,6 +2076,11 @@ export default function GeneralOverviewDashboard({
   const [loanRows, setLoanRows] = useState<PolicyLoanRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [dataErr, setDataErr] = useState<string | null>(null);
+  const requestedScopeKey = useMemo(
+    () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}|${filters.school}`,
+    [filters.state, filters.lga, filters.ward, filters.school],
+  );
+  const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
 
   useEffect(() => {
     let alive = true;
@@ -2095,6 +2100,7 @@ export default function GeneralOverviewDashboard({
         setTransitionRows(transitions);
         setPolicyRows(policies);
         setLoanRows(loans);
+        setLoadedScopeKey(requestedScopeKey);
       } catch (err) {
         if (!alive) return;
         setDataErr(err instanceof Error ? err.message : "Failed to load data");
@@ -2103,7 +2109,7 @@ export default function GeneralOverviewDashboard({
       }
     })();
     return () => { alive = false; };
-  }, [filters.state]);
+  }, [filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey]);
 
   const expectedLocLevel = useMemo<"state" | "lga" | "ward" | "school">(
     () => (!filters.state ? "state" : filters.school || filters.ward ? "school" : filters.lga ? "ward" : "lga"),
@@ -2111,7 +2117,7 @@ export default function GeneralOverviewDashboard({
   );
 
   // ── Filtered rows ────────────────────────────────────────────────────────────
-  const currentRows = useMemo(() => wardRows.filter(r => {
+  const currentRowsRaw = useMemo(() => wardRows.filter(r => {
     if (filters.session && r.session !== filters.session) return false;
     if (filters.zone && !geoMatches(r.zone, filters.zone)) return false;
     if (filters.state && !geoMatches(r.state, filters.state)) return false;
@@ -2123,7 +2129,7 @@ export default function GeneralOverviewDashboard({
 
   // Rows scoped only to session/zone/disability — excludes state/lga
   // so the national density map always shows all states even when a state filter is active
-  const densityBaseRows = useMemo(() => wardRows.filter(r => {
+  const densityBaseRowsRaw = useMemo(() => wardRows.filter(r => {
     if (filters.session && r.session !== filters.session) return false;
     if (filters.zone && !geoMatches(r.zone, filters.zone)) return false;
     if (r.loc_level && r.loc_level.toLowerCase() !== expectedLocLevel) return false;
@@ -2131,7 +2137,7 @@ export default function GeneralOverviewDashboard({
     return true;
   }), [wardRows, filters.session, filters.zone, disabilityMode, expectedLocLevel]);
 
-  const currentTeacher = useMemo(() => teacherRows.filter(r => {
+  const currentTeacherRaw = useMemo(() => teacherRows.filter(r => {
     if (filters.session && r.session !== filters.session) return false;
     if (filters.zone && !geoMatches(r.zone, filters.zone)) return false;
     if (filters.state && !geoMatches(r.state, filters.state)) return false;
@@ -2141,7 +2147,7 @@ export default function GeneralOverviewDashboard({
     return true;
   }), [teacherRows, filters, disabilityMode, expectedLocLevel]);
 
-  const currentTransition = useMemo(() => transitionRows.filter(r => {
+  const currentTransitionRaw = useMemo(() => transitionRows.filter(r => {
     if (filters.session && r.session !== filters.session) return false;
     if (filters.zone && !geoMatches(r.zone, filters.zone)) return false;
     if (filters.state && !geoMatches(r.state, filters.state)) return false;
@@ -2159,15 +2165,12 @@ export default function GeneralOverviewDashboard({
     return true;
   }), [loanRows, filters]);
 
-  const iqsRows = useMemo(() => currentRows.filter(r => r.school_level === "Adult & Non-Formal"), [currentRows]);
-
-
   const previousSession = useMemo(() => {
     if (!filters.session || !dimSessions.length) return "";
     return dimSessions.find(s => s.session_id === filters.session)?.prev_session_id ?? "";
   }, [filters.session, dimSessions]);
 
-  const previousRows = useMemo(() => {
+  const previousRowsRaw = useMemo(() => {
     if (!previousSession) return [] as AccessWardRow[];
     return wardRows.filter(r => {
       if (r.session !== previousSession) return false;
@@ -2190,7 +2193,7 @@ export default function GeneralOverviewDashboard({
   };
 
 
-  const previousTransition = useMemo(() => {
+  const previousTransitionRaw = useMemo(() => {
     if (!previousSession) return [] as TransitionDirectRow[];
     return transitionRows.filter((row) => {
       if (row.session !== previousSession) return false;
@@ -2201,6 +2204,70 @@ export default function GeneralOverviewDashboard({
       return true;
     });
   }, [transitionRows, previousSession, filters, disabilityMode]);
+
+  const [lastNonEmptyCurrentRows, setLastNonEmptyCurrentRows] = useState<AccessWardRow[]>([]);
+  const [lastNonEmptyDensityRows, setLastNonEmptyDensityRows] = useState<AccessWardRow[]>([]);
+  const [lastNonEmptyCurrentTeacher, setLastNonEmptyCurrentTeacher] = useState<TeacherCapacityRow[]>([]);
+  const [lastNonEmptyCurrentTransition, setLastNonEmptyCurrentTransition] = useState<TransitionDirectRow[]>([]);
+  const [lastNonEmptyPreviousRows, setLastNonEmptyPreviousRows] = useState<AccessWardRow[]>([]);
+  const [lastNonEmptyPreviousTransition, setLastNonEmptyPreviousTransition] = useState<TransitionDirectRow[]>([]);
+
+  useEffect(() => {
+    if (currentRowsRaw.length) setLastNonEmptyCurrentRows(currentRowsRaw);
+  }, [currentRowsRaw]);
+
+  useEffect(() => {
+    if (densityBaseRowsRaw.length) setLastNonEmptyDensityRows(densityBaseRowsRaw);
+  }, [densityBaseRowsRaw]);
+
+  useEffect(() => {
+    if (currentTeacherRaw.length) setLastNonEmptyCurrentTeacher(currentTeacherRaw);
+  }, [currentTeacherRaw]);
+
+  useEffect(() => {
+    if (currentTransitionRaw.length) setLastNonEmptyCurrentTransition(currentTransitionRaw);
+  }, [currentTransitionRaw]);
+
+  useEffect(() => {
+    if (previousRowsRaw.length) setLastNonEmptyPreviousRows(previousRowsRaw);
+  }, [previousRowsRaw]);
+
+  useEffect(() => {
+    if (previousTransitionRaw.length) setLastNonEmptyPreviousTransition(previousTransitionRaw);
+  }, [previousTransitionRaw]);
+  const scopePending = requestedScopeKey !== loadedScopeKey;
+
+  const currentRows = useMemo(
+    () => ((loading || scopePending) && !currentRowsRaw.length && lastNonEmptyCurrentRows.length ? lastNonEmptyCurrentRows : currentRowsRaw),
+    [loading, scopePending, currentRowsRaw, lastNonEmptyCurrentRows],
+  );
+  const densityBaseRows = useMemo(
+    () => ((loading || scopePending) && !densityBaseRowsRaw.length && lastNonEmptyDensityRows.length ? lastNonEmptyDensityRows : densityBaseRowsRaw),
+    [loading, scopePending, densityBaseRowsRaw, lastNonEmptyDensityRows],
+  );
+  const currentTeacher = useMemo(
+    () => ((loading || scopePending) && !currentTeacherRaw.length && lastNonEmptyCurrentTeacher.length ? lastNonEmptyCurrentTeacher : currentTeacherRaw),
+    [loading, scopePending, currentTeacherRaw, lastNonEmptyCurrentTeacher],
+  );
+  const currentTransition = useMemo(
+    () =>
+      (loading || scopePending) && !currentTransitionRaw.length && lastNonEmptyCurrentTransition.length
+        ? lastNonEmptyCurrentTransition
+        : currentTransitionRaw,
+    [loading, scopePending, currentTransitionRaw, lastNonEmptyCurrentTransition],
+  );
+  const previousRows = useMemo(
+    () => ((loading || scopePending) && !previousRowsRaw.length && lastNonEmptyPreviousRows.length ? lastNonEmptyPreviousRows : previousRowsRaw),
+    [loading, scopePending, previousRowsRaw, lastNonEmptyPreviousRows],
+  );
+  const previousTransition = useMemo(
+    () =>
+      (loading || scopePending) && !previousTransitionRaw.length && lastNonEmptyPreviousTransition.length
+        ? lastNonEmptyPreviousTransition
+        : previousTransitionRaw,
+    [loading, scopePending, previousTransitionRaw, lastNonEmptyPreviousTransition],
+  );
+  const iqsRows = useMemo(() => currentRows.filter(r => r.school_level === "Adult & Non-Formal"), [currentRows]);
 
   // ── Drill states ─────────────────────────────────────────────────────────────
   const [dropoffDrill, setDropoffDrill] = useState<DrillState>({});
