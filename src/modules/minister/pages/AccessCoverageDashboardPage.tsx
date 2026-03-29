@@ -285,7 +285,7 @@ const CHART_HELP: Record<ChartKey, string> = {
   primaryStudentCombinedGenderState: "Primary Student Count by State (Public/Private and Gender) clusters each state into two bars: Public and Private. Each bar is then stacked by Male and Female so the management split and gender split are both visible at once. Click a state in normal mode to drill to LGA.",
   secondaryStudentCombinedGenderState: "Secondary Student Count by State (Public/Private and Gender) clusters each state into two bars: Public and Private. Each bar is then stacked by Male and Female so the management split and gender split are both visible at once. Click a state in normal mode to drill to LGA.",
   studentCountGender: "Public vs Private Student Count by Gender compares male and female enrollment volume across public and private schooling.",
-  funnel: "Enrollment Trend by Class Level shows learner volume across every class grade for all available sessions as separate trend lines. The most recent session is solid; earlier sessions are dashed. Hover any point to see the exact count. Labels above each point show the formatted value.",
+  funnel: "Enrollment Trend by Class Level shows learner volume across every class grade for all available sessions as separate trend lines. The most recent session is emphasized while earlier sessions stay lighter and dashed for easier comparison. Hover the chart to see the exact count for each session at the selected class level.",
   progression: "Enrollment Progression Table compares each class level between the previous session and the current session so the movement is easier to read. It shows previous learners, current learners, net change, and change rate by class level.",
   keyEntryState: "Enrollment by Key Entry Level and State compares Primary 1, JSS1, and SSS1 by state using horizontal stacked bars. It stays scrollable and drills from state to LGA.",
   keyEntryGender: "Enrollment by Key Entry Level and Gender compares male and female enrollment at Primary 1, JSS1, and SSS1 so early access gaps are easy to spot.",
@@ -3046,9 +3046,9 @@ export default function AccessCoverageDashboard({
         },
         scrollable: isScrollable,
         scrollMaxHeight: isScrollable ? 420 : undefined,
-        expandedMaxHeight: isScrollable ? 480 : 420,
+        expandedMaxHeight: isScrollable ? 410 : 360,
         fixedLegend: isScrollable ? legendItemsFromData(traces) : undefined,
-        expandedWidthClass: "max-w-[980px]",
+        expandedWidthClass: "max-w-[880px]",
       },
     };
   };
@@ -3311,6 +3311,9 @@ export default function AccessCoverageDashboard({
   const funnelChart = useMemo<ChartBundle>(() => {
     const sessions = availableSessions.filter((session) => !["2019/2020", "2020/2021"].includes(session));
     const sessionColors = ["#2563eb", "#ef4444", "#10b981", "#f59e0b", "#8b5cf6", "#ec4899", "#06b6d4", "#84cc16"];
+    const markerSymbols = ["circle", "square", "diamond", "triangle-up", "triangle-down", "cross", "x", "pentagon"] as const;
+    const classLevelPositions = CLASS_LEVELS.map((_, index) => index);
+    const historicalDashPatterns = ["dash", "dot", "longdash", "dashdot", "longdashdot"] as const;
 
     const sessionCounts: number[][] = sessions.map((session) => {
       const rows = wardRows.filter((row) => row.session === session);
@@ -3321,86 +3324,54 @@ export default function AccessCoverageDashboard({
 
     const allValues = sessionCounts.flat().filter((value) => value > 0);
     const maxVal = allValues.length ? Math.max(...allValues) : 1;
-    const baseGap = maxVal * 0.16;
-    const yStep = maxVal * 0.085;
-
-    const labelOffsets: number[][] = sessionCounts.map(() => CLASS_LEVELS.map(() => 0));
-    CLASS_LEVELS.forEach((_, gradeIndex) => {
-      const entries = sessions
-        .map((_, sessionIndex) => ({ sessionIndex, value: sessionCounts[sessionIndex][gradeIndex] }))
-        .filter((entry) => entry.value > 0)
-        .sort((left, right) => right.value - left.value);
-
-      entries.forEach((entry, orderIndex) => {
-        labelOffsets[entry.sessionIndex][gradeIndex] = baseGap + (orderIndex * yStep);
-      });
-    });
-
-    const traces: PlotlyData[] = sessions.flatMap((session, sessionIndex) => {
+    const traces: PlotlyData[] = sessions.map((session, sessionIndex) => {
       const counts = sessionCounts[sessionIndex];
-      const offsets = labelOffsets[sessionIndex];
       const color = sessionColors[sessionIndex % sessionColors.length];
-      const reverseIndex = sessions.length - 1 - sessionIndex;
-      const dash = sessionIndex === sessions.length - 1 ? "solid" : sessionIndex === sessions.length - 2 ? "dash" : "dot";
+      const recencyIndex = sessions.length - 1 - sessionIndex;
+      const dash = recencyIndex === 0 ? "solid" : historicalDashPatterns[(recencyIndex - 1) % historicalDashPatterns.length];
 
-      const lineTrace: PlotlyData = {
+      return {
         type: "scatter",
         mode: "lines+markers",
         name: session,
-        x: [...CLASS_LEVELS],
+        x: classLevelPositions,
         y: counts,
-        line: { color, width: sessionIndex === sessions.length - 1 ? 3.5 : 2.2, dash, shape: "spline", smoothing: 0.7 },
-        marker: { size: sessionIndex === sessions.length - 1 ? 9 : 7, color, symbol: "circle" },
-        hovertemplate: `<b>${session}</b><br>%{x}: <b>%{y:,.0f}</b><extra></extra>`,
-      };
-
-      const labelTrace: PlotlyData = {
-        type: "scatter",
-        mode: "text",
-        name: `${session} labels`,
-        x: [...CLASS_LEVELS],
-        y: counts.map((value, gradeIndex) => (value > 0 ? value + offsets[gradeIndex] : null)),
-        text: counts.map((value) => (value > 0 ? fmtShort(value) : "")),
-        textposition: reverseIndex % 2 === 0 ? "top center" : "middle right",
-        textfont: {
-          size: 10,
+        line: { color, width: recencyIndex === 0 ? 4 : 2.4, dash, shape: "linear" },
+        marker: {
+          size: recencyIndex === 0 ? 8 : 6,
           color,
-          family: "Inter, system-ui, sans-serif",
+          symbol: markerSymbols[sessionIndex % markerSymbols.length],
+          line: { color: "#ffffff", width: recencyIndex === 0 ? 1.2 : 0.9 },
         },
-        hoverinfo: "skip",
-        showlegend: false,
-        cliponaxis: false,
+        opacity: recencyIndex === 0 ? 1 : 0.76,
+        customdata: [...CLASS_LEVELS],
+        hovertemplate: `<b>${session}</b><br>%{customdata}: <b>%{y:,.0f}</b><extra></extra>`,
       };
-
-      return [lineTrace, labelTrace];
     });
 
-    const yMax = maxVal * 2.2;
+    const yMax = maxVal * 1.14;
 
     return {
       data: traces,
       layout: {
-        ...buildCommonLayout(700),
-        margin: { l: 66, r: 30, t: 24, b: 96 },
-        showlegend: true,
-        legend: {
-          orientation: "h",
-          x: 0,
-          y: -0.22,
-          font: { size: 11, color: COLORS.sub },
-          traceorder: "normal",
-        },
+        ...buildCommonLayout(350),
+        margin: { l: 58, r: 18, t: 12, b: 46 },
+        showlegend: false,
+        hovermode: "x unified",
         xaxis: {
-          tickfont: { color: COLORS.sub },
-          categoryorder: "array",
-          categoryarray: [...CLASS_LEVELS],
-          tickangle: -25,
+          tickfont: { color: COLORS.sub, size: 11 },
+          tickmode: "array",
+          tickvals: classLevelPositions,
+          ticktext: [...CLASS_LEVELS],
+          tickangle: -18,
+          range: [-0.6, classLevelPositions.length - 0.4],
         },
         yaxis: {
-          tickfont: { color: COLORS.sub },
+          tickfont: { color: COLORS.sub, size: 11 },
           gridcolor: COLORS.grid,
           range: [0, yMax],
           tickformat: "~s",
+          nticks: 5,
         },
         shapes: [
           { type: "rect", xref: "x", yref: "paper", x0: -0.5, x1: 5.5, y0: 0, y1: 1, fillcolor: "rgba(37,99,235,0.04)", line: { width: 0 } },
@@ -3413,6 +3384,9 @@ export default function AccessCoverageDashboard({
           { x: 10, y: 0.98, xref: "x", yref: "paper", text: "SSS", showarrow: false, font: { size: 11, color: "#94a3b8" }, yanchor: "top" },
         ],
       },
+      fixedLegend: legendItemsFromData(traces),
+      expandedMaxHeight: 330,
+      expandedWidthClass: "max-w-[1160px]",
     };
   }, [availableSessions, wardRows]);
 
@@ -4522,7 +4496,7 @@ export default function AccessCoverageDashboard({
       {expandState ? (
         <div className="fixed inset-0 z-[95] flex items-center justify-center bg-slate-900/40 p-4 backdrop-blur-sm" onClick={() => setExpandState(null)}>
           <div ref={expandedPanelRef} onClick={(event: ReactMouseEvent<HTMLDivElement>) => event.stopPropagation()} className={[
-            "w-full overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl",
+            "flex max-h-[88vh] w-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl",
             expandedChart?.bundle.expandedWidthClass ?? (expandState.key === "progression" ? "max-w-[1100px]" : "max-w-[940px]"),
           ].join(" ")}>
             <div className="flex items-center justify-between gap-4 border-b border-slate-100 px-5 py-4">
@@ -4534,7 +4508,7 @@ export default function AccessCoverageDashboard({
                 <X className="h-4 w-4" />
               </button>
             </div>
-            <div className="p-5">
+            <div className="min-h-0 overflow-y-auto p-5">
               {expandState.key === "progression" ? (
                 <ProgressionTable
                   rows={progressionRows}

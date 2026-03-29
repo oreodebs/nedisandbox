@@ -1,7 +1,7 @@
 import { Suspense, lazy, useEffect, useMemo, useState } from "react";
 import type { ChangeEvent, ReactNode } from "react";
 import { useSearchParams } from "react-router-dom";
-import { Accessibility, ArrowRight, BookOpen, Users } from "lucide-react";
+import { Accessibility, ArrowRight, BookOpen, ChevronUp, Users } from "lucide-react";
 
 import MinisterLayout from "../../../layouts/MinisterLayout";
 import type {
@@ -442,6 +442,7 @@ export default function MinisterDashboardPage({
   const [disabilityMode, setDisabilityMode] = useState(false);
   const [directMode, setDirectMode] = useState(false);
   const [basicSecondaryView, setBasicSecondaryView] = useState<BasicSecondaryView>("access_coverage");
+  const [showScrollTop, setShowScrollTop] = useState(false);
   // const [admittedMode, setAdmittedMode] = useState(false);
   const [filters, setFilters] = useState<MinisterFilters>({
     session: "",
@@ -1164,7 +1165,21 @@ export default function MinisterDashboardPage({
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
     document.documentElement.scrollTo({ top: 0, left: 0, behavior: "auto" });
     document.body.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    setShowScrollTop(false);
   }, [category, basicSecondaryView, directMode]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 320);
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const resetFilters = () => {
     const latestSession = dimLatestSessionId || latestSessionId;
@@ -1581,6 +1596,19 @@ export default function MinisterDashboardPage({
           />
         ) : null}
       </div>
+
+      <button
+        type="button"
+        aria-label="Scroll to top"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        className={[
+          "fixed bottom-6 right-6 z-[80] inline-flex h-11 w-11 items-center justify-center rounded-full bg-emerald-600 text-white shadow-lg transition-all duration-200",
+          "hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-300 focus:ring-offset-2",
+          showScrollTop ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-3 opacity-0",
+        ].join(" ")}
+      >
+        <ChevronUp className="h-5 w-5" />
+      </button>
     </MinisterLayout>
   );
 }
