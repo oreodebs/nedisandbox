@@ -2509,7 +2509,7 @@ setDropoffDrill({}); setIqsDrill({});
         marker: { color: [COLORS.ss3, COLORS.olevel, COLORS.utme, COLORS.admit, COLORS.matric] },
         hovertemplate: "%{customdata[0]}<br><b>%{customdata[1]:,.0f}</b><br>%{customdata[2]}<extra></extra>",
       }],
-      layout: { ...buildCommonLayout(245), margin: { l: 6, r: 6, t: 6, b: 6 }, xaxis: { showgrid: false, showticklabels: false, zeroline: false }, yaxis: { showgrid: false, zeroline: false }, showlegend: false },
+      layout: { ...buildCommonLayout(245), margin: { l: 6, r: 6, t: 6, b: 6 }, xaxis: { showgrid: false, showticklabels: false, zeroline: false }, yaxis: { showgrid: false, showticklabels: false, zeroline: false }, showlegend: false },
     };
   }, [currentMetrics]);
 
