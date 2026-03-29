@@ -13,12 +13,12 @@
  */
 
 import { loadCSV } from "./loadCSV";
+import { DATA_FETCH_CACHE_MODE, getDataVersion } from "./dataVersion";
 
 // ─── In-memory cache (survives re-renders, cleared on page reload) ─────────────
 const jsonCache = new Map<string, Promise<unknown[]>>();
 
-const DATA_VERSION =
-  (import.meta as { env?: { VITE_DATA_VERSION?: string } }).env?.VITE_DATA_VERSION ?? "v1";
+const DATA_VERSION = getDataVersion();
 
 function getDataBase(): string {
   const baseUrl =
@@ -31,7 +31,7 @@ function versionedUrl(path: string): string {
 }
 
 async function fetchGzJson(url: string): Promise<unknown[]> {
-  const res = await fetch(versionedUrl(url), { cache: "force-cache" });
+  const res = await fetch(versionedUrl(url), { cache: DATA_FETCH_CACHE_MODE });
   if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status}`);
 
   // Modern browsers decompress gzip automatically when Content-Encoding is set.

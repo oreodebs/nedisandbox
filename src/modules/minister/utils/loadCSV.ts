@@ -1,7 +1,8 @@
 import Papa from "papaparse";
+import { DATA_FETCH_CACHE_MODE, getDataVersion } from "./dataVersion";
 
 const csvPromiseCache = new Map<string, Promise<unknown[]>>();
-const DATA_VERSION = (import.meta as { env?: { VITE_DATA_VERSION?: string } }).env?.VITE_DATA_VERSION ?? "v20260328";
+const DATA_VERSION = getDataVersion();
 
 function normalizeKey(url: string): string {
   const [base] = url.split("?");
@@ -16,7 +17,7 @@ function withVersion(url: string): string {
 
 async function fetchCsvText(url: string): Promise<string> {
   const finalUrl = withVersion(url);
-  const res = await fetch(finalUrl, { cache: "force-cache" });
+  const res = await fetch(finalUrl, { cache: DATA_FETCH_CACHE_MODE });
   if (!res.ok) {
     throw new Error(`Failed to fetch ${finalUrl}: ${res.status}`);
   }
