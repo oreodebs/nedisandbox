@@ -1253,12 +1253,17 @@ export default function PerformanceDashboard({
     const current = dimSessions.find((item) => item.session_id === filters.session);
     return current?.prev_session_id ?? "";
   }, [dimSessions, filters.session]);
+  const scopePending = requestedScopeKey !== loadedScopeKey;
+  const renderFilters = useMemo(
+    () => (scopePending ? { ...filters, state: loadedScopeKey } : filters),
+    [scopePending, filters, loadedScopeKey],
+  );
 
-  const baseRowsRaw = useMemo(() => filterRows(rows, filters, disabilityMode), [rows, filters, disabilityMode]);
+  const baseRowsRaw = useMemo(() => filterRows(rows, renderFilters, disabilityMode), [rows, renderFilters, disabilityMode]);
   const previousRowsRaw = useMemo(() => {
     if (!previousSession) return [];
-    return filterRows(rows, { ...filters, session: previousSession }, disabilityMode);
-  }, [rows, filters, previousSession, disabilityMode]);
+    return filterRows(rows, { ...renderFilters, session: previousSession }, disabilityMode);
+  }, [rows, renderFilters, previousSession, disabilityMode]);
   const [lastNonEmptyBaseRows, setLastNonEmptyBaseRows] = useState<PerformanceRow[]>([]);
   const [lastNonEmptyPreviousRows, setLastNonEmptyPreviousRows] = useState<PerformanceRow[]>([]);
   useEffect(() => {
@@ -1267,7 +1272,6 @@ export default function PerformanceDashboard({
   useEffect(() => {
     if (previousRowsRaw.length) setLastNonEmptyPreviousRows(previousRowsRaw);
   }, [previousRowsRaw]);
-  const scopePending = requestedScopeKey !== loadedScopeKey;
   const baseRows = useMemo(
     () => ((loading || scopePending) && !baseRowsRaw.length && lastNonEmptyBaseRows.length ? lastNonEmptyBaseRows : baseRowsRaw),
     [loading, scopePending, baseRowsRaw, lastNonEmptyBaseRows],
@@ -1276,7 +1280,7 @@ export default function PerformanceDashboard({
     () => ((loading || scopePending) && !previousRowsRaw.length && lastNonEmptyPreviousRows.length ? lastNonEmptyPreviousRows : previousRowsRaw),
     [loading, scopePending, previousRowsRaw, lastNonEmptyPreviousRows],
   );
-  const trendRows = useMemo(() => filterRows(rows, filters, disabilityMode, true), [rows, filters, disabilityMode]);
+  const trendRows = useMemo(() => filterRows(rows, renderFilters, disabilityMode, true), [rows, renderFilters, disabilityMode]);
 
   const waecRows = useMemo(() => filterRowsForExam(baseRows, "WAEC"), [baseRows]);
   const necoRows = useMemo(() => filterRowsForExam(baseRows, "NECO"), [baseRows]);
@@ -1396,36 +1400,36 @@ export default function PerformanceDashboard({
   const utmeGenderChart = useMemo(() => buildGenderChart(baseRows, "utme", "UTME"), [baseRows]);
 
   const waecZoneChart = useMemo(
-    () => buildLocationChart(waecRows, filters, "pass", waecBenchmark, "WAEC", DRILL_START_LEVEL.waecZone),
-    [waecRows, filters, waecBenchmark],
+    () => buildLocationChart(waecRows, renderFilters, "pass", waecBenchmark, "WAEC", DRILL_START_LEVEL.waecZone),
+    [waecRows, renderFilters, waecBenchmark],
   );
   const waecStateChart = useMemo(
-    () => buildLocationChart(waecRows, filters, "pass", waecBenchmark, "WAEC", DRILL_START_LEVEL.waecState),
-    [waecRows, filters, waecBenchmark],
+    () => buildLocationChart(waecRows, renderFilters, "pass", waecBenchmark, "WAEC", DRILL_START_LEVEL.waecState),
+    [waecRows, renderFilters, waecBenchmark],
   );
   const necoZoneChart = useMemo(
-    () => buildLocationChart(necoRows, filters, "pass", necoBenchmark, "NECO", DRILL_START_LEVEL.necoZone),
-    [necoRows, filters, necoBenchmark],
+    () => buildLocationChart(necoRows, renderFilters, "pass", necoBenchmark, "NECO", DRILL_START_LEVEL.necoZone),
+    [necoRows, renderFilters, necoBenchmark],
   );
   const necoStateChart = useMemo(
-    () => buildLocationChart(necoRows, filters, "pass", necoBenchmark, "NECO", DRILL_START_LEVEL.necoState),
-    [necoRows, filters, necoBenchmark],
+    () => buildLocationChart(necoRows, renderFilters, "pass", necoBenchmark, "NECO", DRILL_START_LEVEL.necoState),
+    [necoRows, renderFilters, necoBenchmark],
   );
   const nabtebZoneChart = useMemo(
-    () => buildLocationChart(nabtebRows, filters, "pass", nabtebBenchmark, "NABTEB", DRILL_START_LEVEL.nabtebZone),
-    [nabtebRows, filters, nabtebBenchmark],
+    () => buildLocationChart(nabtebRows, renderFilters, "pass", nabtebBenchmark, "NABTEB", DRILL_START_LEVEL.nabtebZone),
+    [nabtebRows, renderFilters, nabtebBenchmark],
   );
   const nabtebStateChart = useMemo(
-    () => buildLocationChart(nabtebRows, filters, "pass", nabtebBenchmark, "NABTEB", DRILL_START_LEVEL.nabtebState),
-    [nabtebRows, filters, nabtebBenchmark],
+    () => buildLocationChart(nabtebRows, renderFilters, "pass", nabtebBenchmark, "NABTEB", DRILL_START_LEVEL.nabtebState),
+    [nabtebRows, renderFilters, nabtebBenchmark],
   );
   const utmeZoneChart = useMemo(
-    () => buildLocationChart(baseRows, filters, "utme", utmeBenchmark, "UTME", DRILL_START_LEVEL.utmeZone),
-    [baseRows, filters, utmeBenchmark],
+    () => buildLocationChart(baseRows, renderFilters, "utme", utmeBenchmark, "UTME", DRILL_START_LEVEL.utmeZone),
+    [baseRows, renderFilters, utmeBenchmark],
   );
   const utmeStateChart = useMemo(
-    () => buildLocationChart(baseRows, filters, "utme", utmeBenchmark, "UTME", DRILL_START_LEVEL.utmeState),
-    [baseRows, filters, utmeBenchmark],
+    () => buildLocationChart(baseRows, renderFilters, "utme", utmeBenchmark, "UTME", DRILL_START_LEVEL.utmeState),
+    [baseRows, renderFilters, utmeBenchmark],
   );
   const trendChart = useMemo(() => buildTrendChart(trendRows), [trendRows]);
 

@@ -800,6 +800,17 @@ export default function TransitionDashboard(props: {
     [filters.state, filters.lga, filters.ward, filters.school],
   );
   const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
+  const [loadedLocation, setLoadedLocation] = useState({
+    state: filters.state,
+    lga: filters.lga,
+    ward: filters.ward,
+    school: filters.school,
+  });
+  const scopePending = requestedScopeKey !== loadedScopeKey;
+  const renderFilters = useMemo(
+    () => (scopePending ? { ...filters, ...loadedLocation } : filters),
+    [scopePending, filters, loadedLocation],
+  );
 
   useEffect(() => {
     let mounted = true;
@@ -818,6 +829,12 @@ export default function TransitionDashboard(props: {
         setGeneralRows(generalData);
         setDirectRows(directData);
         setLoadedScopeKey(requestedScopeKey);
+        setLoadedLocation({
+          state: filters.state,
+          lga: filters.lga,
+          ward: filters.ward,
+          school: filters.school,
+        });
       } catch (err) {
         if (!mounted) return;
         setError(err instanceof Error ? err.message : "Failed to load transition data");
@@ -858,38 +875,38 @@ export default function TransitionDashboard(props: {
 
   const filteredCurrentRowsRaw = useMemo(() => {
     return currentRows.filter((row) => {
-      if (row.session !== filters.session) return false;
-      if (filters.zone && row.zone !== filters.zone) return false;
-      if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
-      if (filters.lga && row.lga !== filters.lga) return false;
-      if (filters.ward && row.ward !== filters.ward) return false;
-      if (filters.school && row.school !== filters.school) return false;
-      if (filters.gender && row.gender !== filters.gender) return false;
+      if (row.session !== renderFilters.session) return false;
+      if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
+      if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
+      if (renderFilters.lga && row.lga !== renderFilters.lga) return false;
+      if (renderFilters.ward && row.ward !== renderFilters.ward) return false;
+      if (renderFilters.school && row.school !== renderFilters.school) return false;
+      if (renderFilters.gender && row.gender !== renderFilters.gender) return false;
       if (disabilityMode && row.disability !== "Disabled") return false;
       if (!disabilityMode && row.disability !== "ALL") return false;
-      if (filters.exam_body && row.exam_body !== filters.exam_body) return false;
-      if (mode === "general" && filters.gap_band && "gap_band" in row && row.gap_band !== filters.gap_band) return false;
+      if (renderFilters.exam_body && row.exam_body !== renderFilters.exam_body) return false;
+      if (mode === "general" && renderFilters.gap_band && "gap_band" in row && row.gap_band !== renderFilters.gap_band) return false;
       return true;
     });
-  }, [currentRows, filters, disabilityMode, mode]);
+  }, [currentRows, renderFilters, disabilityMode, mode]);
 
   const filteredPreviousRowsRaw = useMemo(() => {
     if (!previousSession) return [] as BaseRow[];
     return currentRows.filter((row) => {
       if (row.session !== previousSession) return false;
-      if (filters.zone && row.zone !== filters.zone) return false;
-      if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
-      if (filters.lga && row.lga !== filters.lga) return false;
-      if (filters.ward && row.ward !== filters.ward) return false;
-      if (filters.school && row.school !== filters.school) return false;
-      if (filters.gender && row.gender !== filters.gender) return false;
+      if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
+      if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
+      if (renderFilters.lga && row.lga !== renderFilters.lga) return false;
+      if (renderFilters.ward && row.ward !== renderFilters.ward) return false;
+      if (renderFilters.school && row.school !== renderFilters.school) return false;
+      if (renderFilters.gender && row.gender !== renderFilters.gender) return false;
       if (disabilityMode && row.disability !== "Disabled") return false;
       if (!disabilityMode && row.disability !== "ALL") return false;
-      if (filters.exam_body && row.exam_body !== filters.exam_body) return false;
-      if (mode === "general" && filters.gap_band && "gap_band" in row && row.gap_band !== filters.gap_band) return false;
+      if (renderFilters.exam_body && row.exam_body !== renderFilters.exam_body) return false;
+      if (mode === "general" && renderFilters.gap_band && "gap_band" in row && row.gap_band !== renderFilters.gap_band) return false;
       return true;
     });
-  }, [currentRows, previousSession, filters, disabilityMode, mode]);
+  }, [currentRows, previousSession, renderFilters, disabilityMode, mode]);
 
   const [lastNonEmptyCurrentRows, setLastNonEmptyCurrentRows] = useState<BaseRow[]>([]);
   const [lastNonEmptyPreviousRows, setLastNonEmptyPreviousRows] = useState<BaseRow[]>([]);
@@ -901,7 +918,6 @@ export default function TransitionDashboard(props: {
   useEffect(() => {
     if (filteredPreviousRowsRaw.length) setLastNonEmptyPreviousRows(filteredPreviousRowsRaw);
   }, [filteredPreviousRowsRaw]);
-  const scopePending = requestedScopeKey !== loadedScopeKey;
 
   const filteredCurrentRows = useMemo(
     () =>
@@ -923,21 +939,21 @@ export default function TransitionDashboard(props: {
   const previousMetrics = useMemo(() => aggregateRows(filteredPreviousRows), [filteredPreviousRows]);
   const sessionMedianFallback = useMemo(() => {
     const scopedSessionRows = currentRows.filter((row) => {
-      if (row.session !== filters.session) return false;
-      if (filters.gender && row.gender !== filters.gender) return false;
+      if (row.session !== renderFilters.session) return false;
+      if (renderFilters.gender && row.gender !== renderFilters.gender) return false;
       if (disabilityMode && row.disability !== 'Disabled') return false;
       if (!disabilityMode && row.disability !== 'ALL') return false;
-      if (filters.exam_body && row.exam_body !== filters.exam_body) return false;
-      if (mode === 'general' && filters.gap_band && 'gap_band' in row && row.gap_band !== filters.gap_band) return false;
+      if (renderFilters.exam_body && row.exam_body !== renderFilters.exam_body) return false;
+      if (mode === 'general' && renderFilters.gap_band && 'gap_band' in row && row.gap_band !== renderFilters.gap_band) return false;
       return true;
     });
     const scopedMedian = aggregateRows(scopedSessionRows).median_time_to_matriculation_years;
     if (scopedMedian > 0) return scopedMedian;
-    const sessionRows = currentRows.filter((row) => row.session === filters.session);
+    const sessionRows = currentRows.filter((row) => row.session === renderFilters.session);
     const sessionMedian = aggregateRows(sessionRows).median_time_to_matriculation_years;
     if (sessionMedian > 0) return sessionMedian;
     return aggregateRows(currentRows).median_time_to_matriculation_years;
-  }, [currentRows, filters.session, filters.gender, filters.exam_body, filters.gap_band, disabilityMode, mode]);
+  }, [currentRows, renderFilters.session, renderFilters.gender, renderFilters.exam_body, renderFilters.gap_band, disabilityMode, mode]);
   const lossRows = useMemo(() => buildLossRows(currentMetrics, mode), [currentMetrics, mode]);
 
   const cards = useMemo<MetricCard[]>(() => {
@@ -1181,16 +1197,16 @@ const progressionChart = useMemo<ChartBundle>(() => {
 
     const byGap = GAP_OPTIONS.map((gap) => {
       const metrics = aggregateRows(generalRows.filter((row) => {
-        if (row.session !== filters.session) return false;
-        if (filters.zone && row.zone !== filters.zone) return false;
-        if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
-        if (filters.lga && row.lga !== filters.lga) return false;
-        if (filters.ward && row.ward !== filters.ward) return false;
-        if (filters.school && row.school !== filters.school) return false;
-        if (filters.gender && row.gender !== filters.gender) return false;
+        if (row.session !== renderFilters.session) return false;
+        if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
+        if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
+        if (renderFilters.lga && row.lga !== renderFilters.lga) return false;
+        if (renderFilters.ward && row.ward !== renderFilters.ward) return false;
+        if (renderFilters.school && row.school !== renderFilters.school) return false;
+        if (renderFilters.gender && row.gender !== renderFilters.gender) return false;
         if (disabilityMode && row.disability !== "Disabled") return false;
         if (!disabilityMode && row.disability !== "ALL") return false;
-        if (filters.exam_body && row.exam_body !== filters.exam_body) return false;
+        if (renderFilters.exam_body && row.exam_body !== renderFilters.exam_body) return false;
         return row.gap_band === gap;
       }));
       return { gap, value: metrics.matriculated_students };
@@ -1277,22 +1293,22 @@ const progressionChart = useMemo<ChartBundle>(() => {
         }),
       },
     };
-  }, [generalRows, filters, disabilityMode, mode]);
+  }, [generalRows, renderFilters, disabilityMode, mode]);
 
   const generalInstitutionTiming = useMemo<ChartBundle | null>(() => {
     if (mode !== "general") return null;
 
     const baseRows = generalRows.filter((row) => {
-      if (row.session !== filters.session) return false;
-      if (filters.zone && row.zone !== filters.zone) return false;
-      if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
-      if (filters.lga && row.lga !== filters.lga) return false;
-      if (filters.ward && row.ward !== filters.ward) return false;
-      if (filters.school && row.school !== filters.school) return false;
-      if (filters.gender && row.gender !== filters.gender) return false;
+      if (row.session !== renderFilters.session) return false;
+      if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
+      if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
+      if (renderFilters.lga && row.lga !== renderFilters.lga) return false;
+      if (renderFilters.ward && row.ward !== renderFilters.ward) return false;
+      if (renderFilters.school && row.school !== renderFilters.school) return false;
+      if (renderFilters.gender && row.gender !== renderFilters.gender) return false;
       if (disabilityMode && row.disability !== "Disabled") return false;
       if (!disabilityMode && row.disability !== "ALL") return false;
-      if (filters.exam_body && row.exam_body !== filters.exam_body) return false;
+      if (renderFilters.exam_body && row.exam_body !== renderFilters.exam_body) return false;
       return true;
     });
 
@@ -1323,7 +1339,7 @@ const progressionChart = useMemo<ChartBundle>(() => {
         margin: { l: 55, r: 18, t: 12, b: 70 },
       },
     };
-  }, [generalRows, filters, disabilityMode, mode]);
+  }, [generalRows, renderFilters, disabilityMode, mode]);
 
   const lossByGenderChart = useMemo<ChartBundle>(() => {
     const male = aggregateRows(filteredCurrentRows.filter((row) => row.gender === "Male"));

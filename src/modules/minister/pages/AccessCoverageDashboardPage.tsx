@@ -2239,6 +2239,17 @@ export default function AccessCoverageDashboard({
     [filters.state, filters.lga, filters.ward, filters.school],
   );
   const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
+  const [loadedLocation, setLoadedLocation] = useState({
+    state: filters.state,
+    lga: filters.lga,
+    ward: filters.ward,
+    school: filters.school,
+  });
+  const scopePending = requestedScopeKey !== loadedScopeKey;
+  const renderFilters = useMemo(
+    () => (scopePending ? { ...filters, ...loadedLocation } : filters),
+    [scopePending, filters, loadedLocation],
+  );
 
   const expandedPanelRef = useOutsideClose<HTMLDivElement>(Boolean(expandState), () => setExpandState(null));
 
@@ -2262,6 +2273,12 @@ export default function AccessCoverageDashboard({
         setAlmajiriRows(almajiriData);
         setTransitionRows(transitionData);
         setLoadedScopeKey(requestedScopeKey);
+        setLoadedLocation({
+          state: filters.state,
+          lga: filters.lga,
+          ward: filters.ward,
+          school: filters.school,
+        });
       } catch (loadError) {
         if (!active) return;
         setError(loadError instanceof Error ? loadError.message : "Failed to load Access & Coverage data");
@@ -2300,26 +2317,26 @@ export default function AccessCoverageDashboard({
   );
 
   const expectedLocLevel = useMemo<"state" | "lga" | "ward" | "school">(
-    () => (!filters.state ? "state" : filters.school || filters.ward ? "school" : filters.lga ? "ward" : "lga"),
-    [filters.state, filters.lga, filters.ward, filters.school],
+    () => (!renderFilters.state ? "state" : renderFilters.school || renderFilters.ward ? "school" : renderFilters.lga ? "ward" : "lga"),
+    [renderFilters.state, renderFilters.lga, renderFilters.ward, renderFilters.school],
   );
 
   const baseRows = useMemo(() => {
     return wardRows.filter((row) => {
-      if (filters.zone && row.zone !== filters.zone) return false;
-      if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
-      if (filters.lga && row.lga !== filters.lga) return false;
-      if (filters.ward && row.ward !== filters.ward) return false;
+      if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
+      if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
+      if (renderFilters.lga && row.lga !== renderFilters.lga) return false;
+      if (renderFilters.ward && row.ward !== renderFilters.ward) return false;
       if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
-      if (filters.gender && row.gender !== filters.gender) return false;
-      if (filters.school && !rowIncludesSchool(row, filters.school)) return false;
-      if (filters.school_type && row.school_type !== filters.school_type) return false;
-      if (filters.school_level && row.school_level !== filters.school_level) return false;
-      if (filters.class_grade && row.class_grade !== filters.class_grade) return false;
+      if (renderFilters.gender && row.gender !== renderFilters.gender) return false;
+      if (renderFilters.school && !rowIncludesSchool(row, renderFilters.school)) return false;
+      if (renderFilters.school_type && row.school_type !== renderFilters.school_type) return false;
+      if (renderFilters.school_level && row.school_level !== renderFilters.school_level) return false;
+      if (renderFilters.class_grade && row.class_grade !== renderFilters.class_grade) return false;
       if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
       return true;
     });
-  }, [wardRows, filters, disabilityMode, expectedLocLevel]);
+  }, [wardRows, renderFilters, disabilityMode, expectedLocLevel]);
 
   const currentRowsRaw = useMemo(() => baseRows.filter((row) => row.session === filters.session), [baseRows, filters.session]);
 
@@ -2333,14 +2350,14 @@ export default function AccessCoverageDashboard({
   const currentTransitionRowsRaw = useMemo(
     () =>
       transitionRows.filter((row) => {
-        if (row.session !== filters.session) return false;
-        if (filters.zone && row.zone !== filters.zone) return false;
-        if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
-        if (filters.lga && row.lga !== filters.lga) return false;
+        if (row.session !== renderFilters.session) return false;
+        if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
+        if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
+        if (renderFilters.lga && row.lga !== renderFilters.lga) return false;
         if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
         return true;
       }),
-    [transitionRows, filters.session, filters.zone, filters.state, filters.lga, disabilityMode],
+    [transitionRows, renderFilters.session, renderFilters.zone, renderFilters.state, renderFilters.lga, disabilityMode],
   );
 
   const previousTransitionRowsRaw = useMemo(
@@ -2348,14 +2365,14 @@ export default function AccessCoverageDashboard({
       previousSession
         ? transitionRows.filter((row) => {
             if (row.session !== previousSession) return false;
-            if (filters.zone && row.zone !== filters.zone) return false;
-            if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
-            if (filters.lga && row.lga !== filters.lga) return false;
+            if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
+            if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
+            if (renderFilters.lga && row.lga !== renderFilters.lga) return false;
             if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
             return true;
           })
         : [],
-    [transitionRows, previousSession, filters.zone, filters.state, filters.lga, disabilityMode],
+    [transitionRows, previousSession, renderFilters.zone, renderFilters.state, renderFilters.lga, disabilityMode],
   );
 
   const [lastNonEmptyCurrentRows, setLastNonEmptyCurrentRows] = useState<AccessWardRow[]>([]);
@@ -2378,7 +2395,6 @@ export default function AccessCoverageDashboard({
   useEffect(() => {
     if (previousTransitionRowsRaw.length) setLastNonEmptyPreviousTransitionRows(previousTransitionRowsRaw);
   }, [previousTransitionRowsRaw]);
-  const scopePending = requestedScopeKey !== loadedScopeKey;
 
   const currentRows = useMemo(
     () => ((loading || scopePending) && !currentRowsRaw.length && lastNonEmptyCurrentRows.length ? lastNonEmptyCurrentRows : currentRowsRaw),
@@ -2735,7 +2751,7 @@ export default function AccessCoverageDashboard({
     levelGroup: "primary" | "secondary",
     drill: DrillState,
   ): { level: LocationLevel; bundle: ChartBundle } => {
-    const effectiveState = drill.state ?? (filters.state || undefined);
+    const effectiveState = drill.state ?? (renderFilters.state || undefined);
     const level: LocationLevel = effectiveState ? "lga" : "state";
     const levelRows = sessionRows.filter((row) => levelGroup === "primary"
       ? row.school_level === "Pre-Primary/Primary"
@@ -2810,10 +2826,10 @@ export default function AccessCoverageDashboard({
     };
   };
 
-  const primarySchoolCountStateChart = useMemo(() => buildStatePublicPrivateChart("schools", "primary", schoolCountDrill), [sessionRows, schoolCountDrill.state, filters.state]);
-  const secondarySchoolCountStateChart = useMemo(() => buildStatePublicPrivateChart("schools", "secondary", schoolCountDrill), [sessionRows, schoolCountDrill.state, filters.state]);
-  const primaryStudentCountStateChart = useMemo(() => buildStatePublicPrivateChart("students", "primary", studentCountDrill), [sessionRows, studentCountDrill.state, filters.state]);
-  const secondaryStudentCountStateChart = useMemo(() => buildStatePublicPrivateChart("students", "secondary", studentCountDrill), [sessionRows, studentCountDrill.state, filters.state]);
+  const primarySchoolCountStateChart = useMemo(() => buildStatePublicPrivateChart("schools", "primary", schoolCountDrill), [sessionRows, schoolCountDrill.state, renderFilters.state]);
+  const secondarySchoolCountStateChart = useMemo(() => buildStatePublicPrivateChart("schools", "secondary", schoolCountDrill), [sessionRows, schoolCountDrill.state, renderFilters.state]);
+  const primaryStudentCountStateChart = useMemo(() => buildStatePublicPrivateChart("students", "primary", studentCountDrill), [sessionRows, studentCountDrill.state, renderFilters.state]);
+  const secondaryStudentCountStateChart = useMemo(() => buildStatePublicPrivateChart("students", "secondary", studentCountDrill), [sessionRows, studentCountDrill.state, renderFilters.state]);
 
   const buildStudentGenderBySchoolTypeChart = (
     schoolType: "Public" | "Private",
@@ -2895,7 +2911,7 @@ export default function AccessCoverageDashboard({
     levelGroup: "primary" | "secondary",
     drill: DrillState,
   ): { level: LocationLevel; bundle: ChartBundle } => {
-    const effectiveState = drill.state ?? (filters.state || undefined);
+    const effectiveState = drill.state ?? (renderFilters.state || undefined);
     const level: LocationLevel = effectiveState ? "lga" : "state";
     const levelRows = sessionRows.filter((row) =>
       levelGroup === "primary"
@@ -3037,11 +3053,11 @@ export default function AccessCoverageDashboard({
     };
   };
 
-  const primaryStudentCombinedGenderStateChart = useMemo(() => buildCombinedStudentGenderStateChart("primary", studentCountDrill), [sessionRows, studentCountDrill.state, filters.state]);
-  const secondaryStudentCombinedGenderStateChart = useMemo(() => buildCombinedStudentGenderStateChart("secondary", studentCountDrill), [sessionRows, studentCountDrill.state, filters.state]);
+  const primaryStudentCombinedGenderStateChart = useMemo(() => buildCombinedStudentGenderStateChart("primary", studentCountDrill), [sessionRows, studentCountDrill.state, renderFilters.state]);
+  const secondaryStudentCombinedGenderStateChart = useMemo(() => buildCombinedStudentGenderStateChart("secondary", studentCountDrill), [sessionRows, studentCountDrill.state, renderFilters.state]);
 
   const buildPrimaryDensityDrillChart = (schoolType: "Public" | "Private", drill: DrillState): ChartBundle | null => {
-    const activeState = drill.state ?? (filters.state || "");
+    const activeState = drill.state ?? (renderFilters.state || "");
     if (!activeState) return null;
     const scopedRows = currentRows.filter((row) => row.state === activeState && row.school_level === "Pre-Primary/Primary" && row.school_type === schoolType);
     const groups = aggregateBy(scopedRows, "lga")
@@ -3089,11 +3105,11 @@ export default function AccessCoverageDashboard({
     };
   };
 
-  const densityPublicDrillChart = useMemo<ChartBundle | null>(() => buildPrimaryDensityDrillChart("Public", densityDrill), [currentRows, densityDrill.state, filters.state]);
-  const densityPrivateDrillChart = useMemo<ChartBundle | null>(() => buildPrimaryDensityDrillChart("Private", densityPrivateDrill), [currentRows, densityPrivateDrill.state, filters.state]);
+  const densityPublicDrillChart = useMemo<ChartBundle | null>(() => buildPrimaryDensityDrillChart("Public", densityDrill), [currentRows, densityDrill.state, renderFilters.state]);
+  const densityPrivateDrillChart = useMemo<ChartBundle | null>(() => buildPrimaryDensityDrillChart("Private", densityPrivateDrill), [currentRows, densityPrivateDrill.state, renderFilters.state]);
 
   const densityCombinedDrillChart = useMemo<ChartBundle | null>(() => {
-    const activeState = densityDrill.state ?? (filters.state || "");
+    const activeState = densityDrill.state ?? (renderFilters.state || "");
     if (!activeState) return null;
     const scopedRows = currentRows.filter((row) => row.state === activeState && row.school_level === "Pre-Primary/Primary");
     const groups = aggregateBy(scopedRows, "lga")
@@ -3166,7 +3182,7 @@ export default function AccessCoverageDashboard({
       ],
       expandedWidthClass: "max-w-[920px]",
     };
-  }, [currentRows, densityDrill.state, filters.state]);
+  }, [currentRows, densityDrill.state, renderFilters.state]);
 
   const densitySchoolLevelChart = useMemo<ChartBundle>(() => {
     const schoolLevels = ["Pre-Primary/Primary", "JSS", "SSS", "Adult & Non-Formal"] as const;
@@ -3211,7 +3227,7 @@ export default function AccessCoverageDashboard({
     levelGroup: "primary" | "secondary",
     drill: DrillState,
   ): { level: LocationLevel; bundle: ChartBundle } => {
-    const effectiveState = drill.state ?? (filters.state || undefined);
+    const effectiveState = drill.state ?? (renderFilters.state || undefined);
     const level: LocationLevel = effectiveState ? "lga" : "state";
     const levelRows = sessionRows.filter((row) => levelGroup === "primary"
       ? row.school_level === "Pre-Primary/Primary"
@@ -3289,8 +3305,8 @@ export default function AccessCoverageDashboard({
     };
   };
 
-  const classroomPrimaryStateChart = useMemo(() => buildClassroomByStateChart("primary", classroomStateDrill), [sessionRows, classroomStateDrill.state, filters.state]);
-  const classroomSecondaryStateChart = useMemo(() => buildClassroomByStateChart("secondary", classroomStateDrill), [sessionRows, classroomStateDrill.state, filters.state]);
+  const classroomPrimaryStateChart = useMemo(() => buildClassroomByStateChart("primary", classroomStateDrill), [sessionRows, classroomStateDrill.state, renderFilters.state]);
+  const classroomSecondaryStateChart = useMemo(() => buildClassroomByStateChart("secondary", classroomStateDrill), [sessionRows, classroomStateDrill.state, renderFilters.state]);
 
   const funnelChart = useMemo<ChartBundle>(() => {
     const sessions = availableSessions.filter((session) => !["2019/2020", "2020/2021"].includes(session));
@@ -3403,7 +3419,7 @@ export default function AccessCoverageDashboard({
   const progressionRows = useMemo(() => buildProgressionRows(currentRows, previousRows), [currentRows, previousRows]);
 
   const keyEntryStateChart = useMemo<{ level: LocationLevel; bundle: ChartBundle }>(() => {
-    const effectiveState = keyEntryStateDrill.state ?? (filters.state || undefined);
+    const effectiveState = keyEntryStateDrill.state ?? (renderFilters.state || undefined);
     const level: LocationLevel = effectiveState ? "lga" : "state";
     const scopedRows = effectiveState ? sessionRows.filter((row) => row.state === effectiveState) : sessionRows;
     const labels = [...new Set(scopedRows.map((row) => locationLabel(row, level)).filter(Boolean))].sort((a, b) => a.localeCompare(b));
@@ -3448,7 +3464,7 @@ export default function AccessCoverageDashboard({
         expandedWidthClass: isScrollable ? "max-w-[920px]" : "max-w-[900px]",
       },
     };
-  }, [sessionRows, keyEntryStateDrill.state, filters.state]);
+  }, [sessionRows, keyEntryStateDrill.state, renderFilters.state]);
 
   const keyEntryGenderChart = useMemo<ChartBundle>(() => {
     const labels = [...KEY_ENTRY_LEVELS];
@@ -3650,7 +3666,7 @@ export default function AccessCoverageDashboard({
   ): SvgMapData | null => {
     // Effective state: use map's own drill.state, OR fall back to filters.state when a chart
     // drill has set the filter without updating the map drill yet.
-    const effectiveState = drill.state ?? (filters.state || undefined);
+    const effectiveState = drill.state ?? (renderFilters.state || undefined);
     const level: MapLevel = effectiveState ? "lga" : "state";
 
     const baseRows = effectiveState
@@ -3727,7 +3743,7 @@ export default function AccessCoverageDashboard({
   };
 
   const computerDrillChart = useMemo<ChartBundle | null>(() => {
-    const activeState = computerDrill.state ?? (filters.state || "");
+    const activeState = computerDrill.state ?? (renderFilters.state || "");
     if (!activeState) return null;
     const scopedRows = currentRows.filter((row) => row.state === activeState);
     const groups = aggregateBy(scopedRows, "lga")
@@ -3773,10 +3789,10 @@ export default function AccessCoverageDashboard({
       expandedMaxHeight: labels.length > 10 ? 430 : 400,
       expandedWidthClass: "max-w-[920px]",
     };
-  }, [computerDrill.state, currentRows, filters.state]);
+  }, [computerDrill.state, currentRows, renderFilters.state]);
 
-  const densityCombinedMapData = useMemo(() => buildMapData(densityDrill, "densityCombined"), [currentRows, densityDrill, filters.state]);
-  const computerMapData = useMemo(() => buildMapData(computerDrill, "computer"), [currentRows, computerDrill, filters.state]);
+  const densityCombinedMapData = useMemo(() => buildMapData(densityDrill, "densityCombined"), [currentRows, densityDrill, renderFilters.state]);
+  const computerMapData = useMemo(() => buildMapData(computerDrill, "computer"), [currentRows, computerDrill, renderFilters.state]);
   const infrastructureScoreChart = useMemo<{ bundle: ChartBundle; level: "state" | "lga" }>(() => {
     const scopedRows = infrastructureDrill.state
       ? currentRows.filter((row) => row.state === infrastructureDrill.state)
@@ -3839,7 +3855,7 @@ export default function AccessCoverageDashboard({
   }, [currentRows, infrastructureDrill]);
 
   const buildLevelComboChart = (schoolLevel: (typeof SCHOOL_LEVELS)[number], chartTitle: ChartKey): ChartBundle => {
-    const breakdownLevel: LocationLevel = filters.state ? "lga" : "state";
+    const breakdownLevel: LocationLevel = renderFilters.state ? "lga" : "state";
     const groups = aggregateBy(currentRows.filter((row) => row.school_level === schoolLevel), breakdownLevel).sort((a, b) => a.label.localeCompare(b.label));
     const labels = groups.map((group) => group.label);
     const displayLabels = labels.map((label) =>
@@ -3916,7 +3932,7 @@ export default function AccessCoverageDashboard({
       const rows = almajiriRows.filter((row) => {
         if (row.session !== filters.session) return false;
         if (filters.zone && row.zone !== filters.zone) return false;
-        if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
+        if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
         return true;
       });
       labels = [...new Set(rows.map((row) => row.state).filter(Boolean))].sort((a, b) => a.localeCompare(b));
@@ -3969,7 +3985,7 @@ export default function AccessCoverageDashboard({
       fixedLegend: isScrollable ? legendItemsFromData(data) : undefined,
       expandedWidthClass: isScrollable ? "max-w-[920px]" : "max-w-[900px]",
     };
-  }, [almajiriRows, almajiriDrill, filters.session, filters.zone, filters.state, currentRows]);
+  }, [almajiriRows, almajiriDrill, renderFilters.session, renderFilters.zone, renderFilters.state, currentRows]);
 
   const expandedCharts: Partial<Record<ChartKey, { bundle: ChartBundle; onPlotClick?: (event: PlotPointEvent) => void }>> = {
     densityMapPublic: { bundle: { data: [], layout: buildCommonLayout(10) } },

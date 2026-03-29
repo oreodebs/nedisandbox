@@ -1687,6 +1687,11 @@ export default function TeacherCapacityDashboard({
   const expandedPanelRef = useRef<HTMLDivElement | null>(null);
   const requestedScopeKey = useMemo(() => canonicalState(filters.state), [filters.state]);
   const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
+  const scopePending = requestedScopeKey !== loadedScopeKey;
+  const renderFilters = useMemo(
+    () => (scopePending ? { ...filters, state: loadedScopeKey } : filters),
+    [scopePending, filters, loadedScopeKey],
+  );
 
   useEffect(() => {
     let alive = true;
@@ -1733,13 +1738,12 @@ export default function TeacherCapacityDashboard({
     return () => document.removeEventListener("mousedown", onDocumentMouseDown);
   }, [expandState]);
 
-  const filteredRowsRaw = useMemo(() => filterTeacherRows(rows, filters, undefined, false), [rows, filters]);
+  const filteredRowsRaw = useMemo(() => filterTeacherRows(rows, renderFilters, undefined, false), [rows, renderFilters]);
   const [lastNonEmptyFilteredRows, setLastNonEmptyFilteredRows] = useState<TeacherCapacityRow[]>([]);
 
   useEffect(() => {
     if (filteredRowsRaw.length) setLastNonEmptyFilteredRows(filteredRowsRaw);
   }, [filteredRowsRaw]);
-  const scopePending = requestedScopeKey !== loadedScopeKey;
 
   const filteredRows = useMemo(
     () => ((loading || scopePending) && !filteredRowsRaw.length && lastNonEmptyFilteredRows.length ? lastNonEmptyFilteredRows : filteredRowsRaw),
@@ -1751,9 +1755,9 @@ export default function TeacherCapacityDashboard({
   const studentRows = useMemo(() => {
     if (!disabilityMode) return filteredRows;
 
-    const disabilityScopedRows = filterTeacherRows(rows, filters, undefined, true);
+    const disabilityScopedRows = filterTeacherRows(rows, renderFilters, undefined, true);
     return applyStudentDisabilityOverlay(filteredRows, disabilityScopedRows);
-  }, [rows, filters, filteredRows, disabilityMode]);
+  }, [rows, renderFilters, filteredRows, disabilityMode]);
 
   const qualificationRows = filteredRows;
 
@@ -1774,8 +1778,8 @@ export default function TeacherCapacityDashboard({
   const currentStudentRows = useMemo(() => (effectiveSession ? studentRows.filter((row) => row.session === effectiveSession) : studentRows), [studentRows, effectiveSession]);
   const previousTeacherRowsRaw = useMemo(() => {
     if (!previousSessionLabel) return [] as TeacherCapacityRow[];
-    return filterTeacherRows(rows, { ...filters, session: previousSessionLabel }, undefined, false);
-  }, [rows, filters, previousSessionLabel]);
+    return filterTeacherRows(rows, { ...renderFilters, session: previousSessionLabel }, undefined, false);
+  }, [rows, renderFilters, previousSessionLabel]);
   const [lastNonEmptyPreviousTeacherRows, setLastNonEmptyPreviousTeacherRows] = useState<TeacherCapacityRow[]>([]);
 
   useEffect(() => {
@@ -1791,8 +1795,8 @@ export default function TeacherCapacityDashboard({
   );
   const previousDisabilityRowsRaw = useMemo(() => {
     if (!previousSessionLabel) return [] as TeacherCapacityRow[];
-    return filterTeacherRows(rows, { ...filters, session: previousSessionLabel }, undefined, true);
-  }, [rows, filters, previousSessionLabel]);
+    return filterTeacherRows(rows, { ...renderFilters, session: previousSessionLabel }, undefined, true);
+  }, [rows, renderFilters, previousSessionLabel]);
   const [lastNonEmptyPreviousDisabilityRows, setLastNonEmptyPreviousDisabilityRows] = useState<TeacherCapacityRow[]>([]);
 
   useEffect(() => {
@@ -1878,19 +1882,19 @@ export default function TeacherCapacityDashboard({
     ];
   }, [currentTeacherRows, currentStudentRows, previousTeacherRows, previousStudentRows, effectiveSession, previousSessionLabel]);
 
-  const ptrSchoolTypeChart = useMemo(() => buildPupilTeacherRatioBySchoolTypeChart(studentRows, filters), [studentRows, filters]);
+  const ptrSchoolTypeChart = useMemo(() => buildPupilTeacherRatioBySchoolTypeChart(studentRows, renderFilters), [studentRows, renderFilters]);
   const ptrSchoolLevelChart = useMemo(() => buildPupilTeacherRatioBySchoolLevel(studentRows), [studentRows]);
   const teachersStateChart = useMemo(
-    () => buildPublicPrivateByLocationChart(teacherRows, filters, "teacher_count", "Teachers"),
-    [teacherRows, filters],
+    () => buildPublicPrivateByLocationChart(teacherRows, renderFilters, "teacher_count", "Teachers"),
+    [teacherRows, renderFilters],
   );
   const teachersStateOrder = useMemo(() => {
     const firstTrace = teachersStateChart?.bundle?.data?.[0] as { y?: string[] } | undefined;
     return Array.isArray(firstTrace?.y) ? firstTrace.y : [];
   }, [teachersStateChart]);
   const studentsStateChart = useMemo(
-    () => buildPublicPrivateByLocationChart(studentRows, filters, "student_count", "Students", teachersStateOrder),
-    [studentRows, filters, teachersStateOrder],
+    () => buildPublicPrivateByLocationChart(studentRows, renderFilters, "student_count", "Students", teachersStateOrder),
+    [studentRows, renderFilters, teachersStateOrder],
   );
   const teacherSplitChart = useMemo(() => buildTeacherSplitBySchoolLevel(teacherRows), [teacherRows]);
   const qualificationGroupChart = useMemo(() => buildQualificationGroupDonut(qualificationRows), [qualificationRows]);
@@ -1899,15 +1903,15 @@ export default function TeacherCapacityDashboard({
     [qualificationRows],
   );
   const qualificationStateChart = useMemo(
-    () => buildQualifiedUnqualifiedByLocationChart(qualificationRows, filters),
-    [qualificationRows, filters],
+    () => buildQualifiedUnqualifiedByLocationChart(qualificationRows, renderFilters),
+    [qualificationRows, renderFilters],
   );
   const qualificationGenderChart = useMemo(() => buildQualifiedRateByGender(qualificationRows), [qualificationRows]);
   const qualificationSchoolTypeChart = useMemo(
     () => buildQualifiedRateBySchoolType(qualificationRows),
     [qualificationRows],
   );
-  const trendRows = useMemo(() => filterTeacherRows(rows, filters, { ignoreSession: true }, false), [rows, filters]);
+  const trendRows = useMemo(() => filterTeacherRows(rows, renderFilters, { ignoreSession: true }, false), [rows, renderFilters]);
 
   const qualificationTrendChart = useMemo(() => buildQualificationTrend(trendRows, dimSessions), [trendRows, dimSessions]);
 

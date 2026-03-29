@@ -2081,6 +2081,17 @@ export default function GeneralOverviewDashboard({
     [filters.state, filters.lga, filters.ward, filters.school],
   );
   const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
+  const [loadedLocation, setLoadedLocation] = useState({
+    state: filters.state,
+    lga: filters.lga,
+    ward: filters.ward,
+    school: filters.school,
+  });
+  const scopePending = requestedScopeKey !== loadedScopeKey;
+  const renderFilters = useMemo(
+    () => (scopePending ? { ...filters, ...loadedLocation } : filters),
+    [scopePending, filters, loadedLocation],
+  );
 
   useEffect(() => {
     let alive = true;
@@ -2097,10 +2108,16 @@ export default function GeneralOverviewDashboard({
         if (!alive) return;
         setWardRows(wards);
         setTeacherRows(teachers);
-        setTransitionRows(transitions);
-        setPolicyRows(policies);
-        setLoanRows(loans);
+        setTransitionRows(transitions);
+        setPolicyRows(policies);
+        setLoanRows(loans);
         setLoadedScopeKey(requestedScopeKey);
+        setLoadedLocation({
+          state: filters.state,
+          lga: filters.lga,
+          ward: filters.ward,
+          school: filters.school,
+        });
       } catch (err) {
         if (!alive) return;
         setDataErr(err instanceof Error ? err.message : "Failed to load data");
@@ -2112,58 +2129,58 @@ export default function GeneralOverviewDashboard({
   }, [filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey]);
 
   const expectedLocLevel = useMemo<"state" | "lga" | "ward" | "school">(
-    () => (!filters.state ? "state" : filters.school || filters.ward ? "school" : filters.lga ? "ward" : "lga"),
-    [filters.state, filters.lga, filters.ward, filters.school],
+    () => (!renderFilters.state ? "state" : renderFilters.school || renderFilters.ward ? "school" : renderFilters.lga ? "ward" : "lga"),
+    [renderFilters.state, renderFilters.lga, renderFilters.ward, renderFilters.school],
   );
 
   // ── Filtered rows ────────────────────────────────────────────────────────────
   const currentRowsRaw = useMemo(() => wardRows.filter(r => {
-    if (filters.session && r.session !== filters.session) return false;
-    if (filters.zone && !geoMatches(r.zone, filters.zone)) return false;
-    if (filters.state && !geoMatches(r.state, filters.state)) return false;
-    if (filters.lga && !geoMatches(r.lga, filters.lga)) return false;
+    if (renderFilters.session && r.session !== renderFilters.session) return false;
+    if (renderFilters.zone && !geoMatches(r.zone, renderFilters.zone)) return false;
+    if (renderFilters.state && !geoMatches(r.state, renderFilters.state)) return false;
+    if (renderFilters.lga && !geoMatches(r.lga, renderFilters.lga)) return false;
     if (r.loc_level && r.loc_level.toLowerCase() !== expectedLocLevel) return false;
     if (disabilityMode ? r.disability !== "Disabled" : r.disability === "Disabled") return false;
     return true;
-  }), [wardRows, filters, disabilityMode, expectedLocLevel]);
+  }), [wardRows, renderFilters, disabilityMode, expectedLocLevel]);
 
   // Rows scoped only to session/zone/disability — excludes state/lga
   // so the national density map always shows all states even when a state filter is active
   const densityBaseRowsRaw = useMemo(() => wardRows.filter(r => {
-    if (filters.session && r.session !== filters.session) return false;
-    if (filters.zone && !geoMatches(r.zone, filters.zone)) return false;
+    if (renderFilters.session && r.session !== renderFilters.session) return false;
+    if (renderFilters.zone && !geoMatches(r.zone, renderFilters.zone)) return false;
     if (r.loc_level && r.loc_level.toLowerCase() !== expectedLocLevel) return false;
     if (disabilityMode ? r.disability !== "Disabled" : r.disability === "Disabled") return false;
     return true;
-  }), [wardRows, filters.session, filters.zone, disabilityMode, expectedLocLevel]);
+  }), [wardRows, renderFilters.session, renderFilters.zone, disabilityMode, expectedLocLevel]);
 
   const currentTeacherRaw = useMemo(() => teacherRows.filter(r => {
-    if (filters.session && r.session !== filters.session) return false;
-    if (filters.zone && !geoMatches(r.zone, filters.zone)) return false;
-    if (filters.state && !geoMatches(r.state, filters.state)) return false;
-    if (filters.lga && !geoMatches(r.lga, filters.lga)) return false;
+    if (renderFilters.session && r.session !== renderFilters.session) return false;
+    if (renderFilters.zone && !geoMatches(r.zone, renderFilters.zone)) return false;
+    if (renderFilters.state && !geoMatches(r.state, renderFilters.state)) return false;
+    if (renderFilters.lga && !geoMatches(r.lga, renderFilters.lga)) return false;
     if (r.loc_level && r.loc_level.toLowerCase() !== expectedLocLevel) return false;
     if (disabilityMode ? r.disability !== "Disabled" : r.disability === "Disabled") return false;
     return true;
-  }), [teacherRows, filters, disabilityMode, expectedLocLevel]);
+  }), [teacherRows, renderFilters, disabilityMode, expectedLocLevel]);
 
   const currentTransitionRaw = useMemo(() => transitionRows.filter(r => {
-    if (filters.session && r.session !== filters.session) return false;
-    if (filters.zone && !geoMatches(r.zone, filters.zone)) return false;
-    if (filters.state && !geoMatches(r.state, filters.state)) return false;
-    if (filters.lga && !geoMatches(r.lga, filters.lga)) return false;
+    if (renderFilters.session && r.session !== renderFilters.session) return false;
+    if (renderFilters.zone && !geoMatches(r.zone, renderFilters.zone)) return false;
+    if (renderFilters.state && !geoMatches(r.state, renderFilters.state)) return false;
+    if (renderFilters.lga && !geoMatches(r.lga, renderFilters.lga)) return false;
     if (disabilityMode ? r.disability !== "Disabled" : r.disability === "Disabled") return false;
     return true;
-  }), [transitionRows, filters, disabilityMode]);
+  }), [transitionRows, renderFilters, disabilityMode]);
 
   const rows = useMemo(() => policyRows, [policyRows]);
 
   const filteredLoanRows = useMemo(() => loanRows.filter(r => {
-    if (filters.zone && !geoMatches(r.zone, filters.zone)) return false;
-    if (filters.state && !geoMatches(r.state, filters.state)) return false;
-    if (filters.lga && !geoMatches(r.lga, filters.lga)) return false;
+    if (renderFilters.zone && !geoMatches(r.zone, renderFilters.zone)) return false;
+    if (renderFilters.state && !geoMatches(r.state, renderFilters.state)) return false;
+    if (renderFilters.lga && !geoMatches(r.lga, renderFilters.lga)) return false;
     return true;
-  }), [loanRows, filters]);
+  }), [loanRows, renderFilters]);
 
   const previousSession = useMemo(() => {
     if (!filters.session || !dimSessions.length) return "";
@@ -2172,16 +2189,16 @@ export default function GeneralOverviewDashboard({
 
   const previousRowsRaw = useMemo(() => {
     if (!previousSession) return [] as AccessWardRow[];
-    return wardRows.filter(r => {
+  return wardRows.filter(r => {
       if (r.session !== previousSession) return false;
-      if (filters.zone && !geoMatches(r.zone, filters.zone)) return false;
-      if (filters.state && !geoMatches(r.state, filters.state)) return false;
-      if (filters.lga && !geoMatches(r.lga, filters.lga)) return false;
+      if (renderFilters.zone && !geoMatches(r.zone, renderFilters.zone)) return false;
+      if (renderFilters.state && !geoMatches(r.state, renderFilters.state)) return false;
+      if (renderFilters.lga && !geoMatches(r.lga, renderFilters.lga)) return false;
       if (r.loc_level && r.loc_level.toLowerCase() !== expectedLocLevel) return false;
       if (disabilityMode ? r.disability !== "Disabled" : r.disability === "Disabled") return false;
       return true;
     });
-  }, [wardRows, previousSession, filters, disabilityMode, expectedLocLevel]);
+  }, [wardRows, previousSession, renderFilters, disabilityMode, expectedLocLevel]);
 
   const uniqueSchoolFacilityCount = (rows: AccessWardRow[]): number => {
     const seen = new Map<string, number>();
@@ -2197,13 +2214,13 @@ export default function GeneralOverviewDashboard({
     if (!previousSession) return [] as TransitionDirectRow[];
     return transitionRows.filter((row) => {
       if (row.session !== previousSession) return false;
-      if (filters.zone && !geoMatches(row.zone, filters.zone)) return false;
-      if (filters.state && !geoMatches(row.state, filters.state)) return false;
-      if (filters.lga && !geoMatches(row.lga, filters.lga)) return false;
+      if (renderFilters.zone && !geoMatches(row.zone, renderFilters.zone)) return false;
+      if (renderFilters.state && !geoMatches(row.state, renderFilters.state)) return false;
+      if (renderFilters.lga && !geoMatches(row.lga, renderFilters.lga)) return false;
       if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
       return true;
     });
-  }, [transitionRows, previousSession, filters, disabilityMode]);
+  }, [transitionRows, previousSession, renderFilters, disabilityMode]);
 
   const [lastNonEmptyCurrentRows, setLastNonEmptyCurrentRows] = useState<AccessWardRow[]>([]);
   const [lastNonEmptyDensityRows, setLastNonEmptyDensityRows] = useState<AccessWardRow[]>([]);
@@ -2235,7 +2252,6 @@ export default function GeneralOverviewDashboard({
   useEffect(() => {
     if (previousTransitionRaw.length) setLastNonEmptyPreviousTransition(previousTransitionRaw);
   }, [previousTransitionRaw]);
-  const scopePending = requestedScopeKey !== loadedScopeKey;
 
   const currentRows = useMemo(
     () => ((loading || scopePending) && !currentRowsRaw.length && lastNonEmptyCurrentRows.length ? lastNonEmptyCurrentRows : currentRowsRaw),
@@ -2354,7 +2370,7 @@ setDropoffDrill({}); setIqsDrill({});
 
   // ── Section 2: Access & Coverage map + drill chart ──────────────────────────
   const densityCombinedMapData = useMemo<SvgMapProps | null>(() => {
-    const activeState = filters.state || undefined;
+    const activeState = renderFilters.state || undefined;
     const level: MapLevel = activeState ? "lga" : "state";
     const baseRows = activeState
       ? currentRows.filter((row) => geoMatches(row.state, activeState) && row.school_level === "Pre-Primary/Primary")
@@ -2385,10 +2401,10 @@ setDropoffDrill({}); setIqsDrill({});
         return `${name} — AVG: ${Math.round(val)} learners/school — Public: ${fmtInt(publicStudents)} learners across ${fmtInt(publicSchools)} schools — Private: ${fmtInt(privateStudents)} learners across ${fmtInt(privateSchools)} schools`;
       },
     };
-  }, [currentRows, densityBaseRows, filters.state]);
+  }, [currentRows, densityBaseRows, renderFilters.state]);
 
   const densityCombinedDrillChart = useMemo<ChartBundle | null>(() => {
-    const activeState = filters.state || "";
+    const activeState = renderFilters.state || "";
     if (!activeState) return null;
     const scopedRows = currentRows.filter((row) => geoMatches(row.state, activeState) && row.school_level === "Pre-Primary/Primary");
     const groups = aggregateBy(scopedRows, "lga")
@@ -2462,15 +2478,15 @@ setDropoffDrill({}); setIqsDrill({});
       ],
       expandedWidthClass: "max-w-[920px]",
     };
-  }, [currentRows, filters.state]);
+  }, [currentRows, renderFilters.state]);
 
   // ── Section 2: PTR chart (UBEC benchmark) ───────────────────────────────────
   const ptrChartResult = useMemo((): LocationChartResult | null => {
     const filtered = teacherRows.filter(r => {
       if (filters.session && r.session !== filters.session) return false;
       if (filters.zone && !geoMatches(r.zone, filters.zone)) return false;
-      if (filters.state && !geoMatches(r.state, filters.state)) return false;
-      if (filters.lga && !geoMatches(r.lga, filters.lga)) return false;
+      if (renderFilters.state && !geoMatches(r.state, renderFilters.state)) return false;
+      if (renderFilters.lga && !geoMatches(r.lga, renderFilters.lga)) return false;
       return true;
     });
     return buildPupilTeacherRatioByLocationChart(filtered, filters, UBEC_BENCHMARK);
@@ -2583,7 +2599,7 @@ setDropoffDrill({}); setIqsDrill({});
 
   // ── IQS/IQTS — exact same as AccessCoverage buildLevelComboChart("IQS/IQTS") ─
   const iqsChartBundle = useMemo<ChartBundle>(() => {
-    const effectiveState = iqsDrill.state ?? (filters.state || undefined);
+    const effectiveState = iqsDrill.state ?? (renderFilters.state || undefined);
     const level: LocationLevel = effectiveState ? "lga" : "state";
     const base = effectiveState ? iqsRows.filter(r => r.state === effectiveState) : iqsRows;
     const groups = aggregateBy(base, level).sort((a, b) => a.label.localeCompare(b.label));
@@ -2617,7 +2633,7 @@ setDropoffDrill({}); setIqsDrill({});
       config: { displayModeBar: false, responsive: true },
       expandedWidthClass: "max-w-[1080px]",
     };
-  }, [iqsRows, iqsDrill, filters.state]);
+  }, [iqsRows, iqsDrill, renderFilters.state]);
 
   // ── Render ───────────────────────────────────────────────────────────────────
   if (loading && !wardRows.length && !teacherRows.length && !transitionRows.length && !policyRows.length && !loanRows.length) return <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center text-slate-500">Loading General Overview…</div>;
