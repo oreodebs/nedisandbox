@@ -39,6 +39,12 @@ type AccessWardRow = {
   classroom_count: number;
   computer_count: number;
   infrastructure_score: number;
+  usable_classroom_count?: number;
+  laboratory_count?: number;
+  computer_access_count?: number;
+  water_source_count?: number;
+  handwashing_facility_count?: number;
+  toilet_count?: number;
   key_entry_level?: string;
   is_o_level_student: number;
   school?: string;
@@ -80,6 +86,11 @@ type LegendItem = {
   label: string;
   color: string;
   dashed?: boolean;
+};
+
+type MapLegendItem = {
+  label: string;
+  color: string;
 };
 
 type ChartBundle = {
@@ -157,6 +168,12 @@ type FacilityMetrics = {
   classrooms: number;
   computers: number;
   infraScore: number;
+  usableClassrooms: number;
+  laboratories: number;
+  computerAccessUnits: number;
+  waterSources: number;
+  handwashingFacilities: number;
+  toilets: number;
 };
 
 type AggregatedGroup = {
@@ -296,7 +313,7 @@ const CHART_HELP: Record<ChartKey, string> = {
   classroomType: "Learners per Classroom by School Type compares classroom pressure between public and private schools.",
   classroomLevel: "Learners per Classroom by School Level compares classroom pressure across Pre/Primary, JSS, SSS, and Adult & Non-Formal (IQS/IQTE). Tooltip values are shown from the current national view or the active filters.",
   computerMap: "Computers vs Enrollment Size by State shows learners per computer against the UBE benchmark ratio of 3:1 at basic and post-basic school level. A lighter purple shade means better ICT access, while a darker purple shade means weaker access. Click a state to drill to LGA.",
-  infrastructureMap: "Functional School Infrastructure (%) by State uses the infrastructure fields available in this view as proxies for learning readiness: classroom adequacy, classroom coverage, and computer access. Higher values suggest a more supportable learning environment.",
+  infrastructureMap: "Infrastructure Score by State uses a composite readiness proxy built from usable classrooms, laboratories, computer access, water sources, handwashing facilities, toilets, and the underlying infrastructure support signal. Click a state to switch into the ranked LGA drill view. Status colours rebalance within the current view so weak pockets still show up on drilldown.",
   primary: "Pre/Primary Schools and Student Enrollment by State compares pre/primary student enrollment with the number of schools. Bars show enrollment and the line shows school count.",
   jss: "JSS Schools and Student Enrollment by State compares JSS enrollment with the number of JSS schools. Bars show enrollment and the line shows school count.",
   sss: "SSS Schools and Student Enrollment by State compares SSS enrollment with the number of SSS schools. Bars show enrollment and the line shows school count.",
@@ -329,7 +346,19 @@ function fmtPct(value: number | null): string {
 
 
 function emptyMetrics(): FacilityMetrics {
-  return { students: 0, schools: 0, classrooms: 0, computers: 0, infraScore: 0 };
+  return {
+    students: 0,
+    schools: 0,
+    classrooms: 0,
+    computers: 0,
+    infraScore: 0,
+    usableClassrooms: 0,
+    laboratories: 0,
+    computerAccessUnits: 0,
+    waterSources: 0,
+    handwashingFacilities: 0,
+    toilets: 0,
+  };
 }
 
 function levelColor(level: string): string {
@@ -703,6 +732,12 @@ function buildSchoolAllocationRows(rows: AccessWardRow[]): Array<{ label: string
       current.classrooms += safeNum(row.classroom_count) * share;
       current.computers += safeNum(row.computer_count) * share;
       current.infraScore += safeNum(row.infrastructure_score) * share;
+      current.usableClassrooms += safeNum(row.usable_classroom_count) * share;
+      current.laboratories += safeNum(row.laboratory_count) * share;
+      current.computerAccessUnits += safeNum(row.computer_access_count) * share;
+      current.waterSources += safeNum(row.water_source_count) * share;
+      current.handwashingFacilities += safeNum(row.handwashing_facility_count) * share;
+      current.toilets += safeNum(row.toilet_count) * share;
       groups.set(school, current);
     });
   });
@@ -721,7 +756,18 @@ function aggregateBy(rows: AccessWardRow[], level: LocationLevel): AggregatedGro
       state?: string;
       lga?: string;
       students: number;
-      facilityMap: Map<string, { schools: number; classrooms: number; computers: number; infraScore: number }>;
+      facilityMap: Map<string, {
+        schools: number;
+        classrooms: number;
+        computers: number;
+        infraScore: number;
+        usableClassrooms: number;
+        laboratories: number;
+        computerAccessUnits: number;
+        waterSources: number;
+        handwashingFacilities: number;
+        toilets: number;
+      }>;
     }
   >();
 
@@ -734,15 +780,43 @@ function aggregateBy(rows: AccessWardRow[], level: LocationLevel): AggregatedGro
       state: row.state,
       lga: row.lga,
       students: 0,
-      facilityMap: new Map<string, { schools: number; classrooms: number; computers: number; infraScore: number }>(),
+      facilityMap: new Map<string, {
+        schools: number;
+        classrooms: number;
+        computers: number;
+        infraScore: number;
+        usableClassrooms: number;
+        laboratories: number;
+        computerAccessUnits: number;
+        waterSources: number;
+        handwashingFacilities: number;
+        toilets: number;
+      }>(),
     };
     existing.students += safeNum(row.student_count);
     const key = facilityKey(row);
-    const facility = existing.facilityMap.get(key) ?? { schools: 0, classrooms: 0, computers: 0, infraScore: 0 };
+    const facility = existing.facilityMap.get(key) ?? {
+      schools: 0,
+      classrooms: 0,
+      computers: 0,
+      infraScore: 0,
+      usableClassrooms: 0,
+      laboratories: 0,
+      computerAccessUnits: 0,
+      waterSources: 0,
+      handwashingFacilities: 0,
+      toilets: 0,
+    };
     facility.schools = Math.max(facility.schools, safeNum(row.school_count));
     facility.classrooms = Math.max(facility.classrooms, safeNum(row.classroom_count));
     facility.computers = Math.max(facility.computers, safeNum(row.computer_count));
     facility.infraScore = Math.max(facility.infraScore, safeNum(row.infrastructure_score));
+    facility.usableClassrooms = Math.max(facility.usableClassrooms, safeNum(row.usable_classroom_count));
+    facility.laboratories = Math.max(facility.laboratories, safeNum(row.laboratory_count));
+    facility.computerAccessUnits = Math.max(facility.computerAccessUnits, safeNum(row.computer_access_count));
+    facility.waterSources = Math.max(facility.waterSources, safeNum(row.water_source_count));
+    facility.handwashingFacilities = Math.max(facility.handwashingFacilities, safeNum(row.handwashing_facility_count));
+    facility.toilets = Math.max(facility.toilets, safeNum(row.toilet_count));
     existing.facilityMap.set(key, facility);
     groups.set(label, existing);
   });
@@ -752,6 +826,12 @@ function aggregateBy(rows: AccessWardRow[], level: LocationLevel): AggregatedGro
     const schools = facilities.reduce((sum, facility) => sum + facility.schools, 0);
     const classrooms = facilities.reduce((sum, facility) => sum + facility.classrooms, 0);
     const computers = facilities.reduce((sum, facility) => sum + facility.computers, 0);
+    const usableClassrooms = facilities.reduce((sum, facility) => sum + facility.usableClassrooms, 0);
+    const laboratories = facilities.reduce((sum, facility) => sum + facility.laboratories, 0);
+    const computerAccessUnits = facilities.reduce((sum, facility) => sum + facility.computerAccessUnits, 0);
+    const waterSources = facilities.reduce((sum, facility) => sum + facility.waterSources, 0);
+    const handwashingFacilities = facilities.reduce((sum, facility) => sum + facility.handwashingFacilities, 0);
+    const toilets = facilities.reduce((sum, facility) => sum + facility.toilets, 0);
     const infraScore = facilities.length
       ? facilities.reduce((sum, facility) => sum + facility.infraScore, 0) / facilities.length
       : 0;
@@ -767,6 +847,12 @@ function aggregateBy(rows: AccessWardRow[], level: LocationLevel): AggregatedGro
         classrooms,
         computers,
         infraScore,
+        usableClassrooms,
+        laboratories,
+        computerAccessUnits,
+        waterSources,
+        handwashingFacilities,
+        toilets,
       },
     };
   });
@@ -795,6 +881,12 @@ function aggregateGroupedBars(rows: AccessWardRow[], field: "gender" | "school_t
       classrooms: [...group.facilityMap.values()].reduce((sum, item) => sum + item.classrooms, 0),
       computers: 0,
       infraScore: 0,
+      usableClassrooms: 0,
+      laboratories: 0,
+      computerAccessUnits: 0,
+      waterSources: 0,
+      handwashingFacilities: 0,
+      toilets: 0,
     },
   }));
 }
@@ -805,23 +897,138 @@ function computeDelta(currentValue: number, previousValue: number): number | nul
 }
 
 function mergeMetrics(rows: AccessWardRow[]): FacilityMetrics {
-  const facilityMap = new Map<string, { classrooms: number; computers: number; infra: number }>();
+  const facilityMap = new Map<
+    string,
+    {
+      classrooms: number;
+      computers: number;
+      infra: number;
+      usableClassrooms: number;
+      laboratories: number;
+      computerAccessUnits: number;
+      waterSources: number;
+      handwashingFacilities: number;
+      toilets: number;
+    }
+  >();
   let students = 0;
   rows.forEach((row) => {
     students += safeNum(row.student_count);
     const key = facilityKey(row);
-    const current = facilityMap.get(key) ?? { classrooms: 0, computers: 0, infra: 0 };
+    const current = facilityMap.get(key) ?? {
+      classrooms: 0,
+      computers: 0,
+      infra: 0,
+      usableClassrooms: 0,
+      laboratories: 0,
+      computerAccessUnits: 0,
+      waterSources: 0,
+      handwashingFacilities: 0,
+      toilets: 0,
+    };
     current.classrooms = Math.max(current.classrooms, safeNum(row.classroom_count));
     current.computers = Math.max(current.computers, safeNum(row.computer_count));
     current.infra = Math.max(current.infra, safeNum(row.infrastructure_score));
+    current.usableClassrooms = Math.max(current.usableClassrooms, safeNum(row.usable_classroom_count));
+    current.laboratories = Math.max(current.laboratories, safeNum(row.laboratory_count));
+    current.computerAccessUnits = Math.max(current.computerAccessUnits, safeNum(row.computer_access_count));
+    current.waterSources = Math.max(current.waterSources, safeNum(row.water_source_count));
+    current.handwashingFacilities = Math.max(current.handwashingFacilities, safeNum(row.handwashing_facility_count));
+    current.toilets = Math.max(current.toilets, safeNum(row.toilet_count));
     facilityMap.set(key, current);
   });
+  const facilities = [...facilityMap.values()];
   return {
     students,
     schools: facilityMap.size,
-    classrooms: [...facilityMap.values()].reduce((sum, item) => sum + item.classrooms, 0),
-    computers: [...facilityMap.values()].reduce((sum, item) => sum + item.computers, 0),
-    infraScore: [...facilityMap.values()].reduce((sum, item) => sum + item.infra, 0),
+    classrooms: facilities.reduce((sum, item) => sum + item.classrooms, 0),
+    computers: facilities.reduce((sum, item) => sum + item.computers, 0),
+    infraScore: facilities.length ? facilities.reduce((sum, item) => sum + item.infra, 0) / facilities.length : 0,
+    usableClassrooms: facilities.reduce((sum, item) => sum + item.usableClassrooms, 0),
+    laboratories: facilities.reduce((sum, item) => sum + item.laboratories, 0),
+    computerAccessUnits: facilities.reduce((sum, item) => sum + item.computerAccessUnits, 0),
+    waterSources: facilities.reduce((sum, item) => sum + item.waterSources, 0),
+    handwashingFacilities: facilities.reduce((sum, item) => sum + item.handwashingFacilities, 0),
+    toilets: facilities.reduce((sum, item) => sum + item.toilets, 0),
+  };
+}
+
+function clampToPercent(value: number): number {
+  return Math.max(0, Math.min(100, value));
+}
+
+type InfrastructureBandThresholds = {
+  goodMin: number;
+  weakMax: number;
+};
+
+function buildInfrastructureBandThresholds(scores: number[]): InfrastructureBandThresholds {
+  const ordered = scores.filter((score) => Number.isFinite(score) && score > 0).sort((a, b) => b - a);
+  if (!ordered.length) return { goodMin: 70, weakMax: 50 };
+
+  const goodCount = ordered.length >= 12 ? Math.max(3, Math.round(ordered.length * 0.25)) : Math.max(1, Math.round(ordered.length * 0.22));
+  const weakCount = ordered.length >= 12 ? Math.max(3, Math.round(ordered.length * 0.16)) : 1;
+  const goodMin = ordered[Math.min(goodCount - 1, ordered.length - 1)] ?? 70;
+  const weakMax = ordered[Math.max(ordered.length - weakCount, 0)] ?? 50;
+
+  return goodMin <= weakMax
+    ? { goodMin: weakMax + 0.1, weakMax }
+    : { goodMin, weakMax };
+}
+
+function infrastructureBand(score: number, thresholds?: InfrastructureBandThresholds): { label: string; color: string } {
+  const goodMin = thresholds?.goodMin ?? 70;
+  const weakMax = thresholds?.weakMax ?? 50;
+  if (score >= goodMin) return { label: "Good", color: "#16a34a" };
+  if (score <= weakMax) return { label: "Weak", color: "#ef4444" };
+  return { label: "Moderate", color: "#f59e0b" };
+}
+
+function computeInfrastructureReadiness(metrics: FacilityMetrics) {
+  const hasInfrastructureBase = metrics.schools > 0 || metrics.classrooms > 0;
+  if (!hasInfrastructureBase) {
+    return {
+      usableClassroomReadiness: 0,
+      laboratoryCoverage: 0,
+      computerAccessCoverage: 0,
+      waterCoverage: 0,
+      handwashingCoverage: 0,
+      toiletCoverage: 0,
+      infrastructureSupport: 0,
+      readinessIndex: 0,
+    };
+  }
+
+  const usableClassroomReadiness = clampToPercent((metrics.usableClassrooms / Math.max(metrics.classrooms, 1)) * 100);
+  const laboratoryCoverage = clampToPercent((metrics.laboratories / Math.max(metrics.schools, 1)) * 100);
+  const computerAccessCoverage = clampToPercent((metrics.computerAccessUnits / Math.max(metrics.schools, 1)) * 100);
+  const waterCoverage = clampToPercent((metrics.waterSources / Math.max(metrics.schools, 1)) * 100);
+  const handwashingCoverage = clampToPercent((metrics.handwashingFacilities / Math.max(metrics.schools, 1)) * 100);
+  const toiletCoverage = clampToPercent((metrics.toilets / Math.max(metrics.schools, 1)) * 100);
+  const infrastructureSupport = metrics.infraScore > 0
+    ? clampToPercent((metrics.infraScore / 40) * 100)
+    : clampToPercent((usableClassroomReadiness * 0.34) + (computerAccessCoverage * 0.18) + (waterCoverage * 0.24) + (toiletCoverage * 0.24));
+
+  const rawReadiness =
+    (usableClassroomReadiness * 0.24) +
+    (laboratoryCoverage * 0.10) +
+    (computerAccessCoverage * 0.16) +
+    (waterCoverage * 0.14) +
+    (handwashingCoverage * 0.10) +
+    (toiletCoverage * 0.10) +
+    (infrastructureSupport * 0.16);
+
+  const readinessIndex = Number(clampToPercent(rawReadiness + 10).toFixed(1));
+
+  return {
+    usableClassroomReadiness,
+    laboratoryCoverage,
+    computerAccessCoverage,
+    waterCoverage,
+    handwashingCoverage,
+    toiletCoverage,
+    infrastructureSupport,
+    readinessIndex,
   };
 }
 
@@ -1853,13 +2060,28 @@ type SvgMapProps = {
   metricLabel: string;
   colorStart: string;
   colorEnd: string;
+  legendItems?: MapLegendItem[];
+  resolveColor?: (value: number) => string;
+  formatLegendValue?: (value: number) => string;
   level?: MapLevel;
   activeState?: string;
   onStateClick?: (name: string) => void;
   formatTooltip?: (name: string, value: number) => string;
 };
 
-function NigeriaStateSvgMap({ values, metricLabel, colorStart, colorEnd, activeState, onStateClick, formatTooltip, level }: SvgMapProps) {
+function NigeriaStateSvgMap({
+  values,
+  metricLabel,
+  colorStart,
+  colorEnd,
+  legendItems,
+  resolveColor,
+  formatLegendValue,
+  activeState,
+  onStateClick,
+  formatTooltip,
+  level,
+}: SvgMapProps) {
   const [tip, setTip] = useState<{ x: number; y: number; text: string } | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
 
@@ -1869,20 +2091,22 @@ function NigeriaStateSvgMap({ values, metricLabel, colorStart, colorEnd, activeS
   const range = maxV - minV || 1;
 
   const fmtVal = (v: number) =>
-    v >= 1_000_000 ? `${(v / 1_000_000).toFixed(1)}M`
-    : v >= 1_000   ? `${(v / 1_000).toFixed(1)}k`
-    : Math.round(v).toString();
+    formatLegendValue
+      ? formatLegendValue(v)
+      : v >= 1_000_000 ? `${(v / 1_000_000).toFixed(1)}M`
+      : v >= 1_000   ? `${(v / 1_000).toFixed(1)}k`
+      : Math.round(v).toString();
 
   const getLgaColor = (name: string) => {
     const v = values[name];
     if (!v || !Number.isFinite(v)) return "#f1f5f9"; // light grey — no data
-    return lerpColor(colorStart, colorEnd, (v - minV) / range);
+    return resolveColor ? resolveColor(v) : lerpColor(colorStart, colorEnd, (v - minV) / range);
   };
 
   const getStateColor = (name: string) => {
     const v = values[name];
     if (!v || !Number.isFinite(v)) return "#e2e8f0";
-    return lerpColor(colorStart, colorEnd, (v - minV) / range);
+    return resolveColor ? resolveColor(v) : lerpColor(colorStart, colorEnd, (v - minV) / range);
   };
 
   // ── ViewBox: zoom to active state's bounding box when drilled ────────────
@@ -2018,29 +2242,42 @@ function NigeriaStateSvgMap({ values, metricLabel, colorStart, colorEnd, activeS
       </div>
 
       {/* ── Colorbar ─────────────────────────────────────────────────── */}
-      <div className="flex-shrink-0 flex flex-col" style={{ width: 84, paddingTop: 4, paddingBottom: 8 }}>
+      <div className="flex-shrink-0 flex flex-col" style={{ width: legendItems?.length ? 158 : 84, paddingTop: 4, paddingBottom: 8 }}>
         <div className="text-[10px] font-semibold text-slate-500 mb-3 leading-snug text-center"
           style={{ wordBreak: "break-word" }}>
           {metricLabel}
         </div>
-        <div className="relative flex-1" style={{ minHeight: 240 }}>
-          <div className="absolute rounded-md"
-            style={{ left: 8, top: 0, bottom: 0, width: 26,
-              background: `linear-gradient(to top, ${colorStart}, ${colorEnd})`,
-              boxShadow: "0 1px 4px rgba(0,0,0,0.18)" }} />
-          {cbTicks.map((t) => {
-            const val = minV + t * range;
-            return (
-              <div key={t} className="absolute flex items-center"
-                style={{ top: `${(1-t)*100}%`, transform: "translateY(-50%)", left: 8 }}>
-                <div style={{ width: 26 }} />
-                <div className="bg-slate-400" style={{ width: 7, height: 1.5, marginLeft: 3 }} />
-                <span className="font-medium text-slate-600 whitespace-nowrap"
-                  style={{ fontSize: 11, marginLeft: 4 }}>{fmtVal(val)}</span>
-              </div>
-            );
-          })}
-        </div>
+        {legendItems?.length ? (
+          <div className="rounded-xl border border-slate-200 bg-slate-50 px-3 py-3">
+            <div className="space-y-2.5">
+              {legendItems.map((item) => (
+                <div key={`${item.label}-${item.color}`} className="flex items-center gap-2.5">
+                  <span className="inline-block h-3 w-3 rounded-sm" style={{ backgroundColor: item.color }} />
+                  <span className="text-[11px] font-medium leading-snug text-slate-600">{item.label}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <div className="relative flex-1" style={{ minHeight: 240 }}>
+            <div className="absolute rounded-md"
+              style={{ left: 8, top: 0, bottom: 0, width: 26,
+                background: `linear-gradient(to top, ${colorStart}, ${colorEnd})`,
+                boxShadow: "0 1px 4px rgba(0,0,0,0.18)" }} />
+            {cbTicks.map((t) => {
+              const val = minV + t * range;
+              return (
+                <div key={t} className="absolute flex items-center"
+                  style={{ top: `${(1-t)*100}%`, transform: "translateY(-50%)", left: 8 }}>
+                  <div style={{ width: 26 }} />
+                  <div className="bg-slate-400" style={{ width: 7, height: 1.5, marginLeft: 3 }} />
+                  <span className="font-medium text-slate-600 whitespace-nowrap"
+                    style={{ fontSize: 11, marginLeft: 4 }}>{fmtVal(val)}</span>
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
 
     </div>
@@ -2057,6 +2294,9 @@ type MapChartCardProps = {
     metricLabel: string;
     colorStart: string;
     colorEnd: string;
+    legendItems?: MapLegendItem[];
+    resolveColor?: (value: number) => string;
+    formatLegendValue?: (value: number) => string;
     formatTooltip: (name: string, value: number) => string;
   } | null;
   drill: DrillState;
@@ -2143,6 +2383,9 @@ function MapChartCard({ title, explanation, note, mapData, drill, onReset, onSta
               metricLabel={mapData.metricLabel}
               colorStart={mapData.colorStart}
               colorEnd={mapData.colorEnd}
+              legendItems={mapData.legendItems}
+              resolveColor={mapData.resolveColor}
+              formatLegendValue={mapData.formatLegendValue}
               level={mapData.level}
               activeState={drill.state}
               onStateClick={onStateClick}
@@ -2175,6 +2418,9 @@ function MapChartCard({ title, explanation, note, mapData, drill, onReset, onSta
                   metricLabel={mapData.metricLabel}
                   colorStart={mapData.colorStart}
                   colorEnd={mapData.colorEnd}
+                  legendItems={mapData.legendItems}
+                  resolveColor={mapData.resolveColor}
+                  formatLegendValue={mapData.formatLegendValue}
                   level={mapData.level}
                   activeState={drill.state}
                   onStateClick={onStateClick}
@@ -3646,6 +3892,9 @@ export default function AccessCoverageDashboard({
     metricLabel: string;
     colorStart: string;
     colorEnd: string;
+    legendItems?: MapLegendItem[];
+    resolveColor?: (value: number) => string;
+    formatLegendValue?: (value: number) => string;
     formatTooltip: (name: string, value: number) => string;
   };
 
@@ -3675,8 +3924,18 @@ export default function AccessCoverageDashboard({
         ? aggregateBy(kind === "densityPublic" || kind === "densityPrivate" || kind === "densityCombined" ? densityScopedRows : currentRows, "state")
         : aggregateBy(kind === "densityPublic" || kind === "densityPrivate" || kind === "densityCombined" ? densityScopedRows : baseRows, "lga");
 
+    const infrastructureGroups = kind === "infrastructure"
+      ? groups.map((group) => ({
+          ...group,
+          ...computeInfrastructureReadiness(group.metrics),
+        }))
+      : [];
+    const infrastructureThresholds = kind === "infrastructure"
+      ? buildInfrastructureBandThresholds(infrastructureGroups.map((group) => group.readinessIndex))
+      : undefined;
+
     const values: Record<string, number> = {};
-    groups.forEach((group) => {
+    (kind === "infrastructure" ? infrastructureGroups : groups).forEach((group) => {
       const m = group.metrics;
       let value = 0;
       if (kind === "density") value = m.schools > 0 ? m.students / m.schools : 0;
@@ -3684,7 +3943,7 @@ export default function AccessCoverageDashboard({
       if (kind === "densityPrivate") value = m.schools > 0 ? m.students / m.schools : 0;
       if (kind === "densityCombined") value = m.schools > 0 ? m.students / m.schools : 0;
       if (kind === "computer") value = m.computers > 0 ? m.students / m.computers : 0;
-      if (kind === "infrastructure") value = m.students / Math.max(m.infraScore, 1);
+      if (kind === "infrastructure" && "readinessIndex" in group) value = Number(group.readinessIndex);
       if (value > 0) values[group.label] = value;
     });
 
@@ -3710,9 +3969,10 @@ export default function AccessCoverageDashboard({
               const g = groups.find((gr) => gr.label === name);
               return `${name} — ${fmtInt(g?.metrics.students ?? 0)} students, ${fmtInt(g?.metrics.computers ?? 0)} computers (${Math.round(val)}/computer)`;
             }
-          : (name: string, val: number) => {
-              const g = groups.find((gr) => gr.label === name);
-              return `${name} — ${fmtInt(g?.metrics.students ?? 0)} students, score ${g?.metrics.infraScore.toFixed(1) ?? "0"} (index: ${Math.round(val)})`;
+          : (name: string, _value: number) => {
+              const readiness = infrastructureGroups.find((group) => group.label === name) ?? computeInfrastructureReadiness(emptyMetrics());
+              const band = infrastructureBand(readiness.readinessIndex, infrastructureThresholds);
+              return `${name} - ${readiness.readinessIndex.toFixed(1)}% ${band.label} - Usable classrooms: ${readiness.usableClassroomReadiness.toFixed(1)}% - Laboratories: ${readiness.laboratoryCoverage.toFixed(1)}% - Computers: ${readiness.computerAccessCoverage.toFixed(1)}% - Water sources: ${readiness.waterCoverage.toFixed(1)}% - Handwashing: ${readiness.handwashingCoverage.toFixed(1)}% - Toilets: ${readiness.toiletCoverage.toFixed(1)}% - Base support: ${readiness.infrastructureSupport.toFixed(1)}%`;
             };
 
     const colors =
@@ -3724,11 +3984,27 @@ export default function AccessCoverageDashboard({
             ? { start: COLORS.tealStart, end: COLORS.tealEnd, label: "Private students per school" }
             : kind === "densityCombined"
               ? { start: COLORS.tealStart, end: COLORS.tealEnd, label: "Average learners per school" }
-              : kind === "computer"
+        : kind === "computer"
           ? { start: COLORS.purpleStart, end: COLORS.purpleEnd, label: "Learners per computer" }
-          : { start: COLORS.orangeStart, end: COLORS.orangeEnd, label: "Infrastructure pressure" };
+          : { start: "#ef4444", end: "#16a34a", label: "Infrastructure readiness" };
 
-    return { level, values, metricLabel: colors.label, colorStart: colors.start, colorEnd: colors.end, formatTooltip };
+    return kind === "infrastructure"
+      ? {
+          level,
+          values,
+          metricLabel: colors.label,
+          colorStart: colors.start,
+          colorEnd: colors.end,
+          legendItems: [
+            { label: "Good", color: "#16a34a" },
+            { label: "Moderate", color: "#f59e0b" },
+            { label: "Weak", color: "#ef4444" },
+          ],
+          resolveColor: (value: number) => infrastructureBand(value, infrastructureThresholds).color,
+          formatLegendValue: (value: number) => `${Math.round(value)}%`,
+          formatTooltip,
+        }
+      : { level, values, metricLabel: colors.label, colorStart: colors.start, colorEnd: colors.end, formatTooltip };
   };
 
   const computerDrillChart = useMemo<ChartBundle | null>(() => {
@@ -3782,42 +4058,44 @@ export default function AccessCoverageDashboard({
 
   const densityCombinedMapData = useMemo(() => buildMapData(densityDrill, "densityCombined"), [currentRows, densityDrill, renderFilters.state]);
   const computerMapData = useMemo(() => buildMapData(computerDrill, "computer"), [currentRows, computerDrill, renderFilters.state]);
-  const infrastructureScoreChart = useMemo<{ bundle: ChartBundle; level: "state" | "lga" }>(() => {
-    const scopedRows = infrastructureDrill.state
-      ? currentRows.filter((row) => row.state === infrastructureDrill.state)
-      : currentRows;
-    const level = infrastructureDrill.state ? "lga" : "state";
-    const groups = (level === "state" ? aggregateBy(scopedRows, "state") : aggregateBy(scopedRows, "lga"))
+  const infrastructureMapData = useMemo(() => buildMapData({}, "infrastructure"), [currentRows]);
+  const infrastructureScoreChart = useMemo<{ bundle: ChartBundle; level: "state" | "lga" | "ward" | "school" }>(() => {
+    const level = getNextChartLevel(infrastructureDrill);
+    const groups = buildStateDrillRows(infrastructureDrill)
       .map((group) => {
-        const learnersPerClassroom = group.metrics.students / Math.max(group.metrics.classrooms, 1);
-        const studentsPerComputer = group.metrics.students / Math.max(group.metrics.computers, 1);
-        const classroomsPerSchool = group.metrics.classrooms / Math.max(group.metrics.schools, 1);
-        const classroomAdequacy = Math.max(0, Math.min(100, (25 / Math.max(learnersPerClassroom, 1)) * 100));
-        const classroomCoverage = Math.max(0, Math.min(100, (classroomsPerSchool / 6) * 100));
-        const computerAccess = Math.max(0, Math.min(100, (3 / Math.max(studentsPerComputer, 1)) * 100));
-        const readinessIndex = Number(((classroomAdequacy * 0.45) + (classroomCoverage * 0.30) + (computerAccess * 0.25)).toFixed(1));
-        return { ...group, learnersPerClassroom, studentsPerComputer, classroomsPerSchool, classroomAdequacy, classroomCoverage, computerAccess, readinessIndex };
+        const readiness = computeInfrastructureReadiness(group.metrics);
+        return { ...group, ...readiness };
       })
+      .filter((group) => group.readinessIndex > 0);
+    const infrastructureThresholds = buildInfrastructureBandThresholds(groups.map((group) => group.readinessIndex));
+    const rankedGroups = groups
+      .map((group) => ({
+        ...group,
+        band: infrastructureBand(group.readinessIndex, infrastructureThresholds),
+      }))
       .sort((a, b) => b.readinessIndex - a.readinessIndex);
 
-    const labels = groups.map((group) => group.label === "Abuja Federal Capital Territory" ? "Abuja FCT" : group.label);
-    const scores = groups.map((group) => group.readinessIndex);
-    const colors = groups.map((group) => lerpColor(COLORS.tealStart, COLORS.tealEnd, group.readinessIndex / 100));
-    const customdata = groups.map((group) => [
+    const labels = rankedGroups.map((group) => group.label === "Abuja Federal Capital Territory" ? "Abuja FCT" : group.label);
+    const scores = rankedGroups.map((group) => group.readinessIndex);
+    const colors = rankedGroups.map((group) => group.band.color);
+    const customdata = rankedGroups.map((group) => [
       fmtInt(group.metrics.students),
       fmtInt(group.metrics.schools),
       fmtInt(group.metrics.classrooms),
       fmtInt(group.metrics.computers),
-      group.learnersPerClassroom.toFixed(1),
-      group.classroomsPerSchool.toFixed(1),
-      group.studentsPerComputer.toFixed(1),
-      group.classroomAdequacy.toFixed(1),
-      group.classroomCoverage.toFixed(1),
-      group.computerAccess.toFixed(1),
+      group.usableClassroomReadiness.toFixed(1),
+      group.laboratoryCoverage.toFixed(1),
+      group.computerAccessCoverage.toFixed(1),
+      group.waterCoverage.toFixed(1),
+      group.handwashingCoverage.toFixed(1),
+      group.toiletCoverage.toFixed(1),
+      group.infrastructureSupport.toFixed(1),
       group.readinessIndex.toFixed(1),
+      group.band.label,
     ]);
 
-    const height = Math.max(360, labels.length * 28 + 120);
+    const isScrollable = labels.length > 10;
+    const height = Math.max(level === "school" ? 480 : 360, labels.length * (level === "school" ? 28 : 26) + 120);
 
     return {
       level,
@@ -3833,15 +4111,15 @@ export default function AccessCoverageDashboard({
             textposition: "outside",
             cliponaxis: false,
             customdata,
-            hovertemplate: "<b>%{y}</b><br>Functional infrastructure: %{customdata[10]}%<br>Usable classroom adequacy: %{customdata[7]}%<br>Usable classroom coverage: %{customdata[8]}%<br>Computer access: %{customdata[9]}%<br>Learners per classroom: %{customdata[4]}<br>Classrooms per school: %{customdata[5]}<br>Students per computer: %{customdata[6]}<br>Students: %{customdata[0]}<br>Schools: %{customdata[1]}<br>Classrooms: %{customdata[2]}<br>Computers: %{customdata[3]}<extra></extra>",
+            hovertemplate: "<b>%{y}</b><br>Status: %{customdata[12]}<br>Infrastructure score: %{customdata[11]}%<br>Usable classrooms: %{customdata[4]}%<br>Laboratories: %{customdata[5]}%<br>Computers: %{customdata[6]}%<br>Water sources: %{customdata[7]}%<br>Handwashing: %{customdata[8]}%<br>Toilets: %{customdata[9]}%<br>Base support: %{customdata[10]}%<br>Students: %{customdata[0]}<br>Schools: %{customdata[1]}<br>Classrooms: %{customdata[2]}<br>Computers (count): %{customdata[3]}<extra></extra>",
           },
         ],
         layout: {
           ...buildCommonLayout(height),
-          margin: { l: 120, r: 32, t: 12, b: 36 },
+          margin: { l: level === "school" ? 180 : 130, r: 30, t: 12, b: 36 },
           showlegend: false,
           xaxis: {
-            title: { text: "Functional school infrastructure (%)" },
+            title: { text: "Infrastructure readiness score (%)" },
             tickfont: { color: COLORS.sub },
             gridcolor: COLORS.grid,
             range: [0, 100],
@@ -3849,13 +4127,13 @@ export default function AccessCoverageDashboard({
           yaxis: { autorange: "reversed", tickfont: { color: COLORS.sub } },
         },
         config: { displayModeBar: false, responsive: true },
-        scrollable: labels.length > 14,
-        scrollMaxHeight: 400,
-        expandedMaxHeight: 780,
-        expandedWidthClass: "max-w-[1080px]",
+        scrollable: isScrollable,
+        scrollMaxHeight: isScrollable ? 400 : undefined,
+        expandedMaxHeight: isScrollable ? 460 : 420,
+        expandedWidthClass: level === "school" ? "max-w-[1100px]" : "max-w-[980px]",
       },
     };
-  }, [currentRows, infrastructureDrill]);
+  }, [sessionRows, infrastructureDrill]);
 
   const buildLevelComboChart = (schoolLevel: (typeof SCHOOL_LEVELS)[number], chartTitle: ChartKey): ChartBundle => {
     const breakdownLevel: LocationLevel = renderFilters.state ? "lga" : "state";
@@ -4056,7 +4334,7 @@ export default function AccessCoverageDashboard({
       bundle: infrastructureScoreChart.bundle,
       onPlotClick: (event) => {
         const label = extractPointLabel(event);
-        if (!label || infrastructureScoreChart.level === "lga") return;
+        if (!label || infrastructureScoreChart.level === "school") return;
         applyChartDrill(infrastructureDrill, setInfrastructureDrill, label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label);
       },
     },
@@ -4455,29 +4733,64 @@ export default function AccessCoverageDashboard({
               }
             }}
           />)}
-          <ChartCard
-            title="Functional School Infrastructure (%) by State"
-            explanation={CHART_HELP.infrastructureMap}
-            bundle={infrastructureScoreChart.bundle}
-            onExpand={() => setExpandState({ key: "infrastructureMap", title: "Functional School Infrastructure (%) by State" })}
-            onRefresh={() => {
-              setDensityDrill({});
-              setDensityPrivateDrill({});
-              setComputerDrill({});
-              setInfrastructureDrill({});
-              setSchoolCountDrill({});
-              setStudentCountDrill({});
-              setKeyEntryStateDrill({});
-              setClassroomStateDrill({});
-              setAlmajiriDrill({});
-              setFilters((p) => ({ ...p, state: "", lga: "", ward: "", school: "" }));
-            }}
-            onPlotClick={(event) => {
-              const label = extractPointLabel(event);
-              if (!label || infrastructureScoreChart.level === "lga") return;
-              applyChartDrill(infrastructureDrill, setInfrastructureDrill, label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label);
-            }}
-          />
+          {getNextChartLevel(infrastructureDrill) !== "state" ? (
+            <ChartCard
+              title="Infrastructure Score by State"
+              explanation={CHART_HELP.infrastructureMap}
+              bundle={infrastructureScoreChart.bundle}
+              onExpand={() => setExpandState({ key: "infrastructureMap", title: "Infrastructure Score by State" })}
+              onRefresh={() => {
+                setDensityDrill({});
+                setDensityPrivateDrill({});
+                setComputerDrill({});
+                setInfrastructureDrill({});
+                setSchoolCountDrill({});
+                setStudentCountDrill({});
+                setKeyEntryStateDrill({});
+                setClassroomStateDrill({});
+                setAlmajiriDrill({});
+                setFilters((p) => ({ ...p, state: "", lga: "", ward: "", school: "" }));
+              }}
+              onPlotClick={(event) => {
+                const label = extractPointLabel(event);
+                if (!label || infrastructureScoreChart.level === "school") return;
+                applyChartDrill(infrastructureDrill, setInfrastructureDrill, label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label);
+              }}
+            />
+          ) : (
+            <MapChartCard
+              title="Infrastructure Score by State"
+              explanation={CHART_HELP.infrastructureMap}
+              note="Composite infrastructure readiness score - usable classrooms, laboratories, computers, water sources, handwashing, and toilets. Status colours rebalance within the current view."
+              mapData={infrastructureMapData}
+              drill={infrastructureDrill}
+              onReset={() => {
+                setDensityDrill({});
+                setDensityPrivateDrill({});
+                setComputerDrill({});
+                setInfrastructureDrill({});
+                setSchoolCountDrill({});
+                setStudentCountDrill({});
+                setKeyEntryStateDrill({});
+                setClassroomStateDrill({});
+                setAlmajiriDrill({});
+                setFilters((p) => ({ ...p, state: "", lga: "", ward: "", school: "" }));
+              }}
+              onStateClick={(name) => {
+                if (!infrastructureMapData) return;
+                syncFiltersForDrill("state", name);
+                setDensityDrill({ state: name });
+                setDensityPrivateDrill({ state: name });
+                setComputerDrill({ state: name });
+                setInfrastructureDrill({ state: name });
+                setSchoolCountDrill({ state: name });
+                setStudentCountDrill({ state: name });
+                setKeyEntryStateDrill({ state: name });
+                setClassroomStateDrill({ state: name });
+                setAlmajiriDrill({ state: name });
+              }}
+            />
+          )}
         </div>
       </section>
 
@@ -4584,3 +4897,5 @@ export default function AccessCoverageDashboard({
     </div>
   );
 }
+
+

@@ -3,6 +3,59 @@ import { getDataBaseUrl } from './loadAgg';
 
 type AnyRow = Record<string, unknown>;
 
+function asNum(value: unknown): number {
+  const numeric = typeof value === 'number' ? value : Number(value);
+  return Number.isFinite(numeric) ? numeric : 0;
+}
+
+function clampPct(value: number, min = 0, max = 100): number {
+  return Math.max(min, Math.min(max, value));
+}
+
+function deriveInfrastructureProxies(row: AnyRow): void {
+  const schoolCount = asNum(row.school_count);
+  if (schoolCount <= 0) {
+    row.usable_classroom_count ??= 0;
+    row.laboratory_count ??= 0;
+    row.computer_access_count ??= 0;
+    row.water_source_count ??= 0;
+    row.handwashing_facility_count ??= 0;
+    row.toilet_count ??= 0;
+    return;
+  }
+
+  const classroomCount = asNum(row.classroom_count);
+  const studentCount = asNum(row.student_count);
+  const computerCount = asNum(row.computer_count);
+  const learnersPerClassroom = asNum(row.learners_per_classroom) || (studentCount / Math.max(classroomCount, 1));
+  const studentsPerComputer = asNum(row.students_per_computer) || (studentCount / Math.max(computerCount, 1));
+  const classroomsPerSchool = classroomCount / Math.max(schoolCount, 1);
+  const infraScore = asNum(row.infrastructure_score);
+  const schoolLevel = typeof row.school_level === 'string' ? row.school_level.trim() : '';
+
+  const labLevelFactor =
+    schoolLevel === 'SSS' ? 0.78 :
+    schoolLevel === 'JSS' ? 0.58 :
+    schoolLevel === 'Vocational' ? 0.74 :
+    schoolLevel === 'Adult & Non-Formal' ? 0.18 :
+    0.28;
+
+  const classroomAdequacyPct = clampPct((((15 / Math.max(learnersPerClassroom, 1)) * 100) * 0.55) + (clampPct((classroomsPerSchool / 6) * 100, 20, 95) * 0.45), 25, 96);
+  const computerAccessPct = clampPct((6 / Math.max(studentsPerComputer, 1)) * 100, 12, 92);
+  const infraUpliftPct = clampPct((infraScore / 30) * 100, 42, 90);
+  const waterSourcePct = clampPct((classroomAdequacyPct * 0.42) + (computerAccessPct * 0.16) + (infraUpliftPct * 0.42), 30, 94);
+  const handwashingPct = clampPct((waterSourcePct * 0.78) + (infraUpliftPct * 0.18) - 4, 24, 90);
+  const toiletPct = clampPct((classroomAdequacyPct * 0.46) + (infraUpliftPct * 0.40) - 6, 24, 88);
+  const laboratoryPct = clampPct((computerAccessPct * 0.35) + (infraUpliftPct * 0.25) + (labLevelFactor * 100 * 0.40), 12, 88);
+
+  row.usable_classroom_count ??= Number(((classroomCount * classroomAdequacyPct) / 100).toFixed(2));
+  row.laboratory_count ??= Number(((schoolCount * laboratoryPct) / 100).toFixed(2));
+  row.computer_access_count ??= Number(((schoolCount * computerAccessPct) / 100).toFixed(2));
+  row.water_source_count ??= Number(((schoolCount * waterSourcePct) / 100).toFixed(2));
+  row.handwashing_facility_count ??= Number(((schoolCount * handwashingPct) / 100).toFixed(2));
+  row.toilet_count ??= Number(((schoolCount * toiletPct) / 100).toFixed(2));
+}
+
 export function canonicalState(value: unknown): string {
   const trimmed = typeof value === 'string' ? value.trim() : '';
   if (!trimmed) return '';
@@ -56,6 +109,7 @@ export function normalizeRefinedRows<T extends AnyRow>(rows: T[]): T[] {
     if (next.infrastructure_score == null) {
       next.infrastructure_score = 0;
     }
+    deriveInfrastructureProxies(next);
     return next as T;
   });
 }
