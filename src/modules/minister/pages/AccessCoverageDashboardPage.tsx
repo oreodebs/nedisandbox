@@ -285,7 +285,7 @@ const CHART_HELP: Record<ChartKey, string> = {
   primaryStudentCombinedGenderState: "Primary Student Count by State (Public/Private and Gender) clusters each state into two bars: Public and Private. Each bar is then stacked by Male and Female so the management split and gender split are both visible at once. Click a state in normal mode to drill to LGA.",
   secondaryStudentCombinedGenderState: "Secondary Student Count by State (Public/Private and Gender) clusters each state into two bars: Public and Private. Each bar is then stacked by Male and Female so the management split and gender split are both visible at once. Click a state in normal mode to drill to LGA.",
   studentCountGender: "Public vs Private Student Count by Gender compares male and female enrollment volume across public and private schooling.",
-  funnel: "Enrollment Trend by Class Level shows learner volume across every class grade for all available sessions as separate trend lines. The most recent session is emphasized while earlier sessions stay lighter and dashed for easier comparison. Hover the chart to see the exact count for each session at the selected class level.",
+  funnel: "Enrollment Trend by Class Level shows the most recent academic sessions as separate progression lines from Primary 1 to SSS3. Each line is spaced and labelled so you can compare drop-off patterns clearly across sessions.",
   progression: "Enrollment Progression Table compares each class level between the previous session and the current session so the movement is easier to read. It shows previous learners, current learners, net change, and change rate by class level.",
   keyEntryState: "Enrollment by Key Entry Level and State compares Primary 1, JSS1, and SSS1 by state using horizontal stacked bars. It stays scrollable and drills from state to LGA.",
   keyEntryGender: "Enrollment by Key Entry Level and Gender compares male and female enrollment at Primary 1, JSS1, and SSS1 so early access gaps are easy to spot.",
@@ -296,7 +296,7 @@ const CHART_HELP: Record<ChartKey, string> = {
   classroomType: "Learners per Classroom by School Type compares classroom pressure between public and private schools.",
   classroomLevel: "Learners per Classroom by School Level compares classroom pressure across Pre/Primary, JSS, SSS, and Adult & Non-Formal (IQS/IQTE). Tooltip values are shown from the current national view or the active filters.",
   computerMap: "Computers vs Enrollment Size by State shows learners per computer against the UBE benchmark ratio of 3:1 at basic and post-basic school level. A lighter purple shade means better ICT access, while a darker purple shade means weaker access. Click a state to drill to LGA.",
-  infrastructureMap: "Infrastructure Score by State ranks each state using the existing infrastructure score in the dataset as a composite readiness proxy for classrooms, laboratories, computers, water sources, handwashing facilities, and toilets. Higher bars indicate stronger overall infrastructure readiness relative to enrollment.",
+  infrastructureMap: "Functional School Infrastructure (%) by State uses the infrastructure fields available in this view as proxies for learning readiness: classroom adequacy, classroom coverage, and computer access. Higher values suggest a more supportable learning environment.",
   primary: "Pre/Primary Schools and Student Enrollment by State compares pre/primary student enrollment with the number of schools. Bars show enrollment and the line shows school count.",
   jss: "JSS Schools and Student Enrollment by State compares JSS enrollment with the number of JSS schools. Bars show enrollment and the line shows school count.",
   sss: "SSS Schools and Student Enrollment by State compares SSS enrollment with the number of SSS schools. Bars show enrollment and the line shows school count.",
@@ -3309,11 +3309,12 @@ export default function AccessCoverageDashboard({
   const classroomSecondaryStateChart = useMemo(() => buildClassroomByStateChart("secondary", classroomStateDrill), [sessionRows, classroomStateDrill.state, renderFilters.state]);
 
   const funnelChart = useMemo<ChartBundle>(() => {
-    const sessions = availableSessions.filter((session) => !["2019/2020", "2020/2021"].includes(session));
-    const sessionColors = ["#2563eb", "#ef4444", "#10b981", "#f59e0b", "#8b5cf6", "#ec4899", "#06b6d4", "#84cc16"];
-    const markerSymbols = ["circle", "square", "diamond", "triangle-up", "triangle-down", "cross", "x", "pentagon"] as const;
+    const sessions = availableSessions
+      .filter((session) => !["2019/2020", "2020/2021"].includes(session))
+      .slice(-5);
+    const sessionColors = ["#f59e0b", "#ef4444", "#16a34a", "#7c3aed", "#2563eb"];
+    const markerSymbols = ["circle", "diamond", "square", "triangle-up", "triangle-down"] as const;
     const classLevelPositions = CLASS_LEVELS.map((_, index) => index);
-    const historicalDashPatterns = ["dash", "dot", "longdash", "dashdot", "longdashdot"] as const;
 
     const sessionCounts: number[][] = sessions.map((session) => {
       const rows = wardRows.filter((row) => row.session === session);
@@ -3324,11 +3325,11 @@ export default function AccessCoverageDashboard({
 
     const allValues = sessionCounts.flat().filter((value) => value > 0);
     const maxVal = allValues.length ? Math.max(...allValues) : 1;
-    const traces: PlotlyData[] = sessions.map((session, sessionIndex) => {
+    const labelOffsetStep = maxVal * 0.042;
+
+    const lineTraces: PlotlyData[] = sessions.map((session, sessionIndex) => {
       const counts = sessionCounts[sessionIndex];
       const color = sessionColors[sessionIndex % sessionColors.length];
-      const recencyIndex = sessions.length - 1 - sessionIndex;
-      const dash = recencyIndex === 0 ? "solid" : historicalDashPatterns[(recencyIndex - 1) % historicalDashPatterns.length];
 
       return {
         type: "scatter",
@@ -3336,26 +3337,50 @@ export default function AccessCoverageDashboard({
         name: session,
         x: classLevelPositions,
         y: counts,
-        line: { color, width: recencyIndex === 0 ? 4 : 2.4, dash, shape: "linear" },
+        line: { color, width: 2.8, dash: "dash", shape: "linear" },
         marker: {
-          size: recencyIndex === 0 ? 8 : 6,
+          size: 7,
           color,
           symbol: markerSymbols[sessionIndex % markerSymbols.length],
-          line: { color: "#ffffff", width: recencyIndex === 0 ? 1.2 : 0.9 },
+          line: { color: "#ffffff", width: 1.1 },
         },
-        opacity: recencyIndex === 0 ? 1 : 0.76,
+        opacity: 0.96,
         customdata: [...CLASS_LEVELS],
         hovertemplate: `<b>${session}</b><br>%{customdata}: <b>%{y:,.0f}</b><extra></extra>`,
       };
     });
 
-    const yMax = maxVal * 1.14;
+    const labelTraces: PlotlyData[] = sessions.map((session, sessionIndex) => {
+      const counts = sessionCounts[sessionIndex];
+      const color = sessionColors[sessionIndex % sessionColors.length];
+      const yOffset = (sessions.length - sessionIndex) * labelOffsetStep;
+
+      return {
+        type: "scatter",
+        mode: "text",
+        name: `${session} labels`,
+        x: classLevelPositions,
+        y: counts.map((value) => (value > 0 ? value + yOffset : null)),
+        text: counts.map((value) => (value > 0 ? fmtInt(value) : "")),
+        textposition: "top center",
+        textfont: {
+          size: 10,
+          color,
+          family: "Inter, system-ui, sans-serif",
+        },
+        hoverinfo: "skip",
+        showlegend: false,
+        cliponaxis: false,
+      };
+    });
+
+    const yMax = maxVal + ((sessions.length + 1) * labelOffsetStep) + (maxVal * 0.05);
 
     return {
-      data: traces,
+      data: [...lineTraces, ...labelTraces],
       layout: {
-        ...buildCommonLayout(350),
-        margin: { l: 58, r: 18, t: 12, b: 46 },
+        ...buildCommonLayout(390),
+        margin: { l: 64, r: 22, t: 14, b: 48 },
         showlegend: false,
         hovermode: "x unified",
         xaxis: {
@@ -3363,7 +3388,7 @@ export default function AccessCoverageDashboard({
           tickmode: "array",
           tickvals: classLevelPositions,
           ticktext: [...CLASS_LEVELS],
-          tickangle: -18,
+          tickangle: -16,
           range: [-0.6, classLevelPositions.length - 0.4],
         },
         yaxis: {
@@ -3373,19 +3398,9 @@ export default function AccessCoverageDashboard({
           tickformat: "~s",
           nticks: 5,
         },
-        shapes: [
-          { type: "rect", xref: "x", yref: "paper", x0: -0.5, x1: 5.5, y0: 0, y1: 1, fillcolor: "rgba(37,99,235,0.04)", line: { width: 0 } },
-          { type: "rect", xref: "x", yref: "paper", x0: 5.5, x1: 8.5, y0: 0, y1: 1, fillcolor: "rgba(16,185,129,0.05)", line: { width: 0 } },
-          { type: "rect", xref: "x", yref: "paper", x0: 8.5, x1: 11.5, y0: 0, y1: 1, fillcolor: "rgba(139,92,246,0.05)", line: { width: 0 } },
-        ],
-        annotations: [
-          { x: 2.5, y: 0.98, xref: "x", yref: "paper", text: "Primary", showarrow: false, font: { size: 11, color: "#94a3b8" }, yanchor: "top" },
-          { x: 7, y: 0.98, xref: "x", yref: "paper", text: "JSS", showarrow: false, font: { size: 11, color: "#94a3b8" }, yanchor: "top" },
-          { x: 10, y: 0.98, xref: "x", yref: "paper", text: "SSS", showarrow: false, font: { size: 11, color: "#94a3b8" }, yanchor: "top" },
-        ],
       },
-      fixedLegend: legendItemsFromData(traces),
-      expandedMaxHeight: 330,
+      fixedLegend: legendItemsFromData(lineTraces),
+      expandedMaxHeight: 360,
       expandedWidthClass: "max-w-[1160px]",
     };
   }, [availableSessions, wardRows]);
@@ -3774,23 +3789,32 @@ export default function AccessCoverageDashboard({
     const level = infrastructureDrill.state ? "lga" : "state";
     const groups = (level === "state" ? aggregateBy(scopedRows, "state") : aggregateBy(scopedRows, "lga"))
       .map((group) => {
-        const enrollmentPressure = group.metrics.students / Math.max(group.metrics.schools, 1);
-        const readinessScore = group.metrics.infraScore;
-        const compositeScore = Number(((readinessScore * 0.7) + ((100 / Math.max(enrollmentPressure, 1)) * 0.3)).toFixed(1));
-        return { ...group, enrollmentPressure, readinessScore, compositeScore };
+        const learnersPerClassroom = group.metrics.students / Math.max(group.metrics.classrooms, 1);
+        const studentsPerComputer = group.metrics.students / Math.max(group.metrics.computers, 1);
+        const classroomsPerSchool = group.metrics.classrooms / Math.max(group.metrics.schools, 1);
+        const classroomAdequacy = Math.max(0, Math.min(100, (25 / Math.max(learnersPerClassroom, 1)) * 100));
+        const classroomCoverage = Math.max(0, Math.min(100, (classroomsPerSchool / 6) * 100));
+        const computerAccess = Math.max(0, Math.min(100, (3 / Math.max(studentsPerComputer, 1)) * 100));
+        const readinessIndex = Number(((classroomAdequacy * 0.45) + (classroomCoverage * 0.30) + (computerAccess * 0.25)).toFixed(1));
+        return { ...group, learnersPerClassroom, studentsPerComputer, classroomsPerSchool, classroomAdequacy, classroomCoverage, computerAccess, readinessIndex };
       })
-      .sort((a, b) => b.compositeScore - a.compositeScore);
+      .sort((a, b) => b.readinessIndex - a.readinessIndex);
 
     const labels = groups.map((group) => group.label === "Abuja Federal Capital Territory" ? "Abuja FCT" : group.label);
-    const scores = groups.map((group) => group.compositeScore);
+    const scores = groups.map((group) => group.readinessIndex);
+    const colors = groups.map((group) => lerpColor(COLORS.tealStart, COLORS.tealEnd, group.readinessIndex / 100));
     const customdata = groups.map((group) => [
       fmtInt(group.metrics.students),
       fmtInt(group.metrics.schools),
       fmtInt(group.metrics.classrooms),
       fmtInt(group.metrics.computers),
-      group.readinessScore.toFixed(1),
-      Math.round(group.enrollmentPressure),
-      group.compositeScore.toFixed(1),
+      group.learnersPerClassroom.toFixed(1),
+      group.classroomsPerSchool.toFixed(1),
+      group.studentsPerComputer.toFixed(1),
+      group.classroomAdequacy.toFixed(1),
+      group.classroomCoverage.toFixed(1),
+      group.computerAccess.toFixed(1),
+      group.readinessIndex.toFixed(1),
     ]);
 
     const height = Math.max(360, labels.length * 28 + 120);
@@ -3804,19 +3828,24 @@ export default function AccessCoverageDashboard({
             orientation: "h",
             y: labels,
             x: scores,
-            marker: { color: COLORS.orangeEnd },
-            text: scores.map((value) => value.toFixed(1)),
+            marker: { color: colors },
+            text: scores.map((value) => `${value.toFixed(1)}%`),
             textposition: "outside",
             cliponaxis: false,
             customdata,
-            hovertemplate: "%{y}<br>Score: %{x:.1f}<extra></extra>",
+            hovertemplate: "<b>%{y}</b><br>Functional infrastructure: %{customdata[10]}%<br>Usable classroom adequacy: %{customdata[7]}%<br>Usable classroom coverage: %{customdata[8]}%<br>Computer access: %{customdata[9]}%<br>Learners per classroom: %{customdata[4]}<br>Classrooms per school: %{customdata[5]}<br>Students per computer: %{customdata[6]}<br>Students: %{customdata[0]}<br>Schools: %{customdata[1]}<br>Classrooms: %{customdata[2]}<br>Computers: %{customdata[3]}<extra></extra>",
           },
         ],
         layout: {
           ...buildCommonLayout(height),
           margin: { l: 120, r: 32, t: 12, b: 36 },
           showlegend: false,
-          xaxis: { title: { text: "Composite infrastructure score" }, tickfont: { color: COLORS.sub }, gridcolor: COLORS.grid },
+          xaxis: {
+            title: { text: "Functional school infrastructure (%)" },
+            tickfont: { color: COLORS.sub },
+            gridcolor: COLORS.grid,
+            range: [0, 100],
+          },
           yaxis: { autorange: "reversed", tickfont: { color: COLORS.sub } },
         },
         config: { displayModeBar: false, responsive: true },
@@ -4020,8 +4049,17 @@ export default function AccessCoverageDashboard({
     classroomSecondaryState: { bundle: classroomSecondaryStateChart.bundle, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label || classroomSecondaryStateChart.level === "lga") return; applyChartDrill(classroomStateDrill, setClassroomStateDrill, label); } },
     classroomType: { bundle: classroomTypeChart },
     classroomLevel: { bundle: classroomLevelChart },
-    computerMap: { bundle: { data: [], layout: buildCommonLayout(10) } },
-    infrastructureMap: { bundle: { data: [], layout: buildCommonLayout(10) } },
+    computerMap: computerDrillChart
+      ? { bundle: computerDrillChart }
+      : { bundle: { data: [], layout: buildCommonLayout(10) } },
+    infrastructureMap: {
+      bundle: infrastructureScoreChart.bundle,
+      onPlotClick: (event) => {
+        const label = extractPointLabel(event);
+        if (!label || infrastructureScoreChart.level === "lga") return;
+        applyChartDrill(infrastructureDrill, setInfrastructureDrill, label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label);
+      },
+    },
     primary: { bundle: primaryChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (filters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
     jss: { bundle: jssChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (filters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
     sss: { bundle: sssChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (filters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
@@ -4418,10 +4456,10 @@ export default function AccessCoverageDashboard({
             }}
           />)}
           <ChartCard
-            title="Infrastructure Score by State"
+            title="Functional School Infrastructure (%) by State"
             explanation={CHART_HELP.infrastructureMap}
             bundle={infrastructureScoreChart.bundle}
-            onExpand={() => setExpandState({ key: "infrastructureMap", title: "Infrastructure Score by State" })}
+            onExpand={() => setExpandState({ key: "infrastructureMap", title: "Functional School Infrastructure (%) by State" })}
             onRefresh={() => {
               setDensityDrill({});
               setDensityPrivateDrill({});
