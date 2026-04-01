@@ -1,8 +1,10 @@
 import fs from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
 import Papa from "papaparse";
 
-const BASE_DIR = path.join(process.cwd(), "public", "data", "pages", "access_coverage");
+const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
+const BASE_DIR = path.join(SCRIPT_DIR, "..", "public", "data", "pages", "access_coverage");
 const SCHOOL_DIR = path.join(BASE_DIR, "school");
 const LGA_DIR = path.join(BASE_DIR, "lga");
 const WARD_DIR = path.join(BASE_DIR, "ward");

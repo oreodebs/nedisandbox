@@ -23,6 +23,7 @@ DATASETS = {
     "fact_policy_impact_loans.csv": "policy_loans",
 }
 SESSION_COLUMNS = ("session", "academic_session", "session_id")
+BASE_DIR = Path(__file__).resolve().parent
 
 
 def slugify_session(value: object) -> str:
@@ -123,8 +124,8 @@ def process_with_csv_module(source: Path, out_dir: Path, prefix: str) -> Dict[st
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Split large dashboard CSVs into per-session JSON files.")
-    parser.add_argument("--data-dir", default="public/data", help="Directory containing raw CSV files")
-    parser.add_argument("--out-dir", default="public/data/agg", help="Directory for aggregated JSON output")
+    parser.add_argument("--data-dir", default=str(BASE_DIR / "public" / "data"), help="Directory containing raw CSV files")
+    parser.add_argument("--out-dir", default=str(BASE_DIR / "public" / "data" / "agg"), help="Directory for aggregated JSON output")
     args = parser.parse_args()
 
     data_dir = Path(args.data_dir)
