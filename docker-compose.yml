@@ -1,9 +1,24 @@
 services:
+  backend:
+    container_name: nedi-backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    env_file:
+      - ./backend/.env
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    networks:
+      - app-network
+
   frontend:
     container_name: nedi-frontend
     build:
       context: ./frontend
       dockerfile: Dockerfile
+    depends_on:
+      - backend
     ports:
       - "3000:80"
     restart: unless-stopped
