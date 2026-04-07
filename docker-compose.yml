@@ -6,6 +6,8 @@ services:
       dockerfile: Dockerfile
     env_file:
       - ./backend/.env
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     ports:
       - "8000:8000"
     restart: unless-stopped
@@ -20,7 +22,7 @@ services:
     depends_on:
       - backend
     ports:
-      - "3000:80"
+      - "3001:80"
     restart: unless-stopped
     networks:
       - app-network
