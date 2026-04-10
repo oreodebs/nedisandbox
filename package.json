@@ -1,13 +1,12 @@
 {
   "name": "nediproject-root",
   "private": true,
-  "workspaces": [
-    "frontend"
-  ],
+  "version": "0.0.0",
   "scripts": {
-    "build": "npm run build --workspace frontend",
-    "dev": "npm run dev --workspace frontend",
-    "lint": "npm run lint --workspace frontend",
-    "preview": "npm run preview --workspace frontend"
+    "postinstall": "npm clean-install --prefix frontend --progress=false",
+    "build": "npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run dev",
+    "lint": "npm --prefix frontend run lint",
+    "preview": "npm --prefix frontend run preview"
   }
 }

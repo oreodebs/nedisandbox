@@ -15,7 +15,7 @@ npm run dev
 npm run build
 ```
 
-The root `package.json` forwards these commands to the `frontend` workspace, so repo-root builds work in CI/CD platforms like Cloudflare Pages.
+The root `package.json` forwards these commands into `frontend`, and its `postinstall` runs a clean install in `frontend` so repo-root CI/CD platforms like Cloudflare Pages pick up the correct frontend lockfile.
 
 Useful frontend data scripts:
 
