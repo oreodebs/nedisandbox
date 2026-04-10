@@ -19,7 +19,13 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { canonicalState, loadRefinedFile, loadRefinedPageRows } from "../utils/refinedPageData";
+import {
+  canonicalState,
+  expectedLocLevelForLocation,
+  loadRefinedFile,
+  loadRefinedScopedRows,
+  scopeDepthForLocation,
+} from "../utils/refinedPageData";
 
 type PerformanceRow = {
   session: string;
@@ -312,7 +318,7 @@ function locationLabel(row: PerformanceRow, level: LocationLevel): string {
 
 
 function filterRows(rows: PerformanceRow[], filters: MinisterFilters, disabilityMode: boolean, ignoreSession = false): PerformanceRow[] {
-  const expectedLocLevel: "state" | "school" = filters.state ? "school" : "state";
+  const expectedLocLevel = expectedLocLevelForLocation(filters);
   return rows.filter((row) => {
     if (!ignoreSession && row.session !== filters.session) return false;
     if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
@@ -1198,8 +1204,17 @@ export default function PerformanceDashboard({
   const [error, setError] = useState<string | null>(null);
   const [expandState, setExpandState] = useState<ExpandState>(null);
   const expandedPanelRef = useRef<HTMLDivElement | null>(null);
-  const requestedScopeKey = useMemo(() => canonicalState(filters.state), [filters.state]);
+  const requestedScopeKey = useMemo(
+    () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}|${filters.school}`,
+    [filters.state, filters.lga, filters.ward, filters.school],
+  );
   const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
+  const [loadedLocation, setLoadedLocation] = useState({
+    state: filters.state,
+    lga: filters.lga,
+    ward: filters.ward,
+    school: filters.school,
+  });
 
   useEffect(() => {
     let mounted = true;
@@ -1208,8 +1223,9 @@ export default function PerformanceDashboard({
       try {
         setLoading(true);
         setError(null);
+        const depth = scopeDepthForLocation(filters);
         const [factRows, benchmarkRows] = await Promise.all([
-          loadRefinedPageRows<PerformanceRow>("performance", filters.state),
+          loadRefinedScopedRows<PerformanceRow>("performance", filters.state, depth),
           loadRefinedFile<BenchmarkRow>("dimensions/dim_benchmarks.csv"),
         ]);
 
@@ -1217,6 +1233,12 @@ export default function PerformanceDashboard({
         setRows(factRows);
         setBenchmarks(benchmarkRows);
         setLoadedScopeKey(requestedScopeKey);
+        setLoadedLocation({
+          state: filters.state,
+          lga: filters.lga,
+          ward: filters.ward,
+          school: filters.school,
+        });
       } catch (loadError) {
         if (!mounted) return;
         setError(loadError instanceof Error ? loadError.message : "Failed to load performance data");
@@ -1232,7 +1254,7 @@ export default function PerformanceDashboard({
     return () => {
       mounted = false;
     };
-  }, [dimSessions, filters.state, requestedScopeKey]);
+  }, [filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey]);
 
   useEffect(() => {
     if (!expandState) return undefined;
@@ -1255,8 +1277,8 @@ export default function PerformanceDashboard({
   }, [dimSessions, filters.session]);
   const scopePending = requestedScopeKey !== loadedScopeKey;
   const renderFilters = useMemo(
-    () => (scopePending ? { ...filters, state: loadedScopeKey } : filters),
-    [scopePending, filters, loadedScopeKey],
+    () => (scopePending ? { ...filters, ...loadedLocation } : filters),
+    [scopePending, filters, loadedLocation],
   );
 
   const baseRowsRaw = useMemo(() => filterRows(rows, renderFilters, disabilityMode), [rows, renderFilters, disabilityMode]);

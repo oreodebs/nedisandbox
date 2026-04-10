@@ -65,6 +65,34 @@ export function canonicalState(value: unknown): string {
   return trimmed;
 }
 
+type ScopedLocation = {
+  state?: string | null;
+  lga?: string | null;
+  ward?: string | null;
+  school?: string | null;
+};
+
+function hasLocationValue(value: string | null | undefined): boolean {
+  return typeof value === 'string' && value.trim().length > 0;
+}
+
+export type RefinedScopeDepth = 'top' | 'lga' | 'ward' | 'school';
+export type RefinedLocLevel = 'state' | 'lga' | 'ward' | 'school';
+
+export function scopeDepthForLocation(location: ScopedLocation): RefinedScopeDepth {
+  if (!hasLocationValue(location.state)) return 'top';
+  if (hasLocationValue(location.school) || hasLocationValue(location.ward)) return 'school';
+  if (hasLocationValue(location.lga)) return 'ward';
+  return 'lga';
+}
+
+export function expectedLocLevelForLocation(location: ScopedLocation): RefinedLocLevel {
+  if (!hasLocationValue(location.state)) return 'state';
+  if (hasLocationValue(location.school) || hasLocationValue(location.ward)) return 'school';
+  if (hasLocationValue(location.lga)) return 'ward';
+  return 'lga';
+}
+
 function stateFileCandidates(state: string): string[] {
   const trimmed = canonicalState(state);
   if (!trimmed) return [];

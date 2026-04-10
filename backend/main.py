@@ -1,81 +1,41 @@
-import os
+from contextlib import asynccontextmanager
 
-import clickhouse_connect
 from dotenv import load_dotenv
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
+
+from auth_store import init_auth_database
 
 load_dotenv()
 
-app = FastAPI(title="NEDI Backend")
+from routers.auth import router as auth_router
+from routers.clickhouse import router as clickhouse_router
 
 
-def get_clickhouse_client():
-    return clickhouse_connect.get_client(
-        host=os.environ["CLICKHOUSE_HOST"],
-        port=int(os.environ["CLICKHOUSE_PORT"]),
-        username=os.environ["CLICKHOUSE_USER"],
-        password=os.environ["CLICKHOUSE_PASSWORD"],
-        database=os.environ["CLICKHOUSE_DATABASE"],
-        secure=os.environ["CLICKHOUSE_SECURE"].lower() == "true",
-    )
+@asynccontextmanager
+async def lifespan(_: FastAPI):
+    init_auth_database()
+    yield
+
+
+app = FastAPI(title="NEDI Backend", lifespan=lifespan)
 
 
 @app.get("/")
-def read_root():
-    return {"message": "NEDI backend is running"}
+def read_root() -> dict[str, str]:
+    return {
+        "message": "NEDI backend is running",
+        "docs": "/docs",
+        "api_base": "/api/v1",
+    }
 
 
 @app.get("/health")
-def health():
+def health() -> dict[str, str]:
     return {"status": "ok"}
 
 
-@app.get("/clickhouse-health")
-def clickhouse_health():
-    try:
-        client = get_clickhouse_client()
-        result = client.query("SELECT version()")
-        version = result.result_set[0][0]
-
-        return {
-            "status": "ok",
-            "clickhouse_host": os.environ["CLICKHOUSE_HOST"],
-            "clickhouse_database": os.environ["CLICKHOUSE_DATABASE"],
-            "clickhouse_version": version,
-        }
-    except KeyError as exc:
-        raise HTTPException(
-            status_code=500,
-            detail=f"Missing environment variable: {exc.args[0]}",
-        )
-    except Exception as exc:
-        raise HTTPException(
-            status_code=500,
-            detail=f"ClickHouse connection failed: {exc}",
-        )
-
-
-@app.get("/clickhouse-tables")
-def clickhouse_tables():
-    try:
-        client = get_clickhouse_client()
-        result = client.query("SHOW TABLES")
-        tables = [row[0] for row in result.result_set]
-
-        return {
-            "database": os.environ["CLICKHOUSE_DATABASE"],
-            "tables": tables,
-        }
-    except KeyError as exc:
-        raise HTTPException(
-            status_code=500,
-            detail=f"Missing environment variable: {exc.args[0]}",
-        )
-    except Exception as exc:
-        raise HTTPException(
-            status_code=500,
-            detail=f"ClickHouse query failed: {exc}",
-        )
+app.include_router(auth_router)
+app.include_router(clickhouse_router)
 
 
 if __name__ == "__main__":

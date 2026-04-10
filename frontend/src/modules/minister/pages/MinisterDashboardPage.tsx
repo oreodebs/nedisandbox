@@ -1,4 +1,4 @@
-import { Suspense, lazy, useEffect, useMemo, useState } from "react";
+import { Suspense, lazy, useDeferredValue, useEffect, useMemo, useState } from "react";
 import type { ChangeEvent, ReactNode } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Accessibility, ArrowRight, BookOpen, ChevronUp, Users } from "lucide-react";
@@ -1157,6 +1157,7 @@ export default function MinisterDashboardPage({
     },
     [filters, latestSessionId, dimLatestSessionId],
   );
+  const dashboardFilters = useDeferredValue(effectiveFilters);
 
   // Use dimLatestSessionId as the guaranteed fallback — once dims have loaded, ready is always true
   const ready = !loadingDims && !dataErr && !!(effectiveFilters.session || latestSessionId || dimLatestSessionId);
@@ -1523,7 +1524,7 @@ export default function MinisterDashboardPage({
             {category === "transition" ? (
               <div className="mt-6">
                 <TransitionDashboard
-                  filters={effectiveFilters}
+                  filters={dashboardFilters}
                   setFilters={setFilters}
                   dimSessions={dimSessions}
                   disabilityMode={disabilityMode}
@@ -1535,7 +1536,7 @@ export default function MinisterDashboardPage({
             {category === "performance" ? (
               <div className="mt-6">
                 <PerformanceDashboard
-                  filters={effectiveFilters}
+                  filters={dashboardFilters}
                   setFilters={setFilters}
                   dimSessions={dimSessions}
                   disabilityMode={disabilityMode}
@@ -1546,7 +1547,7 @@ export default function MinisterDashboardPage({
             {showAccessCoverage ? (
               <div className="mt-6">
                 <AccessCoverageDashboard
-                  filters={effectiveFilters}
+                  filters={dashboardFilters}
                   setFilters={setFilters}
                   dimSessions={dimSessions}
                   disabilityMode={disabilityMode}
@@ -1557,7 +1558,7 @@ export default function MinisterDashboardPage({
             {showTeacherCapacity ? (
               <div className="mt-6">
                 <TeacherCapacityDashboard
-                  filters={effectiveFilters}
+                  filters={dashboardFilters}
                   setFilters={setFilters}
                   dimSessions={dimSessions}
                   disabilityMode={disabilityMode}
@@ -1568,7 +1569,7 @@ export default function MinisterDashboardPage({
             {category === "policy_impact" ? (
               <div className="mt-6">
                 <PolicyImpactDashboard
-                  filters={effectiveFilters}
+                  filters={dashboardFilters}
                   setFilters={setFilters}
                   dimSessions={dimSessions}
                   disabilityMode={disabilityMode}
@@ -1579,7 +1580,7 @@ export default function MinisterDashboardPage({
             {category === "general_overview" ? (
               <div className="mt-6">
                 <GeneralOverviewDashboard
-                  filters={effectiveFilters}
+                  filters={dashboardFilters}
                   setFilters={setFilters}
                   dimSessions={dimSessions}
                   disabilityMode={disabilityMode}

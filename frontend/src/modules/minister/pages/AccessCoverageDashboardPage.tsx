@@ -953,6 +953,19 @@ function mergeMetrics(rows: AccessWardRow[]): FacilityMetrics {
   };
 }
 
+function trackSchoolCount(target: Map<string, number>, row: AccessWardRow): void {
+  const key = facilityKey(row);
+  target.set(key, Math.max(target.get(key) ?? 0, safeNum(row.school_count)));
+}
+
+function sumTrackedSchoolCounts(target: Map<string, number>): number {
+  let total = 0;
+  target.forEach((value) => {
+    total += value;
+  });
+  return total;
+}
+
 function clampToPercent(value: number): number {
   return Math.max(0, Math.min(100, value));
 }
@@ -2669,26 +2682,37 @@ export default function AccessCoverageDashboard({
   const uniqueSchoolFacilityCount = (rows: AccessWardRow[]): number => {
     const seen = new Map<string, number>();
     rows.forEach((row) => {
-      const key = facilityKey(row);
-      seen.set(key, Math.max(seen.get(key) ?? 0, safeNum(row.school_count)));
+      trackSchoolCount(seen, row);
     });
-    return [...seen.values()].reduce((sum, value) => sum + value, 0);
+    return sumTrackedSchoolCounts(seen);
   };
 
   const cardMetrics = useMemo(() => {
-    const basicEnrollmentRows = currentRows.filter((row) => ["Pre-Primary/Primary", "JSS", "SSS", "Adult & Non-Formal", "Vocational"].includes(row.school_level));
-    const formalPrimaryRows = currentRows.filter((row) => row.class_grade.startsWith("Primary"));
-    const jss1Rows = currentRows.filter((row) => row.class_grade === "JSS1");
-    const ss1Rows = currentRows.filter((row) => row.class_grade === "SSS1");
+    let totalBasicEnrollment = 0;
+    let totalFormalPrimaryStudents = 0;
+    let totalJss1Students = 0;
+    let totalSs1Students = 0;
+    const allSchoolCounts = new Map<string, number>();
+    const publicSchoolCounts = new Map<string, number>();
+    const privateSchoolCounts = new Map<string, number>();
 
-    const totalBasicEnrollment = basicEnrollmentRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
-    const totalFormalPrimaryStudents = formalPrimaryRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
-    const totalJss1Students = jss1Rows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
-    const totalSs1Students = ss1Rows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
+    currentRows.forEach((row) => {
+      const students = safeNum(row.student_count);
+      const isBasicLevel = ["Pre-Primary/Primary", "JSS", "SSS", "Adult & Non-Formal", "Vocational"].includes(row.school_level);
+      if (isBasicLevel) totalBasicEnrollment += students;
+      if (row.class_grade.startsWith("Primary")) totalFormalPrimaryStudents += students;
+      if (row.class_grade === "JSS1") totalJss1Students += students;
+      if (row.class_grade === "SSS1") totalSs1Students += students;
+
+      trackSchoolCount(allSchoolCounts, row);
+      if (row.school_type === "Public") trackSchoolCount(publicSchoolCounts, row);
+      if (row.school_type === "Private") trackSchoolCount(privateSchoolCounts, row);
+    });
+
     const totalOLevelStudents = currentTransitionRows.reduce((sum, row) => sum + safeNum(row.o_level_candidates), 0);
-    const totalSchools = uniqueSchoolFacilityCount(currentRows);
-    const totalPublicSchools = uniqueSchoolFacilityCount(currentRows.filter((row) => row.school_type === "Public"));
-    const totalPrivateSchools = uniqueSchoolFacilityCount(currentRows.filter((row) => row.school_type === "Private"));
+    const totalSchools = sumTrackedSchoolCounts(allSchoolCounts);
+    const totalPublicSchools = sumTrackedSchoolCounts(publicSchoolCounts);
+    const totalPrivateSchools = sumTrackedSchoolCounts(privateSchoolCounts);
 
     const previousTotalBasicEnrollment = previousRows
       .filter((row) => ["Pre-Primary/Primary", "JSS", "SSS", "Adult & Non-Formal", "Vocational"].includes(row.school_level))
@@ -2945,8 +2969,25 @@ export default function AccessCoverageDashboard({
 
   const studentCountGenderChart = useMemo<ChartBundle>(() => {
     const labels = ["Male", "Female"];
-    const publicValues = labels.map((gender) => currentRows.filter((row) => row.gender === gender && row.school_type === "Public").reduce((sum, row) => sum + safeNum(row.student_count), 0));
-    const privateValues = labels.map((gender) => currentRows.filter((row) => row.gender === gender && row.school_type === "Private").reduce((sum, row) => sum + safeNum(row.student_count), 0));
+    let publicMale = 0;
+    let publicFemale = 0;
+    let privateMale = 0;
+    let privateFemale = 0;
+
+    currentRows.forEach((row) => {
+      const students = safeNum(row.student_count);
+      if (row.school_type === "Public") {
+        if (row.gender === "Male") publicMale += students;
+        if (row.gender === "Female") publicFemale += students;
+      }
+      if (row.school_type === "Private") {
+        if (row.gender === "Male") privateMale += students;
+        if (row.gender === "Female") privateFemale += students;
+      }
+    });
+
+    const publicValues = [publicMale, publicFemale];
+    const privateValues = [privateMale, privateFemale];
 
     return {
       data: [
@@ -2982,12 +3023,13 @@ export default function AccessCoverageDashboard({
   }, [currentRows]);
 
   const sharedComparisonStateOrder = useMemo(() => {
-    const ranked = [...new Set(sessionRows.map((row) => row.state).filter(Boolean))]
-      .map((state) => {
-        const stateRows = sessionRows.filter((row) => row.state === state);
-        const total = stateRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
-        return { state, total };
-      })
+    const totals = new Map<string, number>();
+    sessionRows.forEach((row) => {
+      if (!row.state) return;
+      totals.set(row.state, (totals.get(row.state) ?? 0) + safeNum(row.student_count));
+    });
+    const ranked = [...totals.entries()]
+      .map(([state, total]) => ({ state, total }))
       .sort((left, right) => right.total - left.total);
     return ranked.map((item) => item.state);
   }, [sessionRows]);
@@ -3004,13 +3046,40 @@ export default function AccessCoverageDashboard({
       : row.school_level === "JSS" || row.school_level === "SSS");
     const scopedRows = effectiveState ? levelRows.filter((row) => row.state === effectiveState) : levelRows;
 
-    const groups = [...new Set(scopedRows.map((row) => locationLabel(row, level)).filter(Boolean))]
-      .map((label) => {
-        const labelRows = scopedRows.filter((row) => locationLabel(row, level) === label);
-        const publicRows = labelRows.filter((row) => row.school_type === "Public");
-        const privateRows = labelRows.filter((row) => row.school_type === "Private");
-        const publicValue = metric === "schools" ? uniqueSchoolFacilityCount(publicRows) : publicRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
-        const privateValue = metric === "schools" ? uniqueSchoolFacilityCount(privateRows) : privateRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
+    const grouped = new Map<
+      string,
+      {
+        publicStudents: number;
+        privateStudents: number;
+        publicSchoolCounts: Map<string, number>;
+        privateSchoolCounts: Map<string, number>;
+      }
+    >();
+
+    scopedRows.forEach((row) => {
+      const label = locationLabel(row, level);
+      if (!label) return;
+      const bucket = grouped.get(label) ?? {
+        publicStudents: 0,
+        privateStudents: 0,
+        publicSchoolCounts: new Map<string, number>(),
+        privateSchoolCounts: new Map<string, number>(),
+      };
+      const students = safeNum(row.student_count);
+      if (row.school_type === "Public") {
+        bucket.publicStudents += students;
+        trackSchoolCount(bucket.publicSchoolCounts, row);
+      } else if (row.school_type === "Private") {
+        bucket.privateStudents += students;
+        trackSchoolCount(bucket.privateSchoolCounts, row);
+      }
+      grouped.set(label, bucket);
+    });
+
+    const groups = [...grouped.entries()]
+      .map(([label, bucket]) => {
+        const publicValue = metric === "schools" ? sumTrackedSchoolCounts(bucket.publicSchoolCounts) : bucket.publicStudents;
+        const privateValue = metric === "schools" ? sumTrackedSchoolCounts(bucket.privateSchoolCounts) : bucket.privateStudents;
         return { label, publicValue, privateValue, total: publicValue + privateValue };
       })
       .filter((item) => item.total > 0)
@@ -3081,18 +3150,24 @@ export default function AccessCoverageDashboard({
     schoolType: "Public" | "Private",
     levelGroup: "primary" | "secondary",
   ): ChartBundle => {
-    const levelRows = sessionRows.filter((row) => {
+    const grouped = new Map<string, { maleValue: number; femaleValue: number }>();
+
+    sessionRows.forEach((row) => {
       const isLevelMatch = levelGroup === "primary"
         ? row.school_level === "Pre-Primary/Primary"
         : row.school_level === "JSS" || row.school_level === "SSS";
-      return isLevelMatch && row.school_type === schoolType;
+      if (!isLevelMatch || row.school_type !== schoolType || !row.state) return;
+      const bucket = grouped.get(row.state) ?? { maleValue: 0, femaleValue: 0 };
+      const students = safeNum(row.student_count);
+      if (row.gender === "Male") bucket.maleValue += students;
+      if (row.gender === "Female") bucket.femaleValue += students;
+      grouped.set(row.state, bucket);
     });
+
     const stateLabels = sharedComparisonStateOrder
       .map((state) => {
-        const stateRows = levelRows.filter((row) => row.state === state);
-        const maleValue = stateRows.filter((row) => row.gender === "Male").reduce((sum, row) => sum + safeNum(row.student_count), 0);
-        const femaleValue = stateRows.filter((row) => row.gender === "Female").reduce((sum, row) => sum + safeNum(row.student_count), 0);
-        return { state, maleValue, femaleValue, total: maleValue + femaleValue };
+        const bucket = grouped.get(state) ?? { maleValue: 0, femaleValue: 0 };
+        return { state, maleValue: bucket.maleValue, femaleValue: bucket.femaleValue, total: bucket.maleValue + bucket.femaleValue };
       })
       .filter((item) => item.total > 0);
 
@@ -3166,15 +3241,32 @@ export default function AccessCoverageDashboard({
     );
     const scopedRows = effectiveState ? levelRows.filter((row) => row.state === effectiveState) : levelRows;
 
-    const groups = [...new Set(scopedRows.map((row) => locationLabel(row, level)).filter(Boolean))]
-      .map((label) => {
-        const labelRows = scopedRows.filter((row) => locationLabel(row, level) === label);
-        const publicMale = labelRows.filter((row) => row.school_type === "Public" && row.gender === "Male").reduce((sum, row) => sum + safeNum(row.student_count), 0);
-        const publicFemale = labelRows.filter((row) => row.school_type === "Public" && row.gender === "Female").reduce((sum, row) => sum + safeNum(row.student_count), 0);
-        const privateMale = labelRows.filter((row) => row.school_type === "Private" && row.gender === "Male").reduce((sum, row) => sum + safeNum(row.student_count), 0);
-        const privateFemale = labelRows.filter((row) => row.school_type === "Private" && row.gender === "Female").reduce((sum, row) => sum + safeNum(row.student_count), 0);
-        return { label, publicMale, publicFemale, privateMale, privateFemale, total: publicMale + publicFemale + privateMale + privateFemale };
-      })
+    const grouped = new Map<string, { publicMale: number; publicFemale: number; privateMale: number; privateFemale: number }>();
+
+    scopedRows.forEach((row) => {
+      const label = locationLabel(row, level);
+      if (!label) return;
+      const bucket = grouped.get(label) ?? { publicMale: 0, publicFemale: 0, privateMale: 0, privateFemale: 0 };
+      const students = safeNum(row.student_count);
+      if (row.school_type === "Public") {
+        if (row.gender === "Male") bucket.publicMale += students;
+        if (row.gender === "Female") bucket.publicFemale += students;
+      } else if (row.school_type === "Private") {
+        if (row.gender === "Male") bucket.privateMale += students;
+        if (row.gender === "Female") bucket.privateFemale += students;
+      }
+      grouped.set(label, bucket);
+    });
+
+    const groups = [...grouped.entries()]
+      .map(([label, bucket]) => ({
+        label,
+        publicMale: bucket.publicMale,
+        publicFemale: bucket.publicFemale,
+        privateMale: bucket.privateMale,
+        privateFemale: bucket.privateFemale,
+        total: bucket.publicMale + bucket.publicFemale + bucket.privateMale + bucket.privateFemale,
+      }))
       .filter((item) => item.total > 0)
       .sort((left, right) => right.total - left.total);
 
@@ -3358,19 +3450,44 @@ export default function AccessCoverageDashboard({
     const activeState = densityDrill.state ?? (renderFilters.state || "");
     if (!activeState) return null;
     const scopedRows = currentRows.filter((row) => row.state === activeState && row.school_level === "Pre-Primary/Primary");
-    const groups = aggregateBy(scopedRows, "lga")
-      .map((group) => {
-        const publicRows = scopedRows.filter((row) => row.lga === group.label && row.school_type === "Public");
-        const privateRows = scopedRows.filter((row) => row.lga === group.label && row.school_type === "Private");
-        const publicStudents = publicRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
-        const publicSchools = uniqueSchoolFacilityCount(publicRows);
-        const privateStudents = privateRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
-        const privateSchools = uniqueSchoolFacilityCount(privateRows);
+    const grouped = new Map<
+      string,
+      {
+        publicStudents: number;
+        privateStudents: number;
+        publicSchoolCounts: Map<string, number>;
+        privateSchoolCounts: Map<string, number>;
+      }
+    >();
+
+    scopedRows.forEach((row) => {
+      if (!row.lga) return;
+      const bucket = grouped.get(row.lga) ?? {
+        publicStudents: 0,
+        privateStudents: 0,
+        publicSchoolCounts: new Map<string, number>(),
+        privateSchoolCounts: new Map<string, number>(),
+      };
+      const students = safeNum(row.student_count);
+      if (row.school_type === "Public") {
+        bucket.publicStudents += students;
+        trackSchoolCount(bucket.publicSchoolCounts, row);
+      } else if (row.school_type === "Private") {
+        bucket.privateStudents += students;
+        trackSchoolCount(bucket.privateSchoolCounts, row);
+      }
+      grouped.set(row.lga, bucket);
+    });
+
+    const groups = [...grouped.entries()]
+      .map(([label, bucket]) => {
+        const publicSchools = sumTrackedSchoolCounts(bucket.publicSchoolCounts);
+        const privateSchools = sumTrackedSchoolCounts(bucket.privateSchoolCounts);
         return {
-          label: group.label,
-          publicAverage: publicSchools > 0 ? publicStudents / publicSchools : 0,
-          privateAverage: privateSchools > 0 ? privateStudents / privateSchools : 0,
-          totalAverage: (publicStudents + privateStudents) / Math.max(publicSchools + privateSchools, 1),
+          label,
+          publicAverage: publicSchools > 0 ? bucket.publicStudents / publicSchools : 0,
+          privateAverage: privateSchools > 0 ? bucket.privateStudents / privateSchools : 0,
+          totalAverage: (bucket.publicStudents + bucket.privateStudents) / Math.max(publicSchools + privateSchools, 1),
         };
       })
       .filter((group) => group.publicAverage > 0 || group.privateAverage > 0)
@@ -3432,12 +3549,24 @@ export default function AccessCoverageDashboard({
 
   const densitySchoolLevelChart = useMemo<ChartBundle>(() => {
     const schoolLevels = ["Pre-Primary/Primary", "JSS", "SSS", "Adult & Non-Formal"] as const;
-    const groups = schoolLevels.map((level) => {
-      const rows = currentRows.filter((row) => row.school_level === level);
-      const students = rows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
-      const schools = uniqueSchoolFacilityCount(rows);
-      return { label: displaySchoolLevel(level), value: schools > 0 ? students / schools : 0 };
-    }).filter((group) => group.value > 0);
+    const grouped = new Map<string, { students: number; schoolCounts: Map<string, number> }>();
+
+    currentRows.forEach((row) => {
+      if (!schoolLevels.includes(row.school_level as (typeof schoolLevels)[number])) return;
+      const bucket = grouped.get(row.school_level) ?? { students: 0, schoolCounts: new Map<string, number>() };
+      bucket.students += safeNum(row.student_count);
+      trackSchoolCount(bucket.schoolCounts, row);
+      grouped.set(row.school_level, bucket);
+    });
+
+    const groups = schoolLevels
+      .map((level) => {
+        const bucket = grouped.get(level);
+        const schools = bucket ? sumTrackedSchoolCounts(bucket.schoolCounts) : 0;
+        const students = bucket?.students ?? 0;
+        return { label: displaySchoolLevel(level), value: schools > 0 ? students / schools : 0 };
+      })
+      .filter((group) => group.value > 0);
 
     return {
       data: [
@@ -3479,18 +3608,30 @@ export default function AccessCoverageDashboard({
       ? row.school_level === "Pre-Primary/Primary"
       : row.school_level === "JSS" || row.school_level === "SSS");
     const scopedRows = effectiveState ? levelRows.filter((row) => row.state === effectiveState) : levelRows;
-    const groupedRows = [...new Set(scopedRows.map((row) => locationLabel(row, level)).filter(Boolean))].map((label) => {
-      const labelRows = scopedRows.filter((row) => locationLabel(row, level) === label);
-      const publicRows = labelRows.filter((row) => row.school_type === "Public");
-      const privateRows = labelRows.filter((row) => row.school_type === "Private");
-      const publicStudents = publicRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
-      const privateStudents = privateRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
-      const publicClassrooms = publicRows.reduce((sum, row) => sum + safeNum(row.classroom_count), 0);
-      const privateClassrooms = privateRows.reduce((sum, row) => sum + safeNum(row.classroom_count), 0);
-      const publicRatio = publicClassrooms > 0 ? publicStudents / publicClassrooms : 0;
-      const privateRatio = privateClassrooms > 0 ? privateStudents / privateClassrooms : 0;
-      return { label, publicRatio, privateRatio, totalRatio: publicRatio + privateRatio };
-    }).filter((item) => item.publicRatio > 0 || item.privateRatio > 0).sort((left, right) => right.totalRatio - left.totalRatio);
+    const grouped = new Map<string, { publicStudents: number; privateStudents: number; publicClassrooms: number; privateClassrooms: number }>();
+
+    scopedRows.forEach((row) => {
+      const label = locationLabel(row, level);
+      if (!label) return;
+      const bucket = grouped.get(label) ?? { publicStudents: 0, privateStudents: 0, publicClassrooms: 0, privateClassrooms: 0 };
+      if (row.school_type === "Public") {
+        bucket.publicStudents += safeNum(row.student_count);
+        bucket.publicClassrooms += safeNum(row.classroom_count);
+      } else if (row.school_type === "Private") {
+        bucket.privateStudents += safeNum(row.student_count);
+        bucket.privateClassrooms += safeNum(row.classroom_count);
+      }
+      grouped.set(label, bucket);
+    });
+
+    const groupedRows = [...grouped.entries()]
+      .map(([label, bucket]) => {
+        const publicRatio = bucket.publicClassrooms > 0 ? bucket.publicStudents / bucket.publicClassrooms : 0;
+        const privateRatio = bucket.privateClassrooms > 0 ? bucket.privateStudents / bucket.privateClassrooms : 0;
+        return { label, publicRatio, privateRatio, totalRatio: publicRatio + privateRatio };
+      })
+      .filter((item) => item.publicRatio > 0 || item.privateRatio > 0)
+      .sort((left, right) => right.totalRatio - left.totalRatio);
 
     const labels = groupedRows.map((row) => row.label);
     const publicValues = groupedRows.map((row) => row.publicRatio);
@@ -3657,11 +3798,21 @@ export default function AccessCoverageDashboard({
     const effectiveState = keyEntryStateDrill.state ?? (renderFilters.state || undefined);
     const level: LocationLevel = effectiveState ? "lga" : "state";
     const scopedRows = effectiveState ? sessionRows.filter((row) => row.state === effectiveState) : sessionRows;
-    const labels = [...new Set(scopedRows.map((row) => locationLabel(row, level)).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+    const grouped = new Map<string, Record<(typeof KEY_ENTRY_LEVELS)[number], number>>();
+
+    scopedRows.forEach((row) => {
+      const label = locationLabel(row, level);
+      if (!label || !KEY_ENTRY_LEVELS.includes(row.key_entry_level as (typeof KEY_ENTRY_LEVELS)[number])) return;
+      const bucket = grouped.get(label) ?? { "Primary 1": 0, JSS1: 0, SSS1: 0 };
+      bucket[row.key_entry_level as (typeof KEY_ENTRY_LEVELS)[number]] += safeNum(row.student_count);
+      grouped.set(label, bucket);
+    });
+
+    const labels = [...grouped.keys()].sort((a, b) => a.localeCompare(b));
 
     const traces: PlotlyData[] = KEY_ENTRY_LEVELS.map((entryLevel, index) => {
       const color = [COLORS.primary, COLORS.jss, COLORS.sss][index];
-      const values = labels.map((label) => scopedRows.filter((row) => locationLabel(row, level) === label && row.key_entry_level === entryLevel).reduce((sum, row) => sum + safeNum(row.student_count), 0));
+      const values = labels.map((label) => grouped.get(label)?.[entryLevel] ?? 0);
       return {
         type: "bar",
         orientation: "h",
@@ -3703,8 +3854,20 @@ export default function AccessCoverageDashboard({
 
   const keyEntryGenderChart = useMemo<ChartBundle>(() => {
     const labels = [...KEY_ENTRY_LEVELS];
-    const maleValues = labels.map((entry) => currentRows.filter((row) => row.key_entry_level === entry && row.gender === "Male").reduce((sum, row) => sum + safeNum(row.student_count), 0));
-    const femaleValues = labels.map((entry) => currentRows.filter((row) => row.key_entry_level === entry && row.gender === "Female").reduce((sum, row) => sum + safeNum(row.student_count), 0));
+    const grouped = new Map<(typeof KEY_ENTRY_LEVELS)[number], { male: number; female: number }>();
+
+    currentRows.forEach((row) => {
+      if (!KEY_ENTRY_LEVELS.includes(row.key_entry_level as (typeof KEY_ENTRY_LEVELS)[number])) return;
+      const entry = row.key_entry_level as (typeof KEY_ENTRY_LEVELS)[number];
+      const bucket = grouped.get(entry) ?? { male: 0, female: 0 };
+      const students = safeNum(row.student_count);
+      if (row.gender === "Male") bucket.male += students;
+      if (row.gender === "Female") bucket.female += students;
+      grouped.set(entry, bucket);
+    });
+
+    const maleValues = labels.map((entry) => grouped.get(entry)?.male ?? 0);
+    const femaleValues = labels.map((entry) => grouped.get(entry)?.female ?? 0);
 
     return {
       data: [

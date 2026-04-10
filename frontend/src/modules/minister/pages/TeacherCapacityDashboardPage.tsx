@@ -15,7 +15,13 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { canonicalState, loadRefinedFile, loadRefinedPageRows } from "../utils/refinedPageData";
+import {
+  canonicalState,
+  expectedLocLevelForLocation,
+  loadRefinedFile,
+  loadRefinedScopedRows,
+  scopeDepthForLocation,
+} from "../utils/refinedPageData";
 
 type TeacherCapacityRow = {
   session: string;
@@ -294,7 +300,7 @@ function filterTeacherRows(
   options?: { ignoreSession?: boolean; ignoreQualificationStatus?: boolean },
   disabilityMode = false,
 ): TeacherCapacityRow[] {
-  const expectedLocLevel: "state" | "school" = filters.state ? "school" : "state";
+  const expectedLocLevel = expectedLocLevelForLocation(filters);
   return rows.filter((row) => {
     if (!options?.ignoreSession && row.session !== filters.session) return false;
     if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
@@ -1685,12 +1691,21 @@ export default function TeacherCapacityDashboard({
   const [error, setError] = useState<string | null>(null);
   const [expandState, setExpandState] = useState<ExpandState>(null);
   const expandedPanelRef = useRef<HTMLDivElement | null>(null);
-  const requestedScopeKey = useMemo(() => canonicalState(filters.state), [filters.state]);
+  const requestedScopeKey = useMemo(
+    () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}|${filters.school}`,
+    [filters.state, filters.lga, filters.ward, filters.school],
+  );
   const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
+  const [loadedLocation, setLoadedLocation] = useState({
+    state: filters.state,
+    lga: filters.lga,
+    ward: filters.ward,
+    school: filters.school,
+  });
   const scopePending = requestedScopeKey !== loadedScopeKey;
   const renderFilters = useMemo(
-    () => (scopePending ? { ...filters, state: loadedScopeKey } : filters),
-    [scopePending, filters, loadedScopeKey],
+    () => (scopePending ? { ...filters, ...loadedLocation } : filters),
+    [scopePending, filters, loadedLocation],
   );
 
   useEffect(() => {
@@ -1700,9 +1715,10 @@ export default function TeacherCapacityDashboard({
       try {
         setLoading(true);
         setError(null);
+        const depth = scopeDepthForLocation(filters);
 
         const [teacherRows, benchmarkRows] = await Promise.all([
-          loadRefinedPageRows<TeacherCapacityRow>("teacher_capacity", filters.state),
+          loadRefinedScopedRows<TeacherCapacityRow>("teacher_capacity", filters.state, depth),
           loadRefinedFile<TeacherBenchmarkRow>("dimensions/dim_teacher_capacity_benchmarks.csv"),
         ]);
 
@@ -1711,6 +1727,12 @@ export default function TeacherCapacityDashboard({
         setRows(teacherRows);
         setBenchmarks(benchmarkRows);
         setLoadedScopeKey(requestedScopeKey);
+        setLoadedLocation({
+          state: filters.state,
+          lga: filters.lga,
+          ward: filters.ward,
+          school: filters.school,
+        });
       } catch (err) {
         if (!alive) return;
         setError(err instanceof Error ? err.message : "Failed to load teacher capacity CSVs");
@@ -1722,7 +1744,7 @@ export default function TeacherCapacityDashboard({
     return () => {
       alive = false;
     };
-  }, [filters.state, requestedScopeKey]);
+  }, [filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey]);
 
   useEffect(() => {
     if (!expandState) return undefined;
