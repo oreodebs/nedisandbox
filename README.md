@@ -8,14 +8,14 @@ Repository structure:
 Frontend commands:
 
 ```bash
-cd frontend
 npm run dev
 ```
 
 ```bash
-cd frontend
 npm run build
 ```
+
+The root `package.json` forwards these commands to the `frontend` workspace, so repo-root builds work in CI/CD platforms like Cloudflare Pages.
 
 Useful frontend data scripts:
 
