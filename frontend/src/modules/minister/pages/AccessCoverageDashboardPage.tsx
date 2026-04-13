@@ -4374,8 +4374,8 @@ export default function AccessCoverageDashboard({
       femaleValues = lgas.map((lga) => lgaRows.filter((row) => row.lga === lga && row.gender === "Female").reduce((sum, row) => sum + safeNum(row.student_count), 0));
     } else {
       const rows = almajiriRows.filter((row) => {
-        if (row.session !== filters.session) return false;
-        if (filters.zone && row.zone !== filters.zone) return false;
+        if (row.session !== renderFilters.session) return false;
+        if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
         if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
         return true;
       });
@@ -4501,11 +4501,11 @@ export default function AccessCoverageDashboard({
         applyChartDrill(infrastructureDrill, setInfrastructureDrill, label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label);
       },
     },
-    primary: { bundle: primaryChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (filters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
-    jss: { bundle: jssChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (filters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
-    sss: { bundle: sssChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (filters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
-    vocational: { bundle: vocationalChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (filters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
-    iqs: { bundle: iqsChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (filters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
+    primary: { bundle: primaryChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
+    jss: { bundle: jssChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
+    sss: { bundle: sssChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
+    vocational: { bundle: vocationalChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
+    iqs: { bundle: iqsChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
     almajiri: {
       bundle: almajiriChart,
       onPlotClick: (event) => {
@@ -4559,7 +4559,7 @@ export default function AccessCoverageDashboard({
               <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
                 <div>
                   <div className="text-sm font-bold text-slate-900">Average Primary Learners per School (Public vs Private)</div>
-                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {densityDrill.state ?? filters.state} (LGA view)</div>
+                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {densityDrill.state ?? renderFilters.state} (LGA view)</div>
                 </div>
                 <div className="flex items-center gap-2">
                   <button
@@ -4814,7 +4814,7 @@ export default function AccessCoverageDashboard({
               <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
                 <div>
                   <div className="text-sm font-bold text-slate-900">Learners per Computer by LGA</div>
-                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {computerDrill.state ?? filters.state} (ranked LGA view)</div>
+                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {computerDrill.state ?? renderFilters.state} (ranked LGA view)</div>
                   <div className="mt-1 inline-flex rounded-full border border-slate-200 bg-slate-50 px-2 py-0.5 text-[11px] font-medium text-slate-600">UBE Benchmark: 3 Students per 1 Computer</div>
                 </div>
                 <div className="flex items-center gap-2">
@@ -4959,11 +4959,11 @@ export default function AccessCoverageDashboard({
 
       <section className="space-y-4" id="access-coverage-level">
         <SectionTitle id="access-coverage-level-anchor" title="School and Student Enrollment by Level" />
-        <ChartCard title="Pre/Primary Schools and Student Enrollment by State" explanation={CHART_HELP.primary} bundle={primaryChart} onExpand={() => setExpandState({ key: "primary", title: "Pre/Primary Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (filters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="JSS Schools and Student Enrollment by State" explanation={CHART_HELP.jss} bundle={jssChart} onExpand={() => setExpandState({ key: "jss", title: "JSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (filters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="SSS Schools and Student Enrollment by State" explanation={CHART_HELP.sss} bundle={sssChart} onExpand={() => setExpandState({ key: "sss", title: "SSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (filters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="Tech/Voc Schools and Student Enrollment by State" explanation={CHART_HELP.vocational} bundle={vocationalChart} onExpand={() => setExpandState({ key: "vocational", title: "Tech/Voc Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (filters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" explanation={CHART_HELP.iqs} bundle={iqsChart} onExpand={() => setExpandState({ key: "iqs", title: "Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (filters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="Pre/Primary Schools and Student Enrollment by State" explanation={CHART_HELP.primary} bundle={primaryChart} onExpand={() => setExpandState({ key: "primary", title: "Pre/Primary Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="JSS Schools and Student Enrollment by State" explanation={CHART_HELP.jss} bundle={jssChart} onExpand={() => setExpandState({ key: "jss", title: "JSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="SSS Schools and Student Enrollment by State" explanation={CHART_HELP.sss} bundle={sssChart} onExpand={() => setExpandState({ key: "sss", title: "SSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="Tech/Voc Schools and Student Enrollment by State" explanation={CHART_HELP.vocational} bundle={vocationalChart} onExpand={() => setExpandState({ key: "vocational", title: "Tech/Voc Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" explanation={CHART_HELP.iqs} bundle={iqsChart} onExpand={() => setExpandState({ key: "iqs", title: "Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
       </section>
 
       <section className="space-y-4" id="access-coverage-almajiri">

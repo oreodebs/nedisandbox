@@ -2482,15 +2482,8 @@ setDropoffDrill({}); setIqsDrill({});
 
   // ── Section 2: PTR chart (UBEC benchmark) ───────────────────────────────────
   const ptrChartResult = useMemo((): LocationChartResult | null => {
-    const filtered = teacherRows.filter(r => {
-      if (filters.session && r.session !== filters.session) return false;
-      if (filters.zone && !geoMatches(r.zone, filters.zone)) return false;
-      if (renderFilters.state && !geoMatches(r.state, renderFilters.state)) return false;
-      if (renderFilters.lga && !geoMatches(r.lga, renderFilters.lga)) return false;
-      return true;
-    });
-    return buildPupilTeacherRatioByLocationChart(filtered, filters, UBEC_BENCHMARK);
-  }, [teacherRows, filters]);
+    return buildPupilTeacherRatioByLocationChart(currentTeacher, renderFilters, UBEC_BENCHMARK);
+  }, [currentTeacher, renderFilters]);
 
   // ── Section 3: Transition funnel ────────────────────────────────────────────
   const currentMetrics = useMemo(() => aggregateRows(currentTransition), [currentTransition]);
@@ -2517,7 +2510,7 @@ setDropoffDrill({}); setIqsDrill({});
 
   // ── Section 3: Drop-off by state ────────────────────────────────────────────
   const dropoffStateChart = useMemo<LocationChartResult>(() => {
-    const resolved = resolveTransitionRows(currentTransition, "state", dropoffDrill, filters);
+    const resolved = resolveTransitionRows(currentTransition, "state", dropoffDrill, renderFilters);
     const grouped = makeGroupedTr(resolved.rows, resolved.level);
     const labels = grouped.map(r => r.label);
     const height = Math.max(280, labels.length * 24 + 80);
@@ -2558,7 +2551,7 @@ setDropoffDrill({}); setIqsDrill({});
         fixedLegend: legendItemsFromData(data), expandedWidthClass: "max-w-[920px]",
       },
     };
-  }, [currentTransition, dropoffDrill, filters]);
+  }, [currentTransition, dropoffDrill, renderFilters]);
 
   // ── Section 4: STEMM & Non-STEMM matriculated trend (single line each) ──────
   const stemmNonStemmTrendBundle = useMemo<ChartBundle>(() => {

@@ -1393,7 +1393,7 @@ const buildTransitionLocationChart = (
   baseLevel: LocationLevel,
   drill: DrillState,
 ): LocationChartResult => {
-  const resolved = resolveLocationRows(filteredCurrentRows, baseLevel, drill, filters);
+  const resolved = resolveLocationRows(filteredCurrentRows, baseLevel, drill, renderFilters);
   const grouped = makeGrouped(resolved.rows, resolved.level);
   const labels = grouped.map((row) => row.label);
   const isScrollable = baseLevel === "state";
@@ -1437,7 +1437,7 @@ const buildDropoffLocationChart = (
   baseLevel: LocationLevel,
   drill: DrillState,
 ): LocationChartResult => {
-  const resolved = resolveLocationRows(filteredCurrentRows, baseLevel, drill, filters);
+  const resolved = resolveLocationRows(filteredCurrentRows, baseLevel, drill, renderFilters);
   const grouped = makeGrouped(resolved.rows, resolved.level);
   const labels = grouped.map((row) => row.label);
   const isScrollable = baseLevel === "state";
@@ -1481,35 +1481,35 @@ const buildDropoffLocationChart = (
 
   const generalTransitionZoneChart = useMemo(
     () => buildTransitionLocationChart("zone", generalTransitionZoneDrill),
-    [filteredCurrentRows, filters, generalTransitionZoneDrill, mode],
+    [filteredCurrentRows, renderFilters, generalTransitionZoneDrill, mode],
   );
   const generalTransitionStateChart = useMemo(
     () => buildTransitionLocationChart("state", generalTransitionStateDrill),
-    [filteredCurrentRows, filters, generalTransitionStateDrill, mode],
+    [filteredCurrentRows, renderFilters, generalTransitionStateDrill, mode],
   );
   const generalDropoffZoneChart = useMemo(
     () => buildDropoffLocationChart("zone", generalDropoffZoneDrill),
-    [filteredCurrentRows, filters, generalDropoffZoneDrill, mode],
+    [filteredCurrentRows, renderFilters, generalDropoffZoneDrill, mode],
   );
   const generalDropoffStateChart = useMemo(
     () => buildDropoffLocationChart("state", generalDropoffStateDrill),
-    [filteredCurrentRows, filters, generalDropoffStateDrill, mode],
+    [filteredCurrentRows, renderFilters, generalDropoffStateDrill, mode],
   );
   const directTransitionZoneChart = useMemo(
     () => buildTransitionLocationChart("zone", directTransitionZoneDrill),
-    [filteredCurrentRows, filters, directTransitionZoneDrill, mode],
+    [filteredCurrentRows, renderFilters, directTransitionZoneDrill, mode],
   );
   const directTransitionStateChart = useMemo(
     () => buildTransitionLocationChart("state", directTransitionStateDrill),
-    [filteredCurrentRows, filters, directTransitionStateDrill, mode],
+    [filteredCurrentRows, renderFilters, directTransitionStateDrill, mode],
   );
   const directDropoffZoneChart = useMemo(
     () => buildDropoffLocationChart("zone", directDropoffZoneDrill),
-    [filteredCurrentRows, filters, directDropoffZoneDrill, mode],
+    [filteredCurrentRows, renderFilters, directDropoffZoneDrill, mode],
   );
   const directDropoffStateChart = useMemo(
     () => buildDropoffLocationChart("state", directDropoffStateDrill),
-    [filteredCurrentRows, filters, directDropoffStateDrill, mode],
+    [filteredCurrentRows, renderFilters, directDropoffStateDrill, mode],
   );
 
   const helpText = {
