@@ -5,6 +5,7 @@ dist/
 src (2).zip
 backend/venv/
 backend/__pycache__/
+backend/**/__pycache__/
 backend/.pytest_cache/
 backend/data/*.db
 backend/data/*.sqlite*

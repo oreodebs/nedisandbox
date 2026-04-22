@@ -9,5 +9,82 @@
     "fileSize": 0,
     "success": true,
     "timestamp": "2026-03-31T11:45:28.033Z"
+  },
+  {
+    "action": "download",
+    "connectionId": "197.159.79.171:22:oreoluwa",
+    "hostName": "NediDev",
+    "username": "oreoluwa",
+    "remotePath": "/app/platform/webapp/nedisandbox/frontend/.dockerignore",
+    "localPath": "c:\\Users\\TR658GP\\AppData\\Local\\Temp\\ssh-lite\\d7b1b01d\\[oreoluwa@197.159.79.171] .dockerignore",
+    "fileSize": 102,
+    "success": true,
+    "timestamp": "2026-04-21T11:32:46.228Z"
+  },
+  {
+    "action": "download",
+    "connectionId": "197.159.79.171:22:oreoluwa",
+    "hostName": "NediDev",
+    "username": "oreoluwa",
+    "remotePath": "/app/platform/webapp/nedisandbox/docker-compose.yml",
+    "localPath": "c:\\Users\\TR658GP\\AppData\\Local\\Temp\\ssh-lite\\d7b1b01d\\[oreoluwa@197.159.79.171] docker-compose.yml",
+    "fileSize": 591,
+    "success": true,
+    "timestamp": "2026-04-21T11:32:55.253Z"
+  },
+  {
+    "action": "download",
+    "connectionId": "197.159.79.171:22:oreoluwa",
+    "hostName": "NediDev",
+    "username": "oreoluwa",
+    "remotePath": "/app/platform/webapp/nedisandbox/frontend/Dockerfile",
+    "localPath": "c:\\Users\\TR658GP\\AppData\\Local\\Temp\\ssh-lite\\d7b1b01d\\[oreoluwa@197.159.79.171] Dockerfile",
+    "fileSize": 278,
+    "success": true,
+    "timestamp": "2026-04-21T11:33:55.665Z"
+  },
+  {
+    "action": "download",
+    "connectionId": "197.159.79.171:22:oreoluwa",
+    "hostName": "NediDev",
+    "username": "oreoluwa",
+    "remotePath": "/app/platform/webapp/nedisandbox/backend/.dockerignore",
+    "localPath": "c:\\Users\\TR658GP\\AppData\\Local\\Temp\\ssh-lite\\d7b1b01d\\[oreoluwa@197.159.79.171] .dockerignore",
+    "fileSize": 36,
+    "success": true,
+    "timestamp": "2026-04-21T11:36:46.068Z"
+  },
+  {
+    "action": "download",
+    "connectionId": "197.159.79.171:22:oreoluwa",
+    "hostName": "NediDev",
+    "username": "oreoluwa",
+    "remotePath": "/app/platform/webapp/nedisandbox/backend/.env",
+    "localPath": "c:\\Users\\TR658GP\\AppData\\Local\\Temp\\ssh-lite\\d7b1b01d\\[oreoluwa@197.159.79.171] .env",
+    "fileSize": 159,
+    "success": true,
+    "timestamp": "2026-04-21T11:36:47.133Z"
+  },
+  {
+    "action": "download",
+    "connectionId": "197.159.79.171:22:oreoluwa",
+    "hostName": "NediDev",
+    "username": "oreoluwa",
+    "remotePath": "/app/platform/webapp/nedisandbox/backend/.env",
+    "localPath": "c:\\Users\\TR658GP\\AppData\\Local\\Temp\\ssh-lite\\d7b1b01d\\[oreoluwa@197.159.79.171] .env",
+    "fileSize": 159,
+    "success": true,
+    "timestamp": "2026-04-22T08:05:16.336Z"
+  },
+  {
+    "action": "download",
+    "connectionId": "197.159.79.171:22:oreoluwa",
+    "hostName": "NediDev",
+    "username": "oreoluwa",
+    "remotePath": "/app/platform/webapp/nedisandbox/backend/main.py",
+    "localPath": "c:\\Users\\TR658GP\\AppData\\Local\\Temp\\ssh-lite\\d7b1b01d\\[oreoluwa@197.159.79.171] main.py",
+    "fileSize": 3644,
+    "success": true,
+    "timestamp": "2026-04-22T08:12:49.791Z"
   }
 ]

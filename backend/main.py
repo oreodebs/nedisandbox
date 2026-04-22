@@ -3,17 +3,19 @@ from contextlib import asynccontextmanager
 from dotenv import load_dotenv
 from fastapi import FastAPI
 
-from auth_store import init_auth_database
+from auth_store import bootstrap_admin_user, init_auth_database
 
 load_dotenv()
 
 from routers.auth import router as auth_router
 from routers.clickhouse import router as clickhouse_router
+from routers.users import router as users_router
 
 
 @asynccontextmanager
 async def lifespan(_: FastAPI):
     init_auth_database()
+    bootstrap_admin_user()
     yield
 
 
@@ -35,6 +37,7 @@ def health() -> dict[str, str]:
 
 
 app.include_router(auth_router)
+app.include_router(users_router)
 app.include_router(clickhouse_router)
 
 

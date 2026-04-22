@@ -2,10 +2,13 @@ import base64
 import hashlib
 import hmac
 import os
+import secrets
 
 PBKDF2_ALGORITHM = "sha256"
 PBKDF2_ITERATIONS = 390_000
 SALT_BYTES = 16
+AUTH_TOKEN_SECRET_ENV = "AUTH_TOKEN_SECRET"
+DEV_TOKEN_SECRET = "dev-only-change-me"
 
 
 def hash_password(password: str) -> str:
@@ -44,3 +47,15 @@ def verify_password(password: str, stored_hash: str) -> bool:
     )
 
     return hmac.compare_digest(candidate_digest, expected_digest)
+
+
+def generate_secure_token(byte_count: int = 32) -> str:
+    return secrets.token_urlsafe(byte_count)
+
+
+def _token_secret() -> bytes:
+    return os.getenv(AUTH_TOKEN_SECRET_ENV, DEV_TOKEN_SECRET).encode("utf-8")
+
+
+def hash_token(token: str) -> str:
+    return hmac.new(_token_secret(), token.encode("utf-8"), hashlib.sha256).hexdigest()
