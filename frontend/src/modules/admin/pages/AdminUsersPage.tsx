@@ -377,7 +377,7 @@ export default function AdminUsersPage() {
         const response = await usersApi.create(accessToken, payload);
         setNotice({
           kind: "success",
-          message: "User created and setup invitation sent.",
+          message: response.message,
           setupUrl: response.setup_url,
         });
       }
@@ -462,7 +462,7 @@ export default function AdminUsersPage() {
       const response = await usersApi.resendSetup(accessToken, user.id);
       setNotice({
         kind: "success",
-        message: "Setup invitation sent again.",
+        message: response.message,
         setupUrl: response.setup_url,
       });
       await loadUsers();

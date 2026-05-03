@@ -49,20 +49,30 @@ class UserResponse(BaseModel):
 router = APIRouter(prefix="/api/v1/users", tags=["users"])
 
 
-def _send_setup_email(user: dict[str, object], *, expires_minutes: int = 24 * 60) -> str:
+def _send_setup_email(
+    user: dict[str, object], *, expires_minutes: int = 24 * 60
+) -> tuple[str, bool]:
     token = create_password_token(
         int(user["id"]),
         "setup_password",
         expires_minutes=expires_minutes,
     )
     setup_url = build_password_setup_url(token)
-    send_password_setup_email(
-        to_email=str(user["email"]),
-        first_name=str(user["first_name"]),
-        last_name=str(user["last_name"]),
-        setup_url=setup_url,
-    )
-    return setup_url
+    try:
+        send_password_setup_email(
+            to_email=str(user["email"]),
+            first_name=str(user["first_name"]),
+            last_name=str(user["last_name"]),
+            setup_url=setup_url,
+        )
+    except Exception as exc:
+        print(
+            "Failed to send setup email "
+            f"to {user['email']}: {exc}"
+        )
+        return setup_url, False
+
+    return setup_url, True
 
 
 @router.post("", response_model=CreateUserResponse, status_code=status.HTTP_201_CREATED)
@@ -82,7 +92,7 @@ def create_user_from_admin(
     except ValueError as exc:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(exc)) from exc
 
-    setup_url = _send_setup_email(user)
+    setup_url, email_sent = _send_setup_email(user)
     record_audit_event(
         "ACTIVITY",
         "User Management",
@@ -99,7 +109,11 @@ def create_user_from_admin(
     )
 
     return CreateUserResponse(
-        message="User created and password setup email sent.",
+        message=(
+            "User created and password setup email sent."
+            if email_sent
+            else "User created, but setup email could not be sent. Use the setup link below for testing."
+        ),
         user=AuthUser(**user),
         setup_url=setup_url,
     )
@@ -200,7 +214,7 @@ def resend_setup_invite(
             detail="Reactivate this account before resending setup.",
         )
 
-    setup_url = _send_setup_email(user)
+    setup_url, email_sent = _send_setup_email(user)
     record_audit_event(
         "ACTIVITY",
         "Invite",
@@ -210,7 +224,11 @@ def resend_setup_invite(
     )
 
     return CreateUserResponse(
-        message="Setup invitation sent again.",
+        message=(
+            "Setup invitation sent again."
+            if email_sent
+            else "Setup link generated again, but the email could not be sent. Use the setup link below for testing."
+        ),
         user=AuthUser(**user),
         setup_url=setup_url,
     )
