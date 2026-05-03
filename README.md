@@ -17,6 +17,8 @@ npm run build
 
 The root `package.json` forwards these commands into `frontend`, and its `postinstall` runs a clean install in `frontend` so repo-root CI/CD platforms like Cloudflare Pages pick up the correct frontend lockfile.
 
+Production frontend deployments are built from the `frontend` app.
+
 Useful frontend data scripts:
 
 ```bash
