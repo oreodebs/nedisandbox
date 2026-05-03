@@ -1,188 +1,259 @@
-// src/app/api.ts
+type HttpMethod = "GET" | "POST" | "PATCH" | "DELETE";
+export const SESSION_INVALID_EVENT = "nedi:session-invalid";
 
-type HttpMethod = "GET";
+type RequestOptions = {
+  method?: HttpMethod;
+  body?: unknown;
+  headers?: Record<string, string>;
+};
 
-const API_BASE =
-  import.meta.env.VITE_API_BASE_URL?.replace(/\/+$/, "") ||
-  "http://127.0.0.1:8000";
-
-function qs(params: Record<string, any>) {
-  const sp = new URLSearchParams();
-  Object.entries(params || {}).forEach(([k, v]) => {
-    if (v === undefined || v === null || v === "") return;
-    sp.set(k, String(v));
-  });
-  const s = sp.toString();
-  return s ? `?${s}` : "";
-}
-
-async function requestJSON<T>(path: string, method: HttpMethod = "GET"): Promise<T> {
-  const url = `${API_BASE}${path}`;
-  const res = await fetch(url, { method });
-
-  if (!res.ok) {
-    const text = await res.text().catch(() => "");
-    throw new Error(`${method} ${url} -> ${res.status} ${res.statusText} :: ${text}`);
+function inferApiBase(): string {
+  const configuredBase = import.meta.env.VITE_API_BASE_URL?.trim();
+  if (configuredBase) {
+    return configuredBase.replace(/\/+$/, "");
   }
-  return (await res.json()) as T;
+
+  const { hostname, origin, protocol } = window.location;
+  const isLocalhost =
+    hostname === "localhost" ||
+    hostname === "127.0.0.1" ||
+    hostname === "0.0.0.0";
+
+  if (isLocalhost) {
+    return `${protocol}//${hostname}:8000`;
+  }
+
+  // In deployed environments, prefer same-origin API routing unless an
+  // explicit backend URL is configured.
+  return origin.replace(/\/+$/, "");
 }
 
-export async function getLatestAvailableYear(): Promise<number> {
-  const res = await filtersApi.years();
-  const yrs = (res.years ?? []).map(Number).filter(Number.isFinite);
-  if (!yrs.length) throw new Error("No years returned");
-  return Math.max(...yrs);
+const API_BASE = inferApiBase();
+
+async function requestJSON<T>(
+  path: string,
+  { method = "GET", body, headers = {} }: RequestOptions = {}
+): Promise<T> {
+  const url = `${API_BASE}${path}`;
+  const requestHeaders = new Headers(headers);
+
+  if (body !== undefined) {
+    requestHeaders.set("Content-Type", "application/json");
+  }
+
+  const response = await fetch(url, {
+    method,
+    headers: requestHeaders,
+    body: body === undefined ? undefined : JSON.stringify(body),
+  });
+
+  if (!response.ok) {
+    const responseType = response.headers.get("content-type") || "";
+    const isAuthorizedRequest = requestHeaders.has("Authorization");
+    let detail = `${response.status} ${response.statusText}`;
+
+    if (responseType.includes("application/json")) {
+      const payload = await response.json().catch(() => null);
+      detail =
+        typeof payload?.detail === "string"
+          ? payload.detail
+          : payload?.message || detail;
+    } else {
+      const text = await response.text().catch(() => "");
+      detail = text || detail;
+    }
+
+    if (response.status === 401 && isAuthorizedRequest) {
+      window.dispatchEvent(
+        new CustomEvent(SESSION_INVALID_EVENT, {
+          detail: { message: detail },
+        }),
+      );
+    }
+
+    throw new Error(detail);
+  }
+
+  return (await response.json()) as T;
 }
 
-// -----------------------------------------------------------------------------
-// FILTERS (ROOT)
-// -----------------------------------------------------------------------------
-export const filtersApi = {
-  years: () => requestJSON<{ years: number[] }>(`/years`),
-
-  zones: () => requestJSON<{ zones: string[] }>(`/zones`),
-
-  states: (zone?: string) =>
-    requestJSON<{ zone: string | null; states: string[] }>(
-      `/states${qs({ zone })}`
-    ),
-
-  lgas: (p: { state: string; zone?: string }) =>
-    requestJSON<{ zone: string | null; state: string; lgas: string[] }>(
-      `/lgas${qs(p)}`
-    ),
-
-  wards: (p: { state: string; lga: string; zone?: string }) =>
-    requestJSON<{ zone: string | null; state: string; lga: string; wards: string[] }>(
-      `/wards${qs(p)}`
-    ),
-
-  schools: (p: { state: string; lga: string; ward?: string; zone?: string }) =>
-    requestJSON<{
-      zone: string | null;
-      state: string;
-      lga: string;
-      ward: string | null;
-      schools: string[];
-    }>(`/schools${qs(p)}`),
-
-  genders: () =>
-    requestJSON<{ genders: Array<"Male" | "Female"> }>(`/genders`),
-
-  gapBands: () =>
-    requestJSON<{ gap_bands: Array<"1" | "2" | "3-5" | "5+"> }>(
-      `/gap-bands`
-    ),
+export type AuthUser = {
+  id: number;
+  email: string;
+  first_name: string;
+  last_name: string;
+  role: "SYSTEM_ADMIN" | "MINISTER" | "STATE_ADMIN";
+  assigned_state: string | null;
+  is_active: boolean;
+  is_admin: boolean;
+  must_change_password: boolean;
+  password_changed_at: string | null;
+  created_at: string | null;
+  updated_at: string | null;
 };
 
-// -----------------------------------------------------------------------------
-// SHARED TYPES
-// -----------------------------------------------------------------------------
-export type GroupBy = "zone" | "state" | "lga" | "ward";
-
-export type GeoParams = {
-  year?: number;
-  zone?: string;
-  state?: string;
-  lga?: string;
-  ward?: string;
-  school_id?: number;
-  gender?: "Male" | "Female";
+export type CreateUserRequest = {
+  email: string;
+  first_name: string;
+  last_name: string;
+  role: AuthUser["role"];
+  assigned_state: string | null;
 };
 
-export type OverviewParams = GeoParams & {
-  gap_band?: "1" | "2" | "3-5" | "5+";
+export type AuditEvent = {
+  id: number;
+  stream: "ACTIVITY" | "SECURITY";
+  category: string;
+  event: string;
+  user_name: string;
+  user_role: AuthUser["role"] | null;
+  created_at: string;
 };
 
-// -----------------------------------------------------------------------------
-// OVERVIEW KPIs
-// -----------------------------------------------------------------------------
-export const overviewApi = {
-  cards: (p: OverviewParams) =>
-    requestJSON<any>(`/kpis/overview/cards${qs(p)}`),
-
-  medianTransitionTime: (p: { year: number }) =>
-    requestJSON<any>(
-      `/kpis/overview/median-transition-time${qs(p)}`
-    ),
-
-  funnelGrouped: (p: OverviewParams & { group_by: GroupBy }) =>
-    requestJSON<any>(
-      `/kpis/overview/funnel/grouped${qs(p)}`
-    ),
-
-  funnelByGender: (p: OverviewParams) =>
-    requestJSON<any>(
-      `/kpis/overview/funnel/gender${qs(p)}`
-    ),
-
-  bandView: (p: OverviewParams) =>
-    requestJSON<any>(
-      `/kpis/overview/band-view${qs(p)}`
-    ),
-
-  dropoffByGender: (p: OverviewParams) =>
-    requestJSON<any>(
-      `/kpis/overview/dropoff/gender${qs(p)}`
-    ),
-
-  dropoffByLocation: (p: OverviewParams & { group_by: GroupBy }) =>
-    requestJSON<any>(
-      `/kpis/overview/dropoff/location${qs(p)}`
-    ),
+export type SystemHealthComponent = {
+  key: string;
+  label: string;
+  status: "healthy" | "configured" | "warning" | "error" | string;
+  detail: string;
+  checked_at: string;
+  meta: Record<string, string>;
 };
 
-// -----------------------------------------------------------------------------
-// DIRECT (SAME-YEAR) KPIs
-// -----------------------------------------------------------------------------
-export const directApi = {
-  cards: (p: GeoParams) =>
-    requestJSON<any>(`/kpis/direct/cards${qs(p)}`),
+export type SystemConfigurationEntry = {
+  label: string;
+  value: string;
+};
 
-  funnel: (p: GeoParams) =>
-    requestJSON<any>(`/kpis/direct/funnel${qs(p)}`),
+export type SystemHealthResponse = {
+  checked_at: string;
+  components: SystemHealthComponent[];
+  configuration: SystemConfigurationEntry[];
+};
 
-  funnelGrouped: (p: GeoParams & { group_by: GroupBy }) =>
-    requestJSON<any>(
-      `/kpis/direct/funnel/grouped${qs(p)}`
-    ),
+type MessageResponse = {
+  message: string;
+};
 
-  funnelByGender: (p: GeoParams) =>
-    requestJSON<any>(
-      `/kpis/direct/funnel/gender${qs(p)}`
-    ),
+type AuthResponse = {
+  message: string;
+  user: AuthUser;
+};
 
-  waecPassRate: (
-    p: GeoParams & { group_by: GroupBy; split_by_gender?: boolean }
+type LoginResponse = AuthResponse & {
+  access_token: string;
+  token_type: string;
+};
+
+type CreateUserResponse = {
+  message: string;
+  user: AuthUser;
+  setup_url: string;
+};
+
+export const authApi = {
+  login: (email: string, password: string) =>
+    requestJSON<LoginResponse>(`/api/v1/auth/login`, {
+      method: "POST",
+      body: { email, password },
+    }),
+
+  logout: (accessToken: string) =>
+    requestJSON<MessageResponse>(`/api/v1/auth/logout`, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${accessToken}` },
+    }),
+
+  changePassword: (
+    accessToken: string,
+    currentPassword: string,
+    newPassword: string
   ) =>
-    requestJSON<any>(
-      `/kpis/direct/waec/pass-rate${qs(p)}`
-    ),
+    requestJSON<AuthResponse>(`/api/v1/auth/change-password`, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${accessToken}` },
+      body: {
+        current_password: currentPassword,
+        new_password: newPassword,
+      },
+    }),
 
-  jambPassRate: (
-    p: GeoParams & { group_by: GroupBy; split_by_gender?: boolean }
-  ) =>
-    requestJSON<any>(
-      `/kpis/direct/jamb/pass-rate${qs(p)}`
-    ),
+  forgotPassword: (email: string) =>
+    requestJSON<MessageResponse>(`/api/v1/auth/forgot-password`, {
+      method: "POST",
+      body: { email },
+    }),
 
-  admissionRate: (p: GeoParams) =>
-    requestJSON<any>(
-      `/kpis/direct/admission-rate${qs(p)}`
-    ),
+  resetPassword: (token: string, newPassword: string) =>
+    requestJSON<AuthResponse>(`/api/v1/auth/reset-password`, {
+      method: "POST",
+      body: { token, new_password: newPassword },
+    }),
 
-  matriculationRate: (p: GeoParams) =>
-    requestJSON<any>(
-      `/kpis/direct/matriculation-rate${qs(p)}`
-    ),
+  setupPassword: (token: string, newPassword: string) =>
+    requestJSON<AuthResponse>(`/api/v1/auth/setup-password`, {
+      method: "POST",
+      body: { token, new_password: newPassword },
+    }),
 
-  dropoffByGender: (p: GeoParams) =>
-    requestJSON<any>(
-      `/kpis/direct/dropoff/gender${qs(p)}`
-    ),
+  me: (accessToken: string) =>
+    requestJSON<AuthUser>(`/api/v1/auth/me`, {
+      headers: { Authorization: `Bearer ${accessToken}` },
+    }),
+};
 
-  dropoffByLocation: (p: GeoParams & { group_by: GroupBy }) =>
-    requestJSON<any>(
-      `/kpis/direct/dropoff/location${qs(p)}`
+export const usersApi = {
+  list: (accessToken: string) =>
+    requestJSON<AuthUser[]>(`/api/v1/users`, {
+      headers: { Authorization: `Bearer ${accessToken}` },
+    }),
+
+  create: (accessToken: string, payload: CreateUserRequest) =>
+    requestJSON<CreateUserResponse>(`/api/v1/users`, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${accessToken}` },
+      body: payload,
+    }),
+
+  update: (accessToken: string, userId: number, payload: CreateUserRequest) =>
+    requestJSON<AuthResponse>(`/api/v1/users/${userId}`, {
+      method: "PATCH",
+      headers: { Authorization: `Bearer ${accessToken}` },
+      body: payload,
+    }),
+
+  updateStatus: (accessToken: string, userId: number, isActive: boolean) =>
+    requestJSON<AuthResponse>(`/api/v1/users/${userId}/status`, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${accessToken}` },
+      body: { is_active: isActive },
+    }),
+
+  resendSetup: (accessToken: string, userId: number) =>
+    requestJSON<CreateUserResponse>(`/api/v1/users/${userId}/resend-setup`, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${accessToken}` },
+    }),
+
+  delete: (accessToken: string, userId: number) =>
+    requestJSON<MessageResponse>(`/api/v1/users/${userId}`, {
+      method: "DELETE",
+      headers: { Authorization: `Bearer ${accessToken}` },
+    }),
+};
+
+export const auditApi = {
+  list: (accessToken: string, stream: AuditEvent["stream"]) =>
+    requestJSON<AuditEvent[]>(
+      `/api/v1/audit?stream=${encodeURIComponent(stream)}`,
+      {
+        headers: { Authorization: `Bearer ${accessToken}` },
+      },
     ),
+};
+
+export const systemApi = {
+  health: (accessToken: string) =>
+    requestJSON<SystemHealthResponse>(`/api/v1/system/health`, {
+      headers: { Authorization: `Bearer ${accessToken}` },
+    }),
 };

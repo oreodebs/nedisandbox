@@ -4,6 +4,7 @@ import { useSearchParams } from "react-router-dom";
 import { Accessibility, ArrowRight, BookOpen, ChevronUp, Users } from "lucide-react";
 
 import MinisterLayout from "../../../layouts/MinisterLayout";
+import { getAssignedState, getRole } from "../../../app/auth";
 import type {
   DimLga,
   DimSchool,
@@ -428,6 +429,12 @@ export default function MinisterDashboardPage({
   onOpenSettings: () => void;
   onLogout: () => void;
 }) {
+  const assignedStateScope = useMemo(
+    () => canonicalState(getAssignedState() ?? ""),
+    [],
+  );
+  const isStateScopedAdmin =
+    getRole() === "STATE_ADMIN" && Boolean(assignedStateScope);
   const [searchParams, setSearchParams] = useSearchParams();
   const tabParam = searchParams.get("tab") as CategoryKey | null;
   const category: CategoryKey = tabParam && tabParam in CATEGORY_LABELS ? tabParam : "general_overview";
@@ -1120,10 +1127,33 @@ export default function MinisterDashboardPage({
 
 
   useEffect(() => {
-    if (filters.state && !stateOptions.some((option) => option.value === filters.state)) {
+    if (!isStateScopedAdmin || !assignedStateScope) return;
+
+    setFilters((prev) => {
+      if (prev.state === assignedStateScope && prev.zone === "") {
+        return prev;
+      }
+
+      return {
+        ...prev,
+        zone: "",
+        state: assignedStateScope,
+        lga: prev.state === assignedStateScope ? prev.lga : "",
+        ward: prev.state === assignedStateScope ? prev.ward : "",
+        school: prev.state === assignedStateScope ? prev.school : "",
+      };
+    });
+  }, [assignedStateScope, isStateScopedAdmin]);
+
+  useEffect(() => {
+    if (
+      filters.state &&
+      !stateOptions.some((option) => option.value === filters.state) &&
+      !(isStateScopedAdmin && filters.state === assignedStateScope)
+    ) {
       setFilters((prev) => ({ ...prev, state: "", lga: "", ward: "", school: "" }));
     }
-  }, [filters.state, stateOptions]);
+  }, [assignedStateScope, filters.state, isStateScopedAdmin, stateOptions]);
 
   useEffect(() => {
     if (filters.lga && !lgaOptions.some((option) => option.value === filters.lga)) {
@@ -1187,7 +1217,7 @@ export default function MinisterDashboardPage({
     setFilters({
       session: latestSession,
       zone: "",
-      state: "",
+      state: isStateScopedAdmin ? assignedStateScope : "",
       lga: "",
       ward: "",
       school: "",
@@ -1333,18 +1363,22 @@ export default function MinisterDashboardPage({
                 onChange={(value) => setFilters((prev) => ({ ...prev, gender: value as GenderFilter }))}
               />
             ) : null}
-            <FilterSelect
-              value={filters.zone}
-              placeholder="Zone"
-              options={zoneOptions}
-              onChange={(value) => setFilters((prev) => ({ ...prev, zone: value, state: "", lga: "", ward: "", school: "" }))}
-            />
-            <FilterSelect
-              value={filters.state}
-              placeholder="State"
-              options={stateOptions}
-              onChange={(value) => setFilters((prev) => ({ ...prev, state: value, lga: "", ward: "", school: "" }))}
-            />
+            {!isStateScopedAdmin ? (
+              <FilterSelect
+                value={filters.zone}
+                placeholder="Zone"
+                options={zoneOptions}
+                onChange={(value) => setFilters((prev) => ({ ...prev, zone: value, state: "", lga: "", ward: "", school: "" }))}
+              />
+            ) : null}
+            {!isStateScopedAdmin ? (
+              <FilterSelect
+                value={filters.state}
+                placeholder="State"
+                options={stateOptions}
+                onChange={(value) => setFilters((prev) => ({ ...prev, state: value, lga: "", ward: "", school: "" }))}
+              />
+            ) : null}
             <FilterSelect
               value={filters.lga}
               placeholder="LGA"

@@ -47,10 +47,11 @@ def _send_email(to_email: str, subject: str, body: str) -> None:
 
 
 def send_password_setup_email(
-    *, to_email: str, full_name: str, setup_url: str
+    *, to_email: str, first_name: str, last_name: str, setup_url: str
 ) -> None:
+    display_name = " ".join(part for part in [first_name.strip(), last_name.strip()] if part).strip()
     body = (
-        f"Hello {full_name},\n\n"
+        f"Hello {display_name or first_name},\n\n"
         "An account has been created for you on NEDI.\n"
         "Use the secure link below to set your password:\n\n"
         f"{setup_url}\n\n"
@@ -60,10 +61,11 @@ def send_password_setup_email(
 
 
 def send_forgot_password_email(
-    *, to_email: str, full_name: str, reset_url: str
+    *, to_email: str, first_name: str, last_name: str, reset_url: str
 ) -> None:
+    display_name = " ".join(part for part in [first_name.strip(), last_name.strip()] if part).strip()
     body = (
-        f"Hello {full_name},\n\n"
+        f"Hello {display_name or first_name},\n\n"
         "We received a request to reset your NEDI password.\n"
         "Use the secure link below to choose a new password:\n\n"
         f"{reset_url}\n\n"

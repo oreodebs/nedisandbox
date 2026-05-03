@@ -1,6 +1,8 @@
 import os
 
-from fastapi import APIRouter, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, status
+
+from routers.auth import require_admin_user
 
 router = APIRouter(tags=["clickhouse"])
 
@@ -47,7 +49,9 @@ def _clickhouse_tables_payload() -> dict[str, object]:
 
 @router.get("/api/v1/clickhouse/health")
 @router.get("/clickhouse-health", include_in_schema=False)
-def clickhouse_health() -> dict[str, object]:
+def clickhouse_health(
+    _: dict[str, object] = Depends(require_admin_user),
+) -> dict[str, object]:
     try:
         return _clickhouse_health_payload()
     except KeyError as exc:
@@ -64,7 +68,9 @@ def clickhouse_health() -> dict[str, object]:
 
 @router.get("/api/v1/clickhouse/tables")
 @router.get("/clickhouse-tables", include_in_schema=False)
-def clickhouse_tables() -> dict[str, object]:
+def clickhouse_tables(
+    _: dict[str, object] = Depends(require_admin_user),
+) -> dict[str, object]:
     try:
         return _clickhouse_tables_payload()
     except KeyError as exc:

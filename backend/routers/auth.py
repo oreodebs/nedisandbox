@@ -3,9 +3,11 @@ from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel, Field
 
 from auth_store import (
+    AuthenticationError,
     authenticate_user,
     change_user_password,
     create_auth_session,
+    record_audit_event,
     consume_password_token,
     create_password_token,
     get_user_by_email,
@@ -19,7 +21,10 @@ from email_service import build_password_reset_url, send_forgot_password_email
 class AuthUser(BaseModel):
     id: int
     email: str
-    full_name: str
+    first_name: str
+    last_name: str
+    role: str
+    assigned_state: str | None = None
     is_active: bool
     is_admin: bool
     must_change_password: bool
@@ -122,12 +127,20 @@ def require_admin_user(
 def login_user(payload: LoginRequest) -> LoginResponse:
     try:
         user = authenticate_user(payload.email, payload.password)
-    except ValueError as exc:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=str(exc)) from exc
+    except AuthenticationError as exc:
+        raise HTTPException(status_code=exc.status_code, detail=str(exc)) from exc
+
+    access_token = create_auth_session(int(user["id"]))
+    record_audit_event(
+        "SECURITY",
+        "Authentication",
+        "Login successful",
+        subject_user_id=int(user["id"]),
+    )
 
     return LoginResponse(
         message="Login successful",
-        access_token=create_auth_session(int(user["id"])),
+        access_token=access_token,
         user=_auth_user(user),
     )
 
@@ -135,8 +148,21 @@ def login_user(payload: LoginRequest) -> LoginResponse:
 @router.post("/logout", response_model=MessageResponse)
 def logout_user(
     credentials: HTTPAuthorizationCredentials | None = Depends(bearer_scheme),
+    current_user: dict[str, object] = Depends(get_current_user),
 ) -> MessageResponse:
     revoke_auth_session(_bearer_token(credentials))
+    record_audit_event(
+        "SECURITY",
+        "Authentication",
+        "Logout successful",
+        subject_user_id=int(current_user["id"]),
+    )
+    record_audit_event(
+        "SECURITY",
+        "Session",
+        "Session revoked",
+        subject_user_id=int(current_user["id"]),
+    )
     return MessageResponse(message="Logged out successfully")
 
 
@@ -159,6 +185,12 @@ def change_password(
     except ValueError as exc:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(exc)) from exc
 
+    record_audit_event(
+        "SECURITY",
+        "Password",
+        "Password changed",
+        subject_user_id=int(current_user["id"]),
+    )
     return AuthResponse(message="Password changed successfully", user=_auth_user(user))
 
 
@@ -170,6 +202,18 @@ def setup_password(payload: SetupPasswordRequest) -> AuthResponse:
     except ValueError as exc:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(exc)) from exc
 
+    record_audit_event(
+        "ACTIVITY",
+        "Invite",
+        "Setup invite completed",
+        subject_user_id=int(updated_user["id"]),
+    )
+    record_audit_event(
+        "SECURITY",
+        "Password",
+        "Password setup completed",
+        subject_user_id=int(updated_user["id"]),
+    )
     return AuthResponse(message="Password set successfully", user=_auth_user(updated_user))
 
 
@@ -182,7 +226,8 @@ def forgot_password(payload: ForgotPasswordRequest) -> MessageResponse:
         reset_url = build_password_reset_url(token)
         send_forgot_password_email(
             to_email=str(user["email"]),
-            full_name=str(user["full_name"]),
+            first_name=str(user["first_name"]),
+            last_name=str(user["last_name"]),
             reset_url=reset_url,
         )
 
@@ -199,4 +244,10 @@ def reset_password(payload: ResetPasswordRequest) -> AuthResponse:
     except ValueError as exc:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(exc)) from exc
 
+    record_audit_event(
+        "SECURITY",
+        "Password",
+        "Password reset completed",
+        subject_user_id=int(updated_user["id"]),
+    )
     return AuthResponse(message="Password reset successfully", user=_auth_user(updated_user))
