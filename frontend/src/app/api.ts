@@ -23,6 +23,16 @@ function inferApiBase(): string {
     return `${protocol}//${hostname}:8000`;
   }
 
+  // Cloudflare Pages preview/version URLs are still part of the public demo.
+  // If the build-time env var is missing there, fall back to the deployed
+  // Render backend instead of posting API requests back to the static site.
+  if (
+    hostname === "nedisandbox.pages.dev" ||
+    hostname.endsWith(".nedisandbox.pages.dev")
+  ) {
+    return "https://nedisandbox.onrender.com";
+  }
+
   // In deployed environments, prefer same-origin API routing unless an
   // explicit backend URL is configured.
   return origin.replace(/\/+$/, "");
