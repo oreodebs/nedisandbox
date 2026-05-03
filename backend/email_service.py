@@ -2,6 +2,12 @@ import os
 import smtplib
 from email.message import EmailMessage
 
+import requests
+
+
+def _mail_api_provider() -> str:
+    return os.getenv("EMAIL_API_PROVIDER", "").strip().lower()
+
 
 def _app_base_url() -> str:
     return os.getenv("APP_BASE_URL", "http://localhost:5173").rstrip("/")
@@ -15,9 +21,42 @@ def build_password_reset_url(token: str) -> str:
     return f"{_app_base_url()}/reset-password?token={token}"
 
 
-def _send_email(to_email: str, subject: str, body: str) -> None:
-    smtp_host = os.getenv("SMTP_HOST")
+def _send_email_via_mailtrap_api(to_email: str, subject: str, body: str) -> bool:
+    token = os.getenv("MAILTRAP_API_TOKEN", "").strip()
+    if not token:
+        return False
+
     from_email = os.getenv("SMTP_FROM", "noreply@nedi.local")
+    from_name = os.getenv("MAIL_FROM_NAME", "NEDI")
+
+    response = requests.post(
+        "https://send.api.mailtrap.io/api/send",
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+        },
+        json={
+            "from": {"email": from_email, "name": from_name},
+            "to": [{"email": to_email}],
+            "subject": subject,
+            "text": body,
+            "category": "nedi-auth",
+        },
+        timeout=30,
+    )
+    response.raise_for_status()
+    return True
+
+
+def _send_email(to_email: str, subject: str, body: str) -> None:
+    from_email = os.getenv("SMTP_FROM", "noreply@nedi.local")
+    provider = _mail_api_provider()
+
+    if provider == "mailtrap":
+        if _send_email_via_mailtrap_api(to_email, subject, body):
+            return
+
+    smtp_host = os.getenv("SMTP_HOST")
 
     if not smtp_host:
         print("\n--- NEDI DEV EMAIL ---")
