@@ -804,6 +804,69 @@ def bootstrap_admin_user() -> dict[str, object] | None:
     )
 
 
+def bootstrap_minister_user() -> dict[str, object] | None:
+    email = os.getenv("NEDI_MINISTER_EMAIL") or os.getenv("MINISTER_EMAIL")
+    password = os.getenv("NEDI_MINISTER_PASSWORD") or os.getenv("MINISTER_PASSWORD")
+    first_name = os.getenv("NEDI_MINISTER_FIRST_NAME") or os.getenv("MINISTER_FIRST_NAME")
+    last_name = os.getenv("NEDI_MINISTER_LAST_NAME") or os.getenv("MINISTER_LAST_NAME")
+    legacy_full_name = (
+        os.getenv("NEDI_MINISTER_FULL_NAME") or os.getenv("MINISTER_FULL_NAME") or "NEDI Minister"
+    )
+    if not first_name or not last_name:
+        derived_first_name, derived_last_name = _split_full_name(legacy_full_name)
+        first_name = first_name or derived_first_name or "NEDI"
+        last_name = last_name or derived_last_name or "Minister"
+
+    if not email or not password:
+        return None
+
+    normalized_email = _normalize_email(email)
+
+    with get_connection() as connection:
+        existing_user = _select_user_by_email(connection, normalized_email)
+        if existing_user:
+            if bool(existing_user["is_admin"]):
+                return _row_to_user(existing_user)
+
+            connection.execute(
+                """
+                UPDATE users
+                SET role = 'MINISTER',
+                    first_name = ?,
+                    last_name = ?,
+                    full_name = ?,
+                    assigned_state = NULL,
+                    password_hash = ?,
+                    is_admin = 0,
+                    is_active = 1,
+                    must_change_password = 0,
+                    password_changed_at = ?,
+                    updated_at = CURRENT_TIMESTAMP
+                WHERE id = ?
+                """,
+                (
+                    first_name,
+                    last_name,
+                    _display_name(first_name, last_name),
+                    hash_password(password),
+                    _timestamp(),
+                    existing_user["id"],
+                ),
+            )
+            connection.commit()
+            updated_user = _select_user_by_id(connection, existing_user["id"])
+            return _row_to_user(updated_user)
+
+    return create_user(
+        email=normalized_email,
+        first_name=first_name,
+        last_name=last_name,
+        password=password,
+        role="MINISTER",
+        must_change_password=False,
+    )
+
+
 def authenticate_user(email: str, password: str) -> dict[str, object]:
     normalized_email = _normalize_email(email)
 

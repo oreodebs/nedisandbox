@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from auth_store import bootstrap_admin_user, init_auth_database
+from auth_store import bootstrap_admin_user, bootstrap_minister_user, init_auth_database
 from routers.audit import router as audit_router
 from routers.auth import router as auth_router
 from routers.clickhouse import router as clickhouse_router
@@ -44,6 +44,7 @@ def _cors_allow_origins() -> list[str]:
 async def lifespan(_: FastAPI):
     init_auth_database()
     bootstrap_admin_user()
+    bootstrap_minister_user()
     yield
 
 
