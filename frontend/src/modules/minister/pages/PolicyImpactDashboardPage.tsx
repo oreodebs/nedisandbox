@@ -18,6 +18,11 @@ import {
 
 import type { DimSession, MinisterFilters } from "../types";
 import { canonicalState, loadRefinedFile, loadRefinedScopedRows } from "../utils/refinedPageData";
+import {
+  LOAN_TREND_SESSIONS,
+  POLICY_IMPACT_SESSIONS,
+  filterRowsBySessionWindow,
+} from "../utils/sessionWindows";
 
 type PolicyImpactRow = {
   session: string;
@@ -170,7 +175,7 @@ const CHART_HELP: Record<ChartKey, string> = {
   topNonStemmInstitutions: "This chart ranks the institutions with the highest Non-STEMM learner volume in the current stage.",
   lowestNonStemmInstitutions: "This chart ranks the institutions with the lowest Non-STEMM learner volume in the current stage.",
   stemmNonStemmTrend: "This trend chart shows STEMM and Non-STEMM matriculated learners side by side from 2021/2022 onward so the recent tertiary intake pattern is easier to compare.",
-  loanTrend: "This combo chart compares loan applications with loans disbursed by academic session from 2022/2023 onward. It uses one shared Y-axis to keep the comparison direct.",
+  loanTrend: "This combo chart compares loan applications with loans disbursed for the 2024/2025 academic session, which is the only currently available year for this loan trend.",
   loanInstitution: "This chart shows how approved and disbursed student loans are distributed across institution types.",
   loanDiscipline: "This chart shows how approved and disbursed student loans are distributed across discipline groups.",
 };
@@ -646,8 +651,8 @@ export default function PolicyImpactDashboard({
           loadRefinedFile<PolicyLoanRow>("pages/policy_impact/policy_loans_programme.csv"),
         ]);
         if (!mounted) return;
-        setRows(tertiaryData);
-        setLoanRows(loansData);
+        setRows(filterRowsBySessionWindow(tertiaryData, POLICY_IMPACT_SESSIONS));
+        setLoanRows(filterRowsBySessionWindow(loansData, POLICY_IMPACT_SESSIONS));
       } catch (err) {
         if (!mounted) return;
         setError(err instanceof Error ? err.message : "Failed to load policy impact data");
@@ -1198,7 +1203,7 @@ export default function PolicyImpactDashboard({
   }, [rows]);
 
   const loanTrendBundle = useMemo<ChartBundle>(() => {
-    const sessions = ["2022/2023", "2023/2024", "2024/2025"];
+    const sessions: string[] = [...LOAN_TREND_SESSIONS];
     const scoped = filteredLoanRows.filter((row) => sessions.includes(row.session));
     const applications = sessions.map((session) => scoped.filter((row) => row.session === session).reduce((sum, row) => sum + safeNum(row.loan_applications), 0));
     const disbursed = sessions.map((session) => scoped.filter((row) => row.session === session).reduce((sum, row) => sum + safeNum(row.loan_disbursed), 0));

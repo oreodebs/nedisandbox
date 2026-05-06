@@ -9,6 +9,11 @@ import {
 } from "lucide-react";
 import type { DimSession, MinisterFilters } from "../types";
 import { canonicalState, loadRefinedFile, loadRefinedScopedRows } from "../utils/refinedPageData";
+import {
+  GENERAL_OVERVIEW_SESSIONS,
+  LOAN_TREND_SESSIONS,
+  filterRowsBySessionWindow,
+} from "../utils/sessionWindows";
 // ─── Row types ────────────────────────────────────────────────────────────────
 type AccessWardRow = {
   session: string; zone: string; state: string; lga: string; ward: string;
@@ -2106,11 +2111,11 @@ export default function GeneralOverviewDashboard({
           loadRefinedFile<PolicyLoanRow>("pages/policy_impact/policy_loans_programme.csv").catch(() => []),
         ]);
         if (!alive) return;
-        setWardRows(wards);
-        setTeacherRows(teachers);
-        setTransitionRows(transitions);
-        setPolicyRows(policies);
-        setLoanRows(loans);
+        setWardRows(filterRowsBySessionWindow(wards, GENERAL_OVERVIEW_SESSIONS));
+        setTeacherRows(filterRowsBySessionWindow(teachers, GENERAL_OVERVIEW_SESSIONS));
+        setTransitionRows(filterRowsBySessionWindow(transitions, GENERAL_OVERVIEW_SESSIONS));
+        setPolicyRows(filterRowsBySessionWindow(policies, GENERAL_OVERVIEW_SESSIONS));
+        setLoanRows(filterRowsBySessionWindow(loans, GENERAL_OVERVIEW_SESSIONS));
         setLoadedScopeKey(requestedScopeKey);
         setLoadedLocation({
           state: filters.state,
@@ -2309,20 +2314,14 @@ setDropoffDrill({}); setIqsDrill({});
     const totalOLevel = currentTransition.reduce((sum, row) => sum + safeNum(row.o_level_candidates), 0);
     const totalTeachers = currentTeacher.reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
 
-    const prevStudents = previousRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
-    const prevPrimary = previousRows
-      .filter((row) => row.school_level === "Pre-Primary/Primary")
-      .reduce((sum, row) => sum + safeNum(row.student_count), 0);
-    const prevFormalSecondary = previousRows
-      .filter((row) => row.school_level === "JSS" || row.school_level === "SSS")
-      .reduce((sum, row) => sum + safeNum(row.student_count), 0);
-    const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_level_candidates), 0);
+const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_level_candidates), 0);
 
     return [
       {
         label: "Total Enrolled Students",
         value: totalStudents,
-        delta: computeDelta(totalStudents, prevStudents),
+        delta: null,
+        showDelta: false,
         accent: "#2563eb",
         bg: "rgba(37,99,235,0.12)",
         icon: <Users className="h-5 w-5" />,
@@ -2331,7 +2330,8 @@ setDropoffDrill({}); setIqsDrill({});
       {
         label: "Total Pre/Primary Students",
         value: totalPrimary,
-        delta: computeDelta(totalPrimary, prevPrimary),
+        delta: null,
+        showDelta: false,
         accent: "#10b981",
         bg: "rgba(16,185,129,0.12)",
         icon: <GraduationCap className="h-5 w-5" />,
@@ -2340,7 +2340,8 @@ setDropoffDrill({}); setIqsDrill({});
       {
         label: "Total Formal Secondary Students",
         value: totalFormalSecondary,
-        delta: computeDelta(totalFormalSecondary, prevFormalSecondary),
+        delta: null,
+        showDelta: false,
         accent: "#f59e0b",
         bg: "rgba(245,158,11,0.12)",
         icon: <School className="h-5 w-5" />,
@@ -2573,8 +2574,8 @@ setDropoffDrill({}); setIqsDrill({});
 
   // ── Section 4: Loan trend ────────────────────────────────────────────────────
   const loanTrendBundle = useMemo<ChartBundle>(() => {
-    const scoped = filteredLoanRows.filter((row) => row.session >= "2022/2023");
-    const sessions = [...new Set(scoped.map((row) => row.session))].sort();
+    const sessions: string[] = [...LOAN_TREND_SESSIONS];
+    const scoped = filteredLoanRows.filter((row) => sessions.includes(row.session));
     const applications = sessions.map((session) => scoped.filter((row) => row.session === session).reduce((sum, row) => sum + safeNum(row.loan_applications), 0));
     const disbursed = sessions.map((session) => scoped.filter((row) => row.session === session).reduce((sum, row) => sum + safeNum(row.loan_disbursed), 0));
     const barTrace: PlotlyData = { type: "bar", name: "Loan Applications", x: sessions, y: applications, text: applications.map(v => fmtInt(v)), textposition: "outside", textfont: { color: COLORS.applications, size: 11 }, cliponaxis: false, marker: { color: COLORS.applications }, hovertemplate: "%{x}<br>Applications: %{y:,}<extra></extra>" };
@@ -2778,10 +2779,10 @@ onExpand={() => setExpandState({ key: "dropoff", title: "Drop-off by State", hel
 onExpand={() => setExpandState({ key: "stemm", title: "STEMM & Non-STEMM Matriculated Trend", help: "Matriculated STEMM vs Non-STEMM learners across all academic sessions." })}
           />
           <ChartCard
-            title="Number of Loan Applications vs Number of Loans Disbursed per Academic Session"
-            explanation="Bars show total loan application volume per session from 2022/2023 onward. The orange line shows how many loans were actually disbursed. The gap between bar and line represents unmet student loan demand."
-            bundle={loanTrendBundle}
-onExpand={() => setExpandState({ key: "loan", title: "Number of Loan Applications vs Number of Loans Disbursed per Academic Session", help: "Loan applications vs disbursements from 2022/2023 onward." })}
+            title="Number of Loan Applications vs Number of Loans Disbursed per Academic Session"
+            explanation="Bars show total loan application volume for the 2024/2025 academic session. The orange line shows how many loans were actually disbursed in that same year."
+            bundle={loanTrendBundle}
+onExpand={() => setExpandState({ key: "loan", title: "Number of Loan Applications vs Number of Loans Disbursed per Academic Session", help: "Loan applications vs disbursements for the currently available 2024/2025 academic session." })}
           />
         </div>
 

@@ -19,6 +19,10 @@ import {
 
 import type { DimSession, MinisterFilters } from "../types";
 import { canonicalState, loadRefinedScopedRows } from "../utils/refinedPageData";
+import {
+  TRANSITION_SESSIONS,
+  filterRowsBySessionWindow,
+} from "../utils/sessionWindows";
 
 type TransitionGeneralRow = {
   session: string;
@@ -826,8 +830,8 @@ export default function TransitionDashboard(props: {
         ]);
 
         if (!mounted) return;
-        setGeneralRows(generalData);
-        setDirectRows(directData);
+        setGeneralRows(filterRowsBySessionWindow(generalData, TRANSITION_SESSIONS));
+        setDirectRows(filterRowsBySessionWindow(directData, TRANSITION_SESSIONS));
         setLoadedScopeKey(requestedScopeKey);
         setLoadedLocation({
           state: filters.state,

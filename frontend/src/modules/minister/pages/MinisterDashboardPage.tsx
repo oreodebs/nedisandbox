@@ -13,12 +13,15 @@ import type {
   DimWard,
   GenderFilter,
   MinisterFilters,
-  QualificationStatusFilter,
   SchoolLevelFilter,
   SchoolTypeFilter,
 } from "../types";
 import { loadCSV } from "../utils/loadCSV";
 import { canonicalState, loadRefinedFile } from "../utils/refinedPageData";
+import {
+  filterAllowedSessions,
+  getDashboardSessionWindow,
+} from "../utils/sessionWindows";
 
 const TransitionDashboard = lazy(() => import("./TransitionDashboardPage"));
 const PerformanceDashboard = lazy(() => import("./PerformanceDashboardPage"));
@@ -62,12 +65,6 @@ type AccessCoverageWardSeed = {
   school_type: string;
   school_level: string;
   class_grade: string;
-};
-
-type AccessCoverageAlmajiriSeed = {
-  session: string;
-  zone: string;
-  state: string;
 };
 
 type PolicyImpactSeed = {
@@ -114,8 +111,6 @@ type PerformanceFilterSeed = {
 
 const GAP_BANDS: Array<MinisterFilters["gap_band"]> = ["1-year", "2-year", "3-5-year", "5+-year"];
 const EXAM_BODIES: Array<MinisterFilters["exam_body"]> = ["WAEC", "NECO", "NABTEB"];
-const TEACHER_QUALIFICATION_OPTIONS: QualificationStatusFilter[] = ["Qualified", "Unqualified"];
-
 const CATEGORY_LABELS: Record<CategoryKey, string> = {
   general_overview: "General Overview",
   basic_secondary: "Basic & Secondary",
@@ -163,16 +158,14 @@ const ACCESS_COVERAGE_SECTIONS: SectionDef[] = [
   { id: "access-coverage-kpi", label: "KPI Cards" },
   { id: "access-coverage-main", label: "Access & Coverage" },
   { id: "access-coverage-classroom", label: "Classroom Pressure" },
-  { id: "access-coverage-ict", label: "ICT / Infrastructure" },
   { id: "access-coverage-level", label: "School & Student Enrollment by Level" },
-  { id: "access-coverage-almajiri", label: "Almajiri" },
+  { id: "access-coverage-ict", label: "ICT / Infrastructure" },
 ];
 
 const TEACHER_CAPACITY_SECTIONS: SectionDef[] = [
   { id: "teacher-capacity-kpi", label: "KPI Cards" },
   { id: "teacher-capacity-ratio", label: "Pupil-Teacher Ratio" },
   { id: "teacher-capacity-distribution", label: "Public vs Private Distribution" },
-  { id: "teacher-capacity-quality", label: "Teacher Qualification & Quality" },
 ];
 
 const POLICY_IMPACT_SECTIONS: SectionDef[] = [
@@ -486,7 +479,6 @@ export default function MinisterDashboardPage({
   const [dimSchools, setDimSchools] = useState<DimSchool[]>([]);
   const [teacherSeedRows, setTeacherSeedRows] = useState<TeacherFilterSeed[]>([]);
   const [accessWardSeedRows, setAccessWardSeedRows] = useState<AccessCoverageWardSeed[]>([]);
-  const [accessAlmajiriSeedRows, setAccessAlmajiriSeedRows] = useState<AccessCoverageAlmajiriSeed[]>([]);
   const [policyImpactSeedRows, setPolicyImpactSeedRows] = useState<PolicyImpactSeed[]>([]);
   const [transitionGeneralSeedRows, setTransitionGeneralSeedRows] = useState<TransitionFilterSeed[]>([]);
   const [transitionDirectSeedRows, setTransitionDirectSeedRows] = useState<TransitionFilterSeed[]>([]);
@@ -607,18 +599,15 @@ export default function MinisterDashboardPage({
     let alive = true;
     const loadAccessSeeds = async () => {
       try {
-        const [wardRows, almajiriRows] = await Promise.all([
-          loadRefinedFile<AccessCoverageWardSeed>("pages/access_coverage/top_rollup.csv"),
-          loadRefinedFile<AccessCoverageAlmajiriSeed>("pages/access_coverage/access_almajiri_state.csv"),
-        ]);
+        const wardRows = await loadRefinedFile<AccessCoverageWardSeed>(
+          "pages/access_coverage/top_rollup.csv",
+        );
         if (!alive) return;
         setAccessWardSeedRows(wardRows);
-        setAccessAlmajiriSeedRows(almajiriRows);
         setAccessSeedsLoaded(true);
       } catch {
         if (!alive) return;
         setAccessWardSeedRows([]);
-        setAccessAlmajiriSeedRows([]);
         setAccessSeedsLoaded(true);
       }
     };
@@ -804,13 +793,8 @@ export default function MinisterDashboardPage({
       .filter((row) => (!filters.ward || !accessSeedHasWard ? true : geoFilterMatch(row.ward, filters.ward)))
       .map((row) => row.session);
 
-    const almajiriSessions = accessAlmajiriSeedRows
-      .filter((row) => geoFilterMatch(row.zone, filters.zone))
-      .filter((row) => geoFilterMatch(row.state, filters.state))
-      .map((row) => row.session);
-
-    return Array.from(new Set([...wardSessions, ...almajiriSessions].filter(Boolean))).sort();
-  }, [accessWardSeedRows, accessAlmajiriSeedRows, filters.zone, filters.state, filters.lga, filters.ward, accessSeedHasLga, accessSeedHasWard]);
+    return Array.from(new Set(wardSessions.filter(Boolean))).sort();
+  }, [accessWardSeedRows, filters.zone, filters.state, filters.lga, filters.ward, accessSeedHasLga, accessSeedHasWard]);
 
   useEffect(() => {
     const nextStates = dimStates
@@ -1029,6 +1013,10 @@ export default function MinisterDashboardPage({
   const policyProgrammes = Array.from(new Set(policyScopedRows.filter((row) => (filters.programme_cluster ? row.programme_cluster === filters.programme_cluster : true)).filter((row) => (filters.discipline_group ? row.discipline_group === filters.discipline_group : true)).map((row) => row.programme).filter(Boolean))) as string[];
   policyProgrammes.sort((a, b) => a.localeCompare(b));
 
+  const sessionWindow = getDashboardSessionWindow(
+    category === "basic_secondary" ? "basic_secondary" : category,
+  );
+
   const activeSessionValues = showAccessCoverage
     ? accessScopeRowsForSessions
     : category === "policy_impact"
@@ -1040,14 +1028,15 @@ export default function MinisterDashboardPage({
           : dimSessions.map((row) => row.session_id);
 
   const fallbackSessionValues = dimSessions.map((row) => row.session_id).filter(Boolean);
-  const effectiveSessionValues = activeSessionValues.length ? activeSessionValues : fallbackSessionValues;
+  const filteredActiveSessionValues = filterAllowedSessions(activeSessionValues, sessionWindow);
+  const filteredFallbackSessionValues = filterAllowedSessions(fallbackSessionValues, sessionWindow);
   // latestSessionId always resolves: active sessions → fallback dim sessions → ""
   // This ensures `ready` is never stuck on false after dims have loaded
-  const dimLatestSessionId = fallbackSessionValues.length
-    ? fallbackSessionValues[fallbackSessionValues.length - 1]
+  const dimLatestSessionId = filteredFallbackSessionValues.length
+    ? filteredFallbackSessionValues[filteredFallbackSessionValues.length - 1]
     : "";
-  const latestSessionId = dimLatestSessionId || (effectiveSessionValues.length
-    ? effectiveSessionValues[effectiveSessionValues.length - 1]
+  const latestSessionId = dimLatestSessionId || (filteredActiveSessionValues.length
+    ? filteredActiveSessionValues[filteredActiveSessionValues.length - 1]
     : "");
 
   // Fall back to dim tables when category-specific seed rows haven't loaded yet
@@ -1099,7 +1088,11 @@ export default function MinisterDashboardPage({
 
   // Session options: use per-category effective values, falling back to dim_sessions directly
   // so the dropdown is never empty after dims have loaded
-  const finalSessionValues = fallbackSessionValues.length ? fallbackSessionValues : effectiveSessionValues;
+  const finalSessionValues = dimLatestSessionId
+    ? filteredFallbackSessionValues
+    : filteredActiveSessionValues.length
+      ? filteredActiveSessionValues
+      : [...sessionWindow];
   const sessionOptions: FilterOption[] = sanitizeOptions(
     finalSessionValues.map((value) => ({ label: value, value })),
   );
@@ -1114,7 +1107,6 @@ export default function MinisterDashboardPage({
   const schoolLevelOptions: FilterOption[] = schoolLevels.map((value) => ({ label: SCHOOL_LEVEL_DISPLAY[value] ?? value, value }));
   const schoolTypeOptions: FilterOption[] = schoolTypes.map((value) => ({ label: value, value }));
   const classGradeOptions: FilterOption[] = classGrades.map((value) => ({ label: value, value }));
-  const qualificationOptions: FilterOption[] = TEACHER_QUALIFICATION_OPTIONS.map((value) => ({ label: value, value }));
   const accessSchoolTypeOptions: FilterOption[] = schoolTypes.map((value) => ({ label: value, value }));
   const accessSchoolLevelOptions: FilterOption[] = schoolLevels.map((value) => ({ label: SCHOOL_LEVEL_DISPLAY[value] ?? value, value }));
   const accessClassGradeOptions: FilterOption[] = classGrades.map((value) => ({ label: value, value }));
@@ -1174,11 +1166,16 @@ export default function MinisterDashboardPage({
   }, [filters.school, schoolOptions]);
 
   useEffect(() => {
-    // Use the per-category latestSessionId if available, otherwise fall back to dim_sessions directly
     const sessionToSet = dimLatestSessionId || latestSessionId;
-    if (loadingDims || dataErr || filters.session || !sessionToSet) return;
-    setFilters((prev) => ({ ...prev, session: sessionToSet }));
-  }, [loadingDims, dataErr, filters.session, latestSessionId, dimLatestSessionId]);
+    if (loadingDims || dataErr || !sessionToSet) return;
+    if (!filters.session) {
+      setFilters((prev) => ({ ...prev, session: sessionToSet }));
+      return;
+    }
+    if (!sessionOptions.some((option) => option.value === filters.session)) {
+      setFilters((prev) => ({ ...prev, session: sessionToSet }));
+    }
+  }, [loadingDims, dataErr, filters.session, latestSessionId, dimLatestSessionId, sessionOptions]);
 
   const effectiveFilters = useMemo(
     () => {
@@ -1506,21 +1503,6 @@ export default function MinisterDashboardPage({
                 maxWidth="max-w-[150px]"
               />
             ) : null}
-            {showTeacherCapacity ? (
-              <FilterSelect
-                value={filters.qualification_status}
-                placeholder="Qualification"
-                options={qualificationOptions}
-                onChange={(value) =>
-                  setFilters((prev) => ({
-                    ...prev,
-                    qualification_status: value as QualificationStatusFilter,
-                  }))
-                }
-                maxWidth="max-w-[160px]"
-              />
-            ) : null}
-
             <button
               className="h-9 shrink-0 rounded-lg border border-slate-200 bg-white px-3 text-xs font-medium text-slate-700 hover:bg-slate-50"
               type="button"

@@ -21,6 +21,11 @@ import {
 
 import type { DimSession, MinisterFilters } from "../types";
 import { canonicalState, loadRefinedFile, loadRefinedScopedRows } from "../utils/refinedPageData";
+import {
+  BASIC_SECONDARY_SESSIONS,
+  TRANSITION_SESSIONS,
+  filterRowsBySessionWindow,
+} from "../utils/sessionWindows";
 
 type AccessWardRow = {
   session: string;
@@ -48,14 +53,6 @@ type AccessWardRow = {
   key_entry_level?: string;
   is_o_level_student: number;
   school?: string;
-};
-
-type AlmajiriRow = {
-  session: string;
-  zone: string;
-  state: string;
-  gender: string;
-  almajiri_count: number;
 };
 
 type TransitionDirectRow = {
@@ -141,8 +138,7 @@ type ChartKey =
   | "jss"
   | "sss"
   | "vocational"
-  | "iqs"
-  | "almajiri";
+  | "iqs";
 
 type ExpandState = {
   key: ChartKey;
@@ -200,8 +196,6 @@ export const ACCESS_COVERAGE_SECTIONS = [
   { id: "access-coverage-main", label: "Access & Coverage" },
   { id: "access-coverage-classroom", label: "Classroom Pressure" },
   { id: "access-coverage-ict", label: "ICT / Infrastructure" },
-  { id: "access-coverage-level", label: "School & Student Enrollment by Level" },
-  { id: "access-coverage-almajiri", label: "Almajiri" },
 ] as const;
 
 const CLASSROOM_BENCHMARK = 25;
@@ -319,7 +313,6 @@ const CHART_HELP: Record<ChartKey, string> = {
   sss: "SSS Schools and Student Enrollment by State compares SSS enrollment with the number of SSS schools. Bars show enrollment and the line shows school count.",
   vocational: "Vocational Schools and Student Enrollment by State compares vocational enrollment with the number of vocational schools. Bars show enrollment and the line shows school count.",
   iqs: "Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State compares adult and non-formal enrollment with the number of centres. Bars show enrollment and the line shows school count.",
-  almajiri: "Almajiri Count by State shows male and female Almajiri counts in a stacked state comparison. It stays scrollable so all states remain readable.",
 };
 
 function safeNum(value: unknown): number {
@@ -2461,9 +2454,7 @@ export default function AccessCoverageDashboard({
   disabilityMode: boolean;
 }) {
   const [wardRows, setWardRows] = useState<AccessWardRow[]>([]);
-  const [almajiriRows, setAlmajiriRows] = useState<AlmajiriRow[]>([]);
   const [transitionRows, setTransitionRows] = useState<TransitionDirectRow[]>([]);
-  const [almajiriDrill, setAlmajiriDrill] = useState<{ state?: string }>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -2485,7 +2476,6 @@ export default function AccessCoverageDashboard({
     setStudentCountDrill({});
     setKeyEntryStateDrill({});
     setClassroomStateDrill({});
-    setAlmajiriDrill({});
   };
 
   const clearLocationSelection = () => {
@@ -2520,17 +2510,29 @@ export default function AccessCoverageDashboard({
         setLoading(true);
         setError(null);
         const depth = !filters.state ? "top" : filters.school ? "school" : filters.ward ? "school" : filters.lga ? "ward" : "lga";
-        const [topWardData, scopedWardData, almajiriData, transitionData] = await Promise.all([
+        const [topWardData, scopedWardData, transitionData] = await Promise.all([
           loadRefinedFile<AccessWardRow>("pages/access_coverage/top_rollup.csv"),
           loadRefinedScopedRows<AccessWardRow>("access_coverage", filters.state, depth),
-          loadRefinedFile<AlmajiriRow>("pages/access_coverage/access_almajiri_state.csv"),
           loadRefinedScopedRows<TransitionDirectRow>("transition_direct", filters.state, depth),
         ]);
 
         if (!active) return;
-        setWardRows(filters.state ? [...topWardData, ...scopedWardData] : scopedWardData);
-        setAlmajiriRows(almajiriData);
-        setTransitionRows(transitionData);
+        const filteredTopWardData = filterRowsBySessionWindow(
+          topWardData,
+          BASIC_SECONDARY_SESSIONS,
+        );
+        const filteredScopedWardData = filterRowsBySessionWindow(
+          scopedWardData,
+          BASIC_SECONDARY_SESSIONS,
+        );
+        setWardRows(
+          filters.state
+            ? [...filteredTopWardData, ...filteredScopedWardData]
+            : filteredScopedWardData,
+        );
+        setTransitionRows(
+          filterRowsBySessionWindow(transitionData, TRANSITION_SESSIONS),
+        );
         setLoadedScopeKey(requestedScopeKey);
         setLoadedLocation({
           state: filters.state,
@@ -2558,7 +2560,6 @@ export default function AccessCoverageDashboard({
     setStudentCountDrill({});
     setKeyEntryStateDrill({});
     setClassroomStateDrill({});
-    setAlmajiriDrill({});
   }, [filters.session, filters.zone, filters.gender, filters.school_type, filters.school_level, filters.class_grade, disabilityMode]);
 
   // Map drills reset when session changes (but not when state/lga changes —
@@ -2689,9 +2690,6 @@ export default function AccessCoverageDashboard({
 
   const cardMetrics = useMemo(() => {
     let totalBasicEnrollment = 0;
-    let totalFormalPrimaryStudents = 0;
-    let totalJss1Students = 0;
-    let totalSs1Students = 0;
     const allSchoolCounts = new Map<string, number>();
     const publicSchoolCounts = new Map<string, number>();
     const privateSchoolCounts = new Map<string, number>();
@@ -2700,9 +2698,6 @@ export default function AccessCoverageDashboard({
       const students = safeNum(row.student_count);
       const isBasicLevel = ["Pre-Primary/Primary", "JSS", "SSS", "Adult & Non-Formal", "Vocational"].includes(row.school_level);
       if (isBasicLevel) totalBasicEnrollment += students;
-      if (row.class_grade.startsWith("Primary")) totalFormalPrimaryStudents += students;
-      if (row.class_grade === "JSS1") totalJss1Students += students;
-      if (row.class_grade === "SSS1") totalSs1Students += students;
 
       trackSchoolCount(allSchoolCounts, row);
       if (row.school_type === "Public") trackSchoolCount(publicSchoolCounts, row);
@@ -2714,18 +2709,6 @@ export default function AccessCoverageDashboard({
     const totalPublicSchools = sumTrackedSchoolCounts(publicSchoolCounts);
     const totalPrivateSchools = sumTrackedSchoolCounts(privateSchoolCounts);
 
-    const previousTotalBasicEnrollment = previousRows
-      .filter((row) => ["Pre-Primary/Primary", "JSS", "SSS", "Adult & Non-Formal", "Vocational"].includes(row.school_level))
-      .reduce((sum, row) => sum + safeNum(row.student_count), 0);
-    const previousTotalFormalPrimaryStudents = previousRows
-      .filter((row) => row.class_grade.startsWith("Primary"))
-      .reduce((sum, row) => sum + safeNum(row.student_count), 0);
-    const previousTotalJss1Students = previousRows
-      .filter((row) => row.class_grade === "JSS1")
-      .reduce((sum, row) => sum + safeNum(row.student_count), 0);
-    const previousTotalSs1Students = previousRows
-      .filter((row) => row.class_grade === "SSS1")
-      .reduce((sum, row) => sum + safeNum(row.student_count), 0);
     const previousTotalOLevelStudents = previousTransitionRows.reduce(
       (sum, row) => sum + safeNum(row.o_level_candidates),
       0,
@@ -2735,47 +2718,70 @@ export default function AccessCoverageDashboard({
       {
         label: "Total Basic Enrollment",
         value: totalBasicEnrollment,
-        delta: computeDelta(totalBasicEnrollment, previousTotalBasicEnrollment),
+        delta: null,
         accent: "#2563eb",
         bg: "rgba(37,99,235,0.12)",
         icon: <Users className="h-5 w-5" />,
         help: "Total Basic Enrollment shows the full enrolled learner population in the filtered view: Pre/Primary, JSS, SSS, Adult & Non-Formal (IQS/IQTE), and Tech/Voc. Hover the tooltip for the complete interpretation.",
-        prevSessionLabel: previousSession || undefined,
         note: "Pre/Primary, JSS, SSS, Adult & Non-Formal (IQS/IQTE), and Tech/Voc learners.",
+        showDelta: false,
       },
       {
-        label: "Total Formal Primary Students",
-        value: totalFormalPrimaryStudents,
-        delta: computeDelta(totalFormalPrimaryStudents, previousTotalFormalPrimaryStudents),
+        label: "Total PRY 1 Students",
+        value: 0,
+        delta: null,
         accent: "#10b981",
         bg: "rgba(16,185,129,0.12)",
         icon: <GraduationCap className="h-5 w-5" />,
-        help: "Total Formal Primary Students covers only Primary 1 to Primary 6 learners within the current national view or the active filters.",
-        prevSessionLabel: previousSession || undefined,
-        note: "Primary 1 to Primary 6 only.",
+        help: "Placeholder card for Primary 1 enrollment data.",
+        note: "Placeholder. Real data will be added later.",
+        showDelta: false,
       },
       {
-        label: "Total JSS1 Students",
-        value: totalJss1Students,
-        delta: computeDelta(totalJss1Students, previousTotalJss1Students),
+        label: "Total PRY 3 Students",
+        value: 0,
+        delta: null,
         accent: "#0ea5e9",
         bg: "rgba(14,165,233,0.12)",
         icon: <School className="h-5 w-5" />,
-        help: "Total JSS1 Students shows first-entry junior secondary enrollment within the active view.",
-        prevSessionLabel: previousSession || undefined,
-        note: "Junior secondary entry level only.",
+        help: "Placeholder card for Primary 3 enrollment data.",
+        note: "Placeholder. Real data will be added later.",
+        showDelta: false,
       },
       {
-        label: "Total SS1 Students",
-        value: totalSs1Students,
-        delta: computeDelta(totalSs1Students, previousTotalSs1Students),
+        label: "Total PRY 6 Students",
+        value: 0,
+        delta: null,
         accent: "#8b5cf6",
         bg: "rgba(139,92,246,0.12)",
         icon: <BookOpen className="h-5 w-5" />,
-        help: "Total SS1 Students shows first-entry senior secondary enrollment within the active view.",
-        prevSessionLabel: previousSession || undefined,
-        note: "Senior secondary entry level only.",
+        help: "Placeholder card for Primary 6 enrollment data.",
+        note: "Placeholder. Real data will be added later.",
+        showDelta: false,
       },
+      {
+        label: "Total JSS 1 Students",
+        value: 0,
+        delta: null,
+        accent: "#7c3aed",
+        bg: "rgba(124,58,237,0.12)",
+        icon: <GraduationCap className="h-5 w-5" />,
+        help: "Placeholder card for JSS 1 enrollment data.",
+        note: "Placeholder. Real data will be added later.",
+        showDelta: false,
+      },
+      {
+        label: "Total SS 1 Students",
+        value: 0,
+        delta: null,
+        accent: "#0891b2",
+        bg: "rgba(8,145,178,0.12)",
+        icon: <School className="h-5 w-5" />,
+        help: "Placeholder card for SS 1 enrollment data.",
+        note: "Placeholder. Real data will be added later.",
+        showDelta: false,
+      },
+
       {
         label: "Total O-Level Students",
         value: totalOLevelStudents,
@@ -2784,8 +2790,9 @@ export default function AccessCoverageDashboard({
         bg: "rgba(124,58,237,0.12)",
         icon: <GraduationCap className="h-5 w-5" />,
         help: "Total O-Level Students is aligned to the Direct Transition total so this page matches the transition dashboard headline figure while still showing movement versus the previous session view.",
-        prevSessionLabel: previousSession || undefined,
+        prevSessionLabel: previousSession || "previous year",
         note: "Derived from Direct Transition data for the same filters.",
+        showDelta: true,
       },
       {
         label: "Total Schools",
@@ -4357,80 +4364,6 @@ export default function AccessCoverageDashboard({
   const vocationalChart = useMemo(() => buildLevelComboChart("Vocational", "vocational"), [currentRows]);
   const iqsChart = useMemo(() => buildLevelComboChart("Adult & Non-Formal", "iqs"), [currentRows]);
 
-  const almajiriChart = useMemo<ChartBundle>(() => {
-    // If drilled to a state, show LGA breakdown from ward data (almajiriRows has no LGA)
-    // We use currentRows (ward data) to get LGA-level almajiri count proxy when drilled
-    const isDrilled = !!almajiriDrill.state;
-    let labels: string[] = [];
-    let maleValues: number[] = [];
-    let femaleValues: number[] = [];
-
-    if (isDrilled && almajiriDrill.state) {
-      // Drill to LGA using ward data
-      const lgaRows = currentRows.filter((row) => row.state === almajiriDrill.state);
-      const lgas = [...new Set(lgaRows.map((row) => row.lga).filter(Boolean))].sort((a, b) => a.localeCompare(b));
-      labels = lgas;
-      maleValues = lgas.map((lga) => lgaRows.filter((row) => row.lga === lga && row.gender === "Male").reduce((sum, row) => sum + safeNum(row.student_count), 0));
-      femaleValues = lgas.map((lga) => lgaRows.filter((row) => row.lga === lga && row.gender === "Female").reduce((sum, row) => sum + safeNum(row.student_count), 0));
-    } else {
-      const rows = almajiriRows.filter((row) => {
-        if (row.session !== renderFilters.session) return false;
-        if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
-        if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
-        return true;
-      });
-      labels = [...new Set(rows.map((row) => row.state).filter(Boolean))].sort((a, b) => a.localeCompare(b));
-      maleValues = labels.map((state) => rows.filter((row) => row.state === state && row.gender === "Male").reduce((sum, row) => sum + safeNum(row.almajiri_count), 0));
-      femaleValues = labels.map((state) => rows.filter((row) => row.state === state && row.gender === "Female").reduce((sum, row) => sum + safeNum(row.almajiri_count), 0));
-    }
-
-    const isScrollable = labels.length > 12;
-    const height = Math.max(isScrollable ? 520 : 340, labels.length * (isScrollable ? 36 : 30) + 140);
-    const data: PlotlyData[] = [
-      {
-        type: "bar", orientation: "h", name: "Male",
-        y: labels, x: maleValues,
-        marker: { color: COLORS.almajiriMale },
-        text: maleValues.map((value) => fmtInt(value)),
-        textposition: maleValues.map((value) => (value > 0 && value < Math.max(...maleValues, 1) * 0.14 ? "outside" : "inside")) as never,
-        insidetextanchor: "middle",
-        textfont: { color: "#ffffff", size: 10 },
-        hovertemplate: `Male<br>%{y}: %{x:,}<extra></extra>`,
-        customdata: labels,
-        cliponaxis: false,
-      },
-      {
-        type: "bar", orientation: "h", name: "Female",
-        y: labels, x: femaleValues,
-        marker: { color: COLORS.almajiriFemale },
-        text: femaleValues.map((value) => fmtInt(value)),
-        textposition: femaleValues.map((value) => (value > 0 && value < Math.max(...femaleValues, 1) * 0.14 ? "outside" : "inside")) as never,
-        insidetextanchor: "middle",
-        textfont: { color: "#ffffff", size: 10 },
-        hovertemplate: `Female<br>%{y}: %{x:,}<extra></extra>`,
-        customdata: labels,
-        cliponaxis: false,
-      },
-    ];
-
-    return {
-      data,
-      layout: {
-        ...buildCommonLayout(height),
-        barmode: "stack",
-        showlegend: !isScrollable,
-        margin: { l: 148, r: 88, t: isDrilled ? 32 : 12, b: 70 },
-        title: isDrilled ? { text: `↳ ${almajiriDrill.state} — LGA breakdown`, font: { size: 12, color: COLORS.sub }, x: 0, pad: { l: 4 } } : undefined,
-        yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
-      },
-      scrollable: isScrollable,
-      scrollMaxHeight: isScrollable ? 300 : undefined,
-      expandedMaxHeight: isScrollable ? 430 : 400,
-      fixedLegend: isScrollable ? legendItemsFromData(data) : undefined,
-      expandedWidthClass: isScrollable ? "max-w-[920px]" : "max-w-[900px]",
-    };
-  }, [almajiriRows, almajiriDrill, renderFilters.session, renderFilters.zone, renderFilters.state, currentRows]);
-
   const expandedCharts: Partial<Record<ChartKey, { bundle: ChartBundle; onPlotClick?: (event: PlotPointEvent) => void }>> = {
     densityMapPublic: { bundle: { data: [], layout: buildCommonLayout(10) } },
     densityMapPrivate: { bundle: { data: [], layout: buildCommonLayout(10) } },
@@ -4506,28 +4439,6 @@ export default function AccessCoverageDashboard({
     sss: { bundle: sssChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
     vocational: { bundle: vocationalChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
     iqs: { bundle: iqsChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
-    almajiri: {
-      bundle: almajiriChart,
-      onPlotClick: (event) => {
-        const label = extractPointLabel(event);
-        if (!label) return;
-        const resolvedLabel = label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label;
-        if (!almajiriDrill.state) {
-          setAlmajiriDrill({ state: resolvedLabel });
-          syncFiltersForDrill("state", resolvedLabel);
-          setDensityDrill({ state: resolvedLabel });
-          setDensityPrivateDrill({ state: resolvedLabel });
-          setComputerDrill({ state: resolvedLabel });
-          setInfrastructureDrill({ state: resolvedLabel });
-          setSchoolCountDrill({ state: resolvedLabel });
-          setStudentCountDrill({ state: resolvedLabel });
-          setKeyEntryStateDrill({ state: resolvedLabel });
-          setClassroomStateDrill({ state: resolvedLabel });
-          return;
-        }
-        syncFiltersForDrill("lga", resolvedLabel);
-      },
-    },
   };
 
   const expandedChart = expandState ? (expandedCharts[expandState.key] ?? null) : null;
@@ -4539,13 +4450,13 @@ export default function AccessCoverageDashboard({
     <div className="space-y-5">
       <section className="space-y-4" id="access-coverage-kpi">
         <SectionTitle id="access-coverage-kpi-anchor" title="KPI Cards" />
-        <div className="grid gap-3 lg:grid-cols-4">
-          {cardMetrics.slice(0, 4).map((item) => (
+        <div className="grid gap-3 lg:grid-cols-5">
+          {cardMetrics.slice(0, 5).map((item) => (
             <MetricCardView key={item.label} item={item} />
           ))}
         </div>
-        <div className="grid gap-3 lg:grid-cols-4">
-          {cardMetrics.slice(4, 8).map((item) => (
+        <div className="grid gap-3 lg:grid-cols-5">
+          {cardMetrics.slice(5, 10).map((item) => (
             <MetricCardView key={item.label} item={item} />
           ))}
         </div>
@@ -4623,7 +4534,6 @@ export default function AccessCoverageDashboard({
                 setStudentCountDrill({ state: name });
                 setKeyEntryStateDrill({ state: name });
                 setClassroomStateDrill({ state: name });
-                setAlmajiriDrill({ state: name });
               }}
             />
           )}
@@ -4739,7 +4649,6 @@ export default function AccessCoverageDashboard({
               setStudentCountDrill({});
               setKeyEntryStateDrill({});
               setClassroomStateDrill({});
-              setAlmajiriDrill({});
               setDensityDrill({});
               setDensityPrivateDrill({});
               setComputerDrill({});
@@ -4808,6 +4717,11 @@ export default function AccessCoverageDashboard({
       </section>
       <section className="space-y-4" id="access-coverage-ict">
         <SectionTitle id="access-coverage-ict-anchor" title="ICT / Infrastructure" />
+        <ChartCard title="Pre/Primary Schools and Student Enrollment by State" explanation={CHART_HELP.primary} bundle={primaryChart} onExpand={() => setExpandState({ key: "primary", title: "Pre/Primary Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="JSS Schools and Student Enrollment by State" explanation={CHART_HELP.jss} bundle={jssChart} onExpand={() => setExpandState({ key: "jss", title: "JSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="SSS Schools and Student Enrollment by State" explanation={CHART_HELP.sss} bundle={sssChart} onExpand={() => setExpandState({ key: "sss", title: "SSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="Tech/Voc Schools and Student Enrollment by State" explanation={CHART_HELP.vocational} bundle={vocationalChart} onExpand={() => setExpandState({ key: "vocational", title: "Tech/Voc Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" explanation={CHART_HELP.iqs} bundle={iqsChart} onExpand={() => setExpandState({ key: "iqs", title: "Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
         <div className="grid gap-4 lg:grid-cols-2">
           {computerDrillChart ? (
             <div className="relative overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
@@ -4875,7 +4789,6 @@ export default function AccessCoverageDashboard({
               setStudentCountDrill({});
               setKeyEntryStateDrill({});
               setClassroomStateDrill({});
-              setAlmajiriDrill({});
               setFilters((p) => ({ ...p, state: "", lga: "", ward: "", school: "" }));
             }}
             onStateClick={(name) => {
@@ -4890,7 +4803,6 @@ export default function AccessCoverageDashboard({
                 setStudentCountDrill({ state: name });
                 setKeyEntryStateDrill({ state: name });
                 setClassroomStateDrill({ state: name });
-                setAlmajiriDrill({ state: name });
               } else {
                 syncFiltersForDrill("lga", name);
               }
@@ -4911,7 +4823,6 @@ export default function AccessCoverageDashboard({
                 setStudentCountDrill({});
                 setKeyEntryStateDrill({});
                 setClassroomStateDrill({});
-                setAlmajiriDrill({});
                 setFilters((p) => ({ ...p, state: "", lga: "", ward: "", school: "" }));
               }}
               onPlotClick={(event) => {
@@ -4936,7 +4847,6 @@ export default function AccessCoverageDashboard({
                 setStudentCountDrill({});
                 setKeyEntryStateDrill({});
                 setClassroomStateDrill({});
-                setAlmajiriDrill({});
                 setFilters((p) => ({ ...p, state: "", lga: "", ward: "", school: "" }));
               }}
               onStateClick={(name) => {
@@ -4950,62 +4860,12 @@ export default function AccessCoverageDashboard({
                 setStudentCountDrill({ state: name });
                 setKeyEntryStateDrill({ state: name });
                 setClassroomStateDrill({ state: name });
-                setAlmajiriDrill({ state: name });
               }}
             />
           )}
         </div>
       </section>
 
-      <section className="space-y-4" id="access-coverage-level">
-        <SectionTitle id="access-coverage-level-anchor" title="School and Student Enrollment by Level" />
-        <ChartCard title="Pre/Primary Schools and Student Enrollment by State" explanation={CHART_HELP.primary} bundle={primaryChart} onExpand={() => setExpandState({ key: "primary", title: "Pre/Primary Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="JSS Schools and Student Enrollment by State" explanation={CHART_HELP.jss} bundle={jssChart} onExpand={() => setExpandState({ key: "jss", title: "JSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="SSS Schools and Student Enrollment by State" explanation={CHART_HELP.sss} bundle={sssChart} onExpand={() => setExpandState({ key: "sss", title: "SSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="Tech/Voc Schools and Student Enrollment by State" explanation={CHART_HELP.vocational} bundle={vocationalChart} onExpand={() => setExpandState({ key: "vocational", title: "Tech/Voc Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" explanation={CHART_HELP.iqs} bundle={iqsChart} onExpand={() => setExpandState({ key: "iqs", title: "Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-      </section>
-
-      <section className="space-y-4" id="access-coverage-almajiri">
-        <SectionTitle id="access-coverage-almajiri-anchor" title="Almajiri" />
-        <ChartCard
-          title={almajiriDrill.state ? `Almajiri — ${almajiriDrill.state} (LGA)` : "Almajiri Count by State"}
-          explanation={CHART_HELP.almajiri}
-          bundle={almajiriChart}
-          onExpand={() => setExpandState({ key: "almajiri", title: almajiriDrill.state ? `Almajiri — ${almajiriDrill.state}` : "Almajiri Count by State" })}
-          onRefresh={() => {
-              setSchoolCountDrill({});
-              setStudentCountDrill({});
-              setKeyEntryStateDrill({});
-              setClassroomStateDrill({});
-              setAlmajiriDrill({});
-              setDensityDrill({});
-              setDensityPrivateDrill({});
-              setComputerDrill({});
-              setInfrastructureDrill({});
-              setFilters((p) => ({ ...p, state: "", lga: "", ward: "", school: "" }));
-            }}
-          onPlotClick={(event) => {
-            const label = extractPointLabel(event);
-            if (!label) return;
-            const resolvedLabel = label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label;
-            if (!almajiriDrill.state) {
-              setAlmajiriDrill({ state: resolvedLabel });
-              syncFiltersForDrill("state", resolvedLabel);
-              setDensityDrill({ state: resolvedLabel });
-              setDensityPrivateDrill({ state: resolvedLabel });
-              setComputerDrill({ state: resolvedLabel });
-              setInfrastructureDrill({ state: resolvedLabel });
-              setSchoolCountDrill({ state: resolvedLabel });
-              setStudentCountDrill({ state: resolvedLabel });
-              setKeyEntryStateDrill({ state: resolvedLabel });
-              setClassroomStateDrill({ state: resolvedLabel });
-              return;
-            }
-            syncFiltersForDrill("lga", resolvedLabel);
-          }}
-        />
-      </section>
 
       {expandState ? (
         <div className="fixed inset-0 z-[95] flex items-center justify-center bg-slate-900/40 p-4 backdrop-blur-sm" onClick={() => setExpandState(null)}>

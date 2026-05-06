@@ -26,6 +26,10 @@ import {
   loadRefinedScopedRows,
   scopeDepthForLocation,
 } from "../utils/refinedPageData";
+import {
+  PERFORMANCE_SESSIONS,
+  filterRowsBySessionWindow,
+} from "../utils/sessionWindows";
 
 type PerformanceRow = {
   session: string;
@@ -1230,7 +1234,7 @@ export default function PerformanceDashboard({
         ]);
 
         if (!mounted) return;
-        setRows(factRows);
+        setRows(filterRowsBySessionWindow(factRows, PERFORMANCE_SESSIONS));
         setBenchmarks(benchmarkRows);
         setLoadedScopeKey(requestedScopeKey);
         setLoadedLocation({

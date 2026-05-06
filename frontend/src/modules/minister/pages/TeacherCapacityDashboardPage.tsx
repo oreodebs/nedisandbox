@@ -22,6 +22,10 @@ import {
   loadRefinedScopedRows,
   scopeDepthForLocation,
 } from "../utils/refinedPageData";
+import {
+  BASIC_SECONDARY_SESSIONS,
+  filterRowsBySessionWindow,
+} from "../utils/sessionWindows";
 
 type TeacherCapacityRow = {
   session: string;
@@ -232,15 +236,6 @@ function normalizeTeacherSchoolLevel(value: string): string {
   if (value === "JSS") return "JSS";
   if (value === "SSS") return "SSS";
   return value;
-}
-
-function computeChange(current: number, previous: number): number | null {
-  if (!Number.isFinite(current) || !Number.isFinite(previous)) return null;
-  if (previous === 0) {
-    if (current === 0) return 0;
-    return 100;
-  }
-  return ((current - previous) / previous) * 100;
 }
 
 function fmtDelta(value: number | null | undefined): string {
@@ -1724,7 +1719,7 @@ export default function TeacherCapacityDashboard({
 
         if (!alive) return;
 
-        setRows(teacherRows);
+        setRows(filterRowsBySessionWindow(teacherRows, BASIC_SECONDARY_SESSIONS));
         setBenchmarks(benchmarkRows);
         setLoadedScopeKey(requestedScopeKey);
         setLoadedLocation({
@@ -1850,22 +1845,10 @@ export default function TeacherCapacityDashboard({
     const students = currentStudentRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
     const teachers = currentTeacherRows.reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
 
-    const previousTotalTeachers = previousTeacherRows.reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
-    const previousMaleTeachers = previousTeacherRows
-      .filter((row) => row.gender === "Male")
-      .reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
-    const previousFemaleTeachers = previousTeacherRows
-      .filter((row) => row.gender === "Female")
-      .reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
-    const previousStudents = previousStudentRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
-    const previousTeachers = previousTeacherRows.reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
-
     return [
       {
         label: "Total Teachers",
         value: fmtInt(totalTeachers),
-        delta: computeChange(totalTeachers, previousTotalTeachers),
-        prevSessionLabel: previousSessionLabel || undefined,
         help: "All teachers captured under the current Teacher Capacity filters.",
         icon: <School className="h-5 w-5" />,
         accent: COLORS.public,
@@ -1874,9 +1857,7 @@ export default function TeacherCapacityDashboard({
       {
         label: "Total Male Teachers",
         value: fmtInt(maleTeachers),
-        delta: computeChange(maleTeachers, previousMaleTeachers),
-        prevSessionLabel: previousSessionLabel || undefined,
-        help: "Male teachers under the current filters and active session comparison.",
+        help: "Male teachers under the current filters.",
         icon: <Users className="h-5 w-5" />,
         accent: "#8b5cf6",
         bg: "rgba(139,92,246,0.12)",
@@ -1884,9 +1865,7 @@ export default function TeacherCapacityDashboard({
       {
         label: "Total Female Teachers",
         value: fmtInt(femaleTeachers),
-        delta: computeChange(femaleTeachers, previousFemaleTeachers),
-        prevSessionLabel: previousSessionLabel || undefined,
-        help: "Female teachers under the current filters and active session comparison.",
+        help: "Female teachers under the current filters.",
         icon: <Users className="h-5 w-5" />,
         accent: COLORS.private,
         bg: "rgba(16,185,129,0.12)",
@@ -1894,8 +1873,6 @@ export default function TeacherCapacityDashboard({
       {
         label: "Overall Pupil-Teacher Ratio",
         value: fmtRatio(weightedRatio(students, teachers)),
-        delta: computeChange(weightedRatio(students, teachers), weightedRatio(previousStudents, previousTeachers)),
-        prevSessionLabel: previousSessionLabel || undefined,
         help: "Overall student-to-teacher load across the current Teacher Capacity filters.",
         icon: <BadgePercent className="h-5 w-5" />,
         accent: COLORS.ratio,
@@ -2084,68 +2061,6 @@ export default function TeacherCapacityDashboard({
           bundle={teacherSplitChart ?? undefined}
           onRefresh={() => undefined}
           onExpand={() => setExpandState({ chartKey: "teacherSplit", title: "Public vs Private Teacher Split by School Level" })}
-        />
-      </div>
-
-      {/* SECTION 4: TEACHER QUALIFICATION & QUALITY */}
-      <SectionLabel id="teacher-capacity-quality" />
-      
-      {/* Row 1: 2 doughnut charts side by side */}
-      <div className="grid gap-4 lg:grid-cols-2">
-        <ChartCard
-          title="Teaching Qualification"
-          helpKey="qualificationGroup"
-          bundle={qualificationGroupChart ?? undefined}
-          onRefresh={() => undefined}
-          onExpand={() => setExpandState({ chartKey: "qualificationGroup", title: "Teaching Qualification" })}
-        />
-        <ChartCard
-          title="Qualified vs Unqualified Teacher Composition"
-          helpKey="qualificationComposition"
-          bundle={qualificationCompositionChart ?? undefined}
-          onRefresh={() => undefined}
-          onExpand={() => setExpandState({ chartKey: "qualificationComposition", title: "Qualified vs Unqualified Teacher Composition" })}
-        />
-      </div>
-      
-      {/* Row 2: Gender and school type */}
-      <div className="grid gap-4 lg:grid-cols-2">
-        <ChartCard
-          title="Qualified vs Unqualified Teacher Rate by Gender"
-          helpKey="qualificationGender"
-          bundle={qualificationGenderChart ?? undefined}
-          onRefresh={() => undefined}
-          onExpand={() => setExpandState({ chartKey: "qualificationGender", title: "Qualified vs Unqualified Teacher Rate by Gender" })}
-        />
-        <ChartCard
-          title="Qualified vs Unqualified Teacher Rate by School Type"
-          helpKey="qualificationSchoolType"
-          bundle={qualificationSchoolTypeChart ?? undefined}
-          onRefresh={() => undefined}
-          onExpand={() => setExpandState({ chartKey: "qualificationSchoolType", title: "Qualified vs Unqualified Teacher Rate by School Type" })}
-        />
-      </div>
-      
-      {/* Row 3: State chart alone */}
-      <div className="grid gap-4 grid-cols-1">
-        <ChartCard
-          title="Qualified vs Unqualified Teacher Rate by State"
-          helpKey="qualificationState"
-          bundle={qualificationStateChart?.bundle}
-          onRefresh={resetDrill}
-          onExpand={() => setExpandState({ chartKey: "qualificationState", title: "Qualified vs Unqualified Teacher Rate by State" })}
-          onPlotClick={(event) => handleLocationChartClick(qualificationStateChart, event)}
-        />
-      </div>
-      
-      {/* Row 4: Trend chart alone */}
-      <div className="grid gap-4 grid-cols-1">
-        <ChartCard
-          title="Qualified vs Unqualified Teacher Trend Over Academic Session"
-          helpKey="qualificationTrend"
-          bundle={qualificationTrendChart ?? undefined}
-          onRefresh={() => undefined}
-          onExpand={() => setExpandState({ chartKey: "qualificationTrend", title: "Qualified vs Unqualified Teacher Trend Over Academic Session" })}
         />
       </div>
 
