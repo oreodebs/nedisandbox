@@ -33,6 +33,7 @@ import {
   filterRowsBySessionWindow,
 } from "../utils/sessionWindows";
 import {
+  applyGeneralOLevelDeltaOverride,
   applyGeneralOLevelOverride,
   applySs3EnrollmentOverride,
 } from "../utils/metricOverrides";
@@ -81,7 +82,7 @@ type TransitionDirectRow = {
 type PlotPoint = { x?: unknown; y?: unknown; location?: unknown; customdata?: unknown };
 type PlotPointEvent = { points?: PlotPoint[] };
 type MapLevel = "state" | "lga";
-type LocationLevel = "zone" | "state" | "lga";
+type LocationLevel = "zone" | "state" | "lga" | "ward" | "school";
 
 type DrillState = {
   state?: string;
@@ -709,7 +710,24 @@ function extractPointLabel(event: PlotPointEvent): string {
 function locationLabel(row: AccessWardRow, level: LocationLevel): string {
   if (level === "zone") return row.zone;
   if (level === "state") return row.state;
-  return row.lga;
+  if (level === "lga") return row.lga;
+  if (level === "ward") return row.ward ?? "";
+  return row.school ?? "";
+}
+
+function scopedBreakdownLevel(filters: MinisterFilters, explicitState?: string): LocationLevel {
+  const activeState = explicitState ?? filters.state;
+  if (!activeState) return "state";
+  if (filters.school) return "school";
+  if (filters.lga || filters.ward) return "ward";
+  return "lga";
+}
+
+function locationLevelLabel(level: LocationLevel): string {
+  if (level === "state") return "State";
+  if (level === "lga") return "LGA";
+  if (level === "ward") return "Ward";
+  return "School";
 }
 
 function splitSchoolNames(value?: string): string[] {
@@ -2337,7 +2355,7 @@ function MapChartCard({ title, explanation, note, mapData, drill, onReset, onSta
   const helpButtonRef = useRef<HTMLButtonElement | null>(null);
   const helpPanelRef = useRef<HTMLDivElement | null>(null);
   const expandRef = useOutsideClose<HTMLDivElement>(!!expanded, () => setExpanded(null));
-  const drillLabel = drill.state ? `↳ ${drill.state} (LGA view)` : "Click a state to drill to LGA";
+  const drillLabel = drill.state ? `↳ ${drill.state} (state drill active)` : "Click a state to drill deeper";
 
   useEffect(() => {
     if (!showHelp) return undefined;
@@ -2427,7 +2445,7 @@ function MapChartCard({ title, explanation, note, mapData, drill, onReset, onSta
             <div className="flex items-center justify-between gap-4 border-b border-slate-100 px-5 py-4">
               <div>
                 <div className="text-base font-bold text-slate-900">{expanded.title}</div>
-                <div className="mt-0.5 text-xs text-slate-400">{drill.state ? `↳ ${drill.state} — LGA view` : "National state view — click a state to drill"}</div>
+                <div className="mt-0.5 text-xs text-slate-400">{drill.state ? `↳ ${drill.state} — state drill active` : "National state view — click a state to drill"}</div>
               </div>
               <button type="button" onClick={() => setExpanded(null)}
                 className="grid h-8 w-8 place-items-center rounded-lg border border-slate-200 text-slate-500 hover:bg-slate-50">
@@ -2815,7 +2833,11 @@ export default function AccessCoverageDashboard({
       {
         label: "Total O-Level Students",
         value: totalOLevelStudents,
-        delta: computeDelta(totalOLevelStudents, previousTotalOLevelStudents),
+        delta: applyGeneralOLevelDeltaOverride(
+          computeDelta(totalOLevelStudents, previousTotalOLevelStudents),
+          renderFilters,
+          disabilityMode,
+        ),
         accent: "#7c3aed",
         bg: "rgba(124,58,237,0.12)",
         icon: <GraduationCap className="h-5 w-5" />,
@@ -2871,6 +2893,8 @@ export default function AccessCoverageDashboard({
         // Empty = clear that level downward
         if (level === "state") return { ...previous, state: "", lga: "", ward: "", school: "" };
         if (level === "lga") return { ...previous, lga: "", ward: "", school: "" };
+        if (level === "ward") return { ...previous, ward: "", school: "" };
+        if (level === "school") return { ...previous, school: "" };
         return previous;
       }
       if (level === "state") {
@@ -2880,6 +2904,14 @@ export default function AccessCoverageDashboard({
       if (level === "lga") {
         if (previous.lga === label && !previous.ward) return previous;
         return { ...previous, lga: label, ward: "", school: "" };
+      }
+      if (level === "ward") {
+        if (previous.ward === label && !previous.school) return previous;
+        return { ...previous, ward: label, school: "" };
+      }
+      if (level === "school") {
+        if (previous.school === label) return previous;
+        return { ...previous, school: label };
       }
       if (level === "zone") {
         if (previous.zone === label && !previous.state && !previous.lga && !previous.ward) return previous;
@@ -3078,7 +3110,7 @@ export default function AccessCoverageDashboard({
     drill: DrillState,
   ): { level: LocationLevel; bundle: ChartBundle } => {
     const effectiveState = drill.state ?? (renderFilters.state || undefined);
-    const level: LocationLevel = effectiveState ? "lga" : "state";
+    const level = scopedBreakdownLevel(renderFilters, effectiveState);
     const levelRows = sessionRows.filter((row) => levelGroup === "primary"
       ? row.school_level === "Pre-Primary/Primary"
       : row.school_level === "JSS" || row.school_level === "SSS");
@@ -3271,7 +3303,7 @@ export default function AccessCoverageDashboard({
     drill: DrillState,
   ): { level: LocationLevel; bundle: ChartBundle } => {
     const effectiveState = drill.state ?? (renderFilters.state || undefined);
-    const level: LocationLevel = effectiveState ? "lga" : "state";
+    const level = scopedBreakdownLevel(renderFilters, effectiveState);
     const levelRows = sessionRows.filter((row) =>
       levelGroup === "primary"
         ? row.school_level === "Pre-Primary/Primary"
@@ -3647,7 +3679,7 @@ export default function AccessCoverageDashboard({
     drill: DrillState,
   ): { level: LocationLevel; bundle: ChartBundle } => {
     const effectiveState = drill.state ?? (renderFilters.state || undefined);
-    const level: LocationLevel = effectiveState ? "lga" : "state";
+    const level = scopedBreakdownLevel(renderFilters, effectiveState);
     const levelRows = sessionRows.filter((row) => levelGroup === "primary"
       ? row.school_level === "Pre-Primary/Primary"
       : row.school_level === "JSS" || row.school_level === "SSS");
@@ -3866,7 +3898,7 @@ export default function AccessCoverageDashboard({
 
   const keyEntryStateChart = useMemo<{ level: LocationLevel; bundle: ChartBundle }>(() => {
     const effectiveState = keyEntryStateDrill.state ?? (renderFilters.state || undefined);
-    const level: LocationLevel = effectiveState ? "lga" : "state";
+    const level = scopedBreakdownLevel(renderFilters, effectiveState);
     const scopedRows = effectiveState ? sessionRows.filter((row) => row.state === effectiveState) : sessionRows;
     const grouped = new Map<string, Record<(typeof KEY_ENTRY_LEVELS)[number], number>>();
 
@@ -4528,11 +4560,11 @@ export default function AccessCoverageDashboard({
         applyChartDrill(infrastructureDrill, setInfrastructureDrill, label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label);
       },
     },
-    primary: { bundle: primaryChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
-    jss: { bundle: jssChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
-    sss: { bundle: sssChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
-    vocational: { bundle: vocationalChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
-    iqs: { bundle: iqsChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
+    primary: { bundle: primaryChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(primaryChart.level, primaryChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
+    jss: { bundle: jssChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(jssChart.level, jssChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
+    sss: { bundle: sssChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(sssChart.level, sssChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
+    vocational: { bundle: vocationalChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(vocationalChart.level, vocationalChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
+    iqs: { bundle: iqsChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(iqsChart.level, iqsChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
   };
 
   const expandedChart = expandState ? (expandedCharts[expandState.key] ?? null) : null;
@@ -4564,7 +4596,7 @@ export default function AccessCoverageDashboard({
               <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
                 <div>
                   <div className="text-sm font-bold text-slate-900">Average Primary Learners per School (Public vs Private)</div>
-                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {densityDrill.state ?? renderFilters.state} (LGA view)</div>
+                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {densityDrill.state ?? renderFilters.state} ({locationLevelLabel(scopedBreakdownLevel(renderFilters, (densityDrill.state ?? renderFilters.state) || undefined))} view)</div>
                 </div>
                 <div className="flex items-center gap-2">
                   <button
@@ -4811,18 +4843,18 @@ export default function AccessCoverageDashboard({
       </section>
       <section className="space-y-4" id="access-coverage-ict">
         <SectionTitle id="access-coverage-ict-anchor" title="ICT / Infrastructure" />
-        <ChartCard title="Pre/Primary Schools and Student Enrollment by State" explanation={CHART_HELP.primary} bundle={primaryChart} onExpand={() => setExpandState({ key: "primary", title: "Pre/Primary Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="JSS Schools and Student Enrollment by State" explanation={CHART_HELP.jss} bundle={jssChart} onExpand={() => setExpandState({ key: "jss", title: "JSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="SSS Schools and Student Enrollment by State" explanation={CHART_HELP.sss} bundle={sssChart} onExpand={() => setExpandState({ key: "sss", title: "SSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="Tech/Voc Schools and Student Enrollment by State" explanation={CHART_HELP.vocational} bundle={vocationalChart} onExpand={() => setExpandState({ key: "vocational", title: "Tech/Voc Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" explanation={CHART_HELP.iqs} bundle={iqsChart} onExpand={() => setExpandState({ key: "iqs", title: "Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; if (renderFilters.state) syncFiltersForDrill("lga", label); else syncFiltersForDrill("state", label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="Pre/Primary Schools and Student Enrollment by State" explanation={CHART_HELP.primary} bundle={primaryChart} onExpand={() => setExpandState({ key: "primary", title: "Pre/Primary Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(primaryChart.level, primaryChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="JSS Schools and Student Enrollment by State" explanation={CHART_HELP.jss} bundle={jssChart} onExpand={() => setExpandState({ key: "jss", title: "JSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(jssChart.level, jssChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="SSS Schools and Student Enrollment by State" explanation={CHART_HELP.sss} bundle={sssChart} onExpand={() => setExpandState({ key: "sss", title: "SSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(sssChart.level, sssChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="Tech/Voc Schools and Student Enrollment by State" explanation={CHART_HELP.vocational} bundle={vocationalChart} onExpand={() => setExpandState({ key: "vocational", title: "Tech/Voc Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(vocationalChart.level, vocationalChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" explanation={CHART_HELP.iqs} bundle={iqsChart} onExpand={() => setExpandState({ key: "iqs", title: "Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(iqsChart.level, iqsChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
         <div className="grid gap-4 lg:grid-cols-2">
           {computerDrillChart ? (
             <div className="relative overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
               <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
                 <div>
-                  <div className="text-sm font-bold text-slate-900">Learners per Computer by LGA</div>
-                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {computerDrill.state ?? renderFilters.state} (ranked LGA view)</div>
+                  <div className="text-sm font-bold text-slate-900">Learners per Computer by {locationLevelLabel(scopedBreakdownLevel(renderFilters, (computerDrill.state ?? renderFilters.state) || undefined))}</div>
+                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {computerDrill.state ?? renderFilters.state} (ranked {locationLevelLabel(scopedBreakdownLevel(renderFilters, (computerDrill.state ?? renderFilters.state) || undefined)).toLowerCase()} view)</div>
                   <div className="mt-1 inline-flex rounded-full border border-slate-200 bg-slate-50 px-2 py-0.5 text-[11px] font-medium text-slate-600">UBE Benchmark: 3 Students per 1 Computer</div>
                 </div>
                 <div className="flex items-center gap-2">
@@ -4838,7 +4870,7 @@ export default function AccessCoverageDashboard({
                   </button>
                   <button
                     type="button"
-                    onClick={() => setExpandState({ key: "computerMap", title: "Learners per Computer by LGA" })}
+                    onClick={() => setExpandState({ key: "computerMap", title: `Learners per Computer by ${locationLevelLabel(scopedBreakdownLevel(renderFilters, (computerDrill.state ?? renderFilters.state) || undefined))}` })}
                     className="grid h-7 w-7 place-items-center rounded-md border border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-slate-800"
                     title="Expand chart"
                   >

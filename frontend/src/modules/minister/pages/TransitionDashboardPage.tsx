@@ -20,6 +20,7 @@ import {
 import type { DimSession, MinisterFilters } from "../types";
 import {
   applyDirectTransitionMetricOverride,
+  applyGeneralOLevelDeltaOverride,
   applyGeneralOLevelOverride,
 } from "../utils/metricOverrides";
 import {
@@ -953,7 +954,11 @@ export default function TransitionDashboard(props: {
           label: "O-Level Candidates",
           help: "Number of learners who sat for an O-Level examination (WAEC, NECO, or NABTEB). This is the first funnel gate — learners who did not sit an exam cannot proceed to UTME.",
           value: currentMetrics.o_level_candidates,
-          delta: delta(currentMetrics.o_level_candidates, previousMetrics.o_level_candidates),
+          delta: applyGeneralOLevelDeltaOverride(
+            delta(currentMetrics.o_level_candidates, previousMetrics.o_level_candidates),
+            renderFilters,
+            disabilityMode,
+          ),
           icon: <BookOpenCheck className="h-5 w-5" />,
           accent: COLORS.olevel,
           bg: "#ecfdf5",
@@ -993,7 +998,11 @@ export default function TransitionDashboard(props: {
         label: "O-Level Candidates",
           help: "Number of learners who sat for an O-Level examination (WAEC, NECO, or NABTEB). This is the first funnel gate — learners who did not sit an exam cannot proceed to UTME.",
         value: currentMetrics.o_level_candidates,
-        delta: delta(currentMetrics.o_level_candidates, previousMetrics.o_level_candidates),
+        delta: applyGeneralOLevelDeltaOverride(
+          delta(currentMetrics.o_level_candidates, previousMetrics.o_level_candidates),
+          renderFilters,
+          disabilityMode,
+        ),
         icon: <BookOpenCheck className="h-5 w-5" />,
         accent: COLORS.olevel,
         bg: "#ecfdf5",

@@ -22,6 +22,7 @@ import {
 } from "../utils/sessionWindows";
 import {
   applyDirectTransitionMetricOverride,
+  applyGeneralOLevelDeltaOverride,
   applyGeneralOLevelOverride,
 } from "../utils/metricOverrides";
 // ─── Row types ────────────────────────────────────────────────────────────────
@@ -238,6 +239,21 @@ function locationLabel(row: AccessWardRow, level: LocationLevel): string {
   if (level === "lga") return row.lga;
   if (level === "ward") return row.ward ?? "";
   return row.school ?? "";
+}
+
+function scopedBreakdownLevel(filters: MinisterFilters, explicitState?: string): LocationLevel {
+  const activeState = explicitState ?? filters.state;
+  if (!activeState) return "state";
+  if (filters.school) return "school";
+  if (filters.lga || filters.ward) return "ward";
+  return "lga";
+}
+
+function locationLevelLabel(level: LocationLevel): string {
+  if (level === "state") return "State";
+  if (level === "lga") return "LGA";
+  if (level === "ward") return "Ward";
+  return "School";
 }
 
 function facilityKey(row: AccessWardRow): string {
@@ -1962,7 +1978,7 @@ function MapChartCard({ title, explanation, mapData, drill, onReset, onStateClic
   const helpButtonRef = useRef<HTMLButtonElement | null>(null);
   const helpPanelRef = useRef<HTMLDivElement | null>(null);
   const expandRef = useOutsideClose<HTMLDivElement>(expanded, () => setExpanded(false));
-  const drillLabel = drill.state ? `↳ ${drill.state} (LGA view)` : "Click a state to drill to LGA";
+  const drillLabel = drill.state ? `↳ ${drill.state} (state drill active)` : "Click a state to drill deeper";
   const handleStateClick = (name: string) => {
     setExpanded(false);
     onStateClick(name);
@@ -2054,7 +2070,7 @@ function MapChartCard({ title, explanation, mapData, drill, onReset, onStateClic
             <div className="flex items-center justify-between gap-4 border-b border-slate-100 px-5 py-4">
               <div>
                 <div className="text-base font-bold text-slate-900">{title}</div>
-                <div className="mt-0.5 text-xs text-slate-400">{drill.state ? `↳ ${drill.state} — LGA view` : "National state view — click a state to drill"}</div>
+        <div className="mt-0.5 text-xs text-slate-400">{drill.state ? `↳ ${drill.state} — state drill active` : "National state view — click a state to drill"}</div>
               </div>
               <button type="button" onClick={() => setExpanded(false)}
                 className="grid h-8 w-8 place-items-center rounded-lg border border-slate-200 text-slate-500 hover:bg-slate-50">
@@ -2394,7 +2410,11 @@ const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_l
       {
         label: "Total O-Level Students",
         value: totalOLevel,
-        delta: computeDelta(totalOLevel, prevOLevel),
+        delta: applyGeneralOLevelDeltaOverride(
+          computeDelta(totalOLevel, prevOLevel),
+          renderFilters,
+          disabilityMode,
+        ),
         accent: "#8b5cf6",
         bg: "rgba(139,92,246,0.12)",
         icon: <FileCheck className="h-5 w-5" />,
@@ -2640,7 +2660,7 @@ const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_l
   // ── IQS/IQTS — exact same as AccessCoverage buildLevelComboChart("IQS/IQTS") ─
   const iqsChartBundle = useMemo<ChartBundle>(() => {
     const effectiveState = iqsDrill.state ?? (renderFilters.state || undefined);
-    const level: LocationLevel = effectiveState ? "lga" : "state";
+    const level = scopedBreakdownLevel(renderFilters, effectiveState);
     const base = effectiveState ? iqsRows.filter(r => r.state === effectiveState) : iqsRows;
     const groups = aggregateBy(base, level).sort((a, b) => a.label.localeCompare(b.label));
     const labels = groups.map(g => shortLocationLabel(g.label));
@@ -2697,7 +2717,7 @@ const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_l
               <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
                 <div>
                   <div className="text-sm font-bold text-slate-900">Average Primary Learners per School (Public vs Private)</div>
-                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {filters.state} (LGA view)</div>
+                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {filters.state} ({locationLevelLabel(scopedBreakdownLevel(filters, filters.state || undefined))} view)</div>
                 </div>
                 <div className="flex items-center gap-2">
                   <button
@@ -2709,7 +2729,7 @@ const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_l
                   </button>
                   <button
                     type="button"
-                    onClick={() => setExpandState({ key: "density", title: "Average Primary Learners per School (Public vs Private)", help: "Average primary learner load by LGA for the selected state, split into public and private school averages." })}
+                    onClick={() => setExpandState({ key: "density", title: "Average Primary Learners per School (Public vs Private)", help: `Average primary learner load by ${locationLevelLabel(scopedBreakdownLevel(filters, filters.state || undefined)).toLowerCase()} for the selected scope, split into public and private school averages.` })}
                     className="grid h-7 w-7 place-items-center rounded-md border border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-slate-800"
                     title="Expand chart"
                   >

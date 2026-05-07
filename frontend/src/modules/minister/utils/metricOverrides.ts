@@ -1,7 +1,8 @@
 import type { MinisterFilters } from "../types";
 
 export const DIRECT_TRANSITION_SS3_OVERRIDE = 1_169_600;
-export const GENERAL_OLEVEL_OVERRIDE = 2_400_000;
+export const GENERAL_OLEVEL_OVERRIDE = 2_467_453;
+export const NATIONAL_OLEVEL_DELTA_OVERRIDE = 2.8;
 export const OVERRIDE_SESSION = "2024/2025";
 
 type TransitionMetrics = {
@@ -72,6 +73,18 @@ export function applyGeneralOLevelOverride(
   }
 
   return GENERAL_OLEVEL_OVERRIDE;
+}
+
+export function applyGeneralOLevelDeltaOverride(
+  value: number | null,
+  filters: MinisterFilters,
+  disabilityMode: boolean,
+): number | null {
+  if (!shouldApplyNationalEducationOverride(filters, disabilityMode)) {
+    return value;
+  }
+
+  return NATIONAL_OLEVEL_DELTA_OVERRIDE;
 }
 
 export function applySs3EnrollmentOverride(
