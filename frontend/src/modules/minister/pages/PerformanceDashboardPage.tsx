@@ -266,6 +266,12 @@ function fmtInt(value: number): string {
   return Math.round(value).toLocaleString();
 }
 
+function barCountLabel(value: number, total: number): string {
+  if (value <= 0) return "";
+  if (total > 0 && value / total < 0.075) return "";
+  return fmtInt(value);
+}
+
 function buildCommonLayout(height = 320): PlotLayout {
   return {
     autosize: true,
@@ -933,11 +939,12 @@ function buildLocationChart(
       x: maleValues,
       y: labels,
       marker: { color: colors.male, line: { width: 0 } },
-      text: grouped.map((item) => (item.maleNumerator > 0 ? fmtInt(item.maleNumerator) : "")),
+      text: grouped.map((item) => barCountLabel(item.maleNumerator, item.totalNumerator)),
       texttemplate: "%{text}",
       textposition: "inside",
       insidetextanchor: "middle",
       textfont: { color: "#ffffff", size: 11 },
+      constraintext: "inside",
       cliponaxis: false,
       customdata: grouped.map((item) => [
         item.location,
@@ -967,11 +974,12 @@ function buildLocationChart(
       x: femaleValues,
       y: labels,
       marker: { color: colors.female, line: { width: 0 } },
-      text: grouped.map((item) => (item.femaleNumerator > 0 ? fmtInt(item.femaleNumerator) : "")),
+      text: grouped.map((item) => barCountLabel(item.femaleNumerator, item.totalNumerator)),
       texttemplate: "%{text}",
       textposition: "inside",
       insidetextanchor: "middle",
       textfont: { color: "#ffffff", size: 11 },
+      constraintext: "inside",
       cliponaxis: false,
       customdata: grouped.map((item) => [
         item.location,

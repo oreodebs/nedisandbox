@@ -26,6 +26,7 @@ import {
 
 type TransitionGeneralRow = {
   session: string;
+  loc_level?: string;
   zone: string;
   state: string;
   lga: string;
@@ -46,6 +47,7 @@ type TransitionGeneralRow = {
 
 type TransitionDirectRow = {
   session: string;
+  loc_level?: string;
   zone: string;
   state: string;
   lga: string;
@@ -230,66 +232,8 @@ function aggregateRows(rows: BaseRow[]): AggregateMetrics {
   };
 }
 
-function comparisonKey(row: TransitionGeneralRow | TransitionDirectRow): string {
-  return [
-    row.session,
-    row.zone,
-    row.state,
-    row.lga,
-    row.ward,
-    row.school,
-    row.gender,
-    row.disability,
-    row.exam_body,
-    row.institution_type,
-  ].join("|");
-}
-
-function constrainDirectRows(directRows: TransitionDirectRow[], generalRows: TransitionGeneralRow[]): TransitionDirectRow[] {
-  const generalMap = new Map<string, AggregateMetrics>();
-
-  generalRows.forEach((row) => {
-    const key = comparisonKey(row);
-    const current = generalMap.get(key) ?? {
-      ss3_total: 0,
-      o_level_candidates: 0,
-      utme_participants: 0,
-      admitted_students: 0,
-      matriculated_students: 0,
-      delayed_transition_students: 0,
-      median_time_to_matriculation_years: 0,
-    };
-    current.o_level_candidates += safeNum(row.o_level_candidates);
-    current.utme_participants += safeNum(row.utme_participants);
-    current.admitted_students += safeNum(row.admitted_students);
-    current.matriculated_students += safeNum(row.matriculated_students);
-    current.delayed_transition_students += safeNum(row.delayed_transition_students);
-    generalMap.set(key, current);
-  });
-
-  return directRows.map((row) => {
-    const key = comparisonKey(row);
-    const general = generalMap.get(key);
-    if (!general) return row;
-
-    const directOLevel = safeNum(row.o_level_candidates);
-    const generalOLevel = safeNum(general.o_level_candidates);
-    if (generalOLevel <= 0 || directOLevel < generalOLevel) return row;
-
-    const targetOLevel = Math.max(Math.floor(generalOLevel - 1), 0);
-    if (directOLevel <= 0) return row;
-    const factor = targetOLevel / directOLevel;
-    if (factor >= 1) return row;
-
-    return {
-      ...row,
-      o_level_candidates: Math.max(0, Math.round(directOLevel * factor)),
-      utme_participants: Math.max(0, Math.round(safeNum(row.utme_participants) * factor)),
-      admitted_students: Math.max(0, Math.round(safeNum(row.admitted_students) * factor)),
-      matriculated_students: Math.max(0, Math.round(safeNum(row.matriculated_students) * factor)),
-      delayed_transition_students: Math.max(0, Math.round(safeNum(row.delayed_transition_students) * factor)),
-    };
-  });
+function constrainDirectRows(directRows: TransitionDirectRow[], _generalRows: TransitionGeneralRow[]): TransitionDirectRow[] {
+  return directRows;
 }
 
 function buildLossRows(metrics: AggregateMetrics, mode: Mode): LossRow[] {
@@ -438,8 +382,13 @@ function delta(current: number, previous: number): number | null {
   return ((current - previous) / previous) * 100;
 }
 
-function barText(values: number[]): string[] {
-  return values.map((value) => fmtInt(value));
+function barText(values: number[], referenceValues?: number[], minShare = 0): string[] {
+  return values.map((value, index) => {
+    if (value <= 0) return "";
+    const reference = referenceValues?.[index] ?? 0;
+    if (reference > 0 && minShare > 0 && value / reference < minShare) return "";
+    return fmtInt(value);
+  });
 }
 
 function verticalBarTrace(name: string, labels: string[], values: number[], color: string): PlotlyData {
@@ -453,7 +402,7 @@ function verticalBarTrace(name: string, labels: string[], values: number[], colo
     texttemplate: "%{text}",
     textposition: "inside",
     insidetextanchor: "middle",
-    constraintext: "none",
+    constraintext: "inside",
     textfont: { color: "#ffffff", size: 11 },
     cliponaxis: false,
     hovertemplate: `${name}<br>%{x}: %{y:,}<extra></extra>`,
@@ -489,14 +438,14 @@ function horizontalBarTrace(
     x: values,
     customdata,
     marker: { color },
-    text: barText(values),
+    text: barText(values, oLevelValues, 0.075),
     texttemplate: "%{text}",
     textposition: "inside",
     textfont: { color: "#ffffff", size: textFontSize },
     insidetextanchor: "middle",
-    constraintext: "none",
+    constraintext: "inside",
     cliponaxis: false,
-    hovertemplate: `<b>%{customdata[0]}</b><br>${name}: %{customdata[1]:,}${hoverPctSuffix}<extra></extra>`,
+    hovertemplate: `<b>%{customdata[0]}</b><br>${name}: %{customdata[1]:,.0f}${hoverPctSuffix}<extra></extra>`,
   };
 }
 
@@ -880,10 +829,15 @@ export default function TransitionDashboard(props: {
     () => dimSessions.find((row) => row.session_id === filters.session)?.prev_session_id ?? "",
     [dimSessions, filters.session],
   );
+  const expectedLocLevel = useMemo<LocationLevel>(
+    () => (!renderFilters.state ? "state" : renderFilters.school || renderFilters.ward ? "school" : renderFilters.lga ? "ward" : "lga"),
+    [renderFilters.state, renderFilters.lga, renderFilters.ward, renderFilters.school],
+  );
 
   const filteredCurrentRowsRaw = useMemo(() => {
     return currentRows.filter((row) => {
       if (row.session !== renderFilters.session) return false;
+      if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
       if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
       if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
       if (renderFilters.lga && row.lga !== renderFilters.lga) return false;
@@ -896,12 +850,13 @@ export default function TransitionDashboard(props: {
       if (mode === "general" && renderFilters.gap_band && "gap_band" in row && row.gap_band !== renderFilters.gap_band) return false;
       return true;
     });
-  }, [currentRows, renderFilters, disabilityMode, mode]);
+  }, [currentRows, renderFilters, disabilityMode, mode, expectedLocLevel]);
 
   const filteredPreviousRowsRaw = useMemo(() => {
     if (!previousSession) return [] as BaseRow[];
     return currentRows.filter((row) => {
       if (row.session !== previousSession) return false;
+      if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
       if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
       if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
       if (renderFilters.lga && row.lga !== renderFilters.lga) return false;
@@ -914,7 +869,7 @@ export default function TransitionDashboard(props: {
       if (mode === "general" && renderFilters.gap_band && "gap_band" in row && row.gap_band !== renderFilters.gap_band) return false;
       return true;
     });
-  }, [currentRows, previousSession, renderFilters, disabilityMode, mode]);
+  }, [currentRows, previousSession, renderFilters, disabilityMode, mode, expectedLocLevel]);
 
   const [lastNonEmptyCurrentRows, setLastNonEmptyCurrentRows] = useState<BaseRow[]>([]);
   const [lastNonEmptyPreviousRows, setLastNonEmptyPreviousRows] = useState<BaseRow[]>([]);

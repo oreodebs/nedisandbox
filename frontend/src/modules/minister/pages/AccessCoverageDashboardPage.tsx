@@ -61,6 +61,7 @@ type TransitionDirectRow = {
   state: string;
   lga: string;
   ward: string;
+  loc_level?: string;
   school: string;
   gender: string;
   disability: string;
@@ -978,8 +979,8 @@ function buildInfrastructureBandThresholds(scores: number[]): InfrastructureBand
   const ordered = scores.filter((score) => Number.isFinite(score) && score > 0).sort((a, b) => b - a);
   if (!ordered.length) return { goodMin: 70, weakMax: 50 };
 
-  const goodCount = ordered.length >= 12 ? Math.max(3, Math.round(ordered.length * 0.25)) : Math.max(1, Math.round(ordered.length * 0.22));
-  const weakCount = ordered.length >= 12 ? Math.max(3, Math.round(ordered.length * 0.16)) : 1;
+  const goodCount = ordered.length >= 12 ? Math.max(2, Math.round(ordered.length * 0.18)) : Math.max(1, Math.round(ordered.length * 0.2));
+  const weakCount = ordered.length >= 12 ? Math.max(2, Math.round(ordered.length * 0.12)) : 1;
   const goodMin = ordered[Math.min(goodCount - 1, ordered.length - 1)] ?? 70;
   const weakMax = ordered[Math.max(ordered.length - weakCount, 0)] ?? 50;
 
@@ -992,7 +993,7 @@ function infrastructureBand(score: number, thresholds?: InfrastructureBandThresh
   const goodMin = thresholds?.goodMin ?? 70;
   const weakMax = thresholds?.weakMax ?? 50;
   if (score >= goodMin) return { label: "Good", color: "#16a34a" };
-  if (score <= weakMax) return { label: "Weak", color: "#ef4444" };
+  if (score <= weakMax) return { label: "Weak", color: "#dc2626" };
   return { label: "Moderate", color: "#f59e0b" };
 }
 
@@ -2617,13 +2618,16 @@ export default function AccessCoverageDashboard({
     () =>
       transitionRows.filter((row) => {
         if (row.session !== renderFilters.session) return false;
+        if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
         if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
         if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
         if (renderFilters.lga && row.lga !== renderFilters.lga) return false;
+        if (renderFilters.ward && row.ward !== renderFilters.ward) return false;
+        if (renderFilters.school && row.school !== renderFilters.school) return false;
         if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
         return true;
       }),
-    [transitionRows, renderFilters.session, renderFilters.zone, renderFilters.state, renderFilters.lga, disabilityMode],
+    [transitionRows, renderFilters.session, renderFilters.zone, renderFilters.state, renderFilters.lga, renderFilters.ward, renderFilters.school, disabilityMode, expectedLocLevel],
   );
 
   const previousTransitionRowsRaw = useMemo(
@@ -2631,14 +2635,17 @@ export default function AccessCoverageDashboard({
       previousSession
         ? transitionRows.filter((row) => {
             if (row.session !== previousSession) return false;
+            if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
             if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
             if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
             if (renderFilters.lga && row.lga !== renderFilters.lga) return false;
+            if (renderFilters.ward && row.ward !== renderFilters.ward) return false;
+            if (renderFilters.school && row.school !== renderFilters.school) return false;
             if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
             return true;
           })
         : [],
-    [transitionRows, previousSession, renderFilters.zone, renderFilters.state, renderFilters.lga, disabilityMode],
+    [transitionRows, previousSession, renderFilters.zone, renderFilters.state, renderFilters.lga, renderFilters.ward, renderFilters.school, disabilityMode, expectedLocLevel],
   );
 
   const [lastNonEmptyCurrentRows, setLastNonEmptyCurrentRows] = useState<AccessWardRow[]>([]);
@@ -4208,7 +4215,7 @@ export default function AccessCoverageDashboard({
           legendItems: [
             { label: "Good", color: "#16a34a" },
             { label: "Moderate", color: "#f59e0b" },
-            { label: "Weak", color: "#ef4444" },
+            { label: "Weak", color: "#dc2626" },
           ],
           resolveColor: (value: number) => infrastructureBand(value, infrastructureThresholds).color,
           formatLegendValue: (value: number) => `${Math.round(value)}%`,
@@ -4272,9 +4279,16 @@ export default function AccessCoverageDashboard({
   const densityCombinedMapData = useMemo(() => buildMapData(densityDrill, "densityCombined"), [currentRows, densityDrill, renderFilters.state]);
   const computerMapData = useMemo(() => buildMapData(computerDrill, "computer"), [currentRows, computerDrill, renderFilters.state]);
   const infrastructureMapData = useMemo(() => buildMapData({}, "infrastructure"), [currentRows]);
+  const activeInfrastructureState = infrastructureDrill.state ?? (renderFilters.state || "");
+  const infrastructureChartDrill = activeInfrastructureState
+    ? { ...infrastructureDrill, state: activeInfrastructureState }
+    : infrastructureDrill;
   const infrastructureScoreChart = useMemo<{ bundle: ChartBundle; level: "state" | "lga" | "ward" | "school" }>(() => {
-    const level = getNextChartLevel(infrastructureDrill);
-    const groups = buildStateDrillRows(infrastructureDrill)
+    const effectiveDrill = infrastructureDrill.state || renderFilters.state
+      ? { ...infrastructureDrill, state: infrastructureDrill.state ?? renderFilters.state }
+      : infrastructureDrill;
+    const level = getNextChartLevel(effectiveDrill);
+    const groups = buildStateDrillRows(effectiveDrill)
       .map((group) => {
         const readiness = computeInfrastructureReadiness(group.metrics);
         return { ...group, ...readiness };
@@ -4349,7 +4363,7 @@ export default function AccessCoverageDashboard({
         expandedWidthClass: level === "school" ? "max-w-[1100px]" : "max-w-[980px]",
       },
     };
-  }, [sessionRows, infrastructureDrill]);
+  }, [sessionRows, infrastructureDrill, renderFilters.state]);
 
   const buildLevelComboChart = (schoolLevel: (typeof SCHOOL_LEVELS)[number], chartTitle: ChartKey): ChartBundle => {
     const breakdownLevel: LocationLevel = renderFilters.state ? "lga" : "state";
@@ -4369,12 +4383,7 @@ export default function AccessCoverageDashboard({
           x: displayLabels,
           y: enrollments,
           marker: { color: enrollmentColor },
-          text: enrollments.map((value) => fmtShort(value)),
-          textposition: "inside",
-          insidetextanchor: "middle",
-          constraintext: "none",
-          textfont: { color: "#ffffff", size: 11 },
-          hovertemplate: "%{x}<br>Student enrollment: %{y:,}<br>Schools: %{customdata:,}<extra></extra>",
+          hovertemplate: "%{x}<br>Student enrollment: %{y:,.0f}<br>Schools: %{customdata:,.0f}<extra></extra>",
           customdata: schools,
         },
         {
@@ -4386,7 +4395,7 @@ export default function AccessCoverageDashboard({
           yaxis: "y2",
           line: { color: COLORS.line, width: 2.5 },
           marker: { color: COLORS.line, size: 7 },
-          hovertemplate: "%{x}<br>Schools: %{y:,}<br>Student enrollment: %{customdata:,}<extra></extra>",
+          hovertemplate: "%{x}<br>Schools: %{y:,.0f}<br>Student enrollment: %{customdata:,.0f}<extra></extra>",
           customdata: enrollments,
         },
       ],
@@ -4859,7 +4868,7 @@ export default function AccessCoverageDashboard({
               }
             }}
           />)}
-          {getNextChartLevel(infrastructureDrill) !== "state" ? (
+          {activeInfrastructureState ? (
             <ChartCard
               title="Infrastructure Score by State"
               explanation={CHART_HELP.infrastructureMap}
@@ -4879,7 +4888,7 @@ export default function AccessCoverageDashboard({
               onPlotClick={(event) => {
                 const label = extractPointLabel(event);
                 if (!label || infrastructureScoreChart.level === "school") return;
-                applyChartDrill(infrastructureDrill, setInfrastructureDrill, label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label);
+                applyChartDrill(infrastructureChartDrill, setInfrastructureDrill, label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label);
               }}
             />
           ) : (

@@ -166,14 +166,6 @@ function fmtInt(value: number): string {
   return new Intl.NumberFormat("en-NG", { maximumFractionDigits: 0 }).format(Math.round(value));
 }
 
-function fmtShort(value: number): string {
-  if (value >= 1_000_000_000) return `${(value / 1_000_000_000).toFixed(1)}B`;
-  if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M`;
-  if (value >= 1_000) return `${(value / 1_000).toFixed(1)}K`;
-  return fmtInt(value);
-}
-
-
 function shortLocationLabel(label: string): string {
   const normalized = label.trim();
   if (!normalized) return label;
@@ -2196,12 +2188,15 @@ export default function GeneralOverviewDashboard({
 
   const currentTransitionRaw = useMemo(() => transitionRows.filter(r => {
     if (renderFilters.session && r.session !== renderFilters.session) return false;
+    if (r.loc_level && r.loc_level.toLowerCase() !== expectedLocLevel) return false;
     if (renderFilters.zone && !geoMatches(r.zone, renderFilters.zone)) return false;
     if (renderFilters.state && !geoMatches(r.state, renderFilters.state)) return false;
     if (renderFilters.lga && !geoMatches(r.lga, renderFilters.lga)) return false;
+    if (renderFilters.ward && !geoMatches(r.ward, renderFilters.ward)) return false;
+    if (renderFilters.school && r.school !== renderFilters.school) return false;
     if (disabilityMode ? r.disability !== "Disabled" : r.disability === "Disabled") return false;
     return true;
-  }), [transitionRows, renderFilters, disabilityMode]);
+  }), [transitionRows, renderFilters, disabilityMode, expectedLocLevel]);
 
   const rows = useMemo(() => policyRows, [policyRows]);
 
@@ -2244,13 +2239,16 @@ export default function GeneralOverviewDashboard({
     if (!previousSession) return [] as TransitionDirectRow[];
     return transitionRows.filter((row) => {
       if (row.session !== previousSession) return false;
+      if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
       if (renderFilters.zone && !geoMatches(row.zone, renderFilters.zone)) return false;
       if (renderFilters.state && !geoMatches(row.state, renderFilters.state)) return false;
       if (renderFilters.lga && !geoMatches(row.lga, renderFilters.lga)) return false;
+      if (renderFilters.ward && !geoMatches(row.ward, renderFilters.ward)) return false;
+      if (renderFilters.school && row.school !== renderFilters.school) return false;
       if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
       return true;
     });
-  }, [transitionRows, previousSession, renderFilters, disabilityMode]);
+  }, [transitionRows, previousSession, renderFilters, disabilityMode, expectedLocLevel]);
 
   const [lastNonEmptyCurrentRows, setLastNonEmptyCurrentRows] = useState<AccessWardRow[]>([]);
   const [lastNonEmptyDensityRows, setLastNonEmptyDensityRows] = useState<AccessWardRow[]>([]);
@@ -2627,23 +2625,18 @@ const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_l
     const labels = groups.map(g => shortLocationLabel(g.label));
     const enrollments = groups.map(g => g.metrics.students);
     const schools = groups.map(g => g.metrics.schools);
-    const iqsBarTrace: PlotlyData = {
-      type: "bar", name: "Student Enrollment", x: labels, y: enrollments,
-      marker: { color: COLORS.iqs },
-      text: enrollments.map(v => fmtShort(v)),
-      textposition: "inside",
-      insidetextanchor: "middle",
-      constraintext: "none",
-      textfont: { color: "#ffffff", size: 11 },
-      hovertemplate: "%{x}<br>Student enrollment: %{y:,}<br>Schools: %{customdata:,}<extra></extra>",
-      customdata: schools,
-    };
+    const iqsBarTrace: PlotlyData = {
+      type: "bar", name: "Student Enrollment", x: labels, y: enrollments,
+      marker: { color: COLORS.iqs },
+      hovertemplate: "%{x}<br>Student enrollment: %{y:,.0f}<br>Schools: %{customdata:,.0f}<extra></extra>",
+      customdata: schools,
+    };
     const iqsLineTrace: PlotlyData = {
       type: "scatter", mode: "lines+markers", name: "Number of Schools",
       x: labels, y: schools, yaxis: "y2",
       line: { color: COLORS.line, width: 2.5 },
       marker: { color: COLORS.line, size: 7 },
-      hovertemplate: "%{x}<br>Schools: %{y:,}<br>Student enrollment: %{customdata:,}<extra></extra>",
+      hovertemplate: "%{x}<br>Schools: %{y:,.0f}<br>Student enrollment: %{customdata:,.0f}<extra></extra>",
       customdata: enrollments,
     };
     return {
