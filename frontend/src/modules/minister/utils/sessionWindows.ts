@@ -11,6 +11,8 @@ export const GENERAL_OVERVIEW_SESSIONS = [
   "2024/2025",
 ] as const;
 
+export const GENERAL_OVERVIEW_FILTER_SESSIONS = ["2024/2025"] as const;
+
 export const BASIC_SECONDARY_SESSIONS = ["2024/2025"] as const;
 
 export const TRANSITION_SESSIONS = [

@@ -20,6 +20,7 @@ import { loadCSV } from "../utils/loadCSV";
 import { canonicalState, loadRefinedFile } from "../utils/refinedPageData";
 import {
   filterAllowedSessions,
+  GENERAL_OVERVIEW_FILTER_SESSIONS,
   getDashboardSessionWindow,
 } from "../utils/sessionWindows";
 
@@ -1016,6 +1017,9 @@ export default function MinisterDashboardPage({
   const sessionWindow = getDashboardSessionWindow(
     category === "basic_secondary" ? "basic_secondary" : category,
   );
+  const effectiveSessionWindow = category === "general_overview"
+    ? GENERAL_OVERVIEW_FILTER_SESSIONS
+    : sessionWindow;
 
   const activeSessionValues = showAccessCoverage
     ? accessScopeRowsForSessions
@@ -1028,8 +1032,8 @@ export default function MinisterDashboardPage({
           : dimSessions.map((row) => row.session_id);
 
   const fallbackSessionValues = dimSessions.map((row) => row.session_id).filter(Boolean);
-  const filteredActiveSessionValues = filterAllowedSessions(activeSessionValues, sessionWindow);
-  const filteredFallbackSessionValues = filterAllowedSessions(fallbackSessionValues, sessionWindow);
+  const filteredActiveSessionValues = filterAllowedSessions(activeSessionValues, effectiveSessionWindow);
+  const filteredFallbackSessionValues = filterAllowedSessions(fallbackSessionValues, effectiveSessionWindow);
   // latestSessionId always resolves: active sessions → fallback dim sessions → ""
   // This ensures `ready` is never stuck on false after dims have loaded
   const dimLatestSessionId = filteredFallbackSessionValues.length
@@ -1092,7 +1096,7 @@ export default function MinisterDashboardPage({
     ? filteredFallbackSessionValues
     : filteredActiveSessionValues.length
       ? filteredActiveSessionValues
-      : [...sessionWindow];
+      : [...effectiveSessionWindow];
   const sessionOptions: FilterOption[] = sanitizeOptions(
     finalSessionValues.map((value) => ({ label: value, value })),
   );

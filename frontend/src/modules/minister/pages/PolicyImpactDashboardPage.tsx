@@ -675,6 +675,36 @@ export default function PolicyImpactDashboard({
     [dimSessions, filters.session],
   );
 
+  const trendRows = useMemo(
+    () =>
+      rows.filter((row) => {
+        if (filters.zone && row.zone !== filters.zone) return false;
+        if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
+        if (filters.lga && row.lga !== filters.lga) return false;
+        if (filters.gender && row.gender !== filters.gender) return false;
+        if (filters.institution_type && row.institution_type !== filters.institution_type) return false;
+        if (filters.tertiary_institution && row.tertiary_institution !== filters.tertiary_institution) return false;
+        if (filters.programme_cluster && row.programme_cluster !== filters.programme_cluster) return false;
+        if (filters.discipline_group && normaliseDisciplineGroup(row.discipline_group) !== filters.discipline_group) return false;
+        if (filters.programme && row.programme !== filters.programme) return false;
+        if (!normaliseDisability(disabilityMode, row.disability)) return false;
+        return true;
+      }),
+    [
+      rows,
+      filters.zone,
+      filters.state,
+      filters.lga,
+      filters.gender,
+      filters.institution_type,
+      filters.tertiary_institution,
+      filters.programme_cluster,
+      filters.discipline_group,
+      filters.programme,
+      disabilityMode,
+    ],
+  );
+
   const applyBaseFilters = (source: PolicyImpactRow[]) =>
     source.filter((row) => {
       if (filters.session && row.session !== filters.session) return false;
@@ -1123,9 +1153,13 @@ export default function PolicyImpactDashboard({
   ), [filteredRows, currentMetricLabel]);
 
   const stemmNonStemmTrendBundle = useMemo<ChartBundle>(() => {
-    const sessions = [...new Set(rows.map((row) => row.session))].sort().filter((session) => session >= "2021/2022");
-    const stemmMatric = sessions.map((s) => rows.filter((r) => r.session === s && r.programme_cluster === "STEMM").reduce((sum, r) => sum + safeNum(r.matriculated_count), 0));
-    const nonStemmMatric = sessions.map((s) => rows.filter((r) => r.session === s && r.programme_cluster === "Non-STEMM").reduce((sum, r) => sum + safeNum(r.matriculated_count), 0));
+    const sessions = POLICY_IMPACT_SESSIONS.filter((session) => trendRows.some((row) => row.session === session));
+    const stemmMatric = sessions.map((session) => trendRows
+      .filter((row) => row.session === session && row.programme_cluster === "STEMM")
+      .reduce((sum, row) => sum + safeNum(row.matriculated_count), 0));
+    const nonStemmMatric = sessions.map((session) => trendRows
+      .filter((row) => row.session === session && row.programme_cluster === "Non-STEMM")
+      .reduce((sum, row) => sum + safeNum(row.matriculated_count), 0));
     return {
       data: [
         { type: "scatter", mode: "text+lines+markers", name: "STEMM Matriculated", x: sessions, y: stemmMatric, text: stemmMatric.map((v) => fmtInt(v)), textposition: "top center", line: { color: COLORS.stemm, width: 3 }, marker: { size: 8, symbol: "circle" }, hovertemplate: "%{x}<br>STEMM Matriculated: %{y:,}<extra></extra>" },
@@ -1134,7 +1168,7 @@ export default function PolicyImpactDashboard({
       layout: { ...baseLayout(340), showlegend: false, yaxis: { ...baseLayout().yaxis, title: { text: "Matriculated learners" } } },
       fixedLegend: [{ label: "STEMM Matriculated", color: COLORS.stemm }, { label: "Non-STEMM Matriculated", color: COLORS.nonStemm, dashed: true }],
     };
-  }, [rows]);
+  }, [trendRows]);
 
   const loanTrendBundle = useMemo<ChartBundle>(() => {
     const sessions: string[] = [...LOAN_TREND_SESSIONS];

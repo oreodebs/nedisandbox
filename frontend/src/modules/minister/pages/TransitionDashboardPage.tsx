@@ -18,7 +18,16 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { canonicalState, loadRefinedScopedRows } from "../utils/refinedPageData";
+import {
+  applyDirectTransitionMetricOverride,
+  applyGeneralOLevelOverride,
+} from "../utils/metricOverrides";
+import {
+  canonicalState,
+  expectedLocLevelForLocation,
+  loadRefinedScopedRows,
+  scopeDepthForLocation,
+} from "../utils/refinedPageData";
 import {
   TRANSITION_SESSIONS,
   filterRowsBySessionWindow,
@@ -776,7 +785,7 @@ export default function TransitionDashboard(props: {
       try {
         setLoading(true);
         setError(null);
-        const depth = !filters.state ? "top" : filters.school ? "school" : filters.ward ? "school" : filters.lga ? "ward" : "lga";
+        const depth = scopeDepthForLocation(filters);
         const [generalData, directData] = await Promise.all([
           loadRefinedScopedRows<TransitionGeneralRow>("transition_general", filters.state, depth),
           loadRefinedScopedRows<TransitionDirectRow>("transition_direct", filters.state, depth),
@@ -830,8 +839,8 @@ export default function TransitionDashboard(props: {
     [dimSessions, filters.session],
   );
   const expectedLocLevel = useMemo<LocationLevel>(
-    () => (!renderFilters.state ? "state" : renderFilters.school || renderFilters.ward ? "school" : renderFilters.lga ? "ward" : "lga"),
-    [renderFilters.state, renderFilters.lga, renderFilters.ward, renderFilters.school],
+    () => expectedLocLevelForLocation(renderFilters) as LocationLevel,
+    [renderFilters],
   );
 
   const filteredCurrentRowsRaw = useMemo(() => {
@@ -898,7 +907,16 @@ export default function TransitionDashboard(props: {
     [loading, scopePending, filteredPreviousRowsRaw, lastNonEmptyPreviousRows],
   );
 
-  const currentMetrics = useMemo(() => aggregateRows(filteredCurrentRows), [filteredCurrentRows]);
+  const currentMetrics = useMemo(() => {
+    const aggregated = aggregateRows(filteredCurrentRows);
+    if (mode === "direct") {
+      return applyDirectTransitionMetricOverride(aggregated, renderFilters, disabilityMode);
+    }
+    return {
+      ...aggregated,
+      o_level_candidates: applyGeneralOLevelOverride(aggregated.o_level_candidates, renderFilters, disabilityMode),
+    };
+  }, [filteredCurrentRows, mode, renderFilters, disabilityMode]);
   const previousMetrics = useMemo(() => aggregateRows(filteredPreviousRows), [filteredPreviousRows]);
   const sessionMedianFallback = useMemo(() => {
     const scopedSessionRows = currentRows.filter((row) => {

@@ -8,12 +8,22 @@ import {
   FileCheck, GraduationCap, HelpCircle, Maximize2, Minus, RotateCw, School, Users, X,
 } from "lucide-react";
 import type { DimSession, MinisterFilters } from "../types";
-import { canonicalState, loadRefinedFile, loadRefinedScopedRows } from "../utils/refinedPageData";
+import {
+  canonicalState,
+  expectedLocLevelForLocation,
+  loadRefinedFile,
+  loadRefinedScopedRows,
+  scopeDepthForLocation,
+} from "../utils/refinedPageData";
 import {
   GENERAL_OVERVIEW_SESSIONS,
   LOAN_TREND_SESSIONS,
   filterRowsBySessionWindow,
 } from "../utils/sessionWindows";
+import {
+  applyDirectTransitionMetricOverride,
+  applyGeneralOLevelOverride,
+} from "../utils/metricOverrides";
 // ─── Row types ────────────────────────────────────────────────────────────────
 type AccessWardRow = {
   session: string; zone: string; state: string; lga: string; ward: string;
@@ -2120,13 +2130,14 @@ export default function GeneralOverviewDashboard({
     (async () => {
       try {
         setLoading(true);
-        const [wards, teachers, transitions, policies, loans] = await Promise.all([
-          loadRefinedScopedRows<AccessWardRow>("access_coverage", filters.state, !filters.state ? "top" : filters.school ? "school" : filters.ward ? "school" : filters.lga ? "ward" : "lga").catch(() => []),
-          loadRefinedScopedRows<TeacherCapacityRow>("teacher_capacity", filters.state, !filters.state ? "top" : filters.school ? "school" : filters.ward ? "school" : filters.lga ? "ward" : "lga").catch(() => []),
-          loadRefinedScopedRows<TransitionDirectRow>("transition_direct", filters.state, !filters.state ? "top" : filters.school ? "school" : filters.ward ? "school" : filters.lga ? "ward" : "lga").catch(() => []),
-          loadRefinedFile<PolicyImpactRow>("pages/policy_impact/policy_programme.csv").catch(() => []),
-          loadRefinedFile<PolicyLoanRow>("pages/policy_impact/policy_loans_programme.csv").catch(() => []),
-        ]);
+        const depth = scopeDepthForLocation(filters);
+        const [wards, teachers, transitions, policies, loans] = await Promise.all([
+          loadRefinedScopedRows<AccessWardRow>("access_coverage", filters.state, depth).catch(() => []),
+          loadRefinedScopedRows<TeacherCapacityRow>("teacher_capacity", filters.state, depth).catch(() => []),
+          loadRefinedScopedRows<TransitionDirectRow>("transition_direct", filters.state, depth).catch(() => []),
+          loadRefinedFile<PolicyImpactRow>("pages/policy_impact/policy_programme.csv").catch(() => []),
+          loadRefinedFile<PolicyLoanRow>("pages/policy_impact/policy_loans_programme.csv").catch(() => []),
+        ]);
         if (!alive) return;
         setWardRows(filterRowsBySessionWindow(wards, GENERAL_OVERVIEW_SESSIONS));
         setTeacherRows(filterRowsBySessionWindow(teachers, GENERAL_OVERVIEW_SESSIONS));
@@ -2151,8 +2162,8 @@ export default function GeneralOverviewDashboard({
   }, [filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey]);
 
   const expectedLocLevel = useMemo<"state" | "lga" | "ward" | "school">(
-    () => (!renderFilters.state ? "state" : renderFilters.school || renderFilters.ward ? "school" : renderFilters.lga ? "ward" : "lga"),
-    [renderFilters.state, renderFilters.lga, renderFilters.ward, renderFilters.school],
+    () => expectedLocLevelForLocation(renderFilters),
+    [renderFilters],
   );
 
   // ── Filtered rows ────────────────────────────────────────────────────────────
@@ -2198,7 +2209,14 @@ export default function GeneralOverviewDashboard({
     return true;
   }), [transitionRows, renderFilters, disabilityMode, expectedLocLevel]);
 
-  const rows = useMemo(() => policyRows, [policyRows]);
+  const rows = useMemo(() => policyRows, [policyRows]);
+  const trendRows = useMemo(() => rows.filter((row) => {
+    if (renderFilters.zone && !geoMatches(row.zone, renderFilters.zone)) return false;
+    if (renderFilters.state && !geoMatches(row.state, renderFilters.state)) return false;
+    if (renderFilters.lga && !geoMatches(row.lga, renderFilters.lga)) return false;
+    if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
+    return true;
+  }), [rows, renderFilters.zone, renderFilters.state, renderFilters.lga, disabilityMode]);
 
   const filteredLoanRows = useMemo(() => loanRows.filter(r => {
     if (renderFilters.zone && !geoMatches(r.zone, renderFilters.zone)) return false;
@@ -2336,7 +2354,8 @@ setDropoffDrill({}); setIqsDrill({});
     const totalFormalSecondary = currentRows
       .filter((row) => row.school_level === "JSS" || row.school_level === "SSS")
       .reduce((sum, row) => sum + safeNum(row.student_count), 0);
-    const totalOLevel = currentTransition.reduce((sum, row) => sum + safeNum(row.o_level_candidates), 0);
+    const rawTotalOLevel = currentTransition.reduce((sum, row) => sum + safeNum(row.o_level_candidates), 0);
+    const totalOLevel = applyGeneralOLevelOverride(rawTotalOLevel, renderFilters, disabilityMode);
     const totalTeachers = currentTeacher.reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
 
 const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_level_candidates), 0);
@@ -2392,7 +2411,7 @@ const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_l
         showDelta: false,
       },
     ];
-  }, [currentRows, currentTeacher, currentTransition, previousRows, previousTransition]);
+  }, [currentRows, currentTeacher, currentTransition, previousRows, previousTransition, renderFilters, disabilityMode]);
 
   // ── Section 2: Access & Coverage map + drill chart ──────────────────────────
   const densityCombinedMapData = useMemo<SvgMapProps | null>(() => {
@@ -2512,7 +2531,10 @@ const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_l
   }, [currentTeacher, renderFilters]);
 
   // ── Section 3: Transition funnel ────────────────────────────────────────────
-  const currentMetrics = useMemo(() => aggregateRows(currentTransition), [currentTransition]);
+  const currentMetrics = useMemo(
+    () => applyDirectTransitionMetricOverride(aggregateRows(currentTransition), renderFilters, disabilityMode),
+    [currentTransition, renderFilters, disabilityMode],
+  );
   const progressionChartBundle = useMemo<ChartBundle>(() => {
     const metrics = currentMetrics;
     const labels = ["SS3 Students","O-Level Candidates","UTME Participants","Admitted Students","Matriculated Students"];
@@ -2579,12 +2601,11 @@ const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_l
     };
   }, [currentTransition, dropoffDrill, renderFilters]);
 
-  // ── Section 4: STEMM & Non-STEMM matriculated trend (single line each) ──────
+  // ── Section 4: STEMM & Non-STEMM matriculated trend (single line each) ──────
   const stemmNonStemmTrendBundle = useMemo<ChartBundle>(() => {
-    const scoped = rows.filter(r => r.session >= "2021/2022");
-    const sessions = [...new Set(scoped.map(r => r.session))].sort().slice(-4);
-    const stemmMatric = sessions.map(s => scoped.filter(r => r.session === s && r.programme_cluster === "STEMM").reduce((sum, r) => sum + safeNum(r.matriculated_count), 0));
-    const nonStemmMatric = sessions.map(s => scoped.filter(r => r.session === s && r.programme_cluster === "Non-STEMM").reduce((sum, r) => sum + safeNum(r.matriculated_count), 0));
+    const sessions = [...GENERAL_OVERVIEW_SESSIONS].filter((session) => trendRows.some((row) => row.session === session));
+    const stemmMatric = sessions.map(s => trendRows.filter(r => r.session === s && r.programme_cluster === "STEMM").reduce((sum, r) => sum + safeNum(r.matriculated_count), 0));
+    const nonStemmMatric = sessions.map(s => trendRows.filter(r => r.session === s && r.programme_cluster === "Non-STEMM").reduce((sum, r) => sum + safeNum(r.matriculated_count), 0));
     const stemmTrace = { type: "scatter" as const, mode: "lines+markers+text" as const, name: "STEMM Matriculated", x: sessions, y: stemmMatric, text: stemmMatric.map(v => fmtInt(v)), textposition: "top center" as const, line: { color: COLORS.stemm, width: 3 }, marker: { size: 8 }, hovertemplate: "%{x}<br>STEMM Matriculated: %{y:,}<extra></extra>" };
     const nonStemmTrace = { type: "scatter" as const, mode: "lines+markers+text" as const, name: "Non-STEMM Matriculated", x: sessions, y: nonStemmMatric, text: nonStemmMatric.map(v => fmtInt(v)), textposition: "bottom center" as const, line: { color: COLORS.nonStemm, width: 3, dash: "dot" as const }, marker: { size: 8 }, hovertemplate: "%{x}<br>Non-STEMM Matriculated: %{y:,}<extra></extra>" };
     const ly = baseLayout(280);
@@ -2595,7 +2616,7 @@ const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_l
       layout: ly,
       fixedLegend: [{ label: "STEMM Matriculated", color: COLORS.stemm }, { label: "Non-STEMM Matriculated", color: COLORS.nonStemm, dashed: true }],
     };
-  }, [rows]);
+  }, [trendRows]);
 
   // ── Section 4: Loan trend ────────────────────────────────────────────────────
   const loanTrendBundle = useMemo<ChartBundle>(() => {

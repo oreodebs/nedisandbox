@@ -81,14 +81,16 @@ export type RefinedLocLevel = 'state' | 'lga' | 'ward' | 'school';
 
 export function scopeDepthForLocation(location: ScopedLocation): RefinedScopeDepth {
   if (!hasLocationValue(location.state)) return 'top';
-  if (hasLocationValue(location.school) || hasLocationValue(location.ward)) return 'school';
+  if (hasLocationValue(location.school)) return 'school';
+  if (hasLocationValue(location.ward)) return 'ward';
   if (hasLocationValue(location.lga)) return 'ward';
   return 'lga';
 }
 
 export function expectedLocLevelForLocation(location: ScopedLocation): RefinedLocLevel {
   if (!hasLocationValue(location.state)) return 'state';
-  if (hasLocationValue(location.school) || hasLocationValue(location.ward)) return 'school';
+  if (hasLocationValue(location.school)) return 'school';
+  if (hasLocationValue(location.ward)) return 'ward';
   if (hasLocationValue(location.lga)) return 'ward';
   return 'lga';
 }

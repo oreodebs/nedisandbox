@@ -20,12 +20,22 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { canonicalState, loadRefinedFile, loadRefinedScopedRows } from "../utils/refinedPageData";
+import {
+  canonicalState,
+  expectedLocLevelForLocation,
+  loadRefinedFile,
+  loadRefinedScopedRows,
+  scopeDepthForLocation,
+} from "../utils/refinedPageData";
 import {
   BASIC_SECONDARY_SESSIONS,
   TRANSITION_SESSIONS,
   filterRowsBySessionWindow,
 } from "../utils/sessionWindows";
+import {
+  applyGeneralOLevelOverride,
+  applySs3EnrollmentOverride,
+} from "../utils/metricOverrides";
 
 type AccessWardRow = {
   session: string;
@@ -2516,7 +2526,7 @@ export default function AccessCoverageDashboard({
       try {
         setLoading(true);
         setError(null);
-        const depth = !filters.state ? "top" : filters.school ? "school" : filters.ward ? "school" : filters.lga ? "ward" : "lga";
+        const depth = scopeDepthForLocation(filters);
         const [topWardData, scopedWardData, transitionData] = await Promise.all([
           loadRefinedFile<AccessWardRow>("pages/access_coverage/top_rollup.csv"),
           loadRefinedScopedRows<AccessWardRow>("access_coverage", filters.state, depth),
@@ -2584,8 +2594,8 @@ export default function AccessCoverageDashboard({
   );
 
   const expectedLocLevel = useMemo<"state" | "lga" | "ward" | "school">(
-    () => (!renderFilters.state ? "state" : renderFilters.school || renderFilters.ward ? "school" : renderFilters.lga ? "ward" : "lga"),
-    [renderFilters.state, renderFilters.lga, renderFilters.ward, renderFilters.school],
+    () => expectedLocLevelForLocation(renderFilters),
+    [renderFilters],
   );
 
   const baseRows = useMemo(() => {
@@ -2717,14 +2727,17 @@ export default function AccessCoverageDashboard({
       if (row.school_type === "Private") trackSchoolCount(privateSchoolCounts, row);
     });
 
-    const totalOLevelStudents = currentTransitionRows.reduce((sum, row) => sum + safeNum(row.o_level_candidates), 0);
+    const rawTotalOLevelStudents = currentTransitionRows.reduce((sum, row) => sum + safeNum(row.o_level_candidates), 0);
+    const totalOLevelStudents = applyGeneralOLevelOverride(rawTotalOLevelStudents, renderFilters, disabilityMode);
     const totalSchools = sumTrackedSchoolCounts(allSchoolCounts);
     const totalPublicSchools = sumTrackedSchoolCounts(publicSchoolCounts);
     const totalPrivateSchools = sumTrackedSchoolCounts(privateSchoolCounts);
-    const classTotal = (classGrade: string) =>
-      currentRows
+    const classTotal = (classGrade: string) => {
+      const total = currentRows
         .filter((row) => row.class_grade === classGrade)
         .reduce((sum, row) => sum + safeNum(row.student_count), 0);
+      return applySs3EnrollmentOverride(renderFilters.session, classGrade, total, renderFilters, disabilityMode);
+    };
 
     const previousTotalOLevelStudents = previousTransitionRows.reduce(
       (sum, row) => sum + safeNum(row.o_level_candidates),
@@ -2847,7 +2860,7 @@ export default function AccessCoverageDashboard({
     ];
 
     return cards;
-  }, [currentRows, previousRows, currentTransitionRows, previousTransitionRows, previousSession]);
+  }, [currentRows, previousRows, currentTransitionRows, previousTransitionRows, previousSession, renderFilters, disabilityMode]);
 
   const stateGroups = useMemo(() => aggregateBy(sessionRows, "state").sort((a, b) => a.label.localeCompare(b.label)), [sessionRows]);
   const zoneGroups = useMemo(() => aggregateBy(sessionRows, "zone").sort((a, b) => a.label.localeCompare(b.label)), [sessionRows]);
@@ -3738,9 +3751,12 @@ export default function AccessCoverageDashboard({
 
     const sessionCounts: number[][] = sessions.map((session) => {
       const rows = baseRows.filter((row) => row.session === session);
-      return CLASS_LEVELS.map((grade) =>
-        rows.filter((row) => row.class_grade === grade).reduce((sum, row) => sum + safeNum(row.student_count), 0),
-      );
+      return CLASS_LEVELS.map((grade) => {
+        const total = rows
+          .filter((row) => row.class_grade === grade)
+          .reduce((sum, row) => sum + safeNum(row.student_count), 0);
+        return applySs3EnrollmentOverride(session, grade, total, renderFilters, disabilityMode);
+      });
     });
 
     const allValues = sessionCounts.flat().filter((value) => value > 0);
@@ -3823,9 +3839,30 @@ export default function AccessCoverageDashboard({
       expandedMaxHeight: 360,
       expandedWidthClass: "max-w-[1160px]",
     };
-  }, [baseRows]);
+  }, [baseRows, renderFilters, disabilityMode]);
 
-  const progressionRows = useMemo(() => buildProgressionRows(currentRows, previousRows), [currentRows, previousRows]);
+  const progressionRows = useMemo(() => {
+    const rows = buildProgressionRows(currentRows, previousRows);
+    return rows.map((row) => {
+      if (row.classLevel !== "SSS2 - SSS3") return row;
+      const currentLearners = applySs3EnrollmentOverride(
+        renderFilters.session,
+        "SSS3",
+        row.currentLearners,
+        renderFilters,
+        disabilityMode,
+      );
+      const netChange = currentLearners - row.previousLearners;
+      const changePct =
+        row.previousLearners > 0 ? (netChange / row.previousLearners) * 100 : currentLearners > 0 ? 100 : 0;
+      return {
+        ...row,
+        currentLearners,
+        netChange,
+        changePct,
+      };
+    });
+  }, [currentRows, previousRows, renderFilters, disabilityMode]);
 
   const keyEntryStateChart = useMemo<{ level: LocationLevel; bundle: ChartBundle }>(() => {
     const effectiveState = keyEntryStateDrill.state ?? (renderFilters.state || undefined);
