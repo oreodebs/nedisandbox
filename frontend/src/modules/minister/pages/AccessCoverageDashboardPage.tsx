@@ -2849,11 +2849,6 @@ export default function AccessCoverageDashboard({
     return cards;
   }, [currentRows, previousRows, currentTransitionRows, previousTransitionRows, previousSession]);
 
-  const availableSessions = useMemo(() => {
-    const ordered = [...new Set(wardRows.map((row) => row.session).filter(Boolean))];
-    return ordered.sort((left, right) => left.localeCompare(right));
-  }, [wardRows]);
-
   const stateGroups = useMemo(() => aggregateBy(sessionRows, "state").sort((a, b) => a.label.localeCompare(b.label)), [sessionRows]);
   const zoneGroups = useMemo(() => aggregateBy(sessionRows, "zone").sort((a, b) => a.label.localeCompare(b.label)), [sessionRows]);
 
@@ -3732,7 +3727,9 @@ export default function AccessCoverageDashboard({
   const classroomSecondaryStateChart = useMemo(() => buildClassroomByStateChart("secondary", classroomStateDrill), [sessionRows, classroomStateDrill.state, renderFilters.state]);
 
   const funnelChart = useMemo<ChartBundle>(() => {
-    const sessions = availableSessions
+    const availableTrendSessions = [...new Set(baseRows.map((row) => row.session).filter(Boolean))]
+      .sort((left, right) => left.localeCompare(right));
+    const sessions = availableTrendSessions
       .filter((session) => !["2019/2020", "2020/2021"].includes(session))
       .slice(-5);
     const sessionColors = ["#f59e0b", "#ef4444", "#16a34a", "#7c3aed", "#2563eb"];
@@ -3740,7 +3737,7 @@ export default function AccessCoverageDashboard({
     const classLevelPositions = CLASS_LEVELS.map((_, index) => index);
 
     const sessionCounts: number[][] = sessions.map((session) => {
-      const rows = wardRows.filter((row) => row.session === session);
+      const rows = baseRows.filter((row) => row.session === session);
       return CLASS_LEVELS.map((grade) =>
         rows.filter((row) => row.class_grade === grade).reduce((sum, row) => sum + safeNum(row.student_count), 0),
       );
@@ -3826,7 +3823,7 @@ export default function AccessCoverageDashboard({
       expandedMaxHeight: 360,
       expandedWidthClass: "max-w-[1160px]",
     };
-  }, [availableSessions, wardRows]);
+  }, [baseRows]);
 
   const progressionRows = useMemo(() => buildProgressionRows(currentRows, previousRows), [currentRows, previousRows]);
 

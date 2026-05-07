@@ -1175,7 +1175,6 @@ const progressionChart = useMemo<ChartBundle>(() => {
       return { gap, value: metrics.matriculated_students };
     });
 
-    const total = byGap.reduce((sum, row) => sum + row.value, 0);
     const colors = [COLORS.lag1, COLORS.lag2, COLORS.lag35, COLORS.lag5];
     const positions = [0.82, 0.62, 0.42, 0.22];
 
@@ -1192,12 +1191,12 @@ const progressionChart = useMemo<ChartBundle>(() => {
             colors,
             line: { color: "#ffffff", width: 4 },
           },
-          texttemplate: "%{value:,}",
+          texttemplate: "%{percent:.0%}",
           textposition: "inside",
           insidetextorientation: "horizontal",
-          textfont: { size: 11, color: "#ffffff" },
+          textfont: { size: 12, color: "#ffffff" },
           hovertemplate: "%{label}: %{value:,} learners (%{percent})<extra></extra>",
-          domain: { x: [0.02, 0.42], y: [0.08, 0.92] },
+          domain: { x: [0.02, 0.44], y: [0.08, 0.92] },
         },
       ],
       layout: {
@@ -1217,10 +1216,9 @@ const progressionChart = useMemo<ChartBundle>(() => {
           line: { color: "rgba(148,163,184,0.25)", width: 1 },
         })),
         annotations: byGap.flatMap((row, index) => {
-          const pct = total > 0 ? (row.value / total) * 100 : 0;
           return [
             {
-              x: 0.50,
+              x: 0.52,
               y: positions[index],
               xref: "paper",
               yref: "paper",
@@ -1231,17 +1229,6 @@ const progressionChart = useMemo<ChartBundle>(() => {
               font: { size: 12, color: COLORS.text },
             },
             {
-              x: 0.88,
-              y: positions[index],
-              xref: "paper",
-              yref: "paper",
-              showarrow: false,
-              xanchor: "right",
-              align: "right",
-              text: `<b>${fmtInt(row.value)}</b>`,
-              font: { size: 12, color: COLORS.text },
-            },
-            {
               x: 0.98,
               y: positions[index],
               xref: "paper",
@@ -1249,7 +1236,7 @@ const progressionChart = useMemo<ChartBundle>(() => {
               showarrow: false,
               xanchor: "right",
               align: "right",
-              text: `<b>${pct.toFixed(0)}%</b>`,
+              text: `<b>${fmtInt(row.value)}</b>`,
               font: { size: 12, color: COLORS.text },
             },
           ];
