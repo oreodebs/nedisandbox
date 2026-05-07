@@ -1,541 +1,541 @@
-"session","gender","disability_scope","exam_body","institution_type","loc_level","loc_label","zone","state","lga","ward","school","ss3_total","o_level_candidates","utme_participants","admitted_students","matriculated_students","delayed_transition_students","loss_ss3_to_olevel","loss_olevel_to_utme","loss_utme_to_admitted","loss_admitted_to_matriculated"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","874","863","521","200","191","15","11","342","321","15"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","671","661","400","145","127","19","10","261","256","19"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","341","337","205","72","66","8","4","132","133","8"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","338","334","206","67","64","5","4","128","139","5"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","332","327","198","73","64","9","5","129","126","9"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","303","299","182","68","58","10","4","117","114","10"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","436","430","263","106","92","15","6","167","157","15"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","326","321","209","89","76","13","5","112","120","13"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","558","550","336","128","109","20","8","214","208","20"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","434","428","259","84","69","15","6","169","175","15"
-"2022/2023","Female","all","NABTEB","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","65","64","39","11","12","0","1","25","28","0"
-"2022/2023","Female","all","NABTEB","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","244","240","155","56","53","4","4","85","99","4"
-"2022/2023","Female","all","NABTEB","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","477","471","282","100","93","10","6","189","182","10"
-"2022/2023","Female","all","NABTEB","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","263","259","153","62","57","5","4","106","92","5"
-"2022/2023","Female","all","NABTEB","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","547","540","327","116","109","10","7","213","211","10"
-"2022/2023","Female","all","NECO","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","1628","1605","1000","336","290","46","23","605","664","46"
-"2022/2023","Female","all","NECO","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1226","1209","742","254","213","41","17","467","488","41"
-"2022/2023","Female","all","NECO","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","618","609","372","129","110","19","9","237","243","19"
-"2022/2023","Female","all","NECO","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","589","581","351","134","116","18","8","230","217","18"
-"2022/2023","Female","all","NECO","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","622","612","371","120","102","18","10","241","251","18"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","576","568","331","116","98","18","8","237","215","18"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","869","856","538","193","166","27","13","318","345","27"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","666","656","397","148","130","18","10","259","250","18"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1099","1083","664","231","203","28","16","419","433","28"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","783","772","460","142","119","23","11","312","318","23"
-"2022/2023","Female","all","NECO","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","110","108","61","23","18","5","2","47","38","5"
-"2022/2023","Female","all","NECO","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","395","389","239","78","64","14","6","150","162","14"
-"2022/2023","Female","all","NECO","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","906","893","544","185","156","29","13","349","359","29"
-"2022/2023","Female","all","NECO","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","505","497","304","111","92","19","8","193","193","19"
-"2022/2023","Female","all","NECO","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","973","959","593","193","172","21","14","366","400","21"
-"2022/2023","Female","all","WAEC","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","2114","2082","1275","490","436","54","32","807","785","54"
-"2022/2023","Female","all","WAEC","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1654","1630","1019","390","358","32","24","611","629","32"
-"2022/2023","Female","all","WAEC","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","842","830","505","201","186","15","12","325","304","15"
-"2022/2023","Female","all","WAEC","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","804","792","494","197","172","25","12","298","298","25"
-"2022/2023","Female","all","WAEC","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","742","731","437","157","139","18","11","294","280","18"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","782","770","488","175","153","22","12","282","313","22"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1168","1150","711","257","227","30","18","439","454","30"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","908","894","558","235","213","22","14","336","323","22"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1515","1493","902","355","320","35","22","591","548","35"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1036","1020","614","213","195","18","16","406","401","18"
-"2022/2023","Female","all","WAEC","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","161","159","91","35","33","2","2","68","56","2"
-"2022/2023","Female","all","WAEC","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","480","473","287","101","88","13","7","186","186","13"
-"2022/2023","Female","all","WAEC","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1177","1159","693","267","241","26","18","466","426","26"
-"2022/2023","Female","all","WAEC","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","651","642","394","157","143","14","9","248","238","14"
-"2022/2023","Female","all","WAEC","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1363","1343","820","318","282","36","20","523","502","36"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","113","113","63","45","46","0","0","50","18","0"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","74","74","40","29","29","0","0","34","12","0"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","47","47","25","16","16","0","0","22","9","0"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","44","44","26","11","11","0","0","18","14","0"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","48","48","26","18","18","0","0","22","9","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","29","29","15","11","11","0","0","14","5","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","47","47","26","17","17","0","0","21","9","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","38","38","22","16","16","0","0","16","5","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","74","74","44","29","29","0","0","30","15","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","53","53","29","17","17","0","0","24","12","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","11","11","6","0","0","0","0","5","6","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","26","26","15","5","5","0","0","11","10","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","62","62","36","17","17","0","0","26","19","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","35","35","20","18","18","0","0","15","3","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","59","59","34","30","30","0","0","25","5","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","174","173","98","43","43","0","1","75","55","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","126","126","76","29","29","0","0","50","47","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","60","60","33","18","18","0","0","27","15","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","67","66","37","17","17","0","1","29","20","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","70","69","37","12","14","0","1","32","25","0"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","57","56","29","10","10","0","1","27","19","0"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","85","85","49","19","19","0","0","36","30","0"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","66","66","35","14","15","0","0","31","21","0"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","137","137","77","29","29","1","0","60","49","1"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","93","93","53","14","15","0","0","40","39","0"
-"2022/2023","Female","disabled","NECO","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","12","12","5","4","4","0","0","7","1","0"
-"2022/2023","Female","disabled","NECO","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","35","35","17","9","9","0","0","18","7","0"
-"2022/2023","Female","disabled","NECO","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","100","99","55","21","23","0","1","44","34","0"
-"2022/2023","Female","disabled","NECO","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","48","48","25","12","13","0","0","23","13","0"
-"2022/2023","Female","disabled","NECO","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","84","84","45","22","24","0","0","39","24","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","227","226","131","46","53","0","1","95","85","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","177","175","100","41","42","0","2","75","60","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","79","79","41","16","19","0","0","38","25","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","89","88","54","17","19","0","1","34","37","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","86","85","46","17","19","0","1","39","30","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","70","69","40","8","10","0","1","29","33","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","114","114","65","16","20","0","0","49","49","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","97","95","54","22","23","0","2","41","32","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","185","184","101","33","37","0","1","83","68","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","130","128","70","21","24","0","2","58","50","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","16","16","8","4","5","0","0","8","4","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","38","38","24","8","10","0","0","14","16","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","111","110","61","21","24","0","1","49","40","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","65","65","38","12","15","0","0","27","27","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","129","129","74","20","25","0","0","55","55","0"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","966","952","577","195","175","24","14","375","382","24"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","730","720","437","145","140","9","10","283","292","9"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","357","352","209","62","66","0","5","143","147","0"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","383","377","232","73","65","9","6","145","159","9"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","314","310","185","62","58","5","4","125","123","5"
-"2022/2023","Male","all","NABTEB","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","291","287","182","62","52","10","4","105","120","10"
-"2022/2023","Male","all","NABTEB","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","507","499","314","106","86","20","8","185","208","20"
-"2022/2023","Male","all","NABTEB","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","373","368","232","79","70","10","5","136","153","10"
-"2022/2023","Male","all","NABTEB","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","620","611","377","106","87","20","9","234","271","20"
-"2022/2023","Male","all","NABTEB","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","456","449","269","94","76","18","7","180","175","18"
-"2022/2023","Male","all","NABTEB","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","59","58","33","17","18","0","1","25","17","0"
-"2022/2023","Male","all","NABTEB","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","241","237","151","56","53","4","4","86","95","4"
-"2022/2023","Male","all","NABTEB","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","511","505","301","94","82","14","6","204","207","14"
-"2022/2023","Male","all","NABTEB","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","291","287","173","62","58","5","4","114","112","5"
-"2022/2023","Male","all","NABTEB","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","592","583","343","105","94","13","9","240","238","13"
-"2022/2023","Male","all","NECO","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","1835","1808","1093","350","301","49","27","715","743","49"
-"2022/2023","Male","all","NECO","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1317","1298","784","248","212","36","19","514","536","36"
-"2022/2023","Male","all","NECO","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","683","674","411","129","110","19","9","263","282","19"
-"2022/2023","Male","all","NECO","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","653","643","389","138","116","22","10","254","251","22"
-"2022/2023","Male","all","NECO","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","608","599","365","111","97","14","9","234","254","14"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","615","606","380","110","93","17","9","226","270","17"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","992","978","611","207","171","36","14","367","404","36"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","697","687","420","143","120","23","10","267","277","23"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1201","1185","721","226","189","37","16","464","495","37"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","844","832","511","167","139","28","12","321","344","28"
-"2022/2023","Male","all","NECO","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","107","105","64","23","18","5","2","41","41","5"
-"2022/2023","Male","all","NECO","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","423","416","249","78","64","14","7","167","171","14"
-"2022/2023","Male","all","NECO","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","958","945","572","170","147","23","13","373","402","23"
-"2022/2023","Male","all","NECO","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","539","531","322","102","83","19","8","209","220","19"
-"2022/2023","Male","all","NECO","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1149","1132","679","211","185","26","17","453","468","26"
-"2022/2023","Male","all","WAEC","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","2367","2331","1412","484","440","44","36","919","928","44"
-"2022/2023","Male","all","WAEC","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1815","1788","1093","392","357","35","27","695","701","35"
-"2022/2023","Male","all","WAEC","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","944","930","558","183","161","22","14","372","375","22"
-"2022/2023","Male","all","WAEC","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","860","847","514","196","180","16","13","333","318","16"
-"2022/2023","Male","all","WAEC","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","709","699","408","140","125","15","10","291","268","15"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","766","755","442","149","134","15","11","313","293","15"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1222","1204","728","275","246","29","18","476","453","29"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","938","924","566","201","181","20","14","358","365","20"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1600","1576","970","332","297","35","24","606","638","35"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1067","1052","635","233","213","20","15","417","402","20"
-"2022/2023","Male","all","WAEC","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","164","162","102","35","33","2","2","60","67","2"
-"2022/2023","Male","all","WAEC","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","468","461","272","91","78","13","7","189","181","13"
-"2022/2023","Male","all","WAEC","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1211","1193","721","249","228","21","18","472","472","21"
-"2022/2023","Male","all","WAEC","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","758","748","455","166","153","13","10","293","289","13"
-"2022/2023","Male","all","WAEC","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1539","1516","905","311","278","33","23","611","595","33"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","119","119","69","38","40","0","0","50","30","0"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","80","80","48","28","28","0","0","32","20","0"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","47","47","25","11","11","0","0","22","14","0"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","47","47","26","6","6","0","0","21","20","0"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","41","41","23","11","11","0","0","18","11","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","29","29","16","11","11","0","0","13","5","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","50","50","29","17","17","0","0","21","12","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","41","41","25","16","16","0","0","16","8","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","74","74","44","6","6","0","0","30","38","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","59","59","32","22","22","0","0","27","9","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","11","11","6","6","6","0","0","5","1","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","23","23","12","11","11","0","0","11","2","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","62","62","33","11","11","0","0","29","22","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","38","38","23","11","11","0","0","15","11","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","62","62","34","12","12","0","0","28","22","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","200","198","105","39","39","0","2","93","66","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","148","147","80","25","25","0","1","67","55","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","67","67","40","19","19","0","0","27","21","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","70","69","41","17","18","0","1","28","24","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","66","65","34","12","14","0","1","31","22","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","61","60","32","10","10","0","1","28","23","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","96","96","53","20","20","0","0","43","33","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","77","76","44","14","15","0","1","32","30","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","147","147","83","27","30","0","0","64","57","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","101","101","57","18","20","0","0","44","39","0"
-"2022/2023","Male","disabled","NECO","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","12","12","5","4","4","0","0","7","1","0"
-"2022/2023","Male","disabled","NECO","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","35","35","22","9","9","0","0","13","13","0"
-"2022/2023","Male","disabled","NECO","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","96","96","56","17","19","0","0","40","39","0"
-"2022/2023","Male","disabled","NECO","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","55","55","28","12","14","0","0","27","16","0"
-"2022/2023","Male","disabled","NECO","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","87","87","48","22","23","0","0","39","25","0"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","265","262","147","36","45","0","3","115","111","0"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","191","188","112","37","38","0","3","76","75","0"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","87","87","48","16","19","0","0","39","32","0"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","89","88","48","17","19","0","1","40","31","0"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","79","78","43","12","15","0","1","35","32","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","76","75","43","13","14","0","1","32","31","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","124","123","73","22","24","0","1","50","51","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","107","105","60","17","19","0","2","45","44","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","218","214","122","29","34","0","4","92","93","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","134","132","77","26","28","0","2","55","51","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","18","18","10","4","4","0","0","8","6","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","38","38","24","8","10","0","0","14","17","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","118","117","67","21","24","0","1","50","46","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","73","72","44","17","19","0","1","28","27","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","139","138","77","20","25","0","1","61","58","0"
-"2023/2024","Female","all","NABTEB","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","968","955","606","255","229","29","13","349","351","29"
-"2023/2024","Female","all","NABTEB","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","702","692","432","162","144","20","10","260","270","20"
-"2023/2024","Female","all","NABTEB","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","388","382","239","100","92","10","6","143","139","10"
-"2023/2024","Female","all","NABTEB","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","342","338","231","87","85","4","4","107","145","4"
-"2023/2024","Female","all","NABTEB","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","348","342","220","75","72","5","6","122","145","5"
-"2023/2024","Female","all","NABTEB","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","305","301","194","68","59","9","4","107","126","9"
-"2023/2024","Female","all","NABTEB","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","488","480","310","118","98","20","8","170","192","20"
-"2023/2024","Female","all","NABTEB","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","378","373","243","99","86","13","5","130","144","13"
-"2023/2024","Female","all","NABTEB","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","663","654","417","149","131","19","9","237","268","19"
-"2023/2024","Female","all","NABTEB","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","451","444","281","112","98","15","7","163","169","15"
-"2023/2024","Female","all","NABTEB","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","75","74","48","19","20","0","1","26","30","0"
-"2023/2024","Female","all","NABTEB","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","251","247","159","69","66","4","4","88","91","4"
-"2023/2024","Female","all","NABTEB","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","540","532","342","125","105","21","8","190","217","21"
-"2023/2024","Female","all","NABTEB","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","296","292","182","75","73","4","4","110","107","4"
-"2023/2024","Female","all","NABTEB","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","589","580","364","149","124","25","9","216","215","25"
-"2023/2024","Female","all","NECO","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","1768","1741","1111","403","356","47","27","630","709","47"
-"2023/2024","Female","all","NECO","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1346","1326","860","301","263","38","20","466","559","38"
-"2023/2024","Female","all","NECO","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","680","670","437","159","140","19","10","233","279","19"
-"2023/2024","Female","all","NECO","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","719","708","458","174","150","24","11","250","284","24"
-"2023/2024","Female","all","NECO","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","660","650","420","142","119","23","10","230","278","23"
-"2023/2024","Female","all","NECO","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","643","633","387","133","114","19","10","246","255","19"
-"2023/2024","Female","all","NECO","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","957","942","603","214","181","33","15","339","389","33"
-"2023/2024","Female","all","NECO","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","692","682","435","157","134","23","10","247","278","23"
-"2023/2024","Female","all","NECO","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1163","1147","724","250","222","28","16","423","475","28"
-"2023/2024","Female","all","NECO","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","844","831","527","178","154","24","13","304","349","24"
-"2023/2024","Female","all","NECO","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","128","126","77","31","26","5","2","49","47","5"
-"2023/2024","Female","all","NECO","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","416","409","269","87","73","14","7","140","183","14"
-"2023/2024","Female","all","NECO","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","963","948","594","230","191","39","15","354","364","39"
-"2023/2024","Female","all","NECO","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","518","510","330","113","94","19","8","180","218","19"
-"2023/2024","Female","all","NECO","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1032","1017","640","225","203","22","15","377","416","22"
-"2023/2024","Female","all","WAEC","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","2420","2385","1488","585","536","49","35","897","903","49"
-"2023/2024","Female","all","WAEC","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1741","1716","1110","454","411","43","25","606","656","43"
-"2023/2024","Female","all","WAEC","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","948","934","596","226","205","21","14","338","370","21"
-"2023/2024","Female","all","WAEC","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","953","939","609","245","221","24","14","330","364","24"
-"2023/2024","Female","all","WAEC","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","811","799","495","186","168","18","12","304","309","18"
-"2023/2024","Female","all","WAEC","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","823","811","508","182","163","19","12","303","327","19"
-"2023/2024","Female","all","WAEC","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1160","1142","734","283","253","30","18","408","451","30"
-"2023/2024","Female","all","WAEC","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","925","911","617","262","238","24","14","294","356","24"
-"2023/2024","Female","all","WAEC","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1608","1585","1019","398","363","35","23","566","622","35"
-"2023/2024","Female","all","WAEC","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1210","1192","736","278","259","19","18","456","458","19"
-"2023/2024","Female","all","WAEC","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","164","162","102","40","38","2","2","60","63","2"
-"2023/2024","Female","all","WAEC","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","582","574","364","136","125","11","8","210","228","11"
-"2023/2024","Female","all","WAEC","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1265","1247","808","302","275","27","18","439","506","27"
-"2023/2024","Female","all","WAEC","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","780","768","489","186","173","13","12","279","303","13"
-"2023/2024","Female","all","WAEC","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1534","1512","938","353","324","29","22","574","585","29"
-"2023/2024","Female","disabled","NABTEB","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","134","134","72","52","53","0","0","62","20","0"
-"2023/2024","Female","disabled","NABTEB","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","84","84","48","28","33","0","0","36","20","0"
-"2023/2024","Female","disabled","NABTEB","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","51","51","29","22","26","0","0","22","7","0"
-"2023/2024","Female","disabled","NABTEB","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","45","45","30","18","18","0","0","15","13","0"
-"2023/2024","Female","disabled","NABTEB","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","48","48","28","17","17","0","0","20","11","0"
-"2023/2024","Female","disabled","NABTEB","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","28","28","17","11","11","0","0","11","6","0"
-"2023/2024","Female","disabled","NABTEB","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","52","52","30","22","24","0","0","22","7","0"
-"2023/2024","Female","disabled","NABTEB","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","45","45","28","17","19","0","0","17","11","0"
-"2023/2024","Female","disabled","NABTEB","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","84","84","48","24","24","0","0","36","25","0"
-"2023/2024","Female","disabled","NABTEB","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","55","55","29","23","23","0","0","26","7","0"
-"2023/2024","Female","disabled","NABTEB","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","12","12","7","5","6","0","0","5","2","0"
-"2023/2024","Female","disabled","NABTEB","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","25","25","14","11","12","0","0","11","4","0"
-"2023/2024","Female","disabled","NABTEB","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","67","67","38","17","17","0","0","29","21","0"
-"2023/2024","Female","disabled","NABTEB","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","38","38","22","18","18","0","0","16","5","0"
-"2023/2024","Female","disabled","NABTEB","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","64","64","34","28","28","0","0","30","6","0"
-"2023/2024","Female","disabled","NECO","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","198","197","115","45","45","0","1","82","70","0"
-"2023/2024","Female","disabled","NECO","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","145","145","88","30","30","0","0","57","58","0"
-"2023/2024","Female","disabled","NECO","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","70","70","40","20","20","0","0","30","20","0"
-"2023/2024","Female","disabled","NECO","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","76","75","47","20","21","0","1","28","27","0"
-"2023/2024","Female","disabled","NECO","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","77","76","47","15","15","0","1","29","32","0"
-"2023/2024","Female","disabled","NECO","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","57","57","29","10","10","0","0","28","20","0"
-"2023/2024","Female","disabled","NECO","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","101","101","59","20","20","0","0","42","40","0"
-"2023/2024","Female","disabled","NECO","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","72","72","43","15","15","0","0","29","29","0"
-"2023/2024","Female","disabled","NECO","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","149","149","87","30","30","0","0","62","57","0"
-"2023/2024","Female","disabled","NECO","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","105","105","66","20","20","0","0","39","47","0"
-"2023/2024","Female","disabled","NECO","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","14","14","7","5","5","0","0","7","2","0"
-"2023/2024","Female","disabled","NECO","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","40","40","27","10","10","0","0","13","17","0"
-"2023/2024","Female","disabled","NECO","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","97","97","57","25","25","0","0","40","32","0"
-"2023/2024","Female","disabled","NECO","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","54","54","27","15","15","0","0","27","12","0"
-"2023/2024","Female","disabled","NECO","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","93","93","53","25","25","0","0","40","28","0"
-"2023/2024","Female","disabled","WAEC","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","272","270","157","50","52","0","2","113","107","0"
-"2023/2024","Female","disabled","WAEC","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","195","192","120","40","42","0","3","72","80","0"
-"2023/2024","Female","disabled","WAEC","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","91","91","54","20","22","0","0","37","34","0"
-"2023/2024","Female","disabled","WAEC","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","97","96","58","20","21","0","1","38","39","0"
-"2023/2024","Female","disabled","WAEC","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","90","89","52","20","21","0","1","37","32","0"
-"2023/2024","Female","disabled","WAEC","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","82","81","48","15","16","0","1","33","33","0"
-"2023/2024","Female","disabled","WAEC","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","118","118","70","20","23","0","0","48","50","0"
-"2023/2024","Female","disabled","WAEC","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","106","104","65","25","27","0","2","39","40","0"
-"2023/2024","Female","disabled","WAEC","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","194","192","112","40","42","0","2","80","73","0"
-"2023/2024","Female","disabled","WAEC","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","142","140","83","30","32","0","2","57","54","0"
-"2023/2024","Female","disabled","WAEC","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","18","18","9","5","6","0","0","9","5","0"
-"2023/2024","Female","disabled","WAEC","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","48","48","29","10","12","0","0","19","19","0"
-"2023/2024","Female","disabled","WAEC","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","130","129","80","25","26","0","1","49","56","0"
-"2023/2024","Female","disabled","WAEC","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","78","77","48","20","21","0","1","29","29","0"
-"2023/2024","Female","disabled","WAEC","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","141","140","83","30","31","0","1","57","54","0"
-"2023/2024","Male","all","NABTEB","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","1108","1091","691","223","198","28","17","400","468","28"
-"2023/2024","Male","all","NABTEB","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","766","756","493","155","139","18","10","263","338","18"
-"2023/2024","Male","all","NABTEB","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","417","410","254","75","73","5","7","156","179","5"
-"2023/2024","Male","all","NABTEB","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","400","393","254","87","72","15","7","139","167","15"
-"2023/2024","Male","all","NABTEB","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","337","332","196","63","66","0","5","136","133","0"
-"2023/2024","Male","all","NABTEB","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","322","318","201","74","66","8","4","117","127","8"
-"2023/2024","Male","all","NABTEB","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","537","529","341","112","92","20","8","188","229","20"
-"2023/2024","Male","all","NABTEB","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","403","397","262","87","79","9","6","135","175","9"
-"2023/2024","Male","all","NABTEB","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","730","719","459","137","130","10","11","260","322","10"
-"2023/2024","Male","all","NABTEB","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","492","485","310","106","98","10","7","175","204","10"
-"2023/2024","Male","all","NABTEB","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","79","78","49","19","20","0","1","29","30","0"
-"2023/2024","Male","all","NABTEB","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","248","244","160","62","59","4","4","84","98","4"
-"2023/2024","Male","all","NABTEB","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","524","517","333","112","105","10","7","184","221","10"
-"2023/2024","Male","all","NABTEB","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","320","315","212","61","59","4","5","103","151","4"
-"2023/2024","Male","all","NABTEB","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","667","657","403","118","99","20","10","254","285","20"
-"2023/2024","Male","all","NECO","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","1977","1949","1241","403","346","57","28","708","838","57"
-"2023/2024","Male","all","NECO","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1440","1419","917","290","252","38","21","502","627","38"
-"2023/2024","Male","all","NECO","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","682","672","424","129","109","20","10","248","295","20"
-"2023/2024","Male","all","NECO","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","757","745","468","159","134","25","12","277","310","25"
-"2023/2024","Male","all","NECO","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","627","618","372","113","98","15","9","246","259","15"
-"2023/2024","Male","all","NECO","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","679","669","437","138","125","13","10","232","300","13"
-"2023/2024","Male","all","NECO","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1091","1075","679","235","203","32","16","396","445","32"
-"2023/2024","Male","all","NECO","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","746","736","476","163","139","24","10","260","313","24"
-"2023/2024","Male","all","NECO","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1335","1315","817","275","237","38","20","498","541","38"
-"2023/2024","Male","all","NECO","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","947","933","592","179","161","18","14","341","413","18"
-"2023/2024","Male","all","NECO","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","118","116","77","21","16","5","2","39","56","5"
-"2023/2024","Male","all","NECO","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","434","427","273","82","68","14","7","154","191","14"
-"2023/2024","Male","all","NECO","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1005","990","615","200","175","25","15","375","415","25"
-"2023/2024","Male","all","NECO","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","559","550","353","118","99","19","9","197","236","19"
-"2023/2024","Male","all","NECO","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1195","1177","741","234","197","37","18","436","507","37"
-"2023/2024","Male","all","WAEC","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","2611","2572","1625","576","525","51","39","947","1049","51"
-"2023/2024","Male","all","WAEC","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1900","1872","1208","444","413","31","28","664","764","31"
-"2023/2024","Male","all","WAEC","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1055","1040","644","232","212","20","15","396","412","20"
-"2023/2024","Male","all","WAEC","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1041","1026","636","231","211","20","15","390","406","20"
-"2023/2024","Male","all","WAEC","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","789","777","488","161","152","9","12","289","328","9"
-"2023/2024","Male","all","WAEC","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","842","830","530","187","168","19","12","300","344","19"
-"2023/2024","Male","all","WAEC","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1293","1275","821","284","260","24","18","454","537","24"
-"2023/2024","Male","all","WAEC","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1070","1055","700","272","249","23","15","355","429","23"
-"2023/2024","Male","all","WAEC","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1776","1751","1117","400","363","37","25","634","717","37"
-"2023/2024","Male","all","WAEC","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1225","1207","761","263","237","26","18","446","499","26"
-"2023/2024","Male","all","WAEC","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","164","162","105","35","33","2","2","57","71","2"
-"2023/2024","Male","all","WAEC","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","556","548","334","126","114","12","8","214","208","12"
-"2023/2024","Male","all","WAEC","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1339","1320","831","287","265","22","19","489","544","22"
-"2023/2024","Male","all","WAEC","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","856","843","525","195","183","12","13","318","330","12"
-"2023/2024","Male","all","WAEC","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1697","1671","1020","334","298","36","26","651","686","36"
-"2023/2024","Male","disabled","NABTEB","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","140","140","82","35","36","0","0","58","47","0"
-"2023/2024","Male","disabled","NABTEB","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","92","92","55","23","25","0","0","37","32","0"
-"2023/2024","Male","disabled","NABTEB","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","51","51","29","11","13","0","0","22","18","0"
-"2023/2024","Male","disabled","NABTEB","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","49","49","30","12","12","0","0","19","19","0"
-"2023/2024","Male","disabled","NABTEB","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","46","46","26","18","18","0","0","20","8","0"
-"2023/2024","Male","disabled","NABTEB","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","32","32","18","11","11","0","0","14","7","0"
-"2023/2024","Male","disabled","NABTEB","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","55","55","33","11","12","0","0","22","21","0"
-"2023/2024","Male","disabled","NABTEB","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","45","45","25","17","18","0","0","20","8","0"
-"2023/2024","Male","disabled","NABTEB","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","89","89","53","24","24","0","0","36","29","0"
-"2023/2024","Male","disabled","NABTEB","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","61","61","34","23","23","0","0","27","11","0"
-"2023/2024","Male","disabled","NABTEB","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","12","12","7","5","5","0","0","5","2","0"
-"2023/2024","Male","disabled","NABTEB","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","25","25","14","11","12","0","0","11","4","0"
-"2023/2024","Male","disabled","NABTEB","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","67","67","38","17","17","0","0","29","21","0"
-"2023/2024","Male","disabled","NABTEB","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","42","42","26","6","6","0","0","16","21","0"
-"2023/2024","Male","disabled","NABTEB","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","71","71","35","11","11","0","0","36","24","0"
-"2023/2024","Male","disabled","NECO","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","223","221","124","45","45","0","2","97","79","0"
-"2023/2024","Male","disabled","NECO","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","161","161","95","29","29","0","0","66","65","0"
-"2023/2024","Male","disabled","NECO","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","66","66","37","20","20","0","0","29","17","0"
-"2023/2024","Male","disabled","NECO","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","88","87","54","20","21","0","1","33","34","0"
-"2023/2024","Male","disabled","NECO","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","76","75","40","15","15","0","1","35","26","0"
-"2023/2024","Male","disabled","NECO","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","68","67","39","10","10","0","1","28","29","0"
-"2023/2024","Male","disabled","NECO","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","118","118","70","20","20","0","0","48","50","0"
-"2023/2024","Male","disabled","NECO","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","80","79","47","15","15","0","1","32","33","0"
-"2023/2024","Male","disabled","NECO","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","164","163","98","30","30","0","1","65","68","0"
-"2023/2024","Male","disabled","NECO","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","117","116","67","20","20","0","1","49","47","0"
-"2023/2024","Male","disabled","NECO","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","14","14","9","5","5","0","0","5","5","0"
-"2023/2024","Male","disabled","NECO","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","40","40","24","5","5","0","0","16","19","0"
-"2023/2024","Male","disabled","NECO","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","97","97","57","25","25","0","0","40","32","0"
-"2023/2024","Male","disabled","NECO","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","62","62","34","10","10","0","0","28","24","0"
-"2023/2024","Male","disabled","NECO","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","116","116","67","20","20","0","0","49","47","0"
-"2023/2024","Male","disabled","WAEC","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","289","286","168","54","59","0","3","118","114","0"
-"2023/2024","Male","disabled","WAEC","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","204","200","126","35","38","0","4","74","91","0"
-"2023/2024","Male","disabled","WAEC","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","102","102","60","20","24","0","0","42","40","0"
-"2023/2024","Male","disabled","WAEC","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","112","111","64","20","21","0","1","47","45","0"
-"2023/2024","Male","disabled","WAEC","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","89","88","51","20","21","0","1","37","32","0"
-"2023/2024","Male","disabled","WAEC","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","83","81","43","10","10","0","2","38","34","0"
-"2023/2024","Male","disabled","WAEC","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","137","136","82","20","22","0","1","54","62","0"
-"2023/2024","Male","disabled","WAEC","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","112","110","67","20","21","0","2","43","47","0"
-"2023/2024","Male","disabled","WAEC","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","229","225","137","40","42","0","4","88","98","0"
-"2023/2024","Male","disabled","WAEC","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","149","147","89","25","26","0","2","58","65","0"
-"2023/2024","Male","disabled","WAEC","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","21","21","12","5","6","0","0","9","8","0"
-"2023/2024","Male","disabled","WAEC","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","56","55","32","10","12","0","1","23","23","0"
-"2023/2024","Male","disabled","WAEC","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","136","135","79","24","25","0","1","56","55","0"
-"2023/2024","Male","disabled","WAEC","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","86","85","52","20","21","0","1","33","32","0"
-"2023/2024","Male","disabled","WAEC","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","154","152","91","20","20","0","2","61","71","0"
-"2024/2025","Female","all","NABTEB","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","19346","17241","12839","4460","2838","328","2104","4402","8379","1622"
-"2024/2025","Female","all","NABTEB","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","14596","12994","9673","3514","2085","386","1603","3321","6159","1429"
-"2024/2025","Female","all","NABTEB","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","7742","6893","5097","1815","1197","77","850","1796","3282","618"
-"2024/2025","Female","all","NABTEB","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","7723","6873","5116","1834","1043","251","850","1757","3282","792"
-"2024/2025","Female","all","NABTEB","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","6815","6082","4402","1699","946","270","734","1680","2703","753"
-"2024/2025","Female","all","NABTEB","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","5850","5194","3765","1332","792","154","656","1429","2433","541"
-"2024/2025","Female","all","NABTEB","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","9403","8379","6487","2413","1390","328","1023","1892","4074","1023"
-"2024/2025","Female","all","NABTEB","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","7877","7028","5387","2066","1216","232","850","1641","3321","850"
-"2024/2025","Female","all","NABTEB","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","12762","11333","8379","3031","1796","348","1429","2954","5348","1236"
-"2024/2025","Female","all","NABTEB","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","8997","7993","5947","2220","1294","290","1004","2047","3726","927"
-"2024/2025","Female","all","NABTEB","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","1313","1158","869","367","251","0","154","290","502","116"
-"2024/2025","Female","all","NABTEB","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","4595","4093","3108","1216","772","58","502","985","1892","444"
-"2024/2025","Female","all","NABTEB","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","10214","9113","6835","2549","1448","328","1101","2278","4286","1101"
-"2024/2025","Female","all","NABTEB","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","5734","5097","3919","1583","1023","58","637","1178","2336","560"
-"2024/2025","Female","all","NABTEB","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","11816","10484","7433","2954","1738","386","1332","3051","4479","1216"
-"2024/2025","Female","all","NECO","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","36471","32436","23709","8070","4808","1023","4035","8727","15639","3263"
-"2024/2025","Female","all","NECO","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","26200","23323","16971","6024","3553","850","2877","6352","10947","2471"
-"2024/2025","Female","all","NECO","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","13187","11720","8920","3282","2027","328","1467","2800","5638","1255"
-"2024/2025","Female","all","NECO","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","13476","11990","8978","3359","1989","425","1487","3012","5618","1371"
-"2024/2025","Female","all","NECO","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","12357","10986","8283","2549","1487","328","1371","2703","5734","1062"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","13090","11662","8572","2664","1564","386","1429","3089","5908","1101"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","19288","17183","13090","4383","2626","656","2104","4093","8708","1757"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","15040","13380","10020","3804","2259","463","1660","3359","6217","1545"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","22956","20427","15291","5387","3128","792","2529","5136","9905","2259"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","16585","14770","10947","3379","2085","328","1815","3823","7568","1294"
-"2024/2025","Female","all","NECO","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","2491","2220","1738","714","425","77","270","483","1023","290"
-"2024/2025","Female","all","NECO","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","8978","7974","5985","1950","1101","290","1004","1989","4035","850"
-"2024/2025","Female","all","NECO","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","19674","17492","13052","4576","2703","637","2182","4441","8476","1873"
-"2024/2025","Female","all","NECO","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","11005","9789","7066","2452","1409","386","1216","2722","4614","1043"
-"2024/2025","Female","all","NECO","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","21740","19346","14172","5116","3051","656","2394","5174","9055","2066"
-"2024/2025","Female","all","WAEC","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","48712","43306","31934","11893","7453","1101","5406","11372","20041","4441"
-"2024/2025","Female","all","WAEC","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","36433","32436","24115","8727","5541","656","3997","8321","15388","3186"
-"2024/2025","Female","all","WAEC","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","18632","16585","12260","4595","2877","367","2047","4325","7665","1718"
-"2024/2025","Female","all","WAEC","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","17936","15986","11739","4711","3031","348","1950","4248","7028","1680"
-"2024/2025","Female","all","WAEC","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","17106","15214","10928","4035","2549","309","1892","4286","6893","1487"
-"2024/2025","Female","all","WAEC","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","15291","13631","10349","3649","2259","367","1660","3282","6700","1390"
-"2024/2025","Female","all","WAEC","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","24636","21894","16585","6391","4074","502","2742","5310","10194","2317"
-"2024/2025","Female","all","WAEC","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","20118","17917","13283","5445","3456","405","2201","4634","7839","1989"
-"2024/2025","Female","all","WAEC","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","31336","27918","20273","7549","4672","792","3417","7646","12724","2877"
-"2024/2025","Female","all","WAEC","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","22551","20080","14519","5425","3514","290","2471","5560","9094","1911"
-"2024/2025","Female","all","WAEC","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","3804","3359","2471","1004","599","135","444","888","1467","405"
-"2024/2025","Female","all","WAEC","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","13496","12028","9152","3437","2201","270","1467","2877","5715","1236"
-"2024/2025","Female","all","WAEC","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","26123","23246","17261","6564","4286","348","2877","5985","10696","2278"
-"2024/2025","Female","all","WAEC","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","14287","12743","9287","3514","2240","232","1545","3456","5773","1274"
-"2024/2025","Female","all","WAEC","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","28324","25196","18883","7144","4499","618","3128","6313","11739","2645"
-"2024/2025","Female","disabled","NABTEB","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","2510","2317","1294","907","599","0","193","1023","386","309"
-"2024/2025","Female","disabled","NABTEB","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1680","1545","888","695","463","0","135","656","193","232"
-"2024/2025","Female","disabled","NABTEB","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1004","927","579","425","290","0","77","348","135","135"
-"2024/2025","Female","disabled","NABTEB","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","927","850","560","232","154","0","77","290","348","77"
-"2024/2025","Female","disabled","NABTEB","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","869","792","463","309","212","0","77","328","135","97"
-"2024/2025","Female","disabled","NABTEB","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","579","521","348","232","154","0","58","174","135","77"
-"2024/2025","Female","disabled","NABTEB","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1062","985","579","463","309","0","77","405","135","154"
-"2024/2025","Female","disabled","NABTEB","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","927","830","618","348","232","0","97","212","270","116"
-"2024/2025","Female","disabled","NABTEB","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1815","1660","1043","579","386","0","154","618","463","193"
-"2024/2025","Female","disabled","NABTEB","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1101","1004","618","444","290","0","97","386","174","154"
-"2024/2025","Female","disabled","NABTEB","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","232","212","135","97","58","0","19","77","39","39"
-"2024/2025","Female","disabled","NABTEB","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","521","483","290","232","154","0","39","193","77","77"
-"2024/2025","Female","disabled","NABTEB","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1352","1236","656","444","290","0","116","579","212","154"
-"2024/2025","Female","disabled","NABTEB","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","792","734","405","348","232","0","58","328","77","116"
-"2024/2025","Female","disabled","NABTEB","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1294","1197","637","560","367","0","97","560","97","193"
-"2024/2025","Female","disabled","NECO","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","3977","3533","2317","869","521","0","444","1216","1448","348"
-"2024/2025","Female","disabled","NECO","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","2915","2587","1776","579","348","0","328","811","1197","232"
-"2024/2025","Female","disabled","NECO","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1332","1178","811","386","232","0","154","367","444","154"
-"2024/2025","Female","disabled","NECO","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1429","1274","869","386","251","0","154","405","502","135"
-"2024/2025","Female","disabled","NECO","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1429","1274","965","290","174","0","154","309","676","116"
-"2024/2025","Female","disabled","NECO","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","1294","1139","734","193","116","0","154","405","560","77"
-"2024/2025","Female","disabled","NECO","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1911","1718","1139","386","232","0","193","579","753","154"
-"2024/2025","Female","disabled","NECO","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1622","1467","1062","290","174","0","154","405","772","116"
-"2024/2025","Female","disabled","NECO","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","2819","2529","1776","579","348","0","290","753","1197","232"
-"2024/2025","Female","disabled","NECO","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","2085","1834","1448","386","232","0","251","386","1062","154"
-"2024/2025","Female","disabled","NECO","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","270","232","193","97","58","0","39","39","116","39"
-"2024/2025","Female","disabled","NECO","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","850","753","541","193","116","0","97","212","348","77"
-"2024/2025","Female","disabled","NECO","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","2047","1815","1332","483","290","0","232","483","850","193"
-"2024/2025","Female","disabled","NECO","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1120","985","637","290","174","0","135","348","367","116"
-"2024/2025","Female","disabled","NECO","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1776","1564","1043","483","290","0","212","521","560","193"
-"2024/2025","Female","disabled","WAEC","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","5387","4788","3282","1158","753","0","599","1506","2124","405"
-"2024/2025","Female","disabled","WAEC","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","3977","3533","2587","869","579","0","444","946","1718","290"
-"2024/2025","Female","disabled","WAEC","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1834","1660","1178","386","232","0","174","483","792","154"
-"2024/2025","Female","disabled","WAEC","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1853","1641","1101","386","251","0","212","541","714","135"
-"2024/2025","Female","disabled","WAEC","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1853","1641","1101","386","251","0","212","541","714","135"
-"2024/2025","Female","disabled","WAEC","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","1545","1390","946","193","116","0","154","444","753","77"
-"2024/2025","Female","disabled","WAEC","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","2664","2394","1815","483","309","0","270","579","1332","174"
-"2024/2025","Female","disabled","WAEC","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","2104","1873","1332","483","328","0","232","541","850","154"
-"2024/2025","Female","disabled","WAEC","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","4035","3610","2452","772","502","0","425","1158","1680","270"
-"2024/2025","Female","disabled","WAEC","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","2877","2529","1718","579","386","0","348","811","1139","193"
-"2024/2025","Female","disabled","WAEC","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","444","405","251","97","58","0","39","154","154","39"
-"2024/2025","Female","disabled","WAEC","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1120","985","734","290","193","0","135","251","444","97"
-"2024/2025","Female","disabled","WAEC","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","2606","2298","1641","579","367","0","309","656","1062","212"
-"2024/2025","Female","disabled","WAEC","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1409","1274","850","290","174","0","135","425","560","116"
-"2024/2025","Female","disabled","WAEC","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","2587","2355","1564","483","290","0","232","792","1081","193"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","21450","19076","13940","4441","2645","502","2375","5136","9499","1796"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","15909","14191","10329","3398","2066","290","1718","3861","6931","1332"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","8244","7337","5425","1699","1101","97","907","1911","3726","599"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","8379","7433","5618","1699","927","251","946","1815","3919","772"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","6777","6024","4170","1216","850","0","753","1853","2954","367"
-"2024/2025","Male","all","NABTEB","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","6487","5792","4421","1332","792","154","695","1371","3089","541"
-"2024/2025","Male","all","NABTEB","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","10947","9731","7356","2549","1487","328","1216","2375","4808","1062"
-"2024/2025","Male","all","NABTEB","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","8457","7530","5599","1815","1139","135","927","1931","3784","676"
-"2024/2025","Male","all","NABTEB","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","14944","13322","9712","3166","1989","251","1622","3610","6545","1178"
-"2024/2025","Male","all","NABTEB","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","9518","8476","6313","2085","1294","193","1043","2162","4228","792"
-"2024/2025","Male","all","NABTEB","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","1467","1313","965","232","154","0","154","348","734","77"
-"2024/2025","Male","all","NABTEB","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","5001","4460","3263","1101","695","58","541","1197","2162","405"
-"2024/2025","Male","all","NABTEB","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","10716","9557","7144","2298","1352","270","1158","2413","4846","946"
-"2024/2025","Male","all","NABTEB","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","6429","5734","4402","1448","927","58","695","1332","2954","521"
-"2024/2025","Male","all","NABTEB","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","13245","11777","8553","2568","1545","290","1467","3224","5985","1023"
-"2024/2025","Male","all","NECO","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","40198","35776","26200","8360","5097","946","4421","9576","17840","3263"
-"2024/2025","Male","all","NECO","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","28864","25698","19076","6062","3610","830","3166","6622","13013","2452"
-"2024/2025","Male","all","NECO","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","13805","12260","9074","2954","1699","463","1545","3186","6120","1255"
-"2024/2025","Male","all","NECO","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","14982","13341","9731","3166","1931","309","1641","3610","6564","1236"
-"2024/2025","Male","all","NECO","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","12164","10831","7993","2355","1371","367","1332","2838","5638","985"
-"2024/2025","Male","all","NECO","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","13090","11623","8572","2664","1564","386","1467","3051","5908","1101"
-"2024/2025","Male","all","NECO","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","20234","17994","13843","4576","2742","618","2240","4151","9267","1834"
-"2024/2025","Male","all","NECO","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","16488","14674","10658","3591","2143","463","1815","4016","7066","1448"
-"2024/2025","Male","all","NECO","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","25466","22647","16353","4923","2993","618","2819","6294","11430","1931"
-"2024/2025","Male","all","NECO","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","17936","15967","11720","3591","2201","444","1969","4248","8128","1390"
-"2024/2025","Male","all","NECO","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","2645","2355","1738","502","251","97","290","618","1236","251"
-"2024/2025","Male","all","NECO","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","8978","7974","5985","1950","1101","290","1004","1989","4035","850"
-"2024/2025","Male","all","NECO","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","19848","17685","12453","3881","2336","425","2162","5232","8572","1545"
-"2024/2025","Male","all","NECO","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","11430","10175","7221","2220","1216","386","1255","2954","5001","1004"
-"2024/2025","Male","all","NECO","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","23632","21006","15156","4788","2877","637","2626","5850","10368","1911"
-"2024/2025","Male","all","WAEC","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","53945","48075","34830","12260","7819","946","5869","13245","22570","4441"
-"2024/2025","Male","all","WAEC","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","39927","35545","25910","9055","5773","656","4383","9634","16855","3282"
-"2024/2025","Male","all","WAEC","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","20582","18323","13399","4518","2838","367","2259","4923","8881","1680"
-"2024/2025","Male","all","WAEC","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","19249","17145","12859","4827","3108","367","2104","4286","8032","1718"
-"2024/2025","Male","all","WAEC","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","16952","15079","11218","3804","2375","328","1873","3861","7414","1429"
-"2024/2025","Male","all","WAEC","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","17203","15311","10947","3649","2259","367","1892","4363","7298","1390"
-"2024/2025","Male","all","WAEC","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","27938","24848","18477","6526","4228","425","3089","6371","11951","2298"
-"2024/2025","Male","all","WAEC","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","20910","18632","14442","5522","3495","502","2278","4190","8920","2027"
-"2024/2025","Male","all","WAEC","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","36471","32456","23883","8264","5174","753","4016","8572","15620","3089"
-"2024/2025","Male","all","WAEC","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","24231","21566","15909","5464","3533","309","2664","5657","10445","1931"
-"2024/2025","Male","all","WAEC","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","3804","3359","2549","1004","676","39","444","811","1545","328"
-"2024/2025","Male","all","WAEC","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","13399","11932","8534","3128","1950","290","1467","3398","5406","1178"
-"2024/2025","Male","all","WAEC","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","26953","23980","17512","6217","3939","444","2973","6468","11295","2278"
-"2024/2025","Male","all","WAEC","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","15137","13496","10214","3842","2471","232","1641","3282","6371","1371"
-"2024/2025","Male","all","WAEC","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","33768","30061","21643","6931","4325","656","3707","8418","14712","2606"
-"2024/2025","Male","disabled","NABTEB","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","2838","2587","1545","695","463","0","251","1043","850","232"
-"2024/2025","Male","disabled","NABTEB","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1950","1776","1158","579","386","0","174","618","579","193"
-"2024/2025","Male","disabled","NABTEB","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1023","946","579","328","212","0","77","367","251","116"
-"2024/2025","Male","disabled","NABTEB","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1081","985","676","232","154","0","97","309","444","77"
-"2024/2025","Male","disabled","NABTEB","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","869","792","463","212","135","0","77","328","251","77"
-"2024/2025","Male","disabled","NABTEB","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","599","541","367","232","154","0","58","174","135","77"
-"2024/2025","Male","disabled","NABTEB","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1062","985","560","348","232","0","77","425","232","116"
-"2024/2025","Male","disabled","NABTEB","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1081","965","695","232","154","0","116","270","463","77"
-"2024/2025","Male","disabled","NABTEB","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1873","1699","1120","695","463","0","174","579","425","232"
-"2024/2025","Male","disabled","NABTEB","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1178","1062","714","348","232","0","116","348","386","116"
-"2024/2025","Male","disabled","NABTEB","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","232","212","116","0","0","0","19","97","116","0"
-"2024/2025","Male","disabled","NABTEB","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","521","483","290","232","154","0","39","193","77","77"
-"2024/2025","Male","disabled","NABTEB","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1390","1274","695","232","154","0","116","579","483","77"
-"2024/2025","Male","disabled","NABTEB","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","869","792","521","232","154","0","77","270","290","77"
-"2024/2025","Male","disabled","NABTEB","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1332","1236","656","232","154","0","97","579","444","77"
-"2024/2025","Male","disabled","NECO","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","4383","3881","2606","869","521","0","502","1274","1738","348"
-"2024/2025","Male","disabled","NECO","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","3147","2800","1931","579","348","0","348","869","1352","232"
-"2024/2025","Male","disabled","NECO","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1255","1101","753","290","174","0","154","348","483","116"
-"2024/2025","Male","disabled","NECO","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1506","1332","965","386","251","0","174","367","599","135"
-"2024/2025","Male","disabled","NECO","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1371","1197","792","290","174","0","174","405","521","116"
-"2024/2025","Male","disabled","NECO","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","1294","1139","753","193","116","0","154","386","560","77"
-"2024/2025","Male","disabled","NECO","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","2259","2027","1409","386","232","0","232","618","1023","154"
-"2024/2025","Male","disabled","NECO","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1815","1622","1120","290","174","0","193","502","830","116"
-"2024/2025","Male","disabled","NECO","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","3205","2857","1950","579","348","0","348","907","1371","232"
-"2024/2025","Male","disabled","NECO","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","2104","1911","1390","386","232","0","193","521","1004","154"
-"2024/2025","Male","disabled","NECO","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","270","232","193","97","58","0","39","39","116","39"
-"2024/2025","Male","disabled","NECO","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","850","753","541","193","116","0","97","212","348","77"
-"2024/2025","Male","disabled","NECO","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1969","1776","1178","386","232","0","193","599","792","154"
-"2024/2025","Male","disabled","NECO","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1139","1004","656","290","174","0","135","348","367","116"
-"2024/2025","Male","disabled","NECO","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","2066","1834","1197","386","232","0","232","637","811","154"
-"2024/2025","Male","disabled","WAEC","College of Education","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","5850","5252","3437","965","599","0","599","1815","2471","367"
-"2024/2025","Male","disabled","WAEC","College of Education","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","4055","3572","2433","676","425","0","483","1139","1757","251"
-"2024/2025","Male","disabled","WAEC","College of Education","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","1911","1757","1158","386","232","0","154","599","772","154"
-"2024/2025","Male","disabled","WAEC","College of Education","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","2085","1873","1294","386","251","0","212","579","907","135"
-"2024/2025","Male","disabled","WAEC","College of Education","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","1776","1564","1120","386","251","0","212","444","734","135"
-"2024/2025","Male","disabled","WAEC","Polytechnic","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","1583","1390","927","193","116","0","193","463","734","77"
-"2024/2025","Male","disabled","WAEC","Polytechnic","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","2935","2626","1796","483","309","0","309","830","1313","174"
-"2024/2025","Male","disabled","WAEC","Polytechnic","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","2259","2008","1390","483","328","0","251","618","907","154"
-"2024/2025","Male","disabled","WAEC","Polytechnic","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","4479","3997","2780","772","502","0","483","1216","2008","270"
-"2024/2025","Male","disabled","WAEC","Polytechnic","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","2993","2626","1853","483","309","0","367","772","1371","174"
-"2024/2025","Male","disabled","WAEC","University","lga","Abuja Municipal Area Council","North Central","Abuja Federal Capital Territory","Abuja Municipal Area Council","","","444","405","251","97","58","0","39","154","154","39"
-"2024/2025","Male","disabled","WAEC","University","lga","Bwari","North Central","Abuja Federal Capital Territory","Bwari","","","1120","985","734","290","193","0","135","251","444","97"
-"2024/2025","Male","disabled","WAEC","University","lga","Gwagwalada","North Central","Abuja Federal Capital Territory","Gwagwalada","","","2722","2452","1699","579","367","0","270","753","1120","212"
-"2024/2025","Male","disabled","WAEC","University","lga","Kuje","North Central","Abuja Federal Capital Territory","Kuje","","","1487","1313","907","386","251","0","174","405","521","135"
-"2024/2025","Male","disabled","WAEC","University","lga","Kwali","North Central","Abuja Federal Capital Territory","Kwali","","","3070","2742","1834","483","290","0","328","907","1352","193"
+session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,all,NABTEB,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,247,198,225,34,33,0,49,0,191,1
+2022/2023,Female,all,NABTEB,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,190,152,173,24,22,0,38,0,149,2
+2022/2023,Female,all,NABTEB,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,96,77,89,12,11,0,19,0,77,1
+2022/2023,Female,all,NABTEB,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,96,77,89,11,10,0,19,0,78,1
+2022/2023,Female,all,NABTEB,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,94,75,86,12,11,0,19,0,74,1
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,86,69,79,3,2,0,17,0,76,1
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,123,99,114,4,3,0,24,0,110,1
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,92,74,90,3,2,0,18,0,87,1
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,158,126,145,5,4,0,32,0,140,1
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,123,98,112,3,2,0,25,0,109,1
+2022/2023,Female,all,NABTEB,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,18,15,17,3,2,0,3,0,14,1
+2022/2023,Female,all,NABTEB,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,69,55,67,16,15,0,14,0,51,1
+2022/2023,Female,all,NABTEB,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,135,108,122,29,28,0,27,0,93,1
+2022/2023,Female,all,NABTEB,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,74,59,66,18,17,0,15,0,48,1
+2022/2023,Female,all,NABTEB,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,155,124,141,33,32,0,31,0,108,1
+2022/2023,Female,all,NECO,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,461,369,432,57,50,1,92,0,375,7
+2022/2023,Female,all,NECO,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,347,278,321,43,37,0,69,0,278,6
+2022/2023,Female,all,NECO,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,175,140,161,22,19,0,35,0,139,3
+2022/2023,Female,all,NECO,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,167,133,152,23,20,0,34,0,129,3
+2022/2023,Female,all,NECO,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,176,141,160,20,18,0,35,0,140,2
+2022/2023,Female,all,NECO,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,163,130,143,5,4,0,33,0,138,1
+2022/2023,Female,all,NECO,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,246,197,232,8,7,0,49,0,224,1
+2022/2023,Female,all,NECO,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,188,151,171,6,5,0,37,0,165,1
+2022/2023,Female,all,NECO,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,311,249,287,9,8,0,62,0,278,1
+2022/2023,Female,all,NECO,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,222,177,199,6,5,0,45,0,193,1
+2022/2023,Female,all,NECO,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,31,25,26,7,5,0,6,0,19,2
+2022/2023,Female,all,NECO,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,112,89,103,22,19,0,23,0,81,3
+2022/2023,Female,all,NECO,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,256,205,235,53,46,1,51,0,182,7
+2022/2023,Female,all,NECO,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,143,114,131,32,27,0,29,0,99,5
+2022/2023,Female,all,NECO,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,275,220,256,55,51,0,55,0,201,4
+2022/2023,Female,all,WAEC,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,598,478,551,83,76,1,120,0,468,7
+2022/2023,Female,all,WAEC,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,468,374,440,66,62,0,94,0,374,4
+2022/2023,Female,all,WAEC,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,238,191,218,34,32,0,47,0,184,2
+2022/2023,Female,all,WAEC,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,228,182,213,33,30,0,46,0,180,3
+2022/2023,Female,all,WAEC,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,210,168,189,27,24,0,42,0,162,3
+2022/2023,Female,all,WAEC,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,221,177,211,7,6,0,44,0,204,1
+2022/2023,Female,all,WAEC,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,331,264,307,10,9,0,67,0,297,1
+2022/2023,Female,all,WAEC,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,257,205,241,9,8,0,52,0,232,1
+2022/2023,Female,all,WAEC,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,429,343,390,14,13,0,86,0,376,1
+2022/2023,Female,all,WAEC,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,293,234,265,8,7,0,59,0,257,1
+2022/2023,Female,all,WAEC,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,46,37,39,10,9,0,9,0,29,1
+2022/2023,Female,all,WAEC,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,136,109,124,29,26,0,27,0,95,3
+2022/2023,Female,all,WAEC,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,333,266,299,76,71,0,67,0,223,5
+2022/2023,Female,all,WAEC,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,184,147,170,45,42,0,37,0,125,3
+2022/2023,Female,all,WAEC,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,386,308,354,91,83,1,78,0,263,8
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,24,19,22,5,4,0,5,0,17,1
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,15,12,14,3,2,0,3,0,11,1
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,10,8,9,2,1,0,2,0,7,1
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,9,7,9,1,0,0,2,0,8,1
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,10,8,9,2,1,0,2,0,7,1
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,6,5,5,0,0,0,1,0,5,0
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,10,8,9,0,0,0,2,0,9,0
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,8,6,8,0,0,0,2,0,8,0
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,15,12,15,1,0,0,3,0,14,1
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,11,9,10,0,0,0,2,0,10,0
+2022/2023,Female,disabled,NABTEB,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,2,2,2,0,0,0,0,0,2,0
+2022/2023,Female,disabled,NABTEB,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,5,4,5,1,0,0,1,0,4,1
+2022/2023,Female,disabled,NABTEB,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,13,10,12,4,3,0,3,0,8,1
+2022/2023,Female,disabled,NABTEB,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,7,6,7,4,3,0,1,0,3,1
+2022/2023,Female,disabled,NABTEB,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,12,10,12,6,5,0,2,0,6,1
+2022/2023,Female,disabled,NECO,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,36,29,34,5,4,0,7,0,29,1
+2022/2023,Female,disabled,NECO,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,26,21,26,3,2,0,5,0,23,1
+2022/2023,Female,disabled,NECO,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,13,10,11,2,1,0,3,0,9,1
+2022/2023,Female,disabled,NECO,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,14,11,13,2,1,0,3,0,11,1
+2022/2023,Female,disabled,NECO,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,15,12,13,1,0,0,3,0,12,1
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,12,9,10,0,0,0,3,0,10,0
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,18,14,17,1,0,0,4,0,16,1
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,14,11,12,0,0,0,3,0,12,0
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,29,23,27,1,0,0,6,0,26,1
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,19,16,18,0,0,0,3,0,18,0
+2022/2023,Female,disabled,NECO,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,3,2,2,1,0,0,1,0,1,1
+2022/2023,Female,disabled,NECO,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,7,6,6,2,1,0,1,0,4,1
+2022/2023,Female,disabled,NECO,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,21,17,19,4,3,0,4,0,15,1
+2022/2023,Female,disabled,NECO,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,10,8,9,3,2,0,2,0,6,1
+2022/2023,Female,disabled,NECO,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,18,14,16,5,4,0,4,0,11,1
+2022/2023,Female,disabled,WAEC,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,48,38,45,5,4,0,10,0,40,1
+2022/2023,Female,disabled,WAEC,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,37,29,34,5,4,0,8,0,29,1
+2022/2023,Female,disabled,WAEC,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,17,13,14,2,1,0,4,0,12,1
+2022/2023,Female,disabled,WAEC,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,19,15,19,2,1,0,4,0,17,1
+2022/2023,Female,disabled,WAEC,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,18,14,16,2,1,0,4,0,14,1
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,15,12,14,0,0,0,3,0,14,0
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,24,19,22,0,0,0,5,0,22,0
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,20,16,19,1,0,0,4,0,18,1
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,39,31,35,1,0,0,8,0,34,1
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,27,22,24,1,0,0,5,0,23,1
+2022/2023,Female,disabled,WAEC,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,3,3,3,1,0,0,0,0,2,1
+2022/2023,Female,disabled,WAEC,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,8,6,8,2,1,0,2,0,6,1
+2022/2023,Female,disabled,WAEC,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,23,19,21,4,3,0,4,0,17,1
+2022/2023,Female,disabled,WAEC,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,14,11,13,3,2,0,3,0,10,1
+2022/2023,Female,disabled,WAEC,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,27,22,25,4,3,0,5,0,21,1
+2022/2023,Male,all,NABTEB,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,201,161,185,33,30,0,40,0,152,3
+2022/2023,Male,all,NABTEB,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,152,122,140,24,23,0,30,0,116,1
+2022/2023,Male,all,NABTEB,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,74,59,67,10,9,0,15,0,57,1
+2022/2023,Male,all,NABTEB,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,80,64,74,12,11,0,16,0,62,1
+2022/2023,Male,all,NABTEB,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,65,52,59,10,9,0,13,0,49,1
+2022/2023,Male,all,NABTEB,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,60,48,58,2,1,0,12,0,56,1
+2022/2023,Male,all,NABTEB,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,105,84,100,4,3,0,21,0,96,1
+2022/2023,Male,all,NABTEB,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,78,62,74,3,2,0,16,0,71,1
+2022/2023,Male,all,NABTEB,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,129,103,121,4,3,0,26,0,117,1
+2022/2023,Male,all,NABTEB,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,95,76,86,4,3,0,19,0,82,1
+2022/2023,Male,all,NABTEB,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,12,10,11,5,4,0,2,0,6,1
+2022/2023,Male,all,NABTEB,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,50,40,48,16,15,0,10,0,32,1
+2022/2023,Male,all,NABTEB,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,106,85,96,27,24,0,21,0,69,3
+2022/2023,Male,all,NABTEB,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,60,48,55,18,17,0,12,0,37,1
+2022/2023,Male,all,NABTEB,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,123,98,110,30,28,0,25,0,80,2
+2022/2023,Male,all,NECO,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,381,305,350,59,52,1,76,0,291,7
+2022/2023,Male,all,NECO,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,274,219,251,42,37,0,55,0,209,5
+2022/2023,Male,all,NECO,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,142,114,131,22,19,0,28,0,109,3
+2022/2023,Male,all,NECO,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,136,109,124,23,20,0,27,0,101,3
+2022/2023,Male,all,NECO,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,126,101,117,19,17,0,25,0,98,2
+2022/2023,Male,all,NECO,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,128,102,122,4,3,0,26,0,118,1
+2022/2023,Male,all,NECO,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,206,165,195,8,7,0,41,0,187,1
+2022/2023,Male,all,NECO,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,145,116,134,6,5,0,29,0,128,1
+2022/2023,Male,all,NECO,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,250,200,231,9,8,0,50,0,222,1
+2022/2023,Male,all,NECO,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,175,140,163,7,6,0,35,0,156,1
+2022/2023,Male,all,NECO,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,22,18,20,7,5,0,4,0,13,2
+2022/2023,Male,all,NECO,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,88,70,80,22,19,0,18,0,58,3
+2022/2023,Male,all,NECO,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,199,159,183,49,44,0,40,0,134,5
+2022/2023,Male,all,NECO,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,112,90,103,29,25,0,22,0,74,4
+2022/2023,Male,all,NECO,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,239,191,217,60,55,0,48,0,157,5
+2022/2023,Male,all,WAEC,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,492,393,452,82,77,0,99,0,370,5
+2022/2023,Male,all,WAEC,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,377,302,350,66,62,0,75,0,284,4
+2022/2023,Male,all,WAEC,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,196,157,179,31,28,0,39,0,148,3
+2022/2023,Male,all,WAEC,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,179,143,164,33,31,0,36,0,131,2
+2022/2023,Male,all,WAEC,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,147,118,131,24,22,0,29,0,107,2
+2022/2023,Male,all,WAEC,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,159,127,141,6,5,0,32,0,135,1
+2022/2023,Male,all,WAEC,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,254,203,233,11,10,0,51,0,222,1
+2022/2023,Male,all,WAEC,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,195,156,181,8,7,0,39,0,173,1
+2022/2023,Male,all,WAEC,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,333,266,310,13,12,0,67,0,297,1
+2022/2023,Male,all,WAEC,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,222,178,203,9,8,0,44,0,194,1
+2022/2023,Male,all,WAEC,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,34,27,33,10,9,0,7,0,23,1
+2022/2023,Male,all,WAEC,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,97,78,87,26,23,0,19,0,61,3
+2022/2023,Male,all,WAEC,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,252,201,231,71,68,0,51,0,160,3
+2022/2023,Male,all,WAEC,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,158,126,146,47,45,0,32,0,99,2
+2022/2023,Male,all,WAEC,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,320,256,290,89,82,1,64,0,201,7
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,18,15,17,4,3,0,3,0,13,1
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,12,10,12,3,2,0,2,0,9,1
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,7,6,6,1,0,0,1,0,5,1
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,7,6,7,1,0,0,1,0,6,1
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,6,5,6,1,0,0,1,0,5,1
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,4,4,4,0,0,0,0,0,4,0
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,8,6,7,0,0,0,2,0,7,0
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,6,5,6,0,0,0,1,0,6,0
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,11,9,11,0,0,0,2,0,11,0
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,9,7,8,1,0,0,2,0,7,1
+2022/2023,Male,disabled,NABTEB,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,2,1,2,1,0,0,1,0,1,1
+2022/2023,Male,disabled,NABTEB,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,4,3,3,2,1,0,1,0,1,1
+2022/2023,Male,disabled,NABTEB,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,10,8,8,2,1,0,2,0,6,1
+2022/2023,Male,disabled,NABTEB,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,6,5,6,2,1,0,1,0,4,1
+2022/2023,Male,disabled,NABTEB,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,10,8,9,3,2,0,2,0,6,1
+2022/2023,Male,disabled,NECO,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,31,25,26,4,3,0,6,0,22,1
+2022/2023,Male,disabled,NECO,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,23,18,20,3,2,0,5,0,17,1
+2022/2023,Male,disabled,NECO,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,10,8,10,2,1,0,2,0,8,1
+2022/2023,Male,disabled,NECO,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,11,9,10,2,1,0,2,0,8,1
+2022/2023,Male,disabled,NECO,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,10,8,9,1,0,0,2,0,8,1
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,9,7,8,0,0,0,2,0,8,0
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,15,12,13,1,0,0,3,0,12,1
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,12,9,11,0,0,0,3,0,11,0
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,23,18,21,1,0,0,5,0,20,1
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,16,13,14,1,0,0,3,0,13,1
+2022/2023,Male,disabled,NECO,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,2,1,1,1,0,0,1,0,0,1
+2022/2023,Male,disabled,NECO,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,5,4,6,2,1,0,1,0,4,1
+2022/2023,Male,disabled,NECO,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,15,12,14,4,3,0,3,0,10,1
+2022/2023,Male,disabled,NECO,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,8,7,7,3,2,0,1,0,4,1
+2022/2023,Male,disabled,NECO,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,13,11,12,5,4,0,2,0,7,1
+2022/2023,Male,disabled,WAEC,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,41,33,37,4,3,0,8,0,33,1
+2022/2023,Male,disabled,WAEC,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,29,23,28,4,3,0,6,0,24,1
+2022/2023,Male,disabled,WAEC,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,13,11,12,2,1,0,2,0,10,1
+2022/2023,Male,disabled,WAEC,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,14,11,12,2,1,0,3,0,10,1
+2022/2023,Male,disabled,WAEC,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,12,10,11,1,0,0,2,0,10,1
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,12,9,11,0,0,0,3,0,11,0
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,19,15,18,1,0,0,4,0,17,1
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,16,13,15,0,0,0,3,0,15,0
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,34,27,31,1,0,0,7,0,30,1
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,21,16,19,1,0,0,5,0,18,1
+2022/2023,Male,disabled,WAEC,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,3,2,3,1,0,0,1,0,2,1
+2022/2023,Male,disabled,WAEC,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,6,5,6,2,1,0,1,0,4,1
+2022/2023,Male,disabled,WAEC,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,18,15,17,4,3,0,3,0,13,1
+2022/2023,Male,disabled,WAEC,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,11,9,11,4,3,0,2,0,7,1
+2022/2023,Male,disabled,WAEC,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,21,17,19,4,3,0,4,0,15,1
+2023/2024,Female,all,NABTEB,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,267,214,245,15,14,0,53,0,230,1
+2023/2024,Female,all,NABTEB,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,194,155,175,10,9,0,39,0,165,1
+2023/2024,Female,all,NABTEB,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,107,86,97,6,5,0,21,0,91,1
+2023/2024,Female,all,NABTEB,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,94,76,93,5,4,0,18,0,88,1
+2023/2024,Female,all,NABTEB,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,96,77,89,5,4,0,19,0,84,1
+2023/2024,Female,all,NABTEB,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,84,67,78,4,3,0,17,0,74,1
+2023/2024,Female,all,NABTEB,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,135,107,125,6,5,0,28,0,119,1
+2023/2024,Female,all,NABTEB,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,104,84,98,5,4,0,20,0,93,1
+2023/2024,Female,all,NABTEB,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,183,146,168,8,7,0,37,0,160,1
+2023/2024,Female,all,NABTEB,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,124,99,114,6,5,0,25,0,108,1
+2023/2024,Female,all,NABTEB,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,21,17,19,6,5,0,4,0,13,1
+2023/2024,Female,all,NABTEB,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,69,55,64,21,20,0,14,0,43,1
+2023/2024,Female,all,NABTEB,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,149,119,138,39,34,0,30,0,99,5
+2023/2024,Female,all,NABTEB,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,82,65,74,23,22,0,17,0,51,1
+2023/2024,Female,all,NABTEB,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,162,130,147,46,40,0,32,0,101,6
+2023/2024,Female,all,NECO,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,488,390,449,24,22,0,98,0,425,2
+2023/2024,Female,all,NECO,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,371,297,347,18,16,0,74,0,329,2
+2023/2024,Female,all,NECO,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,188,150,177,10,9,0,38,0,167,1
+2023/2024,Female,all,NECO,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,198,159,185,10,9,0,39,0,175,1
+2023/2024,Female,all,NECO,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,182,146,170,9,7,0,36,0,161,2
+2023/2024,Female,all,NECO,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,177,142,156,7,6,0,35,0,149,1
+2023/2024,Female,all,NECO,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,264,211,244,12,10,0,53,0,232,2
+2023/2024,Female,all,NECO,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,191,153,176,9,8,0,38,0,167,1
+2023/2024,Female,all,NECO,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,321,257,293,14,13,0,64,0,279,1
+2023/2024,Female,all,NECO,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,233,186,213,10,9,0,47,0,203,1
+2023/2024,Female,all,NECO,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,35,28,31,10,8,0,7,0,21,2
+2023/2024,Female,all,NECO,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,115,92,109,27,23,0,23,0,82,4
+2023/2024,Female,all,NECO,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,266,212,240,72,61,1,54,0,168,11
+2023/2024,Female,all,NECO,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,143,114,133,35,30,0,29,0,98,5
+2023/2024,Female,all,NECO,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,285,228,259,70,65,0,57,0,189,5
+2023/2024,Female,all,WAEC,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,667,534,601,35,33,0,133,0,566,2
+2023/2024,Female,all,WAEC,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,480,384,448,27,25,0,96,0,421,2
+2023/2024,Female,all,WAEC,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,261,209,241,14,13,0,52,0,227,1
+2023/2024,Female,all,WAEC,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,263,210,246,15,14,0,53,0,231,1
+2023/2024,Female,all,WAEC,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,224,179,200,11,10,0,45,0,189,1
+2023/2024,Female,all,WAEC,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,227,182,205,10,9,0,45,0,195,1
+2023/2024,Female,all,WAEC,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,320,256,297,15,14,0,64,0,282,1
+2023/2024,Female,all,WAEC,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,255,204,249,14,13,0,51,0,235,1
+2023/2024,Female,all,WAEC,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,443,355,412,22,21,0,88,0,390,1
+2023/2024,Female,all,WAEC,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,334,267,297,15,14,0,67,0,282,1
+2023/2024,Female,all,WAEC,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,45,36,41,12,11,0,9,0,29,1
+2023/2024,Female,all,WAEC,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,160,129,147,42,40,0,31,0,105,2
+2023/2024,Female,all,WAEC,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,349,279,326,94,88,0,70,0,232,6
+2023/2024,Female,all,WAEC,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,215,172,198,58,55,0,43,0,140,3
+2023/2024,Female,all,WAEC,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,423,339,379,110,104,0,84,0,269,6
+2023/2024,Female,disabled,NABTEB,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,27,22,23,2,1,0,5,0,21,1
+2023/2024,Female,disabled,NABTEB,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,17,14,15,1,0,0,3,0,14,1
+2023/2024,Female,disabled,NABTEB,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,10,8,9,1,0,0,2,0,8,1
+2023/2024,Female,disabled,NABTEB,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,9,7,9,1,0,0,2,0,8,1
+2023/2024,Female,disabled,NABTEB,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,10,8,9,1,0,0,2,0,8,1
+2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,6,5,5,0,0,0,1,0,5,0
+2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,10,8,9,1,0,0,2,0,8,1
+2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,9,7,9,1,0,0,2,0,8,1
+2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,17,14,15,1,0,0,3,0,14,1
+2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,11,9,9,1,0,0,2,0,8,1
+2023/2024,Female,disabled,NABTEB,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,2,2,2,1,0,0,0,0,1,1
+2023/2024,Female,disabled,NABTEB,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,5,4,4,3,2,0,1,0,1,1
+2023/2024,Female,disabled,NABTEB,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,13,11,12,4,3,0,2,0,8,1
+2023/2024,Female,disabled,NABTEB,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,8,6,7,4,3,0,2,0,3,1
+2023/2024,Female,disabled,NABTEB,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,13,10,11,7,6,0,3,0,4,1
+2023/2024,Female,disabled,NECO,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,40,32,36,2,1,0,8,0,34,1
+2023/2024,Female,disabled,NECO,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,29,23,28,1,0,0,6,0,27,1
+2023/2024,Female,disabled,NECO,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,14,11,13,1,0,0,3,0,12,1
+2023/2024,Female,disabled,NECO,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,15,12,15,1,0,0,3,0,14,1
+2023/2024,Female,disabled,NECO,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,15,12,15,1,0,0,3,0,14,1
+2023/2024,Female,disabled,NECO,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,11,9,9,0,0,0,2,0,9,0
+2023/2024,Female,disabled,NECO,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,20,16,19,1,0,0,4,0,18,1
+2023/2024,Female,disabled,NECO,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,14,12,14,1,0,0,2,0,13,1
+2023/2024,Female,disabled,NECO,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,30,24,27,1,0,0,6,0,26,1
+2023/2024,Female,disabled,NECO,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,21,17,21,1,0,0,4,0,20,1
+2023/2024,Female,disabled,NECO,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,3,2,2,1,0,0,1,0,1,1
+2023/2024,Female,disabled,NECO,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,8,6,9,2,1,0,2,0,7,1
+2023/2024,Female,disabled,NECO,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,19,16,18,6,5,0,3,0,12,1
+2023/2024,Female,disabled,NECO,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,11,9,9,3,2,0,2,0,6,1
+2023/2024,Female,disabled,NECO,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,19,15,17,6,5,0,4,0,11,1
+2023/2024,Female,disabled,WAEC,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,55,44,49,2,1,0,11,0,47,1
+2023/2024,Female,disabled,WAEC,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,39,31,38,2,1,0,8,0,36,1
+2023/2024,Female,disabled,WAEC,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,18,15,17,1,0,0,3,0,16,1
+2023/2024,Female,disabled,WAEC,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,19,15,18,1,0,0,4,0,17,1
+2023/2024,Female,disabled,WAEC,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,18,14,16,1,0,0,4,0,15,1
+2023/2024,Female,disabled,WAEC,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,16,13,15,1,0,0,3,0,14,1
+2023/2024,Female,disabled,WAEC,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,24,19,22,1,0,0,5,0,21,1
+2023/2024,Female,disabled,WAEC,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,21,17,20,1,0,0,4,0,19,1
+2023/2024,Female,disabled,WAEC,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,39,31,35,2,1,0,8,0,33,1
+2023/2024,Female,disabled,WAEC,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,29,23,26,1,0,0,6,0,25,1
+2023/2024,Female,disabled,WAEC,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,4,3,3,1,0,0,1,0,2,1
+2023/2024,Female,disabled,WAEC,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,10,8,9,2,1,0,2,0,7,1
+2023/2024,Female,disabled,WAEC,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,26,21,25,6,5,0,5,0,19,1
+2023/2024,Female,disabled,WAEC,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,16,12,15,5,4,0,4,0,10,1
+2023/2024,Female,disabled,WAEC,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,28,23,26,7,6,0,5,0,19,1
+2023/2024,Male,all,NABTEB,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,224,179,206,13,12,0,45,0,193,1
+2023/2024,Male,all,NABTEB,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,155,124,147,9,8,0,31,0,138,1
+2023/2024,Male,all,NABTEB,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,84,67,76,5,4,0,17,0,71,1
+2023/2024,Male,all,NABTEB,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,81,64,76,5,4,0,17,0,71,1
+2023/2024,Male,all,NABTEB,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,68,54,58,4,3,0,14,0,54,1
+2023/2024,Male,all,NABTEB,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,65,52,60,4,3,0,13,0,56,1
+2023/2024,Male,all,NABTEB,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,108,87,102,6,5,0,21,0,96,1
+2023/2024,Male,all,NABTEB,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,81,65,78,5,4,0,16,0,73,1
+2023/2024,Male,all,NABTEB,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,147,118,137,7,6,0,29,0,130,1
+2023/2024,Male,all,NABTEB,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,99,80,92,6,5,0,19,0,86,1
+2023/2024,Male,all,NABTEB,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,16,13,15,6,5,0,3,0,9,1
+2023/2024,Male,all,NABTEB,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,50,40,48,19,18,0,10,0,29,1
+2023/2024,Male,all,NABTEB,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,106,85,99,35,34,0,21,0,64,1
+2023/2024,Male,all,NABTEB,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,65,52,63,19,18,0,13,0,44,1
+2023/2024,Male,all,NABTEB,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,135,108,120,37,32,0,27,0,83,5
+2023/2024,Male,all,NECO,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,399,320,369,24,21,0,79,0,345,3
+2023/2024,Male,all,NECO,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,291,233,273,17,16,0,58,0,256,1
+2023/2024,Male,all,NECO,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,138,110,126,8,7,0,28,0,118,1
+2023/2024,Male,all,NECO,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,153,122,139,10,8,0,31,0,129,2
+2023/2024,Male,all,NECO,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,127,101,111,7,6,0,26,0,104,1
+2023/2024,Male,all,NECO,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,137,110,130,8,7,0,27,0,122,1
+2023/2024,Male,all,NECO,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,220,176,202,13,11,0,44,0,189,2
+2023/2024,Male,all,NECO,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,151,121,142,9,8,0,30,0,133,1
+2023/2024,Male,all,NECO,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,270,216,243,15,13,0,54,0,228,2
+2023/2024,Male,all,NECO,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,191,153,176,10,9,0,38,0,166,1
+2023/2024,Male,all,NECO,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,24,19,23,7,5,0,5,0,16,2
+2023/2024,Male,all,NECO,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,88,70,81,26,22,0,18,0,55,4
+2023/2024,Male,all,NECO,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,203,162,183,62,56,0,41,0,121,6
+2023/2024,Male,all,NECO,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,113,90,105,37,32,0,23,0,68,5
+2023/2024,Male,all,NECO,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,241,193,221,73,63,1,48,0,148,10
+2023/2024,Male,all,WAEC,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,527,422,484,35,32,0,105,0,449,3
+2023/2024,Male,all,WAEC,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,384,307,360,27,26,0,77,0,333,1
+2023/2024,Male,all,WAEC,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,213,171,192,14,13,0,42,0,178,1
+2023/2024,Male,all,WAEC,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,210,168,189,14,13,0,42,0,175,1
+2023/2024,Male,all,WAEC,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,159,127,145,10,9,0,32,0,135,1
+2023/2024,Male,all,WAEC,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,170,136,158,10,9,0,34,0,148,1
+2023/2024,Male,all,WAEC,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,261,209,244,16,15,0,52,0,228,1
+2023/2024,Male,all,WAEC,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,216,173,208,15,14,0,43,0,193,1
+2023/2024,Male,all,WAEC,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,359,287,332,22,21,0,72,0,310,1
+2023/2024,Male,all,WAEC,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,247,198,227,14,13,0,49,0,213,1
+2023/2024,Male,all,WAEC,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,33,27,31,11,10,0,6,0,20,1
+2023/2024,Male,all,WAEC,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,112,90,99,39,37,0,22,0,60,2
+2023/2024,Male,all,WAEC,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,270,216,247,89,85,0,54,0,158,4
+2023/2024,Male,all,WAEC,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,173,138,156,61,59,0,35,0,95,2
+2023/2024,Male,all,WAEC,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,343,274,304,104,96,1,69,0,200,8
+2023/2024,Male,disabled,NABTEB,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,20,17,19,1,0,0,3,0,18,1
+2023/2024,Male,disabled,NABTEB,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,13,11,13,1,0,0,2,0,12,1
+2023/2024,Male,disabled,NABTEB,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,7,6,7,0,0,0,1,0,7,0
+2023/2024,Male,disabled,NABTEB,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,7,6,7,1,0,0,1,0,6,1
+2023/2024,Male,disabled,NABTEB,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,7,5,6,1,0,0,2,0,5,1
+2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,5,4,4,0,0,0,1,0,4,0
+2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,8,6,8,0,0,0,2,0,8,0
+2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,7,5,6,1,0,0,2,0,5,1
+2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,13,10,12,1,0,0,3,0,11,1
+2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,9,7,8,1,0,0,2,0,7,1
+2023/2024,Male,disabled,NABTEB,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,2,1,2,1,0,0,1,0,1,1
+2023/2024,Male,disabled,NABTEB,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,4,3,3,3,2,0,1,0,0,1
+2023/2024,Male,disabled,NABTEB,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,10,8,9,4,3,0,2,0,5,1
+2023/2024,Male,disabled,NABTEB,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,6,5,6,1,0,0,1,0,5,1
+2023/2024,Male,disabled,NABTEB,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,10,8,8,3,2,0,2,0,5,1
+2023/2024,Male,disabled,NECO,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,33,26,29,2,1,0,7,0,27,1
+2023/2024,Male,disabled,NECO,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,24,19,22,1,0,0,5,0,21,1
+2023/2024,Male,disabled,NECO,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,10,8,9,1,0,0,2,0,8,1
+2023/2024,Male,disabled,NECO,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,13,10,12,1,0,0,3,0,11,1
+2023/2024,Male,disabled,NECO,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,11,9,9,1,0,0,2,0,8,1
+2023/2024,Male,disabled,NECO,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,10,8,9,0,0,0,2,0,9,0
+2023/2024,Male,disabled,NECO,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,17,14,16,1,0,0,3,0,15,1
+2023/2024,Male,disabled,NECO,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,12,9,11,1,0,0,3,0,10,1
+2023/2024,Male,disabled,NECO,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,24,19,23,1,0,0,5,0,22,1
+2023/2024,Male,disabled,NECO,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,17,14,15,1,0,0,3,0,14,1
+2023/2024,Male,disabled,NECO,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,2,2,2,1,0,0,0,0,1,1
+2023/2024,Male,disabled,NECO,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,6,5,6,1,0,0,1,0,5,1
+2023/2024,Male,disabled,NECO,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,14,11,13,6,5,0,3,0,7,1
+2023/2024,Male,disabled,NECO,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,9,7,8,2,1,0,2,0,6,1
+2023/2024,Male,disabled,NECO,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,17,14,15,5,4,0,3,0,10,1
+2023/2024,Male,disabled,WAEC,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,42,34,39,2,1,0,8,0,37,1
+2023/2024,Male,disabled,WAEC,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,30,24,29,1,0,0,6,0,28,1
+2023/2024,Male,disabled,WAEC,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,15,12,14,1,0,0,3,0,13,1
+2023/2024,Male,disabled,WAEC,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,16,13,15,1,0,0,3,0,14,1
+2023/2024,Male,disabled,WAEC,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,13,10,12,1,0,0,3,0,11,1
+2023/2024,Male,disabled,WAEC,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,12,10,10,0,0,0,2,0,10,0
+2023/2024,Male,disabled,WAEC,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,20,16,19,1,0,0,4,0,18,1
+2023/2024,Male,disabled,WAEC,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,16,13,15,1,0,0,3,0,14,1
+2023/2024,Male,disabled,WAEC,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,33,27,32,2,1,0,6,0,30,1
+2023/2024,Male,disabled,WAEC,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,22,17,21,1,0,0,5,0,20,1
+2023/2024,Male,disabled,WAEC,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,3,2,3,1,0,0,1,0,2,1
+2023/2024,Male,disabled,WAEC,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,8,6,7,2,1,0,2,0,5,1
+2023/2024,Male,disabled,WAEC,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,20,16,18,6,5,0,4,0,12,1
+2023/2024,Male,disabled,WAEC,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,13,10,12,5,4,0,3,0,7,1
+2023/2024,Male,disabled,WAEC,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,23,18,21,5,4,0,5,0,16,1
+2024/2025,Female,all,NABTEB,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,262,210,242,24,23,0,52,0,218,1
+2024/2025,Female,all,NABTEB,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,198,158,183,19,17,0,40,0,164,2
+2024/2025,Female,all,NABTEB,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,105,84,96,10,9,0,21,0,86,1
+2024/2025,Female,all,NABTEB,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,105,84,97,10,8,0,21,0,87,2
+2024/2025,Female,all,NABTEB,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,92,74,83,9,8,0,18,0,74,1
+2024/2025,Female,all,NABTEB,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,79,63,71,4,3,0,16,0,67,1
+2024/2025,Female,all,NABTEB,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,127,102,123,7,6,0,25,0,116,1
+2024/2025,Female,all,NABTEB,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,107,86,102,6,5,0,21,0,96,1
+2024/2025,Female,all,NABTEB,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,173,138,158,8,7,0,35,0,150,1
+2024/2025,Female,all,NABTEB,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,122,97,112,6,5,0,25,0,106,1
+2024/2025,Female,all,NABTEB,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,18,14,16,4,3,0,4,0,12,1
+2024/2025,Female,all,NABTEB,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,62,50,59,12,11,0,12,0,47,1
+2024/2025,Female,all,NABTEB,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,138,111,129,26,22,0,27,0,103,4
+2024/2025,Female,all,NABTEB,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,78,62,74,16,15,0,16,0,58,1
+2024/2025,Female,all,NABTEB,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,160,128,140,30,26,0,32,0,110,4
+2024/2025,Female,all,NECO,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,494,395,448,43,39,0,99,0,405,4
+2024/2025,Female,all,NECO,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,355,284,320,32,29,0,71,0,288,3
+2024/2025,Female,all,NECO,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,179,143,168,18,16,0,36,0,150,2
+2024/2025,Female,all,NECO,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,183,146,170,18,16,0,37,0,152,2
+2024/2025,Female,all,NECO,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,167,134,156,14,12,0,33,0,142,2
+2024/2025,Female,all,NECO,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,177,142,162,7,6,0,35,0,155,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,261,209,247,12,11,0,52,0,235,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,204,163,189,10,9,0,41,0,179,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,311,249,289,15,13,0,62,0,274,2
+2024/2025,Female,all,NECO,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,225,180,207,9,8,0,45,0,198,1
+2024/2025,Female,all,NECO,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,34,27,33,7,6,0,7,0,26,1
+2024/2025,Female,all,NECO,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,122,97,113,20,17,0,25,0,93,3
+2024/2025,Female,all,NECO,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,266,213,246,46,41,0,53,0,200,5
+2024/2025,Female,all,NECO,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,149,119,133,25,21,0,30,0,108,4
+2024/2025,Female,all,NECO,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,294,236,268,52,46,0,58,0,216,6
+2024/2025,Female,all,WAEC,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,660,527,603,64,60,0,133,0,539,4
+2024/2025,Female,all,WAEC,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,493,395,455,47,44,0,98,0,408,3
+2024/2025,Female,all,WAEC,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,252,202,232,25,23,0,50,0,207,2
+2024/2025,Female,all,WAEC,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,243,195,222,25,24,0,48,0,197,1
+2024/2025,Female,all,WAEC,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,232,185,206,22,20,0,47,0,184,2
+2024/2025,Female,all,WAEC,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,207,166,195,10,9,0,41,0,185,1
+2024/2025,Female,all,WAEC,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,334,267,313,17,16,0,67,0,296,1
+2024/2025,Female,all,WAEC,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,272,218,251,15,14,0,54,0,236,1
+2024/2025,Female,all,WAEC,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,424,340,383,20,19,0,84,0,363,1
+2024/2025,Female,all,WAEC,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,305,244,274,15,14,0,61,0,259,1
+2024/2025,Female,all,WAEC,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,52,41,47,10,9,0,11,0,37,1
+2024/2025,Female,all,WAEC,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,183,146,173,35,33,0,37,0,138,2
+2024/2025,Female,all,WAEC,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,354,283,326,66,65,0,71,0,260,1
+2024/2025,Female,all,WAEC,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,193,155,175,36,34,0,38,0,139,2
+2024/2025,Female,all,WAEC,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,384,307,357,72,68,0,77,0,285,4
+2024/2025,Female,disabled,NABTEB,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,25,20,19,4,3,0,5,1,15,1
+2024/2025,Female,disabled,NABTEB,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,17,14,13,3,2,0,3,1,10,1
+2024/2025,Female,disabled,NABTEB,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,10,8,9,2,1,0,2,0,7,1
+2024/2025,Female,disabled,NABTEB,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,9,7,8,1,0,0,2,0,7,1
+2024/2025,Female,disabled,NABTEB,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,9,7,7,1,0,0,2,0,6,1
+2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,6,5,5,0,0,0,1,0,5,0
+2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,10,9,9,1,0,0,1,0,8,1
+2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,9,7,9,1,0,0,2,0,8,1
+2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,18,15,16,1,0,0,3,0,15,1
+2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,11,9,9,1,0,0,2,0,8,1
+2024/2025,Female,disabled,NABTEB,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,2,2,2,1,0,0,0,0,1,1
+2024/2025,Female,disabled,NABTEB,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,5,4,4,2,1,0,1,0,2,1
+2024/2025,Female,disabled,NABTEB,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,13,11,10,3,2,0,2,1,7,1
+2024/2025,Female,disabled,NABTEB,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,8,6,6,3,2,0,2,0,3,1
+2024/2025,Female,disabled,NABTEB,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,13,11,10,4,3,0,2,1,6,1
+2024/2025,Female,disabled,NECO,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,39,31,35,3,2,0,8,0,32,1
+2024/2025,Female,disabled,NECO,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,29,23,27,2,1,0,6,0,25,1
+2024/2025,Female,disabled,NECO,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,13,10,12,1,0,0,3,0,11,1
+2024/2025,Female,disabled,NECO,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,14,11,13,1,0,0,3,0,12,1
+2024/2025,Female,disabled,NECO,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,14,11,14,1,0,0,3,0,13,1
+2024/2025,Female,disabled,NECO,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,13,10,11,0,0,0,3,0,11,0
+2024/2025,Female,disabled,NECO,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,19,15,17,1,0,0,4,0,16,1
+2024/2025,Female,disabled,NECO,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,16,13,16,1,0,0,3,0,15,1
+2024/2025,Female,disabled,NECO,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,28,22,27,1,0,0,6,0,26,1
+2024/2025,Female,disabled,NECO,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,21,16,22,1,0,0,5,0,21,1
+2024/2025,Female,disabled,NECO,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,3,2,3,1,0,0,1,0,2,1
+2024/2025,Female,disabled,NECO,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,8,7,8,1,0,0,1,0,7,1
+2024/2025,Female,disabled,NECO,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,20,16,20,4,3,0,4,0,16,1
+2024/2025,Female,disabled,NECO,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,11,9,10,2,1,0,2,0,8,1
+2024/2025,Female,disabled,NECO,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,18,14,16,4,3,0,4,0,12,1
+2024/2025,Female,disabled,WAEC,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,53,42,49,4,3,0,11,0,45,1
+2024/2025,Female,disabled,WAEC,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,39,31,39,3,2,0,8,0,36,1
+2024/2025,Female,disabled,WAEC,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,18,15,18,1,0,0,3,0,17,1
+2024/2025,Female,disabled,WAEC,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,18,14,16,1,0,0,4,0,15,1
+2024/2025,Female,disabled,WAEC,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,18,14,16,1,0,0,4,0,15,1
+2024/2025,Female,disabled,WAEC,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,15,12,14,0,0,0,3,0,14,0
+2024/2025,Female,disabled,WAEC,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,26,21,27,1,0,0,5,0,26,1
+2024/2025,Female,disabled,WAEC,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,21,16,20,1,0,0,5,0,19,1
+2024/2025,Female,disabled,WAEC,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,40,32,37,2,1,0,8,0,35,1
+2024/2025,Female,disabled,WAEC,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,28,22,26,1,0,0,6,0,25,1
+2024/2025,Female,disabled,WAEC,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,4,4,4,1,0,0,0,0,3,1
+2024/2025,Female,disabled,WAEC,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,11,9,11,2,1,0,2,0,9,1
+2024/2025,Female,disabled,WAEC,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,26,20,25,4,3,0,6,0,21,1
+2024/2025,Female,disabled,WAEC,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,14,11,13,2,1,0,3,0,11,1
+2024/2025,Female,disabled,WAEC,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,25,21,23,4,3,0,4,0,19,1
+2024/2025,Male,all,NABTEB,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,212,169,194,24,21,0,43,0,170,3
+2024/2025,Male,all,NABTEB,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,157,126,144,18,17,0,31,0,126,1
+2024/2025,Male,all,NABTEB,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,81,65,75,9,8,0,16,0,66,1
+2024/2025,Male,all,NABTEB,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,83,66,78,9,7,0,17,0,69,2
+2024/2025,Male,all,NABTEB,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,67,53,58,7,6,0,14,0,51,1
+2024/2025,Male,all,NABTEB,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,64,51,61,4,3,0,13,0,57,1
+2024/2025,Male,all,NABTEB,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,108,86,102,7,6,0,22,0,95,1
+2024/2025,Male,all,NABTEB,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,84,67,78,5,4,0,17,0,73,1
+2024/2025,Male,all,NABTEB,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,148,118,135,9,8,0,30,0,126,1
+2024/2025,Male,all,NABTEB,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,94,75,88,6,5,0,19,0,82,1
+2024/2025,Male,all,NABTEB,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,14,12,13,2,1,0,2,0,11,1
+2024/2025,Male,all,NABTEB,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,49,40,45,11,10,0,9,0,34,1
+2024/2025,Male,all,NABTEB,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,106,85,99,23,20,0,21,0,76,3
+2024/2025,Male,all,NABTEB,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,63,51,61,15,14,0,12,0,46,1
+2024/2025,Male,all,NABTEB,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,131,105,119,26,23,0,26,0,93,3
+2024/2025,Male,all,NECO,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,397,318,364,45,41,0,79,0,319,4
+2024/2025,Male,all,NECO,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,285,228,265,33,29,0,57,0,232,4
+2024/2025,Male,all,NECO,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,136,109,126,16,14,0,27,0,110,2
+2024/2025,Male,all,NECO,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,148,118,135,17,16,0,30,0,118,1
+2024/2025,Male,all,NECO,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,120,96,111,13,11,0,24,0,98,2
+2024/2025,Male,all,NECO,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,129,103,119,7,6,0,26,0,112,1
+2024/2025,Male,all,NECO,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,200,160,192,12,11,0,40,0,180,1
+2024/2025,Male,all,NECO,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,163,130,148,10,9,0,33,0,138,1
+2024/2025,Male,all,NECO,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,251,201,227,13,12,0,50,0,214,1
+2024/2025,Male,all,NECO,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,177,142,163,10,9,0,35,0,153,1
+2024/2025,Male,all,NECO,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,26,21,24,5,4,0,5,0,19,1
+2024/2025,Male,all,NECO,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,89,71,83,20,17,0,18,0,63,3
+2024/2025,Male,all,NECO,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,196,157,173,39,35,0,39,0,134,4
+2024/2025,Male,all,NECO,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,113,90,100,22,18,0,23,0,78,4
+2024/2025,Male,all,NECO,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,233,186,211,48,44,0,47,0,163,4
+2024/2025,Male,all,WAEC,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,533,427,484,66,63,0,106,0,418,3
+2024/2025,Male,all,WAEC,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,394,316,360,49,46,0,78,0,311,3
+2024/2025,Male,all,WAEC,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,203,163,186,24,23,0,40,0,162,1
+2024/2025,Male,all,WAEC,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,190,152,179,26,25,0,38,0,153,1
+2024/2025,Male,all,WAEC,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,167,134,156,20,19,0,33,0,136,1
+2024/2025,Male,all,WAEC,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,170,136,152,10,9,0,34,0,142,1
+2024/2025,Male,all,WAEC,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,276,221,257,18,17,0,55,0,239,1
+2024/2025,Male,all,WAEC,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,207,165,201,15,14,0,42,0,186,1
+2024/2025,Male,all,WAEC,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,360,288,332,22,21,0,72,0,310,1
+2024/2025,Male,all,WAEC,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,239,191,221,15,14,0,48,0,206,1
+2024/2025,Male,all,WAEC,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,38,30,35,10,9,0,8,0,25,1
+2024/2025,Male,all,WAEC,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,132,106,119,32,30,0,26,0,87,2
+2024/2025,Male,all,WAEC,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,266,213,243,63,60,0,53,0,180,3
+2024/2025,Male,all,WAEC,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,149,120,142,39,37,0,29,0,103,2
+2024/2025,Male,all,WAEC,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,333,267,301,70,66,0,66,0,231,4
+2024/2025,Male,disabled,NABTEB,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,21,17,17,3,2,0,4,0,14,1
+2024/2025,Male,disabled,NABTEB,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,14,12,13,2,1,0,2,0,11,1
+2024/2025,Male,disabled,NABTEB,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,7,6,6,1,0,0,1,0,5,1
+2024/2025,Male,disabled,NABTEB,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,8,6,8,1,0,0,2,0,7,1
+2024/2025,Male,disabled,NABTEB,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,6,5,5,1,0,0,1,0,4,1
+2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,4,4,4,0,0,0,0,0,4,0
+2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,8,6,6,1,0,0,2,0,5,1
+2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,8,6,8,0,0,0,2,0,8,0
+2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,14,11,13,1,0,0,3,0,12,1
+2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,9,7,8,1,0,0,2,0,7,1
+2024/2025,Male,disabled,NABTEB,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,2,1,1,0,0,0,1,0,1,0
+2024/2025,Male,disabled,NABTEB,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,4,3,3,2,1,0,1,0,1,1
+2024/2025,Male,disabled,NABTEB,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,10,8,8,2,1,0,2,0,6,1
+2024/2025,Male,disabled,NABTEB,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,6,5,6,2,1,0,1,0,4,1
+2024/2025,Male,disabled,NABTEB,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,10,8,7,2,1,0,2,1,5,1
+2024/2025,Male,disabled,NECO,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,32,25,29,3,2,0,7,0,26,1
+2024/2025,Male,disabled,NECO,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,23,18,22,2,1,0,5,0,20,1
+2024/2025,Male,disabled,NECO,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,9,7,8,1,0,0,2,0,7,1
+2024/2025,Male,disabled,NECO,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,11,9,11,1,0,0,2,0,10,1
+2024/2025,Male,disabled,NECO,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,10,8,9,1,0,0,2,0,8,1
+2024/2025,Male,disabled,NECO,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,9,7,8,0,0,0,2,0,8,0
+2024/2025,Male,disabled,NECO,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,16,13,16,1,0,0,3,0,15,1
+2024/2025,Male,disabled,NECO,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,13,11,13,1,0,0,2,0,12,1
+2024/2025,Male,disabled,NECO,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,23,19,22,1,0,0,4,0,21,1
+2024/2025,Male,disabled,NECO,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,15,12,16,1,0,0,3,0,15,1
+2024/2025,Male,disabled,NECO,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,2,2,2,1,0,0,0,0,1,1
+2024/2025,Male,disabled,NECO,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,6,5,6,1,0,0,1,0,5,1
+2024/2025,Male,disabled,NECO,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,14,12,13,3,2,0,2,0,10,1
+2024/2025,Male,disabled,NECO,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,8,7,7,2,1,0,1,0,5,1
+2024/2025,Male,disabled,NECO,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,15,12,13,3,2,0,3,0,10,1
+2024/2025,Male,disabled,WAEC,College of Education,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,43,34,38,4,3,0,9,0,34,1
+2024/2025,Male,disabled,WAEC,College of Education,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,30,23,27,3,2,0,7,0,24,1
+2024/2025,Male,disabled,WAEC,College of Education,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,14,11,13,1,0,0,3,0,12,1
+2024/2025,Male,disabled,WAEC,College of Education,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,15,12,14,1,0,0,3,0,13,1
+2024/2025,Male,disabled,WAEC,College of Education,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,13,10,13,1,0,0,3,0,12,1
+2024/2025,Male,disabled,WAEC,Polytechnic,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,12,9,10,0,0,0,3,0,10,0
+2024/2025,Male,disabled,WAEC,Polytechnic,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,21,17,20,1,0,0,4,0,19,1
+2024/2025,Male,disabled,WAEC,Polytechnic,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,16,13,16,1,0,0,3,0,15,1
+2024/2025,Male,disabled,WAEC,Polytechnic,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,33,26,31,2,1,0,7,0,29,1
+2024/2025,Male,disabled,WAEC,Polytechnic,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,22,17,21,1,0,0,5,0,20,1
+2024/2025,Male,disabled,WAEC,University,lga,Abuja Municipal Area Council,North Central,Abuja Federal Capital Territory,Abuja Municipal Area Council,,,3,3,3,1,0,0,0,0,2,1
+2024/2025,Male,disabled,WAEC,University,lga,Bwari,North Central,Abuja Federal Capital Territory,Bwari,,,8,6,8,2,1,0,2,0,6,1
+2024/2025,Male,disabled,WAEC,University,lga,Gwagwalada,North Central,Abuja Federal Capital Territory,Gwagwalada,,,20,16,19,4,3,0,4,0,15,1
+2024/2025,Male,disabled,WAEC,University,lga,Kuje,North Central,Abuja Federal Capital Territory,Kuje,,,11,9,10,3,2,0,2,0,7,1
+2024/2025,Male,disabled,WAEC,University,lga,Kwali,North Central,Abuja Federal Capital Territory,Kwali,,,22,18,21,4,3,0,4,0,17,1

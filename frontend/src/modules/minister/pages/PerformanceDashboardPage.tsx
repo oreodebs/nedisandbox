@@ -281,6 +281,7 @@ function buildCommonLayout(height = 320): PlotLayout {
     dragmode: false,
     showlegend: false,
     uirevision: "performance-ui",
+    uniformtext: { mode: "show", minsize: 10 },
   };
 }
 

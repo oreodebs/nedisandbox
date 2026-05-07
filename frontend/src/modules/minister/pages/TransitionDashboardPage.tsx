@@ -338,7 +338,8 @@ function buildCommonLayout(height = 338): Partial<PlotlyLayout> {
     },
     dragmode: false,
     uirevision: "transition-ui",
-  };
+    uniformtext: { mode: "show", minsize: 10 },
+  } as Partial<PlotlyLayout>;
 }
 
 function makeGrouped<T extends BaseRow>(rows: T[], level: LocationLevel): GroupedRow<T>[] {
@@ -450,7 +451,10 @@ function verticalBarTrace(name: string, labels: string[], values: number[], colo
     marker: { color },
     text: barText(values),
     texttemplate: "%{text}",
-    textposition: "outside",
+    textposition: "inside",
+    insidetextanchor: "middle",
+    constraintext: "none",
+    textfont: { color: "#ffffff", size: 11 },
     cliponaxis: false,
     hovertemplate: `${name}<br>%{x}: %{y:,}<extra></extra>`,
   };
@@ -461,7 +465,7 @@ function horizontalBarTrace(
   labels: string[],
   values: number[],
   color: string,
-  textPosition: "inside" | "outside" | "auto" = "inside",
+  _textPosition: "inside" | "outside" | "auto" = "inside",
   textFontSize = 11,
   oLevelValues?: number[],
 ): PlotlyData {
@@ -487,8 +491,8 @@ function horizontalBarTrace(
     marker: { color },
     text: barText(values),
     texttemplate: "%{text}",
-    textposition: textPosition,
-    textfont: { size: textFontSize },
+    textposition: "inside",
+    textfont: { color: "#ffffff", size: textFontSize },
     insidetextanchor: "middle",
     constraintext: "none",
     cliponaxis: false,

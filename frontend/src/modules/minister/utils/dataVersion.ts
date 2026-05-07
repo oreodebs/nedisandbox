@@ -1,4 +1,4 @@
-const DEFAULT_DATA_VERSION = "v20260329";
+const DEFAULT_DATA_VERSION = "v20260507-extracted-dashboard-values";
 const DEFAULT_DATA_FETCH_CACHE_MODE: RequestCache = "force-cache";
 
 const VALID_FETCH_CACHE_MODES: RequestCache[] = [

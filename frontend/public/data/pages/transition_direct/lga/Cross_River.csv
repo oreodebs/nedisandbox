@@ -1,541 +1,541 @@
-"session","gender","disability_scope","exam_body","institution_type","loc_level","loc_label","zone","state","lga","ward","school","ss3_total","o_level_candidates","utme_participants","admitted_students","matriculated_students","delayed_transition_students","loss_ss3_to_olevel","loss_olevel_to_utme","loss_utme_to_admitted","loss_admitted_to_matriculated"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Abi","South South","Cross River","Abi","","","606","597","437","142","126","17","9","160","296","17"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","178","176","124","43","37","6","2","52","81","6"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","674","664","494","165","148","17","10","170","329","17"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","90","89","70","25","22","3","1","19","45","3"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","198","195","143","48","42","6","3","52","95","6"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Abi","South South","Cross River","Abi","","","266","262","190","58","50","8","4","72","131","8"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","301","296","214","77","72","6","5","82","138","6"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","305","301","215","69","58","11","4","86","146","11"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","702","690","516","172","153","19","12","174","344","19"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","476","468","328","98","96","6","8","140","230","6"
-"2022/2023","Female","all","NABTEB","University","lga","Abi","South South","Cross River","Abi","","","245","241","159","43","39","5","4","82","116","5"
-"2022/2023","Female","all","NABTEB","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","572","563","416","131","114","17","9","147","284","17"
-"2022/2023","Female","all","NABTEB","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","97","96","67","21","18","3","1","29","46","3"
-"2022/2023","Female","all","NABTEB","University","lga","Calabar South","South South","Cross River","Calabar South","","","312","307","221","76","70","7","5","86","145","7"
-"2022/2023","Female","all","NABTEB","University","lga","Ogoja","South South","Cross River","Ogoja","","","307","303","211","61","59","4","4","92","150","4"
-"2022/2023","Female","all","NECO","College of Education","lga","Abi","South South","Cross River","Abi","","","1099","1083","786","317","277","40","16","297","468","40"
-"2022/2023","Female","all","NECO","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","324","319","231","90","80","10","5","88","141","10"
-"2022/2023","Female","all","NECO","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","1256","1237","909","362","317","45","19","328","546","45"
-"2022/2023","Female","all","NECO","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","190","187","145","60","53","7","3","42","85","7"
-"2022/2023","Female","all","NECO","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","360","355","258","102","88","14","5","97","157","14"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Abi","South South","Cross River","Abi","","","507","499","364","138","122","17","8","135","225","17"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","551","543","391","167","142","25","8","152","225","25"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","594","585","431","164","144","20","9","154","267","20"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","1312","1291","942","375","335","40","21","349","567","40"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","857","845","617","245","215","30","12","228","371","30"
-"2022/2023","Female","all","NECO","University","lga","Abi","South South","Cross River","Abi","","","414","408","269","94","80","14","6","139","175","14"
-"2022/2023","Female","all","NECO","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","1114","1098","801","313","272","41","16","297","488","41"
-"2022/2023","Female","all","NECO","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","210","207","138","49","42","7","3","69","90","7"
-"2022/2023","Female","all","NECO","University","lga","Calabar South","South South","Cross River","Calabar South","","","579","571","410","160","138","22","8","161","251","22"
-"2022/2023","Female","all","NECO","University","lga","Ogoja","South South","Cross River","Ogoja","","","609","600","418","155","135","20","9","182","264","20"
-"2022/2023","Female","all","WAEC","College of Education","lga","Abi","South South","Cross River","Abi","","","1525","1503","1089","426","371","55","22","414","663","55"
-"2022/2023","Female","all","WAEC","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","417","410","301","127","112","15","7","109","174","15"
-"2022/2023","Female","all","WAEC","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","1643","1618","1185","491","445","46","25","433","695","46"
-"2022/2023","Female","all","WAEC","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","255","251","185","83","71","12","4","66","101","12"
-"2022/2023","Female","all","WAEC","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","448","442","322","135","117","18","6","120","188","18"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Abi","South South","Cross River","Abi","","","681","670","467","182","163","19","11","203","286","19"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","736","725","533","212","186","26","11","192","321","26"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","797","785","578","228","204","24","12","207","350","24"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","1705","1680","1225","501","439","62","25","455","725","62"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","1169","1152","809","308","276","32","17","343","502","32"
-"2022/2023","Female","all","WAEC","University","lga","Abi","South South","Cross River","Abi","","","533","525","364","121","102","19","8","161","243","19"
-"2022/2023","Female","all","WAEC","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","1559","1536","1106","432","378","54","23","430","674","54"
-"2022/2023","Female","all","WAEC","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","253","249","183","66","61","5","4","66","118","5"
-"2022/2023","Female","all","WAEC","University","lga","Calabar South","South South","Cross River","Calabar South","","","748","737","540","217","192","25","11","197","322","25"
-"2022/2023","Female","all","WAEC","University","lga","Ogoja","South South","Cross River","Ogoja","","","796","784","558","199","169","30","12","226","360","30"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Abi","South South","Cross River","Abi","","","79","79","53","28","28","0","0","26","25","0"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","20","20","12","8","8","0","0","8","4","0"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","80","80","50","28","28","0","0","30","22","0"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","10","10","6","4","4","0","0","4","2","0"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","23","23","16","8","8","0","0","7","8","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Abi","South South","Cross River","Abi","","","30","30","18","12","12","0","0","12","6","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","46","46","27","16","16","0","0","19","11","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","41","41","24","15","16","0","0","17","9","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","76","76","49","27","28","0","0","27","22","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","66","66","40","24","24","0","0","26","16","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Abi","South South","Cross River","Abi","","","26","26","14","8","8","0","0","12","7","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","71","71","46","24","24","0","0","25","23","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","10","10","6","4","4","0","0","4","2","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Calabar South","South South","Cross River","Calabar South","","","40","40","24","15","16","0","0","16","9","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Ogoja","South South","Cross River","Ogoja","","","40","40","24","15","16","0","0","16","9","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Abi","South South","Cross River","Abi","","","121","121","85","31","32","0","0","36","53","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","32","32","22","8","8","0","0","10","14","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","140","140","94","32","32","0","0","46","63","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","21","21","16","4","4","0","0","5","12","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","36","36","26","7","7","0","0","10","18","0"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Abi","South South","Cross River","Abi","","","43","43","27","12","12","0","0","16","16","0"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","62","62","40","16","16","0","0","22","25","0"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","56","56","37","15","15","0","0","19","21","0"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","136","136","98","31","31","0","0","38","67","0"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","91","91","62","23","23","0","0","29","38","0"
-"2022/2023","Female","disabled","NECO","University","lga","Abi","South South","Cross River","Abi","","","43","43","27","8","8","0","0","16","20","0"
-"2022/2023","Female","disabled","NECO","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","121","121","85","28","28","0","0","36","57","0"
-"2022/2023","Female","disabled","NECO","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","21","21","13","4","4","0","0","8","10","0"
-"2022/2023","Female","disabled","NECO","University","lga","Calabar South","South South","Cross River","Calabar South","","","59","59","40","16","16","0","0","19","25","0"
-"2022/2023","Female","disabled","NECO","University","lga","Ogoja","South South","Cross River","Ogoja","","","70","70","43","16","16","0","0","27","28","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Abi","South South","Cross River","Abi","","","169","167","116","37","38","0","2","51","79","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","44","44","32","11","11","0","0","12","21","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","180","179","121","43","46","0","1","58","78","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","27","27","18","7","8","0","0","9","11","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","48","48","33","14","16","0","0","15","20","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Abi","South South","Cross River","Abi","","","62","62","41","15","16","0","0","21","26","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","78","78","53","19","19","0","0","25","34","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","79","79","54","16","16","0","0","25","38","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","173","172","114","33","33","0","1","58","81","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","120","119","78","27","28","0","1","41","51","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Abi","South South","Cross River","Abi","","","55","55","36","11","11","0","0","19","25","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","172","170","115","36","36","0","2","55","79","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","30","30","21","7","8","0","0","9","14","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Calabar South","South South","Cross River","Calabar South","","","70","70","45","16","16","0","0","25","29","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Ogoja","South South","Cross River","Ogoja","","","92","92","62","22","24","0","0","30","40","0"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Abi","South South","Cross River","Abi","","","652","641","455","137","122","17","11","186","318","17"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","214","211","153","48","43","5","3","58","105","5"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","731","721","539","163","146","18","10","182","376","18"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","115","113","87","30","27","3","2","26","57","3"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","222","219","159","44","38","6","3","60","115","6"
-"2022/2023","Male","all","NABTEB","Polytechnic","lga","Abi","South South","Cross River","Abi","","","318","313","233","65","57","8","5","80","168","8"
-"2022/2023","Male","all","NABTEB","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","340","335","249","82","74","9","5","86","167","9"
-"2022/2023","Male","all","NABTEB","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","351","346","239","72","66","7","5","107","167","7"
-"2022/2023","Male","all","NABTEB","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","707","696","499","135","120","16","11","197","363","16"
-"2022/2023","Male","all","NABTEB","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","513","505","349","95","86","11","8","156","253","11"
-"2022/2023","Male","all","NABTEB","University","lga","Abi","South South","Cross River","Abi","","","287","283","203","55","50","5","4","80","148","5"
-"2022/2023","Male","all","NABTEB","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","674","664","489","147","131","16","10","175","341","16"
-"2022/2023","Male","all","NABTEB","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","118","116","84","22","19","3","2","32","62","3"
-"2022/2023","Male","all","NABTEB","University","lga","Calabar South","South South","Cross River","Calabar South","","","341","336","248","70","63","8","5","88","178","8"
-"2022/2023","Male","all","NABTEB","University","lga","Ogoja","South South","Cross River","Ogoja","","","348","342","238","61","59","4","6","104","176","4"
-"2022/2023","Male","all","NECO","College of Education","lga","Abi","South South","Cross River","Abi","","","1252","1233","881","306","264","42","19","352","576","42"
-"2022/2023","Male","all","NECO","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","378","373","271","101","88","14","5","102","169","14"
-"2022/2023","Male","all","NECO","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","1426","1405","1024","372","319","53","21","381","652","53"
-"2022/2023","Male","all","NECO","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","260","256","194","73","63","10","4","62","122","10"
-"2022/2023","Male","all","NECO","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","393","387","283","102","92","10","6","104","182","10"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Abi","South South","Cross River","Abi","","","575","567","391","143","121","22","8","176","249","22"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","631","621","461","179","159","20","10","160","282","20"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","688","677","484","176","155","21","11","193","308","21"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","1342","1323","929","347","307","40","19","394","582","40"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","938","923","643","228","201","27","15","280","416","27"
-"2022/2023","Male","all","NECO","University","lga","Abi","South South","Cross River","Abi","","","491","484","323","102","88","14","7","161","221","14"
-"2022/2023","Male","all","NECO","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","1248","1230","870","310","277","33","18","360","560","33"
-"2022/2023","Male","all","NECO","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","223","220","152","49","42","7","3","68","103","7"
-"2022/2023","Male","all","NECO","University","lga","Calabar South","South South","Cross River","Calabar South","","","639","629","456","164","142","22","10","173","292","22"
-"2022/2023","Male","all","NECO","University","lga","Ogoja","South South","Cross River","Ogoja","","","681","672","471","151","130","21","9","201","320","21"
-"2022/2023","Male","all","WAEC","College of Education","lga","Abi","South South","Cross River","Abi","","","1649","1626","1164","430","381","50","23","462","733","50"
-"2022/2023","Male","all","WAEC","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","491","484","352","128","113","15","7","132","224","15"
-"2022/2023","Male","all","WAEC","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","1780","1754","1257","474","419","55","26","497","784","55"
-"2022/2023","Male","all","WAEC","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","336","331","245","87","80","7","5","86","159","7"
-"2022/2023","Male","all","WAEC","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","507","500","366","141","124","17","7","134","225","17"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Abi","South South","Cross River","Abi","","","778","766","537","186","167","19","12","229","352","19"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","825","812","590","225","203","22","13","222","364","22"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","891","878","617","219","193","26","13","261","399","26"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","1733","1707","1227","444","388","56","26","480","783","56"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","1187","1169","812","305","265","40","18","357","508","40"
-"2022/2023","Male","all","WAEC","University","lga","Abi","South South","Cross River","Abi","","","632","623","437","146","129","17","9","186","292","17"
-"2022/2023","Male","all","WAEC","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","1708","1682","1216","426","368","58","26","466","791","58"
-"2022/2023","Male","all","WAEC","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","275","271","191","62","57","5","4","80","130","5"
-"2022/2023","Male","all","WAEC","University","lga","Calabar South","South South","Cross River","Calabar South","","","812","799","562","195","173","22","13","237","367","22"
-"2022/2023","Male","all","WAEC","University","lga","Ogoja","South South","Cross River","Ogoja","","","903","890","617","206","177","29","13","273","411","29"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Abi","South South","Cross River","Abi","","","80","80","50","28","28","0","0","30","22","0"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","23","23","16","8","8","0","0","7","8","0"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","88","88","60","27","28","0","0","28","33","0"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","10","10","6","4","4","0","0","4","2","0"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","26","26","16","8","8","0","0","10","8","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Abi","South South","Cross River","Abi","","","32","32","18","12","12","0","0","14","6","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","48","48","31","16","16","0","0","17","15","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","43","43","24","15","16","0","0","19","9","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","78","78","49","19","20","0","0","29","30","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","69","69","44","24","24","0","0","25","20","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Abi","South South","Cross River","Abi","","","29","29","19","8","8","0","0","10","11","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","77","77","52","23","23","0","0","25","29","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","13","13","10","4","4","0","0","3","6","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Calabar South","South South","Cross River","Calabar South","","","40","40","24","15","16","0","0","16","9","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Ogoja","South South","Cross River","Ogoja","","","43","43","24","15","16","0","0","19","9","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Abi","South South","Cross River","Abi","","","133","133","91","28","28","0","0","42","64","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","36","36","24","8","8","0","0","12","16","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","149","148","101","31","31","0","1","47","70","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","26","26","19","8","8","0","0","7","12","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","42","42","29","8","8","0","0","13","21","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Abi","South South","Cross River","Abi","","","51","51","32","12","12","0","0","19","21","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","71","71","48","20","20","0","0","23","29","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","66","66","41","16","16","0","0","25","25","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","146","145","102","32","32","0","1","43","70","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","95","95","62","24","24","0","0","33","39","0"
-"2022/2023","Male","disabled","NECO","University","lga","Abi","South South","Cross River","Abi","","","51","51","33","8","8","0","0","18","26","0"
-"2022/2023","Male","disabled","NECO","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","143","143","96","32","33","0","0","47","64","0"
-"2022/2023","Male","disabled","NECO","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","24","24","16","4","4","0","0","8","12","0"
-"2022/2023","Male","disabled","NECO","University","lga","Calabar South","South South","Cross River","Calabar South","","","61","61","43","15","15","0","0","18","27","0"
-"2022/2023","Male","disabled","NECO","University","lga","Ogoja","South South","Cross River","Ogoja","","","81","81","52","16","16","0","0","29","37","0"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Abi","South South","Cross River","Abi","","","180","179","120","34","34","0","1","59","86","0"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","51","51","36","11","11","0","0","15","26","0"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","198","197","134","44","42","4","1","63","90","4"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","33","33","23","7","8","0","0","10","16","0"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","57","56","38","11","12","0","1","18","27","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Abi","South South","Cross River","Abi","","","71","71","49","15","16","0","0","22","34","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","92","91","66","19","19","0","1","25","47","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","90","90","63","19","20","0","0","27","44","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","191","190","125","36","37","0","1","65","89","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","122","121","80","27","28","0","1","41","53","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Abi","South South","Cross River","Abi","","","63","63","42","14","14","0","0","21","28","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","193","190","129","36","33","4","3","61","93","4"
-"2022/2023","Male","disabled","WAEC","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","36","35","22","7","8","0","1","13","16","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Calabar South","South South","Cross River","Calabar South","","","79","79","53","16","16","0","0","26","38","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Ogoja","South South","Cross River","Ogoja","","","105","105","67","16","16","0","0","38","51","0"
-"2023/2024","Female","all","NABTEB","College of Education","lga","Abi","South South","Cross River","Abi","","","617","607","449","136","122","15","10","158","313","15"
-"2023/2024","Female","all","NABTEB","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","159","157","120","38","32","6","2","37","82","6"
-"2023/2024","Female","all","NABTEB","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","707","696","545","180","169","12","11","151","365","12"
-"2023/2024","Female","all","NABTEB","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","94","93","69","22","20","2","1","24","46","2"
-"2023/2024","Female","all","NABTEB","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","203","200","154","54","50","4","3","46","100","4"
-"2023/2024","Female","all","NABTEB","Polytechnic","lga","Abi","South South","Cross River","Abi","","","280","276","205","68","61","7","4","71","137","7"
-"2023/2024","Female","all","NABTEB","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","317","312","242","79","77","4","5","70","162","4"
-"2023/2024","Female","all","NABTEB","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","342","337","260","87","78","10","5","77","173","10"
-"2023/2024","Female","all","NABTEB","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","710","699","526","175","160","16","11","173","351","16"
-"2023/2024","Female","all","NABTEB","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","478","470","342","105","92","14","8","128","237","14"
-"2023/2024","Female","all","NABTEB","University","lga","Abi","South South","Cross River","Abi","","","239","235","179","57","53","4","4","56","121","4"
-"2023/2024","Female","all","NABTEB","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","627","618","461","141","127","14","9","157","320","14"
-"2023/2024","Female","all","NABTEB","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","87","86","66","22","21","2","1","20","44","2"
-"2023/2024","Female","all","NABTEB","University","lga","Calabar South","South South","Cross River","Calabar South","","","309","304","226","71","64","8","5","78","155","8"
-"2023/2024","Female","all","NABTEB","University","lga","Ogoja","South South","Cross River","Ogoja","","","332","327","244","79","67","12","5","83","164","12"
-"2023/2024","Female","all","NECO","College of Education","lga","Abi","South South","Cross River","Abi","","","1173","1156","866","348","310","38","17","290","518","38"
-"2023/2024","Female","all","NECO","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","316","312","240","97","88","9","4","72","144","9"
-"2023/2024","Female","all","NECO","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","1268","1249","950","384","332","52","19","299","567","52"
-"2023/2024","Female","all","NECO","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","188","185","150","67","61","6","3","35","84","6"
-"2023/2024","Female","all","NECO","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","336","331","254","96","83","14","5","77","158","14"
-"2023/2024","Female","all","NECO","Polytechnic","lga","Abi","South South","Cross River","Abi","","","564","556","418","161","144","17","8","138","258","17"
-"2023/2024","Female","all","NECO","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","543","535","406","165","145","20","8","129","241","20"
-"2023/2024","Female","all","NECO","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","613","604","452","180","165","15","9","152","272","15"
-"2023/2024","Female","all","NECO","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","1304","1285","976","395","353","42","19","309","581","42"
-"2023/2024","Female","all","NECO","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","844","831","614","244","212","32","13","217","371","32"
-"2023/2024","Female","all","NECO","University","lga","Abi","South South","Cross River","Abi","","","396","390","283","97","83","14","6","107","187","14"
-"2023/2024","Female","all","NECO","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","1164","1147","845","328","289","39","17","302","517","39"
-"2023/2024","Female","all","NECO","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","185","182","138","51","44","7","3","44","88","7"
-"2023/2024","Female","all","NECO","University","lga","Calabar South","South South","Cross River","Calabar South","","","569","560","415","163","143","20","9","145","252","20"
-"2023/2024","Female","all","NECO","University","lga","Ogoja","South South","Cross River","Ogoja","","","570","562","410","152","135","17","8","152","258","17"
-"2023/2024","Female","all","WAEC","College of Education","lga","Abi","South South","Cross River","Abi","","","1577","1554","1160","471","419","52","23","394","690","52"
-"2023/2024","Female","all","WAEC","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","451","444","332","132","117","15","7","112","201","15"
-"2023/2024","Female","all","WAEC","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","1706","1681","1270","524","468","56","25","411","746","56"
-"2023/2024","Female","all","WAEC","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","275","271","204","87","78","9","4","67","118","9"
-"2023/2024","Female","all","WAEC","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","463","456","348","138","121","17","7","108","210","17"
-"2023/2024","Female","all","WAEC","Polytechnic","lga","Abi","South South","Cross River","Abi","","","676","666","504","203","180","23","10","162","302","23"
-"2023/2024","Female","all","WAEC","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","721","710","547","232","206","26","11","163","315","26"
-"2023/2024","Female","all","WAEC","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","828","816","620","247","219","28","12","196","373","28"
-"2023/2024","Female","all","WAEC","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","1728","1702","1279","514","456","58","26","423","765","58"
-"2023/2024","Female","all","WAEC","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","1154","1136","846","315","279","36","18","290","532","36"
-"2023/2024","Female","all","WAEC","University","lga","Abi","South South","Cross River","Abi","","","590","581","415","143","125","18","9","166","272","18"
-"2023/2024","Female","all","WAEC","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","1503","1481","1103","458","397","61","22","378","645","61"
-"2023/2024","Female","all","WAEC","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","293","289","205","71","63","8","4","84","134","8"
-"2023/2024","Female","all","WAEC","University","lga","Calabar South","South South","Cross River","Calabar South","","","806","795","590","234","207","27","11","205","356","27"
-"2023/2024","Female","all","WAEC","University","lga","Ogoja","South South","Cross River","Ogoja","","","802","790","600","221","203","18","12","190","379","18"
-"2023/2024","Female","disabled","NABTEB","College of Education","lga","Abi","South South","Cross River","Abi","","","82","82","59","28","28","0","0","23","31","0"
-"2023/2024","Female","disabled","NABTEB","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","20","20","13","8","8","0","0","7","5","0"
-"2023/2024","Female","disabled","NABTEB","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","81","81","54","28","28","0","0","27","26","0"
-"2023/2024","Female","disabled","NABTEB","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","10","10","6","4","4","0","0","4","2","0"
-"2023/2024","Female","disabled","NABTEB","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","23","23","16","8","8","0","0","7","8","0"
-"2023/2024","Female","disabled","NABTEB","Polytechnic","lga","Abi","South South","Cross River","Abi","","","30","30","20","12","12","0","0","10","8","0"
-"2023/2024","Female","disabled","NABTEB","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","46","46","34","16","16","0","0","12","18","0"
-"2023/2024","Female","disabled","NABTEB","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","40","40","30","16","16","0","0","10","14","0"
-"2023/2024","Female","disabled","NABTEB","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","78","78","49","28","28","0","0","29","21","0"
-"2023/2024","Female","disabled","NABTEB","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","66","66","40","24","24","0","0","26","16","0"
-"2023/2024","Female","disabled","NABTEB","University","lga","Abi","South South","Cross River","Abi","","","23","23","17","8","8","0","0","6","9","0"
-"2023/2024","Female","disabled","NABTEB","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","75","75","52","23","23","0","0","23","29","0"
-"2023/2024","Female","disabled","NABTEB","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","8","8","5","3","3","0","0","3","2","0"
-"2023/2024","Female","disabled","NABTEB","University","lga","Calabar South","South South","Cross River","Calabar South","","","40","40","24","16","16","0","0","16","8","0"
-"2023/2024","Female","disabled","NABTEB","University","lga","Ogoja","South South","Cross River","Ogoja","","","43","43","28","16","16","0","0","15","12","0"
-"2023/2024","Female","disabled","NECO","College of Education","lga","Abi","South South","Cross River","Abi","","","129","129","92","33","33","0","0","37","60","0"
-"2023/2024","Female","disabled","NECO","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","36","36","27","8","8","0","0","9","19","0"
-"2023/2024","Female","disabled","NECO","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","143","143","100","32","32","0","0","43","68","0"
-"2023/2024","Female","disabled","NECO","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","18","18","13","4","4","0","0","5","9","0"
-"2023/2024","Female","disabled","NECO","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","34","34","25","8","8","0","0","9","17","0"
-"2023/2024","Female","disabled","NECO","Polytechnic","lga","Abi","South South","Cross River","Abi","","","46","46","31","12","12","0","0","15","20","0"
-"2023/2024","Female","disabled","NECO","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","58","58","44","16","16","0","0","14","28","0"
-"2023/2024","Female","disabled","NECO","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","58","58","42","16","16","0","0","16","26","0"
-"2023/2024","Female","disabled","NECO","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","141","141","99","33","33","0","0","42","66","0"
-"2023/2024","Female","disabled","NECO","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","91","91","65","24","24","0","0","26","41","0"
-"2023/2024","Female","disabled","NECO","University","lga","Abi","South South","Cross River","Abi","","","39","39","27","7","7","0","0","12","20","0"
-"2023/2024","Female","disabled","NECO","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","131","131","93","34","34","0","0","38","59","0"
-"2023/2024","Female","disabled","NECO","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","24","24","16","4","4","0","0","8","12","0"
-"2023/2024","Female","disabled","NECO","University","lga","Calabar South","South South","Cross River","Calabar South","","","58","58","45","16","16","0","0","13","29","0"
-"2023/2024","Female","disabled","NECO","University","lga","Ogoja","South South","Cross River","Ogoja","","","68","68","45","16","16","0","0","23","30","0"
-"2023/2024","Female","disabled","WAEC","College of Education","lga","Abi","South South","Cross River","Abi","","","177","175","124","37","40","0","2","51","87","0"
-"2023/2024","Female","disabled","WAEC","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","44","44","32","11","12","0","0","12","21","0"
-"2023/2024","Female","disabled","WAEC","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","192","191","134","45","48","0","1","57","89","0"
-"2023/2024","Female","disabled","WAEC","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","26","26","18","6","7","0","0","8","11","0"
-"2023/2024","Female","disabled","WAEC","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","49","49","35","11","12","0","0","14","24","0"
-"2023/2024","Female","disabled","WAEC","Polytechnic","lga","Abi","South South","Cross River","Abi","","","60","60","43","15","15","0","0","17","28","0"
-"2023/2024","Female","disabled","WAEC","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","81","81","64","19","20","0","0","17","45","0"
-"2023/2024","Female","disabled","WAEC","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","81","81","58","16","16","0","0","23","42","0"
-"2023/2024","Female","disabled","WAEC","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","175","174","125","37","35","3","1","49","88","3"
-"2023/2024","Female","disabled","WAEC","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","111","111","79","28","28","0","0","32","51","0"
-"2023/2024","Female","disabled","WAEC","University","lga","Abi","South South","Cross River","Abi","","","58","58","38","11","12","0","0","20","27","0"
-"2023/2024","Female","disabled","WAEC","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","171","170","120","38","40","0","1","50","82","0"
-"2023/2024","Female","disabled","WAEC","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","33","33","25","8","8","0","0","8","17","0"
-"2023/2024","Female","disabled","WAEC","University","lga","Calabar South","South South","Cross River","Calabar South","","","83","83","59","22","24","0","0","24","38","0"
-"2023/2024","Female","disabled","WAEC","University","lga","Ogoja","South South","Cross River","Ogoja","","","94","94","66","20","20","0","0","28","46","0"
-"2023/2024","Male","all","NABTEB","College of Education","lga","Abi","South South","Cross River","Abi","","","663","652","487","147","131","17","11","165","339","17"
-"2023/2024","Male","all","NABTEB","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","191","188","134","45","40","5","3","54","89","5"
-"2023/2024","Male","all","NABTEB","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","768","756","568","176","160","16","12","188","393","16"
-"2023/2024","Male","all","NABTEB","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","127","125","103","35","33","2","2","22","68","2"
-"2023/2024","Male","all","NABTEB","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","210","207","157","50","45","5","3","50","108","5"
-"2023/2024","Male","all","NABTEB","Polytechnic","lga","Abi","South South","Cross River","Abi","","","309","305","231","69","61","8","4","74","163","8"
-"2023/2024","Male","all","NABTEB","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","354","349","270","91","86","7","5","79","179","7"
-"2023/2024","Male","all","NABTEB","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","374","368","287","92","83","9","6","81","195","9"
-"2023/2024","Male","all","NABTEB","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","728","718","547","172","156","16","10","171","375","16"
-"2023/2024","Male","all","NABTEB","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","502","494","368","103","96","8","8","126","265","8"
-"2023/2024","Male","all","NABTEB","University","lga","Abi","South South","Cross River","Abi","","","290","286","206","54","50","4","4","80","152","4"
-"2023/2024","Male","all","NABTEB","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","669","659","497","145","132","13","10","162","352","13"
-"2023/2024","Male","all","NABTEB","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","109","107","83","23","21","2","2","24","60","2"
-"2023/2024","Male","all","NABTEB","University","lga","Calabar South","South South","Cross River","Calabar South","","","346","341","253","75","69","7","5","88","177","7"
-"2023/2024","Male","all","NABTEB","University","lga","Ogoja","South South","Cross River","Ogoja","","","379","373","268","80","77","5","6","105","188","5"
-"2023/2024","Male","all","NECO","College of Education","lga","Abi","South South","Cross River","Abi","","","1297","1280","957","342","300","42","17","323","615","42"
-"2023/2024","Male","all","NECO","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","381","375","278","109","95","14","6","97","168","14"
-"2023/2024","Male","all","NECO","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","1398","1377","1051","422","370","52","21","326","630","52"
-"2023/2024","Male","all","NECO","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","227","224","166","63","57","6","3","58","103","6"
-"2023/2024","Male","all","NECO","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","390","384","287","114","100","14","6","97","174","14"
-"2023/2024","Male","all","NECO","Polytechnic","lga","Abi","South South","Cross River","Abi","","","601","593","436","150","134","16","8","157","286","16"
-"2023/2024","Male","all","NECO","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","600","591","459","184","165","19","9","132","275","19"
-"2023/2024","Male","all","NECO","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","706","695","527","192","169","23","11","168","335","23"
-"2023/2024","Male","all","NECO","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","1397","1376","1029","374","325","49","21","347","655","49"
-"2023/2024","Male","all","NECO","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","971","956","713","258","228","30","15","243","456","30"
-"2023/2024","Male","all","NECO","University","lga","Abi","South South","Cross River","Abi","","","495","488","350","117","100","17","7","138","233","17"
-"2023/2024","Male","all","NECO","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","1287","1269","932","346","301","45","18","337","586","45"
-"2023/2024","Male","all","NECO","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","247","243","179","63","57","6","4","64","117","6"
-"2023/2024","Male","all","NECO","University","lga","Calabar South","South South","Cross River","Calabar South","","","591","583","435","161","140","22","8","148","273","22"
-"2023/2024","Male","all","NECO","University","lga","Ogoja","South South","Cross River","Ogoja","","","678","669","494","165","145","20","9","175","329","20"
-"2023/2024","Male","all","WAEC","College of Education","lga","Abi","South South","Cross River","Abi","","","1736","1711","1284","483","430","53","25","427","801","53"
-"2023/2024","Male","all","WAEC","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","535","527","398","140","125","15","8","129","259","15"
-"2023/2024","Male","all","WAEC","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","1858","1830","1400","545","484","61","28","430","855","61"
-"2023/2024","Male","all","WAEC","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","324","319","248","105","94","11","5","71","144","11"
-"2023/2024","Male","all","WAEC","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","525","518","398","154","136","18","7","120","245","18"
-"2023/2024","Male","all","WAEC","Polytechnic","lga","Abi","South South","Cross River","Abi","","","770","759","570","209","187","22","11","189","361","22"
-"2023/2024","Male","all","WAEC","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","818","806","616","229","198","31","12","190","387","31"
-"2023/2024","Male","all","WAEC","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","937","922","669","237","211","26","15","253","433","26"
-"2023/2024","Male","all","WAEC","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","1781","1755","1336","499","447","52","26","419","838","52"
-"2023/2024","Male","all","WAEC","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","1250","1232","904","337","296","42","18","328","566","42"
-"2023/2024","Male","all","WAEC","University","lga","Abi","South South","Cross River","Abi","","","693","683","477","165","149","16","10","206","313","16"
-"2023/2024","Male","all","WAEC","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","1663","1639","1197","436","387","49","24","442","762","49"
-"2023/2024","Male","all","WAEC","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","330","325","229","79","70","9","5","96","150","9"
-"2023/2024","Male","all","WAEC","University","lga","Calabar South","South South","Cross River","Calabar South","","","882","869","656","237","207","30","13","213","419","30"
-"2023/2024","Male","all","WAEC","University","lga","Ogoja","South South","Cross River","Ogoja","","","931","918","678","236","207","29","13","240","442","29"
-"2023/2024","Male","disabled","NABTEB","College of Education","lga","Abi","South South","Cross River","Abi","","","79","79","57","28","28","0","0","22","29","0"
-"2023/2024","Male","disabled","NABTEB","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","20","20","12","8","8","0","0","8","4","0"
-"2023/2024","Male","disabled","NABTEB","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","84","84","59","28","28","0","0","25","31","0"
-"2023/2024","Male","disabled","NABTEB","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","13","13","10","4","4","0","0","3","6","0"
-"2023/2024","Male","disabled","NABTEB","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","23","23","16","8","8","0","0","7","8","0"
-"2023/2024","Male","disabled","NABTEB","Polytechnic","lga","Abi","South South","Cross River","Abi","","","33","33","23","12","12","0","0","10","11","0"
-"2023/2024","Male","disabled","NABTEB","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","48","48","33","16","16","0","0","15","17","0"
-"2023/2024","Male","disabled","NABTEB","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","42","42","27","16","16","0","0","15","12","0"
-"2023/2024","Male","disabled","NABTEB","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","78","78","49","28","28","0","0","29","21","0"
-"2023/2024","Male","disabled","NABTEB","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","69","69","44","24","24","0","0","25","20","0"
-"2023/2024","Male","disabled","NABTEB","University","lga","Abi","South South","Cross River","Abi","","","29","29","17","8","8","0","0","12","9","0"
-"2023/2024","Male","disabled","NABTEB","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","85","85","57","24","24","0","0","28","33","0"
-"2023/2024","Male","disabled","NABTEB","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","11","11","8","3","3","0","0","3","5","0"
-"2023/2024","Male","disabled","NABTEB","University","lga","Calabar South","South South","Cross River","Calabar South","","","43","43","28","16","16","0","0","15","12","0"
-"2023/2024","Male","disabled","NABTEB","University","lga","Ogoja","South South","Cross River","Ogoja","","","46","46","28","16","16","0","0","18","12","0"
-"2023/2024","Male","disabled","NECO","College of Education","lga","Abi","South South","Cross River","Abi","","","136","136","94","28","28","0","0","42","66","0"
-"2023/2024","Male","disabled","NECO","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","38","38","27","8","8","0","0","11","19","0"
-"2023/2024","Male","disabled","NECO","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","159","158","107","38","38","0","1","51","69","0"
-"2023/2024","Male","disabled","NECO","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","21","21","16","4","4","0","0","5","12","0"
-"2023/2024","Male","disabled","NECO","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","39","39","27","7","7","0","0","12","20","0"
-"2023/2024","Male","disabled","NECO","Polytechnic","lga","Abi","South South","Cross River","Abi","","","55","55","38","11","11","0","0","17","27","0"
-"2023/2024","Male","disabled","NECO","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","69","69","53","21","21","0","0","16","32","0"
-"2023/2024","Male","disabled","NECO","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","68","68","51","16","16","0","0","17","36","0"
-"2023/2024","Male","disabled","NECO","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","146","146","104","32","33","0","0","42","72","0"
-"2023/2024","Male","disabled","NECO","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","94","94","67","24","24","0","0","27","43","0"
-"2023/2024","Male","disabled","NECO","University","lga","Abi","South South","Cross River","Abi","","","48","48","30","8","8","0","0","18","22","0"
-"2023/2024","Male","disabled","NECO","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","153","152","108","29","29","0","1","44","79","0"
-"2023/2024","Male","disabled","NECO","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","27","27","19","4","4","0","0","8","15","0"
-"2023/2024","Male","disabled","NECO","University","lga","Calabar South","South South","Cross River","Calabar South","","","66","66","49","16","16","0","0","17","33","0"
-"2023/2024","Male","disabled","NECO","University","lga","Ogoja","South South","Cross River","Ogoja","","","73","73","48","15","15","0","0","25","33","0"
-"2023/2024","Male","disabled","WAEC","College of Education","lga","Abi","South South","Cross River","Abi","","","190","189","132","37","40","0","1","57","95","0"
-"2023/2024","Male","disabled","WAEC","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","52","52","37","11","12","0","0","15","26","0"
-"2023/2024","Male","disabled","WAEC","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","210","208","152","46","44","3","2","56","106","3"
-"2023/2024","Male","disabled","WAEC","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","32","32","24","7","8","0","0","8","17","0"
-"2023/2024","Male","disabled","WAEC","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","61","60","43","16","16","0","1","17","28","0"
-"2023/2024","Male","disabled","WAEC","Polytechnic","lga","Abi","South South","Cross River","Abi","","","73","73","52","15","16","0","0","21","37","0"
-"2023/2024","Male","disabled","WAEC","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","90","89","66","23","20","3","1","23","43","3"
-"2023/2024","Male","disabled","WAEC","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","96","96","66","16","16","0","0","30","50","0"
-"2023/2024","Male","disabled","WAEC","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","196","195","140","41","40","3","1","55","99","3"
-"2023/2024","Male","disabled","WAEC","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","122","122","82","30","32","0","0","40","52","0"
-"2023/2024","Male","disabled","WAEC","University","lga","Abi","South South","Cross River","Abi","","","70","69","48","14","16","0","1","21","34","0"
-"2023/2024","Male","disabled","WAEC","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","188","186","135","32","35","0","2","51","102","0"
-"2023/2024","Male","disabled","WAEC","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","39","38","26","8","8","0","1","12","19","0"
-"2023/2024","Male","disabled","WAEC","University","lga","Calabar South","South South","Cross River","Calabar South","","","84","84","63","19","20","0","0","21","44","0"
-"2023/2024","Male","disabled","WAEC","University","lga","Ogoja","South South","Cross River","Ogoja","","","115","114","76","22","24","0","1","38","54","0"
-"2024/2025","Female","all","NABTEB","College of Education","lga","Abi","South South","Cross River","Abi","","","13322","11855","10522","3456","2104","367","1467","1332","7066","1352"
-"2024/2025","Female","all","NABTEB","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","3900","3495","3128","1004","618","116","405","367","2124","386"
-"2024/2025","Female","all","NABTEB","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","15021","13322","11758","3977","2471","348","1699","1564","7781","1506"
-"2024/2025","Female","all","NABTEB","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","2355","2085","1873","599","386","39","270","212","1274","212"
-"2024/2025","Female","all","NABTEB","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","4132","3688","3282","1004","618","116","444","405","2278","386"
-"2024/2025","Female","all","NABTEB","Polytechnic","lga","Abi","South South","Cross River","Abi","","","6256","5560","5001","1525","927","154","695","560","3475","599"
-"2024/2025","Female","all","NABTEB","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","6680","5927","5213","1757","1158","97","753","714","3456","599"
-"2024/2025","Female","all","NABTEB","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","7182","6410","5348","1853","1120","212","772","1062","3495","734"
-"2024/2025","Female","all","NABTEB","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","15620","13901","12048","3881","2433","348","1718","1853","8167","1448"
-"2024/2025","Female","all","NABTEB","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","11063","9808","8515","2336","1545","154","1255","1294","6178","792"
-"2024/2025","Female","all","NABTEB","University","lga","Abi","South South","Cross River","Abi","","","5116","4557","3591","1004","618","116","560","965","2587","386"
-"2024/2025","Female","all","NABTEB","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","12530","11140","9885","3147","1931","290","1390","1255","6738","1216"
-"2024/2025","Female","all","NABTEB","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","2529","2240","2085","599","386","39","290","154","1487","212"
-"2024/2025","Female","all","NABTEB","University","lga","Calabar South","South South","Cross River","Calabar South","","","6758","6005","5232","1680","1043","154","753","772","3553","637"
-"2024/2025","Female","all","NABTEB","University","lga","Ogoja","South South","Cross River","Ogoja","","","7182","6391","5580","1583","965","174","792","811","3997","618"
-"2024/2025","Female","all","NECO","College of Education","lga","Abi","South South","Cross River","Abi","","","24829","22068","19134","7511","4460","985","2761","2935","11623","3051"
-"2024/2025","Female","all","NECO","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","6970","6178","5445","1989","1236","193","792","734","3456","753"
-"2024/2025","Female","all","NECO","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","27764","24713","21682","8746","5310","1043","3051","3031","12936","3437"
-"2024/2025","Female","all","NECO","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","3900","3456","3051","1178","714","135","444","405","1873","463"
-"2024/2025","Female","all","NECO","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","7511","6700","5947","2626","1622","251","811","753","3321","1004"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Abi","South South","Cross River","Abi","","","11584","10310","8978","3340","2085","309","1274","1332","5638","1255"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","12260","10889","9422","4248","2645","386","1371","1467","5174","1603"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","13361","11874","10271","4055","2510","367","1487","1603","6217","1545"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","27996","24868","21798","8901","5348","1043","3128","3070","12897","3553"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","20118","17879","15929","6159","3746","695","2240","1950","9769","2413"
-"2024/2025","Female","all","NECO","University","lga","Abi","South South","Cross River","Abi","","","9518","8476","6970","2452","1487","270","1043","1506","4518","965"
-"2024/2025","Female","all","NECO","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","25293","22474","19655","7124","4421","714","2819","2819","12530","2703"
-"2024/2025","Female","all","NECO","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","4074","3630","3051","985","599","135","444","579","2066","386"
-"2024/2025","Female","all","NECO","University","lga","Calabar South","South South","Cross River","Calabar South","","","12666","11275","9963","3707","2259","405","1390","1313","6256","1448"
-"2024/2025","Female","all","NECO","University","lga","Ogoja","South South","Cross River","Ogoja","","","13554","12067","10407","3997","2355","483","1487","1660","6410","1641"
-"2024/2025","Female","all","WAEC","College of Education","lga","Abi","South South","Cross River","Abi","","","34213","30428","26779","10522","6564","1043","3784","3649","16257","3958"
-"2024/2025","Female","all","WAEC","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","8572","7626","6584","2684","1680","212","946","1043","3900","1004"
-"2024/2025","Female","all","WAEC","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","37437","33324","29193","11874","7298","1255","4112","4132","17319","4576"
-"2024/2025","Female","all","WAEC","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","5734","5097","4730","2085","1332","154","637","367","2645","753"
-"2024/2025","Female","all","WAEC","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","9731","8650","7665","3224","2066","232","1081","985","4441","1158"
-"2024/2025","Female","all","WAEC","Polytechnic","lga","Abi","South South","Cross River","Abi","","","15118","13476","11604","4325","2645","483","1641","1873","7279","1680"
-"2024/2025","Female","all","WAEC","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","16662","14828","13071","5310","3263","579","1834","1757","7762","2047"
-"2024/2025","Female","all","WAEC","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","17628","15697","13457","5155","3166","483","1931","2240","8302","1989"
-"2024/2025","Female","all","WAEC","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","36761","32726","28980","11584","7105","1352","4035","3746","17396","4479"
-"2024/2025","Female","all","WAEC","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","26084","23227","19983","7646","4653","830","2857","3244","12337","2993"
-"2024/2025","Female","all","WAEC","University","lga","Abi","South South","Cross River","Abi","","","12415","11044","8843","3070","1911","251","1371","2201","5773","1158"
-"2024/2025","Female","all","WAEC","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","36336","32340","27899","10716","6564","1178","3997","4441","17183","4151"
-"2024/2025","Female","all","WAEC","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","5541","4923","4306","1660","1023","154","618","618","2645","637"
-"2024/2025","Female","all","WAEC","University","lga","Calabar South","South South","Cross River","Calabar South","","","16373","14558","12492","4885","3012","483","1815","2066","7607","1873"
-"2024/2025","Female","all","WAEC","University","lga","Ogoja","South South","Cross River","Ogoja","","","17589","15639","13380","4981","2973","618","1950","2259","8399","2008"
-"2024/2025","Female","disabled","NABTEB","College of Education","lga","Abi","South South","Cross River","Abi","","","1699","1564","1178","541","405","0","135","386","637","135"
-"2024/2025","Female","disabled","NABTEB","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","444","405","251","154","116","0","39","154","116","39"
-"2024/2025","Female","disabled","NABTEB","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","1757","1603","1101","541","405","0","154","502","560","135"
-"2024/2025","Female","disabled","NABTEB","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","212","193","116","77","58","0","19","77","58","19"
-"2024/2025","Female","disabled","NABTEB","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","502","463","348","154","116","0","39","116","193","39"
-"2024/2025","Female","disabled","NABTEB","Polytechnic","lga","Abi","South South","Cross River","Abi","","","676","618","386","232","174","0","58","232","174","58"
-"2024/2025","Female","disabled","NABTEB","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","965","888","618","309","232","0","77","270","309","77"
-"2024/2025","Female","disabled","NABTEB","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","907","830","599","309","232","0","77","232","309","77"
-"2024/2025","Female","disabled","NABTEB","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","1776","1622","1081","541","405","0","154","541","560","135"
-"2024/2025","Female","disabled","NABTEB","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","1487","1352","888","463","348","0","135","463","425","116"
-"2024/2025","Female","disabled","NABTEB","University","lga","Abi","South South","Cross River","Abi","","","560","502","348","154","116","0","58","154","193","39"
-"2024/2025","Female","disabled","NABTEB","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","1525","1390","1043","463","348","0","135","348","579","116"
-"2024/2025","Female","disabled","NABTEB","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","270","251","212","77","58","0","19","39","135","19"
-"2024/2025","Female","disabled","NABTEB","University","lga","Calabar South","South South","Cross River","Calabar South","","","907","830","521","309","232","0","77","309","232","77"
-"2024/2025","Female","disabled","NABTEB","University","lga","Ogoja","South South","Cross River","Ogoja","","","907","830","521","309","232","0","77","309","232","77"
-"2024/2025","Female","disabled","NECO","College of Education","lga","Abi","South South","Cross River","Abi","","","2549","2298","1911","541","405","0","251","386","1371","135"
-"2024/2025","Female","disabled","NECO","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","695","618","502","154","116","0","77","116","348","39"
-"2024/2025","Female","disabled","NECO","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","3012","2684","2143","772","521","0","328","541","1371","251"
-"2024/2025","Female","disabled","NECO","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","386","348","290","77","58","0","39","58","212","19"
-"2024/2025","Female","disabled","NECO","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","695","618","560","154","116","0","77","58","405","39"
-"2024/2025","Female","disabled","NECO","Polytechnic","lga","Abi","South South","Cross River","Abi","","","985","869","695","232","174","0","116","174","463","58"
-"2024/2025","Female","disabled","NECO","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","1448","1294","1081","425","290","0","154","212","656","135"
-"2024/2025","Female","disabled","NECO","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","1274","1139","811","309","232","0","135","328","502","77"
-"2024/2025","Female","disabled","NECO","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","2954","2664","2104","656","463","0","290","560","1448","193"
-"2024/2025","Female","disabled","NECO","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","2027","1834","1525","579","405","0","193","309","946","174"
-"2024/2025","Female","disabled","NECO","University","lga","Abi","South South","Cross River","Abi","","","965","888","734","154","116","0","77","154","579","39"
-"2024/2025","Female","disabled","NECO","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","2742","2491","1989","676","444","0","251","502","1294","232"
-"2024/2025","Female","disabled","NECO","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","463","425","309","77","58","0","39","116","232","19"
-"2024/2025","Female","disabled","NECO","University","lga","Calabar South","South South","Cross River","Calabar South","","","1216","1101","946","309","232","0","116","154","637","77"
-"2024/2025","Female","disabled","NECO","University","lga","Ogoja","South South","Cross River","Ogoja","","","1448","1294","1004","309","232","0","154","290","695","77"
-"2024/2025","Female","disabled","WAEC","College of Education","lga","Abi","South South","Cross River","Abi","","","3610","3224","2684","772","521","0","386","541","1911","251"
-"2024/2025","Female","disabled","WAEC","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","907","811","656","232","154","0","97","154","425","77"
-"2024/2025","Female","disabled","WAEC","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","4344","3823","3186","1004","599","58","521","637","2182","405"
-"2024/2025","Female","disabled","WAEC","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","579","521","444","135","97","0","58","77","309","58"
-"2024/2025","Female","disabled","WAEC","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","1139","1023","850","309","193","0","116","174","541","116"
-"2024/2025","Female","disabled","WAEC","Polytechnic","lga","Abi","South South","Cross River","Abi","","","1352","1216","985","309","212","0","135","232","676","97"
-"2024/2025","Female","disabled","WAEC","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","1757","1564","1352","386","270","0","193","212","965","116"
-"2024/2025","Female","disabled","WAEC","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","1660","1487","1178","309","232","0","174","309","869","77"
-"2024/2025","Female","disabled","WAEC","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","4170","3726","2973","850","521","58","444","753","2124","328"
-"2024/2025","Female","disabled","WAEC","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","2529","2259","1873","618","425","0","270","386","1255","193"
-"2024/2025","Female","disabled","WAEC","University","lga","Abi","South South","Cross River","Abi","","","1274","1120","850","232","154","0","154","270","618","77"
-"2024/2025","Female","disabled","WAEC","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","3958","3495","2896","772","502","0","463","599","2124","270"
-"2024/2025","Female","disabled","WAEC","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","579","541","425","154","97","0","39","116","270","58"
-"2024/2025","Female","disabled","WAEC","University","lga","Calabar South","South South","Cross River","Calabar South","","","1603","1409","1294","386","270","0","193","116","907","116"
-"2024/2025","Female","disabled","WAEC","University","lga","Ogoja","South South","Cross River","Ogoja","","","2104","1892","1525","463","309","0","212","367","1062","154"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Abi","South South","Cross River","Abi","","","14114","12550","11198","3379","2085","309","1564","1352","7819","1294"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","4537","4055","3572","1101","695","97","483","483","2471","405"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","15716","13998","12337","3707","2355","270","1718","1660","8630","1352"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","2703","2394","2240","772","483","39","309","154","1467","290"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","4537","4035","3668","1023","618","97","502","367","2645","405"
-"2024/2025","Male","all","NABTEB","Polytechnic","lga","Abi","South South","Cross River","Abi","","","7240","6449","5811","1699","1023","154","792","637","4112","676"
-"2024/2025","Male","all","NABTEB","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","7453","6622","5869","1834","1178","154","830","753","4035","656"
-"2024/2025","Male","all","NABTEB","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","7935","7047","6217","1853","1081","232","888","830","4363","772"
-"2024/2025","Male","all","NABTEB","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","16566","14731","12955","3804","2336","367","1834","1776","9152","1467"
-"2024/2025","Male","all","NABTEB","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","11565","10310","9132","2684","1738","193","1255","1178","6449","946"
-"2024/2025","Male","all","NABTEB","University","lga","Abi","South South","Cross River","Abi","","","6198","5522","4750","1274","830","77","676","772","3475","444"
-"2024/2025","Male","all","NABTEB","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","14500","12897","11391","3302","2047","290","1603","1506","8090","1255"
-"2024/2025","Male","all","NABTEB","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","2819","2510","2085","599","386","39","309","425","1487","212"
-"2024/2025","Male","all","NABTEB","University","lga","Calabar South","South South","Cross River","Calabar South","","","7182","6371","5503","1583","1004","116","811","869","3919","579"
-"2024/2025","Male","all","NABTEB","University","lga","Ogoja","South South","Cross River","Ogoja","","","8437","7491","6410","1757","1081","174","946","1081","4653","676"
-"2024/2025","Male","all","NECO","College of Education","lga","Abi","South South","Cross River","Abi","","","26760","23825","20215","7221","4363","811","2935","3610","12994","2857"
-"2024/2025","Male","all","NECO","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","8051","7144","6217","2433","1467","270","907","927","3784","965"
-"2024/2025","Male","all","NECO","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","30216","26876","23980","8843","5367","1139","3340","2896","15137","3475"
-"2024/2025","Male","all","NECO","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","4962","4421","4132","1641","1023","135","541","290","2491","618"
-"2024/2025","Male","all","NECO","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","7916","7066","6140","2259","1352","270","850","927","3881","907"
-"2024/2025","Male","all","NECO","Polytechnic","lga","Abi","South South","Cross River","Abi","","","13168","11681","10078","3495","2104","483","1487","1603","6584","1390"
-"2024/2025","Male","all","NECO","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","13496","12009","10580","4074","2433","502","1487","1429","6507","1641"
-"2024/2025","Male","all","NECO","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","15523","13785","12395","4402","2664","541","1738","1390","7993","1738"
-"2024/2025","Male","all","NECO","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","29057","25852","22493","8244","5097","792","3205","3359","14249","3147"
-"2024/2025","Male","all","NECO","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","21180","18844","16160","5599","3437","521","2336","2684","10561","2162"
-"2024/2025","Male","all","NECO","University","lga","Abi","South South","Cross River","Abi","","","10967","9769","8070","2433","1467","270","1197","1699","5638","965"
-"2024/2025","Male","all","NECO","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","27667","24617","21219","7935","4788","985","3051","3398","13283","3147"
-"2024/2025","Male","all","NECO","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","4267","3804","3302","1178","714","135","463","502","2124","463"
-"2024/2025","Male","all","NECO","University","lga","Calabar South","South South","Cross River","Calabar South","","","12994","11584","10040","3514","2182","328","1409","1545","6526","1332"
-"2024/2025","Male","all","NECO","University","lga","Ogoja","South South","Cross River","Ogoja","","","14809","13168","11237","3726","2240","425","1641","1931","7511","1487"
-"2024/2025","Male","all","WAEC","College of Education","lga","Abi","South South","Cross River","Abi","","","37282","33189","29193","10716","6603","1081","4093","3997","18477","4112"
-"2024/2025","Male","all","WAEC","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","10098","8978","7858","2915","1796","270","1120","1120","4943","1120"
-"2024/2025","Male","all","WAEC","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","41511","36954","32726","12395","7839","1062","4557","4228","20331","4557"
-"2024/2025","Male","all","WAEC","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","6410","5715","5174","2008","1274","154","695","541","3166","734"
-"2024/2025","Male","all","WAEC","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","11140","9924","8727","3302","2066","309","1216","1197","5425","1236"
-"2024/2025","Male","all","WAEC","Polytechnic","lga","Abi","South South","Cross River","Abi","","","17647","15678","13341","4923","2993","541","1969","2336","8418","1931"
-"2024/2025","Male","all","WAEC","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","19442","17299","15581","5792","3591","541","2143","1718","9789","2201"
-"2024/2025","Male","all","WAEC","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","20195","17994","15446","5483","3398","483","2201","2549","9963","2085"
-"2024/2025","Male","all","WAEC","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","38518","34270","30525","11140","6854","1216","4248","3746","19385","4286"
-"2024/2025","Male","all","WAEC","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","28034","24945","21315","7298","4479","830","3089","3630","14017","2819"
-"2024/2025","Male","all","WAEC","University","lga","Abi","South South","Cross River","Abi","","","14365","12801","10793","3572","2240","309","1564","2008","7221","1332"
-"2024/2025","Male","all","WAEC","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","39252","34908","29926","10716","6449","1313","4344","4981","19211","4267"
-"2024/2025","Male","all","WAEC","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","6294","5599","4865","1564","985","154","695","734","3302","579"
-"2024/2025","Male","all","WAEC","University","lga","Calabar South","South South","Cross River","Calabar South","","","18014","16006","13766","4904","2973","521","2008","2240","8862","1931"
-"2024/2025","Male","all","WAEC","University","lga","Ogoja","South South","Cross River","Ogoja","","","21392","19056","16508","5734","3591","483","2336","2549","10773","2143"
-"2024/2025","Male","disabled","NABTEB","College of Education","lga","Abi","South South","Cross River","Abi","","","1796","1641","1178","541","405","0","154","463","637","135"
-"2024/2025","Male","disabled","NABTEB","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","444","405","251","154","116","0","39","154","116","39"
-"2024/2025","Male","disabled","NABTEB","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","1873","1718","1178","541","405","0","154","541","637","135"
-"2024/2025","Male","disabled","NABTEB","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","251","232","193","77","58","0","19","39","116","19"
-"2024/2025","Male","disabled","NABTEB","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","560","502","348","154","116","0","58","154","193","39"
-"2024/2025","Male","disabled","NABTEB","Polytechnic","lga","Abi","South South","Cross River","Abi","","","734","676","483","232","174","0","58","193","251","58"
-"2024/2025","Male","disabled","NABTEB","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","1023","927","618","309","232","0","97","309","309","77"
-"2024/2025","Male","disabled","NABTEB","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","965","888","618","309","232","0","77","270","309","77"
-"2024/2025","Male","disabled","NABTEB","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","1776","1622","1158","541","405","0","154","463","637","135"
-"2024/2025","Male","disabled","NABTEB","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","1545","1409","946","463","348","0","135","463","502","116"
-"2024/2025","Male","disabled","NABTEB","University","lga","Abi","South South","Cross River","Abi","","","560","502","348","154","116","0","58","154","193","39"
-"2024/2025","Male","disabled","NABTEB","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","1622","1467","1120","463","348","0","154","348","656","116"
-"2024/2025","Male","disabled","NABTEB","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","328","290","212","77","58","0","39","77","135","19"
-"2024/2025","Male","disabled","NABTEB","University","lga","Calabar South","South South","Cross River","Calabar South","","","907","830","521","309","232","0","77","309","232","77"
-"2024/2025","Male","disabled","NABTEB","University","lga","Ogoja","South South","Cross River","Ogoja","","","1004","927","618","309","232","0","77","309","309","77"
-"2024/2025","Male","disabled","NECO","College of Education","lga","Abi","South South","Cross River","Abi","","","2780","2549","2085","772","521","0","232","463","1313","251"
-"2024/2025","Male","disabled","NECO","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","792","714","599","154","116","0","77","116","444","39"
-"2024/2025","Male","disabled","NECO","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","3398","3051","2394","656","463","0","348","656","1738","193"
-"2024/2025","Male","disabled","NECO","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","386","348","290","77","58","0","39","58","212","19"
-"2024/2025","Male","disabled","NECO","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","869","772","637","154","116","0","97","135","483","39"
-"2024/2025","Male","disabled","NECO","Polytechnic","lga","Abi","South South","Cross River","Abi","","","1158","1043","888","232","174","0","116","154","656","58"
-"2024/2025","Male","disabled","NECO","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","1487","1332","1120","425","290","0","154","212","695","135"
-"2024/2025","Male","disabled","NECO","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","1448","1274","1139","309","232","0","174","135","830","77"
-"2024/2025","Male","disabled","NECO","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","2896","2606","2066","656","463","0","290","541","1409","193"
-"2024/2025","Male","disabled","NECO","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","2027","1853","1603","463","348","0","174","251","1139","116"
-"2024/2025","Male","disabled","NECO","University","lga","Abi","South South","Cross River","Abi","","","1081","985","734","154","116","0","97","251","579","39"
-"2024/2025","Male","disabled","NECO","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","3108","2742","2220","695","463","0","367","521","1525","232"
-"2024/2025","Male","disabled","NECO","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","521","463","386","77","58","0","58","77","309","19"
-"2024/2025","Male","disabled","NECO","University","lga","Calabar South","South South","Cross River","Calabar South","","","1371","1236","985","309","232","0","135","251","676","77"
-"2024/2025","Male","disabled","NECO","University","lga","Ogoja","South South","Cross River","Ogoja","","","1738","1583","1197","309","232","0","154","386","888","77"
-"2024/2025","Male","disabled","WAEC","College of Education","lga","Abi","South South","Cross River","Abi","","","3958","3533","2780","772","521","0","425","753","2008","251"
-"2024/2025","Male","disabled","WAEC","College of Education","lga","Bekwarra","South South","Cross River","Bekwarra","","","1101","985","792","232","154","0","116","193","560","77"
-"2024/2025","Male","disabled","WAEC","College of Education","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","4730","4248","3495","1004","599","58","483","753","2491","405"
-"2024/2025","Male","disabled","WAEC","College of Education","lga","Calabar South","South South","Cross River","Calabar South","","","637","579","463","154","97","0","58","116","309","58"
-"2024/2025","Male","disabled","WAEC","College of Education","lga","Ogoja","South South","Cross River","Ogoja","","","1139","1023","850","232","154","0","116","174","618","77"
-"2024/2025","Male","disabled","WAEC","Polytechnic","lga","Abi","South South","Cross River","Abi","","","1564","1409","1062","309","212","0","154","348","753","97"
-"2024/2025","Male","disabled","WAEC","Polytechnic","lga","Bekwarra","South South","Cross River","Bekwarra","","","2047","1796","1525","386","270","0","251","270","1139","116"
-"2024/2025","Male","disabled","WAEC","Polytechnic","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","1989","1796","1429","386","270","0","193","367","1043","116"
-"2024/2025","Male","disabled","WAEC","Polytechnic","lga","Calabar South","South South","Cross River","Calabar South","","","4383","3939","3166","850","521","58","444","772","2317","328"
-"2024/2025","Male","disabled","WAEC","Polytechnic","lga","Ogoja","South South","Cross River","Ogoja","","","2761","2433","2047","618","425","0","328","386","1429","193"
-"2024/2025","Male","disabled","WAEC","University","lga","Abi","South South","Cross River","Abi","","","1603","1409","1101","309","193","0","193","309","792","116"
-"2024/2025","Male","disabled","WAEC","University","lga","Bekwarra","South South","Cross River","Bekwarra","","","4518","4035","3205","927","502","116","483","830","2278","425"
-"2024/2025","Male","disabled","WAEC","University","lga","Calabar Municipal","South South","Cross River","Calabar Municipal","","","792","695","541","154","97","0","97","154","386","58"
-"2024/2025","Male","disabled","WAEC","University","lga","Calabar South","South South","Cross River","Calabar South","","","1660","1467","1236","386","270","0","193","232","850","116"
-"2024/2025","Male","disabled","WAEC","University","lga","Ogoja","South South","Cross River","Ogoja","","","2317","2066","1583","386","270","0","251","483","1197","116"
+session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,all,NABTEB,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,26,24,0,0,0,0,2
+2022/2023,Female,all,NABTEB,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,8,7,0,0,0,0,1
+2022/2023,Female,all,NABTEB,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,31,29,0,0,0,0,2
+2022/2023,Female,all,NABTEB,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,5,4,0,0,0,0,1
+2022/2023,Female,all,NABTEB,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,9,8,0,0,0,0,1
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,10,9,0,0,0,0,1
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,13,12,0,0,0,0,1
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,12,10,0,0,0,0,2
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,29,27,0,0,0,0,2
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,17,16,0,0,0,0,1
+2022/2023,Female,all,NABTEB,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,113,108,0,0,0,0,5
+2022/2023,Female,all,NABTEB,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,345,315,2,0,0,0,30
+2022/2023,Female,all,NABTEB,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,55,50,0,0,0,0,5
+2022/2023,Female,all,NABTEB,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,200,194,0,0,0,0,6
+2022/2023,Female,all,NABTEB,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,161,160,0,0,0,0,1
+2022/2023,Female,all,NECO,College of Education,lga,Abi,South South,Cross River,Abi,,,1,0,1,59,54,0,1,0,0,5
+2022/2023,Female,all,NECO,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,17,16,0,0,0,0,1
+2022/2023,Female,all,NECO,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,1,1,1,67,62,0,0,0,0,5
+2022/2023,Female,all,NECO,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,11,10,0,0,0,0,1
+2022/2023,Female,all,NECO,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,19,17,0,0,0,0,2
+2022/2023,Female,all,NECO,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,23,21,0,0,0,0,2
+2022/2023,Female,all,NECO,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,28,25,0,0,0,0,3
+2022/2023,Female,all,NECO,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,28,25,0,0,0,0,3
+2022/2023,Female,all,NECO,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,1,1,1,63,59,0,0,0,0,4
+2022/2023,Female,all,NECO,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,41,38,0,0,0,0,3
+2022/2023,Female,all,NECO,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,248,221,2,0,0,0,27
+2022/2023,Female,all,NECO,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,1,1,1,825,752,6,0,0,0,73
+2022/2023,Female,all,NECO,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,129,116,1,0,0,0,13
+2022/2023,Female,all,NECO,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,422,382,3,0,0,0,40
+2022/2023,Female,all,NECO,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,408,373,3,0,0,0,35
+2022/2023,Female,all,WAEC,College of Education,lga,Abi,South South,Cross River,Abi,,,1,1,1,79,72,1,0,0,0,7
+2022/2023,Female,all,WAEC,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,24,22,0,0,0,0,2
+2022/2023,Female,all,WAEC,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,1,1,1,91,86,0,0,0,0,5
+2022/2023,Female,all,WAEC,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,15,14,0,0,0,0,1
+2022/2023,Female,all,WAEC,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,25,23,0,0,0,0,2
+2022/2023,Female,all,WAEC,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,31,29,0,0,0,0,2
+2022/2023,Female,all,WAEC,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,36,33,0,0,0,0,3
+2022/2023,Female,all,WAEC,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,39,36,0,0,0,0,3
+2022/2023,Female,all,WAEC,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,1,1,1,85,77,1,0,0,0,8
+2022/2023,Female,all,WAEC,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,1,1,1,52,49,0,0,0,0,3
+2022/2023,Female,all,WAEC,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,319,282,3,0,0,0,37
+2022/2023,Female,all,WAEC,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,1,1,1,1138,1045,7,0,0,0,93
+2022/2023,Female,all,WAEC,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,174,169,0,0,0,0,5
+2022/2023,Female,all,WAEC,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,572,531,3,0,0,0,41
+2022/2023,Female,all,WAEC,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,524,467,5,0,0,0,57
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,4,3,0,0,0,0,1
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,4,3,0,0,0,0,1
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,1,0,0,0,0,0,1
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,4,3,0,0,0,0,1
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,3,2,0,0,0,0,1
+2022/2023,Female,disabled,NABTEB,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,16,14,0,0,0,0,2
+2022/2023,Female,disabled,NABTEB,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,47,43,0,0,0,0,4
+2022/2023,Female,disabled,NABTEB,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,8,7,0,0,0,0,1
+2022/2023,Female,disabled,NABTEB,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,30,29,0,0,0,0,1
+2022/2023,Female,disabled,NABTEB,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,30,29,0,0,0,0,1
+2022/2023,Female,disabled,NECO,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,5,4,0,0,0,0,1
+2022/2023,Female,disabled,NECO,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2022/2023,Female,disabled,NECO,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,5,4,0,0,0,0,1
+2022/2023,Female,disabled,NECO,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,1,0,0,0,0,0,1
+2022/2023,Female,disabled,NECO,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,4,3,0,0,0,0,1
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,3,2,0,0,0,0,1
+2022/2023,Female,disabled,NECO,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,16,14,0,0,0,0,2
+2022/2023,Female,disabled,NECO,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,55,50,0,0,0,0,5
+2022/2023,Female,disabled,NECO,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,8,7,0,0,0,0,1
+2022/2023,Female,disabled,NECO,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,32,29,0,0,0,0,3
+2022/2023,Female,disabled,NECO,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,32,29,0,0,0,0,3
+2022/2023,Female,disabled,WAEC,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,5,4,0,0,0,0,1
+2022/2023,Female,disabled,WAEC,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Female,disabled,WAEC,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,6,5,0,0,0,0,1
+2022/2023,Female,disabled,WAEC,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,1,0,0,0,0,0,1
+2022/2023,Female,disabled,WAEC,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,4,3,0,0,0,0,1
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,4,3,0,0,0,0,1
+2022/2023,Female,disabled,WAEC,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,22,20,0,0,0,0,2
+2022/2023,Female,disabled,WAEC,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,71,65,0,0,0,0,6
+2022/2023,Female,disabled,WAEC,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,14,13,0,0,0,0,1
+2022/2023,Female,disabled,WAEC,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,32,29,0,0,0,0,3
+2022/2023,Female,disabled,WAEC,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,43,42,0,0,0,0,1
+2022/2023,Male,all,NABTEB,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,25,24,0,0,0,0,1
+2022/2023,Male,all,NABTEB,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,9,8,0,0,0,0,1
+2022/2023,Male,all,NABTEB,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,30,28,0,0,0,0,2
+2022/2023,Male,all,NABTEB,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,6,5,0,0,0,0,1
+2022/2023,Male,all,NABTEB,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,8,7,0,0,0,0,1
+2022/2023,Male,all,NABTEB,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,11,10,0,0,0,0,1
+2022/2023,Male,all,NABTEB,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,14,13,0,0,0,0,1
+2022/2023,Male,all,NABTEB,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,12,11,0,0,0,0,1
+2022/2023,Male,all,NABTEB,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,23,21,0,0,0,0,2
+2022/2023,Male,all,NABTEB,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,16,15,0,0,0,0,1
+2022/2023,Male,all,NABTEB,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,145,138,1,0,0,0,7
+2022/2023,Male,all,NABTEB,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,387,362,2,0,0,0,25
+2022/2023,Male,all,NABTEB,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,58,53,0,0,0,0,5
+2022/2023,Male,all,NABTEB,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,184,174,1,0,0,0,10
+2022/2023,Male,all,NABTEB,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,161,160,0,0,0,0,1
+2022/2023,Male,all,NECO,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,57,51,0,0,0,0,6
+2022/2023,Male,all,NECO,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,19,17,0,0,0,0,2
+2022/2023,Male,all,NECO,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,1,0,1,69,62,1,1,0,0,7
+2022/2023,Male,all,NECO,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,14,12,0,0,0,0,2
+2022/2023,Male,all,NECO,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,19,18,0,0,0,0,1
+2022/2023,Male,all,NECO,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,24,21,0,0,0,0,3
+2022/2023,Male,all,NECO,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,30,28,0,0,0,0,2
+2022/2023,Male,all,NECO,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,30,27,0,0,0,0,3
+2022/2023,Male,all,NECO,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,1,0,0,59,54,0,1,0,0,5
+2022/2023,Male,all,NECO,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,39,35,0,0,0,0,4
+2022/2023,Male,all,NECO,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,269,243,2,0,0,0,26
+2022/2023,Male,all,NECO,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,817,766,4,0,0,0,51
+2022/2023,Male,all,NECO,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,129,116,1,0,0,0,13
+2022/2023,Male,all,NECO,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,432,393,3,0,0,0,39
+2022/2023,Male,all,NECO,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,398,359,3,0,0,0,39
+2022/2023,Male,all,WAEC,College of Education,lga,Abi,South South,Cross River,Abi,,,1,1,1,80,74,0,0,0,0,6
+2022/2023,Male,all,WAEC,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,24,22,0,0,0,0,2
+2022/2023,Male,all,WAEC,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,1,1,1,88,81,1,0,0,0,7
+2022/2023,Male,all,WAEC,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,16,15,0,0,0,0,1
+2022/2023,Male,all,WAEC,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,26,24,0,0,0,0,2
+2022/2023,Male,all,WAEC,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,31,29,0,0,0,0,2
+2022/2023,Male,all,WAEC,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,38,36,0,0,0,0,2
+2022/2023,Male,all,WAEC,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,37,34,0,0,0,0,3
+2022/2023,Male,all,WAEC,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,1,1,1,75,68,1,0,0,0,7
+2022/2023,Male,all,WAEC,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,52,47,0,0,0,0,5
+2022/2023,Male,all,WAEC,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,385,357,2,0,0,0,28
+2022/2023,Male,all,WAEC,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,1,1,1,1123,1017,8,0,0,0,106
+2022/2023,Male,all,WAEC,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,163,158,0,0,0,0,5
+2022/2023,Male,all,WAEC,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,514,478,3,0,0,0,36
+2022/2023,Male,all,WAEC,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,543,489,4,0,0,0,54
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,4,3,0,0,0,0,1
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,4,3,0,0,0,0,1
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,1,0,0,0,0,0,1
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,3,2,0,0,0,0,1
+2022/2023,Male,disabled,NABTEB,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,16,14,0,0,0,0,2
+2022/2023,Male,disabled,NABTEB,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,45,41,0,0,0,0,4
+2022/2023,Male,disabled,NABTEB,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,8,7,0,0,0,0,1
+2022/2023,Male,disabled,NABTEB,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,30,29,0,0,0,0,1
+2022/2023,Male,disabled,NABTEB,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,30,29,0,0,0,0,1
+2022/2023,Male,disabled,NECO,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,4,3,0,0,0,0,1
+2022/2023,Male,disabled,NECO,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2022/2023,Male,disabled,NECO,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,5,4,0,0,0,0,1
+2022/2023,Male,disabled,NECO,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,1,0,0,0,0,0,1
+2022/2023,Male,disabled,NECO,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,3,2,0,0,0,0,1
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,4,3,0,0,0,0,1
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,3,2,0,0,0,0,1
+2022/2023,Male,disabled,NECO,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,16,14,0,0,0,0,2
+2022/2023,Male,disabled,NECO,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,63,59,0,0,0,0,4
+2022/2023,Male,disabled,NECO,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,8,7,0,0,0,0,1
+2022/2023,Male,disabled,NECO,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,30,27,0,0,0,0,3
+2022/2023,Male,disabled,NECO,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,32,29,0,0,0,0,3
+2022/2023,Male,disabled,WAEC,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,5,4,0,0,0,0,1
+2022/2023,Male,disabled,WAEC,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Male,disabled,WAEC,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,6,5,0,0,0,0,1
+2022/2023,Male,disabled,WAEC,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,1,0,0,0,0,0,1
+2022/2023,Male,disabled,WAEC,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,5,4,0,0,0,0,1
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,4,3,0,0,0,0,1
+2022/2023,Male,disabled,WAEC,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,28,25,0,0,0,0,3
+2022/2023,Male,disabled,WAEC,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,71,59,1,0,0,0,12
+2022/2023,Male,disabled,WAEC,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,14,13,0,0,0,0,1
+2022/2023,Male,disabled,WAEC,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,32,29,0,0,0,0,3
+2022/2023,Male,disabled,WAEC,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,32,29,0,0,0,0,3
+2023/2024,Female,all,NABTEB,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,12,11,0,0,0,0,1
+2023/2024,Female,all,NABTEB,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Female,all,NABTEB,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,16,15,0,0,0,0,1
+2023/2024,Female,all,NABTEB,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Female,all,NABTEB,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,5,4,0,0,0,0,1
+2023/2024,Female,all,NABTEB,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,10,9,0,0,0,0,1
+2023/2024,Female,all,NABTEB,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,11,10,0,0,0,0,1
+2023/2024,Female,all,NABTEB,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,12,11,0,0,0,0,1
+2023/2024,Female,all,NABTEB,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,25,24,0,0,0,0,1
+2023/2024,Female,all,NABTEB,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,15,14,0,0,0,0,1
+2023/2024,Female,all,NABTEB,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,109,105,0,0,0,0,4
+2023/2024,Female,all,NABTEB,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,269,252,1,0,0,0,17
+2023/2024,Female,all,NABTEB,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,42,41,0,0,0,0,1
+2023/2024,Female,all,NABTEB,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,135,127,1,0,0,0,8
+2023/2024,Female,all,NABTEB,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,151,133,1,0,0,0,18
+2023/2024,Female,all,NECO,College of Education,lga,Abi,South South,Cross River,Abi,,,1,1,1,30,28,0,0,0,0,2
+2023/2024,Female,all,NECO,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,8,7,0,0,0,0,1
+2023/2024,Female,all,NECO,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,1,1,1,33,30,0,0,0,0,3
+2023/2024,Female,all,NECO,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,6,5,0,0,0,0,1
+2023/2024,Female,all,NECO,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,8,7,0,0,0,0,1
+2023/2024,Female,all,NECO,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,23,21,0,0,0,0,2
+2023/2024,Female,all,NECO,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,24,22,0,0,0,0,2
+2023/2024,Female,all,NECO,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,26,24,0,0,0,0,2
+2023/2024,Female,all,NECO,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,1,1,1,57,52,0,0,0,0,5
+2023/2024,Female,all,NECO,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,1,0,0,35,31,0,1,0,0,4
+2023/2024,Female,all,NECO,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,185,165,2,0,0,0,20
+2023/2024,Female,all,NECO,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,1,1,1,625,573,4,0,0,0,52
+2023/2024,Female,all,NECO,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,97,87,1,0,0,0,10
+2023/2024,Female,all,NECO,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,311,283,2,0,0,0,28
+2023/2024,Female,all,NECO,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,290,268,2,0,0,0,22
+2023/2024,Female,all,WAEC,College of Education,lga,Abi,South South,Cross River,Abi,,,1,1,1,41,38,0,0,0,0,3
+2023/2024,Female,all,WAEC,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,12,11,0,0,0,0,1
+2023/2024,Female,all,WAEC,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,1,1,1,46,42,0,0,0,0,4
+2023/2024,Female,all,WAEC,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,8,7,0,0,0,0,1
+2023/2024,Female,all,WAEC,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,12,11,0,0,0,0,1
+2023/2024,Female,all,WAEC,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,29,27,0,0,0,0,2
+2023/2024,Female,all,WAEC,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,33,31,0,0,0,0,2
+2023/2024,Female,all,WAEC,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,35,32,0,0,0,0,3
+2023/2024,Female,all,WAEC,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,1,1,1,74,68,0,0,0,0,6
+2023/2024,Female,all,WAEC,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,1,1,1,45,41,0,0,0,0,4
+2023/2024,Female,all,WAEC,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,273,248,2,0,0,0,25
+2023/2024,Female,all,WAEC,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,1,1,1,873,787,7,0,0,0,86
+2023/2024,Female,all,WAEC,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,135,125,1,0,0,0,10
+2023/2024,Female,all,WAEC,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,446,410,3,0,0,0,36
+2023/2024,Female,all,WAEC,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,421,402,2,0,0,0,19
+2023/2024,Female,disabled,NABTEB,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Female,disabled,NABTEB,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Female,disabled,NABTEB,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Female,disabled,NABTEB,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,0,0,0,0,0,0,0
+2023/2024,Female,disabled,NABTEB,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Female,disabled,NABTEB,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,12,11,0,0,0,0,1
+2023/2024,Female,disabled,NABTEB,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,34,31,0,0,0,0,3
+2023/2024,Female,disabled,NABTEB,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,4,3,0,0,0,0,1
+2023/2024,Female,disabled,NABTEB,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,24,21,0,0,0,0,3
+2023/2024,Female,disabled,NABTEB,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,24,21,0,0,0,0,3
+2023/2024,Female,disabled,NECO,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Female,disabled,NECO,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Female,disabled,NECO,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Female,disabled,NECO,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,0,0,0,0,0,0,0
+2023/2024,Female,disabled,NECO,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Female,disabled,NECO,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Female,disabled,NECO,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Female,disabled,NECO,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Female,disabled,NECO,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,4,3,0,0,0,0,1
+2023/2024,Female,disabled,NECO,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Female,disabled,NECO,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,10,9,0,0,0,0,1
+2023/2024,Female,disabled,NECO,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,51,45,0,0,0,0,6
+2023/2024,Female,disabled,NECO,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,6,5,0,0,0,0,1
+2023/2024,Female,disabled,NECO,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,24,21,0,0,0,0,3
+2023/2024,Female,disabled,NECO,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,24,21,0,0,0,0,3
+2023/2024,Female,disabled,WAEC,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Female,disabled,WAEC,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Female,disabled,WAEC,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Female,disabled,WAEC,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,0,0,0,0,0,0,0
+2023/2024,Female,disabled,WAEC,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Female,disabled,WAEC,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Female,disabled,WAEC,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Female,disabled,WAEC,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Female,disabled,WAEC,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,4,3,0,0,0,0,1
+2023/2024,Female,disabled,WAEC,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Female,disabled,WAEC,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,16,15,0,0,0,0,1
+2023/2024,Female,disabled,WAEC,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,57,53,0,0,0,0,4
+2023/2024,Female,disabled,WAEC,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,12,11,0,0,0,0,1
+2023/2024,Female,disabled,WAEC,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,33,32,0,0,0,0,1
+2023/2024,Female,disabled,WAEC,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,30,27,0,0,0,0,3
+2023/2024,Male,all,NABTEB,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,13,12,0,0,0,0,1
+2023/2024,Male,all,NABTEB,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,4,3,0,0,0,0,1
+2023/2024,Male,all,NABTEB,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,15,14,0,0,0,0,1
+2023/2024,Male,all,NABTEB,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Male,all,NABTEB,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,4,3,0,0,0,0,1
+2023/2024,Male,all,NABTEB,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,10,9,0,0,0,0,1
+2023/2024,Male,all,NABTEB,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,13,12,0,0,0,0,1
+2023/2024,Male,all,NABTEB,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,13,12,0,0,0,0,1
+2023/2024,Male,all,NABTEB,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,25,23,0,0,0,0,2
+2023/2024,Male,all,NABTEB,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,15,14,0,0,0,0,1
+2023/2024,Male,all,NABTEB,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,103,99,0,0,0,0,4
+2023/2024,Male,all,NABTEB,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,276,262,1,0,0,0,14
+2023/2024,Male,all,NABTEB,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,44,42,0,0,0,0,2
+2023/2024,Male,all,NABTEB,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,143,137,0,0,0,0,6
+2023/2024,Male,all,NABTEB,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,153,152,0,0,0,0,1
+2023/2024,Male,all,NECO,College of Education,lga,Abi,South South,Cross River,Abi,,,1,0,0,30,27,0,1,0,0,3
+2023/2024,Male,all,NECO,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,9,8,0,0,0,0,1
+2023/2024,Male,all,NECO,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,1,0,1,37,33,0,1,0,0,4
+2023/2024,Male,all,NECO,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,5,4,0,0,0,0,1
+2023/2024,Male,all,NECO,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,10,9,0,0,0,0,1
+2023/2024,Male,all,NECO,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,22,20,0,0,0,0,2
+2023/2024,Male,all,NECO,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,26,24,0,0,0,0,2
+2023/2024,Male,all,NECO,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,28,25,0,0,0,0,3
+2023/2024,Male,all,NECO,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,1,0,1,54,48,0,1,0,0,6
+2023/2024,Male,all,NECO,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,37,34,0,0,0,0,3
+2023/2024,Male,all,NECO,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,223,198,2,0,0,0,25
+2023/2024,Male,all,NECO,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,1,0,0,660,597,5,1,0,0,63
+2023/2024,Male,all,NECO,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,120,113,1,0,0,0,7
+2023/2024,Male,all,NECO,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,307,278,2,0,0,0,29
+2023/2024,Male,all,NECO,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,315,287,2,0,0,0,28
+2023/2024,Male,all,WAEC,College of Education,lga,Abi,South South,Cross River,Abi,,,1,1,1,42,39,0,0,0,0,3
+2023/2024,Male,all,WAEC,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,12,11,0,0,0,0,1
+2023/2024,Male,all,WAEC,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,1,1,1,47,43,0,0,0,0,4
+2023/2024,Male,all,WAEC,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,9,8,0,0,0,0,1
+2023/2024,Male,all,WAEC,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,13,12,0,0,0,0,1
+2023/2024,Male,all,WAEC,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,30,28,0,0,0,0,2
+2023/2024,Male,all,WAEC,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,33,29,0,0,0,0,4
+2023/2024,Male,all,WAEC,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,34,31,0,0,0,0,3
+2023/2024,Male,all,WAEC,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,1,1,1,72,66,0,0,0,0,6
+2023/2024,Male,all,WAEC,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,1,0,0,48,44,0,1,0,0,4
+2023/2024,Male,all,WAEC,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,315,295,2,0,0,0,20
+2023/2024,Male,all,WAEC,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,1,1,1,831,767,5,0,0,0,64
+2023/2024,Male,all,WAEC,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,151,139,1,0,0,0,12
+2023/2024,Male,all,WAEC,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,452,410,3,0,0,0,42
+2023/2024,Male,all,WAEC,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,450,410,3,0,0,0,40
+2023/2024,Male,disabled,NABTEB,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Male,disabled,NABTEB,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Male,disabled,NABTEB,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Male,disabled,NABTEB,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,0,0,0,0,0,0,0
+2023/2024,Male,disabled,NABTEB,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Male,disabled,NABTEB,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,12,11,0,0,0,0,1
+2023/2024,Male,disabled,NABTEB,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,36,32,0,0,0,0,4
+2023/2024,Male,disabled,NABTEB,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,4,3,0,0,0,0,1
+2023/2024,Male,disabled,NABTEB,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,24,21,0,0,0,0,3
+2023/2024,Male,disabled,NABTEB,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,24,21,0,0,0,0,3
+2023/2024,Male,disabled,NECO,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Male,disabled,NECO,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Male,disabled,NECO,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Male,disabled,NECO,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,0,0,0,0,0,0,0
+2023/2024,Male,disabled,NECO,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Male,disabled,NECO,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Male,disabled,NECO,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Male,disabled,NECO,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Male,disabled,NECO,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,4,3,0,0,0,0,1
+2023/2024,Male,disabled,NECO,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Male,disabled,NECO,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,12,11,0,0,0,0,1
+2023/2024,Male,disabled,NECO,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,43,39,0,0,0,0,4
+2023/2024,Male,disabled,NECO,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,6,5,0,0,0,0,1
+2023/2024,Male,disabled,NECO,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,24,21,0,0,0,0,3
+2023/2024,Male,disabled,NECO,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,22,20,0,0,0,0,2
+2023/2024,Male,disabled,WAEC,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Male,disabled,WAEC,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Male,disabled,WAEC,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Male,disabled,WAEC,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Male,disabled,WAEC,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2023/2024,Male,disabled,WAEC,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Male,disabled,WAEC,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Male,disabled,WAEC,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2023/2024,Male,disabled,WAEC,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,5,4,0,0,0,0,1
+2023/2024,Male,disabled,WAEC,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,3,2,0,0,0,0,1
+2023/2024,Male,disabled,WAEC,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,21,20,0,0,0,0,1
+2023/2024,Male,disabled,WAEC,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,48,47,0,0,0,0,1
+2023/2024,Male,disabled,WAEC,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,12,11,0,0,0,0,1
+2023/2024,Male,disabled,WAEC,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,28,27,0,0,0,0,1
+2023/2024,Male,disabled,WAEC,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,33,32,0,0,0,0,1
+2024/2025,Female,all,NABTEB,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,25,22,0,0,0,0,3
+2024/2025,Female,all,NABTEB,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,7,6,0,0,0,0,1
+2024/2025,Female,all,NABTEB,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,28,26,0,0,0,0,2
+2024/2025,Female,all,NABTEB,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,4,3,0,0,0,0,1
+2024/2025,Female,all,NABTEB,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,7,6,0,0,0,0,1
+2024/2025,Female,all,NABTEB,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,12,11,0,0,0,0,1
+2024/2025,Female,all,NABTEB,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,14,13,0,0,0,0,1
+2024/2025,Female,all,NABTEB,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,15,14,0,0,0,0,1
+2024/2025,Female,all,NABTEB,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,32,30,0,0,0,0,2
+2024/2025,Female,all,NABTEB,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,19,18,0,0,0,0,1
+2024/2025,Female,all,NABTEB,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,127,118,1,0,0,0,9
+2024/2025,Female,all,NABTEB,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,399,368,2,0,0,0,31
+2024/2025,Female,all,NABTEB,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,76,74,0,0,0,0,2
+2024/2025,Female,all,NABTEB,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,213,199,1,0,0,0,14
+2024/2025,Female,all,NABTEB,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,201,184,1,0,0,0,17
+2024/2025,Female,all,NECO,College of Education,lga,Abi,South South,Cross River,Abi,,,1,1,1,54,47,1,0,0,0,7
+2024/2025,Female,all,NECO,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,14,13,0,0,0,0,1
+2024/2025,Female,all,NECO,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,1,1,1,62,57,0,0,0,0,5
+2024/2025,Female,all,NECO,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,8,7,0,0,0,0,1
+2024/2025,Female,all,NECO,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,19,17,0,0,0,0,2
+2024/2025,Female,all,NECO,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,27,25,0,0,0,0,2
+2024/2025,Female,all,NECO,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,35,32,0,0,0,0,3
+2024/2025,Female,all,NECO,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,33,31,0,0,0,0,2
+2024/2025,Female,all,NECO,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,1,1,1,72,65,1,0,0,0,7
+2024/2025,Female,all,NECO,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,1,0,1,50,46,0,1,0,0,4
+2024/2025,Female,all,NECO,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,311,283,2,0,0,0,28
+2024/2025,Female,all,NECO,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,1,1,1,903,842,5,0,0,0,61
+2024/2025,Female,all,NECO,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,125,114,1,0,0,0,11
+2024/2025,Female,all,NECO,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,470,430,3,0,0,0,40
+2024/2025,Female,all,NECO,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,507,448,5,0,0,0,59
+2024/2025,Female,all,WAEC,College of Education,lga,Abi,South South,Cross River,Abi,,,1,1,1,75,70,0,0,0,0,5
+2024/2025,Female,all,WAEC,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,19,18,0,0,0,0,1
+2024/2025,Female,all,WAEC,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,1,1,1,85,78,1,0,0,0,7
+2024/2025,Female,all,WAEC,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,15,14,0,0,0,0,1
+2024/2025,Female,all,WAEC,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,23,22,0,0,0,0,1
+2024/2025,Female,all,WAEC,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,35,32,0,0,0,0,3
+2024/2025,Female,all,WAEC,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,43,40,0,0,0,0,3
+2024/2025,Female,all,WAEC,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,42,39,0,0,0,0,3
+2024/2025,Female,all,WAEC,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,1,1,1,94,86,1,0,0,0,8
+2024/2025,Female,all,WAEC,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,1,1,1,62,57,0,0,0,0,5
+2024/2025,Female,all,WAEC,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,389,364,2,0,0,0,25
+2024/2025,Female,all,WAEC,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,1,1,1,1358,1250,9,0,0,0,108
+2024/2025,Female,all,WAEC,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,210,195,1,0,0,0,15
+2024/2025,Female,all,WAEC,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,619,574,4,0,0,0,45
+2024/2025,Female,all,WAEC,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,631,566,5,0,0,0,65
+2024/2025,Female,disabled,NABTEB,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,3,2,0,0,0,0,1
+2024/2025,Female,disabled,NABTEB,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2024/2025,Female,disabled,NABTEB,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,3,2,0,0,0,0,1
+2024/2025,Female,disabled,NABTEB,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,disabled,NABTEB,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,2,1,0,0,0,0,1
+2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,4,3,0,0,0,0,1
+2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,3,2,0,0,0,0,1
+2024/2025,Female,disabled,NABTEB,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,17,16,0,0,0,0,1
+2024/2025,Female,disabled,NABTEB,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,50,49,0,0,0,0,1
+2024/2025,Female,disabled,NABTEB,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,8,7,0,0,0,0,1
+2024/2025,Female,disabled,NABTEB,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,33,32,0,0,0,0,1
+2024/2025,Female,disabled,NABTEB,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,33,32,0,0,0,0,1
+2024/2025,Female,disabled,NECO,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,3,2,0,0,0,0,1
+2024/2025,Female,disabled,NECO,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2024/2025,Female,disabled,NECO,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,5,4,0,0,0,0,1
+2024/2025,Female,disabled,NECO,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,disabled,NECO,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2024/2025,Female,disabled,NECO,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2024/2025,Female,disabled,NECO,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,3,2,0,0,0,0,1
+2024/2025,Female,disabled,NECO,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2024/2025,Female,disabled,NECO,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,5,4,0,0,0,0,1
+2024/2025,Female,disabled,NECO,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,4,3,0,0,0,0,1
+2024/2025,Female,disabled,NECO,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,17,16,0,0,0,0,1
+2024/2025,Female,disabled,NECO,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,73,64,1,0,0,0,9
+2024/2025,Female,disabled,NECO,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,8,7,0,0,0,0,1
+2024/2025,Female,disabled,NECO,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,33,32,0,0,0,0,1
+2024/2025,Female,disabled,NECO,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,33,32,0,0,0,0,1
+2024/2025,Female,disabled,WAEC,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,5,4,0,0,0,0,1
+2024/2025,Female,disabled,WAEC,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2024/2025,Female,disabled,WAEC,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,6,5,0,0,0,0,1
+2024/2025,Female,disabled,WAEC,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,1,0,0,0,0,0,1
+2024/2025,Female,disabled,WAEC,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,2,1,0,0,0,0,1
+2024/2025,Female,disabled,WAEC,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2024/2025,Female,disabled,WAEC,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,3,2,0,0,0,0,1
+2024/2025,Female,disabled,WAEC,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2024/2025,Female,disabled,WAEC,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,6,5,0,0,0,0,1
+2024/2025,Female,disabled,WAEC,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,4,3,0,0,0,0,1
+2024/2025,Female,disabled,WAEC,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,25,22,0,0,0,0,3
+2024/2025,Female,disabled,WAEC,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,84,72,1,0,0,0,12
+2024/2025,Female,disabled,WAEC,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,17,14,0,0,0,0,3
+2024/2025,Female,disabled,WAEC,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,42,39,0,0,0,0,3
+2024/2025,Female,disabled,WAEC,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,50,44,0,0,0,0,6
+2024/2025,Male,all,NABTEB,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,24,22,0,0,0,0,2
+2024/2025,Male,all,NABTEB,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,8,7,0,0,0,0,1
+2024/2025,Male,all,NABTEB,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,26,25,0,0,0,0,1
+2024/2025,Male,all,NABTEB,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,6,5,0,0,0,0,1
+2024/2025,Male,all,NABTEB,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,7,6,0,0,0,0,1
+2024/2025,Male,all,NABTEB,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,14,12,0,0,0,0,2
+2024/2025,Male,all,NABTEB,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,15,14,0,0,0,0,1
+2024/2025,Male,all,NABTEB,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,15,13,0,0,0,0,2
+2024/2025,Male,all,NABTEB,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,31,28,0,0,0,0,3
+2024/2025,Male,all,NABTEB,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,22,21,0,0,0,0,1
+2024/2025,Male,all,NABTEB,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,161,158,0,0,0,0,3
+2024/2025,Male,all,NABTEB,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,418,390,2,0,0,0,28
+2024/2025,Male,all,NABTEB,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,76,74,0,0,0,0,2
+2024/2025,Male,all,NABTEB,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,201,191,1,0,0,0,10
+2024/2025,Male,all,NABTEB,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,223,206,1,0,0,0,17
+2024/2025,Male,all,NECO,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,52,46,0,0,0,0,6
+2024/2025,Male,all,NECO,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,17,16,0,0,0,0,1
+2024/2025,Male,all,NECO,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,1,0,1,63,57,0,1,0,0,6
+2024/2025,Male,all,NECO,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,12,11,0,0,0,0,1
+2024/2025,Male,all,NECO,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,16,14,0,0,0,0,2
+2024/2025,Male,all,NECO,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,28,26,0,0,0,0,2
+2024/2025,Male,all,NECO,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,33,30,0,0,0,0,3
+2024/2025,Male,all,NECO,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,36,32,0,0,0,0,4
+2024/2025,Male,all,NECO,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,1,0,0,67,62,0,1,0,0,5
+2024/2025,Male,all,NECO,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,46,42,0,0,0,0,4
+2024/2025,Male,all,NECO,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,308,279,2,0,0,0,29
+2024/2025,Male,all,NECO,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,1,0,0,1006,912,8,1,0,0,94
+2024/2025,Male,all,NECO,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,149,136,1,0,0,0,13
+2024/2025,Male,all,NECO,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,445,416,2,0,0,0,29
+2024/2025,Male,all,NECO,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,472,427,4,0,0,0,45
+2024/2025,Male,all,WAEC,College of Education,lga,Abi,South South,Cross River,Abi,,,1,1,1,77,70,1,0,0,0,7
+2024/2025,Male,all,WAEC,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,21,19,0,0,0,0,2
+2024/2025,Male,all,WAEC,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,1,1,1,89,83,0,0,0,0,6
+2024/2025,Male,all,WAEC,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,14,13,0,0,0,0,1
+2024/2025,Male,all,WAEC,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,24,22,0,0,0,0,2
+2024/2025,Male,all,WAEC,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,40,36,0,0,0,0,4
+2024/2025,Male,all,WAEC,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,47,44,0,0,0,0,3
+2024/2025,Male,all,WAEC,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,45,41,0,0,0,0,4
+2024/2025,Male,all,WAEC,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,1,1,1,91,83,1,0,0,0,8
+2024/2025,Male,all,WAEC,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,1,0,0,59,55,0,1,0,0,4
+2024/2025,Male,all,WAEC,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,453,427,2,0,0,0,26
+2024/2025,Male,all,WAEC,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,1,1,1,1358,1228,10,0,0,0,130
+2024/2025,Male,all,WAEC,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,198,188,1,0,0,0,10
+2024/2025,Male,all,WAEC,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,622,566,4,0,0,0,56
+2024/2025,Male,all,WAEC,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,727,684,3,0,0,0,43
+2024/2025,Male,disabled,NABTEB,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,3,2,0,0,0,0,1
+2024/2025,Male,disabled,NABTEB,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2024/2025,Male,disabled,NABTEB,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,3,2,0,0,0,0,1
+2024/2025,Male,disabled,NABTEB,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,disabled,NABTEB,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,2,1,0,0,0,0,1
+2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,4,3,0,0,0,0,1
+2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,3,2,0,0,0,0,1
+2024/2025,Male,disabled,NABTEB,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,17,16,0,0,0,0,1
+2024/2025,Male,disabled,NABTEB,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,50,49,0,0,0,0,1
+2024/2025,Male,disabled,NABTEB,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,8,7,0,0,0,0,1
+2024/2025,Male,disabled,NABTEB,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,33,32,0,0,0,0,1
+2024/2025,Male,disabled,NABTEB,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,33,32,0,0,0,0,1
+2024/2025,Male,disabled,NECO,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,5,4,0,0,0,0,1
+2024/2025,Male,disabled,NECO,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2024/2025,Male,disabled,NECO,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,4,3,0,0,0,0,1
+2024/2025,Male,disabled,NECO,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,disabled,NECO,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2024/2025,Male,disabled,NECO,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2024/2025,Male,disabled,NECO,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,3,2,0,0,0,0,1
+2024/2025,Male,disabled,NECO,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,2,1,0,0,0,0,1
+2024/2025,Male,disabled,NECO,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,5,4,0,0,0,0,1
+2024/2025,Male,disabled,NECO,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,3,2,0,0,0,0,1
+2024/2025,Male,disabled,NECO,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,17,16,0,0,0,0,1
+2024/2025,Male,disabled,NECO,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,75,66,1,0,0,0,9
+2024/2025,Male,disabled,NECO,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,8,7,0,0,0,0,1
+2024/2025,Male,disabled,NECO,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,33,32,0,0,0,0,1
+2024/2025,Male,disabled,NECO,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,33,32,0,0,0,0,1
+2024/2025,Male,disabled,WAEC,College of Education,lga,Abi,South South,Cross River,Abi,,,0,0,0,5,4,0,0,0,0,1
+2024/2025,Male,disabled,WAEC,College of Education,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,1,0,0,0,0,0,1
+2024/2025,Male,disabled,WAEC,College of Education,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,6,5,0,0,0,0,1
+2024/2025,Male,disabled,WAEC,College of Education,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,1,0,0,0,0,0,1
+2024/2025,Male,disabled,WAEC,College of Education,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,1,0,0,0,0,0,1
+2024/2025,Male,disabled,WAEC,Polytechnic,lga,Abi,South South,Cross River,Abi,,,0,0,0,2,1,0,0,0,0,1
+2024/2025,Male,disabled,WAEC,Polytechnic,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,3,2,0,0,0,0,1
+2024/2025,Male,disabled,WAEC,Polytechnic,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,3,2,0,0,0,0,1
+2024/2025,Male,disabled,WAEC,Polytechnic,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,6,5,0,0,0,0,1
+2024/2025,Male,disabled,WAEC,Polytechnic,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,4,3,0,0,0,0,1
+2024/2025,Male,disabled,WAEC,University,lga,Abi,South South,Cross River,Abi,,,0,0,0,33,28,0,0,0,0,5
+2024/2025,Male,disabled,WAEC,University,lga,Bekwarra,South South,Cross River,Bekwarra,,,0,0,0,100,72,2,0,0,0,28
+2024/2025,Male,disabled,WAEC,University,lga,Calabar Municipal,South South,Cross River,Calabar Municipal,,,0,0,0,17,14,0,0,0,0,3
+2024/2025,Male,disabled,WAEC,University,lga,Calabar South,South South,Cross River,Calabar South,,,0,0,0,42,39,0,0,0,0,3
+2024/2025,Male,disabled,WAEC,University,lga,Ogoja,South South,Cross River,Ogoja,,,0,0,0,42,39,0,0,0,0,3

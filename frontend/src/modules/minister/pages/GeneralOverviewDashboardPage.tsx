@@ -132,8 +132,24 @@ const UBEC_BENCHMARK: BenchmarkMeta = {
   label: "UBE Pre-Primary/Primary benchmark (1:35)",
   source: "UBE national PTR guidelines",
 };
+const BASIC_ENROLLMENT_CLASS_SET = new Set([
+  "K1",
+  "K2",
+  "Primary 1",
+  "Primary 2",
+  "Primary 3",
+  "Primary 4",
+  "Primary 5",
+  "Primary 6",
+  "JSS1",
+  "JSS2",
+  "JSS3",
+  "SSS1",
+  "SSS2",
+  "SSS3",
+]);
 const CARD_HELP = {
-  totalStudents: "Total enrolled students across all levels within the current session and location filters.",
+  totalStudents: "Total enrolled students across the Word-document basic class grades within the current session and location filters.",
   totalStudentsPrimary: "Total enrolled students at Pre-Primary and Primary levels within the current session and location filters.",
   totalFormalSecondary: "Total learners in JSS and SSS only for the selected session and filters.",
   totalOLevel: "Total O-Level participants aligned to the Direct Transition dataset for the same session and location filters.",
@@ -148,6 +164,13 @@ function safeNum(value: unknown): number {
 
 function fmtInt(value: number): string {
   return new Intl.NumberFormat("en-NG", { maximumFractionDigits: 0 }).format(Math.round(value));
+}
+
+function fmtShort(value: number): string {
+  if (value >= 1_000_000_000) return `${(value / 1_000_000_000).toFixed(1)}B`;
+  if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M`;
+  if (value >= 1_000) return `${(value / 1_000).toFixed(1)}K`;
+  return fmtInt(value);
 }
 
 
@@ -203,7 +226,8 @@ function buildCommonLayout(height: number): Partial<PlotlyLayout> {
     yaxis: { gridcolor: COLORS.grid, tickfont: { color: COLORS.sub } },
     hoverlabel: { bgcolor: "#0b1220", font: { color: "#ffffff", size: 12 } },
     legend: { orientation: "h", x: 0, y: -0.16, font: { size: 10, color: COLORS.sub } },
-  };
+    uniformtext: { mode: "show", minsize: 10 },
+  } as Partial<PlotlyLayout>;
 }
 
 function locationLabel(row: AccessWardRow, level: LocationLevel): string {
@@ -553,7 +577,8 @@ function baseLayout(height = 300): Partial<PlotlyLayout> {
     legend: { orientation: "h", x: 0, y: 1.1, bgcolor: "rgba(255,255,255,0)", font: { size: 10, color: COLORS.sub } },
     hoverlabel: { bgcolor: "#0f172a", bordercolor: "#0f172a", font: { color: "white" } },
     bargap: 0.18,
-  };
+    uniformtext: { mode: "show", minsize: 10 },
+  } as Partial<PlotlyLayout>;
 }
 
 // ─── SummaryTable (from TransitionDashboardPage) ─────────────────────────────
@@ -2304,7 +2329,9 @@ setDropoffDrill({}); setIqsDrill({});
 
   // ── Section 1: KPI cards ─────────────────────────────────────────────────────
   const cardMetrics = useMemo<MetricCard[]>(() => {
-    const totalStudents = currentRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
+    const totalStudents = currentRows
+      .filter((row) => BASIC_ENROLLMENT_CLASS_SET.has(row.class_grade))
+      .reduce((sum, row) => sum + safeNum(row.student_count), 0);
     const totalPrimary = currentRows
       .filter((row) => row.school_level === "Pre-Primary/Primary")
       .reduce((sum, row) => sum + safeNum(row.student_count), 0);
@@ -2578,7 +2605,7 @@ const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_l
     const scoped = filteredLoanRows.filter((row) => sessions.includes(row.session));
     const applications = sessions.map((session) => scoped.filter((row) => row.session === session).reduce((sum, row) => sum + safeNum(row.loan_applications), 0));
     const disbursed = sessions.map((session) => scoped.filter((row) => row.session === session).reduce((sum, row) => sum + safeNum(row.loan_disbursed), 0));
-    const barTrace: PlotlyData = { type: "bar", name: "Loan Applications", x: sessions, y: applications, text: applications.map(v => fmtInt(v)), textposition: "outside", textfont: { color: COLORS.applications, size: 11 }, cliponaxis: false, marker: { color: COLORS.applications }, hovertemplate: "%{x}<br>Applications: %{y:,}<extra></extra>" };
+    const barTrace: PlotlyData = { type: "bar", name: "Loan Applications", x: sessions, y: applications, text: applications.map(v => fmtInt(v)), textposition: "inside", insidetextanchor: "middle", constraintext: "none", textfont: { color: "#ffffff", size: 11 }, cliponaxis: false, marker: { color: COLORS.applications }, hovertemplate: "%{x}<br>Applications: %{y:,}<extra></extra>" };
     const lineTrace = { type: "scatter" as const, mode: "lines+markers+text" as const, name: "Loans Disbursed", x: sessions, y: disbursed, text: disbursed.map(v => fmtInt(v)), textposition: "top center" as const, line: { color: COLORS.disbursed, width: 3 }, marker: { size: 8 }, hovertemplate: "%{x}<br>Disbursed: %{y:,}<extra></extra>" };
     const ly = baseLayout(300);
     ly.showlegend = false;
@@ -2603,6 +2630,11 @@ const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_l
     const iqsBarTrace: PlotlyData = {
       type: "bar", name: "Student Enrollment", x: labels, y: enrollments,
       marker: { color: COLORS.iqs },
+      text: enrollments.map(v => fmtShort(v)),
+      textposition: "inside",
+      insidetextanchor: "middle",
+      constraintext: "none",
+      textfont: { color: "#ffffff", size: 11 },
       hovertemplate: "%{x}<br>Student enrollment: %{y:,}<br>Schools: %{customdata:,}<extra></extra>",
       customdata: schools,
     };

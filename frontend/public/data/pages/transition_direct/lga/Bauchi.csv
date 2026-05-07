@@ -1,396 +1,396 @@
-"session","gender","disability_scope","exam_body","institution_type","loc_level","loc_label","zone","state","lga","ward","school","ss3_total","o_level_candidates","utme_participants","admitted_students","matriculated_students","delayed_transition_students","loss_ss3_to_olevel","loss_olevel_to_utme","loss_utme_to_admitted","loss_admitted_to_matriculated"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Giade","North East","Bauchi","Giade","","","179","177","112","30","24","6","2","65","82","6"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","561","552","337","121","110","11","9","215","216","11"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Jama'Are","North East","Bauchi","Jama'Are","","","415","409","265","117","100","18","6","144","148","18"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Katagum","North East","Bauchi","Katagum","","","751","741","443","150","139","11","10","298","293","11"
-"2022/2023","Female","all","NABTEB","College of Education","lga","Kirfi","North East","Bauchi","Kirfi","","","469","462","268","90","79","12","7","194","178","12"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Giade","North East","Bauchi","Giade","","","73","72","43","12","12","0","1","29","31","0"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","215","212","127","42","42","0","3","85","85","0"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Jama'Are","North East","Bauchi","Jama'Are","","","204","201","123","48","36","12","3","78","75","12"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Katagum","North East","Bauchi","Katagum","","","506","499","309","120","98","22","7","190","189","22"
-"2022/2023","Female","all","NABTEB","Polytechnic","lga","Kirfi","North East","Bauchi","Kirfi","","","126","124","77","36","36","0","2","47","41","0"
-"2022/2023","Female","all","NABTEB","University","lga","Giade","North East","Bauchi","Giade","","","118","116","74","24","25","0","2","42","50","0"
-"2022/2023","Female","all","NABTEB","University","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","314","309","185","78","73","5","5","124","107","5"
-"2022/2023","Female","all","NABTEB","University","lga","Jama'Are","North East","Bauchi","Jama'Are","","","361","356","216","72","68","5","5","140","144","5"
-"2022/2023","Female","all","NABTEB","University","lga","Katagum","North East","Bauchi","Katagum","","","514","506","323","134","117","17","8","183","189","17"
-"2022/2023","Female","all","NABTEB","University","lga","Kirfi","North East","Bauchi","Kirfi","","","393","388","234","85","73","12","5","154","149","12"
-"2022/2023","Female","all","NABTEB","University","lga","Misau","North East","Bauchi","Misau","","","158","155","90","24","18","6","3","65","66","6"
-"2022/2023","Female","all","NECO","College of Education","lga","Giade","North East","Bauchi","Giade","","","328","323","182","61","55","6","5","141","121","6"
-"2022/2023","Female","all","NECO","College of Education","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","1038","1022","636","216","202","15","16","386","420","15"
-"2022/2023","Female","all","NECO","College of Education","lga","Jama'Are","North East","Bauchi","Jama'Are","","","785","774","481","173","153","20","11","293","308","20"
-"2022/2023","Female","all","NECO","College of Education","lga","Katagum","North East","Bauchi","Katagum","","","1403","1383","846","276","247","29","20","537","570","29"
-"2022/2023","Female","all","NECO","College of Education","lga","Kirfi","North East","Bauchi","Kirfi","","","825","812","490","172","153","19","13","322","318","19"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Giade","North East","Bauchi","Giade","","","130","128","78","28","25","3","2","50","50","3"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","405","399","250","89","80","9","6","149","161","9"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Jama'Are","North East","Bauchi","Jama'Are","","","426","419","251","89","82","7","7","168","162","7"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Katagum","North East","Bauchi","Katagum","","","922","908","559","201","188","13","14","349","358","13"
-"2022/2023","Female","all","NECO","Polytechnic","lga","Kirfi","North East","Bauchi","Kirfi","","","239","236","153","56","50","6","3","83","97","6"
-"2022/2023","Female","all","NECO","University","lga","Giade","North East","Bauchi","Giade","","","221","218","126","37","36","1","3","92","89","1"
-"2022/2023","Female","all","NECO","University","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","521","513","308","107","95","12","8","205","201","12"
-"2022/2023","Female","all","NECO","University","lga","Jama'Are","North East","Bauchi","Jama'Are","","","727","716","430","145","138","7","11","286","285","7"
-"2022/2023","Female","all","NECO","University","lga","Katagum","North East","Bauchi","Katagum","","","965","951","596","211","188","23","14","355","385","23"
-"2022/2023","Female","all","NECO","University","lga","Kirfi","North East","Bauchi","Kirfi","","","758","746","463","160","142","18","12","283","303","18"
-"2022/2023","Female","all","NECO","University","lga","Misau","North East","Bauchi","Misau","","","298","294","171","46","46","1","4","123","125","1"
-"2022/2023","Female","all","WAEC","College of Education","lga","Giade","North East","Bauchi","Giade","","","416","410","234","82","74","8","6","176","152","8"
-"2022/2023","Female","all","WAEC","College of Education","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","1345","1325","821","296","258","38","20","504","525","38"
-"2022/2023","Female","all","WAEC","College of Education","lga","Jama'Are","North East","Bauchi","Jama'Are","","","1026","1011","620","243","214","29","15","391","377","29"
-"2022/2023","Female","all","WAEC","College of Education","lga","Katagum","North East","Bauchi","Katagum","","","1704","1679","1024","358","329","29","25","655","666","29"
-"2022/2023","Female","all","WAEC","College of Education","lga","Kirfi","North East","Bauchi","Kirfi","","","1299","1280","763","267","240","27","19","517","496","27"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Giade","North East","Bauchi","Giade","","","174","171","105","37","35","2","3","66","68","2"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","546","538","337","115","101","14","8","201","222","14"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Jama'Are","North East","Bauchi","Jama'Are","","","502","494","302","95","83","12","8","192","207","12"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Katagum","North East","Bauchi","Katagum","","","1272","1253","756","284","257","27","19","497","472","27"
-"2022/2023","Female","all","WAEC","Polytechnic","lga","Kirfi","North East","Bauchi","Kirfi","","","310","305","187","66","62","4","5","118","121","4"
-"2022/2023","Female","all","WAEC","University","lga","Giade","North East","Bauchi","Giade","","","266","262","152","49","44","5","4","110","103","5"
-"2022/2023","Female","all","WAEC","University","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","743","732","439","144","131","13","11","293","295","13"
-"2022/2023","Female","all","WAEC","University","lga","Jama'Are","North East","Bauchi","Jama'Are","","","998","983","587","202","183","19","15","396","385","19"
-"2022/2023","Female","all","WAEC","University","lga","Katagum","North East","Bauchi","Katagum","","","1340","1320","819","300","270","30","20","501","519","30"
-"2022/2023","Female","all","WAEC","University","lga","Kirfi","North East","Bauchi","Kirfi","","","943","930","554","201","175","26","13","376","353","26"
-"2022/2023","Female","all","WAEC","University","lga","Misau","North East","Bauchi","Misau","","","378","372","220","66","57","9","6","152","154","9"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Giade","North East","Bauchi","Giade","","","22","22","12","0","0","0","0","10","12","0"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","66","66","36","18","18","0","0","30","18","0"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Jama'Are","North East","Bauchi","Jama'Are","","","45","45","24","18","18","0","0","21","6","0"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Katagum","North East","Bauchi","Katagum","","","102","102","57","18","18","0","0","45","39","0"
-"2022/2023","Female","disabled","NABTEB","College of Education","lga","Kirfi","North East","Bauchi","Kirfi","","","69","69","36","18","18","0","0","33","18","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Giade","North East","Bauchi","Giade","","","11","11","6","0","0","0","0","5","6","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","33","33","18","6","6","0","0","15","12","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Jama'Are","North East","Bauchi","Jama'Are","","","22","22","12","6","6","0","0","10","6","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Katagum","North East","Bauchi","Katagum","","","69","69","39","24","24","0","0","30","15","0"
-"2022/2023","Female","disabled","NABTEB","Polytechnic","lga","Kirfi","North East","Bauchi","Kirfi","","","22","22","12","12","12","0","0","10","0","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Giade","North East","Bauchi","Giade","","","17","17","9","6","6","0","0","8","3","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","44","44","24","18","18","0","0","20","6","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Jama'Are","North East","Bauchi","Jama'Are","","","44","44","24","12","12","0","0","20","12","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Katagum","North East","Bauchi","Katagum","","","58","58","33","24","24","0","0","25","9","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Kirfi","North East","Bauchi","Kirfi","","","50","50","27","12","12","0","0","23","15","0"
-"2022/2023","Female","disabled","NABTEB","University","lga","Misau","North East","Bauchi","Misau","","","22","22","12","0","0","0","0","10","12","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Giade","North East","Bauchi","Giade","","","40","40","22","10","10","0","0","18","12","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","103","103","62","20","20","0","0","41","42","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Jama'Are","North East","Bauchi","Jama'Are","","","73","73","43","15","15","0","0","30","28","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Katagum","North East","Bauchi","Katagum","","","142","142","77","30","30","0","0","65","47","0"
-"2022/2023","Female","disabled","NECO","College of Education","lga","Kirfi","North East","Bauchi","Kirfi","","","107","107","63","30","30","0","0","44","33","0"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Giade","North East","Bauchi","Giade","","","20","20","13","5","5","0","0","7","8","0"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","44","44","24","10","10","0","0","20","14","0"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Jama'Are","North East","Bauchi","Jama'Are","","","40","40","22","10","10","0","0","18","12","0"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Katagum","North East","Bauchi","Katagum","","","109","109","62","30","30","0","0","47","32","0"
-"2022/2023","Female","disabled","NECO","Polytechnic","lga","Kirfi","North East","Bauchi","Kirfi","","","24","24","16","10","10","0","0","8","6","0"
-"2022/2023","Female","disabled","NECO","University","lga","Giade","North East","Bauchi","Giade","","","29","29","16","4","5","0","0","13","12","0"
-"2022/2023","Female","disabled","NECO","University","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","59","59","32","20","20","0","0","27","12","0"
-"2022/2023","Female","disabled","NECO","University","lga","Jama'Are","North East","Bauchi","Jama'Are","","","82","82","45","10","10","0","0","37","35","0"
-"2022/2023","Female","disabled","NECO","University","lga","Katagum","North East","Bauchi","Katagum","","","99","99","56","20","20","0","0","43","36","0"
-"2022/2023","Female","disabled","NECO","University","lga","Kirfi","North East","Bauchi","Kirfi","","","84","84","49","20","20","0","0","35","29","0"
-"2022/2023","Female","disabled","NECO","University","lga","Misau","North East","Bauchi","Misau","","","29","29","13","5","5","0","0","16","8","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Giade","North East","Bauchi","Giade","","","49","49","28","8","8","0","0","21","20","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","131","131","78","20","23","0","0","53","58","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Jama'Are","North East","Bauchi","Jama'Are","","","105","103","60","20","22","0","2","43","40","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Katagum","North East","Bauchi","Katagum","","","192","191","112","36","38","0","1","79","76","0"
-"2022/2023","Female","disabled","WAEC","College of Education","lga","Kirfi","North East","Bauchi","Kirfi","","","138","138","82","24","24","0","0","56","58","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Giade","North East","Bauchi","Giade","","","23","23","12","4","4","0","0","11","8","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","64","64","38","12","14","0","0","26","26","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Jama'Are","North East","Bauchi","Jama'Are","","","46","46","26","8","9","0","0","20","18","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Katagum","North East","Bauchi","Katagum","","","145","145","85","24","25","0","0","60","61","0"
-"2022/2023","Female","disabled","WAEC","Polytechnic","lga","Kirfi","North East","Bauchi","Kirfi","","","27","27","16","8","8","0","0","11","8","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Giade","North East","Bauchi","Giade","","","36","35","20","4","5","0","1","15","16","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","70","70","42","16","17","0","0","28","26","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Jama'Are","North East","Bauchi","Jama'Are","","","114","113","65","16","17","0","1","48","49","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Katagum","North East","Bauchi","Katagum","","","134","133","77","24","26","0","1","56","53","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Kirfi","North East","Bauchi","Kirfi","","","114","113","63","20","21","0","1","50","43","0"
-"2022/2023","Female","disabled","WAEC","University","lga","Misau","North East","Bauchi","Misau","","","38","38","21","8","8","0","0","17","13","0"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Giade","North East","Bauchi","Giade","","","176","174","106","24","24","0","2","68","82","0"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","505","497","318","122","104","18","8","179","196","18"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Jama'Are","North East","Bauchi","Jama'Are","","","429","422","268","97","81","17","7","154","171","17"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Katagum","North East","Bauchi","Katagum","","","888","876","524","144","126","18","12","352","380","18"
-"2022/2023","Male","all","NABTEB","College of Education","lga","Kirfi","North East","Bauchi","Kirfi","","","588","580","359","96","84","12","8","221","263","12"
-"2022/2023","Male","all","NABTEB","Polytechnic","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","316","312","184","54","54","0","4","128","130","0"
-"2022/2023","Male","all","NABTEB","Polytechnic","lga","Jama'Are","North East","Bauchi","Jama'Are","","","213","210","124","30","24","6","3","86","94","6"
-"2022/2023","Male","all","NABTEB","Polytechnic","lga","Katagum","North East","Bauchi","Katagum","","","596","588","362","127","110","18","8","226","235","18"
-"2022/2023","Male","all","NABTEB","Polytechnic","lga","Kirfi","North East","Bauchi","Kirfi","","","148","146","90","30","30","0","2","56","60","0"
-"2022/2023","Male","all","NABTEB","University","lga","Giade","North East","Bauchi","Giade","","","135","133","80","24","18","6","2","53","56","6"
-"2022/2023","Male","all","NABTEB","University","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","323","318","194","54","48","6","5","124","140","6"
-"2022/2023","Male","all","NABTEB","University","lga","Jama'Are","North East","Bauchi","Jama'Are","","","405","400","244","85","80","6","5","156","159","6"
-"2022/2023","Male","all","NABTEB","University","lga","Katagum","North East","Bauchi","Katagum","","","530","522","317","108","86","22","8","205","209","22"
-"2022/2023","Male","all","NABTEB","University","lga","Kirfi","North East","Bauchi","Kirfi","","","423","416","257","72","61","11","7","159","185","11"
-"2022/2023","Male","all","NABTEB","University","lga","Misau","North East","Bauchi","Misau","","","172","169","93","24","18","6","3","76","69","6"
-"2022/2023","Male","all","NECO","College of Education","lga","Giade","North East","Bauchi","Giade","","","321","317","180","56","50","6","4","137","124","6"
-"2022/2023","Male","all","NECO","College of Education","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","965","951","581","197","178","19","14","370","384","19"
-"2022/2023","Male","all","NECO","College of Education","lga","Jama'Are","North East","Bauchi","Jama'Are","","","776","765","457","155","137","18","11","308","302","18"
-"2022/2023","Male","all","NECO","College of Education","lga","Katagum","North East","Bauchi","Katagum","","","1620","1597","957","303","273","30","23","640","654","30"
-"2022/2023","Male","all","NECO","College of Education","lga","Kirfi","North East","Bauchi","Kirfi","","","1040","1025","615","191","178","13","15","410","424","13"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","600","591","361","108","96","12","9","230","253","12"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Jama'Are","North East","Bauchi","Jama'Are","","","464","457","275","89","82","7","7","182","186","7"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Katagum","North East","Bauchi","Katagum","","","1134","1117","693","234","209","25","17","424","459","25"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Kirfi","North East","Bauchi","Kirfi","","","104","102","64","23","20","3","2","38","41","3"
-"2022/2023","Male","all","NECO","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","165","163","96","33","31","2","2","67","63","2"
-"2022/2023","Male","all","NECO","University","lga","Giade","North East","Bauchi","Giade","","","236","233","136","42","41","1","3","97","94","1"
-"2022/2023","Male","all","NECO","University","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","568","559","349","102","90","12","9","210","247","12"
-"2022/2023","Male","all","NECO","University","lga","Jama'Are","North East","Bauchi","Jama'Are","","","792","780","460","140","133","7","12","320","320","7"
-"2022/2023","Male","all","NECO","University","lga","Katagum","North East","Bauchi","Katagum","","","1047","1031","633","206","194","12","16","398","427","12"
-"2022/2023","Male","all","NECO","University","lga","Kirfi","North East","Bauchi","Kirfi","","","818","806","499","164","148","16","12","307","335","16"
-"2022/2023","Male","all","NECO","University","lga","Misau","North East","Bauchi","Misau","","","349","344","200","61","56","5","5","144","139","5"
-"2022/2023","Male","all","WAEC","College of Education","lga","Giade","North East","Bauchi","Giade","","","446","439","262","74","66","8","7","177","188","8"
-"2022/2023","Male","all","WAEC","College of Education","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","1196","1179","728","247","219","28","17","451","481","28"
-"2022/2023","Male","all","WAEC","College of Education","lga","Jama'Are","North East","Bauchi","Jama'Are","","","1033","1017","615","198","178","20","16","402","417","20"
-"2022/2023","Male","all","WAEC","College of Education","lga","Katagum","North East","Bauchi","Katagum","","","2144","2113","1275","404","362","42","31","838","871","42"
-"2022/2023","Male","all","WAEC","College of Education","lga","Kirfi","North East","Bauchi","Kirfi","","","1406","1385","829","259","236","23","21","556","570","23"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","773","762","471","156","145","11","11","291","315","11"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Jama'Are","North East","Bauchi","Jama'Are","","","534","526","314","103","91","12","8","212","211","12"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Katagum","North East","Bauchi","Katagum","","","1444","1424","884","314","279","35","20","540","570","35"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Kirfi","North East","Bauchi","Kirfi","","","133","131","80","29","26","3","2","51","51","3"
-"2022/2023","Male","all","WAEC","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","204","201","122","41","35","6","3","79","81","6"
-"2022/2023","Male","all","WAEC","University","lga","Giade","North East","Bauchi","Giade","","","310","305","177","53","48","5","5","128","124","5"
-"2022/2023","Male","all","WAEC","University","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","758","747","450","144","131","13","11","297","306","13"
-"2022/2023","Male","all","WAEC","University","lga","Jama'Are","North East","Bauchi","Jama'Are","","","1128","1111","687","222","205","17","17","424","465","17"
-"2022/2023","Male","all","WAEC","University","lga","Katagum","North East","Bauchi","Katagum","","","1335","1315","801","272","244","28","20","514","529","28"
-"2022/2023","Male","all","WAEC","University","lga","Kirfi","North East","Bauchi","Kirfi","","","1059","1044","629","202","174","28","15","415","427","28"
-"2022/2023","Male","all","WAEC","University","lga","Misau","North East","Bauchi","Misau","","","440","433","254","87","79","8","7","179","167","8"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Giade","North East","Bauchi","Giade","","","22","22","12","0","0","0","0","10","12","0"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","58","58","33","18","18","0","0","25","15","0"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Jama'Are","North East","Bauchi","Jama'Are","","","53","53","30","18","18","0","0","23","12","0"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Katagum","North East","Bauchi","Katagum","","","105","105","57","6","6","0","0","48","51","0"
-"2022/2023","Male","disabled","NABTEB","College of Education","lga","Kirfi","North East","Bauchi","Kirfi","","","69","69","36","0","0","0","0","33","36","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","44","44","24","6","6","0","0","20","18","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Jama'Are","North East","Bauchi","Jama'Are","","","22","22","12","0","0","0","0","10","12","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Katagum","North East","Bauchi","Katagum","","","78","78","42","18","18","0","0","36","24","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Kirfi","North East","Bauchi","Kirfi","","","11","11","6","6","6","0","0","5","0","0"
-"2022/2023","Male","disabled","NABTEB","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","11","11","6","0","0","0","0","5","6","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Giade","North East","Bauchi","Giade","","","17","17","9","6","6","0","0","8","3","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","44","44","24","0","0","0","0","20","24","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Jama'Are","North East","Bauchi","Jama'Are","","","53","53","30","12","12","0","0","23","18","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Katagum","North East","Bauchi","Katagum","","","61","61","33","6","6","0","0","28","27","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Kirfi","North East","Bauchi","Kirfi","","","53","53","27","0","0","0","0","26","27","0"
-"2022/2023","Male","disabled","NABTEB","University","lga","Misau","North East","Bauchi","Misau","","","22","22","12","0","0","0","0","10","12","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Giade","North East","Bauchi","Giade","","","38","38","22","10","10","0","0","16","12","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","93","93","50","20","20","0","0","43","30","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Jama'Are","North East","Bauchi","Jama'Are","","","90","90","51","15","15","0","0","39","36","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Katagum","North East","Bauchi","Katagum","","","158","158","87","30","30","0","0","71","57","0"
-"2022/2023","Male","disabled","NECO","College of Education","lga","Kirfi","North East","Bauchi","Kirfi","","","116","116","62","25","25","0","0","54","37","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","73","73","37","10","10","0","0","36","27","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Jama'Are","North East","Bauchi","Jama'Are","","","46","46","26","10","10","0","0","20","16","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Katagum","North East","Bauchi","Katagum","","","131","131","77","20","20","0","0","54","57","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Kirfi","North East","Bauchi","Kirfi","","","12","12","5","5","5","0","0","7","0","0"
-"2022/2023","Male","disabled","NECO","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","15","15","8","5","5","0","0","7","3","0"
-"2022/2023","Male","disabled","NECO","University","lga","Giade","North East","Bauchi","Giade","","","32","32","19","5","5","0","0","13","14","0"
-"2022/2023","Male","disabled","NECO","University","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","62","62","37","10","10","0","0","25","27","0"
-"2022/2023","Male","disabled","NECO","University","lga","Jama'Are","North East","Bauchi","Jama'Are","","","92","92","51","15","15","0","0","41","36","0"
-"2022/2023","Male","disabled","NECO","University","lga","Katagum","North East","Bauchi","Katagum","","","104","104","60","19","20","0","0","44","41","0"
-"2022/2023","Male","disabled","NECO","University","lga","Kirfi","North East","Bauchi","Kirfi","","","93","93","50","20","20","0","0","43","30","0"
-"2022/2023","Male","disabled","NECO","University","lga","Misau","North East","Bauchi","Misau","","","35","35","19","10","10","0","0","16","9","0"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Giade","North East","Bauchi","Giade","","","46","46","25","4","5","0","0","21","21","0"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","120","119","70","20","22","0","1","49","50","0"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Jama'Are","North East","Bauchi","Jama'Are","","","128","126","70","20","21","0","2","56","50","0"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Katagum","North East","Bauchi","Katagum","","","207","206","118","40","43","0","1","88","78","0"
-"2022/2023","Male","disabled","WAEC","College of Education","lga","Kirfi","North East","Bauchi","Kirfi","","","157","156","94","24","24","0","1","62","70","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","95","95","52","16","17","0","0","43","36","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Jama'Are","North East","Bauchi","Jama'Are","","","49","49","28","8","8","0","0","21","20","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Katagum","North East","Bauchi","Katagum","","","174","172","97","24","25","0","2","75","73","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Kirfi","North East","Bauchi","Kirfi","","","12","12","8","4","4","0","0","4","4","0"
-"2022/2023","Male","disabled","WAEC","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","17","17","10","4","4","0","0","7","6","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Giade","North East","Bauchi","Giade","","","45","44","25","4","4","0","1","19","21","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","82","82","44","16","18","0","0","38","28","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Jama'Are","North East","Bauchi","Jama'Are","","","131","130","75","20","23","0","1","55","55","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Katagum","North East","Bauchi","Katagum","","","136","136","76","20","20","0","0","60","56","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Kirfi","North East","Bauchi","Kirfi","","","123","122","68","16","17","0","1","54","52","0"
-"2022/2023","Male","disabled","WAEC","University","lga","Misau","North East","Bauchi","Misau","","","40","40","23","8","8","0","0","17","15","0"
-"2023/2024","Female","all","NABTEB","College of Education","lga","Misau","North East","Bauchi","Misau","","","214","211","133","48","44","3","3","78","85","3"
-"2023/2024","Female","all","NABTEB","College of Education","lga","Ningi","North East","Bauchi","Ningi","","","110","108","70","25","22","3","2","38","45","3"
-"2023/2024","Female","all","NABTEB","College of Education","lga","Shira","North East","Bauchi","Shira","","","176","173","105","36","35","2","3","68","69","2"
-"2023/2024","Female","all","NABTEB","College of Education","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","320","315","192","73","60","14","5","123","119","14"
-"2023/2024","Female","all","NABTEB","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","118","116","75","25","25","0","2","41","50","0"
-"2023/2024","Female","all","NABTEB","Polytechnic","lga","Ningi","North East","Bauchi","Ningi","","","293","289","187","81","64","17","4","102","106","17"
-"2023/2024","Female","all","NABTEB","Polytechnic","lga","Shira","North East","Bauchi","Shira","","","170","168","109","45","43","3","2","59","63","3"
-"2023/2024","Female","all","NABTEB","Polytechnic","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","157","155","100","42","39","3","2","55","58","3"
-"2023/2024","Female","all","NABTEB","University","lga","Misau","North East","Bauchi","Misau","","","195","192","119","47","42","5","3","73","72","5"
-"2023/2024","Female","all","NABTEB","University","lga","Ningi","North East","Bauchi","Ningi","","","211","207","132","52","43","8","4","75","80","8"
-"2023/2024","Female","all","NABTEB","University","lga","Shira","North East","Bauchi","Shira","","","459","452","303","139","121","18","7","149","164","18"
-"2023/2024","Female","all","NABTEB","University","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","189","186","119","42","37","5","3","67","77","5"
-"2023/2024","Female","all","NECO","College of Education","lga","Misau","North East","Bauchi","Misau","","","385","380","241","85","79","6","5","139","156","6"
-"2023/2024","Female","all","NECO","College of Education","lga","Ningi","North East","Bauchi","Ningi","","","200","197","124","42","38","3","3","73","83","3"
-"2023/2024","Female","all","NECO","College of Education","lga","Shira","North East","Bauchi","Shira","","","332","327","210","72","65","6","5","117","138","6"
-"2023/2024","Female","all","NECO","College of Education","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","592","584","362","118","111","7","8","222","244","7"
-"2023/2024","Female","all","NECO","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","232","229","145","52","47","5","3","84","93","5"
-"2023/2024","Female","all","NECO","Polytechnic","lga","Ningi","North East","Bauchi","Ningi","","","558","551","360","129","126","3","7","191","231","3"
-"2023/2024","Female","all","NECO","Polytechnic","lga","Shira","North East","Bauchi","Shira","","","324","320","204","67","66","2","4","116","136","2"
-"2023/2024","Female","all","NECO","Polytechnic","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","304","300","190","72","64","8","4","110","118","8"
-"2023/2024","Female","all","NECO","University","lga","Misau","North East","Bauchi","Misau","","","366","361","227","77","70","8","5","134","149","8"
-"2023/2024","Female","all","NECO","University","lga","Ningi","North East","Bauchi","Ningi","","","358","353","225","76","69","6","5","128","149","6"
-"2023/2024","Female","all","NECO","University","lga","Shira","North East","Bauchi","Shira","","","873","860","562","207","188","19","13","298","355","19"
-"2023/2024","Female","all","NECO","University","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","352","347","214","77","72","5","5","133","137","5"
-"2023/2024","Female","all","WAEC","College of Education","lga","Misau","North East","Bauchi","Misau","","","469","462","292","102","93","10","7","170","189","10"
-"2023/2024","Female","all","WAEC","College of Education","lga","Ningi","North East","Bauchi","Ningi","","","295","291","187","70","63","7","4","104","117","7"
-"2023/2024","Female","all","WAEC","College of Education","lga","Shira","North East","Bauchi","Shira","","","435","428","269","99","89","10","7","159","170","10"
-"2023/2024","Female","all","WAEC","College of Education","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","772","760","476","165","148","17","12","284","311","17"
-"2023/2024","Female","all","WAEC","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","280","276","172","61","56","5","4","104","110","5"
-"2023/2024","Female","all","WAEC","Polytechnic","lga","Ningi","North East","Bauchi","Ningi","","","709","699","460","164","150","14","10","239","296","14"
-"2023/2024","Female","all","WAEC","Polytechnic","lga","Shira","North East","Bauchi","Shira","","","427","420","274","101","91","10","7","146","173","10"
-"2023/2024","Female","all","WAEC","Polytechnic","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","378","372","244","99","87","12","6","128","145","12"
-"2023/2024","Female","all","WAEC","University","lga","Misau","North East","Bauchi","Misau","","","465","458","280","103","93","10","7","178","178","10"
-"2023/2024","Female","all","WAEC","University","lga","Ningi","North East","Bauchi","Ningi","","","526","518","333","114","104","10","8","185","219","10"
-"2023/2024","Female","all","WAEC","University","lga","Shira","North East","Bauchi","Shira","","","1148","1131","732","277","242","35","17","399","455","35"
-"2023/2024","Female","all","WAEC","University","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","499","491","312","109","97","12","8","179","202","12"
-"2023/2024","Female","disabled","NABTEB","College of Education","lga","Misau","North East","Bauchi","Misau","","","30","30","18","6","6","0","0","12","12","0"
-"2023/2024","Female","disabled","NABTEB","College of Education","lga","Ningi","North East","Bauchi","Ningi","","","14","14","9","3","3","0","0","5","5","0"
-"2023/2024","Female","disabled","NABTEB","College of Education","lga","Shira","North East","Bauchi","Shira","","","22","22","11","4","4","0","0","11","8","0"
-"2023/2024","Female","disabled","NABTEB","College of Education","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","44","44","24","16","17","0","0","20","8","0"
-"2023/2024","Female","disabled","NABTEB","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","11","11","7","3","3","0","0","4","4","0"
-"2023/2024","Female","disabled","NABTEB","Polytechnic","lga","Ningi","North East","Bauchi","Ningi","","","33","33","19","12","12","0","0","14","7","0"
-"2023/2024","Female","disabled","NABTEB","Polytechnic","lga","Shira","North East","Bauchi","Shira","","","22","22","12","9","9","0","0","10","3","0"
-"2023/2024","Female","disabled","NABTEB","Polytechnic","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","21","21","11","11","11","0","0","10","0","0"
-"2023/2024","Female","disabled","NABTEB","University","lga","Misau","North East","Bauchi","Misau","","","25","25","16","7","7","0","0","9","8","0"
-"2023/2024","Female","disabled","NABTEB","University","lga","Ningi","North East","Bauchi","Ningi","","","23","23","15","9","9","0","0","8","6","0"
-"2023/2024","Female","disabled","NABTEB","University","lga","Shira","North East","Bauchi","Shira","","","47","47","29","24","24","0","0","18","5","0"
-"2023/2024","Female","disabled","NABTEB","University","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","21","21","12","5","5","0","0","9","7","0"
-"2023/2024","Female","disabled","NECO","College of Education","lga","Misau","North East","Bauchi","Misau","","","47","47","27","14","14","0","0","20","13","0"
-"2023/2024","Female","disabled","NECO","College of Education","lga","Ningi","North East","Bauchi","Ningi","","","26","26","17","5","5","0","0","9","11","0"
-"2023/2024","Female","disabled","NECO","College of Education","lga","Shira","North East","Bauchi","Shira","","","29","29","17","8","8","0","0","12","9","0"
-"2023/2024","Female","disabled","NECO","College of Education","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","62","62","34","14","14","0","0","28","20","0"
-"2023/2024","Female","disabled","NECO","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","17","17","10","5","5","0","0","7","4","0"
-"2023/2024","Female","disabled","NECO","Polytechnic","lga","Ningi","North East","Bauchi","Ningi","","","60","60","36","15","15","0","0","24","21","0"
-"2023/2024","Female","disabled","NECO","Polytechnic","lga","Shira","North East","Bauchi","Shira","","","23","23","13","5","5","0","0","10","9","0"
-"2023/2024","Female","disabled","NECO","Polytechnic","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","48","48","29","15","15","0","0","19","14","0"
-"2023/2024","Female","disabled","NECO","University","lga","Misau","North East","Bauchi","Misau","","","41","41","23","12","12","0","0","18","12","0"
-"2023/2024","Female","disabled","NECO","University","lga","Ningi","North East","Bauchi","Ningi","","","35","35","22","7","7","0","0","13","15","0"
-"2023/2024","Female","disabled","NECO","University","lga","Shira","North East","Bauchi","Shira","","","89","89","54","20","20","0","0","35","34","0"
-"2023/2024","Female","disabled","NECO","University","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","38","38","22","9","9","0","0","16","13","0"
-"2023/2024","Female","disabled","WAEC","College of Education","lga","Misau","North East","Bauchi","Misau","","","59","59","35","10","12","0","0","24","25","0"
-"2023/2024","Female","disabled","WAEC","College of Education","lga","Ningi","North East","Bauchi","Ningi","","","45","44","26","9","10","0","1","18","16","0"
-"2023/2024","Female","disabled","WAEC","College of Education","lga","Shira","North East","Bauchi","Shira","","","35","35","20","7","8","0","0","15","13","0"
-"2023/2024","Female","disabled","WAEC","College of Education","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","77","77","47","13","14","0","0","30","34","0"
-"2023/2024","Female","disabled","WAEC","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","23","23","14","4","5","0","0","9","10","0"
-"2023/2024","Female","disabled","WAEC","Polytechnic","lga","Ningi","North East","Bauchi","Ningi","","","75","75","45","13","15","0","0","30","32","0"
-"2023/2024","Female","disabled","WAEC","Polytechnic","lga","Shira","North East","Bauchi","Shira","","","26","26","16","4","5","0","0","10","11","0"
-"2023/2024","Female","disabled","WAEC","Polytechnic","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","60","60","38","12","13","0","0","22","26","0"
-"2023/2024","Female","disabled","WAEC","University","lga","Misau","North East","Bauchi","Misau","","","54","53","33","13","15","0","1","20","20","0"
-"2023/2024","Female","disabled","WAEC","University","lga","Ningi","North East","Bauchi","Ningi","","","56","56","33","11","11","0","0","23","23","0"
-"2023/2024","Female","disabled","WAEC","University","lga","Shira","North East","Bauchi","Shira","","","124","123","72","16","18","0","1","51","56","0"
-"2023/2024","Female","disabled","WAEC","University","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","56","56","35","10","11","0","0","21","25","0"
-"2023/2024","Male","all","NABTEB","College of Education","lga","Misau","North East","Bauchi","Misau","","","223","220","137","43","40","3","3","83","94","3"
-"2023/2024","Male","all","NABTEB","College of Education","lga","Ningi","North East","Bauchi","Ningi","","","113","111","72","23","20","3","2","39","49","3"
-"2023/2024","Male","all","NABTEB","College of Education","lga","Shira","North East","Bauchi","Shira","","","216","213","137","40","36","4","3","76","98","4"
-"2023/2024","Male","all","NABTEB","College of Education","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","345","340","217","64","52","13","5","123","153","13"
-"2023/2024","Male","all","NABTEB","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","98","97","59","16","16","0","1","38","43","0"
-"2023/2024","Male","all","NABTEB","Polytechnic","lga","Ningi","North East","Bauchi","Ningi","","","32","32","21","7","6","1","0","11","14","1"
-"2023/2024","Male","all","NABTEB","Polytechnic","lga","Shira","North East","Bauchi","Shira","","","92","91","58","20","19","1","1","33","39","1"
-"2023/2024","Male","all","NABTEB","Polytechnic","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","286","282","182","48","45","6","4","100","134","6"
-"2023/2024","Male","all","NABTEB","University","lga","Misau","North East","Bauchi","Misau","","","230","226","143","43","37","6","4","83","100","6"
-"2023/2024","Male","all","NABTEB","University","lga","Ningi","North East","Bauchi","Ningi","","","211","208","126","45","37","8","3","82","81","8"
-"2023/2024","Male","all","NABTEB","University","lga","Shira","North East","Bauchi","Shira","","","473","466","311","94","77","17","7","155","217","17"
-"2023/2024","Male","all","NABTEB","University","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","203","200","125","39","34","5","3","75","86","5"
-"2023/2024","Male","all","NECO","College of Education","lga","Misau","North East","Bauchi","Misau","","","392","386","241","79","73","7","6","145","162","7"
-"2023/2024","Male","all","NECO","College of Education","lga","Ningi","North East","Bauchi","Ningi","","","194","191","124","41","37","4","3","67","83","4"
-"2023/2024","Male","all","NECO","College of Education","lga","Shira","North East","Bauchi","Shira","","","429","423","262","82","74","8","6","161","180","8"
-"2023/2024","Male","all","NECO","College of Education","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","648","638","399","125","115","10","10","239","273","10"
-"2023/2024","Male","all","NECO","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","584","576","372","126","114","12","8","204","246","12"
-"2023/2024","Male","all","NECO","Polytechnic","lga","Ningi","North East","Bauchi","Ningi","","","232","229","145","50","47","3","3","84","95","3"
-"2023/2024","Male","all","NECO","Polytechnic","lga","Shira","North East","Bauchi","Shira","","","176","173","111","38","33","5","3","62","74","5"
-"2023/2024","Male","all","NECO","Polytechnic","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","533","525","338","119","115","6","8","187","219","6"
-"2023/2024","Male","all","NECO","University","lga","Misau","North East","Bauchi","Misau","","","408","402","260","80","72","8","6","142","181","8"
-"2023/2024","Male","all","NECO","University","lga","Ningi","North East","Bauchi","Ningi","","","383","377","242","79","73","6","6","135","163","6"
-"2023/2024","Male","all","NECO","University","lga","Shira","North East","Bauchi","Shira","","","902","889","587","183","162","21","13","302","404","21"
-"2023/2024","Male","all","NECO","University","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","403","397","246","80","73","7","6","151","166","7"
-"2023/2024","Male","all","WAEC","College of Education","lga","Misau","North East","Bauchi","Misau","","","526","518","326","109","101","8","8","192","217","8"
-"2023/2024","Male","all","WAEC","College of Education","lga","Ningi","North East","Bauchi","Ningi","","","311","306","196","65","59","6","5","110","131","6"
-"2023/2024","Male","all","WAEC","College of Education","lga","Shira","North East","Bauchi","Shira","","","508","500","318","105","93","12","8","182","213","12"
-"2023/2024","Male","all","WAEC","College of Education","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","869","856","536","165","147","18","13","320","371","18"
-"2023/2024","Male","all","WAEC","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","790","779","481","156","143","13","11","298","325","13"
-"2023/2024","Male","all","WAEC","Polytechnic","lga","Ningi","North East","Bauchi","Ningi","","","344","339","213","74","64","10","5","126","139","10"
-"2023/2024","Male","all","WAEC","Polytechnic","lga","Shira","North East","Bauchi","Shira","","","214","211","138","43","38","5","3","73","95","5"
-"2023/2024","Male","all","WAEC","Polytechnic","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","759","748","476","158","140","18","11","272","318","18"
-"2023/2024","Male","all","WAEC","University","lga","Misau","North East","Bauchi","Misau","","","544","536","331","109","100","9","8","205","222","9"
-"2023/2024","Male","all","WAEC","University","lga","Ningi","North East","Bauchi","Ningi","","","541","533","339","109","98","11","8","194","230","11"
-"2023/2024","Male","all","WAEC","University","lga","Shira","North East","Bauchi","Shira","","","1218","1200","762","263","238","25","18","438","499","25"
-"2023/2024","Male","all","WAEC","University","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","575","566","347","111","100","10","9","219","237","10"
-"2023/2024","Male","disabled","NABTEB","College of Education","lga","Misau","North East","Bauchi","Misau","","","36","36","22","3","3","0","0","14","19","0"
-"2023/2024","Male","disabled","NABTEB","College of Education","lga","Ningi","North East","Bauchi","Ningi","","","17","17","10","2","2","0","0","7","7","0"
-"2023/2024","Male","disabled","NABTEB","College of Education","lga","Shira","North East","Bauchi","Shira","","","23","23","13","0","0","0","0","10","13","0"
-"2023/2024","Male","disabled","NABTEB","College of Education","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","39","39","23","5","5","0","0","16","17","0"
-"2023/2024","Male","disabled","NABTEB","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","47","47","28","0","0","0","0","19","28","0"
-"2023/2024","Male","disabled","NABTEB","Polytechnic","lga","Ningi","North East","Bauchi","Ningi","","","11","11","7","2","2","0","0","4","5","0"
-"2023/2024","Male","disabled","NABTEB","Polytechnic","lga","Shira","North East","Bauchi","Shira","","","10","10","6","2","3","0","0","4","3","0"
-"2023/2024","Male","disabled","NABTEB","Polytechnic","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","39","39","22","0","0","0","0","17","22","0"
-"2023/2024","Male","disabled","NABTEB","University","lga","Misau","North East","Bauchi","Misau","","","31","31","19","3","3","0","0","12","16","0"
-"2023/2024","Male","disabled","NABTEB","University","lga","Ningi","North East","Bauchi","Ningi","","","26","26","16","6","6","0","0","10","10","0"
-"2023/2024","Male","disabled","NABTEB","University","lga","Shira","North East","Bauchi","Shira","","","50","50","25","6","6","0","0","25","19","0"
-"2023/2024","Male","disabled","NABTEB","University","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","25","25","13","3","3","0","0","12","10","0"
-"2023/2024","Male","disabled","NECO","College of Education","lga","Misau","North East","Bauchi","Misau","","","65","65","36","15","15","0","0","29","21","0"
-"2023/2024","Male","disabled","NECO","College of Education","lga","Ningi","North East","Bauchi","Ningi","","","17","17","10","3","3","0","0","7","7","0"
-"2023/2024","Male","disabled","NECO","College of Education","lga","Shira","North East","Bauchi","Shira","","","47","47","26","14","14","0","0","21","12","0"
-"2023/2024","Male","disabled","NECO","College of Education","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","56","56","33","11","11","0","0","23","21","0"
-"2023/2024","Male","disabled","NECO","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","66","66","39","15","15","0","0","27","24","0"
-"2023/2024","Male","disabled","NECO","Polytechnic","lga","Ningi","North East","Bauchi","Ningi","","","20","20","11","4","4","0","0","9","7","0"
-"2023/2024","Male","disabled","NECO","Polytechnic","lga","Shira","North East","Bauchi","Shira","","","23","23","14","4","4","0","0","9","10","0"
-"2023/2024","Male","disabled","NECO","Polytechnic","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","53","53","35","15","15","0","0","18","20","0"
-"2023/2024","Male","disabled","NECO","University","lga","Misau","North East","Bauchi","Misau","","","47","47","27","7","7","0","0","20","20","0"
-"2023/2024","Male","disabled","NECO","University","lga","Ningi","North East","Bauchi","Ningi","","","41","41","23","7","7","0","0","18","16","0"
-"2023/2024","Male","disabled","NECO","University","lga","Shira","North East","Bauchi","Shira","","","95","95","56","15","15","0","0","39","41","0"
-"2023/2024","Male","disabled","NECO","University","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","44","44","25","7","7","0","0","19","18","0"
-"2023/2024","Male","disabled","WAEC","College of Education","lga","Misau","North East","Bauchi","Misau","","","77","77","45","12","14","0","0","32","33","0"
-"2023/2024","Male","disabled","WAEC","College of Education","lga","Ningi","North East","Bauchi","Ningi","","","194","192","115","39","43","0","2","77","76","0"
-"2023/2024","Male","disabled","WAEC","College of Education","lga","Shira","North East","Bauchi","Shira","","","86","86","50","18","19","0","0","36","31","0"
-"2023/2024","Male","disabled","WAEC","College of Education","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","68","68","39","8","9","0","0","29","30","0"
-"2023/2024","Male","disabled","WAEC","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","96","96","53","16","19","0","0","43","37","0"
-"2023/2024","Male","disabled","WAEC","Polytechnic","lga","Ningi","North East","Bauchi","Ningi","","","26","26","16","5","6","0","0","10","10","0"
-"2023/2024","Male","disabled","WAEC","Polytechnic","lga","Shira","North East","Bauchi","Shira","","","26","26","16","4","4","0","0","10","12","0"
-"2023/2024","Male","disabled","WAEC","Polytechnic","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","73","72","45","17","17","0","1","27","28","0"
-"2023/2024","Male","disabled","WAEC","University","lga","Misau","North East","Bauchi","Misau","","","69","68","43","15","17","0","1","25","28","0"
-"2023/2024","Male","disabled","WAEC","University","lga","Ningi","North East","Bauchi","Ningi","","","60","59","35","12","12","0","1","24","23","0"
-"2023/2024","Male","disabled","WAEC","University","lga","Shira","North East","Bauchi","Shira","","","126","126","78","21","22","0","0","48","57","0"
-"2023/2024","Male","disabled","WAEC","University","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","63","62","36","9","10","0","1","26","27","0"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Alkaleri","North East","Bauchi","Alkaleri","","","3321","3128","2413","0","0","0","193","714","2413","0"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Bauchi","North East","Bauchi","Bauchi","","","17241","15851","11526","7105","0","0","1390","4325","4421","7105"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Bogoro","North East","Bauchi","Bogoro","","","8862","8186","7568","4093","1158","0","676","618","3475","2935"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Damban","North East","Bauchi","Damban","","","9615","7704","6410","3205","3205","0","1911","1294","3205","0"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Darazo","North East","Bauchi","Darazo","","","14017","14017","9345","4672","4672","0","0","4672","4672","0"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Dass","North East","Bauchi","Dass","","","10619","8399","5599","2800","2800","0","2220","2800","2800","0"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Gamawa","North East","Bauchi","Gamawa","","","11893","10310","8495","2973","2973","0","1583","1815","5522","0"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Ganjuwa","North East","Bauchi","Ganjuwa","","","23188","21701","16276","5425","5425","0","1487","5425","10851","0"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Giade","North East","Bauchi","Giade","","","14963","11971","8978","2993","2993","0","2993","2993","5985","0"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","15060","14538","9036","3012","3012","0","521","5503","6024","0"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Jama'Are","North East","Bauchi","Jama'Are","","","11913","11295","8457","2259","2259","0","618","2838","6198","0"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Katagum","North East","Bauchi","Katagum","","","27687","23072","18458","4614","4614","0","4614","4614","13843","0"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Kirfi","North East","Bauchi","Kirfi","","","15871","14905","10580","2645","2645","0","965","4325","7935","0"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Misau","North East","Bauchi","Misau","","","29695","26528","17685","4421","4421","0","3166","8843","13264","0"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Ningi","North East","Bauchi","Ningi","","","21624","18535","14229","3089","3089","0","3089","4306","11140","0"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Shira","North East","Bauchi","Shira","","","22628","21161","15929","4093","3186","0","1467","5232","11835","907"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","62710","54871","39194","15678","7839","0","7839","15678","23516","7839"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Toro","North East","Bauchi","Toro","","","89914","80318","58926","20195","10098","0","9596","21392","38730","10098"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Warji","North East","Bauchi","Warji","","","30506","26760","18303","6101","3051","0","3746","8457","12202","3051"
-"2024/2025","Female","all","NECO","Polytechnic","lga","Zaki","North East","Bauchi","Zaki","","","47303","42573","30042","9461","4730","0","4730","12530","20582","4730"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Alkaleri","North East","Bauchi","Alkaleri","","","270","0","0","0","0","0","270","0","0","0"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Bauchi","North East","Bauchi","Bauchi","","","20273","18979","9074","0","0","0","1294","9905","9074","0"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Bogoro","North East","Bauchi","Bogoro","","","11913","9712","4093","0","0","0","2201","5618","4093","0"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Damban","North East","Bauchi","Damban","","","10445","9615","3205","0","0","0","830","6410","3205","0"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Darazo","North East","Bauchi","Darazo","","","21161","16527","6313","541","0","0","4634","10214","5773","541"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Dass","North East","Bauchi","Dass","","","13998","13071","5599","2800","0","0","927","7472","2800","2800"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Gamawa","North East","Bauchi","Gamawa","","","14867","14867","5947","2973","0","0","0","8920","2973","2973"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Ganjuwa","North East","Bauchi","Ganjuwa","","","31664","27127","10851","5425","0","0","4537","16276","5425","5425"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Giade","North East","Bauchi","Giade","","","19404","17879","5985","2993","0","0","1525","11893","2993","2993"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","22493","18072","6024","3012","0","0","4421","12048","3012","3012"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Jama'Are","North East","Bauchi","Jama'Are","","","18072","14867","4518","2259","0","0","3205","10349","2259","2259"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Katagum","North East","Bauchi","Katagum","","","36916","34772","9229","4614","0","0","2143","25544","4614","4614"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Kirfi","North East","Bauchi","Kirfi","","","22956","21161","5290","2645","0","0","1796","15871","2645","2645"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Misau","North East","Bauchi","Misau","","","39927","35371","12492","4421","19","0","4557","22879","8070","4402"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Ningi","North East","Bauchi","Ningi","","","31065","27011","9267","3089","3089","0","4055","17743","6178","0"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Shira","North East","Bauchi","Shira","","","35043","28671","9557","3186","3186","0","6371","19114","6371","0"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","88292","79971","23516","7839","7839","0","8321","56455","15678","0"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Toro","North East","Bauchi","Toro","","","130286","113836","30293","10407","10098","0","16450","83543","19887","309"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Warji","North East","Bauchi","Warji","","","42708","36607","10928","6101","3051","0","6101","25679","4827","3051"
-"2024/2025","Male","all","NABTEB","College of Education","lga","Zaki","North East","Bauchi","Zaki","","","67923","60606","18921","9461","4730","0","7317","41684","9461","4730"
-"2024/2025","Male","all","WAEC","University","lga","Alkaleri","North East","Bauchi","Alkaleri","","","4827","4827","4827","4827","4827","4827","0","0","0","0"
-"2024/2025","Male","all","WAEC","University","lga","Bauchi","North East","Bauchi","Bauchi","","","14191","12395","15755","11526","11526","11526","1796","0","4228","0"
-"2024/2025","Male","all","WAEC","University","lga","Bogoro","North East","Bauchi","Bogoro","","","8167","8167","8167","4093","4093","4093","0","0","4093","0"
-"2024/2025","Male","all","WAEC","University","lga","Damban","North East","Bauchi","Damban","","","6391","6391","8206","3205","3205","3205","0","0","5001","0"
-"2024/2025","Male","all","WAEC","University","lga","Darazo","North East","Bauchi","Darazo","","","9345","9345","14017","4672","4672","3475","0","0","9345","0"
-"2024/2025","Male","all","WAEC","University","lga","Dass","North East","Bauchi","Dass","","","5599","5599","8399","2800","2800","0","0","0","5599","0"
-"2024/2025","Male","all","WAEC","University","lga","Gamawa","North East","Bauchi","Gamawa","","","8090","5947","8920","2973","2973","0","2143","0","5947","0"
-"2024/2025","Male","all","WAEC","University","lga","Ganjuwa","North East","Bauchi","Ganjuwa","","","16276","14229","19404","5425","5425","0","2047","0","13978","0"
-"2024/2025","Male","all","WAEC","University","lga","Giade","North East","Bauchi","Giade","","","8978","8978","13225","2993","2993","0","0","0","10233","0"
-"2024/2025","Male","all","WAEC","University","lga","Itas/Gadau","North East","Bauchi","Itas/Gadau","","","9036","9036","15060","3012","3012","0","0","0","12048","0"
-"2024/2025","Male","all","WAEC","University","lga","Jama'Are","North East","Bauchi","Jama'Are","","","6777","6777","11295","3746","2259","0","0","0","7549","1487"
-"2024/2025","Male","all","WAEC","University","lga","Katagum","North East","Bauchi","Katagum","","","16044","13843","24501","9229","4614","0","2201","0","15272","4614"
-"2024/2025","Male","all","WAEC","University","lga","Kirfi","North East","Bauchi","Kirfi","","","10580","7935","15871","5290","2645","0","2645","0","10580","2645"
-"2024/2025","Male","all","WAEC","University","lga","Misau","North East","Bauchi","Misau","","","17685","15909","26528","8843","4421","0","1776","0","17685","4421"
-"2024/2025","Male","all","WAEC","University","lga","Ningi","North East","Bauchi","Ningi","","","12357","12357","18535","6178","3089","0","0","0","12357","3089"
-"2024/2025","Male","all","WAEC","University","lga","Shira","North East","Bauchi","Shira","","","12743","12743","19327","6371","3186","0","0","0","12955","3186"
-"2024/2025","Male","all","WAEC","University","lga","Tafawa-Balewa","North East","Bauchi","Tafawa-Balewa","","","36471","31355","58076","15678","7839","0","5116","0","42399","7839"
-"2024/2025","Male","all","WAEC","University","lga","Toro","North East","Bauchi","Toro","","","50489","46588","84373","20195","10098","0","3900","0","64177","10098"
-"2024/2025","Male","all","WAEC","University","lga","Warji","North East","Bauchi","Warji","","","15253","15253","27455","6101","3051","0","0","0","21354","3051"
-"2024/2025","Male","all","WAEC","University","lga","Zaki","North East","Bauchi","Zaki","","","28382","23651","42573","9461","4730","0","4730","0","33112","4730"
+session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,all,NABTEB,College of Education,lga,Giade,North East,Bauchi,Giade,,,121,97,116,13,11,0,24,0,103,2
+2022/2023,Female,all,NABTEB,College of Education,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,379,303,349,53,50,0,76,0,296,3
+2022/2023,Female,all,NABTEB,College of Education,lga,Jama'Are,North East,Bauchi,Jama'Are,,,281,225,275,51,45,0,56,0,224,6
+2022/2023,Female,all,NABTEB,College of Education,lga,Katagum,North East,Bauchi,Katagum,,,508,407,459,66,63,0,101,0,393,3
+2022/2023,Female,all,NABTEB,College of Education,lga,Kirfi,North East,Bauchi,Kirfi,,,317,254,278,39,36,0,63,0,239,3
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Giade,North East,Bauchi,Giade,,,49,40,45,9,8,0,9,0,36,1
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,145,116,132,33,32,0,29,0,99,1
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Jama'Are,North East,Bauchi,Jama'Are,,,138,110,128,37,29,1,28,0,91,8
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Katagum,North East,Bauchi,Katagum,,,342,274,320,93,78,1,68,0,227,15
+2022/2023,Female,all,NABTEB,Polytechnic,lga,Kirfi,North East,Bauchi,Kirfi,,,85,68,80,28,27,0,17,0,52,1
+2022/2023,Female,all,NABTEB,University,lga,Giade,North East,Bauchi,Giade,,,80,64,77,33,32,0,16,0,44,1
+2022/2023,Female,all,NABTEB,University,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,212,170,192,108,103,0,42,0,84,5
+2022/2023,Female,all,NABTEB,University,lga,Jama'Are,North East,Bauchi,Jama'Are,,,244,195,224,99,96,0,49,0,125,3
+2022/2023,Female,all,NABTEB,University,lga,Katagum,North East,Bauchi,Katagum,,,348,278,335,185,165,2,70,0,150,20
+2022/2023,Female,all,NABTEB,University,lga,Kirfi,North East,Bauchi,Kirfi,,,266,213,243,117,103,1,53,0,126,14
+2022/2023,Female,all,NABTEB,University,lga,Misau,North East,Bauchi,Misau,,,107,85,93,33,25,1,22,0,60,8
+2022/2023,Female,all,NECO,College of Education,lga,Giade,North East,Bauchi,Giade,,,222,177,189,27,25,0,45,0,162,2
+2022/2023,Female,all,NECO,College of Education,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,702,561,659,95,91,0,141,0,564,4
+2022/2023,Female,all,NECO,College of Education,lga,Jama'Are,North East,Bauchi,Jama'Are,,,531,425,499,76,69,1,106,0,423,7
+2022/2023,Female,all,NECO,College of Education,lga,Katagum,North East,Bauchi,Katagum,,,949,759,877,121,111,1,190,0,756,10
+2022/2023,Female,all,NECO,College of Education,lga,Kirfi,North East,Bauchi,Kirfi,,,558,446,508,75,69,0,112,0,433,6
+2022/2023,Female,all,NECO,Polytechnic,lga,Giade,North East,Bauchi,Giade,,,88,70,81,22,20,0,18,0,59,2
+2022/2023,Female,all,NECO,Polytechnic,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,274,219,259,69,64,0,55,0,190,5
+2022/2023,Female,all,NECO,Polytechnic,lga,Jama'Are,North East,Bauchi,Jama'Are,,,288,230,260,69,65,0,58,0,191,4
+2022/2023,Female,all,NECO,Polytechnic,lga,Katagum,North East,Bauchi,Katagum,,,623,499,580,156,149,1,124,0,424,7
+2022/2023,Female,all,NECO,Polytechnic,lga,Kirfi,North East,Bauchi,Kirfi,,,162,130,159,43,40,0,32,0,116,3
+2022/2023,Female,all,NECO,University,lga,Giade,North East,Bauchi,Giade,,,149,120,131,51,50,0,29,0,80,1
+2022/2023,Female,all,NECO,University,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,352,282,319,148,134,1,70,0,171,14
+2022/2023,Female,all,NECO,University,lga,Jama'Are,North East,Bauchi,Jama'Are,,,492,393,446,200,195,0,99,0,246,5
+2022/2023,Female,all,NECO,University,lga,Katagum,North East,Bauchi,Katagum,,,652,522,618,291,265,2,130,0,327,26
+2022/2023,Female,all,NECO,University,lga,Kirfi,North East,Bauchi,Kirfi,,,512,410,480,221,200,2,102,0,259,21
+2022/2023,Female,all,NECO,University,lga,Misau,North East,Bauchi,Misau,,,201,161,177,63,62,0,40,0,114,1
+2022/2023,Female,all,WAEC,College of Education,lga,Giade,North East,Bauchi,Giade,,,281,225,243,36,33,0,56,0,207,3
+2022/2023,Female,all,WAEC,College of Education,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,909,727,851,130,116,1,182,0,721,14
+2022/2023,Female,all,WAEC,College of Education,lga,Jama'Are,North East,Bauchi,Jama'Are,,,694,555,643,106,96,1,139,0,537,10
+2022/2023,Female,all,WAEC,College of Education,lga,Katagum,North East,Bauchi,Katagum,,,1152,922,1062,157,148,1,230,0,905,9
+2022/2023,Female,all,WAEC,College of Education,lga,Kirfi,North East,Bauchi,Kirfi,,,878,703,791,117,108,1,175,0,674,9
+2022/2023,Female,all,WAEC,Polytechnic,lga,Giade,North East,Bauchi,Giade,,,118,94,109,29,28,0,24,0,80,1
+2022/2023,Female,all,WAEC,Polytechnic,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,369,295,349,89,80,1,74,0,260,9
+2022/2023,Female,all,WAEC,Polytechnic,lga,Jama'Are,North East,Bauchi,Jama'Are,,,339,271,313,74,66,1,68,0,239,8
+2022/2023,Female,all,WAEC,Polytechnic,lga,Katagum,North East,Bauchi,Katagum,,,860,688,784,220,204,1,172,0,564,16
+2022/2023,Female,all,WAEC,Polytechnic,lga,Kirfi,North East,Bauchi,Kirfi,,,210,167,194,51,49,0,43,0,143,2
+2022/2023,Female,all,WAEC,University,lga,Giade,North East,Bauchi,Giade,,,180,144,158,68,62,0,36,0,90,6
+2022/2023,Female,all,WAEC,University,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,502,402,455,199,185,1,100,0,256,14
+2022/2023,Female,all,WAEC,University,lga,Jama'Are,North East,Bauchi,Jama'Are,,,675,540,609,279,258,2,135,0,330,21
+2022/2023,Female,all,WAEC,University,lga,Katagum,North East,Bauchi,Katagum,,,906,725,849,414,381,3,181,0,435,33
+2022/2023,Female,all,WAEC,University,lga,Kirfi,North East,Bauchi,Kirfi,,,638,511,574,277,247,2,127,0,297,30
+2022/2023,Female,all,WAEC,University,lga,Misau,North East,Bauchi,Misau,,,256,204,228,91,80,1,52,0,137,11
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Giade,North East,Bauchi,Giade,,,11,9,9,0,0,0,2,0,9,0
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,32,26,28,6,5,0,6,0,22,1
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Jama'Are,North East,Bauchi,Jama'Are,,,22,17,19,6,5,0,5,0,13,1
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Katagum,North East,Bauchi,Katagum,,,49,39,45,6,5,0,10,0,39,1
+2022/2023,Female,disabled,NABTEB,College of Education,lga,Kirfi,North East,Bauchi,Kirfi,,,33,27,28,6,5,0,6,0,22,1
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Giade,North East,Bauchi,Giade,,,5,4,5,0,0,0,1,0,5,0
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,16,13,14,3,2,0,3,0,11,1
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Jama'Are,North East,Bauchi,Jama'Are,,,11,9,9,3,2,0,2,0,6,1
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Katagum,North East,Bauchi,Katagum,,,33,27,30,13,12,0,6,0,17,1
+2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Kirfi,North East,Bauchi,Kirfi,,,11,9,9,7,6,0,2,0,2,1
+2022/2023,Female,disabled,NABTEB,University,lga,Giade,North East,Bauchi,Giade,,,8,7,7,6,5,0,1,0,1,1
+2022/2023,Female,disabled,NABTEB,University,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,21,17,19,19,17,0,4,0,0,2
+2022/2023,Female,disabled,NABTEB,University,lga,Jama'Are,North East,Bauchi,Jama'Are,,,21,17,19,13,11,0,4,0,6,2
+2022/2023,Female,disabled,NABTEB,University,lga,Katagum,North East,Bauchi,Katagum,,,28,22,26,26,23,0,6,0,0,3
+2022/2023,Female,disabled,NABTEB,University,lga,Kirfi,North East,Bauchi,Kirfi,,,24,19,21,13,11,0,5,0,8,2
+2022/2023,Female,disabled,NABTEB,University,lga,Misau,North East,Bauchi,Misau,,,11,9,9,0,0,0,2,0,9,0
+2022/2023,Female,disabled,NECO,College of Education,lga,Giade,North East,Bauchi,Giade,,,19,15,17,3,2,0,4,0,14,1
+2022/2023,Female,disabled,NECO,College of Education,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,50,40,48,7,6,0,10,0,41,1
+2022/2023,Female,disabled,NECO,College of Education,lga,Jama'Are,North East,Bauchi,Jama'Are,,,35,28,34,5,4,0,7,0,29,1
+2022/2023,Female,disabled,NECO,College of Education,lga,Katagum,North East,Bauchi,Katagum,,,69,55,60,10,9,0,14,0,50,1
+2022/2023,Female,disabled,NECO,College of Education,lga,Kirfi,North East,Bauchi,Kirfi,,,52,41,49,10,9,0,11,0,39,1
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Giade,North East,Bauchi,Giade,,,10,8,10,3,2,0,2,0,7,1
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,21,17,19,5,4,0,4,0,14,1
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Jama'Are,North East,Bauchi,Jama'Are,,,19,15,17,5,4,0,4,0,12,1
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Katagum,North East,Bauchi,Katagum,,,53,42,48,16,14,0,11,0,32,2
+2022/2023,Female,disabled,NECO,Polytechnic,lga,Kirfi,North East,Bauchi,Kirfi,,,12,9,13,5,4,0,3,0,8,1
+2022/2023,Female,disabled,NECO,University,lga,Giade,North East,Bauchi,Giade,,,14,11,13,4,3,0,3,0,9,1
+2022/2023,Female,disabled,NECO,University,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,28,23,25,21,19,0,5,0,4,2
+2022/2023,Female,disabled,NECO,University,lga,Jama'Are,North East,Bauchi,Jama'Are,,,40,32,35,11,9,0,8,0,24,2
+2022/2023,Female,disabled,NECO,University,lga,Katagum,North East,Bauchi,Katagum,,,48,38,44,21,19,0,10,0,23,2
+2022/2023,Female,disabled,NECO,University,lga,Kirfi,North East,Bauchi,Kirfi,,,41,33,38,21,19,0,8,0,17,2
+2022/2023,Female,disabled,NECO,University,lga,Misau,North East,Bauchi,Misau,,,14,11,10,5,4,0,3,1,5,1
+2022/2023,Female,disabled,WAEC,College of Education,lga,Giade,North East,Bauchi,Giade,,,24,19,22,3,2,0,5,0,19,1
+2022/2023,Female,disabled,WAEC,College of Education,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,63,51,61,7,6,0,12,0,54,1
+2022/2023,Female,disabled,WAEC,College of Education,lga,Jama'Are,North East,Bauchi,Jama'Are,,,51,40,47,7,6,0,11,0,40,1
+2022/2023,Female,disabled,WAEC,College of Education,lga,Katagum,North East,Bauchi,Katagum,,,93,74,88,12,11,0,19,0,76,1
+2022/2023,Female,disabled,WAEC,College of Education,lga,Kirfi,North East,Bauchi,Kirfi,,,67,53,64,8,7,0,14,0,56,1
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Giade,North East,Bauchi,Giade,,,11,9,9,2,1,0,2,0,7,1
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,31,25,30,7,6,0,6,0,23,1
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Jama'Are,North East,Bauchi,Jama'Are,,,22,18,20,4,3,0,4,0,16,1
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Katagum,North East,Bauchi,Katagum,,,70,56,66,13,12,0,14,0,53,1
+2022/2023,Female,disabled,WAEC,Polytechnic,lga,Kirfi,North East,Bauchi,Kirfi,,,13,10,13,4,3,0,3,0,9,1
+2022/2023,Female,disabled,WAEC,University,lga,Giade,North East,Bauchi,Giade,,,17,14,16,4,3,0,3,0,12,1
+2022/2023,Female,disabled,WAEC,University,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,34,27,33,17,16,0,7,0,16,1
+2022/2023,Female,disabled,WAEC,University,lga,Jama'Are,North East,Bauchi,Jama'Are,,,55,44,51,17,16,0,11,0,34,1
+2022/2023,Female,disabled,WAEC,University,lga,Katagum,North East,Bauchi,Katagum,,,65,51,60,26,25,0,14,0,34,1
+2022/2023,Female,disabled,WAEC,University,lga,Kirfi,North East,Bauchi,Kirfi,,,55,44,49,21,20,0,11,0,28,1
+2022/2023,Female,disabled,WAEC,University,lga,Misau,North East,Bauchi,Misau,,,18,15,16,9,8,0,3,0,7,1
+2022/2023,Male,all,NABTEB,College of Education,lga,Giade,North East,Bauchi,Giade,,,129,104,120,11,10,0,25,0,109,1
+2022/2023,Male,all,NABTEB,College of Education,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,371,297,360,53,47,0,74,0,307,6
+2022/2023,Male,all,NABTEB,College of Education,lga,Jama'Are,North East,Bauchi,Jama'Are,,,316,252,303,42,36,0,64,0,261,6
+2022/2023,Male,all,NABTEB,College of Education,lga,Katagum,North East,Bauchi,Katagum,,,653,523,593,63,57,0,130,0,530,6
+2022/2023,Male,all,NABTEB,College of Education,lga,Kirfi,North East,Bauchi,Kirfi,,,432,346,406,42,38,0,86,0,364,4
+2022/2023,Male,all,NABTEB,Polytechnic,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,232,186,208,42,41,0,46,0,166,1
+2022/2023,Male,all,NABTEB,Polytechnic,lga,Jama'Are,North East,Bauchi,Jama'Are,,,157,125,140,23,19,0,32,0,117,4
+2022/2023,Male,all,NABTEB,Polytechnic,lga,Katagum,North East,Bauchi,Katagum,,,438,351,410,99,87,1,87,0,311,12
+2022/2023,Male,all,NABTEB,Polytechnic,lga,Kirfi,North East,Bauchi,Kirfi,,,109,87,102,23,22,0,22,0,79,1
+2022/2023,Male,all,NABTEB,University,lga,Giade,North East,Bauchi,Giade,,,99,79,91,33,25,1,20,0,58,8
+2022/2023,Male,all,NABTEB,University,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,238,190,219,75,68,1,48,0,144,7
+2022/2023,Male,all,NABTEB,University,lga,Jama'Are,North East,Bauchi,Jama'Are,,,298,239,276,117,113,0,59,0,159,4
+2022/2023,Male,all,NABTEB,University,lga,Katagum,North East,Bauchi,Katagum,,,390,312,359,149,121,2,78,0,210,28
+2022/2023,Male,all,NABTEB,University,lga,Kirfi,North East,Bauchi,Kirfi,,,311,248,291,99,86,1,63,0,192,13
+2022/2023,Male,all,NABTEB,University,lga,Misau,North East,Bauchi,Misau,,,126,101,105,33,25,1,25,0,72,8
+2022/2023,Male,all,NECO,College of Education,lga,Giade,North East,Bauchi,Giade,,,236,189,204,25,23,0,47,0,179,2
+2022/2023,Male,all,NECO,College of Education,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,710,568,657,86,80,0,142,0,571,6
+2022/2023,Male,all,NECO,College of Education,lga,Jama'Are,North East,Bauchi,Jama'Are,,,571,457,517,68,62,0,114,0,449,6
+2022/2023,Male,all,NECO,College of Education,lga,Katagum,North East,Bauchi,Katagum,,,1191,954,1083,133,123,1,237,0,950,10
+2022/2023,Male,all,NECO,College of Education,lga,Kirfi,North East,Bauchi,Kirfi,,,765,612,696,84,80,0,153,0,612,4
+2022/2023,Male,all,NECO,Polytechnic,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,441,353,408,84,76,1,88,0,324,8
+2022/2023,Male,all,NECO,Polytechnic,lga,Jama'Are,North East,Bauchi,Jama'Are,,,341,273,311,69,65,0,68,0,242,4
+2022/2023,Male,all,NECO,Polytechnic,lga,Katagum,North East,Bauchi,Katagum,,,834,667,784,182,166,1,167,0,602,16
+2022/2023,Male,all,NECO,Polytechnic,lga,Kirfi,North East,Bauchi,Kirfi,,,76,61,72,18,16,0,15,0,54,2
+2022/2023,Male,all,NECO,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,121,97,109,26,25,0,24,0,83,1
+2022/2023,Male,all,NECO,University,lga,Giade,North East,Bauchi,Giade,,,174,139,154,58,57,0,35,0,96,1
+2022/2023,Male,all,NECO,University,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,418,334,395,141,127,1,84,0,254,14
+2022/2023,Male,all,NECO,University,lga,Jama'Are,North East,Bauchi,Jama'Are,,,582,466,520,193,188,0,116,0,327,5
+2022/2023,Male,all,NECO,University,lga,Katagum,North East,Bauchi,Katagum,,,770,616,716,284,274,1,154,0,432,10
+2022/2023,Male,all,NECO,University,lga,Kirfi,North East,Bauchi,Kirfi,,,602,481,565,226,209,1,121,0,339,17
+2022/2023,Male,all,NECO,University,lga,Misau,North East,Bauchi,Misau,,,257,205,226,84,79,0,52,0,142,5
+2022/2023,Male,all,WAEC,College of Education,lga,Giade,North East,Bauchi,Giade,,,328,262,296,32,30,0,66,0,264,2
+2022/2023,Male,all,WAEC,College of Education,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,880,704,824,108,99,1,176,0,716,9
+2022/2023,Male,all,WAEC,College of Education,lga,Jama'Are,North East,Bauchi,Jama'Are,,,760,607,696,87,80,1,153,0,609,7
+2022/2023,Male,all,WAEC,College of Education,lga,Katagum,North East,Bauchi,Katagum,,,1577,1262,1442,177,163,1,315,0,1265,14
+2022/2023,Male,all,WAEC,College of Education,lga,Kirfi,North East,Bauchi,Kirfi,,,1034,827,938,113,106,1,207,0,825,7
+2022/2023,Male,all,WAEC,Polytechnic,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,568,455,533,121,115,0,113,0,412,6
+2022/2023,Male,all,WAEC,Polytechnic,lga,Jama'Are,North East,Bauchi,Jama'Are,,,393,314,355,80,72,1,79,0,275,8
+2022/2023,Male,all,WAEC,Polytechnic,lga,Katagum,North East,Bauchi,Katagum,,,1062,850,1000,244,222,2,212,0,756,22
+2022/2023,Male,all,WAEC,Polytechnic,lga,Kirfi,North East,Bauchi,Kirfi,,,98,78,91,23,21,0,20,0,68,2
+2022/2023,Male,all,WAEC,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,150,120,138,32,28,0,30,0,106,4
+2022/2023,Male,all,WAEC,University,lga,Giade,North East,Bauchi,Giade,,,228,182,200,73,68,0,46,0,127,5
+2022/2023,Male,all,WAEC,University,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,557,446,509,199,185,1,111,0,310,14
+2022/2023,Male,all,WAEC,University,lga,Jama'Are,North East,Bauchi,Jama'Are,,,830,663,777,306,289,1,167,0,471,17
+2022/2023,Male,all,WAEC,University,lga,Katagum,North East,Bauchi,Katagum,,,982,785,906,375,344,2,197,0,531,31
+2022/2023,Male,all,WAEC,University,lga,Kirfi,North East,Bauchi,Kirfi,,,779,623,712,279,245,3,156,0,433,34
+2022/2023,Male,all,WAEC,University,lga,Misau,North East,Bauchi,Misau,,,324,259,287,120,111,1,65,0,167,9
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Giade,North East,Bauchi,Giade,,,12,9,10,0,0,0,3,0,10,0
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,31,25,29,6,5,0,6,0,23,1
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Jama'Are,North East,Bauchi,Jama'Are,,,28,22,26,6,5,0,6,0,20,1
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Katagum,North East,Bauchi,Katagum,,,55,44,50,2,1,0,11,0,48,1
+2022/2023,Male,disabled,NABTEB,College of Education,lga,Kirfi,North East,Bauchi,Kirfi,,,36,29,31,0,0,0,7,0,31,0
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,23,19,21,3,2,0,4,0,18,1
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Jama'Are,North East,Bauchi,Jama'Are,,,12,9,10,0,0,0,3,0,10,0
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Katagum,North East,Bauchi,Katagum,,,41,33,37,10,9,0,8,0,27,1
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Kirfi,North East,Bauchi,Kirfi,,,6,5,5,3,2,0,1,0,2,1
+2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,6,5,5,0,0,0,1,0,5,0
+2022/2023,Male,disabled,NABTEB,University,lga,Giade,North East,Bauchi,Giade,,,9,7,8,6,5,0,2,0,2,1
+2022/2023,Male,disabled,NABTEB,University,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,23,19,21,0,0,0,4,0,21,0
+2022/2023,Male,disabled,NABTEB,University,lga,Jama'Are,North East,Bauchi,Jama'Are,,,28,22,26,13,11,0,6,0,13,2
+2022/2023,Male,disabled,NABTEB,University,lga,Katagum,North East,Bauchi,Katagum,,,32,26,29,6,5,0,6,0,23,1
+2022/2023,Male,disabled,NABTEB,University,lga,Kirfi,North East,Bauchi,Kirfi,,,28,22,24,0,0,0,6,0,24,0
+2022/2023,Male,disabled,NABTEB,University,lga,Misau,North East,Bauchi,Misau,,,12,9,10,0,0,0,3,0,10,0
+2022/2023,Male,disabled,NECO,College of Education,lga,Giade,North East,Bauchi,Giade,,,20,16,19,3,2,0,4,0,16,1
+2022/2023,Male,disabled,NECO,College of Education,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,49,39,44,7,6,0,10,0,37,1
+2022/2023,Male,disabled,NECO,College of Education,lga,Jama'Are,North East,Bauchi,Jama'Are,,,48,38,44,5,4,0,10,0,39,1
+2022/2023,Male,disabled,NECO,College of Education,lga,Katagum,North East,Bauchi,Katagum,,,83,67,76,10,9,0,16,0,66,1
+2022/2023,Male,disabled,NECO,College of Education,lga,Kirfi,North East,Bauchi,Kirfi,,,61,49,54,9,8,0,12,0,45,1
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,39,31,32,5,4,0,8,0,27,1
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Jama'Are,North East,Bauchi,Jama'Are,,,24,19,23,5,4,0,5,0,18,1
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Katagum,North East,Bauchi,Katagum,,,69,56,67,11,10,0,13,0,56,1
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Kirfi,North East,Bauchi,Kirfi,,,6,5,4,3,2,0,1,1,1,1
+2022/2023,Male,disabled,NECO,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,8,6,7,3,2,0,2,0,4,1
+2022/2023,Male,disabled,NECO,University,lga,Giade,North East,Bauchi,Giade,,,17,14,17,5,4,0,3,0,12,1
+2022/2023,Male,disabled,NECO,University,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,33,26,32,11,9,0,7,0,21,2
+2022/2023,Male,disabled,NECO,University,lga,Jama'Are,North East,Bauchi,Jama'Are,,,49,39,44,16,14,0,10,0,28,2
+2022/2023,Male,disabled,NECO,University,lga,Katagum,North East,Bauchi,Katagum,,,55,44,52,20,19,0,11,0,32,1
+2022/2023,Male,disabled,NECO,University,lga,Kirfi,North East,Bauchi,Kirfi,,,49,39,44,21,19,0,10,0,23,2
+2022/2023,Male,disabled,NECO,University,lga,Misau,North East,Bauchi,Misau,,,18,15,17,11,9,0,3,0,6,2
+2022/2023,Male,disabled,WAEC,College of Education,lga,Giade,North East,Bauchi,Giade,,,24,19,22,1,0,0,5,0,21,1
+2022/2023,Male,disabled,WAEC,College of Education,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,63,50,61,7,6,0,13,0,54,1
+2022/2023,Male,disabled,WAEC,College of Education,lga,Jama'Are,North East,Bauchi,Jama'Are,,,68,53,61,7,6,0,15,0,54,1
+2022/2023,Male,disabled,WAEC,College of Education,lga,Katagum,North East,Bauchi,Katagum,,,109,87,103,14,13,0,22,0,89,1
+2022/2023,Male,disabled,WAEC,College of Education,lga,Kirfi,North East,Bauchi,Kirfi,,,83,66,82,8,7,0,17,0,74,1
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,50,40,45,9,8,0,10,0,36,1
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Jama'Are,North East,Bauchi,Jama'Are,,,26,21,24,4,3,0,5,0,20,1
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Katagum,North East,Bauchi,Katagum,,,92,73,85,13,12,0,19,0,72,1
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Kirfi,North East,Bauchi,Kirfi,,,6,5,7,2,1,0,1,0,5,1
+2022/2023,Male,disabled,WAEC,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,9,7,9,2,1,0,2,0,7,1
+2022/2023,Male,disabled,WAEC,University,lga,Giade,North East,Bauchi,Giade,,,24,19,22,4,3,0,5,0,18,1
+2022/2023,Male,disabled,WAEC,University,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,43,35,38,17,16,0,8,0,21,1
+2022/2023,Male,disabled,WAEC,University,lga,Jama'Are,North East,Bauchi,Jama'Are,,,69,55,65,21,20,0,14,0,44,1
+2022/2023,Male,disabled,WAEC,University,lga,Katagum,North East,Bauchi,Katagum,,,72,58,66,21,19,0,14,0,45,2
+2022/2023,Male,disabled,WAEC,University,lga,Kirfi,North East,Bauchi,Kirfi,,,65,52,59,17,16,0,13,0,42,1
+2022/2023,Male,disabled,WAEC,University,lga,Misau,North East,Bauchi,Misau,,,21,17,20,9,8,0,4,0,11,1
+2023/2024,Female,all,NABTEB,College of Education,lga,Misau,North East,Bauchi,Misau,,,317,254,288,23,22,0,63,0,265,1
+2023/2024,Female,all,NABTEB,College of Education,lga,Ningi,North East,Bauchi,Ningi,,,163,130,152,12,11,0,33,0,140,1
+2023/2024,Female,all,NABTEB,College of Education,lga,Shira,North East,Bauchi,Shira,,,261,208,228,17,16,0,53,0,211,1
+2023/2024,Female,all,NABTEB,College of Education,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,474,379,416,35,29,0,95,0,381,6
+2023/2024,Female,all,NABTEB,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,175,140,163,17,16,0,35,0,146,1
+2023/2024,Female,all,NABTEB,Polytechnic,lga,Ningi,North East,Bauchi,Ningi,,,434,348,405,54,43,1,86,0,351,11
+2023/2024,Female,all,NABTEB,Polytechnic,lga,Shira,North East,Bauchi,Shira,,,252,202,236,30,29,0,50,0,206,1
+2023/2024,Female,all,NABTEB,Polytechnic,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,233,187,217,28,26,0,46,0,189,2
+2023/2024,Female,all,NABTEB,University,lga,Misau,North East,Bauchi,Misau,,,289,231,258,69,63,0,58,0,189,6
+2023/2024,Female,all,NABTEB,University,lga,Ningi,North East,Bauchi,Ningi,,,313,249,286,76,65,1,64,0,210,11
+2023/2024,Female,all,NABTEB,University,lga,Shira,North East,Bauchi,Shira,,,680,544,657,203,182,2,136,0,454,21
+2023/2024,Female,all,NABTEB,University,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,280,224,258,61,56,0,56,0,197,5
+2023/2024,Female,all,NECO,College of Education,lga,Misau,North East,Bauchi,Misau,,,571,457,522,41,39,0,114,0,481,2
+2023/2024,Female,all,NECO,College of Education,lga,Ningi,North East,Bauchi,Ningi,,,296,237,269,20,19,0,59,0,249,1
+2023/2024,Female,all,NECO,College of Education,lga,Shira,North East,Bauchi,Shira,,,492,394,455,35,32,0,98,0,420,3
+2023/2024,Female,all,NECO,College of Education,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,878,703,785,57,54,0,175,0,728,3
+2023/2024,Female,all,NECO,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,344,276,314,35,32,0,68,0,279,3
+2023/2024,Female,all,NECO,Polytechnic,lga,Ningi,North East,Bauchi,Ningi,,,827,663,780,86,85,0,164,0,694,1
+2023/2024,Female,all,NECO,Polytechnic,lga,Shira,North East,Bauchi,Shira,,,480,385,442,45,44,0,95,0,397,1
+2023/2024,Female,all,NECO,Polytechnic,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,451,361,412,48,43,0,90,0,364,5
+2023/2024,Female,all,NECO,University,lga,Misau,North East,Bauchi,Misau,,,543,435,492,112,105,1,108,0,380,7
+2023/2024,Female,all,NECO,University,lga,Ningi,North East,Bauchi,Ningi,,,531,425,488,111,104,1,106,0,377,7
+2023/2024,Female,all,NECO,University,lga,Shira,North East,Bauchi,Shira,,,1294,1035,1218,302,283,2,259,0,916,19
+2023/2024,Female,all,NECO,University,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,522,418,464,112,108,0,104,0,352,4
+2023/2024,Female,all,WAEC,College of Education,lga,Misau,North East,Bauchi,Misau,,,695,556,633,49,46,0,139,0,584,3
+2023/2024,Female,all,WAEC,College of Education,lga,Ningi,North East,Bauchi,Ningi,,,437,350,405,34,31,0,87,0,371,3
+2023/2024,Female,all,WAEC,College of Education,lga,Shira,North East,Bauchi,Shira,,,645,515,583,48,44,0,130,0,535,4
+2023/2024,Female,all,WAEC,College of Education,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,1144,915,1032,79,72,1,229,0,953,7
+2023/2024,Female,all,WAEC,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,415,332,373,41,38,0,83,0,332,3
+2023/2024,Female,all,WAEC,Polytechnic,lga,Ningi,North East,Bauchi,Ningi,,,1051,841,997,109,101,1,210,0,888,8
+2023/2024,Female,all,WAEC,Polytechnic,lga,Shira,North East,Bauchi,Shira,,,633,506,594,67,61,0,127,0,527,6
+2023/2024,Female,all,WAEC,Polytechnic,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,560,448,529,66,58,1,112,0,463,8
+2023/2024,Female,all,WAEC,University,lga,Misau,North East,Bauchi,Misau,,,689,551,607,150,140,1,138,0,457,10
+2023/2024,Female,all,WAEC,University,lga,Ningi,North East,Bauchi,Ningi,,,780,623,722,166,156,1,157,0,556,10
+2023/2024,Female,all,WAEC,University,lga,Shira,North East,Bauchi,Shira,,,1702,1361,1587,404,364,3,341,0,1183,40
+2023/2024,Female,all,WAEC,University,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,740,591,676,159,146,1,149,0,517,13
+2023/2024,Female,disabled,NABTEB,College of Education,lga,Misau,North East,Bauchi,Misau,,,33,26,30,2,1,0,7,0,28,1
+2023/2024,Female,disabled,NABTEB,College of Education,lga,Ningi,North East,Bauchi,Ningi,,,15,12,15,1,0,0,3,0,14,1
+2023/2024,Female,disabled,NABTEB,College of Education,lga,Shira,North East,Bauchi,Shira,,,24,19,19,1,0,0,5,0,18,1
+2023/2024,Female,disabled,NABTEB,College of Education,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,48,38,40,5,4,0,10,0,35,1
+2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,12,10,12,1,0,0,2,0,11,1
+2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Ningi,North East,Bauchi,Ningi,,,36,29,32,6,5,0,7,0,26,1
+2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Shira,North East,Bauchi,Shira,,,24,19,20,4,3,0,5,0,16,1
+2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,23,18,19,5,4,0,5,0,14,1
+2023/2024,Female,disabled,NABTEB,University,lga,Misau,North East,Bauchi,Misau,,,27,22,27,8,7,0,5,0,19,1
+2023/2024,Female,disabled,NABTEB,University,lga,Ningi,North East,Bauchi,Ningi,,,25,20,25,11,9,0,5,0,14,2
+2023/2024,Female,disabled,NABTEB,University,lga,Shira,North East,Bauchi,Shira,,,51,41,49,28,25,0,10,0,21,3
+2023/2024,Female,disabled,NABTEB,University,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,23,18,20,6,5,0,5,0,14,1
+2023/2024,Female,disabled,NECO,College of Education,lga,Misau,North East,Bauchi,Misau,,,51,41,45,4,3,0,10,0,41,1
+2023/2024,Female,disabled,NECO,College of Education,lga,Ningi,North East,Bauchi,Ningi,,,28,23,29,2,1,0,5,0,27,1
+2023/2024,Female,disabled,NECO,College of Education,lga,Shira,North East,Bauchi,Shira,,,31,25,29,2,1,0,6,0,27,1
+2023/2024,Female,disabled,NECO,College of Education,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,67,54,57,4,3,0,13,0,53,1
+2023/2024,Female,disabled,NECO,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,18,15,17,2,1,0,3,0,15,1
+2023/2024,Female,disabled,NECO,Polytechnic,lga,Ningi,North East,Bauchi,Ningi,,,65,52,61,7,6,0,13,0,54,1
+2023/2024,Female,disabled,NECO,Polytechnic,lga,Shira,North East,Bauchi,Shira,,,25,20,22,2,1,0,5,0,20,1
+2023/2024,Female,disabled,NECO,Polytechnic,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,52,42,49,7,6,0,10,0,42,1
+2023/2024,Female,disabled,NECO,University,lga,Misau,North East,Bauchi,Misau,,,44,36,39,14,13,0,8,0,25,1
+2023/2024,Female,disabled,NECO,University,lga,Ningi,North East,Bauchi,Ningi,,,38,30,37,8,7,0,8,0,29,1
+2023/2024,Female,disabled,NECO,University,lga,Shira,North East,Bauchi,Shira,,,97,77,91,23,21,0,20,0,68,2
+2023/2024,Female,disabled,NECO,University,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,41,33,37,11,9,0,8,0,26,2
+2023/2024,Female,disabled,WAEC,College of Education,lga,Misau,North East,Bauchi,Misau,,,64,51,59,3,2,0,13,0,56,1
+2023/2024,Female,disabled,WAEC,College of Education,lga,Ningi,North East,Bauchi,Ningi,,,49,38,44,3,2,0,11,0,41,1
+2023/2024,Female,disabled,WAEC,College of Education,lga,Shira,North East,Bauchi,Shira,,,38,30,34,2,1,0,8,0,32,1
+2023/2024,Female,disabled,WAEC,College of Education,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,84,67,79,4,3,0,17,0,75,1
+2023/2024,Female,disabled,WAEC,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,25,20,24,2,1,0,5,0,22,1
+2023/2024,Female,disabled,WAEC,Polytechnic,lga,Ningi,North East,Bauchi,Ningi,,,81,65,76,6,5,0,16,0,70,1
+2023/2024,Female,disabled,WAEC,Polytechnic,lga,Shira,North East,Bauchi,Shira,,,28,23,27,2,1,0,5,0,25,1
+2023/2024,Female,disabled,WAEC,Polytechnic,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,65,52,64,6,5,0,13,0,58,1
+2023/2024,Female,disabled,WAEC,University,lga,Misau,North East,Bauchi,Misau,,,59,46,56,15,14,0,13,0,41,1
+2023/2024,Female,disabled,WAEC,University,lga,Ningi,North East,Bauchi,Ningi,,,61,49,56,13,12,0,12,0,43,1
+2023/2024,Female,disabled,WAEC,University,lga,Shira,North East,Bauchi,Shira,,,135,107,121,19,18,0,28,0,102,1
+2023/2024,Female,disabled,WAEC,University,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,61,49,59,12,11,0,12,0,47,1
+2023/2024,Male,all,NABTEB,College of Education,lga,Misau,North East,Bauchi,Misau,,,363,291,328,21,20,0,72,0,307,1
+2023/2024,Male,all,NABTEB,College of Education,lga,Ningi,North East,Bauchi,Ningi,,,184,147,172,11,10,0,37,0,161,1
+2023/2024,Male,all,NABTEB,College of Education,lga,Shira,North East,Bauchi,Shira,,,352,281,328,19,18,0,71,0,309,1
+2023/2024,Male,all,NABTEB,College of Education,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,561,449,520,31,25,0,112,0,489,6
+2023/2024,Male,all,NABTEB,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,159,128,141,11,10,0,31,0,130,1
+2023/2024,Male,all,NABTEB,Polytechnic,lga,Ningi,North East,Bauchi,Ningi,,,52,42,50,5,4,0,10,0,45,1
+2023/2024,Male,all,NABTEB,Polytechnic,lga,Shira,North East,Bauchi,Shira,,,150,120,139,13,12,0,30,0,126,1
+2023/2024,Male,all,NABTEB,Polytechnic,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,465,373,436,32,30,0,92,0,404,2
+2023/2024,Male,all,NABTEB,University,lga,Misau,North East,Bauchi,Misau,,,374,299,343,63,56,1,75,0,280,7
+2023/2024,Male,all,NABTEB,University,lga,Ningi,North East,Bauchi,Ningi,,,343,275,302,66,56,1,68,0,236,10
+2023/2024,Male,all,NABTEB,University,lga,Shira,North East,Bauchi,Shira,,,770,616,745,137,116,2,154,0,608,21
+2023/2024,Male,all,NABTEB,University,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,330,264,299,57,51,0,66,0,242,6
+2023/2024,Male,all,NECO,College of Education,lga,Misau,North East,Bauchi,Misau,,,638,510,577,38,36,0,128,0,539,2
+2023/2024,Male,all,NECO,College of Education,lga,Ningi,North East,Bauchi,Ningi,,,316,252,297,20,18,0,64,0,277,2
+2023/2024,Male,all,NECO,College of Education,lga,Shira,North East,Bauchi,Shira,,,698,559,628,39,36,0,139,0,589,3
+2023/2024,Male,all,NECO,College of Education,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,1055,843,956,60,56,0,212,0,896,4
+2023/2024,Male,all,NECO,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,950,761,891,84,77,1,189,0,807,7
+2023/2024,Male,all,NECO,Polytechnic,lga,Ningi,North East,Bauchi,Ningi,,,378,303,347,33,32,0,75,0,314,1
+2023/2024,Male,all,NECO,Polytechnic,lga,Shira,North East,Bauchi,Shira,,,286,229,266,25,22,0,57,0,241,3
+2023/2024,Male,all,NECO,Polytechnic,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,867,694,810,79,77,0,173,0,731,2
+2023/2024,Male,all,NECO,University,lga,Misau,North East,Bauchi,Misau,,,664,531,623,117,108,1,133,0,506,9
+2023/2024,Male,all,NECO,University,lga,Ningi,North East,Bauchi,Ningi,,,623,498,580,115,110,0,125,0,465,5
+2023/2024,Male,all,NECO,University,lga,Shira,North East,Bauchi,Shira,,,1468,1175,1406,267,244,2,293,0,1139,23
+2023/2024,Male,all,NECO,University,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,656,525,589,117,110,1,131,0,472,7
+2023/2024,Male,all,WAEC,College of Education,lga,Misau,North East,Bauchi,Misau,,,856,684,781,52,49,0,172,0,729,3
+2023/2024,Male,all,WAEC,College of Education,lga,Ningi,North East,Bauchi,Ningi,,,506,404,470,31,29,0,102,0,439,2
+2023/2024,Male,all,WAEC,College of Education,lga,Shira,North East,Bauchi,Shira,,,827,661,762,50,46,0,166,0,712,4
+2023/2024,Male,all,WAEC,College of Education,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,1414,1131,1284,79,72,1,283,0,1205,7
+2023/2024,Male,all,WAEC,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,1286,1029,1152,104,96,1,257,0,1048,8
+2023/2024,Male,all,WAEC,Polytechnic,lga,Ningi,North East,Bauchi,Ningi,,,560,448,510,49,43,0,112,0,461,6
+2023/2024,Male,all,WAEC,Polytechnic,lga,Shira,North East,Bauchi,Shira,,,348,279,331,29,26,0,69,0,302,3
+2023/2024,Male,all,WAEC,Polytechnic,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,1235,988,1140,105,94,1,247,0,1035,11
+2023/2024,Male,all,WAEC,University,lga,Misau,North East,Bauchi,Misau,,,885,708,793,159,150,1,177,0,634,9
+2023/2024,Male,all,WAEC,University,lga,Ningi,North East,Bauchi,Ningi,,,880,704,812,159,147,1,176,0,653,12
+2023/2024,Male,all,WAEC,University,lga,Shira,North East,Bauchi,Shira,,,1982,1586,1825,383,358,2,396,0,1442,25
+2023/2024,Male,all,WAEC,University,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,936,748,831,162,150,1,188,0,669,12
+2023/2024,Male,disabled,NABTEB,College of Education,lga,Misau,North East,Bauchi,Misau,,,37,30,36,1,0,0,7,0,35,1
+2023/2024,Male,disabled,NABTEB,College of Education,lga,Ningi,North East,Bauchi,Ningi,,,18,14,16,1,0,0,4,0,15,1
+2023/2024,Male,disabled,NABTEB,College of Education,lga,Shira,North East,Bauchi,Shira,,,24,19,21,0,0,0,5,0,21,0
+2023/2024,Male,disabled,NABTEB,College of Education,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,40,32,37,2,1,0,8,0,35,1
+2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,49,39,45,0,0,0,10,0,45,0
+2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Ningi,North East,Bauchi,Ningi,,,11,9,11,1,0,0,2,0,10,1
+2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Shira,North East,Bauchi,Shira,,,10,8,10,1,0,0,2,0,9,1
+2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,40,32,36,0,0,0,8,0,36,0
+2023/2024,Male,disabled,NABTEB,University,lga,Misau,North East,Bauchi,Misau,,,32,26,31,4,3,0,6,0,27,1
+2023/2024,Male,disabled,NABTEB,University,lga,Ningi,North East,Bauchi,Ningi,,,27,22,26,7,6,0,5,0,19,1
+2023/2024,Male,disabled,NABTEB,University,lga,Shira,North East,Bauchi,Shira,,,52,41,40,7,6,0,11,1,33,1
+2023/2024,Male,disabled,NABTEB,University,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,26,21,21,4,3,0,5,0,17,1
+2023/2024,Male,disabled,NECO,College of Education,lga,Misau,North East,Bauchi,Misau,,,67,54,58,5,4,0,13,0,53,1
+2023/2024,Male,disabled,NECO,College of Education,lga,Ningi,North East,Bauchi,Ningi,,,18,14,16,1,0,0,4,0,15,1
+2023/2024,Male,disabled,NECO,College of Education,lga,Shira,North East,Bauchi,Shira,,,49,39,42,4,3,0,10,0,38,1
+2023/2024,Male,disabled,NECO,College of Education,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,58,46,53,3,2,0,12,0,50,1
+2023/2024,Male,disabled,NECO,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,68,55,63,7,6,0,13,0,56,1
+2023/2024,Male,disabled,NECO,Polytechnic,lga,Ningi,North East,Bauchi,Ningi,,,21,17,18,2,1,0,4,0,16,1
+2023/2024,Male,disabled,NECO,Polytechnic,lga,Shira,North East,Bauchi,Shira,,,24,19,23,2,1,0,5,0,21,1
+2023/2024,Male,disabled,NECO,Polytechnic,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,55,44,57,7,6,0,11,0,50,1
+2023/2024,Male,disabled,NECO,University,lga,Misau,North East,Bauchi,Misau,,,49,39,44,8,7,0,10,0,36,1
+2023/2024,Male,disabled,NECO,University,lga,Ningi,North East,Bauchi,Ningi,,,42,34,37,8,7,0,8,0,29,1
+2023/2024,Male,disabled,NECO,University,lga,Shira,North East,Bauchi,Shira,,,98,79,91,18,16,0,19,0,73,2
+2023/2024,Male,disabled,NECO,University,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,45,36,40,8,7,0,9,0,32,1
+2023/2024,Male,disabled,WAEC,College of Education,lga,Misau,North East,Bauchi,Misau,,,80,64,73,4,3,0,16,0,69,1
+2023/2024,Male,disabled,WAEC,College of Education,lga,Ningi,North East,Bauchi,Ningi,,,200,159,186,12,11,0,41,0,174,1
+2023/2024,Male,disabled,WAEC,College of Education,lga,Shira,North East,Bauchi,Shira,,,89,71,81,5,4,0,18,0,76,1
+2023/2024,Male,disabled,WAEC,College of Education,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,70,56,63,2,1,0,14,0,61,1
+2023/2024,Male,disabled,WAEC,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,99,80,86,8,7,0,19,0,78,1
+2023/2024,Male,disabled,WAEC,Polytechnic,lga,Ningi,North East,Bauchi,Ningi,,,27,22,26,2,1,0,5,0,24,1
+2023/2024,Male,disabled,WAEC,Polytechnic,lga,Shira,North East,Bauchi,Shira,,,27,22,26,2,1,0,5,0,24,1
+2023/2024,Male,disabled,WAEC,Polytechnic,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,75,60,73,8,7,0,15,0,65,1
+2023/2024,Male,disabled,WAEC,University,lga,Misau,North East,Bauchi,Misau,,,71,56,70,18,17,0,15,0,52,1
+2023/2024,Male,disabled,WAEC,University,lga,Ningi,North East,Bauchi,Ningi,,,62,49,57,14,13,0,13,0,43,1
+2023/2024,Male,disabled,WAEC,University,lga,Shira,North East,Bauchi,Shira,,,130,104,126,25,23,0,26,0,101,2
+2023/2024,Male,disabled,WAEC,University,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,65,51,58,11,10,0,14,0,47,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Alkaleri,North East,Bauchi,Alkaleri,,,138,116,142,0,0,0,22,0,142,0
+2024/2025,Female,all,NECO,Polytechnic,lga,Bauchi,North East,Bauchi,Bauchi,,,715,590,677,120,0,10,125,0,557,120
+2024/2025,Female,all,NECO,Polytechnic,lga,Bogoro,North East,Bauchi,Bogoro,,,368,305,444,69,27,3,63,0,375,42
+2024/2025,Female,all,NECO,Polytechnic,lga,Damban,North East,Bauchi,Damban,,,399,287,376,54,53,0,112,0,322,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Darazo,North East,Bauchi,Darazo,,,581,521,549,79,78,0,60,0,470,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Dass,North East,Bauchi,Dass,,,440,312,329,47,46,0,128,0,282,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Gamawa,North East,Bauchi,Gamawa,,,493,384,499,50,49,0,109,0,449,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Ganjuwa,North East,Bauchi,Ganjuwa,,,962,807,956,92,91,0,155,0,864,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Giade,North East,Bauchi,Giade,,,621,445,527,50,49,0,176,0,477,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,625,541,531,51,50,0,84,10,480,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Jama'Are,North East,Bauchi,Jama'Are,,,494,420,497,38,37,0,74,0,459,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Katagum,North East,Bauchi,Katagum,,,1148,858,1084,78,77,0,290,0,1006,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Kirfi,North East,Bauchi,Kirfi,,,658,554,621,45,44,0,104,0,576,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Misau,North East,Bauchi,Misau,,,1232,987,1039,75,74,0,245,0,964,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Ningi,North East,Bauchi,Ningi,,,897,690,836,52,51,0,207,0,784,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Shira,North East,Bauchi,Shira,,,938,787,936,69,68,0,151,0,867,1
+2024/2025,Female,all,NECO,Polytechnic,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,2601,2041,2302,264,184,6,560,0,2038,80
+2024/2025,Female,all,NECO,Polytechnic,lga,Toro,North East,Bauchi,Toro,,,3729,2988,3461,341,236,8,741,0,3120,105
+2024/2025,Female,all,NECO,Polytechnic,lga,Warji,North East,Bauchi,Warji,,,1265,995,1075,103,71,3,270,0,972,32
+2024/2025,Female,all,NECO,Polytechnic,lga,Zaki,North East,Bauchi,Zaki,,,1962,1584,1764,160,111,4,378,0,1604,49
+2024/2025,Male,all,NABTEB,College of Education,lga,Alkaleri,North East,Bauchi,Alkaleri,,,7,0,0,0,0,0,7,0,0,0
+2024/2025,Male,all,NABTEB,College of Education,lga,Bauchi,North East,Bauchi,Bauchi,,,498,419,316,0,0,0,79,103,316,0
+2024/2025,Male,all,NABTEB,College of Education,lga,Bogoro,North East,Bauchi,Bogoro,,,293,215,142,0,0,0,78,73,142,0
+2024/2025,Male,all,NABTEB,College of Education,lga,Damban,North East,Bauchi,Damban,,,257,212,111,0,0,0,45,101,111,0
+2024/2025,Male,all,NABTEB,College of Education,lga,Darazo,North East,Bauchi,Darazo,,,520,365,220,12,0,1,155,145,208,12
+2024/2025,Male,all,NABTEB,College of Education,lga,Dass,North East,Bauchi,Dass,,,344,289,195,63,0,5,55,94,132,63
+2024/2025,Male,all,NABTEB,College of Education,lga,Gamawa,North East,Bauchi,Gamawa,,,366,329,207,67,0,5,37,122,140,67
+2024/2025,Male,all,NABTEB,College of Education,lga,Ganjuwa,North East,Bauchi,Ganjuwa,,,779,599,377,122,0,10,180,222,255,122
+2024/2025,Male,all,NABTEB,College of Education,lga,Giade,North East,Bauchi,Giade,,,477,395,208,67,0,5,82,187,141,67
+2024/2025,Male,all,NABTEB,College of Education,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,553,399,210,68,0,5,154,189,142,68
+2024/2025,Male,all,NABTEB,College of Education,lga,Jama'Are,North East,Bauchi,Jama'Are,,,444,329,157,51,0,4,115,172,106,51
+2024/2025,Male,all,NABTEB,College of Education,lga,Katagum,North East,Bauchi,Katagum,,,908,768,321,104,0,8,140,447,217,104
+2024/2025,Male,all,NABTEB,College of Education,lga,Kirfi,North East,Bauchi,Kirfi,,,564,468,184,60,0,5,96,284,124,60
+2024/2025,Male,all,NABTEB,College of Education,lga,Misau,North East,Bauchi,Misau,,,982,782,435,100,1,8,200,347,335,99
+2024/2025,Male,all,NABTEB,College of Education,lga,Ningi,North East,Bauchi,Ningi,,,764,597,322,70,69,0,167,275,252,1
+2024/2025,Male,all,NABTEB,College of Education,lga,Shira,North East,Bauchi,Shira,,,862,634,332,72,71,0,228,302,260,1
+2024/2025,Male,all,NABTEB,College of Education,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,2171,1767,818,177,176,0,404,949,641,1
+2024/2025,Male,all,NABTEB,College of Education,lga,Toro,North East,Bauchi,Toro,,,3204,2515,1054,235,234,0,689,1461,819,1
+2024/2025,Male,all,NABTEB,College of Education,lga,Warji,North East,Bauchi,Warji,,,1050,809,380,138,137,0,241,429,242,1
+2024/2025,Male,all,NABTEB,College of Education,lga,Zaki,North East,Bauchi,Zaki,,,1670,1339,658,213,212,0,331,681,445,1
+2024/2025,Male,all,WAEC,University,lga,Alkaleri,North East,Bauchi,Alkaleri,,,119,107,168,179,178,0,12,0,0,1
+2024/2025,Male,all,WAEC,University,lga,Bauchi,North East,Bauchi,Bauchi,,,349,274,548,428,427,0,75,0,120,1
+2024/2025,Male,all,WAEC,University,lga,Bogoro,North East,Bauchi,Bogoro,,,201,180,284,152,151,0,21,0,132,1
+2024/2025,Male,all,WAEC,University,lga,Damban,North East,Bauchi,Damban,,,157,141,285,119,118,0,16,0,166,1
+2024/2025,Male,all,WAEC,University,lga,Darazo,North East,Bauchi,Darazo,,,230,206,488,174,173,0,24,0,314,1
+2024/2025,Male,all,WAEC,University,lga,Dass,North East,Bauchi,Dass,,,138,124,292,104,103,0,14,0,188,1
+2024/2025,Male,all,WAEC,University,lga,Gamawa,North East,Bauchi,Gamawa,,,199,131,310,110,109,0,68,0,200,1
+2024/2025,Male,all,WAEC,University,lga,Ganjuwa,North East,Bauchi,Ganjuwa,,,400,314,675,202,201,0,86,0,473,1
+2024/2025,Male,all,WAEC,University,lga,Giade,North East,Bauchi,Giade,,,221,198,460,111,110,0,23,0,349,1
+2024/2025,Male,all,WAEC,University,lga,Itas/Gadau,North East,Bauchi,Itas/Gadau,,,222,200,524,112,111,0,22,0,412,1
+2024/2025,Male,all,WAEC,University,lga,Jama'Are,North East,Bauchi,Jama'Are,,,167,150,393,139,115,2,17,0,254,24
+2024/2025,Male,all,WAEC,University,lga,Katagum,North East,Bauchi,Katagum,,,395,306,852,343,236,9,89,0,509,107
+2024/2025,Male,all,WAEC,University,lga,Kirfi,North East,Bauchi,Kirfi,,,260,175,552,197,135,5,85,0,355,62
+2024/2025,Male,all,WAEC,University,lga,Misau,North East,Bauchi,Misau,,,435,352,923,329,226,8,83,0,594,103
+2024/2025,Male,all,WAEC,University,lga,Ningi,North East,Bauchi,Ningi,,,304,273,645,230,158,6,31,0,415,72
+2024/2025,Male,all,WAEC,University,lga,Shira,North East,Bauchi,Shira,,,313,282,672,237,163,6,31,0,435,74
+2024/2025,Male,all,WAEC,University,lga,Tafawa-Balewa,North East,Bauchi,Tafawa-Balewa,,,897,693,2020,583,400,15,204,0,1437,183
+2024/2025,Male,all,WAEC,University,lga,Toro,North East,Bauchi,Toro,,,1241,1029,2935,750,516,19,212,0,2185,234
+2024/2025,Male,all,WAEC,University,lga,Warji,North East,Bauchi,Warji,,,375,337,955,227,156,6,38,0,728,71
+2024/2025,Male,all,WAEC,University,lga,Zaki,North East,Bauchi,Zaki,,,698,523,1481,352,242,9,175,0,1129,110
