@@ -4431,9 +4431,9 @@ export default function AccessCoverageDashboard({
     };
   }, [sessionRows, infrastructureDrill, renderFilters.state]);
 
+  const levelComboChartLevel = scopedBreakdownLevel(renderFilters);
   const buildLevelComboChart = (schoolLevel: (typeof SCHOOL_LEVELS)[number], chartTitle: ChartKey): ChartBundle => {
-    const breakdownLevel: LocationLevel = renderFilters.state ? "lga" : "state";
-    const groups = aggregateBy(currentRows.filter((row) => row.school_level === schoolLevel), breakdownLevel).sort((a, b) => a.label.localeCompare(b.label));
+    const groups = aggregateBy(currentRows.filter((row) => row.school_level === schoolLevel), levelComboChartLevel).sort((a, b) => a.label.localeCompare(b.label));
     const labels = groups.map((group) => group.label);
     const displayLabels = labels.map((label) =>
       label === "Abuja Federal Capital Territory" ? "Abuja FCT" : label,
@@ -4484,11 +4484,20 @@ export default function AccessCoverageDashboard({
     };
   };
 
-  const primaryChart = useMemo(() => buildLevelComboChart("Pre-Primary/Primary", "primary"), [currentRows]);
-  const jssChart = useMemo(() => buildLevelComboChart("JSS", "jss"), [currentRows]);
-  const sssChart = useMemo(() => buildLevelComboChart("SSS", "sss"), [currentRows]);
-  const vocationalChart = useMemo(() => buildLevelComboChart("Vocational", "vocational"), [currentRows]);
-  const iqsChart = useMemo(() => buildLevelComboChart("Adult & Non-Formal", "iqs"), [currentRows]);
+  const primaryChart = useMemo(() => buildLevelComboChart("Pre-Primary/Primary", "primary"), [currentRows, levelComboChartLevel]);
+  const jssChart = useMemo(() => buildLevelComboChart("JSS", "jss"), [currentRows, levelComboChartLevel]);
+  const sssChart = useMemo(() => buildLevelComboChart("SSS", "sss"), [currentRows, levelComboChartLevel]);
+  const vocationalChart = useMemo(() => buildLevelComboChart("Vocational", "vocational"), [currentRows, levelComboChartLevel]);
+  const iqsChart = useMemo(() => buildLevelComboChart("Adult & Non-Formal", "iqs"), [currentRows, levelComboChartLevel]);
+
+  const handleLevelComboPlotClick = (event: PlotPointEvent) => {
+    const label = extractPointLabel(event);
+    if (!label) return;
+    syncFiltersForDrill(
+      levelComboChartLevel,
+      levelComboChartLevel === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label,
+    );
+  };
 
   const expandedCharts: Partial<Record<ChartKey, { bundle: ChartBundle; onPlotClick?: (event: PlotPointEvent) => void }>> = {
     densityMapPublic: { bundle: { data: [], layout: buildCommonLayout(10) } },
@@ -4560,11 +4569,11 @@ export default function AccessCoverageDashboard({
         applyChartDrill(infrastructureDrill, setInfrastructureDrill, label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label);
       },
     },
-    primary: { bundle: primaryChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(primaryChart.level, primaryChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
-    jss: { bundle: jssChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(jssChart.level, jssChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
-    sss: { bundle: sssChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(sssChart.level, sssChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
-    vocational: { bundle: vocationalChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(vocationalChart.level, vocationalChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
-    iqs: { bundle: iqsChart, onPlotClick: (event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(iqsChart.level, iqsChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); } },
+    primary: { bundle: primaryChart, onPlotClick: handleLevelComboPlotClick },
+    jss: { bundle: jssChart, onPlotClick: handleLevelComboPlotClick },
+    sss: { bundle: sssChart, onPlotClick: handleLevelComboPlotClick },
+    vocational: { bundle: vocationalChart, onPlotClick: handleLevelComboPlotClick },
+    iqs: { bundle: iqsChart, onPlotClick: handleLevelComboPlotClick },
   };
 
   const expandedChart = expandState ? (expandedCharts[expandState.key] ?? null) : null;
@@ -4843,11 +4852,11 @@ export default function AccessCoverageDashboard({
       </section>
       <section className="space-y-4" id="access-coverage-ict">
         <SectionTitle id="access-coverage-ict-anchor" title="ICT / Infrastructure" />
-        <ChartCard title="Pre/Primary Schools and Student Enrollment by State" explanation={CHART_HELP.primary} bundle={primaryChart} onExpand={() => setExpandState({ key: "primary", title: "Pre/Primary Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(primaryChart.level, primaryChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="JSS Schools and Student Enrollment by State" explanation={CHART_HELP.jss} bundle={jssChart} onExpand={() => setExpandState({ key: "jss", title: "JSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(jssChart.level, jssChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="SSS Schools and Student Enrollment by State" explanation={CHART_HELP.sss} bundle={sssChart} onExpand={() => setExpandState({ key: "sss", title: "SSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(sssChart.level, sssChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="Tech/Voc Schools and Student Enrollment by State" explanation={CHART_HELP.vocational} bundle={vocationalChart} onExpand={() => setExpandState({ key: "vocational", title: "Tech/Voc Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(vocationalChart.level, vocationalChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
-        <ChartCard title="Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" explanation={CHART_HELP.iqs} bundle={iqsChart} onExpand={() => setExpandState({ key: "iqs", title: "Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={(event) => { const label = extractPointLabel(event); if (!label) return; syncFiltersForDrill(iqsChart.level, iqsChart.level === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label); }} />
+        <ChartCard title="Pre/Primary Schools and Student Enrollment by State" explanation={CHART_HELP.primary} bundle={primaryChart} onExpand={() => setExpandState({ key: "primary", title: "Pre/Primary Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={handleLevelComboPlotClick} />
+        <ChartCard title="JSS Schools and Student Enrollment by State" explanation={CHART_HELP.jss} bundle={jssChart} onExpand={() => setExpandState({ key: "jss", title: "JSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={handleLevelComboPlotClick} />
+        <ChartCard title="SSS Schools and Student Enrollment by State" explanation={CHART_HELP.sss} bundle={sssChart} onExpand={() => setExpandState({ key: "sss", title: "SSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={handleLevelComboPlotClick} />
+        <ChartCard title="Tech/Voc Schools and Student Enrollment by State" explanation={CHART_HELP.vocational} bundle={vocationalChart} onExpand={() => setExpandState({ key: "vocational", title: "Tech/Voc Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={handleLevelComboPlotClick} />
+        <ChartCard title="Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" explanation={CHART_HELP.iqs} bundle={iqsChart} onExpand={() => setExpandState({ key: "iqs", title: "Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={handleLevelComboPlotClick} />
         <div className="grid gap-4 lg:grid-cols-2">
           {computerDrillChart ? (
             <div className="relative overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
