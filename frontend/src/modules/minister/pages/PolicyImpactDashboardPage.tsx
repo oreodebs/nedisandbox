@@ -737,6 +737,18 @@ export default function PolicyImpactDashboard({
     return true;
   }), [rows, filters.session, filters.gender, filters.institution_type, filters.tertiary_institution,
        filters.programme_cluster, filters.discipline_group, filters.programme, disabilityMode]);
+
+  const effectiveZoneDrill = useMemo<DrillState>(() => ({
+    zone: (zoneDrill.zone ?? filters.zone) || undefined,
+    state: (zoneDrill.state ?? filters.state) || undefined,
+    lga: (zoneDrill.lga ?? filters.lga) || undefined,
+  }), [zoneDrill, filters.zone, filters.state, filters.lga]);
+
+  const effectiveStateDrill = useMemo<DrillState>(() => ({
+    zone: (stateDrill.zone ?? filters.zone) || undefined,
+    state: (stateDrill.state ?? filters.state) || undefined,
+    lga: (stateDrill.lga ?? filters.lga) || undefined,
+  }), [stateDrill, filters.zone, filters.state, filters.lga]);
   const previousRows = useMemo(() => {
     if (!previousSession) return [] as PolicyImpactRow[];
     return rows.filter((row) => {
@@ -758,6 +770,7 @@ export default function PolicyImpactDashboard({
   const filteredLoanRows = useMemo(
     () =>
       loanRows.filter((row) => {
+        if (filters.session && row.session !== filters.session) return false;
         if (filters.zone && row.zone !== filters.zone) return false;
         if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
         if (filters.lga && row.lga !== filters.lga) return false;
@@ -896,25 +909,25 @@ export default function PolicyImpactDashboard({
   // Zone chart: starts from drillBaseRows, scopes by drill path only
   const zoneScopedRows = useMemo(() => {
     return drillBaseRows.filter((row) => {
-      if (zoneDrill.zone && row.zone !== zoneDrill.zone) return false;
-      if (zoneDrill.state && row.state !== zoneDrill.state) return false;
-      if (zoneDrill.lga && row.lga !== zoneDrill.lga) return false;
+      if (effectiveZoneDrill.zone && row.zone !== effectiveZoneDrill.zone) return false;
+      if (effectiveZoneDrill.state && row.state !== effectiveZoneDrill.state) return false;
+      if (effectiveZoneDrill.lga && row.lga !== effectiveZoneDrill.lga) return false;
       return true;
     });
-  }, [drillBaseRows, zoneDrill]);
+  }, [drillBaseRows, effectiveZoneDrill]);
 
   // State chart: starts from drillBaseRows, scopes by stateDrill path only
   const stateScopedRows = useMemo(() => {
     return drillBaseRows.filter((row) => {
-      if (stateDrill.zone && row.zone !== stateDrill.zone) return false;
-      if (stateDrill.state && row.state !== stateDrill.state) return false;
-      if (stateDrill.lga && row.lga !== stateDrill.lga) return false;
+      if (effectiveStateDrill.zone && row.zone !== effectiveStateDrill.zone) return false;
+      if (effectiveStateDrill.state && row.state !== effectiveStateDrill.state) return false;
+      if (effectiveStateDrill.lga && row.lga !== effectiveStateDrill.lga) return false;
       return true;
     });
-  }, [drillBaseRows, stateDrill]);
+  }, [drillBaseRows, effectiveStateDrill]);
 
-  const zoneLevel = zoneDrill.lga ? "institution" : zoneDrill.state ? "lga" : zoneDrill.zone ? "state" : "zone";
-  const stateLevel = stateDrill.lga ? "institution" : stateDrill.state ? "lga" : "state";
+  const zoneLevel = effectiveZoneDrill.lga ? "institution" : effectiveZoneDrill.state ? "lga" : effectiveZoneDrill.zone ? "state" : "zone";
+  const stateLevel = effectiveStateDrill.lga ? "institution" : effectiveStateDrill.state ? "lga" : "state";
 
   const zoneRows = useMemo(() => {
     if (zoneLevel === "zone") return groupedBy(drillBaseRows, (row) => row.zone).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
@@ -1205,8 +1218,8 @@ export default function PolicyImpactDashboard({
     const grouped = LOAN_DISCIPLINE_ORDER
       .map((group) => ({
         label: group,
-        approved: filteredLoanRows.filter((row) => row.discipline_group === group).reduce((sum, row) => sum + safeNum(row.loan_approved), 0),
-        disbursed: filteredLoanRows.filter((row) => row.discipline_group === group).reduce((sum, row) => sum + safeNum(row.loan_disbursed), 0),
+        approved: filteredLoanRows.filter((row) => normaliseDisciplineGroup(row.discipline_group) === group).reduce((sum, row) => sum + safeNum(row.loan_approved), 0),
+        disbursed: filteredLoanRows.filter((row) => normaliseDisciplineGroup(row.discipline_group) === group).reduce((sum, row) => sum + safeNum(row.loan_disbursed), 0),
       }))
       .filter((row) => row.approved > 0 || row.disbursed > 0);
     return {

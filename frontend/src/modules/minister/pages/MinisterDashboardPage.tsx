@@ -283,6 +283,19 @@ function normalizeTransitionGapBand(value: string): string {
   return value;
 }
 
+function normalizePolicyDisciplineGroup(value: string): string {
+  const normalized = value.trim();
+  if (normalized === "Arts" || normalized === "Arts / Humanities") return "ART";
+  if (
+    normalized === "Business / Administration / Law" ||
+    normalized === "Communication / Media" ||
+    normalized === "Languages"
+  ) {
+    return "Social Sciences";
+  }
+  return normalized;
+}
+
 function performanceExamBody(row: PerformanceFilterSeed): string {
   const direct = typeof row.exam_body === "string" ? row.exam_body.trim() : "";
   if (direct) return direct;
@@ -770,7 +783,7 @@ export default function MinisterDashboardPage({
       .filter((row) => (filters.institution_type ? row.institution_type === filters.institution_type : true))
       .filter((row) => (filters.tertiary_institution ? row.tertiary_institution === filters.tertiary_institution : true))
       .filter((row) => (filters.programme_cluster ? row.programme_cluster === filters.programme_cluster : true))
-      .filter((row) => (filters.discipline_group ? row.discipline_group === filters.discipline_group : true))
+      .filter((row) => (filters.discipline_group ? normalizePolicyDisciplineGroup(row.discipline_group) === filters.discipline_group : true))
       .filter((row) => (filters.programme ? row.programme === filters.programme : true));
   }, [policyImpactSeedRows, filters.session, filters.zone, filters.state, filters.lga, filters.gender, filters.institution_type, filters.tertiary_institution, filters.programme_cluster, filters.discipline_group, filters.programme]);
 
@@ -1009,9 +1022,9 @@ export default function MinisterDashboardPage({
   policyInstitutions.sort((a, b) => a.localeCompare(b));
   const policyProgrammeClusters = Array.from(new Set(policyScopedRows.map((row) => row.programme_cluster).filter(Boolean))) as string[];
   policyProgrammeClusters.sort((a, b) => a.localeCompare(b));
-  const policyDisciplineGroups = Array.from(new Set(policyScopedRows.filter((row) => (filters.programme_cluster ? row.programme_cluster === filters.programme_cluster : true)).map((row) => row.discipline_group).filter(Boolean))) as string[];
+  const policyDisciplineGroups = Array.from(new Set(policyScopedRows.filter((row) => (filters.programme_cluster ? row.programme_cluster === filters.programme_cluster : true)).map((row) => normalizePolicyDisciplineGroup(row.discipline_group)).filter(Boolean))) as string[];
   policyDisciplineGroups.sort((a, b) => a.localeCompare(b));
-  const policyProgrammes = Array.from(new Set(policyScopedRows.filter((row) => (filters.programme_cluster ? row.programme_cluster === filters.programme_cluster : true)).filter((row) => (filters.discipline_group ? row.discipline_group === filters.discipline_group : true)).map((row) => row.programme).filter(Boolean))) as string[];
+  const policyProgrammes = Array.from(new Set(policyScopedRows.filter((row) => (filters.programme_cluster ? row.programme_cluster === filters.programme_cluster : true)).filter((row) => (filters.discipline_group ? normalizePolicyDisciplineGroup(row.discipline_group) === filters.discipline_group : true)).map((row) => row.programme).filter(Boolean))) as string[];
   policyProgrammes.sort((a, b) => a.localeCompare(b));
 
   const sessionWindow = getDashboardSessionWindow(
