@@ -114,15 +114,14 @@ const GAP_BANDS: Array<MinisterFilters["gap_band"]> = ["1-year", "2-year", "3-5-
 const EXAM_BODIES: Array<MinisterFilters["exam_body"]> = ["WAEC", "NECO", "NABTEB"];
 const CATEGORY_LABELS: Record<CategoryKey, string> = {
   general_overview: "General Overview",
-  basic_secondary: "Basic & Secondary",
+  basic_secondary: "Basic and Senior Secondary",
   transition: "General Transition",
   performance: "Performance",
   policy_impact: "Policy Impact",
 };
 
 const DASHBOARD_TABS: Array<{ key: CategoryKey; label: string }> = [
-  { key: "general_overview", label: "Overview" },
-  { key: "basic_secondary", label: "Basic & Secondary" },
+  { key: "basic_secondary", label: "Basic and Senior Secondary" },
   { key: "transition", label: "Transition" },
   { key: "performance", label: "Performance" },
   { key: "policy_impact", label: "Policy Impact" },
@@ -444,7 +443,10 @@ export default function MinisterDashboardPage({
     getRole() === "STATE_ADMIN" && Boolean(assignedStateScope);
   const [searchParams, setSearchParams] = useSearchParams();
   const tabParam = searchParams.get("tab") as CategoryKey | null;
-  const category: CategoryKey = tabParam && tabParam in CATEGORY_LABELS ? tabParam : "general_overview";
+  const category: CategoryKey =
+    tabParam && tabParam !== "general_overview" && tabParam in CATEGORY_LABELS
+      ? tabParam
+      : "basic_secondary";
 
   const setCategory = (key: CategoryKey) => {
     if (key === "basic_secondary") {

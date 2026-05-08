@@ -15,7 +15,6 @@ import AdminSystemPage from "../modules/admin/pages/AdminSystemPage";
 import AdminUsersPage from "../modules/admin/pages/AdminUsersPage";
 import MinisterDashboardPage from "../modules/minister/pages/MinisterDashboardPage";
 import ForgotPasswordPage from "../pages/ForgotPasswordPage";
-import LoginPage from "../pages/LoginPage";
 import NotFoundPage from "../pages/NotFoundPage";
 import PasswordTokenPage from "../pages/PasswordTokenPage";
 import SettingsPage from "../pages/SettingsPage";
@@ -48,13 +47,12 @@ function ScrollToTop() {
 }
 
 function RequireAuth({ children }: { children: ReactNode }) {
-  if (!isAuthed()) return <Navigate to="/login" replace />;
+  if (!isAuthed()) return <Navigate to="/minister" replace />;
   return <>{children}</>;
 }
 
 function HomeRedirect() {
-  if (!isAuthed()) return <Navigate to="/login" replace />;
-  return <Navigate to={homeRouteForRole()} replace />;
+  return <Navigate to="/minister" replace />;
 }
 
 function RequireSystemAdmin({ children }: { children: ReactNode }) {
@@ -78,13 +76,8 @@ export default function App() {
     logoutDummy();
     setAuthed(false);
     if (redirectToLogin) {
-      navigate("/login", { replace: true });
+      navigate("/minister", { replace: true });
     }
-  };
-
-  const login = () => {
-    setAuthed(true);
-    navigate(homeRouteForRole(), { replace: true });
   };
 
   const logout = () => {
@@ -184,7 +177,6 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<HomeRedirect />} />
-        <Route path="/login" element={<LoginPage onLogin={login} />} />
         <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route
           path="/reset-password"
@@ -198,14 +190,12 @@ export default function App() {
         <Route
           path="/minister"
           element={
-            <RequireAuth>
-              <RequireMinisterPortal>
-                <MinisterDashboardPage
-                  onOpenSettings={goSettings}
-                  onLogout={logout}
-                />
-              </RequireMinisterPortal>
-            </RequireAuth>
+            <RequireMinisterPortal>
+              <MinisterDashboardPage
+                onOpenSettings={goSettings}
+                onLogout={logout}
+              />
+            </RequireMinisterPortal>
           }
         />
 
