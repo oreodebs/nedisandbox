@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { Dispatch, MouseEvent as ReactMouseEvent, ReactNode, SetStateAction } from "react";
+import type { CSSProperties, Dispatch, MouseEvent as ReactMouseEvent, ReactNode, SetStateAction } from "react";
 import Plot from "react-plotly.js";
 import type { Data as PlotlyData, Layout as PlotlyLayout, Config as PlotlyConfig } from "plotly.js";
 import {
@@ -29,14 +29,9 @@ import {
 } from "../utils/refinedPageData";
 import {
   BASIC_SECONDARY_SESSIONS,
-  TRANSITION_SESSIONS,
   filterRowsBySessionWindow,
 } from "../utils/sessionWindows";
-import {
-  applyGeneralOLevelDeltaOverride,
-  applyGeneralOLevelOverride,
-  applySs3EnrollmentOverride,
-} from "../utils/metricOverrides";
+import { applySs3EnrollmentOverride } from "../utils/metricOverrides";
 
 type AccessWardRow = {
   session: string;
@@ -66,17 +61,21 @@ type AccessWardRow = {
   school?: string;
 };
 
-type TransitionDirectRow = {
+type TeacherCapacityRow = {
   session: string;
   zone: string;
   state: string;
   lga: string;
   ward: string;
-  loc_level?: string;
   school: string;
+  loc_level?: string;
   gender: string;
-  disability: string;
-  o_level_candidates: number;
+  school_type: string;
+  school_level: string;
+  class_grade: string;
+  disability?: string;
+  student_count: number;
+  teacher_count: number;
 };
 
 type PlotPoint = { x?: unknown; y?: unknown; location?: unknown; customdata?: unknown };
@@ -165,6 +164,8 @@ type MetricCard = {
   bg: string;
   icon: ReactNode;
   help: string;
+  valueType?: "count" | "ratio";
+  breakdown?: Array<{ label: string; value: number; valueType?: "count" | "ratio" }>;
   note?: string;
   prevSessionLabel?: string;
   showDelta?: boolean;
@@ -210,8 +211,6 @@ export const ACCESS_COVERAGE_SECTIONS = [
   { id: "access-coverage-ict", label: "ICT / Infrastructure" },
 ] as const;
 
-const CLASSROOM_BENCHMARK = 25;
-const UBE_CLASSROOM_BENCHMARK = 35;
 const KEY_ENTRY_LEVELS = ["Primary 1", "JSS1", "SSS1"] as const;
 const CLASS_LEVELS = [
   "K1",
@@ -229,7 +228,6 @@ const CLASS_LEVELS = [
   "SSS2",
   "SSS3",
 ] as const;
-const BASIC_ENROLLMENT_CLASS_SET = new Set<string>(CLASS_LEVELS);
 const PROGRESSION_TRANSITIONS = [
   ["K1", "K2"],
   ["K2", "Primary 1"],
@@ -248,7 +246,7 @@ const SCHOOL_LEVELS = ["Pre-Primary/Primary", "JSS", "SSS", "Vocational", "Adult
 
 const displaySchoolLevel = (value: string): string => {
   if (value === "Pre-Primary/Primary") return "Pre/Primary";
-  if (value === "Adult & Non-Formal") return "Adult & Non-Formal (IQS/IQTE)";
+  if (value === "Adult & Non-Formal") return "Non Formal";
   if (value === "Vocational") return "Tech/Voc";
   return value;
 };
@@ -284,14 +282,6 @@ const COLORS = {
   orangeEnd: "#c2410c",
   benchmark: "#ef4444",
 };
-const CARD_HELP = {
-  totalStudents: "Total Basic Enrollment shows the Word-document class-grade population in the current filtered view: K1/K2, Primary, JSS, and SSS learners.",
-  totalStudentsPrimary: "Total Formal Primary Students covers only Primary 1 to Primary 6 learners within the current national view or the active filters.",
-  totalOLevel: "Total O-Level Students is aligned to the Direct Transition total so this page matches the transition dashboard headline figure.",
-  totalSchools: "Total number of schools captured in the current national view or the active filters.",
-  totalPublicSchools: "Total number of public schools captured in the current national view or the active filters.",
-  totalPrivateSchools: "Total number of private schools captured in the current national view or the active filters.",
-};
 const CHART_HELP: Record<ChartKey, string> = {
   densityMapPublic: "Average Primary Learners per Public School shows average learner load per public primary school by state. Click a state to switch into a ranked LGA view, then use the back action to return to the map.",
   densityMapPrivate: "Average Primary Learners per Private School shows average learner load per private primary school by state. Click a state to switch into a ranked LGA view, then use the back action to return to the map.",
@@ -299,7 +289,7 @@ const CHART_HELP: Record<ChartKey, string> = {
   densityDrillPrivate: "Average Primary Learners per Private School by LGA ranks all LGAs within the selected state and uses a heat-style gradient so higher-pressure LGAs stand out immediately.",
   densityCombined: "Average Primary Learners per School (Public vs Private) shows the combined primary learner load by state. Hover reveals the overall average together with the public and private learner and school totals. Click a state to switch into the LGA breakdown.",
   densityCombinedDrill: "Average Primary Learners per School by LGA splits each LGA into public and private average learner load so you can compare the state drilldown clearly.",
-  densitySchoolLevel: "Average Primary Learners per School by School Level compares learner load per school across Pre/Primary, JSS, SSS, and Adult & Non-Formal (IQS/IQTE).",
+  densitySchoolLevel: "Average Primary Learners per School by School Level compares learner load per school across Pre/Primary, JSS, SSS, and Non Formal.",
   schoolCountState: "Public vs Private School Count by State compares actual school counts by management type. It stays scrollable and drills deeper from state to LGA so you can compare supply structure clearly.",
   schoolCountPrimaryState: "Primary Level Public vs Private School Count by State compares actual school counts across public and private school type for the pre-primary and primary pipeline only.",
   schoolCountSecondaryState: "Secondary Level Public vs Private School Count by State compares actual school counts across public and private school type for JSS and SSS together.",
@@ -317,19 +307,19 @@ const CHART_HELP: Record<ChartKey, string> = {
   progression: "Enrollment Progression Table compares each class level between the previous session and the current session so the movement is easier to read. It shows previous learners, current learners, net change, and change rate by class level.",
   keyEntryState: "Enrollment by Key Entry Level and State compares Primary 1, JSS1, and SSS1 by state using horizontal stacked bars. It stays scrollable and drills from state to LGA.",
   keyEntryGender: "Enrollment by Key Entry Level and Gender compares male and female enrollment at Primary 1, JSS1, and SSS1 so early access gaps are easy to spot.",
-  classroomZone: "National view. Learners per Classroom by Zone compares classroom pressure across zones against the UNICEF benchmark of 25 learners per classroom.",
+  classroomZone: "National view. Learners per Classroom by Zone compares classroom pressure across zones against the UBE benchmark of 35 learners per classroom.",
   classroomState: "National view. Learners per Classroom by State compares classroom pressure across states and stays scrollable. Click a state bar to drill deeper to LGA.",
   classroomPrimaryState: "Primary Level Learners per Classroom by State segments classroom pressure into Public school type and Private school type so the state picture is easier to interpret.",
   classroomSecondaryState: "Secondary Level Learners per Classroom by State segments classroom pressure into Public school type and Private school type across the formal secondary pipeline.",
   classroomType: "Learners per Classroom by School Type compares classroom pressure between public and private schools.",
-  classroomLevel: "Learners per Classroom by School Level compares classroom pressure across Pre/Primary, JSS, SSS, and Adult & Non-Formal (IQS/IQTE). Tooltip values are shown from the current national view or the active filters.",
+  classroomLevel: "Learners per Classroom by School Level compares classroom pressure across Pre/Primary, JSS, SSS, and Non Formal. Tooltip values are shown from the current national view or the active filters.",
   computerMap: "Computers vs Enrollment Size by State shows learners per computer against the UBE benchmark ratio of 3:1 at basic and post-basic school level. A lighter purple shade means better ICT access, while a darker purple shade means weaker access. Click a state to drill to LGA.",
-  infrastructureMap: "Infrastructure Score by State uses a composite readiness proxy built from usable classrooms, laboratories, computer access, water sources, handwashing facilities, toilets, and the underlying infrastructure support signal. Click a state to switch into the ranked LGA drill view. Status colours rebalance within the current view so weak pockets still show up on drilldown.",
-  primary: "Pre/Primary Schools and Student Enrollment by State compares pre/primary student enrollment with the number of schools. Bars show enrollment and the line shows school count.",
-  jss: "JSS Schools and Student Enrollment by State compares JSS enrollment with the number of JSS schools. Bars show enrollment and the line shows school count.",
-  sss: "SSS Schools and Student Enrollment by State compares SSS enrollment with the number of SSS schools. Bars show enrollment and the line shows school count.",
-  vocational: "Vocational Schools and Student Enrollment by State compares vocational enrollment with the number of vocational schools. Bars show enrollment and the line shows school count.",
-  iqs: "Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State compares adult and non-formal enrollment with the number of centres. Bars show enrollment and the line shows school count.",
+  infrastructureMap: "Functional School Infrastructure by Student Enrollment by State shows functional infrastructure as bars and student enrollment as the line. Hover shows learners per computer plus usable classrooms, laboratories, computers, water sources, handwashing facilities, and toilets as percentages.",
+  primary: "Pre/Primary Schools and Student Enrollment by State compares pre/primary student enrollment with the number of schools. Bars show school count and the line shows student enrollment.",
+  jss: "JSS Schools and Student Enrollment by State compares JSS enrollment with the number of JSS schools. Bars show school count and the line shows student enrollment.",
+  sss: "SSS Schools and Student Enrollment by State compares SSS enrollment with the number of SSS schools. Bars show school count and the line shows student enrollment.",
+  vocational: "Vocational Schools and Student Enrollment by State compares vocational enrollment with the number of vocational schools. Bars show school count and the line shows student enrollment.",
+  iqs: "Non Formal (IQS/IQTE) Schools and Student Enrollment by State compares non-formal enrollment with the number of centres. Bars show centre count and the line shows student enrollment.",
 };
 
 function safeNum(value: unknown): number {
@@ -341,11 +331,58 @@ function fmtInt(value: number): string {
   return new Intl.NumberFormat("en-NG", { maximumFractionDigits: 0 }).format(Math.round(value));
 }
 
+function fmtRatio(value: number): string {
+  if (!Number.isFinite(value) || value <= 0) return "0:1";
+  return `${new Intl.NumberFormat("en-NG", { maximumFractionDigits: 0 }).format(value)}:1`;
+}
+
+function fmtMetricValue(value: number, valueType: "count" | "ratio" = "count"): string {
+  return valueType === "ratio" ? fmtRatio(value) : fmtInt(value);
+}
+
+function schoolLevelMatches(rowLevel: string, filterLevel: string): boolean {
+  if (!filterLevel) return true;
+  if (rowLevel === filterLevel) return true;
+  if (filterLevel === "Pre-Primary/Primary") return rowLevel === "Pre/Primary";
+  if (filterLevel === "Adult & Non-Formal") return rowLevel === "Adult & Non-Formal Education";
+  return false;
+}
+
 function fmtShort(value: number): string {
   if (value >= 1_000_000_000) return `${(value / 1_000_000_000).toFixed(1)}B`;
   if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M`;
   if (value >= 1_000) return `${(value / 1_000).toFixed(1)}K`;
   return fmtInt(value);
+}
+
+function glassLabelAnnotations(
+  labels: string[],
+  values: number[],
+  yref: "y" | "y2",
+  color = COLORS.text,
+  formatValue: (value: number) => string = fmtShort,
+  stagger = true,
+): NonNullable<Partial<PlotlyLayout>["annotations"]> {
+  return values.flatMap((value, index) => {
+    if (!Number.isFinite(value) || value <= 0) return [];
+    const yshift = 7 + (stagger && index % 2 === 1 ? 12 : 0);
+    return [{
+      x: labels[index],
+      y: value,
+      xref: "x",
+      yref,
+      text: formatValue(value),
+      showarrow: false,
+      xanchor: "center",
+      yanchor: "bottom",
+      yshift,
+      font: { color, size: 10, family: "Inter, system-ui, sans-serif" },
+      bgcolor: "rgba(255,255,255,0.68)",
+      bordercolor: "rgba(15,23,42,0.16)",
+      borderwidth: 1,
+      borderpad: 1,
+    }];
+  }) as NonNullable<Partial<PlotlyLayout>["annotations"]>;
 }
 
 function fmtPct(value: number | null): string {
@@ -409,7 +446,7 @@ function EmptyState({ title }: { title: string }) {
 
 function FixedLegend({ items }: { items: LegendItem[] }) {
   return (
-    <div className="mb-3 flex flex-wrap gap-x-4 gap-y-2 text-xs text-slate-600">
+    <div className="mb-3 flex flex-nowrap gap-x-4 overflow-x-auto whitespace-nowrap text-xs text-slate-600">
       {items.map((item) => (
         <div key={`${item.label}-${item.color}`} className="inline-flex items-center gap-2">
           <span
@@ -426,8 +463,105 @@ function FixedLegend({ items }: { items: LegendItem[] }) {
   );
 }
 
+function stretchChartData(data: PlotlyData[]): PlotlyData[] {
+  return data.map((trace) => {
+    const item = trace as Record<string, unknown>;
+    if (item.type !== "bar") return trace;
+
+    return {
+      ...item,
+      constraintext: "inside",
+      cliponaxis: true,
+    } as PlotlyData;
+  });
+}
+
+const CHART_SIDE_PADDING_PX = 12;
+const HORIZONTAL_LABEL_MARGIN_PX = 92;
+const VERTICAL_AXIS_MARGIN_PX = 48;
+
+function marginValue(margin: Partial<PlotlyLayout>["margin"], key: "l" | "r" | "t" | "b", fallback: number): number {
+  const value = (margin as Record<string, unknown> | undefined)?.[key];
+  return typeof value === "number" && Number.isFinite(value) ? value : fallback;
+}
+
+function stretchChartLayout(layout: Partial<PlotlyLayout>, data: PlotlyData[]): Partial<PlotlyLayout> {
+  const hasHorizontalBars = data.some((trace) => {
+    const item = trace as Record<string, unknown>;
+    return item.type === "bar" && item.orientation === "h";
+  });
+  const xaxis = (layout.xaxis ?? {}) as Record<string, unknown>;
+  const yaxis = (layout.yaxis ?? {}) as Record<string, unknown>;
+  const leftMargin = hasHorizontalBars
+    ? Math.max(marginValue(layout.margin, "l", HORIZONTAL_LABEL_MARGIN_PX), HORIZONTAL_LABEL_MARGIN_PX)
+    : Math.max(marginValue(layout.margin, "l", VERTICAL_AXIS_MARGIN_PX), VERTICAL_AXIS_MARGIN_PX);
+  const bottomMargin = hasHorizontalBars
+    ? Math.max(marginValue(layout.margin, "b", 36), 28)
+    : Math.max(marginValue(layout.margin, "b", 56), 56);
+
+  return {
+    ...layout,
+    autosize: true,
+    margin: {
+      l: leftMargin,
+      r: Math.max(marginValue(layout.margin, "r", CHART_SIDE_PADDING_PX), CHART_SIDE_PADDING_PX),
+      t: marginValue(layout.margin, "t", 0),
+      b: bottomMargin,
+      pad: 0,
+    },
+    uniformtext: { mode: "hide", minsize: 10 },
+    xaxis: {
+      ...xaxis,
+      automargin: !hasHorizontalBars,
+      ...(hasHorizontalBars ? { rangemode: "tozero" as const } : {}),
+      ...(hasHorizontalBars ? { domain: [0, 1] as [number, number] } : {}),
+      fixedrange: false,
+    },
+    yaxis: {
+      ...yaxis,
+      automargin: false,
+      ...(hasHorizontalBars
+        ? {
+            showticklabels: true,
+            ticks: "",
+            tickfont: { color: COLORS.sub, size: 10.5 },
+            fixedrange: false,
+          }
+        : { fixedrange: false }),
+    },
+  } as Partial<PlotlyLayout>;
+}
+
+function StretchedPlot({ bundle, onClick }: { bundle: ChartBundle; onClick?: (event: PlotPointEvent) => void }) {
+  const data = stretchChartData(bundle.data);
+  const layout = stretchChartLayout(
+    {
+      ...bundle.layout,
+      showlegend: bundle.fixedLegend?.length ? false : bundle.layout.showlegend,
+    },
+    data,
+  );
+
+  return (
+    <Plot
+      data={data}
+      layout={layout}
+      config={bundle.config ?? { displayModeBar: false, responsive: true }}
+      useResizeHandler
+      style={{ display: "block", width: "100%", height: "100%" }}
+      onClick={onClick as never}
+    />
+  );
+}
+
+function PlotBody({ bundle, onClick }: { bundle: ChartBundle; onClick?: (event: PlotPointEvent) => void }) {
+  return <StretchedPlot bundle={bundle} onClick={onClick} />;
+}
+
 function MetricCardView({ item }: { item: MetricCard }) {
   const [showHelp, setShowHelp] = useState(false);
+  const [helpPanelStyle, setHelpPanelStyle] = useState<CSSProperties>({ left: -9999, top: -9999 });
+  const cardRef = useRef<HTMLDivElement | null>(null);
   const helpButtonRef = useRef<HTMLButtonElement | null>(null);
   const helpPanelRef = useRef<HTMLDivElement | null>(null);
   const rising = (item.delta ?? 0) > 0;
@@ -449,9 +583,74 @@ function MetricCardView({ item }: { item: MetricCard }) {
     return () => document.removeEventListener("mousedown", onDocumentMouseDown);
   }, [showHelp]);
 
+  useEffect(() => {
+    if (!showHelp) return undefined;
+
+    const positionHelpPanel = () => {
+      const button = helpButtonRef.current;
+      const card = cardRef.current;
+      const panel = helpPanelRef.current;
+      if (!button || !card) return;
+
+      const buttonRect = button.getBoundingClientRect();
+      const cardRect = card.getBoundingClientRect();
+      const panelWidth = panel?.offsetWidth ?? 220;
+      const panelHeight = panel?.offsetHeight ?? 96;
+      const gap = 10;
+      const margin = 12;
+      const viewportWidth = window.innerWidth;
+      const viewportHeight = window.innerHeight;
+      const clamp = (value: number, min: number, max: number) => Math.min(Math.max(value, min), max);
+      const verticalTop = clamp(
+        buttonRect.top,
+        margin,
+        Math.max(margin, viewportHeight - panelHeight - margin),
+      );
+
+      const rightLeft = cardRect.right + gap;
+      const leftLeft = cardRect.left - panelWidth - gap;
+
+      if (rightLeft + panelWidth <= viewportWidth - margin) {
+        setHelpPanelStyle({ left: rightLeft, top: verticalTop });
+        return;
+      }
+
+      if (leftLeft >= margin) {
+        setHelpPanelStyle({ left: leftLeft, top: verticalTop });
+        return;
+      }
+
+      const centeredLeft = clamp(
+        buttonRect.right - panelWidth,
+        margin,
+        Math.max(margin, viewportWidth - panelWidth - margin),
+      );
+      const aboveTop = cardRect.top - panelHeight - gap;
+      if (aboveTop >= margin) {
+        setHelpPanelStyle({ left: centeredLeft, top: aboveTop });
+        return;
+      }
+
+      setHelpPanelStyle({
+        left: centeredLeft,
+        top: clamp(cardRect.bottom + gap, margin, Math.max(margin, viewportHeight - panelHeight - margin)),
+      });
+    };
+
+    const frame = window.requestAnimationFrame(positionHelpPanel);
+    window.addEventListener("resize", positionHelpPanel);
+    window.addEventListener("scroll", positionHelpPanel, true);
+
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.removeEventListener("resize", positionHelpPanel);
+      window.removeEventListener("scroll", positionHelpPanel, true);
+    };
+  }, [showHelp]);
+
   return (
-    <div className="relative rounded-xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-md">
-      <div className="p-3">
+    <div ref={cardRef} className="relative rounded-xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-md">
+      <div className="p-2">
         <div className="flex items-start justify-between gap-2">
           <div className="flex min-w-0 items-center gap-2">
             <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg" style={{ backgroundColor: item.bg, color: item.accent }}>
@@ -476,16 +675,31 @@ function MetricCardView({ item }: { item: MetricCard }) {
             {showHelp ? (
               <div
                 ref={helpPanelRef}
-                className="absolute right-0 top-full z-30 mt-2 w-[220px] rounded-xl bg-slate-950 px-3 py-2.5 text-[11px] leading-4 text-white shadow-2xl"
+                className="pointer-events-none fixed z-[100] w-[220px] rounded-xl bg-slate-950 px-3 py-2.5 text-[11px] leading-4 text-white shadow-2xl"
+                style={helpPanelStyle}
                 onMouseEnter={() => setShowHelp(true)}
                 onMouseLeave={() => setShowHelp(false)}
               >
-                {item.help}
+                <div>{item.help}</div>
+                {item.breakdown?.length ? (
+                  <div className="mt-2 space-y-1 border-t border-white/10 pt-2">
+                    {item.breakdown.map((entry) => (
+                      <div key={entry.label} className="flex items-center justify-between gap-3">
+                        <span className="text-white/70">{entry.label}</span>
+                        <span className="font-semibold text-white">
+                          {fmtMetricValue(entry.value, entry.valueType ?? item.valueType)}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                ) : null}
               </div>
             ) : null}
           </div>
         </div>
-        <div className="mt-2 break-words text-[24px] font-bold leading-none tracking-tight text-slate-900 tabular-nums">{fmtInt(item.value)}</div>
+        <div className="mt-2 break-words text-[24px] font-bold leading-none tracking-tight text-slate-900 tabular-nums">
+          {fmtMetricValue(item.value, item.valueType)}
+        </div>
         <div className="mt-2 flex flex-wrap items-center gap-2">
           {showDelta ? (
             <div
@@ -555,27 +769,14 @@ function ChartCard({
     return () => document.removeEventListener("mousedown", onDocumentMouseDown);
   }, [showHelp]);
 
-  const plotLayout: Partial<PlotlyLayout> | undefined = bundle
-    ? {
-        ...bundle.layout,
-        showlegend: bundle.fixedLegend?.length ? false : bundle.layout.showlegend,
-      }
-    : undefined;
-
   const body = bundle ? (
-    <Plot
-      data={bundle.data}
-      layout={plotLayout ?? {}}
-      config={bundle.config ?? { displayModeBar: false, responsive: true }}
-      style={{ width: "100%", height: "100%" }}
-      onClick={onPlotClick as never}
-    />
+    <PlotBody bundle={bundle} onClick={onPlotClick} />
   ) : (
     children
   );
 
   return (
-    <div className="relative overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+    <div className="relative w-full min-w-0 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
       <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-3.5 py-2.5">
         <div className="text-sm font-bold text-slate-900">{title}</div>
         <div className="flex items-center gap-2">
@@ -623,10 +824,10 @@ function ChartCard({
         </div>
       </div>
 
-      <div className="p-3">
+      <div className="w-full px-3 py-0">
         {bundle?.fixedLegend?.length ? <FixedLegend items={bundle.fixedLegend} /> : null}
         {bundle?.scrollable ? (
-          <div className="overflow-y-auto pr-1" style={{ maxHeight: bundle.scrollMaxHeight ?? 320 }}>
+          <div className="block w-full min-w-0 overflow-y-auto" style={{ maxHeight: bundle.scrollMaxHeight ?? 320 }}>
             {body}
           </div>
         ) : (
@@ -655,12 +856,12 @@ function buildCommonLayout(height: number): Partial<PlotlyLayout> {
     paper_bgcolor: "rgba(0,0,0,0)",
     plot_bgcolor: "rgba(0,0,0,0)",
     font: { family: "Inter, system-ui, sans-serif", size: 10.5, color: COLORS.text },
-    margin: { l: 54, r: 18, t: 8, b: 46 },
+    margin: { l: 48, r: 8, t: 8, b: 46 },
     xaxis: { gridcolor: COLORS.grid, tickfont: { color: COLORS.sub } },
     yaxis: { gridcolor: COLORS.grid, tickfont: { color: COLORS.sub } },
     hoverlabel: { bgcolor: "#0b1220", font: { color: "#ffffff", size: 12 } },
     legend: { orientation: "h", x: 0, y: -0.18, font: { size: 11, color: COLORS.sub } },
-    uniformtext: { mode: "show", minsize: 10 },
+    uniformtext: { mode: "hide", minsize: 10 },
   } as Partial<PlotlyLayout>;
 }
 
@@ -917,11 +1118,6 @@ function aggregateGroupedBars(rows: AccessWardRow[], field: "gender" | "school_t
       toilets: 0,
     },
   }));
-}
-
-function computeDelta(currentValue: number, previousValue: number): number | null {
-  if (!Number.isFinite(previousValue) || previousValue <= 0) return null;
-  return ((currentValue - previousValue) / previousValue) * 100;
 }
 
 function mergeMetrics(rows: AccessWardRow[]): FacilityMetrics {
@@ -2489,7 +2685,7 @@ export default function AccessCoverageDashboard({
   disabilityMode: boolean;
 }) {
   const [wardRows, setWardRows] = useState<AccessWardRow[]>([]);
-  const [transitionRows, setTransitionRows] = useState<TransitionDirectRow[]>([]);
+  const [teacherRows, setTeacherRows] = useState<TeacherCapacityRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -2545,10 +2741,11 @@ export default function AccessCoverageDashboard({
         setLoading(true);
         setError(null);
         const depth = scopeDepthForLocation(filters);
-        const [topWardData, scopedWardData, transitionData] = await Promise.all([
+        const [topWardData, scopedWardData, topTeacherData, scopedTeacherData] = await Promise.all([
           loadRefinedFile<AccessWardRow>("pages/access_coverage/top_rollup.csv"),
           loadRefinedScopedRows<AccessWardRow>("access_coverage", filters.state, depth),
-          loadRefinedScopedRows<TransitionDirectRow>("transition_direct", filters.state, depth),
+          loadRefinedFile<TeacherCapacityRow>("pages/teacher_capacity/top_rollup.csv"),
+          loadRefinedScopedRows<TeacherCapacityRow>("teacher_capacity", filters.state, depth),
         ]);
 
         if (!active) return;
@@ -2565,8 +2762,18 @@ export default function AccessCoverageDashboard({
             ? [...filteredTopWardData, ...filteredScopedWardData]
             : filteredScopedWardData,
         );
-        setTransitionRows(
-          filterRowsBySessionWindow(transitionData, TRANSITION_SESSIONS),
+        const filteredTopTeacherData = filterRowsBySessionWindow(
+          topTeacherData,
+          BASIC_SECONDARY_SESSIONS,
+        );
+        const filteredScopedTeacherData = filterRowsBySessionWindow(
+          scopedTeacherData,
+          BASIC_SECONDARY_SESSIONS,
+        );
+        setTeacherRows(
+          filters.state
+            ? [...filteredTopTeacherData, ...filteredScopedTeacherData]
+            : filteredScopedTeacherData,
         );
         setLoadedScopeKey(requestedScopeKey);
         setLoadedLocation({
@@ -2578,7 +2785,7 @@ export default function AccessCoverageDashboard({
       } catch (loadError) {
         if (!active) return;
         setError(loadError instanceof Error ? loadError.message : "Failed to load Access & Coverage data");
-        setTransitionRows([]);
+        setTeacherRows([]);
       } finally {
         if (active) setLoading(false);
       }
@@ -2635,6 +2842,28 @@ export default function AccessCoverageDashboard({
 
   const currentRowsRaw = useMemo(() => baseRows.filter((row) => row.session === filters.session), [baseRows, filters.session]);
 
+  const teacherBaseRows = useMemo(() => {
+    return teacherRows.filter((row) => {
+      if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
+      if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
+      if (renderFilters.lga && row.lga !== renderFilters.lga) return false;
+      if (renderFilters.ward && row.ward !== renderFilters.ward) return false;
+      if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
+      if (renderFilters.gender && row.gender !== renderFilters.gender) return false;
+      if (renderFilters.school && !splitSchoolNames(row.school).includes(renderFilters.school)) return false;
+      if (renderFilters.school_type && row.school_type !== renderFilters.school_type) return false;
+      if (!schoolLevelMatches(row.school_level, renderFilters.school_level)) return false;
+      if (renderFilters.class_grade && row.class_grade !== renderFilters.class_grade) return false;
+      if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
+      return true;
+    });
+  }, [teacherRows, renderFilters, disabilityMode, expectedLocLevel]);
+
+  const currentTeacherRows = useMemo(
+    () => teacherBaseRows.filter((row) => row.session === filters.session),
+    [teacherBaseRows, filters.session],
+  );
+
   // All charts must follow the fully filtered current session view so every filter
   // and every chart drill affects every other chart consistently.
   const previousRowsRaw = useMemo(
@@ -2642,44 +2871,8 @@ export default function AccessCoverageDashboard({
     [baseRows, previousSession],
   );
 
-  const currentTransitionRowsRaw = useMemo(
-    () =>
-      transitionRows.filter((row) => {
-        if (row.session !== renderFilters.session) return false;
-        if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
-        if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
-        if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
-        if (renderFilters.lga && row.lga !== renderFilters.lga) return false;
-        if (renderFilters.ward && row.ward !== renderFilters.ward) return false;
-        if (renderFilters.school && row.school !== renderFilters.school) return false;
-        if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
-        return true;
-      }),
-    [transitionRows, renderFilters.session, renderFilters.zone, renderFilters.state, renderFilters.lga, renderFilters.ward, renderFilters.school, disabilityMode, expectedLocLevel],
-  );
-
-  const previousTransitionRowsRaw = useMemo(
-    () =>
-      previousSession
-        ? transitionRows.filter((row) => {
-            if (row.session !== previousSession) return false;
-            if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
-            if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
-            if (renderFilters.state && canonicalState(row.state) !== canonicalState(renderFilters.state)) return false;
-            if (renderFilters.lga && row.lga !== renderFilters.lga) return false;
-            if (renderFilters.ward && row.ward !== renderFilters.ward) return false;
-            if (renderFilters.school && row.school !== renderFilters.school) return false;
-            if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
-            return true;
-          })
-        : [],
-    [transitionRows, previousSession, renderFilters.zone, renderFilters.state, renderFilters.lga, renderFilters.ward, renderFilters.school, disabilityMode, expectedLocLevel],
-  );
-
   const [lastNonEmptyCurrentRows, setLastNonEmptyCurrentRows] = useState<AccessWardRow[]>([]);
   const [lastNonEmptyPreviousRows, setLastNonEmptyPreviousRows] = useState<AccessWardRow[]>([]);
-  const [lastNonEmptyCurrentTransitionRows, setLastNonEmptyCurrentTransitionRows] = useState<TransitionDirectRow[]>([]);
-  const [lastNonEmptyPreviousTransitionRows, setLastNonEmptyPreviousTransitionRows] = useState<TransitionDirectRow[]>([]);
 
   useEffect(() => {
     if (currentRowsRaw.length) setLastNonEmptyCurrentRows(currentRowsRaw);
@@ -2688,14 +2881,6 @@ export default function AccessCoverageDashboard({
   useEffect(() => {
     if (previousRowsRaw.length) setLastNonEmptyPreviousRows(previousRowsRaw);
   }, [previousRowsRaw]);
-
-  useEffect(() => {
-    if (currentTransitionRowsRaw.length) setLastNonEmptyCurrentTransitionRows(currentTransitionRowsRaw);
-  }, [currentTransitionRowsRaw]);
-
-  useEffect(() => {
-    if (previousTransitionRowsRaw.length) setLastNonEmptyPreviousTransitionRows(previousTransitionRowsRaw);
-  }, [previousTransitionRowsRaw]);
 
   const currentRows = useMemo(
     () => ((loading || scopePending) && !currentRowsRaw.length && lastNonEmptyCurrentRows.length ? lastNonEmptyCurrentRows : currentRowsRaw),
@@ -2706,21 +2891,6 @@ export default function AccessCoverageDashboard({
     () => ((loading || scopePending) && !previousRowsRaw.length && lastNonEmptyPreviousRows.length ? lastNonEmptyPreviousRows : previousRowsRaw),
     [loading, scopePending, previousRowsRaw, lastNonEmptyPreviousRows],
   );
-  const currentTransitionRows = useMemo(
-    () =>
-      (loading || scopePending) && !currentTransitionRowsRaw.length && lastNonEmptyCurrentTransitionRows.length
-        ? lastNonEmptyCurrentTransitionRows
-        : currentTransitionRowsRaw,
-    [loading, scopePending, currentTransitionRowsRaw, lastNonEmptyCurrentTransitionRows],
-  );
-  const previousTransitionRows = useMemo(
-    () =>
-      (loading || scopePending) && !previousTransitionRowsRaw.length && lastNonEmptyPreviousTransitionRows.length
-        ? lastNonEmptyPreviousTransitionRows
-        : previousTransitionRowsRaw,
-    [loading, scopePending, previousTransitionRowsRaw, lastNonEmptyPreviousTransitionRows],
-  );
-
   const uniqueSchoolFacilityCount = (rows: AccessWardRow[]): number => {
     const seen = new Map<string, number>();
     rows.forEach((row) => {
@@ -2730,159 +2900,190 @@ export default function AccessCoverageDashboard({
   };
 
   const cardMetrics = useMemo(() => {
-    let totalBasicEnrollment = 0;
-    const allSchoolCounts = new Map<string, number>();
-    const publicSchoolCounts = new Map<string, number>();
-    const privateSchoolCounts = new Map<string, number>();
-
-    currentRows.forEach((row) => {
-      const students = safeNum(row.student_count);
-      const isBasicLevel = BASIC_ENROLLMENT_CLASS_SET.has(row.class_grade);
-      if (isBasicLevel) totalBasicEnrollment += students;
-
-      trackSchoolCount(allSchoolCounts, row);
-      if (row.school_type === "Public") trackSchoolCount(publicSchoolCounts, row);
-      if (row.school_type === "Private") trackSchoolCount(privateSchoolCounts, row);
-    });
-
-    const rawTotalOLevelStudents = currentTransitionRows.reduce((sum, row) => sum + safeNum(row.o_level_candidates), 0);
-    const totalOLevelStudents = applyGeneralOLevelOverride(rawTotalOLevelStudents, renderFilters, disabilityMode);
-    const totalSchools = sumTrackedSchoolCounts(allSchoolCounts);
-    const totalPublicSchools = sumTrackedSchoolCounts(publicSchoolCounts);
-    const totalPrivateSchools = sumTrackedSchoolCounts(privateSchoolCounts);
-    const classTotal = (classGrade: string) => {
-      const total = currentRows
-        .filter((row) => row.class_grade === classGrade)
-        .reduce((sum, row) => sum + safeNum(row.student_count), 0);
-      return applySs3EnrollmentOverride(renderFilters.session, classGrade, total, renderFilters, disabilityMode);
+    const sumStudents = (predicate: (row: AccessWardRow) => boolean) =>
+      currentRows.filter(predicate).reduce((sum, row) => sum + safeNum(row.student_count), 0);
+    const countSchools = (predicate: (row: AccessWardRow) => boolean) => {
+      const seen = new Map<string, number>();
+      currentRows.filter(predicate).forEach((row) => trackSchoolCount(seen, row));
+      return sumTrackedSchoolCounts(seen);
+    };
+    const sumTeachers = (predicate: (row: TeacherCapacityRow) => boolean) =>
+      currentTeacherRows.filter(predicate).reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
+    const sumTeacherStudents = (predicate: (row: TeacherCapacityRow) => boolean) =>
+      currentTeacherRows.filter(predicate).reduce((sum, row) => sum + safeNum(row.student_count), 0);
+    const teacherRatio = (predicate: (row: TeacherCapacityRow) => boolean) => {
+      const teachers = sumTeachers(predicate);
+      if (teachers <= 0) return 0;
+      return sumTeacherStudents(predicate) / teachers;
     };
 
-    const previousTotalOLevelStudents = previousTransitionRows.reduce(
-      (sum, row) => sum + safeNum(row.o_level_candidates),
-      0,
-    );
+    const isPublic = (row: AccessWardRow | TeacherCapacityRow) => row.school_type === "Public";
+    const isPrivate = (row: AccessWardRow | TeacherCapacityRow) => row.school_type === "Private";
+    const isPrimary = (row: AccessWardRow | TeacherCapacityRow) =>
+      row.school_level === "Pre-Primary/Primary" || row.school_level === "Pre/Primary";
+    const isJss = (row: AccessWardRow | TeacherCapacityRow) => row.school_level === "JSS";
+    const isSss = (row: AccessWardRow | TeacherCapacityRow) => row.school_level === "SSS";
+    const isFormalSecondary = (row: AccessWardRow | TeacherCapacityRow) => isJss(row) || isSss(row);
+    const isVocational = (row: AccessWardRow | TeacherCapacityRow) => row.school_level === "Vocational";
+    const isNonFormal = (row: AccessWardRow | TeacherCapacityRow) =>
+      row.school_level === "Adult & Non-Formal" || row.school_level === "Adult & Non-Formal Education";
+    const isSecondaryOrAlternative = (row: AccessWardRow) =>
+      isFormalSecondary(row) || isVocational(row) || isNonFormal(row);
+    const isBasicAndSeniorSecondary = (row: AccessWardRow) => isPrimary(row) || isJss(row) || isSss(row);
+
+    const totalStudents = sumStudents(isBasicAndSeniorSecondary);
+    const totalTeachers = sumTeachers(() => true);
 
     const cards: MetricCard[] = [
       {
-        label: "Total Basic Enrollment",
-        value: totalBasicEnrollment,
+        label: "Total Students Basic & Secondary",
+        value: totalStudents,
         delta: null,
         accent: "#2563eb",
         bg: "rgba(37,99,235,0.12)",
         icon: <Users className="h-5 w-5" />,
-        help: "Total Basic Enrollment shows the Word-document class-grade population in the filtered view: K1/K2, Primary, JSS, and SSS learners. Tech/Voc and Adult & Non-Formal values are shown in their own charts.",
-        note: "K1/K2, Primary, JSS, and SSS learners.",
+        help: "Basic and senior secondary student breakdown by school ownership.",
+        breakdown: [
+          { label: "Public", value: sumStudents((row) => isBasicAndSeniorSecondary(row) && isPublic(row)) },
+          { label: "Private", value: sumStudents((row) => isBasicAndSeniorSecondary(row) && isPrivate(row)) },
+        ],
         showDelta: false,
       },
       {
-        label: "Total PRY 1 Students",
-        value: classTotal("Primary 1"),
+        label: "Total Student Pre & Primary",
+        value: sumStudents(isPrimary),
         delta: null,
         accent: "#10b981",
         bg: "rgba(16,185,129,0.12)",
         icon: <GraduationCap className="h-5 w-5" />,
-        help: "Primary 1 enrollment for the selected session and filters, sourced from the class and gender enrollment breakdown.",
-        note: "Primary 1 learners in the current filtered view.",
+        help: "Pre-primary and primary student breakdown.",
+        breakdown: [
+          { label: "Public", value: sumStudents((row) => isPrimary(row) && isPublic(row)) },
+          { label: "Private", value: sumStudents((row) => isPrimary(row) && isPrivate(row)) },
+        ],
         showDelta: false,
       },
       {
-        label: "Total PRY 3 Students",
-        value: classTotal("Primary 3"),
+        label: "Total Student JSS",
+        value: sumStudents(isJss),
         delta: null,
         accent: "#0ea5e9",
         bg: "rgba(14,165,233,0.12)",
         icon: <School className="h-5 w-5" />,
-        help: "Primary 3 enrollment for the selected session and filters, sourced from the class and gender enrollment breakdown.",
-        note: "Primary 3 learners in the current filtered view.",
+        help: "Junior secondary student breakdown.",
+        breakdown: [
+          { label: "Public", value: sumStudents((row) => isJss(row) && isPublic(row)) },
+          { label: "Private", value: sumStudents((row) => isJss(row) && isPrivate(row)) },
+        ],
         showDelta: false,
       },
       {
-        label: "Total PRY 6 Students",
-        value: classTotal("Primary 6"),
+        label: "Total Student SSS",
+        value: sumStudents(isSss),
         delta: null,
         accent: "#8b5cf6",
         bg: "rgba(139,92,246,0.12)",
         icon: <BookOpen className="h-5 w-5" />,
-        help: "Primary 6 enrollment for the selected session and filters, sourced from the class and gender enrollment breakdown.",
-        note: "Primary 6 learners in the current filtered view.",
+        help: "Senior secondary student breakdown.",
+        breakdown: [
+          { label: "Public", value: sumStudents((row) => isSss(row) && isPublic(row)) },
+          { label: "Private", value: sumStudents((row) => isSss(row) && isPrivate(row)) },
+        ],
         showDelta: false,
       },
       {
-        label: "Total JSS 1 Students",
-        value: classTotal("JSS1"),
+        label: "Total Student Non Formal",
+        value: sumStudents(isNonFormal),
         delta: null,
         accent: "#7c3aed",
         bg: "rgba(124,58,237,0.12)",
         icon: <GraduationCap className="h-5 w-5" />,
-        help: "JSS 1 enrollment for the selected session and filters, sourced from the class and gender enrollment breakdown.",
-        note: "JSS 1 learners in the current filtered view.",
+        help: "Adult and non-formal student breakdown.",
+        breakdown: [
+          { label: "Public", value: sumStudents((row) => isNonFormal(row) && isPublic(row)) },
+          { label: "Private", value: sumStudents((row) => isNonFormal(row) && isPrivate(row)) },
+        ],
         showDelta: false,
-      },
-      {
-        label: "Total SS 1 Students",
-        value: classTotal("SSS1"),
-        delta: null,
-        accent: "#0891b2",
-        bg: "rgba(8,145,178,0.12)",
-        icon: <School className="h-5 w-5" />,
-        help: "SS 1 enrollment for the selected session and filters, sourced from the class and gender enrollment breakdown.",
-        note: "SS 1 learners in the current filtered view.",
-        showDelta: false,
-      },
-
-      {
-        label: "Total O-Level Students",
-        value: totalOLevelStudents,
-        delta: applyGeneralOLevelDeltaOverride(
-          computeDelta(totalOLevelStudents, previousTotalOLevelStudents),
-          renderFilters,
-          disabilityMode,
-        ),
-        accent: "#7c3aed",
-        bg: "rgba(124,58,237,0.12)",
-        icon: <GraduationCap className="h-5 w-5" />,
-        help: "Total O-Level Students is aligned to the Direct Transition total so this page matches the transition dashboard headline figure while still showing movement versus the previous session view.",
-        prevSessionLabel: previousSession || "previous year",
-        note: "Derived from Direct Transition data for the same filters.",
-        showDelta: true,
       },
       {
         label: "Total Schools",
-        value: totalSchools,
+        value: countSchools(() => true),
         delta: null,
         accent: "#0891b2",
         bg: "rgba(8,145,178,0.12)",
         icon: <School className="h-5 w-5" />,
-        help: CARD_HELP.totalSchools,
+        help: "Breakdown by school ownership.",
+        breakdown: [
+          { label: "Private", value: countSchools(isPrivate) },
+          { label: "Public", value: countSchools(isPublic) },
+        ],
         showDelta: false,
-        note: "Unique schools represented in the filtered records.",
       },
       {
-        label: "Total Public Schools",
-        value: totalPublicSchools,
+        label: "Total Primary Schools",
+        value: countSchools(isPrimary),
         delta: null,
         accent: "#2563eb",
         bg: "rgba(37,99,235,0.12)",
         icon: <Landmark className="h-5 w-5" />,
-        help: CARD_HELP.totalPublicSchools,
+        help: "Pre-primary and primary school breakdown.",
+        breakdown: [
+          { label: "Private", value: countSchools((row) => isPrimary(row) && isPrivate(row)) },
+          { label: "Public", value: countSchools((row) => isPrimary(row) && isPublic(row)) },
+        ],
         showDelta: false,
-        note: "Public institutions contributing to the current access footprint.",
       },
       {
-        label: "Total Private Schools",
-        value: totalPrivateSchools,
+        label: "Total Secondary Schools",
+        value: countSchools(isSecondaryOrAlternative),
         delta: null,
         accent: "#f59e0b",
         bg: "rgba(245,158,11,0.14)",
         icon: <Building2 className="h-5 w-5" />,
-        help: CARD_HELP.totalPrivateSchools,
+        help: "Secondary, technical/vocational, and non-formal school breakdown.",
+        breakdown: [
+          { label: "Private", value: countSchools((row) => isFormalSecondary(row) && isPrivate(row)) },
+          { label: "Public", value: countSchools((row) => isFormalSecondary(row) && isPublic(row)) },
+          { label: "SVT", value: countSchools(isVocational) },
+          { label: "Non-Formal", value: countSchools(isNonFormal) },
+        ],
         showDelta: false,
-        note: "Private institutions represented in the current filtered view.",
+      },
+      {
+        label: "Total Teachers",
+        value: totalTeachers,
+        delta: null,
+        accent: "#0f766e",
+        bg: "rgba(15,118,110,0.12)",
+        icon: <Users className="h-5 w-5" />,
+        help: "Teacher breakdown by school level.",
+        breakdown: [
+          { label: "Primary", value: sumTeachers(isPrimary) },
+          { label: "Secondary", value: sumTeachers(isFormalSecondary) },
+        ],
+        showDelta: false,
+      },
+      {
+        label: "Teacher Ratio",
+        value: totalTeachers > 0 ? sumTeacherStudents(() => true) / totalTeachers : 0,
+        valueType: "ratio",
+        delta: null,
+        accent: "#be123c",
+        bg: "rgba(190,18,60,0.10)",
+        icon: <GraduationCap className="h-5 w-5" />,
+        help: "Learner-to-teacher ratio breakdown.",
+        breakdown: [
+          { label: "Public", value: teacherRatio(isPublic), valueType: "ratio" },
+          { label: "Private", value: teacherRatio(isPrivate), valueType: "ratio" },
+          { label: "Primary", value: teacherRatio(isPrimary), valueType: "ratio" },
+          { label: "Secondary", value: teacherRatio(isFormalSecondary), valueType: "ratio" },
+        ],
+        showDelta: false,
       },
     ];
 
     return cards;
-  }, [currentRows, previousRows, currentTransitionRows, previousTransitionRows, previousSession, renderFilters, disabilityMode]);
+  }, [currentRows, currentTeacherRows, renderFilters, disabilityMode]);
 
   const stateGroups = useMemo(() => aggregateBy(sessionRows, "state").sort((a, b) => a.label.localeCompare(b.label)), [sessionRows]);
   const zoneGroups = useMemo(() => aggregateBy(sessionRows, "zone").sort((a, b) => a.label.localeCompare(b.label)), [sessionRows]);
@@ -2984,7 +3185,7 @@ export default function AccessCoverageDashboard({
         textposition: "inside",
         insidetextanchor: "middle",
         textfont: { color: "#ffffff", size: 10 },
-        hovertemplate: `${metric === "schools" ? "Public schools" : "Public students"}<br>%{y}: %{x:,}<extra></extra>`,
+        hovertemplate: `${metric === "schools" ? "Public schools" : "Public students"}<br>%{y}: %{x:,.0f}<extra></extra>`,
         cliponaxis: false,
       },
       {
@@ -2998,7 +3199,7 @@ export default function AccessCoverageDashboard({
         textposition: "inside",
         insidetextanchor: "middle",
         textfont: { color: "#ffffff", size: 10 },
-        hovertemplate: `${metric === "schools" ? "Private schools" : "Private students"}<br>%{y}: %{x:,}<extra></extra>`,
+        hovertemplate: `${metric === "schools" ? "Private schools" : "Private students"}<br>%{y}: %{x:,.0f}<extra></extra>`,
         cliponaxis: false,
       },
     ];
@@ -3015,7 +3216,7 @@ export default function AccessCoverageDashboard({
           ...buildCommonLayout(height),
           barmode: "stack",
           showlegend: !isScrollable,
-          margin: { l: 130, r: 24, t: 12, b: 70 },
+          margin: { l: 92, r: 8, t: 12, b: 70 },
           yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
           xaxis: { gridcolor: COLORS.grid, tickfont: { color: COLORS.sub } },
         },
@@ -3064,9 +3265,9 @@ export default function AccessCoverageDashboard({
           text: publicValues.map((value) => fmtShort(value)),
           textposition: "inside",
           insidetextanchor: "middle",
-          constraintext: "none",
+          constraintext: "inside",
           textfont: { color: "#ffffff", size: 11 },
-          hovertemplate: "Public<br>%{x}: %{y:,}<extra></extra>",
+          hovertemplate: "Public<br>%{x}: %{y:,.0f}<extra></extra>",
           cliponaxis: false,
         },
         {
@@ -3078,16 +3279,16 @@ export default function AccessCoverageDashboard({
           text: privateValues.map((value) => fmtShort(value)),
           textposition: "inside",
           insidetextanchor: "middle",
-          constraintext: "none",
+          constraintext: "inside",
           textfont: { color: "#431407", size: 11 },
-          hovertemplate: "Private<br>%{x}: %{y:,}<extra></extra>",
+          hovertemplate: "Private<br>%{x}: %{y:,.0f}<extra></extra>",
           cliponaxis: false,
         },
       ],
       layout: {
         ...buildCommonLayout(350),
         barmode: "group",
-        margin: { l: 52, r: 22, t: 12, b: 56 },
+        margin: { l: 48, r: 8, t: 12, b: 56 },
       },
     };
   }, [currentRows]);
@@ -3173,7 +3374,7 @@ export default function AccessCoverageDashboard({
         textposition: "inside",
         insidetextanchor: "middle",
         textfont: { color: "#ffffff", size: 10 },
-        hovertemplate: `Public school type<br>%{y}: %{x:,}<extra></extra>`,
+        hovertemplate: `Public school type<br>%{y}: %{x:,.0f}<extra></extra>`,
         cliponaxis: false,
       },
       {
@@ -3187,7 +3388,7 @@ export default function AccessCoverageDashboard({
         textposition: "inside",
         insidetextanchor: "middle",
         textfont: { color: "#ffffff", size: 10 },
-        hovertemplate: `Private school type<br>%{y}: %{x:,}<extra></extra>`,
+        hovertemplate: `Private school type<br>%{y}: %{x:,.0f}<extra></extra>`,
         cliponaxis: false,
       },
     ];
@@ -3199,7 +3400,7 @@ export default function AccessCoverageDashboard({
         layout: {
           ...buildCommonLayout(height),
           barmode: "stack",
-          margin: { l: 120, r: 24, t: 10, b: 60 },
+          margin: { l: 92, r: 8, t: 10, b: 60 },
           yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
         },
         scrollable: isScrollable,
@@ -3258,7 +3459,7 @@ export default function AccessCoverageDashboard({
         textposition: "inside",
         insidetextanchor: "middle",
         textfont: { color: "#ffffff", size: 10 },
-        hovertemplate: `Male<br>%{y}: %{x:,}<extra></extra>`,
+        hovertemplate: `Male<br>%{y}: %{x:,.0f}<extra></extra>`,
         cliponaxis: false,
       },
       {
@@ -3272,7 +3473,7 @@ export default function AccessCoverageDashboard({
         textposition: "inside",
         insidetextanchor: "middle",
         textfont: { color: "#ffffff", size: 10 },
-        hovertemplate: `Female<br>%{y}: %{x:,}<extra></extra>`,
+        hovertemplate: `Female<br>%{y}: %{x:,.0f}<extra></extra>`,
         cliponaxis: false,
       },
     ];
@@ -3282,7 +3483,7 @@ export default function AccessCoverageDashboard({
       layout: {
         ...buildCommonLayout(height),
         barmode: "stack",
-        margin: { l: 120, r: 24, t: 10, b: 60 },
+        margin: { l: 92, r: 8, t: 10, b: 60 },
         yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
       },
       scrollable: isScrollable,
@@ -3370,7 +3571,7 @@ export default function AccessCoverageDashboard({
         textfont: { color: "#ffffff", size: 12.5 },
         insidetextanchor: "middle",
         customdata: labels,
-        hovertemplate: "<b>%{customdata}</b><br>Public - Male: %{x:,}<extra></extra>",
+        hovertemplate: "<b>%{customdata}</b><br>Public - Male: %{x:,.0f}<extra></extra>",
         cliponaxis: false,
       },
       {
@@ -3386,7 +3587,7 @@ export default function AccessCoverageDashboard({
         textfont: { color: "#0f172a", size: 12 },
         insidetextanchor: "middle",
         customdata: labels,
-        hovertemplate: "<b>%{customdata}</b><br>Public - Female: %{x:,}<extra></extra>",
+        hovertemplate: "<b>%{customdata}</b><br>Public - Female: %{x:,.0f}<extra></extra>",
         cliponaxis: false,
       },
       {
@@ -3402,7 +3603,7 @@ export default function AccessCoverageDashboard({
         textfont: { color: "#ffffff", size: 12.5 },
         insidetextanchor: "middle",
         customdata: labels,
-        hovertemplate: "<b>%{customdata}</b><br>Private - Male: %{x:,}<extra></extra>",
+        hovertemplate: "<b>%{customdata}</b><br>Private - Male: %{x:,.0f}<extra></extra>",
         cliponaxis: false,
       },
       {
@@ -3418,7 +3619,7 @@ export default function AccessCoverageDashboard({
         textfont: { color: "#431407", size: 12 },
         insidetextanchor: "middle",
         customdata: labels,
-        hovertemplate: "<b>%{customdata}</b><br>Private - Female: %{x:,}<extra></extra>",
+        hovertemplate: "<b>%{customdata}</b><br>Private - Female: %{x:,.0f}<extra></extra>",
         cliponaxis: false,
       },
     ];
@@ -3432,7 +3633,7 @@ export default function AccessCoverageDashboard({
           barmode: "stack",
           bargap: 0.12,
           bargroupgap: 0.03,
-          margin: { l: 118, r: 22, t: 10, b: 86 },
+          margin: { l: 92, r: 8, t: 10, b: 86 },
           xaxis: {
             tickfont: { color: COLORS.sub },
             gridcolor: COLORS.grid,
@@ -3496,7 +3697,7 @@ export default function AccessCoverageDashboard({
           text: values.map((value) => Math.round(value).toString()),
           textposition: "inside",
           insidetextanchor: "middle",
-          constraintext: "none",
+          constraintext: "inside",
           textfont: { color: "#ffffff", size: 11 },
           cliponaxis: false,
           customdata: groups.map((group) => [fmtInt(group.students), fmtInt(group.schools), Math.round(group.value)]),
@@ -3506,7 +3707,7 @@ export default function AccessCoverageDashboard({
       ],
       layout: {
         ...buildCommonLayout(height),
-        margin: { l: 125, r: 26, t: 10, b: 52 },
+        margin: { l: 92, r: 8, t: 10, b: 52 },
         yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
       },
       scrollable: labels.length > 10,
@@ -3606,7 +3807,7 @@ export default function AccessCoverageDashboard({
       layout: {
         ...buildCommonLayout(height),
         barmode: "stack",
-        margin: { l: 125, r: 26, t: 10, b: 52 },
+        margin: { l: 92, r: 8, t: 10, b: 52 },
         yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
       },
       scrollable: labels.length > 10,
@@ -3658,7 +3859,7 @@ export default function AccessCoverageDashboard({
           text: groups.map((group) => Math.round(group.value).toString()),
           textposition: "inside",
           insidetextanchor: "middle",
-          constraintext: "none",
+          constraintext: "inside",
           textfont: { color: "#ffffff", size: 11 },
           hovertemplate: "<b>%{x}</b><br>Average learners per school: %{y:,.0f}<extra></extra>",
           cliponaxis: false,
@@ -3668,7 +3869,7 @@ export default function AccessCoverageDashboard({
       layout: {
         ...buildCommonLayout(360),
         showlegend: false,
-        margin: { l: 52, r: 20, t: 12, b: 84 },
+        margin: { l: 48, r: 8, t: 12, b: 84 },
       },
     };
   }, [currentRows]);
@@ -3751,7 +3952,7 @@ export default function AccessCoverageDashboard({
         layout: {
           ...buildCommonLayout(height),
           barmode: "stack",
-          margin: { l: 124, r: 24, t: 12, b: 64 },
+          margin: { l: 92, r: 8, t: 12, b: 64 },
           yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
         },
         scrollable: isScrollable,
@@ -3760,8 +3961,6 @@ export default function AccessCoverageDashboard({
         fixedLegend: [
           { label: "Public school type", color: COLORS.public },
           { label: "Private school type", color: COLORS.private },
-          { label: `UNICEF Benchmark (${Math.round(CLASSROOM_BENCHMARK)}:1)`, color: COLORS.benchmark, dashed: true },
-          { label: `UBE Benchmark (${Math.round(UBE_CLASSROOM_BENCHMARK)}:1)`, color: COLORS.private, dashed: true },
         ],
         expandedWidthClass: "max-w-[920px]",
       },
@@ -3848,7 +4047,7 @@ export default function AccessCoverageDashboard({
       data: [...lineTraces, ...labelTraces],
       layout: {
         ...buildCommonLayout(390),
-        margin: { l: 64, r: 22, t: 14, b: 48 },
+        margin: { l: 56, r: 8, t: 14, b: 48 },
         showlegend: false,
         hovermode: "x unified",
         xaxis: {
@@ -3926,7 +4125,7 @@ export default function AccessCoverageDashboard({
         textposition: "inside",
         insidetextanchor: "middle",
         textfont: { size: 10, color: "#ffffff" },
-        hovertemplate: `${entryLevel}<br>%{y}: %{x:,}<extra></extra>`,
+        hovertemplate: `${entryLevel}<br>%{y}: %{x:,.0f}<extra></extra>`,
         cliponaxis: false,
       };
     });
@@ -3942,7 +4141,7 @@ export default function AccessCoverageDashboard({
           ...buildCommonLayout(height),
           barmode: "stack",
           showlegend: !isScrollable,
-          margin: { l: 130, r: 24, t: 12, b: 70 },
+          margin: { l: 92, r: 8, t: 12, b: 70 },
           yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
         },
         scrollable: isScrollable,
@@ -3982,9 +4181,9 @@ export default function AccessCoverageDashboard({
           text: maleValues.map((value) => fmtShort(value)),
           textposition: "inside",
           insidetextanchor: "middle",
-          constraintext: "none",
+          constraintext: "inside",
           textfont: { color: "#ffffff", size: 11 },
-          hovertemplate: "Male<br>%{x}: %{y:,}<extra></extra>",
+          hovertemplate: "Male<br>%{x}: %{y:,.0f}<extra></extra>",
           cliponaxis: false,
         },
         {
@@ -3996,16 +4195,16 @@ export default function AccessCoverageDashboard({
           text: femaleValues.map((value) => fmtShort(value)),
           textposition: "inside",
           insidetextanchor: "middle",
-          constraintext: "none",
+          constraintext: "inside",
           textfont: { color: "#ffffff", size: 11 },
-          hovertemplate: "Female<br>%{x}: %{y:,}<extra></extra>",
+          hovertemplate: "Female<br>%{x}: %{y:,.0f}<extra></extra>",
           cliponaxis: false,
         },
       ],
       layout: {
         ...buildCommonLayout(300),
         barmode: "group",
-        margin: { l: 52, r: 22, t: 12, b: 56 },
+        margin: { l: 48, r: 8, t: 12, b: 56 },
       },
     };
   }, [currentRows]);
@@ -4028,7 +4227,7 @@ export default function AccessCoverageDashboard({
           text: values.map((value) => `${Math.round(value)} : 1`),
           textposition: "inside",
           insidetextanchor: "middle",
-          constraintext: "none",
+          constraintext: "inside",
           textfont: { color: "#ffffff", size: 11 },
           hovertemplate: "%{y}<br>Learners per classroom: %{customdata} : 1<extra></extra>",
           cliponaxis: false,
@@ -4036,7 +4235,7 @@ export default function AccessCoverageDashboard({
       ],
       layout: {
         ...buildCommonLayout(300),
-        margin: { l: 128, r: 28, t: 12, b: 64 },
+        margin: { l: 92, r: 8, t: 12, b: 64 },
         yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
 
       },
@@ -4062,7 +4261,7 @@ export default function AccessCoverageDashboard({
         text: values.map((value) => `${Math.round(value)} : 1`),
         textposition: "inside",
         insidetextanchor: "middle",
-        constraintext: "none",
+        constraintext: "inside",
         textfont: { color: "#ffffff", size: 11 },
         hovertemplate: "%{y}<br>Learners per classroom: %{customdata} : 1<extra></extra>",
         cliponaxis: false,
@@ -4079,7 +4278,7 @@ export default function AccessCoverageDashboard({
         layout: {
           ...buildCommonLayout(height),
           showlegend: false,
-          margin: { l: 128, r: 28, t: 12, b: 64 },
+          margin: { l: 92, r: 8, t: 12, b: 64 },
           yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
         },
         scrollable: isScrollable,
@@ -4107,7 +4306,7 @@ export default function AccessCoverageDashboard({
           text: values.map((value) => `${Math.round(value)} : 1`),
           textposition: "inside",
           insidetextanchor: "middle",
-          constraintext: "none",
+          constraintext: "inside",
           textfont: { color: "#ffffff", size: 11 },
           hovertemplate: "%{x}<br>Learners per classroom: %{customdata} : 1<extra></extra>",
           cliponaxis: false,
@@ -4116,12 +4315,8 @@ export default function AccessCoverageDashboard({
       layout: {
         ...buildCommonLayout(300),
         showlegend: false,
-        margin: { l: 52, r: 20, t: 12, b: 78 },
+        margin: { l: 48, r: 8, t: 12, b: 78 },
       },
-      fixedLegend: [
-        { label: `UNICEF Benchmark (${Math.round(CLASSROOM_BENCHMARK)}:1)`, color: COLORS.benchmark, dashed: true },
-        { label: `UBE Benchmark (${Math.round(UBE_CLASSROOM_BENCHMARK)}:1)`, color: COLORS.private, dashed: true },
-      ],
     };
   }, [currentRows]);
 
@@ -4144,14 +4339,14 @@ export default function AccessCoverageDashboard({
           marker: {
             color: labels.map((label) => {
               if (label === "Pre/Primary") return COLORS.primary;
-              if (label === "Adult & Non-Formal (IQS/IQTE)") return "#14b8a6";
+              if (label === "Non Formal") return "#14b8a6";
               return levelColor(label);
             }),
           },
           text: values.map((value) => `${Math.round(value)} : 1`),
           textposition: "inside",
           insidetextanchor: "middle",
-          constraintext: "none",
+          constraintext: "inside",
           textfont: { color: "#ffffff", size: 11 },
           hovertemplate: "%{x}<br>Learners per classroom: %{customdata} : 1<extra></extra>",
           cliponaxis: false,
@@ -4160,12 +4355,8 @@ export default function AccessCoverageDashboard({
       layout: {
         ...buildCommonLayout(355),
         showlegend: false,
-        margin: { l: 52, r: 20, t: 12, b: 84 },
+        margin: { l: 48, r: 8, t: 12, b: 84 },
       },
-      fixedLegend: [
-        { label: `UNICEF Benchmark (${Math.round(CLASSROOM_BENCHMARK)}:1)`, color: COLORS.benchmark, dashed: true },
-        { label: `UBE Benchmark (${Math.round(UBE_CLASSROOM_BENCHMARK)}:1)`, color: COLORS.private, dashed: true },
-      ],
     };
   }, [currentRows]);
 
@@ -4322,7 +4513,7 @@ export default function AccessCoverageDashboard({
           text: values.map((value) => Math.round(value).toString()),
           textposition: "inside",
           insidetextanchor: "middle",
-          constraintext: "none",
+          constraintext: "inside",
           textfont: { color: "#ffffff", size: 11 },
           cliponaxis: false,
           customdata: groups.map((group) => [fmtInt(group.students), fmtInt(group.computers), Math.round(group.value)]),
@@ -4332,7 +4523,7 @@ export default function AccessCoverageDashboard({
       ],
       layout: {
         ...buildCommonLayout(height),
-        margin: { l: 125, r: 26, t: 10, b: 52 },
+        margin: { l: 92, r: 8, t: 10, b: 52 },
         yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
       },
       scrollable: labels.length > 10,
@@ -4403,7 +4594,7 @@ export default function AccessCoverageDashboard({
             text: scores.map((value) => `${value.toFixed(1)}%`),
             textposition: "inside",
             insidetextanchor: "middle",
-            constraintext: "none",
+            constraintext: "inside",
             textfont: { color: "#ffffff", size: 11 },
             cliponaxis: false,
             customdata,
@@ -4412,7 +4603,7 @@ export default function AccessCoverageDashboard({
         ],
         layout: {
           ...buildCommonLayout(height),
-          margin: { l: level === "school" ? 180 : 130, r: 30, t: 12, b: 36 },
+          margin: { l: level === "school" ? 150 : 92, r: 8, t: 12, b: 36 },
           showlegend: false,
           xaxis: {
             title: { text: "Infrastructure readiness score (%)" },
@@ -4441,41 +4632,61 @@ export default function AccessCoverageDashboard({
     const enrollments = groups.map((group) => group.metrics.students);
     const schools = groups.map((group) => group.metrics.schools);
     const enrollmentColor = schoolLevel === "Pre-Primary/Primary" ? "#2563eb" : levelColor(schoolLevel);
+    const maxEnrollment = Math.max(...enrollments, 1);
+    const maxSchools = Math.max(...schools, 1);
     return {
       data: [
         {
           type: "bar",
-          name: "Student Enrollment",
+          name: "Number of Schools",
           x: displayLabels,
-          y: enrollments,
+          y: schools,
           marker: { color: enrollmentColor },
-          hovertemplate: "%{x}<br>Student enrollment: %{y:,.0f}<br>Schools: %{customdata:,.0f}<extra></extra>",
-          customdata: schools,
+          hovertemplate: "%{x}<br>Schools: %{y:,.0f}<br>Student enrollment: %{customdata:,.0f}<extra></extra>",
+          customdata: enrollments,
         },
         {
           type: "scatter",
           mode: "lines+markers",
-          name: "Number of Schools",
+          name: "Student Enrollment",
           x: displayLabels,
-          y: schools,
+          y: enrollments,
           yaxis: "y2",
           line: { color: COLORS.line, width: 2.5 },
-          marker: { color: COLORS.line, size: 7 },
-          hovertemplate: "%{x}<br>Schools: %{y:,.0f}<br>Student enrollment: %{customdata:,.0f}<extra></extra>",
-          customdata: enrollments,
+          marker: { color: COLORS.line, size: 8 },
+          cliponaxis: false,
+          hovertemplate: "%{x}<br>Student enrollment: %{y:,.0f}<br>Schools: %{customdata:,.0f}<extra></extra>",
+          customdata: schools,
         },
       ],
       layout: {
-        ...buildCommonLayout(320),
-        margin: { l: 58, r: 56, t: 12, b: 90 },
-        xaxis: { tickangle: -35, tickfont: { color: COLORS.sub }, categoryorder: "array", categoryarray: displayLabels },
-        yaxis: { title: { text: "Enrollment" }, tickfont: { color: COLORS.sub }, gridcolor: COLORS.grid },
-        yaxis2: {
+        ...buildCommonLayout(390),
+        margin: { l: 30, r: 18, t: 64, b: 90 },
+        bargap: 0.18,
+        bargroupgap: 0,
+        annotations: glassLabelAnnotations(displayLabels, enrollments, "y2", COLORS.text),
+        xaxis: {
+          tickangle: -35,
+          tickfont: { color: COLORS.sub, size: 10 },
+          categoryorder: "array",
+          categoryarray: displayLabels,
+          tickmode: "array",
+          tickvals: displayLabels,
+          ticktext: displayLabels,
+          range: [-0.5, Math.max(displayLabels.length - 0.5, 0.5)],
+        },
+        yaxis: {
           title: { text: "Schools" },
+          tickfont: { color: COLORS.sub },
+          gridcolor: COLORS.grid,
+          range: [0, maxSchools * 1.15],
+        },
+        yaxis2: {
           overlaying: "y",
           side: "right",
           tickfont: { color: COLORS.sub },
           showgrid: false,
+          range: [0, maxEnrollment * 1.65],
         },
         legend: { orientation: "h", x: 0, y: -0.16, font: { size: 11, color: COLORS.sub } },
       },
@@ -4483,6 +4694,116 @@ export default function AccessCoverageDashboard({
       expandedWidthClass: chartTitle === "primary" || chartTitle === "jss" || chartTitle === "sss" || chartTitle === "vocational" || chartTitle === "iqs" ? "max-w-[1080px]" : "max-w-[900px]",
     };
   };
+
+  const infrastructureCombinedChart = useMemo<ChartBundle>(() => {
+    const groups = aggregateBy(currentRows, levelComboChartLevel)
+      .map((group) => {
+        const readiness = computeInfrastructureReadiness(group.metrics);
+        const learnersPerComputer = group.metrics.computers > 0
+          ? group.metrics.students / group.metrics.computers
+          : 0;
+        return { group, readiness, learnersPerComputer };
+      })
+      .filter((item) => item.readiness.readinessIndex > 0 || item.learnersPerComputer > 0)
+      .sort((left, right) => left.group.label.localeCompare(right.group.label));
+
+    const displayLabels = groups.map(({ group }) =>
+      group.label === "Abuja Federal Capital Territory" ? "Abuja FCT" : group.label,
+    );
+    const scores = groups.map(({ readiness }) => readiness.readinessIndex);
+    const students = groups.map(({ group }) => group.metrics.students);
+    const maxStudents = Math.max(...students, 1);
+    const infrastructureBarColor = "#7c3aed";
+    const infrastructureLineColor = "#f59e0b";
+    const customdata = groups.map(({ group, readiness, learnersPerComputer: ratio }) => [
+      fmtInt(group.metrics.students),
+      fmtInt(group.metrics.schools),
+      fmtInt(group.metrics.computers),
+      readiness.usableClassroomReadiness.toFixed(1),
+      readiness.laboratoryCoverage.toFixed(1),
+      readiness.computerAccessCoverage.toFixed(1),
+      readiness.waterCoverage.toFixed(1),
+      readiness.handwashingCoverage.toFixed(1),
+      readiness.toiletCoverage.toFixed(1),
+      readiness.readinessIndex.toFixed(1),
+      Math.round(ratio).toString(),
+    ]);
+    const breakdownHover =
+      "Usable classrooms: %{customdata[3]}%<br>" +
+      "Laboratories: %{customdata[4]}%<br>" +
+      "Computers: %{customdata[5]}%<br>" +
+      "Water sources: %{customdata[6]}%<br>" +
+      "Handwashing facilities: %{customdata[7]}%<br>" +
+      "Toilets: %{customdata[8]}%";
+
+    return {
+      data: [
+        {
+          type: "bar",
+          name: "Functional School Infrastructure (%)",
+          x: displayLabels,
+          y: scores,
+          marker: { color: infrastructureBarColor },
+          customdata,
+          hovertemplate: `<b>%{x}</b><br>Functional school infrastructure: %{customdata[9]}%<br>Student enrollment: %{customdata[0]}<br>Learners per computer: %{customdata[10]}:1<br>${breakdownHover}<extra></extra>`,
+          cliponaxis: false,
+        },
+        {
+          type: "scatter",
+          mode: "lines+markers",
+          name: "Student Enrollment",
+          x: displayLabels,
+          y: students,
+          yaxis: "y2",
+          line: { color: infrastructureLineColor, width: 2.5 },
+          marker: { color: infrastructureLineColor, size: 8 },
+          customdata,
+          hovertemplate: `<b>%{x}</b><br>Student enrollment: %{customdata[0]}<br>Learners per computer: %{customdata[10]}:1<br>Functional school infrastructure: %{customdata[9]}%<br>${breakdownHover}<extra></extra>`,
+          cliponaxis: false,
+        },
+      ],
+      layout: {
+        ...buildCommonLayout(430),
+        margin: { l: 30, r: 18, t: 64, b: 90 },
+        bargap: 0.24,
+        bargroupgap: 0,
+        annotations: [
+          ...glassLabelAnnotations(displayLabels, scores, "y", infrastructureBarColor, (value) => `${value.toFixed(1)}%`, false),
+          ...glassLabelAnnotations(displayLabels, students, "y2", "#9a3412"),
+        ],
+        showlegend: false,
+        xaxis: {
+          tickangle: -35,
+          tickfont: { color: COLORS.sub, size: 10 },
+          categoryorder: "array",
+          categoryarray: displayLabels,
+          tickmode: "array",
+          tickvals: displayLabels,
+          ticktext: displayLabels,
+          range: [-0.5, Math.max(displayLabels.length - 0.5, 0.5)],
+        },
+        yaxis: {
+          title: { text: "Functional Infrastructure (%)" },
+          tickfont: { color: COLORS.sub },
+          gridcolor: COLORS.grid,
+          range: [0, 105],
+        },
+        yaxis2: {
+          overlaying: "y",
+          side: "right",
+          tickfont: { color: COLORS.sub },
+          showgrid: false,
+          range: [0, maxStudents * 1.7],
+        },
+      },
+      fixedLegend: [
+        { label: "Functional School Infrastructure (%)", color: infrastructureBarColor },
+        { label: "Student Enrollment", color: infrastructureLineColor },
+      ],
+      config: { displayModeBar: false, responsive: true },
+      expandedWidthClass: "max-w-[1080px]",
+    };
+  }, [currentRows, levelComboChartLevel]);
 
   const primaryChart = useMemo(() => buildLevelComboChart("Pre-Primary/Primary", "primary"), [currentRows, levelComboChartLevel]);
   const jssChart = useMemo(() => buildLevelComboChart("JSS", "jss"), [currentRows, levelComboChartLevel]);
@@ -4561,14 +4882,7 @@ export default function AccessCoverageDashboard({
     computerMap: computerDrillChart
       ? { bundle: computerDrillChart }
       : { bundle: { data: [], layout: buildCommonLayout(10) } },
-    infrastructureMap: {
-      bundle: infrastructureScoreChart.bundle,
-      onPlotClick: (event) => {
-        const label = extractPointLabel(event);
-        if (!label || infrastructureScoreChart.level === "school") return;
-        applyChartDrill(infrastructureDrill, setInfrastructureDrill, label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label);
-      },
-    },
+    infrastructureMap: { bundle: infrastructureCombinedChart, onPlotClick: handleLevelComboPlotClick },
     primary: { bundle: primaryChart, onPlotClick: handleLevelComboPlotClick },
     jss: { bundle: jssChart, onPlotClick: handleLevelComboPlotClick },
     sss: { bundle: sssChart, onPlotClick: handleLevelComboPlotClick },
@@ -4601,7 +4915,7 @@ export default function AccessCoverageDashboard({
         <SectionTitle id="access-coverage-main-anchor" title="Access & Coverage" />
         <div className="flex flex-nowrap items-stretch gap-3 [&>*:first-child]:min-w-0 [&>*:first-child]:flex-[1.35] [&>*:last-child]:min-w-0 [&>*:last-child]:flex-1">
           {densityCombinedDrillChart ? (
-            <div className="relative overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+            <div className="relative w-full min-w-0 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
               <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
                 <div>
                   <div className="text-sm font-bold text-slate-900">Average Primary Learners per School (Public vs Private)</div>
@@ -4628,24 +4942,14 @@ export default function AccessCoverageDashboard({
                   </button>
                 </div>
               </div>
-              <div className="p-3">
+              <div className="w-full px-3 py-0">
                 {densityCombinedDrillChart.fixedLegend?.length ? <FixedLegend items={densityCombinedDrillChart.fixedLegend} /> : null}
                 {densityCombinedDrillChart.scrollable ? (
-                  <div className="overflow-y-auto pr-1" style={{ maxHeight: densityCombinedDrillChart.scrollMaxHeight ?? 320 }}>
-                    <Plot
-                      data={densityCombinedDrillChart.data}
-                      layout={{ ...densityCombinedDrillChart.layout, showlegend: densityCombinedDrillChart.fixedLegend?.length ? false : densityCombinedDrillChart.layout.showlegend }}
-                      config={densityCombinedDrillChart.config ?? { displayModeBar: false, responsive: true }}
-                      style={{ width: "100%", height: "100%" }}
-                    />
+                  <div className="block w-full min-w-0 overflow-y-auto" style={{ maxHeight: densityCombinedDrillChart.scrollMaxHeight ?? 320 }}>
+                    <StretchedPlot bundle={densityCombinedDrillChart} />
                   </div>
                 ) : (
-                  <Plot
-                    data={densityCombinedDrillChart.data}
-                    layout={{ ...densityCombinedDrillChart.layout, showlegend: densityCombinedDrillChart.fixedLegend?.length ? false : densityCombinedDrillChart.layout.showlegend }}
-                    config={densityCombinedDrillChart.config ?? { displayModeBar: false, responsive: true }}
-                    style={{ width: "100%", height: "100%" }}
-                  />
+                  <StretchedPlot bundle={densityCombinedDrillChart} />
                 )}
               </div>
             </div>
@@ -4806,13 +5110,13 @@ export default function AccessCoverageDashboard({
         </div>
       </section>
       <section className="space-y-4" id="access-coverage-classroom">
-        <SectionTitle id="access-coverage-classroom-anchor" title="Classroom Pressure" subtitle="Benchmarks: UNICEF 25:1 · UBE 35:1" />
+        <SectionTitle id="access-coverage-classroom-anchor" title="Classroom Pressure" subtitle="Benchmark: UBE 35:1" />
         <div className="grid gap-3 lg:grid-cols-2">
           <ChartCard
-            title="Primary Level Learners per Classroom by State"
-            explanation="Primary Level Learners per Classroom by State segments classroom pressure into Public school type and Private school type so you can see how the state picture is built against both benchmarks: UNICEF 25:1 and UBE 35:1."
+            title="Primary Level Learners per Classroom by State (UBE Benchmark 35:1)"
+            explanation="Primary Level Learners per Classroom by State segments classroom pressure into Public school type and Private school type so you can see how the state picture is built against the UBE 35:1 benchmark."
             bundle={classroomPrimaryStateChart.bundle}
-            onExpand={() => setExpandState({ key: "classroomPrimaryState", title: "Primary Level Learners per Classroom by State" })}
+            onExpand={() => setExpandState({ key: "classroomPrimaryState", title: "Primary Level Learners per Classroom by State (UBE Benchmark 35:1)" })}
             onRefresh={clearLocationSelection}
             onPlotClick={(event) => {
               const label = extractPointLabel(event);
@@ -4821,10 +5125,10 @@ export default function AccessCoverageDashboard({
             }}
           />
           <ChartCard
-            title="Secondary Level Learners per Classroom by State"
-            explanation="Secondary Level Learners per Classroom by State segments classroom pressure into Public school type and Private school type so you can compare state pressure across the formal secondary pipeline against both benchmarks: UNICEF 25:1 and UBE 35:1."
+            title="Secondary Level Learners per Classroom by State (UBE Benchmark 35:1)"
+            explanation="Secondary Level Learners per Classroom by State segments classroom pressure into Public school type and Private school type so you can compare state pressure across the formal secondary pipeline against the UBE 35:1 benchmark."
             bundle={classroomSecondaryStateChart.bundle}
-            onExpand={() => setExpandState({ key: "classroomSecondaryState", title: "Secondary Level Learners per Classroom by State" })}
+            onExpand={() => setExpandState({ key: "classroomSecondaryState", title: "Secondary Level Learners per Classroom by State (UBE Benchmark 35:1)" })}
             onRefresh={clearLocationSelection}
             onPlotClick={(event) => {
               const label = extractPointLabel(event);
@@ -4835,17 +5139,17 @@ export default function AccessCoverageDashboard({
         </div>
         <div className="grid gap-3 lg:grid-cols-2">
           <ChartCard
-            title="Learners per Classroom by School Type"
-            explanation="Learners per Classroom by School Type compares classroom pressure between public and private schools against both benchmarks: UNICEF 25:1 and UBE 35:1."
+            title="Learners per Classroom by School Type (UBE Benchmark 35:1)"
+            explanation="Learners per Classroom by School Type compares classroom pressure between public and private schools against the UBE 35:1 benchmark."
             bundle={classroomTypeChart}
-            onExpand={() => setExpandState({ key: "classroomType", title: "Learners per Classroom by School Type" })}
+            onExpand={() => setExpandState({ key: "classroomType", title: "Learners per Classroom by School Type (UBE Benchmark 35:1)" })}
             onRefresh={() => undefined}
           />
           <ChartCard
-            title="Learners per Classroom by School Level"
-            explanation="Learners per Classroom by School Level compares classroom pressure across Pre/Primary, JSS, SSS, and Adult & Non-Formal (IQS/IQTE) against both benchmarks: UNICEF 25:1 and UBE 35:1."
+            title="Learners per Classroom by School Level (UBE Benchmark 35:1)"
+            explanation="Learners per Classroom by School Level compares classroom pressure across Pre/Primary, JSS, SSS, and Non Formal against the UBE 35:1 benchmark."
             bundle={classroomLevelChart}
-            onExpand={() => setExpandState({ key: "classroomLevel", title: "Learners per Classroom by School Level" })}
+            onExpand={() => setExpandState({ key: "classroomLevel", title: "Learners per Classroom by School Level (UBE Benchmark 35:1)" })}
             onRefresh={() => undefined}
           />
         </div>
@@ -4856,10 +5160,18 @@ export default function AccessCoverageDashboard({
         <ChartCard title="JSS Schools and Student Enrollment by State" explanation={CHART_HELP.jss} bundle={jssChart} onExpand={() => setExpandState({ key: "jss", title: "JSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={handleLevelComboPlotClick} />
         <ChartCard title="SSS Schools and Student Enrollment by State" explanation={CHART_HELP.sss} bundle={sssChart} onExpand={() => setExpandState({ key: "sss", title: "SSS Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={handleLevelComboPlotClick} />
         <ChartCard title="Tech/Voc Schools and Student Enrollment by State" explanation={CHART_HELP.vocational} bundle={vocationalChart} onExpand={() => setExpandState({ key: "vocational", title: "Tech/Voc Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={handleLevelComboPlotClick} />
-        <ChartCard title="Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" explanation={CHART_HELP.iqs} bundle={iqsChart} onExpand={() => setExpandState({ key: "iqs", title: "Adult & Non-Formal (IQS/IQTE) Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={handleLevelComboPlotClick} />
-        <div className="grid gap-4 lg:grid-cols-2">
+        <ChartCard title="Non Formal (IQS/IQTE) Schools and Student Enrollment by State" explanation={CHART_HELP.iqs} bundle={iqsChart} onExpand={() => setExpandState({ key: "iqs", title: "Non Formal (IQS/IQTE) Schools and Student Enrollment by State" })} onRefresh={clearLocationSelection} onPlotClick={handleLevelComboPlotClick} />
+        <ChartCard
+          title="Functional School Infrastructure by Student Enrollment by State (UBE Benchmark 3:1)"
+          explanation={CHART_HELP.infrastructureMap}
+          bundle={infrastructureCombinedChart}
+          onExpand={() => setExpandState({ key: "infrastructureMap", title: "Functional School Infrastructure by Student Enrollment by State (UBE Benchmark 3:1)" })}
+          onRefresh={clearLocationSelection}
+          onPlotClick={handleLevelComboPlotClick}
+        />
+        <div className="hidden">
           {computerDrillChart ? (
-            <div className="relative overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+            <div className="relative w-full min-w-0 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
               <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
                 <div>
                   <div className="text-sm font-bold text-slate-900">Learners per Computer by {locationLevelLabel(scopedBreakdownLevel(renderFilters, (computerDrill.state ?? renderFilters.state) || undefined))}</div>
@@ -4887,24 +5199,14 @@ export default function AccessCoverageDashboard({
                   </button>
                 </div>
               </div>
-              <div className="p-3">
+              <div className="w-full px-3 py-0">
                 {computerDrillChart.fixedLegend?.length ? <FixedLegend items={computerDrillChart.fixedLegend} /> : null}
                 {computerDrillChart.scrollable ? (
-                  <div className="overflow-y-auto pr-1" style={{ maxHeight: computerDrillChart.scrollMaxHeight ?? 320 }}>
-                    <Plot
-                      data={computerDrillChart.data}
-                      layout={{ ...computerDrillChart.layout, showlegend: computerDrillChart.fixedLegend?.length ? false : computerDrillChart.layout.showlegend }}
-                      config={computerDrillChart.config ?? { displayModeBar: false, responsive: true }}
-                      style={{ width: "100%", height: "100%" }}
-                    />
+                  <div className="block w-full min-w-0 overflow-y-auto" style={{ maxHeight: computerDrillChart.scrollMaxHeight ?? 320 }}>
+                    <StretchedPlot bundle={computerDrillChart} />
                   </div>
                 ) : (
-                  <Plot
-                    data={computerDrillChart.data}
-                    layout={{ ...computerDrillChart.layout, showlegend: computerDrillChart.fixedLegend?.length ? false : computerDrillChart.layout.showlegend }}
-                    config={computerDrillChart.config ?? { displayModeBar: false, responsive: true }}
-                    style={{ width: "100%", height: "100%" }}
-                  />
+                  <StretchedPlot bundle={computerDrillChart} />
                 )}
               </div>
             </div>
@@ -5028,23 +5330,11 @@ export default function AccessCoverageDashboard({
                 <>
                   {expandedChart.bundle.fixedLegend?.length ? <FixedLegend items={expandedChart.bundle.fixedLegend} /> : null}
                   {expandedChart.bundle.scrollable ? (
-                    <div className="overflow-y-auto pr-1" style={{ maxHeight: expandedChart.bundle.expandedMaxHeight ?? 430 }}>
-                      <Plot
-                        data={expandedChart.bundle.data}
-                        layout={{ ...expandedChart.bundle.layout, showlegend: expandedChart.bundle.fixedLegend?.length ? false : expandedChart.bundle.layout.showlegend }}
-                        config={expandedChart.bundle.config ?? { displayModeBar: false, responsive: true }}
-                        style={{ width: "100%", height: "100%" }}
-                        onClick={expandedChart.onPlotClick as never}
-                      />
+                    <div className="block w-full min-w-0 overflow-y-auto" style={{ maxHeight: expandedChart.bundle.expandedMaxHeight ?? 430 }}>
+                      <PlotBody bundle={expandedChart.bundle} onClick={expandedChart.onPlotClick} />
                     </div>
                   ) : (
-                    <Plot
-                      data={expandedChart.bundle.data}
-                      layout={{ ...expandedChart.bundle.layout, showlegend: expandedChart.bundle.fixedLegend?.length ? false : expandedChart.bundle.layout.showlegend }}
-                      config={expandedChart.bundle.config ?? { displayModeBar: false, responsive: true }}
-                      style={{ width: "100%", height: "100%" }}
-                      onClick={expandedChart.onPlotClick as never}
-                    />
+                    <PlotBody bundle={expandedChart.bundle} onClick={expandedChart.onPlotClick} />
                   )}
                 </>
               ) : null}
