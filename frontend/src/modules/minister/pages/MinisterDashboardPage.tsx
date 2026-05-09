@@ -444,7 +444,7 @@ export default function MinisterDashboardPage({
   const [searchParams, setSearchParams] = useSearchParams();
   const tabParam = searchParams.get("tab") as CategoryKey | null;
   const category: CategoryKey =
-    tabParam && tabParam !== "general_overview" && tabParam in CATEGORY_LABELS
+    tabParam && tabParam in CATEGORY_LABELS
       ? tabParam
       : "basic_secondary";
 
