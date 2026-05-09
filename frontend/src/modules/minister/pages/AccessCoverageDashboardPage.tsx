@@ -243,6 +243,14 @@ const PROGRESSION_TRANSITIONS = [
   ["SSS2", "SSS3"],
 ] as const;
 const SCHOOL_LEVELS = ["Pre-Primary/Primary", "JSS", "SSS", "Vocational", "Adult & Non-Formal"] as const;
+const ABUJA_STATE_NAME = "Abuja Federal Capital Territory";
+const ABUJA_STATE_LABEL = "Abuja FCT";
+
+const displayLocationLabel = (label: string, level?: LocationLevel | MapLevel): string =>
+  (level === "state" || level === undefined) && label === ABUJA_STATE_NAME ? ABUJA_STATE_LABEL : label;
+
+const sourceLocationLabel = (label: string): string =>
+  label === ABUJA_STATE_LABEL ? ABUJA_STATE_NAME : label;
 
 const displaySchoolLevel = (value: string): string => {
   if (value === "Pre-Primary/Primary") return "Pre/Primary";
@@ -1288,13 +1296,14 @@ function getNextChartLevel(drill: DrillState): "state" | "lga" | "ward" | "schoo
 }
 
 function buildDrillFromSelection(rows: AccessWardRow[], drill: DrillState, label: string): DrillState {
+  const selectedLabel = sourceLocationLabel(label);
   const nextLevel = getNextChartLevel(drill);
   const scopedRows = filterRowsByDrill(rows, drill);
-  if (nextLevel === "state") return scopedRows.some((row) => row.state === label) ? { state: label } : drill;
-  if (nextLevel === "lga") return scopedRows.some((row) => row.lga === label) ? { ...drill, lga: label } : drill;
-  if (nextLevel === "ward") return scopedRows.some((row) => row.ward === label) ? { ...drill, ward: label } : drill;
-  const match = scopedRows.find((row) => rowIncludesSchool(row, label));
-  return match ? { ...drill, school: label } : drill;
+  if (nextLevel === "state") return scopedRows.some((row) => row.state === selectedLabel) ? { state: selectedLabel } : drill;
+  if (nextLevel === "lga") return scopedRows.some((row) => row.lga === selectedLabel) ? { ...drill, lga: selectedLabel } : drill;
+  if (nextLevel === "ward") return scopedRows.some((row) => row.ward === selectedLabel) ? { ...drill, ward: selectedLabel } : drill;
+  const match = scopedRows.find((row) => rowIncludesSchool(row, selectedLabel));
+  return match ? { ...drill, school: selectedLabel } : drill;
 }
 
 
@@ -2936,7 +2945,7 @@ export default function AccessCoverageDashboard({
 
     const cards: MetricCard[] = [
       {
-        label: "Total Students Basic & Secondary",
+        label: "Total Students Basic & Senior Secondary",
         value: totalStudents,
         delta: null,
         accent: "#2563eb",
@@ -3090,6 +3099,7 @@ export default function AccessCoverageDashboard({
 
   const syncFiltersForDrill = (level: LocationLevel, label: string) => {
     setFilters((previous) => {
+      const resolvedLabel = level === "state" ? sourceLocationLabel(label) : label;
       if (!label) {
         // Empty = clear that level downward
         if (level === "state") return { ...previous, state: "", lga: "", ward: "", school: "" };
@@ -3099,24 +3109,24 @@ export default function AccessCoverageDashboard({
         return previous;
       }
       if (level === "state") {
-        if (previous.state === label && !previous.lga && !previous.ward) return previous;
-        return { ...previous, state: label, lga: "", ward: "", school: "" };
+        if (previous.state === resolvedLabel && !previous.lga && !previous.ward) return previous;
+        return { ...previous, state: resolvedLabel, lga: "", ward: "", school: "" };
       }
       if (level === "lga") {
-        if (previous.lga === label && !previous.ward) return previous;
-        return { ...previous, lga: label, ward: "", school: "" };
+        if (previous.lga === resolvedLabel && !previous.ward) return previous;
+        return { ...previous, lga: resolvedLabel, ward: "", school: "" };
       }
       if (level === "ward") {
-        if (previous.ward === label && !previous.school) return previous;
-        return { ...previous, ward: label, school: "" };
+        if (previous.ward === resolvedLabel && !previous.school) return previous;
+        return { ...previous, ward: resolvedLabel, school: "" };
       }
       if (level === "school") {
-        if (previous.school === label) return previous;
-        return { ...previous, school: label };
+        if (previous.school === resolvedLabel) return previous;
+        return { ...previous, school: resolvedLabel };
       }
       if (level === "zone") {
-        if (previous.zone === label && !previous.state && !previous.lga && !previous.ward) return previous;
-        return { ...previous, zone: label, state: "", lga: "", ward: "", school: "" };
+        if (previous.zone === resolvedLabel && !previous.state && !previous.lga && !previous.ward) return previous;
+        return { ...previous, zone: resolvedLabel, state: "", lga: "", ward: "", school: "" };
       }
       return previous;
     });
@@ -3156,6 +3166,7 @@ export default function AccessCoverageDashboard({
     const scopedRows = filterRowsByDrill(sessionRows, drill);
     const groups = buildStateDrillRows(drill);
     const labels = groups.map((group) => group.label);
+    const displayLabels = labels.map((label) => displayLocationLabel(label, nextLevel));
 
     const publicRows = scopedRows.filter((row) => row.school_type === "Public");
     const privateRows = scopedRows.filter((row) => row.school_type === "Private");
@@ -3178,7 +3189,7 @@ export default function AccessCoverageDashboard({
         type: "bar",
         orientation: "h",
         name: "Public",
-        y: labels,
+        y: displayLabels,
         x: publicValues,
         marker: { color: COLORS.public },
         text: publicValues.map((value) => fmtInt(value)),
@@ -3192,7 +3203,7 @@ export default function AccessCoverageDashboard({
         type: "bar",
         orientation: "h",
         name: "Private",
-        y: labels,
+        y: displayLabels,
         x: privateValues,
         marker: { color: COLORS.private },
         text: privateValues.map((value) => fmtInt(value)),
@@ -3357,6 +3368,7 @@ export default function AccessCoverageDashboard({
       .sort((left, right) => right.total - left.total);
 
     const labels = groups.map((item) => String(item.label));
+    const displayLabels = labels.map((label) => displayLocationLabel(label, level));
     const publicValues = groups.map((item) => item.publicValue);
     const privateValues = groups.map((item) => item.privateValue);
     const isScrollable = labels.length > 10;
@@ -3367,7 +3379,7 @@ export default function AccessCoverageDashboard({
         type: "bar",
         orientation: "h",
         name: "Public",
-        y: labels,
+        y: displayLabels,
         x: publicValues,
         marker: { color: COLORS.public },
         text: publicValues.map((value) => (value > 0 ? fmtInt(value) : "")),
@@ -3381,7 +3393,7 @@ export default function AccessCoverageDashboard({
         type: "bar",
         orientation: "h",
         name: "Private",
-        y: labels,
+        y: displayLabels,
         x: privateValues,
         marker: { color: COLORS.private },
         text: privateValues.map((value) => (value > 0 ? fmtInt(value) : "")),
@@ -3443,6 +3455,7 @@ export default function AccessCoverageDashboard({
       .filter((item) => item.total > 0);
 
     const labels = stateLabels.map((item) => item.state);
+    const displayLabels = labels.map((label) => displayLocationLabel(label, "state"));
     const maleValues = stateLabels.map((item) => item.maleValue);
     const femaleValues = stateLabels.map((item) => item.femaleValue);
     const isScrollable = labels.length > 10;
@@ -3452,7 +3465,7 @@ export default function AccessCoverageDashboard({
         type: "bar",
         orientation: "h",
         name: "Male",
-        y: labels,
+        y: displayLabels,
         x: maleValues,
         marker: { color: COLORS.public },
         text: maleValues.map((value) => (value > 0 ? fmtInt(value) : "")),
@@ -3466,7 +3479,7 @@ export default function AccessCoverageDashboard({
         type: "bar",
         orientation: "h",
         name: "Female",
-        y: labels,
+        y: displayLabels,
         x: femaleValues,
         marker: { color: COLORS.private },
         text: femaleValues.map((value) => (value > 0 ? fmtInt(value) : "")),
@@ -3542,6 +3555,7 @@ export default function AccessCoverageDashboard({
       .sort((left, right) => right.total - left.total);
 
     const labels = groups.map((item) => String(item.label));
+    const displayLabels = labels.map((label) => displayLocationLabel(label, level));
     const publicMaleValues = groups.map((item) => item.publicMale);
     const publicFemaleValues = groups.map((item) => item.publicFemale);
     const privateMaleValues = groups.map((item) => item.privateMale);
@@ -3570,7 +3584,7 @@ export default function AccessCoverageDashboard({
         textposition: "inside",
         textfont: { color: "#ffffff", size: 12.5 },
         insidetextanchor: "middle",
-        customdata: labels,
+        customdata: displayLabels,
         hovertemplate: "<b>%{customdata}</b><br>Public - Male: %{x:,.0f}<extra></extra>",
         cliponaxis: false,
       },
@@ -3586,7 +3600,7 @@ export default function AccessCoverageDashboard({
         textposition: "inside",
         textfont: { color: "#0f172a", size: 12 },
         insidetextanchor: "middle",
-        customdata: labels,
+        customdata: displayLabels,
         hovertemplate: "<b>%{customdata}</b><br>Public - Female: %{x:,.0f}<extra></extra>",
         cliponaxis: false,
       },
@@ -3602,7 +3616,7 @@ export default function AccessCoverageDashboard({
         textposition: "inside",
         textfont: { color: "#ffffff", size: 12.5 },
         insidetextanchor: "middle",
-        customdata: labels,
+        customdata: displayLabels,
         hovertemplate: "<b>%{customdata}</b><br>Private - Male: %{x:,.0f}<extra></extra>",
         cliponaxis: false,
       },
@@ -3618,7 +3632,7 @@ export default function AccessCoverageDashboard({
         textposition: "inside",
         textfont: { color: "#431407", size: 12 },
         insidetextanchor: "middle",
-        customdata: labels,
+        customdata: displayLabels,
         hovertemplate: "<b>%{customdata}</b><br>Private - Female: %{x:,.0f}<extra></extra>",
         cliponaxis: false,
       },
@@ -3647,7 +3661,7 @@ export default function AccessCoverageDashboard({
             autorange: "reversed",
             tickmode: "array",
             tickvals: centerPositions,
-            ticktext: labels,
+            ticktext: displayLabels,
             tickfont: { color: COLORS.sub, size: 11 },
             zeroline: false,
           },
@@ -3911,6 +3925,7 @@ export default function AccessCoverageDashboard({
       .sort((left, right) => right.totalRatio - left.totalRatio);
 
     const labels = groupedRows.map((row) => row.label);
+    const displayLabels = labels.map((label) => displayLocationLabel(label, level));
     const publicValues = groupedRows.map((row) => row.publicRatio);
     const privateValues = groupedRows.map((row) => row.privateRatio);
     const isScrollable = labels.length > 10;
@@ -3920,7 +3935,7 @@ export default function AccessCoverageDashboard({
         type: "bar",
         orientation: "h",
         name: "Public school type",
-        y: labels,
+        y: displayLabels,
         x: publicValues,
         marker: { color: COLORS.public },
         text: publicValues.map((value) => (value > 0 ? `${Math.round(value)}:1` : "")),
@@ -3934,7 +3949,7 @@ export default function AccessCoverageDashboard({
         type: "bar",
         orientation: "h",
         name: "Private school type",
-        y: labels,
+        y: displayLabels,
         x: privateValues,
         marker: { color: COLORS.private },
         text: privateValues.map((value) => (value > 0 ? `${Math.round(value)}:1` : "")),
@@ -4110,6 +4125,7 @@ export default function AccessCoverageDashboard({
     });
 
     const labels = [...grouped.keys()].sort((a, b) => a.localeCompare(b));
+    const displayLabels = labels.map((label) => displayLocationLabel(label, level));
 
     const traces: PlotlyData[] = KEY_ENTRY_LEVELS.map((entryLevel, index) => {
       const color = [COLORS.primary, COLORS.jss, COLORS.sss][index];
@@ -4118,7 +4134,7 @@ export default function AccessCoverageDashboard({
         type: "bar",
         orientation: "h",
         name: entryLevel,
-        y: labels,
+        y: displayLabels,
         x: values,
         marker: { color },
         text: values.map((value) => (value > 0 ? fmtInt(value) : "")),
@@ -4247,6 +4263,7 @@ export default function AccessCoverageDashboard({
     const level: LocationLevel = nextLevel === "state" ? "state" : "lga";
     const groups = buildStateDrillRows(classroomStateDrill);
     const labels = groups.map((group) => group.label);
+    const displayLabels = labels.map((label) => displayLocationLabel(label, level));
     const values = groups.map((group) => (group.metrics.classrooms > 0 ? group.metrics.students / group.metrics.classrooms : 0));
     const colors = groups.map((group) => ZONE_COLORS[group.zone ?? ""] ?? COLORS.primary);
 
@@ -4254,7 +4271,7 @@ export default function AccessCoverageDashboard({
       {
         type: "bar",
         orientation: "h",
-        y: labels,
+        y: displayLabels,
         x: values,
         customdata: values.map((value) => Math.round(value)),
         marker: { color: colors },
@@ -4559,7 +4576,7 @@ export default function AccessCoverageDashboard({
       }))
       .sort((a, b) => b.readinessIndex - a.readinessIndex);
 
-    const labels = rankedGroups.map((group) => group.label === "Abuja Federal Capital Territory" ? "Abuja FCT" : group.label);
+    const labels = rankedGroups.map((group) => displayLocationLabel(group.label, level));
     const scores = rankedGroups.map((group) => group.readinessIndex);
     const colors = rankedGroups.map((group) => group.band.color);
     const customdata = rankedGroups.map((group) => [
@@ -4626,9 +4643,7 @@ export default function AccessCoverageDashboard({
   const buildLevelComboChart = (schoolLevel: (typeof SCHOOL_LEVELS)[number], chartTitle: ChartKey): ChartBundle => {
     const groups = aggregateBy(currentRows.filter((row) => row.school_level === schoolLevel), levelComboChartLevel).sort((a, b) => a.label.localeCompare(b.label));
     const labels = groups.map((group) => group.label);
-    const displayLabels = labels.map((label) =>
-      label === "Abuja Federal Capital Territory" ? "Abuja FCT" : label,
-    );
+    const displayLabels = labels.map((label) => displayLocationLabel(label, levelComboChartLevel));
     const enrollments = groups.map((group) => group.metrics.students);
     const schools = groups.map((group) => group.metrics.schools);
     const enrollmentColor = schoolLevel === "Pre-Primary/Primary" ? "#2563eb" : levelColor(schoolLevel);
@@ -4707,9 +4722,7 @@ export default function AccessCoverageDashboard({
       .filter((item) => item.readiness.readinessIndex > 0 || item.learnersPerComputer > 0)
       .sort((left, right) => left.group.label.localeCompare(right.group.label));
 
-    const displayLabels = groups.map(({ group }) =>
-      group.label === "Abuja Federal Capital Territory" ? "Abuja FCT" : group.label,
-    );
+    const displayLabels = groups.map(({ group }) => displayLocationLabel(group.label, levelComboChartLevel));
     const scores = groups.map(({ readiness }) => readiness.readinessIndex);
     const students = groups.map(({ group }) => group.metrics.students);
     const maxStudents = Math.max(...students, 1);
@@ -4816,7 +4829,7 @@ export default function AccessCoverageDashboard({
     if (!label) return;
     syncFiltersForDrill(
       levelComboChartLevel,
-      levelComboChartLevel === "state" && label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label,
+      levelComboChartLevel === "state" ? sourceLocationLabel(label) : label,
     );
   };
 
@@ -5265,7 +5278,7 @@ export default function AccessCoverageDashboard({
               onPlotClick={(event) => {
                 const label = extractPointLabel(event);
                 if (!label || infrastructureScoreChart.level === "school") return;
-                applyChartDrill(infrastructureChartDrill, setInfrastructureDrill, label === "Abuja FCT" ? "Abuja Federal Capital Territory" : label);
+                applyChartDrill(infrastructureChartDrill, setInfrastructureDrill, sourceLocationLabel(label));
               }}
             />
           ) : (
