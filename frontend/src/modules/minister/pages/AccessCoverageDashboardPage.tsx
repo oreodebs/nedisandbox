@@ -4325,7 +4325,7 @@ export default function AccessCoverageDashboard({
       };
     });
 
-    const valueAnnotations: NonNullable<Partial<PlotlyLayout>["annotations"]> = sessions.flatMap((session, sessionIndex) => {
+    const valueAnnotations: NonNullable<Partial<PlotlyLayout>["annotations"]> = sessions.flatMap((_, sessionIndex) => {
       const counts = sessionCounts[sessionIndex] ?? [];
       const color = sessionColors[sessionIndex % sessionColors.length];
       const yOffset = (sessions.length - sessionIndex) * labelOffsetStep;
