@@ -59,7 +59,7 @@ function deriveInfrastructureProxies(row: AnyRow): void {
 export function canonicalState(value: unknown): string {
   const trimmed = typeof value === 'string' ? value.trim() : '';
   if (!trimmed) return '';
-  if (/^(Federal Capital Territory|Abuja Federal Capital Territory|Abuja FCT)$/i.test(trimmed)) {
+  if (/^(Federal Capital Territory|Abuja Federal Capital Territory|Abuja FCT|FCT)$/i.test(trimmed)) {
     return 'Abuja Federal Capital Territory';
   }
   return trimmed;
@@ -98,7 +98,7 @@ export function expectedLocLevelForLocation(location: ScopedLocation): RefinedLo
 function stateFileCandidates(state: string): string[] {
   const trimmed = canonicalState(state);
   if (!trimmed) return [];
-  const variants = new Set<string>([trimmed, 'Federal Capital Territory', 'Abuja Federal Capital Territory', 'Abuja FCT']);
+  const variants = new Set<string>([trimmed, 'Federal Capital Territory', 'Abuja Federal Capital Territory', 'Abuja FCT', 'FCT']);
   return Array.from(variants).map((value) =>
     value
       .replace(/[\/]+/g, ' ')

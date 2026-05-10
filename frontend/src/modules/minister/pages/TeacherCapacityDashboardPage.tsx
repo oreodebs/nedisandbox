@@ -100,6 +100,7 @@ type ChartBundle = {
   expandedMaxHeight?: number;
   expandedWidthClass?: string;
   fixedLegend?: LegendItem[];
+  titleNote?: string;
   callout?: {
     text: string;
     tone?: "info" | "warning";
@@ -132,6 +133,7 @@ type MetricCard = {
   bg: string;
   delta?: number | null;
   help?: string;
+  breakdown?: Array<{ label: string; value: string }>;
   prevSessionLabel?: string;
 };
 
@@ -139,6 +141,168 @@ type ExpandState = {
   chartKey: ExpandChartKey;
   title: string;
 } | null;
+
+
+
+type SortMode = "alphabetical" | "desc" | "asc";
+
+type SortableChartKey = Extract<ExpandChartKey, "ptrState" | "teachersState" | "studentsState" | "qualificationState">;
+
+const DEFAULT_SORT_MODE: SortMode = "alphabetical";
+const SORT_OPTIONS: Array<{ value: SortMode; label: string }> = [
+  { value: "alphabetical", label: "A-Z" },
+  { value: "desc", label: "High-Low" },
+  { value: "asc", label: "Low-High" },
+];
+const SORTABLE_CHART_KEYS: SortableChartKey[] = ["ptrState", "teachersState", "studentsState", "qualificationState"];
+const DEFAULT_SORT_MODES: Record<SortableChartKey, SortMode> = {
+  ptrState: DEFAULT_SORT_MODE,
+  teachersState: DEFAULT_SORT_MODE,
+  studentsState: DEFAULT_SORT_MODE,
+  qualificationState: DEFAULT_SORT_MODE,
+};
+
+function isSortableChartKey(chartKey: ExpandChartKey): chartKey is SortableChartKey {
+  return (SORTABLE_CHART_KEYS as ExpandChartKey[]).includes(chartKey);
+}
+
+function sortableKeyForChart(chartKey: ExpandChartKey): SortableChartKey | null {
+  if (isSortableChartKey(chartKey)) return chartKey;
+  if (chartKey === "ptrPublic" || chartKey === "ptrPrivate") return "ptrState";
+  return null;
+}
+
+const ABUJA_STATE_NAME = "Abuja Federal Capital Territory";
+const ABUJA_STATE_LABEL = "FCT";
+const STATE_ZONE_MAP: Record<string, string> = {
+  Abia: "South East",
+  Adamawa: "North East",
+  "Akwa Ibom": "South South",
+  Anambra: "South East",
+  Bauchi: "North East",
+  Bayelsa: "South South",
+  Benue: "North Central",
+  Borno: "North East",
+  "Cross River": "South South",
+  Delta: "South South",
+  Ebonyi: "South East",
+  Edo: "South South",
+  Ekiti: "South West",
+  Enugu: "South East",
+  [ABUJA_STATE_NAME]: "North Central",
+  FCT: "North Central",
+  "Abuja FCT": "North Central",
+  Abuja: "North Central",
+  Gombe: "North East",
+  Imo: "South East",
+  Jigawa: "North West",
+  Kaduna: "North West",
+  Kano: "North West",
+  Katsina: "North West",
+  Kebbi: "North West",
+  Kogi: "North Central",
+  Kwara: "North Central",
+  Lagos: "South West",
+  Nasarawa: "North Central",
+  Niger: "North Central",
+  Ogun: "South West",
+  Ondo: "South West",
+  Osun: "South West",
+  Oyo: "South West",
+  Plateau: "North Central",
+  Rivers: "South South",
+  Sokoto: "North West",
+  Taraba: "North East",
+  Yobe: "North East",
+  Zamfara: "North West",
+};
+const STATE_SOURCE_NAMES = Object.keys(STATE_ZONE_MAP).filter(
+  (state) => ![ABUJA_STATE_LABEL, "Abuja FCT", "Abuja"].includes(state),
+);
+
+function displayLocationLabel(label: string, level?: LocationLevel): string {
+  const trimmed = String(label ?? "").trim();
+  if ((level === undefined || level === "state") && [ABUJA_STATE_NAME, ABUJA_STATE_LABEL, "Abuja FCT", "Abuja"].includes(trimmed)) {
+    return ABUJA_STATE_LABEL;
+  }
+  return trimmed;
+}
+
+function sourceLocationLabel(label: string): string {
+  const trimmed = String(label ?? "").trim();
+  return [ABUJA_STATE_LABEL, "Abuja FCT", "Abuja"].includes(trimmed) ? ABUJA_STATE_NAME : trimmed;
+}
+
+function zoneForState(state: string): string {
+  return STATE_ZONE_MAP[sourceLocationLabel(state)] ?? STATE_ZONE_MAP[state] ?? "";
+}
+
+function compareLocationLabels(left: string, right: string, level?: LocationLevel): number {
+  return displayLocationLabel(left, level).localeCompare(displayLocationLabel(right, level));
+}
+
+function sortByMode<T extends { label: string }>(
+  items: T[],
+  sortMode: SortMode,
+  getValue: (item: T) => number,
+  level?: LocationLevel,
+): T[] {
+  return [...items].sort((left, right) => {
+    if (sortMode === "desc" || sortMode === "asc") {
+      const direction = sortMode === "desc" ? -1 : 1;
+      const diff = (getValue(left) - getValue(right)) * direction;
+      if (diff !== 0) return diff;
+    }
+    return compareLocationLabels(left.label, right.label, level);
+  });
+}
+
+function stateLabelsForZone(zone: string): string[] {
+  return STATE_SOURCE_NAMES.filter((state) => !zone || STATE_ZONE_MAP[state] === zone).sort((left, right) => compareLocationLabels(left, right, "state"));
+}
+
+function ensureLocationBuckets<T>(
+  bucket: Map<string, T>,
+  rows: TeacherCapacityRow[],
+  filters: MinisterFilters,
+  level: LocationLevel,
+  createValue: () => T,
+): void {
+  if (level === "state") {
+    stateLabelsForZone(filters.zone || "").forEach((state) => {
+      if (!bucket.has(state)) bucket.set(state, createValue());
+    });
+    return;
+  }
+
+  rows.forEach((row) => {
+    const label = locationLabel(row, level);
+    if (label && !bucket.has(label)) bucket.set(label, createValue());
+  });
+}
+
+function minVisibleStackValues(values: number[], totalMax: number, minShare = 0.045): number[] {
+  const minimum = totalMax > 0 ? Math.max(totalMax * minShare, 1) : 0;
+  return values.map((value) => (value > 0 ? Math.max(value, minimum) : 0));
+}
+
+function titleGrandTotal(label: string, value: number): string {
+  return `Grand Total: ${fmtInt(value)} ${label}`;
+}
+
+const ACCESS_PRIMARY_STUDENTS_TOTAL = 23_894_885;
+const ACCESS_TOTAL_STUDENTS_BASIC_SENIOR_SECONDARY = 32_263_190;
+
+function horizontalValueAxis(rangeMax: number): Record<string, unknown> {
+  return {
+    range: [0, Math.max(1, Math.ceil(rangeMax * 1.1))],
+    showgrid: false,
+    showticklabels: false,
+    zeroline: false,
+    ticks: "",
+    fixedrange: true,
+  };
+}
 
 const COLORS = {
   text: "#0f172a",
@@ -153,10 +317,10 @@ const COLORS = {
   ratio: "#0ea5e9",
   schoolLevelPrimary: "#f59e0b",
   schoolLevelSecondary: "#14b8a6",
-  schoolLevelAdult: "#8b5cf6",
+  schoolLevelNonFormal: "#8b5cf6",
 };
 
-const SCHOOL_LEVEL_ORDER = ["Pre/Primary", "JSS", "SSS", "Adult & Non-Formal (IQS/IQTE)"] as const;
+const SCHOOL_LEVEL_ORDER = ["Pre/Primary", "JSS", "SSS", "Non Formal"] as const;
 const GENDER_ORDER = ["Male", "Female"] as const;
 const SCHOOL_TYPE_ORDER = ["Public", "Private"] as const;
 const QUALIFICATION_GROUP_ORDER = [
@@ -171,19 +335,19 @@ const QUALIFICATION_GROUP_COLORS = ["#2563eb", "#10b981", "#8b5cf6", "#f59e0b", 
 
 const HELP_TEXT: Record<ExpandChartKey, string> = {
   ptrState:
-    "Primary pupil-teacher ratio ranked highest to lowest by location. The red dotted line shows the UBE primary benchmark of 35:1. Click a bar to drill deeper.",
+    "Primary pupil-teacher ratio ranked highest to lowest by location. The title note shows the UBE Pre/Primary benchmark of 35:1. Click a bar to drill deeper.",
   ptrPublic:
-    "Primary pupil-teacher ratio for public schools ranked highest to lowest by location. The red dotted line shows the UBE primary benchmark of 35:1. Click a bar to drill deeper.",
+    "Primary pupil-teacher ratio for public schools ranked highest to lowest by location. The title note shows the UBE Pre/Primary benchmark of 35:1. Click a bar to drill deeper.",
   ptrPrivate:
-    "Primary pupil-teacher ratio for private schools ranked highest to lowest by location. The red dotted line shows the UBE primary benchmark of 35:1. Click a bar to drill deeper.",
+    "Primary pupil-teacher ratio for private schools ranked highest to lowest by location. The title note shows the UBE Pre/Primary benchmark of 35:1. Click a bar to drill deeper.",
   ptrLevel:
-    "This chart compares pupil-teacher ratio across Pre/Primary, JSS, SSS, and Adult & Non-Formal (IQS/IQTE). It uses UBE benchmark references for Pre/Primary and JSS/SSS.",
+    "This chart compares pupil-teacher ratio across Pre/Primary, JSS, SSS, and Non Formal. It uses UBE benchmark references for Pre/Primary and JSS/SSS.",
   teachersState:
     "This chart shows how total teachers are split between public and private schools across locations. Click a bar to drill deeper.",
   studentsState:
     "This chart shows how total students are split between public and private schools across locations. Click a bar to drill deeper.",
   teacherSplit:
-    "This chart compares public and private teacher counts across Pre/Primary, JSS, SSS, and Adult & Non-Formal (IQS/IQTE).",
+    "This chart compares public and private teacher counts across Pre/Primary, JSS, SSS, and Non Formal.",
   qualificationGroup:
     "This chart shows the full qualification mix of teachers. Qualified means at least NCE, BEd, or both.",
   qualificationComposition:
@@ -210,7 +374,7 @@ function fmtInt(value: number): string {
 
 function fmtRatio(value: number): string {
   if (!Number.isFinite(value) || value <= 0) return "—";
-  return `${Math.round(value).toLocaleString()} : 1`;
+  return `${Math.round(value).toLocaleString()}:1`;
 }
 
 function fmtPercent(value: number): string {
@@ -232,7 +396,14 @@ function orderedUnique(values: string[], preferredOrder: readonly string[]): str
 
 function normalizeTeacherSchoolLevel(value: string): string {
   if (value === "Pre-Primary" || value === "Primary" || value === "Pre-Primary/Primary") return "Pre/Primary";
-  if (value === "Adult & Non-Formal Education" || value === "Adult & Non-Formal" || value === "Adult & Non-Formal (IQS/IQTE)") return "Adult & Non-Formal (IQS/IQTE)";
+  if (
+    value === "Adult & Non-Formal Education" ||
+    value === "Adult & Non-Formal" ||
+    value === "Adult & Non-Formal (IQS/IQTE)" ||
+    value === "Non Formal"
+  ) {
+    return "Non Formal";
+  }
   if (value === "JSS") return "JSS";
   if (value === "SSS") return "SSS";
   return value;
@@ -243,8 +414,10 @@ function fmtDelta(value: number | null | undefined): string {
   return `${Math.abs(value) < 0.05 ? 0 : Math.round(value)}%`;
 }
 
+
 function buildCommonLayout(height: number): PlotLayout {
   return {
+    autosize: true,
     height,
     paper_bgcolor: COLORS.bg,
     plot_bgcolor: COLORS.bg,
@@ -270,7 +443,21 @@ function cloneChartBundle(bundle?: ChartBundle): ChartBundle | undefined {
     layout: JSON.parse(JSON.stringify(bundle.layout)) as PlotLayout,
     config: bundle.config ? (JSON.parse(JSON.stringify(bundle.config)) as PlotConfig) : undefined,
     fixedLegend: bundle.fixedLegend?.map((item) => ({ ...item })),
+    titleNote: bundle.titleNote,
   };
+}
+
+function preparePlotData(data: PlotDatum[]): PlotDatum[] {
+  return data.map((trace) => {
+    if (trace.type !== "bar") return trace;
+
+    return {
+      ...trace,
+      insidetextanchor: trace.insidetextanchor ?? "middle",
+      constraintext: trace.constraintext ?? "none",
+      cliponaxis: trace.cliponaxis ?? false,
+    };
+  });
 }
 
 function weightedRate(numerator: number, denominator: number): number {
@@ -289,6 +476,11 @@ function locationLabel(row: TeacherCapacityRow, level: LocationLevel): string {
   if (level === "ward") return row.ward;
   return row.school;
 }
+function locationBucketLabel(row: TeacherCapacityRow, level: LocationLevel): string {
+  const label = locationLabel(row, level);
+  return level === "state" ? sourceLocationLabel(label) : label;
+}
+
 
 function filterTeacherRows(
   rows: TeacherCapacityRow[],
@@ -407,15 +599,17 @@ function syncFiltersForDrill(
 ) {
   if (!pointLabel || currentLevel === "school") return;
 
+  const sourceLabel = sourceLocationLabel(pointLabel);
+
   setFilters((previous: MinisterFilters) => {
     if (currentLevel === "state") {
-      return { ...previous, state: pointLabel, lga: "", ward: "", school: "" };
+      return { ...previous, zone: zoneForState(sourceLabel), state: sourceLabel, lga: "", ward: "", school: "" };
     }
     if (currentLevel === "lga") {
-      return { ...previous, lga: pointLabel, ward: "", school: "" };
+      return { ...previous, lga: sourceLabel, ward: "", school: "" };
     }
     if (currentLevel === "ward") {
-      return { ...previous, ward: pointLabel, school: "" };
+      return { ...previous, ward: sourceLabel, school: "" };
     }
     return previous;
   });
@@ -454,6 +648,30 @@ function FixedLegend({ items }: { items: LegendItem[] }) {
   );
 }
 
+function ChartSortControl({ value, onChange }: { value: SortMode; onChange: (value: SortMode) => void }) {
+  return (
+    <div className="inline-flex h-8 shrink-0 flex-nowrap items-center overflow-hidden whitespace-nowrap rounded-md border border-slate-200 bg-white text-[11px] font-semibold text-slate-600 shadow-sm">
+      {SORT_OPTIONS.map((option) => {
+        const active = value === option.value;
+        return (
+          <button
+            key={option.value}
+            type="button"
+            onClick={() => onChange(option.value)}
+            className={[
+              "h-8 min-w-[58px] shrink-0 whitespace-nowrap px-2.5 leading-none transition-colors",
+              active ? "bg-slate-950 text-white" : "bg-white text-slate-600 hover:bg-slate-50",
+            ].join(" ")}
+            aria-pressed={active}
+          >
+            {option.label}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
 function SectionLabel({ id }: { id: string }) {
   return <div id={id} className="scroll-mt-32 h-0" aria-hidden="true" />;
 }
@@ -475,8 +693,9 @@ function KpiCard({ item }: { item: MetricCard }) {
 
   useEffect(() => {
     if (!showHelp) return undefined;
-    const onDoc = (e: MouseEvent) => {
-      const target = e.target as Node;
+    const onDoc = (event: MouseEvent) => {
+      const target = event.target;
+      if (!(target instanceof Node)) return;
       if (helpButtonRef.current?.contains(target)) return;
       if (helpPanelRef.current?.contains(target)) return;
       setShowHelp(false);
@@ -487,7 +706,7 @@ function KpiCard({ item }: { item: MetricCard }) {
 
   return (
     <div
-      className="relative overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm"
+      className="relative overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-md"
       onMouseLeave={() => setShowHelp(false)}
     >
       <div className="p-3.5">
@@ -510,25 +729,34 @@ function KpiCard({ item }: { item: MetricCard }) {
                 onFocus={() => setShowHelp(true)}
                 onBlur={() => setShowHelp(false)}
                 className="grid h-6 w-6 place-items-center rounded-md border border-slate-200 text-slate-400 hover:bg-slate-50"
+                aria-label={`${item.label} explanation`}
               >
                 <HelpCircle className="h-3 w-3" />
               </button>
+              {showHelp ? (
+                <div
+                  ref={helpPanelRef}
+                  className="absolute right-0 top-8 z-30 w-[240px] rounded-xl bg-slate-950 px-3 py-2.5 text-[11px] leading-4 text-white shadow-2xl"
+                  onMouseEnter={() => setShowHelp(true)}
+                  onMouseLeave={() => setShowHelp(false)}
+                >
+                  <div>{item.help}</div>
+                  {item.breakdown?.length ? (
+                    <div className="mt-2 space-y-1 border-t border-white/10 pt-2">
+                      {item.breakdown.map((entry) => (
+                        <div key={`${item.label}-${entry.label}`} className="flex items-center justify-between gap-3">
+                          <span className="text-white/70">{entry.label}</span>
+                          <span className="font-semibold text-white">{entry.value}</span>
+                        </div>
+                      ))}
+                    </div>
+                  ) : null}
+                </div>
+              ) : null}
             </div>
           ) : null}
         </div>
         <div className="mt-2.5 text-[26px] font-bold leading-none tracking-tight text-slate-900 tabular-nums">{item.value}</div>
-        {showHelp && item.help ? (
-          <div
-            ref={helpPanelRef}
-            className="absolute right-3 top-full z-30 mt-2 w-[220px] rounded-xl bg-slate-950 px-3 py-2.5 text-[11px] leading-4 text-white shadow-2xl"
-            onMouseEnter={() => setShowHelp(true)}
-            onMouseLeave={() => setShowHelp(false)}
-          >
-            <div className="mb-1 text-[10px] font-bold uppercase tracking-wide text-slate-300">{item.label}</div>
-            {item.help}
-          </div>
-        ) : null}
-
         <div className="mt-2 flex flex-wrap items-center gap-2">
           {item.delta !== undefined && item.delta !== null ? (
             <div
@@ -541,7 +769,6 @@ function KpiCard({ item }: { item: MetricCard }) {
               {fmtDelta(item.delta)}
             </div>
           ) : null}
-          {item.prevSessionLabel ? <span className="text-[10px] text-slate-400">vs {item.prevSessionLabel}</span> : null}
         </div>
         {item.note ? <div className="mt-1.5 text-[11px] text-slate-400 leading-snug">{item.note}</div> : null}
       </div>
@@ -553,6 +780,7 @@ function ChartCard({
   title,
   helpKey,
   bundle,
+  sortControl,
   onRefresh,
   onExpand,
   onPlotClick,
@@ -560,6 +788,7 @@ function ChartCard({
   title: string;
   helpKey: ExpandChartKey;
   bundle?: ChartBundle;
+  sortControl?: ReactNode;
   onRefresh: () => void;
   onExpand: () => void;
   onPlotClick?: (event: PlotPointEvent) => void;
@@ -586,8 +815,12 @@ function ChartCard({
   return (
     <div className="relative min-w-0 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
       <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
-        <div className="text-sm font-bold text-slate-900">{title}</div>
+        <div className="min-w-0">
+          <div className="text-sm font-bold text-slate-900">{title}</div>
+          {bundle?.titleNote ? <div className="mt-0.5 text-[11px] font-medium leading-4 text-slate-500">{bundle.titleNote}</div> : null}
+        </div>
         <div className="flex items-center gap-2">
+          {sortControl}
           <div
             className="relative"
             onMouseEnter={() => setShowHelp(true)}
@@ -634,7 +867,7 @@ function ChartCard({
         </div>
       </div>
 
-      <div className="p-4">
+      <div className="w-full px-3 py-0">
         {bundle ? (
           <>
             {bundle.fixedLegend?.length ? <FixedLegend items={bundle.fixedLegend} /> : null}
@@ -653,19 +886,21 @@ function ChartCard({
             {bundle.scrollable ? (
               <div className="overflow-y-auto pr-1" style={{ maxHeight: bundle.scrollMaxHeight ?? 360 }}>
                 <Plot
-                  data={bundle.data as never}
+                  data={preparePlotData(bundle.data) as never}
                   layout={bundle.layout as never}
                   config={(bundle.config ?? { displayModeBar: false, responsive: true }) as never}
-                  style={{ width: "100%", height: "100%" }}
+                  useResizeHandler
+                  style={{ display: "block", width: "100%", height: "100%" }}
                   onClick={onPlotClick as never}
                 />
               </div>
             ) : (
               <Plot
-                data={bundle.data as never}
+                data={preparePlotData(bundle.data) as never}
                 layout={bundle.layout as never}
                 config={(bundle.config ?? { displayModeBar: false, responsive: true }) as never}
-                style={{ width: "100%", height: "100%" }}
+                useResizeHandler
+                style={{ display: "block", width: "100%", height: "100%" }}
                 onClick={onPlotClick as never}
               />
             )}
@@ -682,6 +917,7 @@ function ChartCard({
 function buildPupilTeacherRatioBySchoolTypeChart(
   rows: TeacherCapacityRow[],
   filters: MinisterFilters,
+  sortMode: SortMode = DEFAULT_SORT_MODE,
 ): LocationChartResult | null {
   const primaryRows = rows.filter((row) => normalizeTeacherSchoolLevel(row.school_level) === "Pre/Primary");
   const resolved = resolveLocationRows(primaryRows, filters, "state");
@@ -693,18 +929,21 @@ function buildPupilTeacherRatioBySchoolTypeChart(
     privateStudents: number;
     privateTeachers: number;
   }>();
+  const createTotals = () => ({
+    students: 0,
+    teachers: 0,
+    publicStudents: 0,
+    publicTeachers: 0,
+    privateStudents: 0,
+    privateTeachers: 0,
+  });
+
+  ensureLocationBuckets(bucket, resolved.rows, filters, resolved.level, createTotals);
 
   resolved.rows.forEach((row) => {
-    const label = locationLabel(row, resolved.level);
+    const label = locationBucketLabel(row, resolved.level);
     if (!label) return;
-    const previous = bucket.get(label) ?? {
-      students: 0,
-      teachers: 0,
-      publicStudents: 0,
-      publicTeachers: 0,
-      privateStudents: 0,
-      privateTeachers: 0,
-    };
+    const previous = bucket.get(label) ?? createTotals();
     const students = safeNum(row.student_count);
     const teachers = safeNum(row.teacher_count);
     previous.students += students;
@@ -719,9 +958,10 @@ function buildPupilTeacherRatioBySchoolTypeChart(
     bucket.set(label, previous);
   });
 
-  const grouped = Array.from(bucket.entries())
-    .map(([label, totals]) => ({
+  const grouped = sortByMode(
+    Array.from(bucket.entries()).map(([label, totals]) => ({
       label,
+      displayLabel: displayLocationLabel(label, resolved.level),
       students: totals.students,
       teachers: totals.teachers,
       ratio: weightedRatio(totals.students, totals.teachers),
@@ -731,22 +971,31 @@ function buildPupilTeacherRatioBySchoolTypeChart(
       publicTeachers: totals.publicTeachers,
       privateStudents: totals.privateStudents,
       privateTeachers: totals.privateTeachers,
-    }))
-    .filter((item) => item.teachers > 0)
-    .sort((a, b) => b.ratio - a.ratio);
+    })),
+    sortMode,
+    (item) => item.ratio,
+    resolved.level,
+  );
 
   if (!grouped.length) return null;
 
-  const height = Math.max(360, grouped.length * 28 + 96);
+  const height = Math.max(420, grouped.length * 32 + 110);
   const maxStackedRatio = Math.max(...grouped.map((item) => item.publicRatio + item.privateRatio), UBEC_PRIMARY_BENCHMARK.value, 0);
+  const publicVisualRatios = minVisibleStackValues(grouped.map((item) => item.publicRatio), maxStackedRatio, 0.08);
+  const privateVisualRatios = minVisibleStackValues(grouped.map((item) => item.privateRatio), maxStackedRatio, 0.08);
+  const maxVisualStackedRatio = Math.max(
+    ...publicVisualRatios.map((value, index) => value + (privateVisualRatios[index] ?? 0)),
+    UBEC_PRIMARY_BENCHMARK.value,
+    0,
+  );
 
   const data: PlotDatum[] = [
     {
       type: "bar",
       orientation: "h",
       name: "Public",
-      x: grouped.map((item) => item.publicRatio),
-      y: grouped.map((item) => item.label),
+      x: publicVisualRatios,
+      y: grouped.map((item) => item.displayLabel),
       marker: { color: "#16a34a", line: { width: 0 } },
       text: grouped.map((item) => (item.publicTeachers > 0 ? fmtRatio(item.publicRatio) : "")),
       textposition: "inside",
@@ -754,7 +1003,7 @@ function buildPupilTeacherRatioBySchoolTypeChart(
       textfont: { color: "#ffffff", size: 11 },
       constraintext: "none",
       cliponaxis: false,
-      customdata: grouped.map((item) => [item.label, Math.round(item.publicRatio), item.publicStudents, item.publicTeachers]),
+      customdata: grouped.map((item) => [item.displayLabel, Math.round(item.publicRatio), item.publicStudents, item.publicTeachers]),
       hovertemplate: "<b>%{customdata[0]}</b><br>Public PTR: %{customdata[1]}:1<br>Public students: %{customdata[2]:,.0f}<br>Public teachers: %{customdata[3]:,.0f}<extra></extra>",
       showlegend: false,
     },
@@ -762,8 +1011,8 @@ function buildPupilTeacherRatioBySchoolTypeChart(
       type: "bar",
       orientation: "h",
       name: "Private",
-      x: grouped.map((item) => item.privateRatio),
-      y: grouped.map((item) => item.label),
+      x: privateVisualRatios,
+      y: grouped.map((item) => item.displayLabel),
       marker: { color: "#2563eb", line: { width: 0 } },
       text: grouped.map((item) => (item.privateTeachers > 0 ? fmtRatio(item.privateRatio) : "")),
       textposition: "inside",
@@ -771,29 +1020,22 @@ function buildPupilTeacherRatioBySchoolTypeChart(
       textfont: { color: "#ffffff", size: 11 },
       constraintext: "none",
       cliponaxis: false,
-      customdata: grouped.map((item) => [item.label, Math.round(item.privateRatio), item.privateStudents, item.privateTeachers]),
+      customdata: grouped.map((item) => [item.displayLabel, Math.round(item.privateRatio), item.privateStudents, item.privateTeachers]),
       hovertemplate: "<b>%{customdata[0]}</b><br>Private PTR: %{customdata[1]}:1<br>Private students: %{customdata[2]:,.0f}<br>Private teachers: %{customdata[3]:,.0f}<extra></extra>",
       showlegend: false,
     },
   ];
 
   const layout = buildCommonLayout(height);
-  layout.uirevision = `teacher-capacity-ptr-school-type-${resolved.level}-${grouped.length}`;
-  layout.margin = { l: 126, r: 28, t: 22, b: 30 };
+  layout.uirevision = `teacher-capacity-ptr-school-type-${resolved.level}-${sortMode}-${grouped.length}`;
   layout.barmode = "stack";
-  layout.xaxis = {
-    range: [0, maxStackedRatio * 1.18],
-    gridcolor: COLORS.grid,
-    zeroline: false,
-    tickfont: { color: COLORS.sub },
-    tick0: 0,
-    dtick: 5,
-    title: { text: "Pupils per teacher" },
-  };
+  layout.bargap = 0.28;
+  layout.margin = { l: 88, r: 18, t: 8, b: 12 };
+  layout.xaxis = horizontalValueAxis(maxVisualStackedRatio);
   layout.yaxis = {
-    automargin: true,
+    automargin: false,
     autorange: "reversed",
-    tickfont: { color: COLORS.sub },
+    tickfont: { color: COLORS.sub, size: 10.5 },
     showgrid: false,
   };
   layout.shapes = [];
@@ -805,13 +1047,13 @@ function buildPupilTeacherRatioBySchoolTypeChart(
       data,
       layout,
       scrollable: true,
-      scrollMaxHeight: 380,
-      expandedMaxHeight: 420,
-      expandedWidthClass: "max-w-[920px]",
+      scrollMaxHeight: 420,
+      expandedMaxHeight: 680,
+      expandedWidthClass: "max-w-[96vw]",
+      titleNote: `Benchmark: UBE Pre/Primary ${fmtRatio(UBEC_PRIMARY_BENCHMARK.value)} · ${titleGrandTotal("Primary Students", ACCESS_PRIMARY_STUDENTS_TOTAL)}`,
       fixedLegend: [
         { label: "Public", color: "#16a34a" },
         { label: "Private", color: "#2563eb" },
-        { label: `UBE Pre-Primary/Primary benchmark ${fmtRatio(UBEC_PRIMARY_BENCHMARK.value)}`, color: COLORS.benchmark, dashed: true },
       ],
     },
   };
@@ -819,7 +1061,7 @@ function buildPupilTeacherRatioBySchoolTypeChart(
 
 const UBEC_PRIMARY_BENCHMARK: BenchmarkMeta = {
   value: 35,
-  label: "UBE Pre-Primary/Primary benchmark (1:35)",
+  label: "UBE Pre/Primary benchmark (1:35)",
   source: "UBE national PTR guidelines",
 };
 
@@ -830,15 +1072,18 @@ function buildPublicPrivateByLocationChart(
   filters: MinisterFilters,
   valueKey: "teacher_count" | "student_count",
   legendLabel: "Teachers" | "Students",
-  labelOrder?: string[],
+  sortMode: SortMode = DEFAULT_SORT_MODE,
 ): LocationChartResult | null {
   const resolved = resolveLocationRows(rows, filters, "state");
   const bucket = new Map<string, { publicValue: number; privateValue: number }>();
+  const createTotals = () => ({ publicValue: 0, privateValue: 0 });
+
+  ensureLocationBuckets(bucket, resolved.rows, filters, resolved.level, createTotals);
 
   resolved.rows.forEach((row) => {
-    const label = locationLabel(row, resolved.level);
+    const label = locationBucketLabel(row, resolved.level);
     if (!label) return;
-    const previous = bucket.get(label) ?? { publicValue: 0, privateValue: 0 };
+    const previous = bucket.get(label) ?? createTotals();
     const delta = safeNum(row[valueKey]);
 
     if (row.school_type === "Private") {
@@ -850,38 +1095,40 @@ function buildPublicPrivateByLocationChart(
     bucket.set(label, previous);
   });
 
-  const grouped = Array.from(bucket.entries())
-    .map(([label, totals]) => ({ label, ...totals, total: totals.publicValue + totals.privateValue }))
-    .filter((item) => item.total > 0)
-    .sort((a, b) => {
-      if (labelOrder?.length) {
-        const ai = labelOrder.indexOf(a.label);
-        const bi = labelOrder.indexOf(b.label);
-        if (ai >= 0 && bi >= 0) return ai - bi;
-        if (ai >= 0) return -1;
-        if (bi >= 0) return 1;
-      }
-      return b.total - a.total;
-    });
+  const grouped = sortByMode(
+    Array.from(bucket.entries()).map(([label, totals]) => ({
+      label,
+      displayLabel: displayLocationLabel(label, resolved.level),
+      ...totals,
+      total: totals.publicValue + totals.privateValue,
+    })),
+    sortMode,
+    (item) => item.total,
+    resolved.level,
+  );
 
   if (!grouped.length) return null;
 
-  const isScrollable = true;
-  const height = Math.max(500, grouped.length * 40 + 130);
+  const height = Math.max(420, grouped.length * 32 + 110);
+  const maxTotal = Math.max(...grouped.map((item) => item.total), 0);
+  const publicVisualValues = minVisibleStackValues(grouped.map((item) => item.publicValue), maxTotal, 0.065);
+  const privateVisualValues = minVisibleStackValues(grouped.map((item) => item.privateValue), maxTotal, 0.065);
+  const maxVisualTotal = Math.max(...publicVisualValues.map((value, index) => value + (privateVisualValues[index] ?? 0)), 0);
 
   const data: PlotDatum[] = [
     {
       type: "bar",
       orientation: "h",
       name: "Public",
-      x: grouped.map((item) => item.publicValue),
-      y: grouped.map((item) => item.label),
+      x: publicVisualValues,
+      y: grouped.map((item) => item.displayLabel),
       marker: { color: COLORS.public, line: { width: 0 } },
       text: grouped.map((item) => (item.publicValue > 0 ? fmtInt(item.publicValue) : "")),
       texttemplate: "%{text}",
       textposition: "inside",
+      insidetextanchor: "middle",
       textfont: { color: "#ffffff", size: 11 },
-      customdata: grouped.map((item) => [item.label, item.publicValue, item.total]),
+      customdata: grouped.map((item) => [item.displayLabel, item.publicValue, item.total]),
       hovertemplate: `<b>%{customdata[0]}</b><br>Public ${legendLabel}: %{customdata[1]:,.0f}<br>Total ${legendLabel}: %{customdata[2]:,.0f}<extra></extra>`,
       showlegend: false,
     },
@@ -889,33 +1136,30 @@ function buildPublicPrivateByLocationChart(
       type: "bar",
       orientation: "h",
       name: "Private",
-      x: grouped.map((item) => item.privateValue),
-      y: grouped.map((item) => item.label),
+      x: privateVisualValues,
+      y: grouped.map((item) => item.displayLabel),
       marker: { color: COLORS.private, line: { width: 0 } },
       text: grouped.map((item) => (item.privateValue > 0 ? fmtInt(item.privateValue) : "")),
       texttemplate: "%{text}",
       textposition: "inside",
+      insidetextanchor: "middle",
       textfont: { color: "#ffffff", size: 11 },
-      customdata: grouped.map((item) => [item.label, item.privateValue, item.total]),
+      customdata: grouped.map((item) => [item.displayLabel, item.privateValue, item.total]),
       hovertemplate: `<b>%{customdata[0]}</b><br>Private ${legendLabel}: %{customdata[1]:,.0f}<br>Total ${legendLabel}: %{customdata[2]:,.0f}<extra></extra>`,
       showlegend: false,
     },
   ];
 
   const layout = buildCommonLayout(height);
-  layout.uirevision = `teacher-capacity-${valueKey}-${resolved.level}-${grouped.length}`;
+  layout.uirevision = `teacher-capacity-${valueKey}-${resolved.level}-${sortMode}-${grouped.length}`;
   layout.barmode = "stack";
-  layout.margin = { l: 132, r: 30, t: 22, b: 42 };
-  layout.xaxis = {
-    gridcolor: COLORS.grid,
-    zeroline: false,
-    tickfont: { color: COLORS.sub },
-    separatethousands: true,
-  };
+  layout.bargap = 0.28;
+  layout.margin = { l: 88, r: 18, t: 8, b: 12 };
+  layout.xaxis = horizontalValueAxis(maxVisualTotal || maxTotal);
   layout.yaxis = {
-    automargin: true,
+    automargin: false,
     autorange: "reversed",
-    tickfont: { color: COLORS.sub },
+    tickfont: { color: COLORS.sub, size: 10.5 },
     showgrid: false,
   };
 
@@ -924,10 +1168,13 @@ function buildPublicPrivateByLocationChart(
     bundle: {
       data,
       layout,
-      scrollable: isScrollable,
-      scrollMaxHeight: 340,
-      expandedMaxHeight: 400,
-      expandedWidthClass: "max-w-[920px]",
+      scrollable: true,
+      scrollMaxHeight: 420,
+      expandedMaxHeight: 680,
+      expandedWidthClass: "max-w-[96vw]",
+      titleNote: legendLabel === "Students"
+        ? titleGrandTotal("Basic & Senior Secondary Students", ACCESS_TOTAL_STUDENTS_BASIC_SENIOR_SECONDARY)
+        : titleGrandTotal(legendLabel, grouped.reduce((sum, item) => sum + item.total, 0)),
       fixedLegend: [
         { label: `Public ${legendLabel}`, color: COLORS.public },
         { label: `Private ${legendLabel}`, color: COLORS.private },
@@ -936,14 +1183,21 @@ function buildPublicPrivateByLocationChart(
   };
 }
 
-function buildQualifiedUnqualifiedByLocationChart(rows: TeacherCapacityRow[], filters: MinisterFilters): LocationChartResult | null {
+function buildQualifiedUnqualifiedByLocationChart(
+  rows: TeacherCapacityRow[],
+  filters: MinisterFilters,
+  sortMode: SortMode = DEFAULT_SORT_MODE,
+): LocationChartResult | null {
   const resolved = resolveLocationRows(rows, filters, "state");
   const bucket = new Map<string, { qualified: number; unqualified: number }>();
+  const createTotals = () => ({ qualified: 0, unqualified: 0 });
+
+  ensureLocationBuckets(bucket, resolved.rows, filters, resolved.level, createTotals);
 
   resolved.rows.forEach((row) => {
-    const label = locationLabel(row, resolved.level);
+    const label = locationBucketLabel(row, resolved.level);
     if (!label) return;
-    const previous = bucket.get(label) ?? { qualified: 0, unqualified: 0 };
+    const previous = bucket.get(label) ?? createTotals();
     if (row.qualification_status === "Unqualified") {
       previous.unqualified += safeNum(row.teacher_count);
     } else {
@@ -952,39 +1206,44 @@ function buildQualifiedUnqualifiedByLocationChart(rows: TeacherCapacityRow[], fi
     bucket.set(label, previous);
   });
 
-  const grouped = Array.from(bucket.entries())
-    .map(([label, totals]) => {
+  const grouped = sortByMode(
+    Array.from(bucket.entries()).map(([label, totals]) => {
       const total = totals.qualified + totals.unqualified;
       return {
         label,
+        displayLabel: displayLocationLabel(label, resolved.level),
         qualified: totals.qualified,
         unqualified: totals.unqualified,
         qualifiedRate: weightedRate(totals.qualified, total),
         unqualifiedRate: weightedRate(totals.unqualified, total),
         total,
       };
-    })
-    .filter((item) => item.total > 0)
-    .sort((a, b) => b.qualifiedRate - a.qualifiedRate);
+    }),
+    sortMode,
+    (item) => item.qualifiedRate,
+    resolved.level,
+  );
 
   if (!grouped.length) return null;
 
-  const isScrollable = true;
-  const height = Math.max(500, grouped.length * 40 + 130);
+  const height = Math.max(420, grouped.length * 32 + 110);
   const maxTotal = Math.max(...grouped.map((item) => item.total), 0);
+  const qualifiedVisualValues = minVisibleStackValues(grouped.map((item) => item.qualified), maxTotal, 0.065);
+  const unqualifiedVisualValues = minVisibleStackValues(grouped.map((item) => item.unqualified), maxTotal, 0.065);
+  const maxVisualTotal = Math.max(...qualifiedVisualValues.map((value, index) => value + (unqualifiedVisualValues[index] ?? 0)), 0);
 
   const data: PlotDatum[] = [
     {
       type: "bar",
       orientation: "h",
-      x: grouped.map((item) => item.qualified),
-      y: grouped.map((item) => item.label),
+      x: qualifiedVisualValues,
+      y: grouped.map((item) => item.displayLabel),
       marker: { color: COLORS.qualified, line: { width: 0 } },
       text: grouped.map((item) => (item.qualified > 0 ? fmtInt(item.qualified) : "")),
       textposition: "inside",
       insidetextanchor: "middle",
       textfont: { color: "#ffffff", size: 11 },
-      customdata: grouped.map((item) => [item.label, item.qualified, item.total, Math.round(item.qualifiedRate)]),
+      customdata: grouped.map((item) => [item.displayLabel, item.qualified, item.total, Math.round(item.qualifiedRate)]),
       hovertemplate:
         "<b>%{customdata[0]}</b><br>Qualified Teachers: %{customdata[1]:,.0f}<br>Qualified Rate: %{customdata[3]}%<br>Total Teachers: %{customdata[2]:,.0f}<extra></extra>",
       showlegend: false,
@@ -992,14 +1251,14 @@ function buildQualifiedUnqualifiedByLocationChart(rows: TeacherCapacityRow[], fi
     {
       type: "bar",
       orientation: "h",
-      x: grouped.map((item) => item.unqualified),
-      y: grouped.map((item) => item.label),
+      x: unqualifiedVisualValues,
+      y: grouped.map((item) => item.displayLabel),
       marker: { color: COLORS.unqualified, line: { width: 0 } },
       text: grouped.map((item) => (item.unqualified > 0 ? fmtInt(item.unqualified) : "")),
       textposition: "inside",
       insidetextanchor: "middle",
       textfont: { color: "#ffffff", size: 11 },
-      customdata: grouped.map((item) => [item.label, item.unqualified, item.total, Math.round(item.unqualifiedRate)]),
+      customdata: grouped.map((item) => [item.displayLabel, item.unqualified, item.total, Math.round(item.unqualifiedRate)]),
       hovertemplate:
         "<b>%{customdata[0]}</b><br>Unqualified Teachers: %{customdata[1]:,.0f}<br>Unqualified Rate: %{customdata[3]}%<br>Total Teachers: %{customdata[2]:,.0f}<extra></extra>",
       showlegend: false,
@@ -1007,20 +1266,15 @@ function buildQualifiedUnqualifiedByLocationChart(rows: TeacherCapacityRow[], fi
   ];
 
   const layout = buildCommonLayout(height);
-  layout.uirevision = `teacher-capacity-qualification-state-${resolved.level}-${grouped.length}`;
+  layout.uirevision = `teacher-capacity-qualification-state-${resolved.level}-${sortMode}-${grouped.length}`;
   layout.barmode = "stack";
-  layout.margin = { l: 132, r: 30, t: 22, b: 42 };
-  layout.xaxis = {
-    range: [0, Math.ceil(maxTotal * 1.08)],
-    gridcolor: COLORS.grid,
-    zeroline: false,
-    tickfont: { color: COLORS.sub },
-    separatethousands: true,
-  };
+  layout.bargap = 0.28;
+  layout.margin = { l: 88, r: 18, t: 8, b: 12 };
+  layout.xaxis = horizontalValueAxis(maxVisualTotal || maxTotal);
   layout.yaxis = {
-    automargin: true,
+    automargin: false,
     autorange: "reversed",
-    tickfont: { color: COLORS.sub },
+    tickfont: { color: COLORS.sub, size: 10.5 },
     showgrid: false,
   };
 
@@ -1029,10 +1283,11 @@ function buildQualifiedUnqualifiedByLocationChart(rows: TeacherCapacityRow[], fi
     bundle: {
       data,
       layout,
-      scrollable: isScrollable,
-      scrollMaxHeight: 340,
-      expandedMaxHeight: 400,
-      expandedWidthClass: "max-w-[940px]",
+      scrollable: true,
+      scrollMaxHeight: 420,
+      expandedMaxHeight: 680,
+      expandedWidthClass: "max-w-[96vw]",
+      titleNote: titleGrandTotal("Teachers", grouped.reduce((sum, item) => sum + item.total, 0)),
       fixedLegend: [
         { label: "Qualified", color: COLORS.qualified },
         { label: "Unqualified", color: COLORS.unqualified },
@@ -1070,12 +1325,9 @@ function buildPupilTeacherRatioBySchoolLevel(rows: TeacherCapacityRow[]): ChartB
     return weightedRatio(item?.privateStudents ?? 0, item?.privateTeachers ?? 0);
   });
 
-  const benchmarkLines = [
-    { key: "preprimary", label: "UBE Pre/Primary Benchmark (35:1)", value: 35, color: COLORS.public },
-    { key: "secondary", label: "UBE JSS/SSS Benchmark (40:1)", value: 40, color: COLORS.benchmark },
-  ];
+  const benchmarkValues = [35, 40];
 
-  const maxRatio = Math.max(...publicRatios, ...privateRatios, ...benchmarkLines.map((item) => item.value), 0);
+  const maxRatio = Math.max(...publicRatios, ...privateRatios, ...benchmarkValues, 0);
   const layout = buildCommonLayout(360);
   layout.uirevision = `teacher-capacity-ptr-level-${orderedLevels.join("|")}`;
   layout.barmode = "group";
@@ -1128,11 +1380,10 @@ function buildPupilTeacherRatioBySchoolLevel(rows: TeacherCapacityRow[]): ChartB
       },
     ],
     layout,
+    titleNote: "Benchmarks: UBE Pre/Primary 35:1; UBE JSS/SSS 40:1.",
     fixedLegend: [
       { label: "Public PTR", color: COLORS.public },
       { label: "Private PTR", color: COLORS.private },
-      { label: "UBE Pre/Primary Benchmark (35:1)", color: COLORS.schoolLevelPrimary, fullRow: true },
-      { label: "UBE JSS/SSS Benchmark (40:1)", color: COLORS.benchmark, fullRow: true },
     ],
   };
 }
@@ -1154,6 +1405,11 @@ function buildTeacherSplitBySchoolLevel(rows: TeacherCapacityRow[]): ChartBundle
 
   const orderedLevels = SCHOOL_LEVEL_ORDER.filter((level) => bucket.has(level));
   if (!orderedLevels.length) return null;
+
+  const totalTeachers = orderedLevels.reduce((sum, level) => {
+    const item = bucket.get(level);
+    return sum + safeNum(item?.publicTeachers) + safeNum(item?.privateTeachers);
+  }, 0);
 
   const layout = buildCommonLayout(360);
   layout.uirevision = `teacher-capacity-teacher-level-${orderedLevels.join("|")}`;
@@ -1196,6 +1452,7 @@ function buildTeacherSplitBySchoolLevel(rows: TeacherCapacityRow[]): ChartBundle
       },
     ],
     layout,
+    titleNote: titleGrandTotal("Teachers", totalTeachers),
     fixedLegend: [
       { label: "Public Teachers", color: COLORS.public },
       { label: "Private Teachers", color: COLORS.private },
@@ -1217,6 +1474,7 @@ function buildQualificationGroupDonut(rows: TeacherCapacityRow[]): ChartBundle |
 
   if (!grouped.length) return null;
 
+  const totalTeachers = grouped.reduce((sum, item) => sum + item.value, 0);
   const positions = [0.82, 0.70, 0.58, 0.46, 0.34, 0.22];
   const layout = buildCommonLayout(380);
   layout.margin = { l: 8, r: 8, t: 10, b: 10 };
@@ -1283,6 +1541,7 @@ function buildQualificationGroupDonut(rows: TeacherCapacityRow[]): ChartBundle |
       },
     ],
     layout,
+    titleNote: titleGrandTotal("Teachers", totalTeachers),
   };
 }
 
@@ -1377,6 +1636,7 @@ function buildQualificationCompositionDonut(rows: TeacherCapacityRow[]): ChartBu
       },
     ],
     layout,
+    titleNote: titleGrandTotal("Teachers", qualified + unqualified),
     fixedLegend: [
       { label: "Qualified", color: COLORS.qualified },
       { label: "Unqualified", color: COLORS.unqualified },
@@ -1416,6 +1676,10 @@ function buildQualifiedRateByGender(rows: TeacherCapacityRow[]): ChartBundle | n
     return weightedRate(safeNum(item?.unqualified), total);
   });
   const maxRate = percentAxisMax([...qualifiedRates, ...unqualifiedRates]);
+  const totalTeachers = ordered.reduce((sum, label) => {
+    const item = bucket.get(label);
+    return sum + safeNum(item?.qualified) + safeNum(item?.unqualified);
+  }, 0);
 
   const layout = buildCommonLayout(330);
   layout.uirevision = `teacher-capacity-gender-${ordered.join("|")}`;
@@ -1488,6 +1752,7 @@ function buildQualifiedRateByGender(rows: TeacherCapacityRow[]): ChartBundle | n
       },
     ],
     layout,
+    titleNote: titleGrandTotal("Teachers", totalTeachers),
     fixedLegend: [
       { label: "Qualified", color: COLORS.qualified },
       { label: "Unqualified", color: COLORS.unqualified },
@@ -1523,6 +1788,10 @@ function buildQualifiedRateBySchoolType(rows: TeacherCapacityRow[]): ChartBundle
     return weightedRate(safeNum(item?.unqualified), total);
   });
   const maxRate = percentAxisMax([...qualifiedRates, ...unqualifiedRates]);
+  const totalTeachers = ordered.reduce((sum, label) => {
+    const item = bucket.get(label);
+    return sum + safeNum(item?.qualified) + safeNum(item?.unqualified);
+  }, 0);
 
   const layout = buildCommonLayout(330);
   layout.uirevision = `teacher-capacity-schooltype-${ordered.join("|")}`;
@@ -1595,6 +1864,7 @@ function buildQualifiedRateBySchoolType(rows: TeacherCapacityRow[]): ChartBundle
       },
     ],
     layout,
+    titleNote: titleGrandTotal("Teachers", totalTeachers),
     fixedLegend: [
       { label: "Qualified", color: COLORS.qualified },
       { label: "Unqualified", color: COLORS.unqualified },
@@ -1706,6 +1976,7 @@ export default function TeacherCapacityDashboard({
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [expandState, setExpandState] = useState<ExpandState>(null);
+  const [sortModes, setSortModes] = useState<Record<SortableChartKey, SortMode>>(DEFAULT_SORT_MODES);
   const expandedPanelRef = useRef<HTMLDivElement | null>(null);
   const requestedScopeKey = useMemo(
     () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}|${filters.school}`,
@@ -1723,6 +1994,16 @@ export default function TeacherCapacityDashboard({
     () => (scopePending ? { ...filters, ...loadedLocation } : filters),
     [scopePending, filters, loadedLocation],
   );
+  useEffect(() => {
+    if (!filters.state) return;
+    const nextZone = zoneForState(filters.state);
+    if (!nextZone || filters.zone === nextZone) return;
+
+    setFilters((previous: MinisterFilters) => (
+      previous.state === filters.state ? { ...previous, zone: nextZone } : previous
+    ));
+  }, [filters.state, filters.zone, setFilters]);
+
 
   useEffect(() => {
     let alive = true;
@@ -1807,70 +2088,60 @@ export default function TeacherCapacityDashboard({
     return ordered[ordered.length - 1] ?? sessions.sort().slice(-1)[0] ?? "";
   }, [rows, dimSessions, filters.session]);
 
-  const previousSessionLabel = useMemo(() => {
-    if (!effectiveSession) return "";
-    return dimSessions.find((row) => row.session_id === effectiveSession)?.prev_session_id ?? "";
-  }, [dimSessions, effectiveSession]);
-
-  const currentTeacherRows = useMemo(() => (effectiveSession ? teacherRows.filter((row) => row.session === effectiveSession) : teacherRows), [teacherRows, effectiveSession]);
-  const currentStudentRows = useMemo(() => (effectiveSession ? studentRows.filter((row) => row.session === effectiveSession) : studentRows), [studentRows, effectiveSession]);
-  const previousTeacherRowsRaw = useMemo(() => {
-    if (!previousSessionLabel) return [] as TeacherCapacityRow[];
-    return filterTeacherRows(rows, { ...renderFilters, session: previousSessionLabel }, undefined, false);
-  }, [rows, renderFilters, previousSessionLabel]);
-  const [lastNonEmptyPreviousTeacherRows, setLastNonEmptyPreviousTeacherRows] = useState<TeacherCapacityRow[]>([]);
-
-  useEffect(() => {
-    if (previousTeacherRowsRaw.length) setLastNonEmptyPreviousTeacherRows(previousTeacherRowsRaw);
-  }, [previousTeacherRowsRaw]);
-
-  const previousTeacherRows = useMemo(
-    () =>
-      (loading || scopePending) && !previousTeacherRowsRaw.length && lastNonEmptyPreviousTeacherRows.length
-        ? lastNonEmptyPreviousTeacherRows
-        : previousTeacherRowsRaw,
-    [loading, scopePending, previousTeacherRowsRaw, lastNonEmptyPreviousTeacherRows],
+  const currentTeacherRows = useMemo(
+    () => (effectiveSession ? teacherRows.filter((row) => row.session === effectiveSession) : teacherRows),
+    [teacherRows, effectiveSession],
   );
-  const previousDisabilityRowsRaw = useMemo(() => {
-    if (!previousSessionLabel) return [] as TeacherCapacityRow[];
-    return filterTeacherRows(rows, { ...renderFilters, session: previousSessionLabel }, undefined, true);
-  }, [rows, renderFilters, previousSessionLabel]);
-  const [lastNonEmptyPreviousDisabilityRows, setLastNonEmptyPreviousDisabilityRows] = useState<TeacherCapacityRow[]>([]);
-
-  useEffect(() => {
-    if (previousDisabilityRowsRaw.length) setLastNonEmptyPreviousDisabilityRows(previousDisabilityRowsRaw);
-  }, [previousDisabilityRowsRaw]);
-
-  const previousDisabilityRows = useMemo(
-    () =>
-      (loading || scopePending) && !previousDisabilityRowsRaw.length && lastNonEmptyPreviousDisabilityRows.length
-        ? lastNonEmptyPreviousDisabilityRows
-        : previousDisabilityRowsRaw,
-    [loading, scopePending, previousDisabilityRowsRaw, lastNonEmptyPreviousDisabilityRows],
+  const currentStudentRows = useMemo(
+    () => (effectiveSession ? studentRows.filter((row) => row.session === effectiveSession) : studentRows),
+    [studentRows, effectiveSession],
   );
-
-  const previousStudentRows = useMemo(() => {
-    if (!previousSessionLabel) return [] as TeacherCapacityRow[];
-    if (!disabilityMode) return previousTeacherRows;
-    return applyStudentDisabilityOverlay(previousTeacherRows, previousDisabilityRows);
-  }, [previousSessionLabel, previousTeacherRows, previousDisabilityRows, disabilityMode]);
 
   const cards = useMemo<MetricCard[]>(() => {
     const totalTeachers = currentTeacherRows.reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
+    const publicTeachers = currentTeacherRows
+      .filter((row) => row.school_type === "Public")
+      .reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
+    const privateTeachers = currentTeacherRows
+      .filter((row) => row.school_type === "Private")
+      .reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
     const maleTeachers = currentTeacherRows
       .filter((row) => row.gender === "Male")
       .reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
     const femaleTeachers = currentTeacherRows
       .filter((row) => row.gender === "Female")
       .reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
+    const publicMaleTeachers = currentTeacherRows
+      .filter((row) => row.school_type === "Public" && row.gender === "Male")
+      .reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
+    const privateMaleTeachers = currentTeacherRows
+      .filter((row) => row.school_type === "Private" && row.gender === "Male")
+      .reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
+    const publicFemaleTeachers = currentTeacherRows
+      .filter((row) => row.school_type === "Public" && row.gender === "Female")
+      .reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
+    const privateFemaleTeachers = currentTeacherRows
+      .filter((row) => row.school_type === "Private" && row.gender === "Female")
+      .reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
     const students = currentStudentRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
     const teachers = currentTeacherRows.reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
-
+    const publicStudents = currentStudentRows
+      .filter((row) => row.school_type === "Public")
+      .reduce((sum, row) => sum + safeNum(row.student_count), 0);
+    const privateStudents = currentStudentRows
+      .filter((row) => row.school_type === "Private")
+      .reduce((sum, row) => sum + safeNum(row.student_count), 0);
     return [
       {
         label: "Total Teachers",
         value: fmtInt(totalTeachers),
-        help: "All teachers captured under the current Teacher Capacity filters.",
+        help: "All teachers captured .",
+        breakdown: [
+          { label: "Public Teachers", value: fmtInt(publicTeachers) },
+          { label: "Private Teachers", value: fmtInt(privateTeachers) },
+          { label: "Male Teachers", value: fmtInt(maleTeachers) },
+          { label: "Female Teachers", value: fmtInt(femaleTeachers) },
+        ],
         icon: <School className="h-5 w-5" />,
         accent: COLORS.public,
         bg: "rgba(37,99,235,0.12)",
@@ -1878,7 +2149,11 @@ export default function TeacherCapacityDashboard({
       {
         label: "Total Male Teachers",
         value: fmtInt(maleTeachers),
-        help: "Male teachers under the current filters.",
+        help: "Male teachers.",
+        breakdown: [
+          { label: "Public Male", value: fmtInt(publicMaleTeachers) },
+          { label: "Private Male", value: fmtInt(privateMaleTeachers) },
+        ],
         icon: <Users className="h-5 w-5" />,
         accent: "#8b5cf6",
         bg: "rgba(139,92,246,0.12)",
@@ -1886,7 +2161,11 @@ export default function TeacherCapacityDashboard({
       {
         label: "Total Female Teachers",
         value: fmtInt(femaleTeachers),
-        help: "Female teachers under the current filters.",
+        help: "Female teachers.",
+        breakdown: [
+          { label: "Public Female", value: fmtInt(publicFemaleTeachers) },
+          { label: "Private Female", value: fmtInt(privateFemaleTeachers) },
+        ],
         icon: <Users className="h-5 w-5" />,
         accent: COLORS.private,
         bg: "rgba(16,185,129,0.12)",
@@ -1894,27 +2173,40 @@ export default function TeacherCapacityDashboard({
       {
         label: "Overall Pupil-Teacher Ratio",
         value: fmtRatio(weightedRatio(students, teachers)),
-        help: "Overall student-to-teacher load across the current Teacher Capacity filters.",
+        help: "Overall student-to-teacher load.",
+        breakdown: [
+          { label: "Total Students", value: fmtInt(ACCESS_TOTAL_STUDENTS_BASIC_SENIOR_SECONDARY) },
+          { label: "Total Teachers", value: fmtInt(teachers) },
+          { label: "Public PTR", value: fmtRatio(weightedRatio(publicStudents, publicTeachers)) },
+          { label: "Private PTR", value: fmtRatio(weightedRatio(privateStudents, privateTeachers)) },
+        ],
         icon: <BadgePercent className="h-5 w-5" />,
         accent: COLORS.ratio,
         bg: "rgba(14,165,233,0.12)",
       },
     ];
-  }, [currentTeacherRows, currentStudentRows, previousTeacherRows, previousStudentRows, effectiveSession, previousSessionLabel]);
+  }, [currentTeacherRows, currentStudentRows]);
 
-  const ptrSchoolTypeChart = useMemo(() => buildPupilTeacherRatioBySchoolTypeChart(studentRows, renderFilters), [studentRows, renderFilters]);
+  const chartSortMode = (chartKey: SortableChartKey) => sortModes[chartKey] ?? DEFAULT_SORT_MODE;
+  const updateChartSortMode = (chartKey: SortableChartKey, mode: SortMode) => {
+    setSortModes((previous) => ({ ...previous, [chartKey]: mode }));
+  };
+  const renderSortControl = (chartKey: SortableChartKey) => (
+    <ChartSortControl value={chartSortMode(chartKey)} onChange={(mode) => updateChartSortMode(chartKey, mode)} />
+  );
+
+  const ptrSchoolTypeChart = useMemo(
+    () => buildPupilTeacherRatioBySchoolTypeChart(studentRows, renderFilters, chartSortMode("ptrState")),
+    [studentRows, renderFilters, sortModes],
+  );
   const ptrSchoolLevelChart = useMemo(() => buildPupilTeacherRatioBySchoolLevel(studentRows), [studentRows]);
   const teachersStateChart = useMemo(
-    () => buildPublicPrivateByLocationChart(teacherRows, renderFilters, "teacher_count", "Teachers"),
-    [teacherRows, renderFilters],
+    () => buildPublicPrivateByLocationChart(teacherRows, renderFilters, "teacher_count", "Teachers", chartSortMode("teachersState")),
+    [teacherRows, renderFilters, sortModes],
   );
-  const teachersStateOrder = useMemo(() => {
-    const firstTrace = teachersStateChart?.bundle?.data?.[0] as { y?: string[] } | undefined;
-    return Array.isArray(firstTrace?.y) ? firstTrace.y : [];
-  }, [teachersStateChart]);
   const studentsStateChart = useMemo(
-    () => buildPublicPrivateByLocationChart(studentRows, renderFilters, "student_count", "Students", teachersStateOrder),
-    [studentRows, renderFilters, teachersStateOrder],
+    () => buildPublicPrivateByLocationChart(studentRows, renderFilters, "student_count", "Students", chartSortMode("studentsState")),
+    [studentRows, renderFilters, sortModes],
   );
   const teacherSplitChart = useMemo(() => buildTeacherSplitBySchoolLevel(teacherRows), [teacherRows]);
   const qualificationGroupChart = useMemo(() => buildQualificationGroupDonut(qualificationRows), [qualificationRows]);
@@ -1923,8 +2215,8 @@ export default function TeacherCapacityDashboard({
     [qualificationRows],
   );
   const qualificationStateChart = useMemo(
-    () => buildQualifiedUnqualifiedByLocationChart(qualificationRows, renderFilters),
-    [qualificationRows, renderFilters],
+    () => buildQualifiedUnqualifiedByLocationChart(qualificationRows, renderFilters, chartSortMode("qualificationState")),
+    [qualificationRows, renderFilters, sortModes],
   );
   const qualificationGenderChart = useMemo(() => buildQualifiedRateByGender(qualificationRows), [qualificationRows]);
   const qualificationSchoolTypeChart = useMemo(
@@ -2003,6 +2295,7 @@ export default function TeacherCapacityDashboard({
   ]);
 
   const expandedBundle = expandedEntry?.bundle;
+  const expandedSortKey = expandState ? sortableKeyForChart(expandState.chartKey) : null;
 
   if (loading && !rows.length) {
     return (
@@ -2038,6 +2331,7 @@ export default function TeacherCapacityDashboard({
           title="Primary Level Pupil-Teacher Ratio by School Type"
           helpKey="ptrState"
           bundle={ptrSchoolTypeChart?.bundle}
+          sortControl={renderSortControl("ptrState")}
           onRefresh={resetDrill}
           onExpand={() => setExpandState({ chartKey: "ptrState", title: "Primary Level Pupil-Teacher Ratio by School Type" })}
           onPlotClick={(event) => handleLocationChartClick(ptrSchoolTypeChart, event)}
@@ -2060,6 +2354,7 @@ export default function TeacherCapacityDashboard({
           title="Total Public and Private Teachers by State"
           helpKey="teachersState"
           bundle={teachersStateChart?.bundle}
+          sortControl={renderSortControl("teachersState")}
           onRefresh={resetDrill}
           onExpand={() => setExpandState({ chartKey: "teachersState", title: "Total Public and Private Teachers by State" })}
           onPlotClick={(event) => handleLocationChartClick(teachersStateChart, event)}
@@ -2068,6 +2363,7 @@ export default function TeacherCapacityDashboard({
           title="Total Public and Private Students by State"
           helpKey="studentsState"
           bundle={studentsStateChart?.bundle}
+          sortControl={renderSortControl("studentsState")}
           onRefresh={resetDrill}
           onExpand={() => setExpandState({ chartKey: "studentsState", title: "Total Public and Private Students by State" })}
           onPlotClick={(event) => handleLocationChartClick(studentsStateChart, event)}
@@ -2092,18 +2388,24 @@ export default function TeacherCapacityDashboard({
             ref={expandedPanelRef}
             className={[
               "w-full overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl",
-              expandedBundle?.expandedWidthClass ?? "max-w-[980px]",
+              expandedBundle?.expandedWidthClass ?? "max-w-[96vw]",
             ].join(" ")}
           >
             <div className="flex items-center justify-between gap-4 border-b border-slate-100 px-5 py-4">
-              <div className="text-base font-bold text-slate-900">{expandState.title}</div>
-              <button
+              <div className="min-w-0">
+                <div className="text-base font-bold text-slate-900">{expandState.title}</div>
+                {expandedBundle?.titleNote ? <div className="mt-0.5 text-xs font-medium text-slate-500">{expandedBundle.titleNote}</div> : null}
+              </div>
+              <div className="flex shrink-0 items-center gap-2">
+                {expandedSortKey ? renderSortControl(expandedSortKey) : null}
+                <button
                 type="button"
                 onClick={() => setExpandState(null)}
                 className="grid h-8 w-8 place-items-center rounded-lg border border-slate-200 text-slate-500 hover:bg-slate-50"
               >
                 <X className="h-4 w-4" />
-              </button>
+                </button>
+              </div>
             </div>
             <div className="p-4">
               {expandedBundle ? (
@@ -2122,23 +2424,23 @@ export default function TeacherCapacityDashboard({
                     </div>
                   ) : null}
                   {expandedBundle.scrollable ? (
-                    <div className="overflow-y-auto pr-1" style={{ maxHeight: expandedBundle.expandedMaxHeight ?? 460 }}>
+                    <div className="overflow-y-auto pr-1" style={{ maxHeight: `min(${expandedBundle.expandedMaxHeight ?? 680}px, calc(100vh - 170px))` }}>
                       <Plot
-                        data={expandedBundle.data as never}
+                        data={preparePlotData(expandedBundle.data) as never}
                         layout={expandedBundle.layout as never}
                         config={{ displayModeBar: false, responsive: true } as never}
                         useResizeHandler
-                        style={{ width: "100%", height: chartPixelHeight(expandedBundle.layout, 360) }}
+                        style={{ display: "block", width: "100%", height: chartPixelHeight(expandedBundle.layout, 360) }}
                         onClick={expandedEntry?.onPlotClick as never}
                       />
                     </div>
                   ) : (
                     <Plot
-                      data={expandedBundle.data as never}
+                      data={preparePlotData(expandedBundle.data) as never}
                       layout={expandedBundle.layout as never}
                       config={{ displayModeBar: false, responsive: true } as never}
                       useResizeHandler
-                      style={{ width: "100%", height: chartPixelHeight(expandedBundle.layout, 360) }}
+                      style={{ display: "block", width: "100%", height: chartPixelHeight(expandedBundle.layout, 360) }}
                       onClick={expandedEntry?.onPlotClick as never}
                     />
                   )}

@@ -303,6 +303,7 @@ function performanceExamBody(row: PerformanceFilterSeed): string {
 }
 
 const GEO_NAME_ALIASES: Record<string, string> = {
+  fct: "abuja federal capital territory",
   "federal capital territory": "abuja federal capital territory",
   "abuja fct": "abuja federal capital territory",
   "municipal area council": "abuja municipal area council",
@@ -332,6 +333,12 @@ function geoFilterMatch(value: string | null | undefined, selected: string | nul
   const selectedNormalized = normalizeGeoName(selected);
   if (!selectedNormalized) return true;
   return normalizeGeoName(value) === selectedNormalized;
+}
+
+const FCT_STATE_NAME = "Abuja Federal Capital Territory";
+
+function displayStateLabel(value: string): string {
+  return canonicalState(value) === FCT_STATE_NAME ? "FCT" : value;
 }
 
 function PlaceholderPage({ title, sections }: { title: string; sections: SectionDef[] }) {
@@ -1087,6 +1094,16 @@ export default function MinisterDashboardPage({
       : category === "performance"
         ? (performanceStates.length ? performanceStates : (states.length ? states : dimStateNames))
         : (states.length ? states : dimStateNames);
+  const sortedActiveStateValues = [...activeStateValues].sort((left, right) => displayStateLabel(left).localeCompare(displayStateLabel(right)));
+  const stateZoneByState = useMemo(() => {
+    const lookup = new Map<string, string>();
+    dimStates.forEach((row) => {
+      const state = canonicalState(row.state);
+      if (state && row.zone) lookup.set(state, row.zone);
+    });
+    return lookup;
+  }, [dimStates]);
+  const zoneForState = (state: string): string => stateZoneByState.get(canonicalState(state)) ?? "";
   const activeLgaValues = category === "policy_impact"
     ? (policyLgas.length ? policyLgas : (lgas.length ? lgas : dimLgaNames))
     : category === "transition"
@@ -1119,7 +1136,7 @@ export default function MinisterDashboardPage({
   const examOptions: FilterOption[] = EXAM_BODIES.map((value) => ({ label: value, value }));
   const genderOptions: FilterOption[] = ["Male", "Female"].map((value) => ({ label: value, value }));
   const zoneOptions: FilterOption[] = activeZoneValues.map((value) => ({ label: value, value }));
-  const stateOptions: FilterOption[] = activeStateValues.map((value) => ({ label: value, value }));
+  const stateOptions: FilterOption[] = sortedActiveStateValues.map((value) => ({ label: displayStateLabel(value), value }));
   const lgaOptions: FilterOption[] = activeLgaValues.map((value) => ({ label: truncateLabel(value, 24), value }));
   const wardOptions: FilterOption[] = activeWardValues.map((value) => ({ label: truncateLabel(value, 24), value }));
   const schoolOptions: FilterOption[] = activeSchoolValues.map((value) => ({ label: truncateLabel(value, 24), value }));
@@ -1141,20 +1158,32 @@ export default function MinisterDashboardPage({
     if (!isStateScopedAdmin || !assignedStateScope) return;
 
     setFilters((prev) => {
+      const assignedZone = stateZoneByState.get(canonicalState(assignedStateScope)) ?? "";
       if (prev.state === assignedStateScope && prev.zone === "") {
-        return prev;
+        return assignedZone ? { ...prev, zone: assignedZone } : prev;
       }
 
       return {
         ...prev,
-        zone: "",
+        zone: assignedZone,
         state: assignedStateScope,
         lga: prev.state === assignedStateScope ? prev.lga : "",
         ward: prev.state === assignedStateScope ? prev.ward : "",
         school: prev.state === assignedStateScope ? prev.school : "",
       };
     });
-  }, [assignedStateScope, isStateScopedAdmin]);
+  }, [assignedStateScope, isStateScopedAdmin, stateZoneByState]);
+
+  useEffect(() => {
+    if (!filters.state) return;
+    const expectedZone = stateZoneByState.get(canonicalState(filters.state)) ?? "";
+    if (!expectedZone || filters.zone === expectedZone) return;
+    setFilters((prev) => (
+      prev.state === filters.state && prev.zone !== expectedZone
+        ? { ...prev, zone: expectedZone }
+        : prev
+    ));
+  }, [filters.state, filters.zone, stateZoneByState]);
 
   useEffect(() => {
     if (
@@ -1392,7 +1421,14 @@ export default function MinisterDashboardPage({
                 value={filters.state}
                 placeholder="State"
                 options={stateOptions}
-                onChange={(value) => setFilters((prev) => ({ ...prev, state: value, lga: "", ward: "", school: "" }))}
+                onChange={(value) => setFilters((prev) => ({
+                  ...prev,
+                  zone: value ? zoneForState(value) || prev.zone : prev.zone,
+                  state: value,
+                  lga: "",
+                  ward: "",
+                  school: "",
+                }))}
               />
             ) : null}
             <FilterSelect
