@@ -460,6 +460,66 @@ function preparePlotData(data: PlotDatum[]): PlotDatum[] {
   });
 }
 
+function prepareExpandedPlotData(data: PlotDatum[], chartKey: ExpandChartKey): PlotDatum[] {
+  const columnChartKeys: ExpandChartKey[] = ["ptrLevel", "teacherSplit", "qualificationGender", "qualificationSchoolType"];
+  const isExpandedColumnChart = columnChartKeys.includes(chartKey);
+
+  return preparePlotData(data).map((trace) => {
+    if (!isExpandedColumnChart || trace.type !== "bar" || trace.orientation === "h") return trace;
+
+    return {
+      ...trace,
+      width: trace.width ?? 0.34,
+    };
+  });
+}
+
+function plotArrayLength(value: unknown): number {
+  return Array.isArray(value) ? value.length : 0;
+}
+
+function expandedChartItemCount(data: PlotDatum[], axis: "x" | "y"): number {
+  return data.reduce((count, trace) => Math.max(count, plotArrayLength(trace[axis])), 0);
+}
+
+function prepareExpandedPlotLayout(bundle: ChartBundle, chartKey: ExpandChartKey): PlotLayout {
+  const stateStackedKeys: ExpandChartKey[] = ["ptrState", "ptrPublic", "ptrPrivate", "teachersState", "studentsState", "qualificationState"];
+  const columnChartKeys: ExpandChartKey[] = ["ptrLevel", "teacherSplit", "qualificationGender", "qualificationSchoolType"];
+  const layout = JSON.parse(JSON.stringify(bundle.layout)) as PlotLayout;
+
+  if (stateStackedKeys.includes(chartKey)) {
+    const rowCount = Math.max(1, expandedChartItemCount(bundle.data, "y"));
+    const baseHeight = chartPixelHeight(layout, 360);
+    layout.height = Math.max(baseHeight, rowCount * 46 + 140);
+    layout.bargap = 0.12;
+    layout.margin = {
+      ...((layout.margin as Record<string, unknown> | undefined) ?? {}),
+      l: Math.max(Number((layout.margin as Record<string, unknown> | undefined)?.l ?? 88), 96),
+      r: Math.max(Number((layout.margin as Record<string, unknown> | undefined)?.r ?? 18), 28),
+      t: Math.max(Number((layout.margin as Record<string, unknown> | undefined)?.t ?? 8), 10),
+      b: Math.max(Number((layout.margin as Record<string, unknown> | undefined)?.b ?? 12), 18),
+    };
+    return layout;
+  }
+
+  if (columnChartKeys.includes(chartKey)) {
+    const columnCount = Math.max(1, expandedChartItemCount(bundle.data, "x"));
+    const baseHeight = chartPixelHeight(layout, 360);
+    layout.height = Math.max(baseHeight, 520);
+    layout.bargap = columnCount <= 2 ? 0.18 : 0.1;
+    layout.bargroupgap = 0.03;
+    layout.margin = {
+      ...((layout.margin as Record<string, unknown> | undefined) ?? {}),
+      l: Math.max(Number((layout.margin as Record<string, unknown> | undefined)?.l ?? 60), 68),
+      r: Math.max(Number((layout.margin as Record<string, unknown> | undefined)?.r ?? 20), 28),
+      t: Math.max(Number((layout.margin as Record<string, unknown> | undefined)?.t ?? 22), 26),
+      b: Math.max(Number((layout.margin as Record<string, unknown> | undefined)?.b ?? 58), 72),
+    };
+  }
+
+  return layout;
+}
+
 function weightedRate(numerator: number, denominator: number): number {
   if (denominator <= 0) return 0;
   return (numerator / denominator) * 100;
@@ -2426,21 +2486,21 @@ export default function TeacherCapacityDashboard({
                   {expandedBundle.scrollable ? (
                     <div className="overflow-y-auto pr-1" style={{ maxHeight: `min(${expandedBundle.expandedMaxHeight ?? 680}px, calc(100vh - 170px))` }}>
                       <Plot
-                        data={preparePlotData(expandedBundle.data) as never}
-                        layout={expandedBundle.layout as never}
+                        data={prepareExpandedPlotData(expandedBundle.data, expandState.chartKey) as never}
+                        layout={prepareExpandedPlotLayout(expandedBundle, expandState.chartKey) as never}
                         config={{ displayModeBar: false, responsive: true } as never}
                         useResizeHandler
-                        style={{ display: "block", width: "100%", height: chartPixelHeight(expandedBundle.layout, 360) }}
+                        style={{ display: "block", width: "100%", height: chartPixelHeight(prepareExpandedPlotLayout(expandedBundle, expandState.chartKey), 360) }}
                         onClick={expandedEntry?.onPlotClick as never}
                       />
                     </div>
                   ) : (
                     <Plot
-                      data={preparePlotData(expandedBundle.data) as never}
-                      layout={expandedBundle.layout as never}
+                      data={prepareExpandedPlotData(expandedBundle.data, expandState.chartKey) as never}
+                      layout={prepareExpandedPlotLayout(expandedBundle, expandState.chartKey) as never}
                       config={{ displayModeBar: false, responsive: true } as never}
                       useResizeHandler
-                      style={{ display: "block", width: "100%", height: chartPixelHeight(expandedBundle.layout, 360) }}
+                      style={{ display: "block", width: "100%", height: chartPixelHeight(prepareExpandedPlotLayout(expandedBundle, expandState.chartKey), 360) }}
                       onClick={expandedEntry?.onPlotClick as never}
                     />
                   )}
