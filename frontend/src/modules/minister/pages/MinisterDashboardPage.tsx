@@ -1,7 +1,7 @@
 import { Suspense, lazy, useDeferredValue, useEffect, useMemo, useState } from "react";
 import type { ChangeEvent, ReactNode } from "react";
 import { useSearchParams } from "react-router-dom";
-import { Accessibility, ArrowRight, BookOpen, ChevronUp, Users } from "lucide-react";
+import { Accessibility, BookOpen, ChevronUp, Users } from "lucide-react";
 
 import MinisterLayout from "../../../layouts/MinisterLayout";
 import { getAssignedState, getRole } from "../../../app/auth";
@@ -463,7 +463,7 @@ export default function MinisterDashboardPage({
   };
 
   const [disabilityMode, setDisabilityMode] = useState(false);
-  const [directMode, setDirectMode] = useState(false);
+  const directMode = false;
   const [basicSecondaryView, setBasicSecondaryView] = useState<BasicSecondaryView>("access_coverage");
   const [showScrollTop, setShowScrollTop] = useState(false);
   // const [admittedMode, setAdmittedMode] = useState(false);
@@ -1353,16 +1353,6 @@ export default function MinisterDashboardPage({
                 label={`Disability ${disabilityMode ? "ON" : "OFF"}`}
                 activeClass="border-violet-600 bg-violet-600 text-white shadow-sm"
               />
-              {/* {category === "transition" ? (
-                <TogglePill
-                  onClick={() => setDirectMode((prev) => !prev)}
-                  active={directMode}
-                  icon={<ArrowRight className="h-3.5 w-3.5" />}
-                  label={`Direct Mode ${directMode ? "ON" : "OFF"}`}
-                  activeClass="border-emerald-600 bg-emerald-600 text-white shadow-sm"
-                />
-              ) : null} */}
-
               {/* {category === "policy_impact" ? (
                 <TogglePill
                   onClick={() => setAdmittedMode((prev) => !prev)}
