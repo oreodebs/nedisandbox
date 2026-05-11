@@ -268,11 +268,11 @@ type SchoolLevelOption =
 const ABUJA_STATE_NAME = "Abuja Federal Capital Territory";
 const ABUJA_STATE_LABEL = "FCT";
 const DEFAULT_SORT_MODE: SortMode = "alphabetical";
-const SORT_OPTIONS: Array<{ value: SortMode; label: string }> = [
-  { value: "alphabetical", label: "Alphabetical" },
-  { value: "desc", label: "Highest to Lowest" },
-  { value: "asc", label: "Lowest to Highest" },
-];
+const SORT_LABELS: Record<SortMode, string> = {
+  alphabetical: "Alphabetical A-Z",
+  desc: "Highest to Lowest",
+  asc: "Lowest to Highest",
+};
 
 const displayLocationLabel = (label: string, level?: LocationLevel | MapLevel): string => {
   const trimmed = String(label ?? "").trim();
@@ -374,7 +374,7 @@ const CHART_HELP: Record<ChartKey, string> = {
   densityMapPrivate: "Average Primary Learners per Private School shows average learner load per private primary school by state. Click a state to switch into a ranked LGA view, then use the back action to return to the map.",
   densityDrillPublic: "Average Primary Learners per Public School by LGA ranks all LGAs within the selected state and uses a heat-style gradient so higher-pressure LGAs stand out immediately.",
   densityDrillPrivate: "Average Primary Learners per Private School by LGA ranks all LGAs within the selected state and uses a heat-style gradient so higher-pressure LGAs stand out immediately.",
-  densityCombined: "Average Primary Learners per School (Public vs Private) shows the combined primary learner load by state. Hover reveals the overall average together with the public and private learner and school totals. Click a state to switch into the LGA breakdown.",
+  densityCombined: "Average Primary Learners per School shows the combined primary learner load by state. Hover reveals the overall average together with the public and private learner and school totals. Click a state to switch into the LGA breakdown.",
   densityCombinedDrill: "Average Primary Learners per School by LGA splits each LGA into public and private average learner load so you can compare the state drilldown clearly.",
   densitySchoolLevel: "Average Primary Learners per School by School Level compares learner load per school across Pre/Primary, JSS, SSS, and Non Formal.",
   schoolCountState: "Public vs Private School Count by State compares actual school counts by management type. It stays scrollable and drills deeper from state to LGA so you can compare supply structure clearly.",
@@ -550,40 +550,104 @@ function FixedLegend({ items }: { items: LegendItem[] }) {
   );
 }
 
+function AlphabeticalSortIcon() {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4.5 w-4.5" fill="none">
+      <text x="3" y="9" fill="currentColor" fontSize="8" fontWeight="800" fontFamily="Inter, system-ui, sans-serif">A</text>
+      <text x="3" y="19" fill="currentColor" fontSize="8" fontWeight="800" fontFamily="Inter, system-ui, sans-serif">Z</text>
+      <path d="M16 18V6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M12.5 9.5L16 6l3.5 3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function ValueSortIcon({ mode }: { mode: Exclude<SortMode, "alphabetical"> | "neutral" }) {
+  const activeAscending = mode === "asc";
+  const activeDescending = mode === "desc";
+
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4.5 w-4.5" fill="none">
+      <path d="M4 6h7" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M4 12h5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M4 18h3" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      {activeAscending ? (
+        <>
+          <path d="M17 18V6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M13.5 9.5L17 6l3.5 3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      ) : activeDescending ? (
+        <>
+          <path d="M17 6v12" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M13.5 14.5L17 18l3.5-3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      ) : (
+        <>
+          <path d="M17 6v12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          <path d="M14 9l3-3 3 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M14 15l3 3 3-3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      )}
+    </svg>
+  );
+}
+
+function SortButtonHint({ text }: { text: string }) {
+  return (
+    <span className="pointer-events-none absolute right-0 top-full z-[100] mt-1 hidden w-[220px] whitespace-normal rounded-lg bg-slate-950 px-2.5 py-1.5 text-center text-[10px] font-semibold leading-[14px] text-white shadow-xl peer-hover:block peer-focus-visible:block">
+      {text}
+    </span>
+  );
+}
+
 function ChartSortControl({ value, onChange }: { value: SortMode; onChange: (value: SortMode) => void }) {
-  const shortLabels: Record<SortMode, string> = {
-    alphabetical: "A-Z",
-    desc: "High-Low",
-    asc: "Low-High",
-  };
+  const alphabeticActive = value === "alphabetical";
+  const valueSortActive = value !== "alphabetical";
+  const valueSortMode = value === "asc" ? "asc" : value === "desc" ? "desc" : "neutral";
+  const nextValueSortMode: Exclude<SortMode, "alphabetical"> = value === "desc" ? "asc" : "desc";
+  const valueSortLabel =
+    value === "asc"
+      ? "Low to High active. Click for High to Low."
+      : value === "desc"
+        ? "High to Low active. Click for Low to High."
+        : "Sort value: High to Low.";
+  const alphabeticLabel = alphabeticActive ? "A-Z active." : "Sort A-Z.";
 
   return (
     <div
-      className="inline-flex h-7 shrink-0 flex-nowrap items-stretch overflow-hidden rounded-md border border-slate-200 bg-white shadow-sm"
+      className="inline-flex h-8 shrink-0 flex-nowrap items-stretch overflow-visible rounded-full border border-slate-200 bg-white p-0.5 shadow-sm"
       role="group"
       aria-label="Sort chart"
     >
-      {SORT_OPTIONS.map((option) => {
-        const active = option.value === value;
-        const widthClass = option.value === "alphabetical" ? "min-w-[42px]" : "min-w-[66px]";
-
-        return (
-          <button
-            key={option.value}
-            type="button"
-            onClick={() => onChange(option.value)}
-            className={[
-              "flex h-full shrink-0 items-center justify-center whitespace-nowrap px-2 text-[10.5px] font-semibold leading-none transition",
-              widthClass,
-              active ? "bg-slate-900 text-white" : "bg-white text-slate-600 hover:bg-slate-50",
-            ].join(" ")}
-            title={option.label}
-            aria-pressed={active}
-          >
-            {shortLabels[option.value]}
-          </button>
-        );
-      })}
+      <div className="group relative">
+        <button
+          type="button"
+          onClick={() => onChange("alphabetical")}
+          className={[
+            "peer grid h-7 w-9 shrink-0 place-items-center rounded-full transition-none",
+            alphabeticActive ? "bg-slate-900 text-white shadow-sm" : "bg-white text-slate-500 hover:bg-slate-50 hover:text-slate-900",
+          ].join(" ")}
+          aria-label={alphabeticLabel}
+          aria-pressed={alphabeticActive}
+        >
+          <AlphabeticalSortIcon />
+        </button>
+        <SortButtonHint text={alphabeticLabel} />
+      </div>
+      <div className="group relative">
+        <button
+          type="button"
+          onClick={() => onChange(nextValueSortMode)}
+          className={[
+            "peer grid h-7 w-9 shrink-0 place-items-center rounded-full transition-none",
+            valueSortActive ? "bg-slate-900 text-white shadow-sm" : "bg-white text-slate-500 hover:bg-slate-50 hover:text-slate-900",
+          ].join(" ")}
+          aria-label={valueSortLabel}
+          aria-pressed={valueSortActive}
+        >
+          <ValueSortIcon mode={valueSortMode} />
+        </button>
+        <SortButtonHint text={valueSortLabel} />
+      </div>
     </div>
   );
 }
@@ -604,6 +668,18 @@ function stretchChartData(data: PlotlyData[]): PlotlyData[] {
 const CHART_SIDE_PADDING_PX = 12;
 const HORIZONTAL_LABEL_MARGIN_PX = 92;
 const VERTICAL_AXIS_MARGIN_PX = 48;
+
+const HIDDEN_HORIZONTAL_AXIS = {
+  showgrid: false,
+  showticklabels: false,
+  zeroline: false,
+  ticks: "",
+  rangemode: "tozero" as const,
+};
+
+function sameHeightAsKeyEntry(labelsLength: number, isScrollable: boolean): number {
+  return Math.max(isScrollable ? 560 : 360, labelsLength * (isScrollable ? 42 : 34) + 140);
+}
 
 function marginValue(margin: Partial<PlotlyLayout>["margin"], key: "l" | "r" | "t" | "b", fallback: number): number {
   const value = (margin as Record<string, unknown> | undefined)?.[key];
@@ -907,7 +983,7 @@ function ChartCard({
   );
 
   return (
-    <div className="relative w-full min-w-0 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+    <div className="relative w-full min-w-0 overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm">
       <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-3.5 py-2.5">
         <div className="min-w-0">
           <div className="text-sm font-bold text-slate-900">{title}</div>
@@ -3453,8 +3529,7 @@ export default function AccessCoverageDashboard({
     ];
 
     const isScrollable = labels.length > 10;
-    const compactMinHeight = metric === "schools" ? 360 : 340;
-    const height = Math.max(isScrollable ? 560 : compactMinHeight, labels.length * (isScrollable ? 42 : 34) + 140);
+    const height = sameHeightAsKeyEntry(labels.length, isScrollable);
 
     return {
       level: nextLevel,
@@ -3467,7 +3542,7 @@ export default function AccessCoverageDashboard({
           showlegend: !isScrollable,
           margin: { l: 92, r: 8, t: 12, b: 70 },
           yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
-          xaxis: { gridcolor: COLORS.grid, tickfont: { color: COLORS.sub } },
+          xaxis: HIDDEN_HORIZONTAL_AXIS,
         },
         scrollable: isScrollable,
         scrollMaxHeight: isScrollable ? 430 : undefined,
@@ -3623,7 +3698,7 @@ export default function AccessCoverageDashboard({
     const privateValues = groups.map((item) => item.privateValue);
     const [publicVisualValues, privateVisualValues] = minimumVisibleStackValues([publicValues, privateValues]);
     const isScrollable = labels.length > 10;
-    const height = Math.max(isScrollable ? 560 : 380, labels.length * (isScrollable ? 42 : 34) + 132);
+    const height = sameHeightAsKeyEntry(labels.length, isScrollable);
     const grandTotal = metric === "schools"
       ? (levelGroup === "primary" ? totalPrimarySchoolsCardValue : totalSecondarySchoolsCardValue)
       : groups.reduce((sum, item) => sum + item.total, 0);
@@ -3672,14 +3747,15 @@ export default function AccessCoverageDashboard({
         layout: {
           ...buildCommonLayout(height),
           barmode: "stack",
-          margin: { l: 92, r: 8, t: 10, b: 60 },
+          margin: { l: 92, r: 8, t: 10, b: 36 },
+          xaxis: HIDDEN_HORIZONTAL_AXIS,
           yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
         },
         scrollable: isScrollable,
-        scrollMaxHeight: isScrollable ? 430 : undefined,
-        expandedMaxHeight: isScrollable ? 760 : 620,
+        scrollMaxHeight: isScrollable ? 360 : undefined,
+        expandedMaxHeight: isScrollable ? 640 : 520,
         fixedLegend: isScrollable ? legendItemsFromData(traces) : undefined,
-        expandedWidthClass: "max-w-[1440px]",
+        expandedWidthClass: isScrollable ? "max-w-[1180px]" : "max-w-[1100px]",
       },
     };
   };
@@ -3735,7 +3811,7 @@ export default function AccessCoverageDashboard({
     const femaleValues = stateLabels.map((item) => item.femaleValue);
     const [maleVisualValues, femaleVisualValues] = minimumVisibleStackValues([maleValues, femaleValues]);
     const isScrollable = labels.length > 10;
-    const height = Math.max(isScrollable ? 560 : 380, labels.length * (isScrollable ? 42 : 34) + 132);
+    const height = sameHeightAsKeyEntry(labels.length, isScrollable);
     const traces: PlotlyData[] = [
       {
         type: "bar",
@@ -3779,10 +3855,10 @@ export default function AccessCoverageDashboard({
       },
       scrollable: isScrollable,
       subtitle: `Grand Total: ${fmtInt(stateLabels.reduce((sum, item) => sum + item.total, 0))} ${levelGroup === "primary" ? "Primary" : "Secondary"} ${schoolType} Students`,
-      scrollMaxHeight: isScrollable ? 430 : undefined,
-      expandedMaxHeight: isScrollable ? 760 : 620,
+      scrollMaxHeight: isScrollable ? 360 : undefined,
+      expandedMaxHeight: isScrollable ? 640 : 520,
       fixedLegend: isScrollable ? legendItemsFromData(traces) : undefined,
-      expandedWidthClass: "max-w-[1440px]",
+      expandedWidthClass: isScrollable ? "max-w-[1180px]" : "max-w-[1100px]",
     };
   };
 
@@ -3852,10 +3928,10 @@ export default function AccessCoverageDashboard({
       publicFemaleValues,
       privateMaleValues,
       privateFemaleValues,
-    ], 0.05);
+    ], 0.14);
 
     const isScrollable = labels.length > 8;
-    const height = Math.max(isScrollable ? 620 : 430, labels.length * (isScrollable ? 46 : 38) + 150);
+    const height = sameHeightAsKeyEntry(labels.length, isScrollable);
     const grandTotal = groups.reduce((sum, item) => sum + item.total, 0);
     const totalLabel = `${levelGroup === "primary" ? "Primary" : "Secondary"} Students`;
 
@@ -3869,7 +3945,9 @@ export default function AccessCoverageDashboard({
         marker: { color: "#1d4ed8", line: { color: "#1e3a8a", width: 0.6 } },
         text: publicMaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
         textposition: "inside",
+        textangle: 0,
         textfont: { color: "#ffffff", size: 11 },
+        constraintext: "none",
         insidetextanchor: "middle",
         customdata: labelValueCustomData(displayLabels, publicMaleValues),
         hovertemplate: "<b>%{customdata[0]}</b><br>Public Male: %{customdata[1]:,.0f}<extra></extra>",
@@ -3884,7 +3962,9 @@ export default function AccessCoverageDashboard({
         marker: { color: "#60a5fa", line: { color: "#2563eb", width: 0.6 } },
         text: publicFemaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
         textposition: "inside",
+        textangle: 0,
         textfont: { color: "#0f172a", size: 11 },
+        constraintext: "none",
         insidetextanchor: "middle",
         customdata: labelValueCustomData(displayLabels, publicFemaleValues),
         hovertemplate: "<b>%{customdata[0]}</b><br>Public Female: %{customdata[1]:,.0f}<extra></extra>",
@@ -3899,7 +3979,9 @@ export default function AccessCoverageDashboard({
         marker: { color: "#c2410c", line: { color: "#9a3412", width: 0.6 } },
         text: privateMaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
         textposition: "inside",
+        textangle: 0,
         textfont: { color: "#ffffff", size: 11 },
+        constraintext: "none",
         insidetextanchor: "middle",
         customdata: labelValueCustomData(displayLabels, privateMaleValues),
         hovertemplate: "<b>%{customdata[0]}</b><br>Private Male: %{customdata[1]:,.0f}<extra></extra>",
@@ -3914,7 +3996,9 @@ export default function AccessCoverageDashboard({
         marker: { color: "#fdba74", line: { color: "#ea580c", width: 0.6 } },
         text: privateFemaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
         textposition: "inside",
+        textangle: 0,
         textfont: { color: "#431407", size: 11 },
+        constraintext: "none",
         insidetextanchor: "middle",
         customdata: labelValueCustomData(displayLabels, privateFemaleValues),
         hovertemplate: "<b>%{customdata[0]}</b><br>Private Female: %{customdata[1]:,.0f}<extra></extra>",
@@ -3932,13 +4016,8 @@ export default function AccessCoverageDashboard({
           barmode: "stack",
           bargap: 0.24,
           bargroupgap: 0.03,
-          margin: { l: 96, r: 12, t: 10, b: 86 },
-          xaxis: {
-            tickfont: { color: COLORS.sub },
-            gridcolor: COLORS.grid,
-            automargin: true,
-            rangemode: "tozero",
-          },
+          margin: { l: 96, r: 12, t: 10, b: 36 },
+          xaxis: HIDDEN_HORIZONTAL_AXIS,
           yaxis: {
             showgrid: false,
             automargin: true,
@@ -3949,10 +4028,10 @@ export default function AccessCoverageDashboard({
           legend: { orientation: "h", x: 0, y: -0.22, font: { size: 11, color: COLORS.sub } },
         },
         scrollable: isScrollable,
-        scrollMaxHeight: isScrollable ? 500 : undefined,
-        expandedMaxHeight: isScrollable ? 820 : 680,
+        scrollMaxHeight: isScrollable ? 360 : undefined,
+        expandedMaxHeight: isScrollable ? 640 : 520,
         fixedLegend: isScrollable ? legendItemsFromData(traces) : undefined,
-        expandedWidthClass: "max-w-[1480px]",
+        expandedWidthClass: isScrollable ? "max-w-[1180px]" : "max-w-[1100px]",
       },
     };
   };
@@ -4217,7 +4296,7 @@ export default function AccessCoverageDashboard({
     const privateValues = groupedRows.map((row) => row.privateRatio);
     const [publicVisualValues, privateVisualValues] = minimumVisibleStackValues([publicValues, privateValues], 0.08);
     const isScrollable = labels.length > 10;
-    const height = Math.max(isScrollable ? 560 : 380, labels.length * (isScrollable ? 42 : 34) + 132);
+    const height = sameHeightAsKeyEntry(labels.length, isScrollable);
     const traces: PlotlyData[] = [
       {
         type: "bar",
@@ -4259,7 +4338,7 @@ export default function AccessCoverageDashboard({
           barmode: "stack",
           margin: { l: 92, r: 18, t: 12, b: 64 },
           yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
-          xaxis: { gridcolor: COLORS.grid, tickfont: { color: COLORS.sub }, rangemode: "tozero" },
+          xaxis: HIDDEN_HORIZONTAL_AXIS,
         },
         scrollable: isScrollable,
         scrollMaxHeight: isScrollable ? 360 : undefined,
@@ -4362,6 +4441,9 @@ export default function AccessCoverageDashboard({
         hovermode: "x unified",
         xaxis: {
           tickfont: { color: COLORS.sub, size: 11 },
+          showgrid: false,
+          zeroline: false,
+          showline: false,
           tickmode: "array",
           tickvals: classLevelPositions,
           ticktext: [...TREND_CLASS_LEVELS],
@@ -4374,6 +4456,10 @@ export default function AccessCoverageDashboard({
           range: [0, yMax],
           tickformat: "~s",
           nticks: 5,
+          showline: true,
+          linecolor: "rgba(15,23,42,0.38)",
+          linewidth: 1,
+          zeroline: false,
         },
         annotations: valueAnnotations,
       },
@@ -4478,7 +4564,7 @@ export default function AccessCoverageDashboard({
           showlegend: !isScrollable,
           margin: { l: 92, r: 18, t: 12, b: 70 },
           yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
-          xaxis: { gridcolor: COLORS.grid, tickfont: { color: COLORS.sub }, rangemode: "tozero" },
+          xaxis: HIDDEN_HORIZONTAL_AXIS,
         },
         scrollable: isScrollable,
         scrollMaxHeight: isScrollable ? 360 : undefined,
@@ -4628,7 +4714,7 @@ export default function AccessCoverageDashboard({
           showlegend: false,
           margin: { l: 92, r: 18, t: 12, b: 64 },
           yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
-          xaxis: { gridcolor: COLORS.grid, tickfont: { color: COLORS.sub }, rangemode: "tozero" },
+          xaxis: HIDDEN_HORIZONTAL_AXIS,
         },
         scrollable: isScrollable,
         scrollMaxHeight: isScrollable ? 360 : undefined,
@@ -4724,10 +4810,13 @@ export default function AccessCoverageDashboard({
   const buildMapData = (
     drill: DrillState,
     kind: "density" | "densityPublic" | "densityPrivate" | "densityCombined" | "computer" | "infrastructure",
+    options?: { useFilterState?: boolean },
   ): SvgMapData | null => {
     // Effective state: use map's own drill.state, OR fall back to filters.state when a chart
-    // drill has set the filter without updating the map drill yet.
-    const effectiveState = drill.state ?? (renderFilters.state || undefined);
+    // drill has set the filter without updating the map drill yet. For the combined density map,
+    // we can disable the filter fallback while scoped LGA data is still loading so the map does
+    // not briefly render an empty LGA view.
+    const effectiveState = drill.state ?? (options?.useFilterState === false ? undefined : (renderFilters.state || undefined));
     const level: MapLevel = effectiveState ? "lga" : "state";
 
     const baseRows = effectiveState
@@ -4887,7 +4976,22 @@ export default function AccessCoverageDashboard({
     };
   }, [renderComputerDrill, currentRows, renderFilters.state]);
 
-  const densityCombinedMapData = useMemo(() => buildMapData(renderDensityDrill, "densityCombined"), [currentRows, renderDensityDrill, renderFilters.state]);
+  const densityCombinedActiveState = renderDensityDrill.state ?? (renderFilters.state || "");
+  const densityCombinedDrillReady = Boolean(
+    densityCombinedActiveState &&
+      currentRows.some(
+        (row) => row.state === densityCombinedActiveState && row.school_level === "Pre-Primary/Primary" && Boolean(row.lga),
+      ),
+  );
+  const densityCombinedDisplayDrill = useMemo<DrillState>(
+    () => (densityCombinedDrillReady ? { ...renderDensityDrill, state: densityCombinedActiveState } : {}),
+    [densityCombinedDrillReady, renderDensityDrill, densityCombinedActiveState],
+  );
+  const densityCombinedMapData = useMemo(
+    () => buildMapData(densityCombinedDisplayDrill, "densityCombined", { useFilterState: false }),
+    [currentRows, densityCombinedDisplayDrill],
+  );
+  const visibleDensityCombinedDrillChart = densityCombinedDrillReady ? densityCombinedDrillChart : null;
   const computerMapData = useMemo(() => buildMapData(renderComputerDrill, "computer"), [currentRows, renderComputerDrill, renderFilters.state]);
   const infrastructureMapData = useMemo(() => buildMapData({}, "infrastructure"), [currentRows]);
   const activeInfrastructureState = renderInfrastructureDrill.state ?? (renderFilters.state || "");
@@ -5197,7 +5301,7 @@ export default function AccessCoverageDashboard({
     densityMapPublic: { bundle: { data: [], layout: buildCommonLayout(10) } },
     densityMapPrivate: { bundle: { data: [], layout: buildCommonLayout(10) } },
     densityCombined: { bundle: { data: [], layout: buildCommonLayout(10) } },
-    densityCombinedDrill: densityCombinedDrillChart ? { bundle: densityCombinedDrillChart } : { bundle: { data: [], layout: buildCommonLayout(10) } },
+    densityCombinedDrill: visibleDensityCombinedDrillChart ? { bundle: visibleDensityCombinedDrillChart } : { bundle: { data: [], layout: buildCommonLayout(10) } },
     densitySchoolLevel: { bundle: densitySchoolLevelChart },
     densityDrillPublic: densityPublicDrillChart ? { bundle: densityPublicDrillChart } : { bundle: { data: [], layout: buildCommonLayout(10) } },
     densityDrillPrivate: densityPrivateDrillChart ? { bundle: densityPrivateDrillChart } : { bundle: { data: [], layout: buildCommonLayout(10) } },
@@ -5291,12 +5395,12 @@ export default function AccessCoverageDashboard({
       <section className="space-y-4" id="access-coverage-main">
         <SectionTitle id="access-coverage-main-anchor" title="Access & Coverage" />
         <div className="flex flex-nowrap items-stretch gap-3 [&>*:first-child]:min-w-0 [&>*:first-child]:flex-[1.35] [&>*:last-child]:min-w-0 [&>*:last-child]:flex-1">
-          {densityCombinedDrillChart ? (
-            <div className="relative w-full min-w-0 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+          {visibleDensityCombinedDrillChart ? (
+            <div className="relative w-full min-w-0 overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm">
               <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
                 <div>
-                  <div className="text-sm font-bold text-slate-900">Average Primary Learners per School (Public vs Private)</div>
-                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {displayLocationLabel(renderDensityDrill.state ?? renderFilters.state, "state")} ({locationLevelLabel(scopedBreakdownLevel(renderFilters, (renderDensityDrill.state ?? renderFilters.state) || undefined))} view)</div>
+                  <div className="text-sm font-bold text-slate-900">Average Primary Learners per School</div>
+                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {displayLocationLabel(densityCombinedDisplayDrill.state ?? renderFilters.state, "state")} ({locationLevelLabel(scopedBreakdownLevel(renderFilters, (densityCombinedDisplayDrill.state ?? renderFilters.state) || undefined))} view)</div>
                 </div>
                 <div className="flex items-center gap-2">
                   <button
@@ -5311,7 +5415,7 @@ export default function AccessCoverageDashboard({
                   </button>
                   <button
                     type="button"
-                    onClick={() => setExpandState({ key: "densityCombinedDrill", title: "Average Primary Learners per School (Public vs Private)" })}
+                    onClick={() => setExpandState({ key: "densityCombinedDrill", title: "Average Primary Learners per School" })}
                     className="grid h-7 w-7 place-items-center rounded-md border border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-slate-800"
                     title="Expand chart"
                   >
@@ -5320,22 +5424,22 @@ export default function AccessCoverageDashboard({
                 </div>
               </div>
               <div className="w-full overflow-x-hidden px-3 py-0">
-                {densityCombinedDrillChart.fixedLegend?.length ? <FixedLegend items={densityCombinedDrillChart.fixedLegend} /> : null}
-                {densityCombinedDrillChart.scrollable ? (
-                  <div className="block w-full min-w-0 overflow-y-auto" style={{ maxHeight: densityCombinedDrillChart.scrollMaxHeight ?? 320 }}>
-                    <StretchedPlot bundle={densityCombinedDrillChart} />
+                {visibleDensityCombinedDrillChart.fixedLegend?.length ? <FixedLegend items={visibleDensityCombinedDrillChart.fixedLegend} /> : null}
+                {visibleDensityCombinedDrillChart.scrollable ? (
+                  <div className="block w-full min-w-0 overflow-y-auto" style={{ maxHeight: visibleDensityCombinedDrillChart.scrollMaxHeight ?? 320 }}>
+                    <StretchedPlot bundle={visibleDensityCombinedDrillChart} />
                   </div>
                 ) : (
-                  <StretchedPlot bundle={densityCombinedDrillChart} />
+                  <StretchedPlot bundle={visibleDensityCombinedDrillChart} />
                 )}
               </div>
             </div>
           ) : (
             <MapChartCard
-              title="Average Primary Learners per School (Public vs Private)"
+              title="Average Primary Learners per School"
               explanation={CHART_HELP.densityCombined}
               mapData={densityCombinedMapData}
-              drill={renderDensityDrill}
+              drill={densityCombinedDisplayDrill}
               onReset={() => {
                 resetLinkedStateDrills();
                 setFilters((p: MinisterFilters) => ({ ...p, zone: "", state: "", lga: "", ward: "", school: "" }));
@@ -5598,7 +5702,7 @@ export default function AccessCoverageDashboard({
         />
         <div className="hidden">
           {computerDrillChart ? (
-            <div className="relative w-full min-w-0 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+            <div className="relative w-full min-w-0 overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm">
               <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
                 <div>
                   <div className="text-sm font-bold text-slate-900">Learners per Computer by {locationLevelLabel(scopedBreakdownLevel(renderFilters, (renderComputerDrill.state ?? renderFilters.state) || undefined))}</div>

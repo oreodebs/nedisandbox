@@ -149,11 +149,6 @@ type SortMode = "alphabetical" | "desc" | "asc";
 type SortableChartKey = Extract<ExpandChartKey, "ptrState" | "teachersState" | "studentsState" | "qualificationState">;
 
 const DEFAULT_SORT_MODE: SortMode = "alphabetical";
-const SORT_OPTIONS: Array<{ value: SortMode; label: string }> = [
-  { value: "alphabetical", label: "A-Z" },
-  { value: "desc", label: "High-Low" },
-  { value: "asc", label: "Low-High" },
-];
 const SORTABLE_CHART_KEYS: SortableChartKey[] = ["ptrState", "teachersState", "studentsState", "qualificationState"];
 const DEFAULT_SORT_MODES: Record<SortableChartKey, SortMode> = {
   ptrState: DEFAULT_SORT_MODE,
@@ -708,26 +703,104 @@ function FixedLegend({ items }: { items: LegendItem[] }) {
   );
 }
 
-function ChartSortControl({ value, onChange }: { value: SortMode; onChange: (value: SortMode) => void }) {
+function AlphabeticalSortIcon() {
   return (
-    <div className="inline-flex h-8 shrink-0 flex-nowrap items-center overflow-hidden whitespace-nowrap rounded-md border border-slate-200 bg-white text-[11px] font-semibold text-slate-600 shadow-sm">
-      {SORT_OPTIONS.map((option) => {
-        const active = value === option.value;
-        return (
-          <button
-            key={option.value}
-            type="button"
-            onClick={() => onChange(option.value)}
-            className={[
-              "h-8 min-w-[58px] shrink-0 whitespace-nowrap px-2.5 leading-none transition-colors",
-              active ? "bg-slate-950 text-white" : "bg-white text-slate-600 hover:bg-slate-50",
-            ].join(" ")}
-            aria-pressed={active}
-          >
-            {option.label}
-          </button>
-        );
-      })}
+    <svg aria-hidden="true" viewBox="0 0 24 24" className="h-[18px] w-[18px]" fill="none">
+      <text x="3" y="9" fill="currentColor" fontSize="8" fontWeight="800" fontFamily="Inter, system-ui, sans-serif">A</text>
+      <text x="3" y="19" fill="currentColor" fontSize="8" fontWeight="800" fontFamily="Inter, system-ui, sans-serif">Z</text>
+      <path d="M16 18V6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M12.5 9.5L16 6l3.5 3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function ValueSortIcon({ mode }: { mode: Exclude<SortMode, "alphabetical"> | "neutral" }) {
+  const activeAscending = mode === "asc";
+  const activeDescending = mode === "desc";
+
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" className="h-[18px] w-[18px]" fill="none">
+      <path d="M4 6h7" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M4 12h5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M4 18h3" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      {activeAscending ? (
+        <>
+          <path d="M17 18V6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M13.5 9.5L17 6l3.5 3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      ) : activeDescending ? (
+        <>
+          <path d="M17 6v12" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M13.5 14.5L17 18l3.5-3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      ) : (
+        <>
+          <path d="M17 6v12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          <path d="M14 9l3-3 3 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M14 15l3 3 3-3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      )}
+    </svg>
+  );
+}
+
+function SortButtonHint({ text }: { text: string }) {
+  return (
+    <span className="pointer-events-none absolute right-0 top-full z-[100] mt-1 hidden w-[220px] whitespace-normal rounded-lg bg-slate-950 px-2.5 py-1.5 text-center text-[10px] font-semibold leading-[14px] text-white shadow-xl peer-hover:block peer-focus-visible:block">
+      {text}
+    </span>
+  );
+}
+
+function ChartSortControl({ value, onChange }: { value: SortMode; onChange: (value: SortMode) => void }) {
+  const alphabeticActive = value === "alphabetical";
+  const valueSortActive = value !== "alphabetical";
+  const valueSortMode = value === "asc" ? "asc" : value === "desc" ? "desc" : "neutral";
+  const nextValueSortMode: Exclude<SortMode, "alphabetical"> = value === "desc" ? "asc" : "desc";
+  const valueSortLabel =
+    value === "asc"
+      ? "Low to High active. Click for High to Low."
+      : value === "desc"
+        ? "High to Low active. Click for Low to High."
+        : "Sort value: High to Low.";
+  const alphabeticLabel = alphabeticActive ? "A-Z active." : "Sort A-Z.";
+
+  return (
+    <div
+      className="inline-flex h-8 shrink-0 flex-nowrap items-stretch overflow-visible rounded-full border border-slate-200 bg-white p-0.5 shadow-sm"
+      role="group"
+      aria-label="Sort chart"
+    >
+      <div className="group relative">
+        <button
+          type="button"
+          onClick={() => onChange("alphabetical")}
+          className={[
+            "peer grid h-7 w-9 shrink-0 place-items-center rounded-full transition-none",
+            alphabeticActive ? "bg-slate-900 text-white shadow-sm" : "bg-white text-slate-500 hover:bg-slate-50 hover:text-slate-900",
+          ].join(" ")}
+          aria-label={alphabeticLabel}
+          aria-pressed={alphabeticActive}
+        >
+          <AlphabeticalSortIcon />
+        </button>
+        <SortButtonHint text={alphabeticLabel} />
+      </div>
+      <div className="group relative">
+        <button
+          type="button"
+          onClick={() => onChange(nextValueSortMode)}
+          className={[
+            "peer grid h-7 w-9 shrink-0 place-items-center rounded-full transition-none",
+            valueSortActive ? "bg-slate-900 text-white shadow-sm" : "bg-white text-slate-500 hover:bg-slate-50 hover:text-slate-900",
+          ].join(" ")}
+          aria-label={valueSortLabel}
+          aria-pressed={valueSortActive}
+        >
+          <ValueSortIcon mode={valueSortMode} />
+        </button>
+        <SortButtonHint text={valueSortLabel} />
+      </div>
     </div>
   );
 }
@@ -873,7 +946,7 @@ function ChartCard({
   }, [showHelp]);
 
   return (
-    <div className="relative min-w-0 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+    <div className="relative min-w-0 overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm">
       <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
         <div className="min-w-0">
           <div className="text-sm font-bold text-slate-900">{title}</div>
@@ -1039,7 +1112,7 @@ function buildPupilTeacherRatioBySchoolTypeChart(
 
   if (!grouped.length) return null;
 
-  const height = Math.max(420, grouped.length * 32 + 110);
+  const height = Math.max(560, grouped.length * 42 + 140);
   const maxStackedRatio = Math.max(...grouped.map((item) => item.publicRatio + item.privateRatio), UBEC_PRIMARY_BENCHMARK.value, 0);
   const publicVisualRatios = minVisibleStackValues(grouped.map((item) => item.publicRatio), maxStackedRatio, 0.08);
   const privateVisualRatios = minVisibleStackValues(grouped.map((item) => item.privateRatio), maxStackedRatio, 0.08);
@@ -1107,7 +1180,7 @@ function buildPupilTeacherRatioBySchoolTypeChart(
       data,
       layout,
       scrollable: true,
-      scrollMaxHeight: 420,
+      scrollMaxHeight: 360,
       expandedMaxHeight: 680,
       expandedWidthClass: "max-w-[96vw]",
       titleNote: `Benchmark: UBE Pre/Primary ${fmtRatio(UBEC_PRIMARY_BENCHMARK.value)} · ${titleGrandTotal("Primary Students", ACCESS_PRIMARY_STUDENTS_TOTAL)}`,
@@ -1169,7 +1242,7 @@ function buildPublicPrivateByLocationChart(
 
   if (!grouped.length) return null;
 
-  const height = Math.max(420, grouped.length * 32 + 110);
+  const height = Math.max(560, grouped.length * 42 + 140);
   const maxTotal = Math.max(...grouped.map((item) => item.total), 0);
   const publicVisualValues = minVisibleStackValues(grouped.map((item) => item.publicValue), maxTotal, 0.065);
   const privateVisualValues = minVisibleStackValues(grouped.map((item) => item.privateValue), maxTotal, 0.065);
@@ -1229,7 +1302,7 @@ function buildPublicPrivateByLocationChart(
       data,
       layout,
       scrollable: true,
-      scrollMaxHeight: 420,
+      scrollMaxHeight: 360,
       expandedMaxHeight: 680,
       expandedWidthClass: "max-w-[96vw]",
       titleNote: legendLabel === "Students"
@@ -1286,7 +1359,7 @@ function buildQualifiedUnqualifiedByLocationChart(
 
   if (!grouped.length) return null;
 
-  const height = Math.max(420, grouped.length * 32 + 110);
+  const height = Math.max(560, grouped.length * 42 + 140);
   const maxTotal = Math.max(...grouped.map((item) => item.total), 0);
   const qualifiedVisualValues = minVisibleStackValues(grouped.map((item) => item.qualified), maxTotal, 0.065);
   const unqualifiedVisualValues = minVisibleStackValues(grouped.map((item) => item.unqualified), maxTotal, 0.065);
@@ -1344,7 +1417,7 @@ function buildQualifiedUnqualifiedByLocationChart(
       data,
       layout,
       scrollable: true,
-      scrollMaxHeight: 420,
+      scrollMaxHeight: 360,
       expandedMaxHeight: 680,
       expandedWidthClass: "max-w-[96vw]",
       titleNote: titleGrandTotal("Teachers", grouped.reduce((sum, item) => sum + item.total, 0)),
@@ -2447,7 +2520,7 @@ export default function TeacherCapacityDashboard({
           <div
             ref={expandedPanelRef}
             className={[
-              "w-full overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl",
+              "w-full overflow-visible rounded-2xl border border-slate-200 bg-white shadow-2xl",
               expandedBundle?.expandedWidthClass ?? "max-w-[96vw]",
             ].join(" ")}
           >

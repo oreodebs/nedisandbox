@@ -231,11 +231,6 @@ type SortablePerformanceChartKey = Extract<
 >;
 
 const DEFAULT_SORT_MODE: SortMode = "alphabetical";
-const SORT_OPTIONS: Array<{ value: SortMode; label: string }> = [
-  { value: "alphabetical", label: "A-Z" },
-  { value: "desc", label: "High-Low" },
-  { value: "asc", label: "Low-High" },
-];
 const SORTABLE_PERFORMANCE_CHART_KEYS: SortablePerformanceChartKey[] = [
   "waecZone",
   "waecState",
@@ -416,13 +411,13 @@ function expandedChartBundle(bundle?: ChartBundle, chartKey?: ExpandChartKey): C
   if (chartKey && isSortablePerformanceChartKey(chartKey)) {
     const currentHeight = chartPixelHeight(cloned.layout, 420);
     const isStateLikeChart = cloned.scrollable === true;
-    cloned.expandedWidthClass = isStateLikeChart ? "max-w-[1320px]" : "max-w-[1180px]";
-    cloned.expandedMaxHeight = isStateLikeChart ? 760 : 620;
+    cloned.expandedWidthClass = isStateLikeChart ? "max-w-[1040px]" : "max-w-[940px]";
+    cloned.expandedMaxHeight = isStateLikeChart ? 520 : 430;
     cloned.layout = {
       ...cloned.layout,
-      height: isStateLikeChart ? Math.max(currentHeight, 760) : Math.min(Math.max(currentHeight, 520), 620),
+      height: isStateLikeChart ? Math.max(currentHeight, 560) : Math.min(Math.max(currentHeight, 430), 500),
       bargap: isStateLikeChart ? 0.18 : 0.22,
-      margin: { l: isStateLikeChart ? 128 : 118, r: 64, t: 10, b: 32 },
+      margin: { l: isStateLikeChart ? 112 : 92, r: 42, t: 10, b: 28 },
       xaxis: {
         ...((cloned.layout.xaxis as Record<string, unknown> | undefined) ?? {}),
         automargin: false,
@@ -431,7 +426,7 @@ function expandedChartBundle(bundle?: ChartBundle, chartKey?: ExpandChartKey): C
       yaxis: {
         ...((cloned.layout.yaxis as Record<string, unknown> | undefined) ?? {}),
         automargin: false,
-        tickfont: { color: COLORS.sub, size: 11 },
+        tickfont: { color: COLORS.sub, size: 10.5 },
       },
     };
   }
@@ -907,34 +902,104 @@ function EmptyState({ title }: { title: string }) {
 }
 
 
+function AlphabeticalSortIcon() {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4.5 w-4.5" fill="none">
+      <text x="3" y="9" fill="currentColor" fontSize="8" fontWeight="800" fontFamily="Inter, system-ui, sans-serif">A</text>
+      <text x="3" y="19" fill="currentColor" fontSize="8" fontWeight="800" fontFamily="Inter, system-ui, sans-serif">Z</text>
+      <path d="M16 18V6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M12.5 9.5L16 6l3.5 3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function ValueSortIcon({ mode }: { mode: Exclude<SortMode, "alphabetical"> | "neutral" }) {
+  const activeAscending = mode === "asc";
+  const activeDescending = mode === "desc";
+
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4.5 w-4.5" fill="none">
+      <path d="M4 6h7" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M4 12h5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M4 18h3" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      {activeAscending ? (
+        <>
+          <path d="M17 18V6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M13.5 9.5L17 6l3.5 3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      ) : activeDescending ? (
+        <>
+          <path d="M17 6v12" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M13.5 14.5L17 18l3.5-3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      ) : (
+        <>
+          <path d="M17 6v12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          <path d="M14 9l3-3 3 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M14 15l3 3 3-3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      )}
+    </svg>
+  );
+}
+
+function SortButtonHint({ text }: { text: string }) {
+  return (
+    <span className="pointer-events-none absolute right-0 top-full z-[100] mt-1 hidden w-[220px] whitespace-normal rounded-lg bg-slate-950 px-2.5 py-1.5 text-center text-[10px] font-semibold leading-[14px] text-white shadow-xl peer-hover:block peer-focus-visible:block">
+      {text}
+    </span>
+  );
+}
+
 function ChartSortControl({ value, onChange }: { value: SortMode; onChange: (value: SortMode) => void }) {
+  const alphabeticActive = value === "alphabetical";
+  const valueSortActive = value !== "alphabetical";
+  const valueSortMode = value === "asc" ? "asc" : value === "desc" ? "desc" : "neutral";
+  const nextValueSortMode: Exclude<SortMode, "alphabetical"> = value === "desc" ? "asc" : "desc";
+  const valueSortLabel =
+    value === "asc"
+      ? "Low to High active. Click for High to Low."
+      : value === "desc"
+        ? "High to Low active. Click for Low to High."
+        : "Sort value: High to Low.";
+  const alphabeticLabel = alphabeticActive ? "A-Z active." : "Sort A-Z.";
+
   return (
     <div
-      className="inline-flex h-7 shrink-0 flex-nowrap items-stretch overflow-hidden rounded-md border border-slate-200 bg-white shadow-sm"
+      className="inline-flex h-8 shrink-0 flex-nowrap items-stretch overflow-visible rounded-full border border-slate-200 bg-white p-0.5 shadow-sm"
       role="group"
       aria-label="Sort chart"
     >
-      {SORT_OPTIONS.map((option) => {
-        const active = option.value === value;
-        const widthClass = option.value === "alphabetical" ? "min-w-[42px]" : "min-w-[66px]";
-
-        return (
-          <button
-            key={option.value}
-            type="button"
-            onClick={() => onChange(option.value)}
-            className={[
-              "flex h-full shrink-0 items-center justify-center whitespace-nowrap px-2 text-[10.5px] font-semibold leading-none transition",
-              widthClass,
-              active ? "bg-slate-900 text-white" : "bg-white text-slate-600 hover:bg-slate-50",
-            ].join(" ")}
-            title={option.label}
-            aria-pressed={active}
-          >
-            {option.label}
-          </button>
-        );
-      })}
+      <div className="group relative">
+        <button
+          type="button"
+          onClick={() => onChange("alphabetical")}
+          className={[
+            "peer grid h-7 w-9 shrink-0 place-items-center rounded-full transition-none",
+            alphabeticActive ? "bg-slate-900 text-white shadow-sm" : "bg-white text-slate-500 hover:bg-slate-50 hover:text-slate-900",
+          ].join(" ")}
+          aria-label={alphabeticLabel}
+          aria-pressed={alphabeticActive}
+        >
+          <AlphabeticalSortIcon />
+        </button>
+        <SortButtonHint text={alphabeticLabel} />
+      </div>
+      <div className="group relative">
+        <button
+          type="button"
+          onClick={() => onChange(nextValueSortMode)}
+          className={[
+            "peer grid h-7 w-9 shrink-0 place-items-center rounded-full transition-none",
+            valueSortActive ? "bg-slate-900 text-white shadow-sm" : "bg-white text-slate-500 hover:bg-slate-50 hover:text-slate-900",
+          ].join(" ")}
+          aria-label={valueSortLabel}
+          aria-pressed={valueSortActive}
+        >
+          <ValueSortIcon mode={valueSortMode} />
+        </button>
+        <SortButtonHint text={valueSortLabel} />
+      </div>
     </div>
   );
 }
@@ -1438,8 +1503,8 @@ function buildLocationChart(
       titleNote,
       scrollable: isScrollable,
       scrollMaxHeight: isScrollable ? 360 : undefined,
-      expandedMaxHeight: isScrollable ? 620 : 520,
-      expandedWidthClass: isScrollable ? "max-w-[96vw]" : "max-w-[94vw]",
+      expandedMaxHeight: isScrollable ? 520 : 430,
+      expandedWidthClass: isScrollable ? "max-w-[1040px]" : "max-w-[940px]",
       fixedLegend: [
         { label: `${benchmarkLabel} Male`, color: colors.male },
         { label: `${benchmarkLabel} Female`, color: colors.female },
@@ -2160,7 +2225,7 @@ export default function PerformanceDashboard({
           <div
             ref={expandedPanelRef}
             className={[
-              "flex max-h-[97vh] w-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl",
+              "flex max-h-[90vh] w-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl",
               expandedBundle?.expandedWidthClass ?? "max-w-[980px]",
             ].join(" ")}
           >
@@ -2180,14 +2245,14 @@ export default function PerformanceDashboard({
                 </button>
               </div>
             </div>
-            <div className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden p-5">
+            <div className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden p-3">
               {expandedBundle ? (
                 <>
                   {expandedBundle.fixedLegend?.length ? <FixedLegend items={expandedBundle.fixedLegend} /> : null}
                   {expandedBundle.scrollable ? (
                     <div
                       className="block w-full min-w-0 overflow-y-auto overflow-x-hidden pr-1"
-                      style={{ maxHeight: expandedBundle.expandedMaxHeight ?? 620 }}
+                      style={{ maxHeight: expandedBundle.expandedMaxHeight ?? 520 }}
                     >
                       <Plot
                         data={expandedBundle.data as never}
@@ -2199,7 +2264,7 @@ export default function PerformanceDashboard({
                       />
                     </div>
                   ) : (
-                    <div className="min-h-0 overflow-y-auto overflow-x-hidden" style={{ maxHeight: expandedBundle.expandedMaxHeight ?? 620 }}>
+                    <div className="min-h-0 overflow-y-auto overflow-x-hidden" style={{ maxHeight: expandedBundle.expandedMaxHeight ?? 520 }}>
                       <Plot
                         data={expandedBundle.data as never}
                         layout={expandedBundle.layout as never}

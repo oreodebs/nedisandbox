@@ -19,11 +19,6 @@ import {
 
 import type { DimSession, MinisterFilters } from "../types";
 import {
-  applyDirectTransitionMetricOverride,
-  applyGeneralOLevelDeltaOverride,
-  applyGeneralOLevelOverride,
-} from "../utils/metricOverrides";
-import {
   canonicalState,
   expectedLocLevelForLocation,
   loadRefinedScopedRows,
@@ -33,6 +28,7 @@ import {
   TRANSITION_SESSIONS,
   filterRowsBySessionWindow,
 } from "../utils/sessionWindows";
+import { applySs3EnrollmentOverride } from "../utils/metricOverrides";
 
 type TransitionGeneralRow = {
   session: string;
@@ -192,11 +188,6 @@ type SortableTransitionChartKey = Extract<
 >;
 
 const DEFAULT_SORT_MODE: SortMode = "alphabetical";
-const SORT_OPTIONS: Array<{ value: SortMode; label: string }> = [
-  { value: "alphabetical", label: "A-Z" },
-  { value: "desc", label: "High-Low" },
-  { value: "asc", label: "Low-High" },
-];
 const SORTABLE_TRANSITION_CHART_KEYS: SortableTransitionChartKey[] = [
   "generalTransitionZone",
   "generalTransitionState",
@@ -451,28 +442,28 @@ function constrainDirectRows(directRows: TransitionDirectRow[], _generalRows: Tr
   return directRows;
 }
 
-function buildLossRows(metrics: AggregateMetrics, mode: Mode): LossRow[] {
-  if (mode === "direct") {
-    return [
-      { stage: "SS3 → O-Level", from: metrics.ss3_total, to: metrics.o_level_candidates, lost: 0, lostPct: 0 },
-      { stage: "O-Level → UTME", from: metrics.o_level_candidates, to: metrics.utme_participants, lost: 0, lostPct: 0 },
-      { stage: "UTME → Admitted", from: metrics.utme_participants, to: metrics.admitted_students, lost: 0, lostPct: 0 },
-      { stage: "Admitted → Matriculated", from: metrics.admitted_students, to: metrics.matriculated_students, lost: 0, lostPct: 0 },
-    ].map((row) => ({
-      ...row,
-      lost: Math.max(0, row.from - row.to),
-      lostPct: row.from > 0 ? ((row.from - row.to) / row.from) * 100 : 0,
-    }));
-  }
+function estimateSs3OLevelCohort(metrics: AggregateMetrics): number {
+  const ss3Total = Math.max(0, safeNum(metrics.ss3_total));
+  const reportedOLevel = Math.max(0, safeNum(metrics.o_level_candidates));
 
+  if (ss3Total <= 0) return 0;
+  if (reportedOLevel > 0 && reportedOLevel < ss3Total) return Math.round(reportedOLevel);
+
+  // Total O-Level can include non-current SS3 candidates, so this keeps the SS3 drop-off row cohort-based.
+  return Math.round(ss3Total * 0.92);
+}
+
+function buildLossRows(metrics: AggregateMetrics, _mode: Mode): LossRow[] {
+  const ss3OLevelCohort = estimateSs3OLevelCohort(metrics);
   return [
+    { stage: "SS3 → O-Level", from: metrics.ss3_total, to: ss3OLevelCohort, lost: 0, lostPct: 0 },
     { stage: "O-Level → UTME", from: metrics.o_level_candidates, to: metrics.utme_participants, lost: 0, lostPct: 0 },
     { stage: "UTME → Admitted", from: metrics.utme_participants, to: metrics.admitted_students, lost: 0, lostPct: 0 },
     { stage: "Admitted → Matriculated", from: metrics.admitted_students, to: metrics.matriculated_students, lost: 0, lostPct: 0 },
   ].map((row) => ({
     ...row,
     lost: Math.max(0, row.from - row.to),
-    lostPct: row.from > 0 ? ((row.from - row.to) / row.from) * 100 : 0,
+    lostPct: row.from > 0 ? (Math.max(0, row.from - row.to) / row.from) * 100 : 0,
   }));
 }
 
@@ -633,6 +624,7 @@ function verticalBarTrace(name: string, labels: string[], values: number[], colo
     text: barText(values),
     texttemplate: "%{text}",
     textposition: "inside",
+    textangle: 0,
     insidetextanchor: "middle",
     constraintext: "none",
     textfont: { color: "#ffffff", size: 11 },
@@ -648,18 +640,19 @@ function horizontalBarTrace(
   values: number[],
   color: string,
   _textPosition: "inside" | "outside" | "auto" = "inside",
-  textFontSize = 11,
-  oLevelValues?: number[],
+  textFontSize = 10.5,
+  referenceValues?: number[],
   visualValues?: number[],
+  referenceLabel = "SS3 Students",
 ): PlotlyData {
   const customdata = labels.map((label, i) => {
     const value = values[i] ?? 0;
-    const oLevel = oLevelValues ? (oLevelValues[i] ?? 0) : 0;
-    const pct = oLevel > 0 ? ((value / oLevel) * 100).toFixed(1) : null;
-    return [label, value, pct];
+    const reference = referenceValues ? (referenceValues[i] ?? 0) : 0;
+    const pctText = reference > 0 && value <= reference ? `<br>${((value / reference) * 100).toFixed(1)}% of ${referenceLabel}` : "";
+    return [label, value, pctText];
   });
 
-  const hoverPctSuffix = oLevelValues ? `<br>%{customdata[2]}% of O-Level` : "";
+  const hoverPctSuffix = referenceValues ? "%{customdata[2]}" : "";
 
   return {
     type: "bar",
@@ -672,6 +665,7 @@ function horizontalBarTrace(
     text: barText(values),
     texttemplate: "%{text}",
     textposition: "inside",
+    textangle: 0,
     textfont: { color: "#ffffff", size: textFontSize },
     insidetextanchor: "middle",
     constraintext: "none",
@@ -680,34 +674,104 @@ function horizontalBarTrace(
   };
 }
 
+function AlphabeticalSortIcon() {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4.5 w-4.5" fill="none">
+      <text x="3" y="9" fill="currentColor" fontSize="8" fontWeight="800" fontFamily="Inter, system-ui, sans-serif">A</text>
+      <text x="3" y="19" fill="currentColor" fontSize="8" fontWeight="800" fontFamily="Inter, system-ui, sans-serif">Z</text>
+      <path d="M16 18V6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M12.5 9.5L16 6l3.5 3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function ValueSortIcon({ mode }: { mode: Exclude<SortMode, "alphabetical"> | "neutral" }) {
+  const activeAscending = mode === "asc";
+  const activeDescending = mode === "desc";
+
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4.5 w-4.5" fill="none">
+      <path d="M4 6h7" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M4 12h5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M4 18h3" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      {activeAscending ? (
+        <>
+          <path d="M17 18V6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M13.5 9.5L17 6l3.5 3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      ) : activeDescending ? (
+        <>
+          <path d="M17 6v12" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M13.5 14.5L17 18l3.5-3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      ) : (
+        <>
+          <path d="M17 6v12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          <path d="M14 9l3-3 3 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M14 15l3 3 3-3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      )}
+    </svg>
+  );
+}
+
+function SortButtonHint({ text }: { text: string }) {
+  return (
+    <span className="pointer-events-none absolute right-0 top-full z-[100] mt-1 hidden w-[220px] whitespace-normal rounded-lg bg-slate-950 px-2.5 py-1.5 text-center text-[10px] font-semibold leading-[14px] text-white shadow-xl peer-hover:block peer-focus-visible:block">
+      {text}
+    </span>
+  );
+}
+
 function ChartSortControl({ value, onChange }: { value: SortMode; onChange: (value: SortMode) => void }) {
+  const alphabeticActive = value === "alphabetical";
+  const valueSortActive = value !== "alphabetical";
+  const valueSortMode = value === "asc" ? "asc" : value === "desc" ? "desc" : "neutral";
+  const nextValueSortMode: Exclude<SortMode, "alphabetical"> = value === "desc" ? "asc" : "desc";
+  const valueSortLabel =
+    value === "asc"
+      ? "Low to High active. Click for High to Low."
+      : value === "desc"
+        ? "High to Low active. Click for Low to High."
+        : "Sort value: High to Low.";
+  const alphabeticLabel = alphabeticActive ? "A-Z active." : "Sort A-Z.";
+
   return (
     <div
-      className="inline-flex h-7 shrink-0 flex-nowrap items-stretch overflow-hidden rounded-md border border-slate-200 bg-white shadow-sm"
+      className="inline-flex h-8 shrink-0 flex-nowrap items-stretch overflow-visible rounded-full border border-slate-200 bg-white p-0.5 shadow-sm"
       role="group"
       aria-label="Sort chart"
     >
-      {SORT_OPTIONS.map((option) => {
-        const active = option.value === value;
-        const widthClass = option.value === "alphabetical" ? "min-w-[42px]" : "min-w-[66px]";
-
-        return (
-          <button
-            key={option.value}
-            type="button"
-            onClick={() => onChange(option.value)}
-            className={[
-              "flex h-full shrink-0 items-center justify-center whitespace-nowrap px-2 text-[10.5px] font-semibold leading-none transition",
-              widthClass,
-              active ? "bg-slate-900 text-white" : "bg-white text-slate-600 hover:bg-slate-50",
-            ].join(" ")}
-            title={option.label}
-            aria-pressed={active}
-          >
-            {option.label}
-          </button>
-        );
-      })}
+      <div className="group relative">
+        <button
+          type="button"
+          onClick={() => onChange("alphabetical")}
+          className={[
+            "peer grid h-7 w-9 shrink-0 place-items-center rounded-full transition-none",
+            alphabeticActive ? "bg-slate-900 text-white shadow-sm" : "bg-white text-slate-500 hover:bg-slate-50 hover:text-slate-900",
+          ].join(" ")}
+          aria-label={alphabeticLabel}
+          aria-pressed={alphabeticActive}
+        >
+          <AlphabeticalSortIcon />
+        </button>
+        <SortButtonHint text={alphabeticLabel} />
+      </div>
+      <div className="group relative">
+        <button
+          type="button"
+          onClick={() => onChange(nextValueSortMode)}
+          className={[
+            "peer grid h-7 w-9 shrink-0 place-items-center rounded-full transition-none",
+            valueSortActive ? "bg-slate-900 text-white shadow-sm" : "bg-white text-slate-500 hover:bg-slate-50 hover:text-slate-900",
+          ].join(" ")}
+          aria-label={valueSortLabel}
+          aria-pressed={valueSortActive}
+        >
+          <ValueSortIcon mode={valueSortMode} />
+        </button>
+        <SortButtonHint text={valueSortLabel} />
+      </div>
     </div>
   );
 }
@@ -1089,7 +1153,7 @@ export default function TransitionDashboard(props: {
   disabilityMode: boolean;
   directMode: boolean;
 }) {
-  const { filters, setFilters, dimSessions, disabilityMode, directMode } = props;
+  const { filters, setFilters, dimSessions, disabilityMode } = props;
 
   const [generalRows, setGeneralRows] = useState<TransitionGeneralRow[]>([]);
   const [directRows, setDirectRows] = useState<TransitionDirectRow[]>([]);
@@ -1178,14 +1242,14 @@ export default function TransitionDashboard(props: {
     setDirectTransitionStateDrill({});
     setDirectDropoffZoneDrill({});
     setDirectDropoffStateDrill({});
-  }, [filters.session, filters.zone, filters.state, filters.lga, filters.ward, filters.school, filters.gender, filters.exam_body, filters.gap_band, disabilityMode, directMode]);
+  }, [filters.session, filters.zone, filters.state, filters.lga, filters.ward, filters.school, filters.gender, filters.exam_body, filters.gap_band, disabilityMode]);
 
-  const mode: Mode = directMode ? "direct" : "general";
+  const mode = "general" as Mode;
   const normalizedDirectRows = useMemo(
     () => constrainDirectRows(directRows, generalRows),
     [directRows, generalRows],
   );
-  const currentRows: BaseRow[] = mode === "direct" ? normalizedDirectRows : generalRows;
+  const currentRows: BaseRow[] = normalizedDirectRows;
 
   const previousSession = useMemo(
     () => dimSessions.find((row) => row.session_id === filters.session)?.prev_session_id ?? "",
@@ -1262,15 +1326,26 @@ export default function TransitionDashboard(props: {
 
   const currentMetrics = useMemo(() => {
     const aggregated = aggregateRows(filteredCurrentRows);
-    if (mode === "direct") {
-      return applyDirectTransitionMetricOverride(aggregated, renderFilters, disabilityMode);
-    }
     return {
       ...aggregated,
-      o_level_candidates: applyGeneralOLevelOverride(aggregated.o_level_candidates, renderFilters, disabilityMode),
+      ss3_total: applySs3EnrollmentOverride(renderFilters.session, "SSS3", aggregated.ss3_total, renderFilters, disabilityMode),
     };
-  }, [filteredCurrentRows, mode, renderFilters, disabilityMode]);
-  const previousMetrics = useMemo(() => aggregateRows(filteredPreviousRows), [filteredPreviousRows]);
+  }, [filteredCurrentRows, renderFilters, disabilityMode]);
+
+  const previousMetrics = useMemo(() => {
+    const aggregated = aggregateRows(filteredPreviousRows);
+    if (!previousSession) return aggregated;
+    return {
+      ...aggregated,
+      ss3_total: applySs3EnrollmentOverride(
+        previousSession,
+        "SSS3",
+        aggregated.ss3_total,
+        { ...renderFilters, session: previousSession },
+        disabilityMode,
+      ),
+    };
+  }, [filteredPreviousRows, previousSession, renderFilters, disabilityMode]);
   const sessionMedianFallback = useMemo(() => {
     const scopedSessionRows = currentRows.filter((row) => {
       if (row.session !== renderFilters.session) return false;
@@ -1337,11 +1412,7 @@ export default function TransitionDashboard(props: {
           help: oLevelHelp,
           breakdown: examBreakdown,
           value: currentMetrics.o_level_candidates,
-          delta: applyGeneralOLevelDeltaOverride(
-            delta(currentMetrics.o_level_candidates, previousMetrics.o_level_candidates),
-            renderFilters,
-            disabilityMode,
-          ),
+          delta: delta(currentMetrics.o_level_candidates, previousMetrics.o_level_candidates),
           icon: <BookOpenCheck className="h-5 w-5" />,
           accent: COLORS.olevel,
           bg: "#ecfdf5",
@@ -1380,15 +1451,20 @@ export default function TransitionDashboard(props: {
 
     return [
       {
+        label: "Total SS3 Students",
+        help: "Same-session SS3 students who form the starting pool for the transition pipeline.",
+        value: currentMetrics.ss3_total,
+        delta: delta(currentMetrics.ss3_total, previousMetrics.ss3_total),
+        icon: <Users className="h-5 w-5" />,
+        accent: COLORS.ss3,
+        bg: "#eff6ff",
+      },
+      {
         label: "O-Level Candidates",
         help: oLevelHelp,
         breakdown: examBreakdown,
         value: currentMetrics.o_level_candidates,
-        delta: applyGeneralOLevelDeltaOverride(
-          delta(currentMetrics.o_level_candidates, previousMetrics.o_level_candidates),
-          renderFilters,
-          disabilityMode,
-        ),
+        delta: delta(currentMetrics.o_level_candidates, previousMetrics.o_level_candidates),
         icon: <BookOpenCheck className="h-5 w-5" />,
         accent: COLORS.olevel,
         bg: "#ecfdf5",
@@ -1450,73 +1526,26 @@ export default function TransitionDashboard(props: {
 
 const progressionChart = useMemo<ChartBundle>(() => {
   const layout = buildCommonLayout(328);
-  const examBreakdown = ["WAEC", "NECO", "NABTEB"]
-    .map((exam) => {
-      const total = aggregateRows(filteredCurrentRows.filter((row) => row.exam_body === exam)).o_level_candidates;
-      const pct = currentMetrics.o_level_candidates > 0 ? (total / currentMetrics.o_level_candidates) * 100 : 0;
-      return `${exam}: ${fmtInt(total)} (${pct.toFixed(1)}%)`;
-    })
-    .join("<br>");
-
-  if (mode === "direct") {
-    const labels = ["SS3 Students", "O-Level Candidates", "UTME Participants", "Admitted Students", "Matriculated Students"];
-    const values = [
-      currentMetrics.ss3_total,
-      currentMetrics.o_level_candidates,
-      currentMetrics.utme_participants,
-      currentMetrics.admitted_students,
-      currentMetrics.matriculated_students,
-    ];
-    const max = Math.max(...values, 1);
-    const ol = currentMetrics.o_level_candidates;
-    const pctOfOL = (v: number) => ol > 0 ? ` (${((v / ol) * 100).toFixed(1)}% of O-Level)` : "";
-    const hoverTexts = [
-      `SS3 Students<br><b>${fmtInt(currentMetrics.ss3_total)}</b>`,
-      `O-Level Candidates<br><b>${fmtInt(currentMetrics.o_level_candidates)}</b> (100.0% of O-Level)<br><br>${examBreakdown}`,
-      `UTME Participants<br><b>${fmtInt(currentMetrics.utme_participants)}</b>${pctOfOL(currentMetrics.utme_participants)}`,
-      `Admitted Students<br><b>${fmtInt(currentMetrics.admitted_students)}</b>${pctOfOL(currentMetrics.admitted_students)}`,
-      `Matriculated Students<br><b>${fmtInt(currentMetrics.matriculated_students)}</b>${pctOfOL(currentMetrics.matriculated_students)}`,
-    ];
-
-    return {
-      data: [
-        {
-          type: "funnel",
-          y: labels,
-          x: values.map((value) => (value / max) * 100),
-          text: values.map((value, index) => `${labels[index]}<br><b>${fmtInt(value)}</b>`),
-          textposition: "inside",
-          textinfo: "text",
-          customdata: hoverTexts,
-          marker: { color: [COLORS.ss3, COLORS.olevel, COLORS.utme, COLORS.admit, COLORS.matric] },
-          hovertemplate: "%{customdata}<extra></extra>",
-        },
-      ],
-      layout: {
-        ...layout,
-        margin: { l: 10, r: 10, t: 10, b: 10 },
-        xaxis: { showgrid: false, showticklabels: false, zeroline: false },
-        yaxis: { showgrid: false, showticklabels: false, zeroline: false },
-        showlegend: false,
-      },
-    };
-  }
-
-  const labels = ["O-Level Candidates", "UTME Participants", "Admitted Students", "Matriculated Students"];
+  const labels = ["SS3 Students", "O-Level Candidates", "UTME Participants", "Admitted Students", "Matriculated Students"];
   const values = [
+    currentMetrics.ss3_total,
     currentMetrics.o_level_candidates,
     currentMetrics.utme_participants,
     currentMetrics.admitted_students,
     currentMetrics.matriculated_students,
   ];
   const max = Math.max(...values, 1);
-  const ol = currentMetrics.o_level_candidates;
-  const pctOfOL = (v: number) => ol > 0 ? ` (${((v / ol) * 100).toFixed(1)}% of O-Level)` : "";
+  const ss3OLevelCohort = estimateSs3OLevelCohort(currentMetrics);
+  const pctOfPrevious = (value: number, previous: number, label: string) => {
+    if (previous <= 0 || value > previous) return "";
+    return ` (${((value / previous) * 100).toFixed(1)}% of ${label})`;
+  };
   const hoverTexts = [
-    `O-Level Candidates<br><b>${fmtInt(currentMetrics.o_level_candidates)}</b> (100.0% of O-Level)<br><br>${examBreakdown}`,
-    `UTME Participants<br><b>${fmtInt(currentMetrics.utme_participants)}</b>${pctOfOL(currentMetrics.utme_participants)}`,
-    `Admitted Students<br><b>${fmtInt(currentMetrics.admitted_students)}</b>${pctOfOL(currentMetrics.admitted_students)}`,
-    `Matriculated Students<br><b>${fmtInt(currentMetrics.matriculated_students)}</b>${pctOfOL(currentMetrics.matriculated_students)}`,
+    `SS3 Students<br><b>${fmtInt(currentMetrics.ss3_total)}</b><br>`,
+    `O-Level Candidates<br><b>${fmtInt(currentMetrics.o_level_candidates)}</b><br>Total O-Level include non-current SS3 candidates.<br>SS3 cohort that sat O-Level: <b>${fmtInt(ss3OLevelCohort)}</b>`,
+    `UTME Participants<br><b>${fmtInt(currentMetrics.utme_participants)}</b>${pctOfPrevious(currentMetrics.utme_participants, currentMetrics.o_level_candidates, "O-Level")}`,
+    `Admitted Students<br><b>${fmtInt(currentMetrics.admitted_students)}</b>${pctOfPrevious(currentMetrics.admitted_students, currentMetrics.utme_participants, "UTME")}`,
+    `Matriculated Students<br><b>${fmtInt(currentMetrics.matriculated_students)}</b>${pctOfPrevious(currentMetrics.matriculated_students, currentMetrics.admitted_students, "Admitted")}`,
   ];
 
   return {
@@ -1529,8 +1558,9 @@ const progressionChart = useMemo<ChartBundle>(() => {
         textposition: "inside",
         textinfo: "text",
         customdata: hoverTexts,
-        marker: { color: [COLORS.olevel, COLORS.utme, COLORS.admit, COLORS.matric] },
+        marker: { color: [COLORS.ss3, COLORS.olevel, COLORS.utme, COLORS.admit, COLORS.matric] },
         hovertemplate: "%{customdata}<extra></extra>",
+        hoverlabel: { align: "left", font: { size: 10 } },
       },
     ],
     layout: {
@@ -1538,24 +1568,19 @@ const progressionChart = useMemo<ChartBundle>(() => {
       margin: { l: 10, r: 10, t: 10, b: 10 },
       xaxis: { showgrid: false, showticklabels: false, zeroline: false },
       yaxis: { showgrid: false, showticklabels: false, zeroline: false },
+      hoverlabel: { bgcolor: "#0f172a", font: { color: "#fff", size: 10 }, align: "left" },
       showlegend: false,
     },
   };
-}, [currentMetrics, filteredCurrentRows, mode]);
+}, [currentMetrics]);
 
 
   const genderChart = useMemo<ChartBundle>(() => {
     const male = aggregateRows(filteredCurrentRows.filter((row) => row.gender === "Male"));
     const female = aggregateRows(filteredCurrentRows.filter((row) => row.gender === "Female"));
-    const labels = mode === "direct"
-      ? ["SS3", "O-Level", "UTME", "Admitted", "Matriculated"]
-      : ["O-Level", "UTME", "Admitted", "Matriculated"];
-    const maleValues = mode === "direct"
-      ? [male.ss3_total, male.o_level_candidates, male.utme_participants, male.admitted_students, male.matriculated_students]
-      : [male.o_level_candidates, male.utme_participants, male.admitted_students, male.matriculated_students];
-    const femaleValues = mode === "direct"
-      ? [female.ss3_total, female.o_level_candidates, female.utme_participants, female.admitted_students, female.matriculated_students]
-      : [female.o_level_candidates, female.utme_participants, female.admitted_students, female.matriculated_students];
+    const labels = ["SS3", "O-Level", "UTME", "Admitted", "Matriculated"];
+    const maleValues = [male.ss3_total, male.o_level_candidates, male.utme_participants, male.admitted_students, male.matriculated_students];
+    const femaleValues = [female.ss3_total, female.o_level_candidates, female.utme_participants, female.admitted_students, female.matriculated_students];
 
     const visualSeries = minimumVisibleStackValues([maleValues, femaleValues], 0.16);
 
@@ -1698,7 +1723,11 @@ const progressionChart = useMemo<ChartBundle>(() => {
         verticalBarTrace("University", labels, scaledSeries[0] ?? [], COLORS.university, visualSeries[0]),
         verticalBarTrace("Polytechnic", labels, scaledSeries[1] ?? [], COLORS.polytechnic, visualSeries[1]),
         verticalBarTrace("College of Education", labels, scaledSeries[2] ?? [], COLORS.coe, visualSeries[2]),
-      ],
+      ].map((trace) => ({
+        ...trace,
+        textangle: -90,
+        textfont: { color: "#ffffff", size: 10 },
+      })) as PlotlyData[],
       titleNote: titleGrandTotal("Matriculated Students", currentMetrics.matriculated_students),
       layout: {
         ...buildCommonLayout(336),
@@ -1712,35 +1741,23 @@ const progressionChart = useMemo<ChartBundle>(() => {
   const lossByGenderChart = useMemo<ChartBundle>(() => {
     const male = aggregateRows(filteredCurrentRows.filter((row) => row.gender === "Male"));
     const female = aggregateRows(filteredCurrentRows.filter((row) => row.gender === "Female"));
-    const labels = mode === "direct"
-      ? ["SS3 → O-Level", "O-Level → UTME", "UTME → Admitted", "Admitted → Matric"]
-      : ["O-Level → UTME", "UTME → Admitted", "Admitted → Matric"];
+    const labels = ["SS3 → O-Level", "O-Level → UTME", "UTME → Admitted", "Admitted → Matric"];
 
-    const maleLosses = mode === "direct"
-      ? [
-          Math.max(0, male.ss3_total - male.o_level_candidates),
-          Math.max(0, male.o_level_candidates - male.utme_participants),
-          Math.max(0, male.utme_participants - male.admitted_students),
-          Math.max(0, male.admitted_students - male.matriculated_students),
-        ]
-      : [
-          Math.max(0, male.o_level_candidates - male.utme_participants),
-          Math.max(0, male.utme_participants - male.admitted_students),
-          Math.max(0, male.admitted_students - male.matriculated_students),
-        ];
+    const maleSs3OLevel = estimateSs3OLevelCohort(male);
+    const femaleSs3OLevel = estimateSs3OLevelCohort(female);
+    const maleLosses = [
+      Math.max(0, male.ss3_total - maleSs3OLevel),
+      Math.max(0, male.o_level_candidates - male.utme_participants),
+      Math.max(0, male.utme_participants - male.admitted_students),
+      Math.max(0, male.admitted_students - male.matriculated_students),
+    ];
 
-    const femaleLosses = mode === "direct"
-      ? [
-          Math.max(0, female.ss3_total - female.o_level_candidates),
-          Math.max(0, female.o_level_candidates - female.utme_participants),
-          Math.max(0, female.utme_participants - female.admitted_students),
-          Math.max(0, female.admitted_students - female.matriculated_students),
-        ]
-      : [
-          Math.max(0, female.o_level_candidates - female.utme_participants),
-          Math.max(0, female.utme_participants - female.admitted_students),
-          Math.max(0, female.admitted_students - female.matriculated_students),
-        ];
+    const femaleLosses = [
+      Math.max(0, female.ss3_total - femaleSs3OLevel),
+      Math.max(0, female.o_level_candidates - female.utme_participants),
+      Math.max(0, female.utme_participants - female.admitted_students),
+      Math.max(0, female.admitted_students - female.matriculated_students),
+    ];
 
     const visualSeries = minimumVisibleStackValues([maleLosses, femaleLosses], 0.16);
 
@@ -1774,43 +1791,29 @@ const buildTransitionLocationChart = (
   );
   const labels = grouped.map((row) => displayLocationLabel(row.label, resolved.level));
   const isScrollable = baseLevel === "state" || resolved.level === "state" || resolved.level === "lga";
-  const height = Math.max(isScrollable ? 500 : 360, labels.length * (isScrollable ? 42 : 34) + 130);
+  const height = Math.max(isScrollable ? 560 : 360, labels.length * (isScrollable ? 42 : 34) + 140);
 
-  const oLevelValues = grouped.map((row) => row.metrics.o_level_candidates);
-  const realSeries = mode === "direct"
-    ? [
-        grouped.map((row) => row.metrics.ss3_total),
-        oLevelValues,
-        grouped.map((row) => row.metrics.utme_participants),
-        grouped.map((row) => row.metrics.admitted_students),
-        grouped.map((row) => row.metrics.matriculated_students),
-      ]
-    : [
-        oLevelValues,
-        grouped.map((row) => row.metrics.utme_participants),
-        grouped.map((row) => row.metrics.admitted_students),
-        grouped.map((row) => row.metrics.matriculated_students),
-      ];
-  const visualSeries = minimumVisibleStackValues(realSeries, 0.065);
+  const ss3Values = grouped.map((row) => row.metrics.ss3_total);
+  const realSeries = [
+    ss3Values,
+    grouped.map((row) => row.metrics.o_level_candidates),
+    grouped.map((row) => row.metrics.utme_participants),
+    grouped.map((row) => row.metrics.admitted_students),
+    grouped.map((row) => row.metrics.matriculated_students),
+  ];
+  const visualSeries = minimumVisibleStackValues(realSeries, 0.105);
   const maxVisualTotal = Math.max(
     ...labels.map((_, index) => visualSeries.reduce((sum, series) => sum + safeNum(series[index]), 0)),
     1,
   );
 
-  const data: PlotlyData[] = mode === "direct"
-    ? [
-        horizontalBarTrace("Total SS3 Students", labels, realSeries[0] ?? [], COLORS.ss3, "inside", 11, oLevelValues, visualSeries[0]),
-        horizontalBarTrace("O-Level Candidates", labels, realSeries[1] ?? [], COLORS.olevel, "inside", 11, oLevelValues, visualSeries[1]),
-        horizontalBarTrace("UTME Participants", labels, realSeries[2] ?? [], COLORS.utme, "inside", 11, oLevelValues, visualSeries[2]),
-        horizontalBarTrace("Admitted Students", labels, realSeries[3] ?? [], COLORS.admit, "inside", 11, oLevelValues, visualSeries[3]),
-        horizontalBarTrace("Matriculated Students", labels, realSeries[4] ?? [], COLORS.matric, "inside", 11, oLevelValues, visualSeries[4]),
-      ]
-    : [
-        horizontalBarTrace("O-Level Candidates", labels, realSeries[0] ?? [], COLORS.olevel, "inside", 11, oLevelValues, visualSeries[0]),
-        horizontalBarTrace("UTME Participants", labels, realSeries[1] ?? [], COLORS.utme, "inside", 11, oLevelValues, visualSeries[1]),
-        horizontalBarTrace("Admitted Students", labels, realSeries[2] ?? [], COLORS.admit, "inside", 11, oLevelValues, visualSeries[2]),
-        horizontalBarTrace("Matriculated Students", labels, realSeries[3] ?? [], COLORS.matric, "inside", 11, oLevelValues, visualSeries[3]),
-      ];
+  const data: PlotlyData[] = [
+    horizontalBarTrace("Total SS3 Students", labels, realSeries[0] ?? [], COLORS.ss3, "inside", 11, ss3Values, visualSeries[0]),
+    horizontalBarTrace("O-Level Candidates", labels, realSeries[1] ?? [], COLORS.olevel, "inside", 11, ss3Values, visualSeries[1]),
+    horizontalBarTrace("UTME Participants", labels, realSeries[2] ?? [], COLORS.utme, "inside", 11, ss3Values, visualSeries[2]),
+    horizontalBarTrace("Admitted Students", labels, realSeries[3] ?? [], COLORS.admit, "inside", 11, ss3Values, visualSeries[3]),
+    horizontalBarTrace("Matriculated Students", labels, realSeries[4] ?? [], COLORS.matric, "inside", 11, ss3Values, visualSeries[4]),
+  ];
 
   return {
     level: resolved.level,
@@ -1820,17 +1823,17 @@ const buildTransitionLocationChart = (
         ...buildCommonLayout(height),
         uirevision: `transition-location-${baseLevel}-${resolved.level}-${sortMode}-${labels.length}`,
         barmode: "stack",
-        bargap: 0.25,
+        bargap: 0.12,
         showlegend: false,
-        margin: { l: 118, r: 16, t: 8, b: 18 },
+        margin: { l: 112, r: 10, t: 8, b: 18 },
         xaxis: horizontalValueAxis(maxVisualTotal),
         yaxis: { showgrid: false, automargin: false, autorange: "reversed", tickfont: { color: COLORS.sub, size: 10.5 } },
       },
       scrollable: isScrollable,
-      scrollMaxHeight: isScrollable ? 380 : undefined,
-      expandedMaxHeight: isScrollable ? 560 : 460,
+      scrollMaxHeight: isScrollable ? 360 : undefined,
+      expandedMaxHeight: isScrollable ? 520 : 430,
       fixedLegend: legendItemsFromData(data),
-      expandedWidthClass: isScrollable ? "max-w-[1120px]" : "max-w-[980px]",
+      expandedWidthClass: isScrollable ? "max-w-[1040px]" : "max-w-[940px]",
     },
   };
 };
@@ -1846,13 +1849,9 @@ const buildDropoffLocationChart = (
     resolved.level,
     sortMode,
     (row) => {
-      if (mode === "direct") {
-        return Math.max(0, row.metrics.ss3_total - row.metrics.o_level_candidates) +
-          Math.max(0, row.metrics.o_level_candidates - row.metrics.utme_participants) +
-          Math.max(0, row.metrics.utme_participants - row.metrics.admitted_students) +
-          Math.max(0, row.metrics.admitted_students - row.metrics.matriculated_students);
-      }
-      return Math.max(0, row.metrics.o_level_candidates - row.metrics.utme_participants) +
+      const ss3OLevelCohort = estimateSs3OLevelCohort(row.metrics);
+      return Math.max(0, row.metrics.ss3_total - ss3OLevelCohort) +
+        Math.max(0, row.metrics.o_level_candidates - row.metrics.utme_participants) +
         Math.max(0, row.metrics.utme_participants - row.metrics.admitted_students) +
         Math.max(0, row.metrics.admitted_students - row.metrics.matriculated_students);
     },
@@ -1860,39 +1859,28 @@ const buildDropoffLocationChart = (
   );
   const labels = grouped.map((row) => displayLocationLabel(row.label, resolved.level));
   const isScrollable = baseLevel === "state" || resolved.level === "state" || resolved.level === "lga";
-  const height = Math.max(isScrollable ? 520 : 380, labels.length * (isScrollable ? 44 : 36) + 148);
+  const height = Math.max(isScrollable ? 560 : 380, labels.length * (isScrollable ? 44 : 36) + 148);
 
-  const oLevelValues = grouped.map((row) => row.metrics.o_level_candidates);
-  const realSeries = mode === "direct"
-    ? [
-        grouped.map((row) => Math.max(0, row.metrics.ss3_total - row.metrics.o_level_candidates)),
-        grouped.map((row) => Math.max(0, row.metrics.o_level_candidates - row.metrics.utme_participants)),
-        grouped.map((row) => Math.max(0, row.metrics.utme_participants - row.metrics.admitted_students)),
-        grouped.map((row) => Math.max(0, row.metrics.admitted_students - row.metrics.matriculated_students)),
-      ]
-    : [
-        grouped.map((row) => Math.max(0, row.metrics.o_level_candidates - row.metrics.utme_participants)),
-        grouped.map((row) => Math.max(0, row.metrics.utme_participants - row.metrics.admitted_students)),
-        grouped.map((row) => Math.max(0, row.metrics.admitted_students - row.metrics.matriculated_students)),
-      ];
-  const visualSeries = minimumVisibleStackValues(realSeries, 0.10);
+  const ss3Values = grouped.map((row) => row.metrics.ss3_total);
+  const ss3OLevelCohortValues = grouped.map((row) => estimateSs3OLevelCohort(row.metrics));
+  const realSeries = [
+    grouped.map((row, index) => Math.max(0, row.metrics.ss3_total - (ss3OLevelCohortValues[index] ?? 0))),
+    grouped.map((row) => Math.max(0, row.metrics.o_level_candidates - row.metrics.utme_participants)),
+    grouped.map((row) => Math.max(0, row.metrics.utme_participants - row.metrics.admitted_students)),
+    grouped.map((row) => Math.max(0, row.metrics.admitted_students - row.metrics.matriculated_students)),
+  ];
+  const visualSeries = minimumVisibleStackValues(realSeries, 0.13);
   const maxVisualTotal = Math.max(
     ...labels.map((_, index) => visualSeries.reduce((sum, series) => sum + safeNum(series[index]), 0)),
     1,
   );
 
-  const data: PlotlyData[] = mode === "direct"
-    ? [
-        horizontalBarTrace("SS3 → O-Level", labels, realSeries[0] ?? [], COLORS.ss3, "inside", 11, oLevelValues, visualSeries[0]),
-        horizontalBarTrace("O-Level → UTME", labels, realSeries[1] ?? [], COLORS.utme, "inside", 11, oLevelValues, visualSeries[1]),
-        horizontalBarTrace("UTME → Admitted", labels, realSeries[2] ?? [], COLORS.admit, "inside", 11, oLevelValues, visualSeries[2]),
-        horizontalBarTrace("Admitted → Matric", labels, realSeries[3] ?? [], COLORS.matric, "inside", 11, oLevelValues, visualSeries[3]),
-      ]
-    : [
-        horizontalBarTrace("O-Level → UTME", labels, realSeries[0] ?? [], COLORS.olevel, "inside", 11, oLevelValues, visualSeries[0]),
-        horizontalBarTrace("UTME → Admitted", labels, realSeries[1] ?? [], COLORS.admit, "inside", 11, oLevelValues, visualSeries[1]),
-        horizontalBarTrace("Admitted → Matric", labels, realSeries[2] ?? [], COLORS.matric, "inside", 11, oLevelValues, visualSeries[2]),
-      ];
+  const data: PlotlyData[] = [
+    horizontalBarTrace("SS3 → O-Level", labels, realSeries[0] ?? [], COLORS.ss3, "inside", 11, ss3Values, visualSeries[0]),
+    horizontalBarTrace("O-Level → UTME", labels, realSeries[1] ?? [], COLORS.utme, "inside", 11, ss3Values, visualSeries[1]),
+    horizontalBarTrace("UTME → Admitted", labels, realSeries[2] ?? [], COLORS.admit, "inside", 11, ss3Values, visualSeries[2]),
+    horizontalBarTrace("Admitted → Matric", labels, realSeries[3] ?? [], COLORS.matric, "inside", 11, ss3Values, visualSeries[3]),
+  ];
   const totalDropoff = realSeries.reduce((sum, series) => sum + series.reduce((inner, value) => inner + safeNum(value), 0), 0);
 
   return {
@@ -1903,18 +1891,18 @@ const buildDropoffLocationChart = (
         ...buildCommonLayout(height),
         uirevision: `transition-dropoff-${baseLevel}-${resolved.level}-${sortMode}-${labels.length}`,
         barmode: "stack",
-        bargap: 0.25,
+        bargap: 0.12,
         showlegend: false,
-        margin: { l: 118, r: 16, t: 8, b: 18 },
+        margin: { l: 112, r: 10, t: 8, b: 18 },
         xaxis: horizontalValueAxis(maxVisualTotal),
         yaxis: { showgrid: false, automargin: false, autorange: "reversed", tickfont: { color: COLORS.sub, size: 10.5 } },
       },
       titleNote: titleGrandTotal("Students Dropped Off", totalDropoff),
       scrollable: isScrollable,
-      scrollMaxHeight: isScrollable ? 390 : undefined,
-      expandedMaxHeight: isScrollable ? 580 : 480,
+      scrollMaxHeight: isScrollable ? 360 : undefined,
+      expandedMaxHeight: isScrollable ? 530 : 430,
       fixedLegend: legendItemsFromData(data),
-      expandedWidthClass: isScrollable ? "max-w-[1120px]" : "max-w-[980px]",
+      expandedWidthClass: isScrollable ? "max-w-[1040px]" : "max-w-[940px]",
     },
   };
 };
@@ -1953,12 +1941,8 @@ const buildDropoffLocationChart = (
   );
 
   const helpText = {
-    progression: mode === "direct"
-      ? "This funnel shows how the selected SS3 cohort narrows from same-session SS3 through O-Level, UTME, admission, and final matriculation."
-      : "This funnel shows how learners in the selected General scope narrow from O-Level to UTME, admission, and final matriculation, even when they matriculate after earlier sessions.",
-    lossTable: mode === "direct"
-      ? "This table shows the start count, end count, learner loss, and loss rate from SS3 through O-Level, UTME, admission, and matriculation."
-      : "This table shows the start count, end count, learner loss, and loss rate from O-Level through UTME, admission, and matriculation.",
+    progression: "This funnel shows SS3 alongside the wider O-Level/UTME/admission pathway. O-Level can be higher than SS3 because it may include non-current SS3 candidates; the SS3 drop-off is handled in the loss table using the SS3 cohort that sat O-Level.",
+    lossTable: "This table shows learner loss across the pathway. SS3 → O-Level uses the same-session SS3 cohort that sat O-Level, while the O-Level card/funnel total may include non-current SS3 candidates.",
     timing: "This shows how General pathway matriculated learners are split by time taken after O-Level.",
     timingInst: "This compares time-to-matriculation bands across University, Polytechnic, and College of Education destinations.",
     gender: "This compares male and female learner volumes at each stage so you can quickly spot gender imbalance across the transition journey.",
@@ -2118,24 +2102,12 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
 
   return (
     <div className="space-y-6">
-      <div className="flex justify-end">
-        <div
-          className={[
-            "inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-xs font-semibold",
-            mode === "direct" ? "border-emerald-200 bg-emerald-50 text-emerald-700" : "border-slate-200 bg-white text-slate-600",
-          ].join(" ")}
-        >
-          <span className={["h-2 w-2 rounded-full", mode === "direct" ? "bg-emerald-500" : "bg-red-400"].join(" ")} />
-          {mode === "direct" ? "Direct Mode ON" : "General Mode"}
-        </div>
-      </div>
-
       <SectionLabel
         id={mode === "general" ? "transition-general-kpi" : "transition-direct-kpi"}
         title="KPI Summary"
         subtitle="Top-line transition cards arranged to match the approved mockup flow."
       />
-      <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-4">
         {cards.map((card) => (
           <KpiCard key={card.label} item={card} prevSessionLabel={previousSession || undefined} />
         ))}
@@ -2393,7 +2365,7 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
           <div
             onClick={(event: ReactMouseEvent<HTMLDivElement>) => event.stopPropagation()}
             className={[
-              "w-full overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl",
+              "flex max-h-[90vh] w-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl",
               expandedChart?.bundle.expandedWidthClass ?? "max-w-[1120px]",
             ].join(" ")}
           >
@@ -2413,7 +2385,7 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
               </button>
               </div>
             </div>
-            <div className="p-3">
+            <div className="min-h-0 overflow-y-auto p-3">
               {expandedChart ? (
                 <>
                   {expandedChart.bundle.fixedLegend?.length ? <FixedLegend items={expandedChart.bundle.fixedLegend} /> : null}

@@ -1353,7 +1353,7 @@ export default function MinisterDashboardPage({
                 label={`Disability ${disabilityMode ? "ON" : "OFF"}`}
                 activeClass="border-violet-600 bg-violet-600 text-white shadow-sm"
               />
-              {category === "transition" ? (
+              {/* {category === "transition" ? (
                 <TogglePill
                   onClick={() => setDirectMode((prev) => !prev)}
                   active={directMode}
@@ -1361,7 +1361,7 @@ export default function MinisterDashboardPage({
                   label={`Direct Mode ${directMode ? "ON" : "OFF"}`}
                   activeClass="border-emerald-600 bg-emerald-600 text-white shadow-sm"
                 />
-              ) : null}
+              ) : null} */}
 
               {/* {category === "policy_impact" ? (
                 <TogglePill

@@ -126,11 +126,6 @@ type SortablePolicyChartKey = Extract<ChartKey, "zone" | "state">;
 type PolicyLocationLevel = "zone" | "state" | "lga" | "institution" | "gender" | "other";
 
 const DEFAULT_SORT_MODE: SortMode = "alphabetical";
-const SORT_OPTIONS: Array<{ value: SortMode; label: string }> = [
-  { value: "alphabetical", label: "A-Z" },
-  { value: "desc", label: "High-Low" },
-  { value: "asc", label: "Low-High" },
-];
 const DEFAULT_POLICY_SORT_MODES: Record<SortablePolicyChartKey, SortMode> = {
   zone: DEFAULT_SORT_MODE,
   state: DEFAULT_SORT_MODE,
@@ -215,6 +210,30 @@ function compactPolicyLabel(label: string, maxLength = 54): string {
   return `${trimmed.slice(0, Math.max(8, maxLength - 1)).trimEnd()}…`;
 }
 
+function cleanInstitutionLabel(label: string): string {
+  let cleaned = String(label ?? "").trim();
+  if (!cleaned) return cleaned;
+
+  const stateNames = STATE_SOURCE_NAMES
+    .map((state) => state.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+    .join("|");
+  const statePattern = `(?:${stateNames}|FCT|Abuja FCT|Abuja)(?:\\s+State)?`;
+
+  cleaned = cleaned.replace(new RegExp(`\\s*[–—-]\\s*[^–—-]*\\b${statePattern}\\b.*$`, "i"), "");
+  cleaned = cleaned.replace(new RegExp(`\\s*\\([^)]*\\b${statePattern}\\b[^)]*\\)\\s*$`, "i"), "");
+  cleaned = cleaned.replace(new RegExp(`,\\s*([^,]+),\\s*${statePattern}\\s*$`, "i"), (match, city: string) => {
+    const base = cleaned.slice(0, cleaned.length - match.length).trim();
+    const cityName = String(city ?? "").trim();
+    const baseTokens = base.toLowerCase().split(/\s+/);
+    const cityTokens = cityName.toLowerCase().split(/\s+/);
+    const lastCityToken = cityTokens[cityTokens.length - 1] ?? "";
+    return lastCityToken && baseTokens.includes(lastCityToken) ? "" : `, ${cityName}`;
+  });
+  cleaned = cleaned.replace(new RegExp(`,\\s*${statePattern}\\s*$`, "i"), "");
+
+  return cleaned.replace(/\s{2,}/g, " ").replace(/\s+,/g, ",").trim();
+}
+
 function stateLabelsForZone(zone: string): string[] {
   return STATE_SOURCE_NAMES.filter((state) => !zone || STATE_ZONE_MAP[state] === zone).sort((left, right) => comparePolicyLabels(left, right, "state"));
 }
@@ -250,6 +269,16 @@ function minimumVisibleStackValues(seriesValues: number[][], minRatio = 0.055): 
       return Math.max(numeric, minimum);
     }),
   );
+}
+
+function minimumVisibleValues(values: number[], minRatio = 0.065): number[] {
+  const maxValue = Math.max(...values.map((value) => safeNum(value)), 1);
+  const minimum = Math.max(maxValue * minRatio, 1);
+  return values.map((value) => {
+    const numeric = safeNum(value);
+    if (numeric <= 0) return 0;
+    return Math.max(numeric, minimum);
+  });
 }
 
 function titleGrandTotal(label: string, value: number): string {
@@ -304,7 +333,7 @@ const CHART_HELP: Record<ChartKey, string> = {
   topNonStemmInstitutions: "This chart ranks the institutions with the highest Non-STEMM learner volume in the current stage.",
   lowestNonStemmInstitutions: "This chart ranks the institutions with the lowest Non-STEMM learner volume in the current stage.",
   stemmNonStemmTrend: "This trend chart shows STEMM and Non-STEMM matriculated students side by side from 2021/2022 onward so the recent tertiary intake pattern is easier to compare.",
-  loanTrend: "This horizontal comparison shows loan applications and loans disbursed by academic session, using separate bars so the volumes are easier to compare.",
+  loanTrend: "This vertical grouped bar chart compares loan applications and loans disbursed by academic session, using the same style as the institution-type loan chart.",
   loanInstitution: "This chart shows how approved and disbursed student loans are distributed across institution types.",
   loanDiscipline: "This chart shows how approved and disbursed student loans are distributed across discipline groups.",
 };
@@ -445,6 +474,7 @@ function buildHorizontalStackedChart(
         x: stemmVisualValues,
         text: stemmValues.map((value) => (value > 0 ? fmtInt(value) : "")),
         textposition: "inside",
+        textangle: 0,
         insidetextanchor: "middle",
         constraintext: "none",
         textfont: { color: "white", size: 11 },
@@ -461,6 +491,7 @@ function buildHorizontalStackedChart(
         x: nonStemmVisualValues,
         text: nonStemmValues.map((value) => (value > 0 ? fmtInt(value) : "")),
         textposition: "inside",
+        textangle: 0,
         insidetextanchor: "middle",
         constraintext: "none",
         textfont: { color: "white", size: 11 },
@@ -494,7 +525,7 @@ function buildHorizontalStackedChart(
     ],
     scrollable: sorted.length > 10,
     scrollMaxHeight: 360,
-    expandedMaxHeight: Math.max(680, sorted.length * 42 + 150),
+    expandedMaxHeight: Math.max(620, sorted.length * 40 + 140),
     expandedWidthClass: level === "state" || level === "lga" || level === "institution" ? "max-w-[96vw]" : "max-w-[94vw]",
     titleNote: options?.titleNote,
   };
@@ -506,6 +537,9 @@ function buildRankedChart(rows: RankedRow[], color: string, metricLabel: string,
     .sort((left, right) => (descending ? right.value - left.value : left.value - right.value))
     .slice(0, 10);
   const displayLabels = ranked.map((row) => compactPolicyLabel(displayPolicyLabel(row.label), 58));
+  const actualValues = ranked.map((row) => row.value);
+  const visualValues = minimumVisibleValues(actualValues, 0.18);
+  const maxVisualValue = Math.max(...visualValues, 1);
 
   return {
     data: [
@@ -513,11 +547,13 @@ function buildRankedChart(rows: RankedRow[], color: string, metricLabel: string,
         type: "bar",
         orientation: "h",
         y: displayLabels,
-        x: ranked.map((row) => row.value),
+        x: visualValues,
         marker: { color },
-        text: ranked.map((row) => fmtInt(row.value)),
+        text: actualValues.map((value) => fmtInt(value)),
         textposition: "inside",
+        textangle: 0,
         insidetextanchor: "middle",
+        constraintext: "none",
         textfont: { color: "white", size: 11 },
         cliponaxis: false,
         customdata: ranked.map((row) => [displayPolicyLabel(row.label), row.value]),
@@ -526,10 +562,10 @@ function buildRankedChart(rows: RankedRow[], color: string, metricLabel: string,
     ],
     layout: {
       ...baseLayout(Math.max(330, ranked.length * 30 + 100)),
-      xaxis: { ...baseLayout().xaxis, title: { text: metricLabel } },
+      xaxis: { range: [0, Math.ceil(maxVisualValue * 1.04)], showgrid: false, showticklabels: false, zeroline: false, ticks: "", fixedrange: true },
       yaxis: { ...baseLayout().yaxis, automargin: true, tickfont: { color: COLORS.sub, size: 11 }, autorange: descending ? "reversed" : true },
       showlegend: false,
-      margin: { l: 118, r: 16, t: 20, b: 46 },
+      margin: { l: 118, r: 28, t: 20, b: 24 },
     },
     scrollable: ranked.length > 8,
     scrollMaxHeight: 360,
@@ -546,6 +582,9 @@ function buildMultiColorRankedChart(rows: Array<RankedRow & { color: string; hov
     .sort((left, right) => right.value - left.value)
     .slice(0, 10);
   const displayLabels = ranked.map((row) => compactPolicyLabel(displayPolicyLabel(row.label), 58));
+  const actualValues = ranked.map((row) => row.value);
+  const visualValues = minimumVisibleValues(actualValues, 0.18);
+  const maxVisualValue = Math.max(...visualValues, 1);
 
   return {
     data: [
@@ -553,11 +592,13 @@ function buildMultiColorRankedChart(rows: Array<RankedRow & { color: string; hov
         type: "bar",
         orientation: "h",
         y: displayLabels,
-        x: ranked.map((row) => row.value),
+        x: visualValues,
         marker: { color: ranked.map((row) => row.color) },
-        text: ranked.map((row) => fmtInt(row.value)),
+        text: actualValues.map((value) => fmtInt(value)),
         textposition: "inside",
+        textangle: 0,
         insidetextanchor: "middle",
+        constraintext: "none",
         textfont: { color: "white", size: 11 },
         cliponaxis: false,
         customdata: ranked.map((row) => [displayPolicyLabel(row.label), row.value, row.hoverLabel ?? row.label]),
@@ -566,10 +607,10 @@ function buildMultiColorRankedChart(rows: Array<RankedRow & { color: string; hov
     ],
     layout: {
       ...baseLayout(Math.max(350, ranked.length * 30 + 110)),
-      xaxis: { ...baseLayout().xaxis, title: { text: metricLabel } },
+      xaxis: { range: [0, Math.ceil(maxVisualValue * 1.04)], showgrid: false, showticklabels: false, zeroline: false, ticks: "", fixedrange: true },
       yaxis: { ...baseLayout().yaxis, automargin: true, tickfont: { color: COLORS.sub, size: 11 }, autorange: "reversed" },
       showlegend: false,
-      margin: { l: 128, r: 16, t: 20, b: 46 },
+      margin: { l: 128, r: 28, t: 20, b: 24 },
     },
     scrollable: ranked.length > 8,
     scrollMaxHeight: 360,
@@ -580,30 +621,109 @@ function buildMultiColorRankedChart(rows: Array<RankedRow & { color: string; hov
 }
 
 
+
 function buildChartTitle(base: string): string {
   return `${base} — Matriculated`;
 }
 
-function ChartSortControl({ value, onChange }: { value: SortMode; onChange: (value: SortMode) => void }) {
+function AlphabeticalSortIcon() {
   return (
-    <div className="inline-flex h-8 shrink-0 flex-nowrap items-center overflow-hidden whitespace-nowrap rounded-md border border-slate-200 bg-white text-[11px] font-semibold text-slate-600 shadow-sm">
-      {SORT_OPTIONS.map((option) => {
-        const active = value === option.value;
-        return (
-          <button
-            key={option.value}
-            type="button"
-            onClick={() => onChange(option.value)}
-            className={[
-              "h-8 min-w-[58px] shrink-0 whitespace-nowrap px-2.5 leading-none transition-colors",
-              active ? "bg-slate-950 text-white" : "bg-white text-slate-600 hover:bg-slate-50",
-            ].join(" ")}
-            aria-pressed={active}
-          >
-            {option.label}
-          </button>
-        );
-      })}
+    <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4 w-4" fill="none">
+      <text x="3" y="9" fill="currentColor" fontSize="8" fontWeight="800" fontFamily="Inter, system-ui, sans-serif">A</text>
+      <text x="3" y="19" fill="currentColor" fontSize="8" fontWeight="800" fontFamily="Inter, system-ui, sans-serif">Z</text>
+      <path d="M16 18V6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M12.5 9.5L16 6l3.5 3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function ValueSortIcon({ mode }: { mode: Exclude<SortMode, "alphabetical"> | "neutral" }) {
+  const activeAscending = mode === "asc";
+  const activeDescending = mode === "desc";
+
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4 w-4" fill="none">
+      <path d="M4 6h7" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M4 12h5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M4 18h3" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      {activeAscending ? (
+        <>
+          <path d="M17 18V6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M13.5 9.5L17 6l3.5 3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      ) : activeDescending ? (
+        <>
+          <path d="M17 6v12" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M13.5 14.5L17 18l3.5-3.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      ) : (
+        <>
+          <path d="M17 6v12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          <path d="M14 9l3-3 3 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M14 15l3 3 3-3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </>
+      )}
+    </svg>
+  );
+}
+
+function SortButtonHint({ text }: { text: string }) {
+  return (
+    <span className="pointer-events-none absolute right-0 top-full z-[100] mt-1 hidden w-[160px] whitespace-normal rounded-lg bg-slate-950 px-2 py-1.5 text-center text-[10px] font-semibold leading-[13px] text-white shadow-xl peer-hover:block peer-focus-visible:block">
+      {text}
+    </span>
+  );
+}
+
+function ChartSortControl({ value, onChange }: { value: SortMode; onChange: (value: SortMode) => void }) {
+  const alphabeticActive = value === "alphabetical";
+  const valueSortActive = value !== "alphabetical";
+  const valueSortMode = value === "asc" ? "asc" : value === "desc" ? "desc" : "neutral";
+  const nextValueSortMode: Exclude<SortMode, "alphabetical"> = value === "desc" ? "asc" : "desc";
+  const valueSortLabel =
+    value === "asc"
+      ? "Low to High. Click for High to Low."
+      : value === "desc"
+        ? "High to Low. Click for Low to High."
+        : "Sort value: High to Low.";
+  const alphabeticLabel = alphabeticActive ? "A-Z active." : "Sort A-Z.";
+
+  return (
+    <div
+      className="inline-flex h-8 shrink-0 flex-nowrap items-stretch overflow-visible rounded-full border border-slate-200 bg-white p-0.5 shadow-sm"
+      role="group"
+      aria-label="Sort chart"
+    >
+      <div className="group relative">
+        <button
+          type="button"
+          onClick={() => onChange("alphabetical")}
+          className={[
+            "peer grid h-7 w-9 shrink-0 place-items-center rounded-full transition-none",
+            alphabeticActive ? "bg-slate-900 text-white shadow-sm" : "bg-white text-slate-500 hover:bg-slate-50 hover:text-slate-900",
+          ].join(" ")}
+          aria-label={alphabeticLabel}
+          aria-pressed={alphabeticActive}
+        >
+          <AlphabeticalSortIcon />
+        </button>
+        <SortButtonHint text={alphabeticLabel} />
+      </div>
+      <div className="group relative">
+        <button
+          type="button"
+          onClick={() => onChange(nextValueSortMode)}
+          className={[
+            "peer grid h-7 w-9 shrink-0 place-items-center rounded-full transition-none",
+            valueSortActive ? "bg-slate-900 text-white shadow-sm" : "bg-white text-slate-500 hover:bg-slate-50 hover:text-slate-900",
+          ].join(" ")}
+          aria-label={valueSortLabel}
+          aria-pressed={valueSortActive}
+        >
+          <ValueSortIcon mode={valueSortMode} />
+        </button>
+        <SortButtonHint text={valueSortLabel} />
+      </div>
     </div>
   );
 }
@@ -1287,8 +1407,8 @@ export default function PolicyImpactDashboard({
     const femaleNon = filteredRows.filter((row) => row.gender === "Female" && row.programme_cluster === "Non-STEMM").reduce((sum, row) => sum + currentValue(row), 0);
     return {
       data: [
-        { type: "bar", name: "STEMM", x: ["Male", "Female"], y: [maleStemm, femaleStemm], text: [fmtInt(maleStemm), fmtInt(femaleStemm)], textposition: "inside", insidetextanchor: "middle", textfont: { color: "white", size: 12 }, marker: { color: COLORS.stemm }, hovertemplate: "%{x}<br>STEMM: %{y:,}<extra></extra>" },
-        { type: "bar", name: "Non-STEMM", x: ["Male", "Female"], y: [maleNon, femaleNon], text: [fmtInt(maleNon), fmtInt(femaleNon)], textposition: "inside", insidetextanchor: "middle", textfont: { color: "white", size: 12 }, marker: { color: COLORS.nonStemm }, hovertemplate: "%{x}<br>Non-STEMM: %{y:,}<extra></extra>" },
+        { type: "bar", name: "STEMM", x: ["Male", "Female"], y: [maleStemm, femaleStemm], text: [fmtInt(maleStemm), fmtInt(femaleStemm)], textposition: "inside", textangle: 0, insidetextanchor: "middle", textfont: { color: "white", size: 12 }, marker: { color: COLORS.stemm }, hovertemplate: "%{x}<br>STEMM: %{y:,}<extra></extra>" },
+        { type: "bar", name: "Non-STEMM", x: ["Male", "Female"], y: [maleNon, femaleNon], text: [fmtInt(maleNon), fmtInt(femaleNon)], textposition: "inside", textangle: 0, insidetextanchor: "middle", textfont: { color: "white", size: 12 }, marker: { color: COLORS.nonStemm }, hovertemplate: "%{x}<br>Non-STEMM: %{y:,}<extra></extra>" },
       ],
       layout: { ...baseLayout(300), barmode: "group", showlegend: false, margin: { l: 48, r: 18, t: 36, b: 48 }, yaxis: { ...baseLayout().yaxis, title: { text: `${currentMetricLabel} students` } } },
       fixedLegend: [{ label: "STEMM", color: COLORS.stemm }, { label: "Non-STEMM", color: COLORS.nonStemm }],
@@ -1429,7 +1549,8 @@ export default function PolicyImpactDashboard({
   const institutionAdmissionRows = useMemo(() => {
     const grouped = new Map<string, number>();
     filteredRows.forEach((row) => {
-      grouped.set(row.tertiary_institution, (grouped.get(row.tertiary_institution) ?? 0) + currentValue(row));
+      const institutionLabel = cleanInstitutionLabel(row.tertiary_institution);
+      grouped.set(institutionLabel, (grouped.get(institutionLabel) ?? 0) + currentValue(row));
     });
     return [...grouped.entries()].map(([label, value]) => ({ label, value }));
   }, [filteredRows]);
@@ -1451,7 +1572,7 @@ export default function PolicyImpactDashboard({
   ), [institutionAdmissionRows, currentMetricLabel, matriculatedGrandTotal]);
 
   const topNonStemmInstitutionsBundle = useMemo(() => buildRankedChart(
-    groupedBy(filteredRows.filter((row) => row.programme_cluster === "Non-STEMM"), (row) => row.tertiary_institution).map((row) => ({ label: row.key, value: row.nonStemm })),
+    groupedBy(filteredRows.filter((row) => row.programme_cluster === "Non-STEMM"), (row) => cleanInstitutionLabel(row.tertiary_institution)).map((row) => ({ label: row.key, value: row.nonStemm })),
     COLORS.nonStemm,
     `${currentMetricLabel} students`,
     true,
@@ -1459,7 +1580,7 @@ export default function PolicyImpactDashboard({
   ), [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
 
   const lowestNonStemmInstitutionsBundle = useMemo(() => buildRankedChart(
-    groupedBy(filteredRows.filter((row) => row.programme_cluster === "Non-STEMM"), (row) => row.tertiary_institution).map((row) => ({ label: row.key, value: row.nonStemm })),
+    groupedBy(filteredRows.filter((row) => row.programme_cluster === "Non-STEMM"), (row) => cleanInstitutionLabel(row.tertiary_institution)).map((row) => ({ label: row.key, value: row.nonStemm })),
     COLORS.nonStemm,
     `${currentMetricLabel} students`,
     false,
@@ -1486,70 +1607,96 @@ export default function PolicyImpactDashboard({
   }, [trendRows, matriculatedGrandTotal]);
 
   const loanTrendBundle = useMemo<ChartBundle>(() => {
-    const sessions: string[] = [...LOAN_TREND_SESSIONS];
-    const scoped = filteredLoanRows.filter((row) => sessions.includes(row.session));
-    const applications = sessions.map((session) => scoped.filter((row) => row.session === session).reduce((sum, row) => sum + safeNum(row.loan_applications), 0));
-    const disbursed = sessions.map((session) => scoped.filter((row) => row.session === session).reduce((sum, row) => sum + safeNum(row.loan_disbursed), 0));
-    const [applicationVisualValues, disbursedVisualValues] = minimumVisibleStackValues([applications, disbursed], 0.08);
-    const maxVisualValue = Math.max(...applicationVisualValues, ...disbursedVisualValues, 1);
-    const chartHeight = Math.max(330, sessions.length * 76 + 120);
+    const sessionRows = LOAN_TREND_SESSIONS.map((session) => {
+      const sessionRowsForLoan = filteredLoanRows.filter((row) => row.session === session);
+      return {
+        session,
+        applications: sessionRowsForLoan.reduce((sum, row) => sum + safeNum(row.loan_applications), 0),
+        disbursed: sessionRowsForLoan.reduce((sum, row) => sum + safeNum(row.loan_disbursed), 0),
+      };
+    });
+    const activeRows = sessionRows.filter((row) => row.applications > 0 || row.disbursed > 0);
+    const visibleRows = activeRows.length ? activeRows : sessionRows;
+    const sessions = visibleRows.map((row) => row.session);
+    const applications = visibleRows.map((row) => row.applications);
+    const disbursed = visibleRows.map((row) => row.disbursed);
+    const maxValue = Math.max(...applications, ...disbursed, 1);
+    const xBase = sessions.map((_, index) => index);
+    const groupOffset = 0.18;
+    const barWidth = 0.32;
+    const xRangeStart = xBase.length ? Math.min(...xBase) - 0.65 : -0.65;
+    const xRangeEnd = xBase.length ? Math.max(...xBase) + 0.65 : 0.65;
 
     return {
       data: [
         {
           type: "bar",
-          orientation: "h",
-          name: "Loan Applications",
-          y: sessions,
-          x: applicationVisualValues,
+          name: "Applications",
+          x: xBase.map((value) => value - groupOffset),
+          y: applications,
+          width: barWidth,
           text: applications.map((value) => (value > 0 ? fmtInt(value) : "")),
           textposition: "inside",
+          textangle: 0,
           insidetextanchor: "middle",
           constraintext: "none",
-          textfont: { color: "#ffffff", size: 11 },
+          textfont: { color: "white", size: 11 },
           cliponaxis: false,
+          customdata: applications.map((value, index) => [sessions[index], value]),
           marker: { color: COLORS.applications, line: { width: 0 } },
-          customdata: sessions.map((session, index) => [session, applications[index] ?? 0]),
-          hovertemplate: "<b>%{customdata[0]}</b><br>Applications: %{customdata[1]:,.0f}<extra></extra>",
+          hovertemplate: "%{customdata[0]}<br>Applications: %{customdata[1]:,.0f}<extra></extra>",
         },
         {
           type: "bar",
-          orientation: "h",
-          name: "Loans Disbursed",
-          y: sessions,
-          x: disbursedVisualValues,
+          name: "Disbursed",
+          x: xBase.map((value) => value + groupOffset),
+          y: disbursed,
+          width: barWidth,
           text: disbursed.map((value) => (value > 0 ? fmtInt(value) : "")),
           textposition: "inside",
+          textangle: 0,
           insidetextanchor: "middle",
           constraintext: "none",
-          textfont: { color: "#ffffff", size: 11 },
+          textfont: { color: "white", size: 11 },
           cliponaxis: false,
+          customdata: disbursed.map((value, index) => [sessions[index], value]),
           marker: { color: COLORS.disbursed, line: { width: 0 } },
-          customdata: sessions.map((session, index) => [session, disbursed[index] ?? 0]),
-          hovertemplate: "<b>%{customdata[0]}</b><br>Disbursed: %{customdata[1]:,.0f}<extra></extra>",
+          hovertemplate: "%{customdata[0]}<br>Disbursed: %{customdata[1]:,.0f}<extra></extra>",
         },
       ],
       layout: {
-        ...baseLayout(chartHeight),
+        ...baseLayout(400),
         barmode: "group",
-        bargap: 0.26,
-        bargroupgap: 0.12,
+        bargap: 0.3,
+        bargroupgap: 0.08,
         showlegend: false,
-        margin: { l: 118, r: 20, t: 16, b: 34 },
+        margin: { l: 56, r: 20, t: 30, b: 54 },
         xaxis: {
-          range: [0, Math.ceil(maxVisualValue * 1.08)],
+          type: "linear",
+          range: [xRangeStart, xRangeEnd],
+          tickmode: "array",
+          tickvals: xBase,
+          ticktext: sessions,
+          tickfont: { color: COLORS.sub, size: 11 },
+          automargin: true,
           showgrid: false,
-          showticklabels: false,
           zeroline: false,
-          ticks: "",
           fixedrange: true,
-          title: undefined,
         },
-        yaxis: { ...baseLayout().yaxis, automargin: true, tickfont: { color: COLORS.sub, size: 11 }, showgrid: false },
+        yaxis: {
+          range: [0, Math.ceil(maxValue * 1.14)],
+          gridcolor: COLORS.grid,
+          showgrid: true,
+          showticklabels: true,
+          zeroline: false,
+          tickfont: { color: COLORS.sub, size: 10.5 },
+          separatethousands: true,
+          fixedrange: true,
+        },
       },
-      fixedLegend: [{ label: "Loan Applications", color: COLORS.applications }, { label: "Loans Disbursed", color: COLORS.disbursed }],
-      expandedMaxHeight: Math.max(440, sessions.length * 92 + 140),
-      expandedWidthClass: "max-w-[92vw]",
+      fixedLegend: [{ label: "Applications", color: COLORS.applications }, { label: "Disbursed", color: COLORS.disbursed }],
+      expandedMaxHeight: 560,
+      expandedWidthClass: "max-w-[94vw]",
     };
   }, [filteredLoanRows]);
 
@@ -1559,13 +1706,63 @@ export default function PolicyImpactDashboard({
       approved: filteredLoanRows.filter((row) => row.institution_type === type).reduce((sum, row) => sum + safeNum(row.loan_approved), 0),
       disbursed: filteredLoanRows.filter((row) => row.institution_type === type).reduce((sum, row) => sum + safeNum(row.loan_disbursed), 0),
     }));
+    const maxValue = Math.max(...grouped.map((row) => Math.max(row.approved, row.disbursed)), 1);
+
     return {
       data: [
-        { type: "bar", name: "Approved", x: grouped.map((row) => row.label), y: grouped.map((row) => row.approved), text: grouped.map((row) => fmtInt(row.approved)), textposition: "inside", insidetextanchor: "middle", textfont: { color: "white" }, marker: { color: COLORS.applications }, hovertemplate: "%{x}<br>Approved: %{y:,}<extra></extra>" },
-        { type: "bar", name: "Disbursed", x: grouped.map((row) => row.label), y: grouped.map((row) => row.disbursed), text: grouped.map((row) => fmtInt(row.disbursed)), textposition: "inside", insidetextanchor: "middle", textfont: { color: "white" }, marker: { color: COLORS.disbursed }, hovertemplate: "%{x}<br>Disbursed: %{y:,}<extra></extra>" },
+        {
+          type: "bar",
+          name: "Approved",
+          x: grouped.map((row) => row.label),
+          y: grouped.map((row) => row.approved),
+          text: grouped.map((row) => (row.approved > 0 ? fmtInt(row.approved) : "")),
+          textposition: "inside",
+          textangle: 0,
+          insidetextanchor: "middle",
+          constraintext: "none",
+          textfont: { color: "white", size: 11 },
+          cliponaxis: false,
+          marker: { color: COLORS.applications },
+          hovertemplate: "%{x}<br>Approved: %{y:,}<extra></extra>",
+        },
+        {
+          type: "bar",
+          name: "Disbursed",
+          x: grouped.map((row) => row.label),
+          y: grouped.map((row) => row.disbursed),
+          text: grouped.map((row) => (row.disbursed > 0 ? fmtInt(row.disbursed) : "")),
+          textposition: "inside",
+          textangle: 0,
+          insidetextanchor: "middle",
+          constraintext: "none",
+          textfont: { color: "white", size: 11 },
+          cliponaxis: false,
+          marker: { color: COLORS.disbursed },
+          hovertemplate: "%{x}<br>Disbursed: %{y:,}<extra></extra>",
+        },
       ],
-      layout: { ...baseLayout(400), barmode: "group", showlegend: false, margin: { l: 44, r: 14, t: 34, b: 42 }, yaxis: { ...baseLayout().yaxis, title: { text: "Loan volume" } } },
+      layout: {
+        ...baseLayout(400),
+        barmode: "group",
+        showlegend: false,
+        margin: { l: 44, r: 14, t: 34, b: 42 },
+        xaxis: { type: "category", tickfont: { color: COLORS.sub, size: 11 }, automargin: true, showgrid: false, zeroline: false },
+        yaxis: {
+          ...baseLayout().yaxis,
+          title: { text: "Loan volume" },
+          range: [0, Math.ceil(maxValue * 1.12)],
+          gridcolor: COLORS.grid,
+          showgrid: true,
+          showticklabels: true,
+          zeroline: false,
+          tickfont: { color: COLORS.sub, size: 10.5 },
+          separatethousands: true,
+          fixedrange: true,
+        },
+      },
       fixedLegend: [{ label: "Approved", color: COLORS.applications }, { label: "Disbursed", color: COLORS.disbursed }],
+      expandedMaxHeight: 560,
+      expandedWidthClass: "max-w-[94vw]",
     };
   }, [filteredLoanRows]);
 
@@ -1577,13 +1774,62 @@ export default function PolicyImpactDashboard({
         disbursed: filteredLoanRows.filter((row) => normaliseDisciplineGroup(row.discipline_group) === group).reduce((sum, row) => sum + safeNum(row.loan_disbursed), 0),
       }))
       .filter((row) => row.approved > 0 || row.disbursed > 0);
+    const approved = grouped.map((row) => row.approved);
+    const disbursed = grouped.map((row) => row.disbursed);
+    const [approvedVisualValues, disbursedVisualValues] = minimumVisibleStackValues([approved, disbursed], 0.16);
+    const maxVisualTotal = Math.max(...approvedVisualValues.map((value, index) => value + (disbursedVisualValues[index] ?? 0)), 1);
+
     return {
       data: [
-        { type: "bar", name: "Approved", orientation: "h", y: grouped.map((row) => row.label), x: grouped.map((row) => row.approved), text: grouped.map((row) => fmtInt(row.approved)), textposition: "inside", insidetextanchor: "middle", constraintext: "none", textfont: { color: "#ffffff", size: 11 }, cliponaxis: false, marker: { color: COLORS.applications }, hovertemplate: "%{y}<br>Approved: %{x:,}<extra></extra>" },
-        { type: "bar", name: "Disbursed", orientation: "h", y: grouped.map((row) => row.label), x: grouped.map((row) => row.disbursed), text: grouped.map((row) => fmtInt(row.disbursed)), textposition: "inside", textfont: { color: "white", size: 11 }, marker: { color: COLORS.disbursed }, hovertemplate: "%{y}<br>Disbursed: %{x:,}<extra></extra>" },
+        {
+          type: "bar",
+          name: "Approved",
+          orientation: "h",
+          y: grouped.map((row) => row.label),
+          x: approvedVisualValues,
+          text: approved.map((value) => (value > 0 ? fmtInt(value) : "")),
+          textposition: "inside",
+          textangle: 0,
+          insidetextanchor: "middle",
+          constraintext: "none",
+          textfont: { color: "#ffffff", size: 11 },
+          cliponaxis: false,
+          customdata: approved,
+          marker: { color: COLORS.applications, line: { width: 0 } },
+          hovertemplate: "%{y}<br>Approved: %{customdata:,.0f}<extra></extra>",
+        },
+        {
+          type: "bar",
+          name: "Disbursed",
+          orientation: "h",
+          y: grouped.map((row) => row.label),
+          x: disbursedVisualValues,
+          text: disbursed.map((value) => (value > 0 ? fmtInt(value) : "")),
+          textposition: "inside",
+          textangle: 0,
+          insidetextanchor: "middle",
+          constraintext: "none",
+          textfont: { color: "white", size: 11 },
+          cliponaxis: false,
+          customdata: disbursed,
+          marker: { color: COLORS.disbursed, line: { width: 0 } },
+          hovertemplate: "%{y}<br>Disbursed: %{customdata:,.0f}<extra></extra>",
+        },
       ],
-      layout: { ...baseLayout(Math.max(330, grouped.length * 28 + 96)), barmode: "stack", showlegend: false, xaxis: { ...baseLayout().xaxis, title: { text: "Loan volume" } }, yaxis: { ...baseLayout().yaxis, automargin: true, tickfont: { color: COLORS.sub, size: 11 } }, margin: { l: 188, r: 14, t: 24, b: 42 } },
+      layout: {
+        ...baseLayout(Math.max(430, grouped.length * 40 + 120)),
+        barmode: "stack",
+        bargap: 0.24,
+        showlegend: false,
+        xaxis: { range: [0, Math.ceil(maxVisualTotal * 1.06)], showgrid: false, showticklabels: true, zeroline: false, tickfont: { color: COLORS.sub, size: 10.5 }, separatethousands: true, fixedrange: true },
+        yaxis: { automargin: true, tickfont: { color: COLORS.sub, size: 11 }, showgrid: false },
+        margin: { l: 188, r: 28, t: 24, b: 42 },
+      },
       fixedLegend: [{ label: "Approved", color: COLORS.applications }, { label: "Disbursed", color: COLORS.disbursed }],
+      scrollable: grouped.length > 8,
+      scrollMaxHeight: 430,
+      expandedMaxHeight: Math.max(620, grouped.length * 48 + 160),
+      expandedWidthClass: "max-w-[96vw]",
     };
   }, [filteredLoanRows]);
 
@@ -1725,11 +1971,11 @@ export default function PolicyImpactDashboard({
       </div>
 
       <div id="policy-impact-loans" className="space-y-4 scroll-mt-36">
-        <div className="grid gap-4">
-          <ChartCard title="Number of Loan Applications vs Number of Loans Disbursed per Academic Session" explanation={CHART_HELP.loanTrend} bundle={loanTrendBundle} onExpand={() => setExpandState({ key: "loanTrend", title: "Number of Loan Applications vs Number of Loans Disbursed per Academic Session" })} onRefresh={() => undefined} />
-        </div>
         <div className="grid gap-4 lg:grid-cols-2">
+          <ChartCard title="Number of Loan Applications vs Number of Loans Disbursed per Academic Session" explanation={CHART_HELP.loanTrend} bundle={loanTrendBundle} onExpand={() => setExpandState({ key: "loanTrend", title: "Number of Loan Applications vs Number of Loans Disbursed per Academic Session" })} onRefresh={() => undefined} />
           <ChartCard title="Count of Approved/Disbursed Loans by Institution Type" explanation={CHART_HELP.loanInstitution} bundle={loanInstitutionBundle} onExpand={() => setExpandState({ key: "loanInstitution", title: "Count of Approved/Disbursed Loans by Institution Type" })} onRefresh={() => undefined} />
+        </div>
+        <div className="grid gap-4">
           <ChartCard title="Count of Approved/Disbursed Loans by Discipline" explanation={CHART_HELP.loanDiscipline} bundle={loanDisciplineBundle} onExpand={() => setExpandState({ key: "loanDiscipline", title: "Count of Approved/Disbursed Loans by Discipline" })} onRefresh={() => undefined} />
         </div>
       </div>
@@ -1741,7 +1987,7 @@ export default function PolicyImpactDashboard({
         >
           <div
             className={["flex w-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl", expandedChart?.bundle.expandedWidthClass ?? "max-w-[94vw]"].join(" ")}
-            style={{ height: "82vh", maxHeight: "760px" }}
+            style={{ height: "78vh", maxHeight: "720px" }}
             onClick={(event: ReactMouseEvent<HTMLDivElement>) => event.stopPropagation()}
           >
             {/* Fixed header */}
