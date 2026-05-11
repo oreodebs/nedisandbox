@@ -1,181 +1,181 @@
-session,gender,disability_scope,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
-2022/2023,Female,all,NABTEB,lga,Ede North,South West,Osun,Ede North,,,23,17,26,9,616,564,73.913,34.6154,2369.2308,91.5584
-2022/2023,Female,all,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,25,18,30,10,685,607,72.0,33.3333,2283.3333,88.6131
-2022/2023,Female,all,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,25,18,29,10,648,594,72.0,34.4828,2234.4828,91.6667
-2022/2023,Female,all,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,24,18,27,9,562,521,75.0,33.3333,2081.4815,92.7046
-2022/2023,Female,all,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,22,16,25,9,564,521,72.7273,36.0,2256.0,92.3759
-2022/2023,Female,all,NECO,lga,Ede North,South West,Osun,Ede North,,,42,27,49,17,1074,1000,64.2857,34.6939,2191.8367,93.1099
-2022/2023,Female,all,NECO,lga,Ife Central,South West,Osun,Ife Central,,,45,29,52,18,1168,1111,64.4444,34.6154,2246.1538,95.1199
-2022/2023,Female,all,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,47,31,54,19,1164,1073,65.9574,35.1852,2155.5556,92.1821
-2022/2023,Female,all,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,44,29,50,18,1022,954,65.9091,36.0,2044.0,93.3464
-2022/2023,Female,all,NECO,lga,Osogbo,South West,Osun,Osogbo,,,41,27,48,17,1003,928,65.8537,35.4167,2089.5833,92.5224
-2022/2023,Female,all,WAEC,lga,Ede North,South West,Osun,Ede North,,,56,39,64,23,1310,1194,69.6429,35.9375,2046.875,91.145
-2022/2023,Female,all,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,62,44,72,25,1534,1392,70.9677,34.7222,2130.5556,90.7432
-2022/2023,Female,all,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,59,41,68,24,1440,1326,69.4915,35.2941,2117.6471,92.0833
-2022/2023,Female,all,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,60,42,68,24,1318,1215,70.0,35.2941,1938.2353,92.1851
-2022/2023,Female,all,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,52,37,60,21,1235,1115,71.1538,35.0,2058.3333,90.2834
-2022/2023,Female,disabled,NABTEB,lga,Ede North,South West,Osun,Ede North,,,2,1,2,1,91,80,50.0,50.0,4550.0,87.9121
-2022/2023,Female,disabled,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,2,1,3,1,83,73,50.0,33.3333,2766.6667,87.9518
-2022/2023,Female,disabled,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,2,1,2,1,91,80,50.0,50.0,4550.0,87.9121
-2022/2023,Female,disabled,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,2,1,2,1,83,73,50.0,50.0,4150.0,87.9518
-2022/2023,Female,disabled,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,2,2,2,1,91,80,100.0,50.0,4550.0,87.9121
-2022/2023,Female,disabled,NECO,lga,Ede North,South West,Osun,Ede North,,,3,2,4,1,73,64,66.6667,25.0,1825.0,87.6712
-2022/2023,Female,disabled,NECO,lga,Ife Central,South West,Osun,Ife Central,,,3,2,4,1,73,72,66.6667,25.0,1825.0,98.6301
-2022/2023,Female,disabled,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,4,3,4,1,73,72,75.0,25.0,1825.0,98.6301
-2022/2023,Female,disabled,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,4,3,4,1,80,71,75.0,25.0,2000.0,88.75
-2022/2023,Female,disabled,NECO,lga,Osogbo,South West,Osun,Osogbo,,,3,2,3,1,73,72,66.6667,33.3333,2433.3333,98.6301
-2022/2023,Female,disabled,WAEC,lga,Ede North,South West,Osun,Ede North,,,4,3,5,2,86,76,75.0,40.0,1720.0,88.3721
-2022/2023,Female,disabled,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,5,4,6,2,82,76,80.0,33.3333,1366.6667,92.6829
-2022/2023,Female,disabled,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,4,3,5,2,88,80,75.0,40.0,1760.0,90.9091
-2022/2023,Female,disabled,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,5,4,6,2,80,79,80.0,33.3333,1333.3333,98.75
-2022/2023,Female,disabled,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,4,3,4,1,80,72,75.0,25.0,2000.0,90.0
-2022/2023,Male,all,NABTEB,lga,Ede North,South West,Osun,Ede North,,,20,15,22,8,702,651,75.0,36.3636,3190.9091,92.735
-2022/2023,Male,all,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,22,16,25,9,769,683,72.7273,36.0,3076.0,88.8166
-2022/2023,Male,all,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,21,15,24,8,698,660,71.4286,33.3333,2908.3333,94.5559
-2022/2023,Male,all,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,21,15,24,8,641,566,71.4286,33.3333,2670.8333,88.2995
-2022/2023,Male,all,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,18,13,21,7,537,496,72.2222,33.3333,2557.1429,92.365
-2022/2023,Male,all,NECO,lga,Ede North,South West,Osun,Ede North,,,35,23,40,14,1122,1047,65.7143,35.0,2805.0,93.3155
-2022/2023,Male,all,NECO,lga,Ife Central,South West,Osun,Ife Central,,,40,26,46,16,1306,1245,65.0,34.7826,2839.1304,95.3292
-2022/2023,Male,all,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,38,25,44,15,1266,1166,65.7895,34.0909,2877.2727,92.1011
-2022/2023,Male,all,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,40,26,45,16,1155,1073,65.0,35.5556,2566.6667,92.9004
-2022/2023,Male,all,NECO,lga,Osogbo,South West,Osun,Osogbo,,,34,22,38,13,1063,983,64.7059,34.2105,2797.3684,92.4741
-2022/2023,Male,all,WAEC,lga,Ede North,South West,Osun,Ede North,,,47,33,54,19,1433,1326,70.2128,35.1852,2653.7037,92.5331
-2022/2023,Male,all,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,52,37,61,22,1755,1611,71.1538,36.0656,2877.0492,91.7949
-2022/2023,Male,all,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,50,35,57,20,1508,1373,70.0,35.0877,2645.614,91.0477
-2022/2023,Male,all,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,52,37,60,21,1448,1315,71.1538,35.0,2413.3333,90.8149
-2022/2023,Male,all,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,45,32,50,18,1300,1171,71.1111,36.0,2600.0,90.0769
-2022/2023,Male,disabled,NABTEB,lga,Ede North,South West,Osun,Ede North,,,2,1,2,1,97,96,50.0,50.0,4850.0,98.9691
-2022/2023,Male,disabled,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,2,1,2,1,92,88,50.0,50.0,4600.0,95.6522
-2022/2023,Male,disabled,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,2,1,2,1,86,80,50.0,50.0,4300.0,93.0233
-2022/2023,Male,disabled,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,2,1,2,1,77,72,50.0,50.0,3850.0,93.5065
-2022/2023,Male,disabled,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,2,1,2,1,53,52,50.0,50.0,2650.0,98.1132
-2022/2023,Male,disabled,NECO,lga,Ede North,South West,Osun,Ede North,,,3,2,3,1,86,80,66.6667,33.3333,2866.6667,93.0233
-2022/2023,Male,disabled,NECO,lga,Ife Central,South West,Osun,Ife Central,,,3,2,4,1,97,87,66.6667,25.0,2425.0,89.6907
-2022/2023,Male,disabled,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,3,2,3,1,97,87,66.6667,33.3333,3233.3333,89.6907
-2022/2023,Male,disabled,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,3,2,4,1,95,87,66.6667,25.0,2375.0,91.5789
-2022/2023,Male,disabled,NECO,lga,Osogbo,South West,Osun,Osogbo,,,2,1,3,1,91,80,50.0,33.3333,3033.3333,87.9121
-2022/2023,Male,disabled,WAEC,lga,Ede North,South West,Osun,Ede North,,,4,3,4,1,91,83,75.0,25.0,2275.0,91.2088
-2022/2023,Male,disabled,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,4,3,5,2,109,96,75.0,40.0,2180.0,88.0734
-2022/2023,Male,disabled,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,4,3,4,1,85,75,75.0,25.0,2125.0,88.2353
-2022/2023,Male,disabled,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,4,3,5,2,103,92,75.0,40.0,2060.0,89.3204
-2022/2023,Male,disabled,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,3,2,4,1,79,69,66.6667,25.0,1975.0,87.3418
-2023/2024,Female,all,NABTEB,lga,Ede North,South West,Osun,Ede North,,,25,19,28,11,486,458,76.0,39.2857,1735.7143,94.2387
-2023/2024,Female,all,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,26,20,31,12,592,523,76.9231,38.7097,1909.6774,88.3446
-2023/2024,Female,all,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,28,22,32,12,584,529,78.5714,37.5,1825.0,90.5822
-2023/2024,Female,all,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,26,20,29,11,494,448,76.9231,37.931,1703.4483,90.6883
-2023/2024,Female,all,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,23,18,27,10,475,445,78.2609,37.037,1759.2593,93.6842
-2023/2024,Female,all,NECO,lga,Ede North,South West,Osun,Ede North,,,45,32,52,20,903,838,71.1111,38.4615,1736.5385,92.8018
-2023/2024,Female,all,NECO,lga,Ife Central,South West,Osun,Ife Central,,,48,34,56,22,983,920,70.8333,39.2857,1755.3571,93.591
-2023/2024,Female,all,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,48,34,56,22,983,917,70.8333,39.2857,1755.3571,93.2859
-2023/2024,Female,all,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,47,33,52,20,894,839,70.2128,38.4615,1719.2308,93.8479
-2023/2024,Female,all,NECO,lga,Osogbo,South West,Osun,Osogbo,,,43,30,50,19,832,772,69.7674,38.0,1664.0,92.7885
-2023/2024,Female,all,WAEC,lga,Ede North,South West,Osun,Ede North,,,59,45,68,26,1117,1015,76.2712,38.2353,1642.6471,90.8684
-2023/2024,Female,all,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,65,49,76,30,1310,1214,75.3846,39.4737,1723.6842,92.6718
-2023/2024,Female,all,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,65,49,75,29,1295,1182,75.3846,38.6667,1726.6667,91.2741
-2023/2024,Female,all,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,63,48,72,28,1117,1009,76.1905,38.8889,1551.3889,90.3312
-2023/2024,Female,all,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,58,44,66,26,1063,968,75.8621,39.3939,1610.6061,91.063
-2023/2024,Female,disabled,NABTEB,lga,Ede North,South West,Osun,Ede North,,,2,2,2,1,67,66,100.0,50.0,3350.0,98.5075
-2023/2024,Female,disabled,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,2,2,2,1,72,63,100.0,50.0,3600.0,87.5
-2023/2024,Female,disabled,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,2,2,3,1,70,63,100.0,33.3333,2333.3333,90.0
-2023/2024,Female,disabled,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,2,2,3,1,67,63,100.0,33.3333,2233.3333,94.0299
-2023/2024,Female,disabled,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,2,2,2,1,72,69,100.0,50.0,3600.0,95.8333
-2023/2024,Female,disabled,NECO,lga,Ede North,South West,Osun,Ede North,,,4,3,4,2,67,57,75.0,50.0,1675.0,85.0746
-2023/2024,Female,disabled,NECO,lga,Ife Central,South West,Osun,Ife Central,,,4,3,4,2,67,57,75.0,50.0,1675.0,85.0746
-2023/2024,Female,disabled,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,4,3,4,2,73,63,75.0,50.0,1825.0,86.3014
-2023/2024,Female,disabled,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,4,3,5,2,78,69,75.0,40.0,1560.0,88.4615
-2023/2024,Female,disabled,NECO,lga,Osogbo,South West,Osun,Osogbo,,,3,2,4,2,67,57,66.6667,50.0,1675.0,85.0746
-2023/2024,Female,disabled,WAEC,lga,Ede North,South West,Osun,Ede North,,,5,4,6,2,72,64,80.0,33.3333,1200.0,88.8889
-2023/2024,Female,disabled,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,5,4,6,2,80,73,80.0,33.3333,1333.3333,91.25
-2023/2024,Female,disabled,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,5,4,5,2,72,64,80.0,40.0,1440.0,88.8889
-2023/2024,Female,disabled,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,5,4,6,2,76,70,80.0,33.3333,1266.6667,92.1053
-2023/2024,Female,disabled,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,4,3,4,2,67,58,75.0,50.0,1675.0,86.5672
-2023/2024,Male,all,NABTEB,lga,Ede North,South West,Osun,Ede North,,,20,15,23,9,578,523,75.0,39.1304,2513.0435,90.4844
-2023/2024,Male,all,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,23,18,26,10,592,539,78.2609,38.4615,2276.9231,91.0473
-2023/2024,Male,all,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,22,17,26,10,624,570,77.2727,38.4615,2400.0,91.3462
-2023/2024,Male,all,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,22,17,25,10,538,483,77.2727,40.0,2152.0,89.777
-2023/2024,Male,all,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,20,16,23,9,561,529,80.0,39.1304,2439.1304,94.2959
-2023/2024,Male,all,NECO,lga,Ede North,South West,Osun,Ede North,,,38,27,44,17,1014,942,71.0526,38.6364,2304.5455,92.8994
-2023/2024,Male,all,NECO,lga,Ife Central,South West,Osun,Ife Central,,,42,30,49,19,1112,1038,71.4286,38.7755,2269.3878,93.3453
-2023/2024,Male,all,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,40,28,45,18,1060,1007,70.0,40.0,2355.5556,95.0
-2023/2024,Male,all,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,41,29,46,18,957,887,70.7317,39.1304,2080.4348,92.6855
-2023/2024,Male,all,NECO,lga,Osogbo,South West,Osun,Osogbo,,,36,25,42,16,911,838,69.4444,38.0952,2169.0476,91.9868
-2023/2024,Male,all,WAEC,lga,Ede North,South West,Osun,Ede North,,,50,38,58,22,1283,1174,76.0,37.931,2212.069,91.5043
-2023/2024,Male,all,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,55,42,64,25,1406,1280,76.3636,39.0625,2196.875,91.0384
-2023/2024,Male,all,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,55,42,64,25,1369,1252,76.3636,39.0625,2139.0625,91.4536
-2023/2024,Male,all,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,55,42,61,24,1203,1087,76.3636,39.3443,1972.1311,90.3574
-2023/2024,Male,all,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,49,37,57,22,1231,1135,75.5102,38.5965,2159.6491,92.2015
-2023/2024,Male,disabled,NABTEB,lga,Ede North,South West,Osun,Ede North,,,2,2,2,1,82,76,100.0,50.0,4100.0,92.6829
-2023/2024,Male,disabled,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,2,2,2,1,79,73,100.0,50.0,3950.0,92.4051
-2023/2024,Male,disabled,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,2,2,2,1,87,79,100.0,50.0,4350.0,90.8046
-2023/2024,Male,disabled,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,2,2,2,1,60,57,100.0,50.0,3000.0,95.0
-2023/2024,Male,disabled,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,2,2,2,1,70,67,100.0,50.0,3500.0,95.7143
-2023/2024,Male,disabled,NECO,lga,Ede North,South West,Osun,Ede North,,,3,2,4,2,74,73,66.6667,50.0,1850.0,98.6486
-2023/2024,Male,disabled,NECO,lga,Ife Central,South West,Osun,Ife Central,,,3,2,4,2,74,73,66.6667,50.0,1850.0,98.6486
-2023/2024,Male,disabled,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,3,2,3,1,67,66,66.6667,33.3333,2233.3333,98.5075
-2023/2024,Male,disabled,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,3,2,4,2,74,72,66.6667,50.0,1850.0,97.2973
-2023/2024,Male,disabled,NECO,lga,Osogbo,South West,Osun,Osogbo,,,3,2,3,1,68,67,66.6667,33.3333,2266.6667,98.5294
-2023/2024,Male,disabled,WAEC,lga,Ede North,South West,Osun,Ede North,,,4,3,5,2,76,66,75.0,40.0,1520.0,86.8421
-2023/2024,Male,disabled,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,4,3,5,2,88,79,75.0,40.0,1760.0,89.7727
-2023/2024,Male,disabled,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,4,3,5,2,87,75,75.0,40.0,1740.0,86.2069
-2023/2024,Male,disabled,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,5,4,5,2,83,75,80.0,40.0,1660.0,90.3614
-2023/2024,Male,disabled,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,3,2,4,2,69,65,66.6667,50.0,1725.0,94.2029
-2024/2025,Female,all,NABTEB,lga,Ede North,South West,Osun,Ede North,,,123,93,69,26,21,19,75.6098,37.6812,30.4348,90.4762
-2024/2025,Female,all,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,133,98,76,31,23,20,73.6842,40.7895,30.2632,86.9565
-2024/2025,Female,all,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,128,98,72,29,21,20,76.5625,40.2778,29.1667,95.2381
-2024/2025,Female,all,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,123,93,69,26,20,18,75.6098,37.6812,28.9855,90.0000
-2024/2025,Female,all,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,114,84,67,26,19,18,73.6842,38.8060,28.3582,94.7368
-2024/2025,Female,all,NECO,lga,Ede North,South West,Osun,Ede North,,,1724,1155,992,393,293,267,66.9954,39.6169,29.5363,91.1263
-2024/2025,Female,all,NECO,lga,Ife Central,South West,Osun,Ife Central,,,1925,1315,1111,435,338,314,68.3117,39.1539,30.4230,92.8994
-2024/2025,Female,all,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,1884,1275,1091,435,319,295,67.6752,39.8717,29.2392,92.4765
-2024/2025,Female,all,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,1804,1235,1011,393,275,250,68.4590,38.8724,27.2008,90.9091
-2024/2025,Female,all,NECO,lga,Osogbo,South West,Osun,Osogbo,,,1684,1155,972,372,293,270,68.5867,38.2716,30.1440,92.1502
-2024/2025,Female,all,WAEC,lga,Ede North,South West,Osun,Ede North,,,2567,1871,1470,579,442,405,72.8866,39.3878,30.0680,91.6290
-2024/2025,Female,all,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,2695,1999,1555,602,478,443,74.1744,38.7138,30.7395,92.6778
-2024/2025,Female,all,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,2823,2084,1640,646,481,443,73.8222,39.3902,29.3293,92.0998
-2024/2025,Female,all,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,2652,1956,1470,579,407,370,73.7557,39.3878,27.6871,90.9091
-2024/2025,Female,all,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,2396,1744,1363,535,391,362,72.7880,39.2517,28.6867,92.5831
-2024/2025,Female,disabled,NABTEB,lga,Ede North,South West,Osun,Ede North,,,12,9,8,3,3,3,75.0000,37.5000,37.5000,100.0000
-2024/2025,Female,disabled,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,12,9,6,3,3,3,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,12,9,6,3,3,3,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,12,9,8,3,3,3,75.0000,37.5000,37.5000,100.0000
-2024/2025,Female,disabled,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,12,9,6,2,3,3,75.0000,33.3333,50.0000,100.0000
-2024/2025,Female,disabled,NECO,lga,Ede North,South West,Osun,Ede North,,,178,130,92,22,24,21,73.0337,23.9130,26.0870,87.5000
-2024/2025,Female,disabled,NECO,lga,Ife Central,South West,Osun,Ife Central,,,177,130,91,45,24,21,73.4463,49.4505,26.3736,87.5000
-2024/2025,Female,disabled,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,177,130,91,45,26,23,73.4463,49.4505,28.5714,88.4615
-2024/2025,Female,disabled,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,177,130,91,44,26,23,73.4463,48.3516,28.5714,88.4615
-2024/2025,Female,disabled,NECO,lga,Osogbo,South West,Osun,Osogbo,,,133,87,91,44,24,22,65.4135,48.3516,26.3736,91.6667
-2024/2025,Female,disabled,WAEC,lga,Ede North,South West,Osun,Ede North,,,239,182,140,51,30,29,76.1506,36.4286,21.4286,96.6667
-2024/2025,Female,disabled,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,238,181,140,50,32,31,76.0504,35.7143,22.8571,96.8750
-2024/2025,Female,disabled,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,238,181,140,50,36,33,76.0504,35.7143,25.7143,91.6667
-2024/2025,Female,disabled,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,238,181,140,50,27,24,76.0504,35.7143,19.2857,88.8889
-2024/2025,Female,disabled,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,191,136,93,50,23,21,71.2042,53.7634,24.7312,91.3043
-2024/2025,Male,all,NABTEB,lga,Ede North,South West,Osun,Ede North,,,104,79,62,24,23,22,75.9615,38.7097,37.0968,95.6522
-2024/2025,Male,all,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,114,84,67,26,27,24,73.6842,38.8060,40.2985,88.8889
-2024/2025,Male,all,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,99,74,57,24,22,20,74.7475,42.1053,38.5965,90.9091
-2024/2025,Male,all,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,109,84,62,24,20,19,77.0642,38.7097,32.2581,95.0000
-2024/2025,Male,all,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,99,74,54,21,20,18,74.7475,38.8889,37.0370,90.0000
-2024/2025,Male,all,NECO,lga,Ede North,South West,Osun,Ede North,,,1484,996,833,331,317,296,67.1159,39.7359,38.0552,93.3754
-2024/2025,Male,all,NECO,lga,Ife Central,South West,Osun,Ife Central,,,1604,1076,952,372,364,332,67.0823,39.0756,38.2353,91.2088
-2024/2025,Male,all,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,1564,1076,892,352,333,307,68.7980,39.4619,37.3318,92.1922
-2024/2025,Male,all,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,1644,1115,892,352,309,285,67.8224,39.4619,34.6413,92.2330
-2024/2025,Male,all,NECO,lga,Osogbo,South West,Osun,Osogbo,,,1443,996,833,331,314,287,69.0229,39.7359,37.6951,91.4013
-2024/2025,Male,all,WAEC,lga,Ede North,South West,Osun,Ede North,,,2139,1574,1235,490,462,427,73.5858,39.6761,37.4089,92.4242
-2024/2025,Male,all,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,2353,1744,1363,535,537,489,74.1181,39.2517,39.3984,91.0615
-2024/2025,Male,all,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,2267,1659,1299,512,492,453,73.1804,39.4149,37.8753,92.0732
-2024/2025,Male,all,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,2353,1744,1321,512,458,420,74.1181,38.7585,34.6707,91.7031
-2024/2025,Male,all,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,2053,1488,1172,468,426,396,72.4793,39.9317,36.3481,92.9577
-2024/2025,Male,disabled,NABTEB,lga,Ede North,South West,Osun,Ede North,,,11,9,6,2,3,3,81.8182,33.3333,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,11,8,6,2,4,3,72.7273,33.3333,66.6667,75.0000
-2024/2025,Male,disabled,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,11,8,6,2,4,3,72.7273,33.3333,66.6667,75.0000
-2024/2025,Male,disabled,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,11,8,6,2,3,2,72.7273,33.3333,50.0000,66.6667
-2024/2025,Male,disabled,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,11,8,5,2,3,3,72.7273,40.0000,60.0000,100.0000
-2024/2025,Male,disabled,NECO,lga,Ede North,South West,Osun,Ede North,,,133,86,69,22,27,26,64.6617,31.8841,39.1304,96.2963
-2024/2025,Male,disabled,NECO,lga,Ife Central,South West,Osun,Ife Central,,,133,86,91,22,28,25,64.6617,24.1758,30.7692,89.2857
-2024/2025,Male,disabled,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,133,86,69,22,27,27,64.6617,31.8841,39.1304,100.0000
-2024/2025,Male,disabled,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,133,86,91,44,27,27,64.6617,48.3516,29.6703,100.0000
-2024/2025,Male,disabled,NECO,lga,Osogbo,South West,Osun,Osogbo,,,89,43,69,22,26,25,48.3146,31.8841,37.6812,96.1538
-2024/2025,Male,disabled,WAEC,lga,Ede North,South West,Osun,Ede North,,,191,136,117,50,40,37,71.2042,42.7350,34.1880,92.5000
-2024/2025,Male,disabled,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,191,136,117,50,38,34,71.2042,42.7350,32.4786,89.4737
-2024/2025,Male,disabled,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,191,136,117,50,38,33,71.2042,42.7350,32.4786,86.8421
-2024/2025,Male,disabled,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,238,181,116,50,34,30,76.0504,43.1034,29.3103,88.2353
-2024/2025,Male,disabled,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,143,91,93,25,26,25,63.6364,26.8817,27.9570,96.1538
+session,gender,disability,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
+2022/2023,Female,ALL,NABTEB,lga,Ede North,South West,Osun,Ede North,,,40,33,49,38,1414,1302,73.913,34.6154,2369.2308,91.5584
+2022/2023,Female,ALL,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,43,35,57,43,1572,1401,72.0,33.3333,2283.3333,88.6131
+2022/2023,Female,ALL,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,43,35,55,43,1487,1371,72.0,34.4828,2234.4828,91.6667
+2022/2023,Female,ALL,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,42,35,51,38,1290,1202,75.0,33.3333,2081.4815,92.7046
+2022/2023,Female,ALL,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,38,31,47,38,1295,1202,72.7273,36.0,2256.0,92.3759
+2022/2023,Female,ALL,NECO,lga,Ede North,South West,Osun,Ede North,,,73,52,92,73,2465,2308,64.2857,34.6939,2191.8367,93.1099
+2022/2023,Female,ALL,NECO,lga,Ife Central,South West,Osun,Ife Central,,,78,56,98,77,2681,2564,64.4444,34.6154,2246.1538,95.1199
+2022/2023,Female,ALL,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,81,60,102,81,2672,2476,65.9574,35.1852,2155.5556,92.1821
+2022/2023,Female,ALL,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,76,56,94,77,2346,2202,65.9091,36.0,2044.0,93.3464
+2022/2023,Female,ALL,NECO,lga,Osogbo,South West,Osun,Osogbo,,,71,52,90,73,2302,2142,65.8537,35.4167,2089.5833,92.5224
+2022/2023,Female,ALL,WAEC,lga,Ede North,South West,Osun,Ede North,,,97,75,121,98,3007,2756,69.6429,35.9375,2046.875,91.145
+2022/2023,Female,ALL,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,107,85,136,107,3521,3213,70.9677,34.7222,2130.5556,90.7432
+2022/2023,Female,ALL,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,102,79,128,103,3305,3060,69.4915,35.2941,2117.6471,92.0833
+2022/2023,Female,ALL,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,104,81,128,103,3025,2804,70.0,35.2941,1938.2353,92.1851
+2022/2023,Female,ALL,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,90,72,113,90,2835,2573,71.1538,35.0,2058.3333,90.2834
+2022/2023,Female,Disabled,NABTEB,lga,Ede North,South West,Osun,Ede North,,,3,2,4,4,209,185,50.0,50.0,4550.0,87.9121
+2022/2023,Female,Disabled,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,3,2,6,4,191,168,50.0,33.3333,2766.6667,87.9518
+2022/2023,Female,Disabled,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,3,2,4,4,209,185,50.0,50.0,4550.0,87.9121
+2022/2023,Female,Disabled,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,3,2,4,4,191,168,50.0,50.0,4150.0,87.9518
+2022/2023,Female,Disabled,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,3,4,4,4,209,185,100.0,50.0,4550.0,87.9121
+2022/2023,Female,Disabled,NECO,lga,Ede North,South West,Osun,Ede North,,,5,4,8,4,168,148,66.6667,25.0,1825.0,87.6712
+2022/2023,Female,Disabled,NECO,lga,Ife Central,South West,Osun,Ife Central,,,5,4,8,4,168,166,66.6667,25.0,1825.0,98.6301
+2022/2023,Female,Disabled,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,7,6,8,4,168,166,75.0,25.0,1825.0,98.6301
+2022/2023,Female,Disabled,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,7,6,8,4,184,164,75.0,25.0,2000.0,88.75
+2022/2023,Female,Disabled,NECO,lga,Osogbo,South West,Osun,Osogbo,,,5,4,6,4,168,166,66.6667,33.3333,2433.3333,98.6301
+2022/2023,Female,Disabled,WAEC,lga,Ede North,South West,Osun,Ede North,,,7,6,9,9,197,175,75.0,40.0,1720.0,88.3721
+2022/2023,Female,Disabled,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,9,8,11,9,188,175,80.0,33.3333,1366.6667,92.6829
+2022/2023,Female,Disabled,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,7,6,9,9,202,185,75.0,40.0,1760.0,90.9091
+2022/2023,Female,Disabled,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,9,8,11,9,184,182,80.0,33.3333,1333.3333,98.75
+2022/2023,Female,Disabled,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,7,6,8,4,184,166,75.0,25.0,2000.0,90.0
+2022/2023,Male,ALL,NABTEB,lga,Ede North,South West,Osun,Ede North,,,35,29,41,34,1611,1502,75.0,36.3636,3190.9091,92.735
+2022/2023,Male,ALL,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,38,31,47,38,1765,1576,72.7273,36.0,3076.0,88.8166
+2022/2023,Male,ALL,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,36,29,45,34,1602,1523,71.4286,33.3333,2908.3333,94.5559
+2022/2023,Male,ALL,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,36,29,45,34,1471,1306,71.4286,33.3333,2670.8333,88.2995
+2022/2023,Male,ALL,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,31,25,40,30,1233,1145,72.2222,33.3333,2557.1429,92.365
+2022/2023,Male,ALL,NECO,lga,Ede North,South West,Osun,Ede North,,,61,44,75,60,2575,2416,65.7143,35.0,2805.0,93.3155
+2022/2023,Male,ALL,NECO,lga,Ife Central,South West,Osun,Ife Central,,,69,50,87,68,2998,2873,65.0,34.7826,2839.1304,95.3292
+2022/2023,Male,ALL,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,66,48,83,64,2906,2691,65.7895,34.0909,2877.2727,92.1011
+2022/2023,Male,ALL,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,69,50,85,68,2651,2476,65.0,35.5556,2566.6667,92.9004
+2022/2023,Male,ALL,NECO,lga,Osogbo,South West,Osun,Osogbo,,,59,43,72,56,2440,2269,64.7059,34.2105,2797.3684,92.4741
+2022/2023,Male,ALL,WAEC,lga,Ede North,South West,Osun,Ede North,,,81,64,102,81,3289,3060,70.2128,35.1852,2653.7037,92.5331
+2022/2023,Male,ALL,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,90,72,115,94,4028,3718,71.1538,36.0656,2877.0492,91.7949
+2022/2023,Male,ALL,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,87,68,107,85,3461,3169,70.0,35.0877,2645.614,91.0477
+2022/2023,Male,ALL,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,90,72,113,90,3324,3035,71.1538,35.0,2413.3333,90.8149
+2022/2023,Male,ALL,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,78,62,94,77,2984,2703,71.1111,36.0,2600.0,90.0769
+2022/2023,Male,Disabled,NABTEB,lga,Ede North,South West,Osun,Ede North,,,3,2,4,4,223,222,50.0,50.0,4850.0,98.9691
+2022/2023,Male,Disabled,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,3,2,4,4,211,203,50.0,50.0,4600.0,95.6522
+2022/2023,Male,Disabled,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,3,2,4,4,197,185,50.0,50.0,4300.0,93.0233
+2022/2023,Male,Disabled,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,3,2,4,4,177,166,50.0,50.0,3850.0,93.5065
+2022/2023,Male,Disabled,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,3,2,4,4,122,120,50.0,50.0,2650.0,98.1132
+2022/2023,Male,Disabled,NECO,lga,Ede North,South West,Osun,Ede North,,,5,4,6,4,197,185,66.6667,33.3333,2866.6667,93.0233
+2022/2023,Male,Disabled,NECO,lga,Ife Central,South West,Osun,Ife Central,,,5,4,8,4,223,201,66.6667,25.0,2425.0,89.6907
+2022/2023,Male,Disabled,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,5,4,6,4,223,201,66.6667,33.3333,3233.3333,89.6907
+2022/2023,Male,Disabled,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,5,4,8,4,218,201,66.6667,25.0,2375.0,91.5789
+2022/2023,Male,Disabled,NECO,lga,Osogbo,South West,Osun,Osogbo,,,3,2,6,4,209,185,50.0,33.3333,3033.3333,87.9121
+2022/2023,Male,Disabled,WAEC,lga,Ede North,South West,Osun,Ede North,,,7,6,8,4,209,192,75.0,25.0,2275.0,91.2088
+2022/2023,Male,Disabled,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,7,6,9,9,250,222,75.0,40.0,2180.0,88.0734
+2022/2023,Male,Disabled,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,7,6,8,4,195,173,75.0,25.0,2125.0,88.2353
+2022/2023,Male,Disabled,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,7,6,9,9,236,212,75.0,40.0,2060.0,89.3204
+2022/2023,Male,Disabled,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,5,4,8,4,181,159,66.6667,25.0,1975.0,87.3418
+2023/2024,Female,ALL,NABTEB,lga,Ede North,South West,Osun,Ede North,,,43,37,53,47,1116,1057,76.0,39.2857,1735.7143,94.2387
+2023/2024,Female,ALL,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,45,39,58,51,1359,1207,76.9231,38.7097,1909.6774,88.3446
+2023/2024,Female,ALL,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,49,43,60,51,1340,1221,78.5714,37.5,1825.0,90.5822
+2023/2024,Female,ALL,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,45,39,55,47,1134,1034,76.9231,37.931,1703.4483,90.6883
+2023/2024,Female,ALL,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,40,35,51,43,1090,1027,78.2609,37.037,1759.2593,93.6842
+2023/2024,Female,ALL,NECO,lga,Ede North,South West,Osun,Ede North,,,78,62,98,85,2073,1934,71.1111,38.4615,1736.5385,92.8018
+2023/2024,Female,ALL,NECO,lga,Ife Central,South West,Osun,Ife Central,,,83,66,105,94,2256,2123,70.8333,39.2857,1755.3571,93.591
+2023/2024,Female,ALL,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,83,66,105,94,2256,2116,70.8333,39.2857,1755.3571,93.2859
+2023/2024,Female,ALL,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,81,64,98,85,2052,1936,70.2128,38.4615,1719.2308,93.8479
+2023/2024,Female,ALL,NECO,lga,Osogbo,South West,Osun,Osogbo,,,75,58,94,81,1910,1782,69.7674,38.0,1664.0,92.7885
+2023/2024,Female,ALL,WAEC,lga,Ede North,South West,Osun,Ede North,,,102,87,128,111,2564,2343,76.2712,38.2353,1642.6471,90.8684
+2023/2024,Female,ALL,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,113,95,143,128,3007,2802,75.3846,39.4737,1723.6842,92.6718
+2023/2024,Female,ALL,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,113,95,141,124,2972,2728,75.3846,38.6667,1726.6667,91.2741
+2023/2024,Female,ALL,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,109,93,136,120,2564,2329,76.1905,38.8889,1551.3889,90.3312
+2023/2024,Female,ALL,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,101,85,124,111,2440,2234,75.8621,39.3939,1610.6061,91.063
+2023/2024,Female,Disabled,NABTEB,lga,Ede North,South West,Osun,Ede North,,,3,4,4,4,154,152,100.0,50.0,3350.0,98.5075
+2023/2024,Female,Disabled,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,3,4,4,4,165,145,100.0,50.0,3600.0,87.5
+2023/2024,Female,Disabled,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,3,4,6,4,161,145,100.0,33.3333,2333.3333,90.0
+2023/2024,Female,Disabled,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,3,4,6,4,154,145,100.0,33.3333,2233.3333,94.0299
+2023/2024,Female,Disabled,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,3,4,4,4,165,159,100.0,50.0,3600.0,95.8333
+2023/2024,Female,Disabled,NECO,lga,Ede North,South West,Osun,Ede North,,,7,6,8,9,154,132,75.0,50.0,1675.0,85.0746
+2023/2024,Female,Disabled,NECO,lga,Ife Central,South West,Osun,Ife Central,,,7,6,8,9,154,132,75.0,50.0,1675.0,85.0746
+2023/2024,Female,Disabled,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,7,6,8,9,168,145,75.0,50.0,1825.0,86.3014
+2023/2024,Female,Disabled,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,7,6,9,9,179,159,75.0,40.0,1560.0,88.4615
+2023/2024,Female,Disabled,NECO,lga,Osogbo,South West,Osun,Osogbo,,,5,4,8,9,154,132,66.6667,50.0,1675.0,85.0746
+2023/2024,Female,Disabled,WAEC,lga,Ede North,South West,Osun,Ede North,,,9,8,11,9,165,148,80.0,33.3333,1200.0,88.8889
+2023/2024,Female,Disabled,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,9,8,11,9,184,168,80.0,33.3333,1333.3333,91.25
+2023/2024,Female,Disabled,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,9,8,9,9,165,148,80.0,40.0,1440.0,88.8889
+2023/2024,Female,Disabled,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,9,8,11,9,174,162,80.0,33.3333,1266.6667,92.1053
+2023/2024,Female,Disabled,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,7,6,8,9,154,134,75.0,50.0,1675.0,86.5672
+2023/2024,Male,ALL,NABTEB,lga,Ede North,South West,Osun,Ede North,,,35,29,43,38,1327,1207,75.0,39.1304,2513.0435,90.4844
+2023/2024,Male,ALL,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,40,35,49,43,1359,1244,78.2609,38.4615,2276.9231,91.0473
+2023/2024,Male,ALL,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,38,33,49,43,1432,1316,77.2727,38.4615,2400.0,91.3462
+2023/2024,Male,ALL,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,38,33,47,43,1235,1115,77.2727,40.0,2152.0,89.777
+2023/2024,Male,ALL,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,35,31,43,38,1288,1221,80.0,39.1304,2439.1304,94.2959
+2023/2024,Male,ALL,NECO,lga,Ede North,South West,Osun,Ede North,,,66,52,83,73,2327,2174,71.0526,38.6364,2304.5455,92.8994
+2023/2024,Male,ALL,NECO,lga,Ife Central,South West,Osun,Ife Central,,,73,58,92,81,2552,2396,71.4286,38.7755,2269.3878,93.3453
+2023/2024,Male,ALL,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,69,54,85,77,2433,2324,70.0,40.0,2355.5556,95.0
+2023/2024,Male,ALL,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,71,56,87,77,2197,2047,70.7317,39.1304,2080.4348,92.6855
+2023/2024,Male,ALL,NECO,lga,Osogbo,South West,Osun,Osogbo,,,62,48,79,68,2091,1934,69.4444,38.0952,2169.0476,91.9868
+2023/2024,Male,ALL,WAEC,lga,Ede North,South West,Osun,Ede North,,,87,73,109,94,2945,2710,76.0,37.931,2212.069,91.5043
+2023/2024,Male,ALL,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,95,81,121,107,3227,2954,76.3636,39.0625,2196.875,91.0384
+2023/2024,Male,ALL,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,95,81,121,107,3142,2890,76.3636,39.0625,2139.0625,91.4536
+2023/2024,Male,ALL,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,95,81,115,103,2761,2509,76.3636,39.3443,1972.1311,90.3574
+2023/2024,Male,ALL,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,85,72,107,94,2825,2620,75.5102,38.5965,2159.6491,92.2015
+2023/2024,Male,Disabled,NABTEB,lga,Ede North,South West,Osun,Ede North,,,3,4,4,4,188,175,100.0,50.0,4100.0,92.6829
+2023/2024,Male,Disabled,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,3,4,4,4,181,168,100.0,50.0,3950.0,92.4051
+2023/2024,Male,Disabled,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,3,4,4,4,200,182,100.0,50.0,4350.0,90.8046
+2023/2024,Male,Disabled,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,3,4,4,4,138,132,100.0,50.0,3000.0,95.0
+2023/2024,Male,Disabled,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,3,4,4,4,161,155,100.0,50.0,3500.0,95.7143
+2023/2024,Male,Disabled,NECO,lga,Ede North,South West,Osun,Ede North,,,5,4,8,9,170,168,66.6667,50.0,1850.0,98.6486
+2023/2024,Male,Disabled,NECO,lga,Ife Central,South West,Osun,Ife Central,,,5,4,8,9,170,168,66.6667,50.0,1850.0,98.6486
+2023/2024,Male,Disabled,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,5,4,6,4,154,152,66.6667,33.3333,2233.3333,98.5075
+2023/2024,Male,Disabled,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,5,4,8,9,170,166,66.6667,50.0,1850.0,97.2973
+2023/2024,Male,Disabled,NECO,lga,Osogbo,South West,Osun,Osogbo,,,5,4,6,4,156,155,66.6667,33.3333,2266.6667,98.5294
+2023/2024,Male,Disabled,WAEC,lga,Ede North,South West,Osun,Ede North,,,7,6,9,9,174,152,75.0,40.0,1520.0,86.8421
+2023/2024,Male,Disabled,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,7,6,9,9,202,182,75.0,40.0,1760.0,89.7727
+2023/2024,Male,Disabled,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,7,6,9,9,200,173,75.0,40.0,1740.0,86.2069
+2023/2024,Male,Disabled,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,9,8,9,9,191,173,80.0,40.0,1660.0,90.3614
+2023/2024,Male,Disabled,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,5,4,8,9,158,150,66.6667,50.0,1725.0,94.2029
+2024/2025,Female,ALL,NABTEB,lga,Ede North,South West,Osun,Ede North,,,213,180,130,111,48,44,75.6098,37.6812,30.4348,90.4762
+2024/2025,Female,ALL,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,230,190,143,133,53,46,73.6842,40.7895,30.2632,86.9565
+2024/2025,Female,ALL,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,222,190,136,124,48,46,76.5625,40.2778,29.1667,95.2381
+2024/2025,Female,ALL,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,213,180,130,111,46,42,75.6098,37.6812,28.9855,90.0000
+2024/2025,Female,ALL,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,198,162,126,111,44,42,73.6842,38.8060,28.3582,94.7368
+2024/2025,Female,ALL,NECO,lga,Ede North,South West,Osun,Ede North,,,2987,2234,1868,1680,673,616,66.9954,39.6169,29.5363,91.1263
+2024/2025,Female,ALL,NECO,lga,Ife Central,South West,Osun,Ife Central,,,3336,2543,2093,1859,776,725,68.3117,39.1539,30.4230,92.8994
+2024/2025,Female,ALL,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,3265,2466,2055,1859,732,681,67.6752,39.8717,29.2392,92.4765
+2024/2025,Female,ALL,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,3126,2388,1904,1680,631,577,68.4590,38.8724,27.2008,90.9091
+2024/2025,Female,ALL,NECO,lga,Osogbo,South West,Osun,Osogbo,,,2918,2234,1831,1590,673,623,68.5867,38.2716,30.1440,92.1502
+2024/2025,Female,ALL,WAEC,lga,Ede North,South West,Osun,Ede North,,,4448,3618,2769,2475,1015,935,72.8866,39.3878,30.0680,91.6290
+2024/2025,Female,ALL,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,4670,3866,2929,2573,1097,1022,74.1744,38.7138,30.7395,92.6778
+2024/2025,Female,ALL,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,4892,4030,3089,2761,1104,1022,73.8222,39.3902,29.3293,92.0998
+2024/2025,Female,ALL,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,4595,3783,2769,2475,934,854,73.7557,39.3878,27.6871,90.9091
+2024/2025,Female,ALL,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,4152,3373,2567,2287,897,835,72.7880,39.2517,28.6867,92.5831
+2024/2025,Female,Disabled,NABTEB,lga,Ede North,South West,Osun,Ede North,,,21,17,15,13,7,7,75.0000,37.5000,37.5000,100.0000
+2024/2025,Female,Disabled,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,21,17,11,13,7,7,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,21,17,11,13,7,7,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,21,17,15,13,7,7,75.0000,37.5000,37.5000,100.0000
+2024/2025,Female,Disabled,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,21,17,11,9,7,7,75.0000,33.3333,50.0000,100.0000
+2024/2025,Female,Disabled,NECO,lga,Ede North,South West,Osun,Ede North,,,308,251,173,94,55,48,73.0337,23.9130,26.0870,87.5000
+2024/2025,Female,Disabled,NECO,lga,Ife Central,South West,Osun,Ife Central,,,307,251,171,192,55,48,73.4463,49.4505,26.3736,87.5000
+2024/2025,Female,Disabled,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,307,251,171,192,60,53,73.4463,49.4505,28.5714,88.4615
+2024/2025,Female,Disabled,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,307,251,171,188,60,53,73.4463,48.3516,28.5714,88.4615
+2024/2025,Female,Disabled,NECO,lga,Osogbo,South West,Osun,Osogbo,,,230,168,171,188,55,51,65.4135,48.3516,26.3736,91.6667
+2024/2025,Female,Disabled,WAEC,lga,Ede North,South West,Osun,Ede North,,,414,352,264,218,69,67,76.1506,36.4286,21.4286,96.6667
+2024/2025,Female,Disabled,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,412,350,264,214,73,72,76.0504,35.7143,22.8571,96.8750
+2024/2025,Female,Disabled,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,412,350,264,214,83,76,76.0504,35.7143,25.7143,91.6667
+2024/2025,Female,Disabled,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,412,350,264,214,62,55,76.0504,35.7143,19.2857,88.8889
+2024/2025,Female,Disabled,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,331,263,175,214,53,48,71.2042,53.7634,24.7312,91.3043
+2024/2025,Male,ALL,NABTEB,lga,Ede North,South West,Osun,Ede North,,,180,153,117,103,53,51,75.9615,38.7097,37.0968,95.6522
+2024/2025,Male,ALL,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,198,162,126,111,62,55,73.6842,38.8060,40.2985,88.8889
+2024/2025,Male,ALL,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,172,143,107,103,50,46,74.7475,42.1053,38.5965,90.9091
+2024/2025,Male,ALL,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,189,162,117,103,46,44,77.0642,38.7097,32.2581,95.0000
+2024/2025,Male,ALL,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,172,143,102,90,46,42,74.7475,38.8889,37.0370,90.0000
+2024/2025,Male,ALL,NECO,lga,Ede North,South West,Osun,Ede North,,,2572,1926,1569,1415,728,683,67.1159,39.7359,38.0552,93.3754
+2024/2025,Male,ALL,NECO,lga,Ife Central,South West,Osun,Ife Central,,,2779,2081,1793,1590,835,766,67.0823,39.0756,38.2353,91.2088
+2024/2025,Male,ALL,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,2710,2081,1680,1505,764,709,68.7980,39.4619,37.3318,92.1922
+2024/2025,Male,ALL,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,2849,2156,1680,1505,709,658,67.8224,39.4619,34.6413,92.2330
+2024/2025,Male,ALL,NECO,lga,Osogbo,South West,Osun,Osogbo,,,2500,1926,1569,1415,721,662,69.0229,39.7359,37.6951,91.4013
+2024/2025,Male,ALL,WAEC,lga,Ede North,South West,Osun,Ede North,,,3707,3044,2326,2094,1060,986,73.5858,39.6761,37.4089,92.4242
+2024/2025,Male,ALL,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,4077,3373,2567,2287,1233,1129,74.1181,39.2517,39.3984,91.0615
+2024/2025,Male,ALL,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,3928,3208,2447,2189,1129,1046,73.1804,39.4149,37.8753,92.0732
+2024/2025,Male,ALL,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,4077,3373,2488,2189,1051,969,74.1181,38.7585,34.6707,91.7031
+2024/2025,Male,ALL,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,3557,2878,2207,2000,978,914,72.4793,39.9317,36.3481,92.9577
+2024/2025,Male,Disabled,NABTEB,lga,Ede North,South West,Osun,Ede North,,,19,17,11,9,7,7,81.8182,33.3333,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,lga,Ife Central,South West,Osun,Ife Central,,,19,15,11,9,9,7,72.7273,33.3333,66.6667,75.0000
+2024/2025,Male,Disabled,NABTEB,lga,Ilesha East,South West,Osun,Ilesha East,,,19,15,11,9,9,7,72.7273,33.3333,66.6667,75.0000
+2024/2025,Male,Disabled,NABTEB,lga,Ilesha West,South West,Osun,Ilesha West,,,19,15,11,9,7,5,72.7273,33.3333,50.0000,66.6667
+2024/2025,Male,Disabled,NABTEB,lga,Osogbo,South West,Osun,Osogbo,,,19,15,9,9,7,7,72.7273,40.0000,60.0000,100.0000
+2024/2025,Male,Disabled,NECO,lga,Ede North,South West,Osun,Ede North,,,230,166,130,94,62,60,64.6617,31.8841,39.1304,96.2963
+2024/2025,Male,Disabled,NECO,lga,Ife Central,South West,Osun,Ife Central,,,230,166,171,94,64,58,64.6617,24.1758,30.7692,89.2857
+2024/2025,Male,Disabled,NECO,lga,Ilesha East,South West,Osun,Ilesha East,,,230,166,130,94,62,62,64.6617,31.8841,39.1304,100.0000
+2024/2025,Male,Disabled,NECO,lga,Ilesha West,South West,Osun,Ilesha West,,,230,166,171,188,62,62,64.6617,48.3516,29.6703,100.0000
+2024/2025,Male,Disabled,NECO,lga,Osogbo,South West,Osun,Osogbo,,,154,83,130,94,60,58,48.3146,31.8841,37.6812,96.1538
+2024/2025,Male,Disabled,WAEC,lga,Ede North,South West,Osun,Ede North,,,331,263,220,214,92,85,71.2042,42.7350,34.1880,92.5000
+2024/2025,Male,Disabled,WAEC,lga,Ife Central,South West,Osun,Ife Central,,,331,263,220,214,87,78,71.2042,42.7350,32.4786,89.4737
+2024/2025,Male,Disabled,WAEC,lga,Ilesha East,South West,Osun,Ilesha East,,,331,263,220,214,87,76,71.2042,42.7350,32.4786,86.8421
+2024/2025,Male,Disabled,WAEC,lga,Ilesha West,South West,Osun,Ilesha West,,,412,350,218,214,78,69,76.0504,43.1034,29.3103,88.2353
+2024/2025,Male,Disabled,WAEC,lga,Osogbo,South West,Osun,Osogbo,,,248,176,175,107,60,58,63.6364,26.8817,27.9570,96.1538

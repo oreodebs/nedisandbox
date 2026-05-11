@@ -1,541 +1,541 @@
-session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,all,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,89,71,80,64,58,0,18,0,16,6
-2022/2023,Female,all,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,143,114,133,114,102,1,29,0,19,12
-2022/2023,Female,all,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,34,27,30,22,20,0,7,0,8,2
-2022/2023,Female,all,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,53,42,47,35,30,0,11,0,12,5
-2022/2023,Female,all,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,84,67,75,65,58,1,17,0,10,7
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,119,95,111,71,64,1,24,0,40,7
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,34,27,33,19,18,0,7,0,14,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,94,75,90,56,51,0,19,0,34,5
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,169,135,156,94,83,1,34,0,62,11
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,64,51,62,39,34,0,13,0,23,5
-2022/2023,Female,all,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,41,33,38,155,137,1,8,0,0,18
-2022/2023,Female,all,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,81,65,75,259,231,2,16,0,0,28
-2022/2023,Female,all,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,116,92,107,415,361,4,24,0,0,54
-2022/2023,Female,all,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,50,40,48,206,185,2,10,0,0,21
-2022/2023,Female,all,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,113,91,106,373,338,3,22,0,0,35
-2022/2023,Female,all,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,171,137,154,148,134,1,34,0,6,14
-2022/2023,Female,all,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,263,210,244,229,213,1,53,0,15,16
-2022/2023,Female,all,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,66,53,58,53,48,0,13,0,5,5
-2022/2023,Female,all,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,98,79,89,74,68,0,19,0,15,6
-2022/2023,Female,all,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,151,121,133,122,115,1,30,0,11,7
-2022/2023,Female,all,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,212,170,199,144,133,1,42,0,55,11
-2022/2023,Female,all,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,65,52,58,39,37,0,13,0,19,2
-2022/2023,Female,all,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,188,150,173,120,112,1,38,0,53,8
-2022/2023,Female,all,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,322,257,301,213,196,1,65,0,88,17
-2022/2023,Female,all,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,127,102,116,81,76,0,25,0,35,5
-2022/2023,Female,all,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,70,56,69,294,276,1,14,0,0,18
-2022/2023,Female,all,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,167,134,150,554,520,3,33,0,0,34
-2022/2023,Female,all,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,215,172,197,832,780,4,43,0,0,52
-2022/2023,Female,all,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,91,73,82,348,306,3,18,0,0,42
-2022/2023,Female,all,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,198,158,184,756,696,5,40,0,0,60
-2022/2023,Female,all,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,214,171,194,158,147,1,43,0,36,11
-2022/2023,Female,all,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,337,270,308,265,241,2,67,0,43,24
-2022/2023,Female,all,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,94,75,84,73,67,0,19,0,11,6
-2022/2023,Female,all,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,133,106,115,94,88,0,27,0,21,6
-2022/2023,Female,all,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,184,147,166,140,129,1,37,0,26,11
-2022/2023,Female,all,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,271,217,250,165,154,1,54,0,85,11
-2022/2023,Female,all,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,82,66,74,46,41,0,16,0,28,5
-2022/2023,Female,all,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,245,196,227,158,147,1,49,0,69,11
-2022/2023,Female,all,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,428,343,402,268,250,1,85,0,134,18
-2022/2023,Female,all,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,165,132,154,100,95,0,33,0,54,5
-2022/2023,Female,all,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,89,71,84,316,296,2,18,0,0,20
-2022/2023,Female,all,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,213,171,193,706,647,5,42,0,0,59
-2022/2023,Female,all,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,280,224,258,956,871,7,56,0,0,85
-2022/2023,Female,all,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,120,96,111,443,419,2,24,0,0,24
-2022/2023,Female,all,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,282,225,260,940,881,5,57,0,0,59
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,9,7,7,11,9,0,2,0,0,2
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,13,10,12,15,13,0,3,0,0,2
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,3,3,3,4,3,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,4,3,4,4,3,0,1,0,0,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,8,6,7,8,7,0,2,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,10,8,9,8,7,0,2,0,1,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,3,3,3,3,2,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,9,7,8,8,7,0,2,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,15,12,13,13,11,0,3,0,0,2
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,6,5,6,5,4,0,1,0,1,1
-2022/2023,Female,disabled,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,4,3,4,20,18,0,1,0,0,2
-2022/2023,Female,disabled,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,7,6,7,30,26,0,1,0,0,4
-2022/2023,Female,disabled,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,10,8,9,49,44,0,2,0,0,5
-2022/2023,Female,disabled,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,4,4,4,20,18,0,0,0,0,2
-2022/2023,Female,disabled,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,9,7,8,49,44,0,2,0,0,5
-2022/2023,Female,disabled,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,12,10,11,11,9,0,2,0,0,2
-2022/2023,Female,disabled,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,22,17,20,15,13,0,5,0,5,2
-2022/2023,Female,disabled,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,5,4,5,4,3,0,1,0,1,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,8,6,8,4,3,0,2,0,4,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,12,9,11,11,10,0,3,0,0,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,14,12,14,8,7,0,2,0,6,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,5,4,5,3,2,0,1,0,2,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,14,12,14,10,9,0,2,0,4,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,27,21,26,16,15,0,6,0,10,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,9,7,9,5,4,0,2,0,4,1
-2022/2023,Female,disabled,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,6,5,6,20,18,0,1,0,0,2
-2022/2023,Female,disabled,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,15,12,13,40,39,0,3,0,0,1
-2022/2023,Female,disabled,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,15,12,14,49,44,0,3,0,0,5
-2022/2023,Female,disabled,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,8,7,8,30,29,0,1,0,0,1
-2022/2023,Female,disabled,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,16,13,15,49,44,0,3,0,0,5
-2022/2023,Female,disabled,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,16,13,14,8,7,0,3,0,6,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,27,22,24,17,16,0,5,0,7,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,7,6,7,5,4,0,1,0,2,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,10,8,9,6,5,0,2,0,3,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,15,12,13,10,9,0,3,0,3,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,20,16,18,9,8,0,4,0,9,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,7,6,6,2,1,0,1,0,4,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,18,14,18,11,10,0,4,0,7,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,33,26,31,16,15,0,7,0,15,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,13,10,11,5,4,0,3,0,6,1
-2022/2023,Female,disabled,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,8,6,7,25,22,0,2,0,0,3
-2022/2023,Female,disabled,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,18,14,16,49,46,0,4,0,0,3
-2022/2023,Female,disabled,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,20,16,18,47,46,0,4,0,0,1
-2022/2023,Female,disabled,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,11,9,10,32,31,0,2,0,0,1
-2022/2023,Female,disabled,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,21,17,19,67,64,0,4,0,0,3
-2022/2023,Male,all,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,97,77,88,75,71,0,20,0,13,4
-2022/2023,Male,all,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,144,115,132,105,91,1,29,0,27,14
-2022/2023,Male,all,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,35,28,32,20,19,0,7,0,12,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,58,46,51,38,34,0,12,0,13,4
-2022/2023,Male,all,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,91,73,84,67,65,0,18,0,17,2
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,123,99,116,78,71,1,24,0,38,7
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,32,26,29,17,16,0,6,0,12,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,91,73,85,53,47,0,18,0,32,6
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,166,133,152,91,82,1,33,0,61,9
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,64,51,58,36,31,0,13,0,22,5
-2022/2023,Male,all,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,38,31,36,142,137,0,7,0,0,5
-2022/2023,Male,all,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,85,68,77,244,218,2,17,0,0,26
-2022/2023,Male,all,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,116,93,106,399,345,4,23,0,0,54
-2022/2023,Male,all,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,44,36,42,165,146,2,8,0,0,19
-2022/2023,Male,all,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,103,83,95,358,322,3,20,0,0,36
-2022/2023,Male,all,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,178,142,163,144,130,1,36,0,19,14
-2022/2023,Male,all,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,271,216,253,238,219,2,55,0,15,19
-2022/2023,Male,all,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,70,56,63,53,51,0,14,0,10,2
-2022/2023,Male,all,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,107,86,94,74,71,0,21,0,20,3
-2022/2023,Male,all,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,167,134,154,132,122,1,33,0,22,10
-2022/2023,Male,all,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,212,170,196,137,125,1,42,0,59,12
-2022/2023,Male,all,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,65,52,58,39,35,0,13,0,19,4
-2022/2023,Male,all,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,176,141,165,118,109,1,35,0,47,9
-2022/2023,Male,all,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,319,255,297,209,193,1,64,0,88,16
-2022/2023,Male,all,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,116,92,106,76,68,1,24,0,30,8
-2022/2023,Male,all,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,67,53,64,269,247,2,14,0,0,22
-2022/2023,Male,all,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,169,135,150,579,517,5,34,0,0,62
-2022/2023,Male,all,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,213,171,193,769,725,4,42,0,0,44
-2022/2023,Male,all,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,80,64,77,320,309,1,16,0,0,11
-2022/2023,Male,all,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,192,154,175,731,673,5,38,0,0,58
-2022/2023,Male,all,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,231,185,212,189,171,1,46,0,23,18
-2022/2023,Male,all,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,351,281,322,286,266,2,70,0,36,20
-2022/2023,Male,all,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,92,74,82,61,54,1,18,0,21,7
-2022/2023,Male,all,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,137,109,122,101,96,0,28,0,21,5
-2022/2023,Male,all,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,211,169,198,169,157,1,42,0,29,12
-2022/2023,Male,all,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,303,242,282,185,171,1,61,0,97,14
-2022/2023,Male,all,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,78,63,70,38,36,0,15,0,32,2
-2022/2023,Male,all,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,234,187,219,143,129,1,47,0,76,14
-2022/2023,Male,all,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,429,343,393,251,231,2,86,0,142,20
-2022/2023,Male,all,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,166,133,151,92,85,1,33,0,59,7
-2022/2023,Male,all,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,81,65,77,297,280,1,16,0,0,17
-2022/2023,Male,all,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,218,175,200,696,647,4,43,0,0,49
-2022/2023,Male,all,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,279,223,259,968,881,7,56,0,0,87
-2022/2023,Male,all,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,106,85,98,386,361,2,21,0,0,25
-2022/2023,Male,all,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,267,214,247,911,852,5,53,0,0,59
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,9,7,8,11,9,0,2,0,0,2
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,13,10,11,15,13,0,3,0,0,2
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,4,3,3,4,3,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,4,3,3,4,3,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,8,7,7,8,7,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,9,8,8,8,7,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,3,3,3,3,2,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,9,7,8,8,7,0,2,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,15,12,14,13,11,0,3,0,1,2
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,5,4,5,5,4,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,3,3,3,17,15,0,0,0,0,2
-2022/2023,Male,disabled,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,7,6,6,30,26,0,1,0,0,4
-2022/2023,Male,disabled,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,9,7,8,49,44,0,2,0,0,5
-2022/2023,Male,disabled,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,4,3,3,20,18,0,1,0,0,2
-2022/2023,Male,disabled,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,9,7,8,49,44,0,2,0,0,5
-2022/2023,Male,disabled,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,13,10,12,11,9,0,3,0,1,2
-2022/2023,Male,disabled,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,21,17,19,15,13,0,4,0,4,2
-2022/2023,Male,disabled,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,6,4,5,4,3,0,2,0,1,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,8,6,7,4,3,0,2,0,3,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,13,11,12,11,10,0,2,0,1,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,15,12,15,8,7,0,3,0,7,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,6,4,5,3,2,0,2,0,2,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,13,11,13,8,7,0,2,0,5,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,27,22,25,16,15,0,5,0,9,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,9,7,8,5,4,0,2,0,3,1
-2022/2023,Male,disabled,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,6,5,6,20,18,0,1,0,0,2
-2022/2023,Male,disabled,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,15,12,14,40,37,0,3,0,0,3
-2022/2023,Male,disabled,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,15,12,14,49,44,0,3,0,0,5
-2022/2023,Male,disabled,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,7,6,7,30,29,0,1,0,0,1
-2022/2023,Male,disabled,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,15,12,15,59,55,0,3,0,0,4
-2022/2023,Male,disabled,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,16,13,15,10,9,0,3,0,5,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,28,22,26,21,20,0,6,0,5,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,8,6,7,5,4,0,2,0,2,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,11,9,9,7,6,0,2,0,2,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,17,13,16,10,8,0,4,0,6,2
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,21,17,20,11,10,0,4,0,9,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,6,5,5,2,1,0,1,0,3,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,18,15,17,11,10,0,3,0,6,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,36,29,34,20,18,0,7,0,14,2
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,13,10,11,5,4,0,3,0,6,1
-2022/2023,Male,disabled,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,7,6,7,25,22,0,1,0,0,3
-2022/2023,Male,disabled,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,20,16,18,59,46,1,4,0,0,13
-2022/2023,Male,disabled,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,19,15,17,67,64,0,4,0,0,3
-2022/2023,Male,disabled,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,9,7,9,25,24,0,2,0,0,1
-2022/2023,Male,disabled,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,22,17,20,67,64,0,5,0,0,3
-2023/2024,Female,all,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,95,76,85,44,39,0,19,0,41,5
-2023/2024,Female,all,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,148,119,136,70,60,1,29,0,66,10
-2023/2024,Female,all,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,37,30,34,17,14,0,7,0,17,3
-2023/2024,Female,all,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,55,44,51,24,21,0,11,0,27,3
-2023/2024,Female,all,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,83,67,75,35,33,0,16,0,40,2
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,120,96,116,90,83,1,24,0,26,7
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,36,29,33,28,23,0,7,0,5,5
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,106,85,98,80,69,1,21,0,18,11
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,185,148,171,136,121,1,37,0,35,15
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,71,57,67,50,44,0,14,0,17,6
-2023/2024,Female,all,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,40,32,37,108,94,1,8,0,0,14
-2023/2024,Female,all,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,97,77,90,201,181,2,20,0,0,20
-2023/2024,Female,all,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,117,94,110,280,255,2,23,0,0,25
-2023/2024,Female,all,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,51,41,48,126,114,1,10,0,0,12
-2023/2024,Female,all,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,120,96,109,264,233,2,24,0,0,31
-2023/2024,Female,all,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,171,137,155,82,77,0,34,0,73,5
-2023/2024,Female,all,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,275,220,256,145,137,1,55,0,111,8
-2023/2024,Female,all,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,69,55,60,31,29,0,14,0,29,2
-2023/2024,Female,all,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,101,80,89,42,38,0,21,0,47,4
-2023/2024,Female,all,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,155,124,138,74,67,1,31,0,64,7
-2023/2024,Female,all,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,221,177,208,186,171,1,44,0,22,15
-2023/2024,Female,all,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,64,51,57,49,47,0,13,0,8,2
-2023/2024,Female,all,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,197,157,184,162,147,1,40,0,22,15
-2023/2024,Female,all,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,326,261,302,268,247,2,65,0,34,21
-2023/2024,Female,all,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,125,100,115,101,91,1,25,0,14,10
-2023/2024,Female,all,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,69,55,63,169,154,1,14,0,0,15
-2023/2024,Female,all,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,173,138,156,420,383,3,35,0,0,37
-2023/2024,Female,all,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,238,190,227,627,566,5,48,0,0,61
-2023/2024,Female,all,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,98,79,90,268,249,2,19,0,0,19
-2023/2024,Female,all,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,214,171,195,562,520,3,43,0,0,42
-2023/2024,Female,all,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,226,181,201,99,91,1,45,0,102,8
-2023/2024,Female,all,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,362,289,330,174,163,1,73,0,156,11
-2023/2024,Female,all,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,87,69,78,36,33,0,18,0,42,3
-2023/2024,Female,all,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,151,121,132,65,62,0,30,0,67,3
-2023/2024,Female,all,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,209,167,192,95,89,0,42,0,97,6
-2023/2024,Female,all,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,305,244,290,247,233,1,61,0,43,14
-2023/2024,Female,all,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,78,63,69,50,44,0,15,0,19,6
-2023/2024,Female,all,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,267,213,249,206,191,1,54,0,43,15
-2023/2024,Female,all,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,465,372,430,350,332,1,93,0,80,18
-2023/2024,Female,all,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,184,147,170,136,127,1,37,0,34,9
-2023/2024,Female,all,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,108,86,98,266,243,2,22,0,0,23
-2023/2024,Female,all,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,242,194,219,540,504,3,48,0,0,36
-2023/2024,Female,all,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,296,237,272,721,674,4,59,0,0,47
-2023/2024,Female,all,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,141,113,136,370,339,2,28,0,0,31
-2023/2024,Female,all,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,286,229,264,680,632,4,57,0,0,48
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,9,7,8,7,6,0,2,0,1,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,13,11,12,10,9,0,2,0,2,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,4,3,3,2,1,0,1,0,1,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,4,3,4,3,2,0,1,0,1,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,8,7,7,5,4,0,1,0,2,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,10,8,9,11,10,0,2,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,4,3,3,5,4,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,9,7,7,10,9,0,2,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,17,13,15,18,17,0,4,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,6,5,6,6,5,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,4,3,4,13,12,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,8,6,7,25,21,0,2,0,0,4
-2023/2024,Female,disabled,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,9,7,8,33,32,0,2,0,0,1
-2023/2024,Female,disabled,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,4,3,4,17,14,0,1,0,0,3
-2023/2024,Female,disabled,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,10,8,9,40,35,0,2,0,0,5
-2023/2024,Female,disabled,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,13,10,12,6,5,0,3,0,6,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,22,18,21,11,10,0,4,0,10,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,6,5,5,3,2,0,1,0,2,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,8,6,7,3,2,0,2,0,4,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,12,10,12,6,5,0,2,0,6,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,15,12,15,12,11,0,3,0,3,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,5,4,5,4,3,0,1,0,1,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,15,12,14,10,9,0,3,0,4,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,27,22,26,20,18,0,5,0,6,2
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,10,8,9,6,5,0,2,0,3,1
-2023/2024,Female,disabled,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,6,5,6,15,13,0,1,0,0,2
-2023/2024,Female,disabled,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,15,12,14,31,27,0,3,0,0,4
-2023/2024,Female,disabled,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,16,13,15,33,32,0,3,0,0,1
-2023/2024,Female,disabled,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,8,7,7,22,20,0,1,0,0,2
-2023/2024,Female,disabled,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,16,13,15,43,40,0,3,0,0,3
-2023/2024,Female,disabled,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,16,13,16,6,5,0,3,0,10,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,29,24,27,11,10,0,5,0,16,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,7,6,6,2,1,0,1,0,4,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,11,9,10,3,2,0,2,0,7,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,15,12,13,5,4,0,3,0,8,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,22,17,20,14,13,0,5,0,6,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,7,6,6,4,3,0,1,0,2,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,20,16,19,14,13,0,4,0,5,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,40,32,37,25,22,0,8,0,12,3
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,15,12,13,9,8,0,3,0,4,1
-2023/2024,Female,disabled,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,9,7,8,18,17,0,2,0,0,1
-2023/2024,Female,disabled,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,21,17,19,35,34,0,4,0,0,1
-2023/2024,Female,disabled,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,21,17,19,51,45,0,4,0,0,6
-2023/2024,Female,disabled,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,12,10,12,30,23,1,2,0,0,7
-2023/2024,Female,disabled,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,22,18,21,48,45,0,4,0,0,3
-2023/2024,Male,all,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,100,80,90,45,39,0,20,0,45,6
-2023/2024,Male,all,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,150,120,140,68,62,0,30,0,72,6
-2023/2024,Male,all,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,42,33,37,17,14,0,9,0,20,3
-2023/2024,Male,all,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,57,46,53,24,21,0,11,0,29,3
-2023/2024,Male,all,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,95,76,87,44,41,0,19,0,43,3
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,122,97,115,87,78,1,25,0,28,9
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,38,30,34,25,23,0,8,0,9,2
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,99,79,94,73,63,1,20,0,21,10
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,188,150,172,131,115,1,38,0,41,16
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,72,57,68,55,49,0,15,0,13,6
-2023/2024,Male,all,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,38,30,37,99,94,0,8,0,0,5
-2023/2024,Male,all,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,96,77,86,173,152,2,19,0,0,21
-2023/2024,Male,all,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,118,94,111,280,255,2,24,0,0,25
-2023/2024,Male,all,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,47,37,43,108,94,1,10,0,0,14
-2023/2024,Male,all,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,117,94,105,254,227,2,23,0,0,27
-2023/2024,Male,all,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,178,143,164,84,79,0,35,0,80,5
-2023/2024,Male,all,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,282,226,257,144,132,1,56,0,113,12
-2023/2024,Male,all,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,71,57,63,35,31,0,14,0,28,4
-2023/2024,Male,all,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,104,83,92,44,41,0,21,0,48,3
-2023/2024,Male,all,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,176,141,158,90,85,0,35,0,68,5
-2023/2024,Male,all,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,239,191,217,189,174,1,48,0,28,15
-2023/2024,Male,all,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,70,56,62,46,41,0,14,0,16,5
-2023/2024,Male,all,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,186,148,173,159,147,1,38,0,14,12
-2023/2024,Male,all,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,337,270,314,262,238,2,67,0,52,24
-2023/2024,Male,all,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,130,104,123,101,94,1,26,0,22,7
-2023/2024,Male,all,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,69,55,65,197,183,1,14,0,0,14
-2023/2024,Male,all,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,180,144,160,402,365,3,36,0,0,37
-2023/2024,Male,all,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,245,196,228,609,558,4,49,0,0,51
-2023/2024,Male,all,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,88,70,83,250,239,1,18,0,0,11
-2023/2024,Male,all,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,209,167,194,536,490,4,42,0,0,46
-2023/2024,Male,all,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,241,193,218,113,103,1,48,0,105,10
-2023/2024,Male,all,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,377,302,344,176,163,1,75,0,168,13
-2023/2024,Male,all,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,86,69,81,39,36,0,17,0,42,3
-2023/2024,Male,all,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,153,122,138,64,59,0,31,0,74,5
-2023/2024,Male,all,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,234,187,219,106,97,1,47,0,113,9
-2023/2024,Male,all,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,308,246,290,244,229,1,62,0,46,15
-2023/2024,Male,all,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,83,67,73,50,47,0,16,0,23,3
-2023/2024,Male,all,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,241,193,225,180,168,1,48,0,45,12
-2023/2024,Male,all,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,448,359,414,335,310,2,89,0,79,25
-2023/2024,Male,all,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,165,132,156,127,119,1,33,0,29,8
-2023/2024,Male,all,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,95,76,88,236,227,1,19,0,0,9
-2023/2024,Male,all,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,246,197,215,475,447,2,49,0,0,28
-2023/2024,Male,all,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,300,240,273,703,656,4,60,0,0,47
-2023/2024,Male,all,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,113,91,109,296,275,2,22,0,0,21
-2023/2024,Male,all,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,286,229,262,666,614,4,57,0,0,52
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,9,7,8,6,5,0,2,0,2,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,13,11,12,10,9,0,2,0,2,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,4,3,3,2,1,0,1,0,1,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,4,3,4,3,2,0,1,0,1,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,9,7,7,5,4,0,2,0,2,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,10,8,8,11,10,0,2,0,0,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,3,3,3,4,3,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,10,8,8,10,9,0,2,0,0,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,16,13,15,19,17,0,3,0,0,2
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,6,5,5,7,6,0,1,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,4,3,4,17,14,0,1,0,0,3
-2023/2024,Male,disabled,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,8,7,7,25,21,0,1,0,0,4
-2023/2024,Male,disabled,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,10,8,9,33,32,0,2,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,4,3,3,15,14,0,1,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,10,8,9,40,35,0,2,0,0,5
-2023/2024,Male,disabled,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,13,11,12,7,6,0,2,0,5,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,23,19,22,10,9,0,4,0,12,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,5,4,4,3,2,0,1,0,1,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,8,7,7,3,2,0,1,0,4,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,13,10,13,6,5,0,3,0,7,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,16,13,15,12,11,0,3,0,3,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,6,5,6,5,4,0,1,0,1,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,13,11,13,10,9,0,2,0,3,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,27,22,26,22,20,0,5,0,4,2
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,10,8,9,7,6,0,2,0,2,1
-2023/2024,Male,disabled,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,6,5,5,13,12,0,1,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,15,12,13,25,21,0,3,0,0,4
-2023/2024,Male,disabled,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,16,13,15,33,32,0,3,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,8,6,7,22,21,0,2,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,15,12,14,36,34,0,3,0,0,2
-2023/2024,Male,disabled,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,18,15,17,6,5,0,3,0,11,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,31,25,28,11,10,0,6,0,17,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,8,6,7,3,2,0,2,0,4,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,12,10,11,3,2,0,2,0,8,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,18,14,17,7,5,0,4,0,10,2
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,21,17,20,14,13,0,4,0,6,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,7,6,7,4,3,0,1,0,3,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,19,15,18,12,11,0,4,0,6,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,41,32,37,27,22,0,9,0,10,5
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,13,10,12,7,6,0,3,0,5,1
-2023/2024,Male,disabled,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,9,7,8,20,17,0,2,0,0,3
-2023/2024,Male,disabled,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,22,18,20,35,34,0,4,0,0,1
-2023/2024,Male,disabled,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,20,16,18,46,40,0,4,0,0,6
-2023/2024,Male,disabled,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,10,8,10,20,17,0,2,0,0,3
-2023/2024,Male,disabled,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,22,18,20,38,34,0,4,0,0,4
-2024/2025,Female,all,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,291,233,163,78,72,0.463015,58,70,85,6
-2024/2025,Female,all,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,424,339,238,114,105,0.67523,85,101,124,9
-2024/2025,Female,all,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,115,92,64,31,28,0.183277,23,28,33,3
-2024/2025,Female,all,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,182,145,102,49,45,0.289384,37,43,53,4
-2024/2025,Female,all,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,258,206,144,69,63,0.409961,52,62,75,6
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,382,306,214,102,94,0.607707,76,92,112,8
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,106,85,59,28,26,0.168808,21,26,31,2
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,318,255,178,85,78,0.506423,63,77,93,7
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,521,417,292,140,128,0.829569,104,125,152,12
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,215,172,120,58,53,0.342438,43,52,62,5
-2024/2025,Female,all,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,112,90,63,30,28,0.178454,22,27,33,2
-2024/2025,Female,all,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,273,218,153,73,67,0.434077,55,65,80,6
-2024/2025,Female,all,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,373,298,209,100,92,0.593238,75,89,109,8
-2024/2025,Female,all,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,161,129,90,43,40,0.255623,32,39,47,3
-2024/2025,Female,all,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,345,276,193,93,85,0.54983,69,83,100,8
-2024/2025,Female,all,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,506,405,283,136,125,0.805453,101,122,147,11
-2024/2025,Female,all,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,800,640,448,214,197,1.273291,160,192,234,17
-2024/2025,Female,all,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,227,182,127,61,56,0.361731,45,55,66,5
-2024/2025,Female,all,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,330,264,185,88,81,0.525715,66,79,97,7
-2024/2025,Female,all,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,452,361,253,121,111,0.718638,91,108,132,10
-2024/2025,Female,all,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,685,548,384,183,169,1.090015,137,164,201,14
-2024/2025,Female,all,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,191,153,107,51,47,0.303854,38,46,56,4
-2024/2025,Female,all,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,594,475,333,159,146,0.945322,119,142,174,13
-2024/2025,Female,all,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,964,771,540,258,237,1.533737,193,231,282,21
-2024/2025,Female,all,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,400,320,224,107,99,0.636646,80,96,117,8
-2024/2025,Female,all,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,218,175,122,58,54,0.347261,43,53,64,4
-2024/2025,Female,all,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,509,407,285,136,125,0.810276,102,122,149,11
-2024/2025,Female,all,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,697,558,390,187,172,1.109307,139,168,203,15
-2024/2025,Female,all,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,300,240,168,80,74,0.477484,60,72,88,6
-2024/2025,Female,all,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,621,497,348,166,153,0.98873,124,149,182,13
-2024/2025,Female,all,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,676,541,378,181,167,1.075545,135,163,197,14
-2024/2025,Female,all,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,1103,882,618,295,272,1.755599,221,264,323,23
-2024/2025,Female,all,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,267,213,149,71,66,0.42443,54,64,78,5
-2024/2025,Female,all,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,427,342,239,114,105,0.680053,85,103,125,9
-2024/2025,Female,all,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,658,526,368,176,162,1.046607,132,158,192,14
-2024/2025,Female,all,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,891,713,499,239,220,1.417984,178,214,260,19
-2024/2025,Female,all,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,276,221,154,74,68,0.4389,55,67,80,6
-2024/2025,Female,all,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,730,584,409,196,180,1.162361,146,175,213,16
-2024/2025,Female,all,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,1400,1120,784,376,345,2.22826,280,336,408,31
-2024/2025,Female,all,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,515,412,289,138,127,0.819922,103,123,151,11
-2024/2025,Female,all,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,300,240,168,80,74,0.477484,60,72,88,6
-2024/2025,Female,all,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,670,536,375,179,165,1.065899,134,161,196,14
-2024/2025,Female,all,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,924,739,518,248,228,1.471037,185,221,270,20
-2024/2025,Female,all,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,403,322,226,108,99,0.641469,81,96,118,9
-2024/2025,Female,all,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,864,691,484,231,213,1.374576,173,207,253,18
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,27,22,15,7,7,0.043408,5,7,8,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,40,32,22,11,10,0.0627,8,10,11,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,12,10,7,3,3,0.019292,2,3,4,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,15,12,8,4,4,0.024115,3,4,4,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,24,19,14,7,6,0.038585,5,5,7,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,30,24,17,8,8,0.048231,6,7,9,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,12,10,7,3,3,0.019292,2,3,4,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,30,24,17,8,8,0.048231,6,7,9,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,52,41,29,14,13,0.081992,11,12,15,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,18,15,10,5,5,0.028938,3,5,5,0
-2024/2025,Female,disabled,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,12,10,7,3,3,0.019292,2,3,4,0
-2024/2025,Female,disabled,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,21,17,12,6,5,0.033762,4,5,6,1
-2024/2025,Female,disabled,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,30,24,17,8,8,0.048231,6,7,9,0
-2024/2025,Female,disabled,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,15,12,8,4,4,0.024115,3,4,4,0
-2024/2025,Female,disabled,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,30,24,17,8,8,0.048231,6,7,9,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,37,29,20,10,9,0.057877,8,9,10,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,64,51,36,17,16,0.101285,13,15,19,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,18,15,10,5,5,0.028938,3,5,5,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,27,22,15,7,7,0.043408,5,7,8,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,33,27,19,9,8,0.053054,6,8,10,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,46,36,26,12,11,0.072346,10,10,14,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,15,12,8,4,4,0.024115,3,4,4,0
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,46,36,25,12,11,0.072346,10,11,13,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,82,66,46,22,20,0.130223,16,20,24,2
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,30,24,17,8,7,0.048231,6,7,9,1
-2024/2025,Female,disabled,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,18,15,10,5,5,0.028938,3,5,5,0
-2024/2025,Female,disabled,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,46,36,26,12,11,0.072346,10,10,14,1
-2024/2025,Female,disabled,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,49,39,27,13,12,0.077169,10,12,14,1
-2024/2025,Female,disabled,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,27,22,15,7,7,0.043408,5,7,8,0
-2024/2025,Female,disabled,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,49,39,27,13,12,0.077169,10,12,14,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,49,39,27,13,12,0.077169,10,12,14,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,91,73,51,24,22,0.144692,18,22,27,2
-2024/2025,Female,disabled,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,21,17,12,6,5,0.033762,4,5,6,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,33,27,19,9,8,0.053054,6,8,10,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,52,41,29,14,13,0.081992,11,12,15,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,64,51,36,17,16,0.101285,13,15,19,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,21,17,12,6,5,0.033762,4,5,6,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,55,44,31,15,13,0.086815,11,13,16,2
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,118,95,66,32,29,0.1881,23,29,34,3
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,37,29,20,10,9,0.057877,8,9,10,1
-2024/2025,Female,disabled,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,24,19,14,7,6,0.038585,5,5,7,1
-2024/2025,Female,disabled,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,58,46,32,16,14,0.091638,12,14,16,2
-2024/2025,Female,disabled,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,64,51,36,17,16,0.101285,13,15,19,1
-2024/2025,Female,disabled,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,33,27,19,9,8,0.053054,6,8,10,1
-2024/2025,Female,disabled,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,67,53,37,18,16,0.106108,14,16,19,2
-2024/2025,Male,all,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,312,250,175,84,77,0.496777,62,75,91,7
-2024/2025,Male,all,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,442,354,248,118,109,0.704169,88,106,130,9
-2024/2025,Male,all,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,124,99,70,33,31,0.197746,25,29,37,2
-2024/2025,Male,all,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,176,141,98,47,43,0.279738,35,43,51,4
-2024/2025,Male,all,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,288,230,161,77,71,0.458192,58,69,84,6
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,370,296,207,99,91,0.588415,74,89,108,8
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,103,82,58,28,25,0.163984,21,24,30,3
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,300,240,168,80,74,0.477484,60,72,88,6
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,530,424,297,142,131,0.844038,106,127,155,11
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,212,170,119,57,52,0.337615,42,51,62,5
-2024/2025,Male,all,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,115,92,64,31,28,0.183277,23,28,33,3
-2024/2025,Male,all,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,267,213,149,71,66,0.42443,54,64,78,5
-2024/2025,Male,all,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,370,296,207,99,91,0.588415,74,89,108,8
-2024/2025,Male,all,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,136,109,76,37,34,0.217038,27,33,39,3
-2024/2025,Male,all,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,321,257,180,86,79,0.511246,64,77,94,7
-2024/2025,Male,all,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,521,417,292,140,128,0.829569,104,125,152,12
-2024/2025,Male,all,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,824,659,462,221,203,1.311876,165,197,241,18
-2024/2025,Male,all,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,209,167,117,56,52,0.332792,42,50,61,4
-2024/2025,Male,all,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,342,274,192,92,84,0.545007,68,82,100,8
-2024/2025,Male,all,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,491,393,275,131,121,0.781338,98,118,144,10
-2024/2025,Male,all,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,667,533,373,179,164,1.061076,134,160,194,15
-2024/2025,Male,all,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,200,160,112,54,49,0.318323,40,48,58,5
-2024/2025,Male,all,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,582,466,326,156,143,0.92603,116,140,170,13
-2024/2025,Male,all,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,1021,817,572,273,252,1.625376,204,245,299,21
-2024/2025,Male,all,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,388,310,217,104,96,0.617353,78,93,113,8
-2024/2025,Male,all,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,212,170,119,57,52,0.337615,42,51,62,5
-2024/2025,Male,all,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,488,390,273,131,120,0.776515,98,117,142,11
-2024/2025,Male,all,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,700,560,392,187,172,1.11413,140,168,205,15
-2024/2025,Male,all,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,261,209,146,70,64,0.414784,52,63,76,6
-2024/2025,Male,all,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,609,487,341,163,150,0.969438,122,146,178,13
-2024/2025,Male,all,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,745,596,417,200,184,1.186476,149,179,217,16
-2024/2025,Male,all,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,1142,914,640,306,281,1.818299,228,274,334,25
-2024/2025,Male,all,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,273,218,153,73,67,0.434077,55,65,80,6
-2024/2025,Male,all,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,433,347,243,116,107,0.6897,86,104,127,9
-2024/2025,Male,all,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,727,582,407,195,179,1.157538,145,175,212,16
-2024/2025,Male,all,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,946,756,529,253,233,1.504799,190,227,276,20
-2024/2025,Male,all,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,279,223,156,75,69,0.443723,56,67,81,6
-2024/2025,Male,all,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,715,572,401,192,176,1.138245,143,171,209,16
-2024/2025,Male,all,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,1376,1101,770,368,339,2.189675,275,331,402,29
-2024/2025,Male,all,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,527,422,295,141,130,0.839215,105,127,154,11
-2024/2025,Male,all,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,282,225,158,75,69,0.448546,57,67,83,6
-2024/2025,Male,all,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,661,529,370,177,163,1.05143,132,159,193,14
-2024/2025,Male,all,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,930,744,521,249,229,1.480684,186,223,272,20
-2024/2025,Male,all,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,339,272,190,91,84,0.540184,67,82,99,7
-2024/2025,Male,all,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,861,689,482,230,212,1.369753,172,207,252,18
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,27,22,15,7,7,0.043408,5,7,8,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,40,32,22,11,10,0.0627,8,10,11,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,12,10,7,3,3,0.019292,2,3,4,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,12,10,7,3,3,0.019292,2,3,4,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,24,19,14,7,6,0.038585,5,5,7,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,30,24,17,8,7,0.048231,6,7,9,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,9,7,5,2,2,0.014469,2,2,3,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,27,22,15,7,7,0.043408,5,7,8,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,49,39,27,13,12,0.077169,10,12,14,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,18,15,10,5,5,0.028938,3,5,5,0
-2024/2025,Male,disabled,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,12,10,7,3,3,0.019292,2,3,4,0
-2024/2025,Male,disabled,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,21,17,12,6,5,0.033762,4,5,6,1
-2024/2025,Male,disabled,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,30,24,17,8,7,0.048231,6,7,9,1
-2024/2025,Male,disabled,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,12,10,7,3,3,0.019292,2,3,4,0
-2024/2025,Male,disabled,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,30,24,17,8,7,0.048231,6,7,9,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,40,32,22,11,10,0.0627,8,10,11,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,67,54,37,18,16,0.106108,13,17,19,2
-2024/2025,Male,disabled,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,18,15,10,5,5,0.028938,3,5,5,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,27,22,15,7,7,0.043408,5,7,8,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,37,29,20,10,9,0.057877,8,9,10,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,46,36,26,12,11,0.072346,10,10,14,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,15,12,8,4,4,0.024115,3,4,4,0
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,43,34,24,11,10,0.067523,9,10,13,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,82,66,46,22,20,0.130223,16,20,24,2
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,27,22,15,7,7,0.043408,5,7,8,0
-2024/2025,Male,disabled,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,18,15,10,5,5,0.028938,3,5,5,0
-2024/2025,Male,disabled,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,43,34,24,11,10,0.067523,9,10,13,1
-2024/2025,Male,disabled,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,46,36,26,12,11,0.072346,10,10,14,1
-2024/2025,Male,disabled,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,24,19,14,7,6,0.038585,5,5,7,1
-2024/2025,Male,disabled,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,46,36,26,12,11,0.072346,10,10,14,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,55,44,31,15,13,0.086815,11,13,16,2
-2024/2025,Male,disabled,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,91,73,51,24,22,0.144692,18,22,27,2
-2024/2025,Male,disabled,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,21,17,12,6,5,0.033762,4,5,6,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,37,29,20,10,9,0.057877,8,9,10,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,58,46,32,15,14,0.091638,12,14,17,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,64,51,36,17,16,0.101285,13,15,19,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,24,19,14,7,6,0.038585,5,5,7,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,52,41,29,14,13,0.081992,11,12,15,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,118,95,66,32,29,0.1881,23,29,34,3
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,43,34,24,11,10,0.067523,9,10,13,1
-2024/2025,Male,disabled,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,24,19,14,7,6,0.038585,5,5,7,1
-2024/2025,Male,disabled,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,58,46,32,15,14,0.091638,12,14,17,1
-2024/2025,Male,disabled,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,64,51,36,17,16,0.101285,13,15,19,1
-2024/2025,Male,disabled,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,33,27,19,9,8,0.053054,6,8,10,1
-2024/2025,Male,disabled,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,67,53,37,18,16,0.106108,14,16,19,2
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,59,152,163,116,105,0,18,0,16,6
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,95,244,271,207,185,24,29,0,19,12
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,23,58,61,40,36,0,7,0,8,2
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,35,90,96,63,54,0,11,0,12,5
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,56,144,153,118,105,24,17,0,10,7
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,79,204,226,129,116,24,24,0,40,7
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,23,58,67,34,33,0,7,0,14,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,63,161,183,101,92,0,19,0,34,5
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,112,289,318,170,150,24,34,0,62,11
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,43,109,126,71,62,0,13,0,23,5
+2022/2023,Female,ALL,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,27,71,77,281,248,24,8,0,0,18
+2022/2023,Female,ALL,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,54,139,153,469,419,49,16,0,0,28
+2022/2023,Female,ALL,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,77,197,218,752,654,98,24,0,0,54
+2022/2023,Female,ALL,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,33,86,98,373,335,49,10,0,0,21
+2022/2023,Female,ALL,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,75,195,216,676,612,73,22,0,0,35
+2022/2023,Female,ALL,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,114,294,314,268,243,24,34,0,6,14
+2022/2023,Female,ALL,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,175,450,497,415,386,24,53,0,15,16
+2022/2023,Female,ALL,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,44,114,118,96,87,0,13,0,5,5
+2022/2023,Female,ALL,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,65,169,181,134,123,0,19,0,15,6
+2022/2023,Female,ALL,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,100,259,271,221,208,24,30,0,11,7
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,141,364,406,261,241,24,42,0,55,11
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,43,111,118,71,67,0,13,0,19,2
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,125,321,353,217,203,24,38,0,53,8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,214,551,614,386,355,24,65,0,88,17
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,84,219,236,147,138,0,25,0,35,5
+2022/2023,Female,ALL,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,47,120,141,533,500,24,14,0,0,18
+2022/2023,Female,ALL,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,111,287,306,1004,942,73,33,0,0,34
+2022/2023,Female,ALL,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,143,369,402,1507,1413,98,43,0,0,52
+2022/2023,Female,ALL,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,61,156,167,630,554,73,18,0,0,42
+2022/2023,Female,ALL,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,132,339,375,1370,1261,122,40,0,0,60
+2022/2023,Female,ALL,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,142,366,395,286,266,24,43,0,36,11
+2022/2023,Female,ALL,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,224,579,628,480,437,49,67,0,43,24
+2022/2023,Female,ALL,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,63,161,171,132,121,0,19,0,11,6
+2022/2023,Female,ALL,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,88,227,234,170,159,0,27,0,21,6
+2022/2023,Female,ALL,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,122,315,338,254,234,24,37,0,26,11
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,180,465,510,299,279,24,54,0,85,11
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,55,141,151,83,74,0,16,0,28,5
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,163,420,463,286,266,24,49,0,69,11
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,285,735,819,486,453,24,85,0,134,18
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,110,283,314,181,172,0,33,0,54,5
+2022/2023,Female,ALL,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,59,152,171,572,536,49,18,0,0,20
+2022/2023,Female,ALL,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,142,366,393,1279,1172,122,42,0,0,59
+2022/2023,Female,ALL,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,186,480,526,1732,1578,171,56,0,0,85
+2022/2023,Female,ALL,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,80,206,226,803,759,49,24,0,0,24
+2022/2023,Female,ALL,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,188,482,530,1703,1596,122,57,0,0,59
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,6,15,14,20,16,0,2,0,0,2
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,9,21,24,27,24,0,3,0,0,2
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,2,6,6,7,5,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,3,6,8,7,5,0,1,0,0,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,5,13,14,14,13,0,2,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,7,17,18,14,13,0,2,0,1,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,2,6,6,5,4,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,6,15,16,14,13,0,2,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,10,26,26,24,20,0,3,0,0,2
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,4,11,12,9,7,0,1,0,1,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,3,6,8,36,33,0,1,0,0,2
+2022/2023,Female,Disabled,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,5,13,14,54,47,0,1,0,0,4
+2022/2023,Female,Disabled,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,7,17,18,89,80,0,2,0,0,5
+2022/2023,Female,Disabled,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,3,9,8,36,33,0,0,0,0,2
+2022/2023,Female,Disabled,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,6,15,16,89,80,0,2,0,0,5
+2022/2023,Female,Disabled,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,8,21,22,20,16,0,2,0,0,2
+2022/2023,Female,Disabled,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,15,36,41,27,24,0,5,0,5,2
+2022/2023,Female,Disabled,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,3,9,10,7,5,0,1,0,1,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,5,13,16,7,5,0,2,0,4,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,8,19,22,20,18,0,3,0,0,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,9,26,29,14,13,0,2,0,6,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,3,9,10,5,4,0,1,0,2,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,9,26,29,18,16,0,2,0,4,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,18,45,53,29,27,0,6,0,10,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,6,15,18,9,7,0,2,0,4,1
+2022/2023,Female,Disabled,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,4,11,12,36,33,0,1,0,0,2
+2022/2023,Female,Disabled,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,10,26,26,72,71,0,3,0,0,1
+2022/2023,Female,Disabled,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,10,26,29,89,80,0,3,0,0,5
+2022/2023,Female,Disabled,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,5,15,16,54,53,0,1,0,0,1
+2022/2023,Female,Disabled,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,11,28,31,89,80,0,3,0,0,5
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,11,28,29,14,13,0,3,0,6,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,18,47,49,31,29,0,5,0,7,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,5,13,14,9,7,0,1,0,2,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,7,17,18,11,9,0,2,0,3,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,10,26,26,18,16,0,3,0,3,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,13,34,37,16,14,0,4,0,9,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,5,13,12,4,2,0,1,0,4,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,12,30,37,20,18,0,4,0,7,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,22,56,63,29,27,0,7,0,15,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,9,21,22,9,7,0,3,0,6,1
+2022/2023,Female,Disabled,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,5,13,14,45,40,0,2,0,0,3
+2022/2023,Female,Disabled,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,12,30,33,89,83,0,4,0,0,3
+2022/2023,Female,Disabled,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,13,34,37,85,83,0,4,0,0,1
+2022/2023,Female,Disabled,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,7,19,20,58,56,0,2,0,0,1
+2022/2023,Female,Disabled,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,14,36,39,121,116,0,4,0,0,3
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,65,165,179,136,129,0,20,0,13,4
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,96,246,269,190,165,24,29,0,27,14
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,23,60,65,36,34,0,7,0,12,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,39,99,104,69,62,0,12,0,13,4
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,61,156,171,121,118,0,18,0,17,2
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,82,212,236,141,129,24,24,0,38,7
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,21,56,59,31,29,0,6,0,12,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,61,156,173,96,85,0,18,0,32,6
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,110,285,310,165,149,24,33,0,61,9
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,43,109,118,65,56,0,13,0,22,5
+2022/2023,Male,ALL,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,25,66,73,257,248,0,7,0,0,5
+2022/2023,Male,ALL,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,57,146,157,442,395,49,17,0,0,26
+2022/2023,Male,ALL,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,77,199,216,723,625,98,23,0,0,54
+2022/2023,Male,ALL,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,29,77,86,299,265,49,8,0,0,19
+2022/2023,Male,ALL,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,68,178,194,649,583,73,20,0,0,36
+2022/2023,Male,ALL,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,118,304,332,261,236,24,36,0,19,14
+2022/2023,Male,ALL,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,180,463,516,431,397,49,55,0,15,19
+2022/2023,Male,ALL,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,47,120,128,96,92,0,14,0,10,2
+2022/2023,Male,ALL,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,71,184,192,134,129,0,21,0,20,3
+2022/2023,Male,ALL,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,111,287,314,239,221,24,33,0,22,10
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,141,364,400,248,226,24,42,0,59,12
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,43,111,118,71,63,0,13,0,19,4
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,117,302,336,214,197,24,35,0,47,9
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,212,546,605,379,350,24,64,0,88,16
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,77,197,216,138,123,24,24,0,30,8
+2022/2023,Male,ALL,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,45,114,130,487,448,49,14,0,0,22
+2022/2023,Male,ALL,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,112,289,306,1049,937,122,34,0,0,62
+2022/2023,Male,ALL,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,142,366,393,1393,1314,98,42,0,0,44
+2022/2023,Male,ALL,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,53,137,157,580,560,24,16,0,0,11
+2022/2023,Male,ALL,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,128,330,357,1324,1219,122,38,0,0,58
+2022/2023,Male,ALL,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,154,396,432,342,310,24,46,0,23,18
+2022/2023,Male,ALL,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,233,602,656,518,482,49,70,0,36,20
+2022/2023,Male,ALL,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,61,159,167,111,98,24,18,0,21,7
+2022/2023,Male,ALL,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,91,234,249,183,174,0,28,0,21,5
+2022/2023,Male,ALL,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,140,362,404,306,284,24,42,0,29,12
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,202,519,575,335,310,24,61,0,97,14
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,52,135,143,69,65,0,15,0,32,2
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,156,401,446,259,234,24,47,0,76,14
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,285,735,801,455,419,49,86,0,142,20
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,110,285,308,167,154,24,33,0,59,7
+2022/2023,Male,ALL,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,54,139,157,538,507,24,16,0,0,17
+2022/2023,Male,ALL,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,145,375,408,1261,1172,98,43,0,0,49
+2022/2023,Male,ALL,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,186,478,528,1754,1596,171,56,0,0,87
+2022/2023,Male,ALL,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,70,182,200,699,654,49,21,0,0,25
+2022/2023,Male,ALL,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,178,459,503,1650,1544,122,53,0,0,59
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,6,15,16,20,16,0,2,0,0,2
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,9,21,22,27,24,0,3,0,0,2
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,3,6,6,7,5,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,3,6,6,7,5,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,5,15,14,14,13,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,6,17,16,14,13,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,2,6,6,5,4,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,6,15,16,14,13,0,2,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,10,26,29,24,20,0,3,0,1,2
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,3,9,10,9,7,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,2,6,6,31,27,0,0,0,0,2
+2022/2023,Male,Disabled,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,5,13,12,54,47,0,1,0,0,4
+2022/2023,Male,Disabled,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,6,15,16,89,80,0,2,0,0,5
+2022/2023,Male,Disabled,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,3,6,6,36,33,0,1,0,0,2
+2022/2023,Male,Disabled,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,6,15,16,89,80,0,2,0,0,5
+2022/2023,Male,Disabled,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,9,21,24,20,16,0,3,0,1,2
+2022/2023,Male,Disabled,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,14,36,39,27,24,0,4,0,4,2
+2022/2023,Male,Disabled,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,4,9,10,7,5,0,2,0,1,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,5,13,14,7,5,0,2,0,3,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,9,24,24,20,18,0,2,0,1,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,10,26,31,14,13,0,3,0,7,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,4,9,10,5,4,0,2,0,2,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,9,24,26,14,13,0,2,0,5,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,18,47,51,29,27,0,5,0,9,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,6,15,16,9,7,0,2,0,3,1
+2022/2023,Male,Disabled,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,4,11,12,36,33,0,1,0,0,2
+2022/2023,Male,Disabled,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,10,26,29,72,67,0,3,0,0,3
+2022/2023,Male,Disabled,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,10,26,29,89,80,0,3,0,0,5
+2022/2023,Male,Disabled,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,5,13,14,54,53,0,1,0,0,1
+2022/2023,Male,Disabled,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,10,26,31,107,100,0,3,0,0,4
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,11,28,31,18,16,0,3,0,5,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,19,47,53,38,36,0,6,0,5,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,5,13,14,9,7,0,2,0,2,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,7,19,18,13,11,0,2,0,2,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,11,28,33,18,14,0,4,0,6,2
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,14,36,41,20,18,0,4,0,9,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,4,11,10,4,2,0,1,0,3,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,12,32,35,20,18,0,3,0,6,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,24,62,69,36,33,0,7,0,14,2
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,9,21,22,9,7,0,3,0,6,1
+2022/2023,Male,Disabled,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,5,13,14,45,40,0,1,0,0,3
+2022/2023,Male,Disabled,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,13,34,37,107,83,24,4,0,0,13
+2022/2023,Male,Disabled,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,13,32,35,121,116,0,4,0,0,3
+2022/2023,Male,Disabled,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,6,15,18,45,43,0,2,0,0,1
+2022/2023,Male,Disabled,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,15,36,41,121,116,0,5,0,0,3
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,63,163,173,80,71,0,19,0,41,5
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,98,255,277,127,109,24,29,0,66,10
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,25,64,69,31,25,0,7,0,17,3
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,37,94,104,43,38,0,11,0,27,3
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,55,144,153,63,60,0,16,0,40,2
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,80,206,236,163,150,24,24,0,26,7
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,24,62,67,51,42,0,7,0,5,5
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,70,182,200,145,125,24,21,0,18,11
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,123,317,349,246,219,24,37,0,35,15
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,47,122,137,91,80,0,14,0,17,6
+2023/2024,Female,ALL,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,27,69,75,196,170,24,8,0,0,14
+2023/2024,Female,ALL,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,65,165,183,364,328,49,20,0,0,20
+2023/2024,Female,ALL,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,78,201,224,507,462,49,23,0,0,25
+2023/2024,Female,ALL,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,34,88,98,228,207,24,10,0,0,12
+2023/2024,Female,ALL,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,80,206,222,478,422,49,24,0,0,31
+2023/2024,Female,ALL,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,114,294,316,149,140,0,34,0,73,5
+2023/2024,Female,ALL,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,183,471,522,263,248,24,55,0,111,8
+2023/2024,Female,ALL,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,46,118,122,56,53,0,14,0,29,2
+2023/2024,Female,ALL,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,67,171,181,76,69,0,21,0,47,4
+2023/2024,Female,ALL,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,103,266,281,134,121,24,31,0,64,7
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,147,379,424,337,310,24,44,0,22,15
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,43,109,116,89,85,0,13,0,8,2
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,131,336,375,293,266,24,40,0,22,15
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,217,559,616,486,448,49,65,0,34,21
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,83,214,234,183,165,24,25,0,14,10
+2023/2024,Female,ALL,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,46,118,128,306,279,24,14,0,0,15
+2023/2024,Female,ALL,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,115,296,318,761,694,73,35,0,0,37
+2023/2024,Female,ALL,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,158,407,463,1136,1025,122,48,0,0,61
+2023/2024,Female,ALL,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,65,169,183,486,451,49,19,0,0,19
+2023/2024,Female,ALL,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,142,366,397,1018,942,73,43,0,0,42
+2023/2024,Female,ALL,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,150,388,410,179,165,24,45,0,102,8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,241,619,673,315,295,24,73,0,156,11
+2023/2024,Female,ALL,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,58,148,159,65,60,0,18,0,42,3
+2023/2024,Female,ALL,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,100,259,269,118,112,0,30,0,67,3
+2023/2024,Female,ALL,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,139,358,391,172,161,0,42,0,97,6
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,203,523,591,447,422,24,61,0,43,14
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,52,135,141,91,80,0,15,0,19,6
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,178,456,508,373,346,24,54,0,43,15
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,309,797,876,634,602,24,93,0,80,18
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,122,315,347,246,230,24,37,0,34,9
+2023/2024,Female,ALL,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,72,184,200,482,440,49,22,0,0,23
+2023/2024,Female,ALL,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,161,416,446,978,913,73,48,0,0,36
+2023/2024,Female,ALL,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,197,508,554,1306,1221,98,59,0,0,47
+2023/2024,Female,ALL,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,94,242,277,670,614,49,28,0,0,31
+2023/2024,Female,ALL,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,190,491,538,1232,1145,98,57,0,0,48
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,6,15,16,13,11,0,2,0,1,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,9,24,24,18,16,0,2,0,2,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,3,6,6,4,2,0,1,0,1,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,3,6,8,5,4,0,1,0,1,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,5,15,14,9,7,0,1,0,2,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,7,17,18,20,18,0,2,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,3,6,6,9,7,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,6,15,14,18,16,0,2,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,11,28,31,33,31,0,4,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,4,11,12,11,9,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,3,6,8,24,22,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,5,13,14,45,38,0,2,0,0,4
+2023/2024,Female,Disabled,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,6,15,16,60,58,0,2,0,0,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,3,6,8,31,25,0,1,0,0,3
+2023/2024,Female,Disabled,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,7,17,18,72,63,0,2,0,0,5
+2023/2024,Female,Disabled,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,9,21,24,11,9,0,3,0,6,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,15,39,43,20,18,0,4,0,10,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,4,11,10,5,4,0,1,0,2,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,5,13,14,5,4,0,2,0,4,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,8,21,24,11,9,0,2,0,6,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,10,26,31,22,20,0,3,0,3,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,3,9,10,7,5,0,1,0,1,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,10,26,29,18,16,0,3,0,4,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,18,47,53,36,33,0,5,0,6,2
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,7,17,18,11,9,0,2,0,3,1
+2023/2024,Female,Disabled,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,4,11,12,27,24,0,1,0,0,2
+2023/2024,Female,Disabled,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,10,26,29,56,49,0,3,0,0,4
+2023/2024,Female,Disabled,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,11,28,31,60,58,0,3,0,0,1
+2023/2024,Female,Disabled,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,5,15,14,40,36,0,1,0,0,2
+2023/2024,Female,Disabled,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,11,28,31,78,72,0,3,0,0,3
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,11,28,33,11,9,0,3,0,10,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,19,51,55,20,18,0,5,0,16,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,5,13,12,4,2,0,1,0,4,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,7,19,20,5,4,0,2,0,7,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,10,26,26,9,7,0,3,0,8,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,15,36,41,25,24,0,5,0,6,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,5,13,12,7,5,0,1,0,2,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,13,34,39,25,24,0,4,0,5,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,27,69,75,45,40,0,8,0,12,3
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,10,26,26,16,14,0,3,0,4,1
+2023/2024,Female,Disabled,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,6,15,16,33,31,0,2,0,0,1
+2023/2024,Female,Disabled,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,14,36,39,63,62,0,4,0,0,1
+2023/2024,Female,Disabled,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,14,36,39,92,82,0,4,0,0,6
+2023/2024,Female,Disabled,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,8,21,24,54,42,24,2,0,0,7
+2023/2024,Female,Disabled,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,15,39,43,87,82,0,4,0,0,3
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,67,171,183,82,71,0,20,0,45,6
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,100,257,285,123,112,0,30,0,72,6
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,28,71,75,31,25,0,9,0,20,3
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,38,99,108,43,38,0,11,0,29,3
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,63,163,177,80,74,0,19,0,43,3
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,81,208,234,158,141,24,25,0,28,9
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,25,64,69,45,42,0,8,0,9,2
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,66,169,192,132,114,24,20,0,21,10
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,125,321,351,237,208,24,38,0,41,16
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,48,122,139,100,89,0,15,0,13,6
+2023/2024,Male,ALL,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,25,64,75,179,170,0,8,0,0,5
+2023/2024,Male,ALL,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,64,165,175,313,275,49,19,0,0,21
+2023/2024,Male,ALL,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,78,201,226,507,462,49,24,0,0,25
+2023/2024,Male,ALL,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,31,79,88,196,170,24,10,0,0,14
+2023/2024,Male,ALL,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,78,201,214,460,411,49,23,0,0,27
+2023/2024,Male,ALL,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,118,306,334,152,143,0,35,0,80,5
+2023/2024,Male,ALL,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,188,484,524,261,239,24,56,0,113,12
+2023/2024,Male,ALL,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,47,122,128,63,56,0,14,0,28,4
+2023/2024,Male,ALL,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,69,178,188,80,74,0,21,0,48,3
+2023/2024,Male,ALL,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,117,302,322,163,154,0,35,0,68,5
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,159,409,442,342,315,24,48,0,28,15
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,47,120,126,83,74,0,14,0,16,5
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,124,317,353,288,266,24,38,0,14,12
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,224,579,640,475,431,49,67,0,52,24
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,86,223,251,183,170,24,26,0,22,7
+2023/2024,Male,ALL,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,46,118,132,357,332,24,14,0,0,14
+2023/2024,Male,ALL,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,120,309,326,728,661,73,36,0,0,37
+2023/2024,Male,ALL,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,163,420,465,1103,1011,98,49,0,0,51
+2023/2024,Male,ALL,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,59,150,169,453,433,24,18,0,0,11
+2023/2024,Male,ALL,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,139,358,395,971,888,98,42,0,0,46
+2023/2024,Male,ALL,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,160,414,444,205,187,24,48,0,105,10
+2023/2024,Male,ALL,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,251,647,701,319,295,24,75,0,168,13
+2023/2024,Male,ALL,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,57,148,165,71,65,0,17,0,42,3
+2023/2024,Male,ALL,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,102,261,281,116,107,0,31,0,74,5
+2023/2024,Male,ALL,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,156,401,446,192,176,24,47,0,113,9
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,205,527,591,442,415,24,62,0,46,15
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,55,144,149,91,85,0,16,0,23,3
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,160,414,459,326,304,24,48,0,45,12
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,298,769,844,607,562,49,89,0,79,25
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,110,283,318,230,216,24,33,0,29,8
+2023/2024,Male,ALL,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,63,163,179,428,411,24,19,0,0,9
+2023/2024,Male,ALL,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,164,422,438,861,810,49,49,0,0,28
+2023/2024,Male,ALL,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,200,514,556,1274,1189,98,60,0,0,47
+2023/2024,Male,ALL,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,75,195,222,536,498,49,22,0,0,21
+2023/2024,Male,ALL,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,190,491,534,1207,1112,98,57,0,0,52
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,6,15,16,11,9,0,2,0,2,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,9,24,24,18,16,0,2,0,2,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,3,6,6,4,2,0,1,0,1,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,3,6,8,5,4,0,1,0,1,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,6,15,14,9,7,0,2,0,2,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,7,17,16,20,18,0,2,0,0,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,2,6,6,7,5,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,7,17,16,18,16,0,2,0,0,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,11,28,31,34,31,0,3,0,0,2
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,4,11,10,13,11,0,1,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,3,6,8,31,25,0,1,0,0,3
+2023/2024,Male,Disabled,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,5,15,14,45,38,0,1,0,0,4
+2023/2024,Male,Disabled,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,7,17,18,60,58,0,2,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,3,6,6,27,25,0,1,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,7,17,18,72,63,0,2,0,0,5
+2023/2024,Male,Disabled,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,9,24,24,13,11,0,2,0,5,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,15,41,45,18,16,0,4,0,12,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,3,9,8,5,4,0,1,0,1,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,5,15,14,5,4,0,1,0,4,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,9,21,26,11,9,0,3,0,7,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,11,28,31,22,20,0,3,0,3,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,4,11,12,9,7,0,1,0,1,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,9,24,26,18,16,0,2,0,3,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,18,47,53,40,36,0,5,0,4,2
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,7,17,18,13,11,0,2,0,2,1
+2023/2024,Male,Disabled,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,4,11,10,24,22,0,1,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,10,26,26,45,38,0,3,0,0,4
+2023/2024,Male,Disabled,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,11,28,31,60,58,0,3,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,5,13,14,40,38,0,2,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,10,26,29,65,62,0,3,0,0,2
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,12,32,35,11,9,0,3,0,11,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,21,54,57,20,18,0,6,0,17,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,5,13,14,5,4,0,2,0,4,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,8,21,22,5,4,0,2,0,8,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,12,30,35,13,9,0,4,0,10,2
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,14,36,41,25,24,0,4,0,6,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,5,13,14,7,5,0,1,0,3,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,13,32,37,22,20,0,4,0,6,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,27,69,75,49,40,0,9,0,10,5
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,9,21,24,13,11,0,3,0,5,1
+2023/2024,Male,Disabled,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,6,15,16,36,31,0,2,0,0,3
+2023/2024,Male,Disabled,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,15,39,41,63,62,0,4,0,0,1
+2023/2024,Male,Disabled,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,13,34,37,83,72,0,4,0,0,6
+2023/2024,Male,Disabled,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,7,17,20,36,31,0,2,0,0,3
+2023/2024,Male,Disabled,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,15,39,41,69,62,0,4,0,0,4
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,194,499,332,141,130,11,58,70,85,6
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,282,727,485,207,190,16,85,101,124,9
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,76,197,130,56,51,4,23,28,33,3
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,121,311,208,89,82,7,37,43,53,4
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,172,441,294,125,114,10,52,62,75,6
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,254,656,436,185,170,15,76,92,112,8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,70,182,120,51,47,4,21,26,31,2
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,211,546,363,154,141,12,63,77,93,7
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,346,894,595,254,232,20,104,125,152,12
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,143,369,245,105,96,8,43,52,62,5
+2024/2025,Female,ALL,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,74,193,128,54,51,4,22,27,33,2
+2024/2025,Female,ALL,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,182,467,312,132,121,11,55,65,80,6
+2024/2025,Female,ALL,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,248,639,426,181,167,14,75,89,109,8
+2024/2025,Female,ALL,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,107,276,183,78,72,6,32,39,47,3
+2024/2025,Female,ALL,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,229,591,393,168,154,13,69,83,100,8
+2024/2025,Female,ALL,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,337,868,577,246,226,20,101,122,147,11
+2024/2025,Female,ALL,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,532,1372,913,388,357,31,160,192,234,17
+2024/2025,Female,ALL,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,151,390,259,111,101,9,45,55,66,5
+2024/2025,Female,ALL,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,219,566,377,159,147,13,66,79,97,7
+2024/2025,Female,ALL,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,301,774,516,219,201,18,91,108,132,10
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,456,1174,783,332,306,27,137,164,201,14
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,127,328,218,92,85,7,38,46,56,4
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,395,1018,679,288,265,23,119,142,174,13
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,641,1652,1101,467,429,37,193,231,282,21
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,266,686,457,194,179,16,80,96,117,8
+2024/2025,Female,ALL,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,145,375,249,105,98,8,43,53,64,4
+2024/2025,Female,ALL,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,339,872,581,246,226,20,102,122,149,11
+2024/2025,Female,ALL,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,464,1196,795,339,312,27,139,168,203,15
+2024/2025,Female,ALL,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,200,514,342,145,134,12,60,72,88,6
+2024/2025,Female,ALL,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,413,1065,709,301,277,24,124,149,182,13
+2024/2025,Female,ALL,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,450,1159,770,328,303,26,135,163,197,14
+2024/2025,Female,ALL,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,734,1890,1260,534,493,43,221,264,323,23
+2024/2025,Female,ALL,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,178,456,304,129,120,10,54,64,78,5
+2024/2025,Female,ALL,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,284,733,487,207,190,17,85,103,125,9
+2024/2025,Female,ALL,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,438,1127,750,319,294,26,132,158,192,14
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,593,1528,1017,433,399,35,178,214,260,19
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,184,474,314,134,123,11,55,67,80,6
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,485,1252,834,355,326,28,146,175,213,16
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,931,2400,1598,681,625,54,280,336,408,31
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,342,883,589,250,230,20,103,123,151,11
+2024/2025,Female,ALL,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,200,514,342,145,134,12,60,72,88,6
+2024/2025,Female,ALL,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,446,1149,764,324,299,26,134,161,196,14
+2024/2025,Female,ALL,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,614,1584,1056,449,413,36,185,221,270,20
+2024/2025,Female,ALL,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,268,690,461,196,179,16,81,96,118,9
+2024/2025,Female,ALL,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,575,1481,987,418,386,34,173,207,253,18
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,18,47,31,13,13,1,5,7,8,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,27,69,45,20,18,2,8,10,11,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,8,21,14,5,5,0,2,3,4,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,10,26,16,7,7,1,3,4,4,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,16,41,29,13,11,1,5,5,7,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,20,51,35,14,14,1,6,7,9,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,8,21,14,5,5,0,2,3,4,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,20,51,35,14,14,1,6,7,9,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,35,88,59,25,24,2,11,12,15,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,12,32,20,9,9,1,3,5,5,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,8,21,14,5,5,0,2,3,4,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,14,36,24,11,9,1,4,5,6,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,20,51,35,14,14,1,6,7,9,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,10,26,16,7,7,1,3,4,4,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,20,51,35,14,14,1,6,7,9,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,25,62,41,18,16,1,8,9,10,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,43,109,73,31,29,2,13,15,19,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,12,32,20,9,9,1,3,5,5,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,18,47,31,13,13,1,5,7,8,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,22,58,39,16,14,1,6,8,10,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,31,77,53,22,20,2,10,10,14,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,10,26,16,7,7,1,3,4,4,0
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,31,77,51,22,20,2,10,11,13,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,55,141,94,40,36,3,16,20,24,2
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,20,51,35,14,13,1,6,7,9,1
+2024/2025,Female,Disabled,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,12,32,20,9,9,1,3,5,5,0
+2024/2025,Female,Disabled,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,31,77,53,22,20,2,10,10,14,1
+2024/2025,Female,Disabled,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,33,84,55,24,22,2,10,12,14,1
+2024/2025,Female,Disabled,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,18,47,31,13,13,1,5,7,8,0
+2024/2025,Female,Disabled,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,33,84,55,24,22,2,10,12,14,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,33,84,55,24,22,2,10,12,14,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,61,156,104,43,40,4,18,22,27,2
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,14,36,24,11,9,1,4,5,6,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,22,58,39,16,14,1,6,8,10,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,35,88,59,25,24,2,11,12,15,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,43,109,73,31,29,2,13,15,19,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,14,36,24,11,9,1,4,5,6,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,37,94,63,27,24,2,11,13,16,2
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,78,204,135,58,53,5,23,29,34,3
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,25,62,41,18,16,1,8,9,10,1
+2024/2025,Female,Disabled,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,16,41,29,13,11,1,5,5,7,1
+2024/2025,Female,Disabled,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,39,99,65,29,25,2,12,14,16,2
+2024/2025,Female,Disabled,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,43,109,73,31,29,2,13,15,19,1
+2024/2025,Female,Disabled,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,22,58,39,16,14,1,6,8,10,1
+2024/2025,Female,Disabled,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,45,114,75,33,29,3,14,16,19,2
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,207,536,357,152,140,12,62,75,91,7
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,294,759,506,214,197,17,88,106,130,9
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,82,212,143,60,56,5,25,29,37,2
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,117,302,200,85,78,7,35,43,51,4
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,192,493,328,139,129,11,58,69,84,6
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,246,634,422,179,165,14,74,89,108,8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,68,176,118,51,45,4,21,24,30,3
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,200,514,342,145,134,12,60,72,88,6
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,352,909,605,257,237,21,106,127,155,11
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,141,364,243,103,94,8,42,51,62,5
+2024/2025,Male,ALL,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,76,197,130,56,51,4,23,28,33,3
+2024/2025,Male,ALL,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,178,456,304,129,120,10,54,64,78,5
+2024/2025,Male,ALL,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,246,634,422,179,165,14,74,89,108,8
+2024/2025,Male,ALL,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,90,234,155,67,62,5,27,33,39,3
+2024/2025,Male,ALL,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,213,551,367,156,143,12,64,77,94,7
+2024/2025,Male,ALL,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,346,894,595,254,232,20,104,125,152,12
+2024/2025,Male,ALL,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,548,1412,942,400,368,32,165,197,241,18
+2024/2025,Male,ALL,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,139,358,238,101,94,8,42,50,61,4
+2024/2025,Male,ALL,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,227,587,391,167,152,13,68,82,100,8
+2024/2025,Male,ALL,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,327,842,561,237,219,19,98,118,144,10
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,444,1142,760,324,297,26,134,160,194,15
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,133,343,228,98,89,8,40,48,58,5
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,387,999,664,283,259,23,116,140,170,13
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,679,1751,1166,495,457,40,204,245,299,21
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,258,664,442,188,174,15,78,93,113,8
+2024/2025,Male,ALL,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,141,364,243,103,94,8,42,51,62,5
+2024/2025,Male,ALL,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,325,836,556,237,217,19,98,117,142,11
+2024/2025,Male,ALL,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,466,1200,799,339,312,27,140,168,205,15
+2024/2025,Male,ALL,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,174,448,298,127,116,10,52,63,76,6
+2024/2025,Male,ALL,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,405,1044,695,295,272,24,122,146,178,13
+2024/2025,Male,ALL,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,495,1277,850,362,333,29,149,179,217,16
+2024/2025,Male,ALL,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,759,1959,1305,554,509,44,228,274,334,25
+2024/2025,Male,ALL,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,182,467,312,132,121,11,55,65,80,6
+2024/2025,Male,ALL,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,288,744,495,210,194,17,86,104,127,9
+2024/2025,Male,ALL,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,483,1247,830,353,324,28,145,175,212,16
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,629,1620,1078,458,422,37,190,227,276,20
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,186,478,318,136,125,11,56,67,81,6
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,475,1226,817,348,319,28,143,171,209,16
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,915,2360,1569,667,614,53,275,331,402,29
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,350,904,601,255,236,20,105,127,154,11
+2024/2025,Male,ALL,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,188,482,322,136,125,11,57,67,83,6
+2024/2025,Male,ALL,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,440,1134,754,321,295,26,132,159,193,14
+2024/2025,Male,ALL,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,618,1594,1062,451,415,36,186,223,272,20
+2024/2025,Male,ALL,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,225,583,387,165,152,13,67,82,99,7
+2024/2025,Male,ALL,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,573,1477,982,417,384,33,172,207,252,18
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Akure North,South West,Ondo,Akure North,,,18,47,31,13,13,1,5,7,8,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Akure South,South West,Ondo,Akure South,,,27,69,45,20,18,2,8,10,11,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,8,21,14,5,5,0,2,3,4,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,8,21,14,5,5,0,2,3,4,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,16,41,29,13,11,1,5,5,7,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,20,51,35,14,13,1,6,7,9,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,6,15,10,4,4,0,2,2,3,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,18,47,31,13,13,1,5,7,8,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,33,84,55,24,22,2,10,12,14,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,12,32,20,9,9,1,3,5,5,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Akure North,South West,Ondo,Akure North,,,8,21,14,5,5,0,2,3,4,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Akure South,South West,Ondo,Akure South,,,14,36,24,11,9,1,4,5,6,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Odigbo,South West,Ondo,Odigbo,,,20,51,35,14,13,1,6,7,9,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Ondo East,South West,Ondo,Ondo East,,,8,21,14,5,5,0,2,3,4,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Ondo West,South West,Ondo,Ondo West,,,20,51,35,14,13,1,6,7,9,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Akure North,South West,Ondo,Akure North,,,27,69,45,20,18,2,8,10,11,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Akure South,South West,Ondo,Akure South,,,45,116,75,33,29,3,13,17,19,2
+2024/2025,Male,Disabled,NECO,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,12,32,20,9,9,1,3,5,5,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,18,47,31,13,13,1,5,7,8,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,25,62,41,18,16,1,8,9,10,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,31,77,53,22,20,2,10,10,14,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,10,26,16,7,7,1,3,4,4,0
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,29,73,49,20,18,2,9,10,13,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,55,141,94,40,36,3,16,20,24,2
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,18,47,31,13,13,1,5,7,8,0
+2024/2025,Male,Disabled,NECO,University,lga,Akure North,South West,Ondo,Akure North,,,12,32,20,9,9,1,3,5,5,0
+2024/2025,Male,Disabled,NECO,University,lga,Akure South,South West,Ondo,Akure South,,,29,73,49,20,18,2,9,10,13,1
+2024/2025,Male,Disabled,NECO,University,lga,Odigbo,South West,Ondo,Odigbo,,,31,77,53,22,20,2,10,10,14,1
+2024/2025,Male,Disabled,NECO,University,lga,Ondo East,South West,Ondo,Ondo East,,,16,41,29,13,11,1,5,5,7,1
+2024/2025,Male,Disabled,NECO,University,lga,Ondo West,South West,Ondo,Ondo West,,,31,77,53,22,20,2,10,10,14,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Akure North,South West,Ondo,Akure North,,,37,94,63,27,24,2,11,13,16,2
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Akure South,South West,Ondo,Akure South,,,61,156,104,43,40,4,18,22,27,2
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Odigbo,South West,Ondo,Odigbo,,,14,36,24,11,9,1,4,5,6,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Ondo East,South West,Ondo,Ondo East,,,25,62,41,18,16,1,8,9,10,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Ondo West,South West,Ondo,Ondo West,,,39,99,65,27,25,2,12,14,17,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Akure North,South West,Ondo,Akure North,,,43,109,73,31,29,2,13,15,19,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Akure South,South West,Ondo,Akure South,,,16,41,29,13,11,1,5,5,7,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Odigbo,South West,Ondo,Odigbo,,,35,88,59,25,24,2,11,12,15,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ondo East,South West,Ondo,Ondo East,,,78,204,135,58,53,5,23,29,34,3
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ondo West,South West,Ondo,Ondo West,,,29,73,49,20,18,2,9,10,13,1
+2024/2025,Male,Disabled,WAEC,University,lga,Akure North,South West,Ondo,Akure North,,,16,41,29,13,11,1,5,5,7,1
+2024/2025,Male,Disabled,WAEC,University,lga,Akure South,South West,Ondo,Akure South,,,39,99,65,27,25,2,12,14,17,1
+2024/2025,Male,Disabled,WAEC,University,lga,Odigbo,South West,Ondo,Odigbo,,,43,109,73,31,29,2,13,15,19,1
+2024/2025,Male,Disabled,WAEC,University,lga,Ondo East,South West,Ondo,Ondo East,,,22,58,39,16,14,1,6,8,10,1
+2024/2025,Male,Disabled,WAEC,University,lga,Ondo West,South West,Ondo,Ondo West,,,45,114,75,33,29,3,14,16,19,2

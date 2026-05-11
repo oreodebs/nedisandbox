@@ -1,505 +1,505 @@
-session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,all,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,281,225,263,2,1,0,56,0,261,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,242,193,223,2,1,0,49,0,221,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,257,206,237,2,1,0,51,0,235,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,100,80,92,1,0,0,20,0,91,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,310,249,275,2,1,0,61,0,273,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,145,116,134,5,4,0,29,0,129,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,214,172,191,8,7,0,42,0,183,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,254,203,229,9,8,0,51,0,220,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,178,142,161,7,6,0,36,0,154,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,102,81,96,4,3,0,21,0,92,1
-2022/2023,Female,all,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,86,69,82,156,144,1,17,0,0,12
-2022/2023,Female,all,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,33,26,30,61,48,1,7,0,0,13
-2022/2023,Female,all,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,197,157,182,338,303,3,40,0,0,35
-2022/2023,Female,all,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,92,74,85,178,160,1,18,0,0,18
-2022/2023,Female,all,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,515,412,457,3,2,0,103,0,454,1
-2022/2023,Female,all,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,472,377,434,3,2,0,95,0,431,1
-2022/2023,Female,all,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,460,369,422,3,2,0,91,0,419,1
-2022/2023,Female,all,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,169,135,158,1,0,0,34,0,157,1
-2022/2023,Female,all,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,618,494,559,4,3,0,124,0,555,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,256,205,239,9,8,0,51,0,230,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,386,309,356,13,12,0,77,0,343,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,435,348,394,15,14,0,87,0,379,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,333,266,310,12,11,0,67,0,298,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,183,146,171,7,6,0,37,0,164,1
-2022/2023,Female,all,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,147,118,137,254,244,1,29,0,0,10
-2022/2023,Female,all,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,60,48,58,103,100,0,12,0,0,3
-2022/2023,Female,all,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,371,298,350,626,599,2,73,0,0,27
-2022/2023,Female,all,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,178,142,161,308,283,2,36,0,0,25
-2022/2023,Female,all,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,678,542,622,5,4,0,136,0,617,1
-2022/2023,Female,all,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,616,493,562,5,4,0,123,0,557,1
-2022/2023,Female,all,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,604,483,564,5,4,0,121,0,559,1
-2022/2023,Female,all,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,242,194,223,2,1,0,48,0,221,1
-2022/2023,Female,all,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,801,641,734,6,5,0,160,0,728,1
-2022/2023,Female,all,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,353,282,325,14,13,0,71,0,311,1
-2022/2023,Female,all,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,544,434,488,21,19,0,110,0,467,2
-2022/2023,Female,all,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,586,469,538,22,20,0,117,0,516,2
-2022/2023,Female,all,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,417,334,394,17,16,0,83,0,377,1
-2022/2023,Female,all,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,258,206,246,11,10,0,52,0,235,1
-2022/2023,Female,all,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,218,174,214,501,463,3,44,0,0,38
-2022/2023,Female,all,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,74,59,74,182,168,1,15,0,0,14
-2022/2023,Female,all,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,497,398,454,942,878,5,99,0,0,64
-2022/2023,Female,all,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,232,186,217,478,443,3,46,0,0,35
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,26,20,24,0,0,0,6,0,24,0
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,22,18,20,0,0,0,4,0,20,0
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,23,19,21,0,0,0,4,0,21,0
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,8,6,7,0,0,0,2,0,7,0
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,27,22,24,0,0,0,5,0,24,0
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,12,9,11,1,0,0,3,0,10,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,18,15,17,1,0,0,3,0,16,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,22,18,19,1,0,0,4,0,18,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,18,15,16,1,0,0,3,0,15,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,10,8,10,0,0,0,2,0,10,0
-2022/2023,Female,disabled,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,7,6,6,24,19,0,1,0,0,5
-2022/2023,Female,disabled,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,3,3,3,12,10,0,0,0,0,2
-2022/2023,Female,disabled,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,18,15,17,60,49,1,3,0,0,11
-2022/2023,Female,disabled,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,11,9,10,36,29,1,2,0,0,7
-2022/2023,Female,disabled,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,42,34,37,0,0,0,8,0,37,0
-2022/2023,Female,disabled,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,32,26,32,0,0,0,6,0,32,0
-2022/2023,Female,disabled,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,38,30,36,0,0,0,8,0,36,0
-2022/2023,Female,disabled,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,15,12,13,0,0,0,3,0,13,0
-2022/2023,Female,disabled,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,47,38,42,0,0,0,9,0,42,0
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,20,16,18,1,0,0,4,0,17,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,29,23,26,1,0,0,6,0,25,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,35,28,30,1,0,0,7,0,29,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,24,19,21,1,0,0,5,0,20,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,19,16,18,1,0,0,3,0,17,1
-2022/2023,Female,disabled,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,12,10,13,21,19,0,2,0,0,2
-2022/2023,Female,disabled,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,3,3,3,9,7,0,0,0,0,2
-2022/2023,Female,disabled,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,30,24,28,45,44,0,6,0,0,1
-2022/2023,Female,disabled,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,16,13,15,27,26,0,3,0,0,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,52,42,49,0,0,0,10,0,49,0
-2022/2023,Female,disabled,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,43,35,41,0,0,0,8,0,41,0
-2022/2023,Female,disabled,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,49,39,46,0,0,0,10,0,46,0
-2022/2023,Female,disabled,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,19,16,17,0,0,0,3,0,17,0
-2022/2023,Female,disabled,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,59,48,56,0,0,0,11,0,56,0
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,28,22,26,1,0,0,6,0,25,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,39,31,36,1,0,0,8,0,35,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,48,38,41,1,0,0,10,0,40,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,27,21,26,1,0,0,6,0,25,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,26,20,23,1,0,0,6,0,22,1
-2022/2023,Female,disabled,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,15,12,15,30,24,0,3,0,0,6
-2022/2023,Female,disabled,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,5,4,5,9,8,0,1,0,0,1
-2022/2023,Female,disabled,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,38,31,36,45,44,0,7,0,0,1
-2022/2023,Female,disabled,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,19,16,17,27,26,0,3,0,0,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,275,220,253,2,1,0,55,0,251,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,237,189,223,2,1,0,48,0,221,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,265,212,246,2,1,0,53,0,244,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,91,73,87,1,0,0,18,0,86,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,304,244,274,2,1,0,60,0,272,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,151,121,139,5,4,0,30,0,134,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,222,178,207,8,7,0,44,0,199,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,248,198,236,9,8,0,50,0,227,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,162,129,146,6,5,0,33,0,140,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,91,73,84,3,2,0,18,0,81,1
-2022/2023,Male,all,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,86,69,88,178,160,1,17,0,0,18
-2022/2023,Male,all,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,34,27,32,76,64,1,7,0,0,12
-2022/2023,Male,all,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,193,155,178,327,287,3,38,0,0,40
-2022/2023,Male,all,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,95,76,86,167,144,2,19,0,0,23
-2022/2023,Male,all,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,520,416,471,3,2,0,104,0,468,1
-2022/2023,Male,all,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,468,374,439,3,2,0,94,0,436,1
-2022/2023,Male,all,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,464,371,436,3,2,0,93,0,433,1
-2022/2023,Male,all,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,159,128,151,1,0,0,31,0,150,1
-2022/2023,Male,all,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,616,492,541,4,3,0,124,0,537,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,279,224,254,10,9,0,55,0,244,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,404,324,371,13,12,0,80,0,358,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,450,360,428,16,15,0,90,0,412,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,303,242,274,12,10,0,61,0,262,2
-2022/2023,Male,all,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,165,132,154,6,5,0,33,0,148,1
-2022/2023,Male,all,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,155,124,149,281,255,2,31,0,0,26
-2022/2023,Male,all,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,74,59,71,140,128,1,15,0,0,12
-2022/2023,Male,all,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,389,312,357,664,615,4,77,0,0,49
-2022/2023,Male,all,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,178,143,168,319,283,3,35,0,0,36
-2022/2023,Male,all,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,679,543,612,5,4,0,136,0,607,1
-2022/2023,Male,all,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,602,481,553,5,4,0,121,0,548,1
-2022/2023,Male,all,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,636,509,582,5,4,0,127,0,577,1
-2022/2023,Male,all,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,204,163,185,1,0,0,41,0,184,1
-2022/2023,Male,all,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,784,626,711,6,5,0,158,0,705,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,352,282,323,15,14,0,70,0,308,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,526,421,482,20,19,0,105,0,462,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,569,455,529,23,21,0,114,0,506,2
-2022/2023,Male,all,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,406,325,374,17,16,0,81,0,357,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,256,204,232,10,9,0,52,0,222,1
-2022/2023,Male,all,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,218,175,203,448,419,2,43,0,0,29
-2022/2023,Male,all,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,91,73,82,186,172,1,18,0,0,14
-2022/2023,Male,all,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,514,412,473,1006,934,6,102,0,0,72
-2022/2023,Male,all,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,234,187,212,395,355,3,47,0,0,40
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,24,19,22,0,0,0,5,0,22,0
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,21,17,19,0,0,0,4,0,19,0
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,23,18,20,0,0,0,5,0,20,0
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,7,6,7,0,0,0,1,0,7,0
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,26,21,23,0,0,0,5,0,23,0
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,12,9,11,0,0,0,3,0,11,0
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,17,14,16,1,0,0,3,0,15,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,21,17,19,1,0,0,4,0,18,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,17,13,15,1,0,0,4,0,14,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,9,7,8,0,0,0,2,0,8,0
-2022/2023,Male,disabled,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,7,6,7,21,17,0,1,0,0,4
-2022/2023,Male,disabled,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,3,2,3,12,10,0,1,0,0,2
-2022/2023,Male,disabled,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,17,13,15,48,39,1,4,0,0,9
-2022/2023,Male,disabled,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,10,8,9,24,19,0,2,0,0,5
-2022/2023,Male,disabled,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,41,33,38,0,0,0,8,0,38,0
-2022/2023,Male,disabled,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,34,27,31,0,0,0,7,0,31,0
-2022/2023,Male,disabled,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,39,31,37,0,0,0,8,0,37,0
-2022/2023,Male,disabled,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,13,11,12,0,0,0,2,0,12,0
-2022/2023,Male,disabled,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,49,39,44,0,0,0,10,0,44,0
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,21,17,20,1,0,0,4,0,19,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,28,22,24,1,0,0,6,0,23,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,37,30,37,1,0,0,7,0,36,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,25,20,20,1,0,0,5,0,19,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,17,13,16,0,0,0,4,0,16,0
-2022/2023,Male,disabled,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,13,10,13,18,17,0,3,0,0,1
-2022/2023,Male,disabled,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,6,5,5,12,10,0,1,0,0,2
-2022/2023,Male,disabled,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,30,24,28,45,44,0,6,0,0,1
-2022/2023,Male,disabled,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,16,13,16,27,26,0,3,0,0,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,53,42,48,0,0,0,11,0,48,0
-2022/2023,Male,disabled,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,43,34,39,0,0,0,9,0,39,0
-2022/2023,Male,disabled,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,52,41,48,0,0,0,11,0,48,0
-2022/2023,Male,disabled,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,18,15,17,0,0,0,3,0,17,0
-2022/2023,Male,disabled,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,59,47,52,0,0,0,12,0,52,0
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,27,22,26,1,0,0,5,0,25,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,37,30,33,1,0,0,7,0,32,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,47,38,44,2,1,0,9,0,42,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,27,21,25,1,0,0,6,0,24,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,25,20,24,1,0,0,5,0,23,1
-2022/2023,Male,disabled,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,17,14,17,33,27,0,3,0,0,6
-2022/2023,Male,disabled,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,5,4,5,9,7,0,1,0,0,2
-2022/2023,Male,disabled,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,38,30,34,45,44,0,8,0,0,1
-2022/2023,Male,disabled,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,22,18,21,27,26,0,4,0,0,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,294,235,266,2,1,0,59,0,264,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,280,224,260,2,1,0,56,0,258,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,255,204,236,2,1,0,51,0,234,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,105,84,98,1,0,0,21,0,97,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,321,258,287,2,1,0,63,0,285,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,151,121,142,4,3,0,30,0,138,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,235,188,219,6,5,0,47,0,213,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,259,207,245,7,6,0,52,0,238,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,185,148,173,5,4,0,37,0,168,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,113,91,109,3,2,0,22,0,106,1
-2023/2024,Female,all,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,97,78,93,125,110,1,19,0,0,15
-2023/2024,Female,all,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,38,30,36,48,41,1,8,0,0,7
-2023/2024,Female,all,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,221,177,206,241,221,2,44,0,0,20
-2023/2024,Female,all,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,94,75,85,107,88,2,19,0,0,19
-2023/2024,Female,all,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,523,419,474,3,2,0,104,0,471,1
-2023/2024,Female,all,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,509,407,462,3,2,0,102,0,459,1
-2023/2024,Female,all,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,481,385,449,3,2,0,96,0,446,1
-2023/2024,Female,all,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,178,142,165,1,0,0,36,0,164,1
-2023/2024,Female,all,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,632,506,564,3,2,0,126,0,561,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,277,221,253,7,6,0,56,0,246,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,416,333,383,10,9,0,83,0,373,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,491,392,453,11,10,0,99,0,442,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,346,276,317,9,8,0,70,0,308,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,195,156,184,5,4,0,39,0,179,1
-2023/2024,Female,all,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,164,131,160,201,185,1,33,0,0,16
-2023/2024,Female,all,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,64,51,61,74,73,0,13,0,0,1
-2023/2024,Female,all,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,418,334,388,444,408,3,84,0,0,36
-2023/2024,Female,all,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,173,139,161,184,171,1,34,0,0,13
-2023/2024,Female,all,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,701,560,652,4,3,0,141,0,648,1
-2023/2024,Female,all,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,657,525,604,4,3,0,132,0,600,1
-2023/2024,Female,all,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,635,508,588,4,3,0,127,0,584,1
-2023/2024,Female,all,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,265,212,241,2,1,0,53,0,239,1
-2023/2024,Female,all,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,858,686,772,5,4,0,172,0,767,1
-2023/2024,Female,all,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,387,310,358,11,10,0,77,0,347,1
-2023/2024,Female,all,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,590,472,530,15,14,0,118,0,515,1
-2023/2024,Female,all,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,630,504,574,18,16,0,126,0,556,2
-2023/2024,Female,all,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,474,380,426,12,11,0,94,0,414,1
-2023/2024,Female,all,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,263,211,245,8,7,0,52,0,237,1
-2023/2024,Female,all,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,214,171,209,304,284,2,43,0,0,20
-2023/2024,Female,all,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,99,79,93,136,128,1,20,0,0,8
-2023/2024,Female,all,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,526,420,492,623,581,3,106,0,0,42
-2023/2024,Female,all,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,233,187,210,267,243,2,46,0,0,24
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,26,21,21,0,0,0,5,0,21,0
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,21,17,18,0,0,0,4,0,18,0
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,22,17,18,0,0,0,5,0,18,0
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,7,5,5,0,0,0,2,0,5,0
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,25,20,20,0,0,0,5,0,20,0
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,12,10,13,0,0,0,2,0,13,0
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,18,14,15,1,0,0,4,0,14,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,22,18,20,1,0,0,4,0,19,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,19,15,15,1,0,0,4,0,14,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,9,7,8,0,0,0,2,0,8,0
-2023/2024,Female,disabled,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,7,5,6,12,11,0,2,0,0,1
-2023/2024,Female,disabled,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,3,3,3,5,4,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,18,15,15,31,28,0,3,0,0,3
-2023/2024,Female,disabled,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,10,8,9,17,16,0,2,0,0,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,41,32,36,0,0,0,9,0,36,0
-2023/2024,Female,disabled,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,37,30,33,0,0,0,7,0,33,0
-2023/2024,Female,disabled,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,41,33,40,0,0,0,8,0,40,0
-2023/2024,Female,disabled,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,16,13,15,0,0,0,3,0,15,0
-2023/2024,Female,disabled,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,49,40,45,0,0,0,9,0,45,0
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,23,19,21,0,0,0,4,0,21,0
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,31,25,29,1,0,0,6,0,28,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,39,31,37,1,0,0,8,0,36,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,26,21,27,1,0,0,5,0,26,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,20,16,19,0,0,0,4,0,19,0
-2023/2024,Female,disabled,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,14,11,13,14,12,0,3,0,0,2
-2023/2024,Female,disabled,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,4,3,4,7,6,0,1,0,0,1
-2023/2024,Female,disabled,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,33,26,30,34,31,0,7,0,0,3
-2023/2024,Female,disabled,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,16,13,15,21,19,0,3,0,0,2
-2023/2024,Female,disabled,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,56,45,54,0,0,0,11,0,54,0
-2023/2024,Female,disabled,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,44,35,41,0,0,0,9,0,41,0
-2023/2024,Female,disabled,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,54,43,49,0,0,0,11,0,49,0
-2023/2024,Female,disabled,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,22,18,21,0,0,0,4,0,21,0
-2023/2024,Female,disabled,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,70,56,63,0,0,0,14,0,63,0
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,31,25,30,1,0,0,6,0,29,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,40,32,36,1,0,0,8,0,35,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,51,41,46,1,0,0,10,0,45,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,32,26,30,1,0,0,6,0,29,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,27,21,27,1,0,0,6,0,26,1
-2023/2024,Female,disabled,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,18,14,18,21,19,0,4,0,0,2
-2023/2024,Female,disabled,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,6,5,6,7,6,0,1,0,0,1
-2023/2024,Female,disabled,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,42,34,42,48,44,0,8,0,0,4
-2023/2024,Female,disabled,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,22,18,20,21,19,0,4,0,0,2
-2023/2024,Male,all,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,294,236,272,2,1,0,58,0,270,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,271,217,257,2,1,0,54,0,255,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,271,217,249,2,1,0,54,0,247,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,92,74,84,1,0,0,18,0,83,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,321,257,295,2,1,0,64,0,293,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,155,124,148,4,3,0,31,0,144,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,221,178,205,5,4,0,43,0,200,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,265,213,244,6,5,0,52,0,238,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,178,142,161,4,3,0,36,0,157,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,104,83,101,3,2,0,21,0,98,1
-2023/2024,Male,all,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,101,81,97,144,131,1,20,0,0,13
-2023/2024,Male,all,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,37,29,37,48,41,1,8,0,0,7
-2023/2024,Male,all,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,222,178,199,241,210,2,44,0,0,31
-2023/2024,Male,all,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,96,76,89,116,99,1,20,0,0,17
-2023/2024,Male,all,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,527,422,475,3,2,0,105,0,472,1
-2023/2024,Male,all,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,506,405,474,3,2,0,101,0,471,1
-2023/2024,Male,all,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,506,405,458,3,2,0,101,0,455,1
-2023/2024,Male,all,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,170,136,155,1,0,0,34,0,154,1
-2023/2024,Male,all,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,598,478,548,3,2,0,120,0,545,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,295,236,275,7,6,0,59,0,268,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,427,342,385,10,9,0,85,0,375,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,483,386,439,11,10,0,97,0,428,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,310,248,292,8,7,0,62,0,284,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,191,152,175,5,4,0,39,0,170,1
-2023/2024,Male,all,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,169,135,165,208,194,1,34,0,0,14
-2023/2024,Male,all,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,73,59,72,90,83,1,14,0,0,7
-2023/2024,Male,all,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,405,323,368,429,397,3,82,0,0,32
-2023/2024,Male,all,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,182,146,162,201,185,1,36,0,0,16
-2023/2024,Male,all,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,725,580,665,5,4,0,145,0,660,1
-2023/2024,Male,all,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,635,507,575,4,3,0,128,0,571,1
-2023/2024,Male,all,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,673,538,612,5,4,0,135,0,607,1
-2023/2024,Male,all,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,244,195,232,2,1,0,49,0,230,1
-2023/2024,Male,all,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,813,651,736,5,4,0,162,0,731,1
-2023/2024,Male,all,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,390,312,345,11,10,0,78,0,334,1
-2023/2024,Male,all,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,606,484,553,16,15,0,122,0,537,1
-2023/2024,Male,all,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,668,534,622,19,17,0,134,0,603,2
-2023/2024,Male,all,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,414,332,380,12,11,0,82,0,368,1
-2023/2024,Male,all,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,251,201,236,8,7,0,50,0,228,1
-2023/2024,Male,all,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,218,174,210,295,284,1,44,0,0,11
-2023/2024,Male,all,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,102,82,101,144,137,1,20,0,0,7
-2023/2024,Male,all,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,541,432,502,632,581,4,109,0,0,51
-2023/2024,Male,all,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,249,199,229,313,288,2,50,0,0,25
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,24,19,21,0,0,0,5,0,21,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,21,16,18,0,0,0,5,0,18,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,23,18,21,0,0,0,5,0,21,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,7,6,7,0,0,0,1,0,7,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,25,20,21,0,0,0,5,0,21,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,12,10,13,0,0,0,2,0,13,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,16,13,13,1,0,0,3,0,12,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,21,17,19,1,0,0,4,0,18,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,16,13,13,1,0,0,3,0,12,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,10,8,11,0,0,0,2,0,11,0
-2023/2024,Male,disabled,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,6,5,6,12,11,0,1,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,3,2,3,5,4,0,1,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,18,14,15,26,25,0,4,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,10,8,8,17,16,0,2,0,0,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,43,34,39,0,0,0,9,0,39,0
-2023/2024,Male,disabled,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,38,30,35,0,0,0,8,0,35,0
-2023/2024,Male,disabled,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,43,34,38,0,0,0,9,0,38,0
-2023/2024,Male,disabled,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,15,12,14,0,0,0,3,0,14,0
-2023/2024,Male,disabled,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,52,42,47,0,0,0,10,0,47,0
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,25,20,24,0,0,0,5,0,24,0
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,30,24,26,1,0,0,6,0,25,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,39,31,37,1,0,0,8,0,36,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,24,19,22,1,0,0,5,0,21,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,18,15,17,0,0,0,3,0,17,0
-2023/2024,Male,disabled,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,15,12,16,14,12,0,3,0,2,2
-2023/2024,Male,disabled,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,4,4,5,7,6,0,0,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,32,26,31,28,25,0,6,0,3,3
-2023/2024,Male,disabled,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,17,13,14,21,19,0,4,0,0,2
-2023/2024,Male,disabled,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,56,45,50,0,0,0,11,0,50,0
-2023/2024,Male,disabled,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,45,36,42,0,0,0,9,0,42,0
-2023/2024,Male,disabled,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,56,44,55,0,0,0,12,0,55,0
-2023/2024,Male,disabled,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,19,15,18,0,0,0,4,0,18,0
-2023/2024,Male,disabled,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,65,52,59,0,0,0,13,0,59,0
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,32,25,29,1,0,0,7,0,28,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,44,35,41,1,0,0,9,0,40,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,50,40,47,1,0,0,10,0,46,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,30,24,30,1,0,0,6,0,29,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,27,22,25,1,0,0,5,0,24,1
-2023/2024,Male,disabled,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,19,15,18,21,19,0,4,0,0,2
-2023/2024,Male,disabled,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,7,5,6,7,6,0,2,0,0,1
-2023/2024,Male,disabled,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,43,34,39,34,31,0,9,0,5,3
-2023/2024,Male,disabled,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,21,16,19,21,19,0,5,0,0,2
-2024/2025,Female,all,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,592,474,332,159,146,0.942812,118,142,173,13
-2024/2025,Female,all,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,565,452,317,151,139,0.899503,113,135,166,12
-2024/2025,Female,all,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,546,437,306,146,134,0.869519,109,131,160,12
-2024/2025,Female,all,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,203,162,114,54,50,0.323155,41,48,60,4
-2024/2025,Female,all,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,697,558,390,187,172,1.109387,139,168,203,15
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,324,260,182,87,80,0.516381,64,78,95,7
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,456,365,256,122,112,0.726265,91,109,134,10
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,555,444,311,149,137,0.882845,111,133,162,12
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,385,308,216,103,95,0.612994,77,92,113,8
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,209,167,117,56,51,0.333149,42,50,61,5
-2024/2025,Female,all,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,174,139,97,47,43,0.276514,35,42,50,4
-2024/2025,Female,all,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,77,62,43,21,19,0.123265,15,19,22,2
-2024/2025,Female,all,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,442,353,247,118,109,0.702945,89,106,129,9
-2024/2025,Female,all,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,218,174,122,58,54,0.346475,44,52,64,4
-2024/2025,Female,all,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,1095,876,613,293,270,1.74237,219,263,320,23
-2024/2025,Female,all,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1021,817,572,274,252,1.625768,204,245,298,22
-2024/2025,Female,all,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,1032,826,578,276,254,1.642425,206,248,302,22
-2024/2025,Female,all,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,394,315,220,105,97,0.62632,79,95,115,8
-2024/2025,Female,all,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,1225,980,686,328,302,1.948923,245,294,358,26
-2024/2025,Female,all,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,613,491,343,164,151,0.976127,122,148,179,13
-2024/2025,Female,all,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,814,651,456,218,201,1.29595,163,195,238,17
-2024/2025,Female,all,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,982,785,550,263,242,1.56247,197,235,287,21
-2024/2025,Female,all,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,659,527,369,177,162,1.04942,132,158,192,15
-2024/2025,Female,all,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,385,308,216,103,95,0.612994,77,92,113,8
-2024/2025,Female,all,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,337,270,189,90,83,0.53637,67,81,99,7
-2024/2025,Female,all,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,130,104,73,35,32,0.206552,26,31,38,3
-2024/2025,Female,all,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,827,661,463,221,204,1.315939,166,198,242,17
-2024/2025,Female,all,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,366,293,205,98,90,0.583011,73,88,107,8
-2024/2025,Female,all,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,1501,1201,840,402,370,2.388679,300,361,438,32
-2024/2025,Female,all,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1363,1090,763,365,336,2.168801,273,327,398,29
-2024/2025,Female,all,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,1350,1080,756,362,333,2.148812,270,324,394,29
-2024/2025,Female,all,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,523,419,293,140,129,0.832873,104,126,153,11
-2024/2025,Female,all,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,1796,1437,1006,482,441,2.85842,359,431,524,41
-2024/2025,Female,all,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,827,661,463,221,204,1.315939,166,198,242,17
-2024/2025,Female,all,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1222,978,685,327,301,1.945591,244,293,358,26
-2024/2025,Female,all,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,1319,1055,739,353,325,2.09884,264,316,386,28
-2024/2025,Female,all,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,975,780,546,261,240,1.552475,195,234,285,21
-2024/2025,Female,all,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,519,415,291,139,128,0.82621,104,124,152,11
-2024/2025,Female,all,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,492,394,275,132,121,0.782901,98,119,143,11
-2024/2025,Female,all,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,165,132,93,44,41,0.263188,33,39,49,3
-2024/2025,Female,all,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,1082,866,606,290,267,1.722381,216,260,316,23
-2024/2025,Female,all,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,479,383,268,128,118,0.762912,96,115,140,10
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,57,45,32,15,14,0.08995,12,13,17,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,48,39,27,13,12,0.076624,9,12,14,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,55,44,31,15,13,0.086619,11,13,16,2
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,17,13,9,5,4,0.026652,4,4,4,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,59,47,33,16,15,0.093282,12,14,17,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,27,22,15,7,7,0.043309,5,7,8,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,42,34,24,11,10,0.06663,8,10,13,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,53,42,29,14,13,0.083287,11,13,15,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,40,32,22,11,10,0.063298,8,10,11,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,21,17,12,6,5,0.033315,4,5,6,1
-2024/2025,Female,disabled,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,17,13,9,5,4,0.026652,4,4,4,1
-2024/2025,Female,disabled,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,8,7,5,2,2,0.013326,1,2,3,0
-2024/2025,Female,disabled,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,40,32,22,11,10,0.063298,8,10,11,1
-2024/2025,Female,disabled,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,23,18,13,6,6,0.036646,5,5,7,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,88,71,49,24,22,0.139923,17,22,25,2
-2024/2025,Female,disabled,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,69,55,39,19,17,0.109939,14,16,20,2
-2024/2025,Female,disabled,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,88,71,49,24,22,0.139923,17,22,25,2
-2024/2025,Female,disabled,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,29,24,16,8,7,0.046641,5,8,8,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,99,79,55,26,24,0.15658,20,24,29,2
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,44,35,25,12,11,0.069961,9,10,13,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,59,47,33,16,14,0.093282,12,14,17,2
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,73,59,41,20,18,0.116602,14,18,21,2
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,50,40,28,14,12,0.079956,10,12,14,2
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,38,30,21,10,9,0.059967,8,9,11,1
-2024/2025,Female,disabled,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,29,24,17,8,7,0.046641,5,7,9,1
-2024/2025,Female,disabled,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,8,7,5,2,2,0.013326,1,2,3,0
-2024/2025,Female,disabled,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,59,47,33,16,14,0.093282,12,14,17,2
-2024/2025,Female,disabled,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,32,25,18,8,8,0.049972,7,7,10,0
-2024/2025,Female,disabled,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,113,91,64,30,28,0.179901,22,27,34,2
-2024/2025,Female,disabled,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,94,76,53,25,23,0.149917,18,23,28,2
-2024/2025,Female,disabled,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,111,89,62,30,27,0.176569,22,27,32,3
-2024/2025,Female,disabled,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,44,35,25,12,11,0.069961,9,10,13,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,139,111,78,37,34,0.219878,28,33,41,3
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,61,49,34,16,15,0.096613,12,15,18,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,84,67,47,22,21,0.13326,17,20,25,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,101,81,56,27,25,0.159912,20,25,29,2
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,63,50,35,17,16,0.099945,13,15,18,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,53,42,29,14,13,0.083287,11,13,15,1
-2024/2025,Female,disabled,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,40,32,22,11,10,0.063298,8,10,11,1
-2024/2025,Female,disabled,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,13,10,7,3,3,0.019989,3,3,4,0
-2024/2025,Female,disabled,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,84,67,47,22,21,0.13326,17,20,25,1
-2024/2025,Female,disabled,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,42,34,24,11,10,0.06663,8,10,13,1
-2024/2025,Male,all,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,574,459,321,154,141,0.912829,115,138,167,13
-2024/2025,Male,all,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,563,450,315,151,139,0.896171,113,135,164,12
-2024/2025,Male,all,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,559,447,313,150,138,0.889508,112,134,163,12
-2024/2025,Male,all,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,182,146,102,49,45,0.28984,36,44,53,4
-2024/2025,Male,all,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,691,553,387,185,170,1.099392,138,166,202,15
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,308,246,172,82,76,0.489729,62,74,90,6
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,437,350,245,117,108,0.696282,87,105,128,9
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,540,432,302,145,133,0.859525,108,130,157,12
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,364,291,204,98,90,0.57968,73,87,106,8
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,211,169,118,57,52,0.336481,42,51,61,5
-2024/2025,Male,all,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,167,134,94,45,41,0.266519,33,40,49,4
-2024/2025,Male,all,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,84,67,47,22,21,0.13326,17,20,25,1
-2024/2025,Male,all,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,448,358,251,120,110,0.712939,90,107,131,10
-2024/2025,Male,all,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,224,179,125,60,55,0.35647,45,54,65,5
-2024/2025,Male,all,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,1145,916,641,307,282,1.822326,229,275,334,25
-2024/2025,Male,all,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1001,800,560,268,246,1.592453,201,240,292,22
-2024/2025,Male,all,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,1120,896,627,300,276,1.782348,224,269,327,24
-2024/2025,Male,all,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,337,270,189,90,83,0.53637,67,81,99,7
-2024/2025,Male,all,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,1296,1037,726,347,319,2.062193,259,311,379,28
-2024/2025,Male,all,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,599,479,335,160,147,0.952807,120,144,175,13
-2024/2025,Male,all,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,846,677,474,226,208,1.345923,169,203,248,18
-2024/2025,Male,all,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,967,774,542,259,238,1.539149,193,232,283,21
-2024/2025,Male,all,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,620,496,347,166,153,0.986121,124,149,181,13
-2024/2025,Male,all,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,387,310,217,104,95,0.616326,77,93,113,9
-2024/2025,Male,all,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,352,281,197,94,87,0.559691,71,84,103,7
-2024/2025,Male,all,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,138,111,77,37,34,0.219878,27,34,40,3
-2024/2025,Male,all,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,844,675,472,226,208,1.342591,169,203,246,18
-2024/2025,Male,all,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,385,308,216,103,95,0.612994,77,92,113,8
-2024/2025,Male,all,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,1513,1211,848,405,373,2.408668,302,363,443,32
-2024/2025,Male,all,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1302,1042,729,349,321,2.072188,260,313,380,28
-2024/2025,Male,all,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,1400,1120,784,375,345,2.228768,280,336,409,30
-2024/2025,Male,all,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,450,360,252,120,111,0.716271,90,108,132,9
-2024/2025,Male,all,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,1729,1383,968,464,425,2.751812,346,415,504,39
-2024/2025,Male,all,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,858,687,481,230,211,1.365912,171,206,251,19
-2024/2025,Male,all,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1202,961,673,322,296,1.912276,241,288,351,26
-2024/2025,Male,all,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,1304,1043,730,349,321,2.075519,261,313,381,28
-2024/2025,Male,all,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,881,705,494,236,217,1.402558,176,211,258,19
-2024/2025,Male,all,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,511,409,286,137,126,0.812884,102,123,149,11
-2024/2025,Male,all,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,488,390,273,131,120,0.776238,98,117,142,11
-2024/2025,Male,all,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,184,147,103,49,45,0.293171,37,44,54,4
-2024/2025,Male,all,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,1105,884,619,296,272,1.759028,221,265,323,24
-2024/2025,Male,all,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,515,412,288,138,127,0.819547,103,124,150,11
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,53,42,29,14,13,0.083287,11,13,15,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,48,39,27,13,12,0.076624,9,12,14,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,52,42,29,14,13,0.083287,10,13,15,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,15,12,8,4,4,0.02332,3,4,4,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,61,49,34,16,15,0.096613,12,15,18,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,25,20,14,7,6,0.039978,5,6,7,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,38,30,21,10,9,0.059967,8,9,11,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,48,39,27,13,12,0.076624,9,12,14,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,38,30,21,10,9,0.059967,8,9,11,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,21,17,12,6,5,0.033315,4,5,6,1
-2024/2025,Male,disabled,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,15,12,8,4,4,0.02332,3,4,4,0
-2024/2025,Male,disabled,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,6,5,4,2,2,0.009994,1,1,2,0
-2024/2025,Male,disabled,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,38,30,21,10,9,0.059967,8,9,11,1
-2024/2025,Male,disabled,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,23,18,13,6,6,0.036646,5,5,7,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,86,69,48,23,21,0.136591,17,21,25,2
-2024/2025,Male,disabled,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,71,57,40,19,18,0.113271,14,17,21,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,92,74,52,25,23,0.146586,18,22,27,2
-2024/2025,Male,disabled,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,32,25,18,8,8,0.049972,7,7,10,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,103,82,58,28,25,0.163243,21,24,30,3
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,46,37,26,12,11,0.073293,9,11,14,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,57,45,32,15,14,0.08995,12,13,17,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,78,62,44,21,19,0.123265,16,18,23,2
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,46,37,26,12,11,0.073293,9,11,14,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,44,35,25,12,11,0.069961,9,10,13,1
-2024/2025,Male,disabled,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,27,22,15,7,7,0.043309,5,7,8,0
-2024/2025,Male,disabled,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,11,8,6,3,3,0.016657,3,2,3,0
-2024/2025,Male,disabled,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,65,52,36,17,16,0.103276,13,16,19,1
-2024/2025,Male,disabled,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,34,27,19,9,8,0.053304,7,8,10,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,118,94,66,31,29,0.186564,24,28,35,2
-2024/2025,Male,disabled,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,92,74,52,25,23,0.146586,18,22,27,2
-2024/2025,Male,disabled,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,115,92,65,31,28,0.183232,23,27,34,3
-2024/2025,Male,disabled,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,40,32,22,11,10,0.063298,8,10,11,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,130,104,73,35,32,0.206552,26,31,38,3
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,65,52,36,17,16,0.103276,13,16,19,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,84,67,47,22,21,0.13326,17,20,25,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,103,82,58,28,25,0.163243,21,24,30,3
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,61,49,34,16,15,0.096613,12,15,18,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,52,42,29,14,13,0.083287,10,13,15,1
-2024/2025,Male,disabled,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,38,30,21,10,9,0.059967,8,9,11,1
-2024/2025,Male,disabled,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,15,12,8,4,4,0.02332,3,4,4,0
-2024/2025,Male,disabled,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,80,64,45,21,20,0.126597,16,19,24,1
-2024/2025,Male,disabled,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,44,35,25,12,11,0.069961,9,10,13,1
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,70,181,202,1,1,0,56,0,261,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,61,156,171,1,1,0,49,0,221,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,64,166,182,1,1,0,51,0,235,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,25,64,71,1,0,0,20,0,91,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,78,201,211,1,1,0,61,0,273,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,36,94,103,3,3,0,29,0,129,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,54,139,146,5,5,0,42,0,183,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,64,164,176,6,5,0,51,0,220,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,45,114,123,5,4,0,36,0,154,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,26,65,74,3,2,0,21,0,92,1
+2022/2023,Female,ALL,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,22,56,63,106,98,9,17,0,0,12
+2022/2023,Female,ALL,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,8,21,23,42,33,9,7,0,0,13
+2022/2023,Female,ALL,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,49,127,140,230,206,28,40,0,0,35
+2022/2023,Female,ALL,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,23,60,65,121,109,9,18,0,0,18
+2022/2023,Female,ALL,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,129,332,350,2,1,0,103,0,454,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,118,304,333,2,1,0,95,0,431,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,115,297,324,2,1,0,91,0,419,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,42,109,121,1,0,0,34,0,157,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,155,398,429,3,2,0,124,0,555,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,64,165,183,6,5,0,51,0,230,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,97,249,273,9,8,0,77,0,343,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,109,281,302,10,10,0,87,0,379,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,83,214,238,8,7,0,67,0,298,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,46,118,131,5,4,0,37,0,164,1
+2022/2023,Female,ALL,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,37,95,105,173,166,9,29,0,0,10
+2022/2023,Female,ALL,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,15,39,44,70,68,0,12,0,0,3
+2022/2023,Female,ALL,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,93,240,268,427,408,18,73,0,0,27
+2022/2023,Female,ALL,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,45,114,123,210,193,18,36,0,0,25
+2022/2023,Female,ALL,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,170,437,477,3,3,0,136,0,617,1
+2022/2023,Female,ALL,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,154,397,431,3,3,0,123,0,557,1
+2022/2023,Female,ALL,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,151,389,432,3,3,0,121,0,559,1
+2022/2023,Female,ALL,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,61,156,171,1,1,0,48,0,221,1
+2022/2023,Female,ALL,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,200,517,563,4,3,0,160,0,728,1
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,88,227,249,10,9,0,71,0,311,1
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,136,350,374,14,13,0,110,0,467,2
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,147,378,413,15,14,0,117,0,516,2
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,104,269,302,12,11,0,83,0,377,1
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,65,166,189,7,7,0,52,0,235,1
+2022/2023,Female,ALL,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,55,140,164,341,316,28,44,0,0,38
+2022/2023,Female,ALL,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,19,48,57,124,114,9,15,0,0,14
+2022/2023,Female,ALL,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,124,321,348,642,598,46,99,0,0,64
+2022/2023,Female,ALL,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,58,150,166,326,302,28,46,0,0,35
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,7,16,18,0,0,0,6,0,24,0
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,6,15,15,0,0,0,4,0,20,0
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,6,15,16,0,0,0,4,0,21,0
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,2,5,5,0,0,0,2,0,7,0
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,7,18,18,0,0,0,5,0,24,0
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,3,7,8,1,0,0,3,0,10,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,5,12,13,1,0,0,3,0,16,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,6,15,15,1,0,0,4,0,18,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,5,12,12,1,0,0,3,0,15,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,3,6,8,0,0,0,2,0,10,0
+2022/2023,Female,Disabled,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,2,5,5,16,13,0,1,0,0,5
+2022/2023,Female,Disabled,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1,2,2,8,7,0,0,0,0,2
+2022/2023,Female,Disabled,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,5,12,13,41,33,9,3,0,0,11
+2022/2023,Female,Disabled,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,3,7,8,25,20,9,2,0,0,7
+2022/2023,Female,Disabled,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,11,27,28,0,0,0,8,0,37,0
+2022/2023,Female,Disabled,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,8,21,25,0,0,0,6,0,32,0
+2022/2023,Female,Disabled,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,10,24,28,0,0,0,8,0,36,0
+2022/2023,Female,Disabled,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,4,10,10,0,0,0,3,0,13,0
+2022/2023,Female,Disabled,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,12,31,32,0,0,0,9,0,42,0
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,5,13,14,1,0,0,4,0,17,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,7,19,20,1,0,0,6,0,25,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,9,23,23,1,0,0,7,0,29,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,6,15,16,1,0,0,5,0,20,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,5,13,14,1,0,0,3,0,17,1
+2022/2023,Female,Disabled,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,3,8,10,14,13,0,2,0,0,2
+2022/2023,Female,Disabled,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1,2,2,6,5,0,0,0,0,2
+2022/2023,Female,Disabled,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,8,19,21,31,30,0,6,0,0,1
+2022/2023,Female,Disabled,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,4,10,12,18,18,0,3,0,0,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,13,34,38,0,0,0,10,0,49,0
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,11,28,31,0,0,0,8,0,41,0
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,12,31,35,0,0,0,10,0,46,0
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,5,13,13,0,0,0,3,0,17,0
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,15,39,43,0,0,0,11,0,56,0
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,7,18,20,1,0,0,6,0,25,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,10,25,28,1,0,0,8,0,35,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,12,31,31,1,0,0,10,0,40,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,7,17,20,1,0,0,6,0,25,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,7,16,18,1,0,0,6,0,22,1
+2022/2023,Female,Disabled,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,4,10,12,20,16,0,3,0,0,6
+2022/2023,Female,Disabled,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1,3,4,6,5,0,1,0,0,1
+2022/2023,Female,Disabled,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,10,25,28,31,30,0,7,0,0,1
+2022/2023,Female,Disabled,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,5,13,13,18,18,0,3,0,0,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,69,177,194,1,1,0,55,0,251,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,59,152,171,1,1,0,48,0,221,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,66,171,189,1,1,0,53,0,244,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,23,59,67,1,0,0,18,0,86,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,76,197,210,1,1,0,60,0,272,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,38,98,107,3,3,0,30,0,134,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,56,143,159,5,5,0,44,0,199,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,62,160,181,6,5,0,50,0,227,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,41,104,112,4,3,0,33,0,140,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,23,59,64,2,1,0,18,0,81,1
+2022/2023,Male,ALL,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,22,56,67,121,109,9,17,0,0,18
+2022/2023,Male,ALL,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,9,22,25,52,44,9,7,0,0,12
+2022/2023,Male,ALL,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,48,125,136,223,196,28,38,0,0,40
+2022/2023,Male,ALL,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,24,61,66,114,98,18,19,0,0,23
+2022/2023,Male,ALL,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,130,335,361,2,1,0,104,0,468,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,117,301,337,2,1,0,94,0,436,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,116,299,334,2,1,0,93,0,433,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,40,103,116,1,0,0,31,0,150,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,154,397,415,3,2,0,124,0,537,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,70,181,195,7,6,0,55,0,244,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,101,261,284,9,8,0,80,0,358,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,113,290,328,11,10,0,90,0,412,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,76,195,210,8,7,0,61,0,262,2
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,41,106,118,4,3,0,33,0,148,1
+2022/2023,Male,ALL,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,39,100,114,191,174,18,31,0,0,26
+2022/2023,Male,ALL,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,19,48,54,95,87,9,15,0,0,12
+2022/2023,Male,ALL,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,97,252,274,452,419,37,77,0,0,49
+2022/2023,Male,ALL,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,45,115,129,217,193,28,35,0,0,36
+2022/2023,Male,ALL,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,170,438,469,3,3,0,136,0,607,1
+2022/2023,Male,ALL,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,151,388,424,3,3,0,121,0,548,1
+2022/2023,Male,ALL,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,159,410,446,3,3,0,127,0,577,1
+2022/2023,Male,ALL,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,51,131,142,1,0,0,41,0,184,1
+2022/2023,Male,ALL,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,196,505,545,4,3,0,158,0,705,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,88,227,248,10,10,0,70,0,308,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,132,339,370,14,13,0,105,0,462,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,142,367,406,16,14,0,114,0,506,2
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,102,262,287,12,11,0,81,0,357,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,64,164,178,7,6,0,52,0,222,1
+2022/2023,Male,ALL,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,55,141,156,305,286,18,43,0,0,29
+2022/2023,Male,ALL,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,23,59,63,127,117,9,18,0,0,14
+2022/2023,Male,ALL,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,129,332,363,686,637,55,102,0,0,72
+2022/2023,Male,ALL,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,59,151,163,269,242,28,47,0,0,40
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,6,15,17,0,0,0,5,0,22,0
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,5,14,15,0,0,0,4,0,19,0
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,6,15,15,0,0,0,5,0,20,0
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,2,5,5,0,0,0,1,0,7,0
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,7,17,18,0,0,0,5,0,23,0
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,3,7,8,0,0,0,3,0,11,0
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,4,11,12,1,0,0,3,0,15,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,5,14,15,1,0,0,4,0,18,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,4,10,12,1,0,0,4,0,14,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,2,6,6,0,0,0,2,0,8,0
+2022/2023,Male,Disabled,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,2,5,5,14,12,0,1,0,0,4
+2022/2023,Male,Disabled,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1,2,2,8,7,0,1,0,0,2
+2022/2023,Male,Disabled,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,4,10,12,33,27,9,4,0,0,9
+2022/2023,Male,Disabled,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,3,6,7,16,13,0,2,0,0,5
+2022/2023,Male,Disabled,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,10,27,29,0,0,0,8,0,38,0
+2022/2023,Male,Disabled,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,9,22,24,0,0,0,7,0,31,0
+2022/2023,Male,Disabled,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,10,25,28,0,0,0,8,0,37,0
+2022/2023,Male,Disabled,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,3,9,9,0,0,0,2,0,12,0
+2022/2023,Male,Disabled,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,12,31,34,0,0,0,10,0,44,0
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,5,14,15,1,0,0,4,0,19,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,7,18,18,1,0,0,6,0,23,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,9,24,28,1,0,0,7,0,36,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,6,16,15,1,0,0,5,0,19,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,4,10,12,0,0,0,4,0,16,0
+2022/2023,Male,Disabled,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,3,8,10,12,12,0,3,0,0,1
+2022/2023,Male,Disabled,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,2,4,4,8,7,0,1,0,0,2
+2022/2023,Male,Disabled,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,8,19,21,31,30,0,6,0,0,1
+2022/2023,Male,Disabled,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,4,10,12,18,18,0,3,0,0,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,13,34,37,0,0,0,11,0,48,0
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,11,27,30,0,0,0,9,0,39,0
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,13,33,37,0,0,0,11,0,48,0
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,5,12,13,0,0,0,3,0,17,0
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,15,38,40,0,0,0,12,0,52,0
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,7,18,20,1,0,0,5,0,25,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,9,24,25,1,0,0,7,0,32,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,12,31,34,1,1,0,9,0,42,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,7,17,19,1,0,0,6,0,24,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,6,16,18,1,0,0,5,0,23,1
+2022/2023,Male,Disabled,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,4,11,13,22,18,0,3,0,0,6
+2022/2023,Male,Disabled,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1,3,4,6,5,0,1,0,0,2
+2022/2023,Male,Disabled,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,10,24,26,31,30,0,8,0,0,1
+2022/2023,Male,Disabled,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,6,15,16,18,18,0,4,0,0,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,74,189,204,1,1,0,59,0,264,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,70,181,199,1,1,0,56,0,258,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,64,164,181,1,1,0,51,0,234,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,26,68,75,1,0,0,21,0,97,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,80,208,220,1,1,0,63,0,285,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,38,98,109,3,2,0,30,0,138,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,59,152,168,4,3,0,47,0,213,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,65,167,188,5,4,0,52,0,238,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,46,119,133,3,3,0,37,0,168,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,28,73,84,2,1,0,22,0,106,1
+2023/2024,Female,ALL,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,24,63,71,85,75,9,19,0,0,15
+2023/2024,Female,ALL,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,10,24,28,33,28,9,8,0,0,7
+2023/2024,Female,ALL,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,55,143,158,164,151,18,44,0,0,20
+2023/2024,Female,ALL,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,24,60,65,73,60,18,19,0,0,19
+2023/2024,Female,ALL,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,131,338,363,2,1,0,104,0,471,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,127,328,354,2,1,0,102,0,459,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,120,310,344,2,1,0,96,0,446,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,45,114,127,1,0,0,36,0,164,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,158,408,432,2,1,0,126,0,561,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,69,178,194,5,4,0,56,0,246,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,104,268,294,7,6,0,83,0,373,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,123,316,347,7,7,0,99,0,442,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,87,222,243,6,5,0,70,0,308,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,49,126,141,3,3,0,39,0,179,1
+2023/2024,Female,ALL,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,41,106,123,137,126,9,33,0,0,16
+2023/2024,Female,ALL,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,16,41,47,50,50,0,13,0,0,1
+2023/2024,Female,ALL,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,105,269,297,303,278,28,84,0,0,36
+2023/2024,Female,ALL,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,43,112,123,125,117,9,34,0,0,13
+2023/2024,Female,ALL,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,175,451,500,3,2,0,141,0,648,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,164,423,463,3,2,0,132,0,600,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,159,410,451,3,2,0,127,0,584,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,66,171,185,1,1,0,53,0,239,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,215,553,592,3,3,0,172,0,767,1
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,97,250,274,7,7,0,77,0,347,1
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,148,381,406,10,10,0,118,0,515,1
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,158,406,440,12,11,0,126,0,556,2
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,119,306,327,8,7,0,94,0,414,1
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,66,170,188,5,5,0,52,0,237,1
+2023/2024,Female,ALL,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,54,138,160,207,194,18,43,0,0,20
+2023/2024,Female,ALL,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,25,64,71,93,87,9,20,0,0,8
+2023/2024,Female,ALL,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,132,339,377,425,396,28,106,0,0,42
+2023/2024,Female,ALL,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,58,151,161,182,166,18,46,0,0,24
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,7,17,16,0,0,0,5,0,21,0
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,5,14,14,0,0,0,4,0,18,0
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,6,14,14,0,0,0,5,0,18,0
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,2,4,4,0,0,0,2,0,5,0
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,6,16,15,0,0,0,5,0,20,0
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,3,8,10,0,0,0,2,0,13,0
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,5,11,12,1,0,0,4,0,14,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,6,15,15,1,0,0,4,0,19,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,5,12,12,1,0,0,4,0,14,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,2,6,6,0,0,0,2,0,8,0
+2023/2024,Female,Disabled,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,2,4,5,8,7,0,2,0,0,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1,2,2,3,3,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,5,12,12,21,19,0,3,0,0,3
+2023/2024,Female,Disabled,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,3,6,7,12,11,0,2,0,0,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,10,26,28,0,0,0,9,0,36,0
+2023/2024,Female,Disabled,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,9,24,25,0,0,0,7,0,33,0
+2023/2024,Female,Disabled,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,10,27,31,0,0,0,8,0,40,0
+2023/2024,Female,Disabled,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,4,10,12,0,0,0,3,0,15,0
+2023/2024,Female,Disabled,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,12,32,35,0,0,0,9,0,45,0
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,6,15,16,0,0,0,4,0,21,0
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,8,20,22,1,0,0,6,0,28,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,10,25,28,1,0,0,8,0,36,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,7,17,21,1,0,0,5,0,26,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,5,13,15,0,0,0,4,0,19,0
+2023/2024,Female,Disabled,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,4,9,10,10,8,0,3,0,0,2
+2023/2024,Female,Disabled,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1,2,3,5,4,0,1,0,0,1
+2023/2024,Female,Disabled,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,8,21,23,23,21,0,7,0,0,3
+2023/2024,Female,Disabled,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,4,10,12,14,13,0,3,0,0,2
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,14,36,41,0,0,0,11,0,54,0
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,11,28,31,0,0,0,9,0,41,0
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,14,35,38,0,0,0,11,0,49,0
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,6,15,16,0,0,0,4,0,21,0
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,18,45,48,0,0,0,14,0,63,0
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,8,20,23,1,0,0,6,0,29,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,10,26,28,1,0,0,8,0,35,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,13,33,35,1,0,0,10,0,45,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,8,21,23,1,0,0,6,0,29,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,7,17,21,1,0,0,6,0,26,1
+2023/2024,Female,Disabled,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,5,11,14,14,13,0,4,0,0,2
+2023/2024,Female,Disabled,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,2,4,5,5,4,0,1,0,0,1
+2023/2024,Female,Disabled,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,11,27,32,33,30,0,8,0,0,4
+2023/2024,Female,Disabled,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,6,15,15,14,13,0,4,0,0,2
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,74,190,209,1,1,0,58,0,270,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,68,175,197,1,1,0,54,0,255,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,68,175,191,1,1,0,54,0,247,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,23,60,64,1,0,0,18,0,83,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,80,207,226,1,1,0,64,0,293,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,39,100,113,3,2,0,31,0,144,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,55,143,157,3,3,0,43,0,200,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,66,172,187,4,3,0,52,0,238,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,45,114,123,3,2,0,36,0,157,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,26,67,77,2,1,0,21,0,98,1
+2023/2024,Male,ALL,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,25,65,74,98,89,9,20,0,0,13
+2023/2024,Male,ALL,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,9,23,28,33,28,9,8,0,0,7
+2023/2024,Male,ALL,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,56,143,153,164,143,18,44,0,0,31
+2023/2024,Male,ALL,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,24,61,68,79,67,9,20,0,0,17
+2023/2024,Male,ALL,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,132,340,364,2,1,0,105,0,472,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,127,326,363,2,1,0,101,0,471,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,127,326,351,2,1,0,101,0,455,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,43,110,119,1,0,0,34,0,154,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,150,385,420,2,1,0,120,0,545,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,74,190,211,5,4,0,59,0,268,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,107,276,295,7,6,0,85,0,375,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,121,311,337,7,7,0,97,0,428,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,78,200,224,5,5,0,62,0,284,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,48,123,134,3,3,0,39,0,170,1
+2023/2024,Male,ALL,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,42,109,127,142,132,9,34,0,0,14
+2023/2024,Male,ALL,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,18,48,55,61,57,9,14,0,0,7
+2023/2024,Male,ALL,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,101,260,282,292,271,28,82,0,0,32
+2023/2024,Male,ALL,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,46,118,124,137,126,9,36,0,0,16
+2023/2024,Male,ALL,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,181,468,510,3,3,0,145,0,660,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,159,409,441,3,2,0,128,0,571,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,168,434,469,3,3,0,135,0,607,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,61,157,178,1,1,0,49,0,230,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,203,525,564,3,3,0,162,0,731,1
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,98,252,265,7,7,0,78,0,334,1
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,152,390,424,11,10,0,122,0,537,1
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,167,430,477,13,12,0,134,0,603,2
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,104,268,291,8,7,0,82,0,368,1
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,63,162,181,5,5,0,50,0,228,1
+2023/2024,Male,ALL,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,55,140,161,201,194,9,44,0,0,11
+2023/2024,Male,ALL,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,26,66,77,98,93,9,20,0,0,7
+2023/2024,Male,ALL,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,135,348,385,431,396,37,109,0,0,51
+2023/2024,Male,ALL,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,62,160,176,213,196,18,50,0,0,25
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,6,15,16,0,0,0,5,0,21,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,5,13,14,0,0,0,5,0,18,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,6,15,16,0,0,0,5,0,21,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,2,5,5,0,0,0,1,0,7,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,6,16,16,0,0,0,5,0,21,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,3,8,10,0,0,0,2,0,13,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,4,10,10,1,0,0,3,0,12,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,5,14,15,1,0,0,4,0,18,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,4,10,10,1,0,0,3,0,12,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,3,6,8,0,0,0,2,0,11,0
+2023/2024,Male,Disabled,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,2,4,5,8,7,0,1,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1,2,2,3,3,0,1,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,5,11,12,18,17,0,4,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,3,6,6,12,11,0,2,0,0,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,11,27,30,0,0,0,9,0,39,0
+2023/2024,Male,Disabled,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,10,24,27,0,0,0,8,0,35,0
+2023/2024,Male,Disabled,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,11,27,29,0,0,0,9,0,38,0
+2023/2024,Male,Disabled,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,4,10,11,0,0,0,3,0,14,0
+2023/2024,Male,Disabled,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,13,34,36,0,0,0,10,0,47,0
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,6,16,18,0,0,0,5,0,24,0
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,8,19,20,1,0,0,6,0,25,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,10,25,28,1,0,0,8,0,36,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,6,15,17,1,0,0,5,0,21,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,5,12,13,0,0,0,3,0,17,0
+2023/2024,Male,Disabled,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,4,10,12,10,8,0,3,0,2,2
+2023/2024,Male,Disabled,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,1,3,4,5,4,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,8,21,24,19,17,0,6,0,3,3
+2023/2024,Male,Disabled,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,4,10,11,14,13,0,4,0,0,2
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,14,36,38,0,0,0,11,0,50,0
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,11,29,32,0,0,0,9,0,42,0
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,14,35,42,0,0,0,12,0,55,0
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,5,12,14,0,0,0,4,0,18,0
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,16,42,45,0,0,0,13,0,59,0
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,8,20,22,1,0,0,7,0,28,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,11,28,31,1,0,0,9,0,40,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,13,32,36,1,0,0,10,0,46,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,8,19,23,1,0,0,6,0,29,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,7,18,19,1,0,0,5,0,24,1
+2023/2024,Male,Disabled,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,5,12,14,14,13,0,4,0,0,2
+2023/2024,Male,Disabled,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,2,4,5,5,4,0,2,0,0,1
+2023/2024,Male,Disabled,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,11,27,30,23,21,0,9,0,5,3
+2023/2024,Male,Disabled,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,5,13,15,14,13,0,5,0,0,2
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,148,382,255,108,100,9,118,142,173,13
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,141,364,243,103,95,8,113,135,166,12
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,137,352,235,99,91,8,109,131,160,12
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,51,131,87,37,34,3,41,48,60,4
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,174,450,299,127,117,10,139,168,203,15
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,81,210,140,59,55,5,64,78,95,7
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,114,294,196,83,76,7,91,109,134,10
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,139,358,238,102,93,8,111,133,162,12
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,96,248,166,70,65,6,77,92,113,8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,52,135,90,38,35,3,42,50,61,5
+2024/2025,Female,ALL,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,44,112,74,32,29,3,35,42,50,4
+2024/2025,Female,ALL,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,19,50,33,14,13,1,15,19,22,2
+2024/2025,Female,ALL,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,111,285,189,80,74,6,89,106,129,9
+2024/2025,Female,ALL,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,55,140,94,40,37,3,44,52,64,4
+2024/2025,Female,ALL,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,274,706,470,200,184,16,219,263,320,23
+2024/2025,Female,ALL,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,255,659,439,187,172,15,204,245,298,22
+2024/2025,Female,ALL,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,258,666,443,188,173,15,206,248,302,22
+2024/2025,Female,ALL,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,99,254,169,72,66,6,79,95,115,8
+2024/2025,Female,ALL,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,306,790,526,224,206,18,245,294,358,26
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,153,396,263,112,103,9,122,148,179,13
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,204,525,350,149,137,12,163,195,238,17
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,246,633,422,179,165,14,197,235,287,21
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,165,425,283,121,110,10,132,158,192,15
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,96,248,166,70,65,6,77,92,113,8
+2024/2025,Female,ALL,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,84,218,145,61,57,5,67,81,99,7
+2024/2025,Female,ALL,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,33,84,56,24,22,2,26,31,38,3
+2024/2025,Female,ALL,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,207,533,355,151,139,12,166,198,242,17
+2024/2025,Female,ALL,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,92,236,157,67,61,5,73,88,107,8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,376,968,644,274,252,22,300,361,438,32
+2024/2025,Female,ALL,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,341,879,585,249,229,20,273,327,398,29
+2024/2025,Female,ALL,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,338,871,580,247,227,20,270,324,394,29
+2024/2025,Female,ALL,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,131,338,225,95,88,8,104,126,153,11
+2024/2025,Female,ALL,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,449,1158,771,328,301,26,359,431,524,41
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,207,533,355,151,139,12,166,198,242,17
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,306,788,525,223,205,18,244,293,358,26
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,330,850,567,241,221,19,264,316,386,28
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,244,629,419,178,164,14,195,234,285,21
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,130,335,223,95,87,8,104,124,152,11
+2024/2025,Female,ALL,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,123,318,211,90,82,7,98,119,143,11
+2024/2025,Female,ALL,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,41,106,71,30,28,2,33,39,49,3
+2024/2025,Female,ALL,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,271,698,465,198,182,16,216,260,316,23
+2024/2025,Female,ALL,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,120,309,205,87,80,7,96,115,140,10
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,14,36,25,10,10,1,12,13,17,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,12,31,21,9,8,1,9,12,14,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,14,35,24,10,9,1,11,13,16,2
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,4,10,7,3,3,0,4,4,4,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,15,38,25,11,10,1,12,14,17,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,7,18,12,5,5,0,5,7,8,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,11,27,18,7,7,1,8,10,13,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,13,34,22,10,9,1,11,13,15,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,10,26,17,7,7,1,8,10,11,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,5,14,9,4,3,0,4,5,6,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,4,10,7,3,3,0,4,4,4,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,2,6,4,1,1,0,1,2,3,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,10,26,17,7,7,1,8,10,11,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,6,15,10,4,4,0,5,5,7,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,22,57,38,16,15,1,17,22,25,2
+2024/2025,Female,Disabled,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,17,44,30,13,12,1,14,16,20,2
+2024/2025,Female,Disabled,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,22,57,38,16,15,1,17,22,25,2
+2024/2025,Female,Disabled,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,7,19,12,5,5,0,5,8,8,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,25,64,42,18,16,1,20,24,29,2
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,11,28,19,8,7,1,9,10,13,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,15,38,25,11,10,1,12,14,17,2
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,18,48,31,14,12,1,14,18,21,2
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,13,32,21,10,8,1,10,12,14,2
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,10,24,16,7,6,1,8,9,11,1
+2024/2025,Female,Disabled,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,7,19,13,5,5,0,5,7,9,1
+2024/2025,Female,Disabled,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,2,6,4,1,1,0,1,2,3,0
+2024/2025,Female,Disabled,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,15,38,25,11,10,1,12,14,17,2
+2024/2025,Female,Disabled,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,8,20,14,5,5,0,7,7,10,0
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,28,73,49,20,19,2,22,27,34,2
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,24,61,41,17,16,1,18,23,28,2
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,28,72,48,20,18,2,22,27,32,3
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,11,28,19,8,7,1,9,10,13,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,35,89,60,25,23,2,28,33,41,3
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,15,40,26,11,10,1,12,15,18,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,21,54,36,15,14,1,17,20,25,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,25,65,43,18,17,1,20,25,29,2
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,16,40,27,12,11,1,13,15,18,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,13,34,22,10,9,1,11,13,15,1
+2024/2025,Female,Disabled,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,10,26,17,7,7,1,8,10,11,1
+2024/2025,Female,Disabled,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,3,8,5,2,2,0,3,3,4,0
+2024/2025,Female,Disabled,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,21,54,36,15,14,1,17,20,25,1
+2024/2025,Female,Disabled,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,11,27,18,7,7,1,8,10,13,1
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,144,370,246,105,96,8,115,138,167,13
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,141,363,242,103,95,8,113,135,164,12
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,140,360,240,102,94,8,112,134,163,12
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,46,118,78,33,31,3,36,44,53,4
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,173,446,297,126,116,10,138,166,202,15
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,77,198,132,56,52,5,62,74,90,6
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,109,282,188,80,74,6,87,105,128,9
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,135,348,232,99,91,8,108,130,157,12
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,91,235,156,67,61,5,73,87,106,8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,53,136,90,39,35,3,42,51,61,5
+2024/2025,Male,ALL,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,42,108,72,31,28,2,33,40,49,4
+2024/2025,Male,ALL,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,21,54,36,15,14,1,17,20,25,1
+2024/2025,Male,ALL,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,112,289,192,82,75,7,90,107,131,10
+2024/2025,Male,ALL,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,56,144,96,41,37,3,45,54,65,5
+2024/2025,Male,ALL,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,286,738,491,209,192,17,229,275,334,25
+2024/2025,Male,ALL,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,250,645,429,183,168,15,201,240,292,22
+2024/2025,Male,ALL,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,280,722,481,204,188,16,224,269,327,24
+2024/2025,Male,ALL,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,84,218,145,61,57,5,67,81,99,7
+2024/2025,Male,ALL,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,324,836,557,236,217,19,259,311,379,28
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,150,386,257,109,100,9,120,144,175,13
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,212,546,363,154,142,12,169,203,248,18
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,242,624,416,176,162,14,193,232,283,21
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,155,400,266,113,104,9,124,149,181,13
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,97,250,166,71,65,6,77,93,113,9
+2024/2025,Male,ALL,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,88,227,151,64,59,5,71,84,103,7
+2024/2025,Male,ALL,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,35,89,59,25,23,2,27,34,40,3
+2024/2025,Male,ALL,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,211,544,362,154,142,12,169,203,246,18
+2024/2025,Male,ALL,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,96,248,166,70,65,6,77,92,113,8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,379,976,650,276,254,22,302,363,443,32
+2024/2025,Male,ALL,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,326,840,559,238,219,19,260,313,380,28
+2024/2025,Male,ALL,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,350,903,601,256,235,20,280,336,409,30
+2024/2025,Male,ALL,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,113,290,193,82,76,7,90,108,132,9
+2024/2025,Male,ALL,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,433,1115,742,316,290,25,346,415,504,39
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,215,554,369,157,144,13,171,206,251,19
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,301,775,516,219,202,18,241,288,351,26
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,326,841,560,238,219,19,261,313,381,28
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,220,568,379,161,148,13,176,211,258,19
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,128,330,219,93,86,7,102,123,149,11
+2024/2025,Male,ALL,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,122,314,209,89,82,7,98,117,142,11
+2024/2025,Male,ALL,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,46,119,79,33,31,3,37,44,54,4
+2024/2025,Male,ALL,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,276,713,475,202,185,16,221,265,323,24
+2024/2025,Male,ALL,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,129,332,221,94,87,8,103,124,150,11
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Brass,South South,Bayelsa,Brass,,,13,34,22,10,9,1,11,13,15,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,12,31,21,9,8,1,9,12,14,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,13,34,22,10,9,1,10,13,15,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,4,10,6,3,3,0,3,4,4,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,15,40,26,11,10,1,12,15,18,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,6,16,11,5,4,0,5,6,7,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,10,24,16,7,6,1,8,9,11,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,12,31,21,9,8,1,9,12,14,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,10,24,16,7,6,1,8,9,11,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,5,14,9,4,3,0,4,5,6,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Brass,South South,Bayelsa,Brass,,,4,10,6,3,3,0,3,4,4,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,2,4,3,1,1,0,1,1,2,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,10,24,16,7,6,1,8,9,11,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,6,15,10,4,4,0,5,5,7,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Brass,South South,Bayelsa,Brass,,,22,56,37,16,14,1,17,21,25,2
+2024/2025,Male,Disabled,NECO,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,18,46,31,13,12,1,14,17,21,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,23,60,40,17,16,1,18,22,27,2
+2024/2025,Male,Disabled,NECO,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,8,20,14,5,5,0,7,7,10,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,26,66,44,19,17,2,21,24,30,3
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,12,30,20,8,7,1,9,11,14,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,14,36,25,10,10,1,12,13,17,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,20,50,34,14,13,1,16,18,23,2
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,12,30,20,8,7,1,9,11,14,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,11,28,19,8,7,1,9,10,13,1
+2024/2025,Male,Disabled,NECO,University,lga,Brass,South South,Bayelsa,Brass,,,7,18,12,5,5,0,5,7,8,0
+2024/2025,Male,Disabled,NECO,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,3,6,5,2,2,0,3,2,3,0
+2024/2025,Male,Disabled,NECO,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,16,42,28,12,11,1,13,16,19,1
+2024/2025,Male,Disabled,NECO,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,9,22,15,6,5,0,7,8,10,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Brass,South South,Bayelsa,Brass,,,30,76,51,21,20,2,24,28,35,2
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,23,60,40,17,16,1,18,22,27,2
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Nembe,South South,Bayelsa,Nembe,,,29,74,50,21,19,2,23,27,34,3
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Ogbia,South South,Bayelsa,Ogbia,,,10,26,17,7,7,1,8,10,11,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,33,84,56,24,22,2,26,31,38,3
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Brass,South South,Bayelsa,Brass,,,16,42,28,12,11,1,13,16,19,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,21,54,36,15,14,1,17,20,25,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Nembe,South South,Bayelsa,Nembe,,,26,66,44,19,17,2,21,24,30,3
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ogbia,South South,Bayelsa,Ogbia,,,15,40,26,11,10,1,12,15,18,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,13,34,22,10,9,1,10,13,15,1
+2024/2025,Male,Disabled,WAEC,University,lga,Brass,South South,Bayelsa,Brass,,,10,24,16,7,6,1,8,9,11,1
+2024/2025,Male,Disabled,WAEC,University,lga,Kolokuma/Opokuma,South South,Bayelsa,Kolokuma/Opokuma,,,4,10,6,3,3,0,3,4,4,0
+2024/2025,Male,Disabled,WAEC,University,lga,Ogbia,South South,Bayelsa,Ogbia,,,20,52,35,14,14,1,16,19,24,1
+2024/2025,Male,Disabled,WAEC,University,lga,Yenagoa,South South,Bayelsa,Yenagoa,,,11,28,19,8,7,1,9,10,13,1

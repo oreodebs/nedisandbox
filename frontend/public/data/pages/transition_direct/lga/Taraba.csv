@@ -1,505 +1,505 @@
-session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,all,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,29,23,25,2,1,0,6,0,23,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,44,35,41,5,4,0,9,0,36,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,41,33,38,4,3,0,8,0,34,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,65,52,63,8,7,0,13,0,55,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,46,37,43,6,5,0,9,0,37,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,52,41,49,21,18,0,11,0,28,3
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,69,55,63,20,19,0,14,0,43,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,13,10,12,5,4,0,3,0,7,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,31,25,29,8,7,0,6,0,21,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,41,33,38,14,13,0,8,0,24,1
-2022/2023,Female,all,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,21,17,20,163,161,0,4,0,0,2
-2022/2023,Female,all,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,65,52,59,407,377,2,13,0,0,30
-2022/2023,Female,all,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,13,10,12,109,108,0,3,0,0,1
-2022/2023,Female,all,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,12,10,11,72,71,0,2,0,0,1
-2022/2023,Female,all,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,57,45,53,6,5,0,12,0,47,1
-2022/2023,Female,all,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,86,69,80,9,8,0,17,0,71,1
-2022/2023,Female,all,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,75,60,67,8,7,0,15,0,59,1
-2022/2023,Female,all,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,117,94,108,14,12,0,23,0,94,2
-2022/2023,Female,all,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,86,69,80,10,8,0,17,0,70,2
-2022/2023,Female,all,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,98,79,92,35,32,0,19,0,57,3
-2022/2023,Female,all,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,123,98,112,39,34,0,25,0,73,5
-2022/2023,Female,all,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,24,19,23,9,8,0,5,0,14,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,62,50,58,18,16,0,12,0,40,2
-2022/2023,Female,all,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,75,60,69,25,22,0,15,0,44,3
-2022/2023,Female,all,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,41,33,37,314,278,3,8,0,0,36
-2022/2023,Female,all,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,125,100,111,799,702,8,25,0,0,97
-2022/2023,Female,all,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,23,19,21,196,170,2,4,0,0,26
-2022/2023,Female,all,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,23,18,21,196,170,2,5,0,0,26
-2022/2023,Female,all,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,74,59,63,8,7,0,15,0,55,1
-2022/2023,Female,all,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,107,86,99,12,11,0,21,0,87,1
-2022/2023,Female,all,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,103,82,94,11,10,0,21,0,83,1
-2022/2023,Female,all,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,150,120,138,17,16,0,30,0,121,1
-2022/2023,Female,all,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,117,93,111,14,13,0,24,0,97,1
-2022/2023,Female,all,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,125,100,117,44,42,0,25,0,73,2
-2022/2023,Female,all,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,169,135,151,54,51,0,34,0,97,3
-2022/2023,Female,all,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,34,27,32,10,9,0,7,0,22,1
-2022/2023,Female,all,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,73,59,67,24,21,0,14,0,43,3
-2022/2023,Female,all,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,105,84,100,41,38,0,21,0,59,3
-2022/2023,Female,all,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,56,45,52,440,430,1,11,0,0,10
-2022/2023,Female,all,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,159,127,143,1079,1018,5,32,0,0,61
-2022/2023,Female,all,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,32,26,29,259,238,2,6,0,0,21
-2022/2023,Female,all,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,28,23,26,217,192,2,5,0,0,25
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,2,2,0,0,0,0,0,2,0
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,3,3,3,1,0,0,0,0,2,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,4,3,3,0,0,0,1,0,3,0
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,6,5,5,1,0,0,1,0,4,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,4,3,4,1,0,0,1,0,3,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,5,4,5,3,2,0,1,0,2,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,6,5,6,2,1,0,1,0,4,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,1,1,1,1,0,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,3,2,2,1,0,0,1,0,1,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,4,3,4,2,1,0,1,0,2,1
-2022/2023,Female,disabled,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,2,2,14,12,0,0,0,0,2
-2022/2023,Female,disabled,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,5,4,5,43,37,0,1,0,0,6
-2022/2023,Female,disabled,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,1,1,1,14,12,0,0,0,0,2
-2022/2023,Female,disabled,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,2,1,1,14,13,0,1,0,0,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,5,4,5,1,0,0,1,0,4,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,5,4,5,1,0,0,1,0,4,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,6,5,6,1,0,0,1,0,5,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,9,7,8,1,0,0,2,0,7,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,7,6,7,1,0,0,1,0,6,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,7,6,7,3,2,0,1,0,4,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,9,7,8,4,3,0,2,0,4,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,2,2,2,1,0,0,0,0,1,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,6,4,5,1,0,0,2,0,4,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,6,5,6,2,1,0,1,0,4,1
-2022/2023,Female,disabled,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,2,3,35,34,0,1,0,0,1
-2022/2023,Female,disabled,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,10,8,8,38,35,0,2,0,0,3
-2022/2023,Female,disabled,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,2,1,2,24,23,0,1,0,0,1
-2022/2023,Female,disabled,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,2,1,1,24,23,0,1,0,0,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,6,5,5,1,0,0,1,0,4,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,7,5,6,1,0,0,2,0,5,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,8,7,8,1,0,0,1,0,7,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,11,9,11,1,0,0,2,0,10,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,10,8,10,1,0,0,2,0,9,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,9,7,8,3,2,0,2,0,5,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,13,10,11,4,3,0,3,0,7,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,3,3,3,1,0,0,0,0,2,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,6,5,6,2,1,0,1,0,4,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,9,7,9,3,2,0,2,0,6,1
-2022/2023,Female,disabled,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,4,3,4,35,31,0,1,0,0,4
-2022/2023,Female,disabled,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,14,11,12,90,83,1,3,0,0,7
-2022/2023,Female,disabled,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,2,2,2,24,21,0,0,0,0,3
-2022/2023,Female,disabled,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,2,2,2,24,21,0,0,0,0,3
-2022/2023,Male,all,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,33,27,28,2,1,0,6,0,26,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,51,41,49,4,3,0,10,0,45,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,48,38,44,4,3,0,10,0,40,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,79,63,74,7,6,0,16,0,67,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,55,44,52,5,4,0,11,0,47,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,62,50,60,17,14,0,12,0,43,3
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,81,65,72,18,17,0,16,0,54,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,15,12,13,3,2,0,3,0,10,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,34,27,31,9,8,0,7,0,22,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,49,39,46,11,10,0,10,0,35,1
-2022/2023,Male,all,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,25,20,22,130,121,1,5,0,0,9
-2022/2023,Male,all,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,82,66,73,410,337,6,16,0,0,73
-2022/2023,Male,all,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,16,13,14,87,86,0,3,0,0,1
-2022/2023,Male,all,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,15,12,14,72,71,0,3,0,0,1
-2022/2023,Male,all,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,68,54,61,6,5,0,14,0,55,1
-2022/2023,Male,all,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,100,80,92,9,8,0,20,0,83,1
-2022/2023,Male,all,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,87,69,79,8,7,0,18,0,71,1
-2022/2023,Male,all,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,134,107,128,13,12,0,27,0,115,1
-2022/2023,Male,all,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,97,77,91,10,9,0,20,0,81,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,120,96,111,33,30,0,24,0,78,3
-2022/2023,Male,all,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,149,120,135,40,34,0,29,0,95,6
-2022/2023,Male,all,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,28,23,26,7,6,0,5,0,19,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,69,55,62,17,15,0,14,0,45,2
-2022/2023,Male,all,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,95,76,89,29,25,0,19,0,60,4
-2022/2023,Male,all,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,49,40,45,295,260,3,9,0,0,35
-2022/2023,Male,all,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,157,126,142,898,795,8,31,0,0,103
-2022/2023,Male,all,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,31,25,29,196,170,2,6,0,0,26
-2022/2023,Male,all,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,27,22,25,181,155,2,5,0,0,26
-2022/2023,Male,all,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,90,72,80,8,7,0,18,0,72,1
-2022/2023,Male,all,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,125,100,117,13,12,0,25,0,104,1
-2022/2023,Male,all,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,117,93,105,9,8,0,24,0,96,1
-2022/2023,Male,all,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,181,144,167,17,16,0,37,0,150,1
-2022/2023,Male,all,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,134,107,122,14,13,0,27,0,108,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,152,122,141,45,43,0,30,0,96,2
-2022/2023,Male,all,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,203,162,187,54,50,0,41,0,133,4
-2022/2023,Male,all,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,39,31,35,11,10,0,8,0,24,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,88,70,80,22,21,0,18,0,58,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,135,108,127,40,38,0,27,0,87,2
-2022/2023,Male,all,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,62,49,58,413,393,2,13,0,0,20
-2022/2023,Male,all,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,198,158,181,1088,1030,5,40,0,0,58
-2022/2023,Male,all,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,42,34,38,271,266,0,8,0,0,5
-2022/2023,Male,all,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,34,27,31,214,189,2,7,0,0,25
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,2,2,0,0,0,1,0,2,0
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,3,3,3,0,0,0,0,0,3,0
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,4,3,4,0,0,0,1,0,4,0
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,7,6,6,1,0,0,1,0,5,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,5,4,5,1,0,0,1,0,4,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,6,5,6,1,0,0,1,0,5,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,7,6,7,1,0,0,1,0,6,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,1,1,1,0,0,0,0,0,1,0
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,3,2,2,1,0,0,1,0,1,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,5,4,4,1,0,0,1,0,3,1
-2022/2023,Male,disabled,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,2,2,0,0,0,1,0,2,0
-2022/2023,Male,disabled,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,7,5,6,0,0,0,2,0,6,0
-2022/2023,Male,disabled,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,2,1,1,14,13,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,2,1,1,0,0,0,1,0,1,0
-2022/2023,Male,disabled,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,6,4,5,0,0,0,2,0,5,0
-2022/2023,Male,disabled,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,6,5,6,1,0,0,1,0,5,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,7,6,7,1,0,0,1,0,6,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,10,8,9,1,0,0,2,0,8,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,9,7,8,1,0,0,2,0,7,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,9,7,9,2,1,0,2,0,7,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,11,9,11,3,2,0,2,0,8,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,3,2,2,1,0,0,1,0,1,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,6,5,5,1,0,0,1,0,4,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,8,6,7,3,2,0,2,0,4,1
-2022/2023,Male,disabled,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,3,3,24,23,0,0,0,0,1
-2022/2023,Male,disabled,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,13,10,11,66,60,0,3,0,0,6
-2022/2023,Male,disabled,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,2,2,2,12,11,0,0,0,0,1
-2022/2023,Male,disabled,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,2,2,2,24,21,0,0,0,0,3
-2022/2023,Male,disabled,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,7,6,6,1,0,0,1,0,5,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,8,7,8,1,0,0,1,0,7,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,10,8,9,1,0,0,2,0,8,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,13,10,12,1,0,0,3,0,11,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,12,9,11,1,0,0,3,0,10,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,12,9,11,3,2,0,3,0,8,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,15,12,14,4,3,0,3,0,10,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,4,3,3,1,0,0,1,0,2,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,7,6,7,1,0,0,1,0,6,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,11,9,10,2,1,0,2,0,8,1
-2022/2023,Male,disabled,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,4,4,4,35,31,0,0,0,0,4
-2022/2023,Male,disabled,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,17,13,15,80,72,1,4,0,0,8
-2022/2023,Male,disabled,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,3,2,3,24,21,0,1,0,0,3
-2022/2023,Male,disabled,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,2,2,2,24,21,0,0,0,0,3
-2023/2024,Female,all,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,30,24,28,2,1,0,6,0,26,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,47,38,42,3,2,0,9,0,39,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,44,36,40,3,2,0,8,0,37,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,66,53,62,4,3,0,13,0,58,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,49,39,47,4,3,0,10,0,43,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,57,46,53,22,21,0,11,0,31,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,73,58,68,27,25,0,15,0,41,2
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,14,11,13,6,5,0,3,0,7,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,34,27,30,11,9,0,7,0,19,2
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,44,35,42,18,16,0,9,0,24,2
-2023/2024,Female,all,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,23,19,22,142,141,0,4,0,0,1
-2023/2024,Female,all,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,68,54,63,300,246,4,14,0,0,54
-2023/2024,Female,all,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,14,11,12,71,70,0,3,0,0,1
-2023/2024,Female,all,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,13,11,12,71,70,0,2,0,0,1
-2023/2024,Female,all,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,59,47,52,4,3,0,12,0,48,1
-2023/2024,Female,all,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,88,71,81,6,5,0,17,0,75,1
-2023/2024,Female,all,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,78,62,72,5,4,0,16,0,67,1
-2023/2024,Female,all,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,124,99,116,9,8,0,25,0,107,1
-2023/2024,Female,all,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,94,76,89,7,6,0,18,0,82,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,103,83,96,41,37,0,20,0,55,4
-2023/2024,Female,all,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,123,98,112,45,40,0,25,0,67,5
-2023/2024,Female,all,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,24,19,22,8,6,0,5,0,14,2
-2023/2024,Female,all,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,66,53,58,24,21,0,13,0,34,3
-2023/2024,Female,all,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,85,68,79,35,32,0,17,0,44,3
-2023/2024,Female,all,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,41,33,39,248,211,3,8,0,0,37
-2023/2024,Female,all,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,132,106,121,699,620,6,26,0,0,79
-2023/2024,Female,all,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,25,20,23,160,143,1,5,0,0,17
-2023/2024,Female,all,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,23,18,20,135,131,0,5,0,0,4
-2023/2024,Female,all,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,79,63,72,5,4,0,16,0,67,1
-2023/2024,Female,all,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,118,95,111,9,8,0,23,0,102,1
-2023/2024,Female,all,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,113,90,101,7,6,0,23,0,94,1
-2023/2024,Female,all,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,160,128,148,11,10,0,32,0,137,1
-2023/2024,Female,all,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,123,98,114,9,8,0,25,0,105,1
-2023/2024,Female,all,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,131,105,122,53,50,0,26,0,69,3
-2023/2024,Female,all,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,180,144,165,69,65,0,36,0,96,4
-2023/2024,Female,all,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,32,26,28,11,10,0,6,0,17,1
-2023/2024,Female,all,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,88,70,78,33,31,0,18,0,45,2
-2023/2024,Female,all,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,109,87,102,44,43,0,22,0,58,1
-2023/2024,Female,all,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,58,46,54,344,321,2,12,0,0,23
-2023/2024,Female,all,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,180,144,165,940,873,5,36,0,0,67
-2023/2024,Female,all,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,34,28,31,202,187,1,6,0,0,15
-2023/2024,Female,all,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,32,25,29,190,175,1,7,0,0,15
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,2,2,0,0,0,1,0,2,0
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,3,3,3,0,0,0,0,0,3,0
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,4,3,4,0,0,0,1,0,4,0
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,6,5,6,1,0,0,1,0,5,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,5,4,4,0,0,0,1,0,4,0
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,5,4,4,3,2,0,1,0,1,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,6,5,6,3,2,0,1,0,3,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,1,1,1,1,0,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,3,2,2,1,0,0,1,0,1,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,4,4,4,3,2,0,0,0,1,1
-2023/2024,Female,disabled,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,2,2,28,27,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,6,5,5,20,19,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,2,1,1,10,9,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,2,1,1,10,9,0,1,0,0,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,5,4,4,0,0,0,1,0,4,0
-2023/2024,Female,disabled,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,5,4,5,0,0,0,1,0,5,0
-2023/2024,Female,disabled,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,7,5,6,1,0,0,2,0,5,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,9,8,8,1,0,0,1,0,7,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,8,6,7,1,0,0,2,0,6,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,8,6,8,3,2,0,2,0,5,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,9,8,9,4,3,0,1,0,5,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,2,2,2,1,0,0,0,0,1,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,5,4,5,2,1,0,1,0,3,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,7,6,6,3,2,0,1,0,3,1
-2023/2024,Female,disabled,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,2,3,25,24,0,1,0,0,1
-2023/2024,Female,disabled,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,10,8,10,57,51,0,2,0,0,6
-2023/2024,Female,disabled,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,2,2,2,17,16,0,0,0,0,1
-2023/2024,Female,disabled,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,2,1,2,17,16,0,1,0,0,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,6,5,6,0,0,0,1,0,6,0
-2023/2024,Female,disabled,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,7,6,7,0,0,0,1,0,7,0
-2023/2024,Female,disabled,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,9,7,8,0,0,0,2,0,8,0
-2023/2024,Female,disabled,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,12,10,11,1,0,0,2,0,10,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,11,8,10,1,0,0,3,0,9,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,9,8,8,3,2,0,1,0,5,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,13,11,12,4,3,0,2,0,8,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,3,2,3,1,0,0,1,0,2,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,7,6,7,2,1,0,1,0,5,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,10,8,9,4,3,0,2,0,5,1
-2023/2024,Female,disabled,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,4,3,4,25,21,0,1,0,0,4
-2023/2024,Female,disabled,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,14,11,13,59,51,1,3,0,0,8
-2023/2024,Female,disabled,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,3,2,2,17,14,0,1,0,0,3
-2023/2024,Female,disabled,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,2,2,2,17,14,0,0,0,0,3
-2023/2024,Male,all,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,36,29,34,2,1,0,7,0,32,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,55,44,49,2,1,0,11,0,47,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,52,42,48,2,1,0,10,0,46,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,76,61,71,4,3,0,15,0,67,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,60,48,58,4,3,0,12,0,54,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,68,54,65,22,21,0,14,0,43,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,86,69,76,21,20,0,17,0,55,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,17,13,15,5,4,0,4,0,10,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,37,30,33,10,8,0,7,0,23,2
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,53,42,49,16,15,0,11,0,33,1
-2023/2024,Male,all,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,28,22,25,115,114,0,6,0,0,1
-2023/2024,Male,all,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,87,70,78,316,278,3,17,0,0,38
-2023/2024,Male,all,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,18,14,17,73,72,0,4,0,0,1
-2023/2024,Male,all,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,17,13,16,73,72,0,4,0,0,1
-2023/2024,Male,all,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,70,56,63,3,2,0,14,0,60,1
-2023/2024,Male,all,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,94,75,90,5,4,0,19,0,85,1
-2023/2024,Male,all,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,94,75,85,5,4,0,19,0,80,1
-2023/2024,Male,all,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,143,115,134,8,7,0,28,0,126,1
-2023/2024,Male,all,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,109,87,100,6,5,0,22,0,94,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,131,105,121,42,39,0,26,0,79,3
-2023/2024,Male,all,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,157,126,143,47,42,0,31,0,96,5
-2023/2024,Male,all,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,30,24,29,10,9,0,6,0,19,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,73,58,66,20,18,0,15,0,46,2
-2023/2024,Male,all,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,104,83,95,32,28,0,21,0,63,4
-2023/2024,Male,all,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,47,38,44,186,173,1,9,0,0,13
-2023/2024,Male,all,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,169,136,152,699,620,6,33,0,0,79
-2023/2024,Male,all,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,31,25,28,122,103,2,6,0,0,19
-2023/2024,Male,all,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,25,20,23,135,119,1,5,0,0,16
-2023/2024,Male,all,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,98,78,88,5,4,0,20,0,83,1
-2023/2024,Male,all,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,135,108,124,7,6,0,27,0,117,1
-2023/2024,Male,all,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,131,104,118,7,6,0,27,0,111,1
-2023/2024,Male,all,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,195,156,184,11,10,0,39,0,173,1
-2023/2024,Male,all,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,148,118,140,9,8,0,30,0,131,1
-2023/2024,Male,all,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,161,129,152,54,50,0,32,0,98,4
-2023/2024,Male,all,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,214,171,197,64,59,0,43,0,133,5
-2023/2024,Male,all,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,37,29,34,12,11,0,8,0,22,1
-2023/2024,Male,all,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,97,78,90,29,26,0,19,0,61,3
-2023/2024,Male,all,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,132,106,121,43,39,0,26,0,78,4
-2023/2024,Male,all,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,65,52,60,312,297,1,13,0,0,15
-2023/2024,Male,all,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,216,173,194,954,882,6,43,0,0,72
-2023/2024,Male,all,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,44,35,40,190,187,0,9,0,0,3
-2023/2024,Male,all,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,39,31,35,190,175,1,8,0,0,15
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,2,3,0,0,0,1,0,3,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,4,3,3,0,0,0,1,0,3,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,5,4,4,0,0,0,1,0,4,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,7,5,6,0,0,0,2,0,6,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,5,4,5,0,0,0,1,0,5,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,6,5,5,2,1,0,1,0,3,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,7,6,7,1,0,0,1,0,6,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,1,1,2,1,0,0,0,0,1,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,3,2,3,1,0,0,1,0,2,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,5,4,5,2,1,0,1,0,3,1
-2023/2024,Male,disabled,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,2,2,10,9,0,1,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,7,6,6,10,9,0,1,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,2,1,2,10,9,0,1,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,2,1,2,10,9,0,1,0,0,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,5,4,5,0,0,0,1,0,5,0
-2023/2024,Male,disabled,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,6,5,6,0,0,0,1,0,6,0
-2023/2024,Male,disabled,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,8,7,8,0,0,0,1,0,8,0
-2023/2024,Male,disabled,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,11,9,10,1,0,0,2,0,9,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,10,8,9,0,0,0,2,0,9,0
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,9,7,9,3,2,0,2,0,6,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,12,10,12,4,3,0,2,0,8,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,3,2,2,1,0,0,1,0,1,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,6,5,5,1,0,0,1,0,4,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,9,7,9,3,2,0,2,0,6,1
-2023/2024,Male,disabled,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,3,4,17,16,0,0,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,13,10,12,39,34,0,3,0,0,5
-2023/2024,Male,disabled,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,3,2,2,8,7,0,1,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,2,2,2,18,17,0,0,0,0,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,8,6,7,0,0,0,2,0,7,0
-2023/2024,Male,disabled,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,8,7,7,0,0,0,1,0,7,0
-2023/2024,Male,disabled,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,11,9,10,1,0,0,2,0,9,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,14,11,13,1,0,0,3,0,12,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,13,10,12,1,0,0,3,0,11,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,12,10,11,3,2,0,2,0,8,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,16,13,15,4,3,0,3,0,11,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,4,3,4,1,0,0,1,0,3,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,8,6,8,2,1,0,2,0,6,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,11,9,11,3,2,0,2,0,8,1
-2023/2024,Male,disabled,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,5,4,4,25,21,0,1,0,0,4
-2023/2024,Male,disabled,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,18,14,16,67,60,1,4,0,0,7
-2023/2024,Male,disabled,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,3,2,3,17,14,0,1,0,0,3
-2023/2024,Male,disabled,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,3,2,2,17,14,0,1,0,0,3
-2024/2025,Female,all,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,164,131,92,44,40,0.261159,33,39,48,4
-2024/2025,Female,all,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,243,195,136,65,60,0.387526,48,59,71,5
-2024/2025,Female,all,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,233,186,130,62,57,0.370677,47,56,68,5
-2024/2025,Female,all,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,360,288,202,96,89,0.572864,72,86,106,7
-2024/2025,Female,all,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,243,195,136,65,60,0.387526,48,59,71,5
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,281,224,157,75,69,0.446497,57,67,82,6
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,376,301,210,101,93,0.598138,75,91,109,8
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,69,55,39,18,17,0.109518,14,16,21,1
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,169,136,95,45,42,0.269583,33,41,50,3
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,243,195,136,65,60,0.387526,48,59,71,5
-2024/2025,Female,all,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,122,97,68,33,30,0.193763,25,29,35,3
-2024/2025,Female,all,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,355,284,199,95,87,0.56444,71,85,104,8
-2024/2025,Female,all,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,74,59,41,20,18,0.117943,15,18,21,2
-2024/2025,Female,all,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,74,59,41,20,18,0.117943,15,18,21,2
-2024/2025,Female,all,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,307,246,172,82,76,0.48862,61,74,90,6
-2024/2025,Female,all,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,429,343,240,115,106,0.682383,86,103,125,9
-2024/2025,Female,all,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,408,326,228,109,100,0.648685,82,98,119,9
-2024/2025,Female,all,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,625,500,350,167,154,0.994088,125,150,183,13
-2024/2025,Female,all,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,460,368,258,123,113,0.73293,92,110,135,10
-2024/2025,Female,all,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,529,423,296,142,130,0.842448,106,127,154,12
-2024/2025,Female,all,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,677,542,379,181,167,1.078333,135,163,198,14
-2024/2025,Female,all,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,148,119,83,40,37,0.235885,29,36,43,3
-2024/2025,Female,all,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,312,250,175,84,77,0.497044,62,75,91,7
-2024/2025,Female,all,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,460,368,258,123,113,0.73293,92,110,135,10
-2024/2025,Female,all,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,228,182,127,61,56,0.362253,46,55,66,5
-2024/2025,Female,all,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,693,555,388,186,171,1.103607,138,167,202,15
-2024/2025,Female,all,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,122,97,68,33,30,0.193763,25,29,35,3
-2024/2025,Female,all,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,132,106,74,35,33,0.210612,26,32,39,2
-2024/2025,Female,all,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,439,351,246,118,108,0.699232,88,105,128,10
-2024/2025,Female,all,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,572,457,320,153,141,0.909844,115,137,167,12
-2024/2025,Female,all,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,582,466,326,156,143,0.926692,116,140,170,13
-2024/2025,Female,all,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,857,686,480,230,211,1.364765,171,206,250,19
-2024/2025,Female,all,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,598,478,335,160,147,0.951966,120,143,175,13
-2024/2025,Female,all,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,704,563,394,189,173,1.120455,141,169,205,16
-2024/2025,Female,all,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,932,745,522,250,230,1.482708,187,223,272,20
-2024/2025,Female,all,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,196,157,110,52,48,0.311706,39,47,58,4
-2024/2025,Female,all,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,445,356,249,119,110,0.707656,89,107,130,9
-2024/2025,Female,all,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,582,466,326,156,143,0.926692,116,140,170,13
-2024/2025,Female,all,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,302,241,169,81,74,0.480195,61,72,88,7
-2024/2025,Female,all,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,953,762,534,255,235,1.516406,191,228,279,20
-2024/2025,Female,all,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,175,140,98,47,43,0.278008,35,42,51,4
-2024/2025,Female,all,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,154,123,86,41,38,0.24431,31,37,45,3
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,16,13,9,4,4,0.025273,3,4,5,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,16,13,9,4,4,0.025273,3,4,5,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,21,17,12,6,5,0.033698,4,5,6,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,32,25,18,9,8,0.050547,7,7,9,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,26,21,15,7,6,0.042122,5,6,8,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,26,21,15,7,6,0.042122,5,6,8,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,32,25,18,9,8,0.050547,7,7,9,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,5,4,3,1,1,0.008424,1,1,2,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,16,13,9,4,4,0.025273,3,4,5,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,21,17,12,6,5,0.033698,4,5,6,1
-2024/2025,Female,disabled,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,11,8,6,3,3,0.016849,3,2,3,0
-2024/2025,Female,disabled,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,26,21,15,7,6,0.042122,5,6,8,1
-2024/2025,Female,disabled,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,11,8,6,3,3,0.016849,3,2,3,0
-2024/2025,Female,disabled,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,11,8,6,3,3,0.016849,3,2,3,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,21,17,12,6,5,0.033698,4,5,6,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,26,21,15,7,6,0.042122,5,6,8,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,32,25,18,9,8,0.050547,7,7,9,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,48,38,26,13,12,0.07582,10,12,13,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,42,34,24,11,10,0.067396,8,10,13,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,37,30,21,10,9,0.058971,7,9,11,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,53,42,29,14,13,0.084245,11,13,15,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,16,13,9,4,4,0.025273,3,4,5,0
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,26,21,15,7,6,0.042122,5,6,8,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,37,30,21,10,9,0.058971,7,9,11,1
-2024/2025,Female,disabled,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,16,13,9,4,4,0.025273,3,4,5,0
-2024/2025,Female,disabled,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,58,47,32,16,14,0.092669,11,15,16,2
-2024/2025,Female,disabled,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,11,8,6,3,3,0.016849,3,2,3,0
-2024/2025,Female,disabled,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,11,8,6,3,3,0.016849,3,2,3,0
-2024/2025,Female,disabled,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,32,25,18,8,8,0.050547,7,7,10,0
-2024/2025,Female,disabled,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,37,30,21,10,9,0.058971,7,9,11,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,47,38,26,13,12,0.07582,9,12,13,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,63,51,35,17,16,0.101094,12,16,18,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,53,42,29,14,13,0.084245,11,13,15,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,53,42,29,14,13,0.084245,11,13,15,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,69,55,38,18,17,0.109518,14,17,20,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,16,13,9,4,4,0.025273,3,4,5,0
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,37,30,21,10,9,0.058971,7,9,11,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,48,38,26,13,12,0.07582,10,12,13,1
-2024/2025,Female,disabled,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,21,17,12,6,5,0.033698,4,5,6,1
-2024/2025,Female,disabled,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,79,63,44,21,20,0.126367,16,19,23,1
-2024/2025,Female,disabled,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,16,13,9,4,4,0.025273,3,4,5,0
-2024/2025,Female,disabled,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,11,8,6,3,3,0.016849,3,2,3,0
-2024/2025,Male,all,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,206,165,116,55,51,0.328555,41,49,61,4
-2024/2025,Male,all,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,291,233,163,78,72,0.463346,58,70,85,6
-2024/2025,Male,all,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,265,212,148,71,65,0.421224,53,64,77,6
-2024/2025,Male,all,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,402,322,225,108,99,0.64026,80,97,117,9
-2024/2025,Male,all,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,307,246,172,82,76,0.48862,61,74,90,6
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,339,271,190,91,83,0.539167,68,81,99,8
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,445,356,249,119,110,0.707656,89,107,130,9
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,79,64,44,21,20,0.126367,15,20,23,1
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,191,152,107,51,47,0.303281,39,45,56,4
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,281,224,157,75,69,0.446497,57,67,82,6
-2024/2025,Male,all,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,148,119,83,40,37,0.235885,29,36,43,3
-2024/2025,Male,all,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,450,360,252,121,111,0.716081,90,108,131,10
-2024/2025,Male,all,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,95,76,53,26,23,0.151641,19,23,27,3
-2024/2025,Male,all,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,90,72,50,24,22,0.143216,18,22,26,2
-2024/2025,Male,all,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,360,288,202,96,89,0.572864,72,86,106,7
-2024/2025,Male,all,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,508,407,285,136,125,0.80875,101,122,149,11
-2024/2025,Male,all,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,492,394,276,132,121,0.783476,98,118,144,11
-2024/2025,Male,all,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,746,597,418,200,184,1.187851,149,179,218,16
-2024/2025,Male,all,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,572,457,320,153,141,0.909844,115,137,167,12
-2024/2025,Male,all,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,656,525,368,176,162,1.044635,131,157,192,14
-2024/2025,Male,all,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,799,639,448,214,197,1.272096,160,191,234,17
-2024/2025,Male,all,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,164,131,92,44,40,0.261159,33,39,48,4
-2024/2025,Male,all,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,360,288,202,96,89,0.572864,72,86,106,7
-2024/2025,Male,all,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,540,432,302,145,133,0.859297,108,130,157,12
-2024/2025,Male,all,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,254,203,142,68,63,0.404375,51,61,74,5
-2024/2025,Male,all,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,842,673,471,225,207,1.339492,169,202,246,18
-2024/2025,Male,all,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,164,131,92,44,40,0.261159,33,39,48,4
-2024/2025,Male,all,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,148,119,83,40,37,0.235885,29,36,43,3
-2024/2025,Male,all,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,508,407,285,136,125,0.80875,101,122,149,11
-2024/2025,Male,all,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,635,508,356,170,157,1.010937,127,152,186,13
-2024/2025,Male,all,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,662,529,371,177,163,1.05306,133,158,194,14
-2024/2025,Male,all,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,1037,830,581,278,256,1.651198,207,249,303,22
-2024/2025,Male,all,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,746,597,418,200,184,1.187851,149,179,218,16
-2024/2025,Male,all,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,847,677,474,227,209,1.347916,170,203,247,18
-2024/2025,Male,all,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,1143,915,640,306,282,1.819687,228,275,334,24
-2024/2025,Male,all,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,206,165,116,55,51,0.328555,41,49,61,4
-2024/2025,Male,all,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,508,407,285,136,125,0.80875,101,122,149,11
-2024/2025,Male,all,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,709,567,397,190,175,1.12888,142,170,207,15
-2024/2025,Male,all,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,371,296,208,99,91,0.589713,75,88,109,8
-2024/2025,Male,all,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,1191,953,667,319,292,1.895507,238,286,348,27
-2024/2025,Male,all,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,217,174,122,58,53,0.345404,43,52,64,5
-2024/2025,Male,all,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,191,152,107,51,47,0.303281,39,45,56,4
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,16,13,9,4,4,0.025273,3,4,5,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,21,17,12,6,5,0.033698,4,5,6,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,26,21,15,7,6,0.042122,5,6,8,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,37,30,21,10,9,0.058971,7,9,11,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,26,21,15,7,6,0.042122,5,6,8,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,26,21,15,7,6,0.042122,5,6,8,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,37,30,21,10,9,0.058971,7,9,11,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,5,4,3,1,1,0.008424,1,1,2,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,16,13,9,4,4,0.025273,3,4,5,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,26,21,15,7,6,0.042122,5,6,8,1
-2024/2025,Male,disabled,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,16,13,9,4,4,0.025273,3,4,5,0
-2024/2025,Male,disabled,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,37,30,21,10,9,0.058971,7,9,11,1
-2024/2025,Male,disabled,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,11,8,6,3,3,0.016849,3,2,3,0
-2024/2025,Male,disabled,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,11,8,6,3,3,0.016849,3,2,3,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,32,25,18,8,8,0.050547,7,7,10,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,32,25,18,8,8,0.050547,7,7,10,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,37,30,21,10,9,0.058971,7,9,11,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,53,42,29,14,13,0.084245,11,13,15,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,47,38,26,13,12,0.07582,9,12,13,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,47,38,26,13,12,0.07582,9,12,13,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,58,47,32,16,14,0.092669,11,15,16,2
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,16,13,9,4,4,0.025273,3,4,5,0
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,32,25,18,8,8,0.050547,7,7,10,0
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,42,34,24,11,10,0.067396,8,10,13,1
-2024/2025,Male,disabled,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,21,17,12,6,5,0.033698,4,5,6,1
-2024/2025,Male,disabled,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,69,55,38,18,17,0.109518,14,17,20,1
-2024/2025,Male,disabled,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,11,8,6,3,3,0.016849,3,2,3,0
-2024/2025,Male,disabled,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,11,8,6,3,3,0.016849,3,2,3,0
-2024/2025,Male,disabled,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,37,30,21,10,9,0.058971,7,9,11,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,42,34,24,11,10,0.067396,8,10,13,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,58,46,32,16,14,0.092669,12,14,16,2
-2024/2025,Male,disabled,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,79,63,44,21,20,0.126367,16,19,23,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,63,51,35,17,16,0.101094,12,16,18,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,63,51,35,17,16,0.101094,12,16,18,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,84,68,47,23,21,0.134792,16,21,24,2
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,21,17,12,6,5,0.033698,4,5,6,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,42,34,24,11,10,0.067396,8,10,13,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,58,46,32,16,14,0.092669,12,14,16,2
-2024/2025,Male,disabled,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,26,21,15,7,6,0.042122,5,6,8,1
-2024/2025,Male,disabled,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,100,80,56,27,25,0.160065,20,24,29,2
-2024/2025,Male,disabled,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,16,13,9,4,4,0.025273,3,4,5,0
-2024/2025,Male,disabled,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,16,13,9,4,4,0.025273,3,4,5,0
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,17,44,45,3,2,0,6,0,23,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,26,66,74,8,6,0,9,0,36,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,24,63,68,6,5,0,8,0,34,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,38,99,114,13,11,0,13,0,55,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,27,70,77,10,8,0,9,0,37,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,31,78,88,34,29,0,11,0,28,3
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,41,104,114,32,30,0,14,0,43,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,8,19,22,8,6,0,3,0,7,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,18,47,52,13,11,0,6,0,21,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,24,63,68,22,21,0,8,0,24,1
+2022/2023,Female,ALL,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,12,32,36,261,258,0,4,0,0,2
+2022/2023,Female,ALL,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,38,99,106,652,604,43,13,0,0,30
+2022/2023,Female,ALL,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,8,19,22,175,173,0,3,0,0,1
+2022/2023,Female,ALL,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,7,19,20,115,114,0,2,0,0,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,34,85,95,10,8,0,12,0,47,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,51,131,144,14,13,0,17,0,71,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,44,114,121,13,11,0,15,0,59,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,69,178,195,22,19,0,23,0,94,2
+2022/2023,Female,ALL,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,51,131,144,16,13,0,17,0,70,2
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,58,150,166,56,51,0,19,0,57,3
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,72,186,202,62,54,0,25,0,73,5
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,14,36,41,14,13,0,5,0,14,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,36,95,104,29,26,0,12,0,40,2
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,44,114,124,40,35,0,15,0,44,3
+2022/2023,Female,ALL,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,24,63,67,503,445,65,8,0,0,36
+2022/2023,Female,ALL,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,74,189,200,1279,1124,172,25,0,0,97
+2022/2023,Female,ALL,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,14,36,38,314,272,43,4,0,0,26
+2022/2023,Female,ALL,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,14,34,38,314,272,43,5,0,0,26
+2022/2023,Female,ALL,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,44,112,114,13,11,0,15,0,55,1
+2022/2023,Female,ALL,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,63,163,178,19,18,0,21,0,87,1
+2022/2023,Female,ALL,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,61,155,169,18,16,0,21,0,83,1
+2022/2023,Female,ALL,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,88,227,249,27,26,0,30,0,121,1
+2022/2023,Female,ALL,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,69,176,200,22,21,0,24,0,97,1
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,74,189,211,70,67,0,25,0,73,2
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,99,256,272,86,82,0,34,0,97,3
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,20,51,58,16,14,0,7,0,22,1
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,43,112,121,38,34,0,14,0,43,3
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,62,159,180,66,61,0,21,0,59,3
+2022/2023,Female,ALL,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,33,85,94,705,689,22,11,0,0,10
+2022/2023,Female,ALL,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,93,241,258,1728,1630,108,32,0,0,61
+2022/2023,Female,ALL,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,19,49,52,415,381,43,6,0,0,21
+2022/2023,Female,ALL,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,16,44,47,347,307,43,5,0,0,25
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,1,4,4,0,0,0,0,0,2,0
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,2,6,5,2,0,0,0,0,2,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,2,6,5,0,0,0,1,0,3,0
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,4,9,9,2,0,0,1,0,4,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,2,6,7,2,0,0,1,0,3,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,8,9,5,3,0,1,0,2,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,4,9,11,3,2,0,1,0,4,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,1,2,2,2,0,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,2,4,4,2,0,0,1,0,1,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,2,6,7,3,2,0,1,0,2,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,1,4,4,22,19,0,0,0,0,2
+2022/2023,Female,Disabled,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,3,8,9,69,59,0,1,0,0,6
+2022/2023,Female,Disabled,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,1,2,2,22,19,0,0,0,0,2
+2022/2023,Female,Disabled,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,1,2,2,22,21,0,1,0,0,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,8,9,2,0,0,1,0,4,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,3,8,9,2,0,0,1,0,4,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,4,9,11,2,0,0,1,0,5,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,5,13,14,2,0,0,2,0,7,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,4,11,13,2,0,0,1,0,6,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,4,11,13,5,3,0,1,0,4,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,5,13,14,6,5,0,2,0,4,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,1,4,4,2,0,0,0,0,1,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,4,8,9,2,0,0,2,0,4,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,4,9,11,3,2,0,1,0,4,1
+2022/2023,Female,Disabled,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,4,5,56,54,0,1,0,0,1
+2022/2023,Female,Disabled,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,6,15,14,61,56,0,2,0,0,3
+2022/2023,Female,Disabled,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,1,2,4,38,37,0,1,0,0,1
+2022/2023,Female,Disabled,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,1,2,2,38,37,0,1,0,0,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,4,9,9,2,0,0,1,0,4,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,4,9,11,2,0,0,2,0,5,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,5,13,14,2,0,0,1,0,7,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,6,17,20,2,0,0,2,0,10,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,6,15,18,2,0,0,2,0,9,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,5,13,14,5,3,0,2,0,5,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,8,19,20,6,5,0,3,0,7,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,2,6,5,2,0,0,0,0,2,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,4,9,11,3,2,0,1,0,4,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,5,13,16,5,3,0,2,0,6,1
+2022/2023,Female,Disabled,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,6,7,56,50,0,1,0,0,4
+2022/2023,Female,Disabled,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,8,21,22,144,133,22,3,0,0,7
+2022/2023,Female,Disabled,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,1,4,4,38,34,0,0,0,0,3
+2022/2023,Female,Disabled,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,1,4,4,38,34,0,0,0,0,3
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,19,51,50,3,2,0,6,0,26,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,30,78,88,6,5,0,10,0,45,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,28,72,79,6,5,0,10,0,40,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,46,119,133,11,10,0,16,0,67,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,32,83,94,8,6,0,11,0,47,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,36,95,108,27,22,0,12,0,43,3
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,48,123,130,29,27,0,16,0,54,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,9,23,23,5,3,0,3,0,10,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,20,51,56,14,13,0,7,0,22,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,29,74,83,18,16,0,10,0,35,1
+2022/2023,Male,ALL,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,15,38,40,208,194,22,5,0,0,9
+2022/2023,Male,ALL,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,48,125,132,656,540,129,16,0,0,73
+2022/2023,Male,ALL,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,9,25,25,139,138,0,3,0,0,1
+2022/2023,Male,ALL,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,9,23,25,115,114,0,3,0,0,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,40,102,110,10,8,0,14,0,55,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,59,152,166,14,13,0,20,0,83,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,51,131,142,13,11,0,18,0,71,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,79,203,231,21,19,0,27,0,115,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,57,146,164,16,14,0,20,0,81,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,71,182,200,53,48,0,24,0,78,3
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,88,227,243,64,54,0,29,0,95,6
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,16,44,47,11,10,0,5,0,19,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,41,104,112,27,24,0,14,0,45,2
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,56,144,160,46,40,0,19,0,60,4
+2022/2023,Male,ALL,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,29,76,81,472,416,65,9,0,0,35
+2022/2023,Male,ALL,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,92,239,256,1438,1273,172,31,0,0,103
+2022/2023,Male,ALL,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,18,47,52,314,272,43,6,0,0,26
+2022/2023,Male,ALL,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,16,42,45,290,248,43,5,0,0,26
+2022/2023,Male,ALL,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,53,136,144,13,11,0,18,0,72,1
+2022/2023,Male,ALL,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,74,189,211,21,19,0,25,0,104,1
+2022/2023,Male,ALL,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,69,176,189,14,13,0,24,0,96,1
+2022/2023,Male,ALL,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,106,273,301,27,26,0,37,0,150,1
+2022/2023,Male,ALL,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,79,203,220,22,21,0,27,0,108,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,89,231,254,72,69,0,30,0,96,2
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,119,307,337,86,80,0,41,0,133,4
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,23,59,63,18,16,0,8,0,24,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,52,133,144,35,34,0,18,0,58,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,79,205,229,64,61,0,27,0,87,2
+2022/2023,Male,ALL,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,36,93,104,661,629,43,13,0,0,20
+2022/2023,Male,ALL,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,116,299,326,1742,1650,108,40,0,0,58
+2022/2023,Male,ALL,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,25,64,68,434,426,0,8,0,0,5
+2022/2023,Male,ALL,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,20,51,56,343,303,43,7,0,0,25
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,4,4,0,0,0,1,0,2,0
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,2,6,5,0,0,0,0,0,3,0
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,2,6,7,0,0,0,1,0,4,0
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,4,11,11,2,0,0,1,0,5,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,3,8,9,2,0,0,1,0,4,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,4,9,11,2,0,0,1,0,5,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,4,11,13,2,0,0,1,0,6,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,1,2,2,0,0,0,0,0,1,0
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,2,4,4,2,0,0,1,0,1,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,3,8,7,2,0,0,1,0,3,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,4,4,0,0,0,1,0,2,0
+2022/2023,Male,Disabled,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,4,9,11,0,0,0,2,0,6,0
+2022/2023,Male,Disabled,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,1,2,2,22,21,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,1,2,2,0,0,0,1,0,1,0
+2022/2023,Male,Disabled,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,4,8,9,0,0,0,2,0,5,0
+2022/2023,Male,Disabled,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,4,9,11,2,0,0,1,0,5,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,4,11,13,2,0,0,1,0,6,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,6,15,16,2,0,0,2,0,8,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,5,13,14,2,0,0,2,0,7,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,5,13,16,3,2,0,2,0,7,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,6,17,20,5,3,0,2,0,8,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,2,4,4,2,0,0,1,0,1,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,4,9,9,2,0,0,1,0,4,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,5,11,13,5,3,0,2,0,4,1
+2022/2023,Male,Disabled,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,6,5,38,37,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,8,19,20,106,96,0,3,0,0,6
+2022/2023,Male,Disabled,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,1,4,4,19,18,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,1,4,4,38,34,0,0,0,0,3
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,4,11,11,2,0,0,1,0,5,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,5,13,14,2,0,0,1,0,7,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,6,15,16,2,0,0,2,0,8,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,8,19,22,2,0,0,3,0,11,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,7,17,20,2,0,0,3,0,10,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,7,17,20,5,3,0,3,0,8,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,9,23,25,6,5,0,3,0,10,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,2,6,5,2,0,0,1,0,2,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,4,11,13,2,0,0,1,0,6,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,6,17,18,3,2,0,2,0,8,1
+2022/2023,Male,Disabled,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,8,7,56,50,0,0,0,0,4
+2022/2023,Male,Disabled,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,10,25,27,128,115,22,4,0,0,8
+2022/2023,Male,Disabled,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,2,4,5,38,34,0,1,0,0,3
+2022/2023,Male,Disabled,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,1,4,4,38,34,0,0,0,0,3
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,18,45,50,3,2,0,6,0,26,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,28,72,76,5,3,0,9,0,39,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,26,68,72,5,3,0,8,0,37,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,39,100,112,6,5,0,13,0,58,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,29,74,85,6,5,0,10,0,43,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,34,87,95,35,34,0,11,0,31,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,43,110,123,43,40,0,15,0,41,2
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,8,21,23,10,8,0,3,0,7,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,20,51,54,18,14,0,7,0,19,2
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,26,66,76,29,26,0,9,0,24,2
+2023/2024,Female,ALL,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,14,36,40,227,226,0,4,0,0,1
+2023/2024,Female,ALL,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,40,102,114,480,394,86,14,0,0,54
+2023/2024,Female,ALL,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,8,21,22,114,112,0,3,0,0,1
+2023/2024,Female,ALL,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,8,21,22,114,112,0,2,0,0,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,35,89,94,6,5,0,12,0,48,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,52,135,146,10,8,0,17,0,75,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,46,117,130,8,6,0,16,0,67,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,73,188,209,14,13,0,25,0,107,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,55,144,160,11,10,0,18,0,82,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,61,157,173,66,59,0,20,0,55,4
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,72,186,202,72,64,0,25,0,67,5
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,14,36,40,13,10,0,5,0,14,2
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,39,100,104,38,34,0,13,0,34,3
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,50,129,142,56,51,0,17,0,44,3
+2023/2024,Female,ALL,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,24,63,70,397,338,65,8,0,0,37
+2023/2024,Female,ALL,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,78,201,218,1119,993,129,26,0,0,79
+2023/2024,Female,ALL,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,15,38,41,256,229,22,5,0,0,17
+2023/2024,Female,ALL,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,14,34,36,216,210,0,5,0,0,4
+2023/2024,Female,ALL,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,46,119,130,8,6,0,16,0,67,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,69,180,200,14,13,0,23,0,102,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,66,171,182,11,10,0,23,0,94,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,94,243,267,18,16,0,32,0,137,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,72,186,205,14,13,0,25,0,105,1
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,77,199,220,85,80,0,26,0,69,3
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,106,273,297,110,104,0,36,0,96,4
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,19,49,50,18,16,0,6,0,17,1
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,52,133,141,53,50,0,18,0,45,2
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,64,165,184,70,69,0,22,0,58,1
+2023/2024,Female,ALL,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,34,87,97,551,514,43,12,0,0,23
+2023/2024,Female,ALL,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,106,273,297,1505,1398,108,36,0,0,67
+2023/2024,Female,ALL,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,20,53,56,323,299,22,6,0,0,15
+2023/2024,Female,ALL,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,19,47,52,304,280,22,7,0,0,15
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,4,4,0,0,0,1,0,2,0
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,2,6,5,0,0,0,0,0,3,0
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,2,6,7,0,0,0,1,0,4,0
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,4,9,11,2,0,0,1,0,5,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,3,8,7,0,0,0,1,0,4,0
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,8,7,5,3,0,1,0,1,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,4,9,11,5,3,0,1,0,3,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,1,2,2,2,0,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,2,4,4,2,0,0,1,0,1,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,2,8,7,5,3,0,0,0,1,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,1,4,4,45,43,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,4,9,9,32,30,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,1,2,2,16,14,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,1,2,2,16,14,0,1,0,0,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,8,7,0,0,0,1,0,4,0
+2023/2024,Female,Disabled,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,3,8,9,0,0,0,1,0,5,0
+2023/2024,Female,Disabled,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,4,9,11,2,0,0,2,0,5,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,5,15,14,2,0,0,1,0,7,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,5,11,13,2,0,0,2,0,6,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,5,11,14,5,3,0,2,0,5,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,5,15,16,6,5,0,1,0,5,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,1,4,4,2,0,0,0,0,1,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,3,8,9,3,2,0,1,0,3,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,4,11,11,5,3,0,1,0,3,1
+2023/2024,Female,Disabled,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,4,5,40,38,0,1,0,0,1
+2023/2024,Female,Disabled,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,6,15,18,91,82,0,2,0,0,6
+2023/2024,Female,Disabled,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,1,4,4,27,26,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,1,2,4,27,26,0,1,0,0,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,4,9,11,0,0,0,1,0,6,0
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,4,11,13,0,0,0,1,0,7,0
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,5,13,14,0,0,0,2,0,8,0
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,7,19,20,2,0,0,2,0,10,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,6,15,18,2,0,0,3,0,9,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,5,15,14,5,3,0,1,0,5,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,8,21,22,6,5,0,2,0,8,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,2,4,5,2,0,0,1,0,2,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,4,11,13,3,2,0,1,0,5,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,6,15,16,6,5,0,2,0,5,1
+2023/2024,Female,Disabled,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,6,7,40,34,0,1,0,0,4
+2023/2024,Female,Disabled,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,8,21,23,94,82,22,3,0,0,8
+2023/2024,Female,Disabled,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,2,4,4,27,22,0,1,0,0,3
+2023/2024,Female,Disabled,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,1,4,4,27,22,0,0,0,0,3
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,21,55,61,3,2,0,7,0,32,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,32,83,88,3,2,0,11,0,47,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,31,80,86,3,2,0,10,0,46,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,45,116,128,6,5,0,15,0,67,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,35,91,104,6,5,0,12,0,54,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,40,102,117,35,34,0,14,0,43,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,51,131,137,34,32,0,17,0,55,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,10,25,27,8,6,0,4,0,10,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,22,57,59,16,13,0,7,0,23,2
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,31,80,88,26,24,0,11,0,33,1
+2023/2024,Male,ALL,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,16,42,45,184,183,0,6,0,0,1
+2023/2024,Male,ALL,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,51,133,141,506,445,65,17,0,0,38
+2023/2024,Male,ALL,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,11,27,31,117,115,0,4,0,0,1
+2023/2024,Male,ALL,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,10,25,29,117,115,0,4,0,0,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,41,106,114,5,3,0,14,0,60,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,55,142,162,8,6,0,19,0,85,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,55,142,153,8,6,0,19,0,80,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,84,218,241,13,11,0,28,0,126,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,64,165,180,10,8,0,22,0,94,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,77,199,218,67,62,0,26,0,79,3
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,92,239,258,75,67,0,31,0,96,5
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,18,45,52,16,14,0,6,0,19,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,43,110,119,32,29,0,15,0,46,2
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,61,157,171,51,45,0,21,0,63,4
+2023/2024,Male,ALL,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,28,72,79,298,277,22,9,0,0,13
+2023/2024,Male,ALL,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,99,258,274,1119,993,129,33,0,0,79
+2023/2024,Male,ALL,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,18,47,50,195,165,43,6,0,0,19
+2023/2024,Male,ALL,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,15,38,41,216,191,22,5,0,0,16
+2023/2024,Male,ALL,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,58,148,159,8,6,0,20,0,83,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,79,205,223,11,10,0,27,0,117,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,77,197,213,11,10,0,27,0,111,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,115,296,332,18,16,0,39,0,173,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,87,224,252,14,13,0,30,0,131,1
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,95,244,274,86,80,0,32,0,98,4
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,126,324,355,102,94,0,43,0,133,5
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,22,55,61,19,18,0,8,0,22,1
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,57,148,162,46,42,0,19,0,61,3
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,78,201,218,69,62,0,26,0,78,4
+2023/2024,Male,ALL,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,38,99,108,500,476,22,13,0,0,15
+2023/2024,Male,ALL,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,127,328,350,1528,1413,129,43,0,0,72
+2023/2024,Male,ALL,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,26,66,72,304,299,0,9,0,0,3
+2023/2024,Male,ALL,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,23,59,63,304,280,22,8,0,0,15
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,4,5,0,0,0,1,0,3,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,2,6,5,0,0,0,1,0,3,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,3,8,7,0,0,0,1,0,4,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,4,9,11,0,0,0,2,0,6,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,3,8,9,0,0,0,1,0,5,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,4,9,9,3,2,0,1,0,3,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,4,11,13,2,0,0,1,0,6,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,1,2,4,2,0,0,0,0,1,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,2,4,5,2,0,0,1,0,2,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,3,8,9,3,2,0,1,0,3,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,4,4,16,14,0,1,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,4,11,11,16,14,0,1,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,1,2,4,16,14,0,1,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,1,2,4,16,14,0,1,0,0,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,8,9,0,0,0,1,0,5,0
+2023/2024,Male,Disabled,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,4,9,11,0,0,0,1,0,6,0
+2023/2024,Male,Disabled,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,5,13,14,0,0,0,1,0,8,0
+2023/2024,Male,Disabled,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,6,17,18,2,0,0,2,0,9,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,6,15,16,0,0,0,2,0,9,0
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,5,13,16,5,3,0,2,0,6,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,7,19,22,6,5,0,2,0,8,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,2,4,4,2,0,0,1,0,1,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,4,9,9,2,0,0,1,0,4,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,5,13,16,5,3,0,2,0,6,1
+2023/2024,Male,Disabled,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2,6,7,27,26,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,8,19,22,62,54,0,3,0,0,5
+2023/2024,Male,Disabled,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,2,4,4,13,11,0,1,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,1,4,4,29,27,0,0,0,0,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,5,11,13,0,0,0,2,0,7,0
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,5,13,13,0,0,0,1,0,7,0
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,6,17,18,2,0,0,2,0,9,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,8,21,23,2,0,0,3,0,12,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,8,19,22,2,0,0,3,0,11,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,7,19,20,5,3,0,2,0,8,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,9,25,27,6,5,0,3,0,11,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,2,6,7,2,0,0,1,0,3,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,5,11,14,3,2,0,2,0,6,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,6,17,20,5,3,0,2,0,8,1
+2023/2024,Male,Disabled,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3,8,7,40,34,0,1,0,0,4
+2023/2024,Male,Disabled,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,11,27,29,107,96,22,4,0,0,7
+2023/2024,Male,Disabled,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,2,4,5,27,22,0,1,0,0,3
+2023/2024,Male,Disabled,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,2,4,4,27,22,0,1,0,0,3
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,96,248,166,70,64,6,33,39,48,4
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,143,369,245,104,96,8,48,59,71,5
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,137,352,234,99,91,8,47,56,68,5
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,212,546,364,154,143,12,72,86,106,7
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,143,369,245,104,96,8,48,59,71,5
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,165,424,283,120,111,10,57,67,82,6
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,221,570,378,162,149,13,75,91,109,8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,41,104,70,29,27,2,14,16,21,1
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,99,258,171,72,67,6,33,41,50,3
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,143,369,245,104,96,8,48,59,71,5
+2024/2025,Female,ALL,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,72,184,123,53,48,4,25,29,35,3
+2024/2025,Female,ALL,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,209,538,359,152,139,12,71,85,104,8
+2024/2025,Female,ALL,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,44,112,74,32,29,3,15,18,21,2
+2024/2025,Female,ALL,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,44,112,74,32,29,3,15,18,21,2
+2024/2025,Female,ALL,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,181,466,310,131,122,11,61,74,90,6
+2024/2025,Female,ALL,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,252,650,432,184,170,15,86,103,125,9
+2024/2025,Female,ALL,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,240,618,411,175,160,14,82,98,119,9
+2024/2025,Female,ALL,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,368,947,631,267,247,21,125,150,183,13
+2024/2025,Female,ALL,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,270,697,465,197,181,16,92,110,135,10
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,311,801,533,227,208,18,106,127,154,12
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,398,1027,683,290,267,23,135,163,198,14
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,87,225,150,64,59,5,29,36,43,3
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,183,474,315,134,123,11,62,75,91,7
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,270,697,465,197,181,16,92,110,135,10
+2024/2025,Female,ALL,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,134,345,229,98,90,8,46,55,66,5
+2024/2025,Female,ALL,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,407,1051,699,298,274,24,138,167,202,15
+2024/2025,Female,ALL,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,72,184,123,53,48,4,25,29,35,3
+2024/2025,Female,ALL,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,78,201,133,56,53,5,26,32,39,2
+2024/2025,Female,ALL,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,258,665,443,189,173,15,88,105,128,10
+2024/2025,Female,ALL,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,336,866,577,245,226,20,115,137,167,12
+2024/2025,Female,ALL,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,342,883,587,250,229,20,116,140,170,13
+2024/2025,Female,ALL,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,504,1300,865,368,338,29,171,206,250,19
+2024/2025,Female,ALL,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,352,906,604,256,235,20,120,143,175,13
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,414,1067,710,303,277,24,141,169,205,16
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,548,1411,940,400,368,32,187,223,272,20
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,115,297,198,83,77,7,39,47,58,4
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,262,674,449,191,176,15,89,107,130,9
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,342,883,587,250,229,20,116,140,170,13
+2024/2025,Female,ALL,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,178,457,304,130,119,10,61,72,88,7
+2024/2025,Female,ALL,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,560,1444,962,408,376,33,191,228,279,20
+2024/2025,Female,ALL,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,103,265,177,75,69,6,35,42,51,4
+2024/2025,Female,ALL,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,91,233,155,66,61,5,31,37,45,3
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,9,25,16,6,6,1,3,4,5,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,9,25,16,6,6,1,3,4,5,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,12,32,22,10,8,1,4,5,6,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,19,47,32,14,13,1,7,7,9,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,15,40,27,11,10,1,5,6,8,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,15,40,27,11,10,1,5,6,8,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,19,47,32,14,13,1,7,7,9,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,3,8,5,2,2,0,1,1,2,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,9,25,16,6,6,1,3,4,5,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,12,32,22,10,8,1,4,5,6,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,6,15,11,5,5,0,3,2,3,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,15,40,27,11,10,1,5,6,8,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,6,15,11,5,5,0,3,2,3,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,6,15,11,5,5,0,3,2,3,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,12,32,22,10,8,1,4,5,6,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,15,40,27,11,10,1,5,6,8,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,19,47,32,14,13,1,7,7,9,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,28,72,47,21,19,2,10,12,13,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,25,64,43,18,16,1,8,10,13,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,22,57,38,16,14,1,7,9,11,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,31,80,52,22,21,2,11,13,15,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,9,25,16,6,6,1,3,4,5,0
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,15,40,27,11,10,1,5,6,8,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,22,57,38,16,14,1,7,9,11,1
+2024/2025,Female,Disabled,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,9,25,16,6,6,1,3,4,5,0
+2024/2025,Female,Disabled,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,34,89,58,26,22,2,11,15,16,2
+2024/2025,Female,Disabled,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,6,15,11,5,5,0,3,2,3,0
+2024/2025,Female,Disabled,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,6,15,11,5,5,0,3,2,3,0
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,19,47,32,13,13,1,7,7,10,0
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,22,57,38,16,14,1,7,9,11,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,28,72,47,21,19,2,9,12,13,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,37,97,63,27,26,2,12,16,18,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,31,80,52,22,21,2,11,13,15,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,31,80,52,22,21,2,11,13,15,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,41,104,68,29,27,2,14,17,20,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,9,25,16,6,6,1,3,4,5,0
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,22,57,38,16,14,1,7,9,11,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,28,72,47,21,19,2,10,12,13,1
+2024/2025,Female,Disabled,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,12,32,22,10,8,1,4,5,6,1
+2024/2025,Female,Disabled,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,46,119,79,34,32,3,16,19,23,1
+2024/2025,Female,Disabled,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,9,25,16,6,6,1,3,4,5,0
+2024/2025,Female,Disabled,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,6,15,11,5,5,0,3,2,3,0
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,121,313,209,88,82,7,41,49,61,4
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,171,441,294,125,115,10,58,70,85,6
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,156,402,267,114,104,9,53,64,77,6
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,236,610,405,173,159,14,80,97,117,9
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,181,466,310,131,122,11,61,74,90,6
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,199,513,342,146,133,12,68,81,99,8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,262,674,449,191,176,15,89,107,130,9
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,46,121,79,34,32,3,15,20,23,1
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,112,288,193,82,75,7,39,45,56,4
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,165,424,283,120,111,10,57,67,82,6
+2024/2025,Male,ALL,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,87,225,150,64,59,5,29,36,43,3
+2024/2025,Male,ALL,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,265,682,454,194,178,15,90,108,131,10
+2024/2025,Male,ALL,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,56,144,95,42,37,3,19,23,27,3
+2024/2025,Male,ALL,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,53,136,90,38,35,3,18,22,26,2
+2024/2025,Male,ALL,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,212,546,364,154,143,12,72,86,106,7
+2024/2025,Male,ALL,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,299,771,513,218,200,17,101,122,149,11
+2024/2025,Male,ALL,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,289,746,497,211,194,17,98,118,144,11
+2024/2025,Male,ALL,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,439,1131,753,320,295,26,149,179,218,16
+2024/2025,Male,ALL,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,336,866,577,245,226,20,115,137,167,12
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,386,995,663,282,259,22,131,157,192,14
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,470,1211,807,343,315,27,160,191,234,17
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,96,248,166,70,64,6,33,39,48,4
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,212,546,364,154,143,12,72,86,106,7
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,318,818,544,232,213,19,108,130,157,12
+2024/2025,Male,ALL,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,149,385,256,109,101,9,51,61,74,5
+2024/2025,Male,ALL,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,495,1275,849,360,332,29,169,202,246,18
+2024/2025,Male,ALL,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,96,248,166,70,64,6,33,39,48,4
+2024/2025,Male,ALL,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,87,225,150,64,59,5,29,36,43,3
+2024/2025,Male,ALL,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,299,771,513,218,200,17,101,122,149,11
+2024/2025,Male,ALL,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,373,962,641,272,251,22,127,152,186,13
+2024/2025,Male,ALL,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,389,1002,668,283,261,23,133,158,194,14
+2024/2025,Male,ALL,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,610,1573,1047,445,410,36,207,249,303,22
+2024/2025,Male,ALL,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,439,1131,753,320,295,26,149,179,218,16
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,498,1283,854,363,335,29,170,203,247,18
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,672,1734,1153,490,452,39,228,275,334,24
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,121,313,209,88,82,7,41,49,61,4
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,299,771,513,218,200,17,101,122,149,11
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,417,1074,715,304,280,24,142,170,207,15
+2024/2025,Male,ALL,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,218,561,375,159,146,13,75,88,109,8
+2024/2025,Male,ALL,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,700,1806,1202,511,468,41,238,286,348,27
+2024/2025,Male,ALL,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,128,330,220,93,85,7,43,52,64,5
+2024/2025,Male,ALL,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,112,288,193,82,75,7,39,45,56,4
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,9,25,16,6,6,1,3,4,5,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Donga,North East,Taraba,Donga,,,12,32,22,10,8,1,4,5,6,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,15,40,27,11,10,1,5,6,8,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,22,57,38,16,14,1,7,9,11,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Wukari,North East,Taraba,Wukari,,,15,40,27,11,10,1,5,6,8,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,15,40,27,11,10,1,5,6,8,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Donga,North East,Taraba,Donga,,,22,57,38,16,14,1,7,9,11,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,3,8,5,2,2,0,1,1,2,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,9,25,16,6,6,1,3,4,5,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,15,40,27,11,10,1,5,6,8,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,9,25,16,6,6,1,3,4,5,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Jalingo,North East,Taraba,Jalingo,,,22,57,38,16,14,1,7,9,11,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Sardauna,North East,Taraba,Sardauna,,,6,15,11,5,5,0,3,2,3,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Wukari,North East,Taraba,Wukari,,,6,15,11,5,5,0,3,2,3,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,19,47,32,13,13,1,7,7,10,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Donga,North East,Taraba,Donga,,,19,47,32,13,13,1,7,7,10,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,22,57,38,16,14,1,7,9,11,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,31,80,52,22,21,2,11,13,15,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Wukari,North East,Taraba,Wukari,,,28,72,47,21,19,2,9,12,13,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,28,72,47,21,19,2,9,12,13,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Donga,North East,Taraba,Donga,,,34,89,58,26,22,2,11,15,16,2
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,9,25,16,6,6,1,3,4,5,0
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,19,47,32,13,13,1,7,7,10,0
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,25,64,43,18,16,1,8,10,13,1
+2024/2025,Male,Disabled,NECO,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,12,32,22,10,8,1,4,5,6,1
+2024/2025,Male,Disabled,NECO,University,lga,Jalingo,North East,Taraba,Jalingo,,,41,104,68,29,27,2,14,17,20,1
+2024/2025,Male,Disabled,NECO,University,lga,Sardauna,North East,Taraba,Sardauna,,,6,15,11,5,5,0,3,2,3,0
+2024/2025,Male,Disabled,NECO,University,lga,Wukari,North East,Taraba,Wukari,,,6,15,11,5,5,0,3,2,3,0
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,22,57,38,16,14,1,7,9,11,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Donga,North East,Taraba,Donga,,,25,64,43,18,16,1,8,10,13,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Jalingo,North East,Taraba,Jalingo,,,34,87,58,26,22,2,12,14,16,2
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Sardauna,North East,Taraba,Sardauna,,,46,119,79,34,32,3,16,19,23,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Wukari,North East,Taraba,Wukari,,,37,97,63,27,26,2,12,16,18,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,37,97,63,27,26,2,12,16,18,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Donga,North East,Taraba,Donga,,,49,129,85,37,34,3,16,21,24,2
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Jalingo,North East,Taraba,Jalingo,,,12,32,22,10,8,1,4,5,6,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Sardauna,North East,Taraba,Sardauna,,,25,64,43,18,16,1,8,10,13,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Wukari,North East,Taraba,Wukari,,,34,87,58,26,22,2,12,14,16,2
+2024/2025,Male,Disabled,WAEC,University,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,15,40,27,11,10,1,5,6,8,1
+2024/2025,Male,Disabled,WAEC,University,lga,Jalingo,North East,Taraba,Jalingo,,,59,152,101,43,40,3,20,24,29,2
+2024/2025,Male,Disabled,WAEC,University,lga,Sardauna,North East,Taraba,Sardauna,,,9,25,16,6,6,1,3,4,5,0
+2024/2025,Male,Disabled,WAEC,University,lga,Wukari,North East,Taraba,Wukari,,,9,25,16,6,6,1,3,4,5,0

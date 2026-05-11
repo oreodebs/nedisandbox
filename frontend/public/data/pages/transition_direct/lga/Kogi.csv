@@ -1,505 +1,505 @@
-session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,all,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,42,34,41,30,27,0,8,0,11,3
-2022/2023,Female,all,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,67,54,63,41,38,0,13,0,22,3
-2022/2023,Female,all,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,121,97,113,71,63,1,24,0,42,8
-2022/2023,Female,all,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,67,54,63,39,38,0,13,0,24,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,104,83,97,165,141,2,21,0,0,24
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,29,23,27,45,41,0,6,0,0,4
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,56,44,52,86,71,1,12,0,0,15
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,72,58,64,96,94,0,14,0,0,2
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,10,8,9,12,11,0,2,0,0,1
-2022/2023,Female,all,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,59,47,52,223,212,1,12,0,0,11
-2022/2023,Female,all,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,60,48,53,254,253,0,12,0,0,1
-2022/2023,Female,all,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,22,17,19,77,76,0,5,0,0,1
-2022/2023,Female,all,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,146,117,135,681,568,9,29,0,0,113
-2022/2023,Female,all,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,82,65,76,439,396,3,17,0,0,43
-2022/2023,Female,all,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,82,66,80,58,55,0,16,0,22,3
-2022/2023,Female,all,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,119,95,112,82,76,0,24,0,30,6
-2022/2023,Female,all,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,208,166,189,128,120,1,42,0,61,8
-2022/2023,Female,all,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,137,109,125,87,79,1,28,0,38,8
-2022/2023,Female,all,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,204,163,192,319,299,2,41,0,0,20
-2022/2023,Female,all,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,48,38,44,69,65,0,10,0,0,4
-2022/2023,Female,all,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,105,84,96,151,143,1,21,0,0,8
-2022/2023,Female,all,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,143,115,129,212,198,1,28,0,0,14
-2022/2023,Female,all,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,23,18,19,28,24,0,5,0,0,4
-2022/2023,Female,all,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,114,91,101,558,520,3,23,0,0,38
-2022/2023,Female,all,NECO,University,lga,Idah,North Central,Kogi,Idah,,,120,96,107,574,528,4,24,0,0,46
-2022/2023,Female,all,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,43,34,37,208,192,1,9,0,0,16
-2022/2023,Female,all,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,272,218,250,1266,1201,5,54,0,0,65
-2022/2023,Female,all,NECO,University,lga,Okene,North Central,Kogi,Okene,,,150,120,139,770,725,4,30,0,0,45
-2022/2023,Female,all,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,100,80,93,76,71,0,20,0,17,5
-2022/2023,Female,all,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,170,136,158,114,106,1,34,0,44,8
-2022/2023,Female,all,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,284,227,261,185,168,1,57,0,76,17
-2022/2023,Female,all,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,185,148,166,112,101,1,37,0,54,11
-2022/2023,Female,all,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,256,205,237,401,367,3,51,0,0,34
-2022/2023,Female,all,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,64,51,59,93,86,1,13,0,0,7
-2022/2023,Female,all,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,136,109,127,219,199,2,27,0,0,20
-2022/2023,Female,all,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,189,151,172,304,280,2,38,0,0,24
-2022/2023,Female,all,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,33,26,29,45,38,1,7,0,0,7
-2022/2023,Female,all,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,150,120,134,720,657,5,30,0,0,63
-2022/2023,Female,all,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,149,119,139,770,709,5,30,0,0,61
-2022/2023,Female,all,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,56,45,50,273,244,2,11,0,0,29
-2022/2023,Female,all,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,344,275,319,1821,1645,14,69,0,0,176
-2022/2023,Female,all,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,212,170,201,1224,1129,8,42,0,0,95
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,4,3,3,3,2,0,1,0,0,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,7,5,6,7,6,0,2,0,0,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,10,8,9,9,8,0,2,0,0,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,7,6,7,7,6,0,1,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,10,8,9,27,24,0,2,0,0,3
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,3,2,2,8,7,0,1,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,4,3,4,12,10,0,1,0,0,2
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,7,6,6,15,14,0,1,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,1,1,1,0,0,0,0,0,1,0
-2022/2023,Female,disabled,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,5,4,4,27,24,0,1,0,0,3
-2022/2023,Female,disabled,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,7,5,6,40,35,0,2,0,0,5
-2022/2023,Female,disabled,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,3,2,2,0,0,0,1,0,2,0
-2022/2023,Female,disabled,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,11,9,10,81,71,1,2,0,0,10
-2022/2023,Female,disabled,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,8,7,7,81,71,1,1,0,0,10
-2022/2023,Female,disabled,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,7,5,7,3,2,0,2,0,4,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,9,7,9,9,8,0,2,0,0,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,14,11,12,11,10,0,3,0,1,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,11,9,11,7,6,0,2,0,4,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,16,13,15,22,21,0,3,0,0,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,3,3,3,8,7,0,0,0,0,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,8,6,7,11,10,0,2,0,0,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,12,9,11,17,16,0,3,0,0,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,2,2,2,3,2,0,0,0,0,1
-2022/2023,Female,disabled,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,10,8,8,38,35,0,2,0,0,3
-2022/2023,Female,disabled,NECO,University,lga,Idah,North Central,Kogi,Idah,,,9,7,9,67,59,1,2,0,0,8
-2022/2023,Female,disabled,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,3,2,3,24,21,0,1,0,0,3
-2022/2023,Female,disabled,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,20,16,19,84,82,0,4,0,0,2
-2022/2023,Female,disabled,NECO,University,lga,Okene,North Central,Kogi,Okene,,,13,10,13,65,64,0,3,0,0,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,8,7,8,6,5,0,1,0,2,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,13,10,11,7,6,0,3,0,4,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,20,16,18,10,9,0,4,0,8,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,15,12,14,7,6,0,3,0,7,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,19,15,18,22,21,0,4,0,0,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,4,4,4,6,5,0,0,0,0,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,11,9,10,12,11,0,2,0,0,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,14,11,13,19,17,0,3,0,0,2
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,3,2,3,3,2,0,1,0,0,1
-2022/2023,Female,disabled,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,13,10,11,54,49,0,3,0,0,5
-2022/2023,Female,disabled,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,11,9,10,54,47,1,2,0,0,7
-2022/2023,Female,disabled,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,4,3,3,22,19,0,1,0,0,3
-2022/2023,Female,disabled,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,27,21,24,97,89,1,6,0,0,8
-2022/2023,Female,disabled,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,17,14,16,86,80,0,3,0,0,6
-2022/2023,Male,all,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,45,36,45,30,27,0,9,0,15,3
-2022/2023,Male,all,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,69,56,63,39,38,0,13,0,24,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,122,97,111,59,54,0,25,0,52,5
-2022/2023,Male,all,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,73,59,66,39,38,0,14,0,27,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,117,94,112,153,131,2,23,0,0,22
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,28,23,25,29,25,0,5,0,0,4
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,60,48,57,91,78,1,12,0,0,13
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,71,57,65,91,89,0,14,0,0,2
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,11,9,10,12,11,0,2,0,0,1
-2022/2023,Male,all,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,64,51,57,242,212,2,13,0,0,30
-2022/2023,Male,all,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,62,50,57,239,238,0,12,0,0,1
-2022/2023,Male,all,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,24,19,21,92,91,0,5,0,0,1
-2022/2023,Male,all,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,148,118,137,647,552,8,30,0,0,95
-2022/2023,Male,all,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,85,68,79,439,396,3,17,0,0,43
-2022/2023,Male,all,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,85,68,81,54,50,0,17,0,27,4
-2022/2023,Male,all,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,133,106,124,84,79,0,27,0,40,5
-2022/2023,Male,all,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,207,166,191,120,108,1,41,0,71,12
-2022/2023,Male,all,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,142,114,131,85,79,0,28,0,46,6
-2022/2023,Male,all,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,222,178,205,327,304,2,44,0,0,23
-2022/2023,Male,all,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,51,40,49,81,71,1,11,0,0,10
-2022/2023,Male,all,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,109,87,97,141,131,1,22,0,0,10
-2022/2023,Male,all,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,138,110,126,205,193,1,28,0,0,12
-2022/2023,Male,all,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,23,19,21,28,24,0,4,0,0,4
-2022/2023,Male,all,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,120,96,108,508,460,4,24,0,0,48
-2022/2023,Male,all,NECO,University,lga,Idah,North Central,Kogi,Idah,,,118,94,106,520,472,4,24,0,0,48
-2022/2023,Male,all,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,52,42,45,212,192,2,10,0,0,20
-2022/2023,Male,all,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,277,221,255,1324,1241,7,56,0,0,83
-2022/2023,Male,all,NECO,University,lga,Okene,North Central,Kogi,Okene,,,154,123,146,804,749,4,31,0,0,55
-2022/2023,Male,all,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,113,91,109,79,73,0,22,0,30,6
-2022/2023,Male,all,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,184,147,174,120,108,1,37,0,54,12
-2022/2023,Male,all,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,272,217,245,157,143,1,55,0,88,14
-2022/2023,Male,all,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,192,154,180,112,105,1,38,0,68,7
-2022/2023,Male,all,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,268,214,246,404,374,2,54,0,0,30
-2022/2023,Male,all,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,68,54,64,99,93,0,14,0,0,6
-2022/2023,Male,all,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,145,116,137,226,212,1,29,0,0,14
-2022/2023,Male,all,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,180,144,163,281,260,2,36,0,0,21
-2022/2023,Male,all,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,35,28,32,50,49,0,7,0,0,1
-2022/2023,Male,all,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,160,128,143,720,657,5,32,0,0,63
-2022/2023,Male,all,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,147,117,131,674,629,4,30,0,0,45
-2022/2023,Male,all,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,66,53,59,293,280,1,13,0,0,13
-2022/2023,Male,all,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,373,298,338,1728,1561,13,75,0,0,167
-2022/2023,Male,all,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,206,165,190,1043,969,6,41,0,0,74
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,4,3,4,3,2,0,1,0,1,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,7,5,6,7,6,0,2,0,0,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,10,8,9,5,4,0,2,0,4,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,7,5,7,7,6,0,2,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,10,8,10,19,17,0,2,0,0,2
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,3,2,2,0,0,0,1,0,2,0
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,5,4,4,12,10,0,1,0,0,2
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,7,6,6,12,10,0,1,0,0,2
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,1,1,1,0,0,0,0,0,1,0
-2022/2023,Male,disabled,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,5,4,5,27,24,0,1,0,0,3
-2022/2023,Male,disabled,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,7,5,6,27,24,0,2,0,0,3
-2022/2023,Male,disabled,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,3,2,2,13,12,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,12,9,10,67,59,1,3,0,0,8
-2022/2023,Male,disabled,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,8,7,7,65,56,1,1,0,0,9
-2022/2023,Male,disabled,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,7,6,7,5,4,0,1,0,2,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,10,8,9,7,6,0,2,0,2,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,15,12,13,8,7,0,3,0,5,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,13,10,12,7,6,0,3,0,5,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,17,14,17,26,24,0,3,0,0,2
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,3,3,3,8,7,0,0,0,0,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,8,7,8,11,10,0,1,0,0,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,11,9,10,17,16,0,2,0,0,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,3,2,2,3,2,0,1,0,0,1
-2022/2023,Male,disabled,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,9,7,8,24,23,0,2,0,0,1
-2022/2023,Male,disabled,NECO,University,lga,Idah,North Central,Kogi,Idah,,,9,7,9,54,47,1,2,0,0,7
-2022/2023,Male,disabled,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,3,2,2,11,10,0,1,0,0,1
-2022/2023,Male,disabled,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,23,18,20,94,92,0,5,0,0,2
-2022/2023,Male,disabled,NECO,University,lga,Okene,North Central,Kogi,Okene,,,13,10,13,65,64,0,3,0,0,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,9,7,9,4,3,0,2,0,5,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,13,11,13,6,5,0,2,0,7,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,18,15,16,10,9,0,3,0,6,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,15,12,14,7,6,0,3,0,7,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,22,17,20,25,24,0,5,0,0,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,5,4,4,6,5,0,1,0,0,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,12,10,11,12,11,0,2,0,0,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,14,11,12,18,16,0,3,0,0,2
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,4,3,3,3,2,0,1,0,0,1
-2022/2023,Male,disabled,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,13,10,11,43,40,0,3,0,0,3
-2022/2023,Male,disabled,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,12,9,10,54,47,1,3,0,0,7
-2022/2023,Male,disabled,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,4,3,4,22,19,0,1,0,0,3
-2022/2023,Male,disabled,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,29,23,27,86,78,1,6,0,0,8
-2022/2023,Male,disabled,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,17,14,17,75,68,1,3,0,0,7
-2023/2024,Female,all,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,43,35,42,21,18,0,8,0,21,3
-2023/2024,Female,all,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,70,56,66,33,31,0,14,0,33,2
-2023/2024,Female,all,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,127,101,116,55,49,0,26,0,61,6
-2023/2024,Female,all,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,76,61,66,30,27,0,15,0,36,3
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,109,87,98,156,146,1,22,0,0,10
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,29,23,26,47,44,0,6,0,0,3
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,58,46,53,88,76,1,12,0,0,12
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,82,65,78,127,113,1,17,0,0,14
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,13,11,12,12,11,0,2,0,0,1
-2023/2024,Female,all,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,63,51,57,216,196,2,12,0,0,20
-2023/2024,Female,all,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,65,52,61,256,253,0,13,0,0,3
-2023/2024,Female,all,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,25,20,20,70,69,0,5,0,0,1
-2023/2024,Female,all,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,158,127,147,569,499,6,31,0,0,70
-2023/2024,Female,all,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,91,73,85,374,344,2,18,0,0,30
-2023/2024,Female,all,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,83,67,80,43,40,0,16,0,37,3
-2023/2024,Female,all,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,130,104,121,66,62,0,26,0,55,4
-2023/2024,Female,all,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,236,189,213,106,100,0,47,0,107,6
-2023/2024,Female,all,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,139,112,131,63,60,0,27,0,68,3
-2023/2024,Female,all,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,204,163,183,317,295,2,41,0,0,22
-2023/2024,Female,all,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,54,44,51,92,82,1,10,0,0,10
-2023/2024,Female,all,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,110,88,104,178,168,1,22,0,0,10
-2023/2024,Female,all,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,140,112,131,236,219,1,28,0,0,17
-2023/2024,Female,all,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,24,19,22,35,32,0,5,0,0,3
-2023/2024,Female,all,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,121,97,110,423,388,3,24,0,0,35
-2023/2024,Female,all,NECO,University,lga,Idah,North Central,Kogi,Idah,,,114,91,106,447,420,2,23,0,0,27
-2023/2024,Female,all,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,45,36,38,137,120,1,9,0,0,17
-2023/2024,Female,all,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,289,231,267,1129,1055,6,58,0,0,74
-2023/2024,Female,all,NECO,University,lga,Okene,North Central,Kogi,Okene,,,168,135,158,682,654,2,33,0,0,28
-2023/2024,Female,all,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,116,93,112,65,58,1,23,0,47,7
-2023/2024,Female,all,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,173,139,158,87,83,0,34,0,71,4
-2023/2024,Female,all,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,307,245,285,141,130,1,62,0,144,11
-2023/2024,Female,all,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,193,154,181,93,86,1,39,0,88,7
-2023/2024,Female,all,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,292,234,272,510,475,3,58,0,0,35
-2023/2024,Female,all,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,66,52,58,113,104,1,14,0,0,9
-2023/2024,Female,all,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,143,115,131,247,225,2,28,0,0,22
-2023/2024,Female,all,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,193,155,180,322,290,3,38,0,0,32
-2023/2024,Female,all,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,32,26,29,44,41,0,6,0,0,3
-2023/2024,Female,all,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,158,127,140,612,562,4,31,0,0,50
-2023/2024,Female,all,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,161,128,146,636,581,4,33,0,0,55
-2023/2024,Female,all,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,58,46,52,204,193,1,12,0,0,11
-2023/2024,Female,all,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,368,295,332,1412,1292,10,73,0,0,120
-2023/2024,Female,all,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,228,182,211,968,878,7,46,0,0,90
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,4,3,3,3,2,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,7,6,7,7,6,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,11,9,10,8,7,0,2,0,2,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,7,6,6,5,4,0,1,0,1,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,10,8,9,21,18,0,2,0,0,3
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,3,2,2,9,8,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,5,4,5,13,11,0,1,0,0,2
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,8,6,8,17,15,0,2,0,0,2
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,1,1,1,0,0,0,0,0,1,0
-2023/2024,Female,disabled,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,5,4,4,22,19,0,1,0,0,3
-2023/2024,Female,disabled,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,7,6,7,54,47,1,1,0,0,7
-2023/2024,Female,disabled,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,3,2,2,11,9,0,1,0,0,2
-2023/2024,Female,disabled,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,12,10,11,75,65,1,2,0,0,10
-2023/2024,Female,disabled,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,9,7,8,62,54,1,2,0,0,8
-2023/2024,Female,disabled,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,7,5,7,3,2,0,2,0,4,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,10,8,9,6,5,0,2,0,3,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,17,14,16,9,8,0,3,0,7,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,12,9,11,5,4,0,3,0,6,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,17,13,15,29,27,0,4,0,0,2
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,4,3,3,8,7,0,1,0,0,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,9,7,8,12,11,0,2,0,0,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,11,9,10,17,16,0,2,0,0,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,2,1,2,3,2,0,1,0,0,1
-2023/2024,Female,disabled,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,9,7,9,32,28,0,2,0,0,4
-2023/2024,Female,disabled,NECO,University,lga,Idah,North Central,Kogi,Idah,,,9,7,8,52,45,1,2,0,0,7
-2023/2024,Female,disabled,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,3,2,2,9,7,0,1,0,0,2
-2023/2024,Female,disabled,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,22,18,21,69,68,0,4,0,0,1
-2023/2024,Female,disabled,NECO,University,lga,Okene,North Central,Kogi,Okene,,,13,11,12,52,51,0,2,0,0,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,10,8,10,4,3,0,2,0,6,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,13,10,12,5,4,0,3,0,7,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,22,17,21,8,7,0,5,0,13,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,16,13,15,5,4,0,3,0,10,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,23,18,22,31,29,0,5,0,0,2
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,4,3,4,7,6,0,1,0,0,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,12,9,11,14,13,0,3,0,0,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,16,12,15,21,19,0,4,0,0,2
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,3,2,2,3,2,0,1,0,0,1
-2023/2024,Female,disabled,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,13,10,11,45,41,0,3,0,0,4
-2023/2024,Female,disabled,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,12,9,10,41,39,0,3,0,0,2
-2023/2024,Female,disabled,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,4,3,3,17,16,0,1,0,0,1
-2023/2024,Female,disabled,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,28,22,25,69,61,1,6,0,0,8
-2023/2024,Female,disabled,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,19,15,18,60,54,0,4,0,0,6
-2023/2024,Male,all,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,43,34,41,19,17,0,9,0,22,2
-2023/2024,Male,all,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,73,58,68,33,31,0,15,0,35,2
-2023/2024,Male,all,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,125,100,114,45,40,0,25,0,69,5
-2023/2024,Male,all,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,80,64,73,30,27,0,16,0,43,3
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,116,93,108,163,145,1,23,0,0,18
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,30,24,28,47,44,0,6,0,0,3
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,63,51,57,85,69,1,12,0,0,16
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,80,64,73,120,113,1,16,0,0,7
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,13,11,11,12,11,0,2,0,0,1
-2023/2024,Male,all,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,64,51,59,213,196,1,13,0,0,17
-2023/2024,Male,all,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,66,53,63,183,182,0,13,0,0,1
-2023/2024,Male,all,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,29,23,26,55,54,0,6,0,0,1
-2023/2024,Male,all,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,157,126,145,511,439,6,31,0,0,72
-2023/2024,Male,all,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,93,75,87,341,313,2,18,0,0,28
-2023/2024,Male,all,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,83,66,81,43,40,0,17,0,38,3
-2023/2024,Male,all,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,139,111,130,68,62,0,28,0,62,6
-2023/2024,Male,all,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,240,192,218,105,95,1,48,0,113,10
-2023/2024,Male,all,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,151,120,138,68,63,0,31,0,70,5
-2023/2024,Male,all,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,219,175,203,322,301,2,44,0,0,21
-2023/2024,Male,all,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,56,45,53,92,88,0,11,0,0,4
-2023/2024,Male,all,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,113,90,102,173,162,1,23,0,0,11
-2023/2024,Male,all,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,140,112,125,213,196,1,28,0,0,17
-2023/2024,Male,all,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,25,20,22,35,32,0,5,0,0,3
-2023/2024,Male,all,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,129,103,115,380,341,3,26,0,0,39
-2023/2024,Male,all,NECO,University,lga,Idah,North Central,Kogi,Idah,,,119,95,106,405,373,3,24,0,0,32
-2023/2024,Male,all,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,53,43,46,161,148,1,10,0,0,13
-2023/2024,Male,all,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,298,238,274,1050,935,9,60,0,0,115
-2023/2024,Male,all,NECO,University,lga,Okene,North Central,Kogi,Okene,,,166,133,157,663,638,2,33,0,0,25
-2023/2024,Male,all,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,117,94,113,63,58,0,23,0,50,5
-2023/2024,Male,all,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,188,150,175,92,84,1,38,0,83,8
-2023/2024,Male,all,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,301,241,278,135,126,1,60,0,143,9
-2023/2024,Male,all,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,203,163,189,93,84,1,40,0,96,9
-2023/2024,Male,all,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,300,240,277,478,435,3,60,0,0,43
-2023/2024,Male,all,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,65,52,60,101,93,1,13,0,0,8
-2023/2024,Male,all,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,160,128,147,247,233,1,32,0,0,14
-2023/2024,Male,all,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,190,152,175,295,266,2,38,0,0,29
-2023/2024,Male,all,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,34,27,29,44,41,0,7,0,0,3
-2023/2024,Male,all,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,175,140,158,624,578,4,35,0,0,46
-2023/2024,Male,all,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,163,131,150,615,568,4,32,0,0,47
-2023/2024,Male,all,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,67,53,60,228,205,2,14,0,0,23
-2023/2024,Male,all,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,393,315,359,1415,1304,9,78,0,0,111
-2023/2024,Male,all,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,237,190,219,965,878,7,47,0,0,87
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,4,3,4,3,2,0,1,0,1,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,7,6,6,5,4,0,1,0,1,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,10,8,10,5,4,0,2,0,5,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,7,6,7,4,3,0,1,0,3,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,10,8,9,17,14,0,2,0,0,3
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,3,2,2,9,8,0,1,0,0,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,5,4,5,13,11,0,1,0,0,2
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,8,6,8,22,19,0,2,0,0,3
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,1,1,1,0,0,0,0,0,1,0
-2023/2024,Male,disabled,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,5,4,5,30,26,0,1,0,0,4
-2023/2024,Male,disabled,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,7,6,6,22,19,0,1,0,0,3
-2023/2024,Male,disabled,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,3,2,2,0,0,0,1,0,2,0
-2023/2024,Male,disabled,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,12,10,11,54,47,1,2,0,0,7
-2023/2024,Male,disabled,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,9,7,8,62,54,1,2,0,0,8
-2023/2024,Male,disabled,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,7,6,7,3,2,0,1,0,4,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,10,8,9,6,5,0,2,0,3,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,17,14,15,7,6,0,3,0,8,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,12,10,11,5,4,0,2,0,6,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,17,14,16,25,23,0,3,0,0,2
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,4,3,4,8,7,0,1,0,0,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,9,7,8,12,11,0,2,0,0,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,12,9,10,17,16,0,3,0,0,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,2,2,2,3,2,0,0,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,11,8,10,28,27,0,3,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Idah,North Central,Kogi,Idah,,,9,7,8,52,45,1,2,0,0,7
-2023/2024,Male,disabled,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,3,3,3,9,8,0,0,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,22,18,21,62,61,0,4,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Okene,North Central,Kogi,Okene,,,14,11,13,49,48,0,3,0,0,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,11,9,10,4,3,0,2,0,6,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,14,12,14,5,4,0,2,0,9,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,21,17,20,7,6,0,4,0,13,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,17,14,15,5,4,0,3,0,10,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,24,19,22,24,22,0,5,0,0,2
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,4,4,4,7,6,0,0,0,0,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,13,10,12,14,13,0,3,0,0,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,15,12,14,17,15,0,3,0,0,2
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,3,2,3,3,2,0,1,0,0,1
-2023/2024,Male,disabled,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,14,11,12,43,41,0,3,0,0,2
-2023/2024,Male,disabled,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,12,9,10,43,41,0,3,0,0,2
-2023/2024,Male,disabled,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,4,3,3,9,7,0,1,0,0,2
-2023/2024,Male,disabled,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,31,24,29,84,78,0,7,0,0,6
-2023/2024,Male,disabled,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,20,16,18,60,54,0,4,0,0,6
-2024/2025,Female,all,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,166,133,93,44,41,0.264145,33,40,49,3
-2024/2025,Female,all,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,266,213,149,71,65,0.422632,53,64,78,6
-2024/2025,Female,all,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,439,351,246,118,108,0.698517,88,105,128,10
-2024/2025,Female,all,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,295,236,165,79,73,0.469591,59,71,86,6
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,402,322,225,108,99,0.639818,80,97,117,9
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,111,89,62,30,27,0.176097,22,27,32,3
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,203,162,114,54,50,0.322844,41,48,60,4
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,284,227,159,76,70,0.451981,57,68,83,6
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,48,38,27,13,12,0.076309,10,11,14,1
-2024/2025,Female,all,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,218,174,122,58,54,0.346323,44,52,64,4
-2024/2025,Female,all,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,243,195,136,65,60,0.387413,48,59,71,5
-2024/2025,Female,all,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,92,74,52,25,23,0.146747,18,22,27,2
-2024/2025,Female,all,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,542,434,304,145,134,0.862873,108,130,159,11
-2024/2025,Female,all,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,328,263,184,88,81,0.52242,65,79,96,7
-2024/2025,Female,all,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,314,251,176,84,77,0.49894,63,75,92,7
-2024/2025,Female,all,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,457,366,256,122,113,0.727866,91,110,134,9
-2024/2025,Female,all,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,822,658,461,220,203,1.308985,164,197,241,17
-2024/2025,Female,all,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,520,416,291,139,128,0.827654,104,125,152,11
-2024/2025,Female,all,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,745,596,417,200,184,1.185717,149,179,217,16
-2024/2025,Female,all,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,203,162,114,54,50,0.322844,41,48,60,4
-2024/2025,Female,all,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,398,319,223,107,98,0.633948,79,96,116,9
-2024/2025,Female,all,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,546,437,306,146,134,0.868743,109,131,160,12
-2024/2025,Female,all,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,81,65,45,22,20,0.129138,16,20,23,2
-2024/2025,Female,all,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,417,333,233,112,103,0.663297,84,100,121,9
-2024/2025,Female,all,NECO,University,lga,Idah,North Central,Kogi,Idah,,,439,351,246,118,108,0.698517,88,105,128,10
-2024/2025,Female,all,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,151,121,85,40,37,0.240665,30,36,45,3
-2024/2025,Female,all,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,1051,841,589,282,259,1.672918,210,252,307,23
-2024/2025,Female,all,NECO,University,lga,Okene,North Central,Kogi,Okene,,,597,478,335,160,147,0.950922,119,143,175,13
-2024/2025,Female,all,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,365,292,204,98,90,0.581119,73,88,106,8
-2024/2025,Female,all,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,627,502,351,168,154,0.997881,125,151,183,14
-2024/2025,Female,all,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,1092,873,611,292,269,1.737487,219,262,319,23
-2024/2025,Female,all,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,704,564,394,189,174,1.121148,140,170,205,15
-2024/2025,Female,all,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,1051,841,589,282,259,1.672918,210,252,307,23
-2024/2025,Female,all,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,255,204,143,68,63,0.405022,51,61,75,5
-2024/2025,Female,all,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,531,425,297,142,131,0.845264,106,128,155,11
-2024/2025,Female,all,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,716,572,401,192,176,1.138758,144,171,209,16
-2024/2025,Female,all,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,114,92,64,31,28,0.181966,22,28,33,3
-2024/2025,Female,all,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,597,478,335,160,147,0.950922,119,143,175,13
-2024/2025,Female,all,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,590,472,330,158,145,0.939182,118,142,172,13
-2024/2025,Female,all,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,210,168,118,56,52,0.334584,42,50,62,4
-2024/2025,Female,all,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,1405,1124,787,376,346,2.236427,281,337,411,30
-2024/2025,Female,all,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,811,649,454,217,200,1.291375,162,195,237,17
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,15,12,8,4,4,0.02348,3,4,4,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,26,21,15,7,6,0.041089,5,6,8,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,37,30,21,10,9,0.058699,7,9,11,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,26,21,14,7,6,0.041089,5,7,7,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,41,32,23,11,10,0.064569,9,9,12,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,11,9,6,3,3,0.01761,2,3,3,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,15,12,8,4,4,0.02348,3,4,4,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,30,24,17,8,7,0.046959,6,7,9,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,4,3,2,1,1,0.00587,1,1,1,0
-2024/2025,Female,disabled,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,18,15,10,5,5,0.029349,3,5,5,0
-2024/2025,Female,disabled,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,26,21,14,7,6,0.041089,5,7,7,1
-2024/2025,Female,disabled,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,11,9,6,3,3,0.01761,2,3,3,0
-2024/2025,Female,disabled,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,44,35,25,12,11,0.070439,9,10,13,1
-2024/2025,Female,disabled,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,33,27,19,9,8,0.052829,6,8,10,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,26,21,14,7,6,0.041089,5,7,7,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,33,27,19,9,8,0.052829,6,8,10,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,59,47,33,16,15,0.093918,12,14,17,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,41,32,23,11,10,0.064569,9,9,12,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,59,47,33,16,15,0.093918,12,14,17,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,11,9,6,3,3,0.01761,2,3,3,0
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,30,24,17,8,7,0.046959,6,7,9,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,44,35,25,12,11,0.070439,9,10,13,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,7,6,4,2,2,0.01174,1,2,2,0
-2024/2025,Female,disabled,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,30,24,17,8,7,0.046959,6,7,9,1
-2024/2025,Female,disabled,NECO,University,lga,Idah,North Central,Kogi,Idah,,,33,27,19,9,8,0.052829,6,8,10,1
-2024/2025,Female,disabled,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,11,9,6,3,3,0.01761,2,3,3,0
-2024/2025,Female,disabled,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,81,65,46,21,20,0.129138,16,19,25,1
-2024/2025,Female,disabled,NECO,University,lga,Okene,North Central,Kogi,Okene,,,48,38,27,13,12,0.076309,10,11,14,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,30,24,17,8,7,0.046959,6,7,9,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,48,38,27,13,12,0.076309,10,11,14,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,78,62,43,20,19,0.123268,16,19,23,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,63,50,35,17,15,0.099788,13,15,18,2
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,81,65,46,21,20,0.129138,16,19,25,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,18,15,10,5,5,0.029349,3,5,5,0
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,41,32,23,11,10,0.064569,9,9,12,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,59,47,33,16,15,0.093918,12,14,17,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,11,9,6,3,3,0.01761,2,3,3,0
-2024/2025,Female,disabled,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,48,38,27,13,12,0.076309,10,11,14,1
-2024/2025,Female,disabled,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,44,35,25,12,11,0.070439,9,10,13,1
-2024/2025,Female,disabled,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,11,9,6,3,3,0.01761,2,3,3,0
-2024/2025,Female,disabled,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,107,86,60,28,26,0.170227,21,26,32,2
-2024/2025,Female,disabled,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,66,53,37,18,16,0.105658,13,16,19,2
-2024/2025,Male,all,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,166,133,93,44,41,0.264145,33,40,49,3
-2024/2025,Male,all,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,258,207,145,69,64,0.410892,51,62,76,5
-2024/2025,Male,all,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,446,357,250,120,110,0.710256,89,107,130,10
-2024/2025,Male,all,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,299,239,167,80,74,0.475461,60,72,87,6
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,432,345,242,116,106,0.686777,87,103,126,10
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,118,94,66,32,29,0.187836,24,28,34,3
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,214,171,120,57,53,0.340453,43,51,63,4
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,277,221,155,74,68,0.440242,56,66,81,6
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,59,47,33,16,15,0.093918,12,14,17,1
-2024/2025,Male,all,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,232,186,130,62,57,0.369803,46,56,68,5
-2024/2025,Male,all,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,247,198,138,66,61,0.393282,49,60,72,5
-2024/2025,Male,all,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,100,80,56,27,25,0.158487,20,24,29,2
-2024/2025,Male,all,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,590,472,330,158,145,0.939182,118,142,172,13
-2024/2025,Male,all,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,317,254,178,85,78,0.50481,63,76,93,7
-2024/2025,Male,all,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,310,248,173,83,76,0.493071,62,75,90,7
-2024/2025,Male,all,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,505,404,283,135,124,0.804175,101,121,148,11
-2024/2025,Male,all,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,815,652,456,218,201,1.297245,163,196,238,17
-2024/2025,Male,all,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,553,443,310,148,136,0.880483,110,133,162,12
-2024/2025,Male,all,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,797,637,446,213,196,1.267896,160,191,233,17
-2024/2025,Male,all,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,196,156,109,52,48,0.311104,40,47,57,4
-2024/2025,Male,all,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,420,336,235,113,104,0.669167,84,101,122,9
-2024/2025,Male,all,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,505,404,283,135,124,0.804175,101,121,148,11
-2024/2025,Male,all,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,92,74,52,25,23,0.146747,18,22,27,2
-2024/2025,Male,all,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,446,357,250,120,110,0.710256,89,107,130,10
-2024/2025,Male,all,NECO,University,lga,Idah,North Central,Kogi,Idah,,,435,348,244,117,107,0.692647,87,104,127,10
-2024/2025,Male,all,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,170,136,95,45,42,0.270015,34,41,50,3
-2024/2025,Male,all,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,1118,894,626,299,275,1.778576,224,268,327,24
-2024/2025,Male,all,NECO,University,lga,Okene,North Central,Kogi,Okene,,,572,457,320,153,141,0.909832,115,137,167,12
-2024/2025,Male,all,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,417,333,233,112,103,0.663297,84,100,121,9
-2024/2025,Male,all,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,690,552,386,185,170,1.097669,138,166,201,15
-2024/2025,Male,all,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,1099,879,615,294,271,1.749226,220,264,321,23
-2024/2025,Male,all,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,756,605,423,202,186,1.203327,151,182,221,16
-2024/2025,Male,all,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,1095,876,613,293,270,1.743356,219,263,320,23
-2024/2025,Male,all,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,262,210,147,70,64,0.416762,52,63,77,6
-2024/2025,Male,all,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,553,443,310,148,136,0.880483,110,133,162,12
-2024/2025,Male,all,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,734,587,411,197,181,1.168108,147,176,214,16
-2024/2025,Male,all,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,122,97,68,33,30,0.193706,25,29,35,3
-2024/2025,Male,all,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,623,499,349,167,154,0.992011,124,150,182,13
-2024/2025,Male,all,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,601,481,337,161,148,0.956792,120,144,176,13
-2024/2025,Male,all,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,232,186,130,62,57,0.369803,46,56,68,5
-2024/2025,Male,all,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,1486,1189,832,398,367,2.365564,297,357,434,31
-2024/2025,Male,all,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,797,637,446,213,196,1.267896,160,191,233,17
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,15,12,8,4,4,0.02348,3,4,4,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,26,21,14,7,6,0.041089,5,7,7,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,37,29,21,10,9,0.058699,8,8,11,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,26,21,14,7,6,0.041089,5,7,7,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,37,29,21,10,9,0.058699,8,8,11,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,11,9,6,3,3,0.01761,2,3,3,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,18,15,10,5,5,0.029349,3,5,5,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,30,24,17,8,7,0.046959,6,7,9,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,4,3,2,1,1,0.00587,1,1,1,0
-2024/2025,Male,disabled,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,18,15,10,5,4,0.029349,3,5,5,1
-2024/2025,Male,disabled,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,26,21,14,7,6,0.041089,5,7,7,1
-2024/2025,Male,disabled,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,11,9,6,3,3,0.01761,2,3,3,0
-2024/2025,Male,disabled,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,44,35,25,12,11,0.070439,9,10,13,1
-2024/2025,Male,disabled,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,30,24,17,8,7,0.046959,6,7,9,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,30,24,17,8,7,0.046959,6,7,9,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,37,30,21,10,9,0.058699,7,9,11,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,59,47,33,16,15,0.093918,12,14,17,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,44,35,25,12,11,0.070439,9,10,13,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,63,50,35,17,15,0.099788,13,15,18,2
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,15,12,8,4,4,0.02348,3,4,4,0
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,33,27,19,9,8,0.052829,6,8,10,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,41,32,23,11,10,0.064569,9,9,12,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,7,6,4,2,2,0.01174,1,2,2,0
-2024/2025,Male,disabled,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,37,30,21,10,9,0.058699,7,9,11,1
-2024/2025,Male,disabled,NECO,University,lga,Idah,North Central,Kogi,Idah,,,33,27,19,9,8,0.052829,6,8,10,1
-2024/2025,Male,disabled,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,11,9,6,3,3,0.01761,2,3,3,0
-2024/2025,Male,disabled,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,89,71,50,23,22,0.140877,18,21,27,1
-2024/2025,Male,disabled,NECO,University,lga,Okene,North Central,Kogi,Okene,,,48,38,27,13,12,0.076309,10,11,14,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,37,30,21,10,9,0.058699,7,9,11,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,52,41,29,14,13,0.082178,11,12,15,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,78,62,43,20,19,0.123268,16,19,23,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,63,50,35,17,15,0.099788,13,15,18,2
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,89,71,50,23,22,0.140877,18,21,27,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,18,15,10,5,4,0.029349,3,5,5,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,44,35,25,12,11,0.070439,9,10,13,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,55,44,31,15,14,0.088048,11,13,16,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,11,9,6,3,3,0.01761,2,3,3,0
-2024/2025,Male,disabled,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,52,41,29,14,13,0.082178,11,12,15,1
-2024/2025,Male,disabled,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,44,35,25,12,11,0.070439,9,10,13,1
-2024/2025,Male,disabled,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,15,12,8,4,4,0.02348,3,4,4,0
-2024/2025,Male,disabled,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,111,89,62,29,27,0.176097,22,27,33,2
-2024/2025,Male,disabled,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,67,53,37,17,16,0.105658,14,16,20,1
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,26,67,77,50,45,0,8,0,11,3
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,41,106,118,68,63,0,13,0,22,3
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,74,191,212,118,105,22,24,0,42,8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,41,106,118,65,63,0,13,0,24,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,64,163,182,275,235,45,21,0,0,24
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,18,45,51,75,68,0,6,0,0,4
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,34,87,97,143,118,22,12,0,0,15
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,44,114,120,160,156,0,14,0,0,2
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,6,16,17,20,18,0,2,0,0,1
+2022/2023,Female,ALL,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,36,93,97,371,353,22,12,0,0,11
+2022/2023,Female,ALL,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,37,95,99,423,421,0,12,0,0,1
+2022/2023,Female,ALL,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,13,33,36,128,127,0,5,0,0,1
+2022/2023,Female,ALL,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,89,230,253,1134,946,202,29,0,0,113
+2022/2023,Female,ALL,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,50,128,142,731,659,67,17,0,0,43
+2022/2023,Female,ALL,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,50,130,150,97,92,0,16,0,22,3
+2022/2023,Female,ALL,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,73,187,210,137,127,0,24,0,30,6
+2022/2023,Female,ALL,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,127,327,354,213,200,22,42,0,61,8
+2022/2023,Female,ALL,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,84,215,234,145,132,22,28,0,38,8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,125,321,360,531,498,45,41,0,0,20
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,29,75,82,115,108,0,10,0,0,4
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,64,165,180,251,238,22,21,0,0,8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,87,226,242,353,330,22,28,0,0,14
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,14,35,36,47,40,0,5,0,0,4
+2022/2023,Female,ALL,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,70,179,189,929,866,67,23,0,0,38
+2022/2023,Female,ALL,NECO,University,lga,Idah,North Central,Kogi,Idah,,,73,189,200,956,879,90,24,0,0,46
+2022/2023,Female,ALL,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,26,67,69,346,320,22,9,0,0,16
+2022/2023,Female,ALL,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,166,429,468,2108,1999,112,54,0,0,65
+2022/2023,Female,ALL,NECO,University,lga,Okene,North Central,Kogi,Okene,,,92,236,260,1282,1207,90,30,0,0,45
+2022/2023,Female,ALL,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,61,158,174,127,118,0,20,0,17,5
+2022/2023,Female,ALL,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,104,268,296,190,176,22,34,0,44,8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,174,447,489,308,280,22,57,0,76,17
+2022/2023,Female,ALL,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,113,291,311,186,168,22,37,0,54,11
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,156,404,444,668,611,67,51,0,0,34
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,39,100,111,155,143,22,13,0,0,7
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,83,215,238,365,331,45,27,0,0,20
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,115,297,322,506,466,45,38,0,0,24
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,20,51,54,75,63,22,7,0,0,7
+2022/2023,Female,ALL,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,92,236,251,1199,1094,112,30,0,0,63
+2022/2023,Female,ALL,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,91,234,260,1282,1180,112,30,0,0,61
+2022/2023,Female,ALL,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,34,89,94,454,406,45,11,0,0,29
+2022/2023,Female,ALL,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,210,542,598,3031,2738,314,69,0,0,176
+2022/2023,Female,ALL,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,130,335,376,2038,1879,179,42,0,0,95
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,2,6,6,5,3,0,1,0,0,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,4,10,11,12,10,0,2,0,0,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,6,16,17,15,13,0,2,0,0,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,4,12,13,12,10,0,1,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,6,16,17,45,40,0,2,0,0,3
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,2,4,4,13,12,0,1,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,2,6,7,20,17,0,1,0,0,2
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,4,12,11,25,23,0,1,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,1,2,2,0,0,0,0,0,1,0
+2022/2023,Female,Disabled,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,3,8,7,45,40,0,1,0,0,3
+2022/2023,Female,Disabled,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,4,10,11,67,58,0,2,0,0,5
+2022/2023,Female,Disabled,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,2,4,4,0,0,0,1,0,2,0
+2022/2023,Female,Disabled,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,7,18,19,135,118,22,2,0,0,10
+2022/2023,Female,Disabled,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,5,14,13,135,118,22,1,0,0,10
+2022/2023,Female,Disabled,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,4,10,13,5,3,0,2,0,4,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,5,14,17,15,13,0,2,0,0,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,9,22,22,18,17,0,3,0,1,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,7,18,21,12,10,0,2,0,4,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,10,26,28,37,35,0,3,0,0,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,2,6,6,13,12,0,0,0,0,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,5,12,13,18,17,0,2,0,0,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,7,18,21,28,27,0,3,0,0,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,1,4,4,5,3,0,0,0,0,1
+2022/2023,Female,Disabled,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,6,16,15,63,58,0,2,0,0,3
+2022/2023,Female,Disabled,NECO,University,lga,Idah,North Central,Kogi,Idah,,,5,14,17,112,98,22,2,0,0,8
+2022/2023,Female,Disabled,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,2,4,6,40,35,0,1,0,0,3
+2022/2023,Female,Disabled,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,12,32,36,140,137,0,4,0,0,2
+2022/2023,Female,Disabled,NECO,University,lga,Okene,North Central,Kogi,Okene,,,8,20,24,108,107,0,3,0,0,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,5,14,15,10,8,0,1,0,2,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,8,20,21,12,10,0,3,0,4,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,12,32,34,17,15,0,4,0,8,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,9,24,26,12,10,0,3,0,7,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,12,30,34,37,35,0,4,0,0,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,2,8,7,10,8,0,0,0,0,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,7,18,19,20,18,0,2,0,0,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,9,22,24,32,28,0,3,0,0,2
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,2,4,6,5,3,0,1,0,0,1
+2022/2023,Female,Disabled,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,8,20,21,90,82,0,3,0,0,5
+2022/2023,Female,Disabled,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,7,18,19,90,78,22,2,0,0,7
+2022/2023,Female,Disabled,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,2,6,6,37,32,0,1,0,0,3
+2022/2023,Female,Disabled,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,16,41,45,161,148,22,6,0,0,8
+2022/2023,Female,Disabled,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,10,28,30,143,133,0,3,0,0,6
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,27,71,84,50,45,0,9,0,15,3
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,42,110,118,65,63,0,13,0,24,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,75,191,208,98,90,0,25,0,52,5
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,45,116,124,65,63,0,14,0,27,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,71,185,210,255,218,45,23,0,0,22
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,17,45,47,48,42,0,5,0,0,4
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,37,95,107,151,130,22,12,0,0,13
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,43,112,122,151,148,0,14,0,0,2
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,7,18,19,20,18,0,2,0,0,1
+2022/2023,Male,ALL,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,39,100,107,403,353,45,13,0,0,30
+2022/2023,Male,ALL,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,38,98,107,398,396,0,12,0,0,1
+2022/2023,Male,ALL,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,15,37,39,153,151,0,5,0,0,1
+2022/2023,Male,ALL,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,90,232,257,1077,919,179,30,0,0,95
+2022/2023,Male,ALL,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,52,134,148,731,659,67,17,0,0,43
+2022/2023,Male,ALL,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,52,134,152,90,83,0,17,0,27,4
+2022/2023,Male,ALL,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,81,209,232,140,132,0,27,0,40,5
+2022/2023,Male,ALL,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,126,327,358,200,180,22,41,0,71,12
+2022/2023,Male,ALL,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,87,224,245,142,132,0,28,0,46,6
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,136,351,384,544,506,45,44,0,0,23
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,31,79,92,135,118,22,11,0,0,10
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,67,171,182,235,218,22,22,0,0,10
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,84,217,236,341,321,22,28,0,0,12
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,14,37,39,47,40,0,4,0,0,4
+2022/2023,Male,ALL,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,73,189,202,846,766,90,24,0,0,48
+2022/2023,Male,ALL,NECO,University,lga,Idah,North Central,Kogi,Idah,,,72,185,199,866,786,90,24,0,0,48
+2022/2023,Male,ALL,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,32,83,84,353,320,45,10,0,0,20
+2022/2023,Male,ALL,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,169,435,478,2204,2066,157,56,0,0,83
+2022/2023,Male,ALL,NECO,University,lga,Okene,North Central,Kogi,Okene,,,94,242,273,1338,1247,90,31,0,0,55
+2022/2023,Male,ALL,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,69,179,204,132,122,0,22,0,30,6
+2022/2023,Male,ALL,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,112,289,326,200,180,22,37,0,54,12
+2022/2023,Male,ALL,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,166,427,459,261,238,22,55,0,88,14
+2022/2023,Male,ALL,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,117,303,337,186,175,22,38,0,68,7
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,164,421,461,673,623,45,54,0,0,30
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,42,106,120,165,155,0,14,0,0,6
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,89,228,257,376,353,22,29,0,0,14
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,110,284,305,468,433,45,36,0,0,21
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,21,55,60,83,82,0,7,0,0,1
+2022/2023,Male,ALL,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,98,252,268,1199,1094,112,32,0,0,63
+2022/2023,Male,ALL,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,90,230,245,1122,1047,90,30,0,0,45
+2022/2023,Male,ALL,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,40,104,111,488,466,22,13,0,0,13
+2022/2023,Male,ALL,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,228,587,633,2877,2599,291,75,0,0,167
+2022/2023,Male,ALL,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,126,325,356,1736,1613,134,41,0,0,74
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,2,6,7,5,3,0,1,0,1,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,4,10,11,12,10,0,2,0,0,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,6,16,17,8,7,0,2,0,4,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,4,10,13,12,10,0,2,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,6,16,19,32,28,0,2,0,0,2
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,2,4,4,0,0,0,1,0,2,0
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,3,8,7,20,17,0,1,0,0,2
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,4,12,11,20,17,0,1,0,0,2
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,1,2,2,0,0,0,0,0,1,0
+2022/2023,Male,Disabled,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,3,8,9,45,40,0,1,0,0,3
+2022/2023,Male,Disabled,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,4,10,11,45,40,0,2,0,0,3
+2022/2023,Male,Disabled,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,2,4,4,22,20,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,7,18,19,112,98,22,3,0,0,8
+2022/2023,Male,Disabled,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,5,14,13,108,93,22,1,0,0,9
+2022/2023,Male,Disabled,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,4,12,13,8,7,0,1,0,2,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,6,16,17,12,10,0,2,0,2,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,9,24,24,13,12,0,3,0,5,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,8,20,22,12,10,0,3,0,5,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,10,28,32,43,40,0,3,0,0,2
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,2,6,6,13,12,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,5,14,15,18,17,0,1,0,0,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,7,18,19,28,27,0,2,0,0,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,2,4,4,5,3,0,1,0,0,1
+2022/2023,Male,Disabled,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,5,14,15,40,38,0,2,0,0,1
+2022/2023,Male,Disabled,NECO,University,lga,Idah,North Central,Kogi,Idah,,,5,14,17,90,78,22,2,0,0,7
+2022/2023,Male,Disabled,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,2,4,4,18,17,0,1,0,0,1
+2022/2023,Male,Disabled,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,14,35,37,156,153,0,5,0,0,2
+2022/2023,Male,Disabled,NECO,University,lga,Okene,North Central,Kogi,Okene,,,8,20,24,108,107,0,3,0,0,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,5,14,17,7,5,0,2,0,5,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,8,22,24,10,8,0,2,0,7,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,11,30,30,17,15,0,3,0,6,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,9,24,26,12,10,0,3,0,7,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,13,33,37,42,40,0,5,0,0,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,3,8,7,10,8,0,1,0,0,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,7,20,21,20,18,0,2,0,0,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,9,22,22,30,27,0,3,0,0,2
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,2,6,6,5,3,0,1,0,0,1
+2022/2023,Male,Disabled,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,8,20,21,72,67,0,3,0,0,3
+2022/2023,Male,Disabled,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,7,18,19,90,78,22,3,0,0,7
+2022/2023,Male,Disabled,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,2,6,7,37,32,0,1,0,0,3
+2022/2023,Male,Disabled,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,18,45,51,143,130,22,6,0,0,8
+2022/2023,Male,Disabled,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,10,28,32,125,113,22,3,0,0,7
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,26,69,79,35,30,0,8,0,21,3
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,43,110,124,55,52,0,14,0,33,2
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,78,199,217,92,82,0,26,0,61,6
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,46,120,124,50,45,0,15,0,36,3
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,67,171,184,260,243,22,22,0,0,10
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,18,45,49,78,73,0,6,0,0,3
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,35,91,99,146,127,22,12,0,0,12
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,50,128,146,211,188,22,17,0,0,14
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,8,22,22,20,18,0,2,0,0,1
+2023/2024,Female,ALL,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,38,100,107,360,326,45,12,0,0,20
+2023/2024,Female,ALL,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,40,102,114,426,421,0,13,0,0,3
+2023/2024,Female,ALL,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,15,39,37,117,115,0,5,0,0,1
+2023/2024,Female,ALL,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,97,250,275,947,831,134,31,0,0,70
+2023/2024,Female,ALL,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,56,144,159,623,573,45,18,0,0,30
+2023/2024,Female,ALL,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,51,132,150,72,67,0,16,0,37,3
+2023/2024,Female,ALL,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,79,205,227,110,103,0,26,0,55,4
+2023/2024,Female,ALL,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,144,372,399,176,166,0,47,0,107,6
+2023/2024,Female,ALL,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,85,221,245,105,100,0,27,0,68,3
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,125,321,343,528,491,45,41,0,0,22
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,33,87,96,153,137,22,10,0,0,10
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,67,173,195,296,280,22,22,0,0,10
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,86,221,245,393,365,22,28,0,0,17
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,15,37,41,58,53,0,5,0,0,3
+2023/2024,Female,ALL,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,74,191,206,704,646,67,24,0,0,35
+2023/2024,Female,ALL,NECO,University,lga,Idah,North Central,Kogi,Idah,,,70,179,199,744,699,45,23,0,0,27
+2023/2024,Female,ALL,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,27,71,71,228,200,22,9,0,0,17
+2023/2024,Female,ALL,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,177,455,500,1879,1756,134,58,0,0,74
+2023/2024,Female,ALL,NECO,University,lga,Okene,North Central,Kogi,Okene,,,103,266,296,1135,1089,45,33,0,0,28
+2023/2024,Female,ALL,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,71,183,210,108,97,22,23,0,47,7
+2023/2024,Female,ALL,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,106,274,296,145,138,0,34,0,71,4
+2023/2024,Female,ALL,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,188,482,534,235,216,22,62,0,144,11
+2023/2024,Female,ALL,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,118,303,339,155,143,22,39,0,88,7
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,178,461,509,849,791,67,58,0,0,35
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,40,102,109,188,173,22,14,0,0,9
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,87,226,245,411,375,45,28,0,0,22
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,118,305,337,536,483,67,38,0,0,32
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,20,51,54,73,68,0,6,0,0,3
+2023/2024,Female,ALL,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,97,250,262,1019,936,90,31,0,0,50
+2023/2024,Female,ALL,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,98,252,273,1059,967,90,33,0,0,55
+2023/2024,Female,ALL,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,35,91,97,340,321,22,12,0,0,11
+2023/2024,Female,ALL,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,225,581,622,2351,2151,224,73,0,0,120
+2023/2024,Female,ALL,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,139,358,395,1611,1462,157,46,0,0,90
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,2,6,6,5,3,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,4,12,13,12,10,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,7,18,19,13,12,0,2,0,2,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,4,12,11,8,7,0,1,0,1,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,6,16,17,35,30,0,2,0,0,3
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,2,4,4,15,13,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,3,8,9,22,18,0,1,0,0,2
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,5,12,15,28,25,0,2,0,0,2
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,1,2,2,0,0,0,0,0,1,0
+2023/2024,Female,Disabled,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,3,8,7,37,32,0,1,0,0,3
+2023/2024,Female,Disabled,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,4,12,13,90,78,22,1,0,0,7
+2023/2024,Female,Disabled,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,2,4,4,18,15,0,1,0,0,2
+2023/2024,Female,Disabled,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,7,20,21,125,108,22,2,0,0,10
+2023/2024,Female,Disabled,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,5,14,15,103,90,22,2,0,0,8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,4,10,13,5,3,0,2,0,4,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,6,16,17,10,8,0,2,0,3,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,10,28,30,15,13,0,3,0,7,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,7,18,21,8,7,0,3,0,6,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,10,26,28,48,45,0,4,0,0,2
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,2,6,6,13,12,0,1,0,0,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,5,14,15,20,18,0,2,0,0,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,7,18,19,28,27,0,2,0,0,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,1,2,4,5,3,0,1,0,0,1
+2023/2024,Female,Disabled,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,5,14,17,53,47,0,2,0,0,4
+2023/2024,Female,Disabled,NECO,University,lga,Idah,North Central,Kogi,Idah,,,5,14,15,87,75,22,2,0,0,7
+2023/2024,Female,Disabled,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,2,4,4,15,12,0,1,0,0,2
+2023/2024,Female,Disabled,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,13,35,39,115,113,0,4,0,0,1
+2023/2024,Female,Disabled,NECO,University,lga,Okene,North Central,Kogi,Okene,,,8,22,22,87,85,0,2,0,0,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,6,16,19,7,5,0,2,0,6,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,8,20,22,8,7,0,3,0,7,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,13,33,39,13,12,0,5,0,13,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,10,26,28,8,7,0,3,0,10,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,14,35,41,52,48,0,5,0,0,2
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,2,6,7,12,10,0,1,0,0,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,7,18,21,23,22,0,3,0,0,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,10,24,28,35,32,0,4,0,0,2
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,2,4,4,5,3,0,1,0,0,1
+2023/2024,Female,Disabled,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,8,20,21,75,68,0,3,0,0,4
+2023/2024,Female,Disabled,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,7,18,19,68,65,0,3,0,0,2
+2023/2024,Female,Disabled,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,2,6,6,28,27,0,1,0,0,1
+2023/2024,Female,Disabled,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,17,43,47,115,102,22,6,0,0,8
+2023/2024,Female,Disabled,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,12,30,34,100,90,0,4,0,0,6
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,26,67,77,32,28,0,9,0,22,2
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,45,114,127,55,52,0,15,0,35,2
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,76,197,214,75,67,0,25,0,69,5
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,49,126,137,50,45,0,16,0,43,3
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,71,183,202,271,241,22,23,0,0,18
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,18,47,52,78,73,0,6,0,0,3
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,38,100,107,142,115,22,12,0,0,16
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,49,126,137,200,188,22,16,0,0,7
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,8,22,21,20,18,0,2,0,0,1
+2023/2024,Male,ALL,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,39,100,111,355,326,22,13,0,0,17
+2023/2024,Male,ALL,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,40,104,118,305,303,0,13,0,0,1
+2023/2024,Male,ALL,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,18,45,49,92,90,0,6,0,0,1
+2023/2024,Male,ALL,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,96,248,272,851,731,134,31,0,0,72
+2023/2024,Male,ALL,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,57,148,163,568,521,45,18,0,0,28
+2023/2024,Male,ALL,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,51,130,152,72,67,0,17,0,38,3
+2023/2024,Male,ALL,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,85,219,244,113,103,0,28,0,62,6
+2023/2024,Male,ALL,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,147,378,408,175,158,22,48,0,113,10
+2023/2024,Male,ALL,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,92,236,258,113,105,0,31,0,70,5
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,134,345,380,536,501,45,44,0,0,21
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,34,89,99,153,146,0,11,0,0,4
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,69,177,191,288,270,22,23,0,0,11
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,86,221,234,355,326,22,28,0,0,17
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,15,39,41,58,53,0,5,0,0,3
+2023/2024,Male,ALL,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,79,203,215,633,568,67,26,0,0,39
+2023/2024,Male,ALL,NECO,University,lga,Idah,North Central,Kogi,Idah,,,73,187,199,674,621,67,24,0,0,32
+2023/2024,Male,ALL,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,32,85,86,268,246,22,10,0,0,13
+2023/2024,Male,ALL,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,182,469,513,1748,1556,202,60,0,0,115
+2023/2024,Male,ALL,NECO,University,lga,Okene,North Central,Kogi,Okene,,,101,262,294,1104,1062,45,33,0,0,25
+2023/2024,Male,ALL,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,71,185,212,105,97,0,23,0,50,5
+2023/2024,Male,ALL,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,115,295,328,153,140,22,38,0,83,8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,184,475,521,225,210,22,60,0,143,9
+2023/2024,Male,ALL,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,124,321,354,155,140,22,40,0,96,9
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,183,473,519,796,724,67,60,0,0,43
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,40,102,112,168,155,22,13,0,0,8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,98,252,275,411,388,22,32,0,0,14
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,116,299,328,491,443,45,38,0,0,29
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,21,53,54,73,68,0,7,0,0,3
+2023/2024,Male,ALL,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,107,276,296,1039,962,90,35,0,0,46
+2023/2024,Male,ALL,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,100,258,281,1024,946,90,32,0,0,47
+2023/2024,Male,ALL,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,41,104,112,380,341,45,14,0,0,23
+2023/2024,Male,ALL,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,240,620,672,2356,2171,202,78,0,0,111
+2023/2024,Male,ALL,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,145,374,410,1606,1462,157,47,0,0,87
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,2,6,7,5,3,0,1,0,1,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,4,12,11,8,7,0,1,0,1,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,6,16,19,8,7,0,2,0,5,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,4,12,13,7,5,0,1,0,3,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,6,16,17,28,23,0,2,0,0,3
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,2,4,4,15,13,0,1,0,0,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,3,8,9,22,18,0,1,0,0,2
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,5,12,15,37,32,0,2,0,0,3
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,1,2,2,0,0,0,0,0,1,0
+2023/2024,Male,Disabled,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,3,8,9,50,43,0,1,0,0,4
+2023/2024,Male,Disabled,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,4,12,11,37,32,0,1,0,0,3
+2023/2024,Male,Disabled,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,2,4,4,0,0,0,1,0,2,0
+2023/2024,Male,Disabled,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,7,20,21,90,78,22,2,0,0,7
+2023/2024,Male,Disabled,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,5,14,15,103,90,22,2,0,0,8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,4,12,13,5,3,0,1,0,4,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,6,16,17,10,8,0,2,0,3,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,10,28,28,12,10,0,3,0,8,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,7,20,21,8,7,0,2,0,6,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,10,28,30,42,38,0,3,0,0,2
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,2,6,7,13,12,0,1,0,0,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,5,14,15,20,18,0,2,0,0,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,7,18,19,28,27,0,3,0,0,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,1,4,4,5,3,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,7,16,19,47,45,0,3,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Idah,North Central,Kogi,Idah,,,5,14,15,87,75,22,2,0,0,7
+2023/2024,Male,Disabled,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,2,6,6,15,13,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,13,35,39,103,102,0,4,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Okene,North Central,Kogi,Okene,,,9,22,24,82,80,0,3,0,0,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,7,18,19,7,5,0,2,0,6,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,9,24,26,8,7,0,2,0,9,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,13,33,37,12,10,0,4,0,13,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,10,28,28,8,7,0,3,0,10,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,15,37,41,40,37,0,5,0,0,2
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,2,8,7,12,10,0,0,0,0,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,8,20,22,23,22,0,3,0,0,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,9,24,26,28,25,0,3,0,0,2
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,2,4,6,5,3,0,1,0,0,1
+2023/2024,Male,Disabled,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,9,22,22,72,68,0,3,0,0,2
+2023/2024,Male,Disabled,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,7,18,19,72,68,0,3,0,0,2
+2023/2024,Male,Disabled,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,2,6,6,15,12,0,1,0,0,2
+2023/2024,Male,Disabled,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,19,47,54,140,130,0,7,0,0,6
+2023/2024,Male,Disabled,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,12,32,34,100,90,0,4,0,0,6
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,101,262,174,73,68,6,33,40,49,3
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,163,419,279,118,108,9,53,64,78,6
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,268,691,461,196,180,16,88,105,128,10
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,180,465,309,132,122,11,59,71,86,6
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,246,634,421,180,165,14,80,97,117,9
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,68,175,116,50,45,4,22,27,32,3
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,124,319,214,90,83,7,41,48,60,4
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,174,447,298,127,117,10,57,68,83,6
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,29,75,51,22,20,2,10,11,14,1
+2024/2025,Female,ALL,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,133,343,229,97,90,8,44,52,64,4
+2024/2025,Female,ALL,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,148,384,255,108,100,9,48,59,71,5
+2024/2025,Female,ALL,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,56,146,97,42,38,3,18,22,27,2
+2024/2025,Female,ALL,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,331,855,569,241,223,19,108,130,159,11
+2024/2025,Female,ALL,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,200,518,345,146,135,12,65,79,96,7
+2024/2025,Female,ALL,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,192,494,330,140,128,11,63,75,92,7
+2024/2025,Female,ALL,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,279,721,480,203,188,16,91,110,134,9
+2024/2025,Female,ALL,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,502,1296,864,366,338,29,164,197,241,17
+2024/2025,Female,ALL,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,318,819,545,231,213,19,104,125,152,11
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,455,1174,781,333,306,27,149,179,217,16
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,124,319,214,90,83,7,41,48,60,4
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,243,628,418,178,163,14,79,96,116,9
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,334,861,573,243,223,19,109,131,160,12
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,49,128,84,37,33,3,16,20,23,2
+2024/2025,Female,ALL,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,255,656,436,186,171,15,84,100,121,9
+2024/2025,Female,ALL,NECO,University,lga,Idah,North Central,Kogi,Idah,,,268,691,461,196,180,16,88,105,128,10
+2024/2025,Female,ALL,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,92,238,159,67,62,5,30,36,45,3
+2024/2025,Female,ALL,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,642,1656,1103,469,431,37,210,252,307,23
+2024/2025,Female,ALL,NECO,University,lga,Okene,North Central,Kogi,Okene,,,365,941,627,266,245,21,119,143,175,13
+2024/2025,Female,ALL,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,223,575,382,163,150,13,73,88,106,8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,383,989,657,280,256,22,125,151,183,14
+2024/2025,Female,ALL,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,667,1719,1144,486,448,39,219,262,319,23
+2024/2025,Female,ALL,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,430,1111,738,315,290,25,140,170,205,15
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,642,1656,1103,469,431,37,210,252,307,23
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,156,402,268,113,105,9,51,61,75,5
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,324,837,556,236,218,19,106,128,155,11
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,438,1126,751,320,293,26,144,171,209,16
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,70,181,120,52,47,4,22,28,33,3
+2024/2025,Female,ALL,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,365,941,627,266,245,21,119,143,175,13
+2024/2025,Female,ALL,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,361,930,618,263,241,21,118,142,172,13
+2024/2025,Female,ALL,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,128,331,221,93,87,7,42,50,62,4
+2024/2025,Female,ALL,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,859,2213,1474,626,576,50,281,337,411,30
+2024/2025,Female,ALL,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,496,1278,850,361,333,29,162,195,237,17
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,9,24,15,7,7,1,3,4,4,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,16,41,28,12,10,1,5,6,8,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,23,59,39,17,15,1,7,9,11,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,16,41,26,12,10,1,5,7,7,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,25,63,43,18,17,1,9,9,12,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,7,18,11,5,5,0,2,3,3,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,9,24,15,7,7,1,3,4,4,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,18,47,32,13,12,1,6,7,9,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,2,6,4,2,2,0,1,1,1,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,11,30,19,8,8,1,3,5,5,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,16,41,26,12,10,1,5,7,7,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,7,18,11,5,5,0,2,3,3,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,27,69,47,20,18,2,9,10,13,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,20,53,36,15,13,1,6,8,10,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,16,41,26,12,10,1,5,7,7,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,20,53,36,15,13,1,6,8,10,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,36,93,62,27,25,2,12,14,17,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,25,63,43,18,17,1,9,9,12,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,36,93,62,27,25,2,12,14,17,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,7,18,11,5,5,0,2,3,3,0
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,18,47,32,13,12,1,6,7,9,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,27,69,47,20,18,2,9,10,13,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,4,12,7,3,3,0,1,2,2,0
+2024/2025,Female,Disabled,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,18,47,32,13,12,1,6,7,9,1
+2024/2025,Female,Disabled,NECO,University,lga,Idah,North Central,Kogi,Idah,,,20,53,36,15,13,1,6,8,10,1
+2024/2025,Female,Disabled,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,7,18,11,5,5,0,2,3,3,0
+2024/2025,Female,Disabled,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,49,128,86,35,33,3,16,19,25,1
+2024/2025,Female,Disabled,NECO,University,lga,Okene,North Central,Kogi,Okene,,,29,75,51,22,20,2,10,11,14,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,18,47,32,13,12,1,6,7,9,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,29,75,51,22,20,2,10,11,14,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,48,122,81,33,32,3,16,19,23,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,38,98,66,28,25,2,13,15,18,2
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,49,128,86,35,33,3,16,19,25,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,11,30,19,8,8,1,3,5,5,0
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,25,63,43,18,17,1,9,9,12,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,36,93,62,27,25,2,12,14,17,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,7,18,11,5,5,0,2,3,3,0
+2024/2025,Female,Disabled,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,29,75,51,22,20,2,10,11,14,1
+2024/2025,Female,Disabled,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,27,69,47,20,18,2,9,10,13,1
+2024/2025,Female,Disabled,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,7,18,11,5,5,0,2,3,3,0
+2024/2025,Female,Disabled,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,65,169,112,47,43,4,21,26,32,2
+2024/2025,Female,Disabled,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,40,104,69,30,27,2,13,16,19,2
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,101,262,174,73,68,6,33,40,49,3
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,158,408,272,115,107,9,51,62,76,5
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,273,703,468,200,183,16,89,107,130,10
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,183,471,313,133,123,11,60,72,87,6
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,264,679,453,193,176,15,87,103,126,10
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,72,185,124,53,48,4,24,28,34,3
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,131,337,225,95,88,8,43,51,63,4
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,169,435,290,123,113,10,56,66,81,6
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,36,93,62,27,25,2,12,14,17,1
+2024/2025,Male,ALL,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,142,366,244,103,95,8,46,56,68,5
+2024/2025,Male,ALL,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,151,390,258,110,102,9,49,60,72,5
+2024/2025,Male,ALL,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,61,158,105,45,42,4,20,24,29,2
+2024/2025,Male,ALL,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,361,930,618,263,241,21,118,142,172,13
+2024/2025,Male,ALL,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,194,500,333,142,130,11,63,76,93,7
+2024/2025,Male,ALL,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,189,488,324,138,127,11,62,75,90,7
+2024/2025,Male,ALL,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,309,796,530,225,206,18,101,121,148,11
+2024/2025,Male,ALL,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,498,1284,854,363,335,29,163,196,238,17
+2024/2025,Male,ALL,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,338,872,581,246,226,20,110,133,162,12
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,487,1254,835,355,326,28,160,191,233,17
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,120,307,204,87,80,7,40,47,57,4
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,257,662,440,188,173,15,84,101,122,9
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,309,796,530,225,206,18,101,121,148,11
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,56,146,97,42,38,3,18,22,27,2
+2024/2025,Male,ALL,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,273,703,468,200,183,16,89,107,130,10
+2024/2025,Male,ALL,NECO,University,lga,Idah,North Central,Kogi,Idah,,,266,685,457,195,178,16,87,104,127,10
+2024/2025,Male,ALL,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,104,268,178,75,70,6,34,41,50,3
+2024/2025,Male,ALL,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,683,1761,1173,498,458,40,224,268,327,24
+2024/2025,Male,ALL,NECO,University,lga,Okene,North Central,Kogi,Okene,,,350,900,599,255,235,20,115,137,167,12
+2024/2025,Male,ALL,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,255,656,436,186,171,15,84,100,121,9
+2024/2025,Male,ALL,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,422,1087,723,308,283,25,138,166,201,15
+2024/2025,Male,ALL,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,672,1731,1152,489,451,39,220,264,321,23
+2024/2025,Male,ALL,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,462,1191,792,336,310,27,151,182,221,16
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,669,1725,1148,488,449,39,219,263,320,23
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,160,414,275,117,107,9,52,63,77,6
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,338,872,581,246,226,20,110,133,162,12
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,449,1156,770,328,301,26,147,176,214,16
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,75,191,127,55,50,4,25,29,35,3
+2024/2025,Male,ALL,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,381,983,654,278,256,22,124,150,182,13
+2024/2025,Male,ALL,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,367,947,631,268,246,21,120,144,176,13
+2024/2025,Male,ALL,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,142,366,244,103,95,8,46,56,68,5
+2024/2025,Male,ALL,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,908,2341,1558,663,611,53,297,357,434,31
+2024/2025,Male,ALL,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,487,1254,835,355,326,28,160,191,233,17
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,9,24,15,7,7,1,3,4,4,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Idah,North Central,Kogi,Idah,,,16,41,26,12,10,1,5,7,7,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,23,57,39,17,15,1,8,8,11,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Okene,North Central,Kogi,Okene,,,16,41,26,12,10,1,5,7,7,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,23,57,39,17,15,1,8,8,11,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,7,18,11,5,5,0,2,3,3,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,11,30,19,8,8,1,3,5,5,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,18,47,32,13,12,1,6,7,9,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,2,6,4,2,2,0,1,1,1,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Ankpa,North Central,Kogi,Ankpa,,,11,30,19,8,7,1,3,5,5,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Idah,North Central,Kogi,Idah,,,16,41,26,12,10,1,5,7,7,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,7,18,11,5,5,0,2,3,3,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Lokoja,North Central,Kogi,Lokoja,,,27,69,47,20,18,2,9,10,13,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Okene,North Central,Kogi,Okene,,,18,47,32,13,12,1,6,7,9,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,18,47,32,13,12,1,6,7,9,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Idah,North Central,Kogi,Idah,,,23,59,39,17,15,1,7,9,11,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,36,93,62,27,25,2,12,14,17,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Okene,North Central,Kogi,Okene,,,27,69,47,20,18,2,9,10,13,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,38,98,66,28,25,2,13,15,18,2
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,9,24,15,7,7,1,3,4,4,0
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,20,53,36,15,13,1,6,8,10,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,25,63,43,18,17,1,9,9,12,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,4,12,7,3,3,0,1,2,2,0
+2024/2025,Male,Disabled,NECO,University,lga,Ankpa,North Central,Kogi,Ankpa,,,23,59,39,17,15,1,7,9,11,1
+2024/2025,Male,Disabled,NECO,University,lga,Idah,North Central,Kogi,Idah,,,20,53,36,15,13,1,6,8,10,1
+2024/2025,Male,Disabled,NECO,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,7,18,11,5,5,0,2,3,3,0
+2024/2025,Male,Disabled,NECO,University,lga,Lokoja,North Central,Kogi,Lokoja,,,54,140,94,38,37,3,18,21,27,1
+2024/2025,Male,Disabled,NECO,University,lga,Okene,North Central,Kogi,Okene,,,29,75,51,22,20,2,10,11,14,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Ankpa,North Central,Kogi,Ankpa,,,23,59,39,17,15,1,7,9,11,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Idah,North Central,Kogi,Idah,,,32,81,54,23,22,2,11,12,15,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,48,122,81,33,32,3,16,19,23,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Okene,North Central,Kogi,Okene,,,38,98,66,28,25,2,13,15,18,2
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ankpa,North Central,Kogi,Ankpa,,,54,140,94,38,37,3,18,21,27,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Idah,North Central,Kogi,Idah,,,11,30,19,8,7,1,3,5,5,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,27,69,47,20,18,2,9,10,13,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Lokoja,North Central,Kogi,Lokoja,,,34,87,58,25,23,2,11,13,16,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Okene,North Central,Kogi,Okene,,,7,18,11,5,5,0,2,3,3,0
+2024/2025,Male,Disabled,WAEC,University,lga,Ankpa,North Central,Kogi,Ankpa,,,32,81,54,23,22,2,11,12,15,1
+2024/2025,Male,Disabled,WAEC,University,lga,Idah,North Central,Kogi,Idah,,,27,69,47,20,18,2,9,10,13,1
+2024/2025,Male,Disabled,WAEC,University,lga,Kabba/Bunu,North Central,Kogi,Kabba/Bunu,,,9,24,15,7,7,1,3,4,4,0
+2024/2025,Male,Disabled,WAEC,University,lga,Lokoja,North Central,Kogi,Lokoja,,,68,175,116,48,45,4,22,27,33,2
+2024/2025,Male,Disabled,WAEC,University,lga,Okene,North Central,Kogi,Okene,,,41,104,69,28,27,2,14,16,20,1

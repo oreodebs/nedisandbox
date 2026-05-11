@@ -1,541 +1,541 @@
-session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,all,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,40,32,38,71,67,0,8,0,0,4
-2022/2023,Female,all,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,42,34,39,63,58,0,8,0,0,5
-2022/2023,Female,all,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,20,16,19,32,28,0,4,0,0,4
-2022/2023,Female,all,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,38,30,35,63,57,0,8,0,0,6
-2022/2023,Female,all,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,38,30,34,56,49,1,8,0,0,7
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,24,19,22,16,14,0,5,0,6,2
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,50,40,46,27,24,0,10,0,19,3
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,9,7,8,6,5,0,2,0,2,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,23,18,21,13,11,0,5,0,8,2
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,45,36,41,26,23,0,9,0,15,3
-2022/2023,Female,all,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,17,14,16,82,81,0,3,0,0,1
-2022/2023,Female,all,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,18,15,16,67,58,1,3,0,0,9
-2022/2023,Female,all,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,69,55,64,327,288,3,14,0,0,39
-2022/2023,Female,all,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,30,24,26,114,100,1,6,0,0,14
-2022/2023,Female,all,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,28,23,27,139,126,1,5,0,0,13
-2022/2023,Female,all,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,75,60,70,150,136,1,15,0,0,14
-2022/2023,Female,all,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,86,69,78,160,148,1,17,0,0,12
-2022/2023,Female,all,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,40,32,37,75,67,1,8,0,0,8
-2022/2023,Female,all,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,75,60,72,150,140,1,15,0,0,10
-2022/2023,Female,all,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,67,53,61,114,105,1,14,0,0,9
-2022/2023,Female,all,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,44,35,41,32,29,0,9,0,9,3
-2022/2023,Female,all,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,90,72,82,61,56,0,18,0,21,5
-2022/2023,Female,all,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,15,12,14,11,10,0,3,0,3,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,45,36,40,30,27,0,9,0,10,3
-2022/2023,Female,all,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,82,66,75,55,51,0,16,0,20,4
-2022/2023,Female,all,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,31,24,30,192,182,1,7,0,0,10
-2022/2023,Female,all,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,32,25,28,127,114,1,7,0,0,13
-2022/2023,Female,all,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,122,98,111,599,563,3,24,0,0,36
-2022/2023,Female,all,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,56,45,50,249,228,2,11,0,0,21
-2022/2023,Female,all,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,53,42,50,292,266,2,11,0,0,26
-2022/2023,Female,all,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,97,78,91,196,183,1,19,0,0,13
-2022/2023,Female,all,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,111,89,102,222,204,1,22,0,0,18
-2022/2023,Female,all,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,49,39,45,92,83,1,10,0,0,9
-2022/2023,Female,all,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,100,80,94,197,183,1,20,0,0,14
-2022/2023,Female,all,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,83,67,74,140,127,1,16,0,0,13
-2022/2023,Female,all,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,56,45,52,41,39,0,11,0,11,2
-2022/2023,Female,all,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,129,103,118,87,79,1,26,0,31,8
-2022/2023,Female,all,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,23,18,22,18,17,0,5,0,4,1
-2022/2023,Female,all,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,59,47,56,44,40,0,12,0,12,4
-2022/2023,Female,all,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,113,90,104,77,71,0,23,0,27,6
-2022/2023,Female,all,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,38,31,36,200,180,2,7,0,0,20
-2022/2023,Female,all,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,45,36,42,209,188,2,9,0,0,21
-2022/2023,Female,all,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,163,130,147,822,773,4,33,0,0,49
-2022/2023,Female,all,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,71,56,63,327,294,3,15,0,0,33
-2022/2023,Female,all,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,65,52,61,362,329,3,13,0,0,33
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,3,3,9,8,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,3,3,3,8,7,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,2,1,1,4,3,0,1,0,0,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,4,3,4,9,8,0,1,0,0,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,3,2,3,7,6,0,1,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,2,2,2,1,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,4,3,4,4,3,0,1,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,1,1,1,0,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,2,2,2,2,1,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,3,3,3,2,0,1,0,0,1
-2022/2023,Female,disabled,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,1,2,12,11,0,1,0,0,1
-2022/2023,Female,disabled,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,1,1,1,9,8,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,7,5,6,45,42,0,2,0,0,3
-2022/2023,Female,disabled,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,3,2,2,16,15,0,1,0,0,1
-2022/2023,Female,disabled,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,1,1,12,10,0,1,0,0,2
-2022/2023,Female,disabled,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,6,5,5,14,12,0,1,0,0,2
-2022/2023,Female,disabled,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,6,5,6,13,12,0,1,0,0,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,3,2,3,4,3,0,1,0,0,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,6,5,6,13,12,0,1,0,0,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,5,4,5,8,7,0,1,0,0,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,4,3,3,3,2,0,1,0,0,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,7,6,7,5,4,0,1,0,2,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,1,1,1,0,0,0,0,0,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,3,3,3,3,2,0,0,0,0,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,7,5,6,3,2,0,2,0,3,1
-2022/2023,Female,disabled,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,2,3,17,15,0,0,0,0,2
-2022/2023,Female,disabled,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,2,2,2,12,10,0,0,0,0,2
-2022/2023,Female,disabled,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,10,8,9,52,45,1,2,0,0,7
-2022/2023,Female,disabled,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,5,4,4,22,20,0,1,0,0,2
-2022/2023,Female,disabled,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,3,4,16,15,0,1,0,0,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,7,6,7,11,10,0,1,0,0,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,9,7,8,13,12,0,2,0,0,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,4,3,4,7,6,0,1,0,0,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,9,7,8,15,14,0,2,0,0,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,6,5,6,9,8,0,1,0,0,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,5,4,5,3,2,0,1,0,2,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,10,8,9,5,4,0,2,0,4,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,2,2,2,1,0,0,0,0,1,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,5,4,4,3,2,0,1,0,1,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,9,7,8,4,3,0,2,0,4,1
-2022/2023,Female,disabled,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,2,3,13,11,0,1,0,0,2
-2022/2023,Female,disabled,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,3,2,2,9,7,0,1,0,0,2
-2022/2023,Female,disabled,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,13,10,12,52,48,0,3,0,0,4
-2022/2023,Female,disabled,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,6,5,5,22,20,0,1,0,0,2
-2022/2023,Female,disabled,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,5,4,4,22,21,0,1,0,0,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,42,34,41,72,70,0,8,0,0,2
-2022/2023,Male,all,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,42,34,39,65,59,0,8,0,0,6
-2022/2023,Male,all,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,21,17,18,29,26,0,4,0,0,3
-2022/2023,Male,all,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,38,30,36,63,57,0,8,0,0,6
-2022/2023,Male,all,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,32,25,28,47,42,0,7,0,0,5
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,25,20,23,16,15,0,5,0,7,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,50,40,47,28,26,0,10,0,19,2
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,8,7,8,5,4,0,1,0,3,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,23,18,21,13,12,0,5,0,8,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,44,35,40,25,21,0,9,0,15,4
-2022/2023,Male,all,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,16,13,15,74,66,1,3,0,0,8
-2022/2023,Male,all,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,17,13,14,61,50,1,4,0,0,11
-2022/2023,Male,all,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,68,55,63,303,278,2,13,0,0,25
-2022/2023,Male,all,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,30,24,27,119,108,1,6,0,0,11
-2022/2023,Male,all,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,28,22,26,119,106,1,6,0,0,13
-2022/2023,Male,all,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,73,58,70,150,135,1,15,0,0,15
-2022/2023,Male,all,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,80,64,74,143,130,1,16,0,0,13
-2022/2023,Male,all,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,42,34,39,77,69,1,8,0,0,8
-2022/2023,Male,all,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,73,59,68,155,143,1,14,0,0,12
-2022/2023,Male,all,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,59,47,52,106,100,0,12,0,0,6
-2022/2023,Male,all,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,45,36,42,32,29,0,9,0,10,3
-2022/2023,Male,all,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,98,78,88,61,55,0,20,0,27,6
-2022/2023,Male,all,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,15,12,14,11,10,0,3,0,3,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,44,35,42,31,29,0,9,0,11,2
-2022/2023,Male,all,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,86,69,78,52,49,0,17,0,26,3
-2022/2023,Male,all,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,29,23,28,155,146,1,6,0,0,9
-2022/2023,Male,all,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,30,24,27,135,122,1,6,0,0,13
-2022/2023,Male,all,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,126,101,115,611,565,4,25,0,0,46
-2022/2023,Male,all,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,55,44,49,254,244,1,11,0,0,10
-2022/2023,Male,all,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,52,42,48,254,230,2,10,0,0,24
-2022/2023,Male,all,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,98,79,91,188,176,1,19,0,0,12
-2022/2023,Male,all,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,107,86,101,215,198,1,21,0,0,17
-2022/2023,Male,all,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,56,45,53,101,90,1,11,0,0,11
-2022/2023,Male,all,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,98,79,91,198,186,1,19,0,0,12
-2022/2023,Male,all,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,74,60,67,130,123,1,14,0,0,7
-2022/2023,Male,all,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,57,46,51,38,35,0,11,0,13,3
-2022/2023,Male,all,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,129,103,119,88,81,1,26,0,31,7
-2022/2023,Male,all,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,20,16,19,16,15,0,4,0,3,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,55,44,51,36,33,0,11,0,15,3
-2022/2023,Male,all,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,116,93,107,74,70,0,23,0,33,4
-2022/2023,Male,all,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,38,30,36,209,186,2,8,0,0,23
-2022/2023,Male,all,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,39,31,36,186,168,1,8,0,0,18
-2022/2023,Male,all,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,163,130,147,810,755,4,33,0,0,55
-2022/2023,Male,all,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,71,57,63,341,315,2,14,0,0,26
-2022/2023,Male,all,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,68,54,61,333,309,2,14,0,0,24
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,4,3,3,9,8,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,3,3,3,9,8,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,2,1,1,3,2,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,3,3,3,7,6,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,3,2,2,3,2,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,2,2,2,1,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,4,3,4,4,3,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,1,1,1,0,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,2,2,2,2,1,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,3,3,3,2,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,1,1,12,11,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,1,1,1,7,6,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,6,5,6,41,40,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,3,2,3,16,15,0,1,0,0,1
-2022/2023,Male,disabled,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,1,2,12,10,0,1,0,0,2
-2022/2023,Male,disabled,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,6,5,5,12,10,0,1,0,0,2
-2022/2023,Male,disabled,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,6,5,6,12,10,0,1,0,0,2
-2022/2023,Male,disabled,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,4,3,3,4,3,0,1,0,0,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,6,5,6,16,14,0,1,0,0,2
-2022/2023,Male,disabled,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,4,4,8,7,0,0,0,0,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,4,3,4,3,2,0,1,0,1,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,7,6,7,5,4,0,1,0,2,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,1,1,1,0,0,0,0,0,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,3,3,3,2,1,0,0,0,1,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,7,5,6,3,2,0,2,0,3,1
-2022/2023,Male,disabled,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,2,2,17,15,0,0,0,0,2
-2022/2023,Male,disabled,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,2,1,2,12,10,0,1,0,0,2
-2022/2023,Male,disabled,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,10,8,9,49,45,0,2,0,0,4
-2022/2023,Male,disabled,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,5,4,4,23,20,0,1,0,0,3
-2022/2023,Male,disabled,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,3,3,15,14,0,1,0,0,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,7,6,7,13,12,0,1,0,0,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,8,6,7,11,10,0,2,0,0,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,5,4,4,7,6,0,1,0,0,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,8,7,8,15,14,0,1,0,0,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,6,5,5,9,8,0,1,0,0,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,5,4,4,3,2,0,1,0,1,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,10,8,9,5,4,0,2,0,4,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,2,2,2,1,0,0,0,0,1,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,5,4,4,3,2,0,1,0,1,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,9,7,9,5,4,0,2,0,4,1
-2022/2023,Male,disabled,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,2,3,13,11,0,1,0,0,2
-2022/2023,Male,disabled,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,3,2,2,9,7,0,1,0,0,2
-2022/2023,Male,disabled,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,14,11,12,52,48,0,3,0,0,4
-2022/2023,Male,disabled,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,6,5,5,22,20,0,1,0,0,2
-2022/2023,Male,disabled,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,4,4,17,16,0,0,0,0,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,42,34,41,36,34,0,8,0,5,2
-2023/2024,Female,all,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,48,38,44,37,34,0,10,0,7,3
-2023/2024,Female,all,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,21,17,19,15,14,0,4,0,4,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,41,33,38,34,32,0,8,0,4,2
-2023/2024,Female,all,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,38,30,35,27,25,0,8,0,8,2
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,26,21,24,16,15,0,5,0,8,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,54,43,50,32,29,0,11,0,18,3
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,9,7,9,7,6,0,2,0,2,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,26,21,24,15,14,0,5,0,9,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,50,40,46,28,25,0,10,0,18,3
-2023/2024,Female,all,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,18,14,16,55,52,0,4,0,0,3
-2023/2024,Female,all,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,20,16,18,50,43,1,4,0,0,7
-2023/2024,Female,all,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,71,57,66,200,178,2,14,0,0,22
-2023/2024,Female,all,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,32,26,29,85,74,1,6,0,0,11
-2023/2024,Female,all,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,29,23,28,87,81,0,6,0,0,6
-2023/2024,Female,all,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,79,63,73,73,67,0,16,0,0,6
-2023/2024,Female,all,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,91,73,85,86,80,0,18,0,0,6
-2023/2024,Female,all,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,39,31,36,34,30,0,8,0,2,4
-2023/2024,Female,all,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,77,61,71,77,70,1,16,0,0,7
-2023/2024,Female,all,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,65,52,58,54,50,0,13,0,4,4
-2023/2024,Female,all,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,44,35,41,30,27,0,9,0,11,3
-2023/2024,Female,all,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,103,83,94,69,62,1,20,0,25,7
-2023/2024,Female,all,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,15,12,15,12,10,0,3,0,3,2
-2023/2024,Female,all,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,50,40,47,36,32,0,10,0,11,4
-2023/2024,Female,all,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,90,72,80,58,52,0,18,0,22,6
-2023/2024,Female,all,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,30,24,27,108,104,0,6,0,0,4
-2023/2024,Female,all,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,39,31,35,113,104,1,8,0,0,9
-2023/2024,Female,all,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,138,110,128,442,410,3,28,0,0,32
-2023/2024,Female,all,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,53,42,47,158,147,1,11,0,0,11
-2023/2024,Female,all,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,58,46,54,190,171,2,12,0,0,19
-2023/2024,Female,all,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,101,81,95,101,95,0,20,0,0,6
-2023/2024,Female,all,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,115,92,106,106,97,1,23,0,0,9
-2023/2024,Female,all,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,57,46,53,57,52,0,11,0,0,5
-2023/2024,Female,all,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,101,81,95,102,93,1,20,0,0,9
-2023/2024,Female,all,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,89,71,80,84,78,0,18,0,0,6
-2023/2024,Female,all,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,60,48,55,45,42,0,12,0,10,3
-2023/2024,Female,all,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,132,105,121,89,82,1,27,0,32,7
-2023/2024,Female,all,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,21,17,20,18,16,0,4,0,2,2
-2023/2024,Female,all,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,65,52,59,46,44,0,13,0,13,2
-2023/2024,Female,all,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,118,94,106,79,75,0,24,0,27,4
-2023/2024,Female,all,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,39,31,35,123,116,1,8,0,0,7
-2023/2024,Female,all,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,50,40,44,144,134,1,10,0,0,10
-2023/2024,Female,all,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,178,143,164,582,533,4,35,0,0,49
-2023/2024,Female,all,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,79,63,70,243,225,1,16,0,0,18
-2023/2024,Female,all,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,77,62,73,266,247,2,15,0,0,19
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,4,3,3,5,4,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,4,3,4,4,3,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,2,1,1,2,1,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,4,3,3,4,3,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,3,2,2,3,2,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,2,2,2,1,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,4,3,4,4,3,0,1,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,1,1,0,0,0,0,0,1,0
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,2,2,2,2,1,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,3,4,3,2,0,1,0,1,1
-2023/2024,Female,disabled,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,2,2,9,8,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,1,1,1,8,7,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,6,5,6,28,25,0,1,0,0,3
-2023/2024,Female,disabled,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,3,3,3,11,9,0,0,0,0,2
-2023/2024,Female,disabled,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,2,1,8,7,0,0,1,0,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,6,5,5,5,4,0,1,0,0,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,7,6,7,7,6,0,1,0,0,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,3,3,3,2,1,0,0,0,1,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,6,5,6,6,5,0,1,0,0,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,5,4,4,4,3,0,1,0,0,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,4,3,4,3,2,0,1,0,1,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,7,6,7,5,4,0,1,0,2,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,1,1,1,0,0,0,0,0,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,4,3,3,2,1,0,1,0,1,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,7,6,7,4,3,0,1,0,3,1
-2023/2024,Female,disabled,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,2,2,10,9,0,0,0,0,1
-2023/2024,Female,disabled,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,3,2,2,8,7,0,1,0,0,1
-2023/2024,Female,disabled,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,11,9,11,34,32,0,2,0,0,2
-2023/2024,Female,disabled,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,4,3,4,12,11,0,1,0,0,1
-2023/2024,Female,disabled,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,3,4,8,7,0,1,0,0,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,7,6,7,7,6,0,1,0,0,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,10,8,9,8,7,0,2,0,1,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,4,3,4,4,3,0,1,0,0,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,9,7,9,9,6,0,2,0,0,3
-2023/2024,Female,disabled,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,7,5,6,5,4,0,2,0,1,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,5,4,4,3,2,0,1,0,1,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,10,8,10,5,4,0,2,0,5,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,2,1,2,1,0,0,1,0,1,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,5,4,4,3,2,0,1,0,1,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,10,8,9,5,4,0,2,0,4,1
-2023/2024,Female,disabled,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,2,3,8,7,0,1,0,0,1
-2023/2024,Female,disabled,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,3,3,3,6,5,0,0,0,0,1
-2023/2024,Female,disabled,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,15,12,14,43,36,1,3,0,0,7
-2023/2024,Female,disabled,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,6,5,5,15,14,0,1,0,0,1
-2023/2024,Female,disabled,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,5,4,5,18,17,0,1,0,0,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,43,34,40,35,32,0,9,0,5,3
-2023/2024,Male,all,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,46,36,41,36,33,0,10,0,5,3
-2023/2024,Male,all,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,23,19,21,17,15,0,4,0,4,2
-2023/2024,Male,all,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,43,34,40,36,31,0,9,0,4,5
-2023/2024,Male,all,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,31,25,27,22,20,0,6,0,5,2
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,27,22,26,17,16,0,5,0,9,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,53,43,49,31,29,0,10,0,18,2
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,8,6,8,6,5,0,2,0,2,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,24,20,24,15,13,0,4,0,9,2
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,49,39,45,29,26,0,10,0,16,3
-2023/2024,Male,all,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,17,13,16,50,44,0,4,0,0,6
-2023/2024,Male,all,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,17,14,15,40,33,1,3,0,0,7
-2023/2024,Male,all,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,72,58,67,196,171,2,14,0,0,25
-2023/2024,Male,all,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,32,25,28,83,81,0,7,0,0,2
-2023/2024,Male,all,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,28,22,26,83,76,1,6,0,0,7
-2023/2024,Male,all,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,80,64,76,79,72,1,16,0,0,7
-2023/2024,Male,all,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,89,71,81,89,83,0,18,0,0,6
-2023/2024,Male,all,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,41,33,38,37,33,0,8,0,1,4
-2023/2024,Male,all,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,74,59,69,75,70,0,15,0,0,5
-2023/2024,Male,all,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,58,46,50,50,47,0,12,0,0,3
-2023/2024,Male,all,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,44,35,41,31,28,0,9,0,10,3
-2023/2024,Male,all,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,97,78,92,68,63,0,19,0,24,5
-2023/2024,Male,all,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,15,12,14,12,10,0,3,0,2,2
-2023/2024,Male,all,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,47,38,43,34,31,0,9,0,9,3
-2023/2024,Male,all,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,92,74,85,62,58,0,18,0,23,4
-2023/2024,Male,all,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,31,25,29,113,109,0,6,0,0,4
-2023/2024,Male,all,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,32,26,29,91,84,1,6,0,0,7
-2023/2024,Male,all,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,137,110,122,425,387,3,27,0,0,38
-2023/2024,Male,all,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,54,43,48,154,141,1,11,0,0,13
-2023/2024,Male,all,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,56,44,53,196,182,1,12,0,0,14
-2023/2024,Male,all,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,110,88,101,115,107,1,22,0,0,8
-2023/2024,Male,all,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,112,89,101,99,92,1,23,0,2,7
-2023/2024,Male,all,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,60,48,57,58,55,0,12,0,0,3
-2023/2024,Male,all,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,105,84,99,106,95,1,21,0,0,11
-2023/2024,Male,all,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,78,62,71,69,65,0,16,0,2,4
-2023/2024,Male,all,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,65,52,60,45,43,0,13,0,15,2
-2023/2024,Male,all,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,133,106,124,88,83,0,27,0,36,5
-2023/2024,Male,all,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,20,16,19,16,14,0,4,0,3,2
-2023/2024,Male,all,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,61,49,56,45,42,0,12,0,11,3
-2023/2024,Male,all,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,116,93,107,78,73,0,23,0,29,5
-2023/2024,Male,all,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,39,32,36,132,121,1,7,0,0,11
-2023/2024,Male,all,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,45,36,41,130,121,1,9,0,0,9
-2023/2024,Male,all,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,183,146,164,564,523,3,37,0,0,41
-2023/2024,Male,all,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,81,65,73,231,210,2,16,0,0,21
-2023/2024,Male,all,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,83,66,76,280,264,1,17,0,0,16
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,4,3,3,5,4,0,1,0,0,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,3,3,3,4,3,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,2,1,2,2,1,0,1,0,0,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,4,3,4,4,3,0,1,0,0,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,3,2,2,3,2,0,1,0,0,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,2,2,3,2,0,1,0,0,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,4,4,4,4,3,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,0,1,0,0,0,1,0,1,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,2,2,2,2,1,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,3,3,3,2,0,1,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,2,2,9,8,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,1,1,1,6,5,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,6,5,5,28,25,0,1,0,0,3
-2023/2024,Male,disabled,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,3,3,2,12,10,0,0,1,0,2
-2023/2024,Male,disabled,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,2,2,8,7,0,0,0,0,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,6,5,6,7,6,0,1,0,0,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,7,6,7,7,6,0,1,0,0,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,3,3,3,2,1,0,0,0,1,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,6,5,6,6,5,0,1,0,0,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,3,4,4,3,0,1,0,0,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,4,3,3,3,2,0,1,0,0,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,8,6,7,6,5,0,2,0,1,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,1,1,1,0,0,0,0,0,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,4,3,4,2,1,0,1,0,2,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,7,6,7,4,3,0,1,0,3,1
-2023/2024,Male,disabled,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,2,2,10,9,0,0,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,2,2,2,8,7,0,0,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,11,9,10,36,32,0,2,0,0,4
-2023/2024,Male,disabled,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,4,3,4,12,11,0,1,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,3,4,9,8,0,1,0,0,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,8,6,7,6,5,0,2,0,1,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,9,7,8,7,5,0,2,0,1,2
-2023/2024,Male,disabled,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,5,4,5,4,3,0,1,0,1,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,9,7,9,9,7,0,2,0,0,2
-2023/2024,Male,disabled,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,6,5,6,5,4,0,1,0,1,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,5,4,5,3,2,0,1,0,2,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,10,8,10,5,4,0,2,0,5,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,2,1,2,1,0,0,1,0,1,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,5,4,4,3,2,0,1,0,1,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,9,7,9,5,4,0,2,0,4,1
-2023/2024,Male,disabled,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,2,2,8,7,0,1,0,0,1
-2023/2024,Male,disabled,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,3,2,2,6,5,0,1,0,0,1
-2023/2024,Male,disabled,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,15,12,14,34,29,0,3,0,0,5
-2023/2024,Male,disabled,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,7,6,6,15,14,0,1,0,0,1
-2023/2024,Male,disabled,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,6,5,5,18,17,0,1,0,0,1
-2024/2025,Female,all,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,262,210,147,70,64,0.416767,52,63,77,6
-2024/2025,Female,all,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,268,214,150,72,66,0.42669,54,64,78,6
-2024/2025,Female,all,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,125,100,70,33,31,0.19846,25,30,37,2
-2024/2025,Female,all,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,268,214,150,72,66,0.42669,54,64,78,6
-2024/2025,Female,all,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,218,175,122,58,54,0.347306,43,53,64,4
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,156,125,87,42,38,0.248075,31,38,45,4
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,331,264,185,88,81,0.52592,67,79,97,7
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,56,45,31,15,14,0.089307,11,14,16,1
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,156,125,87,42,38,0.248075,31,38,45,4
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,299,239,168,80,74,0.476305,60,71,88,6
-2024/2025,Female,all,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,112,90,63,30,28,0.178614,22,27,33,2
-2024/2025,Female,all,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,125,100,70,33,31,0.19846,25,30,37,2
-2024/2025,Female,all,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,430,344,241,115,106,0.684688,86,103,126,9
-2024/2025,Female,all,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,193,155,108,52,48,0.307613,38,47,56,4
-2024/2025,Female,all,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,187,150,105,50,46,0.29769,37,45,55,4
-2024/2025,Female,all,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,486,389,272,130,120,0.773995,97,117,142,10
-2024/2025,Female,all,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,543,434,304,145,134,0.863302,109,130,159,11
-2024/2025,Female,all,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,231,185,129,62,57,0.367152,46,56,67,5
-2024/2025,Female,all,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,474,379,265,127,117,0.754149,95,114,138,10
-2024/2025,Female,all,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,405,324,227,109,100,0.644996,81,97,118,9
-2024/2025,Female,all,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,299,239,168,80,74,0.476305,60,71,88,6
-2024/2025,Female,all,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,574,459,321,154,141,0.912917,115,138,167,13
-2024/2025,Female,all,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,112,90,63,30,28,0.178614,22,27,33,2
-2024/2025,Female,all,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,293,234,164,78,72,0.466382,59,70,86,6
-2024/2025,Female,all,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,530,424,297,142,131,0.843456,106,127,155,11
-2024/2025,Female,all,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,193,155,108,52,48,0.307613,38,47,56,4
-2024/2025,Female,all,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,218,175,122,58,54,0.347306,43,53,64,4
-2024/2025,Female,all,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,854,683,478,229,210,1.359453,171,205,249,19
-2024/2025,Female,all,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,337,269,189,90,83,0.535843,68,80,99,7
-2024/2025,Female,all,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,343,274,192,92,84,0.545766,69,82,100,8
-2024/2025,Female,all,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,648,519,363,174,160,1.031994,129,156,189,14
-2024/2025,Female,all,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,705,564,395,189,174,1.121301,141,169,206,15
-2024/2025,Female,all,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,349,279,196,93,86,0.555689,70,83,103,7
-2024/2025,Female,all,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,673,539,377,180,166,1.071686,134,162,197,14
-2024/2025,Female,all,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,586,469,328,157,144,0.932763,117,141,171,13
-2024/2025,Female,all,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,387,309,216,104,95,0.615227,78,93,112,9
-2024/2025,Female,all,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,773,619,433,207,190,1.230454,154,186,226,17
-2024/2025,Female,all,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,162,130,91,43,40,0.257998,32,39,48,3
-2024/2025,Female,all,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,399,319,223,107,98,0.635073,80,96,116,9
-2024/2025,Female,all,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,730,584,409,195,180,1.160993,146,175,214,15
-2024/2025,Female,all,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,262,209,147,70,64,0.416767,53,62,77,6
-2024/2025,Female,all,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,299,239,168,80,74,0.476305,60,71,88,6
-2024/2025,Female,all,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,1091,873,611,292,270,1.736528,218,262,319,22
-2024/2025,Female,all,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,449,359,251,120,111,0.714457,90,108,131,9
-2024/2025,Female,all,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,443,354,248,119,109,0.704534,89,106,129,10
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,25,20,14,7,6,0.039692,5,6,7,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,19,15,11,5,5,0.029769,4,4,6,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,12,10,7,3,3,0.019846,2,3,4,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,25,20,14,7,6,0.039692,5,6,7,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,19,15,11,5,5,0.029769,4,4,6,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,19,15,11,5,5,0.029769,4,4,6,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,31,25,17,8,8,0.049615,6,8,9,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,6,5,4,2,1,0.009923,1,1,2,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,12,10,7,3,3,0.019846,2,3,4,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,25,20,14,7,6,0.039692,5,6,7,1
-2024/2025,Female,disabled,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,12,10,7,3,3,0.019846,2,3,4,0
-2024/2025,Female,disabled,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,6,5,4,2,1,0.009923,1,1,2,1
-2024/2025,Female,disabled,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,44,35,24,12,11,0.069461,9,11,12,1
-2024/2025,Female,disabled,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,19,15,10,5,5,0.029769,4,5,5,0
-2024/2025,Female,disabled,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,12,10,7,3,3,0.019846,2,3,4,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,37,30,21,10,9,0.059538,7,9,11,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,44,35,24,12,11,0.069461,9,11,12,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,19,15,10,5,5,0.029769,4,5,5,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,37,30,21,10,9,0.059538,7,9,11,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,31,25,17,8,8,0.049615,6,8,9,0
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,25,20,14,7,6,0.039692,5,6,7,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,44,35,24,12,11,0.069461,9,11,12,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,6,5,4,2,1,0.009923,1,1,2,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,25,20,14,7,6,0.039692,5,6,7,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,44,35,24,12,11,0.069461,9,11,12,1
-2024/2025,Female,disabled,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,12,10,7,3,3,0.019846,2,3,4,0
-2024/2025,Female,disabled,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,12,10,7,3,3,0.019846,2,3,4,0
-2024/2025,Female,disabled,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,68,54,38,18,17,0.109153,14,16,20,1
-2024/2025,Female,disabled,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,25,20,14,7,6,0.039692,5,6,7,1
-2024/2025,Female,disabled,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,25,20,14,7,6,0.039692,5,6,7,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,50,40,28,13,12,0.079384,10,12,15,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,50,40,28,13,12,0.079384,10,12,15,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,31,25,17,8,8,0.049615,6,8,9,0
-2024/2025,Female,disabled,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,56,44,31,15,14,0.089307,12,13,16,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,37,30,21,10,9,0.059538,7,9,11,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,31,25,17,8,8,0.049615,6,8,9,0
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,56,44,31,15,14,0.089307,12,13,16,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,12,10,7,3,3,0.019846,2,3,4,0
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,31,25,17,8,8,0.049615,6,8,9,0
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,56,44,31,15,14,0.089307,12,13,16,1
-2024/2025,Female,disabled,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,25,20,14,7,6,0.039692,5,6,7,1
-2024/2025,Female,disabled,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,19,15,10,5,5,0.029769,4,5,5,0
-2024/2025,Female,disabled,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,87,69,49,23,21,0.138922,18,20,26,2
-2024/2025,Female,disabled,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,37,30,21,10,9,0.059538,7,9,11,1
-2024/2025,Female,disabled,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,31,25,17,8,8,0.049615,6,8,9,0
-2024/2025,Male,all,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,262,210,147,70,64,0.416767,52,63,77,6
-2024/2025,Male,all,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,268,214,150,72,66,0.42669,54,64,78,6
-2024/2025,Male,all,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,131,105,73,35,32,0.208383,26,32,38,3
-2024/2025,Male,all,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,268,214,150,72,66,0.42669,54,64,78,6
-2024/2025,Male,all,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,193,155,108,52,48,0.307613,38,47,56,4
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,162,130,91,43,40,0.257998,32,39,48,3
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,343,274,192,92,84,0.545766,69,82,100,8
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,62,50,35,17,15,0.09923,12,15,18,2
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,156,125,87,42,38,0.248075,31,38,45,4
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,287,229,161,77,71,0.456459,58,68,84,6
-2024/2025,Male,all,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,106,85,59,28,26,0.168691,21,26,31,2
-2024/2025,Male,all,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,112,90,63,30,28,0.178614,22,27,33,2
-2024/2025,Male,all,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,424,339,237,114,104,0.674765,85,102,123,10
-2024/2025,Male,all,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,200,160,112,53,49,0.317536,40,48,59,4
-2024/2025,Male,all,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,181,145,101,48,44,0.287767,36,44,53,4
-2024/2025,Male,all,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,511,409,286,137,126,0.813687,102,123,149,11
-2024/2025,Male,all,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,536,429,300,144,132,0.853379,107,129,156,12
-2024/2025,Male,all,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,268,214,150,72,66,0.42669,54,64,78,6
-2024/2025,Male,all,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,449,359,251,120,111,0.714457,90,108,131,9
-2024/2025,Male,all,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,362,289,203,97,89,0.575535,73,86,106,8
-2024/2025,Male,all,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,293,234,164,78,72,0.466382,59,70,86,6
-2024/2025,Male,all,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,599,479,335,160,147,0.952609,120,144,175,13
-2024/2025,Male,all,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,94,75,52,25,23,0.148845,19,23,27,2
-2024/2025,Male,all,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,287,229,161,77,71,0.456459,58,68,84,6
-2024/2025,Male,all,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,543,434,304,145,134,0.863302,109,130,159,11
-2024/2025,Male,all,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,181,145,101,48,44,0.287767,36,44,53,4
-2024/2025,Male,all,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,181,145,101,48,44,0.287767,36,44,53,4
-2024/2025,Male,all,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,848,678,475,227,209,1.34953,170,203,248,18
-2024/2025,Male,all,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,337,269,189,90,83,0.535843,68,80,99,7
-2024/2025,Male,all,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,324,259,182,87,80,0.515997,65,77,95,7
-2024/2025,Male,all,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,648,519,363,174,160,1.031994,129,156,189,14
-2024/2025,Male,all,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,686,549,384,184,169,1.091532,137,165,200,15
-2024/2025,Male,all,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,380,304,213,102,94,0.605304,76,91,111,8
-2024/2025,Male,all,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,673,539,377,180,166,1.071686,134,162,197,14
-2024/2025,Male,all,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,505,404,283,135,124,0.803764,101,121,148,11
-2024/2025,Male,all,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,405,324,227,109,100,0.644996,81,97,118,9
-2024/2025,Male,all,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,798,638,447,214,197,1.270146,160,191,233,17
-2024/2025,Male,all,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,137,110,77,37,34,0.218306,27,33,40,3
-2024/2025,Male,all,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,399,319,223,107,98,0.635073,80,96,116,9
-2024/2025,Male,all,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,736,589,412,197,181,1.170916,147,177,215,16
-2024/2025,Male,all,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,268,214,150,72,66,0.42669,54,64,78,6
-2024/2025,Male,all,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,274,219,154,73,68,0.436613,55,65,81,5
-2024/2025,Male,all,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,1066,853,597,286,263,1.696836,213,256,311,23
-2024/2025,Male,all,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,461,369,258,124,114,0.734303,92,111,134,10
-2024/2025,Male,all,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,455,364,255,122,112,0.72438,91,109,133,10
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,25,20,14,7,6,0.039692,5,6,7,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,19,15,11,5,5,0.029769,4,4,6,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,12,10,7,3,3,0.019846,2,3,4,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,25,20,14,7,6,0.039692,5,6,7,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,19,15,10,5,5,0.029769,4,5,5,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,19,15,10,5,5,0.029769,4,5,5,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,31,25,17,8,8,0.049615,6,8,9,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,6,5,4,2,1,0.009923,1,1,2,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,13,10,7,3,3,0.019846,3,3,4,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,25,20,14,7,6,0.039692,5,6,7,1
-2024/2025,Male,disabled,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,12,10,7,3,3,0.019846,2,3,4,0
-2024/2025,Male,disabled,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,6,5,4,2,1,0.009923,1,1,2,1
-2024/2025,Male,disabled,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,37,30,21,10,9,0.059538,7,9,11,1
-2024/2025,Male,disabled,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,19,15,11,5,5,0.029769,4,4,6,0
-2024/2025,Male,disabled,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,12,10,7,3,3,0.019846,2,3,4,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,37,30,21,10,9,0.059538,7,9,11,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,44,35,24,12,11,0.069461,9,11,12,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,19,15,11,5,5,0.029769,4,4,6,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,37,30,21,10,9,0.059538,7,9,11,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,31,25,17,8,8,0.049615,6,8,9,0
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,25,20,14,7,6,0.039692,5,6,7,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,44,35,24,12,11,0.069461,9,11,12,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,6,5,4,2,1,0.009923,1,1,2,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,19,15,11,5,4,0.029769,4,4,6,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,44,35,24,12,11,0.069461,9,11,12,1
-2024/2025,Male,disabled,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,12,10,7,3,3,0.019846,2,3,4,0
-2024/2025,Male,disabled,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,12,10,7,3,3,0.019846,2,3,4,0
-2024/2025,Male,disabled,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,68,54,38,18,17,0.109153,14,16,20,1
-2024/2025,Male,disabled,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,25,20,14,7,6,0.039692,5,6,7,1
-2024/2025,Male,disabled,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,25,20,14,7,6,0.039692,5,6,7,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,50,39,28,13,12,0.079384,11,11,15,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,56,44,31,15,14,0.089307,12,13,16,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,31,25,17,8,8,0.049615,6,8,9,0
-2024/2025,Male,disabled,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,62,49,35,17,15,0.09923,13,14,18,2
-2024/2025,Male,disabled,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,37,30,21,10,9,0.059538,7,9,11,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,31,25,17,8,8,0.049615,6,8,9,0
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,62,49,35,17,15,0.09923,13,14,18,2
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,12,10,7,3,3,0.019846,2,3,4,0
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,31,25,17,8,8,0.049615,6,8,9,0
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,62,49,35,17,15,0.09923,13,14,18,2
-2024/2025,Male,disabled,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,19,15,11,5,4,0.029769,4,4,6,1
-2024/2025,Male,disabled,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,19,15,10,5,4,0.029769,4,5,5,1
-2024/2025,Male,disabled,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,87,69,49,23,21,0.138922,18,20,26,2
-2024/2025,Male,disabled,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,37,30,21,10,9,0.059538,7,9,11,1
-2024/2025,Male,disabled,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,31,25,17,8,8,0.049615,6,8,9,0
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,22,55,63,104,98,0,8,0,0,4
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,23,59,64,92,85,0,8,0,0,5
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,11,28,31,47,41,0,4,0,0,4
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,20,52,58,92,84,0,8,0,0,6
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,20,52,56,82,72,20,8,0,0,7
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,13,33,36,23,21,0,5,0,6,2
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,27,69,76,40,35,0,10,0,19,3
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,5,12,13,9,7,0,2,0,2,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,12,31,35,19,16,0,5,0,8,2
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,24,62,68,38,34,0,9,0,15,3
+2022/2023,Female,ALL,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,9,24,26,120,119,0,3,0,0,1
+2022/2023,Female,ALL,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,10,26,26,98,85,20,3,0,0,9
+2022/2023,Female,ALL,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,37,95,106,479,422,59,14,0,0,39
+2022/2023,Female,ALL,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,16,42,43,167,147,20,6,0,0,14
+2022/2023,Female,ALL,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,15,40,45,204,185,20,5,0,0,13
+2022/2023,Female,ALL,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,40,104,115,220,199,20,15,0,0,14
+2022/2023,Female,ALL,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,46,120,129,235,217,20,17,0,0,12
+2022/2023,Female,ALL,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,22,55,61,110,98,20,8,0,0,8
+2022/2023,Female,ALL,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,40,104,119,220,205,20,15,0,0,10
+2022/2023,Female,ALL,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,36,92,101,167,154,20,14,0,0,9
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,24,61,68,47,43,0,9,0,9,3
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,48,125,135,89,82,0,18,0,21,5
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,8,21,23,16,15,0,3,0,3,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,24,62,66,44,40,0,9,0,10,3
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,44,114,124,81,75,0,16,0,20,4
+2022/2023,Female,ALL,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,17,42,49,281,267,20,7,0,0,10
+2022/2023,Female,ALL,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,17,43,46,186,167,20,7,0,0,13
+2022/2023,Female,ALL,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,66,170,183,878,825,59,24,0,0,36
+2022/2023,Female,ALL,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,30,78,82,365,334,39,11,0,0,21
+2022/2023,Female,ALL,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,29,73,82,428,390,39,11,0,0,26
+2022/2023,Female,ALL,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,52,135,150,287,268,20,19,0,0,13
+2022/2023,Female,ALL,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,60,154,168,325,299,20,22,0,0,18
+2022/2023,Female,ALL,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,26,68,74,135,122,20,10,0,0,9
+2022/2023,Female,ALL,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,54,139,155,289,268,20,20,0,0,14
+2022/2023,Female,ALL,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,45,116,122,205,186,20,16,0,0,13
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,30,78,86,60,57,0,11,0,11,2
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,69,179,195,128,116,20,26,0,31,8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,12,31,36,26,25,0,5,0,4,1
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,32,82,92,64,59,0,12,0,12,4
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,61,156,172,113,104,0,23,0,27,6
+2022/2023,Female,ALL,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,20,54,59,293,264,39,7,0,0,20
+2022/2023,Female,ALL,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,24,62,69,306,276,39,9,0,0,21
+2022/2023,Female,ALL,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,88,225,242,1205,1133,79,33,0,0,49
+2022/2023,Female,ALL,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,38,97,104,479,431,59,15,0,0,33
+2022/2023,Female,ALL,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,35,90,101,531,482,59,13,0,0,33
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,5,5,13,12,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,2,5,5,12,10,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,1,2,2,6,4,0,1,0,0,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,2,5,7,13,12,0,1,0,0,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,3,5,10,9,0,1,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,1,3,3,3,1,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,2,5,7,6,4,0,1,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,2,2,1,0,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,1,3,3,3,1,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,5,5,4,3,0,1,0,0,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,1,2,3,18,16,0,1,0,0,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,1,2,2,13,12,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,4,9,10,66,62,0,2,0,0,3
+2022/2023,Female,Disabled,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,2,3,3,23,22,0,1,0,0,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,1,2,2,18,15,0,1,0,0,2
+2022/2023,Female,Disabled,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,9,8,21,18,0,1,0,0,2
+2022/2023,Female,Disabled,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,3,9,10,19,18,0,1,0,0,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,2,3,5,6,4,0,1,0,0,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,3,9,10,19,18,0,1,0,0,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,3,7,8,12,10,0,1,0,0,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,5,5,4,3,0,1,0,0,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,4,10,12,7,6,0,1,0,2,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,2,2,1,0,0,0,0,0,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,2,5,5,4,3,0,0,0,0,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,9,10,4,3,0,2,0,3,1
+2022/2023,Female,Disabled,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,1,3,5,25,22,0,0,0,0,2
+2022/2023,Female,Disabled,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,1,3,3,18,15,0,0,0,0,2
+2022/2023,Female,Disabled,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,5,14,15,76,66,20,2,0,0,7
+2022/2023,Female,Disabled,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,3,7,7,32,29,0,1,0,0,2
+2022/2023,Female,Disabled,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,5,7,23,22,0,1,0,0,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,4,10,12,16,15,0,1,0,0,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,5,12,13,19,18,0,2,0,0,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,2,5,7,10,9,0,1,0,0,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,5,12,13,22,21,0,2,0,0,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,3,9,10,13,12,0,1,0,0,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,7,8,4,3,0,1,0,2,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,5,14,15,7,6,0,2,0,4,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,3,3,1,0,0,0,0,1,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,3,7,7,4,3,0,1,0,1,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,5,12,13,6,4,0,2,0,4,1
+2022/2023,Female,Disabled,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,3,5,19,16,0,1,0,0,2
+2022/2023,Female,Disabled,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,2,3,3,13,10,0,1,0,0,2
+2022/2023,Female,Disabled,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,7,17,20,76,70,0,3,0,0,4
+2022/2023,Female,Disabled,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,3,9,8,32,29,0,1,0,0,2
+2022/2023,Female,Disabled,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,3,7,7,32,31,0,1,0,0,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,23,59,68,106,103,0,8,0,0,2
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,23,59,64,95,86,0,8,0,0,6
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,11,29,30,43,38,0,4,0,0,3
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,20,52,59,92,84,0,8,0,0,6
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,17,43,46,69,62,0,7,0,0,5
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,13,35,38,23,22,0,5,0,7,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,27,69,78,41,38,0,10,0,19,2
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,4,12,13,7,6,0,1,0,3,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,12,31,35,19,18,0,5,0,8,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,24,61,66,37,31,0,9,0,15,4
+2022/2023,Male,ALL,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,9,23,25,108,97,20,3,0,0,8
+2022/2023,Male,ALL,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,9,23,23,89,73,20,4,0,0,11
+2022/2023,Male,ALL,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,37,95,104,444,407,39,13,0,0,25
+2022/2023,Male,ALL,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,16,42,45,174,158,20,6,0,0,11
+2022/2023,Male,ALL,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,15,38,43,174,155,20,6,0,0,13
+2022/2023,Male,ALL,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,39,101,115,220,198,20,15,0,0,15
+2022/2023,Male,ALL,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,43,111,122,210,191,20,16,0,0,13
+2022/2023,Male,ALL,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,23,59,64,113,101,20,8,0,0,8
+2022/2023,Male,ALL,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,39,102,112,227,210,20,14,0,0,12
+2022/2023,Male,ALL,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,32,82,86,155,147,0,12,0,0,6
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,24,62,69,47,43,0,9,0,10,3
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,53,135,145,89,81,0,20,0,27,6
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,8,21,23,16,15,0,3,0,3,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,24,61,69,45,43,0,9,0,11,2
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,46,120,129,76,72,0,17,0,26,3
+2022/2023,Male,ALL,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,16,40,46,227,214,20,6,0,0,9
+2022/2023,Male,ALL,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,16,42,45,198,179,20,6,0,0,13
+2022/2023,Male,ALL,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,68,175,190,896,828,79,25,0,0,46
+2022/2023,Male,ALL,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,30,76,81,372,358,20,11,0,0,10
+2022/2023,Male,ALL,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,28,73,79,372,337,39,10,0,0,24
+2022/2023,Male,ALL,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,53,137,150,276,258,20,19,0,0,12
+2022/2023,Male,ALL,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,58,149,167,315,290,20,21,0,0,17
+2022/2023,Male,ALL,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,30,78,87,148,132,20,11,0,0,11
+2022/2023,Male,ALL,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,53,137,150,290,273,20,19,0,0,12
+2022/2023,Male,ALL,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,40,104,111,191,180,20,14,0,0,7
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,31,80,84,56,51,0,11,0,13,3
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,69,179,196,129,119,20,26,0,31,7
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,11,28,31,23,22,0,4,0,3,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,30,76,84,53,48,0,11,0,15,3
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,62,161,176,108,103,0,23,0,33,4
+2022/2023,Male,ALL,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,20,52,59,306,273,39,8,0,0,23
+2022/2023,Male,ALL,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,21,54,59,273,246,20,8,0,0,18
+2022/2023,Male,ALL,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,88,225,242,1187,1107,79,33,0,0,55
+2022/2023,Male,ALL,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,38,99,104,500,462,39,14,0,0,26
+2022/2023,Male,ALL,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,37,94,101,488,453,39,14,0,0,24
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,5,5,13,12,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,2,5,5,13,12,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,1,2,2,4,3,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,2,5,5,10,9,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,3,3,4,3,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,1,3,3,3,1,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,2,5,7,6,4,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,2,2,1,0,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,1,3,3,3,1,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,5,5,4,3,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,1,2,2,18,16,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,1,2,2,10,9,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,3,9,10,60,59,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,2,3,5,23,22,0,1,0,0,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,1,2,3,18,15,0,1,0,0,2
+2022/2023,Male,Disabled,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,9,8,18,15,0,1,0,0,2
+2022/2023,Male,Disabled,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,3,9,10,18,15,0,1,0,0,2
+2022/2023,Male,Disabled,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,2,5,5,6,4,0,1,0,0,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,3,9,10,23,21,0,1,0,0,2
+2022/2023,Male,Disabled,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,7,7,12,10,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,5,7,4,3,0,1,0,1,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,4,10,12,7,6,0,1,0,2,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,2,2,1,0,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,2,5,5,3,1,0,0,0,1,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,9,10,4,3,0,2,0,3,1
+2022/2023,Male,Disabled,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,1,3,3,25,22,0,0,0,0,2
+2022/2023,Male,Disabled,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,1,2,3,18,15,0,1,0,0,2
+2022/2023,Male,Disabled,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,5,14,15,72,66,0,2,0,0,4
+2022/2023,Male,Disabled,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,3,7,7,34,29,0,1,0,0,3
+2022/2023,Male,Disabled,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,5,5,22,21,0,1,0,0,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,4,10,12,19,18,0,1,0,0,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,4,10,12,16,15,0,2,0,0,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,3,7,7,10,9,0,1,0,0,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,4,12,13,22,21,0,1,0,0,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,3,9,8,13,12,0,1,0,0,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,7,7,4,3,0,1,0,1,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,5,14,15,7,6,0,2,0,4,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,3,3,1,0,0,0,0,1,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,3,7,7,4,3,0,1,0,1,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,5,12,15,7,6,0,2,0,4,1
+2022/2023,Male,Disabled,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,3,5,19,16,0,1,0,0,2
+2022/2023,Male,Disabled,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,2,3,3,13,10,0,1,0,0,2
+2022/2023,Male,Disabled,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,8,19,20,76,70,0,3,0,0,4
+2022/2023,Male,Disabled,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,3,9,8,32,29,0,1,0,0,2
+2022/2023,Male,Disabled,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,7,7,25,23,0,0,0,0,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,23,59,68,53,50,0,8,0,5,2
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,26,66,73,54,50,0,10,0,7,3
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,11,29,31,22,21,0,4,0,4,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,22,57,63,50,47,0,8,0,4,2
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,20,52,58,40,37,0,8,0,8,2
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,14,36,40,23,22,0,5,0,8,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,29,75,82,47,43,0,11,0,18,3
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,5,12,15,10,9,0,2,0,2,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,14,36,40,22,21,0,5,0,9,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,27,69,76,41,37,0,10,0,18,3
+2023/2024,Female,ALL,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,10,24,26,81,76,0,4,0,0,3
+2023/2024,Female,ALL,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,11,28,30,73,63,20,4,0,0,7
+2023/2024,Female,ALL,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,38,99,109,293,261,39,14,0,0,22
+2023/2024,Female,ALL,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,17,45,48,125,108,20,6,0,0,11
+2023/2024,Female,ALL,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,16,40,46,128,119,0,6,0,0,6
+2023/2024,Female,ALL,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,43,109,120,107,98,0,16,0,0,6
+2023/2024,Female,ALL,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,49,127,140,126,117,0,18,0,0,6
+2023/2024,Female,ALL,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,21,54,59,50,44,0,8,0,2,4
+2023/2024,Female,ALL,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,41,106,117,113,103,20,16,0,0,7
+2023/2024,Female,ALL,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,35,90,96,79,73,0,13,0,4,4
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,24,61,68,44,40,0,9,0,11,3
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,55,144,155,101,91,20,20,0,25,7
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,8,21,25,18,15,0,3,0,3,2
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,27,69,78,53,47,0,10,0,11,4
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,48,125,132,85,76,0,18,0,22,6
+2023/2024,Female,ALL,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,16,42,45,158,152,0,6,0,0,4
+2023/2024,Female,ALL,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,21,54,58,166,152,20,8,0,0,9
+2023/2024,Female,ALL,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,74,191,211,648,601,59,28,0,0,32
+2023/2024,Female,ALL,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,29,73,78,232,215,20,11,0,0,11
+2023/2024,Female,ALL,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,31,80,89,279,251,39,12,0,0,19
+2023/2024,Female,ALL,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,54,140,157,148,139,0,20,0,0,6
+2023/2024,Female,ALL,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,62,160,175,155,142,20,23,0,0,9
+2023/2024,Female,ALL,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,31,80,87,84,76,0,11,0,0,5
+2023/2024,Female,ALL,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,54,140,157,150,136,20,20,0,0,9
+2023/2024,Female,ALL,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,48,123,132,123,114,0,18,0,0,6
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,32,83,91,66,62,0,12,0,10,3
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,71,182,200,130,120,20,27,0,32,7
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,11,29,33,26,23,0,4,0,2,2
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,35,90,97,67,64,0,13,0,13,2
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,63,163,175,116,110,0,24,0,27,4
+2023/2024,Female,ALL,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,21,54,58,180,170,20,8,0,0,7
+2023/2024,Female,ALL,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,27,69,73,211,196,20,10,0,0,10
+2023/2024,Female,ALL,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,96,248,271,853,781,79,35,0,0,49
+2023/2024,Female,ALL,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,43,109,115,356,330,20,16,0,0,18
+2023/2024,Female,ALL,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,41,108,120,390,362,39,15,0,0,19
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,5,5,7,6,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,2,5,7,6,4,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,1,2,2,3,1,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,2,5,5,6,4,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,3,3,4,3,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,3,3,3,1,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,2,5,7,6,4,0,1,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,2,2,0,0,0,0,0,1,0
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,1,3,3,3,1,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,5,7,4,3,0,1,0,1,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,1,3,3,13,12,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,1,2,2,12,10,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,3,9,10,41,37,0,1,0,0,3
+2023/2024,Female,Disabled,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,2,5,5,16,13,0,0,0,0,2
+2023/2024,Female,Disabled,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,1,3,2,12,10,0,0,1,0,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,9,8,7,6,0,1,0,0,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,4,10,12,10,9,0,1,0,0,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,2,5,5,3,1,0,0,0,1,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,3,9,10,9,7,0,1,0,0,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,3,7,7,6,4,0,1,0,0,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,5,7,4,3,0,1,0,1,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,4,10,12,7,6,0,1,0,2,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,2,2,1,0,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,2,5,5,3,1,0,1,0,1,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,10,12,6,4,0,1,0,3,1
+2023/2024,Female,Disabled,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,1,3,3,15,13,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,2,3,3,12,10,0,1,0,0,1
+2023/2024,Female,Disabled,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,6,16,18,50,47,0,2,0,0,2
+2023/2024,Female,Disabled,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,2,5,7,18,16,0,1,0,0,1
+2023/2024,Female,Disabled,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,5,7,12,10,0,1,0,0,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,4,10,12,10,9,0,1,0,0,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,5,14,15,12,10,0,2,0,1,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,2,5,7,6,4,0,1,0,0,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,5,12,15,13,9,0,2,0,0,3
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,9,10,7,6,0,2,0,1,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,7,7,4,3,0,1,0,1,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,5,14,16,7,6,0,2,0,5,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,2,3,1,0,0,1,0,1,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,3,7,7,4,3,0,1,0,1,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,5,14,15,7,6,0,2,0,4,1
+2023/2024,Female,Disabled,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,3,5,12,10,0,1,0,0,1
+2023/2024,Female,Disabled,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,2,5,5,9,7,0,0,0,0,1
+2023/2024,Female,Disabled,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,8,21,23,63,53,20,3,0,0,7
+2023/2024,Female,Disabled,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,3,9,8,22,21,0,1,0,0,1
+2023/2024,Female,Disabled,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,3,7,8,26,25,0,1,0,0,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,23,59,66,51,47,0,9,0,5,3
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,25,62,68,53,48,0,10,0,5,3
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,12,33,35,25,22,0,4,0,4,2
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,23,59,66,53,45,0,9,0,4,5
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,17,43,45,32,29,0,6,0,5,2
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,15,38,43,25,23,0,5,0,9,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,29,75,81,45,43,0,10,0,18,2
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,4,10,13,9,7,0,2,0,2,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,13,35,40,22,19,0,4,0,9,2
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,26,68,74,43,38,0,10,0,16,3
+2023/2024,Male,ALL,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,9,23,26,73,64,0,4,0,0,6
+2023/2024,Male,ALL,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,9,24,25,59,48,20,3,0,0,7
+2023/2024,Male,ALL,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,39,101,111,287,251,39,14,0,0,25
+2023/2024,Male,ALL,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,17,43,46,122,119,0,7,0,0,2
+2023/2024,Male,ALL,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,15,38,43,122,111,20,6,0,0,7
+2023/2024,Male,ALL,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,43,111,125,116,106,20,16,0,0,7
+2023/2024,Male,ALL,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,48,123,134,130,122,0,18,0,0,6
+2023/2024,Male,ALL,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,22,57,63,54,48,0,8,0,1,4
+2023/2024,Male,ALL,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,40,102,114,110,103,0,15,0,0,5
+2023/2024,Male,ALL,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,31,80,82,73,69,0,12,0,0,3
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,24,61,68,45,41,0,9,0,10,3
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,52,135,152,100,92,0,19,0,24,5
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,8,21,23,18,15,0,3,0,2,2
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,25,66,71,50,45,0,9,0,9,3
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,50,128,140,91,85,0,18,0,23,4
+2023/2024,Male,ALL,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,17,43,48,166,160,0,6,0,0,4
+2023/2024,Male,ALL,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,17,45,48,133,123,20,6,0,0,7
+2023/2024,Male,ALL,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,74,191,201,623,567,59,27,0,0,38
+2023/2024,Male,ALL,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,29,75,79,226,207,20,11,0,0,13
+2023/2024,Male,ALL,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,30,76,87,287,267,20,12,0,0,14
+2023/2024,Male,ALL,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,59,153,167,169,157,20,22,0,0,8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,60,154,167,145,135,20,23,0,2,7
+2023/2024,Male,ALL,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,32,83,94,85,81,0,12,0,0,3
+2023/2024,Male,ALL,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,57,146,163,155,139,20,21,0,0,11
+2023/2024,Male,ALL,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,42,108,117,101,95,0,16,0,2,4
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,35,90,99,66,63,0,13,0,15,2
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,72,184,205,129,122,0,27,0,36,5
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,11,28,31,23,21,0,4,0,3,2
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,33,85,92,66,62,0,12,0,11,3
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,62,161,176,114,107,0,23,0,29,5
+2023/2024,Male,ALL,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,21,55,59,193,177,20,7,0,0,11
+2023/2024,Male,ALL,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,24,62,68,191,177,20,9,0,0,9
+2023/2024,Male,ALL,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,98,253,271,827,767,59,37,0,0,41
+2023/2024,Male,ALL,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,44,113,120,339,308,39,16,0,0,21
+2023/2024,Male,ALL,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,45,114,125,410,387,20,17,0,0,16
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,5,5,7,6,0,1,0,0,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,2,5,5,6,4,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,1,2,3,3,1,0,1,0,0,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,2,5,7,6,4,0,1,0,0,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,3,3,4,3,0,1,0,0,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,3,3,4,3,0,1,0,0,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,2,7,7,6,4,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,0,2,0,0,0,1,0,1,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,1,3,3,3,1,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,5,5,4,3,0,1,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,1,3,3,13,12,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,1,2,2,9,7,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,3,9,8,41,37,0,1,0,0,3
+2023/2024,Male,Disabled,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,2,5,3,18,15,0,0,1,0,2
+2023/2024,Male,Disabled,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,1,3,3,12,10,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,9,10,10,9,0,1,0,0,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,4,10,12,10,9,0,1,0,0,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,2,5,5,3,1,0,0,0,1,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,3,9,10,9,7,0,1,0,0,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,5,7,6,4,0,1,0,0,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,5,5,4,3,0,1,0,0,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,4,10,12,9,7,0,2,0,1,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,2,2,1,0,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,2,5,7,3,1,0,1,0,2,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,4,10,12,6,4,0,1,0,3,1
+2023/2024,Male,Disabled,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,1,3,3,15,13,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,1,3,3,12,10,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,6,16,16,53,47,0,2,0,0,4
+2023/2024,Male,Disabled,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,2,5,7,18,16,0,1,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,2,5,7,13,12,0,1,0,0,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,4,10,12,9,7,0,2,0,1,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,5,12,13,10,7,0,2,0,1,2
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,3,7,8,6,4,0,1,0,1,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,5,12,15,13,10,0,2,0,0,2
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,3,9,10,7,6,0,1,0,1,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,3,7,8,4,3,0,1,0,2,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,5,14,16,7,6,0,2,0,5,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,1,2,3,1,0,0,1,0,1,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,3,7,7,4,3,0,1,0,1,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,5,12,15,7,6,0,2,0,4,1
+2023/2024,Male,Disabled,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,2,3,3,12,10,0,1,0,0,1
+2023/2024,Male,Disabled,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,2,3,3,9,7,0,1,0,0,1
+2023/2024,Male,Disabled,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,8,21,23,50,43,0,3,0,0,5
+2023/2024,Male,Disabled,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,4,10,10,22,21,0,1,0,0,1
+2023/2024,Male,Disabled,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,3,9,8,26,25,0,1,0,0,1
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,141,364,242,103,94,8,52,63,77,6
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,144,371,247,106,97,8,54,64,78,6
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,67,173,115,48,45,4,25,30,37,2
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,144,371,247,106,97,8,54,64,78,6
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,117,303,201,85,79,7,43,53,64,4
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,84,217,143,62,56,5,31,38,45,4
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,178,458,305,129,119,10,67,79,97,7
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,30,78,51,22,21,2,11,14,16,1
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,84,217,143,62,56,5,31,38,45,4
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,161,414,277,117,108,9,60,71,88,6
+2024/2025,Female,ALL,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,60,156,104,44,41,4,22,27,33,2
+2024/2025,Female,ALL,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,67,173,115,48,45,4,25,30,37,2
+2024/2025,Female,ALL,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,231,597,398,169,155,14,86,103,126,9
+2024/2025,Female,ALL,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,104,269,178,76,70,6,38,47,56,4
+2024/2025,Female,ALL,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,101,260,173,73,67,6,37,45,55,4
+2024/2025,Female,ALL,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,262,675,449,191,176,15,97,117,142,10
+2024/2025,Female,ALL,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,292,753,501,213,196,17,109,130,159,11
+2024/2025,Female,ALL,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,124,321,213,91,84,7,46,56,67,5
+2024/2025,Female,ALL,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,255,657,437,186,171,15,95,114,138,10
+2024/2025,Female,ALL,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,218,562,374,160,147,13,81,97,118,9
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,161,414,277,117,108,9,60,71,88,6
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,309,796,529,226,207,18,115,138,167,13
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,60,156,104,44,41,4,22,27,33,2
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,158,406,271,114,106,9,59,70,86,6
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,285,735,490,208,192,17,106,127,155,11
+2024/2025,Female,ALL,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,104,269,178,76,70,6,38,47,56,4
+2024/2025,Female,ALL,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,117,303,201,85,79,7,43,53,64,4
+2024/2025,Female,ALL,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,460,1184,788,336,308,27,171,205,249,19
+2024/2025,Female,ALL,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,181,466,312,132,122,11,68,80,99,7
+2024/2025,Female,ALL,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,185,475,317,135,123,11,69,82,100,8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,349,900,599,255,235,20,129,156,189,14
+2024/2025,Female,ALL,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,379,978,652,277,255,22,141,169,206,15
+2024/2025,Female,ALL,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,188,484,323,136,126,11,70,83,103,7
+2024/2025,Female,ALL,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,362,935,622,264,243,21,134,162,197,14
+2024/2025,Female,ALL,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,315,813,541,230,211,18,117,141,171,13
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,208,536,356,152,139,12,78,93,112,9
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,416,1073,714,303,278,24,154,186,226,17
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,87,225,150,63,59,5,32,39,48,3
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,215,553,368,157,144,13,80,96,116,9
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,393,1013,675,286,264,23,146,175,214,15
+2024/2025,Female,ALL,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,141,362,242,103,94,8,53,62,77,6
+2024/2025,Female,ALL,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,161,414,277,117,108,9,60,71,88,6
+2024/2025,Female,ALL,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,587,1514,1008,428,396,34,218,262,319,22
+2024/2025,Female,ALL,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,242,623,414,176,163,14,90,108,131,9
+2024/2025,Female,ALL,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,238,614,409,174,160,14,89,106,129,10
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,13,35,23,10,9,1,5,6,7,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,10,26,18,7,7,1,4,4,6,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,6,17,12,4,4,0,2,3,4,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,13,35,23,10,9,1,5,6,7,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,10,26,18,7,7,1,4,4,6,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,10,26,18,7,7,1,4,4,6,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,17,43,28,12,12,1,6,8,9,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,3,9,7,3,1,0,1,1,2,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,6,17,12,4,4,0,2,3,4,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,13,35,23,10,9,1,5,6,7,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,6,17,12,4,4,0,2,3,4,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,3,9,7,3,1,0,1,1,2,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,24,61,40,18,16,1,9,11,12,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,10,26,16,7,7,1,4,5,5,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,6,17,12,4,4,0,2,3,4,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,20,52,35,15,13,1,7,9,11,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,24,61,40,18,16,1,9,11,12,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,10,26,16,7,7,1,4,5,5,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,20,52,35,15,13,1,7,9,11,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,17,43,28,12,12,1,6,8,9,0
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,13,35,23,10,9,1,5,6,7,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,24,61,40,18,16,1,9,11,12,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,3,9,7,3,1,0,1,1,2,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,13,35,23,10,9,1,5,6,7,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,24,61,40,18,16,1,9,11,12,1
+2024/2025,Female,Disabled,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,6,17,12,4,4,0,2,3,4,0
+2024/2025,Female,Disabled,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,6,17,12,4,4,0,2,3,4,0
+2024/2025,Female,Disabled,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,37,94,63,26,25,2,14,16,20,1
+2024/2025,Female,Disabled,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,13,35,23,10,9,1,5,6,7,1
+2024/2025,Female,Disabled,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,13,35,23,10,9,1,5,6,7,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,27,69,46,19,18,2,10,12,15,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,27,69,46,19,18,2,10,12,15,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,17,43,28,12,12,1,6,8,9,0
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,30,76,51,22,21,2,12,13,16,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,20,52,35,15,13,1,7,9,11,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,17,43,28,12,12,1,6,8,9,0
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,30,76,51,22,21,2,12,13,16,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,6,17,12,4,4,0,2,3,4,0
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,17,43,28,12,12,1,6,8,9,0
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,30,76,51,22,21,2,12,13,16,1
+2024/2025,Female,Disabled,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,13,35,23,10,9,1,5,6,7,1
+2024/2025,Female,Disabled,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,10,26,16,7,7,1,4,5,5,0
+2024/2025,Female,Disabled,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,47,120,81,34,31,3,18,20,26,2
+2024/2025,Female,Disabled,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,20,52,35,15,13,1,7,9,11,1
+2024/2025,Female,Disabled,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,17,43,28,12,12,1,6,8,9,0
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,141,364,242,103,94,8,52,63,77,6
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,144,371,247,106,97,8,54,64,78,6
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,70,182,120,51,47,4,26,32,38,3
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,144,371,247,106,97,8,54,64,78,6
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,104,269,178,76,70,6,38,47,56,4
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,87,225,150,63,59,5,32,39,48,3
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,185,475,317,135,123,11,69,82,100,8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,33,87,58,25,22,2,12,15,18,2
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,84,217,143,62,56,5,31,38,45,4
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,154,397,266,113,104,9,58,68,84,6
+2024/2025,Male,ALL,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,57,147,97,41,38,3,21,26,31,2
+2024/2025,Male,ALL,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,60,156,104,44,41,4,22,27,33,2
+2024/2025,Male,ALL,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,228,588,391,167,152,13,85,102,123,10
+2024/2025,Male,ALL,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,108,277,185,78,72,6,40,48,59,4
+2024/2025,Male,ALL,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,97,251,167,70,64,6,36,44,53,4
+2024/2025,Male,ALL,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,275,709,472,201,185,16,102,123,149,11
+2024/2025,Male,ALL,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,288,744,495,211,193,17,107,129,156,12
+2024/2025,Male,ALL,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,144,371,247,106,97,8,54,64,78,6
+2024/2025,Male,ALL,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,242,623,414,176,163,14,90,108,131,9
+2024/2025,Male,ALL,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,195,501,335,142,130,11,73,86,106,8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,158,406,271,114,106,9,59,70,86,6
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,322,831,553,235,215,19,120,144,175,13
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,51,130,86,37,34,3,19,23,27,2
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,154,397,266,113,104,9,58,68,84,6
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,292,753,501,213,196,17,109,130,159,11
+2024/2025,Male,ALL,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,97,251,167,70,64,6,36,44,53,4
+2024/2025,Male,ALL,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,97,251,167,70,64,6,36,44,53,4
+2024/2025,Male,ALL,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,456,1176,783,333,306,27,170,203,248,18
+2024/2025,Male,ALL,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,181,466,312,132,122,11,68,80,99,7
+2024/2025,Male,ALL,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,174,449,300,128,117,10,65,77,95,7
+2024/2025,Male,ALL,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,349,900,599,255,235,20,129,156,189,14
+2024/2025,Male,ALL,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,369,952,633,270,248,22,137,165,200,15
+2024/2025,Male,ALL,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,204,527,351,150,138,12,76,91,111,8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,362,935,622,264,243,21,134,162,197,14
+2024/2025,Male,ALL,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,272,701,467,198,182,16,101,121,148,11
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,218,562,374,160,147,13,81,97,118,9
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,429,1106,737,314,289,25,160,191,233,17
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,74,191,127,54,50,4,27,33,40,3
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,215,553,368,157,144,13,80,96,116,9
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,396,1021,680,289,265,23,147,177,215,16
+2024/2025,Male,ALL,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,144,371,247,106,97,8,54,64,78,6
+2024/2025,Male,ALL,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,147,380,254,107,100,9,55,65,81,5
+2024/2025,Male,ALL,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,574,1479,985,419,385,33,213,256,311,23
+2024/2025,Male,ALL,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,248,640,426,182,167,14,92,111,134,10
+2024/2025,Male,ALL,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,245,631,421,179,164,14,91,109,133,10
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,13,35,23,10,9,1,5,6,7,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,10,26,18,7,7,1,4,4,6,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,6,17,12,4,4,0,2,3,4,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,13,35,23,10,9,1,5,6,7,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,10,26,16,7,7,1,4,5,5,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,10,26,16,7,7,1,4,5,5,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,17,43,28,12,12,1,6,8,9,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,3,9,7,3,1,0,1,1,2,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,7,17,12,4,4,0,3,3,4,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,13,35,23,10,9,1,5,6,7,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,6,17,12,4,4,0,2,3,4,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Doma,North Central,Nasarawa,Doma,,,3,9,7,3,1,0,1,1,2,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Keffi,North Central,Nasarawa,Keffi,,,20,52,35,15,13,1,7,9,11,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Lafia,North Central,Nasarawa,Lafia,,,10,26,18,7,7,1,4,4,6,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,6,17,12,4,4,0,2,3,4,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,20,52,35,15,13,1,7,9,11,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,24,61,40,18,16,1,9,11,12,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,10,26,18,7,7,1,4,4,6,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,20,52,35,15,13,1,7,9,11,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,17,43,28,12,12,1,6,8,9,0
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,13,35,23,10,9,1,5,6,7,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,24,61,40,18,16,1,9,11,12,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,3,9,7,3,1,0,1,1,2,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,10,26,18,7,6,1,4,4,6,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,24,61,40,18,16,1,9,11,12,1
+2024/2025,Male,Disabled,NECO,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,6,17,12,4,4,0,2,3,4,0
+2024/2025,Male,Disabled,NECO,University,lga,Doma,North Central,Nasarawa,Doma,,,6,17,12,4,4,0,2,3,4,0
+2024/2025,Male,Disabled,NECO,University,lga,Keffi,North Central,Nasarawa,Keffi,,,37,94,63,26,25,2,14,16,20,1
+2024/2025,Male,Disabled,NECO,University,lga,Lafia,North Central,Nasarawa,Lafia,,,13,35,23,10,9,1,5,6,7,1
+2024/2025,Male,Disabled,NECO,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,13,35,23,10,9,1,5,6,7,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Akwanga,North Central,Nasarawa,Akwanga,,,27,68,46,19,18,2,11,11,15,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Doma,North Central,Nasarawa,Doma,,,30,76,51,22,21,2,12,13,16,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Keffi,North Central,Nasarawa,Keffi,,,17,43,28,12,12,1,6,8,9,0
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Lafia,North Central,Nasarawa,Lafia,,,33,85,58,25,22,2,13,14,18,2
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,20,52,35,15,13,1,7,9,11,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Akwanga,North Central,Nasarawa,Akwanga,,,17,43,28,12,12,1,6,8,9,0
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Doma,North Central,Nasarawa,Doma,,,33,85,58,25,22,2,13,14,18,2
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Keffi,North Central,Nasarawa,Keffi,,,6,17,12,4,4,0,2,3,4,0
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Lafia,North Central,Nasarawa,Lafia,,,17,43,28,12,12,1,6,8,9,0
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,33,85,58,25,22,2,13,14,18,2
+2024/2025,Male,Disabled,WAEC,University,lga,Akwanga,North Central,Nasarawa,Akwanga,,,10,26,18,7,6,1,4,4,6,1
+2024/2025,Male,Disabled,WAEC,University,lga,Doma,North Central,Nasarawa,Doma,,,10,26,16,7,6,1,4,5,5,1
+2024/2025,Male,Disabled,WAEC,University,lga,Keffi,North Central,Nasarawa,Keffi,,,47,120,81,34,31,3,18,20,26,2
+2024/2025,Male,Disabled,WAEC,University,lga,Lafia,North Central,Nasarawa,Lafia,,,20,52,35,15,13,1,7,9,11,1
+2024/2025,Male,Disabled,WAEC,University,lga,Nasarawa,North Central,Nasarawa,Nasarawa,,,17,43,28,12,12,1,6,8,9,0

@@ -1,181 +1,181 @@
-session,gender,disability_scope,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
-2022/2023,Female,all,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,67,51,78,30,427,385,76.1194,38.4615,547.4359,90.1639
-2022/2023,Female,all,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,74,56,83,32,422,382,75.6757,38.5542,508.4337,90.5213
-2022/2023,Female,all,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,74,56,86,33,459,416,75.6757,38.3721,533.7209,90.6318
-2022/2023,Female,all,NABTEB,lga,Warri North,South South,Delta,Warri North,,,69,52,80,31,413,390,75.3623,38.75,516.25,94.431
-2022/2023,Female,all,NABTEB,lga,Warri South,South South,Delta,Warri South,,,68,52,79,31,431,422,76.4706,39.2405,545.5696,97.9118
-2022/2023,Female,all,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,124,84,143,55,745,723,67.7419,38.4615,520.979,97.047
-2022/2023,Female,all,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,136,92,155,60,802,751,67.6471,38.7097,517.4194,93.6409
-2022/2023,Female,all,NECO,lga,Uvwie,South South,Delta,Uvwie,,,135,92,155,60,838,790,68.1481,38.7097,540.6452,94.2721
-2022/2023,Female,all,NECO,lga,Warri North,South South,Delta,Warri North,,,129,88,150,58,813,758,68.2171,38.6667,542.0,93.2349
-2022/2023,Female,all,NECO,lga,Warri South,South South,Delta,Warri South,,,127,86,146,56,765,711,67.7165,38.3562,523.9726,92.9412
-2022/2023,Female,all,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,162,119,186,72,1071,970,73.4568,38.7097,575.8065,90.5696
-2022/2023,Female,all,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,171,126,197,76,1085,969,73.6842,38.5787,550.7614,89.3088
-2022/2023,Female,all,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,181,133,207,80,1167,1058,73.4807,38.6473,563.7681,90.6598
-2022/2023,Female,all,WAEC,lga,Warri North,South South,Delta,Warri North,,,179,131,208,80,1154,1031,73.1844,38.4615,554.8077,89.3414
-2022/2023,Female,all,WAEC,lga,Warri South,South South,Delta,Warri South,,,162,119,187,72,1043,948,73.4568,38.5027,557.754,90.8917
-2022/2023,Female,disabled,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,6,5,7,3,61,54,83.3333,42.8571,871.4286,88.5246
-2022/2023,Female,disabled,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,6,5,7,3,56,49,83.3333,42.8571,800.0,87.5
-2022/2023,Female,disabled,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,7,5,7,3,61,54,71.4286,42.8571,871.4286,88.5246
-2022/2023,Female,disabled,NABTEB,lga,Warri North,South South,Delta,Warri North,,,7,5,7,3,56,53,71.4286,42.8571,800.0,94.6429
-2022/2023,Female,disabled,NABTEB,lga,Warri South,South South,Delta,Warri South,,,6,5,7,3,61,57,83.3333,42.8571,871.4286,93.4426
-2022/2023,Female,disabled,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,9,6,11,4,55,54,66.6667,36.3636,500.0,98.1818
-2022/2023,Female,disabled,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,10,7,12,4,61,54,70.0,33.3333,508.3333,88.5246
-2022/2023,Female,disabled,NECO,lga,Uvwie,South South,Delta,Uvwie,,,10,7,11,4,61,59,70.0,36.3636,554.5455,96.7213
-2022/2023,Female,disabled,NECO,lga,Warri North,South South,Delta,Warri North,,,10,7,12,4,71,64,70.0,33.3333,591.6667,90.1408
-2022/2023,Female,disabled,NECO,lga,Warri South,South South,Delta,Warri South,,,10,7,12,5,54,49,70.0,41.6667,450.0,90.7407
-2022/2023,Female,disabled,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,12,9,14,5,76,68,75.0,35.7143,542.8571,89.4737
-2022/2023,Female,disabled,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,13,10,16,6,70,64,76.9231,37.5,437.5,91.4286
-2022/2023,Female,disabled,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,13,10,15,6,70,62,76.9231,40.0,466.6667,88.5714
-2022/2023,Female,disabled,WAEC,lga,Warri North,South South,Delta,Warri North,,,14,10,16,6,70,63,71.4286,37.5,437.5,90.0
-2022/2023,Female,disabled,WAEC,lga,Warri South,South South,Delta,Warri South,,,14,10,16,6,70,63,71.4286,37.5,437.5,90.0
-2022/2023,Male,all,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,63,48,74,29,445,404,76.1905,39.1892,601.3514,90.7865
-2022/2023,Male,all,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,70,53,78,30,474,435,75.7143,38.4615,607.6923,91.7722
-2022/2023,Male,all,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,71,54,81,31,512,470,76.0563,38.2716,632.0988,91.7969
-2022/2023,Male,all,NABTEB,lga,Warri North,South South,Delta,Warri North,,,66,50,76,29,464,440,75.7576,38.1579,610.5263,94.8276
-2022/2023,Male,all,NABTEB,lga,Warri South,South South,Delta,Warri South,,,65,49,77,30,493,465,75.3846,38.961,640.2597,94.3205
-2022/2023,Male,all,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,117,80,133,52,767,727,68.3761,39.0977,576.6917,94.7849
-2022/2023,Male,all,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,128,87,147,57,912,859,67.9688,38.7755,620.4082,94.1886
-2022/2023,Male,all,NECO,lga,Uvwie,South South,Delta,Uvwie,,,129,88,149,58,935,868,68.2171,38.9262,627.5168,92.8342
-2022/2023,Male,all,NECO,lga,Warri North,South South,Delta,Warri North,,,122,83,141,55,907,865,68.0328,39.0071,643.2624,95.3693
-2022/2023,Male,all,NECO,lga,Warri South,South South,Delta,Warri South,,,121,82,140,54,876,822,67.7686,38.5714,625.7143,93.8356
-2022/2023,Male,all,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,150,110,169,65,1099,994,73.3333,38.4615,650.2959,90.4459
-2022/2023,Male,all,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,163,119,186,72,1243,1121,73.0061,38.7097,668.2796,90.185
-2022/2023,Male,all,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,173,127,201,78,1343,1197,73.4104,38.806,668.1592,89.1288
-2022/2023,Male,all,WAEC,lga,Warri North,South South,Delta,Warri North,,,168,123,195,75,1250,1137,73.2143,38.4615,641.0256,90.96
-2022/2023,Male,all,WAEC,lga,Warri South,South South,Delta,Warri South,,,158,116,183,71,1192,1074,73.4177,38.7978,651.3661,90.1007
-2022/2023,Male,disabled,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,6,4,7,3,47,41,66.6667,42.8571,671.4286,87.234
-2022/2023,Male,disabled,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,6,4,6,2,47,41,66.6667,33.3333,783.3333,87.234
-2022/2023,Male,disabled,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,6,4,7,3,60,56,66.6667,42.8571,857.1429,93.3333
-2022/2023,Male,disabled,NABTEB,lga,Warri North,South South,Delta,Warri North,,,6,4,7,3,74,68,66.6667,42.8571,1057.1429,91.8919
-2022/2023,Male,disabled,NABTEB,lga,Warri South,South South,Delta,Warri South,,,6,4,7,3,67,65,66.6667,42.8571,957.1429,97.0149
-2022/2023,Male,disabled,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,9,6,11,4,61,54,66.6667,36.3636,554.5455,88.5246
-2022/2023,Male,disabled,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,10,7,11,4,67,66,70.0,36.3636,609.0909,98.5075
-2022/2023,Male,disabled,NECO,lga,Uvwie,South South,Delta,Uvwie,,,9,6,11,4,67,59,66.6667,36.3636,609.0909,88.0597
-2022/2023,Male,disabled,NECO,lga,Warri North,South South,Delta,Warri North,,,10,7,11,4,67,66,70.0,36.3636,609.0909,98.5075
-2022/2023,Male,disabled,NECO,lga,Warri South,South South,Delta,Warri South,,,10,7,12,5,67,64,70.0,41.6667,558.3333,95.5224
-2022/2023,Male,disabled,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,11,8,13,5,67,59,72.7273,38.4615,515.3846,88.0597
-2022/2023,Male,disabled,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,12,9,14,5,76,67,75.0,35.7143,542.8571,88.1579
-2022/2023,Male,disabled,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,13,10,15,6,80,71,76.9231,40.0,533.3333,88.75
-2022/2023,Male,disabled,WAEC,lga,Warri North,South South,Delta,Warri North,,,14,10,16,6,80,71,71.4286,37.5,500.0,88.75
-2022/2023,Male,disabled,WAEC,lga,Warri South,South South,Delta,Warri South,,,13,9,16,6,80,71,69.2308,37.5,500.0,88.75
-2023/2024,Female,all,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,72,58,83,35,412,360,80.5556,42.1687,496.3855,87.3786
-2023/2024,Female,all,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,75,61,86,37,434,410,81.3333,43.0233,504.6512,94.47
-2023/2024,Female,all,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,80,65,92,39,448,419,81.25,42.3913,486.9565,93.5268
-2023/2024,Female,all,NABTEB,lga,Warri North,South South,Delta,Warri North,,,73,59,85,36,419,398,80.8219,42.3529,492.9412,94.9881
-2023/2024,Female,all,NABTEB,lga,Warri South,South South,Delta,Warri South,,,76,61,86,37,434,403,80.2632,43.0233,504.6512,92.8571
-2023/2024,Female,all,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,130,96,150,64,749,714,73.8462,42.6667,499.3333,95.3271
-2023/2024,Female,all,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,140,103,159,68,786,735,73.5714,42.7673,494.3396,93.5115
-2023/2024,Female,all,NECO,lga,Uvwie,South South,Delta,Uvwie,,,143,105,164,70,789,753,73.4266,42.6829,481.0976,95.4373
-2023/2024,Female,all,NECO,lga,Warri North,South South,Delta,Warri North,,,138,102,159,68,801,752,73.913,42.7673,503.7736,93.8826
-2023/2024,Female,all,NECO,lga,Warri South,South South,Delta,Warri South,,,134,99,156,67,786,731,73.8806,42.9487,503.8462,93.0025
-2023/2024,Female,all,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,179,141,203,87,1047,944,78.7709,42.8571,515.7635,90.1624
-2023/2024,Female,all,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,190,150,215,92,1142,1037,78.9474,42.7907,531.1628,90.8056
-2023/2024,Female,all,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,194,153,227,97,1186,1061,78.866,42.7313,522.467,89.4604
-2023/2024,Female,all,WAEC,lga,Warri North,South South,Delta,Warri North,,,176,139,203,86,1090,984,78.9773,42.3645,536.9458,90.2752
-2023/2024,Female,all,WAEC,lga,Warri South,South South,Delta,Warri South,,,180,142,208,89,1097,988,78.8889,42.7885,527.4038,90.0638
-2023/2024,Female,disabled,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,7,6,7,3,54,48,85.7143,42.8571,771.4286,88.8889
-2023/2024,Female,disabled,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,7,6,7,3,65,63,85.7143,42.8571,928.5714,96.9231
-2023/2024,Female,disabled,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,7,6,8,3,65,57,85.7143,37.5,812.5,87.6923
-2023/2024,Female,disabled,NABTEB,lga,Warri North,South South,Delta,Warri North,,,7,6,8,4,65,61,85.7143,50.0,812.5,93.8462
-2023/2024,Female,disabled,NABTEB,lga,Warri South,South South,Delta,Warri South,,,7,6,7,3,60,54,85.7143,42.8571,857.1429,90.0
-2023/2024,Female,disabled,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,10,7,12,5,54,53,70.0,41.6667,450.0,98.1481
-2023/2024,Female,disabled,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,11,8,12,5,57,56,72.7273,41.6667,475.0,98.2456
-2023/2024,Female,disabled,NECO,lga,Uvwie,South South,Delta,Uvwie,,,11,8,12,5,54,53,72.7273,41.6667,450.0,98.1481
-2023/2024,Female,disabled,NECO,lga,Warri North,South South,Delta,Warri North,,,11,8,12,5,62,57,72.7273,41.6667,516.6667,91.9355
-2023/2024,Female,disabled,NECO,lga,Warri South,South South,Delta,Warri South,,,11,8,13,5,58,57,72.7273,38.4615,446.1538,98.2759
-2023/2024,Female,disabled,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,13,10,15,6,63,56,76.9231,40.0,420.0,88.8889
-2023/2024,Female,disabled,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,14,11,16,7,68,60,78.5714,43.75,425.0,88.2353
-2023/2024,Female,disabled,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,15,12,17,7,68,60,80.0,41.1765,400.0,88.2353
-2023/2024,Female,disabled,WAEC,lga,Warri North,South South,Delta,Warri North,,,14,11,16,7,72,64,78.5714,43.75,450.0,88.8889
-2023/2024,Female,disabled,WAEC,lga,Warri South,South South,Delta,Warri South,,,15,12,18,8,68,60,80.0,44.4444,377.7778,88.2353
-2023/2024,Male,all,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,67,54,77,33,419,390,80.597,42.8571,544.1558,93.0788
-2023/2024,Male,all,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,71,57,81,35,490,469,80.2817,43.2099,604.9383,95.7143
-2023/2024,Male,all,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,78,63,89,38,485,437,80.7692,42.6966,544.9438,90.1031
-2023/2024,Male,all,NABTEB,lga,Warri North,South South,Delta,Warri North,,,71,57,80,34,455,431,80.2817,42.5,568.75,94.7253
-2023/2024,Male,all,NABTEB,lga,Warri South,South South,Delta,Warri South,,,71,57,82,35,453,409,80.2817,42.6829,552.439,90.287
-2023/2024,Male,all,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,120,88,137,58,787,755,73.3333,42.3358,574.4526,95.9339
-2023/2024,Male,all,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,134,99,155,66,841,770,73.8806,42.5806,542.5806,91.5577
-2023/2024,Male,all,NECO,lga,Uvwie,South South,Delta,Uvwie,,,131,96,153,65,892,838,73.2824,42.4837,583.0065,93.9462
-2023/2024,Male,all,NECO,lga,Warri North,South South,Delta,Warri North,,,135,99,153,65,826,778,73.3333,42.4837,539.8693,94.1889
-2023/2024,Male,all,NECO,lga,Warri South,South South,Delta,Warri South,,,129,95,149,64,848,809,73.6434,42.953,569.1275,95.4009
-2023/2024,Male,all,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,161,127,184,79,1085,975,78.882,42.9348,589.6739,89.8618
-2023/2024,Male,all,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,173,137,199,85,1148,1042,79.1908,42.7136,576.8844,90.7666
-2023/2024,Male,all,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,185,146,213,91,1306,1175,78.9189,42.723,613.1455,89.9694
-2023/2024,Male,all,WAEC,lga,Warri North,South South,Delta,Warri North,,,175,138,200,86,1179,1071,78.8571,43.0,589.5,90.8397
-2023/2024,Male,all,WAEC,lga,Warri South,South South,Delta,Warri South,,,176,139,206,88,1246,1114,78.9773,42.7184,604.8544,89.4061
-2023/2024,Male,disabled,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,6,5,7,3,51,45,83.3333,42.8571,728.5714,88.2353
-2023/2024,Male,disabled,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,6,5,7,3,70,63,83.3333,42.8571,1000.0,90.0
-2023/2024,Male,disabled,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,7,6,7,3,51,45,85.7143,42.8571,728.5714,88.2353
-2023/2024,Male,disabled,NABTEB,lga,Warri North,South South,Delta,Warri North,,,7,6,7,3,70,63,85.7143,42.8571,1000.0,90.0
-2023/2024,Male,disabled,NABTEB,lga,Warri South,South South,Delta,Warri South,,,7,6,8,4,57,50,85.7143,50.0,712.5,87.7193
-2023/2024,Male,disabled,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,9,7,11,5,64,57,77.7778,45.4545,581.8182,89.0625
-2023/2024,Male,disabled,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,10,7,11,5,65,57,70.0,45.4545,590.9091,87.6923
-2023/2024,Male,disabled,NECO,lga,Uvwie,South South,Delta,Uvwie,,,10,7,12,5,65,57,70.0,41.6667,541.6667,87.6923
-2023/2024,Male,disabled,NECO,lga,Warri North,South South,Delta,Warri North,,,11,8,12,5,65,61,72.7273,41.6667,541.6667,93.8462
-2023/2024,Male,disabled,NECO,lga,Warri South,South South,Delta,Warri South,,,11,8,12,5,65,61,72.7273,41.6667,541.6667,93.8462
-2023/2024,Male,disabled,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,12,9,14,6,68,65,75.0,42.8571,485.7143,95.5882
-2023/2024,Male,disabled,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,13,10,15,6,69,65,76.9231,40.0,460.0,94.2029
-2023/2024,Male,disabled,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,14,11,16,7,76,69,78.5714,43.75,475.0,90.7895
-2023/2024,Male,disabled,WAEC,lga,Warri North,South South,Delta,Warri North,,,14,11,16,7,82,73,78.5714,43.75,512.5,89.0244
-2023/2024,Male,disabled,WAEC,lga,Warri South,South South,Delta,Warri South,,,15,12,18,8,73,69,80.0,44.4444,405.5556,94.5205
-2024/2025,Female,all,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,131,98,74,29,22,20,74.8092,39.1892,29.7297,90.9091
-2024/2025,Female,all,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,135,102,77,31,23,21,75.5556,40.2597,29.8701,91.3043
-2024/2025,Female,all,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,138,104,80,31,24,22,75.3623,38.7500,30.0000,91.6667
-2024/2025,Female,all,NABTEB,lga,Warri North,South South,Delta,Warri North,,,126,95,72,28,23,21,75.3968,38.8889,31.9444,91.3043
-2024/2025,Female,all,NABTEB,lga,Warri South,South South,Delta,Warri South,,,124,93,72,28,22,22,75.0000,38.8889,30.5556,100.0000
-2024/2025,Female,all,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,1834,1246,1054,413,319,290,67.9389,39.1841,30.2657,90.9091
-2024/2025,Female,all,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,1977,1341,1146,454,348,327,67.8300,39.6161,30.3665,93.9655
-2024/2025,Female,all,NECO,lga,Uvwie,South South,Delta,Uvwie,,,2120,1437,1203,474,371,344,67.7830,39.4015,30.8396,92.7224
-2024/2025,Female,all,NECO,lga,Warri North,South South,Delta,Warri North,,,1834,1246,1032,407,308,277,67.9389,39.4380,29.8450,89.9351
-2024/2025,Female,all,NECO,lga,Warri South,South South,Delta,Warri South,,,1834,1245,1054,413,330,305,67.8844,39.1841,31.3093,92.4242
-2024/2025,Female,all,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,2593,1901,1486,582,450,407,73.3128,39.1655,30.2826,90.4444
-2024/2025,Female,all,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,2915,2149,1669,655,517,478,73.7221,39.2451,30.9766,92.4565
-2024/2025,Female,all,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,2869,2105,1638,640,515,475,73.3705,39.0720,31.4408,92.2330
-2024/2025,Female,all,WAEC,lga,Warri North,South South,Delta,Warri North,,,2762,2032,1585,626,463,427,73.5699,39.4953,29.2114,92.2246
-2024/2025,Female,all,WAEC,lga,Warri South,South South,Delta,Warri South,,,2777,2047,1585,626,485,449,73.7126,39.4953,30.5994,92.5773
-2024/2025,Female,disabled,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,14,10,7,3,4,3,71.4286,42.8571,57.1429,75.0000
-2024/2025,Female,disabled,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,14,10,7,3,4,4,71.4286,42.8571,57.1429,100.0000
-2024/2025,Female,disabled,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,14,10,8,3,3,3,71.4286,37.5000,37.5000,100.0000
-2024/2025,Female,disabled,NABTEB,lga,Warri North,South South,Delta,Warri North,,,14,10,8,3,4,4,71.4286,37.5000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,lga,Warri South,South South,Delta,Warri South,,,13,10,7,3,4,4,76.9231,42.8571,57.1429,100.0000
-2024/2025,Female,disabled,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,166,113,90,38,29,25,68.0723,42.2222,32.2222,86.2069
-2024/2025,Female,disabled,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,166,113,98,38,31,28,68.0723,38.7755,31.6327,90.3226
-2024/2025,Female,disabled,NECO,lga,Uvwie,South South,Delta,Uvwie,,,166,113,98,38,28,25,68.0723,38.7755,28.5714,89.2857
-2024/2025,Female,disabled,NECO,lga,Warri North,South South,Delta,Warri North,,,182,129,98,38,28,25,70.8791,38.7755,28.5714,89.2857
-2024/2025,Female,disabled,NECO,lga,Warri South,South South,Delta,Warri South,,,166,113,98,38,28,25,68.0723,38.7755,28.5714,89.2857
-2024/2025,Female,disabled,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,225,163,129,49,35,32,72.4444,37.9845,27.1318,91.4286
-2024/2025,Female,disabled,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,243,180,146,57,35,32,74.0741,39.0411,23.9726,91.4286
-2024/2025,Female,disabled,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,243,180,146,57,34,31,74.0741,39.0411,23.2877,91.1765
-2024/2025,Female,disabled,WAEC,lga,Warri North,South South,Delta,Warri North,,,243,179,146,57,37,33,73.6626,39.0411,25.3425,89.1892
-2024/2025,Female,disabled,WAEC,lga,Warri South,South South,Delta,Warri South,,,260,196,146,57,39,35,75.3846,39.0411,26.7123,89.7436
-2024/2025,Male,all,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,121,90,68,26,23,21,74.3802,38.2353,33.8235,91.3043
-2024/2025,Male,all,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,128,97,73,29,25,22,75.7813,39.7260,34.2466,88.0000
-2024/2025,Male,all,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,131,98,76,30,28,25,74.8092,39.4737,36.8421,89.2857
-2024/2025,Male,all,NABTEB,lga,Warri North,South South,Delta,Warri North,,,123,92,69,27,25,24,74.7967,39.1304,36.2319,96.0000
-2024/2025,Male,all,NABTEB,lga,Warri South,South South,Delta,Warri South,,,123,92,71,28,26,24,74.7967,39.4366,36.6197,92.3077
-2024/2025,Male,all,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,1733,1177,990,386,346,316,67.9169,38.9899,34.9495,91.3295
-2024/2025,Male,all,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,1862,1273,1061,413,368,340,68.3673,38.9255,34.6843,92.3913
-2024/2025,Male,all,NECO,lga,Uvwie,South South,Delta,Uvwie,,,1962,1341,1132,447,403,376,68.3486,39.4876,35.6007,93.3002
-2024/2025,Male,all,NECO,lga,Warri North,South South,Delta,Warri North,,,1776,1204,1011,400,357,325,67.7928,39.5648,35.3116,91.0364
-2024/2025,Male,all,NECO,lga,Warri South,South South,Delta,Warri South,,,1791,1218,1018,400,374,343,68.0067,39.2927,36.7387,91.7112
-2024/2025,Male,all,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,2471,1813,1425,560,510,470,73.3711,39.2982,35.7895,92.1569
-2024/2025,Male,all,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,2747,2018,1562,611,538,492,73.4620,39.1165,34.4430,91.4498
-2024/2025,Male,all,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,2716,2003,1547,611,557,514,73.7482,39.4958,36.0052,92.2801
-2024/2025,Male,all,WAEC,lga,Warri North,South South,Delta,Warri North,,,2639,1944,1501,590,542,502,73.6643,39.3071,36.1093,92.6199
-2024/2025,Male,all,WAEC,lga,Warri South,South South,Delta,Warri South,,,2655,1944,1517,597,533,487,73.2203,39.3540,35.1351,91.3696
-2024/2025,Male,disabled,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,12,10,6,2,3,2,83.3333,33.3333,50.0000,66.6667
-2024/2025,Male,disabled,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,12,10,7,3,3,3,83.3333,42.8571,42.8571,100.0000
-2024/2025,Male,disabled,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,12,10,7,3,3,3,83.3333,42.8571,42.8571,100.0000
-2024/2025,Male,disabled,NABTEB,lga,Warri North,South South,Delta,Warri North,,,13,9,7,3,4,4,69.2308,42.8571,57.1429,100.0000
-2024/2025,Male,disabled,NABTEB,lga,Warri South,South South,Delta,Warri South,,,12,9,7,2,4,3,75.0000,28.5714,57.1429,75.0000
-2024/2025,Male,disabled,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,149,96,90,38,26,26,64.4295,42.2222,28.8889,100.0000
-2024/2025,Male,disabled,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,166,112,90,37,30,29,67.4699,41.1111,33.3333,96.6667
-2024/2025,Male,disabled,NECO,lga,Uvwie,South South,Delta,Uvwie,,,166,112,98,37,31,31,67.4699,37.7551,31.6327,100.0000
-2024/2025,Male,disabled,NECO,lga,Warri North,South South,Delta,Warri North,,,165,112,98,37,31,28,67.8788,37.7551,31.6327,90.3226
-2024/2025,Male,disabled,NECO,lga,Warri South,South South,Delta,Warri South,,,165,112,98,37,32,30,67.8788,37.7551,32.6531,93.7500
-2024/2025,Male,disabled,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,225,163,120,49,37,34,72.4444,40.8333,30.8333,91.8919
-2024/2025,Male,disabled,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,225,163,129,49,32,29,72.4444,37.9845,24.8062,90.6250
-2024/2025,Male,disabled,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,225,163,129,49,39,37,72.4444,37.9845,30.2326,94.8718
-2024/2025,Male,disabled,WAEC,lga,Warri North,South South,Delta,Warri North,,,243,179,137,57,42,39,73.6626,41.6058,30.6569,92.8571
-2024/2025,Male,disabled,WAEC,lga,Warri South,South South,Delta,Warri South,,,243,179,146,57,37,34,73.6626,39.0411,25.3425,91.8919
+session,gender,disability,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
+2022/2023,Female,ALL,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,130,109,163,142,1088,986,76.1194,38.4615,547.4359,90.1639
+2022/2023,Female,ALL,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,144,120,174,152,1075,979,75.6757,38.5542,508.4337,90.5213
+2022/2023,Female,ALL,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,144,120,180,157,1170,1066,75.6757,38.3721,533.7209,90.6318
+2022/2023,Female,ALL,NABTEB,lga,Warri North,South South,Delta,Warri North,,,134,112,167,147,1052,999,75.3623,38.75,516.25,94.431
+2022/2023,Female,ALL,NABTEB,lga,Warri South,South South,Delta,Warri South,,,132,112,165,147,1098,1081,76.4706,39.2405,545.5696,97.9118
+2022/2023,Female,ALL,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,241,180,299,261,1898,1852,67.7419,38.4615,520.979,97.047
+2022/2023,Female,ALL,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,265,198,324,285,2044,1924,67.6471,38.7097,517.4194,93.6409
+2022/2023,Female,ALL,NECO,lga,Uvwie,South South,Delta,Uvwie,,,263,198,324,285,2135,2024,68.1481,38.7097,540.6452,94.2721
+2022/2023,Female,ALL,NECO,lga,Warri North,South South,Delta,Warri North,,,251,189,314,275,2072,1942,68.2171,38.6667,542.0,93.2349
+2022/2023,Female,ALL,NECO,lga,Warri South,South South,Delta,Warri South,,,247,185,305,266,1949,1821,67.7165,38.3562,523.9726,92.9412
+2022/2023,Female,ALL,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,315,255,389,342,2729,2485,73.4568,38.7097,575.8065,90.5696
+2022/2023,Female,ALL,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,333,270,412,361,2765,2482,73.6842,38.5787,550.7614,89.3088
+2022/2023,Female,ALL,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,352,286,433,380,2974,2710,73.4807,38.6473,563.7681,90.6598
+2022/2023,Female,ALL,WAEC,lga,Warri North,South South,Delta,Warri North,,,348,281,435,380,2940,2641,73.1844,38.4615,554.8077,89.3414
+2022/2023,Female,ALL,WAEC,lga,Warri South,South South,Delta,Warri South,,,315,255,391,342,2658,2429,73.4568,38.5027,557.754,90.8917
+2022/2023,Female,Disabled,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,12,11,15,14,155,138,83.3333,42.8571,871.4286,88.5246
+2022/2023,Female,Disabled,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,12,11,15,14,143,126,83.3333,42.8571,800.0,87.5
+2022/2023,Female,Disabled,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,14,11,15,14,155,138,71.4286,42.8571,871.4286,88.5246
+2022/2023,Female,Disabled,NABTEB,lga,Warri North,South South,Delta,Warri North,,,14,11,15,14,143,136,71.4286,42.8571,800.0,94.6429
+2022/2023,Female,Disabled,NABTEB,lga,Warri South,South South,Delta,Warri South,,,12,11,15,14,155,146,83.3333,42.8571,871.4286,93.4426
+2022/2023,Female,Disabled,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,18,13,23,19,140,138,66.6667,36.3636,500.0,98.1818
+2022/2023,Female,Disabled,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,19,15,25,19,155,138,70.0,33.3333,508.3333,88.5246
+2022/2023,Female,Disabled,NECO,lga,Uvwie,South South,Delta,Uvwie,,,19,15,23,19,155,151,70.0,36.3636,554.5455,96.7213
+2022/2023,Female,Disabled,NECO,lga,Warri North,South South,Delta,Warri North,,,19,15,25,19,181,164,70.0,33.3333,591.6667,90.1408
+2022/2023,Female,Disabled,NECO,lga,Warri South,South South,Delta,Warri South,,,19,15,25,24,138,126,70.0,41.6667,450.0,90.7407
+2022/2023,Female,Disabled,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,23,19,29,24,194,174,75.0,35.7143,542.8571,89.4737
+2022/2023,Female,Disabled,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,25,21,33,28,178,164,76.9231,37.5,437.5,91.4286
+2022/2023,Female,Disabled,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,25,21,31,28,178,159,76.9231,40.0,466.6667,88.5714
+2022/2023,Female,Disabled,WAEC,lga,Warri North,South South,Delta,Warri North,,,27,21,33,28,178,161,71.4286,37.5,437.5,90.0
+2022/2023,Female,Disabled,WAEC,lga,Warri South,South South,Delta,Warri South,,,27,21,33,28,178,161,71.4286,37.5,437.5,90.0
+2022/2023,Male,ALL,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,123,103,155,138,1134,1035,76.1905,39.1892,601.3514,90.7865
+2022/2023,Male,ALL,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,136,114,163,142,1208,1114,75.7143,38.4615,607.6923,91.7722
+2022/2023,Male,ALL,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,138,116,169,147,1305,1204,76.0563,38.2716,632.0988,91.7969
+2022/2023,Male,ALL,NABTEB,lga,Warri North,South South,Delta,Warri North,,,128,107,159,138,1182,1127,75.7576,38.1579,610.5263,94.8276
+2022/2023,Male,ALL,NABTEB,lga,Warri South,South South,Delta,Warri South,,,126,105,161,142,1256,1191,75.3846,38.961,640.2597,94.3205
+2022/2023,Male,ALL,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,228,172,278,247,1954,1862,68.3761,39.0977,576.6917,94.7849
+2022/2023,Male,ALL,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,249,187,307,270,2324,2201,67.9688,38.7755,620.4082,94.1886
+2022/2023,Male,ALL,NECO,lga,Uvwie,South South,Delta,Uvwie,,,251,189,312,275,2382,2224,68.2171,38.9262,627.5168,92.8342
+2022/2023,Male,ALL,NECO,lga,Warri North,South South,Delta,Warri North,,,237,178,295,261,2311,2216,68.0328,39.0071,643.2624,95.3693
+2022/2023,Male,ALL,NECO,lga,Warri South,South South,Delta,Warri South,,,235,176,293,256,2232,2106,67.7686,38.5714,625.7143,93.8356
+2022/2023,Male,ALL,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,292,236,353,308,2800,2546,73.3333,38.4615,650.2959,90.4459
+2022/2023,Male,ALL,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,317,255,389,342,3167,2872,73.0061,38.7097,668.2796,90.185
+2022/2023,Male,ALL,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,336,273,420,370,3422,3066,73.4104,38.806,668.1592,89.1288
+2022/2023,Male,ALL,WAEC,lga,Warri North,South South,Delta,Warri North,,,327,264,408,356,3185,2913,73.2143,38.4615,641.0256,90.96
+2022/2023,Male,ALL,WAEC,lga,Warri South,South South,Delta,Warri South,,,307,249,383,337,3037,2751,73.4177,38.7978,651.3661,90.1007
+2022/2023,Male,Disabled,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,12,9,15,14,120,105,66.6667,42.8571,671.4286,87.234
+2022/2023,Male,Disabled,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,12,9,13,9,120,105,66.6667,33.3333,783.3333,87.234
+2022/2023,Male,Disabled,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,12,9,15,14,153,143,66.6667,42.8571,857.1429,93.3333
+2022/2023,Male,Disabled,NABTEB,lga,Warri North,South South,Delta,Warri North,,,12,9,15,14,189,174,66.6667,42.8571,1057.1429,91.8919
+2022/2023,Male,Disabled,NABTEB,lga,Warri South,South South,Delta,Warri South,,,12,9,15,14,171,167,66.6667,42.8571,957.1429,97.0149
+2022/2023,Male,Disabled,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,18,13,23,19,155,138,66.6667,36.3636,554.5455,88.5246
+2022/2023,Male,Disabled,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,19,15,23,19,171,169,70.0,36.3636,609.0909,98.5075
+2022/2023,Male,Disabled,NECO,lga,Uvwie,South South,Delta,Uvwie,,,18,13,23,19,171,151,66.6667,36.3636,609.0909,88.0597
+2022/2023,Male,Disabled,NECO,lga,Warri North,South South,Delta,Warri North,,,19,15,23,19,171,169,70.0,36.3636,609.0909,98.5075
+2022/2023,Male,Disabled,NECO,lga,Warri South,South South,Delta,Warri South,,,19,15,25,24,171,164,70.0,41.6667,558.3333,95.5224
+2022/2023,Male,Disabled,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,21,17,27,24,171,151,72.7273,38.4615,515.3846,88.0597
+2022/2023,Male,Disabled,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,23,19,29,24,194,172,75.0,35.7143,542.8571,88.1579
+2022/2023,Male,Disabled,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,25,21,31,28,204,182,76.9231,40.0,533.3333,88.75
+2022/2023,Male,Disabled,WAEC,lga,Warri North,South South,Delta,Warri North,,,27,21,33,28,204,182,71.4286,37.5,500.0,88.75
+2022/2023,Male,Disabled,WAEC,lga,Warri South,South South,Delta,Warri South,,,25,19,33,28,204,182,69.2308,37.5,500.0,88.75
+2023/2024,Female,ALL,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,140,125,174,166,1050,922,80.5556,42.1687,496.3855,87.3786
+2023/2024,Female,ALL,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,146,131,180,176,1106,1050,81.3333,43.0233,504.6512,94.47
+2023/2024,Female,ALL,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,156,140,192,185,1142,1073,81.25,42.3913,486.9565,93.5268
+2023/2024,Female,ALL,NABTEB,lga,Warri North,South South,Delta,Warri North,,,142,127,178,171,1068,1020,80.8219,42.3529,492.9412,94.9881
+2023/2024,Female,ALL,NABTEB,lga,Warri South,South South,Delta,Warri South,,,148,131,180,176,1106,1032,80.2632,43.0233,504.6512,92.8571
+2023/2024,Female,ALL,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,253,206,314,304,1908,1829,73.8462,42.6667,499.3333,95.3271
+2023/2024,Female,ALL,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,272,221,332,323,2003,1883,73.5714,42.7673,494.3396,93.5115
+2023/2024,Female,ALL,NECO,lga,Uvwie,South South,Delta,Uvwie,,,278,225,343,332,2010,1929,73.4266,42.6829,481.0976,95.4373
+2023/2024,Female,ALL,NECO,lga,Warri North,South South,Delta,Warri North,,,268,219,332,323,2041,1926,73.913,42.7673,503.7736,93.8826
+2023/2024,Female,ALL,NECO,lga,Warri South,South South,Delta,Warri South,,,261,213,326,318,2003,1873,73.8806,42.9487,503.8462,93.0025
+2023/2024,Female,ALL,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,348,303,424,413,2668,2418,78.7709,42.8571,515.7635,90.1624
+2023/2024,Female,ALL,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,370,322,449,437,2910,2657,78.9474,42.7907,531.1628,90.8056
+2023/2024,Female,ALL,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,377,328,475,460,3022,2718,78.866,42.7313,522.467,89.4604
+2023/2024,Female,ALL,WAEC,lga,Warri North,South South,Delta,Warri North,,,342,298,424,408,2777,2521,78.9773,42.3645,536.9458,90.2752
+2023/2024,Female,ALL,WAEC,lga,Warri South,South South,Delta,Warri South,,,350,305,435,422,2795,2531,78.8889,42.7885,527.4038,90.0638
+2023/2024,Female,Disabled,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,14,13,15,14,138,123,85.7143,42.8571,771.4286,88.8889
+2023/2024,Female,Disabled,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,14,13,15,14,166,161,85.7143,42.8571,928.5714,96.9231
+2023/2024,Female,Disabled,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,14,13,17,14,166,146,85.7143,37.5,812.5,87.6923
+2023/2024,Female,Disabled,NABTEB,lga,Warri North,South South,Delta,Warri North,,,14,13,17,19,166,156,85.7143,50.0,812.5,93.8462
+2023/2024,Female,Disabled,NABTEB,lga,Warri South,South South,Delta,Warri South,,,14,13,15,14,153,138,85.7143,42.8571,857.1429,90.0
+2023/2024,Female,Disabled,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,19,15,25,24,138,136,70.0,41.6667,450.0,98.1481
+2023/2024,Female,Disabled,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,21,17,25,24,145,143,72.7273,41.6667,475.0,98.2456
+2023/2024,Female,Disabled,NECO,lga,Uvwie,South South,Delta,Uvwie,,,21,17,25,24,138,136,72.7273,41.6667,450.0,98.1481
+2023/2024,Female,Disabled,NECO,lga,Warri North,South South,Delta,Warri North,,,21,17,25,24,158,146,72.7273,41.6667,516.6667,91.9355
+2023/2024,Female,Disabled,NECO,lga,Warri South,South South,Delta,Warri South,,,21,17,27,24,148,146,72.7273,38.4615,446.1538,98.2759
+2023/2024,Female,Disabled,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,25,21,31,28,161,143,76.9231,40.0,420.0,88.8889
+2023/2024,Female,Disabled,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,27,24,33,33,173,154,78.5714,43.75,425.0,88.2353
+2023/2024,Female,Disabled,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,29,26,36,33,173,154,80.0,41.1765,400.0,88.2353
+2023/2024,Female,Disabled,WAEC,lga,Warri North,South South,Delta,Warri North,,,27,24,33,33,183,164,78.5714,43.75,450.0,88.8889
+2023/2024,Female,Disabled,WAEC,lga,Warri South,South South,Delta,Warri South,,,29,26,38,38,173,154,80.0,44.4444,377.7778,88.2353
+2023/2024,Male,ALL,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,130,116,161,157,1068,999,80.597,42.8571,544.1558,93.0788
+2023/2024,Male,ALL,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,138,122,169,166,1249,1201,80.2817,43.2099,604.9383,95.7143
+2023/2024,Male,ALL,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,152,135,186,180,1236,1119,80.7692,42.6966,544.9438,90.1031
+2023/2024,Male,ALL,NABTEB,lga,Warri North,South South,Delta,Warri North,,,138,122,167,161,1159,1104,80.2817,42.5,568.75,94.7253
+2023/2024,Male,ALL,NABTEB,lga,Warri South,South South,Delta,Warri South,,,138,122,171,166,1154,1048,80.2817,42.6829,552.439,90.287
+2023/2024,Male,ALL,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,233,189,286,275,2005,1934,73.3333,42.3358,574.4526,95.9339
+2023/2024,Male,ALL,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,261,213,324,313,2143,1973,73.8806,42.5806,542.5806,91.5577
+2023/2024,Male,ALL,NECO,lga,Uvwie,South South,Delta,Uvwie,,,255,206,320,308,2273,2147,73.2824,42.4837,583.0065,93.9462
+2023/2024,Male,ALL,NECO,lga,Warri North,South South,Delta,Warri North,,,263,213,320,308,2105,1993,73.3333,42.4837,539.8693,94.1889
+2023/2024,Male,ALL,NECO,lga,Warri South,South South,Delta,Warri South,,,251,204,312,304,2161,2072,73.6434,42.953,569.1275,95.4009
+2023/2024,Male,ALL,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,313,273,385,375,2765,2498,78.882,42.9348,589.6739,89.8618
+2023/2024,Male,ALL,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,336,294,416,403,2925,2669,79.1908,42.7136,576.8844,90.7666
+2023/2024,Male,ALL,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,360,313,445,432,3328,3010,78.9189,42.723,613.1455,89.9694
+2023/2024,Male,ALL,WAEC,lga,Warri North,South South,Delta,Warri North,,,340,296,418,408,3004,2744,78.8571,43.0,589.5,90.8397
+2023/2024,Male,ALL,WAEC,lga,Warri South,South South,Delta,Warri South,,,342,298,431,418,3175,2854,78.9773,42.7184,604.8544,89.4061
+2023/2024,Male,Disabled,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,12,11,15,14,130,115,83.3333,42.8571,728.5714,88.2353
+2023/2024,Male,Disabled,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,12,11,15,14,178,161,83.3333,42.8571,1000.0,90.0
+2023/2024,Male,Disabled,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,14,13,15,14,130,115,85.7143,42.8571,728.5714,88.2353
+2023/2024,Male,Disabled,NABTEB,lga,Warri North,South South,Delta,Warri North,,,14,13,15,14,178,161,85.7143,42.8571,1000.0,90.0
+2023/2024,Male,Disabled,NABTEB,lga,Warri South,South South,Delta,Warri South,,,14,13,17,19,145,128,85.7143,50.0,712.5,87.7193
+2023/2024,Male,Disabled,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,18,15,23,24,163,146,77.7778,45.4545,581.8182,89.0625
+2023/2024,Male,Disabled,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,19,15,23,24,166,146,70.0,45.4545,590.9091,87.6923
+2023/2024,Male,Disabled,NECO,lga,Uvwie,South South,Delta,Uvwie,,,19,15,25,24,166,146,70.0,41.6667,541.6667,87.6923
+2023/2024,Male,Disabled,NECO,lga,Warri North,South South,Delta,Warri North,,,21,17,25,24,166,156,72.7273,41.6667,541.6667,93.8462
+2023/2024,Male,Disabled,NECO,lga,Warri South,South South,Delta,Warri South,,,21,17,25,24,166,156,72.7273,41.6667,541.6667,93.8462
+2023/2024,Male,Disabled,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,23,19,29,28,173,167,75.0,42.8571,485.7143,95.5882
+2023/2024,Male,Disabled,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,25,21,31,28,176,167,76.9231,40.0,460.0,94.2029
+2023/2024,Male,Disabled,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,27,24,33,33,194,177,78.5714,43.75,475.0,90.7895
+2023/2024,Male,Disabled,WAEC,lga,Warri North,South South,Delta,Warri North,,,27,24,33,33,209,187,78.5714,43.75,512.5,89.0244
+2023/2024,Male,Disabled,WAEC,lga,Warri South,South South,Delta,Warri South,,,29,26,38,38,186,177,80.0,44.4444,405.5556,94.5205
+2024/2025,Female,ALL,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,255,210,155,138,56,51,74.8092,39.1892,29.7297,90.9091
+2024/2025,Female,ALL,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,263,219,161,147,59,54,75.5556,40.2597,29.8701,91.3043
+2024/2025,Female,ALL,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,268,223,167,147,61,56,75.3623,38.7500,30.0000,91.6667
+2024/2025,Female,ALL,NABTEB,lga,Warri North,South South,Delta,Warri North,,,245,204,151,133,59,54,75.3968,38.8889,31.9444,91.3043
+2024/2025,Female,ALL,NABTEB,lga,Warri South,South South,Delta,Warri South,,,241,200,151,133,56,56,75.0000,38.8889,30.5556,100.0000
+2024/2025,Female,ALL,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,3567,2675,2204,1960,813,743,67.9389,39.1841,30.2657,90.9091
+2024/2025,Female,ALL,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,3845,2879,2396,2154,887,838,67.8300,39.6161,30.3665,93.9655
+2024/2025,Female,ALL,NECO,lga,Uvwie,South South,Delta,Uvwie,,,4123,3085,2515,2249,945,881,67.7830,39.4015,30.8396,92.7224
+2024/2025,Female,ALL,NECO,lga,Warri North,South South,Delta,Warri North,,,3567,2675,2158,1931,785,710,67.9389,39.4380,29.8450,89.9351
+2024/2025,Female,ALL,NECO,lga,Warri South,South South,Delta,Warri South,,,3567,2673,2204,1960,841,781,67.8844,39.1841,31.3093,92.4242
+2024/2025,Female,ALL,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,5043,4081,3107,2761,1147,1043,73.3128,39.1655,30.2826,90.4444
+2024/2025,Female,ALL,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,5670,4613,3489,3108,1317,1225,73.7221,39.2451,30.9766,92.4565
+2024/2025,Female,ALL,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,5580,4519,3424,3037,1312,1217,73.3705,39.0720,31.4408,92.2330
+2024/2025,Female,ALL,WAEC,lga,Warri North,South South,Delta,Warri North,,,5372,4362,3314,2970,1180,1094,73.5699,39.4953,29.2114,92.2246
+2024/2025,Female,ALL,WAEC,lga,Warri South,South South,Delta,Warri South,,,5401,4394,3314,2970,1236,1150,73.7126,39.4953,30.5994,92.5773
+2024/2025,Female,Disabled,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,27,21,15,14,10,8,71.4286,42.8571,57.1429,75.0000
+2024/2025,Female,Disabled,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,27,21,15,14,10,10,71.4286,42.8571,57.1429,100.0000
+2024/2025,Female,Disabled,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,27,21,17,14,8,8,71.4286,37.5000,37.5000,100.0000
+2024/2025,Female,Disabled,NABTEB,lga,Warri North,South South,Delta,Warri North,,,27,21,17,14,10,10,71.4286,37.5000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,lga,Warri South,South South,Delta,Warri South,,,25,21,15,14,10,10,76.9231,42.8571,57.1429,100.0000
+2024/2025,Female,Disabled,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,323,243,188,180,74,64,68.0723,42.2222,32.2222,86.2069
+2024/2025,Female,Disabled,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,323,243,205,180,79,72,68.0723,38.7755,31.6327,90.3226
+2024/2025,Female,Disabled,NECO,lga,Uvwie,South South,Delta,Uvwie,,,323,243,205,180,71,64,68.0723,38.7755,28.5714,89.2857
+2024/2025,Female,Disabled,NECO,lga,Warri North,South South,Delta,Warri North,,,354,277,205,180,71,64,70.8791,38.7755,28.5714,89.2857
+2024/2025,Female,Disabled,NECO,lga,Warri South,South South,Delta,Warri South,,,323,243,205,180,71,64,68.0723,38.7755,28.5714,89.2857
+2024/2025,Female,Disabled,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,438,350,270,232,89,82,72.4444,37.9845,27.1318,91.4286
+2024/2025,Female,Disabled,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,473,386,305,270,89,82,74.0741,39.0411,23.9726,91.4286
+2024/2025,Female,Disabled,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,473,386,305,270,87,79,74.0741,39.0411,23.2877,91.1765
+2024/2025,Female,Disabled,WAEC,lga,Warri North,South South,Delta,Warri North,,,473,384,305,270,94,85,73.6626,39.0411,25.3425,89.1892
+2024/2025,Female,Disabled,WAEC,lga,Warri South,South South,Delta,Warri South,,,506,421,305,270,99,90,75.3846,39.0411,26.7123,89.7436
+2024/2025,Male,ALL,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,235,193,142,123,59,54,74.3802,38.2353,33.8235,91.3043
+2024/2025,Male,ALL,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,249,208,153,138,64,56,75.7813,39.7260,34.2466,88.0000
+2024/2025,Male,ALL,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,255,210,159,142,71,64,74.8092,39.4737,36.8421,89.2857
+2024/2025,Male,ALL,NABTEB,lga,Warri North,South South,Delta,Warri North,,,239,198,144,128,64,61,74.7967,39.1304,36.2319,96.0000
+2024/2025,Male,ALL,NABTEB,lga,Warri South,South South,Delta,Warri South,,,239,198,148,133,66,61,74.7967,39.4366,36.6197,92.3077
+2024/2025,Male,ALL,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,3371,2527,2070,1831,882,810,67.9169,38.9899,34.9495,91.3295
+2024/2025,Male,ALL,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,3622,2733,2218,1960,938,871,68.3673,38.9255,34.6843,92.3913
+2024/2025,Male,ALL,NECO,lga,Uvwie,South South,Delta,Uvwie,,,3816,2879,2367,2121,1027,963,68.3486,39.4876,35.6007,93.3002
+2024/2025,Male,ALL,NECO,lga,Warri North,South South,Delta,Warri North,,,3454,2585,2114,1898,910,833,67.7928,39.5648,35.3116,91.0364
+2024/2025,Male,ALL,NECO,lga,Warri South,South South,Delta,Warri South,,,3484,2615,2128,1898,953,879,68.0067,39.2927,36.7387,91.7112
+2024/2025,Male,ALL,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,4806,3892,2979,2657,1300,1204,73.3711,39.2982,35.7895,92.1569
+2024/2025,Male,ALL,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,5343,4332,3266,2899,1371,1260,73.4620,39.1165,34.4430,91.4498
+2024/2025,Male,ALL,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,5283,4300,3234,2899,1419,1317,73.7482,39.4958,36.0052,92.2801
+2024/2025,Male,ALL,WAEC,lga,Warri North,South South,Delta,Warri North,,,5133,4173,3138,2799,1381,1286,73.6643,39.3071,36.1093,92.6199
+2024/2025,Male,ALL,WAEC,lga,Warri South,South South,Delta,Warri South,,,5164,4173,3172,2833,1358,1248,73.2203,39.3540,35.1351,91.3696
+2024/2025,Male,Disabled,NABTEB,lga,Oshimili North,South South,Delta,Oshimili North,,,23,21,13,9,8,5,83.3333,33.3333,50.0000,66.6667
+2024/2025,Male,Disabled,NABTEB,lga,Oshimili South,South South,Delta,Oshimili South,,,23,21,15,14,8,8,83.3333,42.8571,42.8571,100.0000
+2024/2025,Male,Disabled,NABTEB,lga,Uvwie,South South,Delta,Uvwie,,,23,21,15,14,8,8,83.3333,42.8571,42.8571,100.0000
+2024/2025,Male,Disabled,NABTEB,lga,Warri North,South South,Delta,Warri North,,,25,19,15,14,10,10,69.2308,42.8571,57.1429,100.0000
+2024/2025,Male,Disabled,NABTEB,lga,Warri South,South South,Delta,Warri South,,,23,19,15,9,10,8,75.0000,28.5714,57.1429,75.0000
+2024/2025,Male,Disabled,NECO,lga,Oshimili North,South South,Delta,Oshimili North,,,290,206,188,180,66,67,64.4295,42.2222,28.8889,100.0000
+2024/2025,Male,Disabled,NECO,lga,Oshimili South,South South,Delta,Oshimili South,,,323,240,188,176,76,74,67.4699,41.1111,33.3333,96.6667
+2024/2025,Male,Disabled,NECO,lga,Uvwie,South South,Delta,Uvwie,,,323,240,205,176,79,79,67.4699,37.7551,31.6327,100.0000
+2024/2025,Male,Disabled,NECO,lga,Warri North,South South,Delta,Warri North,,,321,240,205,176,79,72,67.8788,37.7551,31.6327,90.3226
+2024/2025,Male,Disabled,NECO,lga,Warri South,South South,Delta,Warri South,,,321,240,205,176,82,77,67.8788,37.7551,32.6531,93.7500
+2024/2025,Male,Disabled,WAEC,lga,Oshimili North,South South,Delta,Oshimili North,,,438,350,251,232,94,87,72.4444,40.8333,30.8333,91.8919
+2024/2025,Male,Disabled,WAEC,lga,Oshimili South,South South,Delta,Oshimili South,,,438,350,270,232,82,74,72.4444,37.9845,24.8062,90.6250
+2024/2025,Male,Disabled,WAEC,lga,Uvwie,South South,Delta,Uvwie,,,438,350,270,232,99,95,72.4444,37.9845,30.2326,94.8718
+2024/2025,Male,Disabled,WAEC,lga,Warri North,South South,Delta,Warri North,,,473,384,286,270,107,100,73.6626,41.6058,30.6569,92.8571
+2024/2025,Male,Disabled,WAEC,lga,Warri South,South South,Delta,Warri South,,,473,384,305,270,94,87,73.6626,39.0411,25.3425,91.8919

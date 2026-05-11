@@ -1,541 +1,541 @@
-session,gender,disability_scope,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
-2022/2023,Female,all,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,165,123,186,73,94,81,74.5455,39.2473,50.5376,86.1702
-2022/2023,Female,all,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,202,150,231,90,108,102,74.2574,38.961,46.7532,94.4444
-2022/2023,Female,all,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,174,130,208,81,108,91,74.7126,38.9423,51.9231,84.2593
-2022/2023,Female,all,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,149,111,178,70,90,82,74.4966,39.3258,50.5618,91.1111
-2022/2023,Female,all,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,173,129,205,79,98,87,74.5665,38.5366,47.8049,88.7755
-2022/2023,Female,all,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,236,175,278,107,143,128,74.1525,38.4892,51.4388,89.5105
-2022/2023,Female,all,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,190,141,218,85,99,91,74.2105,38.9908,45.4128,91.9192
-2022/2023,Female,all,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,178,132,198,77,98,86,74.1573,38.8889,49.4949,87.7551
-2022/2023,Female,all,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,226,168,252,98,108,102,74.3363,38.8889,42.8571,94.4444
-2022/2023,Female,all,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,163,121,184,71,98,91,74.2331,38.587,53.2609,92.8571
-2022/2023,Female,all,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,153,114,178,70,105,94,74.5098,39.3258,58.9888,89.5238
-2022/2023,Female,all,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,163,121,184,72,90,81,74.2331,39.1304,48.913,90.0
-2022/2023,Female,all,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,195,145,219,85,102,94,74.359,38.8128,46.5753,92.1569
-2022/2023,Female,all,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,201,150,233,91,114,107,74.6269,39.0558,48.927,93.8596
-2022/2023,Female,all,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,178,132,206,80,115,101,74.1573,38.835,55.8252,87.8261
-2022/2023,Female,all,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,295,196,330,127,175,163,66.4407,38.4848,53.0303,93.1429
-2022/2023,Female,all,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,379,253,420,160,240,222,66.7546,38.0952,57.1429,92.5
-2022/2023,Female,all,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,321,214,380,147,228,210,66.6667,38.6842,60.0,92.1053
-2022/2023,Female,all,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,278,185,322,123,191,174,66.5468,38.1988,59.3168,91.0995
-2022/2023,Female,all,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,302,201,350,134,199,176,66.5563,38.2857,56.8571,88.4422
-2022/2023,Female,all,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,454,302,545,211,321,286,66.5198,38.7156,58.8991,89.0966
-2022/2023,Female,all,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,366,243,404,155,206,190,66.3934,38.3663,50.9901,92.233
-2022/2023,Female,all,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,346,230,399,154,213,202,66.474,38.5965,53.3835,94.8357
-2022/2023,Female,all,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,395,263,448,173,231,212,66.5823,38.6161,51.5625,91.7749
-2022/2023,Female,all,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,303,201,355,136,190,181,66.3366,38.3099,53.5211,95.2632
-2022/2023,Female,all,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,249,166,294,112,184,175,66.6667,38.0952,62.585,95.1087
-2022/2023,Female,all,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,293,195,330,126,196,183,66.5529,38.1818,59.3939,93.3673
-2022/2023,Female,all,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,323,215,363,139,190,181,66.5635,38.292,52.3416,95.2632
-2022/2023,Female,all,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,399,265,459,177,249,233,66.416,38.5621,54.2484,93.5743
-2022/2023,Female,all,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,354,236,418,160,249,235,66.6667,38.2775,59.5694,94.3775
-2022/2023,Female,all,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,397,285,454,176,211,196,71.7884,38.7665,46.4758,92.891
-2022/2023,Female,all,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,496,356,554,214,267,247,71.7742,38.6282,48.1949,92.5094
-2022/2023,Female,all,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,440,316,510,197,272,256,71.8182,38.6275,53.3333,94.1176
-2022/2023,Female,all,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,378,271,447,171,232,216,71.6931,38.255,51.9016,93.1034
-2022/2023,Female,all,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,402,289,463,178,236,215,71.8905,38.4449,50.9719,91.1017
-2022/2023,Female,all,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,592,425,703,271,373,341,71.7905,38.5491,53.0583,91.4209
-2022/2023,Female,all,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,446,320,494,192,229,211,71.7489,38.8664,46.3563,92.1397
-2022/2023,Female,all,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,441,316,503,194,253,233,71.6553,38.5686,50.2982,92.0949
-2022/2023,Female,all,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,537,385,602,232,284,259,71.6946,38.5382,47.1761,91.1972
-2022/2023,Female,all,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,415,298,473,183,249,230,71.8072,38.6892,52.6427,92.3695
-2022/2023,Female,all,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,331,237,392,152,190,175,71.6012,38.7755,48.4694,92.1053
-2022/2023,Female,all,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,412,296,477,184,227,208,71.8447,38.5744,47.5891,91.63
-2022/2023,Female,all,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,445,319,499,192,239,220,71.6854,38.477,47.8958,92.0502
-2022/2023,Female,all,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,490,352,572,221,278,259,71.8367,38.6364,48.6014,93.1655
-2022/2023,Female,all,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,426,306,500,193,264,242,71.831,38.6,52.8,91.6667
-2022/2023,Female,disabled,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,16,12,16,7,14,12,75.0,43.75,87.5,85.7143
-2022/2023,Female,disabled,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,17,13,18,7,14,12,76.4706,38.8889,77.7778,85.7143
-2022/2023,Female,disabled,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,16,12,16,7,14,12,75.0,43.75,87.5,85.7143
-2022/2023,Female,disabled,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,18,13,20,8,14,12,72.2222,40.0,70.0,85.7143
-2022/2023,Female,disabled,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,17,13,18,7,14,12,76.4706,38.8889,77.7778,85.7143
-2022/2023,Female,disabled,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,19,14,23,9,14,12,73.6842,39.1304,60.8696,85.7143
-2022/2023,Female,disabled,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,17,13,18,7,14,13,76.4706,38.8889,77.7778,92.8571
-2022/2023,Female,disabled,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,17,13,18,7,14,13,76.4706,38.8889,77.7778,92.8571
-2022/2023,Female,disabled,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,18,13,18,7,14,13,72.2222,38.8889,77.7778,92.8571
-2022/2023,Female,disabled,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,17,13,18,7,14,13,76.4706,38.8889,77.7778,92.8571
-2022/2023,Female,disabled,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,16,12,16,7,14,13,75.0,43.75,87.5,92.8571
-2022/2023,Female,disabled,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,17,13,18,7,14,12,76.4706,38.8889,77.7778,85.7143
-2022/2023,Female,disabled,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,18,13,18,7,14,13,72.2222,38.8889,77.7778,92.8571
-2022/2023,Female,disabled,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,18,13,18,7,14,13,72.2222,38.8889,77.7778,92.8571
-2022/2023,Female,disabled,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,17,13,18,7,14,13,76.4706,38.8889,77.7778,92.8571
-2022/2023,Female,disabled,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,21,14,26,10,14,13,66.6667,38.4615,53.8462,92.8571
-2022/2023,Female,disabled,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,24,16,27,10,14,13,66.6667,37.037,51.8519,92.8571
-2022/2023,Female,disabled,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,23,15,28,11,14,13,65.2174,39.2857,50.0,92.8571
-2022/2023,Female,disabled,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,21,14,28,10,18,17,66.6667,35.7143,64.2857,94.4444
-2022/2023,Female,disabled,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,27,18,31,11,14,13,66.6667,35.4839,45.1613,92.8571
-2022/2023,Female,disabled,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,38,26,47,18,22,20,68.4211,38.2979,46.8085,90.9091
-2022/2023,Female,disabled,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,29,19,34,12,18,17,65.5172,35.2941,52.9412,94.4444
-2022/2023,Female,disabled,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,27,18,32,12,14,13,66.6667,37.5,43.75,92.8571
-2022/2023,Female,disabled,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,30,20,34,13,18,17,66.6667,38.2353,52.9412,94.4444
-2022/2023,Female,disabled,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,22,15,27,10,14,13,68.1818,37.037,51.8519,92.8571
-2022/2023,Female,disabled,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,19,13,23,8,14,13,68.4211,34.7826,60.8696,92.8571
-2022/2023,Female,disabled,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,22,15,24,8,18,17,68.1818,33.3333,75.0,94.4444
-2022/2023,Female,disabled,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,28,19,32,12,14,13,67.8571,37.5,43.75,92.8571
-2022/2023,Female,disabled,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,31,20,37,14,18,17,64.5161,37.8378,48.6486,94.4444
-2022/2023,Female,disabled,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,25,17,30,11,14,13,68.0,36.6667,46.6667,92.8571
-2022/2023,Female,disabled,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,28,20,32,13,10,9,71.4286,40.625,31.25,90.0
-2022/2023,Female,disabled,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,34,24,39,15,16,15,70.5882,38.4615,41.0256,93.75
-2022/2023,Female,disabled,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,29,21,32,12,14,13,72.4138,37.5,43.75,92.8571
-2022/2023,Female,disabled,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,30,22,36,14,14,13,73.3333,38.8889,38.8889,92.8571
-2022/2023,Female,disabled,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,34,24,41,15,17,16,70.5882,36.5854,41.4634,94.1176
-2022/2023,Female,disabled,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,50,36,59,23,23,18,72.0,38.9831,38.9831,78.2609
-2022/2023,Female,disabled,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,35,25,39,15,14,13,71.4286,38.4615,35.8974,92.8571
-2022/2023,Female,disabled,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,36,26,44,17,18,16,72.2222,38.6364,40.9091,88.8889
-2022/2023,Female,disabled,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,37,26,45,18,19,16,70.2703,40.0,42.2222,84.2105
-2022/2023,Female,disabled,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,29,21,32,12,14,13,72.4138,37.5,43.75,92.8571
-2022/2023,Female,disabled,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,28,20,32,13,12,11,71.4286,40.625,37.5,91.6667
-2022/2023,Female,disabled,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,30,22,34,13,14,13,73.3333,38.2353,41.1765,92.8571
-2022/2023,Female,disabled,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,39,28,44,17,16,14,71.7949,38.6364,36.3636,87.5
-2022/2023,Female,disabled,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,40,29,47,18,18,16,72.5,38.2979,38.2979,88.8889
-2022/2023,Female,disabled,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,33,24,39,15,17,16,72.7273,38.4615,43.5897,94.1176
-2022/2023,Male,all,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,161,120,182,71,98,90,74.5342,39.011,53.8462,91.8367
-2022/2023,Male,all,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,198,147,218,85,109,103,74.2424,38.9908,50.0,94.4954
-2022/2023,Male,all,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,176,130,203,79,127,114,73.8636,38.9163,62.5616,89.7638
-2022/2023,Male,all,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,156,116,180,71,114,109,74.359,39.4444,63.3333,95.614
-2022/2023,Male,all,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,164,121,191,75,98,90,73.7805,39.267,51.3089,91.8367
-2022/2023,Male,all,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,217,161,261,101,147,136,74.1935,38.6973,56.3218,92.517
-2022/2023,Male,all,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,184,136,214,83,113,95,73.913,38.785,52.8037,84.0708
-2022/2023,Male,all,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,175,130,196,75,104,90,74.2857,38.2653,53.0612,86.5385
-2022/2023,Male,all,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,219,163,244,94,125,108,74.4292,38.5246,51.2295,86.4
-2022/2023,Male,all,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,178,132,198,76,102,91,74.1573,38.3838,51.5152,89.2157
-2022/2023,Male,all,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,156,116,187,73,114,102,74.359,39.0374,60.9626,89.4737
-2022/2023,Male,all,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,164,122,196,76,107,97,74.3902,38.7755,54.5918,90.6542
-2022/2023,Male,all,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,202,150,230,88,123,107,74.2574,38.2609,53.4783,86.9919
-2022/2023,Male,all,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,206,154,237,92,129,118,74.7573,38.8186,54.4304,91.4729
-2022/2023,Male,all,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,163,121,189,73,113,103,74.2331,38.6243,59.7884,91.1504
-2022/2023,Male,all,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,309,206,362,139,219,205,66.6667,38.3978,60.4972,93.6073
-2022/2023,Male,all,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,354,236,399,153,259,247,66.6667,38.3459,64.9123,95.3668
-2022/2023,Male,all,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,320,213,384,148,250,235,66.5625,38.5417,65.1042,94.0
-2022/2023,Male,all,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,290,193,338,129,215,199,66.5517,38.1657,63.6095,92.5581
-2022/2023,Male,all,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,296,197,347,133,211,193,66.5541,38.3285,60.8069,91.4692
-2022/2023,Male,all,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,442,295,512,197,312,293,66.7421,38.4766,60.9375,93.9103
-2022/2023,Male,all,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,336,223,384,148,227,211,66.369,38.5417,59.1146,92.9515
-2022/2023,Male,all,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,354,235,403,155,242,223,66.3842,38.4615,60.0496,92.1488
-2022/2023,Male,all,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,401,267,438,168,260,235,66.5835,38.3562,59.3607,90.3846
-2022/2023,Male,all,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,315,210,355,137,201,182,66.6667,38.5915,56.6197,90.5473
-2022/2023,Male,all,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,263,175,305,116,201,188,66.5399,38.0328,65.9016,93.5323
-2022/2023,Male,all,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,281,187,320,122,200,182,66.548,38.125,62.5,91.0
-2022/2023,Male,all,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,345,229,395,151,228,211,66.3768,38.2278,57.7215,92.5439
-2022/2023,Male,all,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,385,256,443,172,297,270,66.4935,38.8262,67.0429,90.9091
-2022/2023,Male,all,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,318,212,375,144,255,240,66.6667,38.4,68.0,94.1176
-2022/2023,Male,all,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,394,283,445,172,239,216,71.8274,38.6517,53.7079,90.3766
-2022/2023,Male,all,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,480,345,549,212,283,261,71.875,38.6157,51.5483,92.2261
-2022/2023,Male,all,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,420,301,499,193,309,284,71.6667,38.6774,61.9238,91.9094
-2022/2023,Male,all,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,369,266,436,169,241,219,72.0867,38.7615,55.2752,90.8714
-2022/2023,Male,all,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,394,283,455,175,254,239,71.8274,38.4615,55.8242,94.0945
-2022/2023,Male,all,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,560,402,652,252,368,334,71.7857,38.6503,56.4417,90.7609
-2022/2023,Male,all,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,428,307,480,185,242,220,71.729,38.5417,50.4167,90.9091
-2022/2023,Male,all,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,453,325,517,199,288,261,71.7439,38.4913,55.706,90.625
-2022/2023,Male,all,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,530,381,607,234,310,294,71.8868,38.5502,51.0708,94.8387
-2022/2023,Male,all,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,403,290,461,179,250,230,71.9603,38.8286,54.2299,92.0
-2022/2023,Male,all,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,351,252,411,159,240,220,71.7949,38.6861,58.3942,91.6667
-2022/2023,Male,all,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,403,290,448,173,240,225,71.9603,38.6161,53.5714,93.75
-2022/2023,Male,all,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,479,344,551,212,288,267,71.8163,38.4755,52.2686,92.7083
-2022/2023,Male,all,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,495,355,564,217,342,317,71.7172,38.4752,60.6383,92.6901
-2022/2023,Male,all,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,423,304,493,191,279,258,71.8676,38.7424,56.5923,92.4731
-2022/2023,Male,disabled,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,14,10,14,6,14,13,71.4286,42.8571,100.0,92.8571
-2022/2023,Male,disabled,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,16,12,17,7,10,9,75.0,41.1765,58.8235,90.0
-2022/2023,Male,disabled,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,14,10,14,6,15,14,71.4286,42.8571,107.1429,93.3333
-2022/2023,Male,disabled,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,17,13,18,7,16,14,76.4706,38.8889,88.8889,87.5
-2022/2023,Male,disabled,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,16,12,17,7,14,13,75.0,41.1765,82.3529,92.8571
-2022/2023,Male,disabled,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,19,14,24,9,14,13,73.6842,37.5,58.3333,92.8571
-2022/2023,Male,disabled,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,15,11,17,7,17,14,73.3333,41.1765,100.0,82.3529
-2022/2023,Male,disabled,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,16,12,17,7,17,14,75.0,41.1765,100.0,82.3529
-2022/2023,Male,disabled,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,17,13,18,7,17,14,76.4706,38.8889,94.4444,82.3529
-2022/2023,Male,disabled,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,17,13,18,7,17,14,76.4706,38.8889,94.4444,82.3529
-2022/2023,Male,disabled,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,15,11,17,7,17,14,73.3333,41.1765,100.0,82.3529
-2022/2023,Male,disabled,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,16,12,18,7,16,14,75.0,38.8889,88.8889,87.5
-2022/2023,Male,disabled,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,19,14,22,8,17,14,73.6842,36.3636,77.2727,82.3529
-2022/2023,Male,disabled,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,18,13,22,8,17,14,72.2222,36.3636,77.2727,82.3529
-2022/2023,Male,disabled,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,16,12,19,7,17,14,75.0,36.8421,89.4737,82.3529
-2022/2023,Male,disabled,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,20,13,25,9,14,13,65.0,36.0,56.0,92.8571
-2022/2023,Male,disabled,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,25,17,27,10,20,18,68.0,37.037,74.0741,90.0
-2022/2023,Male,disabled,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,24,16,29,11,14,13,66.6667,37.931,48.2759,92.8571
-2022/2023,Male,disabled,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,23,16,22,8,20,18,69.5652,36.3636,90.9091,90.0
-2022/2023,Male,disabled,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,25,17,29,11,17,14,68.0,37.931,58.6207,82.3529
-2022/2023,Male,disabled,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,36,24,42,16,20,18,66.6667,38.0952,47.619,90.0
-2022/2023,Male,disabled,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,26,17,32,12,17,14,65.3846,37.5,53.125,82.3529
-2022/2023,Male,disabled,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,29,19,34,13,20,18,65.5172,38.2353,58.8235,90.0
-2022/2023,Male,disabled,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,29,19,31,12,20,18,65.5172,38.7097,64.5161,90.0
-2022/2023,Male,disabled,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,25,17,29,11,17,14,68.0,37.931,58.6207,82.3529
-2022/2023,Male,disabled,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,20,14,24,9,17,14,70.0,37.5,70.8333,82.3529
-2022/2023,Male,disabled,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,21,14,24,8,16,14,66.6667,33.3333,66.6667,87.5
-2022/2023,Male,disabled,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,31,21,36,13,17,14,67.7419,36.1111,47.2222,82.3529
-2022/2023,Male,disabled,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,32,21,38,15,20,18,65.625,39.4737,52.6316,90.0
-2022/2023,Male,disabled,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,25,17,29,10,20,18,68.0,34.4828,68.9655,90.0
-2022/2023,Male,disabled,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,27,19,33,13,14,12,70.3704,39.3939,42.4242,85.7143
-2022/2023,Male,disabled,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,32,23,37,14,16,14,71.875,37.8378,43.2432,87.5
-2022/2023,Male,disabled,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,28,20,36,14,16,14,71.4286,38.8889,44.4444,87.5
-2022/2023,Male,disabled,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,29,21,35,14,20,14,72.4138,40.0,57.1429,70.0
-2022/2023,Male,disabled,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,35,25,41,16,19,17,71.4286,39.0244,46.3415,89.4737
-2022/2023,Male,disabled,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,46,33,55,21,25,20,71.7391,38.1818,45.4545,80.0
-2022/2023,Male,disabled,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,33,24,36,14,14,12,72.7273,38.8889,38.8889,85.7143
-2022/2023,Male,disabled,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,37,27,43,16,19,17,72.973,37.2093,44.186,89.4737
-2022/2023,Male,disabled,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,38,27,41,16,16,14,71.0526,39.0244,39.0244,87.5
-2022/2023,Male,disabled,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,31,22,37,15,16,14,70.9677,40.5405,43.2432,87.5
-2022/2023,Male,disabled,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,30,22,36,14,19,17,73.3333,38.8889,52.7778,89.4737
-2022/2023,Male,disabled,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,28,20,31,12,16,14,71.4286,38.7097,51.6129,87.5
-2022/2023,Male,disabled,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,42,30,50,19,21,20,71.4286,38.0,42.0,95.2381
-2022/2023,Male,disabled,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,42,30,48,18,19,17,71.4286,37.5,39.5833,89.4737
-2022/2023,Male,disabled,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,32,23,37,14,19,17,71.875,37.8378,51.3514,89.4737
-2023/2024,Female,all,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,177,141,198,82,68,62,79.661,41.4141,34.3434,91.1765
-2023/2024,Female,all,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,211,168,245,104,107,94,79.6209,42.449,43.6735,87.8505
-2023/2024,Female,all,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,196,156,224,95,93,83,79.5918,42.4107,41.5179,89.2473
-2023/2024,Female,all,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,159,127,193,82,80,75,79.8742,42.487,41.4508,93.75
-2023/2024,Female,all,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,177,141,199,83,82,80,79.661,41.7085,41.206,97.561
-2023/2024,Female,all,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,248,197,297,127,136,125,79.4355,42.7609,45.7912,91.9118
-2023/2024,Female,all,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,195,155,222,94,89,79,79.4872,42.3423,40.0901,88.764
-2023/2024,Female,all,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,198,157,227,95,93,79,79.2929,41.8502,40.9692,84.9462
-2023/2024,Female,all,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,232,184,256,109,98,88,79.3103,42.5781,38.2812,89.7959
-2023/2024,Female,all,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,181,144,202,85,85,73,79.558,42.0792,42.0792,85.8824
-2023/2024,Female,all,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,156,123,187,79,85,78,78.8462,42.246,45.4545,91.7647
-2023/2024,Female,all,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,181,144,205,87,88,84,79.558,42.439,42.9268,95.4545
-2023/2024,Female,all,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,199,158,224,95,93,78,79.397,42.4107,41.5179,83.871
-2023/2024,Female,all,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,217,172,256,109,112,101,79.2627,42.5781,43.75,90.1786
-2023/2024,Female,all,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,196,156,228,97,103,94,79.5918,42.5439,45.1754,91.2621
-2023/2024,Female,all,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,291,210,338,144,161,151,72.1649,42.6036,47.6331,93.7888
-2023/2024,Female,all,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,412,297,471,200,205,189,72.0874,42.4628,43.5244,92.1951
-2023/2024,Female,all,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,337,243,393,169,198,183,72.1068,43.0025,50.3817,92.4242
-2023/2024,Female,all,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,286,205,345,146,163,152,71.6783,42.3188,47.2464,93.2515
-2023/2024,Female,all,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,319,230,365,156,174,159,72.1003,42.7397,47.6712,91.3793
-2023/2024,Female,all,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,487,351,566,241,274,249,72.0739,42.5795,48.4099,90.8759
-2023/2024,Female,all,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,371,268,400,171,183,169,72.2372,42.75,45.75,92.3497
-2023/2024,Female,all,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,355,256,407,174,194,177,72.1127,42.7518,47.6658,91.2371
-2023/2024,Female,all,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,445,321,500,213,217,201,72.1348,42.6,43.4,92.6267
-2023/2024,Female,all,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,313,225,351,149,161,151,71.885,42.4501,45.8689,93.7888
-2023/2024,Female,all,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,271,195,317,135,162,150,71.9557,42.5868,51.1041,92.5926
-2023/2024,Female,all,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,319,230,363,155,177,170,72.1003,42.6997,48.7603,96.0452
-2023/2024,Female,all,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,368,265,428,182,204,187,72.0109,42.5234,47.6636,91.6667
-2023/2024,Female,all,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,411,296,477,203,221,202,72.0195,42.5577,46.3312,91.4027
-2023/2024,Female,all,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,338,243,401,171,202,193,71.8935,42.6434,50.3741,95.5446
-2023/2024,Female,all,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,431,333,490,210,199,184,77.2622,42.8571,40.6122,92.4623
-2023/2024,Female,all,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,548,423,615,262,243,222,77.1898,42.6016,39.5122,91.358
-2023/2024,Female,all,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,445,343,520,222,236,215,77.0787,42.6923,45.3846,91.1017
-2023/2024,Female,all,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,374,288,437,187,195,182,77.0053,42.7918,44.6224,93.3333
-2023/2024,Female,all,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,433,334,495,212,211,196,77.1363,42.8283,42.6263,92.891
-2023/2024,Female,all,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,619,478,726,310,318,298,77.2213,42.6997,43.8017,93.7107
-2023/2024,Female,all,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,451,348,502,215,199,184,77.1619,42.8287,39.6414,92.4623
-2023/2024,Female,all,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,485,374,563,240,240,218,77.1134,42.6288,42.6288,90.8333
-2023/2024,Female,all,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,602,465,676,289,263,241,77.2425,42.7515,38.9053,91.635
-2023/2024,Female,all,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,431,333,493,212,201,184,77.2622,43.002,40.7708,91.5423
-2023/2024,Female,all,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,364,281,438,187,201,185,77.1978,42.6941,45.8904,92.0398
-2023/2024,Female,all,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,448,346,510,217,212,197,77.2321,42.549,41.5686,92.9245
-2023/2024,Female,all,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,501,386,580,247,243,221,77.0459,42.5862,41.8966,90.9465
-2023/2024,Female,all,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,535,414,611,261,258,244,77.3832,42.7169,42.2259,94.5736
-2023/2024,Female,all,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,472,364,554,237,229,207,77.1186,42.7798,41.3357,90.393
-2023/2024,Female,disabled,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,17,14,18,7,11,10,82.3529,38.8889,61.1111,90.9091
-2023/2024,Female,disabled,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,18,15,19,8,14,12,83.3333,42.1053,73.6842,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,17,14,19,8,14,12,82.3529,42.1053,73.6842,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,18,15,22,9,13,12,83.3333,40.9091,59.0909,92.3077
-2023/2024,Female,disabled,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,17,14,18,7,12,11,82.3529,38.8889,66.6667,91.6667
-2023/2024,Female,disabled,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,23,19,23,10,13,12,82.6087,43.4783,56.5217,92.3077
-2023/2024,Female,disabled,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,18,15,19,8,14,12,83.3333,42.1053,73.6842,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,18,14,19,8,14,12,77.7778,42.1053,73.6842,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,19,15,19,8,14,12,78.9474,42.1053,73.6842,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,18,14,20,8,14,12,77.7778,40.0,70.0,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,18,14,18,7,14,12,77.7778,38.8889,77.7778,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,18,15,19,8,12,11,83.3333,42.1053,63.1579,91.6667
-2023/2024,Female,disabled,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,19,15,21,9,14,12,78.9474,42.8571,66.6667,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,18,14,19,8,14,12,77.7778,42.1053,73.6842,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,17,14,18,7,14,12,82.3529,38.8889,77.7778,85.7143
-2023/2024,Female,disabled,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,20,14,24,10,13,12,70.0,41.6667,54.1667,92.3077
-2023/2024,Female,disabled,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,28,20,32,13,17,15,71.4286,40.625,53.125,88.2353
-2023/2024,Female,disabled,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,24,17,31,14,12,11,70.8333,45.1613,38.7097,91.6667
-2023/2024,Female,disabled,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,23,16,28,12,12,11,69.5652,42.8571,42.8571,91.6667
-2023/2024,Female,disabled,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,29,21,33,14,12,11,72.4138,42.4242,36.3636,91.6667
-2023/2024,Female,disabled,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,38,28,45,19,19,18,73.6842,42.2222,42.2222,94.7368
-2023/2024,Female,disabled,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,27,19,29,13,14,12,70.3704,44.8276,48.2759,85.7143
-2023/2024,Female,disabled,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,30,22,35,16,12,11,73.3333,45.7143,34.2857,91.6667
-2023/2024,Female,disabled,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,32,23,40,17,17,15,71.875,42.5,42.5,88.2353
-2023/2024,Female,disabled,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,23,17,26,11,13,12,73.913,42.3077,50.0,92.3077
-2023/2024,Female,disabled,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,22,16,26,11,14,12,72.7273,42.3077,53.8462,85.7143
-2023/2024,Female,disabled,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,23,16,30,12,16,15,69.5652,40.0,53.3333,93.75
-2023/2024,Female,disabled,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,32,23,36,15,13,12,71.875,41.6667,36.1111,92.3077
-2023/2024,Female,disabled,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,33,24,41,18,16,15,72.7273,43.9024,39.0244,93.75
-2023/2024,Female,disabled,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,28,20,34,14,15,14,71.4286,41.1765,44.1176,93.3333
-2023/2024,Female,disabled,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,31,24,36,16,11,10,77.4194,44.4444,30.5556,90.9091
-2023/2024,Female,disabled,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,34,26,38,16,13,12,76.4706,42.1053,34.2105,92.3077
-2023/2024,Female,disabled,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,31,24,35,15,12,11,77.4194,42.8571,34.2857,91.6667
-2023/2024,Female,disabled,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,28,22,35,15,13,12,78.5714,42.8571,37.1429,92.3077
-2023/2024,Female,disabled,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,36,28,43,19,15,14,77.7778,44.186,34.8837,93.3333
-2023/2024,Female,disabled,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,50,39,59,25,19,18,78.0,42.3729,32.2034,94.7368
-2023/2024,Female,disabled,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,35,27,38,16,11,10,77.1429,42.1053,28.9474,90.9091
-2023/2024,Female,disabled,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,41,32,45,19,18,15,78.0488,42.2222,40.0,83.3333
-2023/2024,Female,disabled,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,45,35,52,23,18,15,77.7778,44.2308,34.6154,83.3333
-2023/2024,Female,disabled,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,33,25,38,17,13,12,75.7576,44.7368,34.2105,92.3077
-2023/2024,Female,disabled,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,30,23,36,16,13,12,76.6667,44.4444,36.1111,92.3077
-2023/2024,Female,disabled,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,33,25,36,16,13,12,75.7576,44.4444,36.1111,92.3077
-2023/2024,Female,disabled,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,42,32,49,21,15,14,76.1905,42.8571,30.6122,93.3333
-2023/2024,Female,disabled,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,44,34,52,22,15,14,77.2727,42.3077,28.8462,93.3333
-2023/2024,Female,disabled,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,33,25,40,17,15,14,75.7576,42.5,37.5,93.3333
-2023/2024,Male,all,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,173,137,194,81,91,80,79.1908,41.7526,46.9072,87.9121
-2023/2024,Male,all,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,198,157,223,94,97,92,79.2929,42.1525,43.4978,94.8454
-2023/2024,Male,all,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,194,154,234,100,121,111,79.3814,42.735,51.7094,91.7355
-2023/2024,Male,all,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,172,137,199,84,106,96,79.6512,42.2111,53.2663,90.566
-2023/2024,Male,all,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,170,135,194,81,91,80,79.4118,41.7526,46.9072,87.9121
-2023/2024,Male,all,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,234,185,276,117,126,115,79.0598,42.3913,45.6522,91.2698
-2023/2024,Male,all,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,190,151,214,90,95,84,79.4737,42.0561,44.3925,88.4211
-2023/2024,Male,all,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,198,157,231,98,112,101,79.2929,42.4242,48.4848,90.1786
-2023/2024,Male,all,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,228,181,250,106,92,80,79.386,42.4,36.8,86.9565
-2023/2024,Male,all,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,191,152,209,88,102,92,79.5812,42.1053,48.8038,90.1961
-2023/2024,Male,all,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,154,122,178,75,91,82,79.2208,42.1348,51.1236,90.1099
-2023/2024,Male,all,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,172,137,199,84,92,86,79.6512,42.2111,46.2312,93.4783
-2023/2024,Male,all,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,210,166,241,102,111,97,79.0476,42.3237,46.0581,87.3874
-2023/2024,Male,all,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,214,169,252,107,116,106,78.972,42.4603,46.0317,91.3793
-2023/2024,Male,all,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,196,155,234,99,116,103,79.0816,42.3077,49.5726,88.7931
-2023/2024,Male,all,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,302,217,328,140,186,168,71.8543,42.6829,56.7073,90.3226
-2023/2024,Male,all,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,382,275,444,188,227,210,71.9895,42.3423,51.1261,92.511
-2023/2024,Male,all,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,347,250,424,181,237,219,72.0461,42.6887,55.8962,92.4051
-2023/2024,Male,all,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,308,223,372,159,204,190,72.4026,42.7419,54.8387,93.1373
-2023/2024,Male,all,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,305,220,360,154,191,169,72.1311,42.7778,53.0556,88.4817
-2023/2024,Male,all,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,432,311,502,215,264,252,71.9907,42.8287,52.5896,95.4545
-2023/2024,Male,all,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,355,255,409,176,196,182,71.831,43.0318,47.9218,92.8571
-2023/2024,Male,all,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,365,263,416,177,214,198,72.0548,42.5481,51.4423,92.5234
-2023/2024,Male,all,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,432,311,463,197,223,204,71.9907,42.5486,48.1641,91.4798
-2023/2024,Male,all,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,328,237,378,162,195,183,72.2561,42.8571,51.5873,93.8462
-2023/2024,Male,all,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,280,202,327,139,185,170,72.1429,42.5076,56.5749,91.8919
-2023/2024,Male,all,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,324,234,371,158,209,194,72.2222,42.5876,56.3342,92.823
-2023/2024,Male,all,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,378,273,419,179,210,189,72.2222,42.7208,50.1193,90.0
-2023/2024,Male,all,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,410,296,483,207,255,242,72.1951,42.8571,52.795,94.902
-2023/2024,Male,all,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,321,232,366,156,203,191,72.2741,42.623,55.4645,94.0887
-2023/2024,Male,all,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,442,341,510,218,226,205,77.1493,42.7451,44.3137,90.708
-2023/2024,Male,all,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,513,396,573,245,258,238,77.193,42.7574,45.0262,92.2481
-2023/2024,Male,all,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,450,347,539,231,264,250,77.1111,42.8571,48.9796,94.697
-2023/2024,Male,all,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,407,315,466,200,223,200,77.3956,42.9185,47.8541,89.6861
-2023/2024,Male,all,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,415,320,487,208,237,221,77.1084,42.7105,48.6653,93.2489
-2023/2024,Male,all,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,593,458,688,294,343,312,77.2344,42.7326,49.8547,90.9621
-2023/2024,Male,all,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,454,351,507,216,221,200,77.3128,42.6036,43.5897,90.4977
-2023/2024,Male,all,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,492,380,550,234,267,251,77.2358,42.5455,48.5455,94.0075
-2023/2024,Male,all,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,565,437,631,268,264,239,77.3451,42.4723,41.8384,90.5303
-2023/2024,Male,all,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,449,346,526,224,253,234,77.0601,42.5856,48.0989,92.4901
-2023/2024,Male,all,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,351,272,416,178,216,197,77.4929,42.7885,51.9231,91.2037
-2023/2024,Male,all,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,429,331,489,209,227,209,77.1562,42.7403,46.4213,92.0705
-2023/2024,Male,all,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,511,394,588,250,263,253,77.1037,42.517,44.7279,96.1977
-2023/2024,Male,all,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,532,411,615,262,282,260,77.2556,42.6016,45.8537,92.1986
-2023/2024,Male,all,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,462,357,541,231,259,240,77.2727,42.6987,47.8743,92.6641
-2023/2024,Male,disabled,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,16,13,16,6,14,12,81.25,37.5,87.5,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,17,14,19,7,14,12,82.3529,36.8421,73.6842,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,17,14,19,7,14,12,82.3529,36.8421,73.6842,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,18,14,19,7,14,12,77.7778,36.8421,73.6842,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,17,14,19,7,14,12,82.3529,36.8421,73.6842,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,20,16,23,9,14,12,80.0,39.1304,60.8696,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,16,13,18,7,14,13,81.25,38.8889,77.7778,92.8571
-2023/2024,Male,disabled,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,19,15,21,8,14,12,78.9474,38.0952,66.6667,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,19,15,19,7,10,9,78.9474,36.8421,52.6316,90.0
-2023/2024,Male,disabled,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,18,14,19,7,14,13,77.7778,36.8421,73.6842,92.8571
-2023/2024,Male,disabled,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,16,13,16,6,14,13,81.25,37.5,87.5,92.8571
-2023/2024,Male,disabled,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,16,13,18,7,14,12,81.25,38.8889,77.7778,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,20,16,22,9,14,13,80.0,40.9091,63.6364,92.8571
-2023/2024,Male,disabled,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,18,14,20,8,14,12,77.7778,40.0,70.0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,17,14,19,7,14,13,82.3529,36.8421,73.6842,92.8571
-2023/2024,Male,disabled,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,22,15,24,10,14,12,68.1818,41.6667,58.3333,85.7143
-2023/2024,Male,disabled,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,27,19,31,13,17,16,70.3704,41.9355,54.8387,94.1176
-2023/2024,Male,disabled,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,23,16,30,13,14,12,69.5652,43.3333,46.6667,85.7143
-2023/2024,Male,disabled,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,25,18,32,14,17,16,72.0,43.75,53.125,94.1176
-2023/2024,Male,disabled,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,27,19,31,13,14,12,70.3704,41.9355,45.1613,85.7143
-2023/2024,Male,disabled,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,38,27,47,20,24,23,71.0526,42.5532,51.0638,95.8333
-2023/2024,Male,disabled,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,27,19,29,13,14,13,70.3704,44.8276,48.2759,92.8571
-2023/2024,Male,disabled,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,28,20,33,14,14,12,71.4286,42.4242,42.4242,85.7143
-2023/2024,Male,disabled,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,30,22,33,14,14,12,73.3333,42.4242,42.4242,85.7143
-2023/2024,Male,disabled,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,23,17,28,11,14,12,73.913,39.2857,50.0,85.7143
-2023/2024,Male,disabled,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,22,16,26,11,14,13,72.7273,42.3077,53.8462,92.8571
-2023/2024,Male,disabled,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,23,17,28,11,17,16,73.913,39.2857,60.7143,94.1176
-2023/2024,Male,disabled,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,34,25,38,16,14,12,73.5294,42.1053,36.8421,85.7143
-2023/2024,Male,disabled,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,33,24,40,17,21,19,72.7273,42.5,52.5,90.4762
-2023/2024,Male,disabled,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,24,18,29,12,14,13,75.0,41.3793,48.2759,92.8571
-2023/2024,Male,disabled,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,30,23,35,15,11,10,76.6667,42.8571,31.4286,90.9091
-2023/2024,Male,disabled,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,36,28,42,18,17,16,77.7778,42.8571,40.4762,94.1176
-2023/2024,Male,disabled,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,31,24,37,16,14,13,77.4194,43.2432,37.8378,92.8571
-2023/2024,Male,disabled,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,33,25,38,17,14,13,75.7576,44.7368,36.8421,92.8571
-2023/2024,Male,disabled,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,35,27,40,17,19,18,77.1429,42.5,47.5,94.7368
-2023/2024,Male,disabled,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,48,37,58,25,19,18,77.0833,43.1034,32.7586,94.7368
-2023/2024,Male,disabled,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,36,28,41,17,11,10,77.7778,41.4634,26.8293,90.9091
-2023/2024,Male,disabled,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,40,31,44,18,19,16,77.5,40.9091,43.1818,84.2105
-2023/2024,Male,disabled,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,44,34,49,21,14,13,77.2727,42.8571,28.5714,92.8571
-2023/2024,Male,disabled,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,32,24,37,16,14,13,75.0,43.2432,37.8378,92.8571
-2023/2024,Male,disabled,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,30,23,35,15,14,13,76.6667,42.8571,40.0,92.8571
-2023/2024,Male,disabled,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,31,24,35,15,17,13,77.4194,42.8571,48.5714,76.4706
-2023/2024,Male,disabled,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,45,35,53,23,19,18,77.7778,43.3962,35.8491,94.7368
-2023/2024,Male,disabled,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,45,35,55,23,19,18,77.7778,41.8182,34.5455,94.7368
-2023/2024,Male,disabled,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,35,27,42,18,17,16,77.1429,42.8571,40.4762,94.1176
-2024/2025,Female,all,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,80,60,44,17,13,13,75.0000,38.6364,29.5455,100.0000
-2024/2025,Female,all,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,99,74,56,22,17,15,74.7475,39.2857,30.3571,88.2353
-2024/2025,Female,all,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,85,64,50,20,17,16,75.2941,40.0000,34.0000,94.1176
-2024/2025,Female,all,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,73,55,41,16,13,13,75.3425,39.0244,31.7073,100.0000
-2024/2025,Female,all,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,82,62,47,18,16,14,75.6098,38.2979,34.0426,87.5000
-2024/2025,Female,all,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,121,91,73,29,23,21,75.2066,39.7260,31.5068,91.3043
-2024/2025,Female,all,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,91,69,51,20,15,14,75.8242,39.2157,29.4118,93.3333
-2024/2025,Female,all,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,87,65,49,19,15,14,74.7126,38.7755,30.6122,93.3333
-2024/2025,Female,all,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,109,82,59,23,17,16,75.2294,38.9831,28.8136,94.1176
-2024/2025,Female,all,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,86,64,49,19,15,14,74.4186,38.7755,30.6122,93.3333
-2024/2025,Female,all,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,69,52,41,16,14,13,75.3623,39.0244,34.1463,92.8571
-2024/2025,Female,all,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,79,59,45,18,14,13,74.6835,40.0000,31.1111,92.8571
-2024/2025,Female,all,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,91,68,51,20,16,15,74.7253,39.2157,31.3725,93.7500
-2024/2025,Female,all,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,95,71,54,21,17,15,74.7368,38.8889,31.4815,88.2353
-2024/2025,Female,all,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,85,64,49,19,17,15,75.2941,38.7755,34.6939,88.2353
-2024/2025,Female,all,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,1122,765,615,245,188,180,68.1818,39.8374,30.5691,95.7447
-2024/2025,Female,all,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,1417,965,798,314,253,232,68.1016,39.3484,31.7043,91.6996
-2024/2025,Female,all,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,1275,867,727,286,236,213,68.0000,39.3398,32.4622,90.2542
-2024/2025,Female,all,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,1021,696,595,236,195,180,68.1685,39.6639,32.7731,92.3077
-2024/2025,Female,all,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,1126,765,639,250,200,180,67.9396,39.1236,31.2989,90.0000
-2024/2025,Female,all,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,1758,1195,1009,396,336,312,67.9750,39.2468,33.3003,92.8571
-2024/2025,Female,all,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,1384,940,783,309,222,204,67.9191,39.4636,28.3525,91.8919
-2024/2025,Female,all,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,1316,896,760,298,251,238,68.0851,39.2105,33.0263,94.8207
-2024/2025,Female,all,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,1556,1056,883,348,253,232,67.8663,39.4111,28.6523,91.6996
-2024/2025,Female,all,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,1185,805,660,261,199,185,67.9325,39.5455,30.1515,92.9648
-2024/2025,Female,all,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,1032,703,602,238,205,191,68.1202,39.5349,34.0532,93.1707
-2024/2025,Female,all,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,1122,765,639,252,199,175,68.1818,39.4366,31.1424,87.9397
-2024/2025,Female,all,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,1365,929,779,305,226,209,68.0586,39.1528,29.0116,92.4779
-2024/2025,Female,all,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,1473,1001,859,335,286,255,67.9566,38.9988,33.2945,89.1608
-2024/2025,Female,all,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,1324,899,785,309,254,238,67.9003,39.3631,32.3567,93.7008
-2024/2025,Female,all,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,1745,1284,991,390,310,278,73.5817,39.3542,31.2815,89.6774
-2024/2025,Female,all,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,1957,1440,1100,434,346,316,73.5820,39.4545,31.4545,91.3295
-2024/2025,Female,all,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,1817,1338,1076,424,356,325,73.6379,39.4052,33.0855,91.2921
-2024/2025,Female,all,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,1481,1088,836,329,268,250,73.4639,39.3541,32.0574,93.2836
-2024/2025,Female,all,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,1565,1151,909,357,277,260,73.5463,39.2739,30.4730,93.8628
-2024/2025,Female,all,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,2574,1892,1480,584,504,469,73.5043,39.4595,34.0541,93.0556
-2024/2025,Female,all,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,1969,1447,1114,437,322,298,73.4891,39.2280,28.9048,92.5466
-2024/2025,Female,all,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,1965,1443,1126,443,360,327,73.4351,39.3428,31.9716,90.8333
-2024/2025,Female,all,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,2285,1678,1273,502,352,320,73.4354,39.4344,27.6512,90.9091
-2024/2025,Female,all,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,1805,1326,1021,403,316,293,73.4626,39.4711,30.9500,92.7215
-2024/2025,Female,all,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,1541,1131,907,357,303,289,73.3939,39.3605,33.4068,95.3795
-2024/2025,Female,all,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,1669,1225,933,367,297,267,73.3972,39.3355,31.8328,89.8990
-2024/2025,Female,all,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,1957,1440,1104,433,343,314,73.5820,39.2210,31.0688,91.5452
-2024/2025,Female,all,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,2129,1564,1239,487,380,345,73.4617,39.3059,30.6699,90.7895
-2024/2025,Female,all,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,1777,1307,1035,407,350,325,73.5509,39.3237,33.8164,92.8571
-2024/2025,Female,disabled,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,8,6,4,1,2,2,75.0000,25.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,9,7,5,2,3,3,77.7778,40.0000,60.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,8,6,4,1,3,3,75.0000,25.0000,75.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,9,7,5,2,3,3,77.7778,40.0000,60.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,9,7,5,2,3,3,77.7778,40.0000,60.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,11,8,7,3,3,3,72.7273,42.8571,42.8571,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,9,7,5,2,3,3,77.7778,40.0000,60.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,9,7,5,2,3,3,77.7778,40.0000,60.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,10,7,5,2,3,3,70.0000,40.0000,60.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,9,7,5,2,3,2,77.7778,40.0000,60.0000,66.6667
-2024/2025,Female,disabled,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,8,6,5,2,3,2,75.0000,40.0000,60.0000,66.6667
-2024/2025,Female,disabled,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,9,7,5,2,3,2,77.7778,40.0000,60.0000,66.6667
-2024/2025,Female,disabled,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,9,7,5,2,3,2,77.7778,40.0000,60.0000,66.6667
-2024/2025,Female,disabled,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,9,7,6,2,3,2,77.7778,33.3333,50.0000,66.6667
-2024/2025,Female,disabled,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,9,7,5,2,3,2,77.7778,40.0000,60.0000,66.6667
-2024/2025,Female,disabled,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,85,58,50,20,19,17,68.2353,40.0000,38.0000,89.4737
-2024/2025,Female,disabled,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,106,74,63,26,19,17,69.8113,41.2698,30.1587,89.4737
-2024/2025,Female,disabled,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,98,66,54,22,19,17,67.3469,40.7407,35.1852,89.4737
-2024/2025,Female,disabled,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,98,66,59,24,19,17,67.3469,40.6780,32.2034,89.4737
-2024/2025,Female,disabled,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,111,74,67,26,18,17,66.6667,38.8060,26.8657,94.4444
-2024/2025,Female,disabled,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,179,119,98,37,29,26,66.4804,37.7551,29.5918,89.6552
-2024/2025,Female,disabled,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,115,78,63,25,18,17,67.8261,39.6825,28.5714,94.4444
-2024/2025,Female,disabled,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,119,82,73,29,22,21,68.9076,39.7260,30.1370,95.4545
-2024/2025,Female,disabled,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,132,91,71,27,18,17,68.9394,38.0282,25.3521,94.4444
-2024/2025,Female,disabled,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,106,70,59,24,18,17,66.0377,40.6780,30.5085,94.4444
-2024/2025,Female,disabled,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,93,66,54,22,18,17,70.9677,40.7407,33.3333,94.4444
-2024/2025,Female,disabled,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,93,66,54,22,18,17,70.9677,40.7407,33.3333,94.4444
-2024/2025,Female,disabled,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,136,91,77,29,18,17,66.9118,37.6623,23.3766,94.4444
-2024/2025,Female,disabled,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,140,95,82,31,24,21,67.8571,37.8049,29.2683,87.5000
-2024/2025,Female,disabled,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,115,78,69,27,24,21,67.8261,39.1304,34.7826,87.5000
-2024/2025,Female,disabled,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,126,93,74,30,18,16,73.8095,40.5405,24.3243,88.8889
-2024/2025,Female,disabled,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,149,110,83,34,22,21,73.8255,40.9639,26.5060,95.4545
-2024/2025,Female,disabled,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,126,93,78,32,22,21,73.8095,41.0256,28.2051,95.4545
-2024/2025,Female,disabled,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,140,102,78,32,22,21,72.8571,41.0256,28.2051,95.4545
-2024/2025,Female,disabled,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,149,110,85,34,26,24,73.8255,40.0000,30.5882,92.3077
-2024/2025,Female,disabled,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,248,181,143,57,35,32,72.9839,39.8601,24.4755,91.4286
-2024/2025,Female,disabled,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,163,119,94,38,22,21,73.0061,40.4255,23.4043,95.4545
-2024/2025,Female,disabled,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,181,132,103,40,29,24,72.9282,38.8350,28.1553,82.7586
-2024/2025,Female,disabled,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,194,141,110,45,22,20,72.6804,40.9091,20.0000,90.9091
-2024/2025,Female,disabled,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,154,110,92,36,22,20,71.4286,39.1304,23.9130,90.9091
-2024/2025,Female,disabled,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,140,102,83,34,26,24,72.8571,40.9639,31.3253,92.3077
-2024/2025,Female,disabled,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,140,102,78,32,26,20,72.8571,41.0256,33.3333,76.9231
-2024/2025,Female,disabled,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,194,146,114,45,28,27,75.2577,39.4737,24.5614,96.4286
-2024/2025,Female,disabled,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,199,146,116,47,28,27,73.3668,40.5172,24.1379,96.4286
-2024/2025,Female,disabled,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,149,110,92,36,29,28,73.8255,39.1304,31.5217,96.5517
-2024/2025,Male,all,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,80,60,45,18,14,12,75.0000,40.0000,31.1111,85.7143
-2024/2025,Male,all,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,94,70,53,21,18,18,74.4681,39.6226,33.9623,100.0000
-2024/2025,Male,all,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,85,64,50,19,19,17,75.2941,38.0000,38.0000,89.4737
-2024/2025,Male,all,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,73,55,41,16,15,15,75.3425,39.0244,36.5854,100.0000
-2024/2025,Male,all,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,80,60,46,18,17,15,75.0000,39.1304,36.9565,88.2353
-2024/2025,Male,all,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,115,86,67,26,24,22,74.7826,38.8060,35.8209,91.6667
-2024/2025,Male,all,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,87,66,50,20,16,14,75.8621,40.0000,32.0000,87.5000
-2024/2025,Male,all,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,88,66,49,19,18,16,75.0000,38.7755,36.7347,88.8889
-2024/2025,Male,all,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,105,78,58,23,18,16,74.2857,39.6552,31.0345,88.8889
-2024/2025,Male,all,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,90,68,52,20,17,15,75.5556,38.4615,32.6923,88.2353
-2024/2025,Male,all,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,70,53,41,16,15,14,75.7143,39.0244,36.5854,93.3333
-2024/2025,Male,all,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,77,58,45,18,15,15,75.3247,40.0000,33.3333,100.0000
-2024/2025,Male,all,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,97,73,56,22,19,17,75.2577,39.2857,33.9286,89.4737
-2024/2025,Male,all,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,97,73,57,23,18,16,75.2577,40.3509,31.5789,88.8889
-2024/2025,Male,all,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,80,60,46,18,17,16,75.0000,39.1304,36.9565,94.1176
-2024/2025,Male,all,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,1178,801,658,261,216,196,67.9966,39.6657,32.8267,90.7407
-2024/2025,Male,all,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,1365,925,755,296,256,233,67.7656,39.2053,33.9073,91.0156
-2024/2025,Male,all,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,1268,863,734,287,282,262,68.0599,39.1008,38.4196,92.9078
-2024/2025,Male,all,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,1010,685,599,234,212,193,67.8218,39.0651,35.3923,91.0377
-2024/2025,Male,all,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,1099,747,625,247,222,203,67.9709,39.5200,35.5200,91.4414
-2024/2025,Male,all,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,1668,1133,963,378,344,313,67.9257,39.2523,35.7217,90.9884
-2024/2025,Male,all,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,1279,870,706,279,216,199,68.0219,39.5184,30.5949,92.1296
-2024/2025,Male,all,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,1402,954,837,327,288,265,68.0456,39.0681,34.4086,92.0139
-2024/2025,Male,all,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,1485,1009,824,323,266,247,67.9461,39.1990,32.2816,92.8571
-2024/2025,Male,all,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,1241,841,718,280,228,212,67.7679,38.9972,31.7549,92.9825
-2024/2025,Male,all,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,1069,725,628,247,238,224,67.8204,39.3312,37.8981,94.1176
-2024/2025,Male,all,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,1103,750,623,247,211,190,67.9964,39.6469,33.8684,90.0474
-2024/2025,Male,all,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,1425,969,812,319,270,246,68.0000,39.2857,33.2512,91.1111
-2024/2025,Male,all,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,1466,998,822,323,288,264,68.0764,39.2944,35.0365,91.6667
-2024/2025,Male,all,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,1227,834,718,280,257,242,67.9707,38.9972,35.7939,94.1634
-2024/2025,Male,all,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,1745,1284,973,382,330,306,73.5817,39.2600,33.9157,92.7273
-2024/2025,Male,all,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,1853,1365,1044,411,324,295,73.6643,39.3678,31.0345,91.0494
-2024/2025,Male,all,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,1865,1369,1064,418,404,376,73.4048,39.2857,37.9699,93.0693
-2024/2025,Male,all,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,1549,1139,889,348,326,295,73.5313,39.1451,36.6704,90.4908
-2024/2025,Male,all,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,1557,1143,909,356,310,286,73.4104,39.1639,34.1034,92.2581
-2024/2025,Male,all,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,2422,1783,1393,546,496,453,73.6168,39.1960,35.6066,91.3306
-2024/2025,Male,all,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,1773,1303,987,388,310,285,73.4913,39.3110,31.4083,91.9355
-2024/2025,Male,all,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,1921,1412,1110,437,373,343,73.5034,39.3694,33.6036,91.9571
-2024/2025,Male,all,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,2285,1681,1281,502,393,352,73.5667,39.1881,30.6792,89.5674
-2024/2025,Male,all,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,1889,1389,1078,422,352,320,73.5310,39.1466,32.6531,90.9091
-2024/2025,Male,all,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,1521,1120,885,348,331,308,73.6358,39.3220,37.4011,93.0514
-2024/2025,Male,all,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,1669,1225,957,375,347,313,73.3972,39.1850,36.2591,90.2017
-2024/2025,Male,all,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,2065,1518,1150,449,410,382,73.5109,39.0435,35.6522,93.1707
-2024/2025,Male,all,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,2109,1553,1231,485,427,394,73.6368,39.3989,34.6872,92.2717
-2024/2025,Male,all,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,1737,1276,1025,403,362,348,73.4600,39.3171,35.3171,96.1326
-2024/2025,Male,disabled,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,8,5,4,1,2,2,62.5000,25.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,8,6,5,2,2,2,75.0000,40.0000,40.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,8,6,4,1,2,2,75.0000,25.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,9,7,5,2,2,2,77.7778,40.0000,40.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,9,7,4,2,2,2,77.7778,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,12,9,7,3,2,2,75.0000,42.8571,28.5714,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,8,6,4,2,2,2,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,9,6,5,2,2,2,66.6667,40.0000,40.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,9,7,5,2,2,2,77.7778,40.0000,40.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,9,7,5,2,2,2,77.7778,40.0000,40.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,8,5,4,1,2,2,62.5000,25.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,8,6,4,2,2,2,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,10,8,5,2,2,2,80.0000,40.0000,40.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,10,8,6,2,2,2,80.0000,33.3333,33.3333,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,8,6,4,2,2,2,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,93,66,52,20,18,17,70.9677,38.4615,34.6154,94.4444
-2024/2025,Male,disabled,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,111,74,59,24,18,17,66.6667,40.6780,30.5085,94.4444
-2024/2025,Male,disabled,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,98,66,59,24,18,17,67.3469,40.6780,30.5085,94.4444
-2024/2025,Male,disabled,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,89,62,54,22,24,23,69.6629,40.7407,44.4444,95.8333
-2024/2025,Male,disabled,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,102,70,61,25,18,17,68.6275,40.9836,29.5082,94.4444
-2024/2025,Male,disabled,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,157,107,92,35,24,22,68.1529,38.0435,26.0870,91.6667
-2024/2025,Male,disabled,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,115,78,59,24,18,17,67.8261,40.6780,30.5085,94.4444
-2024/2025,Male,disabled,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,123,82,80,29,24,22,66.6667,36.2500,30.0000,91.6667
-2024/2025,Male,disabled,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,132,90,75,29,24,22,68.1818,38.6667,32.0000,91.6667
-2024/2025,Male,disabled,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,102,70,59,22,18,17,68.6275,37.2881,30.5085,94.4444
-2024/2025,Male,disabled,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,98,66,56,22,18,17,67.3469,39.2857,32.1429,94.4444
-2024/2025,Male,disabled,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,93,62,54,24,18,17,66.6667,44.4444,33.3333,94.4444
-2024/2025,Male,disabled,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,136,90,79,31,24,22,66.1765,39.2405,30.3797,91.6667
-2024/2025,Male,disabled,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,140,95,82,31,24,22,67.8571,37.8049,29.2683,91.6667
-2024/2025,Male,disabled,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,111,74,63,25,18,17,66.6667,39.6825,28.5714,94.4444
-2024/2025,Male,disabled,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,131,97,72,28,18,16,74.0458,38.8889,25.0000,88.8889
-2024/2025,Male,disabled,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,149,110,85,32,22,20,73.8255,37.6471,25.8824,90.9091
-2024/2025,Male,disabled,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,140,101,81,32,26,25,72.1429,39.5062,32.0988,96.1538
-2024/2025,Male,disabled,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,140,106,83,32,21,20,75.7143,38.5542,25.3012,95.2381
-2024/2025,Male,disabled,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,149,110,83,32,21,20,73.8255,38.5542,25.3012,95.2381
-2024/2025,Male,disabled,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,221,163,128,49,35,35,73.7557,38.2813,27.3438,100.0000
-2024/2025,Male,disabled,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,158,115,90,34,21,20,72.7848,37.7778,23.3333,95.2381
-2024/2025,Male,disabled,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,181,132,107,40,35,32,72.9282,37.3832,32.7103,91.4286
-2024/2025,Male,disabled,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,199,146,107,40,26,20,73.3668,37.3832,24.2991,76.9231
-2024/2025,Male,disabled,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,158,119,90,34,21,20,75.3165,37.7778,23.3333,95.2381
-2024/2025,Male,disabled,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,136,101,83,32,21,20,74.2647,38.5542,25.3012,95.2381
-2024/2025,Male,disabled,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,145,106,83,32,26,20,73.1034,38.5542,31.3253,76.9231
-2024/2025,Male,disabled,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,199,146,119,45,31,30,73.3668,37.8151,26.0504,96.7742
-2024/2025,Male,disabled,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,208,154,123,47,31,25,74.0385,38.2114,25.2033,80.6452
-2024/2025,Male,disabled,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,145,106,83,32,26,25,73.1034,38.5542,31.3253,96.1538
+session,gender,disability,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
+2022/2023,Female,ALL,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,200,167,246,219,151,131,74.5455,39.2473,50.5376,86.1702
+2022/2023,Female,ALL,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,245,204,305,270,174,165,74.2574,38.961,46.7532,94.4444
+2022/2023,Female,ALL,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,211,176,275,243,174,147,74.7126,38.9423,51.9231,84.2593
+2022/2023,Female,ALL,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,181,151,235,210,145,133,74.4966,39.3258,50.5618,91.1111
+2022/2023,Female,ALL,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,210,175,271,237,158,141,74.5665,38.5366,47.8049,88.7755
+2022/2023,Female,ALL,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,287,237,367,321,230,207,74.1525,38.4892,51.4388,89.5105
+2022/2023,Female,ALL,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,231,191,288,255,159,147,74.2105,38.9908,45.4128,91.9192
+2022/2023,Female,ALL,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,216,179,262,231,158,139,74.1573,38.8889,49.4949,87.7551
+2022/2023,Female,ALL,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,274,228,333,294,174,165,74.3363,38.8889,42.8571,94.4444
+2022/2023,Female,ALL,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,198,164,243,213,158,147,74.2331,38.587,53.2609,92.8571
+2022/2023,Female,ALL,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,186,155,235,210,169,152,74.5098,39.3258,58.9888,89.5238
+2022/2023,Female,ALL,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,198,164,243,216,145,131,74.2331,39.1304,48.913,90.0
+2022/2023,Female,ALL,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,237,197,289,255,164,152,74.359,38.8128,46.5753,92.1569
+2022/2023,Female,ALL,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,244,204,308,273,184,173,74.6269,39.0558,48.927,93.8596
+2022/2023,Female,ALL,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,216,179,272,240,185,164,74.1573,38.835,55.8252,87.8261
+2022/2023,Female,ALL,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,358,266,436,381,282,264,66.4407,38.4848,53.0303,93.1429
+2022/2023,Female,ALL,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,460,343,555,480,386,359,66.7546,38.0952,57.1429,92.5
+2022/2023,Female,ALL,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,390,290,502,441,367,340,66.6667,38.6842,60.0,92.1053
+2022/2023,Female,ALL,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,338,251,425,369,308,282,66.5468,38.1988,59.3168,91.0995
+2022/2023,Female,ALL,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,367,273,462,402,320,285,66.5563,38.2857,56.8571,88.4422
+2022/2023,Female,ALL,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,551,410,720,633,517,463,66.5198,38.7156,58.8991,89.0966
+2022/2023,Female,ALL,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,444,330,534,465,332,308,66.3934,38.3663,50.9901,92.233
+2022/2023,Female,ALL,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,420,312,527,462,343,327,66.474,38.5965,53.3835,94.8357
+2022/2023,Female,ALL,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,480,357,592,519,372,343,66.5823,38.6161,51.5625,91.7749
+2022/2023,Female,ALL,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,368,273,469,408,306,293,66.3366,38.3099,53.5211,95.2632
+2022/2023,Female,ALL,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,302,225,388,336,296,283,66.6667,38.0952,62.585,95.1087
+2022/2023,Female,ALL,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,356,265,436,378,316,296,66.5529,38.1818,59.3939,93.3673
+2022/2023,Female,ALL,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,392,292,480,417,306,293,66.5635,38.292,52.3416,95.2632
+2022/2023,Female,ALL,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,484,360,607,531,401,377,66.416,38.5621,54.2484,93.5743
+2022/2023,Female,ALL,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,430,320,552,480,401,381,66.6667,38.2775,59.5694,94.3775
+2022/2023,Female,ALL,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,482,387,600,528,340,317,71.7884,38.7665,46.4758,92.891
+2022/2023,Female,ALL,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,602,483,732,642,430,400,71.7742,38.6282,48.1949,92.5094
+2022/2023,Female,ALL,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,534,429,674,591,438,415,71.8182,38.6275,53.3333,94.1176
+2022/2023,Female,ALL,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,459,368,591,513,374,350,71.6931,38.255,51.9016,93.1034
+2022/2023,Female,ALL,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,488,392,612,534,380,348,71.8905,38.4449,50.9719,91.1017
+2022/2023,Female,ALL,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,719,577,929,813,601,552,71.7905,38.5491,53.0583,91.4209
+2022/2023,Female,ALL,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,542,434,653,576,369,342,71.7489,38.8664,46.3563,92.1397
+2022/2023,Female,ALL,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,535,429,665,582,407,377,71.6553,38.5686,50.2982,92.0949
+2022/2023,Female,ALL,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,652,522,795,696,457,419,71.6946,38.5382,47.1761,91.1972
+2022/2023,Female,ALL,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,504,404,625,549,401,372,71.8072,38.6892,52.6427,92.3695
+2022/2023,Female,ALL,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,402,322,518,456,306,283,71.6012,38.7755,48.4694,92.1053
+2022/2023,Female,ALL,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,500,402,630,552,366,337,71.8447,38.5744,47.5891,91.63
+2022/2023,Female,ALL,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,540,433,659,576,385,356,71.6854,38.477,47.8958,92.0502
+2022/2023,Female,ALL,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,595,478,756,663,448,419,71.8367,38.6364,48.6014,93.1655
+2022/2023,Female,ALL,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,517,415,661,579,425,392,71.831,38.6,52.8,91.6667
+2022/2023,Female,Disabled,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,19,16,21,21,23,19,75.0,43.75,87.5,85.7143
+2022/2023,Female,Disabled,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,21,18,24,21,23,19,76.4706,38.8889,77.7778,85.7143
+2022/2023,Female,Disabled,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,19,16,21,21,23,19,75.0,43.75,87.5,85.7143
+2022/2023,Female,Disabled,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,22,18,26,24,23,19,72.2222,40.0,70.0,85.7143
+2022/2023,Female,Disabled,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,21,18,24,21,23,19,76.4706,38.8889,77.7778,85.7143
+2022/2023,Female,Disabled,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,23,19,30,27,23,19,73.6842,39.1304,60.8696,85.7143
+2022/2023,Female,Disabled,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,21,18,24,21,23,21,76.4706,38.8889,77.7778,92.8571
+2022/2023,Female,Disabled,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,21,18,24,21,23,21,76.4706,38.8889,77.7778,92.8571
+2022/2023,Female,Disabled,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,22,18,24,21,23,21,72.2222,38.8889,77.7778,92.8571
+2022/2023,Female,Disabled,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,21,18,24,21,23,21,76.4706,38.8889,77.7778,92.8571
+2022/2023,Female,Disabled,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,19,16,21,21,23,21,75.0,43.75,87.5,92.8571
+2022/2023,Female,Disabled,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,21,18,24,21,23,19,76.4706,38.8889,77.7778,85.7143
+2022/2023,Female,Disabled,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,22,18,24,21,23,21,72.2222,38.8889,77.7778,92.8571
+2022/2023,Female,Disabled,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,22,18,24,21,23,21,72.2222,38.8889,77.7778,92.8571
+2022/2023,Female,Disabled,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,21,18,24,21,23,21,76.4706,38.8889,77.7778,92.8571
+2022/2023,Female,Disabled,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,25,19,34,30,23,21,66.6667,38.4615,53.8462,92.8571
+2022/2023,Female,Disabled,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,29,22,36,30,23,21,66.6667,37.037,51.8519,92.8571
+2022/2023,Female,Disabled,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,28,20,37,33,23,21,65.2174,39.2857,50.0,92.8571
+2022/2023,Female,Disabled,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,25,19,37,30,29,28,66.6667,35.7143,64.2857,94.4444
+2022/2023,Female,Disabled,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,33,24,41,33,23,21,66.6667,35.4839,45.1613,92.8571
+2022/2023,Female,Disabled,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,46,35,62,54,35,32,68.4211,38.2979,46.8085,90.9091
+2022/2023,Female,Disabled,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,35,26,45,36,29,28,65.5172,35.2941,52.9412,94.4444
+2022/2023,Female,Disabled,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,33,24,42,36,23,21,66.6667,37.5,43.75,92.8571
+2022/2023,Female,Disabled,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,36,27,45,39,29,28,66.6667,38.2353,52.9412,94.4444
+2022/2023,Female,Disabled,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,27,20,36,30,23,21,68.1818,37.037,51.8519,92.8571
+2022/2023,Female,Disabled,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,23,18,30,24,23,21,68.4211,34.7826,60.8696,92.8571
+2022/2023,Female,Disabled,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,27,20,32,24,29,28,68.1818,33.3333,75.0,94.4444
+2022/2023,Female,Disabled,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,34,26,42,36,23,21,67.8571,37.5,43.75,92.8571
+2022/2023,Female,Disabled,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,38,27,49,42,29,28,64.5161,37.8378,48.6486,94.4444
+2022/2023,Female,Disabled,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,30,23,40,33,23,21,68.0,36.6667,46.6667,92.8571
+2022/2023,Female,Disabled,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,34,27,42,39,16,15,71.4286,40.625,31.25,90.0
+2022/2023,Female,Disabled,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,41,33,52,45,26,24,70.5882,38.4615,41.0256,93.75
+2022/2023,Female,Disabled,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,35,28,42,36,23,21,72.4138,37.5,43.75,92.8571
+2022/2023,Female,Disabled,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,36,30,48,42,23,21,73.3333,38.8889,38.8889,92.8571
+2022/2023,Female,Disabled,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,41,33,54,45,27,26,70.5882,36.5854,41.4634,94.1176
+2022/2023,Female,Disabled,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,61,49,78,69,37,29,72.0,38.9831,38.9831,78.2609
+2022/2023,Female,Disabled,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,42,34,52,45,23,21,71.4286,38.4615,35.8974,92.8571
+2022/2023,Female,Disabled,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,44,35,58,51,29,26,72.2222,38.6364,40.9091,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,45,35,59,54,31,26,70.2703,40.0,42.2222,84.2105
+2022/2023,Female,Disabled,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,35,28,42,36,23,21,72.4138,37.5,43.75,92.8571
+2022/2023,Female,Disabled,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,34,27,42,39,19,18,71.4286,40.625,37.5,91.6667
+2022/2023,Female,Disabled,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,36,30,45,39,23,21,73.3333,38.2353,41.1765,92.8571
+2022/2023,Female,Disabled,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,47,38,58,51,26,23,71.7949,38.6364,36.3636,87.5
+2022/2023,Female,Disabled,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,49,39,62,54,29,26,72.5,38.2979,38.2979,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,40,33,52,45,27,26,72.7273,38.4615,43.5897,94.1176
+2022/2023,Male,ALL,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,195,163,240,213,158,146,74.5342,39.011,53.8462,91.8367
+2022/2023,Male,ALL,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,240,199,288,255,176,167,74.2424,38.9908,50.0,94.4954
+2022/2023,Male,ALL,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,214,176,268,237,205,185,73.8636,38.9163,62.5616,89.7638
+2022/2023,Male,ALL,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,189,157,238,213,184,176,74.359,39.4444,63.3333,95.614
+2022/2023,Male,ALL,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,199,164,252,225,158,146,73.7805,39.267,51.3089,91.8367
+2022/2023,Male,ALL,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,263,218,345,303,237,220,74.1935,38.6973,56.3218,92.517
+2022/2023,Male,ALL,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,223,185,283,249,182,154,73.913,38.785,52.8037,84.0708
+2022/2023,Male,ALL,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,212,176,259,225,167,146,74.2857,38.2653,53.0612,86.5385
+2022/2023,Male,ALL,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,266,221,322,282,201,175,74.4292,38.5246,51.2295,86.4
+2022/2023,Male,ALL,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,216,179,262,228,164,147,74.1573,38.3838,51.5152,89.2157
+2022/2023,Male,ALL,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,189,157,247,219,184,165,74.359,39.0374,60.9626,89.4737
+2022/2023,Male,ALL,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,199,166,259,228,172,157,74.3902,38.7755,54.5918,90.6542
+2022/2023,Male,ALL,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,245,204,304,264,198,173,74.2574,38.2609,53.4783,86.9919
+2022/2023,Male,ALL,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,250,209,313,276,208,191,74.7573,38.8186,54.4304,91.4729
+2022/2023,Male,ALL,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,198,164,250,219,182,167,74.2331,38.6243,59.7884,91.1504
+2022/2023,Male,ALL,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,375,280,478,417,353,332,66.6667,38.3978,60.4972,93.6073
+2022/2023,Male,ALL,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,430,320,527,459,417,400,66.6667,38.3459,64.9123,95.3668
+2022/2023,Male,ALL,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,389,289,507,444,403,381,66.5625,38.5417,65.1042,94.0
+2022/2023,Male,ALL,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,352,262,447,387,346,322,66.5517,38.1657,63.6095,92.5581
+2022/2023,Male,ALL,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,359,267,459,399,340,313,66.5541,38.3285,60.8069,91.4692
+2022/2023,Male,ALL,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,537,400,677,591,502,474,66.7421,38.4766,60.9375,93.9103
+2022/2023,Male,ALL,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,408,303,507,444,366,342,66.369,38.5417,59.1146,92.9515
+2022/2023,Male,ALL,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,430,319,533,465,390,361,66.3842,38.4615,60.0496,92.1488
+2022/2023,Male,ALL,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,487,362,579,504,419,381,66.5835,38.3562,59.3607,90.3846
+2022/2023,Male,ALL,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,382,285,469,411,324,295,66.6667,38.5915,56.6197,90.5473
+2022/2023,Male,ALL,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,319,237,403,348,324,304,66.5399,38.0328,65.9016,93.5323
+2022/2023,Male,ALL,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,341,254,423,366,322,295,66.548,38.125,62.5,91.0
+2022/2023,Male,ALL,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,419,311,522,453,367,342,66.3768,38.2278,57.7215,92.5439
+2022/2023,Male,ALL,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,467,347,585,516,478,437,66.4935,38.8262,67.0429,90.9091
+2022/2023,Male,ALL,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,386,288,496,432,411,389,66.6667,38.4,68.0,94.1176
+2022/2023,Male,ALL,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,478,384,588,516,385,350,71.8274,38.6517,53.7079,90.3766
+2022/2023,Male,ALL,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,583,468,725,636,456,423,71.875,38.6157,51.5483,92.2261
+2022/2023,Male,ALL,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,510,408,659,579,498,460,71.6667,38.6774,61.9238,91.9094
+2022/2023,Male,ALL,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,448,361,576,507,388,355,72.0867,38.7615,55.2752,90.8714
+2022/2023,Male,ALL,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,478,384,601,525,409,387,71.8274,38.4615,55.8242,94.0945
+2022/2023,Male,ALL,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,680,545,862,756,593,541,71.7857,38.6503,56.4417,90.7609
+2022/2023,Male,ALL,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,520,417,634,555,390,356,71.729,38.5417,50.4167,90.9091
+2022/2023,Male,ALL,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,550,441,683,597,464,423,71.7439,38.4913,55.706,90.625
+2022/2023,Male,ALL,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,644,517,802,702,499,476,71.8868,38.5502,51.0708,94.8387
+2022/2023,Male,ALL,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,489,393,609,537,403,372,71.9603,38.8286,54.2299,92.0
+2022/2023,Male,ALL,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,426,342,543,477,386,356,71.7949,38.6861,58.3942,91.6667
+2022/2023,Male,ALL,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,489,393,592,519,386,364,71.9603,38.6161,53.5714,93.75
+2022/2023,Male,ALL,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,582,467,728,636,464,432,71.8163,38.4755,52.2686,92.7083
+2022/2023,Male,ALL,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,601,482,745,651,551,513,71.7172,38.4752,60.6383,92.6901
+2022/2023,Male,ALL,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,514,412,651,573,449,418,71.8676,38.7424,56.5923,92.4731
+2022/2023,Male,Disabled,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,17,14,18,18,23,21,71.4286,42.8571,100.0,92.8571
+2022/2023,Male,Disabled,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,19,16,22,21,16,15,75.0,41.1765,58.8235,90.0
+2022/2023,Male,Disabled,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,17,14,18,18,24,23,71.4286,42.8571,107.1429,93.3333
+2022/2023,Male,Disabled,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,21,18,24,21,26,23,76.4706,38.8889,88.8889,87.5
+2022/2023,Male,Disabled,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,19,16,22,21,23,21,75.0,41.1765,82.3529,92.8571
+2022/2023,Male,Disabled,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,23,19,32,27,23,21,73.6842,37.5,58.3333,92.8571
+2022/2023,Male,Disabled,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,18,15,22,21,27,23,73.3333,41.1765,100.0,82.3529
+2022/2023,Male,Disabled,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,19,16,22,21,27,23,75.0,41.1765,100.0,82.3529
+2022/2023,Male,Disabled,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,21,18,24,21,27,23,76.4706,38.8889,94.4444,82.3529
+2022/2023,Male,Disabled,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,21,18,24,21,27,23,76.4706,38.8889,94.4444,82.3529
+2022/2023,Male,Disabled,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,18,15,22,21,27,23,73.3333,41.1765,100.0,82.3529
+2022/2023,Male,Disabled,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,19,16,24,21,26,23,75.0,38.8889,88.8889,87.5
+2022/2023,Male,Disabled,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,23,19,29,24,27,23,73.6842,36.3636,77.2727,82.3529
+2022/2023,Male,Disabled,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,22,18,29,24,27,23,72.2222,36.3636,77.2727,82.3529
+2022/2023,Male,Disabled,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,19,16,25,21,27,23,75.0,36.8421,89.4737,82.3529
+2022/2023,Male,Disabled,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,24,18,33,27,23,21,65.0,36.0,56.0,92.8571
+2022/2023,Male,Disabled,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,30,23,36,30,32,29,68.0,37.037,74.0741,90.0
+2022/2023,Male,Disabled,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,29,22,38,33,23,21,66.6667,37.931,48.2759,92.8571
+2022/2023,Male,Disabled,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,28,22,29,24,32,29,69.5652,36.3636,90.9091,90.0
+2022/2023,Male,Disabled,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,30,23,38,33,27,23,68.0,37.931,58.6207,82.3529
+2022/2023,Male,Disabled,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,44,33,55,48,32,29,66.6667,38.0952,47.619,90.0
+2022/2023,Male,Disabled,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,32,23,42,36,27,23,65.3846,37.5,53.125,82.3529
+2022/2023,Male,Disabled,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,35,26,45,39,32,29,65.5172,38.2353,58.8235,90.0
+2022/2023,Male,Disabled,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,35,26,41,36,32,29,65.5172,38.7097,64.5161,90.0
+2022/2023,Male,Disabled,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,30,23,38,33,27,23,68.0,37.931,58.6207,82.3529
+2022/2023,Male,Disabled,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,24,19,32,27,27,23,70.0,37.5,70.8333,82.3529
+2022/2023,Male,Disabled,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,25,19,32,24,26,23,66.6667,33.3333,66.6667,87.5
+2022/2023,Male,Disabled,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,38,28,48,39,27,23,67.7419,36.1111,47.2222,82.3529
+2022/2023,Male,Disabled,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,39,28,50,45,32,29,65.625,39.4737,52.6316,90.0
+2022/2023,Male,Disabled,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,30,23,38,30,32,29,68.0,34.4828,68.9655,90.0
+2022/2023,Male,Disabled,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,33,26,44,39,23,19,70.3704,39.3939,42.4242,85.7143
+2022/2023,Male,Disabled,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,39,31,49,42,26,23,71.875,37.8378,43.2432,87.5
+2022/2023,Male,Disabled,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,34,27,48,42,26,23,71.4286,38.8889,44.4444,87.5
+2022/2023,Male,Disabled,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,35,28,46,42,32,23,72.4138,40.0,57.1429,70.0
+2022/2023,Male,Disabled,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,42,34,54,48,31,28,71.4286,39.0244,46.3415,89.4737
+2022/2023,Male,Disabled,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,56,45,73,63,40,32,71.7391,38.1818,45.4545,80.0
+2022/2023,Male,Disabled,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,40,33,48,42,23,19,72.7273,38.8889,38.8889,85.7143
+2022/2023,Male,Disabled,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,45,37,57,48,31,28,72.973,37.2093,44.186,89.4737
+2022/2023,Male,Disabled,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,46,37,54,48,26,23,71.0526,39.0244,39.0244,87.5
+2022/2023,Male,Disabled,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,38,30,49,45,26,23,70.9677,40.5405,43.2432,87.5
+2022/2023,Male,Disabled,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,36,30,48,42,31,28,73.3333,38.8889,52.7778,89.4737
+2022/2023,Male,Disabled,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,34,27,41,36,26,23,71.4286,38.7097,51.6129,87.5
+2022/2023,Male,Disabled,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,51,41,66,57,34,32,71.4286,38.0,42.0,95.2381
+2022/2023,Male,Disabled,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,51,41,63,54,31,28,71.4286,37.5,39.5833,89.4737
+2022/2023,Male,Disabled,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,39,31,49,42,31,28,71.875,37.8378,51.3514,89.4737
+2023/2024,Female,ALL,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,215,191,262,246,110,100,79.661,41.4141,34.3434,91.1765
+2023/2024,Female,ALL,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,256,228,324,312,172,152,79.6209,42.449,43.6735,87.8505
+2023/2024,Female,ALL,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,238,212,296,285,150,134,79.5918,42.4107,41.5179,89.2473
+2023/2024,Female,ALL,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,193,172,255,246,129,121,79.8742,42.487,41.4508,93.75
+2023/2024,Female,ALL,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,215,191,263,249,132,130,79.661,41.7085,41.206,97.561
+2023/2024,Female,ALL,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,301,267,392,381,219,202,79.4355,42.7609,45.7912,91.9118
+2023/2024,Female,ALL,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,237,210,293,282,143,128,79.4872,42.3423,40.0901,88.764
+2023/2024,Female,ALL,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,240,213,300,285,150,128,79.2929,41.8502,40.9692,84.9462
+2023/2024,Female,ALL,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,282,250,338,327,158,142,79.3103,42.5781,38.2812,89.7959
+2023/2024,Female,ALL,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,220,195,267,255,137,118,79.558,42.0792,42.0792,85.8824
+2023/2024,Female,ALL,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,189,167,247,237,137,126,78.8462,42.246,45.4545,91.7647
+2023/2024,Female,ALL,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,220,195,271,261,142,136,79.558,42.439,42.9268,95.4545
+2023/2024,Female,ALL,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,242,214,296,285,150,126,79.397,42.4107,41.5179,83.871
+2023/2024,Female,ALL,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,263,233,338,327,180,164,79.2627,42.5781,43.75,90.1786
+2023/2024,Female,ALL,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,238,212,301,291,166,152,79.5918,42.5439,45.1754,91.2621
+2023/2024,Female,ALL,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,353,285,447,432,259,245,72.1649,42.6036,47.6331,93.7888
+2023/2024,Female,ALL,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,500,403,622,600,330,306,72.0874,42.4628,43.5244,92.1951
+2023/2024,Female,ALL,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,409,330,519,507,319,296,72.1068,43.0025,50.3817,92.4242
+2023/2024,Female,ALL,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,347,278,456,438,262,246,71.6783,42.3188,47.2464,93.2515
+2023/2024,Female,ALL,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,387,312,482,468,280,257,72.1003,42.7397,47.6712,91.3793
+2023/2024,Female,ALL,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,591,476,748,723,441,403,72.0739,42.5795,48.4099,90.8759
+2023/2024,Female,ALL,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,450,364,529,513,295,274,72.2372,42.75,45.75,92.3497
+2023/2024,Female,ALL,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,431,347,538,522,312,287,72.1127,42.7518,47.6658,91.2371
+2023/2024,Female,ALL,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,540,436,661,639,349,325,72.1348,42.6,43.4,92.6267
+2023/2024,Female,ALL,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,380,305,464,447,259,245,71.885,42.4501,45.8689,93.7888
+2023/2024,Female,ALL,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,329,265,419,405,261,243,71.9557,42.5868,51.1041,92.5926
+2023/2024,Female,ALL,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,387,312,480,465,285,275,72.1003,42.6997,48.7603,96.0452
+2023/2024,Female,ALL,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,447,360,566,546,329,303,72.0109,42.5234,47.6636,91.6667
+2023/2024,Female,ALL,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,499,402,630,609,356,327,72.0195,42.5577,46.3312,91.4027
+2023/2024,Female,ALL,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,410,330,530,513,325,313,71.8935,42.6434,50.3741,95.5446
+2023/2024,Female,ALL,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,523,452,647,630,320,298,77.2622,42.8571,40.6122,92.4623
+2023/2024,Female,ALL,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,665,574,813,786,391,359,77.1898,42.6016,39.5122,91.358
+2023/2024,Female,ALL,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,540,465,687,666,380,348,77.0787,42.6923,45.3846,91.1017
+2023/2024,Female,ALL,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,454,391,577,561,314,295,77.0053,42.7918,44.6224,93.3333
+2023/2024,Female,ALL,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,526,453,654,636,340,317,77.1363,42.8283,42.6263,92.891
+2023/2024,Female,ALL,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,752,649,959,930,512,483,77.2213,42.6997,43.8017,93.7107
+2023/2024,Female,ALL,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,548,472,663,645,320,298,77.1619,42.8287,39.6414,92.4623
+2023/2024,Female,ALL,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,589,507,744,720,386,353,77.1134,42.6288,42.6288,90.8333
+2023/2024,Female,ALL,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,731,631,893,867,424,390,77.2425,42.7515,38.9053,91.635
+2023/2024,Female,ALL,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,523,452,651,636,324,298,77.2622,43.002,40.7708,91.5423
+2023/2024,Female,ALL,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,442,381,579,561,324,300,77.1978,42.6941,45.8904,92.0398
+2023/2024,Female,ALL,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,544,469,674,651,341,319,77.2321,42.549,41.5686,92.9245
+2023/2024,Female,ALL,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,608,524,766,741,391,358,77.0459,42.5862,41.8966,90.9465
+2023/2024,Female,ALL,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,650,562,807,783,415,395,77.3832,42.7169,42.2259,94.5736
+2023/2024,Female,ALL,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,573,494,732,711,369,335,77.1186,42.7798,41.3357,90.393
+2023/2024,Female,Disabled,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,21,19,24,21,18,16,82.3529,38.8889,61.1111,90.9091
+2023/2024,Female,Disabled,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,22,20,25,24,23,19,83.3333,42.1053,73.6842,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,21,19,25,24,23,19,82.3529,42.1053,73.6842,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,22,20,29,27,21,19,83.3333,40.9091,59.0909,92.3077
+2023/2024,Female,Disabled,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,21,19,24,21,19,18,82.3529,38.8889,66.6667,91.6667
+2023/2024,Female,Disabled,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,28,26,30,30,21,19,82.6087,43.4783,56.5217,92.3077
+2023/2024,Female,Disabled,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,22,20,25,24,23,19,83.3333,42.1053,73.6842,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,22,19,25,24,23,19,77.7778,42.1053,73.6842,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,23,20,25,24,23,19,78.9474,42.1053,73.6842,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,22,19,26,24,23,19,77.7778,40.0,70.0,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,22,19,24,21,23,19,77.7778,38.8889,77.7778,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,22,20,25,24,19,18,83.3333,42.1053,63.1579,91.6667
+2023/2024,Female,Disabled,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,23,20,28,27,23,19,78.9474,42.8571,66.6667,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,22,19,25,24,23,19,77.7778,42.1053,73.6842,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,21,19,24,21,23,19,82.3529,38.8889,77.7778,85.7143
+2023/2024,Female,Disabled,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,24,19,32,30,21,19,70.0,41.6667,54.1667,92.3077
+2023/2024,Female,Disabled,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,34,27,42,39,27,24,71.4286,40.625,53.125,88.2353
+2023/2024,Female,Disabled,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,29,23,41,42,19,18,70.8333,45.1613,38.7097,91.6667
+2023/2024,Female,Disabled,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,28,22,37,36,19,18,69.5652,42.8571,42.8571,91.6667
+2023/2024,Female,Disabled,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,35,28,44,42,19,18,72.4138,42.4242,36.3636,91.6667
+2023/2024,Female,Disabled,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,46,38,59,57,31,29,73.6842,42.2222,42.2222,94.7368
+2023/2024,Female,Disabled,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,33,26,38,39,23,19,70.3704,44.8276,48.2759,85.7143
+2023/2024,Female,Disabled,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,36,30,46,48,19,18,73.3333,45.7143,34.2857,91.6667
+2023/2024,Female,Disabled,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,39,31,53,51,27,24,71.875,42.5,42.5,88.2353
+2023/2024,Female,Disabled,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,28,23,34,33,21,19,73.913,42.3077,50.0,92.3077
+2023/2024,Female,Disabled,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,27,22,34,33,23,19,72.7273,42.3077,53.8462,85.7143
+2023/2024,Female,Disabled,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,28,22,40,36,26,24,69.5652,40.0,53.3333,93.75
+2023/2024,Female,Disabled,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,39,31,48,45,21,19,71.875,41.6667,36.1111,92.3077
+2023/2024,Female,Disabled,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,40,33,54,54,26,24,72.7273,43.9024,39.0244,93.75
+2023/2024,Female,Disabled,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,34,27,45,42,24,23,71.4286,41.1765,44.1176,93.3333
+2023/2024,Female,Disabled,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,38,33,48,48,18,16,77.4194,44.4444,30.5556,90.9091
+2023/2024,Female,Disabled,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,41,35,50,48,21,19,76.4706,42.1053,34.2105,92.3077
+2023/2024,Female,Disabled,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,38,33,46,45,19,18,77.4194,42.8571,34.2857,91.6667
+2023/2024,Female,Disabled,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,34,30,46,45,21,19,78.5714,42.8571,37.1429,92.3077
+2023/2024,Female,Disabled,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,44,38,57,57,24,23,77.7778,44.186,34.8837,93.3333
+2023/2024,Female,Disabled,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,61,53,78,75,31,29,78.0,42.3729,32.2034,94.7368
+2023/2024,Female,Disabled,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,42,37,50,48,18,16,77.1429,42.1053,28.9474,90.9091
+2023/2024,Female,Disabled,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,50,43,59,57,29,24,78.0488,42.2222,40.0,83.3333
+2023/2024,Female,Disabled,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,55,47,69,69,29,24,77.7778,44.2308,34.6154,83.3333
+2023/2024,Female,Disabled,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,40,34,50,51,21,19,75.7576,44.7368,34.2105,92.3077
+2023/2024,Female,Disabled,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,36,31,48,48,21,19,76.6667,44.4444,36.1111,92.3077
+2023/2024,Female,Disabled,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,40,34,48,48,21,19,75.7576,44.4444,36.1111,92.3077
+2023/2024,Female,Disabled,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,51,43,65,63,24,23,76.1905,42.8571,30.6122,93.3333
+2023/2024,Female,Disabled,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,53,46,69,66,24,23,77.2727,42.3077,28.8462,93.3333
+2023/2024,Female,Disabled,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,40,34,53,51,24,23,75.7576,42.5,37.5,93.3333
+2023/2024,Male,ALL,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,210,186,256,243,147,130,79.1908,41.7526,46.9072,87.9121
+2023/2024,Male,ALL,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,240,213,295,282,156,149,79.2929,42.1525,43.4978,94.8454
+2023/2024,Male,ALL,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,236,209,309,300,195,180,79.3814,42.735,51.7094,91.7355
+2023/2024,Male,ALL,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,209,186,263,252,171,155,79.6512,42.2111,53.2663,90.566
+2023/2024,Male,ALL,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,206,183,256,243,147,130,79.4118,41.7526,46.9072,87.9121
+2023/2024,Male,ALL,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,284,251,365,351,203,186,79.0598,42.3913,45.6522,91.2698
+2023/2024,Male,ALL,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,231,205,283,270,153,136,79.4737,42.0561,44.3925,88.4211
+2023/2024,Male,ALL,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,240,213,305,294,180,164,79.2929,42.4242,48.4848,90.1786
+2023/2024,Male,ALL,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,277,246,330,318,148,130,79.386,42.4,36.8,86.9565
+2023/2024,Male,ALL,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,232,206,276,264,164,149,79.5812,42.1053,48.8038,90.1961
+2023/2024,Male,ALL,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,187,166,235,225,147,133,79.2208,42.1348,51.1236,90.1099
+2023/2024,Male,ALL,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,209,186,263,252,148,139,79.6512,42.2111,46.2312,93.4783
+2023/2024,Male,ALL,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,255,225,318,306,179,157,79.0476,42.3237,46.0581,87.3874
+2023/2024,Male,ALL,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,260,229,333,321,187,172,78.972,42.4603,46.0317,91.3793
+2023/2024,Male,ALL,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,238,210,309,297,187,167,79.0816,42.3077,49.5726,88.7931
+2023/2024,Male,ALL,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,367,294,433,420,300,272,71.8543,42.6829,56.7073,90.3226
+2023/2024,Male,ALL,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,464,373,587,564,366,340,71.9895,42.3423,51.1261,92.511
+2023/2024,Male,ALL,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,421,339,560,543,382,355,72.0461,42.6887,55.8962,92.4051
+2023/2024,Male,ALL,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,374,303,492,477,329,308,72.4026,42.7419,54.8387,93.1373
+2023/2024,Male,ALL,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,370,298,476,462,308,274,72.1311,42.7778,53.0556,88.4817
+2023/2024,Male,ALL,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,525,422,663,645,425,408,71.9907,42.8287,52.5896,95.4545
+2023/2024,Male,ALL,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,431,346,540,528,316,295,71.831,43.0318,47.9218,92.8571
+2023/2024,Male,ALL,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,443,357,550,531,345,321,72.0548,42.5481,51.4423,92.5234
+2023/2024,Male,ALL,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,525,422,612,591,359,330,71.9907,42.5486,48.1641,91.4798
+2023/2024,Male,ALL,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,398,322,499,486,314,296,72.2561,42.8571,51.5873,93.8462
+2023/2024,Male,ALL,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,340,274,432,417,298,275,72.1429,42.5076,56.5749,91.8919
+2023/2024,Male,ALL,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,393,317,490,474,337,314,72.2222,42.5876,56.3342,92.823
+2023/2024,Male,ALL,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,459,370,554,537,338,306,72.2222,42.7208,50.1193,90.0
+2023/2024,Male,ALL,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,498,402,638,621,411,392,72.1951,42.8571,52.795,94.902
+2023/2024,Male,ALL,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,390,315,484,468,327,309,72.2741,42.623,55.4645,94.0887
+2023/2024,Male,ALL,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,537,463,674,654,364,332,77.1493,42.7451,44.3137,90.708
+2023/2024,Male,ALL,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,623,537,757,735,415,385,77.193,42.7574,45.0262,92.2481
+2023/2024,Male,ALL,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,546,471,712,693,425,405,77.1111,42.8571,48.9796,94.697
+2023/2024,Male,ALL,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,494,427,616,600,359,324,77.3956,42.9185,47.8541,89.6861
+2023/2024,Male,ALL,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,504,434,644,624,382,358,77.1084,42.7105,48.6653,93.2489
+2023/2024,Male,ALL,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,720,621,909,882,552,505,77.2344,42.7326,49.8547,90.9621
+2023/2024,Male,ALL,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,551,476,670,648,356,324,77.3128,42.6036,43.5897,90.4977
+2023/2024,Male,ALL,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,597,516,727,702,430,406,77.2358,42.5455,48.5455,94.0075
+2023/2024,Male,ALL,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,686,593,834,804,425,387,77.3451,42.4723,41.8384,90.5303
+2023/2024,Male,ALL,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,545,469,695,672,407,379,77.0601,42.5856,48.0989,92.4901
+2023/2024,Male,ALL,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,426,369,550,534,348,319,77.4929,42.7885,51.9231,91.2037
+2023/2024,Male,ALL,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,521,449,646,627,366,338,77.1562,42.7403,46.4213,92.0705
+2023/2024,Male,ALL,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,620,535,777,750,424,410,77.1037,42.517,44.7279,96.1977
+2023/2024,Male,ALL,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,646,558,813,786,454,421,77.2556,42.6016,45.8537,92.1986
+2023/2024,Male,ALL,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,561,484,715,693,417,389,77.2727,42.6987,47.8743,92.6641
+2023/2024,Male,Disabled,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,19,18,21,18,23,19,81.25,37.5,87.5,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,21,19,25,21,23,19,82.3529,36.8421,73.6842,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,21,19,25,21,23,19,82.3529,36.8421,73.6842,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,22,19,25,21,23,19,77.7778,36.8421,73.6842,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,21,19,25,21,23,19,82.3529,36.8421,73.6842,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,24,22,30,27,23,19,80.0,39.1304,60.8696,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,19,18,24,21,23,21,81.25,38.8889,77.7778,92.8571
+2023/2024,Male,Disabled,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,23,20,28,24,23,19,78.9474,38.0952,66.6667,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,23,20,25,21,16,15,78.9474,36.8421,52.6316,90.0
+2023/2024,Male,Disabled,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,22,19,25,21,23,21,77.7778,36.8421,73.6842,92.8571
+2023/2024,Male,Disabled,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,19,18,21,18,23,21,81.25,37.5,87.5,92.8571
+2023/2024,Male,Disabled,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,19,18,24,21,23,19,81.25,38.8889,77.7778,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,24,22,29,27,23,21,80.0,40.9091,63.6364,92.8571
+2023/2024,Male,Disabled,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,22,19,26,24,23,19,77.7778,40.0,70.0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,21,19,25,21,23,21,82.3529,36.8421,73.6842,92.8571
+2023/2024,Male,Disabled,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,27,20,32,30,23,19,68.1818,41.6667,58.3333,85.7143
+2023/2024,Male,Disabled,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,33,26,41,39,27,26,70.3704,41.9355,54.8387,94.1176
+2023/2024,Male,Disabled,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,28,22,40,39,23,19,69.5652,43.3333,46.6667,85.7143
+2023/2024,Male,Disabled,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,30,24,42,42,27,26,72.0,43.75,53.125,94.1176
+2023/2024,Male,Disabled,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,33,26,41,39,23,19,70.3704,41.9355,45.1613,85.7143
+2023/2024,Male,Disabled,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,46,37,62,60,39,37,71.0526,42.5532,51.0638,95.8333
+2023/2024,Male,Disabled,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,33,26,38,39,23,21,70.3704,44.8276,48.2759,92.8571
+2023/2024,Male,Disabled,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,34,27,44,42,23,19,71.4286,42.4242,42.4242,85.7143
+2023/2024,Male,Disabled,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,36,30,44,42,23,19,73.3333,42.4242,42.4242,85.7143
+2023/2024,Male,Disabled,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,28,23,37,33,23,19,73.913,39.2857,50.0,85.7143
+2023/2024,Male,Disabled,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,27,22,34,33,23,21,72.7273,42.3077,53.8462,92.8571
+2023/2024,Male,Disabled,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,28,23,37,33,27,26,73.913,39.2857,60.7143,94.1176
+2023/2024,Male,Disabled,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,41,34,50,48,23,19,73.5294,42.1053,36.8421,85.7143
+2023/2024,Male,Disabled,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,40,33,53,51,34,31,72.7273,42.5,52.5,90.4762
+2023/2024,Male,Disabled,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,29,24,38,36,23,21,75.0,41.3793,48.2759,92.8571
+2023/2024,Male,Disabled,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,36,31,46,45,18,16,76.6667,42.8571,31.4286,90.9091
+2023/2024,Male,Disabled,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,44,38,55,54,27,26,77.7778,42.8571,40.4762,94.1176
+2023/2024,Male,Disabled,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,38,33,49,48,23,21,77.4194,43.2432,37.8378,92.8571
+2023/2024,Male,Disabled,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,40,34,50,51,23,21,75.7576,44.7368,36.8421,92.8571
+2023/2024,Male,Disabled,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,42,37,53,51,31,29,77.1429,42.5,47.5,94.7368
+2023/2024,Male,Disabled,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,58,50,77,75,31,29,77.0833,43.1034,32.7586,94.7368
+2023/2024,Male,Disabled,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,44,38,54,51,18,16,77.7778,41.4634,26.8293,90.9091
+2023/2024,Male,Disabled,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,49,42,58,54,31,26,77.5,40.9091,43.1818,84.2105
+2023/2024,Male,Disabled,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,53,46,65,63,23,21,77.2727,42.8571,28.5714,92.8571
+2023/2024,Male,Disabled,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,39,33,49,48,23,21,75.0,43.2432,37.8378,92.8571
+2023/2024,Male,Disabled,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,36,31,46,45,23,21,76.6667,42.8571,40.0,92.8571
+2023/2024,Male,Disabled,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,38,33,46,45,27,21,77.4194,42.8571,48.5714,76.4706
+2023/2024,Male,Disabled,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,55,47,70,69,31,29,77.7778,43.3962,35.8491,94.7368
+2023/2024,Male,Disabled,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,55,47,73,69,31,29,77.7778,41.8182,34.5455,94.7368
+2023/2024,Male,Disabled,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,42,37,55,54,27,26,77.1429,42.8571,40.4762,94.1176
+2024/2025,Female,ALL,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,97,81,58,51,21,21,75.0000,38.6364,29.5455,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,120,100,74,66,27,24,74.7475,39.2857,30.3571,88.2353
+2024/2025,Female,ALL,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,103,87,66,60,27,26,75.2941,40.0000,34.0000,94.1176
+2024/2025,Female,ALL,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,89,75,54,48,21,21,75.3425,39.0244,31.7073,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,100,84,62,54,26,23,75.6098,38.2979,34.0426,87.5000
+2024/2025,Female,ALL,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,147,123,96,87,37,34,75.2066,39.7260,31.5068,91.3043
+2024/2025,Female,ALL,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,110,94,67,60,24,23,75.8242,39.2157,29.4118,93.3333
+2024/2025,Female,ALL,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,106,88,65,57,24,23,74.7126,38.7755,30.6122,93.3333
+2024/2025,Female,ALL,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,132,111,78,69,27,26,75.2294,38.9831,28.8136,94.1176
+2024/2025,Female,ALL,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,104,87,65,57,24,23,74.4186,38.7755,30.6122,93.3333
+2024/2025,Female,ALL,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,84,71,54,48,23,21,75.3623,39.0244,34.1463,92.8571
+2024/2025,Female,ALL,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,96,80,59,54,23,21,74.6835,40.0000,31.1111,92.8571
+2024/2025,Female,ALL,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,110,92,67,60,26,24,74.7253,39.2157,31.3725,93.7500
+2024/2025,Female,ALL,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,115,96,71,63,27,24,74.7368,38.8889,31.4815,88.2353
+2024/2025,Female,ALL,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,103,87,65,57,27,24,75.2941,38.7755,34.6939,88.2353
+2024/2025,Female,ALL,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,1362,1038,813,735,303,291,68.1818,39.8374,30.5691,95.7447
+2024/2025,Female,ALL,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,1721,1309,1054,942,407,376,68.1016,39.3484,31.7043,91.6996
+2024/2025,Female,ALL,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,1548,1176,961,858,380,345,68.0000,39.3398,32.4622,90.2542
+2024/2025,Female,ALL,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,1240,944,786,708,314,291,68.1685,39.6639,32.7731,92.3077
+2024/2025,Female,ALL,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,1367,1038,844,750,322,291,67.9396,39.1236,31.2989,90.0000
+2024/2025,Female,ALL,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,2135,1621,1333,1187,541,505,67.9750,39.2468,33.3003,92.8571
+2024/2025,Female,ALL,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,1680,1275,1035,927,358,330,67.9191,39.4636,28.3525,91.8919
+2024/2025,Female,ALL,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,1598,1216,1004,894,404,385,68.0851,39.2105,33.0263,94.8207
+2024/2025,Female,ALL,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,1889,1433,1167,1044,407,376,67.8663,39.4111,28.6523,91.6996
+2024/2025,Female,ALL,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,1439,1092,872,783,320,300,67.9325,39.5455,30.1515,92.9648
+2024/2025,Female,ALL,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,1253,954,795,714,330,309,68.1202,39.5349,34.0532,93.1707
+2024/2025,Female,ALL,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,1362,1038,844,756,320,283,68.1818,39.4366,31.1424,87.9397
+2024/2025,Female,ALL,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,1657,1260,1029,915,364,338,68.0586,39.1528,29.0116,92.4779
+2024/2025,Female,ALL,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,1789,1358,1135,1005,461,413,67.9566,38.9988,33.2945,89.1608
+2024/2025,Female,ALL,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,1608,1220,1037,927,409,385,67.9003,39.3631,32.3567,93.7008
+2024/2025,Female,ALL,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,2119,1742,1309,1170,499,450,73.5817,39.3542,31.2815,89.6774
+2024/2025,Female,ALL,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,2376,1954,1454,1301,557,512,73.5820,39.4545,31.4545,91.3295
+2024/2025,Female,ALL,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,2206,1815,1422,1271,573,526,73.6379,39.4052,33.0855,91.2921
+2024/2025,Female,ALL,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,1798,1476,1105,987,432,405,73.4639,39.3541,32.0574,93.2836
+2024/2025,Female,ALL,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,1900,1562,1201,1071,446,421,73.5463,39.2739,30.4730,93.8628
+2024/2025,Female,ALL,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,3125,2567,1956,1751,812,759,73.5043,39.4595,34.0541,93.0556
+2024/2025,Female,ALL,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,2391,1963,1472,1310,519,483,73.4891,39.2280,28.9048,92.5466
+2024/2025,Female,ALL,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,2386,1958,1488,1328,580,529,73.4351,39.3428,31.9716,90.8333
+2024/2025,Female,ALL,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,2774,2277,1682,1505,567,518,73.4354,39.4344,27.6512,90.9091
+2024/2025,Female,ALL,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,2192,1799,1349,1208,509,474,73.4626,39.4711,30.9500,92.7215
+2024/2025,Female,ALL,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,1871,1535,1198,1071,488,468,73.3939,39.3605,33.4068,95.3795
+2024/2025,Female,ALL,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,2027,1662,1233,1101,478,432,73.3972,39.3355,31.8328,89.8990
+2024/2025,Female,ALL,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,2376,1954,1459,1298,552,508,73.5820,39.2210,31.0688,91.5452
+2024/2025,Female,ALL,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,2585,2122,1637,1460,612,559,73.4617,39.3059,30.6699,90.7895
+2024/2025,Female,ALL,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,2158,1773,1368,1220,564,526,73.5509,39.3237,33.8164,92.8571
+2024/2025,Female,Disabled,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,10,8,5,3,3,3,75.0000,25.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,11,9,7,6,5,5,77.7778,40.0000,60.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,10,8,5,3,5,5,75.0000,25.0000,75.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,11,9,7,6,5,5,77.7778,40.0000,60.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,11,9,7,6,5,5,77.7778,40.0000,60.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,13,11,9,9,5,5,72.7273,42.8571,42.8571,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,11,9,7,6,5,5,77.7778,40.0000,60.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,11,9,7,6,5,5,77.7778,40.0000,60.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,12,9,7,6,5,5,70.0000,40.0000,60.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,11,9,7,6,5,3,77.7778,40.0000,60.0000,66.6667
+2024/2025,Female,Disabled,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,10,8,7,6,5,3,75.0000,40.0000,60.0000,66.6667
+2024/2025,Female,Disabled,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,11,9,7,6,5,3,77.7778,40.0000,60.0000,66.6667
+2024/2025,Female,Disabled,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,11,9,7,6,5,3,77.7778,40.0000,60.0000,66.6667
+2024/2025,Female,Disabled,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,11,9,8,6,5,3,77.7778,33.3333,50.0000,66.6667
+2024/2025,Female,Disabled,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,11,9,7,6,5,3,77.7778,40.0000,60.0000,66.6667
+2024/2025,Female,Disabled,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,103,79,66,60,31,28,68.2353,40.0000,38.0000,89.4737
+2024/2025,Female,Disabled,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,129,100,83,78,31,28,69.8113,41.2698,30.1587,89.4737
+2024/2025,Female,Disabled,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,119,90,71,66,31,28,67.3469,40.7407,35.1852,89.4737
+2024/2025,Female,Disabled,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,119,90,78,72,31,28,67.3469,40.6780,32.2034,89.4737
+2024/2025,Female,Disabled,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,135,100,89,78,29,28,66.6667,38.8060,26.8657,94.4444
+2024/2025,Female,Disabled,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,217,161,129,111,47,42,66.4804,37.7551,29.5918,89.6552
+2024/2025,Female,Disabled,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,140,106,83,75,29,28,67.8261,39.6825,28.5714,94.4444
+2024/2025,Female,Disabled,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,144,111,96,87,35,34,68.9076,39.7260,30.1370,95.4545
+2024/2025,Female,Disabled,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,160,123,94,81,29,28,68.9394,38.0282,25.3521,94.4444
+2024/2025,Female,Disabled,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,129,95,78,72,29,28,66.0377,40.6780,30.5085,94.4444
+2024/2025,Female,Disabled,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,113,90,71,66,29,28,70.9677,40.7407,33.3333,94.4444
+2024/2025,Female,Disabled,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,113,90,71,66,29,28,70.9677,40.7407,33.3333,94.4444
+2024/2025,Female,Disabled,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,165,123,102,87,29,28,66.9118,37.6623,23.3766,94.4444
+2024/2025,Female,Disabled,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,170,129,108,93,39,34,67.8571,37.8049,29.2683,87.5000
+2024/2025,Female,Disabled,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,140,106,91,81,39,34,67.8261,39.1304,34.7826,87.5000
+2024/2025,Female,Disabled,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,153,126,98,90,29,26,73.8095,40.5405,24.3243,88.8889
+2024/2025,Female,Disabled,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,181,149,110,102,35,34,73.8255,40.9639,26.5060,95.4545
+2024/2025,Female,Disabled,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,153,126,103,96,35,34,73.8095,41.0256,28.2051,95.4545
+2024/2025,Female,Disabled,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,170,138,103,96,35,34,72.8571,41.0256,28.2051,95.4545
+2024/2025,Female,Disabled,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,181,149,112,102,42,39,73.8255,40.0000,30.5882,92.3077
+2024/2025,Female,Disabled,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,301,246,189,171,56,52,72.9839,39.8601,24.4755,91.4286
+2024/2025,Female,Disabled,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,198,161,124,114,35,34,73.0061,40.4255,23.4043,95.4545
+2024/2025,Female,Disabled,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,220,179,136,120,47,39,72.9282,38.8350,28.1553,82.7586
+2024/2025,Female,Disabled,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,236,191,145,135,35,32,72.6804,40.9091,20.0000,90.9091
+2024/2025,Female,Disabled,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,187,149,122,108,35,32,71.4286,39.1304,23.9130,90.9091
+2024/2025,Female,Disabled,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,170,138,110,102,42,39,72.8571,40.9639,31.3253,92.3077
+2024/2025,Female,Disabled,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,170,138,103,96,42,32,72.8571,41.0256,33.3333,76.9231
+2024/2025,Female,Disabled,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,236,198,151,135,45,44,75.2577,39.4737,24.5614,96.4286
+2024/2025,Female,Disabled,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,242,198,153,141,45,44,73.3668,40.5172,24.1379,96.4286
+2024/2025,Female,Disabled,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,181,149,122,108,47,45,73.8255,39.1304,31.5217,96.5517
+2024/2025,Male,ALL,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,97,81,59,54,23,19,75.0000,40.0000,31.1111,85.7143
+2024/2025,Male,ALL,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,114,95,70,63,29,29,74.4681,39.6226,33.9623,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,103,87,66,57,31,28,75.2941,38.0000,38.0000,89.4737
+2024/2025,Male,ALL,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,89,75,54,48,24,24,75.3425,39.0244,36.5854,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,97,81,61,54,27,24,75.0000,39.1304,36.9565,88.2353
+2024/2025,Male,ALL,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,140,117,89,78,39,36,74.7826,38.8060,35.8209,91.6667
+2024/2025,Male,ALL,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,106,90,66,60,26,23,75.8621,40.0000,32.0000,87.5000
+2024/2025,Male,ALL,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,107,90,65,57,29,26,75.0000,38.7755,36.7347,88.8889
+2024/2025,Male,ALL,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,127,106,77,69,29,26,74.2857,39.6552,31.0345,88.8889
+2024/2025,Male,ALL,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,109,92,69,60,27,24,75.5556,38.4615,32.6923,88.2353
+2024/2025,Male,ALL,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,85,72,54,48,24,23,75.7143,39.0244,36.5854,93.3333
+2024/2025,Male,ALL,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,93,79,59,54,24,24,75.3247,40.0000,33.3333,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,118,99,74,66,31,28,75.2577,39.2857,33.9286,89.4737
+2024/2025,Male,ALL,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,118,99,75,69,29,26,75.2577,40.3509,31.5789,88.8889
+2024/2025,Male,ALL,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,97,81,61,54,27,26,75.0000,39.1304,36.9565,94.1176
+2024/2025,Male,ALL,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,1430,1087,869,783,348,317,67.9966,39.6657,32.8267,90.7407
+2024/2025,Male,ALL,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,1657,1255,998,888,412,377,67.7656,39.2053,33.9073,91.0156
+2024/2025,Male,ALL,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,1540,1171,970,861,454,424,68.0599,39.1008,38.4196,92.9078
+2024/2025,Male,ALL,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,1226,929,791,702,341,313,67.8218,39.0651,35.3923,91.0377
+2024/2025,Male,ALL,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,1334,1014,826,741,358,329,67.9709,39.5200,35.5200,91.4414
+2024/2025,Male,ALL,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,2025,1537,1272,1134,554,507,67.9257,39.2523,35.7217,90.9884
+2024/2025,Male,ALL,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,1553,1180,933,837,348,322,68.0219,39.5184,30.5949,92.1296
+2024/2025,Male,ALL,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,1702,1294,1106,981,464,429,68.0456,39.0681,34.4086,92.0139
+2024/2025,Male,ALL,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,1803,1369,1089,969,428,400,67.9461,39.1990,32.2816,92.8571
+2024/2025,Male,ALL,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,1507,1141,949,840,367,343,67.7679,38.9972,31.7549,92.9825
+2024/2025,Male,ALL,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,1298,984,830,741,383,363,67.8204,39.3312,37.8981,94.1176
+2024/2025,Male,ALL,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,1339,1018,823,741,340,308,67.9964,39.6469,33.8684,90.0474
+2024/2025,Male,ALL,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,1730,1315,1073,957,435,398,68.0000,39.2857,33.2512,91.1111
+2024/2025,Male,ALL,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,1780,1354,1086,969,464,427,68.0764,39.2944,35.0365,91.6667
+2024/2025,Male,ALL,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,1490,1132,949,840,414,392,67.9707,38.9972,35.7939,94.1634
+2024/2025,Male,ALL,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,2119,1742,1286,1146,531,495,73.5817,39.2600,33.9157,92.7273
+2024/2025,Male,ALL,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,2250,1852,1380,1232,522,478,73.6643,39.3678,31.0345,91.0494
+2024/2025,Male,ALL,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,2264,1857,1406,1253,651,609,73.4048,39.2857,37.9699,93.0693
+2024/2025,Male,ALL,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,1881,1545,1175,1044,525,478,73.5313,39.1451,36.6704,90.4908
+2024/2025,Male,ALL,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,1891,1551,1201,1068,499,463,73.4104,39.1639,34.1034,92.2581
+2024/2025,Male,ALL,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,2941,2419,1841,1637,799,734,73.6168,39.1960,35.6066,91.3306
+2024/2025,Male,ALL,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,2153,1768,1304,1164,499,461,73.4913,39.3110,31.4083,91.9355
+2024/2025,Male,ALL,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,2332,1916,1467,1310,601,555,73.5034,39.3694,33.6036,91.9571
+2024/2025,Male,ALL,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,2774,2281,1693,1505,633,570,73.5667,39.1881,30.6792,89.5674
+2024/2025,Male,ALL,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,2294,1885,1424,1265,567,518,73.5310,39.1466,32.6531,90.9091
+2024/2025,Male,ALL,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,1847,1520,1169,1044,533,499,73.6358,39.3220,37.4011,93.0514
+2024/2025,Male,ALL,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,2027,1662,1265,1125,559,507,73.3972,39.1850,36.2591,90.2017
+2024/2025,Male,ALL,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,2507,2060,1520,1346,660,619,73.5109,39.0435,35.6522,93.1707
+2024/2025,Male,ALL,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,2561,2107,1627,1454,688,638,73.6368,39.3989,34.6872,92.2717
+2024/2025,Male,ALL,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,2109,1731,1354,1208,583,564,73.4600,39.3171,35.3171,96.1326
+2024/2025,Male,Disabled,NABTEB,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,10,7,5,3,3,3,62.5000,25.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,10,8,7,6,3,3,75.0000,40.0000,40.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,10,8,5,3,3,3,75.0000,25.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,11,9,7,6,3,3,77.7778,40.0000,40.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,11,9,5,6,3,3,77.7778,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Alesa,South South,Rivers,Eleme,Alesa,,15,12,9,9,3,3,75.0000,42.8571,28.5714,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,10,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,11,8,7,6,3,3,66.6667,40.0000,40.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,11,9,7,6,3,3,77.7778,40.0000,40.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Kalio,South South,Rivers,Okrika,Kalio,,11,9,7,6,3,3,77.7778,40.0000,40.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ogan,South South,Rivers,Okrika,Ogan,,10,7,5,3,3,3,62.5000,25.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,10,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,12,11,7,6,3,3,80.0000,40.0000,40.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,12,11,8,6,3,3,80.0000,33.3333,33.3333,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,10,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NECO,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,113,90,69,60,29,28,70.9677,38.4615,34.6154,94.4444
+2024/2025,Male,Disabled,NECO,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,135,100,78,72,29,28,66.6667,40.6780,30.5085,94.4444
+2024/2025,Male,Disabled,NECO,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,119,90,78,72,29,28,67.3469,40.6780,30.5085,94.4444
+2024/2025,Male,Disabled,NECO,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,108,84,71,66,39,37,69.6629,40.7407,44.4444,95.8333
+2024/2025,Male,Disabled,NECO,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,124,95,81,75,29,28,68.6275,40.9836,29.5082,94.4444
+2024/2025,Male,Disabled,NECO,ward,Alesa,South South,Rivers,Eleme,Alesa,,191,145,122,105,39,36,68.1529,38.0435,26.0870,91.6667
+2024/2025,Male,Disabled,NECO,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,140,106,78,72,29,28,67.8261,40.6780,30.5085,94.4444
+2024/2025,Male,Disabled,NECO,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,149,111,106,87,39,36,66.6667,36.2500,30.0000,91.6667
+2024/2025,Male,Disabled,NECO,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,160,122,99,87,39,36,68.1818,38.6667,32.0000,91.6667
+2024/2025,Male,Disabled,NECO,ward,Kalio,South South,Rivers,Okrika,Kalio,,124,95,78,66,29,28,68.6275,37.2881,30.5085,94.4444
+2024/2025,Male,Disabled,NECO,ward,Ogan,South South,Rivers,Okrika,Ogan,,119,90,74,66,29,28,67.3469,39.2857,32.1429,94.4444
+2024/2025,Male,Disabled,NECO,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,113,84,71,72,29,28,66.6667,44.4444,33.3333,94.4444
+2024/2025,Male,Disabled,NECO,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,165,122,104,93,39,36,66.1765,39.2405,30.3797,91.6667
+2024/2025,Male,Disabled,NECO,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,170,129,108,93,39,36,67.8571,37.8049,29.2683,91.6667
+2024/2025,Male,Disabled,NECO,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,135,100,83,75,29,28,66.6667,39.6825,28.5714,94.4444
+2024/2025,Male,Disabled,WAEC,ward,Ward II Court/ Ada Allison,South South,Rivers,Bonny,Ward II Court/ Ada Allison,,159,132,95,84,29,26,74.0458,38.8889,25.0000,88.8889
+2024/2025,Male,Disabled,WAEC,ward,Ward III Dan Jumbo/ Beresiri,South South,Rivers,Bonny,Ward III Dan Jumbo/ Beresiri,,181,149,112,96,35,32,73.8255,37.6471,25.8824,90.9091
+2024/2025,Male,Disabled,WAEC,ward,Ward III Orosiriri,South South,Rivers,Bonny,Ward III Orosiriri,,170,137,107,96,42,40,72.1429,39.5062,32.0988,96.1538
+2024/2025,Male,Disabled,WAEC,ward,Agbonchia,South South,Rivers,Eleme,Agbonchia,,170,144,110,96,34,32,75.7143,38.5542,25.3012,95.2381
+2024/2025,Male,Disabled,WAEC,ward,Akpajo,South South,Rivers,Eleme,Akpajo,,181,149,110,96,34,32,73.8255,38.5542,25.3012,95.2381
+2024/2025,Male,Disabled,WAEC,ward,Alesa,South South,Rivers,Eleme,Alesa,,268,221,169,147,56,57,73.7557,38.2813,27.3438,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Choba,South South,Rivers,Obio-Akpor,Choba,,192,156,119,102,34,32,72.7848,37.7778,23.3333,95.2381
+2024/2025,Male,Disabled,WAEC,ward,Elelenwo (3B),South South,Rivers,Obio-Akpor,Elelenwo (3B),,220,179,141,120,56,52,72.9282,37.3832,32.7103,91.4286
+2024/2025,Male,Disabled,WAEC,ward,Oro-Igwe,South South,Rivers,Obio-Akpor,Oro-Igwe,,242,198,141,120,42,32,73.3668,37.3832,24.2991,76.9231
+2024/2025,Male,Disabled,WAEC,ward,Kalio,South South,Rivers,Okrika,Kalio,,192,161,119,102,34,32,75.3165,37.7778,23.3333,95.2381
+2024/2025,Male,Disabled,WAEC,ward,Ogan,South South,Rivers,Okrika,Ogan,,165,137,110,96,34,32,74.2647,38.5542,25.3012,95.2381
+2024/2025,Male,Disabled,WAEC,ward,Ogoloma I,South South,Rivers,Okrika,Ogoloma I,,176,144,110,96,42,32,73.1034,38.5542,31.3253,76.9231
+2024/2025,Male,Disabled,WAEC,ward,Abuloma/Amadi-Ama,South South,Rivers,Port Harcourt,Abuloma/Amadi-Ama,,242,198,157,135,50,49,73.3668,37.8151,26.0504,96.7742
+2024/2025,Male,Disabled,WAEC,ward,Diobu,South South,Rivers,Port Harcourt,Diobu,,253,209,163,141,50,40,74.0385,38.2114,25.2033,80.6452
+2024/2025,Male,Disabled,WAEC,ward,Elekahia,South South,Rivers,Port Harcourt,Elekahia,,176,144,110,96,42,40,73.1034,38.5542,31.3253,96.1538

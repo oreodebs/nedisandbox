@@ -1,541 +1,541 @@
-session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,all,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,144,115,128,9,8,0,29,0,119,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,604,484,532,36,32,0,120,0,496,4
-2022/2023,Female,all,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,127,101,126,9,8,0,26,0,117,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,534,427,486,30,28,0,107,0,456,2
-2022/2023,Female,all,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,666,532,620,43,40,0,134,0,577,3
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1331,1066,1209,53,49,0,265,0,1156,4
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1059,847,991,44,40,0,212,0,947,4
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,509,407,494,20,19,0,102,0,474,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,832,665,715,27,24,0,167,0,688,3
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,613,490,592,23,21,0,123,0,569,2
-2022/2023,Female,all,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,610,488,598,135,130,0,122,0,463,5
-2022/2023,Female,all,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,359,287,335,65,61,0,72,0,270,4
-2022/2023,Female,all,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,1353,1083,1252,264,233,2,270,0,988,31
-2022/2023,Female,all,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,793,634,734,148,137,1,159,0,586,11
-2022/2023,Female,all,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,702,562,646,143,122,2,140,0,503,21
-2022/2023,Female,all,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,248,198,241,18,17,0,50,0,223,1
-2022/2023,Female,all,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,1104,884,1007,59,53,0,220,0,948,6
-2022/2023,Female,all,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,253,203,234,16,15,0,50,0,218,1
-2022/2023,Female,all,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,1094,875,985,63,57,0,219,0,922,6
-2022/2023,Female,all,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,1123,898,1043,68,61,1,225,0,975,7
-2022/2023,Female,all,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,2584,2067,2344,98,88,1,517,0,2246,10
-2022/2023,Female,all,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,2014,1611,1886,81,73,1,403,0,1805,8
-2022/2023,Female,all,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,940,752,878,37,33,0,188,0,841,4
-2022/2023,Female,all,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1515,1211,1332,53,47,0,304,0,1279,6
-2022/2023,Female,all,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,1195,956,1092,48,45,0,239,0,1044,3
-2022/2023,Female,all,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,1162,930,1086,267,237,2,232,0,819,30
-2022/2023,Female,all,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,679,544,600,130,118,1,135,0,470,12
-2022/2023,Female,all,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,2540,2031,2330,493,435,5,509,0,1837,58
-2022/2023,Female,all,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1477,1183,1372,279,249,2,294,0,1093,30
-2022/2023,Female,all,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,1300,1041,1185,256,224,3,259,0,929,32
-2022/2023,Female,all,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,336,268,320,23,22,0,68,0,297,1
-2022/2023,Female,all,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,1464,1171,1315,90,84,0,293,0,1225,6
-2022/2023,Female,all,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,337,269,320,23,22,0,68,0,297,1
-2022/2023,Female,all,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,1400,1120,1331,83,78,0,280,0,1248,5
-2022/2023,Female,all,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,1481,1184,1402,94,88,0,297,0,1308,6
-2022/2023,Female,all,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,3201,2561,2956,125,119,0,640,0,2831,6
-2022/2023,Female,all,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,2708,2167,2579,121,114,1,541,0,2458,7
-2022/2023,Female,all,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,1309,1047,1184,52,50,0,262,0,1132,2
-2022/2023,Female,all,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,2128,1702,1911,72,68,0,426,0,1839,4
-2022/2023,Female,all,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,1393,1114,1334,57,52,0,279,0,1277,5
-2022/2023,Female,all,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,1485,1188,1433,326,315,1,297,0,1107,11
-2022/2023,Female,all,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,855,685,758,160,149,1,170,0,598,11
-2022/2023,Female,all,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,3370,2695,3032,658,621,3,675,0,2374,37
-2022/2023,Female,all,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1887,1510,1667,352,333,2,377,0,1315,19
-2022/2023,Female,all,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,1726,1381,1566,322,304,1,345,0,1244,18
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,14,11,11,1,0,0,3,0,10,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,56,46,46,5,4,0,10,0,41,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,14,11,11,1,0,0,3,0,10,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,53,43,48,4,3,0,10,0,44,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,69,56,59,6,5,0,13,0,53,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,113,91,101,7,6,0,22,0,94,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,89,72,77,6,5,0,17,0,71,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,46,37,42,3,2,0,9,0,39,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,63,51,53,4,3,0,12,0,49,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,56,46,53,3,2,0,10,0,50,1
-2022/2023,Female,disabled,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,63,51,59,20,18,0,12,0,39,2
-2022/2023,Female,disabled,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,35,29,30,10,9,0,6,0,20,1
-2022/2023,Female,disabled,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,114,92,95,40,36,0,22,0,55,4
-2022/2023,Female,disabled,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,81,66,71,25,22,0,15,0,46,3
-2022/2023,Female,disabled,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,56,45,48,20,18,0,11,0,28,2
-2022/2023,Female,disabled,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,19,15,20,1,0,0,4,0,19,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,93,74,91,4,3,0,19,0,87,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,27,21,26,1,0,0,6,0,25,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,101,80,91,4,3,0,21,0,87,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,96,77,96,5,4,0,19,0,91,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,194,155,177,8,7,0,39,0,169,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,144,115,138,5,4,0,29,0,133,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,78,62,74,3,2,0,16,0,71,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,109,87,97,3,2,0,22,0,94,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,104,83,97,4,3,0,21,0,93,1
-2022/2023,Female,disabled,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,89,71,86,22,20,0,18,0,64,2
-2022/2023,Female,disabled,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,62,49,59,9,8,0,13,0,50,1
-2022/2023,Female,disabled,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,174,140,157,34,31,0,34,0,123,3
-2022/2023,Female,disabled,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,120,96,119,22,19,0,24,0,97,3
-2022/2023,Female,disabled,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,93,74,86,17,15,0,19,0,69,2
-2022/2023,Female,disabled,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,26,21,24,1,0,0,5,0,23,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,122,97,109,6,5,0,25,0,103,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,30,24,29,2,1,0,6,0,27,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,134,106,122,5,4,0,28,0,117,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,123,99,113,6,5,0,24,0,107,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,236,188,219,7,6,0,48,0,212,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,199,158,192,9,8,0,41,0,183,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,99,79,88,4,3,0,20,0,84,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,150,119,128,4,3,0,31,0,124,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,121,97,119,4,3,0,24,0,115,1
-2022/2023,Female,disabled,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,110,87,109,19,18,0,23,0,90,1
-2022/2023,Female,disabled,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,76,61,70,12,11,0,15,0,58,1
-2022/2023,Female,disabled,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,242,192,223,40,37,0,50,0,183,3
-2022/2023,Female,disabled,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,147,117,137,27,26,0,30,0,110,1
-2022/2023,Female,disabled,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,123,97,114,14,13,0,26,0,100,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,112,89,100,8,6,0,23,0,92,2
-2022/2023,Male,all,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,545,437,505,34,30,0,108,0,471,4
-2022/2023,Male,all,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,126,101,114,9,8,0,25,0,105,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,495,396,480,34,32,0,99,0,446,2
-2022/2023,Male,all,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,586,468,560,42,40,0,118,0,518,2
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1101,881,1018,48,43,0,220,0,970,5
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,950,761,914,47,43,0,189,0,867,4
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,479,383,446,20,19,0,96,0,426,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,715,572,654,27,25,0,143,0,627,2
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,513,410,486,20,18,0,103,0,466,2
-2022/2023,Male,all,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,616,493,580,161,150,1,123,0,419,11
-2022/2023,Male,all,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,304,243,284,65,54,1,61,0,219,11
-2022/2023,Male,all,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,1199,960,1089,251,224,2,239,0,838,27
-2022/2023,Male,all,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,684,546,611,149,136,1,138,0,462,13
-2022/2023,Male,all,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,671,537,620,149,136,1,134,0,471,13
-2022/2023,Male,all,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,191,153,181,14,13,0,38,0,167,1
-2022/2023,Male,all,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,1040,832,934,59,53,0,208,0,875,6
-2022/2023,Male,all,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,256,205,253,21,18,0,51,0,232,3
-2022/2023,Male,all,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,972,778,892,63,55,1,194,0,829,8
-2022/2023,Male,all,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,1005,804,910,61,53,1,201,0,849,8
-2022/2023,Male,all,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,2122,1697,1957,92,82,1,425,0,1865,10
-2022/2023,Male,all,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1743,1394,1631,79,69,1,349,0,1552,10
-2022/2023,Male,all,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,852,682,788,37,33,0,170,0,751,4
-2022/2023,Male,all,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1292,1034,1170,51,45,0,258,0,1119,6
-2022/2023,Male,all,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,1058,846,989,46,41,0,212,0,943,5
-2022/2023,Male,all,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,1057,845,1012,267,236,2,212,0,745,31
-2022/2023,Male,all,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,542,434,502,119,105,1,108,0,383,14
-2022/2023,Male,all,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,2295,1835,2070,498,454,4,460,0,1572,44
-2022/2023,Male,all,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1320,1056,1188,261,231,2,264,0,927,30
-2022/2023,Male,all,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,1316,1053,1214,285,263,2,263,0,929,22
-2022/2023,Male,all,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,248,198,233,17,16,0,50,0,216,1
-2022/2023,Male,all,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,1377,1102,1262,88,83,0,275,0,1174,5
-2022/2023,Male,all,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,330,264,311,26,25,0,66,0,285,1
-2022/2023,Male,all,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,1305,1044,1174,81,74,1,261,0,1093,7
-2022/2023,Male,all,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,1368,1094,1261,85,83,0,274,0,1176,2
-2022/2023,Male,all,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,2710,2168,2436,110,103,1,542,0,2326,7
-2022/2023,Male,all,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,2460,1968,2271,111,104,1,492,0,2160,7
-2022/2023,Male,all,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,1162,930,1108,56,54,0,232,0,1052,2
-2022/2023,Male,all,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1759,1408,1566,67,63,0,351,0,1499,4
-2022/2023,Male,all,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,1294,1036,1229,58,55,0,258,0,1171,3
-2022/2023,Male,all,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,1431,1146,1322,357,337,2,285,0,965,20
-2022/2023,Male,all,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,763,610,694,161,150,1,153,0,533,11
-2022/2023,Male,all,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,3006,2405,2735,626,597,2,601,0,2109,29
-2022/2023,Male,all,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1694,1355,1561,372,350,2,339,0,1189,22
-2022/2023,Male,all,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,1721,1378,1568,368,349,2,343,0,1200,19
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,12,10,10,1,0,0,2,0,9,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,51,41,45,5,4,0,10,0,40,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,12,10,9,1,0,0,2,1,8,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,46,37,44,4,3,0,9,0,40,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,62,51,56,6,5,0,11,0,50,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,93,76,81,7,6,0,17,0,74,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,78,63,64,6,5,0,15,0,58,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,39,32,36,3,2,0,7,0,33,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,57,46,51,4,3,0,11,0,47,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,51,41,51,3,2,0,10,0,48,1
-2022/2023,Male,disabled,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,56,46,51,20,18,0,10,0,31,2
-2022/2023,Male,disabled,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,28,23,23,9,8,0,5,0,14,1
-2022/2023,Male,disabled,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,101,81,86,30,27,0,20,0,56,3
-2022/2023,Male,disabled,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,69,56,61,25,22,0,13,0,36,3
-2022/2023,Male,disabled,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,51,41,46,20,18,0,10,0,26,2
-2022/2023,Male,disabled,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,16,13,13,1,0,0,3,0,12,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,86,69,78,4,3,0,17,0,74,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,23,18,22,1,0,0,5,0,21,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,93,74,83,4,3,0,19,0,79,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,89,71,84,5,4,0,18,0,79,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,158,127,149,7,6,0,31,0,142,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,129,103,119,5,4,0,26,0,114,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,70,55,68,3,2,0,15,0,65,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,96,77,83,3,2,0,19,0,80,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,95,76,88,3,2,0,19,0,85,1
-2022/2023,Male,disabled,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,82,66,77,22,20,0,16,0,55,2
-2022/2023,Male,disabled,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,46,37,47,9,8,0,9,0,38,1
-2022/2023,Male,disabled,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,155,124,143,34,31,0,31,0,109,3
-2022/2023,Male,disabled,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,106,85,103,22,19,0,21,0,81,3
-2022/2023,Male,disabled,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,89,71,82,17,15,0,18,0,65,2
-2022/2023,Male,disabled,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,23,18,21,1,0,0,5,0,20,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,111,88,102,5,4,0,23,0,97,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,32,26,33,2,1,0,6,0,31,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,123,98,113,6,4,0,25,0,107,2
-2022/2023,Male,disabled,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,123,98,119,5,4,0,25,0,114,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,204,163,186,7,6,0,41,0,179,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,182,145,165,7,6,0,37,0,158,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,91,72,84,4,3,0,19,0,80,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,129,103,119,4,3,0,26,0,115,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,116,93,115,4,3,0,23,0,111,1
-2022/2023,Male,disabled,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,106,85,102,19,18,0,21,0,83,1
-2022/2023,Male,disabled,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,61,49,55,11,10,0,12,0,44,1
-2022/2023,Male,disabled,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,206,163,187,33,32,0,43,0,154,1
-2022/2023,Male,disabled,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,132,105,117,22,21,0,27,0,95,1
-2022/2023,Male,disabled,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,124,98,117,23,22,0,26,0,94,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,150,120,134,10,8,0,30,0,124,2
-2023/2024,Female,all,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,632,505,566,38,32,0,127,0,528,6
-2023/2024,Female,all,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,127,101,126,8,7,0,26,0,118,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,577,461,543,36,32,0,116,0,507,4
-2023/2024,Female,all,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,694,555,620,43,41,0,139,0,577,2
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1364,1091,1264,69,62,1,273,0,1195,7
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1130,906,1083,61,57,0,224,0,1022,4
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,515,412,474,29,26,0,103,0,445,3
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,896,717,785,40,37,0,179,0,745,3
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,692,554,653,37,34,0,138,0,616,3
-2023/2024,Female,all,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,677,542,659,138,128,1,135,0,521,10
-2023/2024,Female,all,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,409,328,373,66,65,0,81,0,307,1
-2023/2024,Female,all,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,1443,1156,1320,251,225,2,287,0,1069,26
-2023/2024,Female,all,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,847,677,785,144,134,1,170,0,641,10
-2023/2024,Female,all,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,728,581,677,131,116,1,147,0,546,15
-2023/2024,Female,all,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,278,223,267,20,18,0,55,0,247,2
-2023/2024,Female,all,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,1212,970,1106,70,62,1,242,0,1036,8
-2023/2024,Female,all,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,255,204,244,18,17,0,51,0,226,1
-2023/2024,Female,all,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,986,788,919,59,52,1,198,0,860,7
-2023/2024,Female,all,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,1268,1014,1161,76,65,1,254,0,1085,11
-2023/2024,Female,all,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,2645,2116,2378,126,115,1,529,0,2252,11
-2023/2024,Female,all,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,2104,1683,1982,113,101,1,421,0,1869,12
-2023/2024,Female,all,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,966,773,875,46,41,0,193,0,829,5
-2023/2024,Female,all,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1603,1282,1479,75,68,1,321,0,1404,7
-2023/2024,Female,all,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,1196,955,1099,59,54,0,241,0,1040,5
-2023/2024,Female,all,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,1227,982,1142,233,212,2,245,0,909,21
-2023/2024,Female,all,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,681,544,615,100,94,0,137,0,515,6
-2023/2024,Female,all,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,2649,2119,2370,438,385,4,530,0,1932,53
-2023/2024,Female,all,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1532,1226,1379,261,234,2,306,0,1118,27
-2023/2024,Female,all,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,1397,1119,1268,244,212,3,278,0,1024,32
-2023/2024,Female,all,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,338,270,319,24,23,0,68,0,295,1
-2023/2024,Female,all,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,1592,1274,1433,92,84,1,318,0,1341,8
-2023/2024,Female,all,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,349,280,340,24,23,0,69,0,316,1
-2023/2024,Female,all,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,1433,1147,1330,89,84,0,286,0,1241,5
-2023/2024,Female,all,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,1621,1296,1501,101,97,0,325,0,1400,4
-2023/2024,Female,all,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,3540,2833,3302,179,170,1,707,0,3123,9
-2023/2024,Female,all,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,2821,2257,2638,152,143,1,564,0,2486,9
-2023/2024,Female,all,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,1387,1109,1268,73,68,0,278,0,1195,5
-2023/2024,Female,all,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,2207,1765,1986,99,91,1,442,0,1887,8
-2023/2024,Female,all,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,1568,1255,1475,81,77,0,313,0,1394,4
-2023/2024,Female,all,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,1628,1302,1508,306,290,1,326,0,1202,16
-2023/2024,Female,all,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,1031,824,960,172,164,1,207,0,788,8
-2023/2024,Female,all,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,3697,2958,3340,619,583,3,739,0,2721,36
-2023/2024,Female,all,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,2119,1695,1964,362,344,1,424,0,1602,18
-2023/2024,Female,all,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,1854,1483,1709,342,326,1,371,0,1367,16
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,15,12,13,1,0,0,3,0,12,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,61,50,52,5,4,0,11,0,47,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,15,12,14,1,0,0,3,0,13,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,54,44,53,4,3,0,10,0,49,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,81,65,70,7,6,0,16,0,63,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,116,94,103,10,9,0,22,0,93,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,95,77,82,8,7,0,18,0,74,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,46,37,38,4,3,0,9,0,34,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,70,56,65,6,5,0,14,0,59,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,60,49,63,4,3,0,11,0,59,1
-2023/2024,Female,disabled,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,65,53,58,19,17,0,12,0,39,2
-2023/2024,Female,disabled,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,36,29,31,9,8,0,7,0,22,1
-2023/2024,Female,disabled,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,122,98,102,38,34,0,24,0,64,4
-2023/2024,Female,disabled,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,85,69,78,24,21,0,16,0,54,3
-2023/2024,Female,disabled,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,61,50,50,19,17,0,11,0,31,2
-2023/2024,Female,disabled,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,24,19,21,1,0,0,5,0,20,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,99,78,91,5,4,0,21,0,86,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,20,17,18,1,0,0,3,0,17,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,98,78,89,4,3,0,20,0,85,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,111,89,98,6,5,0,22,0,92,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,207,166,190,11,9,0,41,0,179,2
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,152,122,142,7,6,0,30,0,135,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,76,60,76,4,3,0,16,0,72,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,115,91,107,5,4,0,24,0,102,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,108,86,103,6,5,0,22,0,97,1
-2023/2024,Female,disabled,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,103,83,98,20,18,0,20,0,78,2
-2023/2024,Female,disabled,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,61,49,55,8,7,0,12,0,47,1
-2023/2024,Female,disabled,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,185,149,169,32,29,0,36,0,137,3
-2023/2024,Female,disabled,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,128,102,127,20,18,0,26,0,107,2
-2023/2024,Female,disabled,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,99,80,92,16,14,0,19,0,76,2
-2023/2024,Female,disabled,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,33,26,31,2,1,0,7,0,29,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,128,102,118,6,5,0,26,0,112,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,29,23,25,1,0,0,6,0,24,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,133,105,122,5,4,0,28,0,117,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,137,109,128,6,5,0,28,0,122,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,253,202,232,10,9,0,51,0,222,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,208,166,199,9,8,0,42,0,190,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,104,83,97,6,5,0,21,0,91,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,150,119,132,5,4,0,31,0,127,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,140,112,132,5,4,0,28,0,127,1
-2023/2024,Female,disabled,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,120,96,113,23,21,0,24,0,90,2
-2023/2024,Female,disabled,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,87,69,86,11,10,0,18,0,75,1
-2023/2024,Female,disabled,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,250,199,225,30,29,0,51,0,195,1
-2023/2024,Female,disabled,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,170,135,161,25,24,0,35,0,136,1
-2023/2024,Female,disabled,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,134,107,123,18,17,0,27,0,105,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,106,85,100,8,7,0,21,0,92,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,599,479,532,36,34,0,120,0,496,2
-2023/2024,Male,all,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,125,100,121,10,8,0,25,0,111,2
-2023/2024,Male,all,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,499,400,447,33,30,0,99,0,414,3
-2023/2024,Male,all,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,597,476,554,41,38,0,121,0,513,3
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1152,921,1076,66,60,0,231,0,1010,6
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,996,798,943,56,51,0,198,0,887,5
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,483,387,461,29,27,0,96,0,432,2
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,768,615,691,37,33,0,153,0,654,4
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,620,496,590,36,33,0,124,0,554,3
-2023/2024,Male,all,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,638,510,605,149,136,1,128,0,456,13
-2023/2024,Male,all,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,334,268,303,60,52,1,66,0,243,8
-2023/2024,Male,all,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,1301,1040,1180,245,211,3,261,0,935,34
-2023/2024,Male,all,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,745,596,690,144,128,1,149,0,546,16
-2023/2024,Male,all,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,738,590,682,137,128,1,148,0,545,9
-2023/2024,Male,all,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,224,179,219,16,15,0,45,0,203,1
-2023/2024,Male,all,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,1099,879,1012,74,65,1,220,0,938,9
-2023/2024,Male,all,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,248,198,226,18,17,0,50,0,208,1
-2023/2024,Male,all,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,914,732,865,56,51,0,182,0,809,5
-2023/2024,Male,all,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,1179,943,1084,78,69,1,236,0,1006,9
-2023/2024,Male,all,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,2172,1737,1961,119,108,1,435,0,1842,11
-2023/2024,Male,all,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1884,1507,1766,113,101,1,377,0,1653,12
-2023/2024,Male,all,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,904,723,839,48,43,0,181,0,791,5
-2023/2024,Male,all,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1371,1097,1212,69,63,0,274,0,1143,6
-2023/2024,Male,all,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,1079,863,1032,63,56,1,216,0,969,7
-2023/2024,Male,all,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,1207,966,1148,266,240,2,241,0,882,26
-2023/2024,Male,all,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,612,489,543,112,100,1,123,0,431,12
-2023/2024,Male,all,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,2396,1917,2195,457,408,4,479,0,1738,49
-2023/2024,Male,all,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1420,1137,1283,250,229,2,283,0,1033,21
-2023/2024,Male,all,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,1415,1133,1332,288,250,3,282,0,1044,38
-2023/2024,Male,all,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,298,239,300,26,25,0,59,0,274,1
-2023/2024,Male,all,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,1512,1209,1389,100,95,0,303,0,1289,5
-2023/2024,Male,all,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,324,259,314,24,21,0,65,0,290,3
-2023/2024,Male,all,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,1326,1060,1216,89,83,0,266,0,1127,6
-2023/2024,Male,all,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,1490,1192,1383,103,97,0,298,0,1280,6
-2023/2024,Male,all,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,2925,2340,2665,165,153,1,585,0,2500,12
-2023/2024,Male,all,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,2465,1972,2286,149,138,1,493,0,2137,11
-2023/2024,Male,all,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,1296,1037,1165,70,64,0,259,0,1095,6
-2023/2024,Male,all,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1831,1466,1650,89,83,0,365,0,1561,6
-2023/2024,Male,all,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,1419,1135,1352,82,79,0,284,0,1270,3
-2023/2024,Male,all,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,1545,1236,1452,343,325,1,309,0,1109,18
-2023/2024,Male,all,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,835,668,722,139,127,1,167,0,583,12
-2023/2024,Male,all,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,3205,2565,2881,590,558,3,640,0,2291,32
-2023/2024,Male,all,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1880,1504,1701,342,325,1,376,0,1359,17
-2023/2024,Male,all,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,1759,1407,1612,353,337,1,352,0,1259,16
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,13,10,11,1,0,0,3,0,10,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,59,48,49,5,4,0,11,0,44,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,13,10,11,1,0,0,3,0,10,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,49,40,45,4,3,0,9,0,41,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,68,55,60,7,6,0,13,0,53,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,97,79,88,10,9,0,18,0,78,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,81,65,81,8,7,0,16,0,73,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,42,34,40,4,3,0,8,0,36,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,60,49,54,5,4,0,11,0,49,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,55,45,55,4,3,0,10,0,51,1
-2023/2024,Male,disabled,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,58,47,54,19,17,0,11,0,35,2
-2023/2024,Male,disabled,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,34,27,27,9,8,0,7,0,18,1
-2023/2024,Male,disabled,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,107,86,93,33,29,0,21,0,60,4
-2023/2024,Male,disabled,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,75,61,67,24,21,0,14,0,43,3
-2023/2024,Male,disabled,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,55,45,49,19,17,0,10,0,30,2
-2023/2024,Male,disabled,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,17,14,19,1,0,0,3,0,18,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,87,69,80,5,4,0,18,0,75,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,20,16,18,1,0,0,4,0,17,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,87,68,87,4,3,0,19,0,83,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,100,81,95,7,6,0,19,0,88,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,168,134,152,9,8,0,34,0,143,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,134,107,131,7,6,0,27,0,124,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,73,58,65,4,3,0,15,0,61,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,99,79,90,5,4,0,20,0,85,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,102,81,93,6,5,0,21,0,87,1
-2023/2024,Male,disabled,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,94,75,88,20,18,0,19,0,68,2
-2023/2024,Male,disabled,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,48,38,43,8,7,0,10,0,35,1
-2023/2024,Male,disabled,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,167,134,157,32,29,0,33,0,125,3
-2023/2024,Male,disabled,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,111,89,103,20,18,0,22,0,83,2
-2023/2024,Male,disabled,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,100,80,91,16,14,0,20,0,75,2
-2023/2024,Male,disabled,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,24,19,22,1,0,0,5,0,21,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,126,100,113,6,5,0,26,0,107,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,28,22,27,1,0,0,6,0,26,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,130,103,119,5,4,0,27,0,114,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,126,101,118,6,5,0,25,0,112,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,215,171,196,10,9,0,44,0,186,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,186,148,174,9,8,0,38,0,165,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,92,73,82,4,3,0,19,0,78,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,137,109,118,4,3,0,28,0,114,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,129,103,124,5,4,0,26,0,119,1
-2023/2024,Male,disabled,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,119,95,114,19,18,0,24,0,95,1
-2023/2024,Male,disabled,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,73,59,65,11,10,0,14,0,54,1
-2023/2024,Male,disabled,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,223,177,198,30,29,0,46,0,168,1
-2023/2024,Male,disabled,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,151,121,138,25,24,0,30,0,113,1
-2023/2024,Male,disabled,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,127,100,119,18,17,0,27,0,101,1
-2024/2025,Female,all,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,195,156,109,52,48,0.31054,39,47,57,4
-2024/2025,Female,all,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,830,664,465,222,204,1.320858,166,199,243,18
-2024/2025,Female,all,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,166,133,93,44,41,0.263746,33,40,49,3
-2024/2025,Female,all,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,788,631,442,211,194,1.254921,157,189,231,17
-2024/2025,Female,all,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,941,753,527,252,232,1.497398,188,226,275,20
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1814,1451,1016,486,447,2.886319,363,435,530,39
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1495,1196,837,401,368,2.380097,299,359,436,33
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,696,557,390,186,171,1.108159,139,167,204,15
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1165,932,653,312,287,1.854731,233,279,341,25
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,842,674,471,225,207,1.340001,168,203,246,18
-2024/2025,Female,all,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,803,643,450,215,198,1.278318,160,193,235,17
-2024/2025,Female,all,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,587,469,329,157,145,0.933747,118,140,172,12
-2024/2025,Female,all,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,1908,1527,1069,511,470,3.037335,381,458,558,41
-2024/2025,Female,all,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1144,915,641,306,282,1.8207,229,274,335,24
-2024/2025,Female,all,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,1006,805,563,270,248,1.60162,201,242,293,22
-2024/2025,Female,all,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,377,301,211,101,93,0.59981,76,90,110,8
-2024/2025,Female,all,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,1614,1291,904,432,398,2.569398,323,387,472,34
-2024/2025,Female,all,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,321,257,180,86,79,0.510477,64,77,94,7
-2024/2025,Female,all,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,1390,1112,778,372,342,2.212065,278,334,406,30
-2024/2025,Female,all,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,1618,1295,906,433,399,2.575779,323,389,473,34
-2024/2025,Female,all,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,3429,2743,1920,918,845,5.457845,686,823,1002,73
-2024/2025,Female,all,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,2773,2218,1553,743,683,4.413495,555,665,810,60
-2024/2025,Female,all,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,1338,1070,749,358,330,2.129112,268,321,391,28
-2024/2025,Female,all,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,2046,1637,1146,548,504,3.256415,409,491,598,44
-2024/2025,Female,all,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,1545,1236,865,414,381,2.458795,309,371,451,33
-2024/2025,Female,all,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,1552,1241,869,416,382,2.46943,311,372,453,34
-2024/2025,Female,all,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,891,713,499,239,220,1.418699,178,214,260,19
-2024/2025,Female,all,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,3536,2829,1980,947,871,5.628004,707,849,1033,76
-2024/2025,Female,all,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,2022,1618,1132,542,498,3.218129,404,486,590,44
-2024/2025,Female,all,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,1823,1458,1021,488,449,2.901208,365,437,533,39
-2024/2025,Female,all,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,453,362,254,121,112,0.721048,91,108,133,9
-2024/2025,Female,all,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,2128,1702,1191,570,524,3.386161,426,511,621,46
-2024/2025,Female,all,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,477,382,267,128,118,0.759334,95,115,139,10
-2024/2025,Female,all,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,2120,1696,1187,568,522,3.373399,424,509,619,46
-2024/2025,Female,all,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,2126,1701,1191,569,524,3.384034,425,510,622,45
-2024/2025,Female,all,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,4617,3694,2586,1236,1137,7.348735,923,1108,1350,99
-2024/2025,Female,all,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,3725,2980,2086,997,918,5.927909,745,894,1089,79
-2024/2025,Female,all,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,1838,1470,1029,492,453,2.924605,368,441,537,39
-2024/2025,Female,all,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,2789,2231,1562,747,687,4.439019,558,669,815,60
-2024/2025,Female,all,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,2066,1653,1157,553,509,3.28832,413,496,604,44
-2024/2025,Female,all,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,2173,1738,1217,582,535,3.458478,435,521,635,47
-2024/2025,Female,all,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,1215,972,680,325,299,1.93343,243,292,355,26
-2024/2025,Female,all,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,4661,3729,2610,1247,1148,7.418925,932,1119,1363,99
-2024/2025,Female,all,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,2872,2298,1608,769,708,4.570892,574,690,839,61
-2024/2025,Female,all,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,2454,1963,1374,657,604,3.905145,491,589,717,53
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,20,16,11,5,5,0.031905,4,5,6,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,82,65,46,22,20,0.129746,17,19,24,2
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,20,16,11,5,5,0.031905,4,5,6,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,76,61,43,20,19,0.121238,15,18,23,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,107,86,60,29,26,0.170159,21,26,31,3
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,159,127,89,43,39,0.253111,32,38,46,4
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,122,97,68,33,30,0.193556,25,29,35,3
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,60,48,34,16,15,0.095714,12,14,18,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,91,73,51,24,22,0.144635,18,22,27,2
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,76,61,43,20,19,0.121238,15,18,23,1
-2024/2025,Female,disabled,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,87,70,49,23,21,0.138254,17,21,26,2
-2024/2025,Female,disabled,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,49,40,28,13,12,0.078698,9,12,15,1
-2024/2025,Female,disabled,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,163,130,91,44,40,0.259492,33,39,47,4
-2024/2025,Female,disabled,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,112,90,63,30,28,0.178667,22,27,33,2
-2024/2025,Female,disabled,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,82,65,46,22,20,0.129746,17,19,24,2
-2024/2025,Female,disabled,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,31,25,17,8,8,0.048921,6,8,9,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,135,108,76,36,33,0.214826,27,32,40,3
-2024/2025,Female,disabled,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,27,21,15,7,7,0.04254,6,6,8,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,135,108,76,36,33,0.214826,27,32,40,3
-2024/2025,Female,disabled,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,144,115,81,39,36,0.229714,29,34,42,3
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,261,209,146,70,64,0.414762,52,63,76,6
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,199,159,111,53,49,0.316921,40,48,58,4
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,103,82,58,28,25,0.163778,21,24,30,3
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,151,121,85,40,37,0.240349,30,36,45,3
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,136,109,76,37,34,0.216953,27,33,39,3
-2024/2025,Female,disabled,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,123,98,69,33,30,0.195683,25,29,36,3
-2024/2025,Female,disabled,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,82,65,46,22,20,0.129746,17,19,24,2
-2024/2025,Female,disabled,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,247,198,138,66,61,0.393492,49,60,72,5
-2024/2025,Female,disabled,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,168,135,94,45,42,0.268,33,41,49,3
-2024/2025,Female,disabled,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,123,98,69,33,30,0.195683,25,29,36,3
-2024/2025,Female,disabled,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,37,30,21,10,9,0.059556,7,9,11,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,178,142,99,48,44,0.282889,36,43,51,4
-2024/2025,Female,disabled,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,37,30,21,10,9,0.059556,7,9,11,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,191,153,107,51,47,0.304159,38,46,56,4
-2024/2025,Female,disabled,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,171,137,96,46,42,0.272254,34,41,50,4
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,338,271,189,91,83,0.538127,67,82,98,8
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,277,221,155,74,68,0.440286,56,66,81,6
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,140,112,79,38,35,0.223333,28,33,41,3
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,200,160,112,54,49,0.319048,40,48,58,5
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,184,148,103,49,45,0.293524,36,45,54,4
-2024/2025,Female,disabled,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,163,130,91,44,40,0.259492,33,39,47,4
-2024/2025,Female,disabled,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,98,78,55,26,24,0.15527,20,23,29,2
-2024/2025,Female,disabled,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,349,279,195,93,86,0.555143,70,84,102,7
-2024/2025,Female,disabled,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,218,174,122,58,54,0.346699,44,52,64,4
-2024/2025,Female,disabled,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,156,125,88,42,39,0.248857,31,37,46,3
-2024/2025,Male,all,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,152,122,85,41,37,0.242476,30,37,44,4
-2024/2025,Male,all,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,779,623,436,209,192,1.240033,156,187,227,17
-2024/2025,Male,all,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,163,130,91,44,40,0.259492,33,39,47,4
-2024/2025,Male,all,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,692,554,388,185,171,1.101778,138,166,203,14
-2024/2025,Male,all,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,841,672,471,225,207,1.337874,169,201,246,18
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1519,1216,851,407,374,2.418383,303,365,444,33
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1254,1003,702,336,309,1.995112,251,301,366,27
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,639,511,358,171,157,1.016699,128,153,187,14
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,974,779,546,261,240,1.550572,195,233,285,21
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,754,603,422,202,186,1.19962,151,181,220,16
-2024/2025,Male,all,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,787,630,441,211,194,1.252794,157,189,230,17
-2024/2025,Male,all,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,493,394,276,132,121,0.784858,99,118,144,11
-2024/2025,Male,all,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,1699,1359,951,455,418,2.703399,340,408,496,37
-2024/2025,Male,all,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,946,757,530,253,233,1.505906,189,227,277,20
-2024/2025,Male,all,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,997,798,558,267,246,1.586731,199,240,291,21
-2024/2025,Male,all,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,303,243,170,81,75,0.482826,60,73,89,6
-2024/2025,Male,all,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,1470,1176,823,394,362,2.339684,294,353,429,32
-2024/2025,Male,all,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,323,259,181,87,80,0.51473,64,78,94,7
-2024/2025,Male,all,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,1246,996,697,334,307,1.98235,250,299,363,27
-2024/2025,Male,all,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,1509,1207,845,404,372,2.401367,302,362,441,32
-2024/2025,Male,all,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,2821,2257,1580,756,695,4.490066,564,677,824,61
-2024/2025,Male,all,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,2398,1918,1343,642,591,3.815812,480,575,701,51
-2024/2025,Male,all,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,1193,955,668,320,294,1.899398,238,287,348,26
-2024/2025,Male,all,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1819,1455,1019,487,448,2.894827,364,436,532,39
-2024/2025,Male,all,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,1318,1054,738,353,325,2.097208,264,316,385,28
-2024/2025,Male,all,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,1529,1223,856,409,377,2.433271,306,367,447,32
-2024/2025,Male,all,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,787,630,441,211,194,1.252794,157,189,230,17
-2024/2025,Male,all,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,3238,2590,1813,867,798,5.153686,648,777,946,69
-2024/2025,Male,all,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1793,1435,1004,480,442,2.854415,358,431,524,38
-2024/2025,Male,all,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,1864,1491,1044,499,459,2.967145,373,447,545,40
-2024/2025,Male,all,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,381,305,213,102,94,0.606191,76,92,111,8
-2024/2025,Male,all,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,1934,1547,1083,518,476,3.077748,387,464,565,42
-2024/2025,Male,all,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,400,320,224,107,98,0.635969,80,96,117,9
-2024/2025,Male,all,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,1858,1486,1040,497,458,2.95651,372,446,543,39
-2024/2025,Male,all,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,1975,1580,1106,529,487,3.143685,395,474,577,42
-2024/2025,Male,all,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,3786,3029,2120,1014,933,6.02575,757,909,1106,81
-2024/2025,Male,all,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,3317,2654,1857,888,817,5.279178,663,797,969,71
-2024/2025,Male,all,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,1594,1275,893,427,393,2.537494,319,382,466,34
-2024/2025,Male,all,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,2391,1913,1339,640,589,3.805177,478,574,699,51
-2024/2025,Male,all,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,1922,1537,1076,515,473,3.058605,385,461,561,42
-2024/2025,Male,all,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,2126,1701,1191,569,524,3.384034,425,510,622,45
-2024/2025,Male,all,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,1072,857,600,287,264,1.705842,215,257,313,23
-2024/2025,Male,all,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,4293,3434,2404,1150,1057,6.831877,859,1030,1254,93
-2024/2025,Male,all,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,2574,2059,1441,689,634,4.096574,515,618,752,55
-2024/2025,Male,all,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,2385,1908,1336,639,588,3.796669,477,572,697,51
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,16,13,9,4,4,0.025524,3,4,5,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,72,58,40,19,18,0.114857,14,18,21,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,16,13,9,4,4,0.025524,3,4,5,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,68,55,38,18,17,0.108476,13,17,20,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,90,72,50,24,22,0.142508,18,22,26,2
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,128,103,72,34,32,0.204191,25,31,38,2
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,106,84,59,28,26,0.168032,22,25,31,2
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,56,45,31,15,14,0.089333,11,14,16,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,80,64,45,22,20,0.127619,16,19,23,2
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,72,58,40,19,18,0.114857,14,18,21,1
-2024/2025,Male,disabled,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,76,61,43,20,19,0.121238,15,18,23,1
-2024/2025,Male,disabled,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,47,37,26,13,12,0.074444,10,11,13,1
-2024/2025,Male,disabled,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,136,109,76,37,34,0.216953,27,33,39,3
-2024/2025,Male,disabled,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,98,78,55,26,24,0.15527,20,23,29,2
-2024/2025,Male,disabled,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,76,61,43,20,19,0.121238,15,18,23,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,27,21,15,7,7,0.04254,6,6,8,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,118,94,66,32,29,0.187175,24,28,34,3
-2024/2025,Male,disabled,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,27,21,15,7,7,0.04254,6,6,8,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,114,91,64,30,28,0.180794,23,27,34,2
-2024/2025,Male,disabled,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,130,104,73,35,32,0.206318,26,31,38,3
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,214,171,120,57,53,0.340318,43,51,63,4
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,176,141,99,47,43,0.280762,35,42,52,4
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,95,76,53,25,23,0.151016,19,23,28,2
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,127,102,71,34,31,0.202064,25,31,37,3
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,118,94,66,32,29,0.187175,24,28,34,3
-2024/2025,Male,disabled,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,123,98,69,33,30,0.195683,25,29,36,3
-2024/2025,Male,disabled,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,68,55,38,18,17,0.108476,13,17,20,1
-2024/2025,Male,disabled,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,220,176,123,59,54,0.350953,44,53,64,5
-2024/2025,Male,disabled,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,154,123,86,41,38,0.244603,31,37,45,3
-2024/2025,Male,disabled,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,122,97,68,33,30,0.193556,25,29,35,3
-2024/2025,Male,disabled,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,32,26,18,9,8,0.051048,6,8,9,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,163,130,91,44,40,0.259492,33,39,47,4
-2024/2025,Male,disabled,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,36,29,20,10,9,0.057429,7,9,10,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,174,139,97,47,43,0.276508,35,42,50,4
-2024/2025,Male,disabled,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,163,130,91,44,40,0.259492,33,39,47,4
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,277,221,155,74,68,0.440286,56,66,81,6
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,246,197,138,66,61,0.391365,49,59,72,5
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,127,102,71,34,31,0.202064,25,31,37,3
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,183,147,102,49,45,0.291397,36,45,53,4
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,168,135,94,45,41,0.268,33,41,49,4
-2024/2025,Male,disabled,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,168,135,94,45,41,0.268,33,41,49,4
-2024/2025,Male,disabled,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,95,76,53,25,23,0.151016,19,23,28,2
-2024/2025,Male,disabled,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,310,248,174,83,76,0.493461,62,74,91,7
-2024/2025,Male,disabled,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,196,157,110,53,48,0.312667,39,47,57,5
-2024/2025,Male,disabled,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,160,128,90,43,40,0.255238,32,38,47,3
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,83,214,226,14,13,0,29,0,119,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,348,899,940,57,50,0,120,0,496,4
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,73,188,223,14,13,0,26,0,117,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,308,793,859,47,44,0,107,0,456,2
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,384,989,1096,68,63,0,134,0,577,3
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,768,1981,2137,83,77,0,265,0,1156,4
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,611,1574,1751,69,63,0,212,0,947,4
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,294,756,873,31,30,0,102,0,474,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,480,1236,1264,42,38,0,167,0,688,3
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,353,911,1046,36,33,0,123,0,569,2
+2022/2023,Female,ALL,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,352,907,1057,212,204,0,122,0,463,5
+2022/2023,Female,ALL,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,207,533,592,102,96,0,72,0,270,4
+2022/2023,Female,ALL,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,780,2013,2213,415,366,42,270,0,988,31
+2022/2023,Female,ALL,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,457,1178,1297,232,215,21,159,0,586,11
+2022/2023,Female,ALL,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,405,1044,1142,225,192,42,140,0,503,21
+2022/2023,Female,ALL,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,143,368,426,28,27,0,50,0,223,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,637,1643,1780,93,83,0,220,0,948,6
+2022/2023,Female,ALL,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,146,377,414,25,24,0,50,0,218,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,631,1626,1741,99,90,0,219,0,922,6
+2022/2023,Female,ALL,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,648,1669,1843,107,96,21,225,0,975,7
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1490,3841,4143,154,138,21,517,0,2246,10
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1161,2994,3333,127,115,21,403,0,1805,8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,542,1397,1552,58,52,0,188,0,841,4
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,874,2250,2354,83,74,0,304,0,1279,6
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,689,1777,1930,75,71,0,239,0,1044,3
+2022/2023,Female,ALL,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,670,1728,1919,419,372,42,232,0,819,30
+2022/2023,Female,ALL,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,392,1011,1060,204,185,21,135,0,470,12
+2022/2023,Female,ALL,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,1465,3774,4118,774,683,106,509,0,1837,58
+2022/2023,Female,ALL,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,852,2198,2425,438,391,42,294,0,1093,30
+2022/2023,Female,ALL,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,750,1934,2094,402,352,63,259,0,929,32
+2022/2023,Female,ALL,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,194,498,566,36,35,0,68,0,297,1
+2022/2023,Female,ALL,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,844,2176,2324,141,132,0,293,0,1225,6
+2022/2023,Female,ALL,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,194,500,566,36,35,0,68,0,297,1
+2022/2023,Female,ALL,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,807,2081,2352,130,123,0,280,0,1248,5
+2022/2023,Female,ALL,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,854,2200,2478,148,138,0,297,0,1308,6
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1846,4759,5224,196,187,0,640,0,2831,6
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1562,4027,4558,190,179,21,541,0,2458,7
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,755,1946,2093,82,79,0,262,0,1132,2
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1227,3163,3377,113,107,0,426,0,1839,4
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,803,2070,2358,90,82,0,279,0,1277,5
+2022/2023,Female,ALL,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,856,2208,2533,512,495,21,297,0,1107,11
+2022/2023,Female,ALL,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,493,1273,1340,251,234,21,170,0,598,11
+2022/2023,Female,ALL,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,1943,5008,5359,1034,976,63,675,0,2374,37
+2022/2023,Female,ALL,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1088,2806,2946,553,523,42,377,0,1315,19
+2022/2023,Female,ALL,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,995,2566,2768,506,478,21,345,0,1244,18
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,8,20,19,2,0,0,3,0,10,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,32,85,81,8,6,0,10,0,41,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,8,20,19,2,0,0,3,0,10,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,31,80,85,6,5,0,10,0,44,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,40,104,104,9,8,0,13,0,53,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,65,169,179,11,9,0,22,0,94,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,51,134,136,9,8,0,17,0,71,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,27,69,74,5,3,0,9,0,39,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,36,95,94,6,5,0,12,0,49,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,32,85,94,5,3,0,10,0,50,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,36,95,104,31,28,0,12,0,39,2
+2022/2023,Female,Disabled,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,20,54,53,16,14,0,6,0,20,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,66,171,168,63,57,0,22,0,55,4
+2022/2023,Female,Disabled,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,47,123,125,39,35,0,15,0,46,3
+2022/2023,Female,Disabled,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,32,84,85,31,28,0,11,0,28,2
+2022/2023,Female,Disabled,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,11,28,35,2,0,0,4,0,19,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,54,138,161,6,5,0,19,0,87,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,16,39,46,2,0,0,6,0,25,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,58,149,161,6,5,0,21,0,87,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,55,143,170,8,6,0,19,0,91,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,112,288,313,13,11,0,39,0,169,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,83,214,244,8,6,0,29,0,133,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,45,115,131,5,3,0,16,0,71,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,63,162,171,5,3,0,22,0,94,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,60,154,171,6,5,0,21,0,93,1
+2022/2023,Female,Disabled,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,51,132,152,35,31,0,18,0,64,2
+2022/2023,Female,Disabled,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,36,91,104,14,13,0,13,0,50,1
+2022/2023,Female,Disabled,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,100,260,277,53,49,0,34,0,123,3
+2022/2023,Female,Disabled,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,69,178,210,35,30,0,24,0,97,3
+2022/2023,Female,Disabled,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,54,138,152,27,24,0,19,0,69,2
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,15,39,42,2,0,0,5,0,23,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,70,180,193,9,8,0,25,0,103,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,17,45,51,3,2,0,6,0,27,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,77,197,216,8,6,0,28,0,117,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,71,184,200,9,8,0,24,0,107,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,136,349,387,11,9,0,48,0,212,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,115,294,339,14,13,0,41,0,183,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,57,147,156,6,5,0,20,0,84,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,86,221,226,6,5,0,31,0,124,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,70,180,210,6,5,0,24,0,115,1
+2022/2023,Female,Disabled,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,63,162,193,30,28,0,23,0,90,1
+2022/2023,Female,Disabled,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,44,113,124,19,17,0,15,0,58,1
+2022/2023,Female,Disabled,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,140,357,394,63,58,0,50,0,183,3
+2022/2023,Female,Disabled,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,85,217,242,42,41,0,30,0,110,1
+2022/2023,Female,Disabled,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,71,180,201,22,20,0,26,0,100,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,65,165,177,13,9,0,23,0,92,2
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,314,812,893,53,47,0,108,0,471,4
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,73,188,201,14,13,0,25,0,105,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,285,736,848,53,50,0,99,0,446,2
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,338,870,990,66,63,0,118,0,518,2
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,635,1637,1799,75,68,0,220,0,970,5
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,548,1414,1615,74,68,0,189,0,867,4
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,276,712,788,31,30,0,96,0,426,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,412,1063,1156,42,39,0,143,0,627,2
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,296,762,859,31,28,0,103,0,466,2
+2022/2023,Male,ALL,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,355,916,1025,253,236,21,123,0,419,11
+2022/2023,Male,ALL,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,175,452,502,102,85,21,61,0,219,11
+2022/2023,Male,ALL,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,691,1784,1925,394,352,42,239,0,838,27
+2022/2023,Male,ALL,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,394,1015,1080,234,214,21,138,0,462,13
+2022/2023,Male,ALL,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,387,998,1096,234,214,21,134,0,471,13
+2022/2023,Male,ALL,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,110,284,320,22,20,0,38,0,167,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,600,1546,1651,93,83,0,208,0,875,6
+2022/2023,Male,ALL,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,148,381,447,33,28,0,51,0,232,3
+2022/2023,Male,ALL,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,561,1446,1577,99,86,21,194,0,829,8
+2022/2023,Male,ALL,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,580,1494,1608,96,83,21,201,0,849,8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1224,3154,3459,145,129,21,425,0,1865,10
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1005,2590,2883,124,108,21,349,0,1552,10
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,491,1267,1393,58,52,0,170,0,751,4
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,745,1921,2068,80,71,0,258,0,1119,6
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,610,1572,1748,72,64,0,212,0,943,5
+2022/2023,Male,ALL,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,610,1570,1789,419,371,42,212,0,745,31
+2022/2023,Male,ALL,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,313,807,887,187,165,21,108,0,383,14
+2022/2023,Male,ALL,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,1323,3410,3659,782,713,85,460,0,1572,44
+2022/2023,Male,ALL,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,761,1962,2100,410,363,42,264,0,927,30
+2022/2023,Male,ALL,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,759,1957,2146,448,413,42,263,0,929,22
+2022/2023,Male,ALL,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,143,368,412,27,25,0,50,0,216,1
+2022/2023,Male,ALL,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,794,2048,2230,138,130,0,275,0,1174,5
+2022/2023,Male,ALL,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,190,491,550,41,39,0,66,0,285,1
+2022/2023,Male,ALL,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,753,1940,2075,127,116,21,261,0,1093,7
+2022/2023,Male,ALL,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,789,2033,2229,134,130,0,274,0,1176,2
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1563,4029,4305,173,162,21,542,0,2326,7
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1419,3657,4014,174,163,21,492,0,2160,7
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,670,1728,1958,88,85,0,232,0,1052,2
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1014,2616,2768,105,99,0,351,0,1499,4
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,746,1925,2172,91,86,0,258,0,1171,3
+2022/2023,Male,ALL,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,825,2130,2336,561,529,42,285,0,965,20
+2022/2023,Male,ALL,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,440,1134,1227,253,236,21,153,0,533,11
+2022/2023,Male,ALL,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,1733,4469,4834,983,938,42,601,0,2109,29
+2022/2023,Male,ALL,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,977,2518,2759,584,550,42,339,0,1189,22
+2022/2023,Male,ALL,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,992,2561,2771,578,548,42,343,0,1200,19
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,7,19,18,2,0,0,2,0,9,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,29,76,80,8,6,0,10,0,40,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,7,19,16,2,0,0,2,1,8,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,27,69,78,6,5,0,9,0,40,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,36,95,99,9,8,0,11,0,50,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,54,141,143,11,9,0,17,0,74,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,45,117,113,9,8,0,15,0,58,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,22,59,64,5,3,0,7,0,33,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,33,85,90,6,5,0,11,0,47,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,29,76,90,5,3,0,10,0,48,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,32,85,90,31,28,0,10,0,31,2
+2022/2023,Male,Disabled,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,16,43,41,14,13,0,5,0,14,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,58,151,152,47,42,0,20,0,56,3
+2022/2023,Male,Disabled,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,40,104,108,39,35,0,13,0,36,3
+2022/2023,Male,Disabled,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,29,76,81,31,28,0,10,0,26,2
+2022/2023,Male,Disabled,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,9,24,23,2,0,0,3,0,12,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,50,128,138,6,5,0,17,0,74,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,13,33,39,2,0,0,5,0,21,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,54,138,147,6,5,0,19,0,79,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,51,132,148,8,6,0,18,0,79,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,91,236,263,11,9,0,31,0,142,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,74,191,210,8,6,0,26,0,114,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,40,102,120,5,3,0,15,0,65,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,55,143,147,5,3,0,19,0,80,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,55,141,156,5,3,0,19,0,85,1
+2022/2023,Male,Disabled,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,47,123,136,35,31,0,16,0,55,2
+2022/2023,Male,Disabled,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,27,69,83,14,13,0,9,0,38,1
+2022/2023,Male,Disabled,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,89,230,253,53,49,0,31,0,109,3
+2022/2023,Male,Disabled,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,61,158,182,35,30,0,21,0,81,3
+2022/2023,Male,Disabled,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,51,132,145,27,24,0,18,0,65,2
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,13,33,37,2,0,0,5,0,20,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,64,164,180,8,6,0,23,0,97,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,18,48,58,3,2,0,6,0,31,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,71,182,200,9,6,0,25,0,107,2
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,71,182,210,8,6,0,25,0,114,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,118,303,329,11,9,0,41,0,179,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,105,269,292,11,9,0,37,0,158,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,52,134,148,6,5,0,19,0,80,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,74,191,210,6,5,0,26,0,115,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,67,173,203,6,5,0,23,0,111,1
+2022/2023,Male,Disabled,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,61,158,180,30,28,0,21,0,83,1
+2022/2023,Male,Disabled,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,35,91,97,17,16,0,12,0,44,1
+2022/2023,Male,Disabled,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,119,303,331,52,50,0,43,0,154,1
+2022/2023,Male,Disabled,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,76,195,207,35,33,0,27,0,95,1
+2022/2023,Male,Disabled,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,72,182,207,36,35,0,26,0,94,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,86,223,237,16,13,0,30,0,124,2
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,364,938,1000,60,50,0,127,0,528,6
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,73,188,223,13,11,0,26,0,118,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,333,857,960,57,50,0,116,0,507,4
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,400,1031,1096,68,64,0,139,0,577,2
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,787,2027,2234,108,97,21,273,0,1195,7
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,652,1684,1914,96,90,0,224,0,1022,4
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,297,766,838,46,41,0,103,0,445,3
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,517,1332,1387,63,58,0,179,0,745,3
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,399,1030,1154,58,53,0,138,0,616,3
+2023/2024,Female,ALL,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,390,1007,1165,217,201,21,135,0,521,10
+2023/2024,Female,ALL,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,236,610,659,104,102,0,81,0,307,1
+2023/2024,Female,ALL,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,832,2148,2333,394,353,42,287,0,1069,26
+2023/2024,Female,ALL,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,488,1258,1387,226,211,21,170,0,641,10
+2023/2024,Female,ALL,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,420,1080,1197,206,182,21,147,0,546,15
+2023/2024,Female,ALL,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,160,414,472,31,28,0,55,0,247,2
+2023/2024,Female,ALL,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,699,1803,1955,110,97,21,242,0,1036,8
+2023/2024,Female,ALL,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,147,379,431,28,27,0,51,0,226,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,569,1464,1624,93,82,21,198,0,860,7
+2023/2024,Female,ALL,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,731,1884,2052,119,102,21,254,0,1085,11
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1525,3932,4203,198,181,21,529,0,2252,11
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1213,3128,3503,178,159,21,421,0,1869,12
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,557,1436,1546,72,64,0,193,0,829,5
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,924,2382,2614,118,107,21,321,0,1404,7
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,690,1775,1942,93,85,0,241,0,1040,5
+2023/2024,Female,ALL,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,708,1825,2018,366,333,42,245,0,909,21
+2023/2024,Female,ALL,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,393,1011,1087,157,148,0,137,0,515,6
+2023/2024,Female,ALL,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,1528,3938,4189,688,605,85,530,0,1932,53
+2023/2024,Female,ALL,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,883,2278,2437,410,368,42,306,0,1118,27
+2023/2024,Female,ALL,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,806,2079,2241,383,333,63,278,0,1024,32
+2023/2024,Female,ALL,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,195,502,564,38,36,0,68,0,295,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,918,2367,2533,145,132,21,318,0,1341,8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,201,520,601,38,36,0,69,0,316,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,826,2131,2351,140,132,0,286,0,1241,5
+2023/2024,Female,ALL,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,935,2408,2653,159,152,0,325,0,1400,4
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,2041,5265,5836,281,267,21,707,0,3123,9
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1627,4194,4662,239,225,21,564,0,2486,9
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,800,2061,2241,115,107,0,278,0,1195,5
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1273,3280,3510,156,143,21,442,0,1887,8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,904,2332,2607,127,121,0,313,0,1394,4
+2023/2024,Female,ALL,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,939,2420,2665,481,456,21,326,0,1202,16
+2023/2024,Female,ALL,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,595,1531,1697,270,258,21,207,0,788,8
+2023/2024,Female,ALL,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,2132,5497,5903,972,916,63,739,0,2721,36
+2023/2024,Female,ALL,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1222,3150,3471,569,540,21,424,0,1602,18
+2023/2024,Female,ALL,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,1069,2756,3020,537,512,21,371,0,1367,16
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,9,22,23,2,0,0,3,0,12,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,35,93,92,8,6,0,11,0,47,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,9,22,25,2,0,0,3,0,13,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,31,82,94,6,5,0,10,0,49,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,47,121,124,11,9,0,16,0,63,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,67,175,182,16,14,0,22,0,93,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,55,143,145,13,11,0,18,0,74,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,27,69,67,6,5,0,9,0,34,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,40,104,115,9,8,0,14,0,59,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,35,91,111,6,5,0,11,0,59,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,37,98,103,30,27,0,12,0,39,2
+2023/2024,Female,Disabled,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,21,54,55,14,13,0,7,0,22,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,70,182,180,60,53,0,24,0,64,4
+2023/2024,Female,Disabled,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,49,128,138,38,33,0,16,0,54,3
+2023/2024,Female,Disabled,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,35,93,88,30,27,0,11,0,31,2
+2023/2024,Female,Disabled,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,14,35,37,2,0,0,5,0,20,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,57,145,161,8,6,0,21,0,86,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,12,32,32,2,0,0,3,0,17,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,57,145,157,6,5,0,20,0,85,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,64,165,173,9,8,0,22,0,92,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,119,308,336,17,14,0,41,0,179,2
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,88,227,251,11,9,0,30,0,135,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,44,111,134,6,5,0,16,0,72,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,66,169,189,8,6,0,24,0,102,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,62,160,182,9,8,0,22,0,97,1
+2023/2024,Female,Disabled,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,59,154,173,31,28,0,20,0,78,2
+2023/2024,Female,Disabled,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,35,91,97,13,11,0,12,0,47,1
+2023/2024,Female,Disabled,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,107,277,299,50,46,0,36,0,137,3
+2023/2024,Female,Disabled,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,74,190,224,31,28,0,26,0,107,2
+2023/2024,Female,Disabled,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,57,149,163,25,22,0,19,0,76,2
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,19,48,55,3,2,0,7,0,29,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,74,190,209,9,8,0,26,0,112,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,17,43,44,2,0,0,6,0,24,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,77,195,216,8,6,0,28,0,117,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,79,203,226,9,8,0,28,0,122,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,146,375,410,16,14,0,51,0,222,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,120,308,352,14,13,0,42,0,190,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,60,154,171,9,8,0,21,0,91,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,86,221,233,8,6,0,31,0,127,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,81,208,233,8,6,0,28,0,127,1
+2023/2024,Female,Disabled,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,69,178,200,36,33,0,24,0,90,2
+2023/2024,Female,Disabled,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,50,128,152,17,16,0,18,0,75,1
+2023/2024,Female,Disabled,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,144,370,398,47,46,0,51,0,195,1
+2023/2024,Female,Disabled,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,98,251,285,39,38,0,35,0,136,1
+2023/2024,Female,Disabled,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,77,199,217,28,27,0,27,0,105,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,61,158,177,13,11,0,21,0,92,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,345,890,940,57,53,0,120,0,496,2
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,72,186,214,16,13,0,25,0,111,2
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,288,743,790,52,47,0,99,0,414,3
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,344,885,979,64,60,0,121,0,513,3
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,664,1711,1902,104,94,0,231,0,1010,6
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,574,1483,1667,88,80,0,198,0,887,5
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,279,719,815,46,42,0,96,0,432,2
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,443,1143,1221,58,52,0,153,0,654,4
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,358,922,1043,57,52,0,124,0,554,3
+2023/2024,Male,ALL,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,368,948,1069,234,214,21,128,0,456,13
+2023/2024,Male,ALL,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,193,498,536,94,82,21,66,0,243,8
+2023/2024,Male,ALL,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,750,1933,2086,385,331,63,261,0,935,34
+2023/2024,Male,ALL,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,430,1108,1220,226,201,21,149,0,546,16
+2023/2024,Male,ALL,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,426,1096,1205,215,201,21,148,0,545,9
+2023/2024,Male,ALL,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,129,333,387,25,24,0,45,0,203,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,634,1633,1789,116,102,21,220,0,938,9
+2023/2024,Male,ALL,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,143,368,399,28,27,0,50,0,208,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,527,1360,1529,88,80,0,182,0,809,5
+2023/2024,Male,ALL,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,680,1752,1916,123,108,21,236,0,1006,9
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1253,3228,3466,187,170,21,435,0,1842,11
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1086,2800,3121,178,159,21,377,0,1653,12
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,521,1344,1483,75,68,0,181,0,791,5
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,791,2039,2142,108,99,0,274,0,1143,6
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,622,1604,1824,99,88,21,216,0,969,7
+2023/2024,Male,ALL,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,696,1795,2029,418,377,42,241,0,882,26
+2023/2024,Male,ALL,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,353,909,960,176,157,21,123,0,431,12
+2023/2024,Male,ALL,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,1382,3562,3879,718,641,85,479,0,1738,49
+2023/2024,Male,ALL,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,819,2113,2268,393,360,42,283,0,1033,21
+2023/2024,Male,ALL,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,816,2105,2354,452,393,63,282,0,1044,38
+2023/2024,Male,ALL,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,172,444,530,41,39,0,59,0,274,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,872,2247,2455,157,149,0,303,0,1289,5
+2023/2024,Male,ALL,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,187,481,555,38,33,0,65,0,290,3
+2023/2024,Male,ALL,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,765,1970,2149,140,130,0,266,0,1127,6
+2023/2024,Male,ALL,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,859,2215,2444,162,152,0,298,0,1280,6
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1687,4348,4710,259,240,21,585,0,2500,12
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1421,3665,4040,234,217,21,493,0,2137,11
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,747,1927,2059,110,101,0,259,0,1095,6
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1056,2724,2916,140,130,0,365,0,1561,6
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,818,2109,2390,129,124,0,284,0,1270,3
+2023/2024,Male,ALL,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,891,2297,2566,539,511,21,309,0,1109,18
+2023/2024,Male,ALL,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,482,1241,1276,218,200,21,167,0,583,12
+2023/2024,Male,ALL,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,1848,4767,5092,927,877,63,640,0,2291,32
+2023/2024,Male,ALL,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1084,2795,3006,537,511,21,376,0,1359,17
+2023/2024,Male,ALL,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,1014,2615,2849,555,529,21,352,0,1259,16
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,7,19,19,2,0,0,3,0,10,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,34,89,87,8,6,0,11,0,44,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,7,19,19,2,0,0,3,0,10,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,28,74,80,6,5,0,9,0,41,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,39,102,106,11,9,0,13,0,53,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,56,147,156,16,14,0,18,0,78,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,47,121,143,13,11,0,16,0,73,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,24,63,71,6,5,0,8,0,36,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,35,91,95,8,6,0,11,0,49,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,32,84,97,6,5,0,10,0,51,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,33,87,95,30,27,0,11,0,35,2
+2023/2024,Male,Disabled,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,20,50,48,14,13,0,7,0,18,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,62,160,164,52,46,0,21,0,60,4
+2023/2024,Male,Disabled,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,43,113,118,38,33,0,14,0,43,3
+2023/2024,Male,Disabled,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,32,84,87,30,27,0,10,0,30,2
+2023/2024,Male,Disabled,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,10,26,34,2,0,0,3,0,18,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,50,128,141,8,6,0,18,0,75,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,12,30,32,2,0,0,4,0,17,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,50,126,154,6,5,0,19,0,83,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,58,151,168,11,9,0,19,0,88,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,97,249,269,14,13,0,34,0,143,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,77,199,232,11,9,0,27,0,124,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,42,108,115,6,5,0,15,0,61,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,57,147,159,8,6,0,20,0,85,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,59,151,164,9,8,0,21,0,87,1
+2023/2024,Male,Disabled,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,54,139,156,31,28,0,19,0,68,2
+2023/2024,Male,Disabled,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,28,71,76,13,11,0,10,0,35,1
+2023/2024,Male,Disabled,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,96,249,277,50,46,0,33,0,125,3
+2023/2024,Male,Disabled,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,64,165,182,31,28,0,22,0,83,2
+2023/2024,Male,Disabled,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,58,149,161,25,22,0,20,0,75,2
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,14,35,39,2,0,0,5,0,21,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,73,186,200,9,8,0,26,0,107,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,16,41,48,2,0,0,6,0,26,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,75,191,210,8,6,0,27,0,114,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,73,188,209,9,8,0,25,0,112,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,124,318,346,16,14,0,44,0,186,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,107,275,308,14,13,0,38,0,165,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,53,136,145,6,5,0,19,0,78,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,79,203,209,6,5,0,28,0,114,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,74,191,219,8,6,0,26,0,119,1
+2023/2024,Male,Disabled,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,69,177,201,30,28,0,24,0,95,1
+2023/2024,Male,Disabled,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,42,110,115,17,16,0,14,0,54,1
+2023/2024,Male,Disabled,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,129,329,350,47,46,0,46,0,168,1
+2023/2024,Male,Disabled,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,87,225,244,39,38,0,30,0,113,1
+2023/2024,Male,Disabled,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,73,186,210,28,27,0,27,0,101,1
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,112,290,193,82,75,7,39,47,57,4
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,479,1234,822,349,320,28,166,199,243,18
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,96,247,164,69,64,6,33,40,49,3
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,454,1173,781,331,305,27,157,189,231,17
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,543,1399,931,396,364,32,188,226,275,20
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1046,2696,1796,763,702,61,363,435,530,39
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,862,2223,1479,630,578,50,299,359,436,33
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,401,1035,689,292,269,23,139,167,204,15
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,672,1732,1154,490,451,39,233,279,341,25
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,486,1252,832,353,325,28,168,203,246,18
+2024/2025,Female,ALL,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,463,1195,795,338,311,27,160,193,235,17
+2024/2025,Female,ALL,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,339,872,581,247,228,20,118,140,172,12
+2024/2025,Female,ALL,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,1100,2838,1889,803,738,64,381,458,558,41
+2024/2025,Female,ALL,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,660,1700,1133,481,443,38,229,274,335,24
+2024/2025,Female,ALL,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,580,1496,995,424,390,34,201,242,293,22
+2024/2025,Female,ALL,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,217,559,373,159,146,13,76,90,110,8
+2024/2025,Female,ALL,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,931,2399,1598,679,625,54,323,387,472,34
+2024/2025,Female,ALL,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,185,478,318,135,124,11,64,77,94,7
+2024/2025,Female,ALL,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,802,2066,1375,584,537,47,278,334,406,30
+2024/2025,Female,ALL,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,933,2407,1601,680,627,54,323,389,473,34
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1977,5097,3393,1442,1327,115,686,823,1002,73
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1599,4122,2745,1167,1073,93,555,665,810,60
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,772,1988,1324,562,518,45,268,321,391,28
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1180,3042,2025,861,792,69,409,491,598,44
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,891,2297,1529,650,599,52,309,371,451,33
+2024/2025,Female,ALL,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,895,2306,1536,653,600,52,311,372,453,34
+2024/2025,Female,ALL,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,514,1325,882,375,346,30,178,214,260,19
+2024/2025,Female,ALL,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,2039,5257,3499,1488,1368,119,707,849,1033,76
+2024/2025,Female,ALL,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1166,3007,2001,851,782,68,404,486,590,44
+2024/2025,Female,ALL,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,1051,2709,1805,767,705,61,365,437,533,39
+2024/2025,Female,ALL,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,261,673,449,190,176,15,91,108,133,9
+2024/2025,Female,ALL,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,1227,3163,2105,895,823,72,426,511,621,46
+2024/2025,Female,ALL,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,275,710,472,201,185,16,95,115,139,10
+2024/2025,Female,ALL,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,1223,3152,2098,892,820,71,424,509,619,46
+2024/2025,Female,ALL,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,1226,3161,2105,894,823,72,425,510,622,45
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,2662,6865,4570,1942,1786,155,923,1108,1350,99
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,2148,5538,3687,1566,1442,125,745,894,1089,79
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,1060,2732,1819,773,712,62,368,441,537,39
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1608,4146,2761,1173,1079,94,558,669,815,60
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,1191,3072,2045,869,800,69,413,496,604,44
+2024/2025,Female,ALL,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,1253,3230,2151,914,840,73,435,521,635,47
+2024/2025,Female,ALL,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,701,1806,1202,511,470,41,243,292,355,26
+2024/2025,Female,ALL,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,2688,6930,4613,1959,1803,157,932,1119,1363,99
+2024/2025,Female,ALL,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1656,4270,2842,1208,1112,97,574,690,839,61
+2024/2025,Female,ALL,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,1415,3648,2428,1032,949,83,491,589,717,53
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,12,30,19,8,8,1,4,5,6,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,47,121,81,35,31,3,17,19,24,2
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,12,30,19,8,8,1,4,5,6,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,44,113,76,31,30,3,15,18,23,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,62,160,106,46,41,4,21,26,31,3
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,92,236,157,68,61,5,32,38,46,4
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,70,180,120,52,47,4,25,29,35,3
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,35,89,60,25,24,2,12,14,18,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,52,136,90,38,35,3,18,22,27,2
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,44,113,76,31,30,3,15,18,23,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,50,130,87,36,33,3,17,21,26,2
+2024/2025,Female,Disabled,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,28,74,49,20,19,2,9,12,15,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,94,242,161,69,63,5,33,39,47,4
+2024/2025,Female,Disabled,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,65,167,111,47,44,4,22,27,33,2
+2024/2025,Female,Disabled,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,47,121,81,35,31,3,17,19,24,2
+2024/2025,Female,Disabled,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,18,46,30,13,13,1,6,8,9,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,78,201,134,57,52,5,27,32,40,3
+2024/2025,Female,Disabled,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,16,39,27,11,11,1,6,6,8,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,78,201,134,57,52,5,27,32,40,3
+2024/2025,Female,Disabled,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,83,214,143,61,57,5,29,34,42,3
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,151,388,258,110,101,9,52,63,76,6
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,115,295,196,83,77,7,40,48,58,4
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,59,152,103,44,39,3,21,24,30,3
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,87,225,150,63,58,5,30,36,45,3
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,78,203,134,58,53,5,27,33,39,3
+2024/2025,Female,Disabled,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,71,182,122,52,47,4,25,29,36,3
+2024/2025,Female,Disabled,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,47,121,81,35,31,3,17,19,24,2
+2024/2025,Female,Disabled,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,142,368,244,104,96,8,49,60,72,5
+2024/2025,Female,Disabled,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,97,251,166,71,66,6,33,41,49,3
+2024/2025,Female,Disabled,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,71,182,122,52,47,4,25,29,36,3
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,21,56,37,16,14,1,7,9,11,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,103,264,175,75,69,6,36,43,51,4
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,21,56,37,16,14,1,7,9,11,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,110,284,189,80,74,6,38,46,56,4
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,99,255,170,72,66,6,34,41,50,4
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,195,504,334,143,130,11,67,82,98,8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,160,411,274,116,107,9,56,66,81,6
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,81,208,140,60,55,5,28,33,41,3
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,115,297,198,85,77,7,40,48,58,5
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,106,275,182,77,71,6,36,45,54,4
+2024/2025,Female,Disabled,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,94,242,161,69,63,5,33,39,47,4
+2024/2025,Female,Disabled,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,57,145,97,41,38,3,20,23,29,2
+2024/2025,Female,Disabled,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,201,518,345,146,135,12,70,84,102,7
+2024/2025,Female,Disabled,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,126,323,216,91,85,7,44,52,64,4
+2024/2025,Female,Disabled,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,90,232,156,66,61,5,31,37,46,3
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,88,227,150,64,58,5,30,37,44,4
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,449,1158,771,328,302,26,156,187,227,17
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,94,242,161,69,63,5,33,39,47,4
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,399,1030,686,291,269,23,138,166,203,14
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,485,1249,832,353,325,28,169,201,246,18
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,876,2260,1504,639,588,51,303,365,444,33
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,723,1864,1241,528,485,42,251,301,366,27
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,368,950,633,269,247,21,128,153,187,14
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,562,1448,965,410,377,33,195,233,285,21
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,435,1121,746,317,292,25,151,181,220,16
+2024/2025,Male,ALL,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,454,1171,779,331,305,26,157,189,230,17
+2024/2025,Male,ALL,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,284,732,488,207,190,17,99,118,144,11
+2024/2025,Male,ALL,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,980,2525,1681,715,657,57,340,408,496,37
+2024/2025,Male,ALL,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,546,1407,937,397,366,32,189,227,277,20
+2024/2025,Male,ALL,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,575,1483,986,419,386,34,199,240,291,21
+2024/2025,Male,ALL,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,175,452,300,127,118,10,60,73,89,6
+2024/2025,Male,ALL,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,848,2185,1455,619,569,49,294,353,429,32
+2024/2025,Male,ALL,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,186,481,320,137,126,11,64,78,94,7
+2024/2025,Male,ALL,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,719,1851,1232,525,482,42,250,299,363,27
+2024/2025,Male,ALL,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,870,2243,1493,635,584,51,302,362,441,32
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,1627,4194,2792,1188,1092,95,564,677,824,61
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1383,3564,2374,1009,928,81,480,575,701,51
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,688,1775,1181,503,462,40,238,287,348,26
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1049,2704,1801,765,704,61,364,436,532,39
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,760,1959,1304,555,511,44,264,316,385,28
+2024/2025,Male,ALL,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,882,2273,1513,643,592,51,306,367,447,32
+2024/2025,Male,ALL,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,454,1171,779,331,305,26,157,189,230,17
+2024/2025,Male,ALL,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,1867,4813,3204,1362,1254,109,648,777,946,69
+2024/2025,Male,ALL,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1034,2667,1774,754,694,60,358,431,524,38
+2024/2025,Male,ALL,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,1075,2771,1845,784,721,63,373,447,545,40
+2024/2025,Male,ALL,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,220,567,376,160,148,13,76,92,111,8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,1115,2875,1914,814,748,65,387,464,565,42
+2024/2025,Male,ALL,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,231,595,396,168,154,13,80,96,117,9
+2024/2025,Male,ALL,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,1071,2761,1838,781,720,62,372,446,543,39
+2024/2025,Male,ALL,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,1139,2936,1955,831,765,66,395,474,577,42
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,2183,5629,3747,1593,1466,127,757,909,1106,81
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,1913,4932,3282,1395,1283,112,663,797,969,71
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,919,2369,1578,671,617,54,319,382,466,34
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,1379,3555,2367,1005,925,80,478,574,699,51
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,1108,2856,1902,809,743,65,385,461,561,42
+2024/2025,Male,ALL,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,1226,3161,2105,894,823,72,425,510,622,45
+2024/2025,Male,ALL,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,618,1593,1060,451,415,36,215,257,313,23
+2024/2025,Male,ALL,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,2476,6381,4249,1807,1661,144,859,1030,1254,93
+2024/2025,Male,ALL,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,1484,3826,2547,1082,996,87,515,618,752,55
+2024/2025,Male,ALL,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,1375,3546,2361,1004,924,80,477,572,697,51
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,9,24,16,6,6,1,3,4,5,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,42,108,71,30,28,2,14,18,21,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,9,24,16,6,6,1,3,4,5,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,39,102,67,28,27,2,13,17,20,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Surulere,South West,Lagos,Surulere,,,52,134,88,38,35,3,18,22,26,2
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,74,191,127,53,50,4,25,31,38,2
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,61,156,104,44,41,4,22,25,31,2
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,32,84,55,24,22,2,11,14,16,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,46,119,80,35,31,3,16,19,23,2
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,42,108,71,30,28,2,14,18,21,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Alimosho,South West,Lagos,Alimosho,,,44,113,76,31,30,3,15,18,23,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Ikeja,South West,Lagos,Ikeja,,,27,69,46,20,19,2,10,11,13,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Kosofe,South West,Lagos,Kosofe,,,78,203,134,58,53,5,27,33,39,3
+2024/2025,Male,Disabled,NABTEB,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,57,145,97,41,38,3,20,23,29,2
+2024/2025,Male,Disabled,NABTEB,University,lga,Surulere,South West,Lagos,Surulere,,,44,113,76,31,30,3,15,18,23,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,16,39,27,11,11,1,6,6,8,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,68,175,117,50,46,4,24,28,34,3
+2024/2025,Male,Disabled,NECO,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,16,39,27,11,11,1,6,6,8,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,66,169,113,47,44,4,23,27,34,2
+2024/2025,Male,Disabled,NECO,College of Education,lga,Surulere,South West,Lagos,Surulere,,,75,193,129,55,50,4,26,31,38,3
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,123,318,212,90,83,7,43,51,63,4
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,101,262,175,74,68,6,35,42,52,4
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,55,141,94,39,36,3,19,23,28,2
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,73,190,125,53,49,4,25,31,37,3
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,68,175,117,50,46,4,24,28,34,3
+2024/2025,Male,Disabled,NECO,University,lga,Alimosho,South West,Lagos,Alimosho,,,71,182,122,52,47,4,25,29,36,3
+2024/2025,Male,Disabled,NECO,University,lga,Ikeja,South West,Lagos,Ikeja,,,39,102,67,28,27,2,13,17,20,1
+2024/2025,Male,Disabled,NECO,University,lga,Kosofe,South West,Lagos,Kosofe,,,127,327,217,93,85,7,44,53,64,5
+2024/2025,Male,Disabled,NECO,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,89,229,152,64,60,5,31,37,45,3
+2024/2025,Male,Disabled,NECO,University,lga,Surulere,South West,Lagos,Surulere,,,70,180,120,52,47,4,25,29,35,3
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Alimosho,South West,Lagos,Alimosho,,,18,48,32,14,13,1,6,8,9,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Ikeja,South West,Lagos,Ikeja,,,94,242,161,69,63,5,33,39,47,4
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Kosofe,South West,Lagos,Kosofe,,,21,54,35,16,14,1,7,9,10,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Lagos Island,South West,Lagos,Lagos Island,,,100,258,171,74,68,6,35,42,50,4
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Surulere,South West,Lagos,Surulere,,,94,242,161,69,63,5,33,39,47,4
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Alimosho,South West,Lagos,Alimosho,,,160,411,274,116,107,9,56,66,81,6
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ikeja,South West,Lagos,Ikeja,,,142,366,244,104,96,8,49,59,72,5
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Kosofe,South West,Lagos,Kosofe,,,73,190,125,53,49,4,25,31,37,3
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Lagos Island,South West,Lagos,Lagos Island,,,106,273,180,77,71,6,36,45,53,4
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Surulere,South West,Lagos,Surulere,,,97,251,166,71,64,6,33,41,49,4
+2024/2025,Male,Disabled,WAEC,University,lga,Alimosho,South West,Lagos,Alimosho,,,97,251,166,71,64,6,33,41,49,4
+2024/2025,Male,Disabled,WAEC,University,lga,Ikeja,South West,Lagos,Ikeja,,,55,141,94,39,36,3,19,23,28,2
+2024/2025,Male,Disabled,WAEC,University,lga,Kosofe,South West,Lagos,Kosofe,,,179,461,308,130,119,10,62,74,91,7
+2024/2025,Male,Disabled,WAEC,University,lga,Lagos Island,South West,Lagos,Lagos Island,,,113,292,194,83,75,7,39,47,57,5
+2024/2025,Male,Disabled,WAEC,University,lga,Surulere,South West,Lagos,Surulere,,,92,238,159,68,63,5,32,38,47,3

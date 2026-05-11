@@ -1,181 +1,181 @@
-session,gender,disability_scope,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
-2022/2023,Female,all,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,83,63,94,35,162,144,75.9036,37.234,172.3404,88.8889
-2022/2023,Female,all,NABTEB,lga,Donga,North East,Taraba,Donga,,,91,69,104,39,167,153,75.8242,37.5,160.5769,91.6168
-2022/2023,Female,all,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,97,74,110,41,166,155,76.2887,37.2727,150.9091,93.3735
-2022/2023,Female,all,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,88,67,105,40,170,162,76.1364,38.0952,161.9048,95.2941
-2022/2023,Female,all,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,81,62,93,35,158,152,76.5432,37.6344,169.8925,96.2025
-2022/2023,Female,all,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,156,106,182,68,321,294,67.9487,37.3626,176.3736,91.5888
-2022/2023,Female,all,NECO,lga,Donga,North East,Taraba,Donga,,,167,114,192,72,328,292,68.2635,37.5,170.8333,89.0244
-2022/2023,Female,all,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,179,122,202,76,330,297,68.1564,37.6238,163.3663,90.0
-2022/2023,Female,all,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,162,110,187,70,326,294,67.9012,37.4332,174.3316,90.184
-2022/2023,Female,all,NECO,lga,Wukari,North East,Taraba,Wukari,,,147,100,169,63,302,268,68.0272,37.2781,178.6982,88.7417
-2022/2023,Female,all,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,204,150,232,86,420,394,73.5294,37.069,181.0345,93.8095
-2022/2023,Female,all,WAEC,lga,Donga,North East,Taraba,Donga,,,220,161,251,94,433,400,73.1818,37.4502,172.51,92.3788
-2022/2023,Female,all,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,237,174,269,101,438,411,73.4177,37.5465,162.8253,93.8356
-2022/2023,Female,all,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,204,150,235,88,417,386,73.5294,37.4468,177.4468,92.5659
-2022/2023,Female,all,WAEC,lga,Wukari,North East,Taraba,Wukari,,,200,147,238,89,438,408,73.5,37.395,184.0336,93.1507
-2022/2023,Female,disabled,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,8,6,8,3,20,19,75.0,37.5,250.0,95.0
-2022/2023,Female,disabled,NABTEB,lga,Donga,North East,Taraba,Donga,,,8,6,8,3,21,20,75.0,37.5,262.5,95.2381
-2022/2023,Female,disabled,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,8,6,9,4,14,13,75.0,44.4444,155.5556,92.8571
-2022/2023,Female,disabled,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,8,6,9,4,18,17,75.0,44.4444,200.0,94.4444
-2022/2023,Female,disabled,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,8,6,10,4,27,25,75.0,40.0,270.0,92.5926
-2022/2023,Female,disabled,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,12,8,14,5,35,30,66.6667,35.7143,250.0,85.7143
-2022/2023,Female,disabled,NECO,lga,Donga,North East,Taraba,Donga,,,11,8,13,5,29,25,72.7273,38.4615,223.0769,86.2069
-2022/2023,Female,disabled,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,14,10,16,6,26,22,71.4286,37.5,162.5,84.6154
-2022/2023,Female,disabled,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,13,9,15,6,29,25,69.2308,40.0,193.3333,86.2069
-2022/2023,Female,disabled,NECO,lga,Wukari,North East,Taraba,Wukari,,,12,8,14,5,32,27,66.6667,35.7143,228.5714,84.375
-2022/2023,Female,disabled,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,15,11,17,6,29,25,73.3333,35.2941,170.5882,86.2069
-2022/2023,Female,disabled,WAEC,lga,Donga,North East,Taraba,Donga,,,15,11,17,6,29,25,73.3333,35.2941,170.5882,86.2069
-2022/2023,Female,disabled,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,20,15,23,9,36,35,75.0,39.1304,156.5217,97.2222
-2022/2023,Female,disabled,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,15,11,19,7,34,31,73.3333,36.8421,178.9474,91.1765
-2022/2023,Female,disabled,WAEC,lga,Wukari,North East,Taraba,Wukari,,,17,12,20,7,39,36,70.5882,35.0,195.0,92.3077
-2022/2023,Male,all,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,97,74,111,42,162,151,76.2887,37.8378,145.9459,93.2099
-2022/2023,Male,all,NABTEB,lga,Donga,North East,Taraba,Donga,,,107,81,123,47,175,162,75.7009,38.2114,142.2764,92.5714
-2022/2023,Male,all,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,117,89,133,50,185,163,76.0684,37.594,139.0977,88.1081
-2022/2023,Male,all,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,105,80,122,46,200,195,76.1905,37.7049,163.9344,97.5
-2022/2023,Male,all,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,98,75,114,43,163,152,76.5306,37.7193,142.9825,93.2515
-2022/2023,Male,all,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,190,129,217,81,328,297,67.8947,37.3272,151.1521,90.5488
-2022/2023,Male,all,NECO,lga,Donga,North East,Taraba,Donga,,,199,135,226,84,346,307,67.8392,37.1681,153.0973,88.7283
-2022/2023,Male,all,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,217,148,246,92,366,324,68.2028,37.3984,148.7805,88.5246
-2022/2023,Male,all,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,187,127,219,82,339,307,67.9144,37.4429,154.7945,90.5605
-2022/2023,Male,all,NECO,lga,Wukari,North East,Taraba,Wukari,,,174,118,205,77,347,317,67.8161,37.561,169.2683,91.3545
-2022/2023,Male,all,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,242,177,278,104,459,428,73.1405,37.4101,165.1079,93.2462
-2022/2023,Male,all,WAEC,lga,Donga,North East,Taraba,Donga,,,260,191,303,113,475,439,73.4615,37.2937,156.7657,92.4211
-2022/2023,Male,all,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,281,206,319,119,452,424,73.3096,37.3041,141.6928,93.8053
-2022/2023,Male,all,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,247,181,283,106,447,417,73.2794,37.4558,157.9505,93.2886
-2022/2023,Male,all,WAEC,lga,Wukari,North East,Taraba,Wukari,,,241,177,279,104,472,439,73.444,37.276,169.1756,93.0085
-2022/2023,Male,disabled,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,9,7,10,4,10,9,77.7778,40.0,100.0,90.0
-2022/2023,Male,disabled,NABTEB,lga,Donga,North East,Taraba,Donga,,,8,6,9,4,10,9,75.0,44.4444,111.1111,90.0
-2022/2023,Male,disabled,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,10,8,11,4,4,3,80.0,36.3636,36.3636,75.0
-2022/2023,Male,disabled,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,10,8,11,4,18,17,80.0,36.3636,163.6364,94.4444
-2022/2023,Male,disabled,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,10,8,11,4,15,13,80.0,36.3636,136.3636,86.6667
-2022/2023,Male,disabled,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,14,10,17,6,23,22,71.4286,35.2941,135.2941,95.6522
-2022/2023,Male,disabled,NECO,lga,Donga,North East,Taraba,Donga,,,14,10,16,6,26,22,71.4286,37.5,162.5,84.6154
-2022/2023,Male,disabled,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,18,12,20,7,26,24,66.6667,35.0,130.0,92.3077
-2022/2023,Male,disabled,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,14,10,17,6,23,22,71.4286,35.2941,135.2941,95.6522
-2022/2023,Male,disabled,NECO,lga,Wukari,North East,Taraba,Wukari,,,16,11,17,6,32,31,68.75,35.2941,188.2353,96.875
-2022/2023,Male,disabled,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,18,13,21,8,33,30,72.2222,38.0952,157.1429,90.9091
-2022/2023,Male,disabled,WAEC,lga,Donga,North East,Taraba,Donga,,,19,14,22,8,24,23,73.6842,36.3636,109.0909,95.8333
-2022/2023,Male,disabled,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,24,18,28,10,32,31,75.0,35.7143,114.2857,96.875
-2022/2023,Male,disabled,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,18,13,22,8,28,25,72.2222,36.3636,127.2727,89.2857
-2022/2023,Male,disabled,WAEC,lga,Wukari,North East,Taraba,Wukari,,,20,15,23,9,38,35,75.0,39.1304,165.2174,92.1053
-2023/2024,Female,all,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,90,73,103,42,133,132,81.1111,40.7767,129.1262,99.2481
-2023/2024,Female,all,NABTEB,lga,Donga,North East,Taraba,Donga,,,97,79,111,46,140,129,81.4433,41.4414,126.1261,92.1429
-2023/2024,Female,all,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,103,83,116,48,136,116,80.5825,41.3793,117.2414,85.2941
-2023/2024,Female,all,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,92,75,105,43,133,126,81.5217,40.9524,126.6667,94.7368
-2023/2024,Female,all,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,86,70,103,42,142,133,81.3953,40.7767,137.8641,93.662
-2023/2024,Female,all,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,162,119,187,77,249,225,73.4568,41.1765,133.1551,90.3614
-2023/2024,Female,all,NECO,lga,Donga,North East,Taraba,Donga,,,169,125,193,79,251,227,73.9645,40.9326,130.0518,90.4382
-2023/2024,Female,all,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,188,138,215,89,268,240,73.4043,41.3953,124.6512,89.5522
-2023/2024,Female,all,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,171,126,197,81,276,245,73.6842,41.1168,140.1015,88.7681
-2023/2024,Female,all,NECO,lga,Wukari,North East,Taraba,Wukari,,,162,119,188,77,274,249,73.4568,40.9574,145.7447,90.8759
-2023/2024,Female,all,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,213,168,246,102,336,315,78.8732,41.4634,136.5854,93.75
-2023/2024,Female,all,WAEC,lga,Donga,North East,Taraba,Donga,,,237,187,274,113,383,354,78.903,41.2409,139.781,92.4282
-2023/2024,Female,all,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,258,204,293,121,372,345,79.0698,41.2969,126.9625,92.7419
-2023/2024,Female,all,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,224,177,257,106,356,331,79.0179,41.2451,138.5214,92.9775
-2023/2024,Female,all,WAEC,lga,Wukari,North East,Taraba,Wukari,,,210,166,244,101,349,329,79.0476,41.3934,143.0328,94.2693
-2023/2024,Female,disabled,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,8,7,9,4,20,18,87.5,44.4444,222.2222,90.0
-2023/2024,Female,disabled,NABTEB,lga,Donga,North East,Taraba,Donga,,,8,7,9,4,13,12,87.5,44.4444,144.4444,92.3077
-2023/2024,Female,disabled,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,9,7,10,4,10,9,77.7778,40.0,100.0,90.0
-2023/2024,Female,disabled,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,9,7,10,4,18,15,77.7778,40.0,180.0,83.3333
-2023/2024,Female,disabled,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,9,7,10,4,20,18,77.7778,40.0,200.0,90.0
-2023/2024,Female,disabled,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,12,9,15,6,24,23,75.0,40.0,160.0,95.8333
-2023/2024,Female,disabled,NECO,lga,Donga,North East,Taraba,Donga,,,12,9,14,6,16,15,75.0,42.8571,114.2857,93.75
-2023/2024,Female,disabled,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,16,12,18,7,24,21,75.0,38.8889,133.3333,87.5
-2023/2024,Female,disabled,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,13,10,15,6,24,21,76.9231,40.0,160.0,87.5
-2023/2024,Female,disabled,NECO,lga,Wukari,North East,Taraba,Wukari,,,13,10,16,6,26,23,76.9231,37.5,162.5,88.4615
-2023/2024,Female,disabled,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,16,13,18,7,22,21,81.25,38.8889,122.2222,95.4545
-2023/2024,Female,disabled,WAEC,lga,Donga,North East,Taraba,Donga,,,16,13,19,8,22,20,81.25,42.1053,115.7895,90.9091
-2023/2024,Female,disabled,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,21,17,24,10,24,23,80.9524,41.6667,100.0,95.8333
-2023/2024,Female,disabled,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,18,14,20,8,27,26,77.7778,40.0,135.0,96.2963
-2023/2024,Female,disabled,WAEC,lga,Wukari,North East,Taraba,Wukari,,,18,14,20,8,29,28,77.7778,40.0,145.0,96.5517
-2023/2024,Male,all,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,107,87,126,52,155,146,81.3084,41.2698,123.0159,94.1935
-2023/2024,Male,all,NABTEB,lga,Donga,North East,Taraba,Donga,,,114,92,127,52,132,115,80.7018,40.9449,103.937,87.1212
-2023/2024,Male,all,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,127,103,142,58,147,138,81.1024,40.8451,103.5211,93.8776
-2023/2024,Male,all,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,107,87,122,50,141,130,81.3084,40.9836,115.5738,92.1986
-2023/2024,Male,all,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,105,85,125,52,164,158,80.9524,41.6,131.2,96.3415
-2023/2024,Male,all,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,197,145,228,94,279,254,73.6041,41.2281,122.3684,91.0394
-2023/2024,Male,all,NECO,lga,Donga,North East,Taraba,Donga,,,199,146,232,96,276,250,73.3668,41.3793,118.9655,90.5797
-2023/2024,Male,all,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,234,172,265,109,315,283,73.5043,41.1321,118.8679,89.8413
-2023/2024,Male,all,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,197,145,227,93,275,250,73.6041,40.9692,121.1454,90.9091
-2023/2024,Male,all,NECO,lga,Wukari,North East,Taraba,Wukari,,,190,140,218,90,282,246,73.6842,41.2844,129.3578,87.234
-2023/2024,Male,all,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,259,205,299,123,371,350,79.1506,41.1371,124.0803,94.3396
-2023/2024,Male,all,WAEC,lga,Donga,North East,Taraba,Donga,,,278,220,320,132,384,357,79.1367,41.25,120.0,92.9688
-2023/2024,Male,all,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,306,241,345,142,416,389,78.7582,41.1594,120.5797,93.5096
-2023/2024,Male,all,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,267,211,312,129,387,360,79.0262,41.3462,124.0385,93.0233
-2023/2024,Male,all,WAEC,lga,Wukari,North East,Taraba,Wukari,,,255,201,295,122,384,354,78.8235,41.3559,130.1695,92.1875
-2023/2024,Male,disabled,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,9,7,11,4,18,15,77.7778,36.3636,163.6364,83.3333
-2023/2024,Male,disabled,NABTEB,lga,Donga,North East,Taraba,Donga,,,9,7,11,4,9,8,77.7778,36.3636,81.8182,88.8889
-2023/2024,Male,disabled,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,11,9,12,5,9,8,81.8182,41.6667,75.0,88.8889
-2023/2024,Male,disabled,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,9,7,11,4,12,10,77.7778,36.3636,109.0909,83.3333
-2023/2024,Male,disabled,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,10,8,12,5,20,18,80.0,41.6667,166.6667,90.0
-2023/2024,Male,disabled,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,15,11,17,7,25,22,73.3333,41.1765,147.0588,88.0
-2023/2024,Male,disabled,NECO,lga,Donga,North East,Taraba,Donga,,,15,11,17,7,20,19,73.3333,41.1765,117.6471,95.0
-2023/2024,Male,disabled,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,19,14,22,9,18,17,73.6842,40.9091,81.8182,94.4444
-2023/2024,Male,disabled,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,16,12,17,7,20,18,75.0,41.1765,117.6471,90.0
-2023/2024,Male,disabled,NECO,lga,Wukari,North East,Taraba,Wukari,,,17,12,20,8,25,22,70.5882,40.0,125.0,88.0
-2023/2024,Male,disabled,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,20,16,23,10,24,23,80.0,43.4783,104.3478,95.8333
-2023/2024,Male,disabled,WAEC,lga,Donga,North East,Taraba,Donga,,,20,16,22,9,23,21,80.0,40.9091,104.5455,91.3043
-2023/2024,Male,disabled,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,26,20,29,12,32,29,76.9231,41.3793,110.3448,90.625
-2023/2024,Male,disabled,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,20,16,23,9,26,23,80.0,39.1304,113.0435,88.4615
-2023/2024,Male,disabled,WAEC,lga,Wukari,North East,Taraba,Wukari,,,21,17,25,10,32,29,80.9524,40.0,128.0,90.625
-2024/2025,Female,all,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,117,87,66,26,23,22,74.3590,39.3939,34.8485,95.6522
-2024/2025,Female,all,NABTEB,lga,Donga,North East,Taraba,Donga,,,128,96,71,28,25,23,75.0000,39.4366,35.2113,92.0000
-2024/2025,Female,all,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,134,102,75,29,25,21,76.1194,38.6667,33.3333,84.0000
-2024/2025,Female,all,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,124,93,73,29,26,25,75.0000,39.7260,35.6164,96.1538
-2024/2025,Female,all,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,116,87,67,27,24,22,75.0000,40.2985,35.8209,91.6667
-2024/2025,Female,all,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,1739,1183,978,385,323,297,68.0276,39.3661,33.0266,91.9505
-2024/2025,Female,all,NECO,lga,Donga,North East,Taraba,Donga,,,1815,1234,1043,412,368,338,67.9890,39.5014,35.2828,91.8478
-2024/2025,Female,all,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,2044,1390,1151,454,365,334,68.0039,39.4440,31.7116,91.5068
-2024/2025,Female,all,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,1739,1183,1005,395,377,340,68.0276,39.3035,37.5124,90.1857
-2024/2025,Female,all,NECO,lga,Wukari,North East,Taraba,Wukari,,,1729,1182,1000,390,361,340,68.3632,39.0000,36.1000,94.1828
-2024/2025,Female,all,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2546,1875,1439,566,501,468,73.6449,39.3329,34.8158,93.4132
-2024/2025,Female,all,WAEC,lga,Donga,North East,Taraba,Donga,,,2640,1941,1485,584,521,480,73.5227,39.3266,35.0842,92.1305
-2024/2025,Female,all,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,3023,2219,1699,669,557,515,73.4039,39.3761,32.7840,92.4596
-2024/2025,Female,all,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,2581,1897,1514,595,527,476,73.4986,39.2999,34.8085,90.3226
-2024/2025,Female,all,WAEC,lga,Wukari,North East,Taraba,Wukari,,,2337,1720,1370,538,492,452,73.5986,39.2701,35.9124,91.8699
-2024/2025,Female,disabled,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,12,9,7,3,5,4,75.0000,42.8571,71.4286,80.0000
-2024/2025,Female,disabled,NABTEB,lga,Donga,North East,Taraba,Donga,,,12,9,6,3,4,4,75.0000,50.0000,66.6667,100.0000
-2024/2025,Female,disabled,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,14,10,7,3,3,3,71.4286,42.8571,42.8571,100.0000
-2024/2025,Female,disabled,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,12,9,7,3,4,4,75.0000,42.8571,57.1429,100.0000
-2024/2025,Female,disabled,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,14,10,7,3,5,5,71.4286,42.8571,71.4286,100.0000
-2024/2025,Female,disabled,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,146,103,88,37,32,31,70.5479,42.0455,36.3636,96.8750
-2024/2025,Female,disabled,NECO,lga,Donga,North East,Taraba,Donga,,,146,103,81,31,32,29,70.5479,38.2716,39.5062,90.6250
-2024/2025,Female,disabled,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,195,137,112,44,27,26,70.2564,39.2857,24.1071,96.2963
-2024/2025,Female,disabled,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,158,103,88,37,29,29,65.1899,42.0455,32.9545,100.0000
-2024/2025,Female,disabled,NECO,lga,Wukari,North East,Taraba,Wukari,,,158,103,100,37,32,33,65.1899,37.0000,32.0000,103.1250
-2024/2025,Female,disabled,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,210,151,124,51,32,29,71.9048,41.1290,25.8065,90.6250
-2024/2025,Female,disabled,WAEC,lga,Donga,North East,Taraba,Donga,,,209,151,117,44,35,32,72.2488,37.6068,29.9145,91.4286
-2024/2025,Female,disabled,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,275,201,157,63,43,40,73.0909,40.1274,27.3885,93.0233
-2024/2025,Female,disabled,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,223,163,124,51,38,34,73.0942,41.1290,30.6452,89.4737
-2024/2025,Female,disabled,WAEC,lga,Wukari,North East,Taraba,Wukari,,,223,163,130,51,42,36,73.0942,39.2308,32.3077,85.7143
-2024/2025,Male,all,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,143,107,82,32,27,25,74.8252,39.0244,32.9268,92.5926
-2024/2025,Male,all,NABTEB,lga,Donga,North East,Taraba,Donga,,,151,113,86,33,27,25,74.8344,38.3721,31.3953,92.5926
-2024/2025,Male,all,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,164,124,94,37,26,24,75.6098,39.3617,27.6596,92.3077
-2024/2025,Male,all,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,142,107,82,32,24,22,75.3521,39.0244,29.2683,91.6667
-2024/2025,Male,all,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,140,105,81,32,29,26,75.0000,39.5062,35.8025,89.6552
-2024/2025,Male,all,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2076,1411,1194,470,387,357,67.9672,39.3635,32.4121,92.2481
-2024/2025,Male,all,NECO,lga,Donga,North East,Taraba,Donga,,,2142,1452,1238,486,387,352,67.7871,39.2569,31.2601,90.9561
-2024/2025,Male,all,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,2457,1670,1383,545,412,381,67.9691,39.4071,29.7903,92.4757
-2024/2025,Male,all,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,2076,1411,1189,465,380,357,67.9672,39.1085,31.9596,93.9474
-2024/2025,Male,all,NECO,lga,Wukari,North East,Taraba,Wukari,,,2065,1400,1183,465,383,347,67.7966,39.3068,32.3753,90.6005
-2024/2025,Male,all,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3023,2219,1745,686,548,509,73.4039,39.3123,31.4040,92.8832
-2024/2025,Male,all,WAEC,lga,Donga,North East,Taraba,Donga,,,3116,2297,1751,686,549,504,73.7163,39.1776,31.3535,91.8033
-2024/2025,Male,all,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,3605,2652,2028,795,594,549,73.5645,39.2012,29.2899,92.4242
-2024/2025,Male,all,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,3081,2263,1757,692,556,504,73.4502,39.3853,31.6448,90.6475
-2024/2025,Male,all,WAEC,lga,Wukari,North East,Taraba,Wukari,,,2872,2108,1687,664,581,535,73.3983,39.3598,34.4398,92.0826
-2024/2025,Male,disabled,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,13,10,7,2,5,4,76.9231,28.5714,71.4286,80.0000
-2024/2025,Male,disabled,NABTEB,lga,Donga,North East,Taraba,Donga,,,13,10,8,3,3,3,76.9231,37.5000,37.5000,100.0000
-2024/2025,Male,disabled,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,17,13,9,3,3,2,76.4706,33.3333,33.3333,66.6667
-2024/2025,Male,disabled,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,15,12,8,3,2,2,80.0000,37.5000,25.0000,100.0000
-2024/2025,Male,disabled,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,15,11,9,3,4,4,73.3333,33.3333,44.4444,100.0000
-2024/2025,Male,disabled,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,183,126,106,44,31,28,68.8525,41.5094,29.2453,90.3226
-2024/2025,Male,disabled,NECO,lga,Donga,North East,Taraba,Donga,,,171,115,100,37,31,28,67.2515,37.0000,31.0000,90.3226
-2024/2025,Male,disabled,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,231,160,131,50,35,30,69.2641,38.1679,26.7176,85.7143
-2024/2025,Male,disabled,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,171,115,100,37,28,24,67.2515,37.0000,28.0000,85.7143
-2024/2025,Male,disabled,NECO,lga,Wukari,North East,Taraba,Wukari,,,195,126,106,44,34,30,64.6154,41.5094,32.0755,88.2353
-2024/2025,Male,disabled,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,249,189,150,57,35,33,75.9036,38.0000,23.3333,94.2857
-2024/2025,Male,disabled,WAEC,lga,Donga,North East,Taraba,Donga,,,249,189,143,57,35,33,75.9036,39.8601,24.4755,94.2857
-2024/2025,Male,disabled,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,340,251,196,76,45,42,73.8235,38.7755,22.9592,93.3333
-2024/2025,Male,disabled,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,262,189,150,57,34,31,72.1374,38.0000,22.6667,91.1765
-2024/2025,Male,disabled,WAEC,lga,Wukari,North East,Taraba,Wukari,,,275,201,163,63,49,45,73.0909,38.6503,30.0613,91.8367
+session,gender,disability,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
+2022/2023,Female,ALL,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,90,75,110,93,230,206,75.9036,37.234,172.3404,88.8889
+2022/2023,Female,ALL,NABTEB,lga,Donga,North East,Taraba,Donga,,,98,83,121,103,237,218,75.8242,37.5,160.5769,91.6168
+2022/2023,Female,ALL,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,105,89,128,108,236,221,76.2887,37.2727,150.9091,93.3735
+2022/2023,Female,ALL,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,95,80,122,106,241,231,76.1364,38.0952,161.9048,95.2941
+2022/2023,Female,ALL,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,87,74,108,93,224,217,76.5432,37.6344,169.8925,96.2025
+2022/2023,Female,ALL,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,168,127,212,180,456,420,67.9487,37.3626,176.3736,91.5888
+2022/2023,Female,ALL,NECO,lga,Donga,North East,Taraba,Donga,,,180,136,224,190,466,417,68.2635,37.5,170.8333,89.0244
+2022/2023,Female,ALL,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,193,146,235,201,469,424,68.1564,37.6238,163.3663,90.0
+2022/2023,Female,ALL,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,175,132,218,185,463,420,67.9012,37.4332,174.3316,90.184
+2022/2023,Female,ALL,NECO,lga,Wukari,North East,Taraba,Wukari,,,159,120,197,167,429,383,68.0272,37.2781,178.6982,88.7417
+2022/2023,Female,ALL,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,220,179,270,227,596,562,73.5294,37.069,181.0345,93.8095
+2022/2023,Female,ALL,WAEC,lga,Donga,North East,Taraba,Donga,,,237,193,292,249,615,571,73.1818,37.4502,172.51,92.3788
+2022/2023,Female,ALL,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,256,208,313,267,622,587,73.4177,37.5465,162.8253,93.8356
+2022/2023,Female,ALL,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,220,179,274,233,592,551,73.5294,37.4468,177.4468,92.5659
+2022/2023,Female,ALL,WAEC,lga,Wukari,North East,Taraba,Wukari,,,216,176,277,235,622,582,73.5,37.395,184.0336,93.1507
+2022/2023,Female,Disabled,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,9,7,9,8,28,27,75.0,37.5,250.0,95.0
+2022/2023,Female,Disabled,NABTEB,lga,Donga,North East,Taraba,Donga,,,9,7,9,8,30,29,75.0,37.5,262.5,95.2381
+2022/2023,Female,Disabled,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,9,7,10,11,20,19,75.0,44.4444,155.5556,92.8571
+2022/2023,Female,Disabled,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,9,7,10,11,26,24,75.0,44.4444,200.0,94.4444
+2022/2023,Female,Disabled,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,9,7,12,11,38,36,75.0,40.0,270.0,92.5926
+2022/2023,Female,Disabled,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,13,10,16,13,50,43,66.6667,35.7143,250.0,85.7143
+2022/2023,Female,Disabled,NECO,lga,Donga,North East,Taraba,Donga,,,12,10,15,13,41,36,72.7273,38.4615,223.0769,86.2069
+2022/2023,Female,Disabled,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,15,12,19,16,37,31,71.4286,37.5,162.5,84.6154
+2022/2023,Female,Disabled,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,14,11,17,16,41,36,69.2308,40.0,193.3333,86.2069
+2022/2023,Female,Disabled,NECO,lga,Wukari,North East,Taraba,Wukari,,,13,10,16,13,45,39,66.6667,35.7143,228.5714,84.375
+2022/2023,Female,Disabled,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,16,13,20,16,41,36,73.3333,35.2941,170.5882,86.2069
+2022/2023,Female,Disabled,WAEC,lga,Donga,North East,Taraba,Donga,,,16,13,20,16,41,36,73.3333,35.2941,170.5882,86.2069
+2022/2023,Female,Disabled,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,22,18,27,24,51,50,75.0,39.1304,156.5217,97.2222
+2022/2023,Female,Disabled,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,16,13,22,19,48,44,73.3333,36.8421,178.9474,91.1765
+2022/2023,Female,Disabled,WAEC,lga,Wukari,North East,Taraba,Wukari,,,18,14,23,19,55,51,70.5882,35.0,195.0,92.3077
+2022/2023,Male,ALL,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,105,89,129,111,230,216,76.2887,37.8378,145.9459,93.2099
+2022/2023,Male,ALL,NABTEB,lga,Donga,North East,Taraba,Donga,,,115,97,143,124,248,231,75.7009,38.2114,142.2764,92.5714
+2022/2023,Male,ALL,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,126,106,155,132,263,233,76.0684,37.594,139.0977,88.1081
+2022/2023,Male,ALL,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,113,96,142,122,284,278,76.1905,37.7049,163.9344,97.5
+2022/2023,Male,ALL,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,106,90,133,114,231,217,76.5306,37.7193,142.9825,93.2515
+2022/2023,Male,ALL,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,205,154,253,214,466,424,67.8947,37.3272,151.1521,90.5488
+2022/2023,Male,ALL,NECO,lga,Donga,North East,Taraba,Donga,,,215,161,263,222,491,438,67.8392,37.1681,153.0973,88.7283
+2022/2023,Male,ALL,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,234,177,287,243,520,463,68.2028,37.3984,148.7805,88.5246
+2022/2023,Male,ALL,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,202,152,255,217,481,438,67.9144,37.4429,154.7945,90.5605
+2022/2023,Male,ALL,NECO,lga,Wukari,North East,Taraba,Wukari,,,188,141,239,204,493,453,67.8161,37.561,169.2683,91.3545
+2022/2023,Male,ALL,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,261,212,324,275,652,611,73.1405,37.4101,165.1079,93.2462
+2022/2023,Male,ALL,WAEC,lga,Donga,North East,Taraba,Donga,,,281,228,353,299,674,627,73.4615,37.2937,156.7657,92.4211
+2022/2023,Male,ALL,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,303,246,372,315,642,605,73.3096,37.3041,141.6928,93.8053
+2022/2023,Male,ALL,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,266,217,330,280,635,595,73.2794,37.4558,157.9505,93.2886
+2022/2023,Male,ALL,WAEC,lga,Wukari,North East,Taraba,Wukari,,,260,212,325,275,670,627,73.444,37.276,169.1756,93.0085
+2022/2023,Male,Disabled,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,10,8,12,11,14,13,77.7778,40.0,100.0,90.0
+2022/2023,Male,Disabled,NABTEB,lga,Donga,North East,Taraba,Donga,,,9,7,10,11,14,13,75.0,44.4444,111.1111,90.0
+2022/2023,Male,Disabled,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,11,10,13,11,6,4,80.0,36.3636,36.3636,75.0
+2022/2023,Male,Disabled,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,11,10,13,11,26,24,80.0,36.3636,163.6364,94.4444
+2022/2023,Male,Disabled,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,11,10,13,11,21,19,80.0,36.3636,136.3636,86.6667
+2022/2023,Male,Disabled,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,15,12,20,16,33,31,71.4286,35.2941,135.2941,95.6522
+2022/2023,Male,Disabled,NECO,lga,Donga,North East,Taraba,Donga,,,15,12,19,16,37,31,71.4286,37.5,162.5,84.6154
+2022/2023,Male,Disabled,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,19,14,23,19,37,34,66.6667,35.0,130.0,92.3077
+2022/2023,Male,Disabled,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,15,12,20,16,33,31,71.4286,35.2941,135.2941,95.6522
+2022/2023,Male,Disabled,NECO,lga,Wukari,North East,Taraba,Wukari,,,17,13,20,16,45,44,68.75,35.2941,188.2353,96.875
+2022/2023,Male,Disabled,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,19,16,24,21,47,43,72.2222,38.0952,157.1429,90.9091
+2022/2023,Male,Disabled,WAEC,lga,Donga,North East,Taraba,Donga,,,20,17,26,21,34,33,73.6842,36.3636,109.0909,95.8333
+2022/2023,Male,Disabled,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,26,22,33,26,45,44,75.0,35.7143,114.2857,96.875
+2022/2023,Male,Disabled,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,19,16,26,21,40,36,72.2222,36.3636,127.2727,89.2857
+2022/2023,Male,Disabled,WAEC,lga,Wukari,North East,Taraba,Wukari,,,22,18,27,24,54,50,75.0,39.1304,165.2174,92.1053
+2023/2024,Female,ALL,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,97,87,120,111,189,188,81.1111,40.7767,129.1262,99.2481
+2023/2024,Female,ALL,NABTEB,lga,Donga,North East,Taraba,Donga,,,105,94,129,122,199,184,81.4433,41.4414,126.1261,92.1429
+2023/2024,Female,ALL,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,111,99,135,127,193,166,80.5825,41.3793,117.2414,85.2941
+2023/2024,Female,ALL,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,99,90,122,114,189,180,81.5217,40.9524,126.6667,94.7368
+2023/2024,Female,ALL,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,93,84,120,111,202,190,81.3953,40.7767,137.8641,93.662
+2023/2024,Female,ALL,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,175,142,218,204,354,321,73.4568,41.1765,133.1551,90.3614
+2023/2024,Female,ALL,NECO,lga,Donga,North East,Taraba,Donga,,,182,150,225,209,356,324,73.9645,40.9326,130.0518,90.4382
+2023/2024,Female,ALL,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,203,165,250,235,380,343,73.4043,41.3953,124.6512,89.5522
+2023/2024,Female,ALL,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,184,151,229,214,392,350,73.6842,41.1168,140.1015,88.7681
+2023/2024,Female,ALL,NECO,lga,Wukari,North East,Taraba,Wukari,,,175,142,219,204,389,355,73.4568,40.9574,145.7447,90.8759
+2023/2024,Female,ALL,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,230,201,287,270,477,450,78.8732,41.4634,136.5854,93.75
+2023/2024,Female,ALL,WAEC,lga,Donga,North East,Taraba,Donga,,,256,224,319,299,544,505,78.903,41.2409,139.781,92.4282
+2023/2024,Female,ALL,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,278,244,341,320,528,493,79.0698,41.2969,126.9625,92.7419
+2023/2024,Female,ALL,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,242,212,299,280,505,473,79.0179,41.2451,138.5214,92.9775
+2023/2024,Female,ALL,WAEC,lga,Wukari,North East,Taraba,Wukari,,,227,199,284,267,495,470,79.0476,41.3934,143.0328,94.2693
+2023/2024,Female,Disabled,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,9,8,10,11,28,26,87.5,44.4444,222.2222,90.0
+2023/2024,Female,Disabled,NABTEB,lga,Donga,North East,Taraba,Donga,,,9,8,10,11,18,17,87.5,44.4444,144.4444,92.3077
+2023/2024,Female,Disabled,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,10,8,12,11,14,13,77.7778,40.0,100.0,90.0
+2023/2024,Female,Disabled,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,10,8,12,11,26,21,77.7778,40.0,180.0,83.3333
+2023/2024,Female,Disabled,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,10,8,12,11,28,26,77.7778,40.0,200.0,90.0
+2023/2024,Female,Disabled,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,13,11,17,16,34,33,75.0,40.0,160.0,95.8333
+2023/2024,Female,Disabled,NECO,lga,Donga,North East,Taraba,Donga,,,13,11,16,16,23,21,75.0,42.8571,114.2857,93.75
+2023/2024,Female,Disabled,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,17,14,21,19,34,30,75.0,38.8889,133.3333,87.5
+2023/2024,Female,Disabled,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,14,12,17,16,34,30,76.9231,40.0,160.0,87.5
+2023/2024,Female,Disabled,NECO,lga,Wukari,North East,Taraba,Wukari,,,14,12,19,16,37,33,76.9231,37.5,162.5,88.4615
+2023/2024,Female,Disabled,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,17,16,21,19,31,30,81.25,38.8889,122.2222,95.4545
+2023/2024,Female,Disabled,WAEC,lga,Donga,North East,Taraba,Donga,,,17,16,22,21,31,29,81.25,42.1053,115.7895,90.9091
+2023/2024,Female,Disabled,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,23,20,28,26,34,33,80.9524,41.6667,100.0,95.8333
+2023/2024,Female,Disabled,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,19,17,23,21,38,37,77.7778,40.0,135.0,96.2963
+2023/2024,Female,Disabled,WAEC,lga,Wukari,North East,Taraba,Wukari,,,19,17,23,21,41,40,77.7778,40.0,145.0,96.5517
+2023/2024,Male,ALL,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,115,104,147,137,220,208,81.3084,41.2698,123.0159,94.1935
+2023/2024,Male,ALL,NABTEB,lga,Donga,North East,Taraba,Donga,,,123,110,148,137,187,164,80.7018,40.9449,103.937,87.1212
+2023/2024,Male,ALL,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,137,123,165,153,209,197,81.1024,40.8451,103.5211,93.8776
+2023/2024,Male,ALL,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,115,104,142,132,200,186,81.3084,40.9836,115.5738,92.1986
+2023/2024,Male,ALL,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,113,102,146,137,233,226,80.9524,41.6,131.2,96.3415
+2023/2024,Male,ALL,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,213,173,266,249,396,363,73.6041,41.2281,122.3684,91.0394
+2023/2024,Male,ALL,NECO,lga,Donga,North East,Taraba,Donga,,,215,175,270,254,392,357,73.3668,41.3793,118.9655,90.5797
+2023/2024,Male,ALL,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,252,206,309,288,447,404,73.5043,41.1321,118.8679,89.8413
+2023/2024,Male,ALL,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,213,173,264,246,390,357,73.6041,40.9692,121.1454,90.9091
+2023/2024,Male,ALL,NECO,lga,Wukari,North East,Taraba,Wukari,,,205,167,254,238,400,351,73.6842,41.2844,129.3578,87.234
+2023/2024,Male,ALL,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,279,245,348,325,527,500,79.1506,41.1371,124.0803,94.3396
+2023/2024,Male,ALL,WAEC,lga,Donga,North East,Taraba,Donga,,,300,263,373,349,545,510,79.1367,41.25,120.0,92.9688
+2023/2024,Male,ALL,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,330,288,402,375,591,555,78.7582,41.1594,120.5797,93.5096
+2023/2024,Male,ALL,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,288,252,363,341,549,514,79.0262,41.3462,124.0385,93.0233
+2023/2024,Male,ALL,WAEC,lga,Wukari,North East,Taraba,Wukari,,,275,240,344,323,545,505,78.8235,41.3559,130.1695,92.1875
+2023/2024,Male,Disabled,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,10,8,13,11,26,21,77.7778,36.3636,163.6364,83.3333
+2023/2024,Male,Disabled,NABTEB,lga,Donga,North East,Taraba,Donga,,,10,8,13,11,13,11,77.7778,36.3636,81.8182,88.8889
+2023/2024,Male,Disabled,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,12,11,14,13,13,11,81.8182,41.6667,75.0,88.8889
+2023/2024,Male,Disabled,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,10,8,13,11,17,14,77.7778,36.3636,109.0909,83.3333
+2023/2024,Male,Disabled,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,11,10,14,13,28,26,80.0,41.6667,166.6667,90.0
+2023/2024,Male,Disabled,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,16,13,20,19,35,31,73.3333,41.1765,147.0588,88.0
+2023/2024,Male,Disabled,NECO,lga,Donga,North East,Taraba,Donga,,,16,13,20,19,28,27,73.3333,41.1765,117.6471,95.0
+2023/2024,Male,Disabled,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,20,17,26,24,26,24,73.6842,40.9091,81.8182,94.4444
+2023/2024,Male,Disabled,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,17,14,20,19,28,26,75.0,41.1765,117.6471,90.0
+2023/2024,Male,Disabled,NECO,lga,Wukari,North East,Taraba,Wukari,,,18,14,23,21,35,31,70.5882,40.0,125.0,88.0
+2023/2024,Male,Disabled,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,22,19,27,26,34,33,80.0,43.4783,104.3478,95.8333
+2023/2024,Male,Disabled,WAEC,lga,Donga,North East,Taraba,Donga,,,22,19,26,24,33,30,80.0,40.9091,104.5455,91.3043
+2023/2024,Male,Disabled,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,28,24,34,32,45,41,76.9231,41.3793,110.3448,90.625
+2023/2024,Male,Disabled,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,22,19,27,24,37,33,80.0,39.1304,113.0435,88.4615
+2023/2024,Male,Disabled,WAEC,lga,Wukari,North East,Taraba,Wukari,,,23,20,29,26,45,41,80.9524,40.0,128.0,90.625
+2024/2025,Female,ALL,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,126,104,77,69,33,31,74.3590,39.3939,34.8485,95.6522
+2024/2025,Female,ALL,NABTEB,lga,Donga,North East,Taraba,Donga,,,138,115,83,74,35,33,75.0000,39.4366,35.2113,92.0000
+2024/2025,Female,ALL,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,145,122,87,77,35,30,76.1194,38.6667,33.3333,84.0000
+2024/2025,Female,ALL,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,134,111,85,77,37,36,75.0000,39.7260,35.6164,96.1538
+2024/2025,Female,ALL,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,125,104,78,71,34,31,75.0000,40.2985,35.8209,91.6667
+2024/2025,Female,ALL,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,1876,1415,1139,1018,459,424,68.0276,39.3661,33.0266,91.9505
+2024/2025,Female,ALL,NECO,lga,Donga,North East,Taraba,Donga,,,1958,1476,1215,1089,522,483,67.9890,39.5014,35.2828,91.8478
+2024/2025,Female,ALL,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,2205,1663,1341,1200,518,477,68.0039,39.4440,31.7116,91.5068
+2024/2025,Female,ALL,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,1876,1415,1171,1044,535,485,68.0276,39.3035,37.5124,90.1857
+2024/2025,Female,ALL,NECO,lga,Wukari,North East,Taraba,Wukari,,,1865,1414,1165,1031,513,485,68.3632,39.0000,36.1000,94.1828
+2024/2025,Female,ALL,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2747,2243,1676,1496,711,668,73.6449,39.3329,34.8158,93.4132
+2024/2025,Female,ALL,WAEC,lga,Donga,North East,Taraba,Donga,,,2848,2322,1730,1544,740,685,73.5227,39.3266,35.0842,92.1305
+2024/2025,Female,ALL,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,3262,2654,1979,1769,791,735,73.4039,39.3761,32.7840,92.4596
+2024/2025,Female,ALL,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,2785,2269,1764,1573,748,680,73.4986,39.2999,34.8085,90.3226
+2024/2025,Female,ALL,WAEC,lga,Wukari,North East,Taraba,Wukari,,,2521,2057,1596,1422,699,645,73.5986,39.2701,35.9124,91.8699
+2024/2025,Female,Disabled,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,13,11,8,8,7,6,75.0000,42.8571,71.4286,80.0000
+2024/2025,Female,Disabled,NABTEB,lga,Donga,North East,Taraba,Donga,,,13,11,7,8,6,6,75.0000,50.0000,66.6667,100.0000
+2024/2025,Female,Disabled,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,15,12,8,8,4,4,71.4286,42.8571,42.8571,100.0000
+2024/2025,Female,Disabled,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,13,11,8,8,6,6,75.0000,42.8571,57.1429,100.0000
+2024/2025,Female,Disabled,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,15,12,8,8,7,7,71.4286,42.8571,71.4286,100.0000
+2024/2025,Female,Disabled,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,158,123,103,98,45,44,70.5479,42.0455,36.3636,96.8750
+2024/2025,Female,Disabled,NECO,lga,Donga,North East,Taraba,Donga,,,158,123,94,82,45,41,70.5479,38.2716,39.5062,90.6250
+2024/2025,Female,Disabled,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,210,164,130,116,38,37,70.2564,39.2857,24.1071,96.2963
+2024/2025,Female,Disabled,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,170,123,103,98,41,41,65.1899,42.0455,32.9545,100.0000
+2024/2025,Female,Disabled,NECO,lga,Wukari,North East,Taraba,Wukari,,,170,123,116,98,45,47,65.1899,37.0000,32.0000,103.1250
+2024/2025,Female,Disabled,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,227,181,144,135,45,41,71.9048,41.1290,25.8065,90.6250
+2024/2025,Female,Disabled,WAEC,lga,Donga,North East,Taraba,Donga,,,225,181,136,116,50,46,72.2488,37.6068,29.9145,91.4286
+2024/2025,Female,Disabled,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,297,240,183,167,61,57,73.0909,40.1274,27.3885,93.0233
+2024/2025,Female,Disabled,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,241,195,144,135,54,49,73.0942,41.1290,30.6452,89.4737
+2024/2025,Female,Disabled,WAEC,lga,Wukari,North East,Taraba,Wukari,,,241,195,151,135,60,51,73.0942,39.2308,32.3077,85.7143
+2024/2025,Male,ALL,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,154,128,96,85,38,36,74.8252,39.0244,32.9268,92.5926
+2024/2025,Male,ALL,NABTEB,lga,Donga,North East,Taraba,Donga,,,163,135,100,87,38,36,74.8344,38.3721,31.3953,92.5926
+2024/2025,Male,ALL,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,177,148,110,98,37,34,75.6098,39.3617,27.6596,92.3077
+2024/2025,Male,ALL,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,153,128,96,85,34,31,75.3521,39.0244,29.2683,91.6667
+2024/2025,Male,ALL,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,151,126,94,85,41,37,75.0000,39.5062,35.8025,89.6552
+2024/2025,Male,ALL,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,2240,1688,1391,1243,549,510,67.9672,39.3635,32.4121,92.2481
+2024/2025,Male,ALL,NECO,lga,Donga,North East,Taraba,Donga,,,2311,1737,1442,1285,549,503,67.7871,39.2569,31.2601,90.9561
+2024/2025,Male,ALL,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,2651,1998,1611,1441,585,544,67.9691,39.4071,29.7903,92.4757
+2024/2025,Male,ALL,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,2240,1688,1385,1229,539,510,67.9672,39.1085,31.9596,93.9474
+2024/2025,Male,ALL,NECO,lga,Wukari,North East,Taraba,Wukari,,,2228,1675,1378,1229,544,495,67.7966,39.3068,32.3753,90.6005
+2024/2025,Male,ALL,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,3262,2654,2033,1814,778,727,73.4039,39.3123,31.4040,92.8832
+2024/2025,Male,ALL,WAEC,lga,Donga,North East,Taraba,Donga,,,3362,2748,2040,1814,779,719,73.7163,39.1776,31.3535,91.8033
+2024/2025,Male,ALL,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,3890,3172,2363,2102,843,784,73.5645,39.2012,29.2899,92.4242
+2024/2025,Male,ALL,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,3324,2707,2047,1829,789,719,73.4502,39.3853,31.6448,90.6475
+2024/2025,Male,ALL,WAEC,lga,Wukari,North East,Taraba,Wukari,,,3099,2521,1965,1755,825,764,73.3983,39.3598,34.4398,92.0826
+2024/2025,Male,Disabled,NABTEB,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,14,12,8,5,7,6,76.9231,28.5714,71.4286,80.0000
+2024/2025,Male,Disabled,NABTEB,lga,Donga,North East,Taraba,Donga,,,14,12,9,8,4,4,76.9231,37.5000,37.5000,100.0000
+2024/2025,Male,Disabled,NABTEB,lga,Jalingo,North East,Taraba,Jalingo,,,18,16,10,8,4,3,76.4706,33.3333,33.3333,66.6667
+2024/2025,Male,Disabled,NABTEB,lga,Sardauna,North East,Taraba,Sardauna,,,16,14,9,8,3,3,80.0000,37.5000,25.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,lga,Wukari,North East,Taraba,Wukari,,,16,13,10,8,6,6,73.3333,33.3333,44.4444,100.0000
+2024/2025,Male,Disabled,NECO,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,197,151,123,116,44,40,68.8525,41.5094,29.2453,90.3226
+2024/2025,Male,Disabled,NECO,lga,Donga,North East,Taraba,Donga,,,184,138,116,98,44,40,67.2515,37.0000,31.0000,90.3226
+2024/2025,Male,Disabled,NECO,lga,Jalingo,North East,Taraba,Jalingo,,,249,191,153,132,50,43,69.2641,38.1679,26.7176,85.7143
+2024/2025,Male,Disabled,NECO,lga,Sardauna,North East,Taraba,Sardauna,,,184,138,116,98,40,34,67.2515,37.0000,28.0000,85.7143
+2024/2025,Male,Disabled,NECO,lga,Wukari,North East,Taraba,Wukari,,,210,151,123,116,48,43,64.6154,41.5094,32.0755,88.2353
+2024/2025,Male,Disabled,WAEC,lga,Ardo Kola,North East,Taraba,Ardo Kola,,,269,226,175,151,50,47,75.9036,38.0000,23.3333,94.2857
+2024/2025,Male,Disabled,WAEC,lga,Donga,North East,Taraba,Donga,,,269,226,167,151,50,47,75.9036,39.8601,24.4755,94.2857
+2024/2025,Male,Disabled,WAEC,lga,Jalingo,North East,Taraba,Jalingo,,,367,300,228,201,64,60,73.8235,38.7755,22.9592,93.3333
+2024/2025,Male,Disabled,WAEC,lga,Sardauna,North East,Taraba,Sardauna,,,283,226,175,151,48,44,72.1374,38.0000,22.6667,91.1765
+2024/2025,Male,Disabled,WAEC,lga,Wukari,North East,Taraba,Wukari,,,297,240,190,167,70,64,73.0909,38.6503,30.0613,91.8367

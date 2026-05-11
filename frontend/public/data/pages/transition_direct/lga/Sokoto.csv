@@ -1,541 +1,541 @@
-session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,all,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,125,100,117,10,9,0,25,0,107,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,144,116,130,9,8,0,28,0,121,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,65,52,58,5,4,0,13,0,53,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,147,118,135,9,8,0,29,0,126,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,216,173,200,15,14,0,43,0,185,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,75,60,71,2,1,0,15,0,69,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,174,140,165,4,3,0,34,0,161,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,84,67,76,2,1,0,17,0,74,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,75,60,71,2,1,0,15,0,69,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,111,89,99,3,2,0,22,0,96,1
-2022/2023,Female,all,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,241,193,216,85,73,1,48,0,131,12
-2022/2023,Female,all,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,118,95,108,40,39,0,23,0,68,1
-2022/2023,Female,all,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,270,217,253,107,97,1,53,0,146,10
-2022/2023,Female,all,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,169,135,153,64,60,0,34,0,89,4
-2022/2023,Female,all,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,124,99,115,51,48,0,25,0,64,3
-2022/2023,Female,all,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,230,184,214,16,15,0,46,0,198,1
-2022/2023,Female,all,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,261,209,244,18,17,0,52,0,226,1
-2022/2023,Female,all,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,123,98,114,9,8,0,25,0,105,1
-2022/2023,Female,all,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,288,230,257,19,18,0,58,0,238,1
-2022/2023,Female,all,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,399,319,377,30,28,0,80,0,347,2
-2022/2023,Female,all,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,131,105,118,3,2,0,26,0,115,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,308,247,284,7,6,0,61,0,277,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,167,134,153,3,2,0,33,0,150,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,131,105,128,4,3,0,26,0,124,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,208,166,190,5,4,0,42,0,185,1
-2022/2023,Female,all,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,466,373,424,179,165,1,93,0,245,14
-2022/2023,Female,all,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,224,179,207,79,69,1,45,0,128,10
-2022/2023,Female,all,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,508,406,466,191,179,1,102,0,275,12
-2022/2023,Female,all,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,319,255,291,115,106,1,64,0,176,9
-2022/2023,Female,all,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,249,199,225,88,82,0,50,0,137,6
-2022/2023,Female,all,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,321,257,300,24,22,0,64,0,276,2
-2022/2023,Female,all,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,343,275,316,25,23,0,68,0,291,2
-2022/2023,Female,all,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,150,120,139,11,10,0,30,0,128,1
-2022/2023,Female,all,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,353,282,320,22,20,0,71,0,298,2
-2022/2023,Female,all,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,502,401,460,37,34,0,101,0,423,3
-2022/2023,Female,all,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,176,141,158,4,3,0,35,0,154,1
-2022/2023,Female,all,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,396,317,375,10,9,0,79,0,365,1
-2022/2023,Female,all,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,198,158,170,4,3,0,40,0,166,1
-2022/2023,Female,all,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,191,153,179,5,4,0,38,0,174,1
-2022/2023,Female,all,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,280,224,254,7,6,0,56,0,247,1
-2022/2023,Female,all,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,580,464,533,225,208,1,116,0,308,17
-2022/2023,Female,all,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,298,239,270,109,99,1,59,0,161,10
-2022/2023,Female,all,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,684,547,638,270,247,2,137,0,368,23
-2022/2023,Female,all,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,439,351,396,168,151,1,88,0,228,17
-2022/2023,Female,all,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,343,275,318,131,121,1,68,0,187,10
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,13,10,12,2,1,0,3,0,10,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,13,10,12,1,0,0,3,0,11,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,6,5,5,1,0,0,1,0,4,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,15,12,13,2,1,0,3,0,11,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,18,14,16,2,1,0,4,0,14,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,7,5,7,0,0,0,2,0,7,0
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,13,11,12,0,0,0,2,0,12,0
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,6,5,5,0,0,0,1,0,5,0
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,6,5,5,0,0,0,1,0,5,0
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,10,8,8,0,0,0,2,0,8,0
-2022/2023,Female,disabled,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,21,17,20,9,8,0,4,0,11,1
-2022/2023,Female,disabled,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,12,10,10,0,0,0,2,0,10,0
-2022/2023,Female,disabled,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,27,22,24,18,16,0,5,0,6,2
-2022/2023,Female,disabled,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,16,13,15,6,5,0,3,0,9,1
-2022/2023,Female,disabled,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,10,8,9,6,5,0,2,0,3,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,19,16,19,2,1,0,3,0,17,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,22,18,22,1,0,0,4,0,21,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,10,8,10,1,0,0,2,0,9,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,24,19,23,2,1,0,5,0,21,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,26,21,23,3,2,0,5,0,20,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,11,9,10,0,0,0,2,0,10,0
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,22,18,20,1,0,0,4,0,19,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,11,9,10,0,0,0,2,0,10,0
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,9,7,9,0,0,0,2,0,9,0
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,19,15,18,1,0,0,4,0,17,1
-2022/2023,Female,disabled,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,35,28,32,13,12,0,7,0,19,1
-2022/2023,Female,disabled,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,18,14,15,5,4,0,4,0,10,1
-2022/2023,Female,disabled,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,39,31,34,20,18,0,8,0,14,2
-2022/2023,Female,disabled,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,25,20,22,9,8,0,5,0,13,1
-2022/2023,Female,disabled,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,19,16,18,8,7,0,3,0,10,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,25,20,23,2,1,0,5,0,21,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,26,21,26,2,1,0,5,0,24,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,14,11,13,1,0,0,3,0,12,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,30,24,27,1,0,0,6,0,26,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,33,26,31,2,1,0,7,0,29,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,16,13,15,0,0,0,3,0,15,0
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,30,24,28,1,0,0,6,0,27,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,14,11,11,0,0,0,3,0,11,0
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,15,12,15,0,0,0,3,0,15,0
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,27,22,25,1,0,0,5,0,24,1
-2022/2023,Female,disabled,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,45,36,42,17,16,0,9,0,25,1
-2022/2023,Female,disabled,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,24,19,23,6,5,0,5,0,17,1
-2022/2023,Female,disabled,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,54,43,49,17,16,0,11,0,32,1
-2022/2023,Female,disabled,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,30,24,28,9,8,0,6,0,19,1
-2022/2023,Female,disabled,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,29,23,28,9,8,0,6,0,19,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,139,112,130,9,8,0,27,0,121,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,171,137,156,10,9,0,34,0,146,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,81,65,80,5,4,0,16,0,75,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,181,145,166,8,6,0,36,0,158,2
-2022/2023,Male,all,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,261,209,251,13,12,0,52,0,238,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,95,76,92,2,1,0,19,0,90,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,198,159,179,5,4,0,39,0,174,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,99,79,90,2,1,0,20,0,88,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,85,68,82,2,1,0,17,0,80,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,136,109,123,2,1,0,27,0,121,1
-2022/2023,Male,all,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,278,222,248,77,73,0,56,0,171,4
-2022/2023,Male,all,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,150,120,139,44,43,0,30,0,95,1
-2022/2023,Male,all,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,309,248,281,85,84,0,61,0,196,1
-2022/2023,Male,all,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,192,154,180,60,56,0,38,0,120,4
-2022/2023,Male,all,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,160,128,143,49,44,0,32,0,94,5
-2022/2023,Male,all,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,268,214,251,16,15,0,54,0,235,1
-2022/2023,Male,all,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,323,258,297,19,17,0,65,0,278,2
-2022/2023,Male,all,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,156,125,147,9,8,0,31,0,138,1
-2022/2023,Male,all,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,333,266,300,16,15,0,67,0,284,1
-2022/2023,Male,all,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,468,374,433,27,25,0,94,0,406,2
-2022/2023,Male,all,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,160,128,149,3,2,0,32,0,146,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,355,284,335,8,7,0,71,0,327,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,204,163,179,3,2,0,41,0,176,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,160,128,152,3,2,0,32,0,149,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,251,201,228,5,4,0,50,0,223,1
-2022/2023,Male,all,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,513,410,474,148,131,1,103,0,326,17
-2022/2023,Male,all,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,293,235,268,89,83,0,58,0,179,6
-2022/2023,Male,all,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,601,481,543,178,162,1,120,0,365,16
-2022/2023,Male,all,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,371,296,342,119,107,1,75,0,223,12
-2022/2023,Male,all,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,284,227,259,88,83,0,57,0,171,5
-2022/2023,Male,all,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,354,284,323,21,18,0,70,0,302,3
-2022/2023,Male,all,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,407,326,376,22,20,0,81,0,354,2
-2022/2023,Male,all,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,206,165,189,12,11,0,41,0,177,1
-2022/2023,Male,all,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,435,348,397,23,20,0,87,0,374,3
-2022/2023,Male,all,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,610,488,572,36,33,0,122,0,536,3
-2022/2023,Male,all,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,224,179,209,5,4,0,45,0,204,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,473,378,440,10,9,0,95,0,430,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,230,184,200,4,3,0,46,0,196,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,222,177,208,5,4,0,45,0,203,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,337,270,316,7,6,0,67,0,309,1
-2022/2023,Male,all,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,675,540,625,220,205,1,135,0,405,15
-2022/2023,Male,all,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,372,298,340,112,105,1,74,0,228,7
-2022/2023,Male,all,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,786,629,720,243,226,1,157,0,477,17
-2022/2023,Male,all,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,485,387,443,151,135,1,98,0,292,16
-2022/2023,Male,all,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,426,341,386,134,121,1,85,0,252,13
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,14,11,13,1,0,0,3,0,12,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,15,12,15,1,0,0,3,0,14,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,7,6,7,1,0,0,1,0,6,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,17,14,14,0,0,0,3,0,14,0
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,20,16,17,2,1,0,4,0,15,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,8,6,7,0,0,0,2,0,7,0
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,15,12,15,1,0,0,3,0,14,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,7,6,7,0,0,0,1,0,7,0
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,6,5,5,0,0,0,1,0,5,0
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,13,10,12,0,0,0,3,0,12,0
-2022/2023,Male,disabled,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,25,20,22,6,5,0,5,0,16,1
-2022/2023,Male,disabled,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,14,11,13,6,5,0,3,0,7,1
-2022/2023,Male,disabled,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,31,25,28,9,8,0,6,0,19,1
-2022/2023,Male,disabled,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,17,14,16,9,8,0,3,0,7,1
-2022/2023,Male,disabled,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,13,10,11,3,2,0,3,0,8,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,21,17,20,1,0,0,4,0,19,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,26,21,24,1,0,0,5,0,23,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,14,11,14,1,0,0,3,0,13,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,29,23,27,1,0,0,6,0,26,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,29,24,28,2,1,0,5,0,26,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,15,12,14,0,0,0,3,0,14,0
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,26,21,25,1,0,0,5,0,24,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,14,11,12,0,0,0,3,0,12,0
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,12,10,12,0,0,0,2,0,12,0
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,23,18,18,1,0,0,5,0,17,1
-2022/2023,Male,disabled,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,40,32,37,10,9,0,8,0,27,1
-2022/2023,Male,disabled,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,23,18,22,10,9,0,5,0,12,1
-2022/2023,Male,disabled,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,46,37,41,18,16,0,9,0,23,2
-2022/2023,Male,disabled,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,27,22,24,10,9,0,5,0,14,1
-2022/2023,Male,disabled,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,22,18,20,5,4,0,4,0,15,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,28,23,27,1,0,0,5,0,26,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,33,27,32,2,1,0,6,0,30,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,18,14,16,1,0,0,4,0,15,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,37,29,35,1,0,0,8,0,34,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,41,33,38,2,1,0,8,0,36,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,18,14,16,0,0,0,4,0,16,0
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,34,27,32,1,0,0,7,0,31,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,18,14,16,0,0,0,4,0,16,0
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,18,14,17,0,0,0,4,0,17,0
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,32,25,30,0,0,0,7,0,30,0
-2022/2023,Male,disabled,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,53,42,49,15,14,0,11,0,34,1
-2022/2023,Male,disabled,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,28,22,25,9,8,0,6,0,16,1
-2022/2023,Male,disabled,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,64,51,58,17,16,0,13,0,41,1
-2022/2023,Male,disabled,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,37,30,33,9,8,0,7,0,24,1
-2022/2023,Male,disabled,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,35,28,31,9,8,0,7,0,22,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,137,110,127,4,3,0,27,0,123,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,153,122,145,4,3,0,31,0,141,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,71,57,70,2,1,0,14,0,68,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,163,131,146,5,4,0,32,0,141,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,227,182,209,6,5,0,45,0,203,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,77,61,70,1,0,0,16,0,69,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,169,135,159,3,2,0,34,0,156,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,81,65,74,1,0,0,16,0,73,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,78,62,72,2,1,0,16,0,70,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,126,101,116,3,2,0,25,0,113,1
-2023/2024,Female,all,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,248,198,220,56,50,0,50,0,164,6
-2023/2024,Female,all,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,130,104,120,31,30,0,26,0,89,1
-2023/2024,Female,all,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,281,225,262,71,65,0,56,0,191,6
-2023/2024,Female,all,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,200,160,187,45,43,0,40,0,142,2
-2023/2024,Female,all,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,140,112,128,35,30,0,28,0,93,5
-2023/2024,Female,all,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,240,192,225,7,6,0,48,0,218,1
-2023/2024,Female,all,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,288,230,270,8,7,0,58,0,262,1
-2023/2024,Female,all,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,129,103,117,4,3,0,26,0,113,1
-2023/2024,Female,all,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,290,231,257,7,6,0,59,0,250,1
-2023/2024,Female,all,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,410,329,375,12,11,0,81,0,363,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,134,107,118,2,1,0,27,0,116,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,305,244,283,6,5,0,61,0,277,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,161,129,135,3,2,0,32,0,132,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,154,123,148,3,2,0,31,0,145,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,244,195,230,5,4,0,49,0,225,1
-2023/2024,Female,all,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,472,377,434,110,98,1,95,0,324,12
-2023/2024,Female,all,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,233,186,214,53,47,0,47,0,161,6
-2023/2024,Female,all,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,537,429,494,138,129,1,108,0,356,9
-2023/2024,Female,all,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,346,276,319,81,73,1,70,0,238,8
-2023/2024,Female,all,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,275,221,248,61,55,0,54,0,187,6
-2023/2024,Female,all,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,324,259,298,9,8,0,65,0,289,1
-2023/2024,Female,all,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,385,308,358,11,10,0,77,0,347,1
-2023/2024,Female,all,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,179,143,162,5,4,0,36,0,157,1
-2023/2024,Female,all,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,405,324,363,11,10,0,81,0,352,1
-2023/2024,Female,all,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,568,454,531,17,15,0,114,0,514,2
-2023/2024,Female,all,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,192,153,176,4,3,0,39,0,172,1
-2023/2024,Female,all,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,414,331,390,9,8,0,83,0,381,1
-2023/2024,Female,all,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,229,184,206,4,3,0,45,0,202,1
-2023/2024,Female,all,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,187,150,176,4,3,0,37,0,172,1
-2023/2024,Female,all,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,301,240,277,6,5,0,61,0,271,1
-2023/2024,Female,all,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,589,471,542,137,125,1,118,0,405,12
-2023/2024,Female,all,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,300,240,269,67,63,0,60,0,202,4
-2023/2024,Female,all,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,715,572,655,176,164,1,143,0,479,12
-2023/2024,Female,all,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,450,359,414,111,103,1,91,0,303,8
-2023/2024,Female,all,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,406,325,380,98,89,1,81,0,282,9
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,13,10,11,1,0,0,3,0,10,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,13,10,11,0,0,0,3,0,11,0
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,7,6,7,0,0,0,1,0,7,0
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,16,13,14,1,0,0,3,0,13,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,19,15,17,1,0,0,4,0,16,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,6,5,6,0,0,0,1,0,6,0
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,13,11,11,0,0,0,2,0,11,0
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,6,5,6,0,0,0,1,0,6,0
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,6,5,6,0,0,0,1,0,6,0
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,12,9,10,0,0,0,3,0,10,0
-2023/2024,Female,disabled,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,20,16,19,7,6,0,4,0,12,1
-2023/2024,Female,disabled,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,13,10,11,3,2,0,3,0,8,1
-2023/2024,Female,disabled,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,27,22,25,12,11,0,5,0,13,1
-2023/2024,Female,disabled,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,18,14,16,3,2,0,4,0,13,1
-2023/2024,Female,disabled,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,12,10,11,5,4,0,2,0,6,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,19,16,17,1,0,0,3,0,16,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,21,17,21,1,0,0,4,0,20,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,10,8,10,0,0,0,2,0,10,0
-2023/2024,Female,disabled,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,22,18,19,1,0,0,4,0,18,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,25,20,22,1,0,0,5,0,21,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,12,10,11,0,0,0,2,0,11,0
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,24,19,22,0,0,0,5,0,22,0
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,11,9,10,0,0,0,2,0,10,0
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,12,10,12,0,0,0,2,0,12,0
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,21,17,19,0,0,0,4,0,19,0
-2023/2024,Female,disabled,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,37,30,36,9,8,0,7,0,27,1
-2023/2024,Female,disabled,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,19,16,17,4,3,0,3,0,13,1
-2023/2024,Female,disabled,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,43,34,39,11,10,0,9,0,28,1
-2023/2024,Female,disabled,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,24,19,22,6,5,0,5,0,16,1
-2023/2024,Female,disabled,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,22,17,20,4,3,0,5,0,16,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,29,23,26,1,0,0,6,0,25,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,30,24,28,1,0,0,6,0,27,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,16,12,15,0,0,0,4,0,15,0
-2023/2024,Female,disabled,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,34,27,30,1,0,0,7,0,29,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,36,29,33,1,0,0,7,0,32,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,16,13,14,0,0,0,3,0,14,0
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,31,24,30,1,0,0,7,0,29,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,17,14,14,0,0,0,3,0,14,0
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,16,13,16,0,0,0,3,0,16,0
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,27,21,24,0,0,0,6,0,24,0
-2023/2024,Female,disabled,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,48,38,46,11,10,0,10,0,35,1
-2023/2024,Female,disabled,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,25,20,24,6,5,0,5,0,18,1
-2023/2024,Female,disabled,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,56,45,52,13,11,0,11,0,39,2
-2023/2024,Female,disabled,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,34,27,32,9,7,0,7,0,23,2
-2023/2024,Female,disabled,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,34,27,31,5,4,0,7,0,26,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,157,126,143,3,2,0,31,0,140,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,183,147,179,5,4,0,36,0,174,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,83,67,75,2,1,0,16,0,73,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,189,151,174,4,3,0,38,0,170,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,276,221,258,6,5,0,55,0,252,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,96,76,91,1,0,0,20,0,90,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,201,161,189,3,2,0,40,0,186,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,103,82,89,1,0,0,21,0,88,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,87,69,83,1,0,0,18,0,82,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,152,121,134,2,1,0,31,0,132,1
-2023/2024,Male,all,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,285,228,265,47,45,0,57,0,218,2
-2023/2024,Male,all,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,157,126,139,28,27,0,31,0,111,1
-2023/2024,Male,all,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,343,274,312,62,57,0,69,0,250,5
-2023/2024,Male,all,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,219,175,199,40,37,0,44,0,159,3
-2023/2024,Male,all,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,174,140,162,33,30,0,34,0,129,3
-2023/2024,Male,all,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,280,224,260,6,5,0,56,0,254,1
-2023/2024,Male,all,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,337,270,300,8,7,0,67,0,292,1
-2023/2024,Male,all,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,148,118,138,3,2,0,30,0,135,1
-2023/2024,Male,all,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,336,269,310,7,6,0,67,0,303,1
-2023/2024,Male,all,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,508,407,471,12,11,0,101,0,459,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,165,133,159,3,2,0,32,0,156,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,376,301,352,6,5,0,75,0,346,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,194,155,170,3,2,0,39,0,167,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,188,150,180,4,3,0,38,0,176,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,277,222,249,4,3,0,55,0,245,1
-2023/2024,Male,all,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,543,435,507,110,100,1,108,0,397,10
-2023/2024,Male,all,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,295,236,277,61,56,0,59,0,216,5
-2023/2024,Male,all,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,643,515,597,132,122,1,128,0,465,10
-2023/2024,Male,all,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,396,316,375,71,64,1,80,0,304,7
-2023/2024,Male,all,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,307,246,271,57,53,0,61,0,214,4
-2023/2024,Male,all,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,370,296,339,9,8,0,74,0,330,1
-2023/2024,Male,all,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,465,372,433,11,10,0,93,0,422,1
-2023/2024,Male,all,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,206,165,182,5,4,0,41,0,177,1
-2023/2024,Male,all,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,463,370,423,10,9,0,93,0,413,1
-2023/2024,Male,all,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,701,561,653,17,15,0,140,0,636,2
-2023/2024,Male,all,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,238,190,208,3,2,0,48,0,205,1
-2023/2024,Male,all,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,490,392,462,8,7,0,98,0,454,1
-2023/2024,Male,all,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,275,220,233,3,2,0,55,0,230,1
-2023/2024,Male,all,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,227,182,226,5,4,0,45,0,221,1
-2023/2024,Male,all,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,354,283,316,5,4,0,71,0,311,1
-2023/2024,Male,all,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,701,561,642,136,128,1,140,0,506,8
-2023/2024,Male,all,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,384,308,351,71,66,0,76,0,280,5
-2023/2024,Male,all,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,860,688,788,176,163,1,172,0,612,13
-2023/2024,Male,all,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,520,416,471,96,87,1,104,0,375,9
-2023/2024,Male,all,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,439,351,410,90,81,1,88,0,320,9
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,14,11,13,0,0,0,3,0,13,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,16,13,16,1,0,0,3,0,15,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,8,6,8,0,0,0,2,0,8,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,18,15,17,0,0,0,3,0,17,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,21,17,19,0,0,0,4,0,19,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,8,6,6,0,0,0,2,0,6,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,16,13,15,0,0,0,3,0,15,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,8,6,6,0,0,0,2,0,6,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,7,6,6,0,0,0,1,0,6,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,14,11,11,0,0,0,3,0,11,0
-2023/2024,Male,disabled,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,25,20,23,3,2,0,5,0,20,1
-2023/2024,Male,disabled,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,15,12,14,3,2,0,3,0,11,1
-2023/2024,Male,disabled,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,31,25,28,5,4,0,6,0,23,1
-2023/2024,Male,disabled,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,19,16,17,3,2,0,3,0,14,1
-2023/2024,Male,disabled,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,14,11,13,3,2,0,3,0,10,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,23,19,22,1,0,0,4,0,21,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,26,21,23,0,0,0,5,0,23,0
-2023/2024,Male,disabled,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,13,10,12,0,0,0,3,0,12,0
-2023/2024,Male,disabled,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,29,23,26,0,0,0,6,0,26,0
-2023/2024,Male,disabled,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,31,25,30,1,0,0,6,0,29,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,14,11,15,0,0,0,3,0,15,0
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,26,21,23,0,0,0,5,0,23,0
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,14,11,13,0,0,0,3,0,13,0
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,13,11,13,0,0,0,2,0,13,0
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,24,19,21,0,0,0,5,0,21,0
-2023/2024,Male,disabled,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,41,33,36,7,6,0,8,0,29,1
-2023/2024,Male,disabled,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,23,18,21,4,3,0,5,0,17,1
-2023/2024,Male,disabled,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,51,41,47,10,9,0,10,0,37,1
-2023/2024,Male,disabled,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,28,22,27,4,3,0,6,0,23,1
-2023/2024,Male,disabled,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,26,21,23,4,3,0,5,0,19,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,31,24,28,1,0,0,7,0,27,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,36,28,32,1,0,0,8,0,31,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,19,15,18,0,0,0,4,0,18,0
-2023/2024,Male,disabled,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,41,33,37,1,0,0,8,0,36,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,46,37,44,1,0,0,9,0,43,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,21,17,18,0,0,0,4,0,18,0
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,40,31,37,1,0,0,9,0,36,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,19,15,17,0,0,0,4,0,17,0
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,19,15,20,0,0,0,4,0,20,0
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,33,26,29,0,0,0,7,0,29,0
-2023/2024,Male,disabled,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,56,44,53,9,8,0,12,0,44,1
-2023/2024,Male,disabled,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,30,24,28,6,5,0,6,0,22,1
-2023/2024,Male,disabled,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,70,56,64,13,11,0,14,0,51,2
-2023/2024,Male,disabled,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,41,33,38,7,6,0,8,0,31,1
-2023/2024,Male,disabled,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,35,28,32,5,4,0,7,0,27,1
-2024/2025,Female,all,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,282,225,158,75,69,0.448486,57,67,83,6
-2024/2025,Female,all,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,329,263,184,88,81,0.523804,66,79,96,7
-2024/2025,Female,all,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,142,114,79,38,35,0.225955,28,35,41,3
-2024/2025,Female,all,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,342,274,192,92,84,0.544346,68,82,100,8
-2024/2025,Female,all,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,488,391,273,131,120,0.777148,97,118,142,11
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,161,129,90,43,40,0.256767,32,39,47,3
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,389,311,218,104,96,0.619664,78,93,114,8
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,185,148,104,50,46,0.294426,37,44,54,4
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,153,122,86,41,38,0.243073,31,36,45,3
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,260,208,146,70,64,0.414251,52,62,76,6
-2024/2025,Female,all,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,523,418,293,140,129,0.831925,105,125,153,11
-2024/2025,Female,all,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,271,217,152,73,67,0.431368,54,65,79,6
-2024/2025,Female,all,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,613,490,343,164,151,0.975714,123,147,179,13
-2024/2025,Female,all,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,394,315,220,105,97,0.626511,79,95,115,8
-2024/2025,Female,all,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,284,227,159,76,70,0.45191,57,68,83,6
-2024/2025,Female,all,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,542,434,304,145,134,0.862737,108,130,159,11
-2024/2025,Female,all,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,581,465,325,156,143,0.924361,116,140,169,13
-2024/2025,Female,all,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,254,203,142,68,63,0.40398,51,61,74,5
-2024/2025,Female,all,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,596,477,334,160,147,0.948326,119,143,174,13
-2024/2025,Female,all,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,914,731,512,245,225,1.455012,183,219,267,20
-2024/2025,Female,all,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,290,232,163,78,72,0.46218,58,69,85,6
-2024/2025,Female,all,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,686,549,384,184,169,1.092115,137,165,200,15
-2024/2025,Female,all,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,333,267,187,89,82,0.530652,66,80,98,7
-2024/2025,Female,all,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,312,250,175,84,77,0.496416,62,75,91,7
-2024/2025,Female,all,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,497,398,278,133,122,0.790842,99,120,145,11
-2024/2025,Female,all,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,981,785,549,263,242,1.561143,196,236,286,21
-2024/2025,Female,all,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,514,411,288,138,127,0.818231,103,123,150,11
-2024/2025,Female,all,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,1095,876,613,293,270,1.742591,219,263,320,23
-2024/2025,Female,all,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,690,552,387,185,170,1.098962,138,165,202,15
-2024/2025,Female,all,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,581,465,325,156,143,0.924361,116,140,169,13
-2024/2025,Female,all,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,673,539,377,180,166,1.071574,134,162,197,14
-2024/2025,Female,all,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,777,621,435,208,191,1.235905,156,186,227,17
-2024/2025,Female,all,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,370,296,207,99,91,0.588852,74,89,108,8
-2024/2025,Female,all,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,830,664,465,222,205,1.321494,166,199,243,17
-2024/2025,Female,all,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,1233,986,690,330,304,1.961699,247,296,360,26
-2024/2025,Female,all,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,364,291,204,97,90,0.578581,73,87,107,7
-2024/2025,Female,all,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,925,740,518,248,228,1.47213,185,222,270,20
-2024/2025,Female,all,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,475,380,266,127,117,0.756606,95,114,139,10
-2024/2025,Female,all,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,422,337,236,113,104,0.671017,85,101,123,9
-2024/2025,Female,all,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,682,546,382,183,168,1.085268,136,164,199,15
-2024/2025,Female,all,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,1359,1088,761,364,335,2.163689,271,327,397,29
-2024/2025,Female,all,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,647,518,363,173,159,1.030491,129,155,190,14
-2024/2025,Female,all,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,1532,1225,858,410,377,2.437574,307,367,448,33
-2024/2025,Female,all,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,957,766,536,256,236,1.523484,191,230,280,20
-2024/2025,Female,all,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,770,616,431,206,190,1.225634,154,185,225,16
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,26,21,15,7,6,0.041083,5,6,8,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,28,22,16,8,7,0.044506,6,6,8,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,13,10,7,4,3,0.020541,3,3,3,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,34,28,19,9,8,0.054777,6,9,10,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,39,31,22,10,10,0.061624,8,9,12,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,15,12,8,4,4,0.023965,3,4,4,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,30,24,17,8,7,0.04793,6,7,9,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,13,10,7,3,3,0.020541,3,3,4,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,13,10,7,3,3,0.020541,3,3,4,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,24,19,13,6,6,0.037659,5,6,7,0
-2024/2025,Female,disabled,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,43,35,24,12,11,0.068471,8,11,12,1
-2024/2025,Female,disabled,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,28,22,16,8,7,0.044506,6,6,8,1
-2024/2025,Female,disabled,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,56,45,31,15,14,0.089013,11,14,16,1
-2024/2025,Female,disabled,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,37,29,21,10,9,0.0582,8,8,11,1
-2024/2025,Female,disabled,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,24,19,13,6,6,0.037659,5,6,7,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,45,36,25,12,11,0.071895,9,11,13,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,43,35,24,12,11,0.068471,8,11,12,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,21,17,12,6,5,0.034236,4,5,6,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,52,41,29,14,13,0.082165,11,12,15,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,54,43,30,14,13,0.085589,11,13,16,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,26,21,15,7,6,0.041083,5,6,8,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,52,41,29,14,13,0.082165,11,12,15,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,26,21,14,7,6,0.041083,5,7,7,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,24,19,13,6,6,0.037659,5,6,7,0
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,45,36,25,12,11,0.071895,9,11,13,1
-2024/2025,Female,disabled,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,80,64,45,21,20,0.126672,16,19,24,1
-2024/2025,Female,disabled,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,41,33,23,11,10,0.065048,8,10,12,1
-2024/2025,Female,disabled,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,84,67,47,23,21,0.133519,17,20,24,2
-2024/2025,Female,disabled,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,50,40,28,13,12,0.078742,10,12,15,1
-2024/2025,Female,disabled,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,49,40,28,13,12,0.078742,9,12,15,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,58,47,33,16,14,0.092436,11,14,17,2
-2024/2025,Female,disabled,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,56,45,31,15,14,0.089013,11,14,16,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,32,26,18,9,8,0.051353,6,8,9,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,71,57,40,19,18,0.112977,14,17,21,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,75,60,42,20,19,0.119825,15,18,22,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,32,26,18,9,8,0.051353,6,8,9,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,69,55,39,18,17,0.109554,14,16,21,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,34,28,19,9,8,0.054777,6,9,10,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,34,28,19,9,8,0.054777,6,9,10,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,65,52,36,17,16,0.102707,13,16,19,1
-2024/2025,Female,disabled,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,110,88,62,29,27,0.174601,22,26,33,2
-2024/2025,Female,disabled,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,52,41,29,14,13,0.082165,11,12,15,1
-2024/2025,Female,disabled,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,123,98,69,33,30,0.195143,25,29,36,3
-2024/2025,Female,disabled,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,69,55,39,18,17,0.109554,14,16,21,1
-2024/2025,Female,disabled,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,67,53,37,18,16,0.10613,14,16,19,2
-2024/2025,Male,all,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,312,250,175,84,77,0.496416,62,75,91,7
-2024/2025,Male,all,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,400,320,224,107,99,0.636782,80,96,117,8
-2024/2025,Male,all,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,181,145,101,48,44,0.287579,36,44,53,4
-2024/2025,Male,all,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,407,325,228,109,100,0.647053,82,97,119,9
-2024/2025,Male,all,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,592,473,331,158,146,0.941479,119,142,173,12
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,196,157,110,52,48,0.311544,39,47,58,4
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,441,353,247,118,109,0.70183,88,106,129,9
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,228,182,128,61,56,0.362897,46,54,67,5
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,191,153,107,51,47,0.304697,38,46,56,4
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,312,250,175,84,77,0.496416,62,75,91,7
-2024/2025,Male,all,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,613,490,343,164,151,0.975714,123,147,179,13
-2024/2025,Male,all,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,346,277,194,93,85,0.551193,69,83,101,8
-2024/2025,Male,all,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,716,573,401,192,176,1.140045,143,172,209,16
-2024/2025,Male,all,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,439,351,246,118,108,0.698406,88,105,128,10
-2024/2025,Male,all,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,342,274,192,92,84,0.544346,68,82,100,8
-2024/2025,Male,all,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,630,504,353,169,155,1.003103,126,151,184,14
-2024/2025,Male,all,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,662,530,371,177,163,1.054456,132,159,194,14
-2024/2025,Male,all,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,308,246,172,82,76,0.489569,62,74,90,6
-2024/2025,Male,all,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,731,585,410,196,180,1.16401,146,175,214,16
-2024/2025,Male,all,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,1091,872,611,292,269,1.735744,219,261,319,23
-2024/2025,Male,all,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,372,298,208,100,92,0.592276,74,90,108,8
-2024/2025,Male,all,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,822,657,460,220,202,1.307799,165,197,240,18
-2024/2025,Male,all,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,387,310,217,104,95,0.616241,77,93,113,9
-2024/2025,Male,all,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,355,284,199,95,87,0.564887,71,85,104,8
-2024/2025,Male,all,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,557,446,312,149,137,0.886702,111,134,163,12
-2024/2025,Male,all,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,1140,912,638,305,281,1.814486,228,274,333,24
-2024/2025,Male,all,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,647,518,363,173,159,1.030491,129,155,190,14
-2024/2025,Male,all,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,1349,1079,755,361,332,2.146571,270,324,394,29
-2024/2025,Male,all,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,785,628,440,210,193,1.249599,157,188,230,17
-2024/2025,Male,all,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,678,542,379,181,167,1.078421,136,163,198,14
-2024/2025,Male,all,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,772,618,432,207,190,1.229058,154,186,225,17
-2024/2025,Male,all,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,912,730,511,244,225,1.451589,182,219,267,19
-2024/2025,Male,all,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,454,363,254,122,112,0.722371,91,109,132,10
-2024/2025,Male,all,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,996,797,558,267,245,1.585108,199,239,291,22
-2024/2025,Male,all,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,1525,1220,854,408,376,2.427303,305,366,446,32
-2024/2025,Male,all,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,467,373,261,125,115,0.742912,94,112,136,10
-2024/2025,Male,all,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,1076,860,602,288,265,1.711779,216,258,314,23
-2024/2025,Male,all,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,587,470,329,157,145,0.934632,117,141,172,12
-2024/2025,Male,all,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,521,416,292,139,128,0.828501,105,124,153,11
-2024/2025,Male,all,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,787,630,441,211,194,1.253022,157,189,230,17
-2024/2025,Male,all,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,1549,1239,867,415,382,2.464962,310,372,452,33
-2024/2025,Male,all,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,785,628,440,210,193,1.249599,157,188,230,17
-2024/2025,Male,all,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,1858,1487,1041,499,458,2.957955,371,446,542,41
-2024/2025,Male,all,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,1045,836,585,280,258,1.663849,209,251,305,22
-2024/2025,Male,all,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,906,724,507,243,223,1.441318,182,217,264,20
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,28,22,16,8,7,0.044506,6,6,8,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,32,26,18,9,8,0.051353,6,8,9,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,15,12,8,4,4,0.023965,3,4,4,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,39,31,22,10,10,0.061624,8,9,12,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,43,34,24,12,11,0.068471,9,10,12,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,15,12,8,4,4,0.023965,3,4,4,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,34,28,19,9,8,0.054777,6,9,10,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,15,12,8,4,4,0.023965,3,4,4,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,15,12,8,4,4,0.023965,3,4,4,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,30,24,17,8,7,0.04793,6,7,9,1
-2024/2025,Male,disabled,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,54,43,30,14,13,0.085589,11,13,16,1
-2024/2025,Male,disabled,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,32,26,18,9,8,0.051353,6,8,9,1
-2024/2025,Male,disabled,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,67,53,37,18,16,0.10613,14,16,19,2
-2024/2025,Male,disabled,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,39,31,22,10,10,0.061624,8,9,12,0
-2024/2025,Male,disabled,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,28,22,16,8,7,0.044506,6,6,8,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,52,41,29,14,13,0.082165,11,12,15,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,52,41,29,14,13,0.082165,11,12,15,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,24,19,13,6,6,0.037659,5,6,7,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,58,47,33,16,14,0.092436,11,14,17,2
-2024/2025,Male,disabled,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,67,53,37,18,16,0.10613,14,16,19,2
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,32,26,18,9,8,0.051353,6,8,9,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,62,50,35,17,15,0.099283,12,15,18,2
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,28,22,16,8,7,0.044506,6,6,8,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,26,21,15,7,6,0.041083,5,6,8,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,54,43,30,14,13,0.085589,11,13,16,1
-2024/2025,Male,disabled,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,93,74,52,25,23,0.147213,19,22,27,2
-2024/2025,Male,disabled,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,50,40,28,13,12,0.078742,10,12,15,1
-2024/2025,Male,disabled,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,106,84,59,28,26,0.167754,22,25,31,2
-2024/2025,Male,disabled,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,58,47,33,16,14,0.092436,11,14,17,2
-2024/2025,Male,disabled,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,60,48,34,16,15,0.09586,12,14,18,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,67,53,37,18,16,0.10613,14,16,19,2
-2024/2025,Male,disabled,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,73,59,41,20,18,0.116401,14,18,21,2
-2024/2025,Male,disabled,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,39,31,22,10,10,0.061624,8,9,12,0
-2024/2025,Male,disabled,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,80,64,45,21,20,0.126672,16,19,24,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,101,81,57,27,25,0.160907,20,24,30,2
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,43,35,24,12,11,0.068471,8,11,12,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,82,66,46,22,20,0.130095,16,20,24,2
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,41,33,23,11,10,0.065048,8,10,12,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,39,31,22,10,10,0.061624,8,9,12,0
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,69,55,39,18,17,0.109554,14,16,21,1
-2024/2025,Male,disabled,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,127,102,71,34,31,0.20199,25,31,37,3
-2024/2025,Male,disabled,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,62,50,35,17,15,0.099283,12,15,18,2
-2024/2025,Male,disabled,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,144,116,81,39,36,0.229378,28,35,42,3
-2024/2025,Male,disabled,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,80,64,45,21,20,0.126672,16,19,24,1
-2024/2025,Male,disabled,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,80,64,45,21,20,0.126672,16,19,24,1
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,68,174,194,15,13,0,25,0,107,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,78,202,215,13,12,0,28,0,121,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,35,91,96,7,6,0,13,0,53,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,79,206,224,13,12,0,29,0,126,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,117,301,331,22,21,0,43,0,185,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,41,104,118,3,1,0,15,0,69,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,94,244,273,6,4,0,34,0,161,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,45,117,126,3,1,0,17,0,74,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,41,104,118,3,1,0,15,0,69,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,60,155,164,4,3,0,22,0,96,1
+2022/2023,Female,ALL,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,130,336,358,125,107,20,48,0,131,12
+2022/2023,Female,ALL,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,64,165,179,59,57,0,23,0,68,1
+2022/2023,Female,ALL,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,146,378,419,158,143,20,53,0,146,10
+2022/2023,Female,ALL,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,91,235,253,94,88,0,34,0,89,4
+2022/2023,Female,ALL,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,67,172,190,75,71,0,25,0,64,3
+2022/2023,Female,ALL,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,124,320,354,24,22,0,46,0,198,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,141,364,404,26,25,0,52,0,226,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,66,171,189,13,12,0,25,0,105,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,156,401,426,28,27,0,58,0,238,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,216,556,624,44,41,0,80,0,347,2
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,71,183,195,4,3,0,26,0,115,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,166,430,470,10,9,0,61,0,277,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,90,233,253,4,3,0,33,0,150,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,71,183,212,6,4,0,26,0,124,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,112,289,315,7,6,0,42,0,185,1
+2022/2023,Female,ALL,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,252,650,702,263,243,20,93,0,245,14
+2022/2023,Female,ALL,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,121,312,343,116,102,20,45,0,128,10
+2022/2023,Female,ALL,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,275,707,772,281,264,20,102,0,275,12
+2022/2023,Female,ALL,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,172,444,482,169,156,20,64,0,176,9
+2022/2023,Female,ALL,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,135,347,373,130,121,0,50,0,137,6
+2022/2023,Female,ALL,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,173,448,497,35,32,0,64,0,276,2
+2022/2023,Female,ALL,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,185,479,523,37,34,0,68,0,291,2
+2022/2023,Female,ALL,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,81,209,230,16,15,0,30,0,128,1
+2022/2023,Female,ALL,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,191,491,530,32,29,0,71,0,298,2
+2022/2023,Female,ALL,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,271,698,762,54,50,0,101,0,423,3
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,95,246,262,6,4,0,35,0,154,1
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,214,552,621,15,13,0,79,0,365,1
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,107,275,282,6,4,0,40,0,166,1
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,103,266,296,7,6,0,38,0,174,1
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,151,390,421,10,9,0,56,0,247,1
+2022/2023,Female,ALL,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,313,808,883,331,306,20,116,0,308,17
+2022/2023,Female,ALL,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,161,416,447,160,146,20,59,0,161,10
+2022/2023,Female,ALL,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,370,953,1057,397,364,40,137,0,368,23
+2022/2023,Female,ALL,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,237,611,656,247,222,20,88,0,228,17
+2022/2023,Female,ALL,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,185,479,527,193,178,20,68,0,187,10
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,7,17,20,3,1,0,3,0,10,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,7,17,20,1,0,0,3,0,11,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,3,9,8,1,0,0,1,0,4,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,8,21,22,3,1,0,3,0,11,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,10,24,27,3,1,0,4,0,14,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,4,9,12,0,0,0,2,0,7,0
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,7,19,20,0,0,0,2,0,12,0
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,3,9,8,0,0,0,1,0,5,0
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,3,9,8,0,0,0,1,0,5,0
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,5,14,13,0,0,0,2,0,8,0
+2022/2023,Female,Disabled,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,11,30,33,13,12,0,4,0,11,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,6,17,17,0,0,0,2,0,10,0
+2022/2023,Female,Disabled,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,15,38,40,26,24,0,5,0,6,2
+2022/2023,Female,Disabled,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,9,23,25,9,7,0,3,0,9,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,5,14,15,9,7,0,2,0,3,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,10,28,31,3,1,0,3,0,17,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,12,31,36,1,0,0,4,0,21,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,5,14,17,1,0,0,2,0,9,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,13,33,38,3,1,0,5,0,21,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,14,37,38,4,3,0,5,0,20,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,6,16,17,0,0,0,2,0,10,0
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,12,31,33,1,0,0,4,0,19,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,6,16,17,0,0,0,2,0,10,0
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,5,12,15,0,0,0,2,0,9,0
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,10,26,30,1,0,0,4,0,17,1
+2022/2023,Female,Disabled,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,19,49,53,19,18,0,7,0,19,1
+2022/2023,Female,Disabled,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,10,24,25,7,6,0,4,0,10,1
+2022/2023,Female,Disabled,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,21,54,56,29,27,0,8,0,14,2
+2022/2023,Female,Disabled,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,14,35,36,13,12,0,5,0,13,1
+2022/2023,Female,Disabled,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,10,28,30,12,10,0,3,0,10,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,14,35,38,3,1,0,5,0,21,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,14,37,43,3,1,0,5,0,24,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,8,19,22,1,0,0,3,0,12,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,16,42,45,1,0,0,6,0,26,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,18,45,51,3,1,0,7,0,29,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,9,23,25,0,0,0,3,0,15,0
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,16,42,46,1,0,0,6,0,27,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,8,19,18,0,0,0,3,0,11,0
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,8,21,25,0,0,0,3,0,15,0
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,15,38,41,1,0,0,5,0,24,1
+2022/2023,Female,Disabled,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,24,63,70,25,24,0,9,0,25,1
+2022/2023,Female,Disabled,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,13,33,38,9,7,0,5,0,17,1
+2022/2023,Female,Disabled,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,29,75,81,25,24,0,11,0,32,1
+2022/2023,Female,Disabled,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,16,42,46,13,12,0,6,0,19,1
+2022/2023,Female,Disabled,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,16,40,46,13,12,0,6,0,19,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,75,195,215,13,12,0,27,0,121,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,92,239,258,15,13,0,34,0,146,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,44,113,133,7,6,0,16,0,75,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,98,253,275,12,9,0,36,0,158,2
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,141,364,416,19,18,0,52,0,238,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,51,132,152,3,1,0,19,0,90,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,107,277,296,7,6,0,39,0,174,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,54,138,149,3,1,0,20,0,88,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,46,118,136,3,1,0,17,0,80,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,74,190,204,3,1,0,27,0,121,1
+2022/2023,Male,ALL,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,150,387,411,113,107,0,56,0,171,4
+2022/2023,Male,ALL,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,81,209,230,65,63,0,30,0,95,1
+2022/2023,Male,ALL,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,167,432,465,125,124,0,61,0,196,1
+2022/2023,Male,ALL,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,104,268,298,88,82,0,38,0,120,4
+2022/2023,Male,ALL,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,86,223,237,72,65,0,32,0,94,5
+2022/2023,Male,ALL,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,145,373,416,24,22,0,54,0,235,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,175,449,492,28,25,0,65,0,278,2
+2022/2023,Male,ALL,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,84,218,243,13,12,0,31,0,138,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,180,463,497,24,22,0,67,0,284,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,253,651,717,40,37,0,94,0,406,2
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,86,223,247,4,3,0,32,0,146,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,192,495,555,12,10,0,71,0,327,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,110,284,296,4,3,0,41,0,176,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,86,223,252,4,3,0,32,0,149,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,136,350,378,7,6,0,50,0,223,1
+2022/2023,Male,ALL,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,277,714,785,218,193,20,103,0,326,17
+2022/2023,Male,ALL,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,158,409,444,131,122,0,58,0,179,6
+2022/2023,Male,ALL,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,325,838,899,262,239,20,120,0,365,16
+2022/2023,Male,ALL,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,201,516,566,175,158,20,75,0,223,12
+2022/2023,Male,ALL,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,153,395,429,130,122,0,57,0,171,5
+2022/2023,Male,ALL,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,191,495,535,31,27,0,70,0,302,3
+2022/2023,Male,ALL,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,220,568,623,32,29,0,81,0,354,2
+2022/2023,Male,ALL,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,111,287,313,18,16,0,41,0,177,1
+2022/2023,Male,ALL,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,235,606,658,34,29,0,87,0,374,3
+2022/2023,Male,ALL,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,330,850,947,53,49,0,122,0,536,3
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,121,312,346,7,6,0,45,0,204,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,256,658,729,15,13,0,95,0,430,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,124,320,331,6,4,0,46,0,196,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,120,308,345,7,6,0,45,0,203,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,182,470,523,10,9,0,67,0,309,1
+2022/2023,Male,ALL,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,365,940,1035,324,302,20,135,0,405,15
+2022/2023,Male,ALL,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,201,519,563,165,155,20,74,0,228,7
+2022/2023,Male,ALL,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,425,1095,1193,358,333,20,157,0,477,17
+2022/2023,Male,ALL,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,262,674,734,222,199,20,98,0,292,16
+2022/2023,Male,ALL,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,230,594,639,197,178,20,85,0,252,13
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,8,19,22,1,0,0,3,0,12,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,8,21,25,1,0,0,3,0,14,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,4,10,12,1,0,0,1,0,6,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,9,24,23,0,0,0,3,0,14,0
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,11,28,28,3,1,0,4,0,15,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,4,10,12,0,0,0,2,0,7,0
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,8,21,25,1,0,0,3,0,14,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,4,10,12,0,0,0,1,0,7,0
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,3,9,8,0,0,0,1,0,5,0
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,7,17,20,0,0,0,3,0,12,0
+2022/2023,Male,Disabled,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,14,35,36,9,7,0,5,0,16,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,8,19,22,9,7,0,3,0,7,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,17,44,46,13,12,0,6,0,19,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,9,24,27,13,12,0,3,0,7,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,7,17,18,4,3,0,3,0,8,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,11,30,33,1,0,0,4,0,19,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,14,37,40,1,0,0,5,0,23,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,8,19,23,1,0,0,3,0,13,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,16,40,45,1,0,0,6,0,26,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,16,42,46,3,1,0,5,0,26,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,8,21,23,0,0,0,3,0,14,0
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,14,37,41,1,0,0,5,0,24,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,8,19,20,0,0,0,3,0,12,0
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,6,17,20,0,0,0,2,0,12,0
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,12,31,30,1,0,0,5,0,17,1
+2022/2023,Male,Disabled,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,22,56,61,15,13,0,8,0,27,1
+2022/2023,Male,Disabled,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,12,31,36,15,13,0,5,0,12,1
+2022/2023,Male,Disabled,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,25,64,68,26,24,0,9,0,23,2
+2022/2023,Male,Disabled,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,15,38,40,15,13,0,5,0,14,1
+2022/2023,Male,Disabled,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,12,31,33,7,6,0,4,0,15,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,15,40,45,1,0,0,5,0,26,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,18,47,53,3,1,0,6,0,30,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,10,24,27,1,0,0,4,0,15,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,20,51,58,1,0,0,8,0,34,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,22,57,63,3,1,0,8,0,36,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,10,24,27,0,0,0,4,0,16,0
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,18,47,53,1,0,0,7,0,31,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,10,24,27,0,0,0,4,0,16,0
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,10,24,28,0,0,0,4,0,17,0
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,17,44,50,0,0,0,7,0,30,0
+2022/2023,Male,Disabled,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,29,73,81,22,21,0,11,0,34,1
+2022/2023,Male,Disabled,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,15,38,41,13,12,0,6,0,16,1
+2022/2023,Male,Disabled,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,35,89,96,25,24,0,13,0,41,1
+2022/2023,Male,Disabled,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,20,52,55,13,12,0,7,0,24,1
+2022/2023,Male,Disabled,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,19,49,51,13,12,0,7,0,22,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,74,192,210,6,4,0,27,0,123,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,83,212,240,6,4,0,31,0,141,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,38,99,116,3,1,0,14,0,68,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,88,228,242,7,6,0,32,0,141,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,123,317,346,9,7,0,45,0,203,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,42,106,116,1,0,0,16,0,69,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,91,235,263,4,3,0,34,0,156,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,44,113,123,1,0,0,16,0,73,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,42,108,119,3,1,0,16,0,70,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,68,176,192,4,3,0,25,0,113,1
+2023/2024,Female,ALL,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,134,345,364,82,74,0,50,0,164,6
+2023/2024,Female,ALL,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,70,181,199,46,44,0,26,0,89,1
+2023/2024,Female,ALL,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,152,392,434,105,96,0,56,0,191,6
+2023/2024,Female,ALL,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,108,279,310,66,63,0,40,0,142,2
+2023/2024,Female,ALL,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,76,195,212,52,44,0,28,0,93,5
+2023/2024,Female,ALL,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,130,334,373,10,9,0,48,0,218,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,156,401,447,12,10,0,58,0,262,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,70,179,194,6,4,0,26,0,113,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,157,402,426,10,9,0,59,0,250,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,222,573,621,18,16,0,81,0,363,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,72,186,195,3,1,0,27,0,116,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,165,425,469,9,7,0,61,0,277,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,87,225,224,4,3,0,32,0,132,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,83,214,245,4,3,0,31,0,145,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,132,340,381,7,6,0,49,0,225,1
+2023/2024,Female,ALL,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,255,657,719,162,144,20,95,0,324,12
+2023/2024,Female,ALL,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,126,324,354,78,69,0,47,0,161,6
+2023/2024,Female,ALL,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,290,747,818,203,190,20,108,0,356,9
+2023/2024,Female,ALL,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,187,481,528,119,107,20,70,0,238,8
+2023/2024,Female,ALL,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,149,385,411,90,81,0,54,0,187,6
+2023/2024,Female,ALL,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,175,451,494,13,12,0,65,0,289,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,208,536,593,16,15,0,77,0,347,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,97,249,268,7,6,0,36,0,157,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,219,564,601,16,15,0,81,0,352,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,307,791,879,25,22,0,114,0,514,2
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,104,266,292,6,4,0,39,0,172,1
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,224,576,646,13,12,0,83,0,381,1
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,124,320,341,6,4,0,45,0,202,1
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,101,261,292,6,4,0,37,0,172,1
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,163,418,459,9,7,0,61,0,271,1
+2023/2024,Female,ALL,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,318,820,898,202,184,20,118,0,405,12
+2023/2024,Female,ALL,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,162,418,446,99,93,0,60,0,202,4
+2023/2024,Female,ALL,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,386,996,1085,259,241,20,143,0,479,12
+2023/2024,Female,ALL,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,243,625,686,163,152,20,91,0,303,8
+2023/2024,Female,ALL,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,219,566,629,144,131,20,81,0,282,9
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,7,17,18,1,0,0,3,0,10,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,7,17,18,0,0,0,3,0,11,0
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,4,10,12,0,0,0,1,0,7,0
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,9,23,23,1,0,0,3,0,13,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,10,26,28,1,0,0,4,0,16,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,3,9,10,0,0,0,1,0,6,0
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,7,19,18,0,0,0,2,0,11,0
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,3,9,10,0,0,0,1,0,6,0
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,3,9,10,0,0,0,1,0,6,0
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,6,16,17,0,0,0,3,0,10,0
+2023/2024,Female,Disabled,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,11,28,31,10,9,0,4,0,12,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,7,17,18,4,3,0,3,0,8,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,15,38,41,18,16,0,5,0,13,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,10,24,27,4,3,0,4,0,13,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,6,17,18,7,6,0,2,0,6,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,10,28,28,1,0,0,3,0,16,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,11,30,35,1,0,0,4,0,20,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,5,14,17,0,0,0,2,0,10,0
+2023/2024,Female,Disabled,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,12,31,31,1,0,0,4,0,18,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,14,35,36,1,0,0,5,0,21,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,6,17,18,0,0,0,2,0,11,0
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,13,33,36,0,0,0,5,0,22,0
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,6,16,17,0,0,0,2,0,10,0
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,6,17,20,0,0,0,2,0,12,0
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,11,30,31,0,0,0,4,0,19,0
+2023/2024,Female,Disabled,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,20,52,60,13,12,0,7,0,27,1
+2023/2024,Female,Disabled,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,10,28,28,6,4,0,3,0,13,1
+2023/2024,Female,Disabled,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,23,59,65,16,15,0,9,0,28,1
+2023/2024,Female,Disabled,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,13,33,36,9,7,0,5,0,16,1
+2023/2024,Female,Disabled,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,12,30,33,6,4,0,5,0,16,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,16,40,43,1,0,0,6,0,25,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,16,42,46,1,0,0,6,0,27,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,9,21,25,0,0,0,4,0,15,0
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,18,47,50,1,0,0,7,0,29,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,19,51,55,1,0,0,7,0,32,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,9,23,23,0,0,0,3,0,14,0
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,17,42,50,1,0,0,7,0,29,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,9,24,23,0,0,0,3,0,14,0
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,9,23,27,0,0,0,3,0,16,0
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,15,37,40,0,0,0,6,0,24,0
+2023/2024,Female,Disabled,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,26,66,76,16,15,0,10,0,35,1
+2023/2024,Female,Disabled,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,14,35,40,9,7,0,5,0,18,1
+2023/2024,Female,Disabled,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,30,78,86,19,16,0,11,0,39,2
+2023/2024,Female,Disabled,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,18,47,53,13,10,0,7,0,23,2
+2023/2024,Female,Disabled,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,18,47,51,7,6,0,7,0,26,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,85,219,237,4,3,0,31,0,140,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,99,256,296,7,6,0,36,0,174,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,45,117,124,3,1,0,16,0,73,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,102,263,288,6,4,0,38,0,170,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,149,385,427,9,7,0,55,0,252,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,52,132,151,1,0,0,20,0,90,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,109,280,313,4,3,0,40,0,186,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,56,143,147,1,0,0,21,0,88,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,47,120,137,1,0,0,18,0,82,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,82,211,222,3,1,0,31,0,132,1
+2023/2024,Male,ALL,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,154,397,439,69,66,0,57,0,218,2
+2023/2024,Male,ALL,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,85,219,230,41,40,0,31,0,111,1
+2023/2024,Male,ALL,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,185,477,517,91,84,0,69,0,250,5
+2023/2024,Male,ALL,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,118,305,330,59,54,0,44,0,159,3
+2023/2024,Male,ALL,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,94,244,268,49,44,0,34,0,129,3
+2023/2024,Male,ALL,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,151,390,431,9,7,0,56,0,254,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,182,470,497,12,10,0,67,0,292,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,80,206,229,4,3,0,30,0,135,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,182,468,513,10,9,0,67,0,303,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,275,709,780,18,16,0,101,0,459,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,89,232,263,4,3,0,32,0,156,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,203,524,583,9,7,0,75,0,346,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,105,270,282,4,3,0,39,0,167,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,102,261,298,6,4,0,38,0,176,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,150,387,412,6,4,0,55,0,245,1
+2023/2024,Male,ALL,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,293,758,840,162,147,20,108,0,397,10
+2023/2024,Male,ALL,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,159,411,459,90,82,0,59,0,216,5
+2023/2024,Male,ALL,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,348,897,989,194,180,20,128,0,465,10
+2023/2024,Male,ALL,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,214,550,621,105,94,20,80,0,304,7
+2023/2024,Male,ALL,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,166,428,449,84,78,0,61,0,214,4
+2023/2024,Male,ALL,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,200,516,561,13,12,0,74,0,330,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,251,648,717,16,15,0,93,0,422,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,111,287,301,7,6,0,41,0,177,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,250,644,701,15,13,0,93,0,413,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,379,977,1082,25,22,0,140,0,636,2
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,129,331,345,4,3,0,48,0,205,1
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,265,683,765,12,10,0,98,0,454,1
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,149,383,386,4,3,0,55,0,230,1
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,123,317,374,7,6,0,45,0,221,1
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,191,493,523,7,6,0,71,0,311,1
+2023/2024,Male,ALL,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,379,977,1063,200,188,20,140,0,506,8
+2023/2024,Male,ALL,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,208,536,581,105,97,0,76,0,280,5
+2023/2024,Male,ALL,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,465,1198,1305,259,240,20,172,0,612,13
+2023/2024,Male,ALL,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,281,724,780,141,128,20,104,0,375,9
+2023/2024,Male,ALL,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,237,611,679,132,119,20,88,0,320,9
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,8,19,22,0,0,0,3,0,13,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,9,23,27,1,0,0,3,0,15,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,4,10,13,0,0,0,2,0,8,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,10,26,28,0,0,0,3,0,17,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,11,30,31,0,0,0,4,0,19,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,4,10,10,0,0,0,2,0,6,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,9,23,25,0,0,0,3,0,15,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,4,10,10,0,0,0,2,0,6,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,4,10,10,0,0,0,1,0,6,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,8,19,18,0,0,0,3,0,11,0
+2023/2024,Male,Disabled,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,14,35,38,4,3,0,5,0,20,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,8,21,23,4,3,0,3,0,11,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,17,44,46,7,6,0,6,0,23,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,10,28,28,4,3,0,3,0,14,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,8,19,22,4,3,0,3,0,10,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,12,33,36,1,0,0,4,0,21,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,14,37,38,0,0,0,5,0,23,0
+2023/2024,Male,Disabled,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,7,17,20,0,0,0,3,0,12,0
+2023/2024,Male,Disabled,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,16,40,43,0,0,0,6,0,26,0
+2023/2024,Male,Disabled,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,17,44,50,1,0,0,6,0,29,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,8,19,25,0,0,0,3,0,15,0
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,14,37,38,0,0,0,5,0,23,0
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,8,19,22,0,0,0,3,0,13,0
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,7,19,22,0,0,0,2,0,13,0
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,13,33,35,0,0,0,5,0,21,0
+2023/2024,Male,Disabled,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,22,57,60,10,9,0,8,0,29,1
+2023/2024,Male,Disabled,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,12,31,35,6,4,0,5,0,17,1
+2023/2024,Male,Disabled,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,28,71,78,15,13,0,10,0,37,1
+2023/2024,Male,Disabled,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,15,38,45,6,4,0,6,0,23,1
+2023/2024,Male,Disabled,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,14,37,38,6,4,0,5,0,19,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,17,42,46,1,0,0,7,0,27,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,19,49,53,1,0,0,8,0,31,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,10,26,30,0,0,0,4,0,18,0
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,22,57,61,1,0,0,8,0,36,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,25,64,73,1,0,0,9,0,43,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,11,30,30,0,0,0,4,0,18,0
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,22,54,61,1,0,0,9,0,36,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,10,26,28,0,0,0,4,0,17,0
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,10,26,33,0,0,0,4,0,20,0
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,18,45,48,0,0,0,7,0,29,0
+2023/2024,Male,Disabled,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,30,77,88,13,12,0,12,0,44,1
+2023/2024,Male,Disabled,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,16,42,46,9,7,0,6,0,22,1
+2023/2024,Male,Disabled,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,38,98,106,19,16,0,14,0,51,2
+2023/2024,Male,Disabled,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,22,57,63,10,9,0,8,0,31,1
+2023/2024,Male,Disabled,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,19,49,53,7,6,0,7,0,27,1
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,152,392,262,110,102,9,57,67,83,6
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,178,458,305,130,119,10,66,79,96,7
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,77,199,131,56,52,4,28,35,41,3
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,185,477,318,135,124,11,68,82,100,8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,264,681,452,193,177,15,97,118,142,11
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,87,225,149,63,59,5,32,39,47,3
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,210,542,361,153,141,12,78,93,114,8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,100,258,172,74,68,6,37,44,54,4
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,83,212,142,60,56,5,31,36,45,3
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,141,362,242,103,94,8,52,62,76,6
+2024/2025,Female,ALL,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,283,728,485,206,190,16,105,125,153,11
+2024/2025,Female,ALL,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,146,378,252,107,99,9,54,65,79,6
+2024/2025,Female,ALL,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,331,853,568,241,222,19,123,147,179,13
+2024/2025,Female,ALL,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,213,549,364,155,143,12,79,95,115,8
+2024/2025,Female,ALL,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,153,395,263,112,103,9,57,68,83,6
+2024/2025,Female,ALL,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,293,756,504,213,197,17,108,130,159,11
+2024/2025,Female,ALL,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,314,810,538,230,211,18,116,140,169,13
+2024/2025,Female,ALL,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,137,354,235,100,93,8,51,61,74,5
+2024/2025,Female,ALL,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,322,831,553,236,216,19,119,143,174,13
+2024/2025,Female,ALL,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,494,1273,848,361,331,29,183,219,267,20
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,157,404,270,115,106,9,58,69,85,6
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,371,956,636,271,249,22,137,165,200,15
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,180,465,310,131,121,11,66,80,98,7
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,169,435,290,124,113,10,62,75,91,7
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,269,693,460,196,180,16,99,120,145,11
+2024/2025,Female,ALL,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,530,1367,909,387,356,31,196,236,286,21
+2024/2025,Female,ALL,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,278,716,477,203,187,16,103,123,150,11
+2024/2025,Female,ALL,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,592,1526,1015,431,398,35,219,263,320,23
+2024/2025,Female,ALL,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,373,961,641,272,250,22,138,165,202,15
+2024/2025,Female,ALL,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,314,810,538,230,211,18,116,140,169,13
+2024/2025,Female,ALL,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,364,939,624,265,244,21,134,162,197,14
+2024/2025,Female,ALL,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,420,1082,720,306,281,24,156,186,227,17
+2024/2025,Female,ALL,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,200,516,343,146,134,12,74,89,108,8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,449,1156,770,327,302,26,166,199,243,17
+2024/2025,Female,ALL,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,666,1717,1143,486,448,39,247,296,360,26
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,197,507,338,143,133,11,73,87,107,7
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,500,1289,858,365,336,29,185,222,270,20
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,257,662,441,187,172,15,95,114,139,10
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,228,587,391,166,153,13,85,101,123,9
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,369,951,633,269,247,21,136,164,199,15
+2024/2025,Female,ALL,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,734,1895,1260,536,493,43,271,327,397,29
+2024/2025,Female,ALL,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,350,902,601,255,234,20,129,155,190,14
+2024/2025,Female,ALL,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,828,2133,1421,604,555,48,307,367,448,33
+2024/2025,Female,ALL,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,517,1334,888,377,347,30,191,230,280,20
+2024/2025,Female,ALL,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,416,1073,714,303,280,24,154,185,225,16
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,14,37,25,10,9,1,5,6,8,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,15,38,27,12,10,1,6,6,8,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,7,17,12,6,4,0,3,3,3,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,18,49,31,13,12,1,6,9,10,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,21,54,36,15,15,1,8,9,12,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,8,21,13,6,6,0,3,4,4,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,16,42,28,12,10,1,6,7,9,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,7,17,12,4,4,0,3,3,4,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,7,17,12,4,4,0,3,3,4,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,13,33,22,9,9,1,5,6,7,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,23,61,40,18,16,1,8,11,12,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,15,38,27,12,10,1,6,6,8,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,30,78,51,22,21,2,11,14,16,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,20,51,35,15,13,1,8,8,11,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,13,33,22,9,9,1,5,6,7,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,24,63,41,18,16,1,9,11,13,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,23,61,40,18,16,1,8,11,12,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,11,30,20,9,7,1,4,5,6,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,28,71,48,21,19,2,11,12,15,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,29,75,50,21,19,2,11,13,16,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,14,37,25,10,9,1,5,6,8,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,28,71,48,21,19,2,11,12,15,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,14,37,23,10,9,1,5,7,7,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,13,33,22,9,9,1,5,6,7,0
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,24,63,41,18,16,1,9,11,13,1
+2024/2025,Female,Disabled,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,43,111,75,31,29,3,16,19,24,1
+2024/2025,Female,Disabled,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,22,57,38,16,15,1,8,10,12,1
+2024/2025,Female,Disabled,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,45,117,78,34,31,3,17,20,24,2
+2024/2025,Female,Disabled,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,27,70,46,19,18,2,10,12,15,1
+2024/2025,Female,Disabled,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,26,70,46,19,18,2,9,12,15,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,31,82,55,24,21,2,11,14,17,2
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,30,78,51,22,21,2,11,14,16,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,17,45,30,13,12,1,6,8,9,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,38,99,66,28,27,2,14,17,21,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,41,104,70,29,28,2,15,18,22,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,17,45,30,13,12,1,6,8,9,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,37,96,65,26,25,2,14,16,21,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,18,49,31,13,12,1,6,9,10,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,18,49,31,13,12,1,6,9,10,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,35,91,60,25,24,2,13,16,19,1
+2024/2025,Female,Disabled,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,59,153,103,43,40,3,22,26,33,2
+2024/2025,Female,Disabled,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,28,71,48,21,19,2,11,12,15,1
+2024/2025,Female,Disabled,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,66,171,114,49,44,4,25,29,36,3
+2024/2025,Female,Disabled,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,37,96,65,26,25,2,14,16,21,1
+2024/2025,Female,Disabled,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,36,92,61,26,24,2,14,16,19,2
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,169,435,290,124,113,10,62,75,91,7
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,216,557,371,158,146,13,80,96,117,8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,98,253,167,71,65,6,36,44,53,4
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,220,566,378,160,147,13,82,97,119,9
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,320,824,548,233,215,19,119,142,173,12
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,106,273,182,77,71,6,39,47,58,4
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,238,615,409,174,160,14,88,106,129,9
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,123,317,212,90,82,7,46,54,67,5
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,103,266,177,75,69,6,38,46,56,4
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,169,435,290,124,113,10,62,75,91,7
+2024/2025,Male,ALL,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,331,853,568,241,222,19,123,147,179,13
+2024/2025,Male,ALL,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,187,482,321,137,125,11,69,83,101,8
+2024/2025,Male,ALL,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,387,998,664,283,259,23,143,172,209,16
+2024/2025,Male,ALL,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,237,611,407,174,159,14,88,105,128,10
+2024/2025,Male,ALL,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,185,477,318,135,124,11,68,82,100,8
+2024/2025,Male,ALL,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,340,878,585,249,228,20,126,151,184,14
+2024/2025,Male,ALL,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,358,923,614,261,240,21,132,159,194,14
+2024/2025,Male,ALL,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,166,428,285,121,112,10,62,74,90,6
+2024/2025,Male,ALL,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,395,1019,679,289,265,23,146,175,214,16
+2024/2025,Male,ALL,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,590,1519,1012,430,396,34,219,261,319,23
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,201,519,345,147,135,12,74,90,108,8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,444,1144,762,324,297,26,165,197,240,18
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,209,540,359,153,140,12,77,93,113,9
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,192,495,330,140,128,11,71,85,104,8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,301,777,517,219,202,18,111,134,163,12
+2024/2025,Male,ALL,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,616,1588,1057,449,414,36,228,274,333,24
+2024/2025,Male,ALL,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,350,902,601,255,234,20,129,155,190,14
+2024/2025,Male,ALL,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,729,1879,1250,531,489,43,270,324,394,29
+2024/2025,Male,ALL,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,424,1094,729,309,284,25,157,188,230,17
+2024/2025,Male,ALL,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,366,944,628,266,246,21,136,163,198,14
+2024/2025,Male,ALL,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,417,1076,716,305,280,24,154,186,225,17
+2024/2025,Male,ALL,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,493,1271,846,359,331,29,182,219,267,19
+2024/2025,Male,ALL,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,245,632,421,180,165,14,91,109,132,10
+2024/2025,Male,ALL,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,538,1388,924,393,361,31,199,239,291,22
+2024/2025,Male,ALL,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,824,2125,1414,601,554,48,305,366,446,32
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,252,650,432,184,169,15,94,112,136,10
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,582,1498,997,424,390,34,216,258,314,23
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,317,819,545,231,213,19,117,141,172,12
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,282,724,484,205,188,16,105,124,153,11
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,425,1097,730,311,286,25,157,189,230,17
+2024/2025,Male,ALL,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,837,2158,1436,611,562,49,310,372,452,33
+2024/2025,Male,ALL,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,424,1094,729,309,284,25,157,188,230,17
+2024/2025,Male,ALL,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,1004,2590,1724,735,674,59,371,446,542,41
+2024/2025,Male,ALL,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,565,1456,969,412,380,33,209,251,305,22
+2024/2025,Male,ALL,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,490,1261,840,358,328,29,182,217,264,20
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,15,38,27,12,10,1,6,6,8,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,17,45,30,13,12,1,6,8,9,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,8,21,13,6,6,0,3,4,4,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,21,54,36,15,15,1,8,9,12,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,23,59,40,18,16,1,9,10,12,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,8,21,13,6,6,0,3,4,4,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,18,49,31,13,12,1,6,9,10,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,8,21,13,6,6,0,3,4,4,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,8,21,13,6,6,0,3,4,4,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,16,42,28,12,10,1,6,7,9,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Bodinga,North West,Sokoto,Bodinga,,,29,75,50,21,19,2,11,13,16,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,17,45,30,13,12,1,6,8,9,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,36,92,61,26,24,2,14,16,19,2
+2024/2025,Male,Disabled,NABTEB,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,21,54,36,15,15,1,8,9,12,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Wamako,North West,Sokoto,Wamako,,,15,38,27,12,10,1,6,6,8,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,28,71,48,21,19,2,11,12,15,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,28,71,48,21,19,2,11,12,15,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,13,33,22,9,9,1,5,6,7,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,31,82,55,24,21,2,11,14,17,2
+2024/2025,Male,Disabled,NECO,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,36,92,61,26,24,2,14,16,19,2
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,17,45,30,13,12,1,6,8,9,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,34,87,58,25,22,2,12,15,18,2
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,15,38,27,12,10,1,6,6,8,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,14,37,25,10,9,1,5,6,8,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,29,75,50,21,19,2,11,13,16,1
+2024/2025,Male,Disabled,NECO,University,lga,Bodinga,North West,Sokoto,Bodinga,,,50,129,86,37,34,3,19,22,27,2
+2024/2025,Male,Disabled,NECO,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,27,70,46,19,18,2,10,12,15,1
+2024/2025,Male,Disabled,NECO,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,57,146,98,41,38,3,22,25,31,2
+2024/2025,Male,Disabled,NECO,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,31,82,55,24,21,2,11,14,17,2
+2024/2025,Male,Disabled,NECO,University,lga,Wamako,North West,Sokoto,Wamako,,,32,84,56,24,22,2,12,14,18,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Bodinga,North West,Sokoto,Bodinga,,,36,92,61,26,24,2,14,16,19,2
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Sokoto North,North West,Sokoto,Sokoto North,,,39,103,68,29,27,2,14,18,21,2
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Sokoto South,North West,Sokoto,Sokoto South,,,21,54,36,15,15,1,8,9,12,0
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Tambuwal,North West,Sokoto,Tambuwal,,,43,111,75,31,29,3,16,19,24,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Wamako,North West,Sokoto,Wamako,,,55,141,94,40,37,3,20,24,30,2
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Bodinga,North West,Sokoto,Bodinga,,,23,61,40,18,16,1,8,11,12,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Sokoto North,North West,Sokoto,Sokoto North,,,44,115,76,32,29,3,16,20,24,2
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Sokoto South,North West,Sokoto,Sokoto South,,,22,57,38,16,15,1,8,10,12,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Tambuwal,North West,Sokoto,Tambuwal,,,21,54,36,15,15,1,8,9,12,0
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Wamako,North West,Sokoto,Wamako,,,37,96,65,26,25,2,14,16,21,1
+2024/2025,Male,Disabled,WAEC,University,lga,Bodinga,North West,Sokoto,Bodinga,,,69,178,118,50,46,4,25,31,37,3
+2024/2025,Male,Disabled,WAEC,University,lga,Sokoto North,North West,Sokoto,Sokoto North,,,34,87,58,25,22,2,12,15,18,2
+2024/2025,Male,Disabled,WAEC,University,lga,Sokoto South,North West,Sokoto,Sokoto South,,,78,202,134,57,53,5,28,35,42,3
+2024/2025,Male,Disabled,WAEC,University,lga,Tambuwal,North West,Sokoto,Tambuwal,,,43,111,75,31,29,3,16,19,24,1
+2024/2025,Male,Disabled,WAEC,University,lga,Wamako,North West,Sokoto,Wamako,,,43,111,75,31,29,3,16,19,24,1

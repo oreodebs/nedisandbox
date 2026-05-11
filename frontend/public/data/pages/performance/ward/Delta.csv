@@ -1,541 +1,541 @@
-session,gender,disability_scope,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
-2022/2023,Female,all,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,24,18,28,11,150,128,75.0,39.2857,535.7143,85.3333
-2022/2023,Female,all,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,21,16,24,9,134,128,76.1905,37.5,558.3333,95.5224
-2022/2023,Female,all,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,22,17,26,10,142,129,77.2727,38.4615,546.1538,90.8451
-2022/2023,Female,all,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,23,18,26,10,133,128,78.2609,38.4615,511.5385,96.2406
-2022/2023,Female,all,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,24,18,27,10,139,126,75.0,37.037,514.8148,90.6475
-2022/2023,Female,all,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,26,20,30,12,150,128,76.9231,40.0,500.0,85.3333
-2022/2023,Female,all,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,24,18,27,10,117,110,75.0,37.037,433.3333,94.0171
-2022/2023,Female,all,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,24,18,29,11,167,144,75.0,37.931,575.8621,86.2275
-2022/2023,Female,all,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,27,21,31,12,175,161,77.7778,38.7097,564.5161,92.0
-2022/2023,Female,all,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,26,20,29,11,144,128,76.9231,37.931,496.5517,88.8889
-2022/2023,Female,all,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,19,14,21,8,102,101,73.6842,38.0952,485.7143,99.0196
-2022/2023,Female,all,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,25,19,30,12,167,158,76.0,40.0,556.6667,94.6108
-2022/2023,Female,all,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,25,19,29,11,158,155,76.0,37.931,544.8276,98.1013
-2022/2023,Female,all,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,20,15,24,9,141,140,75.0,37.5,587.5,99.2908
-2022/2023,Female,all,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,23,17,27,11,133,120,73.913,40.7407,492.5926,90.2256
-2022/2023,Female,all,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,43,29,51,20,264,259,67.4419,39.2157,517.6471,98.1061
-2022/2023,Female,all,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,38,26,43,17,229,228,68.4211,39.5349,532.5581,99.5633
-2022/2023,Female,all,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,43,29,49,19,252,235,67.4419,38.7755,514.2857,93.254
-2022/2023,Female,all,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,42,29,48,18,243,229,69.0476,37.5,506.25,94.2387
-2022/2023,Female,all,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,45,31,51,20,255,238,68.8889,39.2157,500.0,93.3333
-2022/2023,Female,all,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,49,33,57,22,304,285,67.3469,38.5965,533.3333,93.75
-2022/2023,Female,all,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,46,31,52,20,238,222,67.3913,38.4615,457.6923,93.2773
-2022/2023,Female,all,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,42,29,49,19,289,277,69.0476,38.7755,589.7959,95.8478
-2022/2023,Female,all,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,47,32,54,21,311,291,68.0851,38.8889,575.9259,93.5691
-2022/2023,Female,all,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,48,33,54,21,284,269,68.75,38.8889,525.9259,94.7183
-2022/2023,Female,all,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,37,25,42,16,215,198,67.5676,38.0952,511.9048,92.093
-2022/2023,Female,all,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,45,31,53,20,314,291,68.8889,37.7358,592.4528,92.6752
-2022/2023,Female,all,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,47,32,55,21,291,277,68.0851,38.1818,529.0909,95.189
-2022/2023,Female,all,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,39,27,46,18,257,238,69.2308,39.1304,558.6957,92.607
-2022/2023,Female,all,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,40,27,45,17,218,197,67.5,37.7778,484.4444,90.367
-2022/2023,Female,all,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,56,41,65,25,397,352,73.2143,38.4615,610.7692,88.665
-2022/2023,Female,all,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,51,37,57,22,321,299,72.549,38.5965,563.1579,93.1464
-2022/2023,Female,all,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,55,40,64,25,352,320,72.7273,39.0625,550.0,90.9091
-2022/2023,Female,all,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,52,38,61,24,338,305,73.0769,39.3443,554.0984,90.2367
-2022/2023,Female,all,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,57,42,64,25,326,289,73.6842,39.0625,509.375,88.6503
-2022/2023,Female,all,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,62,45,72,28,420,374,72.5806,38.8889,583.3333,89.0476
-2022/2023,Female,all,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,60,44,66,26,338,312,73.3333,39.3939,512.1212,92.3077
-2022/2023,Female,all,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,58,43,66,26,386,345,74.1379,39.3939,584.8485,89.3782
-2022/2023,Female,all,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,63,46,75,29,442,401,73.0159,38.6667,589.3333,90.724
-2022/2023,Female,all,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,61,45,69,27,365,318,73.7705,39.1304,528.9855,87.1233
-2022/2023,Female,all,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,50,37,58,22,320,289,74.0,37.931,551.7241,90.3125
-2022/2023,Female,all,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,69,51,81,31,470,424,73.913,38.2716,580.2469,90.2128
-2022/2023,Female,all,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,59,43,66,26,359,328,72.8814,39.3939,543.9394,91.3649
-2022/2023,Female,all,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,49,36,58,22,351,316,73.4694,37.931,605.1724,90.0285
-2022/2023,Female,all,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,54,40,63,24,334,304,74.0741,38.0952,530.1587,91.018
-2022/2023,Female,disabled,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,2,2,2,1,22,20,100.0,50.0,1100.0,90.9091
-2022/2023,Female,disabled,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,2,2,2,1,22,20,100.0,50.0,1100.0,90.9091
-2022/2023,Female,disabled,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,2,2,2,1,17,15,100.0,50.0,850.0,88.2353
-2022/2023,Female,disabled,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,2,2,2,1,17,15,100.0,50.0,850.0,88.2353
-2022/2023,Female,disabled,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,2,2,2,1,22,20,100.0,50.0,1100.0,90.9091
-2022/2023,Female,disabled,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,2,2,2,1,17,15,100.0,50.0,850.0,88.2353
-2022/2023,Female,disabled,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,2,2,2,1,17,15,100.0,50.0,850.0,88.2353
-2022/2023,Female,disabled,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,2,2,2,1,22,20,100.0,50.0,1100.0,90.9091
-2022/2023,Female,disabled,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,2,2,3,1,22,20,100.0,33.3333,733.3333,90.9091
-2022/2023,Female,disabled,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,2,2,2,1,17,15,100.0,50.0,850.0,88.2353
-2022/2023,Female,disabled,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,2,2,2,1,17,16,100.0,50.0,850.0,94.1176
-2022/2023,Female,disabled,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,2,2,2,1,22,21,100.0,50.0,1100.0,95.4545
-2022/2023,Female,disabled,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,2,2,2,1,22,21,100.0,50.0,1100.0,95.4545
-2022/2023,Female,disabled,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,2,2,2,1,22,21,100.0,50.0,1100.0,95.4545
-2022/2023,Female,disabled,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,2,2,2,1,17,15,100.0,50.0,850.0,88.2353
-2022/2023,Female,disabled,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,3,2,4,1,18,17,66.6667,25.0,450.0,94.4444
-2022/2023,Female,disabled,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,3,2,4,1,18,17,66.6667,25.0,450.0,94.4444
-2022/2023,Female,disabled,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,3,2,3,1,19,18,66.6667,33.3333,633.3333,94.7368
-2022/2023,Female,disabled,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,3,2,4,2,22,20,66.6667,50.0,550.0,90.9091
-2022/2023,Female,disabled,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,4,3,4,1,17,15,75.0,25.0,425.0,88.2353
-2022/2023,Female,disabled,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,4,3,4,1,22,20,75.0,25.0,550.0,90.9091
-2022/2023,Female,disabled,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,3,2,4,2,20,19,66.6667,50.0,500.0,95.0
-2022/2023,Female,disabled,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,3,2,3,1,20,19,66.6667,33.3333,666.6667,95.0
-2022/2023,Female,disabled,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,3,2,4,1,21,20,66.6667,25.0,525.0,95.2381
-2022/2023,Female,disabled,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,4,3,4,2,27,25,75.0,50.0,675.0,92.5926
-2022/2023,Female,disabled,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,3,2,4,1,22,20,66.6667,25.0,550.0,90.9091
-2022/2023,Female,disabled,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,3,2,4,1,22,20,66.6667,25.0,550.0,90.9091
-2022/2023,Female,disabled,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,4,3,4,1,17,15,75.0,25.0,425.0,88.2353
-2022/2023,Female,disabled,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,3,2,4,2,22,20,66.6667,50.0,550.0,90.9091
-2022/2023,Female,disabled,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,4,3,4,2,15,14,75.0,50.0,375.0,93.3333
-2022/2023,Female,disabled,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,4,3,5,2,23,21,75.0,40.0,460.0,91.3043
-2022/2023,Female,disabled,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,4,3,5,2,29,26,75.0,40.0,580.0,89.6552
-2022/2023,Female,disabled,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,4,3,5,2,23,22,75.0,40.0,460.0,95.6522
-2022/2023,Female,disabled,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,4,3,5,2,18,17,75.0,40.0,360.0,94.4444
-2022/2023,Female,disabled,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,4,3,5,2,23,21,75.0,40.0,460.0,91.3043
-2022/2023,Female,disabled,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,5,4,6,2,29,26,80.0,33.3333,483.3333,89.6552
-2022/2023,Female,disabled,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,4,3,5,2,23,21,75.0,40.0,460.0,91.3043
-2022/2023,Female,disabled,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,4,3,4,2,23,21,75.0,50.0,575.0,91.3043
-2022/2023,Female,disabled,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,5,4,6,2,23,21,80.0,33.3333,383.3333,91.3043
-2022/2023,Female,disabled,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,5,4,6,2,23,21,80.0,33.3333,383.3333,91.3043
-2022/2023,Female,disabled,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,4,3,5,2,23,21,75.0,40.0,460.0,91.3043
-2022/2023,Female,disabled,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,5,4,6,2,23,22,80.0,33.3333,383.3333,95.6522
-2022/2023,Female,disabled,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,5,4,6,2,29,27,80.0,33.3333,483.3333,93.1034
-2022/2023,Female,disabled,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,4,3,5,2,18,16,75.0,40.0,360.0,88.8889
-2022/2023,Female,disabled,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,5,4,5,2,23,21,80.0,40.0,460.0,91.3043
-2022/2023,Male,all,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,22,17,27,10,176,163,77.2727,37.037,651.8519,92.6136
-2022/2023,Male,all,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,19,14,22,9,121,110,73.6842,40.9091,550.0,90.9091
-2022/2023,Male,all,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,22,17,25,10,148,131,77.2727,40.0,592.0,88.5135
-2022/2023,Male,all,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,22,17,24,9,139,133,77.2727,37.5,579.1667,95.6835
-2022/2023,Male,all,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,24,18,26,10,130,121,75.0,38.4615,500.0,93.0769
-2022/2023,Male,all,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,24,18,27,10,206,181,75.0,37.037,762.963,87.8641
-2022/2023,Male,all,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,22,17,25,10,139,121,77.2727,40.0,556.0,87.0504
-2022/2023,Male,all,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,24,18,28,11,187,176,75.0,39.2857,667.8571,94.1176
-2022/2023,Male,all,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,25,19,28,11,185,173,76.0,39.2857,660.7143,93.5135
-2022/2023,Male,all,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,23,17,26,10,148,131,73.913,38.4615,569.2308,88.5135
-2022/2023,Male,all,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,19,14,22,8,130,129,73.6842,36.3636,590.9091,99.2308
-2022/2023,Male,all,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,24,18,28,11,185,176,75.0,39.2857,660.7143,95.1351
-2022/2023,Male,all,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,22,17,27,10,158,145,77.2727,37.037,585.1852,91.7722
-2022/2023,Male,all,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,20,15,23,9,167,166,75.0,39.1304,726.087,99.4012
-2022/2023,Male,all,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,24,18,27,10,168,152,75.0,37.037,622.2222,90.4762
-2022/2023,Male,all,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,41,28,46,18,272,262,68.2927,39.1304,591.3043,96.3235
-2022/2023,Male,all,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,33,23,38,15,230,221,69.697,39.4737,605.2632,96.087
-2022/2023,Male,all,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,42,29,48,19,264,245,69.0476,39.5833,550.0,92.803
-2022/2023,Male,all,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,40,27,46,18,295,278,67.5,39.1304,641.3043,94.2373
-2022/2023,Male,all,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,42,29,47,18,280,269,69.0476,38.2979,595.7447,96.0714
-2022/2023,Male,all,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,46,31,54,21,337,312,67.3913,38.8889,624.0741,92.5816
-2022/2023,Male,all,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,43,29,47,18,264,246,67.4419,38.2979,561.7021,93.1818
-2022/2023,Male,all,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,43,29,52,20,343,324,67.4419,38.4615,659.6154,94.4606
-2022/2023,Male,all,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,43,29,50,19,328,297,67.4419,38.0,656.0,90.5488
-2022/2023,Male,all,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,44,30,49,19,301,296,68.1818,38.7755,614.2857,98.3389
-2022/2023,Male,all,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,34,23,39,15,247,230,67.6471,38.4615,633.3333,93.1174
-2022/2023,Male,all,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,45,31,53,21,359,339,68.8889,39.6226,677.3585,94.429
-2022/2023,Male,all,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,43,29,50,19,318,304,67.4419,38.0,636.0,95.5975
-2022/2023,Male,all,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,38,26,44,17,295,283,68.4211,38.6364,670.4545,95.9322
-2022/2023,Male,all,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,40,27,46,18,263,235,67.5,39.1304,571.7391,89.3536
-2022/2023,Male,all,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,52,38,59,23,393,363,73.0769,38.9831,666.1017,92.3664
-2022/2023,Male,all,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,44,32,49,19,320,285,72.7273,38.7755,653.0612,89.0625
-2022/2023,Male,all,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,54,40,61,24,386,347,74.0741,39.3443,632.7869,89.8964
-2022/2023,Male,all,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,51,37,57,22,406,368,72.549,38.5965,712.2807,90.6404
-2022/2023,Male,all,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,54,40,59,23,377,345,74.0741,38.9831,638.9831,91.5119
-2022/2023,Male,all,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,58,43,70,27,459,408,74.1379,38.5714,655.7143,88.8889
-2022/2023,Male,all,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,54,40,59,23,340,307,74.0741,38.9831,576.2712,90.2941
-2022/2023,Male,all,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,59,43,71,28,516,460,72.8814,39.4366,726.7606,89.1473
-2022/2023,Male,all,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,60,44,71,27,487,430,73.3333,38.0282,685.9155,88.2957
-2022/2023,Male,all,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,56,41,63,24,371,339,73.2143,38.0952,588.8889,91.3747
-2022/2023,Male,all,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,48,35,55,21,349,323,72.9167,38.1818,634.5455,92.5501
-2022/2023,Male,all,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,64,47,77,30,530,475,73.4375,38.961,688.3117,89.6226
-2022/2023,Male,all,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,55,40,64,25,420,382,72.7273,39.0625,656.25,90.9524
-2022/2023,Male,all,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,50,37,60,23,408,371,74.0,38.3333,680.0,90.9314
-2022/2023,Male,all,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,52,38,58,22,363,321,73.0769,37.931,625.8621,88.4298
-2022/2023,Male,disabled,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,2,2,2,1,20,18,100.0,50.0,1000.0,90.0
-2022/2023,Male,disabled,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,2,2,2,1,13,12,100.0,50.0,650.0,92.3077
-2022/2023,Male,disabled,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,2,2,2,1,13,12,100.0,50.0,650.0,92.3077
-2022/2023,Male,disabled,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,2,2,2,1,13,12,100.0,50.0,650.0,92.3077
-2022/2023,Male,disabled,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,2,2,2,1,7,6,100.0,50.0,350.0,85.7143
-2022/2023,Male,disabled,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,2,1,2,1,27,24,50.0,50.0,1350.0,88.8889
-2022/2023,Male,disabled,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,2,1,2,1,13,12,50.0,50.0,650.0,92.3077
-2022/2023,Male,disabled,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,2,1,2,1,20,19,50.0,50.0,1000.0,95.0
-2022/2023,Male,disabled,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,2,2,2,1,27,25,100.0,50.0,1350.0,92.5926
-2022/2023,Male,disabled,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,2,2,2,1,20,18,100.0,50.0,1000.0,90.0
-2022/2023,Male,disabled,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,2,1,2,1,27,25,50.0,50.0,1350.0,92.5926
-2022/2023,Male,disabled,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,2,1,2,1,27,26,50.0,50.0,1350.0,96.2963
-2022/2023,Male,disabled,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,2,1,2,1,13,12,50.0,50.0,650.0,92.3077
-2022/2023,Male,disabled,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,2,2,2,1,27,26,100.0,50.0,1350.0,96.2963
-2022/2023,Male,disabled,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,2,2,3,1,27,24,100.0,33.3333,900.0,88.8889
-2022/2023,Male,disabled,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,3,2,4,2,22,20,66.6667,50.0,550.0,90.9091
-2022/2023,Male,disabled,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,3,2,3,1,17,15,66.6667,33.3333,566.6667,88.2353
-2022/2023,Male,disabled,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,3,2,4,2,22,20,66.6667,50.0,550.0,90.9091
-2022/2023,Male,disabled,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,3,2,3,1,22,21,66.6667,33.3333,733.3333,95.4545
-2022/2023,Male,disabled,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,3,2,4,2,22,21,66.6667,50.0,550.0,95.4545
-2022/2023,Male,disabled,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,3,2,4,2,22,21,66.6667,50.0,550.0,95.4545
-2022/2023,Male,disabled,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,3,2,4,2,22,20,66.6667,50.0,550.0,90.9091
-2022/2023,Male,disabled,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,3,2,3,1,22,20,66.6667,33.3333,733.3333,90.9091
-2022/2023,Male,disabled,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,3,2,4,2,22,20,66.6667,50.0,550.0,90.9091
-2022/2023,Male,disabled,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,4,3,4,2,22,21,75.0,50.0,550.0,95.4545
-2022/2023,Male,disabled,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,3,2,3,1,22,21,66.6667,33.3333,733.3333,95.4545
-2022/2023,Male,disabled,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,4,3,4,2,22,21,75.0,50.0,550.0,95.4545
-2022/2023,Male,disabled,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,3,2,4,2,22,21,66.6667,50.0,550.0,95.4545
-2022/2023,Male,disabled,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,3,2,4,2,22,21,66.6667,50.0,550.0,95.4545
-2022/2023,Male,disabled,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,4,3,4,2,22,20,75.0,50.0,550.0,90.9091
-2022/2023,Male,disabled,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,4,3,4,2,22,20,75.0,50.0,550.0,90.9091
-2022/2023,Male,disabled,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,3,2,4,1,22,20,66.6667,25.0,550.0,90.9091
-2022/2023,Male,disabled,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,4,3,5,2,22,20,75.0,40.0,440.0,90.9091
-2022/2023,Male,disabled,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,4,3,4,2,22,20,75.0,50.0,550.0,90.9091
-2022/2023,Male,disabled,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,4,3,5,2,27,24,75.0,40.0,540.0,88.8889
-2022/2023,Male,disabled,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,4,3,5,2,27,24,75.0,40.0,540.0,88.8889
-2022/2023,Male,disabled,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,4,3,5,2,27,24,75.0,40.0,540.0,88.8889
-2022/2023,Male,disabled,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,4,3,5,2,27,24,75.0,40.0,540.0,88.8889
-2022/2023,Male,disabled,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,4,3,5,2,27,24,75.0,40.0,540.0,88.8889
-2022/2023,Male,disabled,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,5,4,5,2,27,24,80.0,40.0,540.0,88.8889
-2022/2023,Male,disabled,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,4,3,4,2,22,20,75.0,50.0,550.0,90.9091
-2022/2023,Male,disabled,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,5,4,6,2,31,27,80.0,33.3333,516.6667,87.0968
-2022/2023,Male,disabled,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,5,4,5,2,31,27,80.0,40.0,620.0,87.0968
-2022/2023,Male,disabled,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,4,3,5,2,22,20,75.0,40.0,440.0,90.9091
-2022/2023,Male,disabled,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,5,4,6,2,27,24,80.0,33.3333,450.0,88.8889
-2023/2024,Female,all,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,26,21,30,13,145,123,80.7692,43.3333,483.3333,84.8276
-2023/2024,Female,all,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,23,19,27,11,145,131,82.6087,40.7407,537.037,90.3448
-2023/2024,Female,all,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,23,19,26,11,122,107,82.6087,42.3077,469.2308,87.7049
-2023/2024,Female,all,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,23,19,27,12,137,131,82.6087,44.4444,507.4074,95.6204
-2023/2024,Female,all,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,24,19,27,12,130,127,79.1667,44.4444,481.4815,97.6923
-2023/2024,Female,all,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,27,22,32,14,168,153,81.4815,43.75,525.0,91.0714
-2023/2024,Female,all,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,26,21,29,12,130,123,80.7692,41.3793,448.2759,94.6154
-2023/2024,Female,all,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,25,20,29,12,145,132,80.0,41.3793,500.0,91.0345
-2023/2024,Female,all,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,30,24,35,15,174,165,80.0,42.8571,497.1429,94.8276
-2023/2024,Female,all,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,26,21,30,13,137,128,80.7692,43.3333,456.6667,93.4307
-2023/2024,Female,all,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,20,16,22,9,114,113,80.0,40.9091,518.1818,99.1228
-2023/2024,Female,all,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,27,22,32,14,168,155,81.4815,43.75,525.0,92.2619
-2023/2024,Female,all,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,27,22,32,14,152,131,81.4815,43.75,475.0,86.1842
-2023/2024,Female,all,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,23,19,26,11,145,142,82.6087,42.3077,557.6923,97.931
-2023/2024,Female,all,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,26,21,29,12,137,131,80.7692,41.3793,472.4138,95.6204
-2023/2024,Female,all,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,48,35,57,24,272,259,72.9167,42.1053,477.193,95.2206
-2023/2024,Female,all,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,41,30,47,20,245,227,73.1707,42.5532,521.2766,92.6531
-2023/2024,Female,all,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,42,31,47,20,232,228,73.8095,42.5532,493.617,98.2759
-2023/2024,Female,all,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,44,32,49,21,244,227,72.7273,42.8571,497.9592,93.0328
-2023/2024,Female,all,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,47,35,53,23,254,235,74.4681,43.3962,479.2453,92.5197
-2023/2024,Female,all,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,49,36,57,24,288,273,73.4694,42.1053,505.2632,94.7917
-2023/2024,Female,all,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,49,36,55,23,231,222,73.4694,41.8182,420.0,96.1039
-2023/2024,Female,all,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,43,32,48,20,251,243,74.4186,41.6667,522.9167,96.8127
-2023/2024,Female,all,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,51,38,60,26,306,289,74.5098,43.3333,510.0,94.4444
-2023/2024,Female,all,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,47,35,53,23,250,235,74.4681,43.3962,471.6981,94.0
-2023/2024,Female,all,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,40,30,47,20,234,221,75.0,42.5532,497.8723,94.4444
-2023/2024,Female,all,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,50,37,59,25,318,296,74.0,42.3729,538.9831,93.0818
-2023/2024,Female,all,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,47,35,55,23,281,261,74.4681,41.8182,510.9091,92.8826
-2023/2024,Female,all,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,41,30,48,20,262,243,73.1707,41.6667,545.8333,92.7481
-2023/2024,Female,all,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,46,34,52,22,244,227,73.913,42.3077,469.2308,93.0328
-2023/2024,Female,all,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,61,48,69,29,361,328,78.6885,42.029,523.1884,90.8587
-2023/2024,Female,all,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,56,44,67,29,349,308,78.5714,43.2836,520.8955,88.2521
-2023/2024,Female,all,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,61,48,67,29,337,308,78.6885,43.2836,502.9851,91.3947
-2023/2024,Female,all,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,58,46,66,28,367,334,79.3103,42.4242,556.0606,91.0082
-2023/2024,Female,all,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,63,50,69,29,349,315,79.3651,42.029,505.7971,90.2579
-2023/2024,Female,all,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,68,54,80,34,425,388,79.4118,42.5,531.25,91.2941
-2023/2024,Female,all,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,63,50,72,31,356,320,79.3651,43.0556,494.4444,89.8876
-2023/2024,Female,all,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,59,47,71,30,381,341,79.661,42.2535,536.6197,89.5013
-2023/2024,Female,all,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,71,56,85,36,450,401,78.8732,42.3529,529.4118,89.1111
-2023/2024,Female,all,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,62,49,70,30,362,329,79.0323,42.8571,517.1429,90.884
-2023/2024,Female,all,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,49,39,55,23,279,255,79.5918,41.8182,507.2727,91.3978
-2023/2024,Female,all,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,66,52,78,33,448,401,78.7879,42.3077,574.359,89.5089
-2023/2024,Female,all,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,64,50,75,32,387,347,78.125,42.6667,516.0,89.6641
-2023/2024,Female,all,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,55,43,66,28,361,333,78.1818,42.4242,546.9697,92.2438
-2023/2024,Female,all,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,60,47,68,29,349,308,78.3333,42.6471,513.2353,88.2521
-2023/2024,Female,disabled,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,2,2,2,1,16,14,100.0,50.0,800.0,87.5
-2023/2024,Female,disabled,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,2,2,2,1,22,19,100.0,50.0,1100.0,86.3636
-2023/2024,Female,disabled,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,2,2,3,1,16,14,100.0,33.3333,533.3333,87.5
-2023/2024,Female,disabled,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,2,2,2,1,22,19,100.0,50.0,1100.0,86.3636
-2023/2024,Female,disabled,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,2,2,2,1,22,21,100.0,50.0,1100.0,95.4545
-2023/2024,Female,disabled,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,2,2,3,1,22,21,100.0,33.3333,733.3333,95.4545
-2023/2024,Female,disabled,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,3,2,3,1,22,19,66.6667,33.3333,733.3333,86.3636
-2023/2024,Female,disabled,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,2,2,2,1,22,19,100.0,50.0,1100.0,86.3636
-2023/2024,Female,disabled,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,2,2,3,1,22,19,100.0,33.3333,733.3333,86.3636
-2023/2024,Female,disabled,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,2,2,3,1,22,21,100.0,33.3333,733.3333,95.4545
-2023/2024,Female,disabled,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,2,2,3,1,22,19,100.0,33.3333,733.3333,86.3636
-2023/2024,Female,disabled,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,2,2,3,1,22,19,100.0,33.3333,733.3333,86.3636
-2023/2024,Female,disabled,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,2,2,3,1,16,14,100.0,33.3333,533.3333,87.5
-2023/2024,Female,disabled,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,2,2,2,1,22,21,100.0,50.0,1100.0,95.4545
-2023/2024,Female,disabled,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,2,2,2,1,22,19,100.0,50.0,1100.0,86.3636
-2023/2024,Female,disabled,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,3,2,4,2,18,17,66.6667,50.0,450.0,94.4444
-2023/2024,Female,disabled,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,4,3,4,2,18,17,75.0,50.0,450.0,94.4444
-2023/2024,Female,disabled,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,3,2,4,2,18,17,66.6667,50.0,450.0,94.4444
-2023/2024,Female,disabled,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,3,2,4,2,18,17,66.6667,50.0,450.0,94.4444
-2023/2024,Female,disabled,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,4,3,4,2,19,18,75.0,50.0,475.0,94.7368
-2023/2024,Female,disabled,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,4,3,5,2,20,19,75.0,40.0,400.0,95.0
-2023/2024,Female,disabled,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,4,3,4,2,18,17,75.0,50.0,450.0,94.4444
-2023/2024,Female,disabled,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,3,2,4,2,18,17,66.6667,50.0,450.0,94.4444
-2023/2024,Female,disabled,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,4,3,4,2,18,17,75.0,50.0,450.0,94.4444
-2023/2024,Female,disabled,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,4,3,4,2,21,19,75.0,50.0,525.0,90.4762
-2023/2024,Female,disabled,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,3,2,4,2,21,19,66.6667,50.0,525.0,90.4762
-2023/2024,Female,disabled,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,4,3,4,2,21,19,75.0,50.0,525.0,90.4762
-2023/2024,Female,disabled,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,4,3,4,2,19,18,75.0,50.0,475.0,94.7368
-2023/2024,Female,disabled,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,3,2,4,2,21,19,66.6667,50.0,525.0,90.4762
-2023/2024,Female,disabled,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,4,3,5,2,18,17,75.0,40.0,360.0,94.4444
-2023/2024,Female,disabled,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,4,3,5,2,18,16,75.0,40.0,360.0,88.8889
-2023/2024,Female,disabled,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,4,3,5,2,23,20,75.0,40.0,460.0,86.9565
-2023/2024,Female,disabled,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,4,3,5,2,23,20,75.0,40.0,460.0,86.9565
-2023/2024,Female,disabled,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,4,3,5,2,18,16,75.0,40.0,360.0,88.8889
-2023/2024,Female,disabled,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,5,4,5,2,23,20,80.0,40.0,460.0,86.9565
-2023/2024,Female,disabled,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,5,4,6,3,27,24,80.0,50.0,450.0,88.8889
-2023/2024,Female,disabled,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,5,4,5,2,23,20,80.0,40.0,460.0,86.9565
-2023/2024,Female,disabled,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,4,3,5,2,23,20,75.0,40.0,460.0,86.9565
-2023/2024,Female,disabled,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,6,5,6,3,23,20,83.3333,50.0,383.3333,86.9565
-2023/2024,Female,disabled,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,5,4,6,3,23,20,80.0,50.0,383.3333,86.9565
-2023/2024,Female,disabled,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,4,3,4,2,23,20,75.0,50.0,575.0,86.9565
-2023/2024,Female,disabled,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,5,4,6,3,27,24,80.0,50.0,450.0,88.8889
-2023/2024,Female,disabled,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,5,4,6,3,27,24,80.0,50.0,450.0,88.8889
-2023/2024,Female,disabled,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,4,3,5,2,18,16,75.0,40.0,360.0,88.8889
-2023/2024,Female,disabled,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,5,4,6,3,23,20,80.0,50.0,383.3333,86.9565
-2023/2024,Male,all,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,23,19,27,12,157,142,82.6087,44.4444,581.4815,90.4459
-2023/2024,Male,all,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,20,16,23,10,132,124,80.0,43.4783,573.913,93.9394
-2023/2024,Male,all,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,24,19,27,12,130,124,79.1667,44.4444,481.4815,95.3846
-2023/2024,Male,all,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,23,19,26,11,166,162,82.6087,42.3077,638.4615,97.5904
-2023/2024,Male,all,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,24,19,27,12,149,133,79.1667,44.4444,551.8519,89.2617
-2023/2024,Male,all,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,25,20,29,13,175,174,80.0,44.8276,603.4483,99.4286
-2023/2024,Male,all,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,25,20,27,12,138,124,80.0,44.4444,511.1111,89.8551
-2023/2024,Male,all,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,25,20,29,12,165,153,80.0,41.3793,568.9655,92.7273
-2023/2024,Male,all,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,28,23,33,14,182,161,82.1429,42.4242,551.5152,88.4615
-2023/2024,Male,all,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,24,19,26,11,140,125,79.1667,42.3077,538.4615,89.2857
-2023/2024,Male,all,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,20,16,23,10,123,122,80.0,43.4783,534.7826,99.187
-2023/2024,Male,all,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,27,22,31,13,192,181,81.4815,41.9355,619.3548,94.2708
-2023/2024,Male,all,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,25,20,29,12,166,142,80.0,41.3793,572.4138,85.5422
-2023/2024,Male,all,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,22,18,26,11,157,151,81.8182,42.3077,603.8462,96.1783
-2023/2024,Male,all,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,24,19,27,12,130,115,79.1667,44.4444,481.4815,88.4615
-2023/2024,Male,all,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,44,32,50,21,293,279,72.7273,42.0,586.0,95.2218
-2023/2024,Male,all,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,36,26,41,18,244,230,72.2222,43.9024,595.122,94.2623
-2023/2024,Male,all,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,41,30,45,19,250,245,73.1707,42.2222,555.5556,98.0
-2023/2024,Male,all,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,42,31,48,20,267,247,73.8095,41.6667,556.25,92.5094
-2023/2024,Male,all,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,44,32,50,21,258,238,72.7273,42.0,516.0,92.2481
-2023/2024,Male,all,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,48,35,56,24,316,286,72.9167,42.8571,564.2857,90.5063
-2023/2024,Male,all,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,44,32,50,21,273,245,72.7273,42.0,546.0,89.7436
-2023/2024,Male,all,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,43,32,50,21,301,296,74.4186,42.0,602.0,98.3389
-2023/2024,Male,all,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,44,32,53,23,318,296,72.7273,43.3962,600.0,93.0818
-2023/2024,Male,all,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,47,35,53,23,265,247,74.4681,43.3962,500.0,93.2075
-2023/2024,Male,all,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,38,28,44,19,229,214,73.6842,43.1818,520.4545,93.4498
-2023/2024,Male,all,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,50,37,57,24,332,317,74.0,42.1053,582.4561,95.4819
-2023/2024,Male,all,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,45,33,53,23,302,290,73.3333,43.3962,569.8113,96.0265
-2023/2024,Male,all,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,39,29,44,19,265,257,74.359,43.1818,602.2727,96.9811
-2023/2024,Male,all,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,46,34,53,23,281,262,73.913,43.3962,530.1887,93.2384
-2023/2024,Male,all,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,54,43,63,27,377,334,79.6296,42.8571,598.4127,88.5942
-2023/2024,Male,all,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,49,39,57,24,352,315,79.5918,42.1053,617.5439,89.4886
-2023/2024,Male,all,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,58,46,64,27,356,326,79.3103,42.1875,556.25,91.573
-2023/2024,Male,all,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,52,41,60,26,348,321,78.8462,43.3333,580.0,92.2414
-2023/2024,Male,all,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,61,48,70,30,372,326,78.6885,42.8571,531.4286,87.6344
-2023/2024,Male,all,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,60,47,69,29,428,394,78.3333,42.029,620.2899,92.0561
-2023/2024,Male,all,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,60,47,67,29,357,328,78.3333,43.2836,532.8358,91.8768
-2023/2024,Male,all,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,59,47,70,30,436,386,79.661,42.8571,622.8571,88.5321
-2023/2024,Male,all,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,66,52,77,33,513,461,78.7879,42.8571,666.2338,89.8635
-2023/2024,Male,all,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,63,50,70,30,359,328,79.3651,42.8571,512.8571,91.3649
-2023/2024,Male,all,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,49,39,55,24,321,298,79.5918,43.6364,583.6364,92.8349
-2023/2024,Male,all,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,63,50,75,32,498,445,79.3651,42.6667,664.0,89.3574
-2023/2024,Male,all,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,60,47,72,31,461,415,78.3333,43.0556,640.2778,90.0217
-2023/2024,Male,all,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,56,44,65,28,422,371,78.5714,43.0769,649.2308,87.9147
-2023/2024,Male,all,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,60,47,68,29,363,328,78.3333,42.6471,533.8235,90.3581
-2023/2024,Male,disabled,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,2,2,2,1,19,17,100.0,50.0,950.0,89.4737
-2023/2024,Male,disabled,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,2,2,2,1,19,17,100.0,50.0,950.0,89.4737
-2023/2024,Male,disabled,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,2,2,2,1,13,11,100.0,50.0,650.0,84.6154
-2023/2024,Male,disabled,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,2,2,2,1,25,22,100.0,50.0,1250.0,88.0
-2023/2024,Male,disabled,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,2,2,2,1,19,17,100.0,50.0,950.0,89.4737
-2023/2024,Male,disabled,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,2,2,2,1,25,24,100.0,50.0,1250.0,96.0
-2023/2024,Male,disabled,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,2,2,2,1,13,11,100.0,50.0,650.0,84.6154
-2023/2024,Male,disabled,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,2,2,2,1,19,17,100.0,50.0,950.0,89.4737
-2023/2024,Male,disabled,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,2,2,3,1,19,17,100.0,33.3333,633.3333,89.4737
-2023/2024,Male,disabled,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,2,2,2,1,19,18,100.0,50.0,950.0,94.7368
-2023/2024,Male,disabled,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,2,2,2,1,25,22,100.0,50.0,1250.0,88.0
-2023/2024,Male,disabled,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,2,2,2,1,25,23,100.0,50.0,1250.0,92.0
-2023/2024,Male,disabled,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,2,2,3,1,19,17,100.0,33.3333,633.3333,89.4737
-2023/2024,Male,disabled,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,2,2,2,1,25,22,100.0,50.0,1250.0,88.0
-2023/2024,Male,disabled,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,2,2,3,1,13,11,100.0,33.3333,433.3333,84.6154
-2023/2024,Male,disabled,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,3,2,4,2,21,19,66.6667,50.0,525.0,90.4762
-2023/2024,Male,disabled,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,3,2,4,2,22,19,66.6667,50.0,550.0,86.3636
-2023/2024,Male,disabled,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,3,2,3,1,22,19,66.6667,33.3333,733.3333,86.3636
-2023/2024,Male,disabled,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,3,2,3,1,22,19,66.6667,33.3333,733.3333,86.3636
-2023/2024,Male,disabled,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,3,2,4,2,22,19,66.6667,50.0,550.0,86.3636
-2023/2024,Male,disabled,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,4,3,4,2,22,19,75.0,50.0,550.0,86.3636
-2023/2024,Male,disabled,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,3,2,4,2,22,19,66.6667,50.0,550.0,86.3636
-2023/2024,Male,disabled,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,3,2,4,2,22,19,66.6667,50.0,550.0,86.3636
-2023/2024,Male,disabled,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,3,2,4,2,22,19,66.6667,50.0,550.0,86.3636
-2023/2024,Male,disabled,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,4,3,4,2,22,20,75.0,50.0,550.0,90.9091
-2023/2024,Male,disabled,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,3,2,4,2,22,20,66.6667,50.0,550.0,90.9091
-2023/2024,Male,disabled,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,4,3,5,2,22,21,75.0,40.0,440.0,95.4545
-2023/2024,Male,disabled,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,4,3,4,2,22,21,75.0,50.0,550.0,95.4545
-2023/2024,Male,disabled,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,3,2,4,2,22,21,66.6667,50.0,550.0,95.4545
-2023/2024,Male,disabled,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,4,3,5,2,22,19,75.0,40.0,440.0,86.3636
-2023/2024,Male,disabled,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,4,3,5,2,24,23,75.0,40.0,480.0,95.8333
-2023/2024,Male,disabled,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,4,3,4,2,20,19,75.0,50.0,500.0,95.0
-2023/2024,Male,disabled,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,4,3,5,2,24,23,75.0,40.0,480.0,95.8333
-2023/2024,Male,disabled,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,4,3,4,2,18,17,75.0,50.0,450.0,94.4444
-2023/2024,Male,disabled,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,5,4,5,2,25,23,80.0,40.0,500.0,92.0
-2023/2024,Male,disabled,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,5,4,6,3,25,23,80.0,50.0,416.6667,92.0
-2023/2024,Male,disabled,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,5,4,5,2,24,23,80.0,40.0,480.0,95.8333
-2023/2024,Male,disabled,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,4,3,5,2,26,23,75.0,40.0,520.0,88.4615
-2023/2024,Male,disabled,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,5,4,6,3,26,23,80.0,50.0,433.3333,88.4615
-2023/2024,Male,disabled,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,5,4,6,3,26,23,80.0,50.0,433.3333,88.4615
-2023/2024,Male,disabled,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,4,3,5,2,24,23,75.0,40.0,480.0,95.8333
-2023/2024,Male,disabled,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,5,4,6,3,31,27,80.0,50.0,516.6667,87.0968
-2023/2024,Male,disabled,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,5,4,6,3,29,27,80.0,50.0,483.3333,93.1034
-2023/2024,Male,disabled,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,5,4,5,2,21,19,80.0,40.0,420.0,90.4762
-2023/2024,Male,disabled,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,6,5,7,3,24,23,83.3333,42.8571,342.8571,95.8333
-2024/2025,Female,all,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,46,34,26,10,8,7,73.9130,38.4615,30.7692,87.5000
-2024/2025,Female,all,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,43,32,24,10,8,7,74.4186,41.6667,33.3333,87.5000
-2024/2025,Female,all,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,43,32,24,10,6,6,74.4186,41.6667,25.0000,100.0000
-2024/2025,Female,all,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,41,30,22,9,7,7,73.1707,40.9091,31.8182,100.0000
-2024/2025,Female,all,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,46,34,26,10,7,6,73.9130,38.4615,26.9231,85.7143
-2024/2025,Female,all,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,50,37,29,12,9,8,74.0000,41.3793,31.0345,88.8889
-2024/2025,Female,all,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,46,34,26,10,7,6,73.9130,38.4615,26.9231,85.7143
-2024/2025,Female,all,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,43,32,25,10,7,7,74.4186,40.0000,28.0000,100.0000
-2024/2025,Female,all,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,50,37,30,12,9,9,74.0000,40.0000,30.0000,100.0000
-2024/2025,Female,all,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,43,32,25,10,8,7,74.4186,40.0000,32.0000,87.5000
-2024/2025,Female,all,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,37,29,20,8,7,6,78.3784,40.0000,35.0000,85.7143
-2024/2025,Female,all,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,46,34,27,10,9,8,73.9130,37.0370,33.3333,88.8889
-2024/2025,Female,all,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,46,35,27,11,9,8,76.0870,40.7407,33.3333,88.8889
-2024/2025,Female,all,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,37,29,21,9,7,7,78.3784,42.8571,33.3333,100.0000
-2024/2025,Female,all,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,43,32,24,9,7,7,74.4186,37.5000,29.1667,100.0000
-2024/2025,Female,all,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,617,425,350,136,105,96,68.8817,38.8571,30.0000,91.4286
-2024/2025,Female,all,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,589,398,350,136,114,105,67.5722,38.8571,32.5714,92.1053
-2024/2025,Female,all,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,632,425,357,143,100,89,67.2468,40.0560,28.0112,89.0000
-2024/2025,Female,all,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,632,425,378,150,117,108,67.2468,39.6825,30.9524,92.3077
-2024/2025,Female,all,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,660,453,371,150,102,99,68.6364,40.4313,27.4933,97.0588
-2024/2025,Female,all,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,689,466,392,156,129,121,67.6343,39.7959,32.9082,93.7984
-2024/2025,Female,all,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,718,494,392,156,111,102,68.8022,39.7959,28.3163,91.8919
-2024/2025,Female,all,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,646,439,378,149,120,112,67.9567,39.4180,31.7460,93.3333
-2024/2025,Female,all,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,761,521,435,170,140,130,68.4625,39.0805,32.1839,92.8571
-2024/2025,Female,all,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,632,425,350,136,100,89,67.2468,38.8571,28.5714,89.0000
-2024/2025,Female,all,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,531,357,293,116,82,73,67.2316,39.5904,27.9863,89.0244
-2024/2025,Female,all,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,675,453,385,149,126,114,67.1111,38.7013,32.7273,90.4762
-2024/2025,Female,all,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,660,453,392,156,122,114,68.6364,39.7959,31.1224,93.4426
-2024/2025,Female,all,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,574,384,328,129,111,104,66.8990,39.3293,33.8415,93.6937
-2024/2025,Female,all,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,603,412,335,136,97,87,68.3250,40.5970,28.9552,89.6907
-2024/2025,Female,all,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,905,673,518,204,158,143,74.3646,39.3822,30.5019,90.5063
-2024/2025,Female,all,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,813,599,472,189,144,127,73.6777,40.0424,30.5085,88.1944
-2024/2025,Female,all,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,874,643,495,196,149,136,73.5698,39.5960,30.1010,91.2752
-2024/2025,Female,all,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,935,687,548,211,168,153,73.4759,38.5036,30.6569,91.0714
-2024/2025,Female,all,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,935,687,518,204,154,145,73.4759,39.3822,29.7297,94.1558
-2024/2025,Female,all,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,1043,775,602,240,195,180,74.3049,39.8671,32.3920,92.3077
-2024/2025,Female,all,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,905,658,503,196,143,131,72.7072,38.9662,28.4294,91.6084
-2024/2025,Female,all,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,966,716,564,218,186,172,74.1201,38.6525,32.9787,92.4731
-2024/2025,Female,all,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,982,716,571,225,186,172,72.9124,39.4046,32.5744,92.4731
-2024/2025,Female,all,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,1012,746,579,225,152,140,73.7154,38.8601,26.2522,92.1053
-2024/2025,Female,all,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,767,570,426,167,122,114,74.3155,39.2019,28.6385,93.4426
-2024/2025,Female,all,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,982,716,579,225,189,173,72.9124,38.8601,32.6425,91.5344
-2024/2025,Female,all,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,1012,746,594,233,181,169,73.7154,39.2256,30.4714,93.3702
-2024/2025,Female,all,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,813,599,465,182,147,137,73.6777,39.1398,31.6129,93.1973
-2024/2025,Female,all,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,951,702,533,211,156,143,73.8170,39.5872,29.2683,91.6667
-2024/2025,Female,disabled,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,5,4,2,1,1,1,80.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,5,4,4,1,2,1,80.0000,25.0000,50.0000,50.0000
-2024/2025,Female,disabled,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,5,4,2,1,1,1,80.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,5,4,2,1,2,1,80.0000,50.0000,100.0000,50.0000
-2024/2025,Female,disabled,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,5,4,2,1,2,1,80.0000,50.0000,100.0000,50.0000
-2024/2025,Female,disabled,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,5,4,4,1,1,1,80.0000,25.0000,25.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,5,4,3,1,1,1,80.0000,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,5,4,2,1,1,1,80.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,5,3,3,1,1,1,60.0000,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,5,3,3,1,1,1,60.0000,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,4,3,3,1,1,1,75.0000,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,4,3,3,1,1,1,75.0000,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,4,3,3,1,1,1,75.0000,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,50,32,32,13,10,9,64.0000,40.6250,31.2500,90.0000
-2024/2025,Female,disabled,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,50,32,32,13,10,9,64.0000,40.6250,31.2500,90.0000
-2024/2025,Female,disabled,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,66,49,32,13,10,9,74.2424,40.6250,31.2500,90.0000
-2024/2025,Female,disabled,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,50,32,32,13,10,9,64.0000,40.6250,31.2500,90.0000
-2024/2025,Female,disabled,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,66,49,32,13,10,9,74.2424,40.6250,31.2500,90.0000
-2024/2025,Female,disabled,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,66,49,32,13,12,11,74.2424,40.6250,37.5000,91.6667
-2024/2025,Female,disabled,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,66,49,32,13,10,9,74.2424,40.6250,31.2500,90.0000
-2024/2025,Female,disabled,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,50,32,32,13,10,9,64.0000,40.6250,31.2500,90.0000
-2024/2025,Female,disabled,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,66,49,32,13,10,9,74.2424,40.6250,31.2500,90.0000
-2024/2025,Female,disabled,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,66,48,32,13,9,9,72.7273,40.6250,28.1250,100.0000
-2024/2025,Female,disabled,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,50,32,32,13,9,8,64.0000,40.6250,28.1250,88.8889
-2024/2025,Female,disabled,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,66,48,39,13,9,8,72.7273,33.3333,23.0769,88.8889
-2024/2025,Female,disabled,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,66,48,32,13,9,8,72.7273,40.6250,28.1250,88.8889
-2024/2025,Female,disabled,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,50,32,24,6,9,8,64.0000,25.0000,37.5000,88.8889
-2024/2025,Female,disabled,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,66,48,32,13,9,8,72.7273,40.6250,28.1250,88.8889
-2024/2025,Female,disabled,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,70,50,44,17,10,9,71.4286,38.6364,22.7273,90.0000
-2024/2025,Female,disabled,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,70,50,44,17,13,12,71.4286,38.6364,29.5455,92.3077
-2024/2025,Female,disabled,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,88,66,44,17,12,11,75.0000,38.6364,27.2727,91.6667
-2024/2025,Female,disabled,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,70,50,44,17,10,9,71.4286,38.6364,22.7273,90.0000
-2024/2025,Female,disabled,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,88,66,44,17,12,11,75.0000,38.6364,27.2727,91.6667
-2024/2025,Female,disabled,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,88,66,53,17,13,12,75.0000,32.0755,24.5283,92.3077
-2024/2025,Female,disabled,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,87,66,44,17,12,11,75.8621,38.6364,27.2727,91.6667
-2024/2025,Female,disabled,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,70,49,44,17,11,11,70.0000,38.6364,25.0000,100.0000
-2024/2025,Female,disabled,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,87,66,52,17,11,11,75.8621,32.6923,21.1538,100.0000
-2024/2025,Female,disabled,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,87,66,52,17,12,11,75.8621,32.6923,23.0769,91.6667
-2024/2025,Female,disabled,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,70,49,35,17,12,11,70.0000,48.5714,34.2857,91.6667
-2024/2025,Female,disabled,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,87,66,52,17,13,12,75.8621,32.6923,25.0000,92.3077
-2024/2025,Female,disabled,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,87,66,52,17,13,12,75.8621,32.6923,25.0000,92.3077
-2024/2025,Female,disabled,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,70,49,44,17,12,10,70.0000,38.6364,27.2727,83.3333
-2024/2025,Female,disabled,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,87,66,52,17,13,12,75.8621,32.6923,25.0000,92.3077
-2024/2025,Male,all,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,43,32,24,9,8,7,74.4186,37.5000,33.3333,87.5000
-2024/2025,Male,all,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,34,25,19,8,6,6,73.5294,42.1053,31.5789,100.0000
-2024/2025,Male,all,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,44,34,25,9,9,8,77.2727,36.0000,36.0000,88.8889
-2024/2025,Male,all,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,39,29,22,9,7,7,74.3590,40.9091,31.8182,100.0000
-2024/2025,Male,all,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,43,32,24,9,8,7,74.4186,37.5000,33.3333,87.5000
-2024/2025,Male,all,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,46,34,26,10,9,8,73.9130,38.4615,34.6154,88.8889
-2024/2025,Male,all,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,42,32,24,9,7,7,76.1905,37.5000,29.1667,100.0000
-2024/2025,Male,all,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,46,34,26,10,10,10,73.9130,38.4615,38.4615,100.0000
-2024/2025,Male,all,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,42,32,26,10,10,9,76.1905,38.4615,38.4615,90.0000
-2024/2025,Male,all,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,42,32,23,9,8,7,76.1905,39.1304,34.7826,87.5000
-2024/2025,Male,all,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,35,27,19,8,6,6,77.1429,42.1053,31.5789,100.0000
-2024/2025,Male,all,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,44,34,26,10,11,10,77.2727,38.4615,42.3077,90.9091
-2024/2025,Male,all,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,41,30,24,9,9,8,73.1707,37.5000,37.5000,88.8889
-2024/2025,Male,all,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,37,29,23,9,9,8,78.3784,39.1304,39.1304,88.8889
-2024/2025,Male,all,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,42,32,25,9,9,8,76.1905,36.0000,36.0000,88.8889
-2024/2025,Male,all,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,603,411,342,136,122,112,68.1592,39.7661,35.6725,91.8033
-2024/2025,Male,all,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,503,343,300,116,101,91,68.1909,38.6667,33.6667,90.0990
-2024/2025,Male,all,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,617,425,350,136,122,113,68.8817,38.8571,34.8571,92.6230
-2024/2025,Male,all,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,589,398,335,129,120,108,67.5722,38.5075,35.8209,90.0000
-2024/2025,Male,all,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,632,425,357,143,122,112,67.2468,40.0560,34.1737,91.8033
-2024/2025,Male,all,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,632,425,371,149,126,119,67.2468,40.1617,33.9623,94.4444
-2024/2025,Male,all,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,675,466,371,143,129,118,69.0370,38.5445,34.7709,91.4729
-2024/2025,Male,all,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,632,425,371,143,132,126,67.2468,38.5445,35.5795,95.4545
-2024/2025,Male,all,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,660,453,385,149,142,133,68.6364,38.7013,36.8831,93.6620
-2024/2025,Male,all,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,603,411,335,129,105,98,68.1592,38.5075,31.3433,93.3333
-2024/2025,Male,all,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,517,357,293,116,100,88,69.0522,39.5904,34.1297,88.0000
-2024/2025,Male,all,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,646,439,385,149,153,139,67.9567,38.7013,39.7403,90.8497
-2024/2025,Male,all,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,603,411,357,143,128,115,68.1592,40.0560,35.8543,89.8438
-2024/2025,Male,all,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,589,398,335,129,134,123,67.5722,38.5075,40.0000,91.7910
-2024/2025,Male,all,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,603,411,328,129,112,105,68.1592,39.3293,34.1463,93.7500
-2024/2025,Male,all,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,874,643,510,204,181,168,73.5698,40.0000,35.4902,92.8177
-2024/2025,Male,all,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,705,512,411,160,148,136,72.6241,38.9294,36.0097,91.8919
-2024/2025,Male,all,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,905,658,503,196,181,166,72.7072,38.9662,35.9841,91.7127
-2024/2025,Male,all,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,843,614,495,196,172,159,72.8351,39.5960,34.7475,92.4419
-2024/2025,Male,all,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,920,673,510,203,169,152,73.1522,39.8039,33.1373,89.9408
-2024/2025,Male,all,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,982,716,556,218,197,182,72.9124,39.2086,35.4317,92.3858
-2024/2025,Male,all,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,859,629,472,189,157,143,73.2247,40.0424,33.2627,91.0828
-2024/2025,Male,all,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,966,716,556,218,203,189,74.1201,39.2086,36.5108,93.1034
-2024/2025,Male,all,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,889,658,518,203,197,182,74.0157,39.1892,38.0309,92.3858
-2024/2025,Male,all,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,951,702,541,211,179,166,73.8170,39.0018,33.0869,92.7374
-2024/2025,Male,all,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,705,526,404,160,145,133,74.6099,39.6040,35.8911,91.7241
-2024/2025,Male,all,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,982,716,564,218,218,203,72.9124,38.6525,38.6525,93.1193
-2024/2025,Male,all,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,951,702,541,211,197,179,73.8170,39.0018,36.4140,90.8629
-2024/2025,Male,all,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,797,585,457,182,172,159,73.4003,39.8249,37.6368,92.4419
-2024/2025,Male,all,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,920,673,510,203,164,149,73.1522,39.8039,32.1569,90.8537
-2024/2025,Male,disabled,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,4,3,2,1,2,2,75.0000,50.0000,100.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,4,3,2,1,2,2,75.0000,50.0000,100.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,4,3,2,0,2,2,75.0000,0.0000,100.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,4,3,3,0,1,1,75.0000,0.0000,33.3333,100.0000
-2024/2025,Male,disabled,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,50,32,32,13,9,9,64.0000,40.6250,28.1250,100.0000
-2024/2025,Male,disabled,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,50,32,24,6,7,7,64.0000,25.0000,29.1667,100.0000
-2024/2025,Male,disabled,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,50,32,32,13,9,9,64.0000,40.6250,28.1250,100.0000
-2024/2025,Male,disabled,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,50,32,32,13,9,9,64.0000,40.6250,28.1250,100.0000
-2024/2025,Male,disabled,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,50,32,32,13,9,9,64.0000,40.6250,28.1250,100.0000
-2024/2025,Male,disabled,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,50,32,32,13,10,10,64.0000,40.6250,31.2500,100.0000
-2024/2025,Male,disabled,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,66,48,32,13,9,9,72.7273,40.6250,28.1250,100.0000
-2024/2025,Male,disabled,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,50,32,32,13,9,9,64.0000,40.6250,28.1250,100.0000
-2024/2025,Male,disabled,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,50,32,39,13,12,12,64.0000,33.3333,30.7692,100.0000
-2024/2025,Male,disabled,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,50,32,32,13,9,8,64.0000,40.6250,28.1250,88.8889
-2024/2025,Male,disabled,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,50,32,32,13,12,10,64.0000,40.6250,37.5000,83.3333
-2024/2025,Male,disabled,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,50,32,32,13,11,10,64.0000,40.6250,34.3750,90.9091
-2024/2025,Male,disabled,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,49,32,32,13,12,10,65.3061,40.6250,37.5000,83.3333
-2024/2025,Male,disabled,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,49,32,31,13,12,10,65.3061,41.9355,38.7097,83.3333
-2024/2025,Male,disabled,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,49,32,31,13,9,9,65.3061,41.9355,29.0323,100.0000
-2024/2025,Male,disabled,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,70,49,44,17,12,11,70.0000,38.6364,27.2727,91.6667
-2024/2025,Male,disabled,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,70,49,35,17,12,11,70.0000,48.5714,34.2857,91.6667
-2024/2025,Male,disabled,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,87,66,44,17,12,11,75.8621,38.6364,27.2727,91.6667
-2024/2025,Male,disabled,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,70,49,44,17,10,9,70.0000,38.6364,22.7273,90.0000
-2024/2025,Male,disabled,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,70,49,44,17,10,9,70.0000,38.6364,22.7273,90.0000
-2024/2025,Male,disabled,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,87,66,52,25,13,11,75.8621,48.0769,25.0000,84.6154
-2024/2025,Male,disabled,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,70,49,44,17,12,11,70.0000,38.6364,27.2727,91.6667
-2024/2025,Male,disabled,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,70,49,44,17,15,14,70.0000,38.6364,34.0909,93.3333
-2024/2025,Male,disabled,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,87,66,44,16,12,11,75.8621,36.3636,27.2727,91.6667
-2024/2025,Male,disabled,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,87,66,52,25,13,11,75.8621,48.0769,25.0000,84.6154
-2024/2025,Male,disabled,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,70,49,35,16,12,11,70.0000,45.7143,34.2857,91.6667
-2024/2025,Male,disabled,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,87,66,44,16,18,17,75.8621,36.3636,40.9091,94.4444
-2024/2025,Male,disabled,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,87,66,52,25,15,14,75.8621,48.0769,28.8462,93.3333
-2024/2025,Male,disabled,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,70,49,44,16,10,9,70.0000,36.3636,22.7273,90.0000
-2024/2025,Male,disabled,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,87,66,52,25,12,11,75.8621,48.0769,23.0769,91.6667
+session,gender,disability,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
+2022/2023,Female,ALL,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,47,39,59,52,382,328,75.0,39.2857,535.7143,85.3333
+2022/2023,Female,ALL,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,41,34,50,43,341,328,76.1905,37.5,558.3333,95.5224
+2022/2023,Female,ALL,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,43,36,54,47,362,330,77.2727,38.4615,546.1538,90.8451
+2022/2023,Female,ALL,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,45,39,54,47,339,328,78.2609,38.4615,511.5385,96.2406
+2022/2023,Female,ALL,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,47,39,56,47,354,323,75.0,37.037,514.8148,90.6475
+2022/2023,Female,ALL,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,51,43,63,57,382,328,76.9231,40.0,500.0,85.3333
+2022/2023,Female,ALL,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,47,39,56,47,298,282,75.0,37.037,433.3333,94.0171
+2022/2023,Female,ALL,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,47,39,61,52,426,369,75.0,37.931,575.8621,86.2275
+2022/2023,Female,ALL,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,53,45,65,57,446,412,77.7778,38.7097,564.5161,92.0
+2022/2023,Female,ALL,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,51,43,61,52,367,328,76.9231,37.931,496.5517,88.8889
+2022/2023,Female,ALL,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,37,30,44,38,260,259,73.6842,38.0952,485.7143,99.0196
+2022/2023,Female,ALL,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,49,41,63,57,426,405,76.0,40.0,556.6667,94.6108
+2022/2023,Female,ALL,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,49,41,61,52,403,397,76.0,37.931,544.8276,98.1013
+2022/2023,Female,ALL,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,39,32,50,43,359,359,75.0,37.5,587.5,99.2908
+2022/2023,Female,ALL,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,45,36,56,52,339,307,73.913,40.7407,492.5926,90.2256
+2022/2023,Female,ALL,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,84,62,107,95,673,663,67.4419,39.2157,517.6471,98.1061
+2022/2023,Female,ALL,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,74,56,90,81,584,584,68.4211,39.5349,532.5581,99.5633
+2022/2023,Female,ALL,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,84,62,102,90,642,602,67.4419,38.7755,514.2857,93.254
+2022/2023,Female,ALL,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,82,62,100,85,619,587,69.0476,37.5,506.25,94.2387
+2022/2023,Female,ALL,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,88,67,107,95,650,610,68.8889,39.2157,500.0,93.3333
+2022/2023,Female,ALL,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,95,71,119,104,775,730,67.3469,38.5965,533.3333,93.75
+2022/2023,Female,ALL,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,89,67,109,95,606,569,67.3913,38.4615,457.6923,93.2773
+2022/2023,Female,ALL,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,82,62,102,90,736,710,69.0476,38.7755,589.7959,95.8478
+2022/2023,Female,ALL,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,91,69,113,100,792,745,68.0851,38.8889,575.9259,93.5691
+2022/2023,Female,ALL,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,93,71,113,100,724,689,68.75,38.8889,525.9259,94.7183
+2022/2023,Female,ALL,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,72,54,88,76,548,507,67.5676,38.0952,511.9048,92.093
+2022/2023,Female,ALL,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,88,67,111,95,800,745,68.8889,37.7358,592.4528,92.6752
+2022/2023,Female,ALL,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,91,69,115,100,741,710,68.0851,38.1818,529.0909,95.189
+2022/2023,Female,ALL,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,76,58,96,85,655,610,69.2308,39.1304,558.6957,92.607
+2022/2023,Female,ALL,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,78,58,94,81,555,505,67.5,37.7778,484.4444,90.367
+2022/2023,Female,ALL,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,109,88,136,119,1012,902,73.2143,38.4615,610.7692,88.665
+2022/2023,Female,ALL,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,99,79,119,104,818,766,72.549,38.5965,563.1579,93.1464
+2022/2023,Female,ALL,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,107,86,134,119,897,820,72.7273,39.0625,550.0,90.9091
+2022/2023,Female,ALL,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,101,82,128,114,861,781,73.0769,39.3443,554.0984,90.2367
+2022/2023,Female,ALL,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,111,90,134,119,831,740,73.6842,39.0625,509.375,88.6503
+2022/2023,Female,ALL,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,121,97,151,133,1070,958,72.5806,38.8889,583.3333,89.0476
+2022/2023,Female,ALL,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,117,94,138,123,861,799,73.3333,39.3939,512.1212,92.3077
+2022/2023,Female,ALL,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,113,92,138,123,984,884,74.1379,39.3939,584.8485,89.3782
+2022/2023,Female,ALL,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,123,99,157,138,1126,1027,73.0159,38.6667,589.3333,90.724
+2022/2023,Female,ALL,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,119,97,144,128,930,815,73.7705,39.1304,528.9855,87.1233
+2022/2023,Female,ALL,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,97,79,121,104,815,740,74.0,37.931,551.7241,90.3125
+2022/2023,Female,ALL,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,134,109,169,147,1198,1086,73.913,38.2716,580.2469,90.2128
+2022/2023,Female,ALL,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,115,92,138,123,915,840,72.8814,39.3939,543.9394,91.3649
+2022/2023,Female,ALL,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,95,77,121,104,894,810,73.4694,37.931,605.1724,90.0285
+2022/2023,Female,ALL,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,105,86,132,114,851,779,74.0741,38.0952,530.1587,91.018
+2022/2023,Female,Disabled,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,4,4,4,5,56,51,100.0,50.0,1100.0,90.9091
+2022/2023,Female,Disabled,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,4,4,4,5,56,51,100.0,50.0,1100.0,90.9091
+2022/2023,Female,Disabled,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,4,4,4,5,43,38,100.0,50.0,850.0,88.2353
+2022/2023,Female,Disabled,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,4,4,4,5,43,38,100.0,50.0,850.0,88.2353
+2022/2023,Female,Disabled,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,4,4,4,5,56,51,100.0,50.0,1100.0,90.9091
+2022/2023,Female,Disabled,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,4,4,4,5,43,38,100.0,50.0,850.0,88.2353
+2022/2023,Female,Disabled,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,4,4,4,5,43,38,100.0,50.0,850.0,88.2353
+2022/2023,Female,Disabled,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,4,4,4,5,56,51,100.0,50.0,1100.0,90.9091
+2022/2023,Female,Disabled,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,4,4,6,5,56,51,100.0,33.3333,733.3333,90.9091
+2022/2023,Female,Disabled,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,4,4,4,5,43,38,100.0,50.0,850.0,88.2353
+2022/2023,Female,Disabled,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,4,4,4,5,43,41,100.0,50.0,850.0,94.1176
+2022/2023,Female,Disabled,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,4,4,4,5,56,54,100.0,50.0,1100.0,95.4545
+2022/2023,Female,Disabled,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,4,4,4,5,56,54,100.0,50.0,1100.0,95.4545
+2022/2023,Female,Disabled,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,4,4,4,5,56,54,100.0,50.0,1100.0,95.4545
+2022/2023,Female,Disabled,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,4,4,4,5,43,38,100.0,50.0,850.0,88.2353
+2022/2023,Female,Disabled,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,6,4,8,5,46,44,66.6667,25.0,450.0,94.4444
+2022/2023,Female,Disabled,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,6,4,8,5,46,44,66.6667,25.0,450.0,94.4444
+2022/2023,Female,Disabled,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,6,4,6,5,48,46,66.6667,33.3333,633.3333,94.7368
+2022/2023,Female,Disabled,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,6,4,8,9,56,51,66.6667,50.0,550.0,90.9091
+2022/2023,Female,Disabled,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,8,6,8,5,43,38,75.0,25.0,425.0,88.2353
+2022/2023,Female,Disabled,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,8,6,8,5,56,51,75.0,25.0,550.0,90.9091
+2022/2023,Female,Disabled,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,6,4,8,9,51,49,66.6667,50.0,500.0,95.0
+2022/2023,Female,Disabled,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,6,4,6,5,51,49,66.6667,33.3333,666.6667,95.0
+2022/2023,Female,Disabled,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,6,4,8,5,54,51,66.6667,25.0,525.0,95.2381
+2022/2023,Female,Disabled,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,8,6,8,9,69,64,75.0,50.0,675.0,92.5926
+2022/2023,Female,Disabled,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,6,4,8,5,56,51,66.6667,25.0,550.0,90.9091
+2022/2023,Female,Disabled,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,6,4,8,5,56,51,66.6667,25.0,550.0,90.9091
+2022/2023,Female,Disabled,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,8,6,8,5,43,38,75.0,25.0,425.0,88.2353
+2022/2023,Female,Disabled,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,6,4,8,9,56,51,66.6667,50.0,550.0,90.9091
+2022/2023,Female,Disabled,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,8,6,8,9,38,36,75.0,50.0,375.0,93.3333
+2022/2023,Female,Disabled,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,8,6,10,9,59,54,75.0,40.0,460.0,91.3043
+2022/2023,Female,Disabled,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,8,6,10,9,74,67,75.0,40.0,580.0,89.6552
+2022/2023,Female,Disabled,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,8,6,10,9,59,56,75.0,40.0,460.0,95.6522
+2022/2023,Female,Disabled,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,8,6,10,9,46,44,75.0,40.0,360.0,94.4444
+2022/2023,Female,Disabled,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,8,6,10,9,59,54,75.0,40.0,460.0,91.3043
+2022/2023,Female,Disabled,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,10,9,13,9,74,67,80.0,33.3333,483.3333,89.6552
+2022/2023,Female,Disabled,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,8,6,10,9,59,54,75.0,40.0,460.0,91.3043
+2022/2023,Female,Disabled,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,8,6,8,9,59,54,75.0,50.0,575.0,91.3043
+2022/2023,Female,Disabled,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,10,9,13,9,59,54,80.0,33.3333,383.3333,91.3043
+2022/2023,Female,Disabled,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,10,9,13,9,59,54,80.0,33.3333,383.3333,91.3043
+2022/2023,Female,Disabled,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,8,6,10,9,59,54,75.0,40.0,460.0,91.3043
+2022/2023,Female,Disabled,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,10,9,13,9,59,56,80.0,33.3333,383.3333,95.6522
+2022/2023,Female,Disabled,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,10,9,13,9,74,69,80.0,33.3333,483.3333,93.1034
+2022/2023,Female,Disabled,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,8,6,10,9,46,41,75.0,40.0,360.0,88.8889
+2022/2023,Female,Disabled,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,10,9,10,9,59,54,80.0,40.0,460.0,91.3043
+2022/2023,Male,ALL,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,43,36,56,47,448,418,77.2727,37.037,651.8519,92.6136
+2022/2023,Male,ALL,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,37,30,46,43,308,282,73.6842,40.9091,550.0,90.9091
+2022/2023,Male,ALL,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,43,36,52,47,377,336,77.2727,40.0,592.0,88.5135
+2022/2023,Male,ALL,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,43,36,50,43,354,341,77.2727,37.5,579.1667,95.6835
+2022/2023,Male,ALL,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,47,39,54,47,331,310,75.0,38.4615,500.0,93.0769
+2022/2023,Male,ALL,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,47,39,56,47,525,464,75.0,37.037,762.963,87.8641
+2022/2023,Male,ALL,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,43,36,52,47,354,310,77.2727,40.0,556.0,87.0504
+2022/2023,Male,ALL,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,47,39,59,52,476,451,75.0,39.2857,667.8571,94.1176
+2022/2023,Male,ALL,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,49,41,59,52,471,443,76.0,39.2857,660.7143,93.5135
+2022/2023,Male,ALL,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,45,36,54,47,377,336,73.913,38.4615,569.2308,88.5135
+2022/2023,Male,ALL,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,37,30,46,38,331,330,73.6842,36.3636,590.9091,99.2308
+2022/2023,Male,ALL,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,47,39,59,52,471,451,75.0,39.2857,660.7143,95.1351
+2022/2023,Male,ALL,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,43,36,56,47,403,371,77.2727,37.037,585.1852,91.7722
+2022/2023,Male,ALL,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,39,32,48,43,426,425,75.0,39.1304,726.087,99.4012
+2022/2023,Male,ALL,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,47,39,56,47,428,389,75.0,37.037,622.2222,90.4762
+2022/2023,Male,ALL,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,80,60,96,85,693,671,68.2927,39.1304,591.3043,96.3235
+2022/2023,Male,ALL,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,64,49,79,71,586,566,69.697,39.4737,605.2632,96.087
+2022/2023,Male,ALL,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,82,62,100,90,673,628,69.0476,39.5833,550.0,92.803
+2022/2023,Male,ALL,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,78,58,96,85,752,712,67.5,39.1304,641.3043,94.2373
+2022/2023,Male,ALL,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,82,62,98,85,713,689,69.0476,38.2979,595.7447,96.0714
+2022/2023,Male,ALL,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,89,67,113,100,859,799,67.3913,38.8889,624.0741,92.5816
+2022/2023,Male,ALL,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,84,62,98,85,673,630,67.4419,38.2979,561.7021,93.1818
+2022/2023,Male,ALL,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,84,62,109,95,874,830,67.4419,38.4615,659.6154,94.4606
+2022/2023,Male,ALL,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,84,62,105,90,836,761,67.4419,38.0,656.0,90.5488
+2022/2023,Male,ALL,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,86,64,102,90,767,758,68.1818,38.7755,614.2857,98.3389
+2022/2023,Male,ALL,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,66,49,82,71,629,589,67.6471,38.4615,633.3333,93.1174
+2022/2023,Male,ALL,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,88,67,111,100,915,868,68.8889,39.6226,677.3585,94.429
+2022/2023,Male,ALL,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,84,62,105,90,810,779,67.4419,38.0,636.0,95.5975
+2022/2023,Male,ALL,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,74,56,92,81,752,725,68.4211,38.6364,670.4545,95.9322
+2022/2023,Male,ALL,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,78,58,96,85,670,602,67.5,39.1304,571.7391,89.3536
+2022/2023,Male,ALL,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,101,82,123,109,1001,930,73.0769,38.9831,666.1017,92.3664
+2022/2023,Male,ALL,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,86,69,102,90,815,730,72.7273,38.7755,653.0612,89.0625
+2022/2023,Male,ALL,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,105,86,128,114,984,889,74.0741,39.3443,632.7869,89.8964
+2022/2023,Male,ALL,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,99,79,119,104,1035,943,72.549,38.5965,712.2807,90.6404
+2022/2023,Male,ALL,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,105,86,123,109,961,884,74.0741,38.9831,638.9831,91.5119
+2022/2023,Male,ALL,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,113,92,146,128,1170,1045,74.1379,38.5714,655.7143,88.8889
+2022/2023,Male,ALL,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,105,86,123,109,866,786,74.0741,38.9831,576.2712,90.2941
+2022/2023,Male,ALL,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,115,92,148,133,1315,1178,72.8814,39.4366,726.7606,89.1473
+2022/2023,Male,ALL,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,117,94,148,128,1241,1102,73.3333,38.0282,685.9155,88.2957
+2022/2023,Male,ALL,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,109,88,132,114,945,868,73.2143,38.0952,588.8889,91.3747
+2022/2023,Male,ALL,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,93,75,115,100,889,827,72.9167,38.1818,634.5455,92.5501
+2022/2023,Male,ALL,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,124,101,161,142,1350,1217,73.4375,38.961,688.3117,89.6226
+2022/2023,Male,ALL,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,107,86,134,119,1070,979,72.7273,39.0625,656.25,90.9524
+2022/2023,Male,ALL,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,97,79,125,109,1040,950,74.0,38.3333,680.0,90.9314
+2022/2023,Male,ALL,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,101,82,121,104,925,822,73.0769,37.931,625.8621,88.4298
+2022/2023,Male,Disabled,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,4,4,4,5,51,46,100.0,50.0,1000.0,90.0
+2022/2023,Male,Disabled,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,4,4,4,5,33,31,100.0,50.0,650.0,92.3077
+2022/2023,Male,Disabled,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,4,4,4,5,33,31,100.0,50.0,650.0,92.3077
+2022/2023,Male,Disabled,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,4,4,4,5,33,31,100.0,50.0,650.0,92.3077
+2022/2023,Male,Disabled,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,4,4,4,5,18,15,100.0,50.0,350.0,85.7143
+2022/2023,Male,Disabled,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,4,2,4,5,69,61,50.0,50.0,1350.0,88.8889
+2022/2023,Male,Disabled,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,4,2,4,5,33,31,50.0,50.0,650.0,92.3077
+2022/2023,Male,Disabled,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,4,2,4,5,51,49,50.0,50.0,1000.0,95.0
+2022/2023,Male,Disabled,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,4,4,4,5,69,64,100.0,50.0,1350.0,92.5926
+2022/2023,Male,Disabled,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,4,4,4,5,51,46,100.0,50.0,1000.0,90.0
+2022/2023,Male,Disabled,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,4,2,4,5,69,64,50.0,50.0,1350.0,92.5926
+2022/2023,Male,Disabled,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,4,2,4,5,69,67,50.0,50.0,1350.0,96.2963
+2022/2023,Male,Disabled,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,4,2,4,5,33,31,50.0,50.0,650.0,92.3077
+2022/2023,Male,Disabled,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,4,4,4,5,69,67,100.0,50.0,1350.0,96.2963
+2022/2023,Male,Disabled,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,4,4,6,5,69,61,100.0,33.3333,900.0,88.8889
+2022/2023,Male,Disabled,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,6,4,8,9,56,51,66.6667,50.0,550.0,90.9091
+2022/2023,Male,Disabled,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,6,4,6,5,43,38,66.6667,33.3333,566.6667,88.2353
+2022/2023,Male,Disabled,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,6,4,8,9,56,51,66.6667,50.0,550.0,90.9091
+2022/2023,Male,Disabled,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,6,4,6,5,56,54,66.6667,33.3333,733.3333,95.4545
+2022/2023,Male,Disabled,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,6,4,8,9,56,54,66.6667,50.0,550.0,95.4545
+2022/2023,Male,Disabled,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,6,4,8,9,56,54,66.6667,50.0,550.0,95.4545
+2022/2023,Male,Disabled,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,6,4,8,9,56,51,66.6667,50.0,550.0,90.9091
+2022/2023,Male,Disabled,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,6,4,6,5,56,51,66.6667,33.3333,733.3333,90.9091
+2022/2023,Male,Disabled,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,6,4,8,9,56,51,66.6667,50.0,550.0,90.9091
+2022/2023,Male,Disabled,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,8,6,8,9,56,54,75.0,50.0,550.0,95.4545
+2022/2023,Male,Disabled,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,6,4,6,5,56,54,66.6667,33.3333,733.3333,95.4545
+2022/2023,Male,Disabled,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,8,6,8,9,56,54,75.0,50.0,550.0,95.4545
+2022/2023,Male,Disabled,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,6,4,8,9,56,54,66.6667,50.0,550.0,95.4545
+2022/2023,Male,Disabled,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,6,4,8,9,56,54,66.6667,50.0,550.0,95.4545
+2022/2023,Male,Disabled,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,8,6,8,9,56,51,75.0,50.0,550.0,90.9091
+2022/2023,Male,Disabled,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,8,6,8,9,56,51,75.0,50.0,550.0,90.9091
+2022/2023,Male,Disabled,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,6,4,8,5,56,51,66.6667,25.0,550.0,90.9091
+2022/2023,Male,Disabled,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,8,6,10,9,56,51,75.0,40.0,440.0,90.9091
+2022/2023,Male,Disabled,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,8,6,8,9,56,51,75.0,50.0,550.0,90.9091
+2022/2023,Male,Disabled,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,8,6,10,9,69,61,75.0,40.0,540.0,88.8889
+2022/2023,Male,Disabled,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,8,6,10,9,69,61,75.0,40.0,540.0,88.8889
+2022/2023,Male,Disabled,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,8,6,10,9,69,61,75.0,40.0,540.0,88.8889
+2022/2023,Male,Disabled,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,8,6,10,9,69,61,75.0,40.0,540.0,88.8889
+2022/2023,Male,Disabled,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,8,6,10,9,69,61,75.0,40.0,540.0,88.8889
+2022/2023,Male,Disabled,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,10,9,10,9,69,61,80.0,40.0,540.0,88.8889
+2022/2023,Male,Disabled,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,8,6,8,9,56,51,75.0,50.0,550.0,90.9091
+2022/2023,Male,Disabled,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,10,9,13,9,79,69,80.0,33.3333,516.6667,87.0968
+2022/2023,Male,Disabled,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,10,9,10,9,79,69,80.0,40.0,620.0,87.0968
+2022/2023,Male,Disabled,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,8,6,10,9,56,51,75.0,40.0,440.0,90.9091
+2022/2023,Male,Disabled,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,10,9,13,9,69,61,80.0,33.3333,450.0,88.8889
+2023/2024,Female,ALL,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,51,45,63,62,369,315,80.7692,43.3333,483.3333,84.8276
+2023/2024,Female,ALL,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,45,41,56,52,369,336,82.6087,40.7407,537.037,90.3448
+2023/2024,Female,ALL,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,45,41,54,52,311,274,82.6087,42.3077,469.2308,87.7049
+2023/2024,Female,ALL,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,45,41,56,57,349,336,82.6087,44.4444,507.4074,95.6204
+2023/2024,Female,ALL,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,47,41,56,57,331,325,79.1667,44.4444,481.4815,97.6923
+2023/2024,Female,ALL,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,53,47,67,66,428,392,81.4815,43.75,525.0,91.0714
+2023/2024,Female,ALL,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,51,45,61,57,331,315,80.7692,41.3793,448.2759,94.6154
+2023/2024,Female,ALL,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,49,43,61,57,369,338,80.0,41.3793,500.0,91.0345
+2023/2024,Female,ALL,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,58,52,73,71,443,423,80.0,42.8571,497.1429,94.8276
+2023/2024,Female,ALL,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,51,45,63,62,349,328,80.7692,43.3333,456.6667,93.4307
+2023/2024,Female,ALL,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,39,34,46,43,290,289,80.0,40.9091,518.1818,99.1228
+2023/2024,Female,ALL,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,53,47,67,66,428,397,81.4815,43.75,525.0,92.2619
+2023/2024,Female,ALL,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,53,47,67,66,387,336,81.4815,43.75,475.0,86.1842
+2023/2024,Female,ALL,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,45,41,54,52,369,364,82.6087,42.3077,557.6923,97.931
+2023/2024,Female,ALL,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,51,45,61,57,349,336,80.7692,41.3793,472.4138,95.6204
+2023/2024,Female,ALL,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,93,75,119,114,693,663,72.9167,42.1053,477.193,95.2206
+2023/2024,Female,ALL,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,80,64,98,95,624,582,73.1707,42.5532,521.2766,92.6531
+2023/2024,Female,ALL,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,82,67,98,95,591,584,73.8095,42.5532,493.617,98.2759
+2023/2024,Female,ALL,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,86,69,102,100,622,582,72.7273,42.8571,497.9592,93.0328
+2023/2024,Female,ALL,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,91,75,111,109,647,602,74.4681,43.3962,479.2453,92.5197
+2023/2024,Female,ALL,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,95,77,119,114,734,699,73.4694,42.1053,505.2632,94.7917
+2023/2024,Female,ALL,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,95,77,115,109,589,569,73.4694,41.8182,420.0,96.1039
+2023/2024,Female,ALL,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,84,69,100,95,640,622,74.4186,41.6667,522.9167,96.8127
+2023/2024,Female,ALL,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,99,82,125,123,780,740,74.5098,43.3333,510.0,94.4444
+2023/2024,Female,ALL,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,91,75,111,109,637,602,74.4681,43.3962,471.6981,94.0
+2023/2024,Female,ALL,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,78,64,98,95,596,566,75.0,42.5532,497.8723,94.4444
+2023/2024,Female,ALL,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,97,79,123,119,810,758,74.0,42.3729,538.9831,93.0818
+2023/2024,Female,ALL,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,91,75,115,109,716,669,74.4681,41.8182,510.9091,92.8826
+2023/2024,Female,ALL,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,80,64,100,95,668,622,73.1707,41.6667,545.8333,92.7481
+2023/2024,Female,ALL,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,89,73,109,104,622,582,73.913,42.3077,469.2308,93.0328
+2023/2024,Female,ALL,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,119,103,144,138,920,840,78.6885,42.029,523.1884,90.8587
+2023/2024,Female,ALL,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,109,94,140,138,889,789,78.5714,43.2836,520.8955,88.2521
+2023/2024,Female,ALL,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,119,103,140,138,859,789,78.6885,43.2836,502.9851,91.3947
+2023/2024,Female,ALL,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,113,99,138,133,935,856,79.3103,42.4242,556.0606,91.0082
+2023/2024,Female,ALL,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,123,107,144,138,889,807,79.3651,42.029,505.7971,90.2579
+2023/2024,Female,ALL,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,132,116,167,161,1083,994,79.4118,42.5,531.25,91.2941
+2023/2024,Female,ALL,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,123,107,151,147,907,820,79.3651,43.0556,494.4444,89.8876
+2023/2024,Female,ALL,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,115,101,148,142,971,874,79.661,42.2535,536.6197,89.5013
+2023/2024,Female,ALL,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,138,120,178,171,1147,1027,78.8732,42.3529,529.4118,89.1111
+2023/2024,Female,ALL,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,121,105,146,142,922,843,79.0323,42.8571,517.1429,90.884
+2023/2024,Female,ALL,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,95,84,115,109,711,653,79.5918,41.8182,507.2727,91.3978
+2023/2024,Female,ALL,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,128,112,163,157,1142,1027,78.7879,42.3077,574.359,89.5089
+2023/2024,Female,ALL,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,124,107,157,152,986,889,78.125,42.6667,516.0,89.6641
+2023/2024,Female,ALL,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,107,92,138,133,920,853,78.1818,42.4242,546.9697,92.2438
+2023/2024,Female,ALL,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,117,101,142,138,889,789,78.3333,42.6471,513.2353,88.2521
+2023/2024,Female,Disabled,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,4,4,4,5,41,36,100.0,50.0,800.0,87.5
+2023/2024,Female,Disabled,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,4,4,4,5,56,49,100.0,50.0,1100.0,86.3636
+2023/2024,Female,Disabled,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,4,4,6,5,41,36,100.0,33.3333,533.3333,87.5
+2023/2024,Female,Disabled,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,4,4,4,5,56,49,100.0,50.0,1100.0,86.3636
+2023/2024,Female,Disabled,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,4,4,4,5,56,54,100.0,50.0,1100.0,95.4545
+2023/2024,Female,Disabled,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,4,4,6,5,56,54,100.0,33.3333,733.3333,95.4545
+2023/2024,Female,Disabled,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,6,4,6,5,56,49,66.6667,33.3333,733.3333,86.3636
+2023/2024,Female,Disabled,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,4,4,4,5,56,49,100.0,50.0,1100.0,86.3636
+2023/2024,Female,Disabled,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,4,4,6,5,56,49,100.0,33.3333,733.3333,86.3636
+2023/2024,Female,Disabled,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,4,4,6,5,56,54,100.0,33.3333,733.3333,95.4545
+2023/2024,Female,Disabled,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,4,4,6,5,56,49,100.0,33.3333,733.3333,86.3636
+2023/2024,Female,Disabled,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,4,4,6,5,56,49,100.0,33.3333,733.3333,86.3636
+2023/2024,Female,Disabled,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,4,4,6,5,41,36,100.0,33.3333,533.3333,87.5
+2023/2024,Female,Disabled,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,4,4,4,5,56,54,100.0,50.0,1100.0,95.4545
+2023/2024,Female,Disabled,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,4,4,4,5,56,49,100.0,50.0,1100.0,86.3636
+2023/2024,Female,Disabled,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,6,4,8,9,46,44,66.6667,50.0,450.0,94.4444
+2023/2024,Female,Disabled,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,8,6,8,9,46,44,75.0,50.0,450.0,94.4444
+2023/2024,Female,Disabled,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,6,4,8,9,46,44,66.6667,50.0,450.0,94.4444
+2023/2024,Female,Disabled,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,6,4,8,9,46,44,66.6667,50.0,450.0,94.4444
+2023/2024,Female,Disabled,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,8,6,8,9,48,46,75.0,50.0,475.0,94.7368
+2023/2024,Female,Disabled,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,8,6,10,9,51,49,75.0,40.0,400.0,95.0
+2023/2024,Female,Disabled,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,8,6,8,9,46,44,75.0,50.0,450.0,94.4444
+2023/2024,Female,Disabled,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,6,4,8,9,46,44,66.6667,50.0,450.0,94.4444
+2023/2024,Female,Disabled,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,8,6,8,9,46,44,75.0,50.0,450.0,94.4444
+2023/2024,Female,Disabled,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,8,6,8,9,54,49,75.0,50.0,525.0,90.4762
+2023/2024,Female,Disabled,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,6,4,8,9,54,49,66.6667,50.0,525.0,90.4762
+2023/2024,Female,Disabled,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,8,6,8,9,54,49,75.0,50.0,525.0,90.4762
+2023/2024,Female,Disabled,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,8,6,8,9,48,46,75.0,50.0,475.0,94.7368
+2023/2024,Female,Disabled,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,6,4,8,9,54,49,66.6667,50.0,525.0,90.4762
+2023/2024,Female,Disabled,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,8,6,10,9,46,44,75.0,40.0,360.0,94.4444
+2023/2024,Female,Disabled,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,8,6,10,9,46,41,75.0,40.0,360.0,88.8889
+2023/2024,Female,Disabled,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,8,6,10,9,59,51,75.0,40.0,460.0,86.9565
+2023/2024,Female,Disabled,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,8,6,10,9,59,51,75.0,40.0,460.0,86.9565
+2023/2024,Female,Disabled,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,8,6,10,9,46,41,75.0,40.0,360.0,88.8889
+2023/2024,Female,Disabled,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,10,9,10,9,59,51,80.0,40.0,460.0,86.9565
+2023/2024,Female,Disabled,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,10,9,13,14,69,61,80.0,50.0,450.0,88.8889
+2023/2024,Female,Disabled,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,10,9,10,9,59,51,80.0,40.0,460.0,86.9565
+2023/2024,Female,Disabled,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,8,6,10,9,59,51,75.0,40.0,460.0,86.9565
+2023/2024,Female,Disabled,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,12,11,13,14,59,51,83.3333,50.0,383.3333,86.9565
+2023/2024,Female,Disabled,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,10,9,13,14,59,51,80.0,50.0,383.3333,86.9565
+2023/2024,Female,Disabled,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,8,6,8,9,59,51,75.0,50.0,575.0,86.9565
+2023/2024,Female,Disabled,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,10,9,13,14,69,61,80.0,50.0,450.0,88.8889
+2023/2024,Female,Disabled,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,10,9,13,14,69,61,80.0,50.0,450.0,88.8889
+2023/2024,Female,Disabled,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,8,6,10,9,46,41,75.0,40.0,360.0,88.8889
+2023/2024,Female,Disabled,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,10,9,13,14,59,51,80.0,50.0,383.3333,86.9565
+2023/2024,Male,ALL,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,45,41,56,57,400,364,82.6087,44.4444,581.4815,90.4459
+2023/2024,Male,ALL,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,39,34,48,47,336,318,80.0,43.4783,573.913,93.9394
+2023/2024,Male,ALL,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,47,41,56,57,331,318,79.1667,44.4444,481.4815,95.3846
+2023/2024,Male,ALL,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,45,41,54,52,423,415,82.6087,42.3077,638.4615,97.5904
+2023/2024,Male,ALL,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,47,41,56,57,380,341,79.1667,44.4444,551.8519,89.2617
+2023/2024,Male,ALL,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,49,43,61,62,446,446,80.0,44.8276,603.4483,99.4286
+2023/2024,Male,ALL,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,49,43,56,57,352,318,80.0,44.4444,511.1111,89.8551
+2023/2024,Male,ALL,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,49,43,61,57,420,392,80.0,41.3793,568.9655,92.7273
+2023/2024,Male,ALL,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,54,49,69,66,464,412,82.1429,42.4242,551.5152,88.4615
+2023/2024,Male,ALL,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,47,41,54,52,357,320,79.1667,42.3077,538.4615,89.2857
+2023/2024,Male,ALL,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,39,34,48,47,313,313,80.0,43.4783,534.7826,99.187
+2023/2024,Male,ALL,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,53,47,65,62,489,464,81.4815,41.9355,619.3548,94.2708
+2023/2024,Male,ALL,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,49,43,61,57,423,364,80.0,41.3793,572.4138,85.5422
+2023/2024,Male,ALL,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,43,39,54,52,400,387,81.8182,42.3077,603.8462,96.1783
+2023/2024,Male,ALL,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,47,41,56,57,331,295,79.1667,44.4444,481.4815,88.4615
+2023/2024,Male,ALL,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,86,69,105,100,747,715,72.7273,42.0,586.0,95.2218
+2023/2024,Male,ALL,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,70,56,86,85,622,589,72.2222,43.9024,595.122,94.2623
+2023/2024,Male,ALL,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,80,64,94,90,637,628,73.1707,42.2222,555.5556,98.0
+2023/2024,Male,ALL,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,82,67,100,95,680,633,73.8095,41.6667,556.25,92.5094
+2023/2024,Male,ALL,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,86,69,105,100,657,610,72.7273,42.0,516.0,92.2481
+2023/2024,Male,ALL,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,93,75,117,114,805,733,72.9167,42.8571,564.2857,90.5063
+2023/2024,Male,ALL,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,86,69,105,100,696,628,72.7273,42.0,546.0,89.7436
+2023/2024,Male,ALL,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,84,69,105,100,767,758,74.4186,42.0,602.0,98.3389
+2023/2024,Male,ALL,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,86,69,111,109,810,758,72.7273,43.3962,600.0,93.0818
+2023/2024,Male,ALL,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,91,75,111,109,675,633,74.4681,43.3962,500.0,93.2075
+2023/2024,Male,ALL,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,74,60,92,90,584,548,73.6842,43.1818,520.4545,93.4498
+2023/2024,Male,ALL,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,97,79,119,114,846,812,74.0,42.1053,582.4561,95.4819
+2023/2024,Male,ALL,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,88,71,111,109,770,743,73.3333,43.3962,569.8113,96.0265
+2023/2024,Male,ALL,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,76,62,92,90,675,658,74.359,43.1818,602.2727,96.9811
+2023/2024,Male,ALL,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,89,73,111,109,716,671,73.913,43.3962,530.1887,93.2384
+2023/2024,Male,ALL,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,105,92,132,128,961,856,79.6296,42.8571,598.4127,88.5942
+2023/2024,Male,ALL,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,95,84,119,114,897,807,79.5918,42.1053,617.5439,89.4886
+2023/2024,Male,ALL,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,113,99,134,128,907,835,79.3103,42.1875,556.25,91.573
+2023/2024,Male,ALL,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,101,88,125,123,887,822,78.8462,43.3333,580.0,92.2414
+2023/2024,Male,ALL,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,119,103,146,142,948,835,78.6885,42.8571,531.4286,87.6344
+2023/2024,Male,ALL,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,117,101,144,138,1091,1009,78.3333,42.029,620.2899,92.0561
+2023/2024,Male,ALL,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,117,101,140,138,910,840,78.3333,43.2836,532.8358,91.8768
+2023/2024,Male,ALL,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,115,101,146,142,1111,989,79.661,42.8571,622.8571,88.5321
+2023/2024,Male,ALL,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,128,112,161,157,1307,1181,78.7879,42.8571,666.2338,89.8635
+2023/2024,Male,ALL,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,123,107,146,142,915,840,79.3651,42.8571,512.8571,91.3649
+2023/2024,Male,ALL,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,95,84,115,114,818,763,79.5918,43.6364,583.6364,92.8349
+2023/2024,Male,ALL,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,123,107,157,152,1269,1140,79.3651,42.6667,664.0,89.3574
+2023/2024,Male,ALL,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,117,101,151,147,1175,1063,78.3333,43.0556,640.2778,90.0217
+2023/2024,Male,ALL,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,109,94,136,133,1075,950,78.5714,43.0769,649.2308,87.9147
+2023/2024,Male,ALL,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,117,101,142,138,925,840,78.3333,42.6471,533.8235,90.3581
+2023/2024,Male,Disabled,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,4,4,4,5,48,44,100.0,50.0,950.0,89.4737
+2023/2024,Male,Disabled,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,4,4,4,5,48,44,100.0,50.0,950.0,89.4737
+2023/2024,Male,Disabled,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,4,4,4,5,33,28,100.0,50.0,650.0,84.6154
+2023/2024,Male,Disabled,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,4,4,4,5,64,56,100.0,50.0,1250.0,88.0
+2023/2024,Male,Disabled,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,4,4,4,5,48,44,100.0,50.0,950.0,89.4737
+2023/2024,Male,Disabled,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,4,4,4,5,64,61,100.0,50.0,1250.0,96.0
+2023/2024,Male,Disabled,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,4,4,4,5,33,28,100.0,50.0,650.0,84.6154
+2023/2024,Male,Disabled,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,4,4,4,5,48,44,100.0,50.0,950.0,89.4737
+2023/2024,Male,Disabled,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,4,4,6,5,48,44,100.0,33.3333,633.3333,89.4737
+2023/2024,Male,Disabled,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,4,4,4,5,48,46,100.0,50.0,950.0,94.7368
+2023/2024,Male,Disabled,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,4,4,4,5,64,56,100.0,50.0,1250.0,88.0
+2023/2024,Male,Disabled,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,4,4,4,5,64,59,100.0,50.0,1250.0,92.0
+2023/2024,Male,Disabled,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,4,4,6,5,48,44,100.0,33.3333,633.3333,89.4737
+2023/2024,Male,Disabled,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,4,4,4,5,64,56,100.0,50.0,1250.0,88.0
+2023/2024,Male,Disabled,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,4,4,6,5,33,28,100.0,33.3333,433.3333,84.6154
+2023/2024,Male,Disabled,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,6,4,8,9,54,49,66.6667,50.0,525.0,90.4762
+2023/2024,Male,Disabled,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,6,4,8,9,56,49,66.6667,50.0,550.0,86.3636
+2023/2024,Male,Disabled,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,6,4,6,5,56,49,66.6667,33.3333,733.3333,86.3636
+2023/2024,Male,Disabled,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,6,4,6,5,56,49,66.6667,33.3333,733.3333,86.3636
+2023/2024,Male,Disabled,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,6,4,8,9,56,49,66.6667,50.0,550.0,86.3636
+2023/2024,Male,Disabled,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,8,6,8,9,56,49,75.0,50.0,550.0,86.3636
+2023/2024,Male,Disabled,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,6,4,8,9,56,49,66.6667,50.0,550.0,86.3636
+2023/2024,Male,Disabled,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,6,4,8,9,56,49,66.6667,50.0,550.0,86.3636
+2023/2024,Male,Disabled,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,6,4,8,9,56,49,66.6667,50.0,550.0,86.3636
+2023/2024,Male,Disabled,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,8,6,8,9,56,51,75.0,50.0,550.0,90.9091
+2023/2024,Male,Disabled,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,6,4,8,9,56,51,66.6667,50.0,550.0,90.9091
+2023/2024,Male,Disabled,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,8,6,10,9,56,54,75.0,40.0,440.0,95.4545
+2023/2024,Male,Disabled,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,8,6,8,9,56,54,75.0,50.0,550.0,95.4545
+2023/2024,Male,Disabled,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,6,4,8,9,56,54,66.6667,50.0,550.0,95.4545
+2023/2024,Male,Disabled,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,8,6,10,9,56,49,75.0,40.0,440.0,86.3636
+2023/2024,Male,Disabled,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,8,6,10,9,61,59,75.0,40.0,480.0,95.8333
+2023/2024,Male,Disabled,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,8,6,8,9,51,49,75.0,50.0,500.0,95.0
+2023/2024,Male,Disabled,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,8,6,10,9,61,59,75.0,40.0,480.0,95.8333
+2023/2024,Male,Disabled,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,8,6,8,9,46,44,75.0,50.0,450.0,94.4444
+2023/2024,Male,Disabled,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,10,9,10,9,64,59,80.0,40.0,500.0,92.0
+2023/2024,Male,Disabled,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,10,9,13,14,64,59,80.0,50.0,416.6667,92.0
+2023/2024,Male,Disabled,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,10,9,10,9,61,59,80.0,40.0,480.0,95.8333
+2023/2024,Male,Disabled,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,8,6,10,9,66,59,75.0,40.0,520.0,88.4615
+2023/2024,Male,Disabled,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,10,9,13,14,66,59,80.0,50.0,433.3333,88.4615
+2023/2024,Male,Disabled,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,10,9,13,14,66,59,80.0,50.0,433.3333,88.4615
+2023/2024,Male,Disabled,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,8,6,10,9,61,59,75.0,40.0,480.0,95.8333
+2023/2024,Male,Disabled,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,10,9,13,14,79,69,80.0,50.0,516.6667,87.0968
+2023/2024,Male,Disabled,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,10,9,13,14,74,69,80.0,50.0,483.3333,93.1034
+2023/2024,Male,Disabled,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,10,9,10,9,54,49,80.0,40.0,420.0,90.4762
+2023/2024,Male,Disabled,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,12,11,15,14,61,59,83.3333,42.8571,342.8571,95.8333
+2024/2025,Female,ALL,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,89,73,54,47,20,18,73.9130,38.4615,30.7692,87.5000
+2024/2025,Female,ALL,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,84,69,50,47,20,18,74.4186,41.6667,33.3333,87.5000
+2024/2025,Female,ALL,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,84,69,50,47,15,15,74.4186,41.6667,25.0000,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,80,64,46,43,18,18,73.1707,40.9091,31.8182,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,89,73,54,47,18,15,73.9130,38.4615,26.9231,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,97,79,61,57,23,20,74.0000,41.3793,31.0345,88.8889
+2024/2025,Female,ALL,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,89,73,54,47,18,15,73.9130,38.4615,26.9231,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,84,69,52,47,18,18,74.4186,40.0000,28.0000,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,97,79,63,57,23,23,74.0000,40.0000,30.0000,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,84,69,52,47,20,18,74.4186,40.0000,32.0000,87.5000
+2024/2025,Female,ALL,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,72,62,42,38,18,15,78.3784,40.0000,35.0000,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,89,73,56,47,23,20,73.9130,37.0370,33.3333,88.8889
+2024/2025,Female,ALL,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,89,75,56,52,23,20,76.0870,40.7407,33.3333,88.8889
+2024/2025,Female,ALL,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,72,62,44,43,18,18,78.3784,42.8571,33.3333,100.0000
+2024/2025,Female,ALL,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,84,69,50,43,18,18,74.4186,37.5000,29.1667,100.0000
+2024/2025,Female,ALL,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,1200,912,732,645,268,246,68.8817,38.8571,30.0000,91.4286
+2024/2025,Female,ALL,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,1146,854,732,645,290,269,67.5722,38.8571,32.5714,92.1053
+2024/2025,Female,ALL,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,1229,912,746,678,255,228,67.2468,40.0560,28.0112,89.0000
+2024/2025,Female,ALL,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,1229,912,790,712,298,277,67.2468,39.6825,30.9524,92.3077
+2024/2025,Female,ALL,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,1284,972,776,712,260,254,68.6364,40.4313,27.4933,97.0588
+2024/2025,Female,ALL,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,1340,1000,820,740,329,310,67.6343,39.7959,32.9082,93.7984
+2024/2025,Female,ALL,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,1397,1061,820,740,283,261,68.8022,39.7959,28.3163,91.8919
+2024/2025,Female,ALL,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,1256,942,790,707,306,287,67.9567,39.4180,31.7460,93.3333
+2024/2025,Female,ALL,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,1480,1118,909,807,357,333,68.4625,39.0805,32.1839,92.8571
+2024/2025,Female,ALL,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,1229,912,732,645,255,228,67.2468,38.8571,28.5714,89.0000
+2024/2025,Female,ALL,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,1033,766,613,550,209,187,67.2316,39.5904,27.9863,89.0244
+2024/2025,Female,ALL,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,1313,972,805,707,321,292,67.1111,38.7013,32.7273,90.4762
+2024/2025,Female,ALL,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,1284,972,820,740,311,292,68.6364,39.7959,31.1224,93.4426
+2024/2025,Female,ALL,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,1116,824,686,612,283,266,66.8990,39.3293,33.8415,93.6937
+2024/2025,Female,ALL,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,1173,884,700,645,247,223,68.3250,40.5970,28.9552,89.6907
+2024/2025,Female,ALL,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,1760,1445,1083,968,403,366,74.3646,39.3822,30.5019,90.5063
+2024/2025,Female,ALL,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,1581,1286,987,897,367,325,73.6777,40.0424,30.5085,88.1944
+2024/2025,Female,ALL,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,1700,1380,1035,930,380,348,73.5698,39.5960,30.1010,91.2752
+2024/2025,Female,ALL,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,1819,1475,1146,1001,428,392,73.4759,38.5036,30.6569,91.0714
+2024/2025,Female,ALL,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,1819,1475,1083,968,392,371,73.4759,39.3822,29.7297,94.1558
+2024/2025,Female,ALL,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,2029,1664,1259,1139,497,461,74.3049,39.8671,32.3920,92.3077
+2024/2025,Female,ALL,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,1760,1413,1052,930,364,336,72.7072,38.9662,28.4294,91.6084
+2024/2025,Female,ALL,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,1879,1537,1179,1034,474,441,74.1201,38.6525,32.9787,92.4731
+2024/2025,Female,ALL,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,1910,1537,1194,1068,474,441,72.9124,39.4046,32.5744,92.4731
+2024/2025,Female,ALL,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,1968,1601,1210,1068,387,359,73.7154,38.8601,26.2522,92.1053
+2024/2025,Female,ALL,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,1492,1224,891,792,311,292,74.3155,39.2019,28.6385,93.4426
+2024/2025,Female,ALL,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,1910,1537,1210,1068,482,443,72.9124,38.8601,32.6425,91.5344
+2024/2025,Female,ALL,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,1968,1601,1242,1105,461,433,73.7154,39.2256,30.4714,93.3702
+2024/2025,Female,ALL,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,1581,1286,972,864,375,351,73.6777,39.1398,31.6129,93.1973
+2024/2025,Female,ALL,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,1850,1507,1114,1001,397,366,73.8170,39.5872,29.2683,91.6667
+2024/2025,Female,Disabled,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,10,9,4,5,3,3,80.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,10,9,8,5,5,3,80.0000,25.0000,50.0000,50.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,10,9,4,5,3,3,80.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,10,9,4,5,5,3,80.0000,50.0000,100.0000,50.0000
+2024/2025,Female,Disabled,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,10,9,4,5,5,3,80.0000,50.0000,100.0000,50.0000
+2024/2025,Female,Disabled,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,10,9,8,5,3,3,80.0000,25.0000,25.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,10,9,6,5,3,3,80.0000,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,10,9,4,5,3,3,80.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,10,6,6,5,3,3,60.0000,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,10,6,6,5,3,3,60.0000,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,8,6,6,5,3,3,75.0000,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,8,6,6,5,3,3,75.0000,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,8,6,4,5,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,8,6,4,5,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,8,6,6,5,3,3,75.0000,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,97,69,67,62,25,23,64.0000,40.6250,31.2500,90.0000
+2024/2025,Female,Disabled,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,97,69,67,62,25,23,64.0000,40.6250,31.2500,90.0000
+2024/2025,Female,Disabled,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,128,105,67,62,25,23,74.2424,40.6250,31.2500,90.0000
+2024/2025,Female,Disabled,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,97,69,67,62,25,23,64.0000,40.6250,31.2500,90.0000
+2024/2025,Female,Disabled,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,128,105,67,62,25,23,74.2424,40.6250,31.2500,90.0000
+2024/2025,Female,Disabled,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,128,105,67,62,31,28,74.2424,40.6250,37.5000,91.6667
+2024/2025,Female,Disabled,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,128,105,67,62,25,23,74.2424,40.6250,31.2500,90.0000
+2024/2025,Female,Disabled,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,97,69,67,62,25,23,64.0000,40.6250,31.2500,90.0000
+2024/2025,Female,Disabled,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,128,105,67,62,25,23,74.2424,40.6250,31.2500,90.0000
+2024/2025,Female,Disabled,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,128,103,67,62,23,23,72.7273,40.6250,28.1250,100.0000
+2024/2025,Female,Disabled,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,97,69,67,62,23,20,64.0000,40.6250,28.1250,88.8889
+2024/2025,Female,Disabled,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,128,103,82,62,23,20,72.7273,33.3333,23.0769,88.8889
+2024/2025,Female,Disabled,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,128,103,67,62,23,20,72.7273,40.6250,28.1250,88.8889
+2024/2025,Female,Disabled,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,97,69,50,28,23,20,64.0000,25.0000,37.5000,88.8889
+2024/2025,Female,Disabled,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,128,103,67,62,23,20,72.7273,40.6250,28.1250,88.8889
+2024/2025,Female,Disabled,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,136,107,92,81,25,23,71.4286,38.6364,22.7273,90.0000
+2024/2025,Female,Disabled,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,136,107,92,81,33,31,71.4286,38.6364,29.5455,92.3077
+2024/2025,Female,Disabled,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,171,142,92,81,31,28,75.0000,38.6364,27.2727,91.6667
+2024/2025,Female,Disabled,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,136,107,92,81,25,23,71.4286,38.6364,22.7273,90.0000
+2024/2025,Female,Disabled,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,171,142,92,81,31,28,75.0000,38.6364,27.2727,91.6667
+2024/2025,Female,Disabled,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,171,142,111,81,33,31,75.0000,32.0755,24.5283,92.3077
+2024/2025,Female,Disabled,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,169,142,92,81,31,28,75.8621,38.6364,27.2727,91.6667
+2024/2025,Female,Disabled,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,136,105,92,81,28,28,70.0000,38.6364,25.0000,100.0000
+2024/2025,Female,Disabled,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,169,142,109,81,28,28,75.8621,32.6923,21.1538,100.0000
+2024/2025,Female,Disabled,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,169,142,109,81,31,28,75.8621,32.6923,23.0769,91.6667
+2024/2025,Female,Disabled,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,136,105,73,81,31,28,70.0000,48.5714,34.2857,91.6667
+2024/2025,Female,Disabled,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,169,142,109,81,33,31,75.8621,32.6923,25.0000,92.3077
+2024/2025,Female,Disabled,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,169,142,109,81,33,31,75.8621,32.6923,25.0000,92.3077
+2024/2025,Female,Disabled,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,136,105,92,81,31,26,70.0000,38.6364,27.2727,83.3333
+2024/2025,Female,Disabled,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,169,142,109,81,33,31,75.8621,32.6923,25.0000,92.3077
+2024/2025,Male,ALL,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,84,69,50,43,20,18,74.4186,37.5000,33.3333,87.5000
+2024/2025,Male,ALL,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,66,54,40,38,15,15,73.5294,42.1053,31.5789,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,86,73,52,43,23,20,77.2727,36.0000,36.0000,88.8889
+2024/2025,Male,ALL,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,76,62,46,43,18,18,74.3590,40.9091,31.8182,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,84,69,50,43,20,18,74.4186,37.5000,33.3333,87.5000
+2024/2025,Male,ALL,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,89,73,54,47,23,20,73.9130,38.4615,34.6154,88.8889
+2024/2025,Male,ALL,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,82,69,50,43,18,18,76.1905,37.5000,29.1667,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,89,73,54,47,25,26,73.9130,38.4615,38.4615,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,82,69,54,47,25,23,76.1905,38.4615,38.4615,90.0000
+2024/2025,Male,ALL,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,82,69,48,43,20,18,76.1905,39.1304,34.7826,87.5000
+2024/2025,Male,ALL,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,68,58,40,38,15,15,77.1429,42.1053,31.5789,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,86,73,54,47,28,26,77.2727,38.4615,42.3077,90.9091
+2024/2025,Male,ALL,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,80,64,50,43,23,20,73.1707,37.5000,37.5000,88.8889
+2024/2025,Male,ALL,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,72,62,48,43,23,20,78.3784,39.1304,39.1304,88.8889
+2024/2025,Male,ALL,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,82,69,52,43,23,20,76.1905,36.0000,36.0000,88.8889
+2024/2025,Male,ALL,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,1173,882,715,645,311,287,68.1592,39.7661,35.6725,91.8033
+2024/2025,Male,ALL,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,978,736,627,550,257,233,68.1909,38.6667,33.6667,90.0990
+2024/2025,Male,ALL,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,1200,912,732,645,311,289,68.8817,38.8571,34.8571,92.6230
+2024/2025,Male,ALL,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,1146,854,700,612,306,277,67.5722,38.5075,35.8209,90.0000
+2024/2025,Male,ALL,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,1229,912,746,678,311,287,67.2468,40.0560,34.1737,91.8033
+2024/2025,Male,ALL,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,1229,912,776,707,321,305,67.2468,40.1617,33.9623,94.4444
+2024/2025,Male,ALL,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,1313,1000,776,678,329,302,69.0370,38.5445,34.7709,91.4729
+2024/2025,Male,ALL,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,1229,912,776,678,336,323,67.2468,38.5445,35.5795,95.4545
+2024/2025,Male,ALL,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,1284,972,805,707,362,341,68.6364,38.7013,36.8831,93.6620
+2024/2025,Male,ALL,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,1173,882,700,612,268,251,68.1592,38.5075,31.3433,93.3333
+2024/2025,Male,ALL,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,1006,766,613,550,255,225,69.0522,39.5904,34.1297,88.0000
+2024/2025,Male,ALL,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,1256,942,805,707,390,356,67.9567,38.7013,39.7403,90.8497
+2024/2025,Male,ALL,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,1173,882,746,678,326,295,68.1592,40.0560,35.8543,89.8438
+2024/2025,Male,ALL,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,1146,854,700,612,341,315,67.5722,38.5075,40.0000,91.7910
+2024/2025,Male,ALL,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,1173,882,686,612,285,269,68.1592,39.3293,34.1463,93.7500
+2024/2025,Male,ALL,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,1700,1380,1066,968,461,430,73.5698,40.0000,35.4902,92.8177
+2024/2025,Male,ALL,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,1371,1099,859,759,377,348,72.6241,38.9294,36.0097,91.8919
+2024/2025,Male,ALL,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,1760,1413,1052,930,461,425,72.7072,38.9662,35.9841,91.7127
+2024/2025,Male,ALL,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,1640,1318,1035,930,438,407,72.8351,39.5960,34.7475,92.4419
+2024/2025,Male,ALL,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,1789,1445,1066,963,431,389,73.1522,39.8039,33.1373,89.9408
+2024/2025,Male,ALL,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,1910,1537,1162,1034,502,466,72.9124,39.2086,35.4317,92.3858
+2024/2025,Male,ALL,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,1671,1350,987,897,400,366,73.2247,40.0424,33.2627,91.0828
+2024/2025,Male,ALL,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,1879,1537,1162,1034,517,484,74.1201,39.2086,36.5108,93.1034
+2024/2025,Male,ALL,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,1729,1413,1083,963,502,466,74.0157,39.1892,38.0309,92.3858
+2024/2025,Male,ALL,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,1850,1507,1131,1001,456,425,73.8170,39.0018,33.0869,92.7374
+2024/2025,Male,ALL,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,1371,1129,845,759,369,341,74.6099,39.6040,35.8911,91.7241
+2024/2025,Male,ALL,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,1910,1537,1179,1034,555,520,72.9124,38.6525,38.6525,93.1193
+2024/2025,Male,ALL,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,1850,1507,1131,1001,502,459,73.8170,39.0018,36.4140,90.8629
+2024/2025,Male,ALL,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,1550,1256,955,864,438,407,73.4003,39.8249,37.6368,92.4419
+2024/2025,Male,ALL,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,1789,1445,1066,963,418,382,73.1522,39.8039,32.1569,90.8537
+2024/2025,Male,Disabled,NABTEB,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,8,6,4,5,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ebu,South South,Delta,Oshimili North,Ebu,,8,6,4,5,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,8,6,4,5,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Agu,South South,Delta,Oshimili South,Agu,,8,6,4,5,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,8,6,4,5,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,8,6,4,5,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,8,6,4,5,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,8,6,4,5,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,8,6,4,5,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,8,6,4,5,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Eghoro,South South,Delta,Warri North,Eghoro,,8,6,4,5,5,5,75.0000,50.0000,100.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,8,6,4,5,5,5,75.0000,50.0000,100.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Bowen,South South,Delta,Warri South,Bowen,,8,6,4,5,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Edjeba,South South,Delta,Warri South,Edjeba,,8,6,4,0,5,5,75.0000,0.0000,100.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,8,6,6,0,3,3,75.0000,0.0000,33.3333,100.0000
+2024/2025,Male,Disabled,NECO,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,97,69,67,62,23,23,64.0000,40.6250,28.1250,100.0000
+2024/2025,Male,Disabled,NECO,ward,Ebu,South South,Delta,Oshimili North,Ebu,,97,69,50,28,18,18,64.0000,25.0000,29.1667,100.0000
+2024/2025,Male,Disabled,NECO,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,97,69,67,62,23,23,64.0000,40.6250,28.1250,100.0000
+2024/2025,Male,Disabled,NECO,ward,Agu,South South,Delta,Oshimili South,Agu,,97,69,67,62,23,23,64.0000,40.6250,28.1250,100.0000
+2024/2025,Male,Disabled,NECO,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,97,69,67,62,23,23,64.0000,40.6250,28.1250,100.0000
+2024/2025,Male,Disabled,NECO,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,97,69,67,62,25,26,64.0000,40.6250,31.2500,100.0000
+2024/2025,Male,Disabled,NECO,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,128,103,67,62,23,23,72.7273,40.6250,28.1250,100.0000
+2024/2025,Male,Disabled,NECO,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,97,69,67,62,23,23,64.0000,40.6250,28.1250,100.0000
+2024/2025,Male,Disabled,NECO,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,97,69,82,62,31,31,64.0000,33.3333,30.7692,100.0000
+2024/2025,Male,Disabled,NECO,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,97,69,67,62,23,20,64.0000,40.6250,28.1250,88.8889
+2024/2025,Male,Disabled,NECO,ward,Eghoro,South South,Delta,Warri North,Eghoro,,97,69,67,62,31,26,64.0000,40.6250,37.5000,83.3333
+2024/2025,Male,Disabled,NECO,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,97,69,67,62,28,26,64.0000,40.6250,34.3750,90.9091
+2024/2025,Male,Disabled,NECO,ward,Bowen,South South,Delta,Warri South,Bowen,,95,69,67,62,31,26,65.3061,40.6250,37.5000,83.3333
+2024/2025,Male,Disabled,NECO,ward,Edjeba,South South,Delta,Warri South,Edjeba,,95,69,65,62,31,26,65.3061,41.9355,38.7097,83.3333
+2024/2025,Male,Disabled,NECO,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,95,69,65,62,23,23,65.3061,41.9355,29.0323,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Akwukwu,South South,Delta,Oshimili North,Akwukwu,,136,105,92,81,31,28,70.0000,38.6364,27.2727,91.6667
+2024/2025,Male,Disabled,WAEC,ward,Ebu,South South,Delta,Oshimili North,Ebu,,136,105,73,81,31,28,70.0000,48.5714,34.2857,91.6667
+2024/2025,Male,Disabled,WAEC,ward,Ibusa  I,South South,Delta,Oshimili North,Ibusa  I,,169,142,92,81,31,28,75.8621,38.6364,27.2727,91.6667
+2024/2025,Male,Disabled,WAEC,ward,Agu,South South,Delta,Oshimili South,Agu,,136,105,92,81,25,23,70.0000,38.6364,22.7273,90.0000
+2024/2025,Male,Disabled,WAEC,ward,Anala-Amakom,South South,Delta,Oshimili South,Anala-Amakom,,136,105,92,81,25,23,70.0000,38.6364,22.7273,90.0000
+2024/2025,Male,Disabled,WAEC,ward,Cable Point I,South South,Delta,Oshimili South,Cable Point I,,169,142,109,119,33,28,75.8621,48.0769,25.0000,84.6154
+2024/2025,Male,Disabled,WAEC,ward,Army Barracks Area,South South,Delta,Uvwie,Army Barracks Area,,136,105,92,81,31,28,70.0000,38.6364,27.2727,91.6667
+2024/2025,Male,Disabled,WAEC,ward,Effurun I,South South,Delta,Uvwie,Effurun I,,136,105,92,81,38,36,70.0000,38.6364,34.0909,93.3333
+2024/2025,Male,Disabled,WAEC,ward,Effurun II,South South,Delta,Uvwie,Effurun II,,169,142,92,76,31,28,75.8621,36.3636,27.2727,91.6667
+2024/2025,Male,Disabled,WAEC,ward,Ebrohimi,South South,Delta,Warri North,Ebrohimi,,169,142,109,119,33,28,75.8621,48.0769,25.0000,84.6154
+2024/2025,Male,Disabled,WAEC,ward,Eghoro,South South,Delta,Warri North,Eghoro,,136,105,73,76,31,28,70.0000,45.7143,34.2857,91.6667
+2024/2025,Male,Disabled,WAEC,ward,Gbokoda,South South,Delta,Warri North,Gbokoda,,169,142,92,76,46,44,75.8621,36.3636,40.9091,94.4444
+2024/2025,Male,Disabled,WAEC,ward,Bowen,South South,Delta,Warri South,Bowen,,169,142,109,119,38,36,75.8621,48.0769,28.8462,93.3333
+2024/2025,Male,Disabled,WAEC,ward,Edjeba,South South,Delta,Warri South,Edjeba,,136,105,92,76,25,23,70.0000,36.3636,22.7273,90.0000
+2024/2025,Male,Disabled,WAEC,ward,G.R.A.,South South,Delta,Warri South,G.R.A.,,169,142,109,119,31,28,75.8621,48.0769,23.0769,91.6667

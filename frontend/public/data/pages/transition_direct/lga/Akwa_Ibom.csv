@@ -1,541 +1,541 @@
-session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,all,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,157,126,138,25,23,0,31,0,113,2
-2022/2023,Female,all,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,201,160,196,42,39,0,41,0,154,3
-2022/2023,Female,all,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,319,255,305,55,50,0,64,0,250,5
-2022/2023,Female,all,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,107,85,96,17,16,0,22,0,79,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,197,158,178,31,27,0,39,0,147,4
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,182,146,160,38,35,0,36,0,122,3
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,305,244,281,66,59,1,61,0,215,7
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,113,91,110,26,25,0,22,0,84,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,157,126,143,35,31,0,31,0,108,4
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,191,153,176,43,39,0,38,0,133,4
-2022/2023,Female,all,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,292,234,268,379,333,4,58,0,0,46
-2022/2023,Female,all,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,98,78,93,149,131,1,20,0,0,18
-2022/2023,Female,all,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,221,177,213,334,302,3,44,0,0,32
-2022/2023,Female,all,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,381,305,360,499,447,4,76,0,0,52
-2022/2023,Female,all,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,207,166,193,298,259,3,41,0,0,39
-2022/2023,Female,all,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,297,237,265,49,46,0,60,0,216,3
-2022/2023,Female,all,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,386,309,357,70,65,0,77,0,287,5
-2022/2023,Female,all,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,634,507,582,111,103,1,127,0,471,8
-2022/2023,Female,all,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,207,166,191,33,31,0,41,0,158,2
-2022/2023,Female,all,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,337,270,304,54,49,0,67,0,250,5
-2022/2023,Female,all,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,344,276,314,70,66,0,68,0,244,4
-2022/2023,Female,all,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,524,419,480,108,99,1,105,0,372,9
-2022/2023,Female,all,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,235,187,217,57,54,0,48,0,160,3
-2022/2023,Female,all,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,274,220,244,57,54,0,54,0,187,3
-2022/2023,Female,all,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,343,274,313,71,66,0,69,0,242,5
-2022/2023,Female,all,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,557,446,512,717,652,5,111,0,0,65
-2022/2023,Female,all,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,184,147,175,276,262,1,37,0,0,14
-2022/2023,Female,all,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,440,352,410,610,578,3,88,0,0,32
-2022/2023,Female,all,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,733,587,682,1008,914,8,146,0,0,94
-2022/2023,Female,all,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,393,314,357,516,497,2,79,0,0,19
-2022/2023,Female,all,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,412,329,376,63,58,0,83,0,313,5
-2022/2023,Female,all,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,540,432,519,108,99,1,108,0,411,9
-2022/2023,Female,all,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,786,629,728,138,127,1,157,0,590,11
-2022/2023,Female,all,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,284,227,265,49,45,0,57,0,216,4
-2022/2023,Female,all,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,501,401,465,77,71,0,100,0,388,6
-2022/2023,Female,all,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,438,350,390,84,77,1,88,0,306,7
-2022/2023,Female,all,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,723,579,640,143,129,1,144,0,497,14
-2022/2023,Female,all,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,266,213,256,61,57,0,53,0,195,4
-2022/2023,Female,all,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,371,297,336,76,69,1,74,0,260,7
-2022/2023,Female,all,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,460,368,427,100,94,0,92,0,327,6
-2022/2023,Female,all,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,763,611,712,966,890,6,152,0,0,76
-2022/2023,Female,all,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,238,191,223,357,329,2,47,0,0,28
-2022/2023,Female,all,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,564,451,500,765,716,4,113,0,0,49
-2022/2023,Female,all,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,945,755,867,1317,1220,8,190,0,0,97
-2022/2023,Female,all,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,511,408,458,652,601,4,103,0,0,51
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,14,11,11,4,3,0,3,0,7,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,19,15,15,5,4,0,4,0,10,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,33,26,29,8,7,0,7,0,21,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,9,7,7,3,2,0,2,0,4,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,19,15,15,5,4,0,4,0,10,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,19,15,15,6,5,0,4,0,9,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,31,25,27,9,8,0,6,0,18,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,10,8,10,3,2,0,2,0,7,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,14,11,11,4,3,0,3,0,7,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,19,15,15,6,5,0,4,0,9,1
-2022/2023,Female,disabled,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,26,21,26,49,48,0,5,0,0,1
-2022/2023,Female,disabled,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,10,8,10,20,19,0,2,0,0,1
-2022/2023,Female,disabled,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,20,16,17,39,38,0,4,0,0,1
-2022/2023,Female,disabled,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,36,29,33,69,64,0,7,0,0,5
-2022/2023,Female,disabled,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,19,15,15,39,35,0,4,0,0,4
-2022/2023,Female,disabled,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,19,15,16,3,2,0,4,0,13,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,28,22,24,5,4,0,6,0,19,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,51,41,49,9,8,0,10,0,40,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,17,14,17,3,2,0,3,0,14,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,25,20,22,5,4,0,5,0,17,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,24,19,22,5,4,0,5,0,17,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,43,34,41,9,8,0,9,0,32,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,17,14,18,4,3,0,3,0,14,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,19,15,17,4,3,0,4,0,13,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,25,20,25,5,4,0,5,0,20,1
-2022/2023,Female,disabled,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,47,38,45,57,53,0,9,0,0,4
-2022/2023,Female,disabled,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,14,12,15,20,18,0,2,0,0,2
-2022/2023,Female,disabled,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,36,29,31,37,33,0,7,0,0,4
-2022/2023,Female,disabled,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,60,48,59,76,70,0,12,0,0,6
-2022/2023,Female,disabled,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,28,23,28,37,33,0,5,0,0,4
-2022/2023,Female,disabled,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,26,21,23,3,2,0,5,0,20,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,38,31,35,6,5,0,7,0,29,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,65,51,62,8,7,0,14,0,54,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,21,17,20,3,2,0,4,0,17,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,36,29,34,5,4,0,7,0,29,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,33,27,30,4,3,0,6,0,26,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,62,49,55,9,8,0,13,0,46,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,19,15,19,4,3,0,4,0,15,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,24,19,22,3,2,0,5,0,19,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,32,26,31,4,3,0,6,0,27,1
-2022/2023,Female,disabled,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,63,50,59,64,57,1,13,0,0,7
-2022/2023,Female,disabled,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,19,15,19,25,22,0,4,0,0,3
-2022/2023,Female,disabled,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,45,36,41,49,44,0,9,0,0,5
-2022/2023,Female,disabled,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,74,58,68,89,79,1,16,0,0,10
-2022/2023,Female,disabled,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,38,31,36,37,33,0,7,0,0,4
-2022/2023,Male,all,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,152,122,132,26,22,0,30,0,106,4
-2022/2023,Male,all,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,181,145,173,40,36,0,36,0,133,4
-2022/2023,Male,all,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,286,229,269,55,50,0,57,0,214,5
-2022/2023,Male,all,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,111,89,105,20,18,0,22,0,85,2
-2022/2023,Male,all,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,181,145,165,36,31,0,36,0,129,5
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,158,127,146,38,35,0,31,0,108,3
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,272,218,255,64,59,0,54,0,191,5
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,97,78,94,26,25,0,19,0,68,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,138,111,126,31,27,0,27,0,95,4
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,157,126,149,41,37,0,31,0,108,4
-2022/2023,Male,all,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,279,223,252,405,363,3,56,0,0,42
-2022/2023,Male,all,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,81,64,77,136,131,0,17,0,0,5
-2022/2023,Male,all,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,210,168,193,311,289,2,42,0,0,22
-2022/2023,Male,all,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,337,269,313,551,501,4,68,0,0,50
-2022/2023,Male,all,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,177,141,165,272,245,2,36,0,0,27
-2022/2023,Male,all,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,281,225,246,45,42,0,56,0,201,3
-2022/2023,Male,all,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,372,297,339,75,70,0,75,0,264,5
-2022/2023,Male,all,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,549,439,503,104,100,0,110,0,399,4
-2022/2023,Male,all,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,210,168,194,39,36,0,42,0,155,3
-2022/2023,Male,all,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,315,251,290,55,50,0,64,0,235,5
-2022/2023,Male,all,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,308,247,277,66,61,0,61,0,211,5
-2022/2023,Male,all,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,470,375,425,102,95,1,95,0,323,7
-2022/2023,Male,all,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,197,157,184,46,44,0,40,0,138,2
-2022/2023,Male,all,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,246,197,231,57,54,0,49,0,174,3
-2022/2023,Male,all,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,297,237,274,70,63,1,60,0,204,7
-2022/2023,Male,all,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,533,427,472,717,665,4,106,0,0,52
-2022/2023,Male,all,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,148,118,142,240,222,1,30,0,0,18
-2022/2023,Male,all,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,418,334,388,649,601,4,84,0,0,48
-2022/2023,Male,all,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,652,522,613,1031,958,6,130,0,0,73
-2022/2023,Male,all,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,318,254,301,480,443,3,64,0,0,37
-2022/2023,Male,all,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,381,305,349,68,62,0,76,0,281,6
-2022/2023,Male,all,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,445,356,419,92,85,1,89,0,327,7
-2022/2023,Male,all,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,713,571,664,144,131,1,142,0,520,13
-2022/2023,Male,all,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,270,216,238,46,42,0,54,0,192,4
-2022/2023,Male,all,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,459,367,405,81,74,1,92,0,324,7
-2022/2023,Male,all,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,394,316,358,85,77,1,78,0,273,8
-2022/2023,Male,all,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,634,508,574,140,128,1,126,0,434,12
-2022/2023,Male,all,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,226,181,221,63,57,0,45,0,158,6
-2022/2023,Male,all,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,321,257,300,75,69,0,64,0,225,6
-2022/2023,Male,all,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,366,293,341,87,77,1,73,0,254,10
-2022/2023,Male,all,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,721,577,654,966,880,7,144,0,0,86
-2022/2023,Male,all,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,188,150,173,328,292,3,38,0,0,36
-2022/2023,Male,all,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,533,427,486,830,756,6,106,0,0,74
-2022/2023,Male,all,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,835,668,781,1274,1169,8,167,0,0,105
-2022/2023,Male,all,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,453,362,408,639,611,2,91,0,0,28
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,14,11,11,4,3,0,3,0,7,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,16,13,12,5,4,0,3,1,7,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,27,22,24,8,7,0,5,0,16,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,9,7,10,3,2,0,2,0,7,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,16,13,12,5,4,0,3,1,7,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,16,13,12,6,5,0,3,1,6,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,27,22,24,9,8,0,5,0,15,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,9,7,8,3,2,0,2,0,5,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,12,9,9,4,3,0,3,0,5,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,16,13,12,6,5,0,3,1,6,1
-2022/2023,Male,disabled,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,25,20,22,49,46,0,5,0,0,3
-2022/2023,Male,disabled,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,9,7,8,20,19,0,2,0,0,1
-2022/2023,Male,disabled,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,18,15,16,39,38,0,3,0,0,1
-2022/2023,Male,disabled,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,29,24,24,69,64,0,5,0,0,5
-2022/2023,Male,disabled,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,17,13,14,39,35,0,4,0,0,4
-2022/2023,Male,disabled,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,19,15,19,4,3,0,4,0,15,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,26,21,25,5,4,0,5,0,20,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,47,37,42,8,7,0,10,0,34,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,16,13,15,3,2,0,3,0,12,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,22,17,20,5,4,0,5,0,15,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,22,18,20,6,5,0,4,0,14,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,36,29,31,8,7,0,7,0,23,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,16,12,15,4,3,0,4,0,11,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,17,14,15,4,3,0,3,0,11,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,21,17,20,5,4,0,4,0,15,1
-2022/2023,Male,disabled,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,43,35,39,49,44,0,8,0,0,5
-2022/2023,Male,disabled,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,12,9,13,20,18,0,3,0,0,2
-2022/2023,Male,disabled,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,34,27,31,39,35,0,7,0,0,4
-2022/2023,Male,disabled,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,51,41,49,69,62,1,10,0,0,7
-2022/2023,Male,disabled,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,26,21,25,37,33,0,5,0,0,4
-2022/2023,Male,disabled,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,25,20,23,4,3,0,5,0,19,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,34,27,31,6,5,0,7,0,25,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,56,44,53,8,7,0,12,0,45,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,22,18,21,3,2,0,4,0,18,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,34,27,29,5,4,0,7,0,24,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,29,23,26,4,3,0,6,0,22,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,51,41,47,9,8,0,10,0,38,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,17,14,17,4,3,0,3,0,13,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,23,18,22,5,4,0,5,0,17,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,27,21,25,4,3,0,6,0,21,1
-2022/2023,Male,disabled,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,62,49,58,76,68,1,13,0,0,8
-2022/2023,Male,disabled,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,17,13,17,25,22,0,4,0,0,3
-2022/2023,Male,disabled,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,41,33,37,49,44,0,8,0,0,5
-2022/2023,Male,disabled,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,68,54,66,79,70,1,14,0,0,9
-2022/2023,Male,disabled,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,36,29,35,47,42,0,7,0,0,5
-2023/2024,Female,all,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,170,136,154,18,16,0,34,0,136,2
-2023/2024,Female,all,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,220,176,201,24,22,0,44,0,177,2
-2023/2024,Female,all,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,337,270,313,38,36,0,67,0,275,2
-2023/2024,Female,all,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,112,90,107,12,11,0,22,0,95,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,213,171,201,23,21,0,42,0,178,2
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,202,162,183,36,33,0,40,0,147,3
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,301,241,276,55,51,0,60,0,221,4
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,111,89,104,24,23,0,22,0,80,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,164,131,154,30,26,0,33,0,124,4
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,201,161,183,36,31,0,40,0,147,5
-2023/2024,Female,all,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,308,246,275,280,242,3,62,0,0,38
-2023/2024,Female,all,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,98,79,94,115,104,1,19,0,0,11
-2023/2024,Female,all,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,249,200,225,268,230,3,49,0,0,38
-2023/2024,Female,all,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,421,337,385,428,402,2,84,0,0,26
-2023/2024,Female,all,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,217,173,201,235,221,1,44,0,0,14
-2023/2024,Female,all,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,293,234,262,28,25,0,59,0,234,3
-2023/2024,Female,all,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,449,360,414,50,47,0,89,0,364,3
-2023/2024,Female,all,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,643,514,599,73,67,0,129,0,526,6
-2023/2024,Female,all,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,208,166,185,21,19,0,42,0,164,2
-2023/2024,Female,all,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,379,304,349,40,38,0,75,0,309,2
-2023/2024,Female,all,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,375,300,332,61,60,0,75,0,271,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,569,456,528,101,93,1,113,0,427,8
-2023/2024,Female,all,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,244,195,226,50,45,0,49,0,176,5
-2023/2024,Female,all,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,313,250,285,55,51,0,63,0,230,4
-2023/2024,Female,all,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,346,277,328,65,60,0,69,0,263,5
-2023/2024,Female,all,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,581,465,520,534,504,2,116,0,0,30
-2023/2024,Female,all,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,189,151,180,216,206,1,38,0,0,10
-2023/2024,Female,all,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,451,361,418,459,424,3,90,0,0,35
-2023/2024,Female,all,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,752,601,712,788,732,4,151,0,0,56
-2023/2024,Female,all,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,411,329,373,386,371,1,82,0,0,15
-2023/2024,Female,all,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,407,326,365,39,35,0,81,0,326,4
-2023/2024,Female,all,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,594,475,558,65,61,0,119,0,493,4
-2023/2024,Female,all,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,863,690,794,93,85,1,173,0,701,8
-2023/2024,Female,all,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,284,227,251,25,22,0,57,0,226,3
-2023/2024,Female,all,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,512,409,467,49,45,0,103,0,418,4
-2023/2024,Female,all,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,508,407,462,84,76,1,101,0,378,8
-2023/2024,Female,all,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,767,614,706,136,126,1,153,0,570,10
-2023/2024,Female,all,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,281,225,266,51,50,0,56,0,215,1
-2023/2024,Female,all,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,412,329,389,79,73,0,83,0,310,6
-2023/2024,Female,all,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,482,386,440,87,79,1,96,0,353,8
-2023/2024,Female,all,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,827,661,764,777,715,5,166,0,0,62
-2023/2024,Female,all,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,253,202,226,268,247,2,51,0,0,21
-2023/2024,Female,all,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,608,486,553,657,601,4,122,0,0,56
-2023/2024,Female,all,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,1022,817,960,1125,1028,8,205,0,0,97
-2023/2024,Female,all,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,558,446,504,565,509,4,112,0,0,56
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,14,11,12,3,2,0,3,0,9,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,20,16,18,4,3,0,4,0,14,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,33,27,30,5,4,0,6,0,25,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,9,7,9,2,1,0,2,0,7,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,19,15,16,3,2,0,4,0,13,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,19,15,16,6,5,0,4,0,10,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,32,26,28,9,8,0,6,0,19,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,10,8,9,3,2,0,2,0,6,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,14,11,12,4,3,0,3,0,8,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,19,15,16,5,4,0,4,0,11,1
-2023/2024,Female,disabled,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,27,22,25,43,40,0,5,0,0,3
-2023/2024,Female,disabled,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,10,8,9,18,16,0,2,0,0,2
-2023/2024,Female,disabled,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,21,17,18,36,32,0,4,0,0,4
-2023/2024,Female,disabled,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,37,30,34,54,53,0,7,0,0,1
-2023/2024,Female,disabled,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,19,15,16,29,28,0,4,0,0,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,19,15,18,2,1,0,4,0,16,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,32,26,29,3,2,0,6,0,26,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,51,41,49,6,5,0,10,0,43,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,16,13,15,1,0,0,3,0,14,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,29,24,28,3,2,0,5,0,25,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,28,22,24,5,4,0,6,0,19,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,47,37,45,7,6,0,10,0,38,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,17,14,17,3,2,0,3,0,14,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,21,17,18,3,2,0,4,0,15,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,27,22,25,4,3,0,5,0,21,1
-2023/2024,Female,disabled,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,49,40,46,43,40,0,9,0,3,3
-2023/2024,Female,disabled,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,15,12,15,14,13,0,3,0,1,1
-2023/2024,Female,disabled,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,34,27,31,29,26,0,7,0,2,3
-2023/2024,Female,disabled,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,57,46,55,48,43,0,11,0,7,5
-2023/2024,Female,disabled,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,31,25,30,27,24,0,6,0,3,3
-2023/2024,Female,disabled,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,29,23,26,3,2,0,6,0,23,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,45,36,40,4,3,0,9,0,36,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,72,57,69,7,6,0,15,0,62,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,22,18,20,1,0,0,4,0,19,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,38,30,33,3,2,0,8,0,30,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,37,29,31,4,3,0,8,0,27,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,61,49,56,8,7,0,12,0,48,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,22,17,22,3,2,0,5,0,19,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,27,22,25,4,3,0,5,0,21,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,38,30,36,7,6,0,8,0,29,1
-2023/2024,Female,disabled,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,68,53,62,50,47,0,15,0,12,3
-2023/2024,Female,disabled,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,22,17,20,18,17,0,5,0,2,1
-2023/2024,Female,disabled,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,49,39,45,45,40,0,10,0,0,5
-2023/2024,Female,disabled,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,80,63,76,79,64,1,17,0,0,15
-2023/2024,Female,disabled,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,45,36,41,41,31,1,9,0,0,10
-2023/2024,Male,all,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,167,134,153,16,15,0,33,0,137,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,201,161,191,26,23,0,40,0,165,3
-2023/2024,Male,all,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,301,241,284,34,32,0,60,0,250,2
-2023/2024,Male,all,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,106,85,99,12,11,0,21,0,87,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,193,154,174,22,20,0,39,0,152,2
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,177,142,164,37,31,0,35,0,127,6
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,277,221,254,53,49,0,56,0,201,4
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,104,83,103,24,23,0,21,0,79,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,142,114,126,30,26,0,28,0,96,4
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,174,139,163,38,36,0,35,0,125,2
-2023/2024,Male,all,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,311,249,284,332,303,2,62,0,0,29
-2023/2024,Male,all,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,83,66,78,104,92,1,17,0,0,12
-2023/2024,Male,all,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,237,190,222,289,267,2,47,0,0,22
-2023/2024,Male,all,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,371,297,350,442,402,3,74,0,0,40
-2023/2024,Male,all,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,185,148,175,191,172,2,37,0,0,19
-2023/2024,Male,all,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,279,223,246,30,27,0,56,0,216,3
-2023/2024,Male,all,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,378,302,356,49,46,0,76,0,307,3
-2023/2024,Male,all,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,564,451,527,66,63,0,113,0,461,3
-2023/2024,Male,all,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,197,157,181,23,21,0,40,0,158,2
-2023/2024,Male,all,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,340,272,309,37,34,0,68,0,272,3
-2023/2024,Male,all,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,349,279,321,70,65,0,70,0,251,5
-2023/2024,Male,all,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,503,402,456,96,91,0,101,0,360,5
-2023/2024,Male,all,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,207,166,201,48,46,0,41,0,153,2
-2023/2024,Male,all,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,262,209,234,50,45,0,53,0,184,5
-2023/2024,Male,all,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,302,241,281,61,57,0,61,0,220,4
-2023/2024,Male,all,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,572,458,528,591,536,4,114,0,0,55
-2023/2024,Male,all,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,155,124,139,179,165,1,31,0,0,14
-2023/2024,Male,all,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,440,352,391,440,412,2,88,0,0,28
-2023/2024,Male,all,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,706,564,647,824,761,5,142,0,0,63
-2023/2024,Male,all,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,330,264,299,348,320,2,66,0,0,28
-2023/2024,Male,all,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,358,286,319,38,35,0,72,0,281,3
-2023/2024,Male,all,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,489,391,459,62,56,0,98,0,397,6
-2023/2024,Male,all,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,719,576,659,80,73,1,143,0,579,7
-2023/2024,Male,all,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,280,224,262,31,28,0,56,0,231,3
-2023/2024,Male,all,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,449,360,404,48,45,0,89,0,356,3
-2023/2024,Male,all,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,457,366,423,82,74,1,91,0,341,8
-2023/2024,Male,all,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,684,547,611,129,117,1,137,0,482,12
-2023/2024,Male,all,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,252,201,247,56,51,0,51,0,191,5
-2023/2024,Male,all,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,368,294,345,75,68,1,74,0,270,7
-2023/2024,Male,all,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,417,334,381,83,74,1,83,0,298,9
-2023/2024,Male,all,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,796,637,718,847,785,5,159,0,0,62
-2023/2024,Male,all,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,199,160,190,242,218,2,39,0,0,24
-2023/2024,Male,all,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,581,465,532,628,584,4,116,0,0,44
-2023/2024,Male,all,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,908,726,833,1002,911,7,182,0,0,91
-2023/2024,Male,all,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,473,379,442,560,526,3,94,0,0,34
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,13,10,11,3,2,0,3,0,8,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,17,14,15,4,3,0,3,0,11,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,30,24,27,5,4,0,6,0,22,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,9,7,8,2,1,0,2,0,6,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,16,13,13,2,1,0,3,0,11,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,16,13,13,6,5,0,3,0,7,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,27,22,25,9,8,0,5,0,16,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,9,7,8,3,2,0,2,0,5,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,12,9,10,4,3,0,3,0,6,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,16,13,13,5,4,0,3,0,8,1
-2023/2024,Male,disabled,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,27,22,23,45,40,0,5,0,0,5
-2023/2024,Male,disabled,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,9,7,8,18,16,0,2,0,0,2
-2023/2024,Male,disabled,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,19,15,17,34,32,0,4,0,0,2
-2023/2024,Male,disabled,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,31,25,27,56,55,0,6,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,16,13,13,22,21,0,3,0,0,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,19,15,18,2,1,0,4,0,16,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,27,22,27,3,2,0,5,0,24,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,50,39,45,5,4,0,11,0,40,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,16,13,14,1,0,0,3,0,13,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,26,21,24,3,2,0,5,0,21,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,23,18,20,5,4,0,5,0,15,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,41,33,38,8,7,0,8,0,30,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,14,12,14,3,2,0,2,0,11,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,18,14,15,3,2,0,4,0,12,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,21,17,21,4,3,0,4,0,17,1
-2023/2024,Male,disabled,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,49,39,46,43,40,0,10,0,3,3
-2023/2024,Male,disabled,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,12,10,11,14,13,0,2,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,34,27,31,29,26,0,7,0,2,3
-2023/2024,Male,disabled,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,55,44,51,48,43,0,11,0,3,5
-2023/2024,Male,disabled,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,27,21,24,27,24,0,6,0,0,3
-2023/2024,Male,disabled,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,25,20,21,2,1,0,5,0,19,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,36,29,34,4,3,0,7,0,30,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,62,50,59,5,4,0,12,0,54,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,22,18,21,2,1,0,4,0,19,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,35,28,33,3,2,0,7,0,30,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,32,26,28,4,3,0,6,0,24,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,57,45,49,8,7,0,12,0,41,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,21,17,21,3,2,0,4,0,18,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,25,20,22,4,3,0,5,0,18,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,31,25,28,6,5,0,6,0,22,1
-2023/2024,Male,disabled,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,69,54,62,56,52,0,15,0,6,4
-2023/2024,Male,disabled,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,18,14,18,18,17,0,4,0,0,1
-2023/2024,Male,disabled,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,47,37,44,45,40,0,10,0,0,5
-2023/2024,Male,disabled,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,70,56,65,66,60,0,14,0,0,6
-2023/2024,Male,disabled,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,37,30,36,34,31,0,7,0,2,3
-2024/2025,Female,all,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,316,253,177,85,78,0.503234,63,76,92,7
-2024/2025,Female,all,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,424,339,237,113,104,0.674028,85,102,124,9
-2024/2025,Female,all,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,644,515,361,172,159,1.024767,129,154,189,13
-2024/2025,Female,all,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,222,178,124,60,55,0.353789,44,54,64,5
-2024/2025,Female,all,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,422,337,236,113,104,0.670978,85,101,123,9
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,385,308,216,103,95,0.61303,77,92,113,8
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,561,449,314,150,138,0.893621,112,135,164,12
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,232,185,130,62,57,0.369038,47,55,68,5
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,324,259,181,87,80,0.515433,65,78,94,7
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,391,313,219,105,96,0.62218,78,94,114,9
-2024/2025,Female,all,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,613,491,343,164,151,0.975969,122,148,179,13
-2024/2025,Female,all,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,197,158,111,53,49,0.31414,39,47,58,4
-2024/2025,Female,all,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,462,369,259,124,114,0.735026,93,110,135,10
-2024/2025,Female,all,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,753,602,422,202,186,1.198612,151,180,220,16
-2024/2025,Female,all,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,420,336,235,112,103,0.667929,84,101,123,9
-2024/2025,Female,all,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,540,432,303,145,133,0.860072,108,129,158,12
-2024/2025,Female,all,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,772,618,432,207,190,1.229111,154,186,225,17
-2024/2025,Female,all,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,1157,926,648,310,285,1.842141,231,278,338,25
-2024/2025,Female,all,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,414,331,232,111,102,0.658779,83,99,121,9
-2024/2025,Female,all,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,742,593,415,199,183,1.180312,149,178,216,16
-2024/2025,Female,all,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,663,530,371,178,163,1.055266,133,159,193,15
-2024/2025,Female,all,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,1108,886,620,297,273,1.762843,222,266,323,24
-2024/2025,Female,all,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,427,342,239,114,105,0.680128,85,103,125,9
-2024/2025,Female,all,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,567,454,318,152,140,0.902771,113,136,166,12
-2024/2025,Female,all,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,736,589,412,197,181,1.171162,147,177,215,16
-2024/2025,Female,all,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,1102,881,617,295,271,1.753694,221,264,322,24
-2024/2025,Female,all,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,383,307,215,103,94,0.60998,76,92,112,9
-2024/2025,Female,all,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,891,713,499,239,220,1.418204,178,214,260,19
-2024/2025,Female,all,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,1422,1137,796,381,350,2.263027,285,341,415,31
-2024/2025,Female,all,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,742,593,415,199,183,1.180312,149,178,216,16
-2024/2025,Female,all,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,765,612,428,205,188,1.216911,153,184,223,17
-2024/2025,Female,all,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,996,797,558,267,245,1.585949,199,239,291,22
-2024/2025,Female,all,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,1652,1321,925,442,407,2.629016,331,396,483,35
-2024/2025,Female,all,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,538,431,302,144,133,0.857022,107,129,158,11
-2024/2025,Female,all,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,1035,828,579,277,255,1.646947,207,249,302,22
-2024/2025,Female,all,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,973,779,545,261,240,1.54935,194,234,284,21
-2024/2025,Female,all,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,1424,1139,797,381,351,2.266077,285,342,416,30
-2024/2025,Female,all,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,592,474,332,159,146,0.94242,118,142,173,13
-2024/2025,Female,all,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,742,593,415,199,183,1.180312,149,178,216,16
-2024/2025,Female,all,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,996,797,558,267,245,1.585949,199,239,291,22
-2024/2025,Female,all,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,1408,1127,789,377,347,2.241678,281,338,412,30
-2024/2025,Female,all,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,485,388,271,130,119,0.771625,97,117,141,11
-2024/2025,Female,all,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,1211,969,678,324,298,1.927538,242,291,354,26
-2024/2025,Female,all,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,1876,1501,1051,501,462,2.985854,375,450,550,39
-2024/2025,Female,all,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,1050,840,588,281,259,1.671346,210,252,307,22
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,27,21,15,7,7,0.042699,6,6,8,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,40,32,23,11,10,0.064048,8,9,12,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,61,49,34,16,15,0.097597,12,15,18,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,17,14,10,5,4,0.027449,3,4,5,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,36,29,20,10,9,0.057948,7,9,10,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,36,29,20,10,9,0.057948,7,9,10,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,59,48,33,16,15,0.094547,11,15,17,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,21,17,12,6,5,0.033549,4,5,6,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,27,21,15,7,7,0.042699,6,6,8,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,36,29,20,10,9,0.057948,7,9,10,1
-2024/2025,Female,disabled,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,52,41,29,14,13,0.082347,11,12,15,1
-2024/2025,Female,disabled,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,17,14,10,5,4,0.027449,3,4,5,1
-2024/2025,Female,disabled,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,40,32,23,11,10,0.064048,8,9,12,1
-2024/2025,Female,disabled,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,71,57,40,19,17,0.112846,14,17,21,2
-2024/2025,Female,disabled,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,36,29,20,10,9,0.057948,7,9,10,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,38,31,21,10,9,0.060998,7,10,11,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,54,43,30,14,13,0.085397,11,13,16,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,92,74,52,25,23,0.146395,18,22,27,2
-2024/2025,Female,disabled,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,34,28,19,9,9,0.054898,6,9,10,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,52,41,29,14,13,0.082347,11,12,15,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,48,38,27,13,12,0.076248,10,11,14,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,88,71,49,24,22,0.140295,17,22,25,2
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,29,23,16,8,7,0.045749,6,7,8,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,34,28,19,9,8,0.054898,6,9,10,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,52,41,29,14,13,0.082347,11,12,15,1
-2024/2025,Female,disabled,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,90,72,50,24,22,0.143345,18,22,26,2
-2024/2025,Female,disabled,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,29,23,16,8,7,0.045749,6,7,8,1
-2024/2025,Female,disabled,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,67,54,38,18,17,0.106747,13,16,20,1
-2024/2025,Female,disabled,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,111,89,62,30,27,0.176894,22,27,32,3
-2024/2025,Female,disabled,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,59,48,33,16,15,0.094547,11,15,17,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,52,41,29,14,13,0.082347,11,12,15,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,77,61,43,21,19,0.121996,16,18,22,2
-2024/2025,Female,disabled,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,132,106,74,35,33,0.210443,26,32,39,2
-2024/2025,Female,disabled,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,40,32,23,11,10,0.064048,8,9,12,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,71,57,40,19,17,0.112846,14,17,21,2
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,77,61,43,21,19,0.121996,16,18,22,2
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,119,95,67,32,29,0.189094,24,28,35,3
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,42,34,24,11,10,0.067098,8,10,13,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,50,40,28,13,12,0.079297,10,12,15,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,73,58,41,19,18,0.115896,15,17,22,1
-2024/2025,Female,disabled,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,128,103,72,34,32,0.204343,25,31,38,2
-2024/2025,Female,disabled,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,46,37,26,12,11,0.073198,9,11,14,1
-2024/2025,Female,disabled,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,104,83,58,28,26,0.164695,21,25,30,2
-2024/2025,Female,disabled,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,148,118,83,40,36,0.234842,30,35,43,4
-2024/2025,Female,disabled,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,82,66,46,22,20,0.131146,16,20,24,2
-2024/2025,Male,all,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,299,239,167,80,74,0.475785,60,72,87,6
-2024/2025,Male,all,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,366,293,205,98,90,0.582531,73,88,107,8
-2024/2025,Male,all,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,563,451,315,151,139,0.896671,112,136,164,12
-2024/2025,Male,all,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,222,178,124,60,55,0.353789,44,54,64,5
-2024/2025,Male,all,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,360,288,202,96,89,0.573382,72,86,106,7
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,328,262,184,88,81,0.521533,66,78,96,7
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,479,383,268,128,118,0.762476,96,115,140,10
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,218,175,122,58,54,0.347689,43,53,64,4
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,276,221,155,74,68,0.439186,55,66,81,6
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,330,264,185,88,81,0.524583,66,79,97,7
-2024/2025,Male,all,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,584,468,327,157,144,0.93022,116,141,170,13
-2024/2025,Male,all,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,148,118,83,39,36,0.234842,30,35,44,3
-2024/2025,Male,all,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,406,325,228,109,100,0.646579,81,97,119,9
-2024/2025,Male,all,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,686,549,384,184,169,1.091865,137,165,200,15
-2024/2025,Male,all,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,351,281,196,94,86,0.558132,70,85,102,8
-2024/2025,Male,all,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,502,402,281,134,124,0.799074,100,121,147,10
-2024/2025,Male,all,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,707,566,396,189,174,1.125414,141,170,207,15
-2024/2025,Male,all,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,1021,817,572,274,252,1.625598,204,245,298,22
-2024/2025,Male,all,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,416,333,233,111,102,0.661829,83,100,122,9
-2024/2025,Male,all,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,655,524,367,175,161,1.043067,131,157,192,14
-2024/2025,Male,all,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,592,474,332,159,146,0.94242,118,142,173,13
-2024/2025,Male,all,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,929,743,520,249,229,1.479203,186,223,271,20
-2024/2025,Male,all,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,345,276,193,92,85,0.548982,69,83,101,7
-2024/2025,Male,all,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,487,389,273,130,120,0.774675,98,116,143,10
-2024/2025,Male,all,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,617,494,346,165,152,0.982068,123,148,181,13
-2024/2025,Male,all,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,1102,881,617,295,271,1.753694,221,264,322,24
-2024/2025,Male,all,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,305,244,171,82,75,0.484934,61,73,89,7
-2024/2025,Male,all,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,841,673,471,225,207,1.338907,168,202,246,18
-2024/2025,Male,all,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,1284,1027,719,344,316,2.043434,257,308,375,28
-2024/2025,Male,all,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,648,518,363,173,160,1.030867,130,155,190,13
-2024/2025,Male,all,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,730,584,409,196,180,1.162013,146,175,213,16
-2024/2025,Male,all,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,889,711,498,238,219,1.415155,178,213,260,19
-2024/2025,Male,all,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,1380,1104,773,369,340,2.19593,276,331,404,29
-2024/2025,Male,all,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,508,406,284,136,125,0.808224,102,122,148,11
-2024/2025,Male,all,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,924,739,517,247,228,1.470053,185,222,270,19
-2024/2025,Male,all,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,853,682,478,228,210,1.357206,171,204,250,18
-2024/2025,Male,all,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,1336,1069,748,358,329,2.125782,267,321,390,29
-2024/2025,Male,all,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,540,432,303,145,133,0.860072,108,129,158,12
-2024/2025,Male,all,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,652,521,365,174,161,1.036967,131,156,191,13
-2024/2025,Male,all,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,818,655,458,219,202,1.302308,163,197,239,17
-2024/2025,Male,all,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,1387,1110,777,372,342,2.208129,277,333,405,30
-2024/2025,Male,all,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,401,320,224,107,99,0.63743,81,96,117,8
-2024/2025,Male,all,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,1138,911,637,305,280,1.811642,227,274,332,25
-2024/2025,Male,all,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,1740,1392,974,466,429,2.769311,348,418,508,37
-2024/2025,Male,all,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,893,714,500,239,220,1.421254,179,214,261,19
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,25,20,14,7,6,0.039649,5,6,7,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,31,25,17,8,8,0.048798,6,8,9,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,54,43,30,14,13,0.085397,11,13,16,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,17,14,10,5,4,0.027449,3,4,5,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,31,25,17,8,8,0.048798,6,8,9,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,31,24,17,8,8,0.048798,7,7,9,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,52,41,29,14,13,0.082347,11,12,15,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,19,15,11,5,5,0.030499,4,4,6,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,23,18,13,6,6,0.036599,5,5,7,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,31,25,17,8,8,0.048798,6,8,9,0
-2024/2025,Male,disabled,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,52,41,29,14,13,0.082347,11,12,15,1
-2024/2025,Male,disabled,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,15,12,9,4,4,0.024399,3,3,5,0
-2024/2025,Male,disabled,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,35,28,19,9,8,0.054898,7,9,10,1
-2024/2025,Male,disabled,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,58,46,32,15,14,0.091497,12,14,17,1
-2024/2025,Male,disabled,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,33,26,18,9,8,0.051848,7,8,9,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,35,28,19,9,8,0.054898,7,9,10,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,50,40,28,13,12,0.079297,10,12,15,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,82,66,46,22,20,0.131146,16,20,24,2
-2024/2025,Male,disabled,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,33,26,18,9,8,0.051848,7,8,9,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,48,38,27,13,12,0.076248,10,11,14,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,44,35,25,12,11,0.070148,9,10,13,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,77,61,43,21,19,0.121996,16,18,22,2
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,25,20,14,7,6,0.039649,5,6,7,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,34,28,19,9,8,0.054898,6,9,10,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,46,37,26,12,11,0.073198,9,11,14,1
-2024/2025,Male,disabled,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,94,75,53,25,23,0.149445,19,22,28,2
-2024/2025,Male,disabled,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,25,20,14,7,6,0.039649,5,6,7,1
-2024/2025,Male,disabled,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,65,52,36,17,16,0.103697,13,16,19,1
-2024/2025,Male,disabled,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,98,78,55,26,24,0.155545,20,23,29,2
-2024/2025,Male,disabled,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,54,43,30,14,13,0.085397,11,13,16,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,52,41,29,14,13,0.082347,11,12,15,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,65,52,36,17,16,0.103697,13,16,19,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,117,94,65,31,29,0.186044,23,29,34,2
-2024/2025,Male,disabled,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,40,32,23,11,10,0.064048,8,9,12,1
-2024/2025,Male,disabled,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,63,51,35,17,16,0.100647,12,16,18,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,65,52,37,17,16,0.103697,13,15,20,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,102,81,57,27,25,0.161645,21,24,30,2
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,36,29,20,10,9,0.057948,7,9,10,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,44,35,25,12,11,0.070148,9,10,13,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,59,48,33,16,15,0.094547,11,15,17,1
-2024/2025,Male,disabled,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,125,100,70,33,31,0.198244,25,30,37,2
-2024/2025,Male,disabled,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,36,29,20,10,9,0.057948,7,9,10,1
-2024/2025,Male,disabled,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,94,75,53,25,23,0.149445,19,22,28,2
-2024/2025,Male,disabled,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,140,112,78,37,34,0.222643,28,34,41,3
-2024/2025,Male,disabled,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,71,57,40,19,17,0.112846,14,17,21,2
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,80,207,216,35,32,0,31,0,113,2
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,103,263,306,58,54,0,41,0,154,3
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,163,419,477,76,69,0,64,0,250,5
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,55,140,150,24,22,0,22,0,79,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,100,260,278,43,38,0,39,0,147,4
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,93,240,250,53,49,0,36,0,122,3
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,156,401,439,92,82,19,61,0,215,7
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,58,150,172,36,35,0,22,0,84,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,80,207,224,49,43,0,31,0,108,4
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,97,251,275,60,54,0,38,0,133,4
+2022/2023,Female,ALL,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,149,385,419,527,463,75,58,0,0,46
+2022/2023,Female,ALL,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,50,128,145,207,182,19,20,0,0,18
+2022/2023,Female,ALL,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,113,291,333,464,420,56,44,0,0,32
+2022/2023,Female,ALL,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,194,501,563,693,621,75,76,0,0,52
+2022/2023,Female,ALL,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,106,273,302,414,360,56,41,0,0,39
+2022/2023,Female,ALL,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,151,390,414,68,64,0,60,0,216,3
+2022/2023,Female,ALL,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,197,508,558,97,90,0,77,0,287,5
+2022/2023,Female,ALL,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,323,833,910,154,143,19,127,0,471,8
+2022/2023,Female,ALL,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,106,273,299,46,43,0,41,0,158,2
+2022/2023,Female,ALL,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,172,444,475,75,68,0,67,0,250,5
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,175,454,491,97,92,0,68,0,244,4
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,267,689,750,150,138,19,105,0,372,9
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,120,307,339,79,75,0,48,0,160,3
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,140,362,381,79,75,0,54,0,187,3
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,175,450,489,99,92,0,69,0,242,5
+2022/2023,Female,ALL,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,284,733,800,996,906,94,111,0,0,65
+2022/2023,Female,ALL,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,94,242,274,384,364,19,37,0,0,14
+2022/2023,Female,ALL,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,224,579,641,848,803,56,88,0,0,32
+2022/2023,Female,ALL,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,374,965,1066,1401,1270,150,146,0,0,94
+2022/2023,Female,ALL,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,200,516,558,717,691,37,79,0,0,19
+2022/2023,Female,ALL,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,210,541,588,88,81,0,83,0,313,5
+2022/2023,Female,ALL,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,275,710,811,150,138,19,108,0,411,9
+2022/2023,Female,ALL,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,401,1034,1138,192,176,19,157,0,590,11
+2022/2023,Female,ALL,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,145,373,414,68,63,0,57,0,216,4
+2022/2023,Female,ALL,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,256,659,727,107,99,0,100,0,388,6
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,223,575,610,117,107,19,88,0,306,7
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,369,952,1000,199,179,19,144,0,497,14
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,136,350,400,85,79,0,53,0,195,4
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,189,488,525,106,96,19,74,0,260,7
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,235,605,668,139,131,0,92,0,327,6
+2022/2023,Female,ALL,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,389,1004,1113,1342,1237,112,152,0,0,76
+2022/2023,Female,ALL,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,121,314,349,496,457,37,47,0,0,28
+2022/2023,Female,ALL,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,288,741,782,1063,995,75,113,0,0,49
+2022/2023,Female,ALL,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,482,1241,1355,1830,1695,150,190,0,0,97
+2022/2023,Female,ALL,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,261,671,716,906,835,75,103,0,0,51
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,7,18,17,6,4,0,3,0,7,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,10,25,23,7,6,0,4,0,10,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,17,43,45,11,10,0,7,0,21,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,5,12,11,4,3,0,2,0,4,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,10,25,23,7,6,0,4,0,10,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,10,25,23,8,7,0,4,0,9,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,16,41,42,13,11,0,6,0,18,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,5,13,16,4,3,0,2,0,7,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,7,18,17,6,4,0,3,0,7,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,10,25,23,8,7,0,4,0,9,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,13,35,41,68,67,0,5,0,0,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,5,13,16,28,26,0,2,0,0,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,10,26,27,54,53,0,4,0,0,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,18,48,52,96,89,0,7,0,0,5
+2022/2023,Female,Disabled,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,10,25,23,54,49,0,4,0,0,4
+2022/2023,Female,Disabled,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,10,25,25,4,3,0,4,0,13,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,14,36,38,7,6,0,6,0,19,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,26,67,77,13,11,0,10,0,40,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,9,23,27,4,3,0,3,0,14,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,13,33,34,7,6,0,5,0,17,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,12,31,34,7,6,0,5,0,17,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,22,56,64,13,11,0,9,0,32,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,9,23,28,6,4,0,3,0,14,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,10,25,27,6,4,0,4,0,13,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,13,33,39,7,6,0,5,0,20,1
+2022/2023,Female,Disabled,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,24,62,70,79,74,0,9,0,0,4
+2022/2023,Female,Disabled,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,7,20,23,28,25,0,2,0,0,2
+2022/2023,Female,Disabled,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,18,48,48,51,46,0,7,0,0,4
+2022/2023,Female,Disabled,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,31,79,92,106,97,0,12,0,0,6
+2022/2023,Female,Disabled,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,14,38,44,51,46,0,5,0,0,4
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,13,35,36,4,3,0,5,0,20,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,19,51,55,8,7,0,7,0,29,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,33,84,97,11,10,0,14,0,54,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,11,28,31,4,3,0,4,0,17,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,18,48,53,7,6,0,7,0,29,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,17,44,47,6,4,0,6,0,26,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,32,81,86,13,11,0,13,0,46,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,10,25,30,6,4,0,4,0,15,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,12,31,34,4,3,0,5,0,19,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,16,43,48,6,4,0,6,0,27,1
+2022/2023,Female,Disabled,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,32,82,92,89,79,19,13,0,0,7
+2022/2023,Female,Disabled,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,10,25,30,35,31,0,4,0,0,3
+2022/2023,Female,Disabled,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,23,59,64,68,61,0,9,0,0,5
+2022/2023,Female,Disabled,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,38,95,106,124,110,19,16,0,0,10
+2022/2023,Female,Disabled,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,19,51,56,51,46,0,7,0,0,4
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,78,201,206,36,31,0,30,0,106,4
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,92,238,270,56,50,0,36,0,133,4
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,146,376,421,76,69,0,57,0,214,5
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,57,146,164,28,25,0,22,0,85,2
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,92,238,258,50,43,0,36,0,129,5
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,81,209,228,53,49,0,31,0,108,3
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,139,358,399,89,82,0,54,0,191,5
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,49,128,147,36,35,0,19,0,68,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,70,182,197,43,38,0,27,0,95,4
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,80,207,233,57,51,0,31,0,108,4
+2022/2023,Male,ALL,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,142,367,394,563,504,56,56,0,0,42
+2022/2023,Male,ALL,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,41,105,120,189,182,0,17,0,0,5
+2022/2023,Male,ALL,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,107,276,302,432,402,37,42,0,0,22
+2022/2023,Male,ALL,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,172,442,489,766,696,75,68,0,0,50
+2022/2023,Male,ALL,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,90,232,258,378,340,37,36,0,0,27
+2022/2023,Male,ALL,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,143,370,385,63,58,0,56,0,201,3
+2022/2023,Male,ALL,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,190,488,530,104,97,0,75,0,264,5
+2022/2023,Male,ALL,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,280,722,786,145,139,0,110,0,399,4
+2022/2023,Male,ALL,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,107,276,303,54,50,0,42,0,155,3
+2022/2023,Male,ALL,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,161,413,453,76,69,0,64,0,235,5
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,157,406,433,92,85,0,61,0,211,5
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,240,616,664,142,132,19,95,0,323,7
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,100,258,288,64,61,0,40,0,138,2
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,125,324,361,79,75,0,49,0,174,3
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,151,390,428,97,88,19,60,0,204,7
+2022/2023,Male,ALL,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,272,702,738,996,924,75,106,0,0,52
+2022/2023,Male,ALL,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,75,194,222,333,308,19,30,0,0,18
+2022/2023,Male,ALL,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,213,549,607,902,835,75,84,0,0,48
+2022/2023,Male,ALL,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,333,858,958,1433,1331,112,130,0,0,73
+2022/2023,Male,ALL,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,162,417,471,667,616,56,64,0,0,37
+2022/2023,Male,ALL,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,194,501,546,94,86,0,76,0,281,6
+2022/2023,Male,ALL,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,227,585,655,128,118,19,89,0,327,7
+2022/2023,Male,ALL,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,364,939,1038,200,182,19,142,0,520,13
+2022/2023,Male,ALL,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,138,355,372,64,58,0,54,0,192,4
+2022/2023,Male,ALL,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,234,603,633,113,103,19,92,0,324,7
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,201,519,560,118,107,19,78,0,273,8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,323,835,897,195,178,19,126,0,434,12
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,115,298,345,88,79,0,45,0,158,6
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,164,422,469,104,96,0,64,0,225,6
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,187,482,533,121,107,19,73,0,254,10
+2022/2023,Male,ALL,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,368,948,1022,1342,1223,131,144,0,0,86
+2022/2023,Male,ALL,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,96,247,270,456,406,56,38,0,0,36
+2022/2023,Male,ALL,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,272,702,760,1153,1050,112,106,0,0,74
+2022/2023,Male,ALL,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,426,1098,1221,1770,1624,150,167,0,0,105
+2022/2023,Male,ALL,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,231,595,638,888,849,37,91,0,0,28
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,7,18,17,6,4,0,3,0,7,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,8,21,19,7,6,0,3,1,7,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,14,36,38,11,10,0,5,0,16,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,5,12,16,4,3,0,2,0,7,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,8,21,19,7,6,0,3,1,7,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,8,21,19,8,7,0,3,1,6,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,14,36,38,13,11,0,5,0,15,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,5,12,13,4,3,0,2,0,5,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,6,15,14,6,4,0,3,0,5,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,8,21,19,8,7,0,3,1,6,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,13,33,34,68,64,0,5,0,0,3
+2022/2023,Male,Disabled,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,5,12,13,28,26,0,2,0,0,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,9,25,25,54,53,0,3,0,0,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,15,39,38,96,89,0,5,0,0,5
+2022/2023,Male,Disabled,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,9,21,22,54,49,0,4,0,0,4
+2022/2023,Male,Disabled,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,10,25,30,6,4,0,4,0,15,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,13,35,39,7,6,0,5,0,20,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,24,61,66,11,10,0,10,0,34,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,8,21,23,4,3,0,3,0,12,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,11,28,31,7,6,0,5,0,15,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,11,30,31,8,7,0,4,0,14,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,18,48,48,11,10,0,7,0,23,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,8,20,23,6,4,0,4,0,11,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,9,23,23,6,4,0,3,0,11,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,11,28,31,7,6,0,4,0,15,1
+2022/2023,Male,Disabled,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,22,58,61,68,61,0,8,0,0,5
+2022/2023,Male,Disabled,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,6,15,20,28,25,0,3,0,0,2
+2022/2023,Male,Disabled,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,17,44,48,54,49,0,7,0,0,4
+2022/2023,Male,Disabled,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,26,67,77,96,86,19,10,0,0,7
+2022/2023,Male,Disabled,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,13,35,39,51,46,0,5,0,0,4
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,13,33,36,6,4,0,5,0,19,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,17,44,48,8,7,0,7,0,25,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,29,72,83,11,10,0,12,0,45,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,11,30,33,4,3,0,4,0,18,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,17,44,45,7,6,0,7,0,24,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,15,38,41,6,4,0,6,0,22,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,26,67,73,13,11,0,10,0,38,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,9,23,27,6,4,0,3,0,13,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,12,30,34,7,6,0,5,0,17,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,14,35,39,6,4,0,6,0,21,1
+2022/2023,Male,Disabled,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,32,81,91,106,94,19,13,0,0,8
+2022/2023,Male,Disabled,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,9,21,27,35,31,0,4,0,0,3
+2022/2023,Male,Disabled,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,21,54,58,68,61,0,8,0,0,5
+2022/2023,Male,Disabled,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,35,89,103,110,97,19,14,0,0,9
+2022/2023,Male,Disabled,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,18,48,55,65,58,0,7,0,0,5
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,87,224,241,25,22,0,34,0,136,2
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,112,289,314,33,31,0,44,0,177,2
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,172,444,489,53,50,0,67,0,275,2
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,57,148,167,17,15,0,22,0,95,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,109,281,314,32,29,0,42,0,178,2
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,103,266,286,50,46,0,40,0,147,3
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,154,396,431,76,71,0,60,0,221,4
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,57,146,163,33,32,0,22,0,80,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,84,215,241,42,36,0,33,0,124,4
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,103,265,286,50,43,0,40,0,147,5
+2023/2024,Female,ALL,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,157,404,430,389,336,56,62,0,0,38
+2023/2024,Female,ALL,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,50,130,147,160,145,19,19,0,0,11
+2023/2024,Female,ALL,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,127,329,352,372,320,56,49,0,0,38
+2023/2024,Female,ALL,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,215,554,602,595,559,37,84,0,0,26
+2023/2024,Female,ALL,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,111,284,314,327,307,19,44,0,0,14
+2023/2024,Female,ALL,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,149,385,410,39,35,0,59,0,234,3
+2023/2024,Female,ALL,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,229,592,647,69,65,0,89,0,364,3
+2023/2024,Female,ALL,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,328,845,936,101,93,0,129,0,526,6
+2023/2024,Female,ALL,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,106,273,289,29,26,0,42,0,164,2
+2023/2024,Female,ALL,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,193,500,546,56,53,0,75,0,309,2
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,191,493,519,85,83,0,75,0,271,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,290,750,825,140,129,19,113,0,427,8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,124,321,353,69,63,0,49,0,176,5
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,160,411,446,76,71,0,63,0,230,4
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,176,455,513,90,83,0,69,0,263,5
+2023/2024,Female,ALL,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,296,764,813,742,700,37,116,0,0,30
+2023/2024,Female,ALL,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,96,248,281,300,286,19,38,0,0,10
+2023/2024,Female,ALL,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,230,593,653,638,589,56,90,0,0,35
+2023/2024,Female,ALL,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,384,988,1113,1095,1017,75,151,0,0,56
+2023/2024,Female,ALL,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,210,541,583,536,516,19,82,0,0,15
+2023/2024,Female,ALL,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,208,536,571,54,49,0,81,0,326,4
+2023/2024,Female,ALL,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,303,781,872,90,85,0,119,0,493,4
+2023/2024,Female,ALL,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,440,1134,1241,129,118,19,173,0,701,8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,145,373,392,35,31,0,57,0,226,3
+2023/2024,Female,ALL,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,261,672,730,68,63,0,103,0,418,4
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,259,669,722,117,106,19,101,0,378,8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,391,1009,1104,189,175,19,153,0,570,10
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,143,370,416,71,69,0,56,0,215,1
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,210,541,608,110,101,0,83,0,310,6
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,246,634,688,121,110,19,96,0,353,8
+2023/2024,Female,ALL,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,422,1086,1194,1080,994,94,166,0,0,62
+2023/2024,Female,ALL,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,129,332,353,372,343,37,51,0,0,21
+2023/2024,Female,ALL,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,310,799,864,913,835,75,122,0,0,56
+2023/2024,Female,ALL,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,521,1343,1501,1563,1428,150,205,0,0,97
+2023/2024,Female,ALL,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,285,733,788,785,707,75,112,0,0,56
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,7,18,19,4,3,0,3,0,9,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,10,26,28,6,4,0,4,0,14,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,17,44,47,7,6,0,6,0,25,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,5,12,14,3,1,0,2,0,7,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,10,25,25,4,3,0,4,0,13,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,10,25,25,8,7,0,4,0,10,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,16,43,44,13,11,0,6,0,19,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,5,13,14,4,3,0,2,0,6,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,7,18,19,6,4,0,3,0,8,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,10,25,25,7,6,0,4,0,11,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,14,36,39,60,56,0,5,0,0,3
+2023/2024,Female,Disabled,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,5,13,14,25,22,0,2,0,0,2
+2023/2024,Female,Disabled,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,11,28,28,50,44,0,4,0,0,4
+2023/2024,Female,Disabled,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,19,49,53,75,74,0,7,0,0,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,10,25,25,40,39,0,4,0,0,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,10,25,28,3,1,0,4,0,16,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,16,43,45,4,3,0,6,0,26,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,26,67,77,8,7,0,10,0,43,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,8,21,23,1,0,0,3,0,14,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,15,39,44,4,3,0,5,0,25,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,14,36,38,7,6,0,6,0,19,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,24,61,70,10,8,0,10,0,38,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,9,23,27,4,3,0,3,0,14,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,11,28,28,4,3,0,4,0,15,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,14,36,39,6,4,0,5,0,21,1
+2023/2024,Female,Disabled,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,25,66,72,60,56,0,9,0,3,3
+2023/2024,Female,Disabled,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,8,20,23,19,18,0,3,0,1,1
+2023/2024,Female,Disabled,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,17,44,48,40,36,0,7,0,2,3
+2023/2024,Female,Disabled,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,29,76,86,67,60,0,11,0,7,5
+2023/2024,Female,Disabled,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,16,41,47,38,33,0,6,0,3,3
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,15,38,41,4,3,0,6,0,23,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,23,59,63,6,4,0,9,0,36,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,37,94,108,10,8,0,15,0,62,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,11,30,31,1,0,0,4,0,19,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,19,49,52,4,3,0,8,0,30,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,19,48,48,6,4,0,8,0,27,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,31,81,88,11,10,0,12,0,48,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,11,28,34,4,3,0,5,0,19,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,14,36,39,6,4,0,5,0,21,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,19,49,56,10,8,0,8,0,29,1
+2023/2024,Female,Disabled,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,35,87,97,69,65,0,15,0,12,3
+2023/2024,Female,Disabled,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,11,28,31,25,24,0,5,0,2,1
+2023/2024,Female,Disabled,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,25,64,70,63,56,0,10,0,0,5
+2023/2024,Female,Disabled,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,41,104,119,110,89,19,17,0,0,15
+2023/2024,Female,Disabled,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,23,59,64,57,43,19,9,0,0,10
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,85,220,239,22,21,0,33,0,137,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,103,265,299,36,32,0,40,0,165,3
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,154,396,444,47,44,0,60,0,250,2
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,54,140,155,17,15,0,21,0,87,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,98,253,272,31,28,0,39,0,152,2
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,90,233,256,51,43,0,35,0,127,6
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,141,363,397,74,68,0,56,0,201,4
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,53,136,161,33,32,0,21,0,79,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,72,187,197,42,36,0,28,0,96,4
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,89,228,255,53,50,0,35,0,125,2
+2023/2024,Male,ALL,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,159,409,444,461,421,37,62,0,0,29
+2023/2024,Male,ALL,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,42,108,122,145,128,19,17,0,0,12
+2023/2024,Male,ALL,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,121,312,347,402,371,37,47,0,0,22
+2023/2024,Male,ALL,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,189,488,547,614,559,56,74,0,0,40
+2023/2024,Male,ALL,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,94,243,274,265,239,37,37,0,0,19
+2023/2024,Male,ALL,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,142,367,385,42,38,0,56,0,216,3
+2023/2024,Male,ALL,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,193,496,557,68,64,0,76,0,307,3
+2023/2024,Male,ALL,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,288,741,824,92,88,0,113,0,461,3
+2023/2024,Male,ALL,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,100,258,283,32,29,0,40,0,158,2
+2023/2024,Male,ALL,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,173,447,483,51,47,0,68,0,272,3
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,178,459,502,97,90,0,70,0,251,5
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,257,661,713,133,126,0,101,0,360,5
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,106,273,314,67,64,0,41,0,153,2
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,134,344,366,69,63,0,53,0,184,5
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,154,396,439,85,79,0,61,0,220,4
+2023/2024,Male,ALL,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,292,753,825,821,745,75,114,0,0,55
+2023/2024,Male,ALL,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,79,204,217,249,229,19,31,0,0,14
+2023/2024,Male,ALL,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,224,579,611,611,572,37,88,0,0,28
+2023/2024,Male,ALL,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,360,927,1011,1145,1057,94,142,0,0,63
+2023/2024,Male,ALL,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,168,434,467,484,445,37,66,0,0,28
+2023/2024,Male,ALL,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,183,470,499,53,49,0,72,0,281,3
+2023/2024,Male,ALL,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,249,643,718,86,78,0,98,0,397,6
+2023/2024,Male,ALL,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,367,947,1030,111,101,19,143,0,579,7
+2023/2024,Male,ALL,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,143,368,410,43,39,0,56,0,231,3
+2023/2024,Male,ALL,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,229,592,632,67,63,0,89,0,356,3
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,233,602,661,114,103,19,91,0,341,8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,349,899,955,179,163,19,137,0,482,12
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,129,330,386,78,71,0,51,0,191,5
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,188,483,539,104,94,19,74,0,270,7
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,213,549,596,115,103,19,83,0,298,9
+2023/2024,Male,ALL,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,406,1047,1122,1177,1091,94,159,0,0,62
+2023/2024,Male,ALL,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,102,263,297,336,303,37,39,0,0,24
+2023/2024,Male,ALL,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,296,764,832,873,811,75,116,0,0,44
+2023/2024,Male,ALL,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,463,1193,1302,1392,1266,131,182,0,0,91
+2023/2024,Male,ALL,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,241,623,691,778,731,56,94,0,0,34
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,7,16,17,4,3,0,3,0,8,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,9,23,23,6,4,0,3,0,11,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,15,39,42,7,6,0,6,0,22,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,5,12,13,3,1,0,2,0,6,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,8,21,20,3,1,0,3,0,11,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,8,21,20,8,7,0,3,0,7,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,14,36,39,13,11,0,5,0,16,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,5,12,13,4,3,0,2,0,5,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,6,15,16,6,4,0,3,0,6,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,8,21,20,7,6,0,3,0,8,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,14,36,36,63,56,0,5,0,0,5
+2023/2024,Male,Disabled,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,5,12,13,25,22,0,2,0,0,2
+2023/2024,Male,Disabled,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,10,25,27,47,44,0,4,0,0,2
+2023/2024,Male,Disabled,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,16,41,42,78,76,0,6,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,8,21,20,31,29,0,3,0,0,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,10,25,28,3,1,0,4,0,16,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,14,36,42,4,3,0,5,0,24,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,26,64,70,7,6,0,11,0,40,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,8,21,22,1,0,0,3,0,13,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,13,35,38,4,3,0,5,0,21,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,12,30,31,7,6,0,5,0,15,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,21,54,59,11,10,0,8,0,30,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,7,20,22,4,3,0,2,0,11,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,9,23,23,4,3,0,4,0,12,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,11,28,33,6,4,0,4,0,17,1
+2023/2024,Male,Disabled,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,25,64,72,60,56,0,10,0,3,3
+2023/2024,Male,Disabled,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,6,16,17,19,18,0,2,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,17,44,48,40,36,0,7,0,2,3
+2023/2024,Male,Disabled,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,28,72,80,67,60,0,11,0,3,5
+2023/2024,Male,Disabled,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,14,35,38,38,33,0,6,0,0,3
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,13,33,33,3,1,0,5,0,19,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,18,48,53,6,4,0,7,0,30,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,32,82,92,7,6,0,12,0,54,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,11,30,33,3,1,0,4,0,19,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,18,46,52,4,3,0,7,0,30,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,16,43,44,6,4,0,6,0,24,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,29,74,77,11,10,0,12,0,41,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,11,28,33,4,3,0,4,0,18,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,13,33,34,6,4,0,5,0,18,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,16,41,44,8,7,0,6,0,22,1
+2023/2024,Male,Disabled,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,35,89,97,78,72,0,15,0,6,4
+2023/2024,Male,Disabled,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,9,23,28,25,24,0,4,0,0,1
+2023/2024,Male,Disabled,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,24,61,69,63,56,0,10,0,0,5
+2023/2024,Male,Disabled,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,36,92,102,92,83,0,14,0,0,6
+2023/2024,Male,Disabled,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,19,49,56,47,43,0,7,0,2,3
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,161,416,277,118,108,9,63,76,92,7
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,216,557,370,157,145,13,85,102,124,9
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,328,847,564,239,221,19,129,154,189,13
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,113,293,194,83,76,7,44,54,64,5
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,215,554,369,157,145,13,85,101,123,9
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,196,506,338,143,132,11,77,92,113,8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,286,738,491,208,192,17,112,135,164,12
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,118,304,203,86,79,7,47,55,68,5
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,165,426,283,121,111,10,65,78,94,7
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,199,514,342,146,133,12,78,94,114,9
+2024/2025,Female,ALL,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,313,807,536,228,210,18,122,148,179,13
+2024/2025,Female,ALL,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,100,260,174,74,68,6,39,47,58,4
+2024/2025,Female,ALL,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,236,607,405,172,158,14,93,110,135,10
+2024/2025,Female,ALL,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,384,990,660,281,258,22,151,180,220,16
+2024/2025,Female,ALL,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,214,552,367,156,143,12,84,101,123,9
+2024/2025,Female,ALL,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,275,710,474,201,185,16,108,129,158,12
+2024/2025,Female,ALL,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,394,1016,675,288,264,23,154,186,225,17
+2024/2025,Female,ALL,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,590,1522,1013,431,396,34,231,278,338,25
+2024/2025,Female,ALL,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,211,544,363,154,142,12,83,99,121,9
+2024/2025,Female,ALL,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,378,975,649,277,254,22,149,178,216,16
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,338,871,580,247,226,20,133,159,193,15
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,565,1456,969,413,379,33,222,266,323,24
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,218,562,374,158,146,13,85,103,125,9
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,289,746,497,211,195,17,113,136,166,12
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,375,968,644,274,252,22,147,177,215,16
+2024/2025,Female,ALL,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,562,1448,965,410,377,33,221,264,322,24
+2024/2025,Female,ALL,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,195,505,336,143,131,11,76,92,112,9
+2024/2025,Female,ALL,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,454,1172,780,332,306,27,178,214,260,19
+2024/2025,Female,ALL,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,725,1869,1244,529,486,42,285,341,415,31
+2024/2025,Female,ALL,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,378,975,649,277,254,22,149,178,216,16
+2024/2025,Female,ALL,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,390,1006,669,285,261,23,153,184,223,17
+2024/2025,Female,ALL,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,508,1310,872,371,340,30,199,239,291,22
+2024/2025,Female,ALL,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,843,2171,1446,614,566,49,331,396,483,35
+2024/2025,Female,ALL,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,274,708,472,200,185,16,107,129,158,11
+2024/2025,Female,ALL,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,528,1361,905,385,354,31,207,249,302,22
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,496,1280,852,363,333,29,194,234,284,21
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,726,1872,1246,529,488,42,285,342,416,30
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,302,779,519,221,203,18,118,142,173,13
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,378,975,649,277,254,22,149,178,216,16
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,508,1310,872,371,340,30,199,239,291,22
+2024/2025,Female,ALL,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,718,1852,1233,524,482,42,281,338,412,30
+2024/2025,Female,ALL,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,247,638,424,181,165,14,97,117,141,11
+2024/2025,Female,ALL,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,618,1593,1060,450,414,36,242,291,354,26
+2024/2025,Female,ALL,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,957,2467,1643,696,642,56,375,450,550,39
+2024/2025,Female,ALL,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,536,1381,919,390,360,31,210,252,307,22
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,14,35,23,10,10,1,6,6,8,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,20,53,36,15,14,1,8,9,12,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,31,81,53,22,21,2,12,15,18,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,9,23,16,7,6,1,3,4,5,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,18,48,31,14,13,1,7,9,10,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,18,48,31,14,13,1,7,9,10,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,30,79,52,22,21,2,11,15,17,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,11,28,19,8,7,1,4,5,6,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,14,35,23,10,10,1,6,6,8,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,18,48,31,14,13,1,7,9,10,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,27,67,45,19,18,2,11,12,15,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,9,23,16,7,6,1,3,4,5,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,20,53,36,15,14,1,8,9,12,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,36,94,63,26,24,2,14,17,21,2
+2024/2025,Female,Disabled,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,18,48,31,14,13,1,7,9,10,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,19,51,33,14,13,1,7,10,11,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,28,71,47,19,18,2,11,13,16,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,47,122,81,35,32,3,18,22,27,2
+2024/2025,Female,Disabled,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,17,46,30,13,13,1,6,9,10,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,27,67,45,19,18,2,11,12,15,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,24,62,42,18,17,1,10,11,14,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,45,117,77,33,31,3,17,22,25,2
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,15,38,25,11,10,1,6,7,8,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,17,46,30,13,11,1,6,9,10,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,27,67,45,19,18,2,11,12,15,1
+2024/2025,Female,Disabled,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,46,118,78,33,31,3,18,22,26,2
+2024/2025,Female,Disabled,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,15,38,25,11,10,1,6,7,8,1
+2024/2025,Female,Disabled,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,34,89,59,25,24,2,13,16,20,1
+2024/2025,Female,Disabled,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,57,146,97,42,38,3,22,27,32,3
+2024/2025,Female,Disabled,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,30,79,52,22,21,2,11,15,17,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,27,67,45,19,18,2,11,12,15,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,39,100,67,29,26,2,16,18,22,2
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,67,174,116,49,46,4,26,32,39,2
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,20,53,36,15,14,1,8,9,12,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,36,94,63,26,24,2,14,17,21,2
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,39,100,67,29,26,2,16,18,22,2
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,61,156,105,44,40,4,24,28,35,3
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,21,56,38,15,14,1,8,10,13,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,26,66,44,18,17,1,10,12,15,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,37,95,64,26,25,2,15,17,22,1
+2024/2025,Female,Disabled,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,65,169,113,47,44,4,25,31,38,2
+2024/2025,Female,Disabled,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,23,61,41,17,15,1,9,11,14,1
+2024/2025,Female,Disabled,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,53,136,91,39,36,3,21,25,30,2
+2024/2025,Female,Disabled,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,75,194,130,56,50,4,30,35,43,4
+2024/2025,Female,Disabled,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,42,108,72,31,28,2,16,20,24,2
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,153,393,261,111,103,9,60,72,87,6
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,187,482,320,136,125,11,73,88,107,8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,287,741,492,210,193,17,112,136,164,12
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,113,293,194,83,76,7,44,54,64,5
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,184,473,316,133,124,11,72,86,106,7
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,167,431,288,122,113,10,66,78,96,7
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,244,630,419,178,164,14,96,115,140,10
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,111,288,191,81,75,7,43,53,64,4
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,141,363,242,103,94,8,55,66,81,6
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,168,434,289,122,113,10,66,79,97,7
+2024/2025,Male,ALL,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,298,769,511,218,200,17,116,141,170,13
+2024/2025,Male,ALL,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,75,194,130,54,50,4,30,35,44,3
+2024/2025,Male,ALL,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,207,534,356,151,139,12,81,97,119,9
+2024/2025,Male,ALL,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,350,902,600,256,235,20,137,165,200,15
+2024/2025,Male,ALL,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,179,462,306,131,120,10,70,85,102,8
+2024/2025,Male,ALL,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,256,661,439,186,172,15,100,121,147,10
+2024/2025,Male,ALL,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,361,930,619,263,242,21,141,170,207,15
+2024/2025,Male,ALL,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,521,1343,894,381,350,30,204,245,298,22
+2024/2025,Male,ALL,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,212,547,364,154,142,12,83,100,122,9
+2024/2025,Male,ALL,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,334,861,574,243,224,20,131,157,192,14
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,302,779,519,221,203,18,118,142,173,13
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,474,1221,813,346,318,28,186,223,271,20
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,176,454,302,128,118,10,69,83,101,7
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,248,639,427,181,167,14,98,116,143,10
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,315,812,541,229,211,18,123,148,181,13
+2024/2025,Male,ALL,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,562,1448,965,410,377,33,221,264,322,24
+2024/2025,Male,ALL,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,156,401,267,114,104,9,61,73,89,7
+2024/2025,Male,ALL,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,429,1106,736,313,288,25,168,202,246,18
+2024/2025,Male,ALL,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,655,1688,1124,478,439,38,257,308,375,28
+2024/2025,Male,ALL,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,331,851,567,240,222,19,130,155,190,13
+2024/2025,Male,ALL,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,372,960,639,272,250,22,146,175,213,16
+2024/2025,Male,ALL,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,453,1169,779,331,304,26,178,213,260,19
+2024/2025,Male,ALL,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,704,1815,1208,513,472,41,276,331,404,29
+2024/2025,Male,ALL,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,259,667,444,189,174,15,102,122,148,11
+2024/2025,Male,ALL,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,471,1215,808,343,317,27,185,222,270,19
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,435,1121,747,317,292,25,171,204,250,18
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,681,1757,1169,497,457,40,267,321,390,29
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,275,710,474,201,185,16,108,129,158,12
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,333,856,571,242,224,19,131,156,191,13
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,417,1077,716,304,281,24,163,197,239,17
+2024/2025,Male,ALL,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,707,1825,1215,517,475,41,277,333,405,30
+2024/2025,Male,ALL,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,205,526,350,149,138,12,81,96,117,8
+2024/2025,Male,ALL,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,580,1497,996,424,389,34,227,274,332,25
+2024/2025,Male,ALL,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,888,2288,1523,648,596,52,348,418,508,37
+2024/2025,Male,ALL,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,455,1174,782,332,306,27,179,214,261,19
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,13,33,22,10,8,1,5,6,7,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,16,41,27,11,11,1,6,8,9,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,28,71,47,19,18,2,11,13,16,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,9,23,16,7,6,1,3,4,5,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,16,41,27,11,11,1,6,8,9,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,16,39,27,11,11,1,7,7,9,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,27,67,45,19,18,2,11,12,15,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,10,25,17,7,7,1,4,4,6,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,12,30,20,8,8,1,5,5,7,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,16,41,27,11,11,1,6,8,9,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Abak,South South,Akwa Ibom,Abak,,,27,67,45,19,18,2,11,12,15,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Eket,South South,Akwa Ibom,Eket,,,8,20,14,6,6,0,3,3,5,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,18,46,30,13,11,1,7,9,10,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Oron,South South,Akwa Ibom,Oron,,,30,76,50,21,19,2,12,14,17,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,17,43,28,13,11,1,7,8,9,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,18,46,30,13,11,1,7,9,10,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,26,66,44,18,17,1,10,12,15,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,42,108,72,31,28,2,16,20,24,2
+2024/2025,Male,Disabled,NECO,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,17,43,28,13,11,1,7,8,9,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,24,62,42,18,17,1,10,11,14,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,22,58,39,17,15,1,9,10,13,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,39,100,67,29,26,2,16,18,22,2
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,13,33,22,10,8,1,5,6,7,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,17,46,30,13,11,1,6,9,10,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,23,61,41,17,15,1,9,11,14,1
+2024/2025,Male,Disabled,NECO,University,lga,Abak,South South,Akwa Ibom,Abak,,,48,123,83,35,32,3,19,22,28,2
+2024/2025,Male,Disabled,NECO,University,lga,Eket,South South,Akwa Ibom,Eket,,,13,33,22,10,8,1,5,6,7,1
+2024/2025,Male,Disabled,NECO,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,33,85,56,24,22,2,13,16,19,1
+2024/2025,Male,Disabled,NECO,University,lga,Oron,South South,Akwa Ibom,Oron,,,50,128,86,36,33,3,20,23,29,2
+2024/2025,Male,Disabled,NECO,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,28,71,47,19,18,2,11,13,16,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Abak,South South,Akwa Ibom,Abak,,,27,67,45,19,18,2,11,12,15,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Eket,South South,Akwa Ibom,Eket,,,33,85,56,24,22,2,13,16,19,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,60,155,102,43,40,3,23,29,34,2
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Oron,South South,Akwa Ibom,Oron,,,20,53,36,15,14,1,8,9,12,1
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Uyo,South South,Akwa Ibom,Uyo,,,32,84,55,24,22,2,12,16,18,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Abak,South South,Akwa Ibom,Abak,,,33,85,58,24,22,2,13,15,20,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Eket,South South,Akwa Ibom,Eket,,,52,133,89,38,35,3,21,24,30,2
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,18,48,31,14,13,1,7,9,10,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Oron,South South,Akwa Ibom,Oron,,,22,58,39,17,15,1,9,10,13,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Uyo,South South,Akwa Ibom,Uyo,,,30,79,52,22,21,2,11,15,17,1
+2024/2025,Male,Disabled,WAEC,University,lga,Abak,South South,Akwa Ibom,Abak,,,64,164,109,46,43,4,25,30,37,2
+2024/2025,Male,Disabled,WAEC,University,lga,Eket,South South,Akwa Ibom,Eket,,,18,48,31,14,13,1,7,9,10,1
+2024/2025,Male,Disabled,WAEC,University,lga,Ikot Ekpene,South South,Akwa Ibom,Ikot Ekpene,,,48,123,83,35,32,3,19,22,28,2
+2024/2025,Male,Disabled,WAEC,University,lga,Oron,South South,Akwa Ibom,Oron,,,71,184,122,51,47,4,28,34,41,3
+2024/2025,Male,Disabled,WAEC,University,lga,Uyo,South South,Akwa Ibom,Uyo,,,36,94,63,26,24,2,14,17,21,2

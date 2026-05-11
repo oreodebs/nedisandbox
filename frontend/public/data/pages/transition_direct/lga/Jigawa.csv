@@ -1,521 +1,521 @@
-session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,all,NABTEB,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,352,283,329,24,22,0,69,0,305,2
-2022/2023,Female,all,NABTEB,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,146,116,140,9,8,0,30,0,131,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,163,130,157,10,9,0,33,0,147,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,154,123,147,9,8,0,31,0,138,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,525,420,482,26,25,0,105,0,456,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,163,130,158,12,11,0,33,0,146,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,153,123,137,11,10,0,30,0,126,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,196,157,180,22,21,0,39,0,158,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,156,125,133,16,15,0,31,0,117,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,196,157,178,19,17,0,39,0,159,2
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,95,76,86,6,5,0,19,0,80,1
-2022/2023,Female,all,NABTEB,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,269,215,233,46,43,0,54,0,187,3
-2022/2023,Female,all,NABTEB,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,344,275,313,68,66,0,69,0,245,2
-2022/2023,Female,all,NABTEB,University,lga,Kazaure,North West,Jigawa,Kazaure,,,123,99,118,31,28,0,24,0,87,3
-2022/2023,Female,all,NABTEB,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,285,228,275,62,61,0,57,0,213,1
-2022/2023,Female,all,NABTEB,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,495,396,433,79,78,0,99,0,354,1
-2022/2023,Female,all,NABTEB,University,lga,Maigatari,North West,Jigawa,Maigatari,,,80,64,73,13,10,0,16,0,60,3
-2022/2023,Female,all,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,101,81,91,15,14,0,20,0,76,1
-2022/2023,Female,all,NECO,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,655,524,615,40,36,0,131,0,575,4
-2022/2023,Female,all,NECO,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,265,212,248,17,16,0,53,0,231,1
-2022/2023,Female,all,NECO,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,299,239,271,17,16,0,60,0,254,1
-2022/2023,Female,all,NECO,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,304,244,280,17,16,0,60,0,263,1
-2022/2023,Female,all,NECO,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,970,776,892,55,51,0,194,0,837,4
-2022/2023,Female,all,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,306,244,286,22,21,0,62,0,264,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,269,215,237,25,24,0,54,0,212,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,382,305,355,40,35,0,77,0,315,5
-2022/2023,Female,all,NECO,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,253,202,231,26,24,0,51,0,205,2
-2022/2023,Female,all,NECO,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,352,281,320,34,32,0,71,0,286,2
-2022/2023,Female,all,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,175,140,153,17,15,0,35,0,136,2
-2022/2023,Female,all,NECO,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,487,389,466,107,96,1,98,0,359,11
-2022/2023,Female,all,NECO,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,732,586,681,163,155,1,146,0,518,8
-2022/2023,Female,all,NECO,University,lga,Kazaure,North West,Jigawa,Kazaure,,,227,182,206,49,46,0,45,0,157,3
-2022/2023,Female,all,NECO,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,565,452,515,114,104,1,113,0,401,10
-2022/2023,Female,all,NECO,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,941,754,868,174,170,0,187,0,694,4
-2022/2023,Female,all,NECO,University,lga,Maigatari,North West,Jigawa,Maigatari,,,129,104,116,24,23,0,25,0,92,1
-2022/2023,Female,all,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,157,125,142,40,37,0,32,0,102,3
-2022/2023,Female,all,WAEC,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,857,686,808,62,55,1,171,0,746,7
-2022/2023,Female,all,WAEC,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,372,297,359,25,22,0,75,0,334,3
-2022/2023,Female,all,WAEC,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,368,294,351,24,22,0,74,0,327,2
-2022/2023,Female,all,WAEC,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,397,318,355,24,22,0,79,0,331,2
-2022/2023,Female,all,WAEC,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,1341,1072,1259,88,80,1,269,0,1171,8
-2022/2023,Female,all,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,414,332,380,29,27,0,82,0,351,2
-2022/2023,Female,all,WAEC,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,331,265,289,32,29,0,66,0,257,3
-2022/2023,Female,all,WAEC,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,428,342,399,52,47,0,86,0,347,5
-2022/2023,Female,all,WAEC,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,365,292,337,41,38,0,73,0,296,3
-2022/2023,Female,all,WAEC,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,459,367,419,53,48,0,92,0,366,5
-2022/2023,Female,all,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,210,169,193,21,20,0,41,0,172,1
-2022/2023,Female,all,WAEC,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,438,350,399,99,86,1,88,0,300,13
-2022/2023,Female,all,WAEC,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,904,723,843,223,203,2,181,0,620,20
-2022/2023,Female,all,WAEC,University,lga,Kazaure,North West,Jigawa,Kazaure,,,331,265,308,83,76,1,66,0,225,7
-2022/2023,Female,all,WAEC,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,748,598,681,179,165,1,150,0,502,14
-2022/2023,Female,all,WAEC,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,1195,956,1068,233,199,3,239,0,835,34
-2022/2023,Female,all,WAEC,University,lga,Maigatari,North West,Jigawa,Maigatari,,,184,147,160,38,34,0,37,0,122,4
-2022/2023,Female,all,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,229,183,202,46,43,0,46,0,156,3
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,36,29,33,5,4,0,7,0,28,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,11,9,11,1,0,0,2,0,10,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,11,9,10,1,0,0,2,0,9,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,11,9,11,1,0,0,2,0,10,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,50,40,48,2,1,0,10,0,46,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,14,11,12,2,1,0,3,0,10,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,11,9,11,0,0,0,2,0,11,0
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,23,18,20,4,3,0,5,0,16,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,23,18,20,4,3,0,5,0,16,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,23,18,20,4,3,0,5,0,16,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,11,9,10,0,0,0,2,0,10,0
-2022/2023,Female,disabled,NABTEB,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,12,10,11,6,5,0,2,0,5,1
-2022/2023,Female,disabled,NABTEB,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,23,18,22,4,3,0,5,0,18,1
-2022/2023,Female,disabled,NABTEB,University,lga,Kazaure,North West,Jigawa,Kazaure,,,11,9,10,5,4,0,2,0,5,1
-2022/2023,Female,disabled,NABTEB,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,24,19,22,6,5,0,5,0,16,1
-2022/2023,Female,disabled,NABTEB,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,47,38,43,0,0,0,9,0,43,0
-2022/2023,Female,disabled,NABTEB,University,lga,Maigatari,North West,Jigawa,Maigatari,,,27,21,26,6,5,0,6,0,20,1
-2022/2023,Female,disabled,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,11,9,10,0,0,0,2,0,10,0
-2022/2023,Female,disabled,NECO,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,50,40,48,5,4,0,10,0,43,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,14,11,12,1,0,0,3,0,11,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,17,13,16,1,0,0,4,0,15,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,14,11,12,1,0,0,3,0,11,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,8,6,7,1,0,0,2,0,6,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,24,19,19,2,1,0,5,0,17,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,14,11,12,2,1,0,3,0,10,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,26,21,24,4,3,0,5,0,20,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,23,18,20,2,1,0,5,0,18,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,30,24,30,3,2,0,6,0,27,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,11,9,11,1,0,0,2,0,10,1
-2022/2023,Female,disabled,NECO,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,22,17,23,5,4,0,5,0,18,1
-2022/2023,Female,disabled,NECO,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,48,39,48,15,14,0,9,0,33,1
-2022/2023,Female,disabled,NECO,University,lga,Kazaure,North West,Jigawa,Kazaure,,,17,13,15,4,3,0,4,0,11,1
-2022/2023,Female,disabled,NECO,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,44,35,37,12,10,0,9,0,25,2
-2022/2023,Female,disabled,NECO,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,66,53,57,18,15,0,13,0,39,3
-2022/2023,Female,disabled,NECO,University,lga,Maigatari,North West,Jigawa,Maigatari,,,57,45,46,10,9,0,12,0,36,1
-2022/2023,Female,disabled,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,11,9,11,4,3,0,2,0,7,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,62,50,64,4,3,0,12,0,60,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,21,17,19,1,0,0,4,0,18,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,21,17,20,2,1,0,4,0,18,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,136,109,125,10,9,0,27,0,115,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,34,27,34,3,2,0,7,0,31,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,35,28,31,3,2,0,7,0,28,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,21,17,19,2,1,0,4,0,17,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,25,20,22,3,2,0,5,0,19,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,11,9,11,2,1,0,2,0,9,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,41,33,39,6,5,0,8,0,33,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,37,29,34,4,3,0,8,0,30,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,11,9,11,1,0,0,2,0,10,1
-2022/2023,Female,disabled,WAEC,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,28,22,26,5,4,0,6,0,21,1
-2022/2023,Female,disabled,WAEC,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,65,52,60,16,15,0,13,0,44,1
-2022/2023,Female,disabled,WAEC,University,lga,Kazaure,North West,Jigawa,Kazaure,,,28,22,26,7,6,0,6,0,19,1
-2022/2023,Female,disabled,WAEC,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,63,50,56,12,10,0,13,0,44,2
-2022/2023,Female,disabled,WAEC,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,87,70,79,18,15,0,17,0,61,3
-2022/2023,Female,disabled,WAEC,University,lga,Maigatari,North West,Jigawa,Maigatari,,,74,58,64,12,10,0,16,0,52,2
-2022/2023,Female,disabled,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,14,11,14,4,3,0,3,0,10,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,357,286,346,24,23,0,71,0,322,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,129,104,127,8,7,0,25,0,119,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,138,110,127,6,5,0,28,0,121,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,768,614,735,40,35,0,154,0,695,5
-2022/2023,Male,all,NABTEB,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,145,117,133,7,6,0,28,0,126,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,146,117,137,7,6,0,29,0,130,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,125,101,115,12,10,0,24,0,103,2
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,202,162,175,15,12,0,40,0,160,3
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,96,77,86,10,9,0,19,0,76,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,277,222,245,27,26,0,55,0,218,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,212,169,192,20,18,0,43,0,172,2
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,96,77,86,8,7,0,19,0,78,1
-2022/2023,Male,all,NABTEB,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,175,140,162,31,25,0,35,0,131,6
-2022/2023,Male,all,NABTEB,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,410,328,380,79,73,0,82,0,301,6
-2022/2023,Male,all,NABTEB,University,lga,Kazaure,North West,Jigawa,Kazaure,,,134,107,123,26,22,0,27,0,97,4
-2022/2023,Male,all,NABTEB,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,326,260,312,79,77,0,66,0,233,2
-2022/2023,Male,all,NABTEB,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,491,393,422,69,68,0,98,0,353,1
-2022/2023,Male,all,NABTEB,University,lga,Maigatari,North West,Jigawa,Maigatari,,,388,311,364,79,68,1,77,0,285,11
-2022/2023,Male,all,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,76,61,71,11,10,0,15,0,60,1
-2022/2023,Male,all,NECO,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,657,526,622,41,38,0,131,0,581,3
-2022/2023,Male,all,NECO,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,269,215,255,14,13,0,54,0,241,1
-2022/2023,Male,all,NECO,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,281,225,263,15,13,0,56,0,248,2
-2022/2023,Male,all,NECO,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,1507,1205,1410,91,84,1,302,0,1319,7
-2022/2023,Male,all,NECO,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,292,234,282,16,15,0,58,0,266,1
-2022/2023,Male,all,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,307,245,277,21,19,0,62,0,256,2
-2022/2023,Male,all,NECO,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,248,198,224,22,21,0,50,0,202,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,419,335,363,36,32,0,84,0,327,4
-2022/2023,Male,all,NECO,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,177,142,165,18,16,0,35,0,147,2
-2022/2023,Male,all,NECO,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,486,389,449,43,42,0,97,0,406,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,393,315,369,40,38,0,78,0,329,2
-2022/2023,Male,all,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,169,135,155,16,14,0,34,0,139,2
-2022/2023,Male,all,NECO,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,310,248,282,60,59,0,62,0,222,1
-2022/2023,Male,all,NECO,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,788,630,732,152,141,1,158,0,580,11
-2022/2023,Male,all,NECO,University,lga,Kazaure,North West,Jigawa,Kazaure,,,197,158,186,42,38,0,39,0,144,4
-2022/2023,Male,all,NECO,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,600,480,563,119,111,1,120,0,444,8
-2022/2023,Male,all,NECO,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,961,769,852,161,148,1,192,0,691,13
-2022/2023,Male,all,NECO,University,lga,Maigatari,North West,Jigawa,Maigatari,,,678,543,604,114,104,1,135,0,490,10
-2022/2023,Male,all,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,140,111,127,29,24,0,29,0,98,5
-2022/2023,Male,all,WAEC,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,869,694,830,62,59,0,175,0,768,3
-2022/2023,Male,all,WAEC,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,389,312,373,25,23,0,77,0,348,2
-2022/2023,Male,all,WAEC,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,360,288,336,22,20,0,72,0,314,2
-2022/2023,Male,all,WAEC,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,1578,1261,1446,97,88,1,317,0,1349,9
-2022/2023,Male,all,WAEC,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,393,315,368,24,22,0,78,0,344,2
-2022/2023,Male,all,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,402,322,364,25,24,0,80,0,339,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,301,242,265,27,24,0,59,0,238,3
-2022/2023,Male,all,WAEC,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,499,399,455,48,45,0,100,0,407,3
-2022/2023,Male,all,WAEC,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,231,186,216,27,25,0,45,0,189,2
-2022/2023,Male,all,WAEC,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,660,527,594,72,66,0,133,0,522,6
-2022/2023,Male,all,WAEC,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,491,393,459,58,52,0,98,0,401,6
-2022/2023,Male,all,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,220,176,202,24,21,0,44,0,178,3
-2022/2023,Male,all,WAEC,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,411,329,374,80,71,1,82,0,294,9
-2022/2023,Male,all,WAEC,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,1046,837,953,244,223,2,209,0,709,21
-2022/2023,Male,all,WAEC,University,lga,Kazaure,North West,Jigawa,Kazaure,,,244,195,229,60,54,0,49,0,169,6
-2022/2023,Male,all,WAEC,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,91,72,83,21,19,0,19,0,62,2
-2022/2023,Male,all,WAEC,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,1216,974,1093,225,199,2,242,0,868,26
-2022/2023,Male,all,WAEC,University,lga,Maigatari,North West,Jigawa,Maigatari,,,905,725,820,198,185,1,180,0,622,13
-2022/2023,Male,all,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,213,170,189,48,44,0,43,0,141,4
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,19,15,17,2,1,0,4,0,15,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,12,10,11,1,0,0,2,0,10,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,12,10,12,1,0,0,2,0,11,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,59,48,58,5,4,0,11,0,53,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,15,12,14,0,0,0,3,0,14,0
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,15,12,14,0,0,0,3,0,14,0
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,12,10,11,0,0,0,2,0,11,0
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,16,13,12,0,0,0,3,1,12,0
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,12,10,11,1,0,0,2,0,10,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,38,31,34,2,1,0,7,0,32,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,25,20,23,3,2,0,5,0,20,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,12,10,11,0,0,0,2,0,11,0
-2022/2023,Male,disabled,NABTEB,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,16,13,12,0,0,0,3,1,12,0
-2022/2023,Male,disabled,NABTEB,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,32,26,27,4,3,0,6,0,23,1
-2022/2023,Male,disabled,NABTEB,University,lga,Kazaure,North West,Jigawa,Kazaure,,,2,2,2,1,0,0,0,0,1,1
-2022/2023,Male,disabled,NABTEB,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,12,10,11,2,1,0,2,0,9,1
-2022/2023,Male,disabled,NABTEB,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,56,45,53,6,5,0,11,0,47,1
-2022/2023,Male,disabled,NABTEB,University,lga,Maigatari,North West,Jigawa,Maigatari,,,35,28,34,12,11,0,7,0,22,1
-2022/2023,Male,disabled,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,12,10,11,0,0,0,2,0,11,0
-2022/2023,Male,disabled,NECO,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,34,27,35,3,2,0,7,0,32,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,15,12,14,1,0,0,3,0,13,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,20,16,20,1,0,0,4,0,19,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,97,78,93,5,4,0,19,0,88,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,30,24,29,2,1,0,6,0,27,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,26,21,24,2,1,0,5,0,22,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,15,12,14,1,0,0,3,0,13,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,27,22,26,0,0,0,5,0,26,0
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,12,10,11,1,0,0,2,0,10,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,42,34,38,5,4,0,8,0,33,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,36,29,32,2,1,0,7,0,30,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,12,10,11,0,0,0,2,0,11,0
-2022/2023,Male,disabled,NECO,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,27,22,26,5,4,0,5,0,21,1
-2022/2023,Male,disabled,NECO,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,30,24,27,5,4,0,6,0,22,1
-2022/2023,Male,disabled,NECO,University,lga,Kazaure,North West,Jigawa,Kazaure,,,34,27,34,7,6,0,7,0,27,1
-2022/2023,Male,disabled,NECO,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,20,16,18,2,1,0,4,0,16,1
-2022/2023,Male,disabled,NECO,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,84,67,72,16,15,0,17,0,56,1
-2022/2023,Male,disabled,NECO,University,lga,Maigatari,North West,Jigawa,Maigatari,,,70,56,62,6,5,0,14,0,56,1
-2022/2023,Male,disabled,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,12,10,11,3,2,0,2,0,8,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,44,35,41,3,2,0,9,0,38,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,26,21,26,1,0,0,5,0,25,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,23,19,23,1,0,0,4,0,22,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,134,106,125,7,6,0,28,0,118,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,44,35,40,2,1,0,9,0,38,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,38,31,40,3,2,0,7,0,37,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,20,16,17,1,0,0,4,0,16,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,35,28,34,3,2,0,7,0,31,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,12,10,11,1,0,0,2,0,10,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,52,42,49,6,5,0,10,0,43,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,44,34,40,4,3,0,10,0,36,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,9,7,8,1,0,0,2,0,7,1
-2022/2023,Male,disabled,WAEC,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,40,31,38,5,4,0,9,0,33,1
-2022/2023,Male,disabled,WAEC,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,41,33,38,10,9,0,8,0,28,1
-2022/2023,Male,disabled,WAEC,University,lga,Kazaure,North West,Jigawa,Kazaure,,,48,38,44,8,7,0,10,0,36,1
-2022/2023,Male,disabled,WAEC,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,38,30,34,7,6,0,8,0,27,1
-2022/2023,Male,disabled,WAEC,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,111,89,102,12,10,0,22,0,90,2
-2022/2023,Male,disabled,WAEC,University,lga,Maigatari,North West,Jigawa,Maigatari,,,89,70,78,11,10,0,19,0,67,1
-2022/2023,Male,disabled,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,20,16,18,6,5,0,4,0,12,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,96,77,89,2,1,0,19,0,87,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Miga,North West,Jigawa,Miga,,,82,66,78,2,1,0,16,0,76,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,139,111,125,3,2,0,28,0,122,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Roni,North West,Jigawa,Roni,,,371,296,353,8,7,0,75,0,345,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,727,582,686,17,16,0,145,0,669,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Taura,North West,Jigawa,Taura,,,223,178,196,5,4,0,45,0,191,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,118,95,109,6,5,0,23,0,103,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,89,71,78,4,3,0,18,0,74,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,333,266,312,19,18,0,67,0,293,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,89,71,82,6,5,0,18,0,76,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,590,471,539,34,33,0,119,0,505,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,179,144,159,9,8,0,35,0,150,1
-2023/2024,Female,all,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,155,124,148,41,39,0,31,0,107,2
-2023/2024,Female,all,NABTEB,University,lga,Miga,North West,Jigawa,Miga,,,239,192,225,64,63,0,47,0,161,1
-2023/2024,Female,all,NABTEB,University,lga,Ringim,North West,Jigawa,Ringim,,,79,63,75,17,16,0,16,0,58,1
-2023/2024,Female,all,NABTEB,University,lga,Roni,North West,Jigawa,Roni,,,67,53,54,7,6,0,14,0,47,1
-2023/2024,Female,all,NABTEB,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,480,383,441,84,71,1,97,0,357,13
-2023/2024,Female,all,NABTEB,University,lga,Taura,North West,Jigawa,Taura,,,236,189,219,51,50,0,47,0,168,1
-2023/2024,Female,all,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,167,134,157,4,3,0,33,0,153,1
-2023/2024,Female,all,NECO,College of Education,lga,Miga,North West,Jigawa,Miga,,,142,114,136,4,3,0,28,0,132,1
-2023/2024,Female,all,NECO,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,237,190,225,5,4,0,47,0,220,1
-2023/2024,Female,all,NECO,College of Education,lga,Roni,North West,Jigawa,Roni,,,755,604,716,17,16,0,151,0,699,1
-2023/2024,Female,all,NECO,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,1113,889,1021,24,22,0,224,0,997,2
-2023/2024,Female,all,NECO,College of Education,lga,Taura,North West,Jigawa,Taura,,,685,548,654,17,15,0,137,0,637,2
-2023/2024,Female,all,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,237,190,204,13,12,0,47,0,191,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,163,130,146,10,9,0,33,0,136,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,16,13,15,1,0,0,3,0,14,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,175,139,165,12,11,0,36,0,153,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,1113,890,1015,66,62,0,223,0,949,4
-2023/2024,Female,all,NECO,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,355,285,332,24,23,0,70,0,308,1
-2023/2024,Female,all,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,259,208,252,70,67,0,51,0,182,3
-2023/2024,Female,all,NECO,University,lga,Miga,North West,Jigawa,Miga,,,418,334,379,98,89,1,84,0,281,9
-2023/2024,Female,all,NECO,University,lga,Ringim,North West,Jigawa,Ringim,,,130,104,121,28,26,0,26,0,93,2
-2023/2024,Female,all,NECO,University,lga,Roni,North West,Jigawa,Roni,,,118,94,98,23,19,0,24,0,75,4
-2023/2024,Female,all,NECO,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,844,675,746,167,159,1,169,0,579,8
-2023/2024,Female,all,NECO,University,lga,Taura,North West,Jigawa,Taura,,,394,314,379,91,89,0,80,0,288,2
-2023/2024,Female,all,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,248,199,238,7,6,0,49,0,231,1
-2023/2024,Female,all,WAEC,College of Education,lga,Miga,North West,Jigawa,Miga,,,226,181,219,6,5,0,45,0,213,1
-2023/2024,Female,all,WAEC,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,324,259,302,8,7,0,65,0,294,1
-2023/2024,Female,all,WAEC,College of Education,lga,Roni,North West,Jigawa,Roni,,,1049,839,964,26,23,0,210,0,938,3
-2023/2024,Female,all,WAEC,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,1424,1139,1314,37,34,0,285,0,1277,3
-2023/2024,Female,all,WAEC,College of Education,lga,Taura,North West,Jigawa,Taura,,,974,779,948,26,24,0,195,0,922,2
-2023/2024,Female,all,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,333,267,291,19,16,0,66,0,272,3
-2023/2024,Female,all,WAEC,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,901,721,780,57,49,1,180,0,723,8
-2023/2024,Female,all,WAEC,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,258,207,234,17,16,0,51,0,217,1
-2023/2024,Female,all,WAEC,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,245,196,229,18,16,0,49,0,211,2
-2023/2024,Female,all,WAEC,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,1872,1498,1719,124,114,1,374,0,1595,10
-2023/2024,Female,all,WAEC,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,505,404,441,32,29,0,101,0,409,3
-2023/2024,Female,all,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,157,126,150,43,41,0,31,0,107,2
-2023/2024,Female,all,WAEC,University,lga,Miga,North West,Jigawa,Miga,,,223,178,210,57,51,0,45,0,153,6
-2023/2024,Female,all,WAEC,University,lga,Ringim,North West,Jigawa,Ringim,,,183,146,168,46,42,0,37,0,122,4
-2023/2024,Female,all,WAEC,University,lga,Roni,North West,Jigawa,Roni,,,158,127,138,34,30,0,31,0,104,4
-2023/2024,Female,all,WAEC,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,1136,909,1019,257,234,2,227,0,762,23
-2023/2024,Female,all,WAEC,University,lga,Taura,North West,Jigawa,Taura,,,566,453,511,145,133,1,113,0,366,12
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,9,7,8,0,0,0,2,0,8,0
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Miga,North West,Jigawa,Miga,,,8,6,7,0,0,0,2,0,7,0
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,16,13,14,1,0,0,3,0,13,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Roni,North West,Jigawa,Roni,,,26,21,23,1,0,0,5,0,22,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,45,36,41,2,1,0,9,0,39,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Taura,North West,Jigawa,Taura,,,36,29,34,1,0,0,7,0,33,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,8,6,6,0,0,0,2,0,6,0
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,26,21,23,1,0,0,5,0,22,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,8,6,7,1,0,0,2,0,6,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,8,6,7,1,0,0,2,0,6,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,58,46,49,4,3,0,12,0,45,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,17,14,15,1,0,0,3,0,14,1
-2023/2024,Female,disabled,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,36,29,34,17,15,0,7,0,17,2
-2023/2024,Female,disabled,NABTEB,University,lga,Miga,North West,Jigawa,Miga,,,12,10,10,6,5,0,2,0,4,1
-2023/2024,Female,disabled,NABTEB,University,lga,Ringim,North West,Jigawa,Ringim,,,8,6,8,2,1,0,2,0,6,1
-2023/2024,Female,disabled,NABTEB,University,lga,Roni,North West,Jigawa,Roni,,,9,7,8,0,0,0,2,0,8,0
-2023/2024,Female,disabled,NABTEB,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,34,27,30,0,0,0,7,0,30,0
-2023/2024,Female,disabled,NABTEB,University,lga,Taura,North West,Jigawa,Taura,,,21,17,19,7,6,0,4,0,12,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,14,11,13,0,0,0,3,0,13,0
-2023/2024,Female,disabled,NECO,College of Education,lga,Miga,North West,Jigawa,Miga,,,8,6,8,0,0,0,2,0,8,0
-2023/2024,Female,disabled,NECO,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,20,16,19,1,0,0,4,0,18,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Roni,North West,Jigawa,Roni,,,53,42,44,1,0,0,11,0,43,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,71,57,68,2,1,0,14,0,66,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Taura,North West,Jigawa,Taura,,,50,41,52,2,1,0,9,0,50,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,13,10,13,1,0,0,3,0,12,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,41,33,38,4,3,0,8,0,34,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,15,12,11,1,0,0,3,1,10,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,8,6,8,1,0,0,2,0,7,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,97,78,88,7,6,0,19,0,81,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,25,20,24,2,1,0,5,0,22,1
-2023/2024,Female,disabled,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,55,44,54,14,13,0,11,0,40,1
-2023/2024,Female,disabled,NECO,University,lga,Miga,North West,Jigawa,Miga,,,19,15,17,6,5,0,4,0,11,1
-2023/2024,Female,disabled,NECO,University,lga,Ringim,North West,Jigawa,Ringim,,,9,7,8,1,0,0,2,0,7,1
-2023/2024,Female,disabled,NECO,University,lga,Roni,North West,Jigawa,Roni,,,9,7,7,4,3,0,2,0,3,1
-2023/2024,Female,disabled,NECO,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,59,47,54,14,13,0,12,0,40,1
-2023/2024,Female,disabled,NECO,University,lga,Taura,North West,Jigawa,Taura,,,30,24,31,7,6,0,6,0,24,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,18,15,19,0,0,0,3,0,19,0
-2023/2024,Female,disabled,WAEC,College of Education,lga,Miga,North West,Jigawa,Miga,,,13,10,13,0,0,0,3,0,13,0
-2023/2024,Female,disabled,WAEC,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,26,21,25,1,0,0,5,0,24,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Roni,North West,Jigawa,Roni,,,75,59,73,2,1,0,16,0,71,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,90,71,80,2,1,0,19,0,78,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Taura,North West,Jigawa,Taura,,,68,54,63,2,1,0,14,0,61,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,23,18,20,1,0,0,5,0,19,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,53,42,48,4,3,0,11,0,44,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,19,15,18,2,1,0,4,0,16,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,12,10,11,1,0,0,2,0,10,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,142,112,134,8,7,0,30,0,126,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,34,27,31,2,1,0,7,0,29,1
-2023/2024,Female,disabled,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,73,59,70,17,16,0,14,0,53,1
-2023/2024,Female,disabled,WAEC,University,lga,Miga,North West,Jigawa,Miga,,,31,25,28,8,7,0,6,0,20,1
-2023/2024,Female,disabled,WAEC,University,lga,Ringim,North West,Jigawa,Ringim,,,10,8,8,2,1,0,2,0,6,1
-2023/2024,Female,disabled,WAEC,University,lga,Roni,North West,Jigawa,Roni,,,11,9,9,4,3,0,2,0,5,1
-2023/2024,Female,disabled,WAEC,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,71,57,63,14,13,0,14,0,49,1
-2023/2024,Female,disabled,WAEC,University,lga,Taura,North West,Jigawa,Taura,,,44,35,38,11,10,0,9,0,27,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,82,65,79,1,0,0,17,0,78,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Miga,North West,Jigawa,Miga,,,81,65,81,2,1,0,16,0,79,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,134,107,127,3,2,0,27,0,124,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Roni,North West,Jigawa,Roni,,,363,289,340,8,7,0,74,0,332,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,575,461,542,11,10,0,114,0,531,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Taura,North West,Jigawa,Taura,,,369,295,353,9,8,0,74,0,344,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,135,108,120,5,4,0,27,0,115,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,388,310,335,17,16,0,78,0,318,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,90,72,83,5,4,0,18,0,78,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,84,67,77,5,4,0,17,0,72,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,737,590,704,47,44,0,147,0,657,3
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,176,141,156,9,8,0,35,0,147,1
-2023/2024,Male,all,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,485,388,438,96,85,1,97,0,342,11
-2023/2024,Male,all,NABTEB,University,lga,Miga,North West,Jigawa,Miga,,,148,118,141,32,31,0,30,0,109,1
-2023/2024,Male,all,NABTEB,University,lga,Ringim,North West,Jigawa,Ringim,,,77,62,74,16,14,0,15,0,58,2
-2023/2024,Male,all,NABTEB,University,lga,Roni,North West,Jigawa,Roni,,,66,53,52,7,6,0,13,1,45,1
-2023/2024,Male,all,NABTEB,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,513,410,460,77,64,1,103,0,383,13
-2023/2024,Male,all,NABTEB,University,lga,Taura,North West,Jigawa,Taura,,,227,182,213,51,50,0,45,0,162,1
-2023/2024,Male,all,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,148,118,145,4,3,0,30,0,141,1
-2023/2024,Male,all,NECO,College of Education,lga,Miga,North West,Jigawa,Miga,,,154,123,151,3,2,0,31,0,148,1
-2023/2024,Male,all,NECO,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,245,196,225,5,4,0,49,0,220,1
-2023/2024,Male,all,NECO,College of Education,lga,Roni,North West,Jigawa,Roni,,,793,634,736,16,15,0,159,0,720,1
-2023/2024,Male,all,NECO,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,1109,887,1047,25,24,0,222,0,1022,1
-2023/2024,Male,all,NECO,College of Education,lga,Taura,North West,Jigawa,Taura,,,652,521,604,15,14,0,131,0,589,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,273,218,252,13,12,0,55,0,239,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,700,561,610,35,33,0,139,0,575,2
-2023/2024,Male,all,NECO,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,180,144,164,10,9,0,36,0,154,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,157,126,149,10,9,0,31,0,139,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,1354,1084,1232,76,73,0,270,0,1156,3
-2023/2024,Male,all,NECO,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,341,273,306,21,19,0,68,0,285,2
-2023/2024,Male,all,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,888,710,828,216,198,1,178,0,612,18
-2023/2024,Male,all,NECO,University,lga,Miga,North West,Jigawa,Miga,,,291,233,275,64,63,0,58,0,211,1
-2023/2024,Male,all,NECO,University,lga,Ringim,North West,Jigawa,Ringim,,,142,113,129,29,28,0,29,0,100,1
-2023/2024,Male,all,NECO,University,lga,Roni,North West,Jigawa,Roni,,,128,102,107,17,13,0,26,0,90,4
-2023/2024,Male,all,NECO,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,916,733,818,190,172,1,183,0,628,18
-2023/2024,Male,all,NECO,University,lga,Taura,North West,Jigawa,Taura,,,435,348,395,97,89,1,87,0,298,8
-2023/2024,Male,all,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,215,172,213,6,5,0,43,0,207,1
-2023/2024,Male,all,WAEC,College of Education,lga,Miga,North West,Jigawa,Miga,,,227,182,211,6,5,0,45,0,205,1
-2023/2024,Male,all,WAEC,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,326,261,309,8,7,0,65,0,301,1
-2023/2024,Male,all,WAEC,College of Education,lga,Roni,North West,Jigawa,Roni,,,1049,840,947,22,20,0,209,0,925,2
-2023/2024,Male,all,WAEC,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,1491,1193,1409,37,34,0,298,0,1372,3
-2023/2024,Male,all,WAEC,College of Education,lga,Taura,North West,Jigawa,Taura,,,941,752,880,26,23,0,189,0,854,3
-2023/2024,Male,all,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,412,330,380,28,24,0,82,0,352,4
-2023/2024,Male,all,WAEC,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,967,774,889,62,54,1,193,0,827,8
-2023/2024,Male,all,WAEC,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,227,182,204,14,13,0,45,0,190,1
-2023/2024,Male,all,WAEC,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,208,166,194,15,13,0,42,0,179,2
-2023/2024,Male,all,WAEC,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,1848,1478,1704,123,110,1,370,0,1581,13
-2023/2024,Male,all,WAEC,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,436,349,391,29,26,0,87,0,362,3
-2023/2024,Male,all,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,1101,881,1024,290,264,2,220,0,734,26
-2023/2024,Male,all,WAEC,University,lga,Miga,North West,Jigawa,Miga,,,387,310,351,93,86,1,77,0,258,7
-2023/2024,Male,all,WAEC,University,lga,Ringim,North West,Jigawa,Ringim,,,201,161,190,51,47,0,40,0,139,4
-2023/2024,Male,all,WAEC,University,lga,Roni,North West,Jigawa,Roni,,,163,131,136,34,30,0,32,0,102,4
-2023/2024,Male,all,WAEC,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,1219,975,1095,252,223,2,244,0,843,29
-2023/2024,Male,all,WAEC,University,lga,Taura,North West,Jigawa,Taura,,,591,472,523,139,133,0,119,0,384,6
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,9,7,8,0,0,0,2,0,8,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Miga,North West,Jigawa,Miga,,,9,7,7,0,0,0,2,0,7,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,18,14,17,1,0,0,4,0,16,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Roni,North West,Jigawa,Roni,,,28,22,25,1,0,0,6,0,24,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,51,41,46,1,0,0,10,0,45,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Taura,North West,Jigawa,Taura,,,40,32,37,1,0,0,8,0,36,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,9,7,8,0,0,0,2,0,8,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,33,26,25,0,0,0,7,1,25,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,9,7,7,0,0,0,2,0,7,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,9,7,7,1,0,0,2,0,6,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,67,54,62,7,6,0,13,0,55,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,19,15,17,0,0,0,4,0,17,0
-2023/2024,Male,disabled,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,44,36,42,8,7,0,8,0,34,1
-2023/2024,Male,disabled,NABTEB,University,lga,Miga,North West,Jigawa,Miga,,,13,11,12,4,3,0,2,0,8,1
-2023/2024,Male,disabled,NABTEB,University,lga,Ringim,North West,Jigawa,Ringim,,,9,7,8,2,1,0,2,0,6,1
-2023/2024,Male,disabled,NABTEB,University,lga,Roni,North West,Jigawa,Roni,,,9,7,8,0,0,0,2,0,8,0
-2023/2024,Male,disabled,NABTEB,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,40,32,37,4,3,0,8,0,33,1
-2023/2024,Male,disabled,NABTEB,University,lga,Taura,North West,Jigawa,Taura,,,23,19,21,4,3,0,4,0,17,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,12,10,11,0,0,0,2,0,11,0
-2023/2024,Male,disabled,NECO,College of Education,lga,Miga,North West,Jigawa,Miga,,,11,9,10,0,0,0,2,0,10,0
-2023/2024,Male,disabled,NECO,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,22,17,21,0,0,0,5,0,21,0
-2023/2024,Male,disabled,NECO,College of Education,lga,Roni,North West,Jigawa,Roni,,,60,48,56,1,0,0,12,0,55,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,74,60,71,2,1,0,14,0,69,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Taura,North West,Jigawa,Taura,,,55,44,49,2,1,0,11,0,47,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,20,16,19,0,0,0,4,0,19,0
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,37,30,34,1,0,0,7,0,33,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,16,13,14,1,0,0,3,0,13,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,9,7,8,0,0,0,2,0,8,0
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,119,96,112,5,4,0,23,0,107,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,27,22,26,2,1,0,5,0,24,1
-2023/2024,Male,disabled,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,69,56,62,14,13,0,13,0,48,1
-2023/2024,Male,disabled,NECO,University,lga,Miga,North West,Jigawa,Miga,,,26,21,28,7,6,0,5,0,21,1
-2023/2024,Male,disabled,NECO,University,lga,Ringim,North West,Jigawa,Ringim,,,11,9,10,1,0,0,2,0,9,1
-2023/2024,Male,disabled,NECO,University,lga,Roni,North West,Jigawa,Roni,,,10,8,7,0,0,0,2,1,7,0
-2023/2024,Male,disabled,NECO,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,69,56,59,11,10,0,13,0,48,1
-2023/2024,Male,disabled,NECO,University,lga,Taura,North West,Jigawa,Taura,,,40,32,37,7,6,0,8,0,30,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,22,18,21,0,0,0,4,0,21,0
-2023/2024,Male,disabled,WAEC,College of Education,lga,Miga,North West,Jigawa,Miga,,,16,13,15,0,0,0,3,0,15,0
-2023/2024,Male,disabled,WAEC,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,26,21,25,1,0,0,5,0,24,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Roni,North West,Jigawa,Roni,,,85,67,78,1,0,0,18,0,77,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,102,81,95,2,1,0,21,0,93,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Taura,North West,Jigawa,Taura,,,77,61,70,2,1,0,16,0,68,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,29,22,25,1,0,0,7,0,24,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,43,34,39,2,1,0,9,0,37,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,21,17,20,2,1,0,4,0,18,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,14,11,14,1,0,0,3,0,13,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,164,130,151,9,8,0,34,0,142,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,37,30,35,2,1,0,7,0,33,1
-2023/2024,Male,disabled,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,93,74,91,17,16,0,19,0,74,1
-2023/2024,Male,disabled,WAEC,University,lga,Miga,North West,Jigawa,Miga,,,38,30,33,7,6,0,8,0,26,1
-2023/2024,Male,disabled,WAEC,University,lga,Ringim,North West,Jigawa,Ringim,,,7,6,6,1,0,0,1,0,5,1
-2023/2024,Male,disabled,WAEC,University,lga,Roni,North West,Jigawa,Roni,,,6,5,5,2,1,0,1,0,3,1
-2023/2024,Male,disabled,WAEC,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,92,73,85,14,13,0,19,0,71,1
-2023/2024,Male,disabled,WAEC,University,lga,Taura,North West,Jigawa,Taura,,,54,42,49,11,10,0,12,0,38,1
-2024/2025,Female,all,NECO,Polytechnic,lga,Auyo,North West,Jigawa,Auyo,,,55,44,31,15,14,0.087724,11,13,16,1
-2024/2025,Female,all,NECO,Polytechnic,lga,Babura,North West,Jigawa,Babura,,,157,126,88,42,39,0.249881,31,38,46,3
-2024/2025,Female,all,NECO,Polytechnic,lga,Birnin-Kudu,North West,Jigawa,Birnin-Kudu,,,458,366,256,123,113,0.728377,92,110,133,10
-2024/2025,Female,all,NECO,Polytechnic,lga,Birniwa,North West,Jigawa,Birniwa,,,386,309,216,103,95,0.61407,77,93,113,8
-2024/2025,Female,all,NECO,Polytechnic,lga,Buji,North West,Jigawa,Buji,,,377,302,211,101,93,0.600778,75,91,110,8
-2024/2025,Female,all,NECO,Polytechnic,lga,Dutse,North West,Jigawa,Dutse,,,1137,910,637,305,280,1.81031,227,273,332,25
-2024/2025,Female,all,NECO,Polytechnic,lga,Gagarawa,North West,Jigawa,Gagarawa,,,444,355,249,119,109,0.707111,89,106,130,10
-2024/2025,Female,all,NECO,Polytechnic,lga,Garki,North West,Jigawa,Garki,,,919,735,514,246,226,1.462071,184,221,268,20
-2024/2025,Female,all,NECO,Polytechnic,lga,Gumel,North West,Jigawa,Gumel,,,750,600,420,201,185,1.193582,150,180,219,16
-2024/2025,Female,all,NECO,Polytechnic,lga,Guri,North West,Jigawa,Guri,,,792,633,443,212,195,1.260039,159,190,231,17
-2024/2025,Female,all,NECO,Polytechnic,lga,Gwaram,North West,Jigawa,Gwaram,,,1740,1392,975,466,429,2.76996,348,417,509,37
-2024/2025,Female,all,NECO,Polytechnic,lga,Gwiwa,North West,Jigawa,Gwiwa,,,733,587,411,196,181,1.166998,146,176,215,15
-2024/2025,Female,all,NECO,Polytechnic,lga,Hadejia,North West,Jigawa,Hadejia,,,1096,877,614,293,270,1.743852,219,263,321,23
-2024/2025,Female,all,NECO,Polytechnic,lga,Jahun,North West,Jigawa,Jahun,,,1558,1247,873,417,384,2.480204,311,374,456,33
-2024/2025,Female,all,NECO,Polytechnic,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,2423,1939,1357,649,597,3.857209,484,582,708,52
-2024/2025,Female,all,NECO,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,1779,1423,996,476,438,2.831101,356,427,520,38
-2024/2025,Female,all,NECO,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,1121,897,628,300,276,1.783726,224,269,328,24
-2024/2025,Female,all,NECO,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,1727,1382,967,462,425,2.748693,345,415,505,37
-2024/2025,Female,all,NECO,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,1929,1543,1080,517,475,3.070349,386,463,563,42
-2024/2025,Female,all,NECO,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,2041,1633,1143,547,503,3.248456,408,490,596,44
-2024/2025,Female,all,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,1963,1570,1099,526,484,3.123515,393,471,573,42
-2024/2025,Female,all,NECO,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,1507,1205,844,403,371,2.397796,302,361,441,32
-2024/2025,Female,all,NECO,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,3000,2400,1680,803,739,4.774326,600,720,877,64
-2024/2025,Female,all,NECO,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,1690,1352,946,453,416,2.69021,338,406,493,37
-2024/2025,Female,all,NECO,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,3219,2575,1802,862,793,5.122565,644,773,940,69
-2024/2025,Female,all,NECO,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,2273,1819,1273,609,560,3.617961,454,546,664,49
-2024/2025,Female,all,NECO,Polytechnic,lga,Yankwashi,North West,Jigawa,Yankwashi,,,1542,1233,863,413,380,2.453621,309,370,450,33
-2024/2025,Male,all,NABTEB,College of Education,lga,Auyo,North West,Jigawa,Auyo,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NABTEB,College of Education,lga,Babura,North West,Jigawa,Babura,,,73,59,41,20,18,0.116966,14,18,21,2
-2024/2025,Male,all,NABTEB,College of Education,lga,Birnin-Kudu,North West,Jigawa,Birnin-Kudu,,,311,249,174,83,77,0.494446,62,75,91,6
-2024/2025,Male,all,NABTEB,College of Education,lga,Birniwa,North West,Jigawa,Birniwa,,,277,222,155,74,68,0.44128,55,67,81,6
-2024/2025,Male,all,NABTEB,College of Education,lga,Buji,North West,Jigawa,Buji,,,264,211,148,71,65,0.420013,53,63,77,6
-2024/2025,Male,all,NABTEB,College of Education,lga,Dutse,North West,Jigawa,Dutse,,,889,711,498,238,219,1.414221,178,213,260,19
-2024/2025,Male,all,NABTEB,College of Education,lga,Gagarawa,North West,Jigawa,Gagarawa,,,372,298,209,100,92,0.592803,74,89,109,8
-2024/2025,Male,all,NABTEB,College of Education,lga,Garki,North West,Jigawa,Garki,,,686,549,384,184,169,1.092566,137,165,200,15
-2024/2025,Male,all,NABTEB,College of Education,lga,Gumel,North West,Jigawa,Gumel,,,648,518,363,174,160,1.031425,130,155,189,14
-2024/2025,Male,all,NABTEB,College of Education,lga,Guri,North West,Jigawa,Guri,,,605,484,339,162,149,0.962308,121,145,177,13
-2024/2025,Male,all,NABTEB,College of Education,lga,Gwaram,North West,Jigawa,Gwaram,,,1383,1106,774,370,341,2.201081,277,332,404,29
-2024/2025,Male,all,NABTEB,College of Education,lga,Gwiwa,North West,Jigawa,Gwiwa,,,630,504,353,169,155,1.002183,126,151,184,14
-2024/2025,Male,all,NABTEB,College of Education,lga,Hadejia,North West,Jigawa,Hadejia,,,900,720,504,241,222,1.432829,180,216,263,19
-2024/2025,Male,all,NABTEB,College of Education,lga,Jahun,North West,Jigawa,Jahun,,,1279,1023,716,343,315,2.036266,256,307,373,28
-2024/2025,Male,all,NABTEB,College of Education,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,1988,1590,1113,532,490,3.16339,398,477,581,42
-2024/2025,Male,all,NABTEB,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,1453,1162,814,389,358,2.31273,291,348,425,31
-2024/2025,Male,all,NABTEB,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,935,748,524,250,230,1.488654,187,224,274,20
-2024/2025,Male,all,NABTEB,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,1391,1113,779,373,343,2.214373,278,334,406,30
-2024/2025,Male,all,NABTEB,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,1664,1331,932,445,410,2.647677,333,399,487,35
-2024/2025,Male,all,NABTEB,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,1657,1325,928,444,408,2.637044,332,397,484,36
-2024/2025,Male,all,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,1638,1311,917,439,404,2.607803,327,394,478,35
-2024/2025,Male,all,NABTEB,College of Education,lga,Miga,North West,Jigawa,Miga,,,1228,982,687,329,302,1.953858,246,295,358,27
-2024/2025,Male,all,NABTEB,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,2545,2036,1425,682,627,4.051266,509,611,743,55
-2024/2025,Male,all,NABTEB,College of Education,lga,Roni,North West,Jigawa,Roni,,,1388,1110,777,372,342,2.209056,278,333,405,30
-2024/2025,Male,all,NABTEB,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,2671,2137,1495,715,658,4.250639,534,642,780,57
-2024/2025,Male,all,NABTEB,College of Education,lga,Taura,North West,Jigawa,Taura,,,1957,1566,1096,524,482,3.11554,391,470,572,42
-2024/2025,Male,all,NABTEB,College of Education,lga,Yankwashi,North West,Jigawa,Yankwashi,,,1283,1026,718,343,316,2.041583,257,308,375,27
-2024/2025,Male,all,WAEC,University,lga,Auyo,North West,Jigawa,Auyo,,,60,48,34,16,15,0.095699,12,14,18,1
-2024/2025,Male,all,WAEC,University,lga,Babura,North West,Jigawa,Babura,,,90,72,50,24,22,0.143549,18,22,26,2
-2024/2025,Male,all,WAEC,University,lga,Birnin-Kudu,North West,Jigawa,Birnin-Kudu,,,205,164,115,55,51,0.326972,41,49,60,4
-2024/2025,Male,all,WAEC,University,lga,Birniwa,North West,Jigawa,Birniwa,,,189,151,106,51,47,0.300389,38,45,55,4
-2024/2025,Male,all,WAEC,University,lga,Buji,North West,Jigawa,Buji,,,144,115,80,38,35,0.228615,29,35,42,3
-2024/2025,Male,all,WAEC,University,lga,Dutse,North West,Jigawa,Dutse,,,416,333,233,111,102,0.661919,83,100,122,9
-2024/2025,Male,all,WAEC,University,lga,Gagarawa,North West,Jigawa,Gagarawa,,,187,150,105,50,46,0.297731,37,45,55,4
-2024/2025,Male,all,WAEC,University,lga,Garki,North West,Jigawa,Garki,,,316,253,177,85,78,0.502421,63,76,92,7
-2024/2025,Male,all,WAEC,University,lga,Gumel,North West,Jigawa,Gumel,,,244,195,137,65,60,0.388113,49,58,72,5
-2024/2025,Male,all,WAEC,University,lga,Guri,North West,Jigawa,Guri,,,269,215,151,72,66,0.427988,54,64,79,6
-2024/2025,Male,all,WAEC,University,lga,Gwaram,North West,Jigawa,Gwaram,,,610,488,341,163,150,0.970283,122,147,178,13
-2024/2025,Male,all,WAEC,University,lga,Gwiwa,North West,Jigawa,Gwiwa,,,241,192,135,64,59,0.382797,49,57,71,5
-2024/2025,Male,all,WAEC,University,lga,Hadejia,North West,Jigawa,Hadejia,,,327,262,183,88,81,0.521029,65,79,95,7
-2024/2025,Male,all,WAEC,University,lga,Jahun,North West,Jigawa,Jahun,,,556,445,311,149,137,0.885217,111,134,162,12
-2024/2025,Male,all,WAEC,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,773,619,433,207,191,1.230798,154,186,226,16
-2024/2025,Male,all,WAEC,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,548,438,307,147,135,0.871926,110,131,160,12
-2024/2025,Male,all,WAEC,University,lga,Kazaure,North West,Jigawa,Kazaure,,,386,309,216,103,95,0.61407,77,93,113,8
-2024/2025,Male,all,WAEC,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,551,441,309,148,136,0.877243,110,132,161,12
-2024/2025,Male,all,WAEC,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,601,481,337,161,148,0.956992,120,144,176,13
-2024/2025,Male,all,WAEC,University,lga,Maigatari,North West,Jigawa,Maigatari,,,628,502,352,168,155,0.999525,126,150,184,13
-2024/2025,Male,all,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,643,514,360,172,158,1.02345,129,154,188,14
-2024/2025,Male,all,WAEC,University,lga,Miga,North West,Jigawa,Miga,,,464,371,260,124,114,0.73901,93,111,136,10
-2024/2025,Male,all,WAEC,University,lga,Ringim,North West,Jigawa,Ringim,,,899,719,503,241,221,1.430171,180,216,262,20
-2024/2025,Male,all,WAEC,University,lga,Roni,North West,Jigawa,Roni,,,544,436,305,146,134,0.866609,108,131,159,12
-2024/2025,Male,all,WAEC,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,1010,808,566,271,249,1.608278,202,242,295,22
-2024/2025,Male,all,WAEC,University,lga,Taura,North West,Jigawa,Taura,,,695,556,389,186,171,1.105857,139,167,203,15
-2024/2025,Male,all,WAEC,University,lga,Yankwashi,North West,Jigawa,Yankwashi,,,446,357,250,119,110,0.709769,89,107,131,9
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,179,463,512,33,30,0,69,0,305,2
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,74,190,218,12,11,0,30,0,131,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,83,213,244,14,12,0,33,0,147,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,78,201,229,12,11,0,31,0,138,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,267,688,751,36,35,0,105,0,456,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,83,213,246,17,15,0,33,0,146,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,78,201,213,15,14,0,30,0,126,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,100,257,280,30,29,0,39,0,158,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,79,205,207,22,21,0,31,0,117,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,100,257,277,26,24,0,39,0,159,2
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,48,124,134,8,7,0,19,0,80,1
+2022/2023,Female,ALL,NABTEB,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,137,352,363,64,60,0,54,0,187,3
+2022/2023,Female,ALL,NABTEB,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,175,450,487,94,91,0,69,0,245,2
+2022/2023,Female,ALL,NABTEB,University,lga,Kazaure,North West,Jigawa,Kazaure,,,62,162,184,43,39,0,24,0,87,3
+2022/2023,Female,ALL,NABTEB,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,145,373,428,86,84,0,57,0,213,1
+2022/2023,Female,ALL,NABTEB,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,251,648,674,109,108,0,99,0,354,1
+2022/2023,Female,ALL,NABTEB,University,lga,Maigatari,North West,Jigawa,Maigatari,,,41,105,114,18,14,0,16,0,60,3
+2022/2023,Female,ALL,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,51,133,142,21,19,0,20,0,76,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,333,858,958,55,50,0,131,0,575,4
+2022/2023,Female,ALL,NECO,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,135,347,386,24,22,0,53,0,231,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,152,391,422,24,22,0,60,0,254,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,154,399,436,24,22,0,60,0,263,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,493,1271,1389,76,71,0,194,0,837,4
+2022/2023,Female,ALL,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,155,399,445,30,29,0,62,0,264,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,137,352,369,35,33,0,54,0,212,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,194,499,553,55,48,0,77,0,315,5
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,129,331,360,36,33,0,51,0,205,2
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,179,460,498,47,44,0,71,0,286,2
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,89,229,238,24,21,0,35,0,136,2
+2022/2023,Female,ALL,NECO,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,247,637,726,148,133,19,98,0,359,11
+2022/2023,Female,ALL,NECO,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,372,959,1060,226,215,19,146,0,518,8
+2022/2023,Female,ALL,NECO,University,lga,Kazaure,North West,Jigawa,Kazaure,,,115,298,321,68,64,0,45,0,157,3
+2022/2023,Female,ALL,NECO,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,287,740,802,158,144,19,113,0,401,10
+2022/2023,Female,ALL,NECO,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,478,1234,1352,241,235,0,187,0,694,4
+2022/2023,Female,ALL,NECO,University,lga,Maigatari,North West,Jigawa,Maigatari,,,66,170,181,33,32,0,25,0,92,1
+2022/2023,Female,ALL,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,80,205,221,55,51,0,32,0,102,3
+2022/2023,Female,ALL,WAEC,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,435,1123,1258,86,76,19,171,0,746,7
+2022/2023,Female,ALL,WAEC,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,189,486,559,35,30,0,75,0,334,3
+2022/2023,Female,ALL,WAEC,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,187,481,547,33,30,0,74,0,327,2
+2022/2023,Female,ALL,WAEC,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,202,521,553,33,30,0,79,0,331,2
+2022/2023,Female,ALL,WAEC,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,681,1755,1961,122,111,19,269,0,1171,8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,210,544,592,40,37,0,82,0,351,2
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,168,434,450,44,40,0,66,0,257,3
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,217,560,621,72,65,0,86,0,347,5
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,185,478,525,57,53,0,73,0,296,3
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,233,601,652,73,66,0,92,0,366,5
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,107,277,301,29,28,0,41,0,172,1
+2022/2023,Female,ALL,WAEC,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,223,573,621,137,119,19,88,0,300,13
+2022/2023,Female,ALL,WAEC,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,459,1184,1313,309,281,37,181,0,620,20
+2022/2023,Female,ALL,WAEC,University,lga,Kazaure,North West,Jigawa,Kazaure,,,168,434,480,115,105,19,66,0,225,7
+2022/2023,Female,ALL,WAEC,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,380,979,1060,248,228,19,150,0,502,14
+2022/2023,Female,ALL,WAEC,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,607,1565,1663,322,275,56,239,0,835,34
+2022/2023,Female,ALL,WAEC,University,lga,Maigatari,North West,Jigawa,Maigatari,,,93,241,249,53,47,0,37,0,122,4
+2022/2023,Female,ALL,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,116,300,315,64,60,0,46,0,156,3
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,18,47,51,7,6,0,7,0,28,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,6,15,17,1,0,0,2,0,10,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,6,15,16,1,0,0,2,0,9,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,6,15,17,1,0,0,2,0,10,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,25,65,75,3,1,0,10,0,46,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,7,18,19,3,1,0,3,0,10,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,6,15,17,0,0,0,2,0,11,0
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,12,29,31,6,4,0,5,0,16,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,12,29,31,6,4,0,5,0,16,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,12,29,31,6,4,0,5,0,16,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,6,15,16,0,0,0,2,0,10,0
+2022/2023,Female,Disabled,NABTEB,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,6,16,17,8,7,0,2,0,5,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,12,29,34,6,4,0,5,0,18,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Kazaure,North West,Jigawa,Kazaure,,,6,15,16,7,6,0,2,0,5,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,12,31,34,8,7,0,5,0,16,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,24,62,67,0,0,0,9,0,43,0
+2022/2023,Female,Disabled,NABTEB,University,lga,Maigatari,North West,Jigawa,Maigatari,,,14,34,40,8,7,0,6,0,20,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,6,15,16,0,0,0,2,0,10,0
+2022/2023,Female,Disabled,NECO,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,25,65,75,7,6,0,10,0,43,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,7,18,19,1,0,0,3,0,11,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,9,21,25,1,0,0,4,0,15,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,7,18,19,1,0,0,3,0,11,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,4,10,11,1,0,0,2,0,6,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,12,31,30,3,1,0,5,0,17,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,7,18,19,3,1,0,3,0,10,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,13,34,37,6,4,0,5,0,20,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,12,29,31,3,1,0,5,0,18,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,15,39,47,4,3,0,6,0,27,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,6,15,17,1,0,0,2,0,10,1
+2022/2023,Female,Disabled,NECO,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,11,28,36,7,6,0,5,0,18,1
+2022/2023,Female,Disabled,NECO,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,24,64,75,21,19,0,9,0,33,1
+2022/2023,Female,Disabled,NECO,University,lga,Kazaure,North West,Jigawa,Kazaure,,,9,21,23,6,4,0,4,0,11,1
+2022/2023,Female,Disabled,NECO,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,22,57,58,17,14,0,9,0,25,2
+2022/2023,Female,Disabled,NECO,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,34,87,89,25,21,0,13,0,39,3
+2022/2023,Female,Disabled,NECO,University,lga,Maigatari,North West,Jigawa,Maigatari,,,29,74,72,14,12,0,12,0,36,1
+2022/2023,Female,Disabled,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,6,15,17,6,4,0,2,0,7,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,32,82,100,6,4,0,12,0,60,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,11,28,30,1,0,0,4,0,18,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,11,28,31,3,1,0,4,0,18,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,69,178,195,14,12,0,27,0,115,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,17,44,53,4,3,0,7,0,31,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,18,46,48,4,3,0,7,0,28,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,11,28,30,3,1,0,4,0,17,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,13,33,34,4,3,0,5,0,19,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,6,15,17,3,1,0,2,0,9,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,21,54,61,8,7,0,8,0,33,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,19,47,53,6,4,0,8,0,30,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,6,15,17,1,0,0,2,0,10,1
+2022/2023,Female,Disabled,WAEC,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,14,36,40,7,6,0,6,0,21,1
+2022/2023,Female,Disabled,WAEC,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,33,85,93,22,21,0,13,0,44,1
+2022/2023,Female,Disabled,WAEC,University,lga,Kazaure,North West,Jigawa,Kazaure,,,14,36,40,10,8,0,6,0,19,1
+2022/2023,Female,Disabled,WAEC,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,32,82,87,17,14,0,13,0,44,2
+2022/2023,Female,Disabled,WAEC,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,44,115,123,25,21,0,17,0,61,3
+2022/2023,Female,Disabled,WAEC,University,lga,Maigatari,North West,Jigawa,Maigatari,,,38,95,100,17,14,0,16,0,52,2
+2022/2023,Female,Disabled,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,7,18,22,6,4,0,3,0,10,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,181,468,539,33,32,0,71,0,322,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,66,170,198,11,10,0,25,0,119,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,70,180,198,8,7,0,28,0,121,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,390,1005,1145,55,48,0,154,0,695,5
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,74,192,207,10,8,0,28,0,126,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,74,192,213,10,8,0,29,0,130,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,64,165,179,17,14,0,24,0,103,2
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,103,265,273,21,17,0,40,0,160,3
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,49,126,134,14,12,0,19,0,76,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,141,363,382,37,36,0,55,0,218,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,108,277,299,28,25,0,43,0,172,2
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,49,126,134,11,10,0,19,0,78,1
+2022/2023,Male,ALL,NABTEB,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,89,229,252,43,35,0,35,0,131,6
+2022/2023,Male,ALL,NABTEB,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,208,537,592,109,101,0,82,0,301,6
+2022/2023,Male,ALL,NABTEB,University,lga,Kazaure,North West,Jigawa,Kazaure,,,68,175,192,36,30,0,27,0,97,4
+2022/2023,Male,ALL,NABTEB,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,166,426,486,109,107,0,66,0,233,2
+2022/2023,Male,ALL,NABTEB,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,249,643,657,95,94,0,98,0,353,1
+2022/2023,Male,ALL,NABTEB,University,lga,Maigatari,North West,Jigawa,Maigatari,,,197,509,567,109,94,19,77,0,285,11
+2022/2023,Male,ALL,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,39,100,111,15,14,0,15,0,60,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,334,861,969,57,53,0,131,0,581,3
+2022/2023,Male,ALL,NECO,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,137,352,397,19,18,0,54,0,241,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,143,368,410,21,18,0,56,0,248,2
+2022/2023,Male,ALL,NECO,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,766,1973,2196,126,116,19,302,0,1319,7
+2022/2023,Male,ALL,NECO,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,148,383,439,22,21,0,58,0,266,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,156,401,431,29,26,0,62,0,256,2
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,126,324,349,30,29,0,50,0,202,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,213,548,565,50,44,0,84,0,327,4
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,90,232,257,25,22,0,35,0,147,2
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,247,637,699,60,58,0,97,0,406,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,200,516,575,55,53,0,78,0,329,2
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,86,221,241,22,19,0,34,0,139,2
+2022/2023,Male,ALL,NECO,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,158,406,439,83,82,0,62,0,222,1
+2022/2023,Male,ALL,NECO,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,400,1031,1140,210,195,19,158,0,580,11
+2022/2023,Male,ALL,NECO,University,lga,Kazaure,North West,Jigawa,Kazaure,,,100,259,290,58,53,0,39,0,144,4
+2022/2023,Male,ALL,NECO,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,305,786,877,165,154,19,120,0,444,8
+2022/2023,Male,ALL,NECO,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,488,1259,1327,223,205,19,192,0,691,13
+2022/2023,Male,ALL,NECO,University,lga,Maigatari,North West,Jigawa,Maigatari,,,344,889,941,158,144,19,135,0,490,10
+2022/2023,Male,ALL,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,71,182,198,40,33,0,29,0,98,5
+2022/2023,Male,ALL,WAEC,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,442,1136,1293,86,82,0,175,0,768,3
+2022/2023,Male,ALL,WAEC,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,198,511,581,35,32,0,77,0,348,2
+2022/2023,Male,ALL,WAEC,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,183,472,523,30,28,0,72,0,314,2
+2022/2023,Male,ALL,WAEC,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,802,2065,2252,134,122,19,317,0,1349,9
+2022/2023,Male,ALL,WAEC,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,200,516,573,33,30,0,78,0,344,2
+2022/2023,Male,ALL,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,204,527,567,35,33,0,80,0,339,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,153,396,413,37,33,0,59,0,238,3
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,254,653,709,66,62,0,100,0,407,3
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,117,305,336,37,35,0,45,0,189,2
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,335,863,925,100,91,0,133,0,522,6
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,249,643,715,80,72,0,98,0,401,6
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,112,288,315,33,29,0,44,0,178,3
+2022/2023,Male,ALL,WAEC,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,209,539,582,111,98,19,82,0,294,9
+2022/2023,Male,ALL,WAEC,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,531,1370,1484,338,309,37,209,0,709,21
+2022/2023,Male,ALL,WAEC,University,lga,Kazaure,North West,Jigawa,Kazaure,,,124,319,357,83,75,0,49,0,169,6
+2022/2023,Male,ALL,WAEC,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,46,118,129,29,26,0,19,0,62,2
+2022/2023,Male,ALL,WAEC,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,618,1595,1702,311,275,37,242,0,868,26
+2022/2023,Male,ALL,WAEC,University,lga,Maigatari,North West,Jigawa,Maigatari,,,460,1187,1277,274,256,19,180,0,622,13
+2022/2023,Male,ALL,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,108,278,294,66,61,0,43,0,141,4
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,10,25,26,3,1,0,4,0,15,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,6,16,17,1,0,0,2,0,10,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,6,16,19,1,0,0,2,0,11,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,30,79,90,7,6,0,11,0,53,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,8,20,22,0,0,0,3,0,14,0
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,8,20,22,0,0,0,3,0,14,0
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,6,16,17,0,0,0,2,0,11,0
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,8,21,19,0,0,0,3,1,12,0
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,6,16,17,1,0,0,2,0,10,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,19,51,53,3,1,0,7,0,32,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,13,33,36,4,3,0,5,0,20,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,6,16,17,0,0,0,2,0,11,0
+2022/2023,Male,Disabled,NABTEB,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,8,21,19,0,0,0,3,1,12,0
+2022/2023,Male,Disabled,NABTEB,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,16,43,42,6,4,0,6,0,23,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Kazaure,North West,Jigawa,Kazaure,,,1,3,3,1,0,0,0,0,1,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,6,16,17,3,1,0,2,0,9,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,28,74,83,8,7,0,11,0,47,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Maigatari,North West,Jigawa,Maigatari,,,18,46,53,17,15,0,7,0,22,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,6,16,17,0,0,0,2,0,11,0
+2022/2023,Male,Disabled,NECO,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,17,44,55,4,3,0,7,0,32,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,8,20,22,1,0,0,3,0,13,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,10,26,31,1,0,0,4,0,19,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,49,128,145,7,6,0,19,0,88,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,15,39,45,3,1,0,6,0,27,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,13,34,37,3,1,0,5,0,22,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,8,20,22,1,0,0,3,0,13,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,14,36,40,0,0,0,5,0,26,0
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,6,16,17,1,0,0,2,0,10,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,21,56,59,7,6,0,8,0,33,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,18,47,50,3,1,0,7,0,30,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,6,16,17,0,0,0,2,0,11,0
+2022/2023,Male,Disabled,NECO,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,14,36,40,7,6,0,5,0,21,1
+2022/2023,Male,Disabled,NECO,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,15,39,42,7,6,0,6,0,22,1
+2022/2023,Male,Disabled,NECO,University,lga,Kazaure,North West,Jigawa,Kazaure,,,17,44,53,10,8,0,7,0,27,1
+2022/2023,Male,Disabled,NECO,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,10,26,28,3,1,0,4,0,16,1
+2022/2023,Male,Disabled,NECO,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,43,110,112,22,21,0,17,0,56,1
+2022/2023,Male,Disabled,NECO,University,lga,Maigatari,North West,Jigawa,Maigatari,,,36,92,97,8,7,0,14,0,56,1
+2022/2023,Male,Disabled,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,6,16,17,4,3,0,2,0,8,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,22,57,64,4,3,0,9,0,38,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,13,34,40,1,0,0,5,0,25,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,12,31,36,1,0,0,4,0,22,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,68,174,195,10,8,0,28,0,118,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,22,57,62,3,1,0,9,0,38,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,19,51,62,4,3,0,7,0,37,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,10,26,26,1,0,0,4,0,16,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,18,46,53,4,3,0,7,0,31,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,6,16,17,1,0,0,2,0,10,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,26,69,76,8,7,0,10,0,43,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,22,56,62,6,4,0,10,0,36,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,5,11,12,1,0,0,2,0,7,1
+2022/2023,Male,Disabled,WAEC,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,20,51,59,7,6,0,9,0,33,1
+2022/2023,Male,Disabled,WAEC,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,21,54,59,14,12,0,8,0,28,1
+2022/2023,Male,Disabled,WAEC,University,lga,Kazaure,North West,Jigawa,Kazaure,,,24,62,69,11,10,0,10,0,36,1
+2022/2023,Male,Disabled,WAEC,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,19,49,53,10,8,0,8,0,27,1
+2022/2023,Male,Disabled,WAEC,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,56,146,159,17,14,0,22,0,90,2
+2022/2023,Male,Disabled,WAEC,University,lga,Maigatari,North West,Jigawa,Maigatari,,,45,115,121,15,14,0,19,0,67,1
+2022/2023,Male,Disabled,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,10,26,28,8,7,0,4,0,12,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,49,126,139,3,1,0,19,0,87,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Miga,North West,Jigawa,Miga,,,42,108,121,3,1,0,16,0,76,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,71,182,195,4,3,0,28,0,122,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Roni,North West,Jigawa,Roni,,,188,485,550,11,10,0,75,0,345,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,369,953,1068,24,22,0,145,0,669,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Taura,North West,Jigawa,Taura,,,113,291,305,7,6,0,45,0,191,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,60,156,170,8,7,0,23,0,103,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,45,116,121,6,4,0,18,0,74,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,169,436,486,26,25,0,67,0,293,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,45,116,128,8,7,0,18,0,76,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,300,771,839,47,46,0,119,0,505,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,91,236,248,12,11,0,35,0,150,1
+2023/2024,Female,ALL,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,79,203,230,57,54,0,31,0,107,2
+2023/2024,Female,ALL,NABTEB,University,lga,Miga,North West,Jigawa,Miga,,,121,314,350,89,87,0,47,0,161,1
+2023/2024,Female,ALL,NABTEB,University,lga,Ringim,North West,Jigawa,Ringim,,,40,103,117,24,22,0,16,0,58,1
+2023/2024,Female,ALL,NABTEB,University,lga,Roni,North West,Jigawa,Roni,,,34,87,84,10,8,0,14,0,47,1
+2023/2024,Female,ALL,NABTEB,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,244,627,687,116,98,19,97,0,357,13
+2023/2024,Female,ALL,NABTEB,University,lga,Taura,North West,Jigawa,Taura,,,120,309,341,71,69,0,47,0,168,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,85,219,244,6,4,0,33,0,153,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Miga,North West,Jigawa,Miga,,,72,187,212,6,4,0,28,0,132,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,120,311,350,7,6,0,47,0,220,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Roni,North West,Jigawa,Roni,,,384,989,1115,24,22,0,151,0,699,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,565,1456,1590,33,30,0,224,0,997,2
+2023/2024,Female,ALL,NECO,College of Education,lga,Taura,North West,Jigawa,Taura,,,348,897,1018,24,21,0,137,0,637,2
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,120,311,318,18,17,0,47,0,191,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,83,213,227,14,12,0,33,0,136,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,8,21,23,1,0,0,3,0,14,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,89,228,257,17,15,0,36,0,153,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,565,1457,1581,91,86,0,223,0,949,4
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,180,467,517,33,32,0,70,0,308,1
+2023/2024,Female,ALL,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,132,341,392,97,93,0,51,0,182,3
+2023/2024,Female,ALL,NECO,University,lga,Miga,North West,Jigawa,Miga,,,212,547,590,136,123,19,84,0,281,9
+2023/2024,Female,ALL,NECO,University,lga,Ringim,North West,Jigawa,Ringim,,,66,170,188,39,36,0,26,0,93,2
+2023/2024,Female,ALL,NECO,University,lga,Roni,North West,Jigawa,Roni,,,60,154,153,32,26,0,24,0,75,4
+2023/2024,Female,ALL,NECO,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,429,1105,1162,231,220,19,169,0,579,8
+2023/2024,Female,ALL,NECO,University,lga,Taura,North West,Jigawa,Taura,,,200,514,590,126,123,0,80,0,288,2
+2023/2024,Female,ALL,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,126,326,371,10,8,0,49,0,231,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Miga,North West,Jigawa,Miga,,,115,296,341,8,7,0,45,0,213,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,165,424,470,11,10,0,65,0,294,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Roni,North West,Jigawa,Roni,,,533,1374,1501,36,32,0,210,0,938,3
+2023/2024,Female,ALL,WAEC,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,723,1865,2046,51,47,0,285,0,1277,3
+2023/2024,Female,ALL,WAEC,College of Education,lga,Taura,North West,Jigawa,Taura,,,495,1275,1476,36,33,0,195,0,922,2
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,169,437,453,26,22,0,66,0,272,3
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,458,1180,1215,79,68,19,180,0,723,8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,131,339,364,24,22,0,51,0,217,1
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,124,321,357,25,22,0,49,0,211,2
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,951,2453,2677,172,158,19,374,0,1595,10
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,257,661,687,44,40,0,101,0,409,3
+2023/2024,Female,ALL,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,80,206,234,60,57,0,31,0,107,2
+2023/2024,Female,ALL,WAEC,University,lga,Miga,North West,Jigawa,Miga,,,113,291,327,79,71,0,45,0,153,6
+2023/2024,Female,ALL,WAEC,University,lga,Ringim,North West,Jigawa,Ringim,,,93,239,262,64,58,0,37,0,122,4
+2023/2024,Female,ALL,WAEC,University,lga,Roni,North West,Jigawa,Roni,,,80,208,215,47,42,0,31,0,104,4
+2023/2024,Female,ALL,WAEC,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,577,1488,1587,356,324,37,227,0,762,23
+2023/2024,Female,ALL,WAEC,University,lga,Taura,North West,Jigawa,Taura,,,288,742,796,201,184,19,113,0,366,12
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,5,11,12,0,0,0,2,0,8,0
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Miga,North West,Jigawa,Miga,,,4,10,11,0,0,0,2,0,7,0
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,8,21,22,1,0,0,3,0,13,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Roni,North West,Jigawa,Roni,,,13,34,36,1,0,0,5,0,22,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,23,59,64,3,1,0,9,0,39,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Taura,North West,Jigawa,Taura,,,18,47,53,1,0,0,7,0,33,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,4,10,9,0,0,0,2,0,6,0
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,13,34,36,1,0,0,5,0,22,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,4,10,11,1,0,0,2,0,6,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,4,10,11,1,0,0,2,0,6,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,29,75,76,6,4,0,12,0,45,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,9,23,23,1,0,0,3,0,14,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,18,47,53,24,21,0,7,0,17,2
+2023/2024,Female,Disabled,NABTEB,University,lga,Miga,North West,Jigawa,Miga,,,6,16,16,8,7,0,2,0,4,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Ringim,North West,Jigawa,Ringim,,,4,10,12,3,1,0,2,0,6,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Roni,North West,Jigawa,Roni,,,5,11,12,0,0,0,2,0,8,0
+2023/2024,Female,Disabled,NABTEB,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,17,44,47,0,0,0,7,0,30,0
+2023/2024,Female,Disabled,NABTEB,University,lga,Taura,North West,Jigawa,Taura,,,11,28,30,10,8,0,4,0,12,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,7,18,20,0,0,0,3,0,13,0
+2023/2024,Female,Disabled,NECO,College of Education,lga,Miga,North West,Jigawa,Miga,,,4,10,12,0,0,0,2,0,8,0
+2023/2024,Female,Disabled,NECO,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,10,26,30,1,0,0,4,0,18,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Roni,North West,Jigawa,Roni,,,27,69,69,1,0,0,11,0,43,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,36,93,106,3,1,0,14,0,66,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Taura,North West,Jigawa,Taura,,,25,67,81,3,1,0,9,0,50,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,7,16,20,1,0,0,3,0,12,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,21,54,59,6,4,0,8,0,34,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,8,20,17,1,0,0,3,1,10,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,4,10,12,1,0,0,2,0,7,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,49,128,137,10,8,0,19,0,81,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,13,33,37,3,1,0,5,0,22,1
+2023/2024,Female,Disabled,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,28,72,84,19,18,0,11,0,40,1
+2023/2024,Female,Disabled,NECO,University,lga,Miga,North West,Jigawa,Miga,,,10,25,26,8,7,0,4,0,11,1
+2023/2024,Female,Disabled,NECO,University,lga,Ringim,North West,Jigawa,Ringim,,,5,11,12,1,0,0,2,0,7,1
+2023/2024,Female,Disabled,NECO,University,lga,Roni,North West,Jigawa,Roni,,,5,11,11,6,4,0,2,0,3,1
+2023/2024,Female,Disabled,NECO,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,30,77,84,19,18,0,12,0,40,1
+2023/2024,Female,Disabled,NECO,University,lga,Taura,North West,Jigawa,Taura,,,15,39,48,10,8,0,6,0,24,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,9,25,30,0,0,0,3,0,19,0
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Miga,North West,Jigawa,Miga,,,7,16,20,0,0,0,3,0,13,0
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,13,34,39,1,0,0,5,0,24,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Roni,North West,Jigawa,Roni,,,38,97,114,3,1,0,16,0,71,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,46,116,125,3,1,0,19,0,78,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Taura,North West,Jigawa,Taura,,,35,88,98,3,1,0,14,0,61,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,12,29,31,1,0,0,5,0,19,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,27,69,75,6,4,0,11,0,44,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,10,25,28,3,1,0,4,0,16,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,6,16,17,1,0,0,2,0,10,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,72,183,209,11,10,0,30,0,126,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,17,44,48,3,1,0,7,0,29,1
+2023/2024,Female,Disabled,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,37,97,109,24,22,0,14,0,53,1
+2023/2024,Female,Disabled,WAEC,University,lga,Miga,North West,Jigawa,Miga,,,16,41,44,11,10,0,6,0,20,1
+2023/2024,Female,Disabled,WAEC,University,lga,Ringim,North West,Jigawa,Ringim,,,5,13,12,3,1,0,2,0,6,1
+2023/2024,Female,Disabled,WAEC,University,lga,Roni,North West,Jigawa,Roni,,,6,15,14,6,4,0,2,0,5,1
+2023/2024,Female,Disabled,WAEC,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,36,93,98,19,18,0,14,0,49,1
+2023/2024,Female,Disabled,WAEC,University,lga,Taura,North West,Jigawa,Taura,,,22,57,59,15,14,0,9,0,27,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,42,106,123,1,0,0,17,0,78,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Miga,North West,Jigawa,Miga,,,41,106,126,3,1,0,16,0,79,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,68,175,198,4,3,0,27,0,124,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Roni,North West,Jigawa,Roni,,,184,473,529,11,10,0,74,0,332,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,292,755,844,15,14,0,114,0,531,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Taura,North West,Jigawa,Taura,,,187,483,550,12,11,0,74,0,344,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,69,177,187,7,6,0,27,0,115,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,197,508,522,24,22,0,78,0,318,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,46,118,129,7,6,0,18,0,78,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,43,110,120,7,6,0,17,0,72,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,374,966,1096,65,61,0,147,0,657,3
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,89,231,243,12,11,0,35,0,147,1
+2023/2024,Male,ALL,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,246,635,682,133,118,19,97,0,342,11
+2023/2024,Male,ALL,NABTEB,University,lga,Miga,North West,Jigawa,Miga,,,75,193,220,44,43,0,30,0,109,1
+2023/2024,Male,ALL,NABTEB,University,lga,Ringim,North West,Jigawa,Ringim,,,39,102,115,22,19,0,15,0,58,2
+2023/2024,Male,ALL,NABTEB,University,lga,Roni,North West,Jigawa,Roni,,,34,87,81,10,8,0,13,1,45,1
+2023/2024,Male,ALL,NABTEB,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,261,671,716,107,89,19,103,0,383,13
+2023/2024,Male,ALL,NABTEB,University,lga,Taura,North West,Jigawa,Taura,,,115,298,332,71,69,0,45,0,162,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,75,193,226,6,4,0,30,0,141,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Miga,North West,Jigawa,Miga,,,78,201,235,4,3,0,31,0,148,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,124,321,350,7,6,0,49,0,220,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Roni,North West,Jigawa,Roni,,,403,1038,1146,22,21,0,159,0,720,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,563,1452,1630,35,33,0,222,0,1022,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Taura,North West,Jigawa,Taura,,,331,853,941,21,19,0,131,0,589,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,139,357,392,18,17,0,55,0,239,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,356,918,950,48,46,0,139,0,575,2
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,91,236,255,14,12,0,36,0,154,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,80,206,232,14,12,0,31,0,139,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,688,1775,1919,105,101,0,270,0,1156,3
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,173,447,477,29,26,0,68,0,285,2
+2023/2024,Male,ALL,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,451,1162,1289,299,274,19,178,0,612,18
+2023/2024,Male,ALL,NECO,University,lga,Miga,North West,Jigawa,Miga,,,148,381,428,89,87,0,58,0,211,1
+2023/2024,Male,ALL,NECO,University,lga,Ringim,North West,Jigawa,Ringim,,,72,185,201,40,39,0,29,0,100,1
+2023/2024,Male,ALL,NECO,University,lga,Roni,North West,Jigawa,Roni,,,65,167,167,24,18,0,26,0,90,4
+2023/2024,Male,ALL,NECO,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,465,1200,1274,263,238,19,183,0,628,18
+2023/2024,Male,ALL,NECO,University,lga,Taura,North West,Jigawa,Taura,,,221,570,615,134,123,19,87,0,298,8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,109,282,332,8,7,0,43,0,207,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Miga,North West,Jigawa,Miga,,,115,298,329,8,7,0,45,0,205,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,166,427,481,11,10,0,65,0,301,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Roni,North West,Jigawa,Roni,,,533,1375,1475,30,28,0,209,0,925,2
+2023/2024,Male,ALL,WAEC,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,758,1953,2194,51,47,0,298,0,1372,3
+2023/2024,Male,ALL,WAEC,College of Education,lga,Taura,North West,Jigawa,Taura,,,478,1231,1370,36,32,0,189,0,854,3
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,209,540,592,39,33,0,82,0,352,4
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,491,1267,1384,86,75,19,193,0,827,8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,115,298,318,19,18,0,45,0,190,1
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,106,272,302,21,18,0,42,0,179,2
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,939,2420,2654,170,152,19,370,0,1581,13
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,222,571,609,40,36,0,87,0,362,3
+2023/2024,Male,ALL,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,559,1442,1595,401,365,37,220,0,734,26
+2023/2024,Male,ALL,WAEC,University,lga,Miga,North West,Jigawa,Miga,,,197,508,547,129,119,19,77,0,258,7
+2023/2024,Male,ALL,WAEC,University,lga,Ringim,North West,Jigawa,Ringim,,,102,264,296,71,65,0,40,0,139,4
+2023/2024,Male,ALL,WAEC,University,lga,Roni,North West,Jigawa,Roni,,,83,214,212,47,42,0,32,0,102,4
+2023/2024,Male,ALL,WAEC,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,619,1596,1705,349,309,37,244,0,843,29
+2023/2024,Male,ALL,WAEC,University,lga,Taura,North West,Jigawa,Taura,,,300,773,814,192,184,0,119,0,384,6
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,5,11,12,0,0,0,2,0,8,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Miga,North West,Jigawa,Miga,,,5,11,11,0,0,0,2,0,7,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,9,23,26,1,0,0,4,0,16,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Roni,North West,Jigawa,Roni,,,14,36,39,1,0,0,6,0,24,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,26,67,72,1,0,0,10,0,45,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Taura,North West,Jigawa,Taura,,,20,52,58,1,0,0,8,0,36,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,5,11,12,0,0,0,2,0,8,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,17,43,39,0,0,0,7,1,25,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,5,11,11,0,0,0,2,0,7,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,5,11,11,1,0,0,2,0,6,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,34,88,97,10,8,0,13,0,55,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,10,25,26,0,0,0,4,0,17,0
+2023/2024,Male,Disabled,NABTEB,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,22,59,65,11,10,0,8,0,34,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Miga,North West,Jigawa,Miga,,,7,18,19,6,4,0,2,0,8,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Ringim,North West,Jigawa,Ringim,,,5,11,12,3,1,0,2,0,6,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Roni,North West,Jigawa,Roni,,,5,11,12,0,0,0,2,0,8,0
+2023/2024,Male,Disabled,NABTEB,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,20,52,58,6,4,0,8,0,33,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Taura,North West,Jigawa,Taura,,,12,31,33,6,4,0,4,0,17,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,6,16,17,0,0,0,2,0,11,0
+2023/2024,Male,Disabled,NECO,College of Education,lga,Miga,North West,Jigawa,Miga,,,6,15,16,0,0,0,2,0,10,0
+2023/2024,Male,Disabled,NECO,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,11,28,33,0,0,0,5,0,21,0
+2023/2024,Male,Disabled,NECO,College of Education,lga,Roni,North West,Jigawa,Roni,,,30,79,87,1,0,0,12,0,55,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,38,98,111,3,1,0,14,0,69,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Taura,North West,Jigawa,Taura,,,28,72,76,3,1,0,11,0,47,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,10,26,30,0,0,0,4,0,19,0
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,19,49,53,1,0,0,7,0,33,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,8,21,22,1,0,0,3,0,13,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,5,11,12,0,0,0,2,0,8,0
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,60,157,174,7,6,0,23,0,107,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,14,36,40,3,1,0,5,0,24,1
+2023/2024,Male,Disabled,NECO,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,35,92,97,19,18,0,13,0,48,1
+2023/2024,Male,Disabled,NECO,University,lga,Miga,North West,Jigawa,Miga,,,13,34,44,10,8,0,5,0,21,1
+2023/2024,Male,Disabled,NECO,University,lga,Ringim,North West,Jigawa,Ringim,,,6,15,16,1,0,0,2,0,9,1
+2023/2024,Male,Disabled,NECO,University,lga,Roni,North West,Jigawa,Roni,,,5,13,11,0,0,0,2,1,7,0
+2023/2024,Male,Disabled,NECO,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,35,92,92,15,14,0,13,0,48,1
+2023/2024,Male,Disabled,NECO,University,lga,Taura,North West,Jigawa,Taura,,,20,52,58,10,8,0,8,0,30,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,11,29,33,0,0,0,4,0,21,0
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Miga,North West,Jigawa,Miga,,,8,21,23,0,0,0,3,0,15,0
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,13,34,39,1,0,0,5,0,24,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Roni,North West,Jigawa,Roni,,,43,110,121,1,0,0,18,0,77,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,52,133,148,3,1,0,21,0,93,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Taura,North West,Jigawa,Taura,,,39,100,109,3,1,0,16,0,68,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,15,36,39,1,0,0,7,0,24,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,22,56,61,3,1,0,9,0,37,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,11,28,31,3,1,0,4,0,18,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,7,18,22,1,0,0,3,0,13,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,83,213,235,12,11,0,34,0,142,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,19,49,55,3,1,0,7,0,33,1
+2023/2024,Male,Disabled,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,47,121,142,24,22,0,19,0,74,1
+2023/2024,Male,Disabled,WAEC,University,lga,Miga,North West,Jigawa,Miga,,,19,49,51,10,8,0,8,0,26,1
+2023/2024,Male,Disabled,WAEC,University,lga,Ringim,North West,Jigawa,Ringim,,,4,10,9,1,0,0,1,0,5,1
+2023/2024,Male,Disabled,WAEC,University,lga,Roni,North West,Jigawa,Roni,,,3,8,8,3,1,0,1,0,3,1
+2023/2024,Male,Disabled,WAEC,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,47,120,132,19,18,0,19,0,71,1
+2023/2024,Male,Disabled,WAEC,University,lga,Taura,North West,Jigawa,Taura,,,27,69,76,15,14,0,12,0,38,1
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Auyo,North West,Jigawa,Auyo,,,28,72,48,21,19,2,11,13,16,1
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Babura,North West,Jigawa,Babura,,,80,206,137,58,54,5,31,38,46,3
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Birnin-Kudu,North West,Jigawa,Birnin-Kudu,,,233,599,399,170,156,14,92,110,133,10
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Birniwa,North West,Jigawa,Birniwa,,,196,506,336,143,131,11,77,93,113,8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Buji,North West,Jigawa,Buji,,,192,494,329,140,129,11,75,91,110,8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Dutse,North West,Jigawa,Dutse,,,578,1490,992,422,388,34,227,273,332,25
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Gagarawa,North West,Jigawa,Gagarawa,,,226,581,388,165,151,13,89,106,130,10
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Garki,North West,Jigawa,Garki,,,467,1203,800,340,313,27,184,221,268,20
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Gumel,North West,Jigawa,Gumel,,,381,982,654,278,256,22,150,180,219,16
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Guri,North West,Jigawa,Guri,,,402,1036,690,293,270,23,159,190,231,17
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Gwaram,North West,Jigawa,Gwaram,,,884,2279,1518,645,594,52,348,417,509,37
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Gwiwa,North West,Jigawa,Gwiwa,,,372,961,640,271,251,22,146,176,215,15
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Hadejia,North West,Jigawa,Hadejia,,,557,1436,956,406,374,32,219,263,321,23
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Jahun,North West,Jigawa,Jahun,,,792,2042,1359,577,531,46,311,374,456,33
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,1231,3175,2113,898,826,72,484,582,708,52
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Kaugawa,North West,Jigawa,Kaugawa,,,904,2330,1551,659,606,53,356,427,520,38
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Kazaure,North West,Jigawa,Kazaure,,,570,1469,978,415,382,33,224,269,328,24
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,877,2263,1506,639,588,51,345,415,505,37
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Kiyawa,North West,Jigawa,Kiyawa,,,980,2526,1682,716,657,57,386,463,563,42
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Maigatari,North West,Jigawa,Maigatari,,,1037,2674,1780,757,696,61,408,490,596,44
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,997,2570,1711,728,670,58,393,471,573,42
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Miga,North West,Jigawa,Miga,,,766,1973,1314,558,514,45,302,361,441,32
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Ringim,North West,Jigawa,Ringim,,,1524,3929,2616,1111,1023,89,600,720,877,64
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Roni,North West,Jigawa,Roni,,,859,2214,1473,627,576,50,338,406,493,37
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,1635,4216,2806,1193,1098,95,644,773,940,69
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Taura,North West,Jigawa,Taura,,,1155,2978,1982,843,775,67,454,546,664,49
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Yankwashi,North West,Jigawa,Yankwashi,,,783,2019,1344,572,526,46,309,370,450,33
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Auyo,North West,Jigawa,Auyo,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Babura,North West,Jigawa,Babura,,,37,97,64,28,25,2,14,18,21,2
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Birnin-Kudu,North West,Jigawa,Birnin-Kudu,,,158,408,271,115,107,9,62,75,91,6
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Birniwa,North West,Jigawa,Birniwa,,,141,363,241,102,94,8,55,67,81,6
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Buji,North West,Jigawa,Buji,,,134,345,230,98,90,8,53,63,77,6
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Dutse,North West,Jigawa,Dutse,,,452,1164,776,329,303,26,178,213,260,19
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Gagarawa,North West,Jigawa,Gagarawa,,,189,488,325,138,127,11,74,89,109,8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Garki,North West,Jigawa,Garki,,,349,899,598,255,234,20,137,165,200,15
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Gumel,North West,Jigawa,Gumel,,,329,848,565,241,221,19,130,155,189,14
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Guri,North West,Jigawa,Guri,,,307,792,528,224,206,18,121,145,177,13
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Gwaram,North West,Jigawa,Gwaram,,,703,1811,1205,512,472,41,277,332,404,29
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Gwiwa,North West,Jigawa,Gwiwa,,,320,825,550,234,215,19,126,151,184,14
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Hadejia,North West,Jigawa,Hadejia,,,457,1179,785,334,307,27,180,216,263,19
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Jahun,North West,Jigawa,Jahun,,,650,1675,1115,475,436,38,256,307,373,28
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,1010,2603,1733,736,678,59,398,477,581,42
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Kaugawa,North West,Jigawa,Kaugawa,,,738,1902,1268,538,496,43,291,348,425,31
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Kazaure,North West,Jigawa,Kazaure,,,475,1225,816,346,318,28,187,224,274,20
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,707,1822,1213,516,475,41,278,334,406,30
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Kiyawa,North West,Jigawa,Kiyawa,,,845,2179,1451,616,567,49,333,399,487,35
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Maigatari,North West,Jigawa,Maigatari,,,842,2169,1445,614,565,49,332,397,484,36
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,832,2146,1428,608,559,49,327,394,478,35
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Miga,North West,Jigawa,Miga,,,624,1608,1070,455,418,36,246,295,358,27
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Ringim,North West,Jigawa,Ringim,,,1293,3333,2219,944,868,75,509,611,743,55
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Roni,North West,Jigawa,Roni,,,705,1817,1210,515,473,41,278,333,405,30
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,1357,3499,2328,990,911,79,534,642,780,57
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Taura,North West,Jigawa,Taura,,,994,2564,1707,725,667,58,391,470,572,42
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Yankwashi,North West,Jigawa,Yankwashi,,,652,1680,1118,475,437,38,257,308,375,27
+2024/2025,Male,ALL,WAEC,University,lga,Auyo,North West,Jigawa,Auyo,,,30,79,53,22,21,2,12,14,18,1
+2024/2025,Male,ALL,WAEC,University,lga,Babura,North West,Jigawa,Babura,,,46,118,78,33,30,3,18,22,26,2
+2024/2025,Male,ALL,WAEC,University,lga,Birnin-Kudu,North West,Jigawa,Birnin-Kudu,,,104,269,179,76,71,6,41,49,60,4
+2024/2025,Male,ALL,WAEC,University,lga,Birniwa,North West,Jigawa,Birniwa,,,96,247,165,71,65,6,38,45,55,4
+2024/2025,Male,ALL,WAEC,University,lga,Buji,North West,Jigawa,Buji,,,73,188,125,53,48,4,29,35,42,3
+2024/2025,Male,ALL,WAEC,University,lga,Dutse,North West,Jigawa,Dutse,,,211,545,363,154,141,12,83,100,122,9
+2024/2025,Male,ALL,WAEC,University,lga,Gagarawa,North West,Jigawa,Gagarawa,,,95,246,164,69,64,6,37,45,55,4
+2024/2025,Male,ALL,WAEC,University,lga,Garki,North West,Jigawa,Garki,,,161,414,276,118,108,9,63,76,92,7
+2024/2025,Male,ALL,WAEC,University,lga,Gumel,North West,Jigawa,Gumel,,,124,319,213,90,83,7,49,58,72,5
+2024/2025,Male,ALL,WAEC,University,lga,Guri,North West,Jigawa,Guri,,,137,352,235,100,91,8,54,64,79,6
+2024/2025,Male,ALL,WAEC,University,lga,Gwaram,North West,Jigawa,Gwaram,,,310,799,531,226,208,18,122,147,178,13
+2024/2025,Male,ALL,WAEC,University,lga,Gwiwa,North West,Jigawa,Gwiwa,,,122,314,210,89,82,7,49,57,71,5
+2024/2025,Male,ALL,WAEC,University,lga,Hadejia,North West,Jigawa,Hadejia,,,166,429,285,122,112,10,65,79,95,7
+2024/2025,Male,ALL,WAEC,University,lga,Jahun,North West,Jigawa,Jahun,,,282,729,484,206,190,16,111,134,162,12
+2024/2025,Male,ALL,WAEC,University,lga,Kafin-Hausa,North West,Jigawa,Kafin-Hausa,,,393,1013,674,286,264,23,154,186,226,16
+2024/2025,Male,ALL,WAEC,University,lga,Kaugawa,North West,Jigawa,Kaugawa,,,278,717,478,203,187,16,110,131,160,12
+2024/2025,Male,ALL,WAEC,University,lga,Kazaure,North West,Jigawa,Kazaure,,,196,506,336,143,131,11,77,93,113,8
+2024/2025,Male,ALL,WAEC,University,lga,Kirikasamma,North West,Jigawa,Kirikasamma,,,280,722,481,205,188,16,110,132,161,12
+2024/2025,Male,ALL,WAEC,University,lga,Kiyawa,North West,Jigawa,Kiyawa,,,305,788,525,223,205,18,120,144,176,13
+2024/2025,Male,ALL,WAEC,University,lga,Maigatari,North West,Jigawa,Maigatari,,,319,822,548,233,215,19,126,150,184,13
+2024/2025,Male,ALL,WAEC,University,lga,Malam-Madori,North West,Jigawa,Malam-Madori,,,327,842,561,238,219,19,129,154,188,14
+2024/2025,Male,ALL,WAEC,University,lga,Miga,North West,Jigawa,Miga,,,236,607,405,172,158,14,93,111,136,10
+2024/2025,Male,ALL,WAEC,University,lga,Ringim,North West,Jigawa,Ringim,,,457,1177,783,334,306,27,180,216,262,20
+2024/2025,Male,ALL,WAEC,University,lga,Roni,North West,Jigawa,Roni,,,276,714,475,202,185,16,108,131,159,12
+2024/2025,Male,ALL,WAEC,University,lga,Sule-Tankarkar,North West,Jigawa,Sule-Tankarkar,,,513,1323,881,375,345,30,202,242,295,22
+2024/2025,Male,ALL,WAEC,University,lga,Taura,North West,Jigawa,Taura,,,353,910,606,257,237,21,139,167,203,15
+2024/2025,Male,ALL,WAEC,University,lga,Yankwashi,North West,Jigawa,Yankwashi,,,227,584,389,165,152,13,89,107,131,9

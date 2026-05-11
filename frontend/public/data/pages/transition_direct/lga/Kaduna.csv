@@ -1,541 +1,541 @@
-session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,all,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,563,450,537,99,90,1,113,0,438,9
-2022/2023,Female,all,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,673,539,627,114,112,0,134,0,513,2
-2022/2023,Female,all,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,263,211,249,59,53,0,52,0,190,6
-2022/2023,Female,all,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,376,300,350,74,67,1,76,0,276,7
-2022/2023,Female,all,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,789,632,751,143,127,1,157,0,608,16
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,240,192,215,102,85,1,48,0,113,17
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,103,82,86,35,34,0,21,0,51,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,338,271,315,135,121,1,67,0,180,14
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,145,116,133,45,37,1,29,0,88,8
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,231,185,221,78,71,1,46,0,143,7
-2022/2023,Female,all,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,746,597,671,410,366,4,149,0,261,44
-2022/2023,Female,all,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,544,435,508,314,303,1,109,0,194,11
-2022/2023,Female,all,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,616,492,578,316,306,1,124,0,262,10
-2022/2023,Female,all,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,867,694,799,470,448,2,173,0,329,22
-2022/2023,Female,all,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,336,269,328,205,170,3,67,0,123,35
-2022/2023,Female,all,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,1037,830,968,176,164,1,207,0,792,12
-2022/2023,Female,all,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1244,995,1147,210,189,2,249,0,937,21
-2022/2023,Female,all,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,473,379,449,86,79,1,94,0,363,7
-2022/2023,Female,all,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,724,579,668,116,102,1,145,0,552,14
-2022/2023,Female,all,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,1387,1109,1241,214,191,2,278,0,1027,23
-2022/2023,Female,all,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,506,405,444,170,152,1,101,0,274,18
-2022/2023,Female,all,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,227,181,203,75,71,0,46,0,128,4
-2022/2023,Female,all,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,621,498,600,245,223,2,123,0,355,22
-2022/2023,Female,all,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,281,225,252,84,82,0,56,0,168,2
-2022/2023,Female,all,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,423,338,379,150,133,1,85,0,229,17
-2022/2023,Female,all,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,1477,1181,1364,746,678,5,296,0,618,68
-2022/2023,Female,all,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,975,781,894,510,465,4,194,0,384,45
-2022/2023,Female,all,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1173,939,1054,589,538,4,234,0,465,51
-2022/2023,Female,all,NECO,University,lga,Soba,North West,Kaduna,Soba,,,1588,1271,1476,813,732,6,317,0,663,81
-2022/2023,Female,all,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,662,529,583,301,282,2,133,0,282,19
-2022/2023,Female,all,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,1419,1136,1291,270,248,2,283,0,1021,22
-2022/2023,Female,all,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1564,1250,1441,288,266,2,314,0,1153,22
-2022/2023,Female,all,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,601,481,550,120,114,0,120,0,430,6
-2022/2023,Female,all,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,930,744,858,171,166,0,186,0,687,5
-2022/2023,Female,all,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,1943,1554,1818,355,323,3,389,0,1463,32
-2022/2023,Female,all,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,646,517,605,311,290,2,129,0,294,21
-2022/2023,Female,all,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,252,202,228,99,90,1,50,0,129,9
-2022/2023,Female,all,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,755,604,686,302,281,2,151,0,384,21
-2022/2023,Female,all,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,366,293,328,146,130,1,73,0,182,16
-2022/2023,Female,all,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,609,487,543,238,222,1,122,0,305,16
-2022/2023,Female,all,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,1777,1422,1623,953,876,6,355,0,670,77
-2022/2023,Female,all,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1422,1137,1302,838,779,5,285,0,464,59
-2022/2023,Female,all,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1605,1285,1459,890,835,4,320,0,569,55
-2022/2023,Female,all,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,2177,1742,1992,1258,1143,9,435,0,734,115
-2022/2023,Female,all,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,854,683,815,520,471,4,171,0,295,49
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,51,41,45,11,9,0,10,0,34,2
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,75,61,67,13,12,0,14,0,54,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,30,24,27,10,9,0,6,0,17,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,34,27,31,9,8,0,7,0,22,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,75,61,67,18,16,0,14,0,49,2
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,20,16,18,18,15,0,4,0,0,3
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,9,8,8,8,7,0,1,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,33,26,32,25,23,0,7,0,7,2
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,13,10,14,0,0,0,3,0,14,0
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,20,16,18,9,8,0,4,0,9,1
-2022/2023,Female,disabled,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,65,53,63,69,62,1,12,0,0,7
-2022/2023,Female,disabled,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,43,34,41,43,42,0,9,0,0,1
-2022/2023,Female,disabled,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,60,48,53,35,31,0,12,0,18,4
-2022/2023,Female,disabled,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,85,69,76,69,62,1,16,0,7,7
-2022/2023,Female,disabled,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,32,26,31,35,31,0,6,0,0,4
-2022/2023,Female,disabled,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,95,76,93,11,10,0,19,0,82,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,105,84,102,19,18,0,21,0,83,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,34,27,35,8,7,0,7,0,27,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,57,45,52,8,7,0,12,0,44,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,101,82,90,19,18,0,19,0,71,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,38,30,36,13,12,0,8,0,23,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,18,15,16,7,6,0,3,0,9,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,46,37,44,20,19,0,9,0,24,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,25,19,24,7,6,0,6,0,17,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,29,23,24,12,11,0,6,0,12,1
-2022/2023,Female,disabled,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,111,89,101,53,51,0,22,0,48,2
-2022/2023,Female,disabled,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,66,53,60,35,34,0,13,0,25,1
-2022/2023,Female,disabled,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,79,64,68,35,34,0,15,0,33,1
-2022/2023,Female,disabled,NECO,University,lga,Soba,North West,Kaduna,Soba,,,115,92,111,72,66,0,23,0,39,6
-2022/2023,Female,disabled,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,63,50,56,27,26,0,13,0,29,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,124,98,112,17,16,0,26,0,95,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,139,111,131,23,20,0,28,0,108,3
-2022/2023,Female,disabled,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,45,36,43,8,7,0,9,0,35,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,72,57,64,11,10,0,15,0,53,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,147,118,135,23,19,0,29,0,112,4
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,43,34,40,20,19,0,9,0,20,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,18,15,17,7,6,0,3,0,10,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,61,49,53,20,19,0,12,0,33,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,29,23,25,7,6,0,6,0,18,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,40,32,36,13,11,0,8,0,23,2
-2022/2023,Female,disabled,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,138,109,128,55,51,0,29,0,73,4
-2022/2023,Female,disabled,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,100,79,94,55,51,0,21,0,39,4
-2022/2023,Female,disabled,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,112,90,103,55,52,0,22,0,48,3
-2022/2023,Female,disabled,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,151,120,135,82,71,1,31,0,53,11
-2022/2023,Female,disabled,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,81,64,76,37,32,0,17,0,39,5
-2022/2023,Male,all,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,600,480,549,104,94,1,120,0,445,10
-2022/2023,Male,all,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,712,570,662,104,103,0,142,0,558,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,279,223,259,44,37,1,56,0,215,7
-2022/2023,Male,all,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,354,283,333,54,47,1,71,0,279,7
-2022/2023,Male,all,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,798,638,723,120,101,2,160,0,603,19
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,243,195,222,92,85,1,48,0,130,7
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,118,94,111,45,44,0,24,0,66,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,336,269,316,135,121,1,67,0,181,14
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,144,116,122,35,25,1,28,0,87,10
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,239,191,222,90,85,0,48,0,132,5
-2022/2023,Male,all,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,765,611,680,364,338,2,154,0,316,26
-2022/2023,Male,all,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,575,460,522,284,254,2,115,0,238,30
-2022/2023,Male,all,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,626,501,581,299,271,2,125,0,282,28
-2022/2023,Male,all,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,888,711,825,487,452,3,177,0,338,35
-2022/2023,Male,all,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,350,280,309,188,168,2,70,0,121,20
-2022/2023,Male,all,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,1119,895,1057,177,160,1,224,0,880,17
-2022/2023,Male,all,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1347,1077,1235,215,195,2,270,0,1020,20
-2022/2023,Male,all,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,503,403,468,82,75,1,100,0,386,7
-2022/2023,Male,all,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,694,556,646,111,102,1,138,0,535,9
-2022/2023,Male,all,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,1463,1170,1365,227,208,2,293,0,1138,19
-2022/2023,Male,all,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,485,388,442,179,163,1,97,0,263,16
-2022/2023,Male,all,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,240,192,222,84,82,0,48,0,138,2
-2022/2023,Male,all,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,594,475,559,216,194,2,119,0,343,22
-2022/2023,Male,all,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,299,239,269,84,82,0,60,0,185,2
-2022/2023,Male,all,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,446,357,422,170,154,1,89,0,252,16
-2022/2023,Male,all,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,1570,1256,1400,694,624,6,314,0,706,70
-2022/2023,Male,all,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1030,824,969,508,467,3,206,0,461,41
-2022/2023,Male,all,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1212,970,1125,615,553,5,242,0,510,62
-2022/2023,Male,all,NECO,University,lga,Soba,North West,Kaduna,Soba,,,1592,1274,1461,748,691,5,318,0,713,57
-2022/2023,Male,all,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,712,570,640,328,310,1,142,0,312,18
-2022/2023,Male,all,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,1577,1261,1489,307,288,2,316,0,1182,19
-2022/2023,Male,all,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1727,1382,1585,309,292,1,345,0,1276,17
-2022/2023,Male,all,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,644,516,586,123,113,1,128,0,463,10
-2022/2023,Male,all,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,912,730,867,167,157,1,182,0,700,10
-2022/2023,Male,all,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,1943,1554,1848,343,318,2,389,0,1505,25
-2022/2023,Male,all,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,649,519,603,256,231,2,130,0,347,25
-2022/2023,Male,all,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,270,216,249,110,101,1,54,0,139,9
-2022/2023,Male,all,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,749,599,681,311,302,1,150,0,370,9
-2022/2023,Male,all,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,392,314,371,137,130,1,78,0,234,7
-2022/2023,Male,all,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,617,494,586,265,240,2,123,0,321,25
-2022/2023,Male,all,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,1961,1569,1740,1056,973,7,392,0,684,83
-2022/2023,Male,all,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1415,1133,1276,736,695,3,282,0,540,41
-2022/2023,Male,all,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1588,1270,1412,903,835,5,318,0,509,68
-2022/2023,Male,all,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,2101,1681,1925,1181,1098,7,420,0,744,83
-2022/2023,Male,all,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,877,701,804,483,448,3,176,0,321,35
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,50,40,48,11,9,0,10,0,37,2
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,79,63,68,10,9,0,16,0,58,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,29,23,26,3,2,0,6,0,23,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,33,27,29,7,6,0,6,0,22,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,69,56,60,11,9,0,13,0,49,2
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,19,15,17,8,7,0,4,0,9,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,9,7,8,8,7,0,2,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,30,25,29,17,15,0,5,0,12,2
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,15,12,13,0,0,0,3,0,13,0
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,19,15,17,9,8,0,4,0,8,1
-2022/2023,Male,disabled,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,62,50,56,37,31,0,12,0,19,6
-2022/2023,Male,disabled,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,46,37,39,11,10,0,9,0,28,1
-2022/2023,Male,disabled,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,57,46,51,23,21,0,11,0,28,2
-2022/2023,Male,disabled,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,84,68,78,70,62,1,16,0,8,8
-2022/2023,Male,disabled,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,33,27,29,37,31,0,6,0,0,6
-2022/2023,Male,disabled,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,99,79,90,11,10,0,20,0,79,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,105,84,91,20,19,0,21,0,71,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,37,30,37,8,7,0,7,0,29,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,56,45,53,8,7,0,11,0,45,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,105,84,93,16,15,0,21,0,77,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,33,27,30,13,12,0,6,0,17,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,20,16,19,7,6,0,4,0,12,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,46,37,41,19,18,0,9,0,22,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,26,20,23,7,6,0,6,0,16,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,27,22,27,12,11,0,5,0,15,1
-2022/2023,Male,disabled,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,121,96,110,55,52,0,25,0,55,3
-2022/2023,Male,disabled,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,78,62,74,37,36,0,16,0,37,1
-2022/2023,Male,disabled,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,81,65,75,35,34,0,16,0,40,1
-2022/2023,Male,disabled,NECO,University,lga,Soba,North West,Kaduna,Soba,,,118,95,115,72,68,0,23,0,43,4
-2022/2023,Male,disabled,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,70,56,67,27,25,0,14,0,40,2
-2022/2023,Male,disabled,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,134,106,126,17,16,0,28,0,109,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,145,116,142,23,20,0,29,0,119,3
-2022/2023,Male,disabled,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,48,38,45,8,7,0,10,0,37,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,71,57,65,11,10,0,14,0,54,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,150,120,142,23,19,0,30,0,119,4
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,48,38,42,13,12,0,10,0,29,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,23,18,20,7,6,0,5,0,13,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,61,49,59,27,25,0,12,0,32,2
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,33,26,30,7,6,0,7,0,23,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,41,32,38,13,11,0,9,0,25,2
-2022/2023,Male,disabled,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,147,116,129,64,58,0,31,0,65,6
-2022/2023,Male,disabled,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,110,88,102,46,43,0,22,0,56,3
-2022/2023,Male,disabled,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,108,88,95,55,54,0,20,0,40,1
-2022/2023,Male,disabled,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,159,126,147,82,71,1,33,0,65,11
-2022/2023,Male,disabled,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,87,69,84,37,32,0,18,0,47,5
-2023/2024,Female,all,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,601,481,560,121,108,1,120,0,439,13
-2023/2024,Female,all,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,699,561,648,142,141,0,138,0,506,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,285,228,264,62,60,0,57,0,202,2
-2023/2024,Female,all,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,401,320,381,86,72,1,81,0,295,14
-2023/2024,Female,all,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,822,658,757,165,150,1,164,0,592,15
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,270,216,250,106,101,0,54,0,144,5
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,126,101,112,58,51,1,25,0,54,7
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,347,278,330,168,151,1,69,0,162,17
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,147,117,132,60,51,1,30,0,72,9
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,263,210,232,84,76,1,53,0,148,8
-2023/2024,Female,all,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,768,615,696,155,142,1,153,0,541,13
-2023/2024,Female,all,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,552,442,507,116,110,0,110,0,391,6
-2023/2024,Female,all,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,672,538,607,146,130,1,134,0,461,16
-2023/2024,Female,all,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,953,763,876,203,186,1,190,0,673,17
-2023/2024,Female,all,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,331,265,313,66,64,0,66,0,247,2
-2023/2024,Female,all,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,1157,926,1090,240,227,1,231,0,850,13
-2023/2024,Female,all,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1287,1029,1190,248,226,2,258,0,942,22
-2023/2024,Female,all,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,532,425,499,109,101,1,107,0,390,8
-2023/2024,Female,all,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,766,612,707,132,121,1,154,0,575,11
-2023/2024,Female,all,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,1472,1178,1334,279,259,2,294,0,1055,20
-2023/2024,Female,all,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,551,441,504,206,181,2,110,0,298,25
-2023/2024,Female,all,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,197,157,184,79,75,0,40,0,105,4
-2023/2024,Female,all,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,635,509,580,255,234,2,126,0,325,21
-2023/2024,Female,all,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,301,241,260,89,75,1,60,0,171,14
-2023/2024,Female,all,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,459,367,439,176,159,1,92,0,263,17
-2023/2024,Female,all,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,1438,1151,1312,272,253,2,287,0,1040,19
-2023/2024,Female,all,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1077,861,998,232,217,1,216,0,766,15
-2023/2024,Female,all,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1247,997,1141,243,223,2,250,0,898,20
-2023/2024,Female,all,NECO,University,lga,Soba,North West,Kaduna,Soba,,,1759,1407,1593,343,314,2,352,0,1250,29
-2023/2024,Female,all,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,640,513,570,115,108,1,127,0,455,7
-2023/2024,Female,all,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,1445,1156,1372,322,302,2,289,0,1050,20
-2023/2024,Female,all,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1743,1394,1604,382,358,2,349,0,1222,24
-2023/2024,Female,all,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,716,572,664,171,155,1,144,0,493,16
-2023/2024,Female,all,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,1008,806,960,221,198,2,202,0,739,23
-2023/2024,Female,all,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,2014,1611,1821,408,369,3,403,0,1413,39
-2023/2024,Female,all,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,707,565,660,303,277,2,142,0,357,26
-2023/2024,Female,all,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,267,214,252,114,105,1,53,0,138,9
-2023/2024,Female,all,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,894,715,832,418,393,2,179,0,414,25
-2023/2024,Female,all,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,434,347,379,177,161,1,87,0,202,16
-2023/2024,Female,all,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,640,512,591,292,277,1,128,0,299,15
-2023/2024,Female,all,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,1889,1512,1717,415,383,3,377,0,1302,32
-2023/2024,Female,all,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1481,1185,1344,344,312,3,296,0,1000,32
-2023/2024,Female,all,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1609,1288,1472,360,331,2,321,0,1112,29
-2023/2024,Female,all,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,2422,1936,2238,544,514,2,486,0,1694,30
-2023/2024,Female,all,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,885,708,823,194,183,1,177,0,629,11
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,57,46,54,15,14,0,11,0,39,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,78,63,75,27,25,0,15,0,48,2
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,32,26,30,11,10,0,6,0,19,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,38,31,33,11,10,0,7,0,22,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,78,63,66,22,21,0,15,0,44,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,22,17,20,20,17,0,5,0,0,3
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,10,8,9,9,7,0,2,0,0,2
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,32,26,30,27,26,0,6,0,3,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,14,11,14,9,8,0,3,0,5,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,22,17,18,9,8,0,5,0,9,1
-2023/2024,Female,disabled,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,67,54,63,23,21,0,13,0,40,2
-2023/2024,Female,disabled,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,46,37,45,18,16,0,9,0,27,2
-2023/2024,Female,disabled,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,65,52,61,23,21,0,13,0,38,2
-2023/2024,Female,disabled,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,89,72,81,29,27,0,17,0,52,2
-2023/2024,Female,disabled,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,35,28,27,13,12,0,7,1,14,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,100,80,95,15,14,0,20,0,80,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,118,94,115,25,22,0,24,0,90,3
-2023/2024,Female,disabled,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,39,32,36,9,8,0,7,0,27,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,60,48,59,9,8,0,12,0,50,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,111,90,97,22,19,0,21,0,75,3
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,37,29,36,15,13,0,8,0,21,2
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,16,13,15,7,6,0,3,0,8,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,51,41,44,22,21,0,10,0,22,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,29,23,25,7,6,0,6,0,18,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,31,25,27,7,6,0,6,0,20,1
-2023/2024,Female,disabled,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,112,90,93,22,20,0,22,0,71,2
-2023/2024,Female,disabled,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,77,62,73,14,13,0,15,0,59,1
-2023/2024,Female,disabled,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,88,71,72,22,21,0,17,0,50,1
-2023/2024,Female,disabled,NECO,University,lga,Soba,North West,Kaduna,Soba,,,126,101,120,29,25,0,25,0,91,4
-2023/2024,Female,disabled,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,60,48,53,11,9,0,12,0,42,2
-2023/2024,Female,disabled,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,125,99,117,21,19,0,26,0,96,2
-2023/2024,Female,disabled,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,145,116,138,27,24,0,29,0,111,3
-2023/2024,Female,disabled,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,45,36,43,10,9,0,9,0,33,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,76,61,72,13,12,0,15,0,59,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,142,113,130,25,24,0,29,0,105,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,49,39,47,23,21,0,10,0,24,2
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,22,18,23,9,7,0,4,0,14,2
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,67,53,63,32,29,0,14,0,31,3
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,35,28,31,7,6,0,7,0,24,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,44,35,40,23,22,0,9,0,17,1
-2023/2024,Female,disabled,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,146,116,130,23,21,0,30,0,107,2
-2023/2024,Female,disabled,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,110,87,100,23,22,0,23,0,77,1
-2023/2024,Female,disabled,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,113,90,107,25,21,0,23,0,82,4
-2023/2024,Female,disabled,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,173,138,159,32,31,0,35,0,127,1
-2023/2024,Female,disabled,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,82,65,76,11,10,0,17,0,65,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,643,515,607,137,121,1,128,0,470,16
-2023/2024,Male,all,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,735,588,680,126,125,0,147,0,554,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,304,243,282,68,60,1,61,0,214,8
-2023/2024,Male,all,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,387,310,363,75,66,1,77,0,288,9
-2023/2024,Male,all,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,866,692,804,165,144,2,174,0,639,21
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,284,227,271,132,115,1,57,0,139,17
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,138,110,117,48,38,1,28,0,69,10
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,309,247,288,119,115,0,62,0,169,4
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,148,119,124,35,25,1,29,0,89,10
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,256,205,233,95,86,1,51,0,138,9
-2023/2024,Male,all,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,853,682,776,141,122,2,171,0,635,19
-2023/2024,Male,all,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,555,444,524,116,103,1,111,0,408,13
-2023/2024,Male,all,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,685,548,633,123,108,1,137,0,510,15
-2023/2024,Male,all,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,972,778,899,184,168,1,194,0,715,16
-2023/2024,Male,all,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,351,281,317,67,58,1,70,0,250,9
-2023/2024,Male,all,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,1193,955,1085,231,207,2,238,0,854,24
-2023/2024,Male,all,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1361,1089,1232,248,227,2,272,0,984,21
-2023/2024,Male,all,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,560,448,513,99,91,1,112,0,414,8
-2023/2024,Male,all,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,750,600,683,142,137,0,150,0,541,5
-2023/2024,Male,all,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,1564,1251,1442,273,252,2,313,0,1169,21
-2023/2024,Male,all,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,578,463,539,206,193,1,115,0,333,13
-2023/2024,Male,all,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,223,178,202,89,85,0,45,0,113,4
-2023/2024,Male,all,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,616,493,575,264,244,2,123,0,311,20
-2023/2024,Male,all,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,309,247,280,89,85,0,62,0,191,4
-2023/2024,Male,all,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,461,369,442,166,159,1,92,0,276,7
-2023/2024,Male,all,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,1534,1227,1443,278,250,2,307,0,1165,28
-2023/2024,Male,all,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1096,877,1000,211,189,2,219,0,789,22
-2023/2024,Male,all,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1280,1025,1193,256,226,2,255,0,937,30
-2023/2024,Male,all,NECO,University,lga,Soba,North West,Kaduna,Soba,,,1681,1345,1558,336,308,2,336,0,1222,28
-2023/2024,Male,all,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,719,574,666,120,113,1,145,0,546,7
-2023/2024,Male,all,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,1609,1287,1520,347,319,2,322,0,1173,28
-2023/2024,Male,all,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1922,1537,1752,412,380,3,385,0,1340,32
-2023/2024,Male,all,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,753,601,680,160,148,1,152,0,520,12
-2023/2024,Male,all,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,1012,809,936,207,192,1,203,0,729,15
-2023/2024,Male,all,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,2110,1688,1895,422,385,3,422,0,1473,37
-2023/2024,Male,all,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,737,590,698,324,299,2,147,0,374,25
-2023/2024,Male,all,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,325,260,311,147,139,1,65,0,164,8
-2023/2024,Male,all,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,839,672,781,408,382,2,167,0,373,26
-2023/2024,Male,all,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,430,344,394,168,149,2,86,0,226,19
-2023/2024,Male,all,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,616,493,564,261,242,2,123,0,303,19
-2023/2024,Male,all,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,1979,1583,1739,404,383,2,396,0,1335,21
-2023/2024,Male,all,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1521,1217,1377,351,323,2,304,0,1026,28
-2023/2024,Male,all,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1640,1312,1509,356,325,2,328,0,1153,31
-2023/2024,Male,all,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,2357,1885,2187,522,495,2,472,0,1665,27
-2023/2024,Male,all,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,934,747,866,204,183,2,187,0,662,21
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,57,46,56,15,14,0,11,0,41,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,80,64,77,19,18,0,16,0,58,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,31,25,29,12,11,0,6,0,17,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,33,27,31,7,6,0,6,0,24,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,72,58,63,18,17,0,14,0,45,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,20,17,19,19,17,0,3,0,0,2
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,10,8,9,0,0,0,2,0,9,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,31,25,29,19,17,0,6,0,10,2
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,13,10,9,0,0,0,3,1,9,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,23,19,22,10,9,0,4,0,12,1
-2023/2024,Male,disabled,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,72,58,59,13,12,0,14,0,46,1
-2023/2024,Male,disabled,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,46,37,47,13,12,0,9,0,34,1
-2023/2024,Male,disabled,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,61,50,58,13,12,0,11,0,45,1
-2023/2024,Male,disabled,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,87,70,77,21,20,0,17,0,56,1
-2023/2024,Male,disabled,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,36,29,31,8,7,0,7,0,23,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,106,85,104,15,14,0,21,0,89,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,120,96,111,25,23,0,24,0,86,2
-2023/2024,Male,disabled,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,43,35,34,6,5,0,8,1,28,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,60,48,56,9,8,0,12,0,47,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,111,90,100,18,16,0,21,0,82,2
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,38,30,34,15,13,0,8,0,19,2
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,18,15,15,7,6,0,3,0,8,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,48,39,42,22,21,0,9,0,20,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,30,24,28,7,6,0,6,0,21,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,32,26,30,15,13,0,6,0,15,2
-2023/2024,Male,disabled,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,126,100,120,18,16,0,26,0,102,2
-2023/2024,Male,disabled,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,79,63,71,14,13,0,16,0,57,1
-2023/2024,Male,disabled,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,92,74,85,22,21,0,18,0,63,1
-2023/2024,Male,disabled,NECO,University,lga,Soba,North West,Kaduna,Soba,,,132,105,123,29,25,0,27,0,94,4
-2023/2024,Male,disabled,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,68,54,64,11,9,0,14,0,53,2
-2023/2024,Male,disabled,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,144,114,133,20,18,0,30,0,113,2
-2023/2024,Male,disabled,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,158,126,139,28,24,0,32,0,111,4
-2023/2024,Male,disabled,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,52,41,49,10,9,0,11,0,39,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,78,62,73,9,8,0,16,0,64,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,146,117,133,21,20,0,29,0,112,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,53,41,49,16,14,0,12,0,33,2
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,28,22,26,9,7,0,6,0,17,2
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,65,52,63,23,21,0,13,0,40,2
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,42,33,34,7,6,0,9,0,27,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,39,31,34,15,14,0,8,0,19,1
-2023/2024,Male,disabled,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,151,120,133,23,21,0,31,0,110,2
-2023/2024,Male,disabled,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,110,87,100,20,18,0,23,0,80,2
-2023/2024,Male,disabled,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,110,88,106,25,21,0,22,0,81,4
-2023/2024,Male,disabled,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,170,135,161,32,31,0,35,0,129,1
-2023/2024,Male,disabled,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,93,74,90,15,14,0,19,0,75,1
-2024/2025,Female,all,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,838,670,469,224,206,1.333883,168,201,245,18
-2024/2025,Female,all,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1006,805,563,269,248,1.601574,201,242,294,21
-2024/2025,Female,all,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,395,316,221,106,97,0.62919,79,95,115,9
-2024/2025,Female,all,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,553,443,310,148,136,0.880866,110,133,162,12
-2024/2025,Female,all,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,1172,937,656,314,289,1.86469,235,281,342,25
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,401,321,225,107,99,0.638342,80,96,118,8
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,164,131,92,44,40,0.260828,33,39,48,4
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,487,390,273,131,120,0.77562,97,117,142,11
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,217,174,122,58,54,0.345482,43,52,64,4
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,323,259,181,87,80,0.514792,64,78,94,7
-2024/2025,Female,all,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,1094,875,613,293,270,1.74114,219,262,320,23
-2024/2025,Female,all,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,818,654,458,219,202,1.301851,164,196,239,17
-2024/2025,Female,all,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,944,756,529,253,233,1.503192,188,227,276,20
-2024/2025,Female,all,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,1301,1041,729,348,321,2.070607,260,312,381,27
-2024/2025,Female,all,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,487,390,273,130,120,0.77562,97,117,143,10
-2024/2025,Female,all,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,1623,1298,909,435,400,2.58311,325,389,474,35
-2024/2025,Female,all,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1752,1402,981,469,432,2.789027,350,421,512,37
-2024/2025,Female,all,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,713,570,399,191,176,1.13483,143,171,208,15
-2024/2025,Female,all,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,1016,813,569,272,250,1.61759,203,244,297,22
-2024/2025,Female,all,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,2198,1758,1231,589,542,3.498296,440,527,642,47
-2024/2025,Female,all,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,745,596,417,199,183,1.185165,149,179,218,16
-2024/2025,Female,all,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,325,260,182,87,80,0.51708,65,78,95,7
-2024/2025,Female,all,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,883,706,494,236,217,1.404809,177,212,258,19
-2024/2025,Female,all,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,434,347,243,116,107,0.690965,87,104,127,9
-2024/2025,Female,all,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,582,466,326,156,143,0.926625,116,140,170,13
-2024/2025,Female,all,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,2116,1693,1185,567,521,3.367882,423,508,618,46
-2024/2025,Female,all,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1519,1216,851,407,374,2.418377,303,365,444,33
-2024/2025,Female,all,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1699,1359,952,455,419,2.704373,340,407,497,36
-2024/2025,Female,all,NECO,University,lga,Soba,North West,Kaduna,Soba,,,2392,1914,1340,641,589,3.807171,478,574,699,52
-2024/2025,Female,all,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,921,737,516,247,227,1.466584,184,221,269,20
-2024/2025,Female,all,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,2224,1779,1245,596,548,3.539479,445,534,649,48
-2024/2025,Female,all,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,2529,2023,1416,677,623,4.024527,506,607,739,54
-2024/2025,Female,all,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,982,785,550,263,242,1.562679,197,235,287,21
-2024/2025,Female,all,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,1292,1034,724,346,318,2.056879,258,310,378,28
-2024/2025,Female,all,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,2861,2289,1602,766,705,4.553047,572,687,836,61
-2024/2025,Female,all,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,1011,808,566,271,249,1.608438,203,242,295,22
-2024/2025,Female,all,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,441,353,247,118,109,0.702405,88,106,129,9
-2024/2025,Female,all,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1271,1017,712,340,313,2.022559,254,305,372,27
-2024/2025,Female,all,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,578,462,324,155,142,0.919761,116,138,169,13
-2024/2025,Female,all,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,913,730,511,244,225,1.452857,183,219,267,19
-2024/2025,Female,all,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,2760,2208,1546,739,680,4.392889,552,662,807,59
-2024/2025,Female,all,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,2067,1654,1158,554,509,3.290091,413,496,604,45
-2024/2025,Female,all,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,2473,1978,1385,662,609,3.935297,495,593,723,53
-2024/2025,Female,all,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,3324,2659,1861,891,820,5.289771,665,798,970,71
-2024/2025,Female,all,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,1202,961,673,322,296,1.912737,241,288,351,26
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,73,59,41,20,18,0.116686,14,18,21,2
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,113,91,64,30,28,0.180749,22,27,34,2
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,45,36,25,12,11,0.070927,9,11,13,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,50,40,28,13,12,0.080079,10,12,15,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,115,92,64,31,28,0.183037,23,28,33,3
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,30,24,17,8,7,0.048047,6,7,9,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,14,12,8,4,4,0.02288,2,4,4,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,45,36,25,12,11,0.070927,9,11,13,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,20,16,11,5,5,0.032031,4,5,6,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,30,24,17,8,7,0.048047,6,7,9,1
-2024/2025,Female,disabled,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,95,76,53,25,23,0.151006,19,23,28,2
-2024/2025,Female,disabled,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,65,52,36,17,16,0.102958,13,16,19,1
-2024/2025,Female,disabled,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,90,72,51,24,22,0.144142,18,21,27,2
-2024/2025,Female,disabled,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,125,100,70,34,31,0.199053,25,30,36,3
-2024/2025,Female,disabled,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,50,40,28,13,12,0.080079,10,12,15,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,139,111,78,37,34,0.221932,28,33,41,3
-2024/2025,Female,disabled,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,147,117,82,39,36,0.233372,30,35,43,3
-2024/2025,Female,disabled,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,56,45,31,15,14,0.089231,11,14,16,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,86,69,48,23,21,0.137278,17,21,25,2
-2024/2025,Female,disabled,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,168,134,94,45,41,0.267692,34,40,49,4
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,53,43,30,14,13,0.084655,10,13,16,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,27,22,15,7,7,0.043471,5,7,8,0
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,69,55,39,18,17,0.109822,14,16,21,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,42,33,23,11,10,0.066351,9,10,12,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,40,32,22,11,10,0.064063,8,10,11,1
-2024/2025,Female,disabled,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,157,125,88,42,39,0.249388,32,37,46,3
-2024/2025,Female,disabled,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,101,80,56,27,25,0.160157,21,24,29,2
-2024/2025,Female,disabled,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,124,99,69,33,30,0.196765,25,30,36,3
-2024/2025,Female,disabled,NECO,University,lga,Soba,North West,Kaduna,Soba,,,177,141,99,47,44,0.281419,36,42,52,3
-2024/2025,Female,disabled,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,89,71,50,24,22,0.141854,18,21,26,2
-2024/2025,Female,disabled,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,198,159,111,53,49,0.315739,39,48,58,4
-2024/2025,Female,disabled,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,213,170,119,57,52,0.338619,43,51,62,5
-2024/2025,Female,disabled,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,69,55,39,18,17,0.109822,14,16,21,1
-2024/2025,Female,disabled,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,103,83,58,28,26,0.164733,20,25,30,2
-2024/2025,Female,disabled,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,215,172,121,58,53,0.343194,43,51,63,5
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,67,54,38,18,17,0.107534,13,16,20,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,32,25,18,8,8,0.050335,7,7,10,0
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,95,76,53,25,23,0.151006,19,23,28,2
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,50,40,28,13,12,0.080079,10,12,15,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,59,47,33,16,15,0.093806,12,14,17,1
-2024/2025,Female,disabled,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,210,168,117,56,52,0.334043,42,51,61,4
-2024/2025,Female,disabled,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,138,110,77,37,34,0.219644,28,33,40,3
-2024/2025,Female,disabled,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,167,133,93,45,41,0.265404,34,40,48,4
-2024/2025,Female,disabled,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,240,192,134,64,59,0.38209,48,58,70,5
-2024/2025,Female,disabled,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,113,91,64,30,28,0.180749,22,27,34,2
-2024/2025,Male,all,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,867,693,485,232,214,1.379642,174,208,253,18
-2024/2025,Male,all,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1068,854,598,286,263,1.699957,214,256,312,23
-2024/2025,Male,all,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,427,342,239,114,105,0.679525,85,103,125,9
-2024/2025,Male,all,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,535,428,299,143,132,0.851122,107,129,156,11
-2024/2025,Male,all,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,1223,979,685,328,301,1.947057,244,294,357,27
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,424,339,237,114,104,0.674949,85,102,123,10
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,174,139,97,47,43,0.276844,35,42,50,4
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,464,371,260,124,114,0.739012,93,111,136,10
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,250,200,140,67,62,0.398106,50,60,73,5
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,345,276,193,92,85,0.549111,69,83,101,7
-2024/2025,Male,all,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,1203,963,674,322,296,1.915025,240,289,352,26
-2024/2025,Male,all,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,858,687,481,230,211,1.365914,171,206,251,19
-2024/2025,Male,all,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,983,787,551,263,242,1.564967,196,236,288,21
-2024/2025,Male,all,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,1353,1082,758,362,333,2.152973,271,324,396,29
-2024/2025,Male,all,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,516,413,289,138,127,0.821379,103,124,151,11
-2024/2025,Male,all,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,1741,1393,975,466,429,2.770723,348,418,509,37
-2024/2025,Male,all,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1945,1556,1089,521,479,3.095614,389,467,568,42
-2024/2025,Male,all,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,781,624,437,209,192,1.242364,157,187,228,17
-2024/2025,Male,all,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,1005,804,563,269,248,1.599286,201,241,294,21
-2024/2025,Male,all,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,2202,1762,1233,590,543,3.50516,440,529,643,47
-2024/2025,Male,all,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,729,583,408,195,180,1.159997,146,175,213,15
-2024/2025,Male,all,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,368,294,206,99,91,0.585719,74,88,107,8
-2024/2025,Male,all,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,860,688,481,230,212,1.368202,172,207,251,18
-2024/2025,Male,all,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,480,384,269,129,118,0.76418,96,115,140,11
-2024/2025,Male,all,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,653,522,365,175,161,1.038735,131,157,190,14
-2024/2025,Male,all,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,2253,1802,1261,603,555,3.585238,451,541,658,48
-2024/2025,Male,all,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1529,1224,857,410,377,2.434393,305,367,447,33
-2024/2025,Male,all,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1742,1394,976,467,429,2.773011,348,418,509,38
-2024/2025,Male,all,NECO,University,lga,Soba,North West,Kaduna,Soba,,,2372,1898,1328,635,584,3.775139,474,570,693,51
-2024/2025,Male,all,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,1011,808,566,271,249,1.608438,203,242,295,22
-2024/2025,Male,all,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,2378,1902,1332,637,586,3.784291,476,570,695,51
-2024/2025,Male,all,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,2635,2108,1476,706,649,4.193837,527,632,770,57
-2024/2025,Male,all,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1045,836,585,280,257,1.663349,209,251,305,23
-2024/2025,Male,all,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,1269,1016,711,340,313,2.020272,253,305,371,27
-2024/2025,Male,all,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,2910,2328,1629,779,717,4.630838,582,699,850,62
-2024/2025,Male,all,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,1039,831,582,278,256,1.654197,208,249,304,22
-2024/2025,Male,all,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,450,360,252,120,111,0.716132,90,108,132,9
-2024/2025,Male,all,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1149,919,643,308,283,1.828083,230,276,335,25
-2024/2025,Male,all,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,605,484,339,162,149,0.963233,121,145,177,13
-2024/2025,Male,all,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,818,654,458,219,202,1.301851,164,196,239,17
-2024/2025,Male,all,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,2973,2378,1665,796,732,4.731508,595,713,869,64
-2024/2025,Male,all,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,2197,1757,1230,588,541,3.496008,440,527,642,47
-2024/2025,Male,all,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,2434,1947,1363,652,600,3.873522,487,584,711,52
-2024/2025,Male,all,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,3298,2638,1847,884,812,5.248588,660,791,963,72
-2024/2025,Male,all,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,1305,1044,731,350,322,2.077471,261,313,381,28
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,83,67,47,22,21,0.132702,16,20,25,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,111,89,62,30,27,0.176173,22,27,32,3
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,43,34,24,12,11,0.068639,9,10,12,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,50,40,28,13,12,0.080079,10,12,15,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,105,84,59,28,26,0.167021,21,25,31,2
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,29,23,16,8,7,0.045759,6,7,8,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,14,12,8,4,4,0.02288,2,4,4,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,43,35,24,12,11,0.068639,8,11,12,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,22,17,12,6,5,0.034319,5,5,6,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,29,23,16,8,7,0.045759,6,7,8,1
-2024/2025,Male,disabled,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,102,82,57,27,25,0.162445,20,25,30,2
-2024/2025,Male,disabled,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,62,49,35,17,15,0.098382,13,14,18,2
-2024/2025,Male,disabled,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,86,69,48,23,21,0.137278,17,21,25,2
-2024/2025,Male,disabled,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,125,100,70,34,31,0.199053,25,30,36,3
-2024/2025,Male,disabled,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,47,38,27,13,12,0.075503,9,11,14,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,155,124,87,42,38,0.2471,31,37,45,4
-2024/2025,Male,disabled,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,162,130,91,44,40,0.25854,32,39,47,4
-2024/2025,Male,disabled,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,62,49,35,17,15,0.098382,13,14,18,2
-2024/2025,Male,disabled,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,79,63,44,21,20,0.125838,16,19,23,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,172,138,97,46,43,0.274556,34,41,51,3
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,50,40,28,13,12,0.080079,10,12,15,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,26,21,14,7,6,0.041183,5,7,7,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,69,55,39,18,17,0.109822,14,16,21,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,47,38,27,13,12,0.075503,9,11,14,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,42,33,23,11,10,0.066351,9,10,12,1
-2024/2025,Male,disabled,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,168,134,94,45,41,0.267692,34,40,49,4
-2024/2025,Male,disabled,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,111,89,62,30,27,0.176173,22,27,32,3
-2024/2025,Male,disabled,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,124,99,69,33,30,0.196765,25,30,36,3
-2024/2025,Male,disabled,NECO,University,lga,Soba,North West,Kaduna,Soba,,,190,152,106,51,47,0.302011,38,46,55,4
-2024/2025,Male,disabled,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,96,77,54,26,24,0.153294,19,23,28,2
-2024/2025,Male,disabled,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,203,162,113,54,50,0.322603,41,49,59,4
-2024/2025,Male,disabled,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,226,180,126,60,56,0.35921,46,54,66,4
-2024/2025,Male,disabled,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,73,59,41,20,18,0.116686,14,18,21,2
-2024/2025,Male,disabled,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,98,78,55,26,24,0.155581,20,23,29,2
-2024/2025,Male,disabled,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,215,172,121,58,53,0.343194,43,51,63,5
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,75,60,42,20,18,0.118974,15,18,22,2
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,43,35,24,12,11,0.068639,8,11,12,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,93,75,52,25,23,0.148718,18,23,27,2
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,55,44,31,15,14,0.086943,11,13,16,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,55,44,31,15,13,0.086943,11,13,16,2
-2024/2025,Male,disabled,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,223,178,125,60,55,0.354634,45,53,65,5
-2024/2025,Male,disabled,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,161,129,90,43,40,0.256252,32,39,47,3
-2024/2025,Male,disabled,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,165,132,92,44,41,0.263116,33,40,48,3
-2024/2025,Male,disabled,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,234,187,131,63,58,0.372938,47,56,68,5
-2024/2025,Male,disabled,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,126,101,71,34,31,0.201341,25,30,37,3
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,276,710,805,132,120,18,113,0,438,9
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,329,850,940,152,149,0,134,0,513,2
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,129,333,373,79,71,0,52,0,190,6
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,184,473,525,99,89,18,76,0,276,7
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,386,997,1126,191,169,18,157,0,608,16
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,117,303,322,136,113,18,48,0,113,17
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,50,129,129,47,45,0,21,0,51,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,165,427,472,180,161,18,67,0,180,14
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,71,183,199,60,49,18,29,0,88,8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,113,292,331,104,95,18,46,0,143,7
+2022/2023,Female,ALL,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,365,942,1006,547,488,72,149,0,261,44
+2022/2023,Female,ALL,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,266,686,762,419,404,18,109,0,194,11
+2022/2023,Female,ALL,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,301,776,867,421,408,18,124,0,262,10
+2022/2023,Female,ALL,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,424,1094,1198,626,597,36,173,0,329,22
+2022/2023,Female,ALL,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,164,424,492,273,227,54,67,0,123,35
+2022/2023,Female,ALL,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,507,1309,1452,235,219,18,207,0,792,12
+2022/2023,Female,ALL,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,609,1569,1720,280,252,36,249,0,937,21
+2022/2023,Female,ALL,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,231,598,673,115,105,18,94,0,363,7
+2022/2023,Female,ALL,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,354,913,1002,155,136,18,145,0,552,14
+2022/2023,Female,ALL,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,679,1749,1861,285,255,36,278,0,1027,23
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,248,639,666,227,203,18,101,0,274,18
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,111,285,304,100,95,0,46,0,128,4
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,304,785,900,327,297,36,123,0,355,22
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,138,355,378,112,109,0,56,0,168,2
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,207,533,568,200,177,18,85,0,229,17
+2022/2023,Female,ALL,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,723,1863,2046,994,904,90,296,0,618,68
+2022/2023,Female,ALL,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,477,1232,1341,680,620,72,194,0,384,45
+2022/2023,Female,ALL,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,574,1481,1581,785,717,72,234,0,465,51
+2022/2023,Female,ALL,NECO,University,lga,Soba,North West,Kaduna,Soba,,,777,2004,2214,1084,976,108,317,0,663,81
+2022/2023,Female,ALL,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,324,834,874,401,376,36,133,0,282,19
+2022/2023,Female,ALL,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,694,1792,1936,360,331,36,283,0,1021,22
+2022/2023,Female,ALL,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,765,1971,2161,384,355,36,314,0,1153,22
+2022/2023,Female,ALL,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,294,759,825,160,152,0,120,0,430,6
+2022/2023,Female,ALL,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,455,1173,1287,228,221,0,186,0,687,5
+2022/2023,Female,ALL,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,951,2451,2727,473,431,54,389,0,1463,32
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,316,815,907,415,387,36,129,0,294,21
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,123,319,342,132,120,18,50,0,129,9
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,369,953,1029,403,375,36,151,0,384,21
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,179,462,492,195,173,18,73,0,182,16
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,298,768,814,317,296,18,122,0,305,16
+2022/2023,Female,ALL,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,870,2243,2434,1270,1168,108,355,0,670,77
+2022/2023,Female,ALL,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,696,1793,1953,1117,1039,90,285,0,464,59
+2022/2023,Female,ALL,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,785,2027,2188,1186,1113,72,320,0,569,55
+2022/2023,Female,ALL,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,1065,2747,2988,1677,1524,161,435,0,734,115
+2022/2023,Female,ALL,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,418,1077,1222,693,628,72,171,0,295,49
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,25,65,67,15,12,0,10,0,34,2
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,37,96,100,17,16,0,14,0,54,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,15,38,40,13,12,0,6,0,17,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,17,43,46,12,11,0,7,0,22,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,37,96,100,24,21,0,14,0,49,2
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,10,25,27,24,20,0,4,0,0,3
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,4,13,12,11,9,0,1,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,16,41,48,33,31,0,7,0,7,2
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,6,16,21,0,0,0,3,0,14,0
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,10,25,27,12,11,0,4,0,9,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,32,84,94,92,83,18,12,0,0,7
+2022/2023,Female,Disabled,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,21,54,61,57,56,0,9,0,0,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,29,76,79,47,41,0,12,0,18,4
+2022/2023,Female,Disabled,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,42,109,114,92,83,18,16,0,7,7
+2022/2023,Female,Disabled,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,16,41,46,47,41,0,6,0,0,4
+2022/2023,Female,Disabled,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,46,120,139,15,13,0,19,0,82,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,51,132,153,25,24,0,21,0,83,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,17,43,52,11,9,0,7,0,27,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,28,71,78,11,9,0,12,0,44,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,49,129,135,25,24,0,19,0,71,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,19,47,54,17,16,0,8,0,23,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,9,24,24,9,8,0,3,0,9,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,23,58,66,27,25,0,9,0,24,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,12,30,36,9,8,0,6,0,17,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,14,36,36,16,15,0,6,0,12,1
+2022/2023,Female,Disabled,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,54,140,151,71,68,0,22,0,48,2
+2022/2023,Female,Disabled,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,32,84,90,47,45,0,13,0,25,1
+2022/2023,Female,Disabled,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,39,101,102,47,45,0,15,0,33,1
+2022/2023,Female,Disabled,NECO,University,lga,Soba,North West,Kaduna,Soba,,,56,145,166,96,88,0,23,0,39,6
+2022/2023,Female,Disabled,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,31,79,84,36,35,0,13,0,29,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,61,155,168,23,21,0,26,0,95,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,68,175,196,31,27,0,28,0,108,3
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,22,57,64,11,9,0,9,0,35,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,35,90,96,15,13,0,15,0,53,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,72,186,202,31,25,0,29,0,112,4
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,21,54,60,27,25,0,9,0,20,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,9,24,25,9,8,0,3,0,10,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,30,77,79,27,25,0,12,0,33,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,14,36,37,9,8,0,6,0,18,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,20,50,54,17,15,0,8,0,23,2
+2022/2023,Female,Disabled,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,68,172,192,73,68,0,29,0,73,4
+2022/2023,Female,Disabled,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,49,125,141,73,68,0,21,0,39,4
+2022/2023,Female,Disabled,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,55,142,154,73,69,0,22,0,48,3
+2022/2023,Female,Disabled,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,74,189,202,109,95,18,31,0,53,11
+2022/2023,Female,Disabled,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,40,101,114,49,43,0,17,0,39,5
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,294,757,823,139,125,18,120,0,445,10
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,348,899,993,139,137,0,142,0,558,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,137,352,388,59,49,18,56,0,215,7
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,173,446,499,72,63,18,71,0,279,7
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,391,1006,1084,160,135,36,160,0,603,19
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,119,308,333,123,113,18,48,0,130,7
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,58,148,166,60,59,0,24,0,66,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,164,424,474,180,161,18,67,0,181,14
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,70,183,183,47,33,18,28,0,87,10
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,117,301,333,120,113,0,48,0,132,5
+2022/2023,Male,ALL,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,374,964,1020,485,451,36,154,0,316,26
+2022/2023,Male,ALL,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,281,725,783,379,339,36,115,0,238,30
+2022/2023,Male,ALL,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,306,790,871,399,361,36,125,0,282,28
+2022/2023,Male,ALL,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,435,1121,1237,649,603,54,177,0,338,35
+2022/2023,Male,ALL,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,171,442,463,251,224,36,70,0,121,20
+2022/2023,Male,ALL,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,548,1411,1585,236,213,18,224,0,880,17
+2022/2023,Male,ALL,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,659,1699,1852,287,260,36,270,0,1020,20
+2022/2023,Male,ALL,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,246,636,702,109,100,18,100,0,386,7
+2022/2023,Male,ALL,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,340,877,969,148,136,18,138,0,535,9
+2022/2023,Male,ALL,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,716,1845,2047,303,277,36,293,0,1138,19
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,237,612,663,239,217,18,97,0,263,16
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,117,303,333,112,109,0,48,0,138,2
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,291,749,838,288,259,36,119,0,343,22
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,146,377,403,112,109,0,60,0,185,2
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,218,563,633,227,205,18,89,0,252,16
+2022/2023,Male,ALL,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,768,1981,2100,925,832,108,314,0,706,70
+2022/2023,Male,ALL,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,504,1300,1453,677,623,54,206,0,461,41
+2022/2023,Male,ALL,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,593,1530,1687,820,737,90,242,0,510,62
+2022/2023,Male,ALL,NECO,University,lga,Soba,North West,Kaduna,Soba,,,779,2009,2191,997,921,90,318,0,713,57
+2022/2023,Male,ALL,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,348,899,960,437,413,18,142,0,312,18
+2022/2023,Male,ALL,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,772,1989,2233,409,384,36,316,0,1182,19
+2022/2023,Male,ALL,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,845,2180,2377,412,389,18,345,0,1276,17
+2022/2023,Male,ALL,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,315,814,879,164,151,18,128,0,463,10
+2022/2023,Male,ALL,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,446,1151,1300,223,209,18,182,0,700,10
+2022/2023,Male,ALL,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,951,2451,2772,457,424,36,389,0,1505,25
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,318,818,904,341,308,36,130,0,347,25
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,132,341,373,147,135,18,54,0,139,9
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,367,945,1021,415,403,18,150,0,370,9
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,192,495,556,183,173,18,78,0,234,7
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,302,779,879,353,320,36,123,0,321,25
+2022/2023,Male,ALL,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,960,2474,2610,1408,1297,126,392,0,684,83
+2022/2023,Male,ALL,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,692,1787,1914,981,927,54,282,0,540,41
+2022/2023,Male,ALL,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,777,2003,2118,1204,1113,90,318,0,509,68
+2022/2023,Male,ALL,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,1028,2651,2887,1574,1464,126,420,0,744,83
+2022/2023,Male,ALL,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,429,1106,1206,644,597,54,176,0,321,35
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,24,63,72,15,12,0,10,0,37,2
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,39,99,102,13,12,0,16,0,58,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,14,36,39,4,3,0,6,0,23,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,16,43,43,9,8,0,6,0,22,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,34,88,90,15,12,0,13,0,49,2
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,9,24,25,11,9,0,4,0,9,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,4,11,12,11,9,0,2,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,15,39,43,23,20,0,5,0,12,2
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,7,19,19,0,0,0,3,0,13,0
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,9,24,25,12,11,0,4,0,8,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,30,79,84,49,41,0,12,0,19,6
+2022/2023,Male,Disabled,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,23,58,58,15,13,0,9,0,28,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,28,73,76,31,28,0,11,0,28,2
+2022/2023,Male,Disabled,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,41,107,117,93,83,18,16,0,8,8
+2022/2023,Male,Disabled,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,16,43,43,49,41,0,6,0,0,6
+2022/2023,Male,Disabled,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,48,125,135,15,13,0,20,0,79,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,51,132,136,27,25,0,21,0,71,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,18,47,55,11,9,0,7,0,29,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,27,71,79,11,9,0,11,0,45,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,51,132,139,21,20,0,21,0,77,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,16,43,45,17,16,0,6,0,17,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,10,25,28,9,8,0,4,0,12,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,23,58,61,25,24,0,9,0,22,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,13,32,34,9,8,0,6,0,16,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,13,35,40,16,15,0,5,0,15,1
+2022/2023,Male,Disabled,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,59,151,165,73,69,0,25,0,55,3
+2022/2023,Male,Disabled,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,38,98,111,49,48,0,16,0,37,1
+2022/2023,Male,Disabled,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,40,103,112,47,45,0,16,0,40,1
+2022/2023,Male,Disabled,NECO,University,lga,Soba,North West,Kaduna,Soba,,,58,150,172,96,91,0,23,0,43,4
+2022/2023,Male,Disabled,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,34,88,100,36,33,0,14,0,40,2
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,66,167,189,23,21,0,28,0,109,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,71,183,213,31,27,0,29,0,119,3
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,23,60,67,11,9,0,10,0,37,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,35,90,97,15,13,0,14,0,54,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,73,189,213,31,25,0,30,0,119,4
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,23,60,63,17,16,0,10,0,29,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,11,28,30,9,8,0,5,0,13,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,30,77,88,36,33,0,12,0,32,2
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,16,41,45,9,8,0,7,0,23,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,20,50,57,17,15,0,9,0,25,2
+2022/2023,Male,Disabled,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,72,183,193,85,77,0,31,0,65,6
+2022/2023,Male,Disabled,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,54,139,153,61,57,0,22,0,56,3
+2022/2023,Male,Disabled,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,53,139,142,73,72,0,20,0,40,1
+2022/2023,Male,Disabled,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,78,199,220,109,95,18,33,0,65,11
+2022/2023,Male,Disabled,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,43,109,126,49,43,0,18,0,47,5
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,294,759,840,161,144,18,120,0,439,13
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,342,885,972,189,188,0,138,0,506,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,139,360,396,83,80,0,57,0,202,2
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,196,505,571,115,96,18,81,0,295,14
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,402,1038,1135,220,200,18,164,0,592,15
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,132,341,375,141,135,0,54,0,144,5
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,62,159,168,77,68,18,25,0,54,7
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,170,438,495,224,201,18,69,0,162,17
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,72,185,198,80,68,18,30,0,72,9
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,129,331,348,112,101,18,53,0,148,8
+2023/2024,Female,ALL,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,376,970,1044,207,189,18,153,0,541,13
+2023/2024,Female,ALL,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,270,697,760,155,147,0,110,0,391,6
+2023/2024,Female,ALL,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,329,848,910,195,173,18,134,0,461,16
+2023/2024,Female,ALL,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,466,1203,1314,271,248,18,190,0,673,17
+2023/2024,Female,ALL,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,162,418,469,88,85,0,66,0,247,2
+2023/2024,Female,ALL,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,566,1460,1635,320,303,18,231,0,850,13
+2023/2024,Female,ALL,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,630,1623,1785,331,301,36,258,0,942,22
+2023/2024,Female,ALL,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,260,670,748,145,135,18,107,0,390,8
+2023/2024,Female,ALL,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,375,965,1060,176,161,18,154,0,575,11
+2023/2024,Female,ALL,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,720,1858,2001,372,345,36,294,0,1055,20
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,270,695,756,275,241,36,110,0,298,25
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,96,248,276,105,100,0,40,0,105,4
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,311,803,870,340,312,36,126,0,325,21
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,147,380,390,119,100,18,60,0,171,14
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,225,579,658,235,212,18,92,0,263,17
+2023/2024,Female,ALL,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,704,1815,1968,363,337,36,287,0,1040,19
+2023/2024,Female,ALL,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,527,1358,1497,309,289,18,216,0,766,15
+2023/2024,Female,ALL,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,610,1572,1711,324,297,36,250,0,898,20
+2023/2024,Female,ALL,NECO,University,lga,Soba,North West,Kaduna,Soba,,,861,2219,2389,457,419,36,352,0,1250,29
+2023/2024,Female,ALL,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,313,809,855,153,144,18,127,0,455,7
+2023/2024,Female,ALL,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,707,1823,2058,429,403,36,289,0,1050,20
+2023/2024,Female,ALL,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,853,2198,2406,509,477,36,349,0,1222,24
+2023/2024,Female,ALL,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,350,902,996,228,207,18,144,0,493,16
+2023/2024,Female,ALL,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,493,1271,1440,295,264,36,202,0,739,23
+2023/2024,Female,ALL,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,986,2541,2731,544,492,54,403,0,1413,39
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,346,891,990,404,369,36,142,0,357,26
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,131,337,378,152,140,18,53,0,138,9
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,437,1128,1248,557,524,36,179,0,414,25
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,212,547,568,236,215,18,87,0,202,16
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,313,807,886,389,369,18,128,0,299,15
+2023/2024,Female,ALL,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,924,2385,2575,553,511,54,377,0,1302,32
+2023/2024,Female,ALL,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,725,1869,2016,459,416,54,296,0,1000,32
+2023/2024,Female,ALL,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,787,2031,2208,480,441,36,321,0,1112,29
+2023/2024,Female,ALL,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,1185,3053,3357,725,685,36,486,0,1694,30
+2023/2024,Female,ALL,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,433,1117,1234,259,244,18,177,0,629,11
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,28,73,81,20,19,0,11,0,39,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,38,99,112,36,33,0,15,0,48,2
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,16,41,45,15,13,0,6,0,19,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,19,49,49,15,13,0,7,0,22,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,38,99,99,29,28,0,15,0,44,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,11,27,30,27,23,0,5,0,0,3
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,5,13,13,12,9,0,2,0,0,2
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,16,41,45,36,35,0,6,0,3,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,7,17,21,12,11,0,3,0,5,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,11,27,27,12,11,0,5,0,9,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,33,85,94,31,28,0,13,0,40,2
+2023/2024,Female,Disabled,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,23,58,67,24,21,0,9,0,27,2
+2023/2024,Female,Disabled,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,32,82,91,31,28,0,13,0,38,2
+2023/2024,Female,Disabled,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,44,114,121,39,36,0,17,0,52,2
+2023/2024,Female,Disabled,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,17,44,40,17,16,0,7,1,14,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,49,126,142,20,19,0,20,0,80,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,58,148,172,33,29,0,24,0,90,3
+2023/2024,Female,Disabled,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,19,50,54,12,11,0,7,0,27,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,29,76,88,12,11,0,12,0,50,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,54,142,145,29,25,0,21,0,75,3
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,18,46,54,20,17,0,8,0,21,2
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,8,21,22,9,8,0,3,0,8,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,25,65,66,29,28,0,10,0,22,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,14,36,37,9,8,0,6,0,18,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,15,39,40,9,8,0,6,0,20,1
+2023/2024,Female,Disabled,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,55,142,139,29,27,0,22,0,71,2
+2023/2024,Female,Disabled,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,38,98,109,19,17,0,15,0,59,1
+2023/2024,Female,Disabled,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,43,112,108,29,28,0,17,0,50,1
+2023/2024,Female,Disabled,NECO,University,lga,Soba,North West,Kaduna,Soba,,,62,159,180,39,33,0,25,0,91,4
+2023/2024,Female,Disabled,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,29,76,79,15,12,0,12,0,42,2
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,61,156,175,28,25,0,26,0,96,2
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,71,183,207,36,32,0,29,0,111,3
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,22,57,64,13,12,0,9,0,33,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,37,96,108,17,16,0,15,0,59,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,69,178,195,33,32,0,29,0,105,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,24,62,70,31,28,0,10,0,24,2
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,11,28,34,12,9,0,4,0,14,2
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,33,84,94,43,39,0,14,0,31,3
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,17,44,46,9,8,0,7,0,24,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,22,55,60,31,29,0,9,0,17,1
+2023/2024,Female,Disabled,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,71,183,195,31,28,0,30,0,107,2
+2023/2024,Female,Disabled,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,54,137,150,31,29,0,23,0,77,1
+2023/2024,Female,Disabled,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,55,142,160,33,28,0,23,0,82,4
+2023/2024,Female,Disabled,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,85,218,238,43,41,0,35,0,127,1
+2023/2024,Female,Disabled,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,40,103,114,15,13,0,17,0,65,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,315,812,910,183,161,18,128,0,470,16
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,360,927,1020,168,167,0,147,0,554,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,149,383,423,91,80,18,61,0,214,8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,189,489,544,100,88,18,77,0,288,9
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,424,1091,1206,220,192,36,174,0,639,21
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,139,358,406,176,153,18,57,0,139,17
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,68,173,175,64,51,18,28,0,69,10
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,151,390,432,159,153,0,62,0,169,4
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,72,188,186,47,33,18,29,0,89,10
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,125,323,349,127,115,18,51,0,138,9
+2023/2024,Male,ALL,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,417,1076,1164,188,163,36,171,0,635,19
+2023/2024,Male,ALL,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,272,700,786,155,137,18,111,0,408,13
+2023/2024,Male,ALL,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,335,864,949,164,144,18,137,0,510,15
+2023/2024,Male,ALL,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,476,1227,1348,245,224,18,194,0,715,16
+2023/2024,Male,ALL,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,172,443,475,89,77,18,70,0,250,9
+2023/2024,Male,ALL,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,584,1506,1627,308,276,36,238,0,854,24
+2023/2024,Male,ALL,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,666,1717,1848,331,303,36,272,0,984,21
+2023/2024,Male,ALL,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,274,707,769,132,121,18,112,0,414,8
+2023/2024,Male,ALL,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,367,946,1024,189,183,0,150,0,541,5
+2023/2024,Male,ALL,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,765,1973,2163,364,336,36,313,0,1169,21
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,283,730,808,275,257,18,115,0,333,13
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,109,281,303,119,113,0,45,0,113,4
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,301,777,862,352,325,36,123,0,311,20
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,151,390,420,119,113,0,62,0,191,4
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,226,582,663,221,212,18,92,0,276,7
+2023/2024,Male,ALL,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,751,1935,2164,371,333,36,307,0,1165,28
+2023/2024,Male,ALL,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,536,1383,1500,281,252,36,219,0,789,22
+2023/2024,Male,ALL,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,626,1616,1789,341,301,36,255,0,937,30
+2023/2024,Male,ALL,NECO,University,lga,Soba,North West,Kaduna,Soba,,,823,2121,2337,448,411,36,336,0,1222,28
+2023/2024,Male,ALL,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,352,905,999,160,151,18,145,0,546,7
+2023/2024,Male,ALL,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,787,2030,2280,463,425,36,322,0,1173,28
+2023/2024,Male,ALL,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,941,2424,2628,549,507,54,385,0,1340,32
+2023/2024,Male,ALL,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,368,948,1020,213,197,18,152,0,520,12
+2023/2024,Male,ALL,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,495,1276,1404,276,256,18,203,0,729,15
+2023/2024,Male,ALL,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,1033,2662,2842,563,513,54,422,0,1473,37
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,361,930,1047,432,399,36,147,0,374,25
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,159,410,466,196,185,18,65,0,164,8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,411,1060,1171,544,509,36,167,0,373,26
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,210,543,591,224,199,36,86,0,226,19
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,301,777,846,348,323,36,123,0,303,19
+2023/2024,Male,ALL,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,968,2497,2608,539,511,36,396,0,1335,21
+2023/2024,Male,ALL,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,744,1919,2065,468,431,36,304,0,1026,28
+2023/2024,Male,ALL,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,803,2069,2263,475,433,36,328,0,1153,31
+2023/2024,Male,ALL,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,1153,2973,3280,696,660,36,472,0,1665,27
+2023/2024,Male,ALL,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,457,1178,1299,272,244,36,187,0,662,21
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,28,73,84,20,19,0,11,0,41,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,39,101,115,25,24,0,16,0,58,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,15,39,43,16,15,0,6,0,17,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,16,43,46,9,8,0,6,0,24,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,35,91,94,24,23,0,14,0,45,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,10,27,28,25,23,0,3,0,0,2
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,5,13,13,0,0,0,2,0,9,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,15,39,43,25,23,0,6,0,10,2
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,6,16,13,0,0,0,3,1,9,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,11,30,33,13,12,0,4,0,12,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,35,91,88,17,16,0,14,0,46,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,23,58,70,17,16,0,9,0,34,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,30,79,87,17,16,0,11,0,45,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,43,110,115,28,27,0,17,0,56,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,18,46,46,11,9,0,7,0,23,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,52,134,156,20,19,0,21,0,89,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,59,151,166,33,31,0,24,0,86,2
+2023/2024,Male,Disabled,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,21,55,51,8,7,0,8,1,28,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,29,76,84,12,11,0,12,0,47,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,54,142,150,24,21,0,21,0,82,2
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,19,47,51,20,17,0,8,0,19,2
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,9,24,22,9,8,0,3,0,8,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,23,62,63,29,28,0,9,0,20,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,15,38,42,9,8,0,6,0,21,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,16,41,45,20,17,0,6,0,15,2
+2023/2024,Male,Disabled,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,62,158,180,24,21,0,26,0,102,2
+2023/2024,Male,Disabled,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,39,99,106,19,17,0,16,0,57,1
+2023/2024,Male,Disabled,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,45,117,127,29,28,0,18,0,63,1
+2023/2024,Male,Disabled,NECO,University,lga,Soba,North West,Kaduna,Soba,,,65,166,184,39,33,0,27,0,94,4
+2023/2024,Male,Disabled,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,33,85,96,15,12,0,14,0,53,2
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,70,180,199,27,24,0,30,0,113,2
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,77,199,208,37,32,0,32,0,111,4
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,25,65,73,13,12,0,11,0,39,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,38,98,109,12,11,0,16,0,64,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,71,185,199,28,27,0,29,0,112,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,26,65,73,21,19,0,12,0,33,2
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,14,35,39,12,9,0,6,0,17,2
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,32,82,94,31,28,0,13,0,40,2
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,21,52,51,9,8,0,9,0,27,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,19,49,51,20,19,0,8,0,19,1
+2023/2024,Male,Disabled,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,74,189,199,31,28,0,31,0,110,2
+2023/2024,Male,Disabled,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,54,137,150,27,24,0,23,0,80,2
+2023/2024,Male,Disabled,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,54,139,159,33,28,0,22,0,81,4
+2023/2024,Male,Disabled,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,83,213,241,43,41,0,35,0,129,1
+2023/2024,Male,Disabled,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,46,117,135,20,19,0,19,0,75,1
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,410,1057,703,299,275,24,168,201,245,18
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,492,1270,844,359,331,29,201,242,294,21
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,193,498,331,141,129,11,79,95,115,9
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,271,699,465,197,181,16,110,133,162,12
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,574,1478,984,419,385,33,235,281,342,25
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,196,506,337,143,132,11,80,96,118,8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,80,207,138,59,53,5,33,39,48,4
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,238,615,409,175,160,14,97,117,142,11
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,106,274,183,77,72,6,43,52,64,4
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,158,408,271,116,107,9,64,78,94,7
+2024/2025,Female,ALL,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,535,1380,919,391,360,31,219,262,320,23
+2024/2025,Female,ALL,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,400,1031,687,292,269,23,164,196,239,17
+2024/2025,Female,ALL,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,462,1192,793,337,311,27,188,227,276,20
+2024/2025,Female,ALL,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,637,1642,1093,464,428,37,260,312,381,27
+2024/2025,Female,ALL,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,238,615,409,173,160,14,97,117,143,10
+2024/2025,Female,ALL,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,794,2047,1363,580,533,46,325,389,474,35
+2024/2025,Female,ALL,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,857,2211,1471,625,576,50,350,421,512,37
+2024/2025,Female,ALL,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,349,899,598,255,235,20,143,171,208,15
+2024/2025,Female,ALL,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,497,1282,853,363,333,29,203,244,297,22
+2024/2025,Female,ALL,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,1076,2772,1846,785,723,63,440,527,642,47
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,365,940,625,265,244,21,149,179,218,16
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,159,410,273,116,107,9,65,78,95,7
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,432,1113,741,315,289,25,177,212,258,19
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,212,547,364,155,143,12,87,104,127,9
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,285,735,489,208,191,17,116,140,170,13
+2024/2025,Female,ALL,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,1035,2670,1777,756,695,60,423,508,618,46
+2024/2025,Female,ALL,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,743,1918,1276,543,499,43,303,365,444,33
+2024/2025,Female,ALL,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,831,2143,1428,606,559,48,340,407,497,36
+2024/2025,Female,ALL,NECO,University,lga,Soba,North West,Kaduna,Soba,,,1171,3019,2010,854,785,68,478,574,699,52
+2024/2025,Female,ALL,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,451,1162,774,329,303,26,184,221,269,20
+2024/2025,Female,ALL,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,1088,2806,1867,794,731,63,445,534,649,48
+2024/2025,Female,ALL,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1238,3190,2124,902,831,72,506,607,739,54
+2024/2025,Female,ALL,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,481,1238,825,351,323,28,197,235,287,21
+2024/2025,Female,ALL,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,632,1631,1086,461,424,37,258,310,378,28
+2024/2025,Female,ALL,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,1400,3610,2403,1021,940,82,572,687,836,61
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,495,1274,849,361,332,29,203,242,295,22
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,216,557,370,157,145,13,88,106,129,9
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,622,1604,1068,453,417,36,254,305,372,27
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,283,729,486,207,189,16,116,138,169,13
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,447,1151,766,325,300,26,183,219,267,19
+2024/2025,Female,ALL,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,1351,3482,2319,985,907,79,552,662,807,59
+2024/2025,Female,ALL,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1012,2608,1737,738,679,59,413,496,604,45
+2024/2025,Female,ALL,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1210,3119,2077,882,812,71,495,593,723,53
+2024/2025,Female,ALL,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,1627,4193,2791,1188,1093,95,665,798,970,71
+2024/2025,Female,ALL,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,588,1516,1009,429,395,34,241,288,351,26
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,36,93,61,27,24,2,14,18,21,2
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,55,144,96,40,37,3,22,27,34,2
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,22,57,37,16,15,1,9,11,13,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,24,63,42,17,16,1,10,12,15,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,56,145,96,41,37,3,23,28,33,3
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,15,38,25,11,9,1,6,7,9,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,7,19,12,5,5,0,2,4,4,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,22,57,37,16,15,1,9,11,13,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,10,25,16,7,7,1,4,5,6,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,15,38,25,11,9,1,6,7,9,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,46,120,79,33,31,3,19,23,28,2
+2024/2025,Female,Disabled,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,32,82,54,23,21,2,13,16,19,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,44,114,76,32,29,3,18,21,27,2
+2024/2025,Female,Disabled,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,61,158,105,45,41,4,25,30,36,3
+2024/2025,Female,Disabled,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,24,63,42,17,16,1,10,12,15,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,68,175,117,49,45,4,28,33,41,3
+2024/2025,Female,Disabled,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,72,185,123,52,48,4,30,35,43,3
+2024/2025,Female,Disabled,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,27,71,46,20,19,2,11,14,16,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,42,109,72,31,28,2,17,21,25,2
+2024/2025,Female,Disabled,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,82,211,141,60,55,5,34,40,49,4
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,26,68,45,19,17,2,10,13,16,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,13,35,22,9,9,1,5,7,8,0
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,34,87,58,24,23,2,14,16,21,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,21,52,34,15,13,1,9,10,12,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,20,50,33,15,13,1,8,10,11,1
+2024/2025,Female,Disabled,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,77,197,132,56,52,4,32,37,46,3
+2024/2025,Female,Disabled,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,49,126,84,36,33,3,21,24,29,2
+2024/2025,Female,Disabled,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,61,156,103,44,40,4,25,30,36,3
+2024/2025,Female,Disabled,NECO,University,lga,Soba,North West,Kaduna,Soba,,,87,222,148,63,59,5,36,42,52,3
+2024/2025,Female,Disabled,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,44,112,75,32,29,3,18,21,26,2
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,97,251,166,71,65,6,39,48,58,4
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,104,268,178,76,69,6,43,51,62,5
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,34,87,58,24,23,2,14,16,21,1
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,50,131,87,37,35,3,20,25,30,2
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,105,271,181,77,71,6,43,51,63,5
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,33,85,57,24,23,2,13,16,20,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,16,39,27,11,11,1,7,7,10,0
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,46,120,79,33,31,3,19,23,28,2
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,24,63,42,17,16,1,10,12,15,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,29,74,49,21,20,2,12,14,17,1
+2024/2025,Female,Disabled,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,103,265,175,75,69,6,42,51,61,4
+2024/2025,Female,Disabled,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,68,173,115,49,45,4,28,33,40,3
+2024/2025,Female,Disabled,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,82,210,139,60,55,5,34,40,48,4
+2024/2025,Female,Disabled,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,117,303,201,85,79,7,48,58,70,5
+2024/2025,Female,Disabled,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,55,144,96,40,37,3,22,27,34,2
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,424,1093,727,309,285,25,174,208,253,18
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,523,1347,897,381,351,30,214,256,312,23
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,209,539,358,152,140,12,85,103,125,9
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,262,675,448,191,176,15,107,129,156,11
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,598,1544,1027,437,401,35,244,294,357,27
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,207,535,355,152,139,12,85,102,123,10
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,85,219,145,63,57,5,35,42,50,4
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,227,585,390,165,152,13,93,111,136,10
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,122,315,210,89,83,7,50,60,73,5
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,169,435,289,123,113,10,69,83,101,7
+2024/2025,Male,ALL,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,589,1519,1011,429,395,34,240,289,352,26
+2024/2025,Male,ALL,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,420,1083,721,307,281,24,171,206,251,19
+2024/2025,Male,ALL,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,481,1241,826,351,323,28,196,236,288,21
+2024/2025,Male,ALL,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,662,1706,1137,483,444,39,271,324,396,29
+2024/2025,Male,ALL,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,253,651,433,184,169,15,103,124,151,11
+2024/2025,Male,ALL,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,852,2197,1462,621,572,50,348,418,509,37
+2024/2025,Male,ALL,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,952,2454,1633,694,639,56,389,467,568,42
+2024/2025,Male,ALL,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,382,984,655,279,256,22,157,187,228,17
+2024/2025,Male,ALL,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,492,1268,844,359,331,29,201,241,294,21
+2024/2025,Male,ALL,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,1078,2779,1849,786,724,63,440,529,643,47
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,357,919,612,260,240,21,146,175,213,15
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,180,464,309,132,121,11,74,88,107,8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,421,1085,721,307,283,25,172,207,251,18
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,235,606,403,172,157,14,96,115,140,11
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,320,823,547,233,215,19,131,157,190,14
+2024/2025,Male,ALL,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,1103,2842,1891,804,740,64,451,541,658,48
+2024/2025,Male,ALL,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,748,1930,1285,547,503,44,305,367,447,33
+2024/2025,Male,ALL,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,852,2198,1464,622,572,50,348,418,509,38
+2024/2025,Male,ALL,NECO,University,lga,Soba,North West,Kaduna,Soba,,,1161,2993,1992,846,779,68,474,570,693,51
+2024/2025,Male,ALL,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,495,1274,849,361,332,29,203,242,295,22
+2024/2025,Male,ALL,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,1164,3000,1998,849,781,68,476,570,695,51
+2024/2025,Male,ALL,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1289,3324,2214,941,865,75,527,632,770,57
+2024/2025,Male,ALL,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,511,1318,877,373,343,30,209,251,305,23
+2024/2025,Male,ALL,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,621,1602,1066,453,417,36,253,305,371,27
+2024/2025,Male,ALL,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,1424,3671,2443,1038,956,83,582,699,850,62
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,508,1311,873,371,341,30,208,249,304,22
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,220,568,378,160,148,13,90,108,132,9
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,562,1449,964,411,377,33,230,276,335,25
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,296,763,508,216,199,17,121,145,177,13
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,400,1031,687,292,269,23,164,196,239,17
+2024/2025,Male,ALL,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,1455,3750,2497,1061,976,85,595,713,869,64
+2024/2025,Male,ALL,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,1075,2771,1845,784,721,63,440,527,642,47
+2024/2025,Male,ALL,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,1191,3071,2044,869,800,69,487,584,711,52
+2024/2025,Male,ALL,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,1614,4160,2770,1178,1082,94,660,791,963,72
+2024/2025,Male,ALL,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,639,1646,1096,467,429,37,261,313,381,28
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,41,106,70,29,28,2,16,20,25,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,54,140,93,40,36,3,22,27,32,3
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,21,54,36,16,15,1,9,10,12,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Soba,North West,Kaduna,Soba,,,24,63,42,17,16,1,10,12,15,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,51,132,88,37,35,3,21,25,31,2
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,14,36,24,11,9,1,6,7,8,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,7,19,12,5,5,0,2,4,4,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,21,55,36,16,15,1,8,11,12,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,11,27,18,8,7,1,5,5,6,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,14,36,24,11,9,1,6,7,8,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Jema'a,North West,Kaduna,Jema'a,,,50,129,85,36,33,3,20,25,30,2
+2024/2025,Male,Disabled,NABTEB,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,30,77,52,23,20,2,13,14,18,2
+2024/2025,Male,Disabled,NABTEB,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,42,109,72,31,28,2,17,21,25,2
+2024/2025,Male,Disabled,NABTEB,University,lga,Soba,North West,Kaduna,Soba,,,61,158,105,45,41,4,25,30,36,3
+2024/2025,Male,Disabled,NABTEB,University,lga,Zaria,North West,Kaduna,Zaria,,,23,60,40,17,16,1,9,11,14,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,76,196,130,56,51,4,31,37,45,4
+2024/2025,Male,Disabled,NECO,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,79,205,136,59,53,5,32,39,47,4
+2024/2025,Male,Disabled,NECO,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,30,77,52,23,20,2,13,14,18,2
+2024/2025,Male,Disabled,NECO,College of Education,lga,Soba,North West,Kaduna,Soba,,,39,99,66,28,27,2,16,19,23,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,84,218,145,61,57,5,34,41,51,3
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,24,63,42,17,16,1,10,12,15,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,13,33,21,9,8,1,5,7,7,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,34,87,58,24,23,2,14,16,21,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,23,60,40,17,16,1,9,11,14,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,21,52,34,15,13,1,9,10,12,1
+2024/2025,Male,Disabled,NECO,University,lga,Jema'a,North West,Kaduna,Jema'a,,,82,211,141,60,55,5,34,40,49,4
+2024/2025,Male,Disabled,NECO,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,54,140,93,40,36,3,22,27,32,3
+2024/2025,Male,Disabled,NECO,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,61,156,103,44,40,4,25,30,36,3
+2024/2025,Male,Disabled,NECO,University,lga,Soba,North West,Kaduna,Soba,,,93,240,159,68,63,5,38,46,55,4
+2024/2025,Male,Disabled,NECO,University,lga,Zaria,North West,Kaduna,Zaria,,,47,121,81,35,32,3,19,23,28,2
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Jema'a,North West,Kaduna,Jema'a,,,99,255,169,72,67,6,41,49,59,4
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Kaduna North,North West,Kaduna,Kaduna North,,,111,284,189,80,75,6,46,54,66,4
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Kaduna South,North West,Kaduna,Kaduna South,,,36,93,61,27,24,2,14,18,21,2
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Soba,North West,Kaduna,Soba,,,48,123,82,35,32,3,20,23,29,2
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Zaria,North West,Kaduna,Zaria,,,105,271,181,77,71,6,43,51,63,5
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Jema'a,North West,Kaduna,Jema'a,,,37,95,63,27,24,2,15,18,22,2
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Kaduna North,North West,Kaduna,Kaduna North,,,21,55,36,16,15,1,8,11,12,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Kaduna South,North West,Kaduna,Kaduna South,,,46,118,78,33,31,3,18,23,27,2
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Soba,North West,Kaduna,Soba,,,27,69,46,20,19,2,11,13,16,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Zaria,North West,Kaduna,Zaria,,,27,69,46,20,17,2,11,13,16,2
+2024/2025,Male,Disabled,WAEC,University,lga,Jema'a,North West,Kaduna,Jema'a,,,109,281,187,80,73,6,45,53,65,5
+2024/2025,Male,Disabled,WAEC,University,lga,Kaduna North,North West,Kaduna,Kaduna North,,,79,203,135,57,53,5,32,39,47,3
+2024/2025,Male,Disabled,WAEC,University,lga,Kaduna South,North West,Kaduna,Kaduna South,,,81,208,138,59,55,5,33,40,48,3
+2024/2025,Male,Disabled,WAEC,University,lga,Soba,North West,Kaduna,Soba,,,115,295,196,84,77,7,47,56,68,5
+2024/2025,Male,Disabled,WAEC,University,lga,Zaria,North West,Kaduna,Zaria,,,62,159,106,45,41,4,25,30,37,3

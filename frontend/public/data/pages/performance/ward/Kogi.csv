@@ -1,541 +1,541 @@
-session,gender,disability_scope,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
-2022/2023,Female,all,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,45,34,49,18,123,119,75.5556,36.7347,251.0204,96.748
-2022/2023,Female,all,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,58,44,67,25,191,163,75.8621,37.3134,285.0746,85.3403
-2022/2023,Female,all,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,63,48,77,28,198,179,76.1905,36.3636,257.1429,90.404
-2022/2023,Female,all,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,36,27,39,15,114,113,75.0,38.4615,292.3077,99.1228
-2022/2023,Female,all,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,46,35,54,20,132,119,76.087,37.037,244.4444,90.1515
-2022/2023,Female,all,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,46,35,52,19,134,131,76.087,36.5385,257.6923,97.7612
-2022/2023,Female,all,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,48,37,56,20,153,131,77.0833,35.7143,273.2143,85.6209
-2022/2023,Female,all,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,63,48,74,27,184,161,76.1905,36.4865,248.6486,87.5
-2022/2023,Female,all,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,51,39,58,21,145,126,76.4706,36.2069,250.0,86.8966
-2022/2023,Female,all,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,52,40,60,22,153,142,76.9231,36.6667,255.0,92.8105
-2022/2023,Female,all,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,57,43,66,24,182,163,75.4386,36.3636,275.7576,89.5604
-2022/2023,Female,all,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,69,53,77,28,186,159,76.8116,36.3636,241.5584,85.4839
-2022/2023,Female,all,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,43,33,50,18,127,121,76.7442,36.0,254.0,95.2756
-2022/2023,Female,all,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,47,36,55,20,153,152,76.5957,36.3636,278.1818,99.3464
-2022/2023,Female,all,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,41,31,47,17,132,124,75.6098,36.1702,280.8511,93.9394
-2022/2023,Female,all,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,89,61,101,37,250,228,68.5393,36.6337,247.5248,91.2
-2022/2023,Female,all,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,109,75,129,47,380,362,68.8073,36.4341,294.5736,95.2632
-2022/2023,Female,all,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,122,84,143,52,391,360,68.8525,36.3636,273.4266,92.0716
-2022/2023,Female,all,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,60,41,69,25,180,163,68.3333,36.2319,260.8696,90.5556
-2022/2023,Female,all,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,87,60,101,37,294,276,68.9655,36.6337,291.0891,93.8776
-2022/2023,Female,all,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,81,55,94,34,252,236,67.9012,36.1702,268.0851,93.6508
-2022/2023,Female,all,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,82,56,93,34,252,236,68.2927,36.5591,270.9677,93.6508
-2022/2023,Female,all,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,106,73,120,44,319,296,68.8679,36.6667,265.8333,92.79
-2022/2023,Female,all,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,95,65,108,39,285,267,68.4211,36.1111,263.8889,93.6842
-2022/2023,Female,all,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,94,65,111,40,294,274,69.1489,36.036,264.8649,93.1973
-2022/2023,Female,all,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,106,73,122,44,310,296,68.8679,36.0656,254.0984,95.4839
-2022/2023,Female,all,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,131,90,146,53,364,343,68.7023,36.3014,249.3151,94.2308
-2022/2023,Female,all,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,88,60,100,36,268,248,68.1818,36.0,268.0,92.5373
-2022/2023,Female,all,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,82,56,96,35,261,236,68.2927,36.4583,271.875,90.4215
-2022/2023,Female,all,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,76,52,87,32,243,228,68.4211,36.7816,279.3103,93.8272
-2022/2023,Female,all,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,119,88,132,47,316,278,73.9496,35.6061,239.3939,87.9747
-2022/2023,Female,all,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,134,99,161,58,453,418,73.8806,36.0248,281.3665,92.2737
-2022/2023,Female,all,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,149,110,167,60,487,446,73.8255,35.9281,291.6168,91.5811
-2022/2023,Female,all,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,79,59,90,32,236,223,74.6835,35.5556,262.2222,94.4915
-2022/2023,Female,all,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,122,90,142,51,405,376,73.7705,35.9155,285.2113,92.8395
-2022/2023,Female,all,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,105,78,122,44,305,285,74.2857,36.0656,250.0,93.4426
-2022/2023,Female,all,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,124,92,145,52,398,365,74.1935,35.8621,274.4828,91.7085
-2022/2023,Female,all,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,145,107,167,60,469,415,73.7931,35.9281,280.8383,88.4861
-2022/2023,Female,all,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,110,81,124,45,312,290,73.6364,36.2903,251.6129,92.9487
-2022/2023,Female,all,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,125,92,146,53,384,352,73.6,36.3014,263.0137,91.6667
-2022/2023,Female,all,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,129,95,148,53,412,378,73.6434,35.8108,278.3784,91.7476
-2022/2023,Female,all,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,170,126,193,70,537,480,74.1176,36.2694,278.2383,89.3855
-2022/2023,Female,all,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,126,93,144,52,384,340,73.8095,36.1111,266.6667,88.5417
-2022/2023,Female,all,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,107,79,126,45,352,323,73.8318,35.7143,279.3651,91.7614
-2022/2023,Female,all,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,109,81,124,45,346,323,74.3119,36.2903,279.0323,93.3526
-2022/2023,Female,disabled,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,5,4,5,2,18,17,80.0,40.0,360.0,94.4444
-2022/2023,Female,disabled,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,5,4,5,2,25,24,80.0,40.0,500.0,96.0
-2022/2023,Female,disabled,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,6,5,7,3,25,24,83.3333,42.8571,357.1429,96.0
-2022/2023,Female,disabled,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,4,3,5,2,18,17,75.0,40.0,360.0,94.4444
-2022/2023,Female,disabled,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,4,3,5,2,18,17,75.0,40.0,360.0,94.4444
-2022/2023,Female,disabled,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,4,3,5,2,18,17,75.0,40.0,360.0,94.4444
-2022/2023,Female,disabled,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,5,4,6,2,18,17,80.0,33.3333,300.0,94.4444
-2022/2023,Female,disabled,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,5,4,6,2,12,11,80.0,33.3333,200.0,91.6667
-2022/2023,Female,disabled,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,4,3,5,2,18,16,75.0,40.0,360.0,88.8889
-2022/2023,Female,disabled,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,5,4,5,2,25,24,80.0,40.0,500.0,96.0
-2022/2023,Female,disabled,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,5,4,6,2,25,24,80.0,33.3333,416.6667,96.0
-2022/2023,Female,disabled,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,6,5,6,2,15,13,83.3333,33.3333,250.0,86.6667
-2022/2023,Female,disabled,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,5,4,6,2,14,13,80.0,33.3333,233.3333,92.8571
-2022/2023,Female,disabled,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,5,4,5,2,26,25,80.0,40.0,520.0,96.1538
-2022/2023,Female,disabled,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,4,3,5,2,25,24,75.0,40.0,500.0,96.0
-2022/2023,Female,disabled,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,7,5,8,3,18,16,71.4286,37.5,225.0,88.8889
-2022/2023,Female,disabled,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,9,6,10,4,25,21,66.6667,40.0,250.0,84.0
-2022/2023,Female,disabled,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,10,7,12,4,25,21,70.0,33.3333,208.3333,84.0
-2022/2023,Female,disabled,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,5,3,7,3,25,21,60.0,42.8571,357.1429,84.0
-2022/2023,Female,disabled,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,6,4,7,3,25,21,66.6667,42.8571,357.1429,84.0
-2022/2023,Female,disabled,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,6,4,7,3,25,21,66.6667,42.8571,357.1429,84.0
-2022/2023,Female,disabled,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,7,5,8,3,25,21,71.4286,37.5,312.5,84.0
-2022/2023,Female,disabled,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,7,5,8,3,25,21,71.4286,37.5,312.5,84.0
-2022/2023,Female,disabled,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,6,4,7,3,25,21,66.6667,42.8571,357.1429,84.0
-2022/2023,Female,disabled,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,7,5,9,3,25,21,71.4286,33.3333,277.7778,84.0
-2022/2023,Female,disabled,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,8,5,9,3,25,21,62.5,33.3333,277.7778,84.0
-2022/2023,Female,disabled,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,10,7,12,4,25,21,70.0,33.3333,208.3333,84.0
-2022/2023,Female,disabled,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,8,6,10,4,25,21,75.0,40.0,250.0,84.0
-2022/2023,Female,disabled,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,6,4,8,3,25,21,66.6667,37.5,312.5,84.0
-2022/2023,Female,disabled,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,7,5,8,3,25,21,71.4286,37.5,312.5,84.0
-2022/2023,Female,disabled,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,9,7,10,3,21,18,77.7778,30.0,210.0,85.7143
-2022/2023,Female,disabled,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,10,7,12,4,26,22,70.0,33.3333,216.6667,84.6154
-2022/2023,Female,disabled,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,12,9,15,6,38,34,75.0,40.0,253.3333,89.4737
-2022/2023,Female,disabled,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,7,5,7,2,20,19,71.4286,28.5714,285.7143,95.0
-2022/2023,Female,disabled,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,8,6,9,3,20,19,75.0,33.3333,222.2222,95.0
-2022/2023,Female,disabled,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,8,6,9,3,20,19,75.0,33.3333,222.2222,95.0
-2022/2023,Female,disabled,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,10,7,11,4,26,25,70.0,36.3636,236.3636,96.1538
-2022/2023,Female,disabled,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,10,7,11,4,26,25,70.0,36.3636,236.3636,96.1538
-2022/2023,Female,disabled,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,8,6,9,3,15,14,75.0,33.3333,166.6667,93.3333
-2022/2023,Female,disabled,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,9,7,11,4,26,22,77.7778,36.3636,236.3636,84.6154
-2022/2023,Female,disabled,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,9,7,11,4,20,18,77.7778,36.3636,181.8182,90.0
-2022/2023,Female,disabled,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,14,10,15,5,32,30,71.4286,33.3333,213.3333,93.75
-2022/2023,Female,disabled,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,10,7,12,4,26,25,70.0,33.3333,216.6667,96.1538
-2022/2023,Female,disabled,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,8,6,9,3,20,19,75.0,33.3333,222.2222,95.0
-2022/2023,Female,disabled,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,9,7,10,3,26,24,77.7778,30.0,260.0,92.3077
-2022/2023,Male,all,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,53,41,59,22,128,122,77.3585,37.2881,216.9492,95.3125
-2022/2023,Male,all,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,63,48,75,27,228,192,76.1905,36.0,304.0,84.2105
-2022/2023,Male,all,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,67,51,81,30,218,179,76.1194,37.037,269.1358,82.1101
-2022/2023,Male,all,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,37,28,42,16,107,106,75.6757,38.0952,254.7619,99.0654
-2022/2023,Male,all,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,47,36,53,19,128,124,76.5957,35.8491,241.5094,96.875
-2022/2023,Male,all,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,46,35,52,19,139,133,76.087,36.5385,267.3077,95.6835
-2022/2023,Male,all,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,53,41,62,22,184,161,77.3585,35.4839,296.7742,87.5
-2022/2023,Male,all,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,62,48,71,26,164,148,77.4194,36.6197,230.9859,90.2439
-2022/2023,Male,all,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,51,39,59,22,162,150,76.4706,37.2881,274.5763,92.5926
-2022/2023,Male,all,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,53,41,59,22,150,135,77.3585,37.2881,254.2373,90.0
-2022/2023,Male,all,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,58,45,68,25,209,181,77.5862,36.7647,307.3529,86.6029
-2022/2023,Male,all,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,66,51,76,28,194,183,77.2727,36.8421,255.2632,94.3299
-2022/2023,Male,all,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,45,35,51,19,141,135,77.7778,37.2549,276.4706,95.7447
-2022/2023,Male,all,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,47,36,54,20,161,146,76.5957,37.037,298.1481,90.6832
-2022/2023,Male,all,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,45,35,52,19,162,157,77.7778,36.5385,311.5385,96.9136
-2022/2023,Male,all,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,97,66,107,39,253,228,68.0412,36.4486,236.4486,90.1186
-2022/2023,Male,all,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,119,82,139,50,423,405,68.9076,35.9712,304.3165,95.7447
-2022/2023,Male,all,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,125,86,147,53,396,365,68.8,36.0544,269.3878,92.1717
-2022/2023,Male,all,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,61,42,69,25,189,168,68.8525,36.2319,273.913,88.8889
-2022/2023,Male,all,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,95,65,110,40,310,290,68.4211,36.3636,281.8182,93.5484
-2022/2023,Male,all,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,84,58,99,36,291,272,69.0476,36.3636,293.9394,93.4708
-2022/2023,Male,all,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,87,60,99,36,255,239,68.9655,36.3636,257.5758,93.7255
-2022/2023,Male,all,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,107,73,122,44,310,281,68.2243,36.0656,254.0984,90.6452
-2022/2023,Male,all,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,100,69,111,40,310,281,69.0,36.036,279.2793,90.6452
-2022/2023,Male,all,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,96,66,110,40,303,285,68.75,36.3636,275.4545,94.0594
-2022/2023,Male,all,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,110,75,130,47,366,345,68.1818,36.1538,281.5385,94.2623
-2022/2023,Male,all,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,125,85,140,50,409,387,68.0,35.7143,292.1429,94.621
-2022/2023,Male,all,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,86,59,97,35,243,219,68.6047,36.0825,250.5155,90.1235
-2022/2023,Male,all,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,83,57,96,35,302,294,68.6747,36.4583,314.5833,97.351
-2022/2023,Male,all,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,86,59,104,38,302,283,68.6047,36.5385,290.3846,93.7086
-2022/2023,Male,all,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,125,92,142,51,380,349,73.6,35.9155,267.6056,91.8421
-2022/2023,Male,all,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,144,106,167,60,509,451,73.6111,35.9281,304.7904,88.6051
-2022/2023,Male,all,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,162,120,190,68,542,500,74.0741,35.7895,285.2632,92.2509
-2022/2023,Male,all,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,81,60,93,33,275,247,74.0741,35.4839,295.6989,89.8182
-2022/2023,Male,all,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,128,94,147,53,421,380,73.4375,36.0544,286.3946,90.2613
-2022/2023,Male,all,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,108,80,128,46,353,323,74.0741,35.9375,275.7812,91.5014
-2022/2023,Male,all,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,128,95,146,53,419,387,74.2188,36.3014,286.9863,92.3628
-2022/2023,Male,all,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,138,102,159,57,430,389,73.913,35.8491,270.4403,90.4651
-2022/2023,Male,all,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,120,89,135,48,369,340,74.1667,35.5556,273.3333,92.1409
-2022/2023,Male,all,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,129,95,146,53,401,369,73.6434,36.3014,274.6575,92.02
-2022/2023,Male,all,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,146,108,169,61,489,444,73.9726,36.0947,289.3491,90.7975
-2022/2023,Male,all,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,166,123,185,66,503,460,74.0964,35.6757,271.8919,91.4513
-2022/2023,Male,all,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,124,91,143,51,378,351,73.3871,35.6643,264.3357,92.8571
-2022/2023,Male,all,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,108,80,126,45,362,332,74.0741,35.7143,287.3016,91.7127
-2022/2023,Male,all,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,113,83,133,48,387,360,73.4513,36.0902,290.9774,93.0233
-2022/2023,Male,disabled,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,5,4,5,2,15,13,80.0,40.0,300.0,86.6667
-2022/2023,Male,disabled,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,5,4,6,2,30,26,80.0,33.3333,500.0,86.6667
-2022/2023,Male,disabled,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,6,5,7,3,22,19,83.3333,42.8571,314.2857,86.3636
-2022/2023,Male,disabled,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,4,3,4,2,7,6,75.0,50.0,175.0,85.7143
-2022/2023,Male,disabled,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,4,3,5,2,15,13,75.0,40.0,300.0,86.6667
-2022/2023,Male,disabled,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,4,3,5,2,22,19,75.0,40.0,440.0,86.3636
-2022/2023,Male,disabled,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,5,4,6,2,22,19,80.0,33.3333,366.6667,86.3636
-2022/2023,Male,disabled,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,5,4,5,2,7,6,80.0,40.0,140.0,85.7143
-2022/2023,Male,disabled,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,4,3,4,2,22,19,75.0,50.0,550.0,86.3636
-2022/2023,Male,disabled,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,5,4,5,2,15,13,80.0,40.0,300.0,86.6667
-2022/2023,Male,disabled,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,5,4,5,2,30,26,80.0,40.0,600.0,86.6667
-2022/2023,Male,disabled,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,6,5,6,2,15,13,83.3333,33.3333,250.0,86.6667
-2022/2023,Male,disabled,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,5,4,5,2,15,13,80.0,40.0,300.0,86.6667
-2022/2023,Male,disabled,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,4,3,5,2,22,19,75.0,40.0,440.0,86.3636
-2022/2023,Male,disabled,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,5,4,5,2,30,26,80.0,40.0,600.0,86.6667
-2022/2023,Male,disabled,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,7,5,8,3,18,17,71.4286,37.5,225.0,94.4444
-2022/2023,Male,disabled,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,8,5,10,4,25,24,62.5,40.0,250.0,96.0
-2022/2023,Male,disabled,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,11,7,14,5,32,31,63.6364,35.7143,228.5714,96.875
-2022/2023,Male,disabled,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,6,4,6,2,12,11,66.6667,33.3333,200.0,91.6667
-2022/2023,Male,disabled,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,7,5,8,3,25,24,71.4286,37.5,312.5,96.0
-2022/2023,Male,disabled,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,5,3,7,3,25,24,60.0,42.8571,357.1429,96.0
-2022/2023,Male,disabled,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,8,5,8,3,18,17,62.5,37.5,225.0,94.4444
-2022/2023,Male,disabled,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,7,5,8,3,12,11,71.4286,37.5,150.0,91.6667
-2022/2023,Male,disabled,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,7,5,7,3,25,24,71.4286,42.8571,357.1429,96.0
-2022/2023,Male,disabled,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,8,5,9,3,25,24,62.5,33.3333,277.7778,96.0
-2022/2023,Male,disabled,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,8,5,10,4,25,24,62.5,40.0,250.0,96.0
-2022/2023,Male,disabled,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,10,7,11,4,34,31,70.0,36.3636,309.0909,91.1765
-2022/2023,Male,disabled,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,9,6,10,4,25,24,66.6667,40.0,250.0,96.0
-2022/2023,Male,disabled,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,6,4,7,3,25,24,66.6667,42.8571,357.1429,96.0
-2022/2023,Male,disabled,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,8,5,9,3,25,24,62.5,33.3333,277.7778,96.0
-2022/2023,Male,disabled,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,10,7,12,4,31,27,70.0,33.3333,258.3333,87.0968
-2022/2023,Male,disabled,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,11,8,13,5,31,27,72.7273,38.4615,238.4615,87.0968
-2022/2023,Male,disabled,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,13,10,16,6,31,27,76.9231,37.5,193.75,87.0968
-2022/2023,Male,disabled,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,7,5,8,3,18,16,71.4286,37.5,225.0,88.8889
-2022/2023,Male,disabled,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,8,6,10,3,25,21,75.0,30.0,250.0,84.0
-2022/2023,Male,disabled,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,8,6,10,3,25,21,75.0,30.0,250.0,84.0
-2022/2023,Male,disabled,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,11,8,12,4,31,27,72.7273,33.3333,258.3333,87.0968
-2022/2023,Male,disabled,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,9,7,10,4,25,21,77.7778,40.0,250.0,84.0
-2022/2023,Male,disabled,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,8,6,9,3,25,21,75.0,33.3333,277.7778,84.0
-2022/2023,Male,disabled,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,10,7,11,4,25,21,70.0,36.3636,227.2727,84.0
-2022/2023,Male,disabled,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,11,8,13,5,25,21,72.7273,38.4615,192.3077,84.0
-2022/2023,Male,disabled,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,13,10,15,5,34,32,76.9231,33.3333,226.6667,94.1176
-2022/2023,Male,disabled,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,11,8,13,5,25,21,72.7273,38.4615,192.3077,84.0
-2022/2023,Male,disabled,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,8,6,9,3,25,21,75.0,33.3333,277.7778,84.0
-2022/2023,Male,disabled,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,10,7,12,4,31,27,70.0,33.3333,258.3333,87.0968
-2023/2024,Female,all,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,47,38,53,21,99,98,80.8511,39.6226,186.7925,98.9899
-2023/2024,Female,all,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,63,51,71,28,164,147,80.9524,39.4366,230.9859,89.6341
-2023/2024,Female,all,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,64,52,74,29,149,130,81.25,39.1892,201.3514,87.2483
-2023/2024,Female,all,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,36,29,42,17,95,94,80.5556,40.4762,226.1905,98.9474
-2023/2024,Female,all,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,49,40,57,23,134,113,81.6327,40.3509,235.0877,84.3284
-2023/2024,Female,all,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,47,38,55,22,126,121,80.8511,40.0,229.0909,96.0317
-2023/2024,Female,all,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,51,41,59,23,141,125,80.3922,38.9831,238.9831,88.6525
-2023/2024,Female,all,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,63,51,73,29,141,134,80.9524,39.726,193.1507,95.0355
-2023/2024,Female,all,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,54,44,59,24,117,105,81.4815,40.678,198.3051,89.7436
-2023/2024,Female,all,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,55,45,64,25,149,130,81.8182,39.0625,232.8125,87.2483
-2023/2024,Female,all,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,62,50,73,29,164,148,80.6452,39.726,224.6575,90.2439
-2023/2024,Female,all,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,77,63,90,35,164,139,81.8182,38.8889,182.2222,84.7561
-2023/2024,Female,all,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,51,41,56,22,102,90,80.3922,39.2857,182.1429,88.2353
-2023/2024,Female,all,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,48,39,57,22,126,125,81.25,38.5965,221.0526,99.2063
-2023/2024,Female,all,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,47,38,54,21,126,119,80.8511,38.8889,233.3333,94.4444
-2023/2024,Female,all,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,94,70,101,40,197,177,74.4681,39.604,195.0495,89.8477
-2023/2024,Female,all,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,111,82,131,52,290,272,73.8739,39.6947,221.374,93.7931
-2023/2024,Female,all,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,122,91,140,55,305,286,74.5902,39.2857,217.8571,93.7705
-2023/2024,Female,all,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,65,48,74,30,162,145,73.8462,40.5405,218.9189,89.5062
-2023/2024,Female,all,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,92,68,107,42,249,231,73.913,39.2523,232.7103,92.7711
-2023/2024,Female,all,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,81,60,95,38,221,200,74.0741,40.0,232.6316,90.4977
-2023/2024,Female,all,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,96,71,110,43,248,241,73.9583,39.0909,225.4545,97.1774
-2023/2024,Female,all,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,121,90,137,54,269,249,74.3802,39.4161,196.3504,92.5651
-2023/2024,Female,all,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,95,71,105,42,227,208,74.7368,40.0,216.1905,91.63
-2023/2024,Female,all,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,99,74,115,46,246,232,74.7475,40.0,213.913,94.3089
-2023/2024,Female,all,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,108,80,123,49,278,255,74.0741,39.8374,226.0163,91.7266
-2023/2024,Female,all,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,135,100,158,63,355,335,74.0741,39.8734,224.6835,94.3662
-2023/2024,Female,all,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,91,68,104,42,221,208,74.7253,40.3846,212.5,94.1176
-2023/2024,Female,all,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,90,67,105,42,242,232,74.4444,40.0,230.4762,95.8678
-2023/2024,Female,all,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,83,62,100,40,206,191,74.6988,40.0,206.0,92.7184
-2023/2024,Female,all,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,117,93,130,52,279,255,79.4872,40.0,214.6154,91.3978
-2023/2024,Female,all,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,158,126,186,74,436,394,79.7468,39.7849,234.4086,90.367
-2023/2024,Female,all,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,178,142,208,83,488,443,79.7753,39.9038,234.6154,90.7787
-2023/2024,Female,all,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,83,66,93,37,200,188,79.5181,39.7849,215.0538,94.0
-2023/2024,Female,all,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,125,99,143,57,325,292,79.2,39.8601,227.2727,89.8462
-2023/2024,Female,all,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,112,89,126,51,296,280,79.4643,40.4762,234.9206,94.5946
-2023/2024,Female,all,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,121,96,139,55,317,295,79.3388,39.5683,228.0576,93.0599
-2023/2024,Female,all,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,157,125,187,75,385,351,79.6178,40.107,205.8824,91.1688
-2023/2024,Female,all,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,128,102,142,57,291,264,79.6875,40.1408,204.9296,90.7216
-2023/2024,Female,all,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,129,103,149,59,325,290,79.845,39.5973,218.1208,89.2308
-2023/2024,Female,all,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,141,112,161,64,349,321,79.4326,39.7516,216.7702,91.9771
-2023/2024,Female,all,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,179,142,202,80,436,391,79.3296,39.604,215.8416,89.6789
-2023/2024,Female,all,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,121,96,140,56,285,260,79.3388,40.0,203.5714,91.2281
-2023/2024,Female,all,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,122,97,143,57,329,301,79.5082,39.8601,230.0699,91.4894
-2023/2024,Female,all,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,119,95,139,55,319,295,79.8319,39.5683,229.4964,92.4765
-2023/2024,Female,disabled,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,5,4,5,2,10,9,80.0,40.0,200.0,90.0
-2023/2024,Female,disabled,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,5,4,5,2,21,18,80.0,40.0,420.0,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,5,4,5,2,16,14,80.0,40.0,320.0,87.5
-2023/2024,Female,disabled,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,5,4,5,2,21,18,80.0,40.0,420.0,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,5,4,5,2,21,18,80.0,40.0,420.0,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,5,4,5,2,21,18,80.0,40.0,420.0,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,5,4,6,2,21,20,80.0,33.3333,350.0,95.2381
-2023/2024,Female,disabled,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,5,4,6,2,16,15,80.0,33.3333,266.6667,93.75
-2023/2024,Female,disabled,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,5,4,5,2,16,14,80.0,40.0,320.0,87.5
-2023/2024,Female,disabled,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,5,4,5,2,21,18,80.0,40.0,420.0,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,5,4,6,2,21,18,80.0,33.3333,350.0,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,6,5,8,3,16,14,83.3333,37.5,200.0,87.5
-2023/2024,Female,disabled,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,5,4,5,2,10,9,80.0,40.0,200.0,90.0
-2023/2024,Female,disabled,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,5,4,5,2,21,20,80.0,40.0,420.0,95.2381
-2023/2024,Female,disabled,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,5,4,6,2,21,20,80.0,33.3333,350.0,95.2381
-2023/2024,Female,disabled,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,7,5,8,3,20,18,71.4286,37.5,250.0,90.0
-2023/2024,Female,disabled,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,8,6,10,4,21,18,75.0,40.0,210.0,85.7143
-2023/2024,Female,disabled,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,10,7,12,5,25,23,70.0,41.6667,208.3333,92.0
-2023/2024,Female,disabled,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,6,4,7,3,21,18,66.6667,42.8571,300.0,85.7143
-2023/2024,Female,disabled,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,6,4,7,3,21,18,66.6667,42.8571,300.0,85.7143
-2023/2024,Female,disabled,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,6,4,7,3,21,18,66.6667,42.8571,300.0,85.7143
-2023/2024,Female,disabled,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,8,6,9,3,21,18,75.0,33.3333,233.3333,85.7143
-2023/2024,Female,disabled,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,8,6,9,3,16,14,75.0,33.3333,177.7778,87.5
-2023/2024,Female,disabled,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,6,4,7,3,21,18,66.6667,42.8571,300.0,85.7143
-2023/2024,Female,disabled,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,8,6,10,4,21,18,75.0,40.0,210.0,85.7143
-2023/2024,Female,disabled,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,8,6,10,4,21,18,75.0,40.0,210.0,85.7143
-2023/2024,Female,disabled,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,11,8,12,5,25,23,72.7273,41.6667,208.3333,92.0
-2023/2024,Female,disabled,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,8,6,9,4,21,18,75.0,44.4444,233.3333,85.7143
-2023/2024,Female,disabled,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,6,4,7,3,21,18,66.6667,42.8571,300.0,85.7143
-2023/2024,Female,disabled,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,7,5,9,3,21,18,71.4286,33.3333,233.3333,85.7143
-2023/2024,Female,disabled,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,9,7,10,4,22,19,77.7778,40.0,220.0,86.3636
-2023/2024,Female,disabled,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,12,10,15,6,27,24,83.3333,40.0,180.0,88.8889
-2023/2024,Female,disabled,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,14,11,17,7,32,28,78.5714,41.1765,188.2353,87.5
-2023/2024,Female,disabled,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,7,6,8,3,17,16,85.7143,37.5,212.5,94.1176
-2023/2024,Female,disabled,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,9,7,9,4,17,16,77.7778,44.4444,188.8889,94.1176
-2023/2024,Female,disabled,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,8,6,8,3,17,16,75.0,37.5,212.5,94.1176
-2023/2024,Female,disabled,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,10,8,12,5,22,21,80.0,41.6667,183.3333,95.4545
-2023/2024,Female,disabled,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,10,8,13,5,22,21,80.0,38.4615,169.2308,95.4545
-2023/2024,Female,disabled,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,9,7,10,4,17,16,77.7778,40.0,170.0,94.1176
-2023/2024,Female,disabled,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,10,8,12,5,17,15,80.0,41.6667,141.6667,88.2353
-2023/2024,Female,disabled,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,10,8,11,4,17,16,80.0,36.3636,154.5455,94.1176
-2023/2024,Female,disabled,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,14,11,16,6,27,25,78.5714,37.5,168.75,92.5926
-2023/2024,Female,disabled,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,11,9,12,5,17,16,81.8182,41.6667,141.6667,94.1176
-2023/2024,Female,disabled,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,9,7,10,4,17,16,77.7778,40.0,170.0,94.1176
-2023/2024,Female,disabled,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,11,9,13,5,22,21,81.8182,38.4615,169.2308,95.4545
-2023/2024,Male,all,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,52,42,58,23,128,127,80.7692,39.6552,220.6897,99.2188
-2023/2024,Male,all,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,67,55,81,32,204,174,82.0896,39.5062,251.8519,85.2941
-2023/2024,Male,all,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,63,51,73,29,156,136,80.9524,39.726,213.6986,87.1795
-2023/2024,Male,all,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,38,31,44,17,90,89,81.5789,38.6364,204.5455,98.8889
-2023/2024,Male,all,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,51,41,60,24,137,127,80.3922,40.0,228.3333,92.7007
-2023/2024,Male,all,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,49,40,59,23,138,125,81.6327,38.9831,233.8983,90.5797
-2023/2024,Male,all,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,57,46,64,25,149,128,80.7018,39.0625,232.8125,85.906
-2023/2024,Male,all,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,63,51,72,28,138,130,80.9524,38.8889,191.6667,94.2029
-2023/2024,Male,all,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,57,46,65,26,119,107,80.7018,40.0,183.0769,89.916
-2023/2024,Male,all,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,55,45,63,25,147,134,81.8182,39.6825,233.3333,91.1565
-2023/2024,Male,all,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,64,52,75,30,185,165,81.25,40.0,246.6667,89.1892
-2023/2024,Male,all,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,74,60,84,33,185,156,81.0811,39.2857,220.2381,84.3243
-2023/2024,Male,all,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,51,42,57,22,129,116,82.3529,38.5965,226.3158,89.9225
-2023/2024,Male,all,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,49,40,57,22,138,137,81.6327,38.5965,242.1053,99.2754
-2023/2024,Male,all,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,54,44,61,24,129,121,81.4815,39.3443,211.4754,93.7984
-2023/2024,Male,all,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,104,77,115,45,213,191,74.0385,39.1304,185.2174,89.6714
-2023/2024,Male,all,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,117,87,141,56,325,300,74.359,39.7163,230.4965,92.3077
-2023/2024,Male,all,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,122,90,143,57,332,315,73.7705,39.8601,232.1678,94.8795
-2023/2024,Male,all,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,68,50,78,31,179,168,73.5294,39.7436,229.4872,93.8547
-2023/2024,Male,all,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,98,72,113,45,267,246,73.4694,39.823,236.2832,92.1348
-2023/2024,Male,all,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,84,62,97,38,237,228,73.8095,39.1753,244.3299,96.2025
-2023/2024,Male,all,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,104,77,119,48,278,264,74.0385,40.3361,233.6134,94.964
-2023/2024,Male,all,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,120,89,136,54,300,281,74.1667,39.7059,220.5882,93.6667
-2023/2024,Male,all,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,99,73,111,44,252,226,73.7374,39.6396,227.027,89.6825
-2023/2024,Male,all,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,105,78,122,48,267,246,74.2857,39.3443,218.8525,92.1348
-2023/2024,Male,all,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,115,85,133,53,284,255,73.913,39.8496,213.5338,89.7887
-2023/2024,Male,all,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,129,96,144,58,349,321,74.4186,40.2778,242.3611,91.9771
-2023/2024,Male,all,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,92,68,105,42,236,220,73.913,40.0,224.7619,93.2203
-2023/2024,Male,all,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,90,67,108,43,261,254,74.4444,39.8148,241.6667,97.318
-2023/2024,Male,all,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,90,67,103,41,261,254,74.4444,39.8058,253.3981,97.318
-2023/2024,Male,all,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,130,104,143,57,306,284,80.0,39.8601,213.986,92.8105
-2023/2024,Male,all,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,170,135,200,80,502,457,79.4118,40.0,251.0,91.0359
-2023/2024,Male,all,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,170,135,201,80,473,432,79.4118,39.801,235.3234,91.3319
-2023/2024,Male,all,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,87,69,100,40,245,222,79.3103,40.0,245.0,90.6122
-2023/2024,Male,all,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,130,103,148,59,346,318,79.2308,39.8649,233.7838,91.9075
-2023/2024,Male,all,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,114,91,134,54,319,287,79.8246,40.2985,238.0597,89.9687
-2023/2024,Male,all,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,138,110,159,63,359,333,79.7101,39.6226,225.7862,92.7577
-2023/2024,Male,all,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,147,117,170,68,374,348,79.5918,40.0,220.0,93.0481
-2023/2024,Male,all,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,134,107,153,61,353,324,79.8507,39.8693,230.719,91.7847
-2023/2024,Male,all,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,141,112,159,63,380,355,79.4326,39.6226,238.9937,93.4211
-2023/2024,Male,all,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,152,121,176,70,409,373,79.6053,39.7727,232.3864,91.198
-2023/2024,Male,all,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,171,136,194,77,403,362,79.5322,39.6907,207.732,89.8263
-2023/2024,Male,all,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,123,98,138,55,302,278,79.6748,39.8551,218.8406,92.053
-2023/2024,Male,all,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,123,98,145,58,376,332,79.6748,40.0,259.3103,88.2979
-2023/2024,Male,all,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,132,105,152,61,359,324,79.5455,40.1316,236.1842,90.2507
-2023/2024,Male,disabled,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,5,4,6,2,19,16,80.0,33.3333,316.6667,84.2105
-2023/2024,Male,disabled,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,5,4,6,2,25,22,80.0,33.3333,416.6667,88.0
-2023/2024,Male,disabled,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,5,4,6,2,12,11,80.0,33.3333,200.0,91.6667
-2023/2024,Male,disabled,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,5,4,5,2,12,11,80.0,40.0,240.0,91.6667
-2023/2024,Male,disabled,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,5,4,5,2,19,17,80.0,40.0,380.0,89.4737
-2023/2024,Male,disabled,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,5,4,5,2,19,16,80.0,40.0,380.0,84.2105
-2023/2024,Male,disabled,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,5,4,6,2,19,18,80.0,33.3333,316.6667,94.7368
-2023/2024,Male,disabled,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,5,4,6,2,12,11,80.0,33.3333,200.0,91.6667
-2023/2024,Male,disabled,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,5,4,5,2,12,11,80.0,40.0,240.0,91.6667
-2023/2024,Male,disabled,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,5,4,6,2,19,16,80.0,33.3333,316.6667,84.2105
-2023/2024,Male,disabled,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,5,4,6,2,25,22,80.0,33.3333,416.6667,88.0
-2023/2024,Male,disabled,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,6,5,7,3,19,16,83.3333,42.8571,271.4286,84.2105
-2023/2024,Male,disabled,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,5,4,6,2,12,11,80.0,33.3333,200.0,91.6667
-2023/2024,Male,disabled,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,5,4,5,2,25,24,80.0,40.0,500.0,96.0
-2023/2024,Male,disabled,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,5,4,6,2,19,18,80.0,33.3333,316.6667,94.7368
-2023/2024,Male,disabled,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,8,6,9,4,16,15,75.0,44.4444,177.7778,93.75
-2023/2024,Male,disabled,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,8,6,10,4,21,18,75.0,40.0,210.0,85.7143
-2023/2024,Male,disabled,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,11,8,13,5,21,20,72.7273,38.4615,161.5385,95.2381
-2023/2024,Male,disabled,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,6,4,7,3,21,20,66.6667,42.8571,300.0,95.2381
-2023/2024,Male,disabled,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,7,5,8,3,21,20,71.4286,37.5,262.5,95.2381
-2023/2024,Male,disabled,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,6,4,7,3,21,20,66.6667,42.8571,300.0,95.2381
-2023/2024,Male,disabled,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,9,7,9,4,16,15,77.7778,44.4444,177.7778,93.75
-2023/2024,Male,disabled,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,8,6,9,4,16,15,75.0,44.4444,177.7778,93.75
-2023/2024,Male,disabled,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,7,5,8,3,21,20,71.4286,37.5,262.5,95.2381
-2023/2024,Male,disabled,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,8,6,9,4,21,20,75.0,44.4444,233.3333,95.2381
-2023/2024,Male,disabled,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,8,6,9,4,16,15,75.0,44.4444,177.7778,93.75
-2023/2024,Male,disabled,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,11,8,12,5,27,26,72.7273,41.6667,225.0,96.2963
-2023/2024,Male,disabled,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,8,6,9,4,21,20,75.0,44.4444,233.3333,95.2381
-2023/2024,Male,disabled,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,7,5,8,3,21,20,71.4286,37.5,262.5,95.2381
-2023/2024,Male,disabled,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,8,6,9,4,21,20,75.0,44.4444,233.3333,95.2381
-2023/2024,Male,disabled,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,10,8,12,5,25,23,80.0,41.6667,208.3333,92.0
-2023/2024,Male,disabled,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,13,10,15,6,25,23,76.9231,40.0,166.6667,92.0
-2023/2024,Male,disabled,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,15,12,18,7,30,23,80.0,38.8889,166.6667,76.6667
-2023/2024,Male,disabled,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,8,6,9,4,21,18,75.0,44.4444,233.3333,85.7143
-2023/2024,Male,disabled,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,9,7,11,5,21,18,77.7778,45.4545,190.9091,85.7143
-2023/2024,Male,disabled,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,8,6,8,3,21,18,75.0,37.5,262.5,85.7143
-2023/2024,Male,disabled,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,11,9,13,5,25,23,81.8182,38.4615,192.3077,92.0
-2023/2024,Male,disabled,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,10,8,11,5,16,14,80.0,45.4545,145.4545,87.5
-2023/2024,Male,disabled,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,9,7,10,4,21,18,77.7778,40.0,210.0,85.7143
-2023/2024,Male,disabled,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,11,9,12,5,25,23,81.8182,41.6667,208.3333,92.0
-2023/2024,Male,disabled,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,12,10,13,5,25,23,83.3333,38.4615,192.3077,92.0
-2023/2024,Male,disabled,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,13,10,16,6,25,23,76.9231,37.5,156.25,92.0
-2023/2024,Male,disabled,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,11,9,13,5,21,18,81.8182,38.4615,161.5385,85.7143
-2023/2024,Male,disabled,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,9,7,10,4,21,18,77.7778,40.0,210.0,85.7143
-2023/2024,Male,disabled,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,12,10,13,5,25,23,83.3333,38.4615,192.3077,92.0
-2024/2025,Female,all,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,46,35,25,10,6,6,76.0870,40.0000,24.0000,100.0000
-2024/2025,Female,all,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,55,42,32,12,11,10,76.3636,37.5000,34.3750,90.9091
-2024/2025,Female,all,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,62,46,35,14,11,10,74.1935,40.0000,31.4286,90.9091
-2024/2025,Female,all,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,34,26,19,7,6,6,76.4706,36.8421,31.5789,100.0000
-2024/2025,Female,all,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,47,35,26,11,9,8,74.4681,42.3077,34.6154,88.8889
-2024/2025,Female,all,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,48,36,28,11,10,9,75.0000,39.2857,35.7143,90.0000
-2024/2025,Female,all,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,46,35,26,11,9,9,76.0870,42.3077,34.6154,100.0000
-2024/2025,Female,all,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,58,43,34,13,10,9,74.1379,38.2353,29.4118,90.0000
-2024/2025,Female,all,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,48,36,26,10,8,7,75.0000,38.4615,30.7692,87.5000
-2024/2025,Female,all,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,49,36,28,11,10,9,73.4694,39.2857,35.7143,90.0000
-2024/2025,Female,all,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,54,41,31,12,11,10,75.9259,38.7097,35.4839,90.9091
-2024/2025,Female,all,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,67,51,40,16,10,9,76.1194,40.0000,25.0000,90.0000
-2024/2025,Female,all,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,48,36,28,11,9,8,75.0000,39.2857,32.1429,88.8889
-2024/2025,Female,all,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,48,36,28,11,9,9,75.0000,39.2857,32.1429,100.0000
-2024/2025,Female,all,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,42,32,24,9,9,8,76.1905,37.5000,37.5000,88.8889
-2024/2025,Female,all,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,651,444,361,143,110,99,68.2028,39.6122,30.4709,90.0000
-2024/2025,Female,all,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,833,566,493,193,169,153,67.9472,39.1481,34.2799,90.5325
-2024/2025,Female,all,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,924,631,527,204,164,153,68.2900,38.7097,31.1195,93.2927
-2024/2025,Female,all,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,469,315,263,104,84,73,67.1642,39.5437,31.9392,86.9048
-2024/2025,Female,all,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,651,444,372,146,125,119,68.2028,39.2473,33.6022,95.2000
-2024/2025,Female,all,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,666,452,384,150,125,117,67.8679,39.0625,32.5521,93.6000
-2024/2025,Female,all,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,689,466,391,154,130,118,67.6343,39.3862,33.2481,90.7692
-2024/2025,Female,all,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,833,566,481,189,150,135,67.9472,39.2931,31.1850,90.0000
-2024/2025,Female,all,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,704,480,399,158,122,107,68.1818,39.5990,30.5764,87.7049
-2024/2025,Female,all,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,727,495,418,162,134,120,68.0880,38.7560,32.0574,89.5522
-2024/2025,Female,all,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,803,545,463,181,150,141,67.8705,39.0929,32.3974,94.0000
-2024/2025,Female,all,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,1083,738,624,247,196,184,68.1440,39.5833,31.4103,93.8776
-2024/2025,Female,all,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,674,459,376,146,115,105,68.1009,38.8298,30.5851,91.3043
-2024/2025,Female,all,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,689,466,391,154,134,125,67.6343,39.3862,34.2711,93.2836
-2024/2025,Female,all,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,591,401,335,131,106,101,67.8511,39.1045,31.6418,95.2830
-2024/2025,Female,all,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,965,705,543,214,151,142,73.0570,39.4107,27.8085,94.0397
-2024/2025,Female,all,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,1281,943,761,301,265,240,73.6144,39.5532,34.8226,90.5660
-2024/2025,Female,all,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,1281,943,745,293,236,221,73.6144,39.3289,31.6779,93.6441
-2024/2025,Female,all,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,673,491,386,152,122,115,72.9569,39.3782,31.6062,94.2623
-2024/2025,Female,all,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,997,736,568,223,192,177,73.8215,39.2606,33.8028,92.1875
-2024/2025,Female,all,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,916,675,523,206,170,159,73.6900,39.3881,32.5048,93.5294
-2024/2025,Female,all,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,973,713,568,223,181,167,73.2785,39.2606,31.8662,92.2652
-2024/2025,Female,all,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,1176,866,656,255,206,189,73.6395,38.8720,31.4024,91.7476
-2024/2025,Female,all,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,1070,789,608,239,185,170,73.7383,39.3092,30.4276,91.8919
-2024/2025,Female,all,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,1005,736,564,223,184,169,73.2338,39.5390,32.6241,91.8478
-2024/2025,Female,all,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,1224,897,716,280,230,209,73.2843,39.1061,32.1229,90.8696
-2024/2025,Female,all,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,1500,1104,825,325,262,237,73.6000,39.3939,31.7576,90.4580
-2024/2025,Female,all,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,989,728,564,222,173,159,73.6097,39.3617,30.6738,91.9075
-2024/2025,Female,all,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,957,705,551,218,177,162,73.6677,39.5644,32.1234,91.5254
-2024/2025,Female,all,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,916,675,531,210,184,170,73.6900,39.5480,34.6516,92.3913
-2024/2025,Female,disabled,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,5,4,3,1,1,1,80.0000,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,5,4,3,1,2,2,80.0000,33.3333,66.6667,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,7,4,3,2,2,2,57.1429,66.6667,66.6667,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,5,4,3,1,2,2,80.0000,33.3333,66.6667,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,5,4,3,1,1,1,80.0000,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,5,4,3,1,2,2,80.0000,33.3333,66.6667,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,5,4,3,1,2,2,80.0000,33.3333,66.6667,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,5,4,3,1,1,1,80.0000,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,5,4,3,1,1,1,80.0000,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,5,4,3,1,2,2,80.0000,33.3333,66.6667,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,5,4,3,1,2,2,80.0000,33.3333,66.6667,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,6,4,3,1,1,1,66.6667,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,5,4,3,1,1,1,80.0000,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,5,4,3,1,2,2,80.0000,33.3333,66.6667,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,5,4,3,1,2,2,80.0000,33.3333,66.6667,100.0000
-2024/2025,Female,disabled,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,60,41,30,14,11,10,68.3333,46.6667,36.6667,90.9091
-2024/2025,Female,disabled,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,69,49,39,14,11,10,71.0145,35.8974,28.2051,90.9091
-2024/2025,Female,disabled,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,86,57,52,22,11,10,66.2791,42.3077,21.1538,90.9091
-2024/2025,Female,disabled,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,52,32,30,13,11,10,61.5385,43.3333,36.6667,90.9091
-2024/2025,Female,disabled,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,52,32,30,13,11,10,61.5385,43.3333,36.6667,90.9091
-2024/2025,Female,disabled,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,52,32,30,13,11,11,61.5385,43.3333,36.6667,100.0000
-2024/2025,Female,disabled,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,60,41,39,13,11,11,68.3333,33.3333,28.2051,100.0000
-2024/2025,Female,disabled,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,69,49,39,13,11,11,71.0145,33.3333,28.2051,100.0000
-2024/2025,Female,disabled,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,60,41,34,13,11,10,68.3333,38.2353,32.3529,90.9091
-2024/2025,Female,disabled,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,69,49,39,18,11,10,71.0145,46.1538,28.2051,90.9091
-2024/2025,Female,disabled,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,69,49,39,13,11,11,71.0145,33.3333,28.2051,100.0000
-2024/2025,Female,disabled,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,95,65,56,22,13,13,68.4211,39.2857,23.2143,100.0000
-2024/2025,Female,disabled,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,60,41,34,13,11,11,68.3333,38.2353,32.3529,100.0000
-2024/2025,Female,disabled,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,60,41,34,13,11,11,68.3333,38.2353,32.3529,100.0000
-2024/2025,Female,disabled,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,60,41,34,13,11,11,68.3333,38.2353,32.3529,100.0000
-2024/2025,Female,disabled,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,92,69,51,18,15,13,75.0000,35.2941,29.4118,86.6667
-2024/2025,Female,disabled,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,101,78,64,28,17,16,77.2277,43.7500,26.5625,94.1176
-2024/2025,Female,disabled,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,120,86,73,28,17,16,71.6667,38.3562,23.2877,94.1176
-2024/2025,Female,disabled,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,65,43,41,18,12,11,66.1538,43.9024,29.2683,91.6667
-2024/2025,Female,disabled,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,74,52,41,14,15,13,70.2703,34.1463,36.5854,86.6667
-2024/2025,Female,disabled,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,74,52,46,18,12,11,70.2703,39.1304,26.0870,91.6667
-2024/2025,Female,disabled,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,92,69,51,18,15,14,75.0000,35.2941,29.4118,93.3333
-2024/2025,Female,disabled,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,92,69,50,18,14,13,75.0000,36.0000,28.0000,92.8571
-2024/2025,Female,disabled,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,83,60,46,18,12,11,72.2892,39.1304,26.0870,91.6667
-2024/2025,Female,disabled,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,92,69,50,18,15,13,75.0000,36.0000,30.0000,86.6667
-2024/2025,Female,disabled,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,92,69,50,18,13,13,75.0000,36.0000,26.0000,100.0000
-2024/2025,Female,disabled,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,138,103,83,32,20,16,74.6377,38.5542,24.0964,80.0000
-2024/2025,Female,disabled,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,101,78,60,23,14,13,77.2277,38.3333,23.3333,92.8571
-2024/2025,Female,disabled,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,83,60,46,18,12,11,72.2892,39.1304,26.0870,91.6667
-2024/2025,Female,disabled,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,92,69,55,23,14,13,75.0000,41.8182,25.4545,92.8571
-2024/2025,Male,all,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,49,37,26,11,7,7,75.5102,42.3077,26.9231,100.0000
-2024/2025,Male,all,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,60,45,35,14,13,12,75.0000,40.0000,37.1429,92.3077
-2024/2025,Male,all,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,63,47,36,14,12,10,74.6032,38.8889,33.3333,83.3333
-2024/2025,Male,all,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,35,26,19,7,7,7,74.2857,36.8421,36.8421,100.0000
-2024/2025,Male,all,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,49,37,29,11,11,9,75.5102,37.9310,37.9310,81.8182
-2024/2025,Male,all,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,46,35,26,11,11,10,76.0870,42.3077,42.3077,90.9091
-2024/2025,Male,all,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,49,37,28,11,10,9,75.5102,39.2857,35.7143,90.0000
-2024/2025,Male,all,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,59,44,33,13,10,9,74.5763,39.3939,30.3030,90.0000
-2024/2025,Male,all,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,49,36,27,11,7,7,73.4694,40.7407,25.9259,100.0000
-2024/2025,Male,all,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,53,40,32,12,12,11,75.4717,37.5000,37.5000,91.6667
-2024/2025,Male,all,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,59,44,34,13,11,10,74.5763,38.2353,32.3529,90.9091
-2024/2025,Male,all,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,66,50,38,15,12,11,75.7576,39.4737,31.5789,91.6667
-2024/2025,Male,all,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,49,36,27,10,8,7,73.4694,37.0370,29.6296,87.5000
-2024/2025,Male,all,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,47,35,28,11,10,10,74.4681,39.2857,35.7143,100.0000
-2024/2025,Male,all,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,45,34,26,10,9,9,75.5556,38.4615,34.6154,100.0000
-2024/2025,Male,all,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,697,473,376,150,108,96,67.8623,39.8936,28.7234,88.8889
-2024/2025,Male,all,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,909,617,545,216,188,180,67.8768,39.6330,34.4954,95.7447
-2024/2025,Male,all,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,946,645,553,220,191,175,68.1818,39.7830,34.5389,91.6230
-2024/2025,Male,all,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,469,315,263,104,92,82,67.1642,39.5437,34.9810,89.1304
-2024/2025,Male,all,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,719,487,417,166,146,133,67.7330,39.8082,35.0120,91.0959
-2024/2025,Male,all,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,666,452,380,146,130,124,67.8679,38.4211,34.2105,95.3846
-2024/2025,Male,all,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,750,509,429,169,144,133,67.8667,39.3939,33.5664,92.3611
-2024/2025,Male,all,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,840,574,478,189,157,147,68.3333,39.5397,32.8452,93.6306
-2024/2025,Male,all,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,719,487,402,158,131,119,67.7330,39.3035,32.5871,90.8397
-2024/2025,Male,all,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,795,538,459,181,154,138,67.6730,39.4336,33.5512,89.6104
-2024/2025,Male,all,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,840,573,481,189,162,147,68.2143,39.2931,33.6798,90.7407
-2024/2025,Male,all,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,1030,703,572,223,191,175,68.2524,38.9860,33.3916,91.6230
-2024/2025,Male,all,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,681,466,395,154,131,124,68.4288,38.9873,33.1646,94.6565
-2024/2025,Male,all,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,644,437,369,146,137,124,67.8571,39.5664,37.1274,90.5109
-2024/2025,Male,all,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,681,466,391,154,136,128,68.4288,39.3862,34.7826,94.1176
-2024/2025,Male,all,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,1054,774,588,231,173,162,73.4345,39.2857,29.4218,93.6416
-2024/2025,Male,all,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,1265,927,737,288,259,232,73.2806,39.0773,35.1425,89.5753
-2024/2025,Male,all,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,1402,1027,801,313,267,237,73.2525,39.0762,33.3333,88.7640
-2024/2025,Male,all,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,697,514,386,152,138,127,73.7446,39.3782,35.7513,92.0290
-2024/2025,Male,all,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,1054,774,600,235,210,192,73.4345,39.1667,35.0000,91.4286
-2024/2025,Male,all,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,957,705,547,214,187,171,73.6677,39.1225,34.1865,91.4439
-2024/2025,Male,all,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,1021,751,584,231,199,180,73.5553,39.5548,34.0753,90.4523
-2024/2025,Male,all,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,1192,874,676,268,223,202,73.3221,39.6450,32.9882,90.5830
-2024/2025,Male,all,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,1070,789,608,239,195,179,73.7383,39.3092,32.0724,91.7949
-2024/2025,Male,all,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,1135,835,644,251,223,210,73.5683,38.9752,34.6273,94.1704
-2024/2025,Male,all,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,1273,935,716,280,247,228,73.4485,39.1061,34.4972,92.3077
-2024/2025,Male,all,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,1467,1081,869,342,283,264,73.6878,39.3556,32.5662,93.2862
-2024/2025,Male,all,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,997,736,560,218,190,179,73.8215,38.9286,33.9286,94.2105
-2024/2025,Male,all,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,924,682,539,214,195,184,73.8095,39.7032,36.1781,94.3590
-2024/2025,Male,all,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,1005,736,576,227,199,185,73.2338,39.4097,34.5486,92.9648
-2024/2025,Male,disabled,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,5,4,3,1,0,1,80.0000,33.3333,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,5,4,3,1,2,2,80.0000,33.3333,66.6667,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,6,4,3,2,2,1,66.6667,66.6667,66.6667,50.0000
-2024/2025,Male,disabled,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,5,4,2,1,2,1,80.0000,50.0000,100.0000,50.0000
-2024/2025,Male,disabled,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,5,4,2,1,2,1,80.0000,50.0000,100.0000,50.0000
-2024/2025,Male,disabled,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,5,4,2,1,2,1,80.0000,50.0000,100.0000,50.0000
-2024/2025,Male,disabled,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,5,4,3,1,1,1,80.0000,33.3333,33.3333,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,5,4,3,1,0,0,80.0000,33.3333,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,5,4,2,1,0,0,80.0000,50.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,5,4,3,1,2,2,80.0000,33.3333,66.6667,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,5,3,3,1,1,1,60.0000,33.3333,33.3333,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,6,4,3,2,1,1,66.6667,66.6667,33.3333,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,5,3,3,1,1,1,60.0000,33.3333,33.3333,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,5,3,2,1,2,2,60.0000,50.0000,100.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,5,3,3,1,1,1,60.0000,33.3333,33.3333,100.0000
-2024/2025,Male,disabled,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,69,49,34,13,8,8,71.0145,38.2353,23.5294,100.0000
-2024/2025,Male,disabled,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,77,49,47,18,11,11,63.6364,38.2979,23.4043,100.0000
-2024/2025,Male,disabled,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,95,65,60,22,15,14,68.4211,36.6667,25.0000,93.3333
-2024/2025,Male,disabled,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,52,32,30,13,12,11,61.5385,43.3333,40.0000,91.6667
-2024/2025,Male,disabled,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,60,41,34,13,11,10,68.3333,38.2353,32.3529,90.9091
-2024/2025,Male,disabled,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,52,32,30,13,12,11,61.5385,43.3333,40.0000,91.6667
-2024/2025,Male,disabled,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,69,49,39,13,13,11,71.0145,33.3333,33.3333,84.6154
-2024/2025,Male,disabled,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,60,41,34,13,10,9,68.3333,38.2353,29.4118,90.0000
-2024/2025,Male,disabled,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,60,41,30,13,12,11,68.3333,43.3333,40.0000,91.6667
-2024/2025,Male,disabled,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,69,49,39,18,13,11,71.0145,46.1538,33.3333,84.6154
-2024/2025,Male,disabled,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,69,49,43,18,13,11,71.0145,41.8605,30.2326,84.6154
-2024/2025,Male,disabled,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,95,65,51,18,15,14,68.4211,35.2941,29.4118,93.3333
-2024/2025,Male,disabled,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,69,49,43,18,13,11,71.0145,41.8605,30.2326,84.6154
-2024/2025,Male,disabled,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,51,32,30,13,13,11,62.7451,43.3333,43.3333,84.6154
-2024/2025,Male,disabled,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,60,41,39,13,13,11,68.3333,33.3333,33.3333,84.6154
-2024/2025,Male,disabled,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,101,78,55,23,16,15,77.2277,41.8182,29.0909,93.7500
-2024/2025,Male,disabled,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,111,78,64,28,16,14,70.2703,43.7500,25.0000,87.5000
-2024/2025,Male,disabled,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,129,95,78,32,18,14,73.6434,41.0256,23.0769,77.7778
-2024/2025,Male,disabled,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,74,52,41,18,12,11,70.2703,43.9024,29.2683,91.6667
-2024/2025,Male,disabled,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,83,60,50,18,12,11,72.2892,36.0000,24.0000,91.6667
-2024/2025,Male,disabled,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,74,52,41,18,12,11,70.2703,43.9024,29.2683,91.6667
-2024/2025,Male,disabled,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,101,77,55,23,15,14,76.2376,41.8182,27.2727,93.3333
-2024/2025,Male,disabled,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,83,60,50,18,15,14,72.2892,36.0000,30.0000,93.3333
-2024/2025,Male,disabled,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,83,60,46,18,12,11,72.2892,39.1304,26.0870,91.6667
-2024/2025,Male,disabled,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,92,69,55,23,15,14,75.0000,41.8182,27.2727,93.3333
-2024/2025,Male,disabled,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,111,77,60,23,18,18,69.3694,38.3333,30.0000,100.0000
-2024/2025,Male,disabled,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,129,95,78,27,18,18,73.6434,34.6154,23.0769,100.0000
-2024/2025,Male,disabled,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,101,77,60,23,15,14,76.2376,38.3333,25.0000,93.3333
-2024/2025,Male,disabled,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,74,52,46,18,12,11,70.2703,39.1304,26.0870,91.6667
-2024/2025,Male,disabled,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,101,77,55,23,15,14,76.2376,41.8182,27.2727,93.3333
+session,gender,disability,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
+2022/2023,Female,ALL,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,50,42,59,49,181,176,75.5556,36.7347,251.0204,96.748
+2022/2023,Female,ALL,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,65,55,81,69,281,241,75.8621,37.3134,285.0746,85.3403
+2022/2023,Female,ALL,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,71,60,93,77,291,265,76.1905,36.3636,257.1429,90.404
+2022/2023,Female,ALL,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,40,33,47,41,168,167,75.0,38.4615,292.3077,99.1228
+2022/2023,Female,ALL,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,52,43,65,55,194,176,76.087,37.037,244.4444,90.1515
+2022/2023,Female,ALL,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,52,43,63,52,197,194,76.087,36.5385,257.6923,97.7612
+2022/2023,Female,ALL,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,54,46,68,55,225,194,77.0833,35.7143,273.2143,85.6209
+2022/2023,Female,ALL,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,71,60,89,74,271,238,76.1905,36.4865,248.6486,87.5
+2022/2023,Female,ALL,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,57,48,70,58,213,186,76.4706,36.2069,250.0,86.8966
+2022/2023,Female,ALL,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,58,50,72,60,225,210,76.9231,36.6667,255.0,92.8105
+2022/2023,Female,ALL,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,64,53,80,66,268,241,75.4386,36.3636,275.7576,89.5604
+2022/2023,Female,ALL,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,77,66,93,77,274,235,76.8116,36.3636,241.5584,85.4839
+2022/2023,Female,ALL,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,48,41,60,49,187,179,76.7442,36.0,254.0,95.2756
+2022/2023,Female,ALL,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,53,45,66,55,225,225,76.5957,36.3636,278.1818,99.3464
+2022/2023,Female,ALL,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,46,38,57,47,194,183,75.6098,36.1702,280.8511,93.9394
+2022/2023,Female,ALL,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,100,76,122,101,368,337,68.5393,36.6337,247.5248,91.2
+2022/2023,Female,ALL,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,122,93,156,129,559,536,68.8073,36.4341,294.5736,95.2632
+2022/2023,Female,ALL,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,137,104,173,142,575,533,68.8525,36.3636,273.4266,92.0716
+2022/2023,Female,ALL,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,67,51,83,69,265,241,68.3333,36.2319,260.8696,90.5556
+2022/2023,Female,ALL,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,97,74,122,101,433,408,68.9655,36.6337,291.0891,93.8776
+2022/2023,Female,ALL,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,91,68,113,93,371,349,67.9012,36.1702,268.0851,93.6508
+2022/2023,Female,ALL,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,92,69,112,93,371,349,68.2927,36.5591,270.9677,93.6508
+2022/2023,Female,ALL,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,119,91,145,121,469,438,68.8679,36.6667,265.8333,92.79
+2022/2023,Female,ALL,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,106,81,130,107,419,395,68.4211,36.1111,263.8889,93.6842
+2022/2023,Female,ALL,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,105,81,134,110,433,405,69.1489,36.036,264.8649,93.1973
+2022/2023,Female,ALL,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,119,91,147,121,456,438,68.8679,36.0656,254.0984,95.4839
+2022/2023,Female,ALL,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,147,112,176,145,536,507,68.7023,36.3014,249.3151,94.2308
+2022/2023,Female,ALL,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,99,74,121,99,394,367,68.1818,36.0,268.0,92.5373
+2022/2023,Female,ALL,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,92,69,116,96,384,349,68.2927,36.4583,271.875,90.4215
+2022/2023,Female,ALL,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,85,64,105,88,358,337,68.4211,36.7816,279.3103,93.8272
+2022/2023,Female,ALL,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,133,109,159,129,465,411,73.9496,35.6061,239.3939,87.9747
+2022/2023,Female,ALL,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,150,123,194,159,667,618,73.8806,36.0248,281.3665,92.2737
+2022/2023,Female,ALL,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,167,136,202,164,717,660,73.8255,35.9281,291.6168,91.5811
+2022/2023,Female,ALL,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,88,73,109,88,347,330,74.6835,35.5556,262.2222,94.4915
+2022/2023,Female,ALL,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,137,112,171,140,596,556,73.7705,35.9155,285.2113,92.8395
+2022/2023,Female,ALL,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,118,97,147,121,449,422,74.2857,36.0656,250.0,93.4426
+2022/2023,Female,ALL,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,139,114,175,142,586,540,74.1935,35.8621,274.4828,91.7085
+2022/2023,Female,ALL,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,162,133,202,164,690,614,73.7931,35.9281,280.8383,88.4861
+2022/2023,Female,ALL,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,123,100,150,123,459,429,73.6364,36.2903,251.6129,92.9487
+2022/2023,Female,ALL,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,140,114,176,145,565,521,73.6,36.3014,263.0137,91.6667
+2022/2023,Female,ALL,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,144,118,179,145,606,559,73.6434,35.8108,278.3784,91.7476
+2022/2023,Female,ALL,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,190,156,233,192,790,710,74.1176,36.2694,278.2383,89.3855
+2022/2023,Female,ALL,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,141,115,174,142,565,503,73.8095,36.1111,266.6667,88.5417
+2022/2023,Female,ALL,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,120,98,152,123,518,478,73.8318,35.7143,279.3651,91.7614
+2022/2023,Female,ALL,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,122,100,150,123,509,478,74.3119,36.2903,279.0323,93.3526
+2022/2023,Female,Disabled,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,6,5,6,5,26,25,80.0,40.0,360.0,94.4444
+2022/2023,Female,Disabled,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,6,5,6,5,37,36,80.0,40.0,500.0,96.0
+2022/2023,Female,Disabled,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,7,6,8,8,37,36,83.3333,42.8571,357.1429,96.0
+2022/2023,Female,Disabled,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,4,4,6,5,26,25,75.0,40.0,360.0,94.4444
+2022/2023,Female,Disabled,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,4,4,6,5,26,25,75.0,40.0,360.0,94.4444
+2022/2023,Female,Disabled,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,4,4,6,5,26,25,75.0,40.0,360.0,94.4444
+2022/2023,Female,Disabled,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,6,5,7,5,26,25,80.0,33.3333,300.0,94.4444
+2022/2023,Female,Disabled,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,6,5,7,5,18,16,80.0,33.3333,200.0,91.6667
+2022/2023,Female,Disabled,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,4,4,6,5,26,24,75.0,40.0,360.0,88.8889
+2022/2023,Female,Disabled,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,6,5,6,5,37,36,80.0,40.0,500.0,96.0
+2022/2023,Female,Disabled,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,6,5,7,5,37,36,80.0,33.3333,416.6667,96.0
+2022/2023,Female,Disabled,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,7,6,7,5,22,19,83.3333,33.3333,250.0,86.6667
+2022/2023,Female,Disabled,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,6,5,7,5,21,19,80.0,33.3333,233.3333,92.8571
+2022/2023,Female,Disabled,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,6,5,6,5,38,37,80.0,40.0,520.0,96.1538
+2022/2023,Female,Disabled,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,4,4,6,5,37,36,75.0,40.0,500.0,96.0
+2022/2023,Female,Disabled,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,8,6,10,8,26,24,71.4286,37.5,225.0,88.8889
+2022/2023,Female,Disabled,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,10,7,12,11,37,31,66.6667,40.0,250.0,84.0
+2022/2023,Female,Disabled,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,11,9,14,11,37,31,70.0,33.3333,208.3333,84.0
+2022/2023,Female,Disabled,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,6,4,8,8,37,31,60.0,42.8571,357.1429,84.0
+2022/2023,Female,Disabled,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,7,5,8,8,37,31,66.6667,42.8571,357.1429,84.0
+2022/2023,Female,Disabled,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,7,5,8,8,37,31,66.6667,42.8571,357.1429,84.0
+2022/2023,Female,Disabled,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,8,6,10,8,37,31,71.4286,37.5,312.5,84.0
+2022/2023,Female,Disabled,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,8,6,10,8,37,31,71.4286,37.5,312.5,84.0
+2022/2023,Female,Disabled,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,7,5,8,8,37,31,66.6667,42.8571,357.1429,84.0
+2022/2023,Female,Disabled,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,8,6,11,8,37,31,71.4286,33.3333,277.7778,84.0
+2022/2023,Female,Disabled,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,9,6,11,8,37,31,62.5,33.3333,277.7778,84.0
+2022/2023,Female,Disabled,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,11,9,14,11,37,31,70.0,33.3333,208.3333,84.0
+2022/2023,Female,Disabled,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,9,7,12,11,37,31,75.0,40.0,250.0,84.0
+2022/2023,Female,Disabled,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,7,5,10,8,37,31,66.6667,37.5,312.5,84.0
+2022/2023,Female,Disabled,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,8,6,10,8,37,31,71.4286,37.5,312.5,84.0
+2022/2023,Female,Disabled,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,10,9,12,8,31,27,77.7778,30.0,210.0,85.7143
+2022/2023,Female,Disabled,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,11,9,14,11,38,33,70.0,33.3333,216.6667,84.6154
+2022/2023,Female,Disabled,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,13,11,18,16,56,50,75.0,40.0,253.3333,89.4737
+2022/2023,Female,Disabled,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,8,6,8,5,29,28,71.4286,28.5714,285.7143,95.0
+2022/2023,Female,Disabled,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,9,7,11,8,29,28,75.0,33.3333,222.2222,95.0
+2022/2023,Female,Disabled,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,9,7,11,8,29,28,75.0,33.3333,222.2222,95.0
+2022/2023,Female,Disabled,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,11,9,13,11,38,37,70.0,36.3636,236.3636,96.1538
+2022/2023,Female,Disabled,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,11,9,13,11,38,37,70.0,36.3636,236.3636,96.1538
+2022/2023,Female,Disabled,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,9,7,11,8,22,21,75.0,33.3333,166.6667,93.3333
+2022/2023,Female,Disabled,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,10,9,13,11,38,33,77.7778,36.3636,236.3636,84.6154
+2022/2023,Female,Disabled,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,10,9,13,11,29,27,77.7778,36.3636,181.8182,90.0
+2022/2023,Female,Disabled,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,16,12,18,14,47,44,71.4286,33.3333,213.3333,93.75
+2022/2023,Female,Disabled,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,11,9,14,11,38,37,70.0,33.3333,216.6667,96.1538
+2022/2023,Female,Disabled,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,9,7,11,8,29,28,75.0,33.3333,222.2222,95.0
+2022/2023,Female,Disabled,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,10,9,12,8,38,36,77.7778,30.0,260.0,92.3077
+2022/2023,Male,ALL,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,59,51,71,60,188,180,77.3585,37.2881,216.9492,95.3125
+2022/2023,Male,ALL,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,71,60,91,74,336,284,76.1905,36.0,304.0,84.2105
+2022/2023,Male,ALL,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,75,63,98,82,321,265,76.1194,37.037,269.1358,82.1101
+2022/2023,Male,ALL,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,41,35,51,44,157,157,75.6757,38.0952,254.7619,99.0654
+2022/2023,Male,ALL,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,53,45,64,52,188,183,76.5957,35.8491,241.5094,96.875
+2022/2023,Male,ALL,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,52,43,63,52,205,197,76.087,36.5385,267.3077,95.6835
+2022/2023,Male,ALL,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,59,51,75,60,271,238,77.3585,35.4839,296.7742,87.5
+2022/2023,Male,ALL,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,69,60,86,71,241,219,77.4194,36.6197,230.9859,90.2439
+2022/2023,Male,ALL,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,57,48,71,60,238,222,76.4706,37.2881,274.5763,92.5926
+2022/2023,Male,ALL,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,59,51,71,60,221,200,77.3585,37.2881,254.2373,90.0
+2022/2023,Male,ALL,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,65,56,82,69,308,268,77.5862,36.7647,307.3529,86.6029
+2022/2023,Male,ALL,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,74,63,92,77,285,271,77.2727,36.8421,255.2632,94.3299
+2022/2023,Male,ALL,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,50,43,62,52,207,200,77.7778,37.2549,276.4706,95.7447
+2022/2023,Male,ALL,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,53,45,65,55,237,216,76.5957,37.037,298.1481,90.6832
+2022/2023,Male,ALL,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,50,43,63,52,238,232,77.7778,36.5385,311.5385,96.9136
+2022/2023,Male,ALL,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,109,82,129,107,372,337,68.0412,36.4486,236.4486,90.1186
+2022/2023,Male,ALL,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,133,102,168,137,622,599,68.9076,35.9712,304.3165,95.7447
+2022/2023,Male,ALL,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,140,107,177,145,583,540,68.8,36.0544,269.3878,92.1717
+2022/2023,Male,ALL,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,68,52,83,69,278,249,68.8525,36.2319,273.913,88.8889
+2022/2023,Male,ALL,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,106,81,133,110,456,429,68.4211,36.3636,281.8182,93.5484
+2022/2023,Male,ALL,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,94,72,120,99,428,402,69.0476,36.3636,293.9394,93.4708
+2022/2023,Male,ALL,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,97,74,120,99,375,354,68.9655,36.3636,257.5758,93.7255
+2022/2023,Male,ALL,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,120,91,147,121,456,416,68.2243,36.0656,254.0984,90.6452
+2022/2023,Male,ALL,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,112,86,134,110,456,416,69.0,36.036,279.2793,90.6452
+2022/2023,Male,ALL,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,108,82,133,110,446,422,68.75,36.3636,275.4545,94.0594
+2022/2023,Male,ALL,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,123,93,157,129,539,510,68.1818,36.1538,281.5385,94.2623
+2022/2023,Male,ALL,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,140,105,169,137,602,572,68.0,35.7143,292.1429,94.621
+2022/2023,Male,ALL,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,96,73,117,96,358,324,68.6047,36.0825,250.5155,90.1235
+2022/2023,Male,ALL,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,93,71,116,96,444,435,68.6747,36.4583,314.5833,97.351
+2022/2023,Male,ALL,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,96,73,126,104,444,419,68.6047,36.5385,290.3846,93.7086
+2022/2023,Male,ALL,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,140,114,171,140,559,516,73.6,35.9155,267.6056,91.8421
+2022/2023,Male,ALL,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,161,131,202,164,749,667,73.6111,35.9281,304.7904,88.6051
+2022/2023,Male,ALL,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,181,149,229,186,798,740,74.0741,35.7895,285.2632,92.2509
+2022/2023,Male,ALL,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,91,74,112,90,405,365,74.0741,35.4839,295.6989,89.8182
+2022/2023,Male,ALL,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,143,117,177,145,620,562,73.4375,36.0544,286.3946,90.2613
+2022/2023,Male,ALL,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,121,99,155,126,519,478,74.0741,35.9375,275.7812,91.5014
+2022/2023,Male,ALL,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,143,118,176,145,617,572,74.2188,36.3014,286.9863,92.3628
+2022/2023,Male,ALL,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,155,126,192,156,633,575,73.913,35.8491,270.4403,90.4651
+2022/2023,Male,ALL,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,134,110,163,132,543,503,74.1667,35.5556,273.3333,92.1409
+2022/2023,Male,ALL,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,144,118,176,145,590,546,73.6434,36.3014,274.6575,92.02
+2022/2023,Male,ALL,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,164,134,204,167,720,657,73.9726,36.0947,289.3491,90.7975
+2022/2023,Male,ALL,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,186,152,223,181,740,680,74.0964,35.6757,271.8919,91.4513
+2022/2023,Male,ALL,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,139,113,173,140,556,519,73.3871,35.6643,264.3357,92.8571
+2022/2023,Male,ALL,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,121,99,152,123,533,491,74.0741,35.7143,287.3016,91.7127
+2022/2023,Male,ALL,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,127,103,161,132,569,533,73.4513,36.0902,290.9774,93.0233
+2022/2023,Male,Disabled,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,6,5,6,5,22,19,80.0,40.0,300.0,86.6667
+2022/2023,Male,Disabled,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,6,5,7,5,44,38,80.0,33.3333,500.0,86.6667
+2022/2023,Male,Disabled,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,7,6,8,8,32,28,83.3333,42.8571,314.2857,86.3636
+2022/2023,Male,Disabled,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,4,4,5,5,10,9,75.0,50.0,175.0,85.7143
+2022/2023,Male,Disabled,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,4,4,6,5,22,19,75.0,40.0,300.0,86.6667
+2022/2023,Male,Disabled,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,4,4,6,5,32,28,75.0,40.0,440.0,86.3636
+2022/2023,Male,Disabled,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,6,5,7,5,32,28,80.0,33.3333,366.6667,86.3636
+2022/2023,Male,Disabled,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,6,5,6,5,10,9,80.0,40.0,140.0,85.7143
+2022/2023,Male,Disabled,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,4,4,5,5,32,28,75.0,50.0,550.0,86.3636
+2022/2023,Male,Disabled,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,6,5,6,5,22,19,80.0,40.0,300.0,86.6667
+2022/2023,Male,Disabled,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,6,5,6,5,44,38,80.0,40.0,600.0,86.6667
+2022/2023,Male,Disabled,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,7,6,7,5,22,19,83.3333,33.3333,250.0,86.6667
+2022/2023,Male,Disabled,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,6,5,6,5,22,19,80.0,40.0,300.0,86.6667
+2022/2023,Male,Disabled,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,4,4,6,5,32,28,75.0,40.0,440.0,86.3636
+2022/2023,Male,Disabled,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,6,5,6,5,44,38,80.0,40.0,600.0,86.6667
+2022/2023,Male,Disabled,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,8,6,10,8,26,25,71.4286,37.5,225.0,94.4444
+2022/2023,Male,Disabled,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,9,6,12,11,37,36,62.5,40.0,250.0,96.0
+2022/2023,Male,Disabled,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,12,9,17,14,47,46,63.6364,35.7143,228.5714,96.875
+2022/2023,Male,Disabled,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,7,5,7,5,18,16,66.6667,33.3333,200.0,91.6667
+2022/2023,Male,Disabled,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,8,6,10,8,37,36,71.4286,37.5,312.5,96.0
+2022/2023,Male,Disabled,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,6,4,8,8,37,36,60.0,42.8571,357.1429,96.0
+2022/2023,Male,Disabled,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,9,6,10,8,26,25,62.5,37.5,225.0,94.4444
+2022/2023,Male,Disabled,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,8,6,10,8,18,16,71.4286,37.5,150.0,91.6667
+2022/2023,Male,Disabled,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,8,6,8,8,37,36,71.4286,42.8571,357.1429,96.0
+2022/2023,Male,Disabled,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,9,6,11,8,37,36,62.5,33.3333,277.7778,96.0
+2022/2023,Male,Disabled,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,9,6,12,11,37,36,62.5,40.0,250.0,96.0
+2022/2023,Male,Disabled,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,11,9,13,11,50,46,70.0,36.3636,309.0909,91.1765
+2022/2023,Male,Disabled,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,10,7,12,11,37,36,66.6667,40.0,250.0,96.0
+2022/2023,Male,Disabled,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,7,5,8,8,37,36,66.6667,42.8571,357.1429,96.0
+2022/2023,Male,Disabled,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,9,6,11,8,37,36,62.5,33.3333,277.7778,96.0
+2022/2023,Male,Disabled,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,11,9,14,11,46,40,70.0,33.3333,258.3333,87.0968
+2022/2023,Male,Disabled,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,12,10,16,14,46,40,72.7273,38.4615,238.4615,87.0968
+2022/2023,Male,Disabled,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,15,12,19,16,46,40,76.9231,37.5,193.75,87.0968
+2022/2023,Male,Disabled,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,8,6,10,8,26,24,71.4286,37.5,225.0,88.8889
+2022/2023,Male,Disabled,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,9,7,12,8,37,31,75.0,30.0,250.0,84.0
+2022/2023,Male,Disabled,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,9,7,12,8,37,31,75.0,30.0,250.0,84.0
+2022/2023,Male,Disabled,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,12,10,14,11,46,40,72.7273,33.3333,258.3333,87.0968
+2022/2023,Male,Disabled,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,10,9,12,11,37,31,77.7778,40.0,250.0,84.0
+2022/2023,Male,Disabled,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,9,7,11,8,37,31,75.0,33.3333,277.7778,84.0
+2022/2023,Male,Disabled,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,11,9,13,11,37,31,70.0,36.3636,227.2727,84.0
+2022/2023,Male,Disabled,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,12,10,16,14,37,31,72.7273,38.4615,192.3077,84.0
+2022/2023,Male,Disabled,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,15,12,18,14,50,47,76.9231,33.3333,226.6667,94.1176
+2022/2023,Male,Disabled,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,12,10,16,14,37,31,72.7273,38.4615,192.3077,84.0
+2022/2023,Male,Disabled,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,9,7,11,8,37,31,75.0,33.3333,277.7778,84.0
+2022/2023,Male,Disabled,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,11,9,14,11,46,40,70.0,33.3333,258.3333,87.0968
+2023/2024,Female,ALL,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,53,47,64,58,146,145,80.8511,39.6226,186.7925,98.9899
+2023/2024,Female,ALL,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,71,63,86,77,241,217,80.9524,39.4366,230.9859,89.6341
+2023/2024,Female,ALL,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,72,64,89,79,219,192,81.25,39.1892,201.3514,87.2483
+2023/2024,Female,ALL,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,40,36,51,47,140,139,80.5556,40.4762,226.1905,98.9474
+2023/2024,Female,ALL,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,55,50,69,63,197,167,81.6327,40.3509,235.0877,84.3284
+2023/2024,Female,ALL,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,53,47,66,60,185,179,80.8511,40.0,229.0909,96.0317
+2023/2024,Female,ALL,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,57,51,71,63,207,185,80.3922,38.9831,238.9831,88.6525
+2023/2024,Female,ALL,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,71,63,88,79,207,198,80.9524,39.726,193.1507,95.0355
+2023/2024,Female,ALL,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,60,55,71,66,172,155,81.4815,40.678,198.3051,89.7436
+2023/2024,Female,ALL,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,62,56,77,69,219,192,81.8182,39.0625,232.8125,87.2483
+2023/2024,Female,ALL,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,69,62,88,79,241,219,80.6452,39.726,224.6575,90.2439
+2023/2024,Female,ALL,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,86,78,109,96,241,206,81.8182,38.8889,182.2222,84.7561
+2023/2024,Female,ALL,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,57,51,68,60,150,133,80.3922,39.2857,182.1429,88.2353
+2023/2024,Female,ALL,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,54,48,69,60,185,185,81.25,38.5965,221.0526,99.2063
+2023/2024,Female,ALL,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,53,47,65,58,185,176,80.8511,38.8889,233.3333,94.4444
+2023/2024,Female,ALL,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,105,87,122,110,290,262,74.4681,39.604,195.0495,89.8477
+2023/2024,Female,ALL,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,124,102,158,142,427,402,73.8739,39.6947,221.374,93.7931
+2023/2024,Female,ALL,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,137,113,169,151,449,423,74.5902,39.2857,217.8571,93.7705
+2023/2024,Female,ALL,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,73,60,89,82,238,214,73.8462,40.5405,218.9189,89.5062
+2023/2024,Female,ALL,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,103,84,129,115,366,342,73.913,39.2523,232.7103,92.7711
+2023/2024,Female,ALL,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,91,74,115,104,325,296,74.0741,40.0,232.6316,90.4977
+2023/2024,Female,ALL,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,108,88,133,118,365,357,73.9583,39.0909,225.4545,97.1774
+2023/2024,Female,ALL,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,136,112,165,148,396,368,74.3802,39.4161,196.3504,92.5651
+2023/2024,Female,ALL,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,106,88,127,115,334,308,74.7368,40.0,216.1905,91.63
+2023/2024,Female,ALL,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,111,92,139,126,362,343,74.7475,40.0,213.913,94.3089
+2023/2024,Female,ALL,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,121,99,149,134,409,377,74.0741,39.8374,226.0163,91.7266
+2023/2024,Female,ALL,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,151,124,191,173,522,496,74.0741,39.8734,224.6835,94.3662
+2023/2024,Female,ALL,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,102,84,126,115,325,308,74.7253,40.3846,212.5,94.1176
+2023/2024,Female,ALL,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,101,83,127,115,356,343,74.4444,40.0,230.4762,95.8678
+2023/2024,Female,ALL,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,93,77,121,110,303,283,74.6988,40.0,206.0,92.7184
+2023/2024,Female,ALL,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,131,115,157,142,411,377,79.4872,40.0,214.6154,91.3978
+2023/2024,Female,ALL,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,177,156,225,203,642,583,79.7468,39.7849,234.4086,90.367
+2023/2024,Female,ALL,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,199,176,251,227,718,655,79.7753,39.9038,234.6154,90.7787
+2023/2024,Female,ALL,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,93,82,112,101,294,278,79.5181,39.7849,215.0538,94.0
+2023/2024,Female,ALL,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,140,123,173,156,478,432,79.2,39.8601,227.2727,89.8462
+2023/2024,Female,ALL,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,125,110,152,140,436,414,79.4643,40.4762,234.9206,94.5946
+2023/2024,Female,ALL,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,136,119,168,151,466,436,79.3388,39.5683,228.0576,93.0599
+2023/2024,Female,ALL,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,176,155,226,206,567,519,79.6178,40.107,205.8824,91.1688
+2023/2024,Female,ALL,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,143,126,171,156,428,391,79.6875,40.1408,204.9296,90.7216
+2023/2024,Female,ALL,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,144,128,180,162,478,429,79.845,39.5973,218.1208,89.2308
+2023/2024,Female,ALL,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,158,139,194,175,514,475,79.4326,39.7516,216.7702,91.9771
+2023/2024,Female,ALL,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,201,176,244,219,642,578,79.3296,39.604,215.8416,89.6789
+2023/2024,Female,ALL,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,136,119,169,153,419,385,79.3388,40.0,203.5714,91.2281
+2023/2024,Female,ALL,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,137,120,173,156,484,445,79.5082,39.8601,230.0699,91.4894
+2023/2024,Female,ALL,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,133,118,168,151,469,436,79.8319,39.5683,229.4964,92.4765
+2023/2024,Female,Disabled,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,6,5,6,5,15,13,80.0,40.0,200.0,90.0
+2023/2024,Female,Disabled,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,6,5,6,5,31,27,80.0,40.0,420.0,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,6,5,6,5,24,21,80.0,40.0,320.0,87.5
+2023/2024,Female,Disabled,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,6,5,6,5,31,27,80.0,40.0,420.0,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,6,5,6,5,31,27,80.0,40.0,420.0,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,6,5,6,5,31,27,80.0,40.0,420.0,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,6,5,7,5,31,30,80.0,33.3333,350.0,95.2381
+2023/2024,Female,Disabled,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,6,5,7,5,24,22,80.0,33.3333,266.6667,93.75
+2023/2024,Female,Disabled,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,6,5,6,5,24,21,80.0,40.0,320.0,87.5
+2023/2024,Female,Disabled,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,6,5,6,5,31,27,80.0,40.0,420.0,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,6,5,7,5,31,27,80.0,33.3333,350.0,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,7,6,10,8,24,21,83.3333,37.5,200.0,87.5
+2023/2024,Female,Disabled,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,6,5,6,5,15,13,80.0,40.0,200.0,90.0
+2023/2024,Female,Disabled,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,6,5,6,5,31,30,80.0,40.0,420.0,95.2381
+2023/2024,Female,Disabled,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,6,5,7,5,31,30,80.0,33.3333,350.0,95.2381
+2023/2024,Female,Disabled,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,8,6,10,8,29,27,71.4286,37.5,250.0,90.0
+2023/2024,Female,Disabled,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,9,7,12,11,31,27,75.0,40.0,210.0,85.7143
+2023/2024,Female,Disabled,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,11,9,14,14,37,34,70.0,41.6667,208.3333,92.0
+2023/2024,Female,Disabled,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,7,5,8,8,31,27,66.6667,42.8571,300.0,85.7143
+2023/2024,Female,Disabled,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,7,5,8,8,31,27,66.6667,42.8571,300.0,85.7143
+2023/2024,Female,Disabled,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,7,5,8,8,31,27,66.6667,42.8571,300.0,85.7143
+2023/2024,Female,Disabled,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,9,7,11,8,31,27,75.0,33.3333,233.3333,85.7143
+2023/2024,Female,Disabled,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,9,7,11,8,24,21,75.0,33.3333,177.7778,87.5
+2023/2024,Female,Disabled,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,7,5,8,8,31,27,66.6667,42.8571,300.0,85.7143
+2023/2024,Female,Disabled,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,9,7,12,11,31,27,75.0,40.0,210.0,85.7143
+2023/2024,Female,Disabled,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,9,7,12,11,31,27,75.0,40.0,210.0,85.7143
+2023/2024,Female,Disabled,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,12,10,14,14,37,34,72.7273,41.6667,208.3333,92.0
+2023/2024,Female,Disabled,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,9,7,11,11,31,27,75.0,44.4444,233.3333,85.7143
+2023/2024,Female,Disabled,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,7,5,8,8,31,27,66.6667,42.8571,300.0,85.7143
+2023/2024,Female,Disabled,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,8,6,11,8,31,27,71.4286,33.3333,233.3333,85.7143
+2023/2024,Female,Disabled,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,10,9,12,11,32,28,77.7778,40.0,220.0,86.3636
+2023/2024,Female,Disabled,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,13,12,18,16,40,36,83.3333,40.0,180.0,88.8889
+2023/2024,Female,Disabled,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,16,14,21,19,47,41,78.5714,41.1765,188.2353,87.5
+2023/2024,Female,Disabled,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,8,7,10,8,25,24,85.7143,37.5,212.5,94.1176
+2023/2024,Female,Disabled,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,10,9,11,11,25,24,77.7778,44.4444,188.8889,94.1176
+2023/2024,Female,Disabled,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,9,7,10,8,25,24,75.0,37.5,212.5,94.1176
+2023/2024,Female,Disabled,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,11,10,14,14,32,31,80.0,41.6667,183.3333,95.4545
+2023/2024,Female,Disabled,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,11,10,16,14,32,31,80.0,38.4615,169.2308,95.4545
+2023/2024,Female,Disabled,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,10,9,12,11,25,24,77.7778,40.0,170.0,94.1176
+2023/2024,Female,Disabled,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,11,10,14,14,25,22,80.0,41.6667,141.6667,88.2353
+2023/2024,Female,Disabled,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,11,10,13,11,25,24,80.0,36.3636,154.5455,94.1176
+2023/2024,Female,Disabled,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,16,14,19,16,40,37,78.5714,37.5,168.75,92.5926
+2023/2024,Female,Disabled,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,12,11,14,14,25,24,81.8182,41.6667,141.6667,94.1176
+2023/2024,Female,Disabled,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,10,9,12,11,25,24,77.7778,40.0,170.0,94.1176
+2023/2024,Female,Disabled,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,12,11,16,14,32,31,81.8182,38.4615,169.2308,95.4545
+2023/2024,Male,ALL,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,58,52,70,63,188,188,80.7692,39.6552,220.6897,99.2188
+2023/2024,Male,ALL,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,75,68,98,88,300,257,82.0896,39.5062,251.8519,85.2941
+2023/2024,Male,ALL,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,71,63,88,79,230,201,80.9524,39.726,213.6986,87.1795
+2023/2024,Male,ALL,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,43,38,53,47,132,132,81.5789,38.6364,204.5455,98.8889
+2023/2024,Male,ALL,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,57,51,72,66,202,188,80.3922,40.0,228.3333,92.7007
+2023/2024,Male,ALL,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,55,50,71,63,203,185,81.6327,38.9831,233.8983,90.5797
+2023/2024,Male,ALL,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,64,57,77,69,219,189,80.7018,39.0625,232.8125,85.906
+2023/2024,Male,ALL,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,71,63,87,77,203,192,80.9524,38.8889,191.6667,94.2029
+2023/2024,Male,ALL,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,64,57,78,71,175,158,80.7018,40.0,183.0769,89.916
+2023/2024,Male,ALL,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,62,56,76,69,216,198,81.8182,39.6825,233.3333,91.1565
+2023/2024,Male,ALL,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,72,64,91,82,272,244,81.25,40.0,246.6667,89.1892
+2023/2024,Male,ALL,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,83,74,101,90,272,231,81.0811,39.2857,220.2381,84.3243
+2023/2024,Male,ALL,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,57,52,69,60,190,172,82.3529,38.5965,226.3158,89.9225
+2023/2024,Male,ALL,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,55,50,69,60,203,203,81.6327,38.5965,242.1053,99.2754
+2023/2024,Male,ALL,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,60,55,74,66,190,179,81.4815,39.3443,211.4754,93.7984
+2023/2024,Male,ALL,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,116,95,139,123,313,283,74.0385,39.1304,185.2174,89.6714
+2023/2024,Male,ALL,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,131,108,170,153,478,444,74.359,39.7163,230.4965,92.3077
+2023/2024,Male,ALL,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,137,112,173,156,489,466,73.7705,39.8601,232.1678,94.8795
+2023/2024,Male,ALL,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,76,62,94,85,263,249,73.5294,39.7436,229.4872,93.8547
+2023/2024,Male,ALL,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,110,89,136,123,393,364,73.4694,39.823,236.2832,92.1348
+2023/2024,Male,ALL,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,94,77,117,104,349,337,73.8095,39.1753,244.3299,96.2025
+2023/2024,Male,ALL,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,116,95,144,132,409,391,74.0385,40.3361,233.6134,94.964
+2023/2024,Male,ALL,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,134,110,164,148,441,416,74.1667,39.7059,220.5882,93.6667
+2023/2024,Male,ALL,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,111,91,134,121,371,334,73.7374,39.6396,227.027,89.6825
+2023/2024,Male,ALL,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,118,97,147,132,393,364,74.2857,39.3443,218.8525,92.1348
+2023/2024,Male,ALL,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,129,105,161,145,418,377,73.913,39.8496,213.5338,89.7887
+2023/2024,Male,ALL,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,144,119,174,159,514,475,74.4186,40.2778,242.3611,91.9771
+2023/2024,Male,ALL,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,103,84,127,115,347,325,73.913,40.0,224.7619,93.2203
+2023/2024,Male,ALL,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,101,83,130,118,384,376,74.4444,39.8148,241.6667,97.318
+2023/2024,Male,ALL,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,101,83,124,112,384,376,74.4444,39.8058,253.3981,97.318
+2023/2024,Male,ALL,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,146,129,173,156,450,420,80.0,39.8601,213.986,92.8105
+2023/2024,Male,ALL,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,190,167,241,219,739,676,79.4118,40.0,251.0,91.0359
+2023/2024,Male,ALL,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,190,167,243,219,696,639,79.4118,39.801,235.3234,91.3319
+2023/2024,Male,ALL,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,97,86,121,110,361,328,79.3103,40.0,245.0,90.6122
+2023/2024,Male,ALL,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,146,128,179,162,509,470,79.2308,39.8649,233.7838,91.9075
+2023/2024,Male,ALL,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,128,113,162,148,469,425,79.8246,40.2985,238.0597,89.9687
+2023/2024,Male,ALL,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,155,136,192,173,528,493,79.7101,39.6226,225.7862,92.7577
+2023/2024,Male,ALL,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,165,145,205,186,550,515,79.5918,40.0,220.0,93.0481
+2023/2024,Male,ALL,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,150,133,185,167,519,479,79.8507,39.8693,230.719,91.7847
+2023/2024,Male,ALL,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,158,139,192,173,559,525,79.4326,39.6226,238.9937,93.4211
+2023/2024,Male,ALL,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,170,150,212,192,602,552,79.6053,39.7727,232.3864,91.198
+2023/2024,Male,ALL,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,192,169,234,211,593,536,79.5322,39.6907,207.732,89.8263
+2023/2024,Male,ALL,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,138,122,167,151,444,411,79.6748,39.8551,218.8406,92.053
+2023/2024,Male,ALL,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,138,122,175,159,553,491,79.6748,40.0,259.3103,88.2979
+2023/2024,Male,ALL,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,148,130,184,167,528,479,79.5455,40.1316,236.1842,90.2507
+2023/2024,Male,Disabled,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,6,5,7,5,28,24,80.0,33.3333,316.6667,84.2105
+2023/2024,Male,Disabled,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,6,5,7,5,37,33,80.0,33.3333,416.6667,88.0
+2023/2024,Male,Disabled,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,6,5,7,5,18,16,80.0,33.3333,200.0,91.6667
+2023/2024,Male,Disabled,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,6,5,6,5,18,16,80.0,40.0,240.0,91.6667
+2023/2024,Male,Disabled,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,6,5,6,5,28,25,80.0,40.0,380.0,89.4737
+2023/2024,Male,Disabled,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,6,5,6,5,28,24,80.0,40.0,380.0,84.2105
+2023/2024,Male,Disabled,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,6,5,7,5,28,27,80.0,33.3333,316.6667,94.7368
+2023/2024,Male,Disabled,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,6,5,7,5,18,16,80.0,33.3333,200.0,91.6667
+2023/2024,Male,Disabled,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,6,5,6,5,18,16,80.0,40.0,240.0,91.6667
+2023/2024,Male,Disabled,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,6,5,7,5,28,24,80.0,33.3333,316.6667,84.2105
+2023/2024,Male,Disabled,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,6,5,7,5,37,33,80.0,33.3333,416.6667,88.0
+2023/2024,Male,Disabled,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,7,6,8,8,28,24,83.3333,42.8571,271.4286,84.2105
+2023/2024,Male,Disabled,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,6,5,7,5,18,16,80.0,33.3333,200.0,91.6667
+2023/2024,Male,Disabled,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,6,5,6,5,37,36,80.0,40.0,500.0,96.0
+2023/2024,Male,Disabled,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,6,5,7,5,28,27,80.0,33.3333,316.6667,94.7368
+2023/2024,Male,Disabled,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,9,7,11,11,24,22,75.0,44.4444,177.7778,93.75
+2023/2024,Male,Disabled,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,9,7,12,11,31,27,75.0,40.0,210.0,85.7143
+2023/2024,Male,Disabled,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,12,10,16,14,31,30,72.7273,38.4615,161.5385,95.2381
+2023/2024,Male,Disabled,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,7,5,8,8,31,30,66.6667,42.8571,300.0,95.2381
+2023/2024,Male,Disabled,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,8,6,10,8,31,30,71.4286,37.5,262.5,95.2381
+2023/2024,Male,Disabled,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,7,5,8,8,31,30,66.6667,42.8571,300.0,95.2381
+2023/2024,Male,Disabled,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,10,9,11,11,24,22,77.7778,44.4444,177.7778,93.75
+2023/2024,Male,Disabled,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,9,7,11,11,24,22,75.0,44.4444,177.7778,93.75
+2023/2024,Male,Disabled,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,8,6,10,8,31,30,71.4286,37.5,262.5,95.2381
+2023/2024,Male,Disabled,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,9,7,11,11,31,30,75.0,44.4444,233.3333,95.2381
+2023/2024,Male,Disabled,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,9,7,11,11,24,22,75.0,44.4444,177.7778,93.75
+2023/2024,Male,Disabled,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,12,10,14,14,40,38,72.7273,41.6667,225.0,96.2963
+2023/2024,Male,Disabled,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,9,7,11,11,31,30,75.0,44.4444,233.3333,95.2381
+2023/2024,Male,Disabled,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,8,6,10,8,31,30,71.4286,37.5,262.5,95.2381
+2023/2024,Male,Disabled,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,9,7,11,11,31,30,75.0,44.4444,233.3333,95.2381
+2023/2024,Male,Disabled,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,11,10,14,14,37,34,80.0,41.6667,208.3333,92.0
+2023/2024,Male,Disabled,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,15,12,18,16,37,34,76.9231,40.0,166.6667,92.0
+2023/2024,Male,Disabled,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,17,15,22,19,44,34,80.0,38.8889,166.6667,76.6667
+2023/2024,Male,Disabled,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,9,7,11,11,31,27,75.0,44.4444,233.3333,85.7143
+2023/2024,Male,Disabled,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,10,9,13,14,31,27,77.7778,45.4545,190.9091,85.7143
+2023/2024,Male,Disabled,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,9,7,10,8,31,27,75.0,37.5,262.5,85.7143
+2023/2024,Male,Disabled,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,12,11,16,14,37,34,81.8182,38.4615,192.3077,92.0
+2023/2024,Male,Disabled,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,11,10,13,14,24,21,80.0,45.4545,145.4545,87.5
+2023/2024,Male,Disabled,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,10,9,12,11,31,27,77.7778,40.0,210.0,85.7143
+2023/2024,Male,Disabled,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,12,11,14,14,37,34,81.8182,41.6667,208.3333,92.0
+2023/2024,Male,Disabled,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,13,12,16,14,37,34,83.3333,38.4615,192.3077,92.0
+2023/2024,Male,Disabled,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,15,12,19,16,37,34,76.9231,37.5,156.25,92.0
+2023/2024,Male,Disabled,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,12,11,16,14,31,27,81.8182,38.4615,161.5385,85.7143
+2023/2024,Male,Disabled,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,10,9,12,11,31,27,77.7778,40.0,210.0,85.7143
+2023/2024,Male,Disabled,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,13,12,16,14,37,34,83.3333,38.4615,192.3077,92.0
+2024/2025,Female,ALL,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,52,43,30,27,9,9,76.0870,40.0000,24.0000,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,62,52,39,33,16,15,76.3636,37.5000,34.3750,90.9091
+2024/2025,Female,ALL,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,69,57,42,38,16,15,74.1935,40.0000,31.4286,90.9091
+2024/2025,Female,ALL,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,38,32,23,19,9,9,76.4706,36.8421,31.5789,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,53,43,31,30,13,12,74.4681,42.3077,34.6154,88.8889
+2024/2025,Female,ALL,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,54,45,34,30,15,13,75.0000,39.2857,35.7143,90.0000
+2024/2025,Female,ALL,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,52,43,31,30,13,13,76.0870,42.3077,34.6154,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,65,53,41,36,15,13,74.1379,38.2353,29.4118,90.0000
+2024/2025,Female,ALL,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,54,45,31,27,12,10,75.0000,38.4615,30.7692,87.5000
+2024/2025,Female,ALL,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,55,45,34,30,15,13,73.4694,39.2857,35.7143,90.0000
+2024/2025,Female,ALL,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,60,51,37,33,16,15,75.9259,38.7097,35.4839,90.9091
+2024/2025,Female,ALL,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,75,63,48,44,15,13,76.1194,40.0000,25.0000,90.0000
+2024/2025,Female,ALL,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,54,45,34,30,13,12,75.0000,39.2857,32.1429,88.8889
+2024/2025,Female,ALL,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,54,45,34,30,13,13,75.0000,39.2857,32.1429,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,47,40,29,25,13,12,76.1905,37.5000,37.5000,88.8889
+2024/2025,Female,ALL,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,729,550,436,392,162,146,68.2028,39.6122,30.4709,90.0000
+2024/2025,Female,ALL,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,933,702,595,529,249,226,67.9472,39.1481,34.2799,90.5325
+2024/2025,Female,ALL,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,1035,782,636,559,241,226,68.2900,38.7097,31.1195,93.2927
+2024/2025,Female,ALL,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,525,391,318,285,124,108,67.1642,39.5437,31.9392,86.9048
+2024/2025,Female,ALL,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,729,550,449,400,184,176,68.2028,39.2473,33.6022,95.2000
+2024/2025,Female,ALL,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,746,560,464,411,184,173,67.8679,39.0625,32.5521,93.6000
+2024/2025,Female,ALL,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,772,578,472,422,191,175,67.6343,39.3862,33.2481,90.7692
+2024/2025,Female,ALL,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,933,702,581,518,221,200,67.9472,39.2931,31.1850,90.0000
+2024/2025,Female,ALL,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,789,595,482,433,180,158,68.1818,39.5990,30.5764,87.7049
+2024/2025,Female,ALL,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,814,614,505,444,197,178,68.0880,38.7560,32.0574,89.5522
+2024/2025,Female,ALL,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,899,676,559,496,221,209,67.8705,39.0929,32.3974,94.0000
+2024/2025,Female,ALL,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,1213,915,753,677,288,272,68.1440,39.5833,31.4103,93.8776
+2024/2025,Female,ALL,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,755,569,454,400,169,155,68.1009,38.8298,30.5851,91.3043
+2024/2025,Female,ALL,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,772,578,472,422,197,185,67.6343,39.3862,34.2711,93.2836
+2024/2025,Female,ALL,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,662,497,404,359,156,149,67.8511,39.1045,31.6418,95.2830
+2024/2025,Female,ALL,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,1081,874,656,586,222,210,73.0570,39.4107,27.8085,94.0397
+2024/2025,Female,ALL,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,1435,1169,919,825,390,355,73.6144,39.5532,34.8226,90.5660
+2024/2025,Female,ALL,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,1435,1169,899,803,347,327,73.6144,39.3289,31.6779,93.6441
+2024/2025,Female,ALL,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,754,609,466,416,180,170,72.9569,39.3782,31.6062,94.2623
+2024/2025,Female,ALL,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,1117,913,686,611,283,262,73.8215,39.2606,33.8028,92.1875
+2024/2025,Female,ALL,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,1026,837,631,564,250,235,73.6900,39.3881,32.5048,93.5294
+2024/2025,Female,ALL,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,1090,884,686,611,266,247,73.2785,39.2606,31.8662,92.2652
+2024/2025,Female,ALL,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,1317,1074,792,699,303,280,73.6395,38.8720,31.4024,91.7476
+2024/2025,Female,ALL,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,1199,978,734,655,272,251,73.7383,39.3092,30.4276,91.8919
+2024/2025,Female,ALL,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,1126,913,681,611,271,250,73.2338,39.5390,32.6241,91.8478
+2024/2025,Female,ALL,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,1371,1112,864,767,338,309,73.2843,39.1061,32.1229,90.8696
+2024/2025,Female,ALL,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,1680,1369,996,891,386,351,73.6000,39.3939,31.7576,90.4580
+2024/2025,Female,ALL,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,1108,903,681,608,255,235,73.6097,39.3617,30.6738,91.9075
+2024/2025,Female,ALL,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,1072,874,665,597,260,240,73.6677,39.5644,32.1234,91.5254
+2024/2025,Female,ALL,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,1026,837,641,575,271,251,73.6900,39.5480,34.6516,92.3913
+2024/2025,Female,Disabled,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,6,5,4,3,1,1,80.0000,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,6,5,4,3,3,3,80.0000,33.3333,66.6667,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,8,5,4,5,3,3,57.1429,66.6667,66.6667,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,6,5,4,3,3,3,80.0000,33.3333,66.6667,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,6,5,4,3,1,1,80.0000,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,6,5,4,3,3,3,80.0000,33.3333,66.6667,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,6,5,4,3,3,3,80.0000,33.3333,66.6667,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,6,5,4,3,1,1,80.0000,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,6,5,4,3,1,1,80.0000,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,6,5,4,3,3,3,80.0000,33.3333,66.6667,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,6,5,4,3,3,3,80.0000,33.3333,66.6667,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,7,5,4,3,1,1,66.6667,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,6,5,4,3,1,1,80.0000,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,6,5,4,3,3,3,80.0000,33.3333,66.6667,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,6,5,4,3,3,3,80.0000,33.3333,66.6667,100.0000
+2024/2025,Female,Disabled,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,67,51,36,38,16,15,68.3333,46.6667,36.6667,90.9091
+2024/2025,Female,Disabled,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,77,61,47,38,16,15,71.0145,35.8974,28.2051,90.9091
+2024/2025,Female,Disabled,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,96,71,63,60,16,15,66.2791,42.3077,21.1538,90.9091
+2024/2025,Female,Disabled,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,58,40,36,36,16,15,61.5385,43.3333,36.6667,90.9091
+2024/2025,Female,Disabled,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,58,40,36,36,16,15,61.5385,43.3333,36.6667,90.9091
+2024/2025,Female,Disabled,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,58,40,36,36,16,16,61.5385,43.3333,36.6667,100.0000
+2024/2025,Female,Disabled,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,67,51,47,36,16,16,68.3333,33.3333,28.2051,100.0000
+2024/2025,Female,Disabled,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,77,61,47,36,16,16,71.0145,33.3333,28.2051,100.0000
+2024/2025,Female,Disabled,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,67,51,41,36,16,15,68.3333,38.2353,32.3529,90.9091
+2024/2025,Female,Disabled,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,77,61,47,49,16,15,71.0145,46.1538,28.2051,90.9091
+2024/2025,Female,Disabled,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,77,61,47,36,16,16,71.0145,33.3333,28.2051,100.0000
+2024/2025,Female,Disabled,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,106,81,68,60,19,19,68.4211,39.2857,23.2143,100.0000
+2024/2025,Female,Disabled,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,67,51,41,36,16,16,68.3333,38.2353,32.3529,100.0000
+2024/2025,Female,Disabled,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,67,51,41,36,16,16,68.3333,38.2353,32.3529,100.0000
+2024/2025,Female,Disabled,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,67,51,41,36,16,16,68.3333,38.2353,32.3529,100.0000
+2024/2025,Female,Disabled,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,103,86,62,49,22,19,75.0000,35.2941,29.4118,86.6667
+2024/2025,Female,Disabled,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,113,97,77,77,25,24,77.2277,43.7500,26.5625,94.1176
+2024/2025,Female,Disabled,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,134,107,88,77,25,24,71.6667,38.3562,23.2877,94.1176
+2024/2025,Female,Disabled,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,73,53,50,49,18,16,66.1538,43.9024,29.2683,91.6667
+2024/2025,Female,Disabled,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,83,64,50,38,22,19,70.2703,34.1463,36.5854,86.6667
+2024/2025,Female,Disabled,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,83,64,56,49,18,16,70.2703,39.1304,26.0870,91.6667
+2024/2025,Female,Disabled,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,103,86,62,49,22,21,75.0000,35.2941,29.4118,93.3333
+2024/2025,Female,Disabled,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,103,86,60,49,21,19,75.0000,36.0000,28.0000,92.8571
+2024/2025,Female,Disabled,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,93,74,56,49,18,16,72.2892,39.1304,26.0870,91.6667
+2024/2025,Female,Disabled,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,103,86,60,49,22,19,75.0000,36.0000,30.0000,86.6667
+2024/2025,Female,Disabled,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,103,86,60,49,19,19,75.0000,36.0000,26.0000,100.0000
+2024/2025,Female,Disabled,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,155,128,100,88,29,24,74.6377,38.5542,24.0964,80.0000
+2024/2025,Female,Disabled,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,113,97,72,63,21,19,77.2277,38.3333,23.3333,92.8571
+2024/2025,Female,Disabled,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,93,74,56,49,18,16,72.2892,39.1304,26.0870,91.6667
+2024/2025,Female,Disabled,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,103,86,66,63,21,19,75.0000,41.8182,25.4545,92.8571
+2024/2025,Male,ALL,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,55,46,31,30,10,10,75.5102,42.3077,26.9231,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,67,56,42,38,19,18,75.0000,40.0000,37.1429,92.3077
+2024/2025,Male,ALL,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,71,58,43,38,18,15,74.6032,38.8889,33.3333,83.3333
+2024/2025,Male,ALL,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,39,32,23,19,10,10,74.2857,36.8421,36.8421,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,55,46,35,30,16,13,75.5102,37.9310,37.9310,81.8182
+2024/2025,Male,ALL,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,52,43,31,30,16,15,76.0870,42.3077,42.3077,90.9091
+2024/2025,Male,ALL,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,55,46,34,30,15,13,75.5102,39.2857,35.7143,90.0000
+2024/2025,Male,ALL,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,66,55,40,36,15,13,74.5763,39.3939,30.3030,90.0000
+2024/2025,Male,ALL,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,55,45,33,30,10,10,73.4694,40.7407,25.9259,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,59,50,39,33,18,16,75.4717,37.5000,37.5000,91.6667
+2024/2025,Male,ALL,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,66,55,41,36,16,15,74.5763,38.2353,32.3529,90.9091
+2024/2025,Male,ALL,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,74,62,46,41,18,16,75.7576,39.4737,31.5789,91.6667
+2024/2025,Male,ALL,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,55,45,33,27,12,10,73.4694,37.0370,29.6296,87.5000
+2024/2025,Male,ALL,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,53,43,34,30,15,15,74.4681,39.2857,35.7143,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,50,42,31,27,13,13,75.5556,38.4615,34.6154,100.0000
+2024/2025,Male,ALL,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,781,586,454,411,159,142,67.8623,39.8936,28.7234,88.8889
+2024/2025,Male,ALL,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,1018,765,658,592,277,266,67.8768,39.6330,34.4954,95.7447
+2024/2025,Male,ALL,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,1060,800,668,603,281,259,68.1818,39.7830,34.5389,91.6230
+2024/2025,Male,ALL,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,525,391,318,285,135,121,67.1642,39.5437,34.9810,89.1304
+2024/2025,Male,ALL,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,805,604,503,455,215,197,67.7330,39.8082,35.0120,91.0959
+2024/2025,Male,ALL,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,746,560,459,400,191,183,67.8679,38.4211,34.2105,95.3846
+2024/2025,Male,ALL,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,840,631,518,463,212,197,67.8667,39.3939,33.5664,92.3611
+2024/2025,Male,ALL,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,941,712,577,518,231,217,68.3333,39.5397,32.8452,93.6306
+2024/2025,Male,ALL,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,805,604,485,433,193,176,67.7330,39.3035,32.5871,90.8397
+2024/2025,Male,ALL,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,891,667,554,496,227,204,67.6730,39.4336,33.5512,89.6104
+2024/2025,Male,ALL,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,941,710,581,518,238,217,68.2143,39.2931,33.6798,90.7407
+2024/2025,Male,ALL,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,1154,872,691,611,281,259,68.2524,38.9860,33.3916,91.6230
+2024/2025,Male,ALL,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,763,578,477,422,193,183,68.4288,38.9873,33.1646,94.6565
+2024/2025,Male,ALL,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,721,542,446,400,202,183,67.8571,39.5664,37.1274,90.5109
+2024/2025,Male,ALL,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,763,578,472,422,200,189,68.4288,39.3862,34.7826,94.1176
+2024/2025,Male,ALL,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,1181,960,710,633,255,240,73.4345,39.2857,29.4218,93.6416
+2024/2025,Male,ALL,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,1417,1149,890,789,381,343,73.2806,39.0773,35.1425,89.5753
+2024/2025,Male,ALL,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,1570,1273,967,858,393,351,73.2525,39.0762,33.3333,88.7640
+2024/2025,Male,ALL,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,781,637,466,416,203,188,73.7446,39.3782,35.7513,92.0290
+2024/2025,Male,ALL,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,1181,960,724,644,309,284,73.4345,39.1667,35.0000,91.4286
+2024/2025,Male,ALL,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,1072,874,660,586,275,253,73.6677,39.1225,34.1865,91.4439
+2024/2025,Male,ALL,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,1144,931,705,633,293,266,73.5553,39.5548,34.0753,90.4523
+2024/2025,Male,ALL,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,1335,1084,816,734,328,299,73.3221,39.6450,32.9882,90.5830
+2024/2025,Male,ALL,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,1199,978,734,655,287,265,73.7383,39.3092,32.0724,91.7949
+2024/2025,Male,ALL,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,1271,1035,778,688,328,311,73.5683,38.9752,34.6273,94.1704
+2024/2025,Male,ALL,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,1426,1159,864,767,363,337,73.4485,39.1061,34.4972,92.3077
+2024/2025,Male,ALL,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,1643,1340,1049,937,416,391,73.6878,39.3556,32.5662,93.2862
+2024/2025,Male,ALL,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,1117,913,676,597,280,265,73.8215,38.9286,33.9286,94.2105
+2024/2025,Male,ALL,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,1035,846,651,586,287,272,73.8095,39.7032,36.1781,94.3590
+2024/2025,Male,ALL,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,1126,913,695,622,293,274,73.2338,39.4097,34.5486,92.9648
+2024/2025,Male,Disabled,NABTEB,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,6,5,4,3,0,1,80.0000,33.3333,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,6,5,4,3,3,3,80.0000,33.3333,66.6667,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,7,5,4,5,3,1,66.6667,66.6667,66.6667,50.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ede,North Central,Kogi,Idah,Ede,,6,5,2,3,3,1,80.0000,50.0000,100.0000,50.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ega,North Central,Kogi,Idah,Ega,,6,5,2,3,3,1,80.0000,50.0000,100.0000,50.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ichala,North Central,Kogi,Idah,Ichala,,6,5,2,3,3,1,80.0000,50.0000,100.0000,50.0000
+2024/2025,Male,Disabled,NABTEB,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,6,5,4,3,1,1,80.0000,33.3333,33.3333,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,6,5,4,3,0,0,80.0000,33.3333,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,6,5,2,3,0,0,80.0000,50.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,6,5,4,3,3,3,80.0000,33.3333,66.6667,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,6,4,4,3,1,1,60.0000,33.3333,33.3333,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,7,5,4,5,1,1,66.6667,66.6667,33.3333,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,6,4,4,3,1,1,60.0000,33.3333,33.3333,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Bariki,North Central,Kogi,Okene,Bariki,,6,4,2,3,3,3,60.0000,50.0000,100.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Idoji,North Central,Kogi,Okene,Idoji,,6,4,4,3,1,1,60.0000,33.3333,33.3333,100.0000
+2024/2025,Male,Disabled,NECO,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,77,61,41,36,12,12,71.0145,38.2353,23.5294,100.0000
+2024/2025,Male,Disabled,NECO,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,86,61,57,49,16,16,63.6364,38.2979,23.4043,100.0000
+2024/2025,Male,Disabled,NECO,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,106,81,72,60,22,21,68.4211,36.6667,25.0000,93.3333
+2024/2025,Male,Disabled,NECO,ward,Ede,North Central,Kogi,Idah,Ede,,58,40,36,36,18,16,61.5385,43.3333,40.0000,91.6667
+2024/2025,Male,Disabled,NECO,ward,Ega,North Central,Kogi,Idah,Ega,,67,51,41,36,16,15,68.3333,38.2353,32.3529,90.9091
+2024/2025,Male,Disabled,NECO,ward,Ichala,North Central,Kogi,Idah,Ichala,,58,40,36,36,18,16,61.5385,43.3333,40.0000,91.6667
+2024/2025,Male,Disabled,NECO,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,77,61,47,36,19,16,71.0145,33.3333,33.3333,84.6154
+2024/2025,Male,Disabled,NECO,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,67,51,41,36,15,13,68.3333,38.2353,29.4118,90.0000
+2024/2025,Male,Disabled,NECO,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,67,51,36,36,18,16,68.3333,43.3333,40.0000,91.6667
+2024/2025,Male,Disabled,NECO,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,77,61,47,49,19,16,71.0145,46.1538,33.3333,84.6154
+2024/2025,Male,Disabled,NECO,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,77,61,52,49,19,16,71.0145,41.8605,30.2326,84.6154
+2024/2025,Male,Disabled,NECO,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,106,81,62,49,22,21,68.4211,35.2941,29.4118,93.3333
+2024/2025,Male,Disabled,NECO,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,77,61,52,49,19,16,71.0145,41.8605,30.2326,84.6154
+2024/2025,Male,Disabled,NECO,ward,Bariki,North Central,Kogi,Okene,Bariki,,57,40,36,36,19,16,62.7451,43.3333,43.3333,84.6154
+2024/2025,Male,Disabled,NECO,ward,Idoji,North Central,Kogi,Okene,Idoji,,67,51,47,36,19,16,68.3333,33.3333,33.3333,84.6154
+2024/2025,Male,Disabled,WAEC,ward,Ankpa I,North Central,Kogi,Ankpa,Ankpa I,,113,97,66,63,24,22,77.2277,41.8182,29.0909,93.7500
+2024/2025,Male,Disabled,WAEC,ward,Ankpa II,North Central,Kogi,Ankpa,Ankpa II,,124,97,77,77,24,21,70.2703,43.7500,25.0000,87.5000
+2024/2025,Male,Disabled,WAEC,ward,Ankpa Suburb I,North Central,Kogi,Ankpa,Ankpa Suburb I,,144,118,94,88,26,21,73.6434,41.0256,23.0769,77.7778
+2024/2025,Male,Disabled,WAEC,ward,Ede,North Central,Kogi,Idah,Ede,,83,64,50,49,18,16,70.2703,43.9024,29.2683,91.6667
+2024/2025,Male,Disabled,WAEC,ward,Ega,North Central,Kogi,Idah,Ega,,93,74,60,49,18,16,72.2892,36.0000,24.0000,91.6667
+2024/2025,Male,Disabled,WAEC,ward,Ichala,North Central,Kogi,Idah,Ichala,,83,64,50,49,18,16,70.2703,43.9024,29.2683,91.6667
+2024/2025,Male,Disabled,WAEC,ward,Aiyeteju,North Central,Kogi,Kabba/Bunu,Aiyeteju,,113,95,66,63,22,21,76.2376,41.8182,27.2727,93.3333
+2024/2025,Male,Disabled,WAEC,ward,Aiyetoro-Kiri,North Central,Kogi,Kabba/Bunu,Aiyetoro-Kiri,,93,74,60,49,22,21,72.2892,36.0000,30.0000,93.3333
+2024/2025,Male,Disabled,WAEC,ward,Aiyewa,North Central,Kogi,Kabba/Bunu,Aiyewa,,93,74,56,49,18,16,72.2892,39.1304,26.0870,91.6667
+2024/2025,Male,Disabled,WAEC,ward,Eggan,North Central,Kogi,Lokoja,Eggan,,103,86,66,63,22,21,75.0000,41.8182,27.2727,93.3333
+2024/2025,Male,Disabled,WAEC,ward,Kakanda,North Central,Kogi,Lokoja,Kakanda,,124,95,72,63,26,27,69.3694,38.3333,30.0000,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Kupa North East,North Central,Kogi,Lokoja,Kupa North East,,144,118,94,74,26,27,73.6434,34.6154,23.0769,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Abuga/Ozuja,North Central,Kogi,Okene,Abuga/Ozuja,,113,95,72,63,22,21,76.2376,38.3333,25.0000,93.3333
+2024/2025,Male,Disabled,WAEC,ward,Bariki,North Central,Kogi,Okene,Bariki,,83,64,56,49,18,16,70.2703,39.1304,26.0870,91.6667
+2024/2025,Male,Disabled,WAEC,ward,Idoji,North Central,Kogi,Okene,Idoji,,113,95,66,63,22,21,76.2376,41.8182,27.2727,93.3333

@@ -1,541 +1,541 @@
-session,gender,disability_scope,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
-2022/2023,Female,all,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,104,75,117,42,36,35,72.1154,35.8974,30.7692,97.2222
-2022/2023,Female,all,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,117,85,136,49,53,52,72.6496,36.0294,38.9706,98.1132
-2022/2023,Female,all,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,113,81,127,46,49,47,71.6814,36.2205,38.5827,95.9184
-2022/2023,Female,all,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,169,122,198,72,78,64,72.1893,36.3636,39.3939,82.0513
-2022/2023,Female,all,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,153,111,181,65,74,64,72.549,35.9116,40.884,86.4865
-2022/2023,Female,all,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,159,115,177,64,62,51,72.327,36.1582,35.0282,82.2581
-2022/2023,Female,all,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,116,84,142,52,57,47,72.4138,36.6197,40.1408,82.4561
-2022/2023,Female,all,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,150,109,165,60,57,47,72.6667,36.3636,34.5455,82.4561
-2022/2023,Female,all,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,101,74,114,41,49,48,73.2673,35.9649,42.9825,97.9592
-2022/2023,Female,all,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,109,78,126,45,53,47,71.5596,35.7143,42.0635,88.6792
-2022/2023,Female,all,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,120,87,142,52,61,56,72.5,36.6197,42.9577,91.8033
-2022/2023,Female,all,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,118,86,138,50,53,52,72.8814,36.2319,38.4058,98.1132
-2022/2023,Female,all,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,130,94,148,53,57,56,72.3077,35.8108,38.5135,98.2456
-2022/2023,Female,all,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,124,89,144,53,74,68,71.7742,36.8056,51.3889,91.8919
-2022/2023,Female,all,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,117,84,131,47,53,52,71.7949,35.8779,40.458,98.1132
-2022/2023,Female,all,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,185,120,210,76,68,60,64.8649,36.1905,32.381,88.2353
-2022/2023,Female,all,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,207,133,235,85,85,78,64.2512,36.1702,36.1702,91.7647
-2022/2023,Female,all,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,193,125,216,78,79,70,64.7668,36.1111,36.5741,88.6076
-2022/2023,Female,all,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,323,209,385,139,145,125,64.7059,36.1039,37.6623,86.2069
-2022/2023,Female,all,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,293,189,350,127,139,125,64.5051,36.2857,39.7143,89.9281
-2022/2023,Female,all,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,310,200,335,121,107,99,64.5161,36.1194,31.9403,92.5234
-2022/2023,Female,all,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,215,139,246,89,100,92,64.6512,36.1789,40.6504,92.0
-2022/2023,Female,all,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,267,173,316,113,109,102,64.794,35.7595,34.4937,93.578
-2022/2023,Female,all,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,193,125,223,81,87,79,64.7668,36.3229,39.0135,90.8046
-2022/2023,Female,all,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,199,129,235,85,97,85,64.8241,36.1702,41.2766,87.6289
-2022/2023,Female,all,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,226,146,257,93,97,85,64.6018,36.1868,37.7432,87.6289
-2022/2023,Female,all,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,211,137,235,85,87,82,64.9289,36.1702,37.0213,94.2529
-2022/2023,Female,all,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,235,152,270,97,103,95,64.6809,35.9259,38.1481,92.233
-2022/2023,Female,all,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,218,141,264,95,108,97,64.6789,35.9848,40.9091,89.8148
-2022/2023,Female,all,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,223,144,249,90,97,89,64.574,36.1446,38.9558,91.7526
-2022/2023,Female,all,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,249,174,280,101,103,95,69.8795,36.0714,36.7857,92.233
-2022/2023,Female,all,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,266,186,309,112,125,115,69.9248,36.246,40.4531,92.0
-2022/2023,Female,all,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,265,185,313,113,125,115,69.8113,36.1022,39.9361,92.0
-2022/2023,Female,all,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,440,307,503,180,211,195,69.7727,35.7853,41.9483,92.4171
-2022/2023,Female,all,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,368,257,439,158,183,168,69.837,35.9909,41.6856,91.8033
-2022/2023,Female,all,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,389,272,432,156,152,145,69.9229,36.1111,35.1852,95.3947
-2022/2023,Female,all,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,281,197,332,120,131,120,70.1068,36.1446,39.4578,91.6031
-2022/2023,Female,all,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,377,263,428,154,161,148,69.7613,35.9813,37.6168,91.9255
-2022/2023,Female,all,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,236,165,268,97,106,100,69.9153,36.194,39.5522,94.3396
-2022/2023,Female,all,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,250,175,293,106,127,120,70.0,36.1775,43.3447,94.4882
-2022/2023,Female,all,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,309,216,355,128,140,134,69.9029,36.0563,39.4366,95.7143
-2022/2023,Female,all,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,283,198,321,116,112,105,69.9647,36.1371,34.891,93.75
-2022/2023,Female,all,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,317,222,368,133,152,145,70.0315,36.1413,41.3043,95.3947
-2022/2023,Female,all,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,306,214,354,128,162,148,69.9346,36.1582,45.7627,91.358
-2022/2023,Female,all,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,262,183,295,107,112,110,69.8473,36.2712,37.9661,98.2143
-2022/2023,Female,disabled,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,11,8,13,5,3,2,72.7273,38.4615,23.0769,66.6667
-2022/2023,Female,disabled,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,12,9,14,5,9,8,75.0,35.7143,64.2857,88.8889
-2022/2023,Female,disabled,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,11,8,13,5,6,5,72.7273,38.4615,46.1538,83.3333
-2022/2023,Female,disabled,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,13,10,15,6,9,8,76.9231,40.0,60.0,88.8889
-2022/2023,Female,disabled,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,13,10,17,6,9,8,76.9231,35.2941,52.9412,88.8889
-2022/2023,Female,disabled,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,12,9,14,5,6,5,75.0,35.7143,42.8571,83.3333
-2022/2023,Female,disabled,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,11,8,13,5,6,5,72.7273,38.4615,46.1538,83.3333
-2022/2023,Female,disabled,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,12,9,14,5,3,2,75.0,35.7143,21.4286,66.6667
-2022/2023,Female,disabled,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,11,8,13,5,9,8,72.7273,38.4615,69.2308,88.8889
-2022/2023,Female,disabled,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,12,8,13,5,6,5,66.6667,38.4615,46.1538,83.3333
-2022/2023,Female,disabled,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,12,9,14,5,9,8,75.0,35.7143,64.2857,88.8889
-2022/2023,Female,disabled,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,12,9,13,5,6,5,75.0,38.4615,46.1538,83.3333
-2022/2023,Female,disabled,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,13,9,14,5,9,8,69.2308,35.7143,64.2857,88.8889
-2022/2023,Female,disabled,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,12,9,14,5,12,11,75.0,35.7143,85.7143,91.6667
-2022/2023,Female,disabled,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,12,8,13,5,9,8,66.6667,38.4615,69.2308,88.8889
-2022/2023,Female,disabled,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,15,10,17,7,5,4,66.6667,41.1765,29.4118,80.0
-2022/2023,Female,disabled,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,15,9,18,7,10,9,60.0,38.8889,55.5556,90.0
-2022/2023,Female,disabled,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,13,8,14,6,8,7,61.5385,42.8571,57.1429,87.5
-2022/2023,Female,disabled,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,25,16,30,11,11,9,64.0,36.6667,36.6667,81.8182
-2022/2023,Female,disabled,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,25,16,31,12,11,9,64.0,38.7097,35.4839,81.8182
-2022/2023,Female,disabled,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,22,14,23,8,8,7,63.6364,34.7826,34.7826,87.5
-2022/2023,Female,disabled,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,14,9,17,7,11,9,64.2857,41.1765,64.7059,81.8182
-2022/2023,Female,disabled,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,21,13,23,8,10,9,61.9048,34.7826,43.4783,90.0
-2022/2023,Female,disabled,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,15,10,17,7,11,9,66.6667,41.1765,64.7059,81.8182
-2022/2023,Female,disabled,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,17,11,21,8,11,9,64.7059,38.0952,52.381,81.8182
-2022/2023,Female,disabled,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,19,12,19,7,8,7,63.1579,36.8421,42.1053,87.5
-2022/2023,Female,disabled,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,18,12,19,7,11,9,66.6667,36.8421,57.8947,81.8182
-2022/2023,Female,disabled,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,19,12,22,8,11,9,63.1579,36.3636,50.0,81.8182
-2022/2023,Female,disabled,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,18,11,23,9,11,9,61.1111,39.1304,47.8261,81.8182
-2022/2023,Female,disabled,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,16,10,18,7,8,7,62.5,38.8889,44.4444,87.5
-2022/2023,Female,disabled,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,21,15,23,9,9,8,71.4286,39.1304,39.1304,88.8889
-2022/2023,Female,disabled,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,18,13,22,8,9,8,72.2222,36.3636,40.9091,88.8889
-2022/2023,Female,disabled,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,16,11,19,7,9,8,68.75,36.8421,47.3684,88.8889
-2022/2023,Female,disabled,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,33,23,40,14,13,12,69.697,35.0,32.5,92.3077
-2022/2023,Female,disabled,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,31,22,35,13,13,12,70.9677,37.1429,37.1429,92.3077
-2022/2023,Female,disabled,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,28,20,30,11,9,8,71.4286,36.6667,30.0,88.8889
-2022/2023,Female,disabled,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,19,13,21,8,9,8,68.4211,38.0952,42.8571,88.8889
-2022/2023,Female,disabled,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,28,20,32,12,9,8,71.4286,37.5,28.125,88.8889
-2022/2023,Female,disabled,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,19,13,21,8,9,8,68.4211,38.0952,42.8571,88.8889
-2022/2023,Female,disabled,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,21,15,25,9,11,10,71.4286,36.0,44.0,90.9091
-2022/2023,Female,disabled,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,25,17,30,11,11,10,68.0,36.6667,36.6667,90.9091
-2022/2023,Female,disabled,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,24,17,27,10,9,8,70.8333,37.037,33.3333,88.8889
-2022/2023,Female,disabled,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,25,18,28,10,9,8,72.0,35.7143,32.1429,88.8889
-2022/2023,Female,disabled,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,24,17,27,10,11,10,70.8333,37.037,40.7407,90.9091
-2022/2023,Female,disabled,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,18,13,22,8,9,8,72.2222,36.3636,40.9091,88.8889
-2022/2023,Male,all,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,92,67,97,35,35,34,72.8261,36.0825,36.0825,97.1429
-2022/2023,Male,all,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,106,77,120,43,55,54,72.6415,35.8333,45.8333,98.1818
-2022/2023,Male,all,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,101,73,112,40,45,42,72.2772,35.7143,40.1786,93.3333
-2022/2023,Male,all,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,163,118,197,70,105,89,72.3926,35.533,53.2995,84.7619
-2022/2023,Male,all,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,144,104,163,58,70,64,72.2222,35.5828,42.9448,91.4286
-2022/2023,Male,all,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,154,112,174,62,75,68,72.7273,35.6322,43.1034,90.6667
-2022/2023,Male,all,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,118,86,131,47,56,47,72.8814,35.8779,42.7481,83.9286
-2022/2023,Male,all,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,140,102,163,58,71,63,72.8571,35.5828,43.5583,88.7324
-2022/2023,Male,all,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,97,71,105,39,44,43,73.1959,37.1429,41.9048,97.7273
-2022/2023,Male,all,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,107,78,124,44,70,64,72.8972,35.4839,56.4516,91.4286
-2022/2023,Male,all,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,108,78,128,46,60,58,72.2222,35.9375,46.875,96.6667
-2022/2023,Male,all,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,114,83,123,45,51,48,72.807,36.5854,41.4634,94.1176
-2022/2023,Male,all,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,131,95,152,54,75,62,72.5191,35.5263,49.3421,82.6667
-2022/2023,Male,all,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,124,90,156,56,80,75,72.5806,35.8974,51.2821,93.75
-2022/2023,Male,all,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,109,79,131,47,56,42,72.4771,35.8779,42.7481,75.0
-2022/2023,Male,all,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,177,115,199,72,84,74,64.9718,36.1809,42.2111,88.0952
-2022/2023,Male,all,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,194,125,220,80,103,92,64.433,36.3636,46.8182,89.3204
-2022/2023,Male,all,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,180,116,210,77,84,74,64.4444,36.6667,40.0,88.0952
-2022/2023,Male,all,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,320,207,367,132,157,148,64.6875,35.9673,42.7793,94.2675
-2022/2023,Male,all,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,293,190,349,126,157,141,64.8464,36.1032,44.9857,89.8089
-2022/2023,Male,all,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,282,182,314,112,115,107,64.539,35.6688,36.6242,93.0435
-2022/2023,Male,all,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,205,132,237,85,104,94,64.3902,35.865,43.8819,90.3846
-2022/2023,Male,all,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,250,161,289,103,130,118,64.4,35.6401,44.9827,90.7692
-2022/2023,Male,all,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,169,109,189,68,73,60,64.497,35.9788,38.6243,82.1918
-2022/2023,Male,all,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,199,128,240,86,115,103,64.3216,35.8333,47.9167,89.5652
-2022/2023,Male,all,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,200,129,230,83,95,87,64.5,36.087,41.3043,91.5789
-2022/2023,Male,all,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,206,133,231,84,108,93,64.5631,36.3636,46.7532,86.1111
-2022/2023,Male,all,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,223,144,254,92,100,95,64.574,36.2205,39.3701,95.0
-2022/2023,Male,all,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,226,146,267,96,130,120,64.6018,35.9551,48.6891,92.3077
-2022/2023,Male,all,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,201,129,230,84,92,83,64.1791,36.5217,40.0,90.2174
-2022/2023,Male,all,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,226,158,246,89,104,98,69.9115,36.1789,42.2764,94.2308
-2022/2023,Male,all,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,247,172,293,105,132,125,69.6356,35.8362,45.0512,94.697
-2022/2023,Male,all,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,243,169,283,102,128,117,69.5473,36.0424,45.2297,91.4062
-2022/2023,Male,all,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,418,292,487,175,229,220,69.8565,35.9343,47.0226,96.0699
-2022/2023,Male,all,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,369,258,437,157,214,193,69.9187,35.9268,48.9703,90.1869
-2022/2023,Male,all,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,380,265,428,154,189,178,69.7368,35.9813,44.1589,94.1799
-2022/2023,Male,all,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,275,192,314,113,133,128,69.8182,35.9873,42.3567,96.2406
-2022/2023,Male,all,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,342,238,384,138,169,156,69.5906,35.9375,44.0104,92.3077
-2022/2023,Male,all,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,226,158,257,93,117,109,69.9115,36.1868,45.5253,93.1624
-2022/2023,Male,all,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,259,181,307,110,148,136,69.8842,35.8306,48.2085,91.8919
-2022/2023,Male,all,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,277,193,315,114,142,132,69.6751,36.1905,45.0794,92.9577
-2022/2023,Male,all,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,272,190,304,109,130,124,69.8529,35.8553,42.7632,95.3846
-2022/2023,Male,all,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,310,216,358,128,175,163,69.6774,35.7542,48.8827,93.1429
-2022/2023,Male,all,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,286,200,334,120,158,152,69.9301,35.9281,47.3054,96.2025
-2022/2023,Male,all,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,240,167,278,100,125,113,69.5833,35.9712,44.964,90.4
-2022/2023,Male,disabled,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,10,8,12,4,0,0,80.0,33.3333,0.0,0
-2022/2023,Male,disabled,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,11,8,13,5,4,3,72.7273,38.4615,30.7692,75.0
-2022/2023,Male,disabled,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,10,8,12,4,0,0,80.0,33.3333,0.0,0
-2022/2023,Male,disabled,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,12,9,14,5,11,10,75.0,35.7143,78.5714,90.9091
-2022/2023,Male,disabled,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,13,9,16,5,7,6,69.2308,31.25,43.75,85.7143
-2022/2023,Male,disabled,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,11,8,13,5,4,3,72.7273,38.4615,30.7692,75.0
-2022/2023,Male,disabled,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,10,8,12,4,0,0,80.0,33.3333,0.0,0
-2022/2023,Male,disabled,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,11,8,13,5,4,3,72.7273,38.4615,30.7692,75.0
-2022/2023,Male,disabled,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,10,8,12,4,4,3,80.0,33.3333,33.3333,75.0
-2022/2023,Male,disabled,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,11,8,14,5,11,10,72.7273,35.7143,78.5714,90.9091
-2022/2023,Male,disabled,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,11,8,13,5,4,3,72.7273,38.4615,30.7692,75.0
-2022/2023,Male,disabled,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,11,8,12,4,4,3,72.7273,33.3333,33.3333,75.0
-2022/2023,Male,disabled,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,11,8,13,5,11,9,72.7273,38.4615,84.6154,81.8182
-2022/2023,Male,disabled,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,12,9,14,5,11,10,75.0,35.7143,78.5714,90.9091
-2022/2023,Male,disabled,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,10,8,12,4,0,0,80.0,33.3333,0.0,0
-2022/2023,Male,disabled,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,15,10,15,6,8,7,66.6667,40.0,53.3333,87.5
-2022/2023,Male,disabled,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,14,9,16,6,11,10,64.2857,37.5,68.75,90.9091
-2022/2023,Male,disabled,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,12,7,12,5,3,2,58.3333,41.6667,25.0,66.6667
-2022/2023,Male,disabled,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,24,16,28,10,11,10,66.6667,35.7143,39.2857,90.9091
-2022/2023,Male,disabled,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,23,15,28,11,11,10,65.2174,39.2857,39.2857,90.9091
-2022/2023,Male,disabled,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,21,13,23,8,5,4,61.9048,34.7826,21.7391,80.0
-2022/2023,Male,disabled,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,15,9,16,6,11,10,60.0,37.5,68.75,90.9091
-2022/2023,Male,disabled,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,19,12,22,8,11,10,63.1579,36.3636,50.0,90.9091
-2022/2023,Male,disabled,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,14,9,15,6,5,4,64.2857,40.0,33.3333,80.0
-2022/2023,Male,disabled,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,18,12,21,8,11,10,66.6667,38.0952,52.381,90.9091
-2022/2023,Male,disabled,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,17,11,21,8,8,7,64.7059,38.0952,38.0952,87.5
-2022/2023,Male,disabled,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,18,11,20,8,11,9,61.1111,40.0,55.0,81.8182
-2022/2023,Male,disabled,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,18,12,21,8,8,7,66.6667,38.0952,38.0952,87.5
-2022/2023,Male,disabled,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,18,12,19,7,11,10,66.6667,36.8421,57.8947,90.9091
-2022/2023,Male,disabled,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,14,9,16,6,5,4,64.2857,37.5,31.25,80.0
-2022/2023,Male,disabled,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,19,13,20,8,8,7,68.4211,40.0,40.0,87.5
-2022/2023,Male,disabled,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,18,12,21,8,11,9,66.6667,38.0952,52.381,81.8182
-2022/2023,Male,disabled,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,15,10,17,7,8,7,66.6667,41.1765,47.0588,87.5
-2022/2023,Male,disabled,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,34,24,40,14,13,12,70.5882,35.0,32.5,92.3077
-2022/2023,Male,disabled,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,29,20,33,12,13,12,68.9655,36.3636,39.3939,92.3077
-2022/2023,Male,disabled,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,28,19,31,11,10,9,67.8571,35.4839,32.2581,90.0
-2022/2023,Male,disabled,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,20,14,22,8,7,6,70.0,36.3636,31.8182,85.7143
-2022/2023,Male,disabled,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,26,18,31,11,8,7,69.2308,35.4839,25.8065,87.5
-2022/2023,Male,disabled,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,17,12,19,7,11,9,70.5882,36.8421,57.8947,81.8182
-2022/2023,Male,disabled,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,20,14,24,9,11,9,70.0,37.5,45.8333,81.8182
-2022/2023,Male,disabled,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,22,15,26,10,11,9,68.1818,38.4615,42.3077,81.8182
-2022/2023,Male,disabled,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,23,16,27,10,10,9,69.5652,37.037,37.037,90.0
-2022/2023,Male,disabled,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,24,17,28,10,13,12,70.8333,35.7143,46.4286,92.3077
-2022/2023,Male,disabled,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,25,18,30,11,12,11,72.0,36.6667,40.0,91.6667
-2022/2023,Male,disabled,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,17,12,20,8,8,7,70.5882,40.0,40.0,87.5
-2023/2024,Female,all,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,108,83,116,46,17,16,76.8519,39.6552,14.6552,94.1176
-2023/2024,Female,all,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,130,100,153,60,31,30,76.9231,39.2157,20.2614,96.7742
-2023/2024,Female,all,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,121,93,135,53,27,24,76.8595,39.2593,20.0,88.8889
-2023/2024,Female,all,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,180,138,210,83,43,36,76.6667,39.5238,20.4762,83.7209
-2023/2024,Female,all,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,160,123,190,75,35,32,76.875,39.4737,18.4211,91.4286
-2023/2024,Female,all,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,171,131,186,74,29,26,76.6082,39.7849,15.5914,89.6552
-2023/2024,Female,all,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,125,96,144,56,29,26,76.8,38.8889,20.1389,89.6552
-2023/2024,Female,all,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,153,118,167,66,29,26,77.1242,39.521,17.3653,89.6552
-2023/2024,Female,all,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,115,88,132,52,22,21,76.5217,39.3939,16.6667,95.4545
-2023/2024,Female,all,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,111,85,132,52,25,24,76.5766,39.3939,18.9394,96.0
-2023/2024,Female,all,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,132,101,150,59,27,24,76.5152,39.3333,18.0,88.8889
-2023/2024,Female,all,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,120,92,141,55,25,23,76.6667,39.0071,17.7305,92.0
-2023/2024,Female,all,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,140,107,162,64,27,24,76.4286,39.5062,16.6667,88.8889
-2023/2024,Female,all,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,132,102,162,64,33,31,77.2727,39.5062,20.3704,93.9394
-2023/2024,Female,all,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,124,95,144,56,23,22,76.6129,38.8889,15.9722,95.6522
-2023/2024,Female,all,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,205,144,225,89,36,31,70.2439,39.5556,16.0,86.1111
-2023/2024,Female,all,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,226,158,259,103,42,37,69.9115,39.7683,16.2162,88.0952
-2023/2024,Female,all,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,211,148,244,97,45,42,70.1422,39.7541,18.4426,93.3333
-2023/2024,Female,all,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,342,240,402,159,73,65,70.1754,39.5522,18.1592,89.0411
-2023/2024,Female,all,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,298,209,344,136,61,55,70.1342,39.5349,17.7326,90.1639
-2023/2024,Female,all,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,332,233,378,149,55,50,70.1807,39.418,14.5503,90.9091
-2023/2024,Female,all,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,218,152,246,98,42,38,69.7248,39.8374,17.0732,90.4762
-2023/2024,Female,all,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,280,196,315,125,51,47,70.0,39.6825,16.1905,92.1569
-2023/2024,Female,all,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,200,140,226,90,40,36,70.0,39.823,17.6991,90.0
-2023/2024,Female,all,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,208,146,245,97,46,42,70.1923,39.5918,18.7755,91.3043
-2023/2024,Female,all,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,234,164,270,107,46,40,70.0855,39.6296,17.037,86.9565
-2023/2024,Female,all,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,220,154,250,99,42,38,70.0,39.6,16.8,90.4762
-2023/2024,Female,all,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,255,178,296,118,54,49,69.8039,39.8649,18.2432,90.7407
-2023/2024,Female,all,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,240,168,287,114,53,48,70.0,39.7213,18.4669,90.566
-2023/2024,Female,all,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,213,149,247,99,44,40,69.9531,40.081,17.8138,90.9091
-2023/2024,Female,all,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,264,198,304,121,51,47,75.0,39.8026,16.7763,92.1569
-2023/2024,Female,all,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,285,214,329,131,60,57,75.0877,39.8176,18.2371,95.0
-2023/2024,Female,all,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,279,209,322,128,59,55,74.9104,39.7516,18.323,93.2203
-2023/2024,Female,all,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,464,348,541,215,98,91,75.0,39.7412,18.1146,92.8571
-2023/2024,Female,all,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,386,290,448,178,88,83,75.1295,39.7321,19.6429,94.3182
-2023/2024,Female,all,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,448,337,496,197,86,80,75.2232,39.7177,17.3387,93.0233
-2023/2024,Female,all,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,302,227,352,138,62,60,75.1656,39.2045,17.6136,96.7742
-2023/2024,Female,all,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,372,280,412,162,74,68,75.2688,39.3204,17.9612,91.8919
-2023/2024,Female,all,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,241,181,274,108,51,50,75.1037,39.4161,18.6131,98.0392
-2023/2024,Female,all,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,281,211,337,134,67,61,75.089,39.7626,19.8813,91.0448
-2023/2024,Female,all,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,323,243,363,144,63,58,75.2322,39.6694,17.3554,92.0635
-2023/2024,Female,all,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,318,239,361,143,65,63,75.1572,39.6122,18.0055,96.9231
-2023/2024,Female,all,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,333,250,385,152,71,67,75.0751,39.4805,18.4416,94.3662
-2023/2024,Female,all,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,344,259,412,163,81,74,75.2907,39.5631,19.6602,91.358
-2023/2024,Female,all,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,297,223,344,136,62,56,75.0842,39.5349,18.0233,90.3226
-2023/2024,Female,disabled,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,12,9,14,5,0,0,75.0,35.7143,0.0,0
-2023/2024,Female,disabled,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,13,10,15,6,6,5,76.9231,40.0,40.0,83.3333
-2023/2024,Female,disabled,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,13,10,14,5,4,3,76.9231,35.7143,28.5714,75.0
-2023/2024,Female,disabled,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,15,12,15,6,6,5,80.0,40.0,40.0,83.3333
-2023/2024,Female,disabled,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,14,11,17,7,4,3,78.5714,41.1765,23.5294,75.0
-2023/2024,Female,disabled,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,13,10,14,5,1,0,76.9231,35.7143,7.1429,0.0
-2023/2024,Female,disabled,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,12,9,14,5,4,3,75.0,35.7143,28.5714,75.0
-2023/2024,Female,disabled,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,13,10,14,5,3,2,76.9231,35.7143,21.4286,66.6667
-2023/2024,Female,disabled,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,13,10,14,5,4,3,76.9231,35.7143,28.5714,75.0
-2023/2024,Female,disabled,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,13,10,14,5,3,2,76.9231,35.7143,21.4286,66.6667
-2023/2024,Female,disabled,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,13,10,14,5,3,2,76.9231,35.7143,21.4286,66.6667
-2023/2024,Female,disabled,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,12,9,14,5,4,3,75.0,35.7143,28.5714,75.0
-2023/2024,Female,disabled,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,13,10,15,6,3,2,76.9231,40.0,20.0,66.6667
-2023/2024,Female,disabled,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,13,10,15,6,6,5,76.9231,40.0,40.0,83.3333
-2023/2024,Female,disabled,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,13,10,14,5,4,3,76.9231,35.7143,28.5714,75.0
-2023/2024,Female,disabled,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,16,11,20,8,2,1,68.75,40.0,10.0,50.0
-2023/2024,Female,disabled,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,16,11,17,7,4,3,68.75,41.1765,23.5294,75.0
-2023/2024,Female,disabled,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,14,10,16,6,4,3,71.4286,37.5,25.0,75.0
-2023/2024,Female,disabled,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,24,17,27,11,4,3,70.8333,40.7407,14.8148,75.0
-2023/2024,Female,disabled,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,24,17,28,11,5,4,70.8333,39.2857,17.8571,80.0
-2023/2024,Female,disabled,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,22,15,25,10,3,2,68.1818,40.0,12.0,66.6667
-2023/2024,Female,disabled,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,14,10,16,6,4,3,71.4286,37.5,25.0,75.0
-2023/2024,Female,disabled,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,22,15,25,10,3,2,68.1818,40.0,12.0,66.6667
-2023/2024,Female,disabled,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,15,10,17,7,4,3,66.6667,41.1765,23.5294,75.0
-2023/2024,Female,disabled,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,18,13,22,9,5,4,72.2222,40.9091,22.7273,80.0
-2023/2024,Female,disabled,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,20,14,24,10,5,4,70.0,41.6667,20.8333,80.0
-2023/2024,Female,disabled,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,18,13,22,9,4,3,72.2222,40.9091,18.1818,75.0
-2023/2024,Female,disabled,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,21,14,25,10,5,4,66.6667,40.0,20.0,80.0
-2023/2024,Female,disabled,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,20,14,25,10,6,5,70.0,40.0,24.0,83.3333
-2023/2024,Female,disabled,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,17,12,20,8,5,4,70.5882,40.0,25.0,80.0
-2023/2024,Female,disabled,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,22,17,25,10,4,3,77.2727,40.0,16.0,75.0
-2023/2024,Female,disabled,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,21,16,25,10,4,3,76.1905,40.0,16.0,75.0
-2023/2024,Female,disabled,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,16,12,18,7,4,3,75.0,38.8889,22.2222,75.0
-2023/2024,Female,disabled,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,34,25,41,16,7,6,73.5294,39.0244,17.0732,85.7143
-2023/2024,Female,disabled,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,31,23,37,15,7,6,74.1935,40.5405,18.9189,85.7143
-2023/2024,Female,disabled,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,31,23,35,14,4,3,74.1935,40.0,11.4286,75.0
-2023/2024,Female,disabled,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,22,17,25,9,4,3,77.2727,36.0,16.0,75.0
-2023/2024,Female,disabled,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,30,23,34,13,5,4,76.6667,38.2353,14.7059,80.0
-2023/2024,Female,disabled,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,19,14,22,8,4,3,73.6842,36.3636,18.1818,75.0
-2023/2024,Female,disabled,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,23,17,27,11,5,4,73.913,40.7407,18.5185,80.0
-2023/2024,Female,disabled,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,24,18,29,11,4,3,75.0,37.931,13.7931,75.0
-2023/2024,Female,disabled,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,27,20,31,12,4,3,74.0741,38.7097,12.9032,75.0
-2023/2024,Female,disabled,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,26,20,29,11,4,3,76.9231,37.931,13.7931,75.0
-2023/2024,Female,disabled,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,27,20,32,13,5,4,74.0741,40.625,15.625,80.0
-2023/2024,Female,disabled,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,21,16,26,10,4,3,76.1905,38.4615,15.3846,75.0
-2023/2024,Male,all,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,102,78,118,47,18,17,76.4706,39.8305,15.2542,94.4444
-2023/2024,Male,all,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,117,90,136,54,28,26,76.9231,39.7059,20.5882,92.8571
-2023/2024,Male,all,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,109,84,124,49,26,24,77.0642,39.5161,20.9677,92.3077
-2023/2024,Male,all,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,178,137,207,82,46,37,76.9663,39.6135,22.2222,80.4348
-2023/2024,Male,all,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,153,118,183,73,46,40,77.1242,39.8907,25.1366,86.9565
-2023/2024,Male,all,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,163,126,185,74,33,30,77.3006,40.0,17.8378,90.9091
-2023/2024,Male,all,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,126,97,138,55,23,22,76.9841,39.8551,16.6667,95.6522
-2023/2024,Male,all,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,141,108,160,63,36,34,76.5957,39.375,22.5,94.4444
-2023/2024,Male,all,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,105,80,118,47,23,22,76.1905,39.8305,19.4915,95.6522
-2023/2024,Male,all,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,112,86,134,53,33,29,76.7857,39.5522,24.6269,87.8788
-2023/2024,Male,all,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,115,88,130,51,30,29,76.5217,39.2308,23.0769,96.6667
-2023/2024,Male,all,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,119,92,138,55,28,24,77.3109,39.8551,20.2899,85.7143
-2023/2024,Male,all,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,137,106,160,64,33,30,77.3723,40.0,20.625,90.9091
-2023/2024,Male,all,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,128,98,148,58,36,34,76.5625,39.1892,24.3243,94.4444
-2023/2024,Male,all,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,117,90,130,51,23,21,76.9231,39.2308,17.6923,91.3043
-2023/2024,Male,all,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,181,127,204,81,35,30,70.1657,39.7059,17.1569,85.7143
-2023/2024,Male,all,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,203,143,229,91,46,42,70.4433,39.738,20.0873,91.3043
-2023/2024,Male,all,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,187,131,216,86,42,38,70.0535,39.8148,19.4444,90.4762
-2023/2024,Male,all,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,325,228,392,156,81,74,70.1538,39.7959,20.6633,91.358
-2023/2024,Male,all,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,282,198,338,134,71,65,70.2128,39.645,21.0059,91.5493
-2023/2024,Male,all,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,324,227,359,143,63,59,70.0617,39.8329,17.5487,93.6508
-2023/2024,Male,all,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,216,151,243,96,46,41,69.9074,39.5062,18.93,89.1304
-2023/2024,Male,all,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,258,181,295,118,55,51,70.155,40.0,18.6441,92.7273
-2023/2024,Male,all,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,184,129,211,84,41,36,70.1087,39.8104,19.4313,87.8049
-2023/2024,Male,all,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,211,148,251,100,53,47,70.1422,39.8406,21.1155,88.6792
-2023/2024,Male,all,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,225,157,248,98,48,44,69.7778,39.5161,19.3548,91.6667
-2023/2024,Male,all,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,221,155,258,102,48,41,70.1357,39.5349,18.6047,85.4167
-2023/2024,Male,all,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,238,167,271,108,56,51,70.1681,39.8524,20.6642,91.0714
-2023/2024,Male,all,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,236,165,278,110,62,55,69.9153,39.5683,22.3022,88.7097
-2023/2024,Male,all,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,208,146,231,92,48,44,70.1923,39.8268,20.7792,91.6667
-2023/2024,Male,all,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,249,187,284,113,46,42,75.1004,39.7887,16.1972,91.3043
-2023/2024,Male,all,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,264,198,296,118,61,57,75.0,39.8649,20.6081,93.4426
-2023/2024,Male,all,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,252,189,282,111,61,57,75.0,39.3617,21.6312,93.4426
-2023/2024,Male,all,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,450,338,535,212,121,115,75.1111,39.6262,22.6168,95.0413
-2023/2024,Male,all,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,378,284,450,179,96,92,75.1323,39.7778,21.3333,95.8333
-2023/2024,Male,all,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,400,301,455,180,94,88,75.25,39.5604,20.6593,93.617
-2023/2024,Male,all,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,315,236,348,138,73,67,74.9206,39.6552,20.977,91.7808
-2023/2024,Male,all,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,343,258,388,153,79,73,75.2187,39.433,20.3608,92.4051
-2023/2024,Male,all,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,239,179,269,106,55,51,74.8954,39.4052,20.4461,92.7273
-2023/2024,Male,all,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,275,207,331,132,74,71,75.2727,39.8792,22.3565,95.9459
-2023/2024,Male,all,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,284,214,330,131,66,62,75.3521,39.697,20.0,93.9394
-2023/2024,Male,all,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,312,234,356,141,71,64,75.0,39.6067,19.9438,90.1408
-2023/2024,Male,all,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,322,242,363,143,76,69,75.1553,39.3939,20.9366,90.7895
-2023/2024,Male,all,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,332,249,397,157,94,90,75.0,39.5466,23.6776,95.7447
-2023/2024,Male,all,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,277,208,312,124,59,54,75.0903,39.7436,18.9103,91.5254
-2023/2024,Male,disabled,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,11,8,12,4,0,0,72.7273,33.3333,0.0,0
-2023/2024,Male,disabled,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,11,8,12,4,2,1,72.7273,33.3333,16.6667,50.0
-2023/2024,Male,disabled,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,11,8,12,4,2,1,72.7273,33.3333,16.6667,50.0
-2023/2024,Male,disabled,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,14,11,15,6,4,3,78.5714,40.0,26.6667,75.0
-2023/2024,Male,disabled,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,13,10,15,6,6,5,76.9231,40.0,40.0,83.3333
-2023/2024,Male,disabled,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,12,9,14,5,0,0,75.0,35.7143,0.0,0
-2023/2024,Male,disabled,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,11,8,12,4,0,0,72.7273,33.3333,0.0,0
-2023/2024,Male,disabled,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,11,8,12,4,4,3,72.7273,33.3333,33.3333,75.0
-2023/2024,Male,disabled,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,11,8,12,4,2,1,72.7273,33.3333,16.6667,50.0
-2023/2024,Male,disabled,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,12,9,14,5,4,3,75.0,35.7143,28.5714,75.0
-2023/2024,Male,disabled,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,12,9,14,5,4,3,75.0,35.7143,28.5714,75.0
-2023/2024,Male,disabled,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,12,9,14,5,2,1,75.0,35.7143,14.2857,50.0
-2023/2024,Male,disabled,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,12,9,14,5,0,0,75.0,35.7143,0.0,0
-2023/2024,Male,disabled,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,12,9,14,5,6,5,75.0,35.7143,42.8571,83.3333
-2023/2024,Male,disabled,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,11,8,12,4,0,0,72.7273,33.3333,0.0,0
-2023/2024,Male,disabled,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,15,11,15,6,1,0,73.3333,40.0,6.6667,0.0
-2023/2024,Male,disabled,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,15,11,15,6,4,3,73.3333,40.0,26.6667,75.0
-2023/2024,Male,disabled,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,12,8,13,5,4,3,66.6667,38.4615,30.7692,75.0
-2023/2024,Male,disabled,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,24,17,27,11,5,4,70.8333,40.7407,18.5185,80.0
-2023/2024,Male,disabled,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,23,16,29,11,4,3,69.5652,37.931,13.7931,75.0
-2023/2024,Male,disabled,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,22,16,25,10,4,3,72.7273,40.0,16.0,75.0
-2023/2024,Male,disabled,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,16,11,19,8,5,4,68.75,42.1053,26.3158,80.0
-2023/2024,Male,disabled,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,20,14,25,10,4,3,70.0,40.0,16.0,75.0
-2023/2024,Male,disabled,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,15,11,19,8,4,3,73.3333,42.1053,21.0526,75.0
-2023/2024,Male,disabled,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,18,13,21,8,5,4,72.2222,38.0952,23.8095,80.0
-2023/2024,Male,disabled,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,18,13,20,8,4,3,72.2222,40.0,20.0,75.0
-2023/2024,Male,disabled,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,19,14,21,8,4,3,73.6842,38.0952,19.0476,75.0
-2023/2024,Male,disabled,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,20,14,22,9,5,4,70.0,40.9091,22.7273,80.0
-2023/2024,Male,disabled,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,18,13,22,9,5,4,72.2222,40.9091,22.7273,80.0
-2023/2024,Male,disabled,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,15,11,17,7,5,4,73.3333,41.1765,29.4118,80.0
-2023/2024,Male,disabled,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,20,15,22,9,1,0,75.0,40.9091,4.5455,0.0
-2023/2024,Male,disabled,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,19,14,21,8,5,4,73.6842,38.0952,23.8095,80.0
-2023/2024,Male,disabled,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,16,12,17,7,5,4,75.0,41.1765,29.4118,80.0
-2023/2024,Male,disabled,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,35,26,42,16,7,6,74.2857,38.0952,16.6667,85.7143
-2023/2024,Male,disabled,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,30,23,36,14,8,7,76.6667,38.8889,22.2222,87.5
-2023/2024,Male,disabled,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,30,22,34,13,5,4,73.3333,38.2353,14.7059,80.0
-2023/2024,Male,disabled,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,22,17,25,10,5,4,77.2727,40.0,20.0,80.0
-2023/2024,Male,disabled,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,27,20,32,12,5,4,74.0741,37.5,15.625,80.0
-2023/2024,Male,disabled,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,19,14,21,8,5,4,73.6842,38.0952,23.8095,80.0
-2023/2024,Male,disabled,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,23,17,29,11,6,5,73.913,37.931,20.6897,83.3333
-2023/2024,Male,disabled,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,22,17,26,10,5,4,77.2727,38.4615,19.2308,80.0
-2023/2024,Male,disabled,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,26,20,30,12,5,4,76.9231,40.0,16.6667,80.0
-2023/2024,Male,disabled,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,27,20,31,12,5,4,74.0741,38.7097,16.129,80.0
-2023/2024,Male,disabled,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,28,21,33,13,6,5,75.0,39.3939,18.1818,83.3333
-2023/2024,Male,disabled,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,21,16,23,9,5,4,76.1905,39.1304,21.7391,80.0
-2024/2025,Female,all,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,59,44,32,13,7,7,74.5763,40.6250,21.8750,100.0000
-2024/2025,Female,all,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,72,54,42,17,14,14,75.0000,40.4762,33.3333,100.0000
-2024/2025,Female,all,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,65,49,37,15,11,10,75.3846,40.5405,29.7297,90.9091
-2024/2025,Female,all,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,101,75,58,23,19,17,74.2574,39.6552,32.7586,89.4737
-2024/2025,Female,all,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,88,67,52,21,15,14,76.1364,40.3846,28.8462,93.3333
-2024/2025,Female,all,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,92,69,52,20,14,13,75.0000,38.4615,26.9231,92.8571
-2024/2025,Female,all,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,65,49,37,15,11,10,75.3846,40.5405,29.7297,90.9091
-2024/2025,Female,all,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,84,63,47,19,14,12,75.0000,40.4255,29.7872,85.7143
-2024/2025,Female,all,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,61,46,34,13,11,10,75.4098,38.2353,32.3529,90.9091
-2024/2025,Female,all,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,61,46,36,14,13,13,75.4098,38.8889,36.1111,100.0000
-2024/2025,Female,all,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,69,52,40,16,12,11,75.3623,40.0000,30.0000,91.6667
-2024/2025,Female,all,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,66,50,36,14,12,12,75.7576,38.8889,33.3333,100.0000
-2024/2025,Female,all,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,78,59,44,17,15,14,75.6410,38.6364,34.0909,93.3333
-2024/2025,Female,all,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,69,52,41,16,14,13,75.3623,39.0244,34.1463,92.8571
-2024/2025,Female,all,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,69,52,40,16,11,10,75.3623,40.0000,27.5000,90.9091
-2024/2025,Female,all,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,862,585,466,183,113,99,67.8654,39.2704,24.2489,87.6106
-2024/2025,Female,all,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,996,679,564,222,179,162,68.1727,39.3617,31.7376,90.5028
-2024/2025,Female,all,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,933,634,537,210,169,154,67.9528,39.1061,31.4711,91.1243
-2024/2025,Female,all,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,1460,992,848,334,264,237,67.9452,39.3868,31.1321,89.7727
-2024/2025,Female,all,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,1268,862,726,286,228,206,67.9811,39.3939,31.4050,90.3509
-2024/2025,Female,all,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,1438,974,810,318,223,206,67.7330,39.2593,27.5309,92.3767
-2024/2025,Female,all,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,960,652,559,219,169,162,67.9167,39.1771,30.2326,95.8580
-2024/2025,Female,all,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,1219,827,704,279,221,206,67.8425,39.6307,31.3920,93.2127
-2024/2025,Female,all,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,879,599,484,190,159,151,68.1456,39.2562,32.8512,94.9686
-2024/2025,Female,all,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,906,617,542,210,167,156,68.1015,38.7454,30.8118,93.4132
-2024/2025,Female,all,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,1049,715,597,235,174,156,68.1602,39.3635,29.1457,89.6552
-2024/2025,Female,all,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,960,652,553,217,167,154,67.9167,39.2405,30.1989,92.2156
-2024/2025,Female,all,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,1121,759,642,251,197,188,67.7074,39.0966,30.6854,95.4315
-2024/2025,Female,all,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,1049,715,619,242,215,201,68.1602,39.0953,34.7334,93.4884
-2024/2025,Female,all,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,991,675,548,215,169,156,68.1130,39.2336,30.8394,92.3077
-2024/2025,Female,all,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,1271,934,696,274,191,178,73.4854,39.3678,27.4425,93.1937
-2024/2025,Female,all,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,1400,1030,805,315,246,219,73.5714,39.1304,30.5590,89.0244
-2024/2025,Female,all,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,1333,977,746,293,230,214,73.2933,39.2761,30.8311,93.0435
-2024/2025,Female,all,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,2222,1634,1325,520,432,395,73.5374,39.2453,32.6038,91.4352
-2024/2025,Female,all,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,1802,1327,1035,408,315,293,73.6404,39.4203,30.4348,93.0159
-2024/2025,Female,all,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,2012,1480,1123,442,315,288,73.5586,39.3589,28.0499,91.4286
-2024/2025,Female,all,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,1329,977,758,296,225,209,73.5139,39.0501,29.6834,92.8889
-2024/2025,Female,all,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,1845,1356,1066,418,331,293,73.4959,39.2120,31.0507,88.5196
-2024/2025,Female,all,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,1252,920,717,283,230,209,73.4824,39.4700,32.0781,90.8696
-2024/2025,Female,all,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,1357,996,805,318,282,255,73.3972,39.5031,35.0311,90.4255
-2024/2025,Female,all,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,1491,1097,876,344,259,237,73.5748,39.2694,29.5662,91.5058
-2024/2025,Female,all,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,1405,1035,767,300,212,201,73.6655,39.1134,27.6402,94.8113
-2024/2025,Female,all,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,1615,1188,900,354,274,257,73.5604,39.3333,30.4444,93.7956
-2024/2025,Female,all,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,1591,1169,933,366,315,293,73.4758,39.2283,33.7621,93.0159
-2024/2025,Female,all,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,1400,1030,779,303,230,219,73.5714,38.8960,29.5250,95.2174
-2024/2025,Female,disabled,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,7,6,4,2,1,1,85.7143,50.0000,25.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,7,6,4,1,3,3,85.7143,25.0000,75.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,7,5,4,1,3,2,71.4286,25.0000,75.0000,66.6667
-2024/2025,Female,disabled,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,9,7,4,2,3,2,77.7778,50.0000,75.0000,66.6667
-2024/2025,Female,disabled,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,9,7,5,2,2,2,77.7778,40.0000,40.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,8,6,5,2,2,1,75.0000,40.0000,40.0000,50.0000
-2024/2025,Female,disabled,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,7,5,4,1,2,1,71.4286,25.0000,50.0000,50.0000
-2024/2025,Female,disabled,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,7,5,4,2,2,2,71.4286,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,7,5,4,1,2,2,71.4286,25.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,7,5,4,2,3,3,71.4286,50.0000,75.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,8,6,4,2,2,2,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,7,5,4,1,3,3,71.4286,25.0000,75.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,8,6,5,2,3,3,75.0000,40.0000,60.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,8,6,4,2,3,3,75.0000,50.0000,75.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,7,5,4,2,2,1,71.4286,50.0000,50.0000,50.0000
-2024/2025,Female,disabled,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,81,56,48,18,5,3,69.1358,37.5000,10.4167,60.0000
-2024/2025,Female,disabled,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,76,50,48,18,18,17,65.7895,37.5000,37.5000,94.4444
-2024/2025,Female,disabled,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,71,50,42,16,18,17,70.4225,38.0952,42.8571,94.4444
-2024/2025,Female,disabled,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,117,76,68,26,18,17,64.9573,38.2353,26.4706,94.4444
-2024/2025,Female,disabled,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,117,76,68,26,18,17,64.9573,38.2353,26.4706,94.4444
-2024/2025,Female,disabled,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,122,81,70,28,18,17,66.3934,40.0000,25.7143,94.4444
-2024/2025,Female,disabled,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,76,50,42,18,15,14,65.7895,42.8571,35.7143,93.3333
-2024/2025,Female,disabled,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,117,76,68,26,18,17,64.9573,38.2353,26.4706,94.4444
-2024/2025,Female,disabled,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,76,56,40,16,18,17,73.6842,40.0000,45.0000,94.4444
-2024/2025,Female,disabled,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,92,61,58,23,18,17,66.3043,39.6552,31.0345,94.4444
-2024/2025,Female,disabled,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,102,71,58,23,18,17,69.6078,39.6552,31.0345,94.4444
-2024/2025,Female,disabled,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,97,66,50,21,18,17,68.0412,42.0000,36.0000,94.4444
-2024/2025,Female,disabled,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,107,71,58,23,18,17,66.3551,39.6552,31.0345,94.4444
-2024/2025,Female,disabled,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,97,66,58,23,18,17,68.0412,39.6552,31.0345,94.4444
-2024/2025,Female,disabled,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,81,56,47,18,18,17,69.1358,38.2979,38.2979,94.4444
-2024/2025,Female,disabled,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,115,82,63,26,18,15,71.3043,41.2698,28.5714,83.3333
-2024/2025,Female,disabled,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,120,87,71,29,18,15,72.5000,40.8451,25.3521,83.3333
-2024/2025,Female,disabled,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,87,65,52,20,18,15,74.7126,38.4615,34.6154,83.3333
-2024/2025,Female,disabled,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,180,130,104,40,26,25,72.2222,38.4615,25.0000,96.1538
-2024/2025,Female,disabled,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,169,125,99,40,23,22,73.9645,40.4040,23.2323,95.6522
-2024/2025,Female,disabled,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,169,125,96,37,18,15,73.9645,38.5417,18.7500,83.3333
-2024/2025,Female,disabled,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,109,82,63,23,18,15,75.2294,36.5079,28.5714,83.3333
-2024/2025,Female,disabled,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,158,114,93,37,23,22,72.1519,39.7849,24.7312,95.6522
-2024/2025,Female,disabled,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,109,82,66,26,18,15,75.2294,39.3939,27.2727,83.3333
-2024/2025,Female,disabled,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,115,82,69,29,23,22,71.3043,42.0290,33.3333,95.6522
-2024/2025,Female,disabled,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,142,103,82,31,23,22,72.5352,37.8049,28.0488,95.6522
-2024/2025,Female,disabled,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,131,98,77,28,18,15,74.8092,36.3636,23.3766,83.3333
-2024/2025,Female,disabled,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,147,109,85,34,18,15,74.1497,40.0000,21.1765,83.3333
-2024/2025,Female,disabled,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,147,109,85,34,23,22,74.1497,40.0000,27.0588,95.6522
-2024/2025,Female,disabled,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,115,87,66,26,18,15,75.6522,39.3939,27.2727,83.3333
-2024/2025,Male,all,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,53,39,29,11,8,8,73.5849,37.9310,27.5862,100.0000
-2024/2025,Male,all,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,65,49,37,14,13,12,75.3846,37.8378,35.1351,92.3077
-2024/2025,Male,all,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,61,46,35,14,11,10,75.4098,40.0000,31.4286,90.9091
-2024/2025,Male,all,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,100,74,56,22,22,19,74.0000,39.2857,39.2857,86.3636
-2024/2025,Male,all,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,88,66,52,21,21,19,75.0000,40.3846,40.3846,90.4762
-2024/2025,Male,all,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,92,69,50,19,15,12,75.0000,38.0000,30.0000,80.0000
-2024/2025,Male,all,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,64,48,36,14,13,12,75.0000,38.8889,36.1111,92.3077
-2024/2025,Male,all,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,74,55,44,17,17,14,74.3243,38.6364,38.6364,82.3529
-2024/2025,Male,all,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,57,43,32,13,10,10,75.4386,40.6250,31.2500,100.0000
-2024/2025,Male,all,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,61,46,37,14,15,14,75.4098,37.8378,40.5405,93.3333
-2024/2025,Male,all,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,64,48,37,14,13,12,75.0000,37.8378,35.1351,92.3077
-2024/2025,Male,all,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,66,49,37,14,11,11,74.2424,37.8378,29.7297,100.0000
-2024/2025,Male,all,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,71,53,41,16,14,12,74.6479,39.0244,34.1463,85.7143
-2024/2025,Male,all,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,67,51,39,15,15,14,76.1194,38.4615,38.4615,93.3333
-2024/2025,Male,all,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,64,48,36,14,13,13,75.0000,38.8889,36.1111,100.0000
-2024/2025,Male,all,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,795,541,442,174,133,115,68.0503,39.3665,30.0905,86.4662
-2024/2025,Male,all,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,862,585,499,196,192,177,67.8654,39.2786,38.4770,92.1875
-2024/2025,Male,all,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,795,541,464,183,167,154,68.0503,39.4397,35.9914,92.2156
-2024/2025,Male,all,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,1491,1014,879,347,320,297,68.0080,39.4767,36.4050,92.8125
-2024/2025,Male,all,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,1228,835,726,286,262,234,67.9967,39.3939,36.0882,89.3130
-2024/2025,Male,all,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,1335,907,728,288,236,219,67.9401,39.5604,32.4176,92.7966
-2024/2025,Male,all,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,929,630,513,201,187,175,67.8149,39.1813,36.4522,93.5829
-2024/2025,Male,all,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,1214,822,699,274,226,211,67.7100,39.1989,32.3319,93.3628
-2024/2025,Male,all,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,786,536,437,171,149,130,68.1934,39.1304,34.0961,87.2483
-2024/2025,Male,all,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,911,621,533,210,208,190,68.1668,39.3996,39.0244,91.3462
-2024/2025,Male,all,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,938,639,544,212,195,175,68.1237,38.9706,35.8456,89.7436
-2024/2025,Male,all,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,938,639,528,208,195,180,68.1237,39.3939,36.9318,92.3077
-2024/2025,Male,all,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,1107,751,628,249,208,198,67.8410,39.6497,33.1210,95.1923
-2024/2025,Male,all,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,1040,710,604,238,228,211,68.2692,39.4040,37.7483,92.5439
-2024/2025,Male,all,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,920,625,513,203,187,175,67.9348,39.5712,36.4522,93.5829
-2024/2025,Male,all,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,1152,848,637,252,178,161,73.6111,39.5604,27.9435,90.4494
-2024/2025,Male,all,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,1329,977,746,293,264,252,73.5139,39.2761,35.3887,95.4545
-2024/2025,Male,all,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,1200,882,691,271,251,232,73.5000,39.2185,36.3242,92.4303
-2024/2025,Male,all,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,2150,1581,1261,496,463,433,73.5349,39.3339,36.7169,93.5205
-2024/2025,Male,all,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,1783,1313,1028,406,359,318,73.6399,39.4942,34.9222,88.5794
-2024/2025,Male,all,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,2045,1504,1164,457,375,346,73.5452,39.2612,32.2165,92.2667
-2024/2025,Male,all,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,1357,996,777,305,290,265,73.3972,39.2535,37.3230,91.3793
-2024/2025,Male,all,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,1596,1174,924,364,328,293,73.5589,39.3939,35.4978,89.3293
-2024/2025,Male,all,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,1128,829,620,244,217,204,73.4929,39.3548,35.0000,94.0092
-2024/2025,Male,all,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,1343,987,767,303,303,288,73.4922,39.5046,39.5046,95.0495
-2024/2025,Male,all,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,1362,1001,777,305,282,260,73.4949,39.2535,36.2934,92.1986
-2024/2025,Male,all,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,1352,996,743,293,264,245,73.6686,39.4347,35.5316,92.8030
-2024/2025,Male,all,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,1548,1135,886,349,295,267,73.3204,39.3905,33.2957,90.5085
-2024/2025,Male,all,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,1524,1121,910,357,347,316,73.5564,39.2308,38.1319,91.0663
-2024/2025,Male,all,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,1300,953,741,291,261,239,73.3077,39.2713,35.2227,91.5709
-2024/2025,Male,disabled,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,6,5,3,1,0,0,83.3333,33.3333,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,7,5,3,1,2,2,71.4286,33.3333,66.6667,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,6,5,4,1,0,0,83.3333,25.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,9,6,4,2,3,3,66.6667,50.0000,75.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,8,6,5,2,4,4,75.0000,40.0000,80.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,8,6,4,2,0,0,75.0000,50.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,6,5,3,1,2,2,83.3333,33.3333,66.6667,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,7,5,4,2,2,2,71.4286,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,6,5,4,1,1,1,83.3333,25.0000,25.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,7,5,4,2,3,3,71.4286,50.0000,75.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,7,5,4,1,2,2,71.4286,25.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,7,5,4,1,1,1,71.4286,25.0000,25.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,7,5,3,1,1,1,71.4286,33.3333,33.3333,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,7,5,4,2,2,2,71.4286,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,6,5,3,1,1,1,83.3333,33.3333,33.3333,100.0000
-2024/2025,Male,disabled,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,71,50,37,16,10,8,70.4225,43.2432,27.0270,80.0000
-2024/2025,Male,disabled,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,71,50,37,15,18,17,70.4225,40.5405,48.6486,94.4444
-2024/2025,Male,disabled,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,61,40,37,13,18,17,65.5738,35.1351,48.6486,94.4444
-2024/2025,Male,disabled,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,122,81,70,28,18,17,66.3934,40.0000,25.7143,94.4444
-2024/2025,Male,disabled,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,112,76,70,28,18,17,67.8571,40.0000,25.7143,94.4444
-2024/2025,Male,disabled,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,112,76,63,26,15,14,67.8571,41.2698,23.8095,93.3333
-2024/2025,Male,disabled,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,81,56,45,18,18,17,69.1358,40.0000,40.0000,94.4444
-2024/2025,Male,disabled,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,97,66,58,23,18,16,68.0412,39.6552,31.0345,88.8889
-2024/2025,Male,disabled,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,71,50,42,15,10,8,70.4225,35.7143,23.8095,80.0000
-2024/2025,Male,disabled,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,92,61,55,21,18,16,66.3043,38.1818,32.7273,88.8889
-2024/2025,Male,disabled,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,87,61,53,21,12,11,70.1149,39.6226,22.6415,91.6667
-2024/2025,Male,disabled,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,87,61,47,18,18,16,70.1149,38.2979,38.2979,88.8889
-2024/2025,Male,disabled,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,102,71,63,26,12,11,69.6078,41.2698,19.0476,91.6667
-2024/2025,Male,disabled,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,97,66,55,21,17,16,68.0412,38.1818,30.9091,94.1176
-2024/2025,Male,disabled,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,81,56,45,18,17,16,69.1358,40.0000,37.7778,94.1176
-2024/2025,Male,disabled,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,109,82,66,26,6,3,75.2294,39.3939,9.0909,50.0000
-2024/2025,Male,disabled,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,109,82,60,23,20,19,75.2294,38.3333,33.3333,95.0000
-2024/2025,Male,disabled,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,82,60,49,17,20,19,73.1707,34.6939,40.8163,95.0000
-2024/2025,Male,disabled,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,196,141,113,46,32,31,71.9388,40.7080,28.3186,96.8750
-2024/2025,Male,disabled,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,169,125,96,37,26,25,73.9645,38.5417,27.0833,96.1538
-2024/2025,Male,disabled,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,164,120,91,37,20,19,73.1707,40.6593,21.9780,95.0000
-2024/2025,Male,disabled,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,109,82,63,26,20,19,75.2294,41.2698,31.7460,95.0000
-2024/2025,Male,disabled,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,147,109,85,34,20,19,74.1497,40.0000,23.5294,95.0000
-2024/2025,Male,disabled,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,104,76,60,23,15,12,73.0769,38.3333,25.0000,80.0000
-2024/2025,Male,disabled,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,125,92,74,28,26,25,73.6000,37.8378,35.1351,96.1538
-2024/2025,Male,disabled,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,125,92,74,28,20,19,73.6000,37.8378,27.0270,95.0000
-2024/2025,Male,disabled,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,131,98,69,26,20,19,74.8092,37.6812,28.9855,95.0000
-2024/2025,Male,disabled,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,142,103,80,31,20,19,72.5352,38.7500,25.0000,95.0000
-2024/2025,Male,disabled,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,136,98,77,31,26,25,72.0588,40.2597,33.7662,96.1538
-2024/2025,Male,disabled,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,115,81,71,28,20,19,70.4348,39.4366,28.1690,95.0000
+session,gender,disability,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
+2022/2023,Female,ALL,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,71,57,87,71,33,32,72.1154,35.8974,30.7692,97.2222
+2022/2023,Female,ALL,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,80,65,101,83,48,48,72.6496,36.0294,38.9706,98.1132
+2022/2023,Female,ALL,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,77,62,95,78,45,43,71.6814,36.2205,38.5827,95.9184
+2022/2023,Female,ALL,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,116,93,148,122,71,59,72.1893,36.3636,39.3939,82.0513
+2022/2023,Female,ALL,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,105,85,135,110,67,59,72.549,35.9116,40.884,86.4865
+2022/2023,Female,ALL,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,109,88,132,108,56,47,72.327,36.1582,35.0282,82.2581
+2022/2023,Female,ALL,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,80,64,106,88,52,43,72.4138,36.6197,40.1408,82.4561
+2022/2023,Female,ALL,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,103,84,123,102,52,43,72.6667,36.3636,34.5455,82.4561
+2022/2023,Female,ALL,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,69,57,85,69,45,44,73.2673,35.9649,42.9825,97.9592
+2022/2023,Female,ALL,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,75,60,94,76,48,43,71.5596,35.7143,42.0635,88.6792
+2022/2023,Female,ALL,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,82,67,106,88,55,51,72.5,36.6197,42.9577,91.8033
+2022/2023,Female,ALL,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,81,66,103,85,48,48,72.8814,36.2319,38.4058,98.1132
+2022/2023,Female,ALL,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,89,72,110,90,52,51,72.3077,35.8108,38.5135,98.2456
+2022/2023,Female,ALL,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,85,68,107,90,67,62,71.7742,36.8056,51.3889,91.8919
+2022/2023,Female,ALL,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,80,64,98,80,48,48,71.7949,35.8779,40.458,98.1132
+2022/2023,Female,ALL,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,127,92,157,129,62,55,64.8649,36.1905,32.381,88.2353
+2022/2023,Female,ALL,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,142,102,175,144,77,71,64.2512,36.1702,36.1702,91.7647
+2022/2023,Female,ALL,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,132,96,161,132,72,64,64.7668,36.1111,36.5741,88.6076
+2022/2023,Female,ALL,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,221,160,287,235,132,114,64.7059,36.1039,37.6623,86.2069
+2022/2023,Female,ALL,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,201,145,261,215,126,114,64.5051,36.2857,39.7143,89.9281
+2022/2023,Female,ALL,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,213,153,250,205,97,91,64.5161,36.1194,31.9403,92.5234
+2022/2023,Female,ALL,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,147,107,184,151,91,84,64.6512,36.1789,40.6504,92.0
+2022/2023,Female,ALL,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,183,133,236,191,99,93,64.794,35.7595,34.4937,93.578
+2022/2023,Female,ALL,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,132,96,166,137,79,72,64.7668,36.3229,39.0135,90.8046
+2022/2023,Female,ALL,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,136,99,175,144,88,78,64.8241,36.1702,41.2766,87.6289
+2022/2023,Female,ALL,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,155,112,192,157,88,78,64.6018,36.1868,37.7432,87.6289
+2022/2023,Female,ALL,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,145,105,175,144,79,75,64.9289,36.1702,37.0213,94.2529
+2022/2023,Female,ALL,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,161,116,201,164,94,87,64.6809,35.9259,38.1481,92.233
+2022/2023,Female,ALL,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,149,108,197,161,98,89,64.6789,35.9848,40.9091,89.8148
+2022/2023,Female,ALL,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,153,110,186,152,88,81,64.574,36.1446,38.9558,91.7526
+2022/2023,Female,ALL,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,171,133,209,171,94,87,69.8795,36.0714,36.7857,92.233
+2022/2023,Female,ALL,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,182,143,231,190,114,105,69.9248,36.246,40.4531,92.0
+2022/2023,Female,ALL,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,182,142,234,191,114,105,69.8113,36.1022,39.9361,92.0
+2022/2023,Female,ALL,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,302,235,375,305,192,178,69.7727,35.7853,41.9483,92.4171
+2022/2023,Female,ALL,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,252,197,328,268,166,154,69.837,35.9909,41.6856,91.8033
+2022/2023,Female,ALL,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,267,208,322,264,138,133,69.9229,36.1111,35.1852,95.3947
+2022/2023,Female,ALL,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,193,151,248,203,119,110,70.1068,36.1446,39.4578,91.6031
+2022/2023,Female,ALL,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,258,202,319,261,146,135,69.7613,35.9813,37.6168,91.9255
+2022/2023,Female,ALL,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,162,126,200,164,96,91,69.9153,36.194,39.5522,94.3396
+2022/2023,Female,ALL,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,171,134,219,180,115,110,70.0,36.1775,43.3447,94.4882
+2022/2023,Female,ALL,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,212,166,265,217,127,123,69.9029,36.0563,39.4366,95.7143
+2022/2023,Female,ALL,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,194,152,240,196,102,96,69.9647,36.1371,34.891,93.75
+2022/2023,Female,ALL,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,217,170,275,225,138,133,70.0315,36.1413,41.3043,95.3947
+2022/2023,Female,ALL,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,210,164,264,217,147,135,69.9346,36.1582,45.7627,91.358
+2022/2023,Female,ALL,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,180,140,220,181,102,101,69.8473,36.2712,37.9661,98.2143
+2022/2023,Female,Disabled,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,8,6,10,8,3,2,72.7273,38.4615,23.0769,66.6667
+2022/2023,Female,Disabled,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,8,7,10,8,8,7,75.0,35.7143,64.2857,88.8889
+2022/2023,Female,Disabled,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,8,6,10,8,5,5,72.7273,38.4615,46.1538,83.3333
+2022/2023,Female,Disabled,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,9,8,11,10,8,7,76.9231,40.0,60.0,88.8889
+2022/2023,Female,Disabled,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,9,8,13,10,8,7,76.9231,35.2941,52.9412,88.8889
+2022/2023,Female,Disabled,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,8,7,10,8,5,5,75.0,35.7143,42.8571,83.3333
+2022/2023,Female,Disabled,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,8,6,10,8,5,5,72.7273,38.4615,46.1538,83.3333
+2022/2023,Female,Disabled,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,8,7,10,8,3,2,75.0,35.7143,21.4286,66.6667
+2022/2023,Female,Disabled,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,8,6,10,8,8,7,72.7273,38.4615,69.2308,88.8889
+2022/2023,Female,Disabled,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,8,6,10,8,5,5,66.6667,38.4615,46.1538,83.3333
+2022/2023,Female,Disabled,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,8,7,10,8,8,7,75.0,35.7143,64.2857,88.8889
+2022/2023,Female,Disabled,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,8,7,10,8,5,5,75.0,38.4615,46.1538,83.3333
+2022/2023,Female,Disabled,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,9,7,10,8,8,7,69.2308,35.7143,64.2857,88.8889
+2022/2023,Female,Disabled,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,8,7,10,8,11,10,75.0,35.7143,85.7143,91.6667
+2022/2023,Female,Disabled,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,8,6,10,8,8,7,66.6667,38.4615,69.2308,88.8889
+2022/2023,Female,Disabled,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,10,8,13,12,5,4,66.6667,41.1765,29.4118,80.0
+2022/2023,Female,Disabled,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,10,7,13,12,9,8,60.0,38.8889,55.5556,90.0
+2022/2023,Female,Disabled,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,9,6,10,10,7,6,61.5385,42.8571,57.1429,87.5
+2022/2023,Female,Disabled,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,17,12,22,19,10,8,64.0,36.6667,36.6667,81.8182
+2022/2023,Female,Disabled,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,17,12,23,20,10,8,64.0,38.7097,35.4839,81.8182
+2022/2023,Female,Disabled,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,15,11,17,14,7,6,63.6364,34.7826,34.7826,87.5
+2022/2023,Female,Disabled,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,10,7,13,12,10,8,64.2857,41.1765,64.7059,81.8182
+2022/2023,Female,Disabled,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,14,10,17,14,9,8,61.9048,34.7826,43.4783,90.0
+2022/2023,Female,Disabled,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,10,8,13,12,10,8,66.6667,41.1765,64.7059,81.8182
+2022/2023,Female,Disabled,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,12,8,16,14,10,8,64.7059,38.0952,52.381,81.8182
+2022/2023,Female,Disabled,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,13,9,14,12,7,6,63.1579,36.8421,42.1053,87.5
+2022/2023,Female,Disabled,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,12,9,14,12,10,8,66.6667,36.8421,57.8947,81.8182
+2022/2023,Female,Disabled,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,13,9,16,14,10,8,63.1579,36.3636,50.0,81.8182
+2022/2023,Female,Disabled,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,12,8,17,15,10,8,61.1111,39.1304,47.8261,81.8182
+2022/2023,Female,Disabled,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,11,8,13,12,7,6,62.5,38.8889,44.4444,87.5
+2022/2023,Female,Disabled,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,14,11,17,15,8,7,71.4286,39.1304,39.1304,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,12,10,16,14,8,7,72.2222,36.3636,40.9091,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,11,8,14,12,8,7,68.75,36.8421,47.3684,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,23,18,30,24,12,11,69.697,35.0,32.5,92.3077
+2022/2023,Female,Disabled,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,21,17,26,22,12,11,70.9677,37.1429,37.1429,92.3077
+2022/2023,Female,Disabled,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,19,15,22,19,8,7,71.4286,36.6667,30.0,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,13,10,16,14,8,7,68.4211,38.0952,42.8571,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,19,15,24,20,8,7,71.4286,37.5,28.125,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,13,10,16,14,8,7,68.4211,38.0952,42.8571,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,14,11,19,15,10,9,71.4286,36.0,44.0,90.9091
+2022/2023,Female,Disabled,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,17,13,22,19,10,9,68.0,36.6667,36.6667,90.9091
+2022/2023,Female,Disabled,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,16,13,20,17,8,7,70.8333,37.037,33.3333,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,17,14,21,17,8,7,72.0,35.7143,32.1429,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,16,13,20,17,10,9,70.8333,37.037,40.7407,90.9091
+2022/2023,Female,Disabled,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,12,10,16,14,8,7,72.2222,36.3636,40.9091,88.8889
+2022/2023,Male,ALL,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,63,51,72,59,32,31,72.8261,36.0825,36.0825,97.1429
+2022/2023,Male,ALL,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,73,59,90,73,50,49,72.6415,35.8333,45.8333,98.1818
+2022/2023,Male,ALL,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,69,56,84,68,41,38,72.2772,35.7143,40.1786,93.3333
+2022/2023,Male,ALL,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,112,90,147,119,95,81,72.3926,35.533,53.2995,84.7619
+2022/2023,Male,ALL,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,99,80,122,98,64,59,72.2222,35.5828,42.9448,91.4286
+2022/2023,Male,ALL,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,106,86,130,105,68,62,72.7273,35.6322,43.1034,90.6667
+2022/2023,Male,ALL,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,81,66,98,80,51,43,72.8814,35.8779,42.7481,83.9286
+2022/2023,Male,ALL,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,96,78,122,98,65,58,72.8571,35.5828,43.5583,88.7324
+2022/2023,Male,ALL,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,66,54,78,66,40,39,73.1959,37.1429,41.9048,97.7273
+2022/2023,Male,ALL,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,73,60,93,75,64,59,72.8972,35.4839,56.4516,91.4286
+2022/2023,Male,ALL,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,74,60,96,78,55,53,72.2222,35.9375,46.875,96.6667
+2022/2023,Male,ALL,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,78,64,92,76,46,44,72.807,36.5854,41.4634,94.1176
+2022/2023,Male,ALL,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,90,73,113,91,68,57,72.5191,35.5263,49.3421,82.6667
+2022/2023,Male,ALL,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,85,69,116,95,73,69,72.5806,35.8974,51.2821,93.75
+2022/2023,Male,ALL,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,75,61,98,80,51,38,72.4771,35.8779,42.7481,75.0
+2022/2023,Male,ALL,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,121,88,148,122,76,68,64.9718,36.1809,42.2111,88.0952
+2022/2023,Male,ALL,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,133,96,164,135,94,84,64.433,36.3636,46.8182,89.3204
+2022/2023,Male,ALL,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,123,89,157,130,76,68,64.4444,36.6667,40.0,88.0952
+2022/2023,Male,ALL,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,219,159,274,224,143,135,64.6875,35.9673,42.7793,94.2675
+2022/2023,Male,ALL,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,201,146,260,213,143,129,64.8464,36.1032,44.9857,89.8089
+2022/2023,Male,ALL,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,193,139,234,190,105,98,64.539,35.6688,36.6242,93.0435
+2022/2023,Male,ALL,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,141,101,177,144,95,86,64.3902,35.865,43.8819,90.3846
+2022/2023,Male,ALL,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,171,123,216,174,118,108,64.4,35.6401,44.9827,90.7692
+2022/2023,Male,ALL,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,116,84,141,115,66,55,64.497,35.9788,38.6243,82.1918
+2022/2023,Male,ALL,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,136,98,179,146,105,94,64.3216,35.8333,47.9167,89.5652
+2022/2023,Male,ALL,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,137,99,172,141,86,80,64.5,36.087,41.3043,91.5789
+2022/2023,Male,ALL,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,141,102,172,142,98,85,64.5631,36.3636,46.7532,86.1111
+2022/2023,Male,ALL,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,153,110,190,156,91,87,64.574,36.2205,39.3701,95.0
+2022/2023,Male,ALL,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,155,112,199,163,118,110,64.6018,35.9551,48.6891,92.3077
+2022/2023,Male,ALL,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,138,99,172,142,84,76,64.1791,36.5217,40.0,90.2174
+2022/2023,Male,ALL,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,155,121,184,151,95,90,69.9115,36.1789,42.2764,94.2308
+2022/2023,Male,ALL,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,169,132,219,178,120,114,69.6356,35.8362,45.0512,94.697
+2022/2023,Male,ALL,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,167,129,211,173,116,107,69.5473,36.0424,45.2297,91.4062
+2022/2023,Male,ALL,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,287,224,363,296,208,201,69.8565,35.9343,47.0226,96.0699
+2022/2023,Male,ALL,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,253,198,326,266,195,176,69.9187,35.9268,48.9703,90.1869
+2022/2023,Male,ALL,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,261,203,319,261,172,163,69.7368,35.9813,44.1589,94.1799
+2022/2023,Male,ALL,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,189,147,234,191,121,117,69.8182,35.9873,42.3567,96.2406
+2022/2023,Male,ALL,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,234,182,287,234,154,143,69.5906,35.9375,44.0104,92.3077
+2022/2023,Male,ALL,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,155,121,192,157,106,100,69.9115,36.1868,45.5253,93.1624
+2022/2023,Male,ALL,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,178,139,229,186,135,124,69.8842,35.8306,48.2085,91.8919
+2022/2023,Male,ALL,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,190,148,235,193,129,121,69.6751,36.1905,45.0794,92.9577
+2022/2023,Male,ALL,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,186,146,227,185,118,113,69.8529,35.8553,42.7632,95.3846
+2022/2023,Male,ALL,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,213,166,267,217,159,149,69.6774,35.7542,48.8827,93.1429
+2022/2023,Male,ALL,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,196,153,249,203,144,139,69.9301,35.9281,47.3054,96.2025
+2022/2023,Male,ALL,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,165,128,207,169,114,103,69.5833,35.9712,44.964,90.4
+2022/2023,Male,Disabled,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,7,6,9,7,0,0,80.0,33.3333,0.0,0
+2022/2023,Male,Disabled,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,8,6,10,8,4,3,72.7273,38.4615,30.7692,75.0
+2022/2023,Male,Disabled,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,7,6,9,7,0,0,80.0,33.3333,0.0,0
+2022/2023,Male,Disabled,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,8,7,10,8,10,9,75.0,35.7143,78.5714,90.9091
+2022/2023,Male,Disabled,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,9,7,12,8,6,5,69.2308,31.25,43.75,85.7143
+2022/2023,Male,Disabled,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,8,6,10,8,4,3,72.7273,38.4615,30.7692,75.0
+2022/2023,Male,Disabled,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,7,6,9,7,0,0,80.0,33.3333,0.0,0
+2022/2023,Male,Disabled,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,8,6,10,8,4,3,72.7273,38.4615,30.7692,75.0
+2022/2023,Male,Disabled,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,7,6,9,7,4,3,80.0,33.3333,33.3333,75.0
+2022/2023,Male,Disabled,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,8,6,10,8,10,9,72.7273,35.7143,78.5714,90.9091
+2022/2023,Male,Disabled,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,8,6,10,8,4,3,72.7273,38.4615,30.7692,75.0
+2022/2023,Male,Disabled,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,8,6,9,7,4,3,72.7273,33.3333,33.3333,75.0
+2022/2023,Male,Disabled,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,8,6,10,8,10,8,72.7273,38.4615,84.6154,81.8182
+2022/2023,Male,Disabled,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,8,7,10,8,10,9,75.0,35.7143,78.5714,90.9091
+2022/2023,Male,Disabled,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,7,6,9,7,0,0,80.0,33.3333,0.0,0
+2022/2023,Male,Disabled,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,10,8,11,10,7,6,66.6667,40.0,53.3333,87.5
+2022/2023,Male,Disabled,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,10,7,12,10,10,9,64.2857,37.5,68.75,90.9091
+2022/2023,Male,Disabled,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,8,5,9,8,3,2,58.3333,41.6667,25.0,66.6667
+2022/2023,Male,Disabled,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,16,12,21,17,10,9,66.6667,35.7143,39.2857,90.9091
+2022/2023,Male,Disabled,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,16,11,21,19,10,9,65.2174,39.2857,39.2857,90.9091
+2022/2023,Male,Disabled,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,14,10,17,14,5,4,61.9048,34.7826,21.7391,80.0
+2022/2023,Male,Disabled,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,10,7,12,10,10,9,60.0,37.5,68.75,90.9091
+2022/2023,Male,Disabled,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,13,9,16,14,10,9,63.1579,36.3636,50.0,90.9091
+2022/2023,Male,Disabled,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,10,7,11,10,5,4,64.2857,40.0,33.3333,80.0
+2022/2023,Male,Disabled,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,12,9,16,14,10,9,66.6667,38.0952,52.381,90.9091
+2022/2023,Male,Disabled,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,12,8,16,14,7,6,64.7059,38.0952,38.0952,87.5
+2022/2023,Male,Disabled,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,12,8,15,14,10,8,61.1111,40.0,55.0,81.8182
+2022/2023,Male,Disabled,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,12,9,16,14,7,6,66.6667,38.0952,38.0952,87.5
+2022/2023,Male,Disabled,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,12,9,14,12,10,9,66.6667,36.8421,57.8947,90.9091
+2022/2023,Male,Disabled,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,10,7,12,10,5,4,64.2857,37.5,31.25,80.0
+2022/2023,Male,Disabled,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,13,10,15,14,7,6,68.4211,40.0,40.0,87.5
+2022/2023,Male,Disabled,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,12,9,16,14,10,8,66.6667,38.0952,52.381,81.8182
+2022/2023,Male,Disabled,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,10,8,13,12,7,6,66.6667,41.1765,47.0588,87.5
+2022/2023,Male,Disabled,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,23,18,30,24,12,11,70.5882,35.0,32.5,92.3077
+2022/2023,Male,Disabled,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,20,15,25,20,12,11,68.9655,36.3636,39.3939,92.3077
+2022/2023,Male,Disabled,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,19,15,23,19,9,8,67.8571,35.4839,32.2581,90.0
+2022/2023,Male,Disabled,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,14,11,16,14,6,5,70.0,36.3636,31.8182,85.7143
+2022/2023,Male,Disabled,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,18,14,23,19,7,6,69.2308,35.4839,25.8065,87.5
+2022/2023,Male,Disabled,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,12,9,14,12,10,8,70.5882,36.8421,57.8947,81.8182
+2022/2023,Male,Disabled,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,14,11,18,15,10,8,70.0,37.5,45.8333,81.8182
+2022/2023,Male,Disabled,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,15,11,19,17,10,8,68.1818,38.4615,42.3077,81.8182
+2022/2023,Male,Disabled,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,16,12,20,17,9,8,69.5652,37.037,37.037,90.0
+2022/2023,Male,Disabled,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,16,13,21,17,12,11,70.8333,35.7143,46.4286,92.3077
+2022/2023,Male,Disabled,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,17,14,22,19,11,10,72.0,36.6667,40.0,91.6667
+2022/2023,Male,Disabled,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,12,9,15,14,7,6,70.5882,40.0,40.0,87.5
+2023/2024,Female,ALL,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,74,64,87,78,15,15,76.8519,39.6552,14.6552,94.1176
+2023/2024,Female,ALL,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,89,77,114,102,28,27,76.9231,39.2157,20.2614,96.7742
+2023/2024,Female,ALL,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,83,71,101,90,25,22,76.8595,39.2593,20.0,88.8889
+2023/2024,Female,ALL,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,123,106,157,141,39,33,76.6667,39.5238,20.4762,83.7209
+2023/2024,Female,ALL,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,110,94,142,127,32,29,76.875,39.4737,18.4211,91.4286
+2023/2024,Female,ALL,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,117,100,139,125,26,24,76.6082,39.7849,15.5914,89.6552
+2023/2024,Female,ALL,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,86,74,107,95,26,24,76.8,38.8889,20.1389,89.6552
+2023/2024,Female,ALL,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,105,90,125,112,26,24,77.1242,39.521,17.3653,89.6552
+2023/2024,Female,ALL,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,79,67,98,88,20,19,76.5217,39.3939,16.6667,95.4545
+2023/2024,Female,ALL,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,76,65,98,88,23,22,76.5766,39.3939,18.9394,96.0
+2023/2024,Female,ALL,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,90,77,112,100,25,22,76.5152,39.3333,18.0,88.8889
+2023/2024,Female,ALL,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,82,70,105,93,23,21,76.6667,39.0071,17.7305,92.0
+2023/2024,Female,ALL,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,96,82,121,108,25,22,76.4286,39.5062,16.6667,88.8889
+2023/2024,Female,ALL,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,90,78,121,108,30,28,77.2727,39.5062,20.3704,93.9394
+2023/2024,Female,ALL,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,85,73,107,95,21,20,76.6129,38.8889,15.9722,95.6522
+2023/2024,Female,ALL,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,141,110,168,151,33,28,70.2439,39.5556,16.0,86.1111
+2023/2024,Female,ALL,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,155,121,193,174,38,34,69.9115,39.7683,16.2162,88.0952
+2023/2024,Female,ALL,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,145,113,182,164,41,38,70.1422,39.7541,18.4426,93.3333
+2023/2024,Female,ALL,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,234,184,300,269,66,59,70.1754,39.5522,18.1592,89.0411
+2023/2024,Female,ALL,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,204,160,257,230,55,50,70.1342,39.5349,17.7326,90.1639
+2023/2024,Female,ALL,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,228,179,282,252,50,46,70.1807,39.418,14.5503,90.9091
+2023/2024,Female,ALL,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,149,116,184,166,38,35,69.7248,39.8374,17.0732,90.4762
+2023/2024,Female,ALL,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,192,150,235,212,46,43,70.0,39.6825,16.1905,92.1569
+2023/2024,Female,ALL,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,137,107,169,152,36,33,70.0,39.823,17.6991,90.0
+2023/2024,Female,ALL,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,143,112,183,164,42,38,70.1923,39.5918,18.7755,91.3043
+2023/2024,Female,ALL,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,160,126,201,181,42,37,70.0855,39.6296,17.037,86.9565
+2023/2024,Female,ALL,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,151,118,187,168,38,35,70.0,39.6,16.8,90.4762
+2023/2024,Female,ALL,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,175,136,221,200,49,45,69.8039,39.8649,18.2432,90.7407
+2023/2024,Female,ALL,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,165,129,214,193,48,44,70.0,39.7213,18.4669,90.566
+2023/2024,Female,ALL,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,146,114,184,168,40,37,69.9531,40.081,17.8138,90.9091
+2023/2024,Female,ALL,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,181,152,227,205,46,43,75.0,39.8026,16.7763,92.1569
+2023/2024,Female,ALL,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,195,164,245,222,55,52,75.0877,39.8176,18.2371,95.0
+2023/2024,Female,ALL,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,191,160,240,217,54,50,74.9104,39.7516,18.323,93.2203
+2023/2024,Female,ALL,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,318,267,404,364,89,83,75.0,39.7412,18.1146,92.8571
+2023/2024,Female,ALL,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,265,222,334,301,80,76,75.1295,39.7321,19.6429,94.3182
+2023/2024,Female,ALL,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,307,258,370,334,78,73,75.2232,39.7177,17.3387,93.0233
+2023/2024,Female,ALL,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,207,174,263,234,56,55,75.1656,39.2045,17.6136,96.7742
+2023/2024,Female,ALL,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,255,215,307,274,67,62,75.2688,39.3204,17.9612,91.8919
+2023/2024,Female,ALL,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,165,139,204,183,46,46,75.1037,39.4161,18.6131,98.0392
+2023/2024,Female,ALL,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,193,162,251,227,61,56,75.089,39.7626,19.8813,91.0448
+2023/2024,Female,ALL,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,221,186,271,244,57,53,75.2322,39.6694,17.3554,92.0635
+2023/2024,Female,ALL,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,218,183,269,242,59,58,75.1572,39.6122,18.0055,96.9231
+2023/2024,Female,ALL,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,228,192,287,257,65,61,75.0751,39.4805,18.4416,94.3662
+2023/2024,Female,ALL,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,236,198,307,276,74,68,75.2907,39.5631,19.6602,91.358
+2023/2024,Female,ALL,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,204,171,257,230,56,51,75.0842,39.5349,18.0233,90.3226
+2023/2024,Female,Disabled,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,8,7,10,8,0,0,75.0,35.7143,0.0,0
+2023/2024,Female,Disabled,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,9,8,11,10,5,5,76.9231,40.0,40.0,83.3333
+2023/2024,Female,Disabled,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,9,8,10,8,4,3,76.9231,35.7143,28.5714,75.0
+2023/2024,Female,Disabled,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,10,9,11,10,5,5,80.0,40.0,40.0,83.3333
+2023/2024,Female,Disabled,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,10,8,13,12,4,3,78.5714,41.1765,23.5294,75.0
+2023/2024,Female,Disabled,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,9,8,10,8,1,0,76.9231,35.7143,7.1429,0.0
+2023/2024,Female,Disabled,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,8,7,10,8,4,3,75.0,35.7143,28.5714,75.0
+2023/2024,Female,Disabled,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,9,8,10,8,3,2,76.9231,35.7143,21.4286,66.6667
+2023/2024,Female,Disabled,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,9,8,10,8,4,3,76.9231,35.7143,28.5714,75.0
+2023/2024,Female,Disabled,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,9,8,10,8,3,2,76.9231,35.7143,21.4286,66.6667
+2023/2024,Female,Disabled,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,9,8,10,8,3,2,76.9231,35.7143,21.4286,66.6667
+2023/2024,Female,Disabled,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,8,7,10,8,4,3,75.0,35.7143,28.5714,75.0
+2023/2024,Female,Disabled,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,9,8,11,10,3,2,76.9231,40.0,20.0,66.6667
+2023/2024,Female,Disabled,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,9,8,11,10,5,5,76.9231,40.0,40.0,83.3333
+2023/2024,Female,Disabled,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,9,8,10,8,4,3,76.9231,35.7143,28.5714,75.0
+2023/2024,Female,Disabled,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,11,8,15,14,2,1,68.75,40.0,10.0,50.0
+2023/2024,Female,Disabled,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,11,8,13,12,4,3,68.75,41.1765,23.5294,75.0
+2023/2024,Female,Disabled,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,10,8,12,10,4,3,71.4286,37.5,25.0,75.0
+2023/2024,Female,Disabled,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,16,13,20,19,4,3,70.8333,40.7407,14.8148,75.0
+2023/2024,Female,Disabled,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,16,13,21,19,5,4,70.8333,39.2857,17.8571,80.0
+2023/2024,Female,Disabled,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,15,11,19,17,3,2,68.1818,40.0,12.0,66.6667
+2023/2024,Female,Disabled,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,10,8,12,10,4,3,71.4286,37.5,25.0,75.0
+2023/2024,Female,Disabled,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,15,11,19,17,3,2,68.1818,40.0,12.0,66.6667
+2023/2024,Female,Disabled,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,10,8,13,12,4,3,66.6667,41.1765,23.5294,75.0
+2023/2024,Female,Disabled,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,12,10,16,15,5,4,72.2222,40.9091,22.7273,80.0
+2023/2024,Female,Disabled,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,14,11,18,17,5,4,70.0,41.6667,20.8333,80.0
+2023/2024,Female,Disabled,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,12,10,16,15,4,3,72.2222,40.9091,18.1818,75.0
+2023/2024,Female,Disabled,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,14,11,19,17,5,4,66.6667,40.0,20.0,80.0
+2023/2024,Female,Disabled,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,14,11,19,17,5,5,70.0,40.0,24.0,83.3333
+2023/2024,Female,Disabled,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,12,9,15,14,5,4,70.5882,40.0,25.0,80.0
+2023/2024,Female,Disabled,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,15,13,19,17,4,3,77.2727,40.0,16.0,75.0
+2023/2024,Female,Disabled,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,14,12,19,17,4,3,76.1905,40.0,16.0,75.0
+2023/2024,Female,Disabled,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,11,9,13,12,4,3,75.0,38.8889,22.2222,75.0
+2023/2024,Female,Disabled,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,23,19,31,27,6,5,73.5294,39.0244,17.0732,85.7143
+2023/2024,Female,Disabled,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,21,18,28,25,6,5,74.1935,40.5405,18.9189,85.7143
+2023/2024,Female,Disabled,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,21,18,26,24,4,3,74.1935,40.0,11.4286,75.0
+2023/2024,Female,Disabled,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,15,13,19,15,4,3,77.2727,36.0,16.0,75.0
+2023/2024,Female,Disabled,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,21,18,25,22,5,4,76.6667,38.2353,14.7059,80.0
+2023/2024,Female,Disabled,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,13,11,16,14,4,3,73.6842,36.3636,18.1818,75.0
+2023/2024,Female,Disabled,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,16,13,20,19,5,4,73.913,40.7407,18.5185,80.0
+2023/2024,Female,Disabled,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,16,14,22,19,4,3,75.0,37.931,13.7931,75.0
+2023/2024,Female,Disabled,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,19,15,23,20,4,3,74.0741,38.7097,12.9032,75.0
+2023/2024,Female,Disabled,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,18,15,22,19,4,3,76.9231,37.931,13.7931,75.0
+2023/2024,Female,Disabled,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,19,15,24,22,5,4,74.0741,40.625,15.625,80.0
+2023/2024,Female,Disabled,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,14,12,19,17,4,3,76.1905,38.4615,15.3846,75.0
+2023/2024,Male,ALL,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,70,60,88,80,16,16,76.4706,39.8305,15.2542,94.4444
+2023/2024,Male,ALL,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,80,69,101,91,25,24,76.9231,39.7059,20.5882,92.8571
+2023/2024,Male,ALL,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,75,64,93,83,24,22,77.0642,39.5161,20.9677,92.3077
+2023/2024,Male,ALL,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,122,105,154,139,42,34,76.9663,39.6135,22.2222,80.4348
+2023/2024,Male,ALL,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,105,90,137,124,42,37,77.1242,39.8907,25.1366,86.9565
+2023/2024,Male,ALL,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,112,97,138,125,30,27,77.3006,40.0,17.8378,90.9091
+2023/2024,Male,ALL,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,86,74,103,93,21,20,76.9841,39.8551,16.6667,95.6522
+2023/2024,Male,ALL,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,97,83,119,107,33,31,76.5957,39.375,22.5,94.4444
+2023/2024,Male,ALL,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,72,61,88,80,21,20,76.1905,39.8305,19.4915,95.6522
+2023/2024,Male,ALL,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,77,66,100,90,30,27,76.7857,39.5522,24.6269,87.8788
+2023/2024,Male,ALL,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,79,67,97,86,27,27,76.5217,39.2308,23.0769,96.6667
+2023/2024,Male,ALL,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,82,70,103,93,25,22,77.3109,39.8551,20.2899,85.7143
+2023/2024,Male,ALL,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,94,81,119,108,30,27,77.3723,40.0,20.625,90.9091
+2023/2024,Male,ALL,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,88,75,110,98,33,31,76.5625,39.1892,24.3243,94.4444
+2023/2024,Male,ALL,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,80,69,97,86,21,19,76.9231,39.2308,17.6923,91.3043
+2023/2024,Male,ALL,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,124,97,152,137,32,27,70.1657,39.7059,17.1569,85.7143
+2023/2024,Male,ALL,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,139,110,171,154,42,38,70.4433,39.738,20.0873,91.3043
+2023/2024,Male,ALL,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,128,100,161,146,38,35,70.0535,39.8148,19.4444,90.4762
+2023/2024,Male,ALL,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,223,175,293,264,74,68,70.1538,39.7959,20.6633,91.358
+2023/2024,Male,ALL,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,193,152,252,227,65,59,70.2128,39.645,21.0059,91.5493
+2023/2024,Male,ALL,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,222,174,268,242,57,54,70.0617,39.8329,17.5487,93.6508
+2023/2024,Male,ALL,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,148,116,181,163,42,37,69.9074,39.5062,18.93,89.1304
+2023/2024,Male,ALL,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,177,139,220,200,50,47,70.155,40.0,18.6441,92.7273
+2023/2024,Male,ALL,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,126,99,157,142,37,33,70.1087,39.8104,19.4313,87.8049
+2023/2024,Male,ALL,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,145,113,187,169,48,43,70.1422,39.8406,21.1155,88.6792
+2023/2024,Male,ALL,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,154,120,185,166,44,40,69.7778,39.5161,19.3548,91.6667
+2023/2024,Male,ALL,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,152,119,193,173,44,37,70.1357,39.5349,18.6047,85.4167
+2023/2024,Male,ALL,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,163,128,202,183,51,47,70.1681,39.8524,20.6642,91.0714
+2023/2024,Male,ALL,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,162,126,207,186,56,50,69.9153,39.5683,22.3022,88.7097
+2023/2024,Male,ALL,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,143,112,172,156,44,40,70.1923,39.8268,20.7792,91.6667
+2023/2024,Male,ALL,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,171,143,212,191,42,38,75.1004,39.7887,16.1972,91.3043
+2023/2024,Male,ALL,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,181,152,221,200,55,52,75.0,39.8649,20.6081,93.4426
+2023/2024,Male,ALL,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,173,145,210,188,55,52,75.0,39.3617,21.6312,93.4426
+2023/2024,Male,ALL,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,308,259,399,359,110,105,75.1111,39.6262,22.6168,95.0413
+2023/2024,Male,ALL,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,259,218,336,303,87,84,75.1323,39.7778,21.3333,95.8333
+2023/2024,Male,ALL,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,274,231,340,305,85,80,75.25,39.5604,20.6593,93.617
+2023/2024,Male,ALL,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,216,181,260,234,66,61,74.9206,39.6552,20.977,91.7808
+2023/2024,Male,ALL,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,235,198,290,259,72,67,75.2187,39.433,20.3608,92.4051
+2023/2024,Male,ALL,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,164,137,201,180,50,47,74.8954,39.4052,20.4461,92.7273
+2023/2024,Male,ALL,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,189,159,247,224,67,65,75.2727,39.8792,22.3565,95.9459
+2023/2024,Male,ALL,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,195,164,246,222,60,57,75.3521,39.697,20.0,93.9394
+2023/2024,Male,ALL,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,214,179,266,239,65,59,75.0,39.6067,19.9438,90.1408
+2023/2024,Male,ALL,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,221,185,271,242,69,63,75.1553,39.3939,20.9366,90.7895
+2023/2024,Male,ALL,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,228,191,296,266,85,82,75.0,39.5466,23.6776,95.7447
+2023/2024,Male,ALL,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,190,159,233,210,54,49,75.0903,39.7436,18.9103,91.5254
+2023/2024,Male,Disabled,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,8,6,9,7,0,0,72.7273,33.3333,0.0,0
+2023/2024,Male,Disabled,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,8,6,9,7,2,1,72.7273,33.3333,16.6667,50.0
+2023/2024,Male,Disabled,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,8,6,9,7,2,1,72.7273,33.3333,16.6667,50.0
+2023/2024,Male,Disabled,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,10,8,11,10,4,3,78.5714,40.0,26.6667,75.0
+2023/2024,Male,Disabled,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,9,8,11,10,5,5,76.9231,40.0,40.0,83.3333
+2023/2024,Male,Disabled,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,8,7,10,8,0,0,75.0,35.7143,0.0,0
+2023/2024,Male,Disabled,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,8,6,9,7,0,0,72.7273,33.3333,0.0,0
+2023/2024,Male,Disabled,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,8,6,9,7,4,3,72.7273,33.3333,33.3333,75.0
+2023/2024,Male,Disabled,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,8,6,9,7,2,1,72.7273,33.3333,16.6667,50.0
+2023/2024,Male,Disabled,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,8,7,10,8,4,3,75.0,35.7143,28.5714,75.0
+2023/2024,Male,Disabled,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,8,7,10,8,4,3,75.0,35.7143,28.5714,75.0
+2023/2024,Male,Disabled,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,8,7,10,8,2,1,75.0,35.7143,14.2857,50.0
+2023/2024,Male,Disabled,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,8,7,10,8,0,0,75.0,35.7143,0.0,0
+2023/2024,Male,Disabled,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,8,7,10,8,5,5,75.0,35.7143,42.8571,83.3333
+2023/2024,Male,Disabled,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,8,6,9,7,0,0,72.7273,33.3333,0.0,0
+2023/2024,Male,Disabled,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,10,8,11,10,1,0,73.3333,40.0,6.6667,0.0
+2023/2024,Male,Disabled,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,10,8,11,10,4,3,73.3333,40.0,26.6667,75.0
+2023/2024,Male,Disabled,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,8,6,10,8,4,3,66.6667,38.4615,30.7692,75.0
+2023/2024,Male,Disabled,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,16,13,20,19,5,4,70.8333,40.7407,18.5185,80.0
+2023/2024,Male,Disabled,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,16,12,22,19,4,3,69.5652,37.931,13.7931,75.0
+2023/2024,Male,Disabled,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,15,12,19,17,4,3,72.7273,40.0,16.0,75.0
+2023/2024,Male,Disabled,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,11,8,14,14,5,4,68.75,42.1053,26.3158,80.0
+2023/2024,Male,Disabled,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,14,11,19,17,4,3,70.0,40.0,16.0,75.0
+2023/2024,Male,Disabled,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,10,8,14,14,4,3,73.3333,42.1053,21.0526,75.0
+2023/2024,Male,Disabled,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,12,10,16,14,5,4,72.2222,38.0952,23.8095,80.0
+2023/2024,Male,Disabled,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,12,10,15,14,4,3,72.2222,40.0,20.0,75.0
+2023/2024,Male,Disabled,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,13,11,16,14,4,3,73.6842,38.0952,19.0476,75.0
+2023/2024,Male,Disabled,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,14,11,16,15,5,4,70.0,40.9091,22.7273,80.0
+2023/2024,Male,Disabled,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,12,10,16,15,5,4,72.2222,40.9091,22.7273,80.0
+2023/2024,Male,Disabled,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,10,8,13,12,5,4,73.3333,41.1765,29.4118,80.0
+2023/2024,Male,Disabled,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,14,11,16,15,1,0,75.0,40.9091,4.5455,0.0
+2023/2024,Male,Disabled,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,13,11,16,14,5,4,73.6842,38.0952,23.8095,80.0
+2023/2024,Male,Disabled,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,11,9,13,12,5,4,75.0,41.1765,29.4118,80.0
+2023/2024,Male,Disabled,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,24,20,31,27,6,5,74.2857,38.0952,16.6667,85.7143
+2023/2024,Male,Disabled,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,21,18,27,24,7,6,76.6667,38.8889,22.2222,87.5
+2023/2024,Male,Disabled,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,21,17,25,22,5,4,73.3333,38.2353,14.7059,80.0
+2023/2024,Male,Disabled,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,15,13,19,17,5,4,77.2727,40.0,20.0,80.0
+2023/2024,Male,Disabled,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,19,15,24,20,5,4,74.0741,37.5,15.625,80.0
+2023/2024,Male,Disabled,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,13,11,16,14,5,4,73.6842,38.0952,23.8095,80.0
+2023/2024,Male,Disabled,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,16,13,22,19,5,5,73.913,37.931,20.6897,83.3333
+2023/2024,Male,Disabled,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,15,13,19,17,5,4,77.2727,38.4615,19.2308,80.0
+2023/2024,Male,Disabled,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,18,15,22,20,5,4,76.9231,40.0,16.6667,80.0
+2023/2024,Male,Disabled,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,19,15,23,20,5,4,74.0741,38.7097,16.129,80.0
+2023/2024,Male,Disabled,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,19,16,25,22,5,5,75.0,39.3939,18.1818,83.3333
+2023/2024,Male,Disabled,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,14,12,17,15,5,4,76.1905,39.1304,21.7391,80.0
+2024/2025,Female,ALL,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,40,34,24,22,6,6,74.5763,40.6250,21.8750,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,49,41,31,29,13,13,75.0000,40.4762,33.3333,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,45,38,28,25,10,9,75.3846,40.5405,29.7297,90.9091
+2024/2025,Female,ALL,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,69,57,43,39,17,16,74.2574,39.6552,32.7586,89.4737
+2024/2025,Female,ALL,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,60,51,39,36,14,13,76.1364,40.3846,28.8462,93.3333
+2024/2025,Female,ALL,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,63,53,39,34,13,12,75.0000,38.4615,26.9231,92.8571
+2024/2025,Female,ALL,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,45,38,28,25,10,9,75.3846,40.5405,29.7297,90.9091
+2024/2025,Female,ALL,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,58,48,35,32,13,11,75.0000,40.4255,29.7872,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,42,35,25,22,10,9,75.4098,38.2353,32.3529,90.9091
+2024/2025,Female,ALL,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,42,35,27,24,12,12,75.4098,38.8889,36.1111,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,47,40,30,27,11,10,75.3623,40.0000,30.0000,91.6667
+2024/2025,Female,ALL,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,45,38,27,24,11,11,75.7576,38.8889,33.3333,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,53,45,33,29,14,13,75.6410,38.6364,34.0909,93.3333
+2024/2025,Female,ALL,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,47,40,31,27,13,12,75.3623,39.0244,34.1463,92.8571
+2024/2025,Female,ALL,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,47,40,30,27,10,9,75.3623,40.0000,27.5000,90.9091
+2024/2025,Female,ALL,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,591,448,348,310,103,91,67.8654,39.2704,24.2489,87.6106
+2024/2025,Female,ALL,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,683,520,421,376,163,148,68.1727,39.3617,31.7376,90.5028
+2024/2025,Female,ALL,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,640,486,401,356,154,141,67.9528,39.1061,31.4711,91.1243
+2024/2025,Female,ALL,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,1001,760,633,566,240,217,67.9452,39.3868,31.1321,89.7727
+2024/2025,Female,ALL,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,869,660,542,484,207,188,67.9811,39.3939,31.4050,90.3509
+2024/2025,Female,ALL,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,986,746,604,539,203,188,67.7330,39.2593,27.5309,92.3767
+2024/2025,Female,ALL,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,658,500,417,371,154,148,67.9167,39.1771,30.2326,95.8580
+2024/2025,Female,ALL,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,836,634,525,472,201,188,67.8425,39.6307,31.3920,93.2127
+2024/2025,Female,ALL,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,603,459,361,322,145,138,68.1456,39.2562,32.8512,94.9686
+2024/2025,Female,ALL,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,621,473,404,356,152,143,68.1015,38.7454,30.8118,93.4132
+2024/2025,Female,ALL,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,719,548,445,398,158,143,68.1602,39.3635,29.1457,89.6552
+2024/2025,Female,ALL,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,658,500,413,367,152,141,67.9167,39.2405,30.1989,92.2156
+2024/2025,Female,ALL,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,768,582,479,425,179,172,67.7074,39.0966,30.6854,95.4315
+2024/2025,Female,ALL,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,719,548,462,410,196,184,68.1602,39.0953,34.7334,93.4884
+2024/2025,Female,ALL,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,679,517,409,364,154,143,68.1130,39.2336,30.8394,92.3077
+2024/2025,Female,ALL,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,871,716,519,464,174,163,73.4854,39.3678,27.4425,93.1937
+2024/2025,Female,ALL,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,960,789,601,533,224,200,73.5714,39.1304,30.5590,89.0244
+2024/2025,Female,ALL,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,914,749,557,496,209,196,73.2933,39.2761,30.8311,93.0435
+2024/2025,Female,ALL,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,1523,1252,989,881,393,361,73.5374,39.2453,32.6038,91.4352
+2024/2025,Female,ALL,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,1235,1017,772,691,286,268,73.6404,39.4203,30.4348,93.0159
+2024/2025,Female,ALL,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,1379,1134,838,749,286,263,73.5586,39.3589,28.0499,91.4286
+2024/2025,Female,ALL,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,911,749,566,501,205,191,73.5139,39.0501,29.6834,92.8889
+2024/2025,Female,ALL,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,1265,1039,795,708,301,268,73.4959,39.2120,31.0507,88.5196
+2024/2025,Female,ALL,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,858,705,535,479,209,191,73.4824,39.4700,32.0781,90.8696
+2024/2025,Female,ALL,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,930,763,601,539,256,233,73.3972,39.5031,35.0311,90.4255
+2024/2025,Female,ALL,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,1022,841,654,583,236,217,73.5748,39.2694,29.5662,91.5058
+2024/2025,Female,ALL,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,963,793,572,508,193,184,73.6655,39.1134,27.6402,94.8113
+2024/2025,Female,ALL,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,1107,910,672,599,249,235,73.5604,39.3333,30.4444,93.7956
+2024/2025,Female,ALL,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,1091,896,696,620,286,268,73.4758,39.2283,33.7621,93.0159
+2024/2025,Female,ALL,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,960,789,581,513,209,200,73.5714,38.8960,29.5250,95.2174
+2024/2025,Female,Disabled,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,5,5,3,3,1,1,85.7143,50.0000,25.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,5,5,3,2,3,3,85.7143,25.0000,75.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,5,4,3,2,3,2,71.4286,25.0000,75.0000,66.6667
+2024/2025,Female,Disabled,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,6,5,3,3,3,2,77.7778,50.0000,75.0000,66.6667
+2024/2025,Female,Disabled,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,6,5,4,3,2,2,77.7778,40.0000,40.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,5,5,4,3,2,1,75.0000,40.0000,40.0000,50.0000
+2024/2025,Female,Disabled,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,5,4,3,2,2,1,71.4286,25.0000,50.0000,50.0000
+2024/2025,Female,Disabled,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,5,4,3,3,2,2,71.4286,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,5,4,3,2,2,2,71.4286,25.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,5,4,3,3,3,3,71.4286,50.0000,75.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,5,5,3,3,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,5,4,3,2,3,3,71.4286,25.0000,75.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,5,5,4,3,3,3,75.0000,40.0000,60.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,5,5,3,3,3,3,75.0000,50.0000,75.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,5,4,3,3,2,1,71.4286,50.0000,50.0000,50.0000
+2024/2025,Female,Disabled,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,56,43,36,30,5,3,69.1358,37.5000,10.4167,60.0000
+2024/2025,Female,Disabled,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,52,38,36,30,16,16,65.7895,37.5000,37.5000,94.4444
+2024/2025,Female,Disabled,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,49,38,31,27,16,16,70.4225,38.0952,42.8571,94.4444
+2024/2025,Female,Disabled,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,80,58,51,44,16,16,64.9573,38.2353,26.4706,94.4444
+2024/2025,Female,Disabled,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,80,58,51,44,16,16,64.9573,38.2353,26.4706,94.4444
+2024/2025,Female,Disabled,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,84,62,52,47,16,16,66.3934,40.0000,25.7143,94.4444
+2024/2025,Female,Disabled,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,52,38,31,30,14,13,65.7895,42.8571,35.7143,93.3333
+2024/2025,Female,Disabled,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,80,58,51,44,16,16,64.9573,38.2353,26.4706,94.4444
+2024/2025,Female,Disabled,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,52,43,30,27,16,16,73.6842,40.0000,45.0000,94.4444
+2024/2025,Female,Disabled,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,63,47,43,39,16,16,66.3043,39.6552,31.0345,94.4444
+2024/2025,Female,Disabled,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,70,54,43,39,16,16,69.6078,39.6552,31.0345,94.4444
+2024/2025,Female,Disabled,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,66,51,37,36,16,16,68.0412,42.0000,36.0000,94.4444
+2024/2025,Female,Disabled,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,73,54,43,39,16,16,66.3551,39.6552,31.0345,94.4444
+2024/2025,Female,Disabled,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,66,51,43,39,16,16,68.0412,39.6552,31.0345,94.4444
+2024/2025,Female,Disabled,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,56,43,35,30,16,16,69.1358,38.2979,38.2979,94.4444
+2024/2025,Female,Disabled,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,79,63,47,44,16,14,71.3043,41.2698,28.5714,83.3333
+2024/2025,Female,Disabled,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,82,67,53,49,16,14,72.5000,40.8451,25.3521,83.3333
+2024/2025,Female,Disabled,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,60,50,39,34,16,14,74.7126,38.4615,34.6154,83.3333
+2024/2025,Female,Disabled,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,123,100,78,68,24,23,72.2222,38.4615,25.0000,96.1538
+2024/2025,Female,Disabled,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,116,96,74,68,21,20,73.9645,40.4040,23.2323,95.6522
+2024/2025,Female,Disabled,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,116,96,72,63,16,14,73.9645,38.5417,18.7500,83.3333
+2024/2025,Female,Disabled,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,75,63,47,39,16,14,75.2294,36.5079,28.5714,83.3333
+2024/2025,Female,Disabled,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,108,87,69,63,21,20,72.1519,39.7849,24.7312,95.6522
+2024/2025,Female,Disabled,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,75,63,49,44,16,14,75.2294,39.3939,27.2727,83.3333
+2024/2025,Female,Disabled,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,79,63,51,49,21,20,71.3043,42.0290,33.3333,95.6522
+2024/2025,Female,Disabled,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,97,79,61,52,21,20,72.5352,37.8049,28.0488,95.6522
+2024/2025,Female,Disabled,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,90,75,57,47,16,14,74.8092,36.3636,23.3766,83.3333
+2024/2025,Female,Disabled,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,101,84,63,58,16,14,74.1497,40.0000,21.1765,83.3333
+2024/2025,Female,Disabled,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,101,84,63,58,21,20,74.1497,40.0000,27.0588,95.6522
+2024/2025,Female,Disabled,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,79,67,49,44,16,14,75.6522,39.3939,27.2727,83.3333
+2024/2025,Male,ALL,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,36,30,22,19,7,7,73.5849,37.9310,27.5862,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,45,38,28,24,12,11,75.3846,37.8378,35.1351,92.3077
+2024/2025,Male,ALL,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,42,35,26,24,10,9,75.4098,40.0000,31.4286,90.9091
+2024/2025,Male,ALL,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,69,57,42,37,20,17,74.0000,39.2857,39.2857,86.3636
+2024/2025,Male,ALL,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,60,51,39,36,19,17,75.0000,40.3846,40.3846,90.4762
+2024/2025,Male,ALL,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,63,53,37,32,14,11,75.0000,38.0000,30.0000,80.0000
+2024/2025,Male,ALL,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,44,37,27,24,12,11,75.0000,38.8889,36.1111,92.3077
+2024/2025,Male,ALL,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,51,42,33,29,15,13,74.3243,38.6364,38.6364,82.3529
+2024/2025,Male,ALL,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,39,33,24,22,9,9,75.4386,40.6250,31.2500,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,42,35,28,24,14,13,75.4098,37.8378,40.5405,93.3333
+2024/2025,Male,ALL,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,44,37,28,24,12,11,75.0000,37.8378,35.1351,92.3077
+2024/2025,Male,ALL,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,45,38,28,24,10,10,74.2424,37.8378,29.7297,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,49,41,31,27,13,11,74.6479,39.0244,34.1463,85.7143
+2024/2025,Male,ALL,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,46,39,29,25,14,13,76.1194,38.4615,38.4615,93.3333
+2024/2025,Male,ALL,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,44,37,27,24,12,12,75.0000,38.8889,36.1111,100.0000
+2024/2025,Male,ALL,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,545,415,330,295,121,105,68.0503,39.3665,30.0905,86.4662
+2024/2025,Male,ALL,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,591,448,372,332,175,162,67.8654,39.2786,38.4770,92.1875
+2024/2025,Male,ALL,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,545,415,346,310,152,141,68.0503,39.4397,35.9914,92.2156
+2024/2025,Male,ALL,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,1022,777,656,588,291,272,68.0080,39.4767,36.4050,92.8125
+2024/2025,Male,ALL,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,842,640,542,484,238,214,67.9967,39.3939,36.0882,89.3130
+2024/2025,Male,ALL,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,915,695,543,488,215,200,67.9401,39.5604,32.4176,92.7966
+2024/2025,Male,ALL,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,637,483,383,340,170,160,67.8149,39.1813,36.4522,93.5829
+2024/2025,Male,ALL,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,832,630,522,464,206,193,67.7100,39.1989,32.3319,93.3628
+2024/2025,Male,ALL,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,539,411,326,290,136,119,68.1934,39.1304,34.0961,87.2483
+2024/2025,Male,ALL,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,625,476,398,356,189,174,68.1668,39.3996,39.0244,91.3462
+2024/2025,Male,ALL,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,643,490,406,359,177,160,68.1237,38.9706,35.8456,89.7436
+2024/2025,Male,ALL,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,643,490,394,352,177,165,68.1237,39.3939,36.9318,92.3077
+2024/2025,Male,ALL,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,759,575,469,422,189,181,67.8410,39.6497,33.1210,95.1923
+2024/2025,Male,ALL,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,713,544,451,403,207,193,68.2692,39.4040,37.7483,92.5439
+2024/2025,Male,ALL,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,631,479,383,344,170,160,67.9348,39.5712,36.4522,93.5829
+2024/2025,Male,ALL,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,790,650,475,427,162,147,73.6111,39.5604,27.9435,90.4494
+2024/2025,Male,ALL,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,911,749,557,496,240,230,73.5139,39.2761,35.3887,95.4545
+2024/2025,Male,ALL,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,823,676,516,459,228,212,73.5000,39.2185,36.3242,92.4303
+2024/2025,Male,ALL,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,1474,1211,941,840,421,396,73.5349,39.3339,36.7169,93.5205
+2024/2025,Male,ALL,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,1222,1006,767,688,326,291,73.6399,39.4942,34.9222,88.5794
+2024/2025,Male,ALL,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,1402,1152,869,774,341,316,73.5452,39.2612,32.2165,92.2667
+2024/2025,Male,ALL,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,930,763,580,517,264,242,73.3972,39.2535,37.3230,91.3793
+2024/2025,Male,ALL,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,1094,900,689,616,298,268,73.5589,39.3939,35.4978,89.3293
+2024/2025,Male,ALL,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,773,635,463,413,197,187,73.4929,39.3548,35.0000,94.0092
+2024/2025,Male,ALL,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,921,756,572,513,276,263,73.4922,39.5046,39.5046,95.0495
+2024/2025,Male,ALL,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,934,767,580,517,256,238,73.4949,39.2535,36.2934,92.1986
+2024/2025,Male,ALL,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,927,763,554,496,240,224,73.6686,39.4347,35.5316,92.8030
+2024/2025,Male,ALL,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,1061,870,661,591,268,244,73.3204,39.3905,33.2957,90.5085
+2024/2025,Male,ALL,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,1045,859,679,605,316,289,73.5564,39.2308,38.1319,91.0663
+2024/2025,Male,ALL,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,891,730,553,493,237,219,73.3077,39.2713,35.2227,91.5709
+2024/2025,Male,Disabled,NABTEB,ward,Dagona,North East,Yobe,Bade,Dagona,,4,4,2,2,0,0,83.3333,33.3333,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,5,4,2,2,2,2,71.4286,33.3333,66.6667,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Katuzu,North East,Yobe,Bade,Katuzu,,4,4,3,2,0,0,83.3333,25.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,6,5,3,3,3,3,66.6667,50.0000,75.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,5,5,4,3,4,4,75.0000,40.0000,80.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,5,5,3,3,0,0,75.0000,50.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,4,4,2,2,2,2,83.3333,33.3333,66.6667,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,5,4,3,3,2,2,71.4286,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,4,4,3,2,1,1,83.3333,25.0000,25.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,5,4,3,3,3,3,71.4286,50.0000,75.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,5,4,3,2,2,2,71.4286,25.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Dabule,North East,Yobe,Nguru,Dabule,,5,4,3,2,1,1,71.4286,25.0000,25.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,5,4,2,2,1,1,71.4286,33.3333,33.3333,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,5,4,3,3,2,2,71.4286,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,4,4,2,2,1,1,83.3333,33.3333,33.3333,100.0000
+2024/2025,Male,Disabled,NECO,ward,Dagona,North East,Yobe,Bade,Dagona,,49,38,28,27,9,7,70.4225,43.2432,27.0270,80.0000
+2024/2025,Male,Disabled,NECO,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,49,38,28,25,16,16,70.4225,40.5405,48.6486,94.4444
+2024/2025,Male,Disabled,NECO,ward,Katuzu,North East,Yobe,Bade,Katuzu,,42,31,28,22,16,16,65.5738,35.1351,48.6486,94.4444
+2024/2025,Male,Disabled,NECO,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,84,62,52,47,16,16,66.3934,40.0000,25.7143,94.4444
+2024/2025,Male,Disabled,NECO,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,77,58,52,47,16,16,67.8571,40.0000,25.7143,94.4444
+2024/2025,Male,Disabled,NECO,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,77,58,47,44,14,13,67.8571,41.2698,23.8095,93.3333
+2024/2025,Male,Disabled,NECO,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,56,43,34,30,16,16,69.1358,40.0000,40.0000,94.4444
+2024/2025,Male,Disabled,NECO,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,66,51,43,39,16,15,68.0412,39.6552,31.0345,88.8889
+2024/2025,Male,Disabled,NECO,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,49,38,31,25,9,7,70.4225,35.7143,23.8095,80.0000
+2024/2025,Male,Disabled,NECO,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,63,47,41,36,16,15,66.3043,38.1818,32.7273,88.8889
+2024/2025,Male,Disabled,NECO,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,60,47,40,36,11,10,70.1149,39.6226,22.6415,91.6667
+2024/2025,Male,Disabled,NECO,ward,Dabule,North East,Yobe,Nguru,Dabule,,60,47,35,30,16,15,70.1149,38.2979,38.2979,88.8889
+2024/2025,Male,Disabled,NECO,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,70,54,47,44,11,10,69.6078,41.2698,19.0476,91.6667
+2024/2025,Male,Disabled,NECO,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,66,51,41,36,15,15,68.0412,38.1818,30.9091,94.1176
+2024/2025,Male,Disabled,NECO,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,56,43,34,30,15,15,69.1358,40.0000,37.7778,94.1176
+2024/2025,Male,Disabled,WAEC,ward,Dagona,North East,Yobe,Bade,Dagona,,75,63,49,44,5,3,75.2294,39.3939,9.0909,50.0000
+2024/2025,Male,Disabled,WAEC,ward,Gwio-Kura,North East,Yobe,Bade,Gwio-Kura,,75,63,45,39,18,17,75.2294,38.3333,33.3333,95.0000
+2024/2025,Male,Disabled,WAEC,ward,Katuzu,North East,Yobe,Bade,Katuzu,,56,46,37,29,18,17,73.1707,34.6939,40.8163,95.0000
+2024/2025,Male,Disabled,WAEC,ward,Bindigari/Fawari,North East,Yobe,Damaturu,Bindigari/Fawari,,134,108,84,78,29,28,71.9388,40.7080,28.3186,96.8750
+2024/2025,Male,Disabled,WAEC,ward,Damakasu,North East,Yobe,Damaturu,Damakasu,,116,96,72,63,24,23,73.9645,38.5417,27.0833,96.1538
+2024/2025,Male,Disabled,WAEC,ward,Damaturu Central,North East,Yobe,Damaturu,Damaturu Central,,112,92,68,63,18,17,73.1707,40.6593,21.9780,95.0000
+2024/2025,Male,Disabled,WAEC,ward,Asheikri,North East,Yobe,Geidam,Asheikri,,75,63,47,44,18,17,75.2294,41.2698,31.7460,95.0000
+2024/2025,Male,Disabled,WAEC,ward,Balle/Gallaba/Meleri,North East,Yobe,Geidam,Balle/Gallaba/Meleri,,101,84,63,58,18,17,74.1497,40.0000,23.5294,95.0000
+2024/2025,Male,Disabled,WAEC,ward,Damakarwa/Kusur,North East,Yobe,Geidam,Damakarwa/Kusur,,71,58,45,39,14,11,73.0769,38.3333,25.0000,80.0000
+2024/2025,Male,Disabled,WAEC,ward,Bulabulin,North East,Yobe,Nguru,Bulabulin,,86,70,55,47,24,23,73.6000,37.8378,35.1351,96.1538
+2024/2025,Male,Disabled,WAEC,ward,Bulanguwa,North East,Yobe,Nguru,Bulanguwa,,86,70,55,47,18,17,73.6000,37.8378,27.0270,95.0000
+2024/2025,Male,Disabled,WAEC,ward,Dabule,North East,Yobe,Nguru,Dabule,,90,75,51,44,18,17,74.8092,37.6812,28.9855,95.0000
+2024/2025,Male,Disabled,WAEC,ward,Bare-Bare/Bauya/Lalai Dumbulwa,North East,Yobe,Potiskum,Bare-Bare/Bauya/Lalai Dumbulwa,,97,79,60,52,18,17,72.5352,38.7500,25.0000,95.0000
+2024/2025,Male,Disabled,WAEC,ward,Bolewa 'A',North East,Yobe,Potiskum,Bolewa 'A',,93,75,57,52,24,23,72.0588,40.2597,33.7662,96.1538
+2024/2025,Male,Disabled,WAEC,ward,Bolewa 'B',North East,Yobe,Potiskum,Bolewa 'B',,79,62,53,47,18,17,70.4348,39.4366,28.1690,95.0000

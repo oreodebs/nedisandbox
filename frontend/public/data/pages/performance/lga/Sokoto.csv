@@ -1,181 +1,181 @@
-session,gender,disability_scope,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
-2022/2023,Female,all,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,357,275,409,158,80,74,77.0308,38.6308,19.5599,92.5
-2022/2023,Female,all,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,354,273,409,157,75,68,77.1186,38.3863,18.3374,90.6667
-2022/2023,Female,all,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,340,262,392,151,77,68,77.0588,38.5204,19.6429,88.3117
-2022/2023,Female,all,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,317,245,363,140,73,71,77.2871,38.5675,20.1102,97.2603
-2022/2023,Female,all,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,366,283,420,161,85,80,77.3224,38.3333,20.2381,94.1176
-2022/2023,Female,all,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,657,452,752,289,151,138,68.7976,38.4309,20.0798,91.3907
-2022/2023,Female,all,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,631,434,733,283,140,126,68.7797,38.6085,19.0996,90.0
-2022/2023,Female,all,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,635,437,728,280,137,128,68.8189,38.4615,18.8187,93.4307
-2022/2023,Female,all,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,588,404,672,258,135,125,68.7075,38.3929,20.0893,92.5926
-2022/2023,Female,all,NECO,lga,Wamako,North West,Sokoto,Wamako,,,681,469,787,303,157,147,68.8693,38.5006,19.9492,93.6306
-2022/2023,Female,all,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,861,640,991,381,197,181,74.3322,38.446,19.8789,91.8782
-2022/2023,Female,all,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,828,616,961,369,189,173,74.3961,38.3975,19.667,91.5344
-2022/2023,Female,all,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,825,613,948,364,183,168,74.303,38.3966,19.3038,91.8033
-2022/2023,Female,all,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,785,583,895,343,173,158,74.2675,38.324,19.3296,91.3295
-2022/2023,Female,all,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,898,668,1031,396,204,186,74.3875,38.4093,19.7866,91.1765
-2022/2023,Female,disabled,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,33,26,40,16,10,9,78.7879,40.0,25.0,90.0
-2022/2023,Female,disabled,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,31,24,36,14,6,5,77.4194,38.8889,16.6667,83.3333
-2022/2023,Female,disabled,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,32,25,36,14,10,9,78.125,38.8889,27.7778,90.0
-2022/2023,Female,disabled,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,30,24,34,13,10,9,80.0,38.2353,29.4118,90.0
-2022/2023,Female,disabled,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,32,25,34,13,8,7,78.125,38.2353,23.5294,87.5
-2022/2023,Female,disabled,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,52,36,60,23,14,12,69.2308,38.3333,23.3333,85.7143
-2022/2023,Female,disabled,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,50,34,57,22,9,8,68.0,38.5965,15.7895,88.8889
-2022/2023,Female,disabled,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,48,33,53,21,13,11,68.75,39.6226,24.5283,84.6154
-2022/2023,Female,disabled,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,46,31,54,21,13,12,67.3913,38.8889,24.0741,92.3077
-2022/2023,Female,disabled,NECO,lga,Wamako,North West,Sokoto,Wamako,,,51,35,59,23,14,12,68.6275,38.9831,23.7288,85.7143
-2022/2023,Female,disabled,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,69,51,79,30,15,14,73.913,37.9747,18.9873,93.3333
-2022/2023,Female,disabled,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,64,47,75,28,13,12,73.4375,37.3333,17.3333,92.3077
-2022/2023,Female,disabled,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,64,47,72,27,13,12,73.4375,37.5,18.0556,92.3077
-2022/2023,Female,disabled,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,60,44,68,25,10,9,73.3333,36.7647,14.7059,90.0
-2022/2023,Female,disabled,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,70,52,81,30,14,13,74.2857,37.037,17.284,92.8571
-2022/2023,Male,all,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,415,319,475,182,89,83,76.8675,38.3158,18.7368,93.2584
-2022/2023,Male,all,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,420,324,479,185,97,91,77.1429,38.6221,20.2505,93.8144
-2022/2023,Male,all,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,397,306,455,175,78,75,77.0781,38.4615,17.1429,96.1538
-2022/2023,Male,all,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,372,287,432,166,78,68,77.1505,38.4259,18.0556,87.1795
-2022/2023,Male,all,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,451,347,521,200,91,84,76.9401,38.3877,17.4664,92.3077
-2022/2023,Male,all,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,752,518,875,336,156,139,68.883,38.4,17.8286,89.1026
-2022/2023,Male,all,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,776,534,899,346,171,161,68.8144,38.4872,19.0211,94.152
-2022/2023,Male,all,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,768,529,867,332,153,139,68.8802,38.293,17.6471,90.8497
-2022/2023,Male,all,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,690,475,796,305,144,133,68.8406,38.3166,18.0905,92.3611
-2022/2023,Male,all,NECO,lga,Wamako,North West,Sokoto,Wamako,,,800,550,917,352,174,165,68.75,38.386,18.9749,94.8276
-2022/2023,Male,all,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,998,742,1152,443,219,200,74.3487,38.4549,19.0104,91.3242
-2022/2023,Male,all,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,999,742,1153,443,205,188,74.2743,38.4215,17.7797,91.7073
-2022/2023,Male,all,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,975,726,1105,425,198,184,74.4615,38.4615,17.9186,92.9293
-2022/2023,Male,all,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,910,677,1044,401,192,174,74.3956,38.41,18.3908,90.625
-2022/2023,Male,all,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,1095,814,1268,488,235,215,74.3379,38.4858,18.5331,91.4894
-2022/2023,Male,disabled,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,38,29,43,17,8,7,76.3158,39.5349,18.6047,87.5
-2022/2023,Male,disabled,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,36,28,43,17,11,10,77.7778,39.5349,25.5814,90.9091
-2022/2023,Male,disabled,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,37,28,43,17,8,7,75.6757,39.5349,18.6047,87.5
-2022/2023,Male,disabled,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,34,26,37,14,6,5,76.4706,37.8378,16.2162,83.3333
-2022/2023,Male,disabled,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,37,28,42,16,8,7,75.6757,38.0952,19.0476,87.5
-2022/2023,Male,disabled,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,61,42,72,27,10,8,68.8525,37.5,13.8889,80.0
-2022/2023,Male,disabled,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,60,41,71,27,15,14,68.3333,38.0282,21.1268,93.3333
-2022/2023,Male,disabled,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,59,41,68,26,14,13,69.4915,38.2353,20.5882,92.8571
-2022/2023,Male,disabled,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,54,37,62,23,11,10,68.5185,37.0968,17.7419,90.9091
-2022/2023,Male,disabled,NECO,lga,Wamako,North West,Sokoto,Wamako,,,60,41,67,25,14,13,68.3333,37.3134,20.8955,92.8571
-2022/2023,Male,disabled,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,79,59,91,35,15,13,74.6835,38.4615,16.4835,86.6667
-2022/2023,Male,disabled,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,75,56,89,35,15,14,74.6667,39.3258,16.8539,93.3333
-2022/2023,Male,disabled,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,78,58,89,35,14,13,74.359,39.3258,15.7303,92.8571
-2022/2023,Male,disabled,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,72,54,82,32,12,11,75.0,39.0244,14.6341,91.6667
-2022/2023,Male,disabled,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,85,63,96,38,14,12,74.1176,39.5833,14.5833,85.7143
-2023/2024,Female,all,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,373,305,422,180,49,44,81.7694,42.654,11.6114,89.7959
-2023/2024,Female,all,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,365,299,425,182,50,46,81.9178,42.8235,11.7647,92.0
-2023/2024,Female,all,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,351,287,410,175,50,46,81.7664,42.6829,12.1951,92.0
-2023/2024,Female,all,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,357,292,408,174,50,47,81.7927,42.6471,12.2549,94.0
-2023/2024,Female,all,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,400,328,456,196,58,53,82.0,42.9825,12.7193,91.3793
-2023/2024,Female,all,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,674,502,778,330,91,83,74.4807,42.4165,11.6967,91.2088
-2023/2024,Female,all,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,658,490,767,326,92,83,74.4681,42.5033,11.9948,90.2174
-2023/2024,Female,all,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,659,491,743,315,93,87,74.5068,42.3957,12.5168,93.5484
-2023/2024,Female,all,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,628,468,724,306,85,77,74.5223,42.2652,11.7403,90.5882
-2023/2024,Female,all,NECO,lga,Wamako,North West,Sokoto,Wamako,,,741,553,853,362,103,98,74.6289,42.4385,12.075,95.1456
-2023/2024,Female,all,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,882,705,1013,431,119,109,79.932,42.5469,11.7473,91.5966
-2023/2024,Female,all,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,878,702,1015,433,124,116,79.9544,42.6601,12.2167,93.5484
-2023/2024,Female,all,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,897,717,1019,433,119,109,79.9331,42.4926,11.6781,91.5966
-2023/2024,Female,all,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,832,665,950,404,116,107,79.9279,42.5263,12.2105,92.2414
-2023/2024,Female,all,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,1017,814,1185,504,144,130,80.0393,42.5316,12.1519,90.2778
-2023/2024,Female,disabled,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,31,25,37,17,7,6,80.6452,45.9459,18.9189,85.7143
-2023/2024,Female,disabled,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,32,26,35,16,6,5,81.25,45.7143,17.1429,83.3333
-2023/2024,Female,disabled,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,33,27,38,17,8,7,81.8182,44.7368,21.0526,87.5
-2023/2024,Female,disabled,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,32,26,37,17,6,5,81.25,45.9459,16.2162,83.3333
-2023/2024,Female,disabled,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,35,28,39,18,9,8,80.0,46.1538,23.0769,88.8889
-2023/2024,Female,disabled,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,55,41,65,27,8,7,74.5455,41.5385,12.3077,87.5
-2023/2024,Female,disabled,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,53,39,61,26,8,7,73.5849,42.623,13.1148,87.5
-2023/2024,Female,disabled,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,53,39,59,25,9,8,73.5849,42.3729,15.2542,88.8889
-2023/2024,Female,disabled,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,49,36,55,22,7,6,73.4694,40.0,12.7273,85.7143
-2023/2024,Female,disabled,NECO,lga,Wamako,North West,Sokoto,Wamako,,,55,41,61,26,8,7,74.5455,42.623,13.1148,87.5
-2023/2024,Female,disabled,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,73,58,85,37,9,8,79.4521,43.5294,10.5882,88.8889
-2023/2024,Female,disabled,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,67,53,79,34,8,7,79.1045,43.038,10.1266,87.5
-2023/2024,Female,disabled,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,70,56,80,34,8,7,80.0,42.5,10.0,87.5
-2023/2024,Female,disabled,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,65,52,76,33,8,7,80.0,43.4211,10.5263,87.5
-2023/2024,Female,disabled,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,76,61,87,38,8,7,80.2632,43.6782,9.1954,87.5
-2023/2024,Male,all,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,435,356,503,214,52,49,81.8391,42.5447,10.338,94.2308
-2023/2024,Male,all,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,439,359,512,218,61,56,81.7768,42.5781,11.9141,91.8033
-2023/2024,Male,all,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,428,350,481,206,52,49,81.7757,42.8274,10.8108,94.2308
-2023/2024,Male,all,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,399,326,462,197,53,47,81.7043,42.6407,11.4719,88.6792
-2023/2024,Male,all,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,487,399,558,238,62,55,81.9302,42.6523,11.1111,88.7097
-2023/2024,Male,all,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,788,588,920,391,102,95,74.6193,42.5,11.087,93.1373
-2023/2024,Male,all,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,805,601,921,391,106,96,74.6584,42.4539,11.5092,90.566
-2023/2024,Male,all,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,786,587,898,382,99,91,74.6819,42.539,11.0245,91.9192
-2023/2024,Male,all,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,733,547,859,365,91,85,74.6248,42.4913,10.5937,93.4066
-2023/2024,Male,all,NECO,lga,Wamako,North West,Sokoto,Wamako,,,872,650,984,418,108,101,74.5413,42.4797,10.9756,93.5185
-2023/2024,Male,all,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,1044,835,1190,506,132,121,79.9808,42.521,11.0924,91.6667
-2023/2024,Male,all,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,1070,856,1247,529,139,128,80.0,42.4218,11.1468,92.0863
-2023/2024,Male,all,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,1070,856,1205,513,132,122,80.0,42.5726,10.9544,92.4242
-2023/2024,Male,all,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,967,774,1121,477,125,114,80.0414,42.5513,11.1508,91.2
-2023/2024,Male,all,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,1193,953,1381,587,151,138,79.8826,42.5054,10.9341,91.3907
-2023/2024,Male,disabled,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,38,31,44,19,4,3,81.5789,43.1818,9.0909,75.0
-2023/2024,Male,disabled,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,38,31,48,21,8,7,81.5789,43.75,16.6667,87.5
-2023/2024,Male,disabled,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,38,31,44,19,5,4,81.5789,43.1818,11.3636,80.0
-2023/2024,Male,disabled,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,36,29,42,19,5,4,80.5556,45.2381,11.9048,80.0
-2023/2024,Male,disabled,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,40,32,44,19,6,5,80.0,43.1818,13.6364,83.3333
-2023/2024,Male,disabled,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,63,47,72,31,8,7,74.6032,43.0556,11.1111,87.5
-2023/2024,Male,disabled,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,61,45,68,29,7,6,73.7705,42.6471,10.2941,85.7143
-2023/2024,Male,disabled,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,62,46,70,29,7,6,74.1935,41.4286,10.0,85.7143
-2023/2024,Male,disabled,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,58,43,67,28,6,5,74.1379,41.791,8.9552,83.3333
-2023/2024,Male,disabled,NECO,lga,Wamako,North West,Sokoto,Wamako,,,66,49,74,31,8,7,74.2424,41.8919,10.8108,87.5
-2023/2024,Male,disabled,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,84,67,97,41,9,8,79.7619,42.268,9.2784,88.8889
-2023/2024,Male,disabled,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,83,66,95,40,9,8,79.5181,42.1053,9.4737,88.8889
-2023/2024,Male,disabled,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,85,68,99,42,9,8,80.0,42.4242,9.0909,88.8889
-2023/2024,Male,disabled,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,80,64,93,40,8,7,80.0,43.0108,8.6022,87.5
-2023/2024,Male,disabled,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,90,72,103,43,8,7,80.0,41.7476,7.767,87.5
-2024/2025,Female,all,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,200,151,112,44,36,33,75.5000,39.2857,32.1429,91.6667
-2024/2025,Female,all,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,204,153,117,46,43,39,75.0000,39.3162,36.7521,90.6977
-2024/2025,Female,all,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,193,145,111,43,38,36,75.1295,38.7387,34.2342,94.7368
-2024/2025,Female,all,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,183,138,106,41,36,34,75.4098,38.6792,33.9623,94.4444
-2024/2025,Female,all,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,213,160,121,48,43,38,75.1174,39.6694,35.5372,88.3721
-2024/2025,Female,all,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,2972,2020,1688,662,569,529,67.9677,39.2180,33.7085,92.9701
-2024/2025,Female,all,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,2919,1987,1672,658,586,529,68.0713,39.3541,35.0478,90.2730
-2024/2025,Female,all,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,2755,1875,1587,626,535,492,68.0581,39.4455,33.7114,91.9626
-2024/2025,Female,all,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,2610,1775,1477,582,518,478,68.0077,39.4042,35.0711,92.2780
-2024/2025,Female,all,NECO,lga,Wamako,North West,Sokoto,Wamako,,,3263,2219,1876,736,661,607,68.0049,39.2324,35.2345,91.8306
-2024/2025,Female,all,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,4196,3087,2377,931,815,765,73.5701,39.1670,34.2869,93.8650
-2024/2025,Female,all,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,4116,3024,2398,944,852,790,73.4694,39.3661,35.5296,92.7230
-2024/2025,Female,all,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,4168,3064,2363,931,801,728,73.5125,39.3991,33.8976,90.8864
-2024/2025,Female,all,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,3875,2851,2220,872,783,713,73.5742,39.2793,35.2703,91.0600
-2024/2025,Female,all,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,4697,3456,2673,1050,906,827,73.5789,39.2817,33.8945,91.2804
-2024/2025,Female,disabled,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,21,15,12,5,7,6,71.4286,41.6667,58.3333,85.7143
-2024/2025,Female,disabled,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,20,15,12,5,9,8,75.0000,41.6667,75.0000,88.8889
-2024/2025,Female,disabled,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,20,15,11,4,6,6,75.0000,36.3636,54.5455,100.0000
-2024/2025,Female,disabled,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,20,15,11,4,6,6,75.0000,36.3636,54.5455,100.0000
-2024/2025,Female,disabled,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,21,16,11,4,8,7,76.1905,36.3636,72.7273,87.5000
-2024/2025,Female,disabled,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,280,187,159,63,51,47,66.7857,39.6226,32.0755,92.1569
-2024/2025,Female,disabled,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,245,169,149,60,51,47,68.9796,40.2685,34.2282,92.1569
-2024/2025,Female,disabled,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,245,169,145,58,51,47,68.9796,40.0000,35.1724,92.1569
-2024/2025,Female,disabled,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,230,159,130,51,51,47,69.1304,39.2308,39.2308,92.1569
-2024/2025,Female,disabled,NECO,lga,Wamako,North West,Sokoto,Wamako,,,275,187,152,60,51,47,68.0000,39.4737,33.5526,92.1569
-2024/2025,Female,disabled,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,386,283,223,87,64,59,73.3161,39.0135,28.6996,92.1875
-2024/2025,Female,disabled,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,344,253,197,79,60,56,73.5465,40.1015,30.4569,93.3333
-2024/2025,Female,disabled,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,370,273,213,84,64,56,73.7838,39.4366,30.0469,87.5000
-2024/2025,Female,disabled,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,338,248,197,76,48,44,73.3728,38.5787,24.3655,91.6667
-2024/2025,Female,disabled,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,397,293,231,89,64,59,73.8035,38.5281,27.7056,92.1875
-2024/2025,Male,all,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,231,173,131,52,39,38,74.8918,39.6947,29.7710,97.4359
-2024/2025,Male,all,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,244,183,140,55,47,42,75.0000,39.2857,33.5714,89.3617
-2024/2025,Male,all,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,232,174,133,53,43,40,75.0000,39.8496,32.3308,93.0233
-2024/2025,Male,all,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,214,160,123,48,37,35,74.7664,39.0244,30.0813,94.5946
-2024/2025,Male,all,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,256,192,146,57,46,41,75.0000,39.0411,31.5068,89.1304
-2024/2025,Male,all,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,3511,2386,1984,780,609,556,67.9578,39.3145,30.6956,91.2972
-2024/2025,Male,all,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,3484,2369,1995,783,630,584,67.9966,39.2481,31.5789,92.6984
-2024/2025,Male,all,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,3347,2274,1912,751,609,570,67.9414,39.2782,31.8515,93.5961
-2024/2025,Male,all,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,3065,2082,1765,696,565,512,67.9282,39.4334,32.0113,90.6195
-2024/2025,Male,all,NECO,lga,Wamako,North West,Sokoto,Wamako,,,3806,2585,2181,856,691,638,67.9191,39.2481,31.6827,92.3300
-2024/2025,Male,all,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,4881,3589,2833,1113,906,827,73.5300,39.2870,31.9802,91.2804
-2024/2025,Male,all,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,4857,3571,2743,1080,895,834,73.5228,39.3729,32.6285,93.1844
-2024/2025,Male,all,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,5079,3731,2887,1136,874,808,73.4593,39.3488,30.2736,92.4485
-2024/2025,Male,all,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,4494,3304,2581,1014,812,739,73.5202,39.2871,31.4607,91.0099
-2024/2025,Male,all,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,5642,4145,3220,1264,1016,936,73.4669,39.2547,31.5528,92.1260
-2024/2025,Male,disabled,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,24,18,13,5,5,5,75.0000,38.4615,38.4615,100.0000
-2024/2025,Male,disabled,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,24,18,12,5,5,4,75.0000,41.6667,41.6667,80.0000
-2024/2025,Male,disabled,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,24,18,13,5,5,5,75.0000,38.4615,38.4615,100.0000
-2024/2025,Male,disabled,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,22,17,13,5,4,3,77.2727,38.4615,30.7692,75.0000
-2024/2025,Male,disabled,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,24,18,13,5,6,6,75.0000,38.4615,46.1538,100.0000
-2024/2025,Male,disabled,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,326,220,192,75,51,47,67.4847,39.0625,26.5625,92.1569
-2024/2025,Male,disabled,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,306,206,177,67,54,51,67.3203,37.8531,30.5085,94.4444
-2024/2025,Male,disabled,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,295,201,167,65,51,47,68.1356,38.9222,30.5389,92.1569
-2024/2025,Male,disabled,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,270,183,162,63,32,29,67.7778,38.8889,19.7531,90.6250
-2024/2025,Male,disabled,NECO,lga,Wamako,North West,Sokoto,Wamako,,,336,225,187,75,54,51,66.9643,40.1070,28.8770,94.4444
-2024/2025,Male,disabled,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,455,332,258,102,69,63,72.9670,39.5349,26.7442,91.3043
-2024/2025,Male,disabled,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,423,313,247,97,60,55,73.9953,39.2713,24.2915,91.6667
-2024/2025,Male,disabled,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,439,322,255,99,64,59,73.3485,38.8235,25.0980,92.1875
-2024/2025,Male,disabled,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,386,283,220,87,60,55,73.3161,39.5455,27.2727,91.6667
-2024/2025,Male,disabled,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,487,357,287,112,68,63,73.3060,39.0244,23.6934,92.6471
+session,gender,disability,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
+2022/2023,Female,ALL,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,356,304,441,386,105,98,77.0308,38.6308,19.5599,92.5
+2022/2023,Female,ALL,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,353,302,441,384,98,90,77.1186,38.3863,18.3374,90.6667
+2022/2023,Female,ALL,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,339,290,422,369,101,90,77.0588,38.5204,19.6429,88.3117
+2022/2023,Female,ALL,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,317,271,391,342,96,94,77.2871,38.5675,20.1102,97.2603
+2022/2023,Female,ALL,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,365,313,452,394,112,106,77.3224,38.3333,20.2381,94.1176
+2022/2023,Female,ALL,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,656,500,810,707,198,182,68.7976,38.4309,20.0798,91.3907
+2022/2023,Female,ALL,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,630,480,790,692,184,166,68.7797,38.6085,19.0996,90.0
+2022/2023,Female,ALL,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,634,483,784,685,180,169,68.8189,38.4615,18.8187,93.4307
+2022/2023,Female,ALL,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,587,447,724,631,177,165,68.7075,38.3929,20.0893,92.5926
+2022/2023,Female,ALL,NECO,lga,Wamako,North West,Sokoto,Wamako,,,680,519,848,741,206,194,68.8693,38.5006,19.9492,93.6306
+2022/2023,Female,ALL,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,860,708,1068,931,259,239,74.3322,38.446,19.8789,91.8782
+2022/2023,Female,ALL,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,827,681,1035,902,248,228,74.3961,38.3975,19.667,91.5344
+2022/2023,Female,ALL,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,824,678,1021,890,240,222,74.303,38.3966,19.3038,91.8033
+2022/2023,Female,ALL,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,784,645,964,839,227,209,74.2675,38.324,19.3296,91.3295
+2022/2023,Female,ALL,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,897,739,1111,968,268,246,74.3875,38.4093,19.7866,91.1765
+2022/2023,Female,Disabled,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,33,29,43,39,13,12,78.7879,40.0,25.0,90.0
+2022/2023,Female,Disabled,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,31,27,39,34,8,7,77.4194,38.8889,16.6667,83.3333
+2022/2023,Female,Disabled,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,32,28,39,34,13,12,78.125,38.8889,27.7778,90.0
+2022/2023,Female,Disabled,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,30,27,37,32,13,12,80.0,38.2353,29.4118,90.0
+2022/2023,Female,Disabled,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,32,28,37,32,11,9,78.125,38.2353,23.5294,87.5
+2022/2023,Female,Disabled,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,52,40,65,56,18,16,69.2308,38.3333,23.3333,85.7143
+2022/2023,Female,Disabled,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,50,38,61,54,12,11,68.0,38.5965,15.7895,88.8889
+2022/2023,Female,Disabled,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,48,37,57,51,17,15,68.75,39.6226,24.5283,84.6154
+2022/2023,Female,Disabled,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,46,34,58,51,17,16,67.3913,38.8889,24.0741,92.3077
+2022/2023,Female,Disabled,NECO,lga,Wamako,North West,Sokoto,Wamako,,,51,39,64,56,18,16,68.6275,38.9831,23.7288,85.7143
+2022/2023,Female,Disabled,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,69,56,85,73,20,18,73.913,37.9747,18.9873,93.3333
+2022/2023,Female,Disabled,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,64,52,81,68,17,16,73.4375,37.3333,17.3333,92.3077
+2022/2023,Female,Disabled,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,64,52,78,66,17,16,73.4375,37.5,18.0556,92.3077
+2022/2023,Female,Disabled,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,60,49,73,61,13,12,73.3333,36.7647,14.7059,90.0
+2022/2023,Female,Disabled,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,70,58,87,73,18,17,74.2857,37.037,17.284,92.8571
+2022/2023,Male,ALL,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,414,353,512,445,117,110,76.8675,38.3158,18.7368,93.2584
+2022/2023,Male,ALL,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,419,358,516,452,127,120,77.1429,38.6221,20.2505,93.8144
+2022/2023,Male,ALL,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,396,339,490,428,102,99,77.0781,38.4615,17.1429,96.1538
+2022/2023,Male,ALL,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,371,317,465,406,102,90,77.1505,38.4259,18.0556,87.1795
+2022/2023,Male,ALL,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,450,384,561,489,119,111,76.9401,38.3877,17.4664,92.3077
+2022/2023,Male,ALL,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,751,573,943,821,205,184,68.883,38.4,17.8286,89.1026
+2022/2023,Male,ALL,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,775,591,968,846,225,213,68.8144,38.4872,19.0211,94.152
+2022/2023,Male,ALL,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,767,585,934,812,201,184,68.8802,38.293,17.6471,90.8497
+2022/2023,Male,ALL,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,689,525,858,746,189,176,68.8406,38.3166,18.0905,92.3611
+2022/2023,Male,ALL,NECO,lga,Wamako,North West,Sokoto,Wamako,,,799,608,988,861,228,218,68.75,38.386,18.9749,94.8276
+2022/2023,Male,ALL,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,996,821,1241,1083,288,264,74.3487,38.4549,19.0104,91.3242
+2022/2023,Male,ALL,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,997,821,1242,1083,269,248,74.2743,38.4215,17.7797,91.7073
+2022/2023,Male,ALL,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,973,803,1190,1039,260,243,74.4615,38.4615,17.9186,92.9293
+2022/2023,Male,ALL,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,909,749,1125,980,252,230,74.3956,38.41,18.3908,90.625
+2022/2023,Male,ALL,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,1093,900,1366,1193,309,284,74.3379,38.4858,18.5331,91.4894
+2022/2023,Male,Disabled,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,38,32,46,42,11,9,76.3158,39.5349,18.6047,87.5
+2022/2023,Male,Disabled,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,36,31,46,42,14,13,77.7778,39.5349,25.5814,90.9091
+2022/2023,Male,Disabled,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,37,31,46,42,11,9,75.6757,39.5349,18.6047,87.5
+2022/2023,Male,Disabled,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,34,29,40,34,8,7,76.4706,37.8378,16.2162,83.3333
+2022/2023,Male,Disabled,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,37,31,45,39,11,9,75.6757,38.0952,19.0476,87.5
+2022/2023,Male,Disabled,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,61,46,78,66,13,11,68.8525,37.5,13.8889,80.0
+2022/2023,Male,Disabled,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,60,45,76,66,20,18,68.3333,38.0282,21.1268,93.3333
+2022/2023,Male,Disabled,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,59,45,73,64,18,17,69.4915,38.2353,20.5882,92.8571
+2022/2023,Male,Disabled,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,54,41,67,56,14,13,68.5185,37.0968,17.7419,90.9091
+2022/2023,Male,Disabled,NECO,lga,Wamako,North West,Sokoto,Wamako,,,60,45,72,61,18,17,68.3333,37.3134,20.8955,92.8571
+2022/2023,Male,Disabled,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,79,65,98,86,20,17,74.6835,38.4615,16.4835,86.6667
+2022/2023,Male,Disabled,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,75,62,96,86,20,18,74.6667,39.3258,16.8539,93.3333
+2022/2023,Male,Disabled,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,78,64,96,86,18,17,74.359,39.3258,15.7303,92.8571
+2022/2023,Male,Disabled,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,72,60,88,78,16,15,75.0,39.0244,14.6341,91.6667
+2022/2023,Male,Disabled,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,85,70,103,93,18,16,74.1176,39.5833,14.5833,85.7143
+2023/2024,Female,ALL,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,372,337,455,440,64,58,81.7694,42.654,11.6114,89.7959
+2023/2024,Female,ALL,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,364,331,458,445,66,61,81.9178,42.8235,11.7647,92.0
+2023/2024,Female,ALL,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,350,317,442,428,66,61,81.7664,42.6829,12.1951,92.0
+2023/2024,Female,ALL,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,356,323,440,425,66,62,81.7927,42.6471,12.2549,94.0
+2023/2024,Female,ALL,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,399,363,491,479,76,70,82.0,42.9825,12.7193,91.3793
+2023/2024,Female,ALL,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,673,555,838,807,119,110,74.4807,42.4165,11.6967,91.2088
+2023/2024,Female,ALL,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,657,542,826,797,121,110,74.4681,42.5033,11.9948,90.2174
+2023/2024,Female,ALL,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,658,543,800,770,122,115,74.5068,42.3957,12.5168,93.5484
+2023/2024,Female,ALL,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,627,518,780,748,112,102,74.5223,42.2652,11.7403,90.5882
+2023/2024,Female,ALL,NECO,lga,Wamako,North West,Sokoto,Wamako,,,740,612,919,885,135,129,74.6289,42.4385,12.075,95.1456
+2023/2024,Female,ALL,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,881,780,1091,1054,156,144,79.932,42.5469,11.7473,91.5966
+2023/2024,Female,ALL,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,877,777,1093,1059,163,153,79.9544,42.6601,12.2167,93.5484
+2023/2024,Female,ALL,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,896,793,1098,1059,156,144,79.9331,42.4926,11.6781,91.5966
+2023/2024,Female,ALL,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,831,736,1023,988,152,141,79.9279,42.5263,12.2105,92.2414
+2023/2024,Female,ALL,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,1015,900,1277,1232,189,172,80.0393,42.5316,12.1519,90.2778
+2023/2024,Female,Disabled,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,31,28,40,42,9,8,80.6452,45.9459,18.9189,85.7143
+2023/2024,Female,Disabled,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,32,29,38,39,8,7,81.25,45.7143,17.1429,83.3333
+2023/2024,Female,Disabled,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,33,30,41,42,11,9,81.8182,44.7368,21.0526,87.5
+2023/2024,Female,Disabled,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,32,29,40,42,8,7,81.25,45.9459,16.2162,83.3333
+2023/2024,Female,Disabled,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,35,31,42,44,12,11,80.0,46.1538,23.0769,88.8889
+2023/2024,Female,Disabled,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,55,45,70,66,11,9,74.5455,41.5385,12.3077,87.5
+2023/2024,Female,Disabled,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,53,43,66,64,11,9,73.5849,42.623,13.1148,87.5
+2023/2024,Female,Disabled,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,53,43,64,61,12,11,73.5849,42.3729,15.2542,88.8889
+2023/2024,Female,Disabled,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,49,40,59,54,9,8,73.4694,40.0,12.7273,85.7143
+2023/2024,Female,Disabled,NECO,lga,Wamako,North West,Sokoto,Wamako,,,55,45,66,64,11,9,74.5455,42.623,13.1148,87.5
+2023/2024,Female,Disabled,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,73,64,92,90,12,11,79.4521,43.5294,10.5882,88.8889
+2023/2024,Female,Disabled,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,67,59,85,83,11,9,79.1045,43.038,10.1266,87.5
+2023/2024,Female,Disabled,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,70,62,86,83,11,9,80.0,42.5,10.0,87.5
+2023/2024,Female,Disabled,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,65,58,82,81,11,9,80.0,43.4211,10.5263,87.5
+2023/2024,Female,Disabled,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,76,67,94,93,11,9,80.2632,43.6782,9.1954,87.5
+2023/2024,Male,ALL,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,434,394,542,523,68,65,81.8391,42.5447,10.338,94.2308
+2023/2024,Male,ALL,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,438,397,552,533,80,74,81.7768,42.5781,11.9141,91.8033
+2023/2024,Male,ALL,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,427,387,518,504,68,65,81.7757,42.8274,10.8108,94.2308
+2023/2024,Male,ALL,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,398,361,498,482,70,62,81.7043,42.6407,11.4719,88.6792
+2023/2024,Male,ALL,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,486,441,601,582,81,73,81.9302,42.6523,11.1111,88.7097
+2023/2024,Male,ALL,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,787,650,991,956,134,125,74.6193,42.5,11.087,93.1373
+2023/2024,Male,ALL,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,804,665,992,956,139,127,74.6584,42.4539,11.5092,90.566
+2023/2024,Male,ALL,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,785,649,967,934,130,120,74.6819,42.539,11.0245,91.9192
+2023/2024,Male,ALL,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,732,605,925,892,119,112,74.6248,42.4913,10.5937,93.4066
+2023/2024,Male,ALL,NECO,lga,Wamako,North West,Sokoto,Wamako,,,871,719,1060,1022,142,133,74.5413,42.4797,10.9756,93.5185
+2023/2024,Male,ALL,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,1042,924,1282,1237,173,160,79.9808,42.521,11.0924,91.6667
+2023/2024,Male,ALL,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,1068,947,1343,1293,183,169,80.0,42.4218,11.1468,92.0863
+2023/2024,Male,ALL,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,1068,947,1298,1254,173,161,80.0,42.5726,10.9544,92.4242
+2023/2024,Male,ALL,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,965,856,1208,1166,164,151,80.0414,42.5513,11.1508,91.2
+2023/2024,Male,ALL,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,1191,1054,1488,1435,198,182,79.8826,42.5054,10.9341,91.3907
+2023/2024,Male,Disabled,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,38,34,47,46,5,4,81.5789,43.1818,9.0909,75.0
+2023/2024,Male,Disabled,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,38,34,52,51,11,9,81.5789,43.75,16.6667,87.5
+2023/2024,Male,Disabled,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,38,34,47,46,7,5,81.5789,43.1818,11.3636,80.0
+2023/2024,Male,Disabled,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,36,32,45,46,7,5,80.5556,45.2381,11.9048,80.0
+2023/2024,Male,Disabled,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,40,35,47,46,8,7,80.0,43.1818,13.6364,83.3333
+2023/2024,Male,Disabled,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,63,52,78,76,11,9,74.6032,43.0556,11.1111,87.5
+2023/2024,Male,Disabled,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,61,50,73,71,9,8,73.7705,42.6471,10.2941,85.7143
+2023/2024,Male,Disabled,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,62,51,75,71,9,8,74.1935,41.4286,10.0,85.7143
+2023/2024,Male,Disabled,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,58,48,72,68,8,7,74.1379,41.791,8.9552,83.3333
+2023/2024,Male,Disabled,NECO,lga,Wamako,North West,Sokoto,Wamako,,,66,54,80,76,11,9,74.2424,41.8919,10.8108,87.5
+2023/2024,Male,Disabled,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,84,74,104,100,12,11,79.7619,42.268,9.2784,88.8889
+2023/2024,Male,Disabled,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,83,73,102,98,12,11,79.5181,42.1053,9.4737,88.8889
+2023/2024,Male,Disabled,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,85,75,107,103,12,11,80.0,42.4242,9.0909,88.8889
+2023/2024,Male,Disabled,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,80,71,100,98,11,9,80.0,43.0108,8.6022,87.5
+2023/2024,Male,Disabled,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,90,80,111,105,11,9,80.0,41.7476,7.767,87.5
+2024/2025,Female,ALL,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,200,167,121,108,47,44,75.5000,39.2857,32.1429,91.6667
+2024/2025,Female,ALL,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,204,169,126,112,56,51,75.0000,39.3162,36.7521,90.6977
+2024/2025,Female,ALL,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,193,160,120,105,50,48,75.1295,38.7387,34.2342,94.7368
+2024/2025,Female,ALL,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,183,153,114,100,47,45,75.4098,38.6792,33.9623,94.4444
+2024/2025,Female,ALL,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,213,177,130,117,56,50,75.1174,39.6694,35.5372,88.3721
+2024/2025,Female,ALL,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,2967,2235,1818,1618,747,698,67.9677,39.2180,33.7085,92.9701
+2024/2025,Female,ALL,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,2914,2198,1801,1609,769,698,68.0713,39.3541,35.0478,90.2730
+2024/2025,Female,ALL,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,2751,2074,1710,1530,702,650,68.0581,39.4455,33.7114,91.9626
+2024/2025,Female,ALL,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,2606,1964,1591,1423,680,631,68.0077,39.4042,35.0711,92.2780
+2024/2025,Female,ALL,NECO,lga,Wamako,North West,Sokoto,Wamako,,,3258,2455,2021,1799,868,801,68.0049,39.2324,35.2345,91.8306
+2024/2025,Female,ALL,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,4189,3415,2561,2276,1070,1010,73.5701,39.1670,34.2869,93.8650
+2024/2025,Female,ALL,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,4110,3345,2583,2308,1119,1043,73.4694,39.3661,35.5296,92.7230
+2024/2025,Female,ALL,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,4161,3389,2546,2276,1052,961,73.5125,39.3991,33.8976,90.8864
+2024/2025,Female,ALL,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,3869,3154,2392,2132,1028,941,73.5742,39.2793,35.2703,91.0600
+2024/2025,Female,ALL,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,4690,3823,2880,2567,1190,1092,73.5789,39.2817,33.8945,91.2804
+2024/2025,Female,Disabled,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,21,17,13,12,9,8,71.4286,41.6667,58.3333,85.7143
+2024/2025,Female,Disabled,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,20,17,13,12,12,11,75.0000,41.6667,75.0000,88.8889
+2024/2025,Female,Disabled,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,20,17,12,10,8,8,75.0000,36.3636,54.5455,100.0000
+2024/2025,Female,Disabled,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,20,17,12,10,8,8,75.0000,36.3636,54.5455,100.0000
+2024/2025,Female,Disabled,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,21,18,12,10,11,9,76.1905,36.3636,72.7273,87.5000
+2024/2025,Female,Disabled,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,280,207,171,154,67,62,66.7857,39.6226,32.0755,92.1569
+2024/2025,Female,Disabled,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,245,187,161,147,67,62,68.9796,40.2685,34.2282,92.1569
+2024/2025,Female,Disabled,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,245,187,156,142,67,62,68.9796,40.0000,35.1724,92.1569
+2024/2025,Female,Disabled,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,230,176,140,125,67,62,69.1304,39.2308,39.2308,92.1569
+2024/2025,Female,Disabled,NECO,lga,Wamako,North West,Sokoto,Wamako,,,275,207,164,147,67,62,68.0000,39.4737,33.5526,92.1569
+2024/2025,Female,Disabled,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,385,313,240,213,84,78,73.3161,39.0135,28.6996,92.1875
+2024/2025,Female,Disabled,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,343,280,212,193,79,74,73.5465,40.1015,30.4569,93.3333
+2024/2025,Female,Disabled,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,369,302,229,205,84,74,73.7838,39.4366,30.0469,87.5000
+2024/2025,Female,Disabled,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,337,274,212,186,63,58,73.3728,38.5787,24.3655,91.6667
+2024/2025,Female,Disabled,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,396,324,249,218,84,78,73.8035,38.5281,27.7056,92.1875
+2024/2025,Male,ALL,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,231,191,141,127,51,50,74.8918,39.6947,29.7710,97.4359
+2024/2025,Male,ALL,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,244,202,151,134,62,55,75.0000,39.2857,33.5714,89.3617
+2024/2025,Male,ALL,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,232,192,143,130,56,53,75.0000,39.8496,32.3308,93.0233
+2024/2025,Male,ALL,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,214,177,133,117,49,46,74.7664,39.0244,30.0813,94.5946
+2024/2025,Male,ALL,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,256,212,157,139,60,54,75.0000,39.0411,31.5068,89.1304
+2024/2025,Male,ALL,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,3505,2639,2137,1907,800,734,67.9578,39.3145,30.6956,91.2972
+2024/2025,Male,ALL,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,3479,2621,2149,1914,827,771,67.9966,39.2481,31.5789,92.6984
+2024/2025,Male,ALL,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,3342,2516,2060,1836,800,753,67.9414,39.2782,31.8515,93.5961
+2024/2025,Male,ALL,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,3060,2303,1901,1702,742,676,67.9282,39.4334,32.0113,90.6195
+2024/2025,Male,ALL,NECO,lga,Wamako,North West,Sokoto,Wamako,,,3800,2860,2350,2093,907,842,67.9191,39.2481,31.6827,92.3300
+2024/2025,Male,ALL,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,4873,3970,3052,2721,1190,1092,73.5300,39.2870,31.9802,91.2804
+2024/2025,Male,ALL,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,4849,3950,2955,2640,1175,1101,73.5228,39.3729,32.6285,93.1844
+2024/2025,Male,ALL,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,5071,4127,3110,2777,1148,1067,73.4593,39.3488,30.2736,92.4485
+2024/2025,Male,ALL,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,4487,3655,2780,2479,1066,976,73.5202,39.2871,31.4607,91.0099
+2024/2025,Male,ALL,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,5633,4585,3469,3090,1334,1236,73.4669,39.2547,31.5528,92.1260
+2024/2025,Male,Disabled,NABTEB,lga,Bodinga,North West,Sokoto,Bodinga,,,24,20,14,12,7,7,75.0000,38.4615,38.4615,100.0000
+2024/2025,Male,Disabled,NABTEB,lga,Sokoto North,North West,Sokoto,Sokoto North,,,24,20,13,12,7,5,75.0000,41.6667,41.6667,80.0000
+2024/2025,Male,Disabled,NABTEB,lga,Sokoto South,North West,Sokoto,Sokoto South,,,24,20,14,12,7,7,75.0000,38.4615,38.4615,100.0000
+2024/2025,Male,Disabled,NABTEB,lga,Tambuwal,North West,Sokoto,Tambuwal,,,22,19,14,12,5,4,77.2727,38.4615,30.7692,75.0000
+2024/2025,Male,Disabled,NABTEB,lga,Wamako,North West,Sokoto,Wamako,,,24,20,14,12,8,8,75.0000,38.4615,46.1538,100.0000
+2024/2025,Male,Disabled,NECO,lga,Bodinga,North West,Sokoto,Bodinga,,,325,243,207,183,67,62,67.4847,39.0625,26.5625,92.1569
+2024/2025,Male,Disabled,NECO,lga,Sokoto North,North West,Sokoto,Sokoto North,,,306,228,191,164,71,67,67.3203,37.8531,30.5085,94.4444
+2024/2025,Male,Disabled,NECO,lga,Sokoto South,North West,Sokoto,Sokoto South,,,295,222,180,159,67,62,68.1356,38.9222,30.5389,92.1569
+2024/2025,Male,Disabled,NECO,lga,Tambuwal,North West,Sokoto,Tambuwal,,,270,202,175,154,42,38,67.7778,38.8889,19.7531,90.6250
+2024/2025,Male,Disabled,NECO,lga,Wamako,North West,Sokoto,Wamako,,,335,249,201,183,71,67,66.9643,40.1070,28.8770,94.4444
+2024/2025,Male,Disabled,WAEC,lga,Bodinga,North West,Sokoto,Bodinga,,,454,367,278,249,91,83,72.9670,39.5349,26.7442,91.3043
+2024/2025,Male,Disabled,WAEC,lga,Sokoto North,North West,Sokoto,Sokoto North,,,422,346,266,237,79,73,73.9953,39.2713,24.2915,91.6667
+2024/2025,Male,Disabled,WAEC,lga,Sokoto South,North West,Sokoto,Sokoto South,,,438,356,275,242,84,78,73.3485,38.8235,25.0980,92.1875
+2024/2025,Male,Disabled,WAEC,lga,Tambuwal,North West,Sokoto,Tambuwal,,,385,313,237,213,79,73,73.3161,39.5455,27.2727,91.6667
+2024/2025,Male,Disabled,WAEC,lga,Wamako,North West,Sokoto,Wamako,,,486,395,309,274,89,83,73.3060,39.0244,23.6934,92.6471

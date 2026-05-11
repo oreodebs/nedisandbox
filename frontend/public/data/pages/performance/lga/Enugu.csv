@@ -1,571 +1,571 @@
-session,gender,disability_scope,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
-2022/2023,Female,all,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,0,0,0,0,0,0,0,0,0,0
-2022/2023,Female,all,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,143,65,138,34,0,0,45.4545,24.6377,0.0,0
-2022/2023,Female,all,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,402,260,534,134,169,84,64.6766,25.0936,31.6479,49.7041
-2022/2023,Female,all,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,163,102,215,54,0,0,62.5767,25.1163,0.0,0
-2022/2023,Female,all,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,265,183,306,156,218,217,69.0566,50.9804,71.2418,99.5413
-2022/2023,Female,all,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,207,181,191,118,415,174,87.4396,61.7801,217.2775,41.9277
-2022/2023,Female,all,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,145,88,120,30,60,0,60.6897,25.0,50.0,0.0
-2022/2023,Female,all,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,240,177,311,138,85,84,73.75,44.373,27.3312,98.8235
-2022/2023,Female,all,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,93,77,112,65,85,84,82.7957,58.0357,75.8929,98.8235
-2022/2023,Female,all,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,165,104,213,80,134,133,63.0303,37.5587,62.9108,99.2537
-2022/2023,Female,all,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,195,152,139,86,190,189,77.9487,61.8705,136.6906,99.4737
-2022/2023,Female,all,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,134,96,167,42,15,14,71.6418,25.1497,8.982,93.3333
-2022/2023,Female,all,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,287,215,378,94,195,115,74.9129,24.8677,51.5873,58.9744
-2022/2023,Female,all,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,145,107,133,80,132,101,73.7931,60.1504,99.2481,76.5152
-2022/2023,Female,all,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,37,26,45,28,11,3,70.2703,62.2222,24.4444,27.2727
-2022/2023,Female,all,NABTEB,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0,0,0,0
-2022/2023,Female,all,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,24,21,40,10,0,0,87.5,25.0,0.0,0
-2022/2023,Female,all,NECO,lga,Aninri,South East,Enugu,Aninri,,,225,120,216,54,169,139,53.3333,25.0,78.2407,82.2485
-2022/2023,Female,all,NECO,lga,Awgu,South East,Enugu,Awgu,,,271,155,296,107,164,163,57.1956,36.1486,55.4054,99.3902
-2022/2023,Female,all,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,865,568,986,367,664,663,65.6647,37.2211,67.3428,99.8494
-2022/2023,Female,all,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,437,267,564,234,331,330,61.0984,41.4894,58.6879,99.6979
-2022/2023,Female,all,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,390,253,490,128,248,139,64.8718,26.1224,50.6122,56.0484
-2022/2023,Female,all,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,429,290,529,202,335,334,67.5991,38.1853,63.327,99.7015
-2022/2023,Female,all,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,204,130,275,118,67,59,63.7255,42.9091,24.3636,88.0597
-2022/2023,Female,all,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,405,262,462,166,258,257,64.6914,35.9307,55.8442,99.6124
-2022/2023,Female,all,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,148,102,165,67,112,111,68.9189,40.6061,67.8788,99.1071
-2022/2023,Female,all,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,253,145,306,113,164,142,57.3123,36.9281,53.5948,86.5854
-2022/2023,Female,all,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,186,116,209,59,93,92,62.3656,28.2297,44.4976,98.9247
-2022/2023,Female,all,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,46,21,45,11,0,0,45.6522,24.4444,0.0,0
-2022/2023,Female,all,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,73,39,99,25,42,0,53.4247,25.2525,42.4242,0.0
-2022/2023,Female,all,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,133,79,140,70,120,57,59.3985,50.0,85.7143,47.5
-2022/2023,Female,all,NECO,lga,Udenu,South East,Enugu,Udenu,,,238,162,251,100,331,167,68.0672,39.8406,131.8725,50.4532
-2022/2023,Female,all,NECO,lga,Udi,South East,Enugu,Udi,,,365,218,395,125,270,216,59.726,31.6456,68.3544,80.0
-2022/2023,Female,all,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,205,133,177,58,102,100,64.878,32.7684,57.6271,98.0392
-2022/2023,Female,all,WAEC,lga,Aninri,South East,Enugu,Aninri,,,369,249,424,152,254,210,67.4797,35.8491,59.9057,82.6772
-2022/2023,Female,all,WAEC,lga,Awgu,South East,Enugu,Awgu,,,400,273,423,184,247,246,68.25,43.4988,58.3924,99.5951
-2022/2023,Female,all,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,1087,750,1288,349,657,656,68.9972,27.0963,51.0093,99.8478
-2022/2023,Female,all,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,519,349,623,206,345,344,67.2447,33.0658,55.3772,99.7101
-2022/2023,Female,all,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,513,341,575,229,356,308,66.4717,39.8261,61.913,86.5169
-2022/2023,Female,all,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,326,222,415,149,239,238,68.0982,35.9036,57.5904,99.5816
-2022/2023,Female,all,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,36,32,25,11,0,0,88.8889,44.0,0.0,0
-2022/2023,Female,all,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,90,42,77,27,0,0,46.6667,35.0649,0.0,0
-2022/2023,Female,all,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,22,19,47,24,11,0,86.3636,51.0638,23.4043,0.0
-2022/2023,Female,all,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,83,50,86,22,76,34,60.241,25.5814,88.3721,44.7368
-2022/2023,Female,all,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,244,161,282,113,190,170,65.9836,40.0709,67.3759,89.4737
-2022/2023,Female,all,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,365,233,402,150,251,233,63.8356,37.3134,62.4378,92.8287
-2022/2023,Female,all,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,783,504,912,379,548,439,64.3678,41.557,60.0877,80.1095
-2022/2023,Female,all,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,302,184,338,129,225,223,60.9272,38.1657,66.568,99.1111
-2022/2023,Female,all,WAEC,lga,Udenu,South East,Enugu,Udenu,,,375,255,402,121,224,172,68.0,30.0995,55.7214,76.7857
-2022/2023,Female,all,WAEC,lga,Udi,South East,Enugu,Udi,,,560,423,666,176,441,303,75.5357,26.4264,66.2162,68.7075
-2022/2023,Female,all,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,328,233,380,162,320,171,71.0366,42.6316,84.2105,53.4375
-2022/2023,Female,disabled,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,0,0,0,0,0,0,0,0,0,0
-2022/2023,Female,disabled,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,20,9,0,0,0,0,45.0,0,0,0
-2022/2023,Female,disabled,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,52,23,110,28,0,0,44.2308,25.4545,0.0,0
-2022/2023,Female,disabled,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,0,0,0,0,0,0,0,0,0,0
-2022/2023,Female,disabled,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,16,14,0,0,0,0,87.5,0,0,0
-2022/2023,Female,disabled,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,28,25,29,7,181,0,89.2857,24.1379,624.1379,0.0
-2022/2023,Female,disabled,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,21,18,0,0,44,0,85.7143,0,0,0.0
-2022/2023,Female,disabled,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,12,11,27,17,0,0,91.6667,62.963,0.0,0
-2022/2023,Female,disabled,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,4,4,10,6,0,0,100.0,60.0,0.0,0
-2022/2023,Female,disabled,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,4,4,5,1,0,0,100.0,20.0,0.0,0
-2022/2023,Female,disabled,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,36,30,17,11,0,0,83.3333,64.7059,0.0,0
-2022/2023,Female,disabled,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,11,5,12,7,0,0,45.4545,58.3333,0.0,0
-2022/2023,Female,disabled,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,16,11,21,13,0,0,68.75,61.9048,0.0,0
-2022/2023,Female,disabled,NABTEB,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0,0,0,0
-2022/2023,Female,disabled,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,16,14,29,7,0,0,87.5,24.1379,0.0,0
-2022/2023,Female,disabled,NECO,lga,Aninri,South East,Enugu,Aninri,,,5,2,0,0,0,0,40.0,0,0,0
-2022/2023,Female,disabled,NECO,lga,Awgu,South East,Enugu,Awgu,,,26,23,37,9,0,0,88.4615,24.3243,0.0,0
-2022/2023,Female,disabled,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,91,58,87,46,39,38,63.7363,52.8736,44.8276,97.4359
-2022/2023,Female,disabled,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,30,14,30,19,0,0,46.6667,63.3333,0.0,0
-2022/2023,Female,disabled,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,16,14,37,9,0,0,87.5,24.3243,0.0,0
-2022/2023,Female,disabled,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,48,35,80,38,61,52,72.9167,47.5,76.25,85.2459
-2022/2023,Female,disabled,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,17,15,38,24,1,0,88.2353,63.1579,2.6316,0.0
-2022/2023,Female,disabled,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,16,7,23,6,0,0,43.75,26.087,0.0,0
-2022/2023,Female,disabled,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,31,14,33,8,0,0,45.1613,24.2424,0.0,0
-2022/2023,Female,disabled,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,50,27,72,18,31,0,54.0,25.0,43.0556,0.0
-2022/2023,Female,disabled,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,0,0,0,0,2,0,0,0,0,0.0
-2022/2023,Female,disabled,NECO,lga,Udenu,South East,Enugu,Udenu,,,0,0,0,0,121,0,0,0,0,0.0
-2022/2023,Female,disabled,NECO,lga,Udi,South East,Enugu,Udi,,,24,17,0,0,1,0,70.8333,0,0,0.0
-2022/2023,Female,disabled,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,27,16,0,0,0,0,59.2593,0,0,0
-2022/2023,Female,disabled,WAEC,lga,Aninri,South East,Enugu,Aninri,,,29,17,39,10,0,0,58.6207,25.641,0.0,0
-2022/2023,Female,disabled,WAEC,lga,Awgu,South East,Enugu,Awgu,,,31,20,32,20,0,0,64.5161,62.5,0.0,0
-2022/2023,Female,disabled,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,89,68,116,29,1,0,76.4045,25.0,0.8621,0.0
-2022/2023,Female,disabled,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,8,7,18,11,0,0,87.5,61.1111,0.0,0
-2022/2023,Female,disabled,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,24,21,18,8,0,0,87.5,44.4444,0.0,0
-2022/2023,Female,disabled,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,61,28,57,20,0,0,45.9016,35.0877,0.0,0
-2022/2023,Female,disabled,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,15,13,35,18,8,0,86.6667,51.4286,22.8571,0.0
-2022/2023,Female,disabled,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,25,11,20,5,32,0,44.0,25.0,160.0,0.0
-2022/2023,Female,disabled,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,4,2,0,0,0,0,50.0,0,0,0
-2022/2023,Female,disabled,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,29,16,29,7,0,0,55.1724,24.1379,0.0,0
-2022/2023,Female,disabled,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,60,32,74,46,0,0,53.3333,62.1622,0.0,0
-2022/2023,Female,disabled,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,13,6,0,0,6,0,46.1538,0,0,0.0
-2022/2023,Female,disabled,WAEC,lga,Udenu,South East,Enugu,Udenu,,,28,17,0,0,21,0,60.7143,0,0,0.0
-2022/2023,Female,disabled,WAEC,lga,Udi,South East,Enugu,Udi,,,44,39,64,16,108,0,88.6364,25.0,168.75,0.0
-2022/2023,Female,disabled,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,36,32,82,37,99,0,88.8889,45.122,120.7317,0.0
-2022/2023,Male,all,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,194,133,237,134,169,168,68.5567,56.5401,71.308,99.4083
-2022/2023,Male,all,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,97,57,109,27,0,0,58.7629,24.7706,0.0,0
-2022/2023,Male,all,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,282,211,352,88,177,172,74.8227,25.0,50.2841,97.1751
-2022/2023,Male,all,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,85,65,108,62,90,89,76.4706,57.4074,83.3333,98.8889
-2022/2023,Male,all,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,9,8,16,4,0,0,88.8889,25.0,0.0,0
-2022/2023,Male,all,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,10,9,10,2,0,0,90.0,20.0,0.0,0
-2022/2023,Male,all,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,64,29,45,28,85,57,45.3125,62.2222,188.8889,67.0588
-2022/2023,Male,all,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,138,121,172,74,117,87,87.6812,43.0233,68.0233,74.359
-2022/2023,Male,all,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,103,69,100,30,30,0,66.9903,30.0,30.0,0.0
-2022/2023,Male,all,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,109,50,96,24,15,0,45.8716,25.0,15.625,0.0
-2022/2023,Male,all,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,72,53,83,22,50,49,73.6111,26.506,60.241,98.0
-2022/2023,Male,all,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,103,81,109,27,68,35,78.6408,24.7706,62.3853,51.4706
-2022/2023,Male,all,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,353,247,373,197,726,695,69.9717,52.815,194.6381,95.73
-2022/2023,Male,all,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,120,72,144,36,80,79,60.0,25.0,55.5556,98.75
-2022/2023,Male,all,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,122,85,130,59,85,84,69.6721,45.3846,65.3846,98.8235
-2022/2023,Male,all,NABTEB,lga,Udi,South East,Enugu,Udi,,,137,109,213,88,85,84,79.562,41.3146,39.9061,98.8235
-2022/2023,Male,all,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,106,65,118,47,85,84,61.3208,39.8305,72.0339,98.8235
-2022/2023,Male,all,NECO,lga,Aninri,South East,Enugu,Aninri,,,176,123,168,55,125,94,69.8864,32.7381,74.4048,75.2
-2022/2023,Male,all,NECO,lga,Awgu,South East,Enugu,Awgu,,,10,9,0,0,0,0,90.0,0,0,0
-2022/2023,Male,all,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,81,36,89,49,29,25,44.4444,55.0562,32.5843,86.2069
-2022/2023,Male,all,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,294,192,338,120,275,251,65.3061,35.503,81.3609,91.2727
-2022/2023,Male,all,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,388,241,370,108,318,213,62.1134,29.1892,85.9459,66.9811
-2022/2023,Male,all,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,210,118,234,82,472,164,56.1905,35.0427,201.7094,34.7458
-2022/2023,Male,all,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,169,105,199,87,221,206,62.1302,43.7186,111.0553,93.2127
-2022/2023,Male,all,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,348,245,414,135,310,309,70.4023,32.6087,74.8792,99.6774
-2022/2023,Male,all,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,199,125,248,85,164,163,62.8141,34.2742,66.129,99.3902
-2022/2023,Male,all,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,222,141,308,77,162,161,63.5135,25.0,52.5974,99.3827
-2022/2023,Male,all,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,140,98,194,48,157,156,70.0,24.7423,80.9278,99.3631
-2022/2023,Male,all,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,289,174,308,116,251,250,60.2076,37.6623,81.4935,99.6016
-2022/2023,Male,all,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,565,349,689,238,547,546,61.7699,34.5428,79.3904,99.8172
-2022/2023,Male,all,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,186,125,215,94,132,131,67.2043,43.7209,61.3953,99.2424
-2022/2023,Male,all,NECO,lga,Udenu,South East,Enugu,Udenu,,,219,129,251,110,252,251,58.9041,43.8247,100.3984,99.6032
-2022/2023,Male,all,NECO,lga,Udi,South East,Enugu,Udi,,,199,118,226,89,198,140,59.2965,39.3805,87.6106,70.7071
-2022/2023,Male,all,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,176,104,199,72,168,85,59.0909,36.1809,84.4221,50.5952
-2022/2023,Male,all,WAEC,lga,Aninri,South East,Enugu,Aninri,,,263,172,305,110,191,174,65.3992,36.0656,62.623,91.0995
-2022/2023,Male,all,WAEC,lga,Awgu,South East,Enugu,Awgu,,,264,198,323,108,247,216,75.0,33.4365,76.4706,87.4494
-2022/2023,Male,all,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,728,477,875,316,641,612,65.522,36.1143,73.2571,95.4758
-2022/2023,Male,all,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,432,293,490,122,275,274,67.8241,24.898,56.1224,99.6364
-2022/2023,Male,all,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,587,419,722,227,637,394,71.3799,31.4404,88.2271,61.8524
-2022/2023,Male,all,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,272,203,330,147,259,258,74.6324,44.5455,78.4848,99.6139
-2022/2023,Male,all,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,292,178,289,87,229,228,60.9589,30.1038,79.2388,99.5633
-2022/2023,Male,all,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,443,295,503,209,616,552,66.5914,41.5507,122.4652,89.6104
-2022/2023,Male,all,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,276,202,322,80,355,335,73.1884,24.8447,110.2484,94.3662
-2022/2023,Male,all,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,284,201,333,130,214,157,70.7746,39.039,64.2643,73.3645
-2022/2023,Male,all,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,188,122,201,82,179,178,64.8936,40.796,89.0547,99.4413
-2022/2023,Male,all,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,272,163,322,109,251,250,59.9265,33.8509,77.9503,99.6016
-2022/2023,Male,all,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,622,418,723,291,627,596,67.2026,40.249,86.722,95.0558
-2022/2023,Male,all,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,29,26,20,5,45,44,89.6552,25.0,225.0,97.7778
-2022/2023,Male,all,WAEC,lga,Udenu,South East,Enugu,Udenu,,,55,25,1,0,0,0,45.4545,0.0,0.0,0
-2022/2023,Male,all,WAEC,lga,Udi,South East,Enugu,Udi,,,46,35,55,34,0,0,76.087,61.8182,0.0,0
-2022/2023,Male,all,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,33,29,37,9,8,7,87.8788,24.3243,21.6216,87.5
-2022/2023,Male,disabled,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,26,19,67,26,0,0,73.0769,38.806,0.0,0
-2022/2023,Male,disabled,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,1,1,1,1,0,0,100.0,100.0,0.0,0
-2022/2023,Male,disabled,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,13,11,17,11,0,0,84.6154,64.7059,0.0,0
-2022/2023,Male,disabled,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,6,5,12,3,0,0,83.3333,25.0,0.0,0
-2022/2023,Male,disabled,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,7,6,7,2,0,0,85.7143,28.5714,0.0,0
-2022/2023,Male,disabled,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,13,6,0,0,0,0,46.1538,0,0,0
-2022/2023,Male,disabled,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,0,0,0,0,0,0,0,0,0,0
-2022/2023,Male,disabled,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,13,11,0,0,0,0,84.6154,0,0,0
-2022/2023,Male,disabled,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,25,11,0,0,0,0,44.0,0,0,0
-2022/2023,Male,disabled,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,0,0,0,0,0,0
-2022/2023,Male,disabled,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,2,1,0,0,0,0,50.0,0,0,0
-2022/2023,Male,disabled,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,45,37,29,7,246,210,82.2222,24.1379,848.2759,85.3659
-2022/2023,Male,disabled,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,17,15,37,9,0,0,88.2353,24.3243,0.0,0
-2022/2023,Male,disabled,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,0,0,0,0,0,0,0,0,0,0
-2022/2023,Male,disabled,NABTEB,lga,Udi,South East,Enugu,Udi,,,13,11,27,17,0,0,84.6154,62.963,0.0,0
-2022/2023,Male,disabled,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0,0,0,0
-2022/2023,Male,disabled,NECO,lga,Aninri,South East,Enugu,Aninri,,,19,17,15,4,0,0,89.4737,26.6667,0.0,0
-2022/2023,Male,disabled,NECO,lga,Awgu,South East,Enugu,Awgu,,,7,6,0,0,0,0,85.7143,0,0,0
-2022/2023,Male,disabled,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,38,17,48,28,0,0,44.7368,58.3333,0.0,0
-2022/2023,Male,disabled,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,3,3,2,0,0,0,100.0,0.0,0.0,0
-2022/2023,Male,disabled,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,32,28,43,11,27,0,87.5,25.5814,62.7907,0.0
-2022/2023,Male,disabled,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,29,13,7,4,173,0,44.8276,57.1429,2471.4286,0.0
-2022/2023,Male,disabled,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,1,0,0,0,15,0,0.0,0,0,0.0
-2022/2023,Male,disabled,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,34,22,21,5,0,0,64.7059,23.8095,0.0,0
-2022/2023,Male,disabled,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,25,12,26,11,0,0,48.0,42.3077,0.0,0
-2022/2023,Male,disabled,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,32,21,65,16,0,0,65.625,24.6154,0.0,0
-2022/2023,Male,disabled,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,11,10,21,9,0,0,90.9091,42.8571,0.0,0
-2022/2023,Male,disabled,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,21,9,12,5,0,0,42.8571,41.6667,0.0,0
-2022/2023,Male,disabled,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,39,32,67,27,61,52,82.0513,40.2985,91.0448,85.2459
-2022/2023,Male,disabled,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,14,12,28,17,0,0,85.7143,60.7143,0.0,0
-2022/2023,Male,disabled,WAEC,lga,Aninri,South East,Enugu,Aninri,,,4,4,8,2,0,0,100.0,25.0,0.0,0
-2022/2023,Male,disabled,WAEC,lga,Awgu,South East,Enugu,Awgu,,,21,13,27,7,0,0,61.9048,25.9259,0.0,0
-2022/2023,Male,disabled,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,69,39,82,27,0,0,56.5217,32.9268,0.0,0
-2022/2023,Male,disabled,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,26,23,42,10,0,0,88.4615,23.8095,0.0,0
-2022/2023,Male,disabled,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,51,38,82,26,0,0,74.5098,31.7073,0.0,0
-2022/2023,Male,disabled,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,26,23,55,28,5,4,88.4615,50.9091,9.0909,80.0
-2022/2023,Male,disabled,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,18,8,0,0,21,19,44.4444,0,0,90.4762
-2022/2023,Male,disabled,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,22,14,27,17,102,90,63.6364,62.963,377.7778,88.2353
-2022/2023,Male,disabled,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,25,22,27,7,120,102,88.0,25.9259,444.4444,85.0
-2022/2023,Male,disabled,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,26,22,28,17,13,8,84.6154,60.7143,46.4286,61.5385
-2022/2023,Male,disabled,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,6,5,13,3,25,24,83.3333,23.0769,192.3077,96.0
-2022/2023,Male,disabled,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,20,18,15,4,33,28,90.0,26.6667,220.0,84.8485
-2022/2023,Male,disabled,WAEC,lga,Udenu,South East,Enugu,Udenu,,,38,17,0,0,0,0,44.7368,0,0,0
-2022/2023,Male,disabled,WAEC,lga,Udi,South East,Enugu,Udi,,,32,25,41,25,0,0,78.125,60.9756,0.0,0
-2022/2023,Male,disabled,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,16,14,19,5,0,0,87.5,26.3158,0.0,0
-2023/2024,Female,all,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,173,119,206,83,158,126,68.7861,40.2913,76.699,79.7468
-2023/2024,Female,all,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,211,147,241,102,140,139,69.6682,42.3237,58.0913,99.2857
-2023/2024,Female,all,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,439,306,610,152,87,86,69.7039,24.918,14.2623,98.8506
-2023/2024,Female,all,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,271,223,338,203,228,227,82.2878,60.0592,67.4556,99.5614
-2023/2024,Female,all,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,247,193,262,159,107,106,78.1377,60.687,40.8397,99.0654
-2023/2024,Female,all,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,166,118,192,72,138,77,71.0843,37.5,71.875,55.7971
-2023/2024,Female,all,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,90,79,114,28,0,0,87.7778,24.5614,0.0,0
-2023/2024,Female,all,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,247,149,263,132,171,142,60.3239,50.1901,65.019,83.0409
-2023/2024,Female,all,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,25,22,26,16,135,134,88.0,61.5385,519.2308,99.2593
-2023/2024,Female,all,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,0,0,0,0,137,136,0,0,0,99.2701
-2023/2024,Female,all,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,40,35,80,20,0,0,87.5,25.0,0.0,0
-2023/2024,Female,all,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,8,7,7,2,0,0,87.5,28.5714,0.0,0
-2023/2024,Female,all,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,354,227,320,193,103,71,64.1243,60.3125,32.1875,68.932
-2023/2024,Female,all,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,157,124,124,48,70,69,78.9809,38.7097,56.4516,98.5714
-2023/2024,Female,all,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,120,106,144,48,0,0,88.3333,33.3333,0.0,0
-2023/2024,Female,all,NABTEB,lga,Udi,South East,Enugu,Udi,,,166,133,168,42,37,36,80.1205,25.0,22.0238,97.2973
-2023/2024,Female,all,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,99,81,142,41,85,84,81.8182,28.8732,59.8592,98.8235
-2023/2024,Female,all,NECO,lga,Aninri,South East,Enugu,Aninri,,,349,198,417,145,210,209,56.7335,34.7722,50.3597,99.5238
-2023/2024,Female,all,NECO,lga,Awgu,South East,Enugu,Awgu,,,420,271,502,156,204,203,64.5238,31.0757,40.6375,99.5098
-2023/2024,Female,all,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,650,423,734,280,392,309,65.0769,38.1471,53.406,78.8265
-2023/2024,Female,all,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,461,301,522,206,298,287,65.2928,39.4636,57.0881,96.3087
-2023/2024,Female,all,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,101,74,107,45,24,23,73.2673,42.0561,22.4299,95.8333
-2023/2024,Female,all,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,52,28,9,2,0,0,53.8462,22.2222,0.0,0
-2023/2024,Female,all,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,33,29,66,16,0,0,87.8788,24.2424,0.0,0
-2023/2024,Female,all,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,268,182,321,125,182,181,67.9104,38.9408,56.6978,99.4505
-2023/2024,Female,all,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,203,133,235,93,135,134,65.5172,39.5745,57.4468,99.2593
-2023/2024,Female,all,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,256,194,280,131,160,109,75.7812,46.7857,57.1429,68.125
-2023/2024,Female,all,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,218,166,273,110,87,86,76.1468,40.293,31.8681,98.8506
-2023/2024,Female,all,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,214,136,242,95,129,69,63.5514,39.2562,53.3058,53.4884
-2023/2024,Female,all,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,691,444,681,265,622,392,64.2547,38.9134,91.3363,63.0225
-2023/2024,Female,all,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,320,229,420,169,179,178,71.5625,40.2381,42.619,99.4413
-2023/2024,Female,all,NECO,lga,Udenu,South East,Enugu,Udenu,,,325,230,436,168,184,142,70.7692,38.5321,42.2018,77.1739
-2023/2024,Female,all,NECO,lga,Udi,South East,Enugu,Udi,,,383,296,427,172,244,243,77.2846,40.281,57.1429,99.5902
-2023/2024,Female,all,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,183,140,223,112,155,154,76.5027,50.2242,69.5067,99.3548
-2023/2024,Female,all,WAEC,lga,Aninri,South East,Enugu,Aninri,,,399,304,516,192,279,278,76.1905,37.2093,54.0698,99.6416
-2023/2024,Female,all,WAEC,lga,Awgu,South East,Enugu,Awgu,,,292,223,359,112,130,129,76.3699,31.1978,36.2117,99.2308
-2023/2024,Female,all,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,124,106,128,79,0,0,85.4839,61.7188,0.0,0
-2023/2024,Female,all,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,204,149,237,63,102,93,73.0392,26.5823,43.038,91.1765
-2023/2024,Female,all,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,580,429,646,219,377,324,73.9655,33.9009,58.3591,85.9416
-2023/2024,Female,all,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,432,300,502,205,213,156,69.4444,40.8367,42.4303,73.2394
-2023/2024,Female,all,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,283,180,304,127,160,157,63.6042,41.7763,52.6316,98.125
-2023/2024,Female,all,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,603,372,606,225,385,272,61.6915,37.1287,63.5314,70.6494
-2023/2024,Female,all,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,290,215,315,142,205,128,74.1379,45.0794,65.0794,62.439
-2023/2024,Female,all,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,428,312,473,170,247,181,72.8972,35.9408,52.2199,73.2794
-2023/2024,Female,all,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,361,274,421,174,304,160,75.9003,41.3302,72.209,52.6316
-2023/2024,Female,all,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,374,268,478,171,208,207,71.6578,35.7741,43.5146,99.5192
-2023/2024,Female,all,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,897,648,1022,458,524,523,72.2408,44.8141,51.272,99.8092
-2023/2024,Female,all,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,489,383,543,220,220,219,78.3231,40.5157,40.5157,99.5455
-2023/2024,Female,all,WAEC,lga,Udenu,South East,Enugu,Udenu,,,385,290,516,156,308,224,75.3247,30.2326,59.6899,72.7273
-2023/2024,Female,all,WAEC,lga,Udi,South East,Enugu,Udi,,,534,403,599,217,314,313,75.4682,36.227,52.4207,99.6815
-2023/2024,Female,all,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,201,148,240,107,155,90,73.6318,44.5833,64.5833,58.0645
-2023/2024,Female,disabled,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,0,0,0,0,0,0,0,0,0,0
-2023/2024,Female,disabled,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,16,14,2,0,0,0,87.5,0.0,0.0,0
-2023/2024,Female,disabled,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,49,43,100,25,0,0,87.7551,25.0,0.0,0
-2023/2024,Female,disabled,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,16,14,35,22,0,0,87.5,62.8571,0.0,0
-2023/2024,Female,disabled,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,19,16,32,20,0,0,84.2105,62.5,0.0,0
-2023/2024,Female,disabled,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,16,8,25,16,49,43,50.0,64.0,196.0,87.7551
-2023/2024,Female,disabled,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,17,15,19,12,99,87,88.2353,63.1579,521.0526,87.8788
-2023/2024,Female,disabled,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,0,0,0,0,100,87,0,0,0,87.0
-2023/2024,Female,disabled,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,27,24,59,15,0,0,88.8889,25.4237,0.0,0
-2023/2024,Female,disabled,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,6,5,5,1,0,0,83.3333,20.0,0.0,0
-2023/2024,Female,disabled,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,54,24,0,0,0,0,44.4444,0,0,0
-2023/2024,Female,disabled,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,16,14,0,0,0,0,87.5,0,0,0
-2023/2024,Female,disabled,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,16,14,0,0,0,0,87.5,0,0,0
-2023/2024,Female,disabled,NABTEB,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0,0,0,0
-2023/2024,Female,disabled,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0,0,0,0
-2023/2024,Female,disabled,NECO,lga,Aninri,South East,Enugu,Aninri,,,10,4,23,6,0,0,40.0,26.087,0.0,0
-2023/2024,Female,disabled,NECO,lga,Awgu,South East,Enugu,Awgu,,,48,26,59,15,0,0,54.1667,25.4237,0.0,0
-2023/2024,Female,disabled,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,7,6,16,7,0,0,85.7143,43.75,0.0,0
-2023/2024,Female,disabled,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,45,32,50,22,1,0,71.1111,44.0,2.0,0.0
-2023/2024,Female,disabled,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,35,19,6,2,0,0,54.2857,33.3333,0.0,0
-2023/2024,Female,disabled,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,22,19,49,12,0,0,86.3636,24.4898,0.0,0
-2023/2024,Female,disabled,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,7,6,16,4,0,0,85.7143,25.0,0.0,0
-2023/2024,Female,disabled,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,2,2,0,0,0,0,100.0,0,0,0
-2023/2024,Female,disabled,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,25,22,24,7,0,0,88.0,29.1667,0.0,0
-2023/2024,Female,disabled,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,20,18,44,27,0,0,90.0,61.3636,0.0,0
-2023/2024,Female,disabled,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,1,1,3,1,7,0,100.0,33.3333,233.3333,0.0
-2023/2024,Female,disabled,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,37,17,13,3,174,0,45.9459,23.0769,1338.4615,0.0
-2023/2024,Female,disabled,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,42,26,36,22,0,0,61.9048,61.1111,0.0,0
-2023/2024,Female,disabled,NECO,lga,Udenu,South East,Enugu,Udenu,,,49,33,85,21,0,0,67.3469,24.7059,0.0,0
-2023/2024,Female,disabled,NECO,lga,Udi,South East,Enugu,Udi,,,22,19,3,2,0,0,86.3636,66.6667,0.0,0
-2023/2024,Female,disabled,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,26,16,36,22,51,45,61.5385,61.1111,141.6667,88.2353
-2023/2024,Female,disabled,WAEC,lga,Awgu,South East,Enugu,Awgu,,,18,16,36,9,0,0,88.8889,25.0,0.0,0
-2023/2024,Female,disabled,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,85,72,95,59,0,0,84.7059,62.1053,0.0,0
-2023/2024,Female,disabled,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,33,16,36,9,7,0,48.4848,25.0,19.4444,0.0
-2023/2024,Female,disabled,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,40,27,58,14,44,0,67.5,24.1379,75.8621,0.0
-2023/2024,Female,disabled,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,49,24,51,13,23,1,48.9796,25.4902,45.098,4.3478
-2023/2024,Female,disabled,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,26,12,20,9,0,0,46.1538,45.0,0.0,0
-2023/2024,Female,disabled,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,57,26,36,9,43,0,45.614,25.0,119.4444,0.0
-2023/2024,Female,disabled,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,12,8,0,0,0,0,66.6667,0,0,0
-2023/2024,Female,disabled,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,32,28,43,11,51,0,87.5,25.5814,118.6047,0.0
-2023/2024,Female,disabled,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,37,33,71,44,107,0,89.1892,61.9718,150.7042,0.0
-2023/2024,Female,disabled,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,30,26,36,21,0,0,86.6667,58.3333,0.0,0
-2023/2024,Female,disabled,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,52,33,60,35,0,0,63.4615,58.3333,0.0,0
-2023/2024,Female,disabled,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,37,33,35,22,0,0,89.1892,62.8571,0.0,0
-2023/2024,Female,disabled,WAEC,lga,Udenu,South East,Enugu,Udenu,,,29,26,47,12,0,0,89.6552,25.5319,0.0,0
-2023/2024,Male,all,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,37,33,0,0,0,0,89.1892,0,0,0
-2023/2024,Male,all,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,18,16,6,2,0,0,88.8889,33.3333,0.0,0
-2023/2024,Male,all,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,267,220,336,108,309,154,82.397,32.1429,91.9643,49.8382
-2023/2024,Male,all,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,184,114,243,69,6,0,61.9565,28.3951,2.4691,0.0
-2023/2024,Male,all,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,177,138,208,81,144,143,77.9661,38.9423,69.2308,99.3056
-2023/2024,Male,all,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,157,106,208,98,306,209,67.5159,47.1154,147.1154,68.3007
-2023/2024,Male,all,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,137,87,178,48,187,98,63.5036,26.9663,105.0562,52.4064
-2023/2024,Male,all,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,227,144,214,54,116,60,63.4361,25.2336,54.2056,51.7241
-2023/2024,Male,all,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,121,86,129,61,96,71,71.0744,47.2868,74.4186,73.9583
-2023/2024,Male,all,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,103,74,107,27,26,25,71.8447,25.2336,24.2991,96.1538
-2023/2024,Male,all,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,95,82,103,43,78,51,86.3158,41.7476,75.7282,65.3846
-2023/2024,Male,all,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,194,135,227,141,206,205,69.5876,62.1145,90.7489,99.5146
-2023/2024,Male,all,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,261,216,291,162,105,104,82.7586,55.6701,36.0825,99.0476
-2023/2024,Male,all,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,76,65,91,34,5,0,85.5263,37.3626,5.4945,0.0
-2023/2024,Male,all,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,139,102,160,56,140,114,73.3813,35.0,87.5,81.4286
-2023/2024,Male,all,NABTEB,lga,Udi,South East,Enugu,Udi,,,44,35,73,45,30,29,79.5455,61.6438,41.0959,96.6667
-2023/2024,Male,all,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0,0,0,0
-2023/2024,Male,all,NECO,lga,Aninri,South East,Enugu,Aninri,,,237,190,265,155,244,230,80.1688,58.4906,92.0755,94.2623
-2023/2024,Male,all,NECO,lga,Awgu,South East,Enugu,Awgu,,,181,124,228,102,201,67,68.5083,44.7368,88.1579,33.3333
-2023/2024,Male,all,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,638,448,718,264,460,459,70.2194,36.7688,64.0669,99.7826
-2023/2024,Male,all,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,391,307,497,218,298,241,78.5166,43.8632,59.9598,80.8725
-2023/2024,Male,all,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,377,252,444,172,315,314,66.8435,38.7387,70.9459,99.6825
-2023/2024,Male,all,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,243,153,291,115,196,167,62.963,39.5189,67.354,85.2041
-2023/2024,Male,all,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,263,172,297,90,264,240,65.3992,30.303,88.8889,90.9091
-2023/2024,Male,all,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,398,248,436,139,334,263,62.3116,31.8807,76.6055,78.7425
-2023/2024,Male,all,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,160,89,170,68,135,134,55.625,40.0,79.4118,99.2593
-2023/2024,Male,all,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,142,85,162,54,108,107,59.8592,33.3333,66.6667,99.0741
-2023/2024,Male,all,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,187,117,229,78,157,156,62.5668,34.0611,68.559,99.3631
-2023/2024,Male,all,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,218,158,253,94,193,162,72.4771,37.1542,76.2846,83.9378
-2023/2024,Male,all,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,82,41,17,11,144,33,50.0,64.7059,847.0588,22.9167
-2023/2024,Male,all,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,29,26,47,12,0,0,89.6552,25.5319,0.0,0
-2023/2024,Male,all,NECO,lga,Udenu,South East,Enugu,Udenu,,,103,65,116,38,76,75,63.1068,32.7586,65.5172,98.6842
-2023/2024,Male,all,NECO,lga,Udi,South East,Enugu,Udi,,,250,176,304,122,244,243,70.4,40.1316,80.2632,99.5902
-2023/2024,Male,all,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,174,111,211,90,155,154,63.7931,42.654,73.4597,99.3548
-2023/2024,Male,all,WAEC,lga,Aninri,South East,Enugu,Aninri,,,419,292,508,192,417,416,69.6897,37.7953,82.0866,99.7602
-2023/2024,Male,all,WAEC,lga,Awgu,South East,Enugu,Awgu,,,266,185,319,140,274,233,69.5489,43.8871,85.8934,85.0365
-2023/2024,Male,all,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,927,659,1018,414,754,672,71.0895,40.668,74.0668,89.1247
-2023/2024,Male,all,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,496,391,629,274,525,448,78.8306,43.5612,83.4658,85.3333
-2023/2024,Male,all,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,440,302,463,193,387,301,68.6364,41.6847,83.5853,77.7778
-2023/2024,Male,all,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,280,201,336,117,234,166,71.7857,34.8214,69.6429,70.9402
-2023/2024,Male,all,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,282,213,323,131,263,176,75.5319,40.5573,81.4241,66.9202
-2023/2024,Male,all,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,111,90,95,48,47,30,81.0811,50.5263,49.4737,63.8298
-2023/2024,Male,all,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,35,16,6,2,0,0,45.7143,33.3333,0.0,0
-2023/2024,Male,all,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,33,29,64,40,0,0,87.8788,62.5,0.0,0
-2023/2024,Male,all,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,18,16,35,9,0,0,88.8889,25.7143,0.0,0
-2023/2024,Male,all,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,248,179,285,80,161,160,72.1774,28.0702,56.4912,99.3789
-2023/2024,Male,all,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,705,507,780,310,552,551,71.9149,39.7436,70.7692,99.8188
-2023/2024,Male,all,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,241,176,247,110,248,230,73.029,44.5344,100.4049,92.7419
-2023/2024,Male,all,WAEC,lga,Udenu,South East,Enugu,Udenu,,,298,219,355,104,209,208,73.4899,29.2958,58.8732,99.5215
-2023/2024,Male,all,WAEC,lga,Udi,South East,Enugu,Udi,,,371,274,477,156,314,184,73.8544,32.7044,65.8281,58.5987
-2023/2024,Male,all,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,292,229,342,113,157,156,78.4247,33.0409,45.9064,99.3631
-2023/2024,Male,disabled,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,25,22,0,0,0,0,88.0,0,0,0
-2023/2024,Male,disabled,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,13,11,5,1,0,0,84.6154,20.0,0.0,0
-2023/2024,Male,disabled,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,0,0,15,4,0,0,0,26.6667,0.0,0
-2023/2024,Male,disabled,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,19,12,44,25,0,0,63.1579,56.8182,0.0,0
-2023/2024,Male,disabled,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,5,2,11,3,55,0,40.0,27.2727,500.0,0.0
-2023/2024,Male,disabled,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,12,5,25,6,81,6,41.6667,24.0,324.0,7.4074
-2023/2024,Male,disabled,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,17,8,35,9,67,0,47.0588,25.7143,191.4286,0.0
-2023/2024,Male,disabled,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,28,25,17,4,0,0,89.2857,23.5294,0.0,0
-2023/2024,Male,disabled,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,13,11,0,0,0,0,84.6154,0,0,0
-2023/2024,Male,disabled,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,13,11,0,0,0,0,84.6154,0,0,0
-2023/2024,Male,disabled,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,0,0,0,0,0,0
-2023/2024,Male,disabled,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,27,18,27,17,0,0,66.6667,62.963,0.0,0
-2023/2024,Male,disabled,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,10,9,9,4,0,0,90.0,44.4444,0.0,0
-2023/2024,Male,disabled,NABTEB,lga,Udi,South East,Enugu,Udi,,,11,10,28,17,0,0,90.9091,60.7143,0.0,0
-2023/2024,Male,disabled,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0,0,0,0
-2023/2024,Male,disabled,NECO,lga,Aninri,South East,Enugu,Aninri,,,25,20,41,25,51,45,80.0,60.9756,124.3902,88.2353
-2023/2024,Male,disabled,NECO,lga,Awgu,South East,Enugu,Awgu,,,6,3,0,0,0,0,50.0,0,0,0
-2023/2024,Male,disabled,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,41,25,47,12,0,0,60.9756,25.5319,0.0,0
-2023/2024,Male,disabled,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,52,46,103,52,0,0,88.4615,50.4854,0.0,0
-2023/2024,Male,disabled,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,25,11,17,10,0,0,44.0,58.8235,0.0,0
-2023/2024,Male,disabled,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,4,4,8,5,0,0,100.0,62.5,0.0,0
-2023/2024,Male,disabled,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,26,19,25,6,50,44,73.0769,24.0,200.0,88.0
-2023/2024,Male,disabled,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,24,13,26,6,27,1,54.1667,23.0769,103.8462,3.7037
-2023/2024,Male,disabled,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,8,7,17,10,26,0,87.5,58.8235,152.9412,0.0
-2023/2024,Male,disabled,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,56,28,12,7,106,21,50.0,58.3333,883.3333,19.8113
-2023/2024,Male,disabled,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,20,18,35,9,0,0,90.0,25.7143,0.0,0
-2023/2024,Male,disabled,NECO,lga,Udenu,South East,Enugu,Udenu,,,16,7,4,1,0,0,43.75,25.0,0.0,0
-2023/2024,Male,disabled,NECO,lga,Udi,South East,Enugu,Udi,,,2,2,5,1,0,0,100.0,20.0,0.0,0
-2023/2024,Male,disabled,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,15,13,31,10,0,0,86.6667,32.2581,0.0,0
-2023/2024,Male,disabled,WAEC,lga,Aninri,South East,Enugu,Aninri,,,38,33,68,17,51,50,86.8421,25.0,75.0,98.0392
-2023/2024,Male,disabled,WAEC,lga,Awgu,South East,Enugu,Awgu,,,24,17,35,22,51,15,70.8333,62.8571,145.7143,29.4118
-2023/2024,Male,disabled,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,63,40,50,30,61,0,63.4921,60.0,122.0,0.0
-2023/2024,Male,disabled,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,36,32,72,41,64,1,88.8889,56.9444,88.8889,1.5625
-2023/2024,Male,disabled,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,41,35,26,16,0,0,85.3659,61.5385,0.0,0
-2023/2024,Male,disabled,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,24,11,5,1,0,0,45.8333,20.0,0.0,0
-2023/2024,Male,disabled,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,23,20,47,29,0,0,86.9565,61.7021,0.0,0
-2023/2024,Male,disabled,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,13,11,26,6,0,0,84.6154,23.0769,0.0,0
-2023/2024,Male,disabled,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,20,12,15,4,0,0,60.0,26.6667,0.0,0
-2023/2024,Male,disabled,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,66,30,62,16,21,20,45.4545,25.8065,33.871,95.2381
-2023/2024,Male,disabled,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,32,20,15,9,31,30,62.5,60.0,206.6667,96.7742
-2023/2024,Male,disabled,WAEC,lga,Udenu,South East,Enugu,Udenu,,,4,2,0,0,0,0,50.0,0,0,0
-2023/2024,Male,disabled,WAEC,lga,Udi,South East,Enugu,Udi,,,25,22,51,13,0,0,88.0,25.4902,0.0,0
-2023/2024,Male,disabled,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,21,18,25,6,0,0,85.7143,24.0,0.0,0
-2024/2025,Female,all,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,73,57,43,11,9,0,78.0822,25.5814,20.9302,0.0000
-2024/2025,Female,all,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,67,44,42,11,9,10,65.6716,26.1905,21.4286,111.1111
-2024/2025,Female,all,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,170,123,92,55,37,33,72.3529,59.7826,40.2174,89.1892
-2024/2025,Female,all,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,4,4,4,1,24,28,100.0000,25.0000,600.0000,116.6667
-2024/2025,Female,all,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,18,17,18,4,0,0,94.4444,22.2222,0.0000,0.0000
-2024/2025,Female,all,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,63,49,36,21,6,6,77.7778,58.3333,16.6667,100.0000
-2024/2025,Female,all,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,65,45,27,11,9,2,69.2308,40.7407,33.3333,22.2222
-2024/2025,Female,all,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,131,101,60,15,11,12,77.0992,25.0000,18.3333,109.0909
-2024/2025,Female,all,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,33,23,21,5,1,0,69.6970,23.8095,4.7619,0.0000
-2024/2025,Female,all,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,56,40,27,7,0,0,71.4286,25.9259,0.0000,0.0000
-2024/2025,Female,all,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,49,37,24,11,9,10,75.5102,45.8333,37.5000,111.1111
-2024/2025,Female,all,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,93,74,52,31,26,30,79.5699,59.6154,50.0000,115.3846
-2024/2025,Female,all,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,213,152,119,32,19,22,71.3615,26.8908,15.9664,115.7895
-2024/2025,Female,all,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,84,59,48,21,16,19,70.2381,43.7500,33.3333,118.7500
-2024/2025,Female,all,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,65,57,53,13,9,10,87.6923,24.5283,16.9811,111.1111
-2024/2025,Female,all,NABTEB,lga,Udi,South East,Enugu,Udi,,,116,90,74,36,22,26,77.5862,48.6486,29.7297,118.1818
-2024/2025,Female,all,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,64,54,40,25,12,14,84.3750,62.5000,30.0000,116.6667
-2024/2025,Female,all,NECO,lga,Aninri,South East,Enugu,Aninri,,,107,49,8,2,169,169,45.7944,25.0000,2112.5000,100.0000
-2024/2025,Female,all,NECO,lga,Awgu,South East,Enugu,Awgu,,,155,140,65,17,0,0,90.3226,26.1538,0.0000,0.0000
-2024/2025,Female,all,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,1596,1042,894,337,239,182,65.2882,37.6957,26.7338,76.1506
-2024/2025,Female,all,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,1771,1259,1095,434,276,277,71.0898,39.6347,25.2055,100.3623
-2024/2025,Female,all,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,1461,989,738,345,230,213,67.6934,46.7480,31.1653,92.6087
-2024/2025,Female,all,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,1151,648,598,224,162,162,56.2989,37.4582,27.0903,100.0000
-2024/2025,Female,all,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,917,640,600,168,121,121,69.7928,28.0000,20.1667,100.0000
-2024/2025,Female,all,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,2219,1600,1350,553,303,304,72.1046,40.9630,22.4444,100.3300
-2024/2025,Female,all,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,746,488,418,220,126,125,65.4155,52.6316,30.1435,99.2063
-2024/2025,Female,all,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,1040,751,572,233,165,165,72.2115,40.7343,28.8462,100.0000
-2024/2025,Female,all,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,1012,706,576,287,137,120,69.7628,49.8264,23.7847,87.5912
-2024/2025,Female,all,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,1191,849,711,281,161,148,71.2846,39.5218,22.6442,91.9255
-2024/2025,Female,all,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,2783,1785,1614,588,455,451,64.1394,36.4312,28.1908,99.1209
-2024/2025,Female,all,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,1088,771,582,231,166,154,70.8640,39.6907,28.5223,92.7711
-2024/2025,Female,all,NECO,lga,Udenu,South East,Enugu,Udenu,,,901,636,511,181,126,84,70.5882,35.4207,24.6575,66.6667
-2024/2025,Female,all,NECO,lga,Udi,South East,Enugu,Udi,,,1477,980,835,314,290,233,66.3507,37.6048,34.7305,80.3448
-2024/2025,Female,all,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,306,205,219,67,73,72,66.9935,30.5936,33.3333,98.6301
-2024/2025,Female,all,WAEC,lga,Aninri,South East,Enugu,Aninri,,,1611,1184,883,290,218,228,73.4947,32.8426,24.6886,104.5872
-2024/2025,Female,all,WAEC,lga,Awgu,South East,Enugu,Awgu,,,1802,1334,1071,477,284,297,74.0289,44.5378,26.5173,104.5775
-2024/2025,Female,all,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,4259,3073,2148,829,578,589,72.1531,38.5940,26.9088,101.9031
-2024/2025,Female,all,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,2839,2175,1669,620,454,429,76.6115,37.1480,27.2019,94.4934
-2024/2025,Female,all,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,2567,1968,1677,571,384,403,76.6654,34.0489,22.8980,104.9479
-2024/2025,Female,all,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,1964,1523,1126,430,304,299,77.5458,38.1883,26.9982,98.3553
-2024/2025,Female,all,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,1441,955,779,388,272,263,66.2734,49.8074,34.9166,96.6912
-2024/2025,Female,all,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,3298,2452,1986,867,715,441,74.3481,43.6556,36.0020,61.6783
-2024/2025,Female,all,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,820,608,513,227,169,101,74.1463,44.2495,32.9435,59.7633
-2024/2025,Female,all,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,1462,1109,837,270,202,197,75.8550,32.2581,24.1338,97.5248
-2024/2025,Female,all,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,1084,757,617,290,216,201,69.8339,47.0016,35.0081,93.0556
-2024/2025,Female,all,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,1505,1118,910,337,252,257,74.2857,37.0330,27.6923,101.9841
-2024/2025,Female,all,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,1845,1382,1052,448,335,233,74.9051,42.5856,31.8441,69.5522
-2024/2025,Female,all,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,242,115,38,9,0,0,47.5207,23.6842,0.0000,0.0000
-2024/2025,Female,all,WAEC,lga,Udenu,South East,Enugu,Udenu,,,187,172,182,96,0,0,91.9786,52.7473,0.0000,0.0000
-2024/2025,Female,all,WAEC,lga,Udi,South East,Enugu,Udi,,,807,599,393,123,92,96,74.2255,31.2977,23.4097,104.3478
-2024/2025,Female,all,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,1152,744,627,214,160,168,64.5833,34.1308,25.5183,105.0000
-2024/2025,Female,disabled,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NABTEB,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,lga,Aninri,South East,Enugu,Aninri,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,lga,Awgu,South East,Enugu,Awgu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,1,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,WAEC,lga,Aninri,South East,Enugu,Aninri,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,WAEC,lga,Awgu,South East,Enugu,Awgu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,1,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,0,1,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,WAEC,lga,Udenu,South East,Enugu,Udenu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,WAEC,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Female,disabled,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,all,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,54,43,27,10,19,5,79.6296,37.0370,70.3704,26.3158
-2024/2025,Male,all,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,73,51,45,23,25,30,69.8630,51.1111,55.5556,120.0000
-2024/2025,Male,all,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,195,144,99,27,35,40,73.8462,27.2727,35.3535,114.2857
-2024/2025,Male,all,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,100,67,59,16,18,21,67.0000,27.1186,30.5085,116.6667
-2024/2025,Male,all,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,127,84,82,43,57,40,66.1417,52.4390,69.5122,70.1754
-2024/2025,Male,all,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,55,48,35,20,14,10,87.2727,57.1429,40.0000,71.4286
-2024/2025,Male,all,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,50,32,28,10,11,13,64.0000,35.7143,39.2857,118.1818
-2024/2025,Male,all,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,84,63,55,14,8,9,75.0000,25.4545,14.5455,112.5000
-2024/2025,Male,all,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,55,42,31,15,13,10,76.3636,48.3871,41.9355,76.9231
-2024/2025,Male,all,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,20,16,14,9,7,3,80.0000,64.2857,50.0000,42.8571
-2024/2025,Male,all,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,9,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,all,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,11,10,10,2,0,0,90.9091,20.0000,0.0000,0.0000
-2024/2025,Male,all,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,42,39,24,10,7,0,92.8571,41.6667,29.1667,0.0000
-2024/2025,Male,all,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,51,38,27,13,0,0,74.5098,48.1481,0.0000,0.0000
-2024/2025,Male,all,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,66,58,29,8,7,8,87.8788,27.5862,24.1379,114.2857
-2024/2025,Male,all,NABTEB,lga,Udi,South East,Enugu,Udi,,,52,43,28,7,2,2,82.6923,25.0000,7.1429,100.0000
-2024/2025,Male,all,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,45,32,24,11,9,10,71.1111,45.8333,37.5000,111.1111
-2024/2025,Male,all,NECO,lga,Aninri,South East,Enugu,Aninri,,,965,677,555,195,195,195,70.1554,35.1351,35.1351,100.0000
-2024/2025,Male,all,NECO,lga,Awgu,South East,Enugu,Awgu,,,965,636,505,189,190,190,65.9067,37.4257,37.6238,100.0000
-2024/2025,Male,all,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,2652,1719,1520,607,595,506,64.8190,39.9342,39.1447,85.0420
-2024/2025,Male,all,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,1104,718,636,276,249,171,65.0362,43.3962,39.1509,68.6747
-2024/2025,Male,all,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,1302,919,813,355,300,301,70.5837,43.6654,36.9004,100.3333
-2024/2025,Male,all,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,135,78,67,17,0,0,57.7778,25.3731,0.0000,0.0000
-2024/2025,Male,all,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,83,37,0,0,0,0,44.5783,0.0000,0.0000,0.0000
-2024/2025,Male,all,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,187,131,61,35,0,0,70.0535,57.3770,0.0000,0.0000
-2024/2025,Male,all,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,544,258,229,81,80,80,47.4265,35.3712,34.9345,100.0000
-2024/2025,Male,all,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,679,459,407,164,165,137,67.5994,40.2948,40.5405,83.0303
-2024/2025,Male,all,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,675,464,353,145,142,83,68.7407,41.0765,40.2266,58.4507
-2024/2025,Male,all,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,977,734,649,231,223,198,75.1279,35.5932,34.3606,88.7892
-2024/2025,Male,all,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,1854,1169,987,443,424,426,63.0529,44.8835,42.9585,100.4717
-2024/2025,Male,all,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,822,599,527,154,203,204,72.8710,29.2220,38.5199,100.4926
-2024/2025,Male,all,NECO,lga,Udenu,South East,Enugu,Udenu,,,1120,878,653,193,328,284,78.3929,29.5559,50.2297,86.5854
-2024/2025,Male,all,NECO,lga,Udi,South East,Enugu,Udi,,,1131,845,750,322,292,292,74.7126,42.9333,38.9333,100.0000
-2024/2025,Male,all,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,631,443,334,143,144,144,70.2060,42.8144,43.1138,100.0000
-2024/2025,Male,all,WAEC,lga,Aninri,South East,Enugu,Aninri,,,1016,753,602,279,289,233,74.1142,46.3455,48.0066,80.6228
-2024/2025,Male,all,WAEC,lga,Awgu,South East,Enugu,Awgu,,,1398,1087,828,337,279,293,77.7539,40.7005,33.6957,105.0179
-2024/2025,Male,all,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,1343,991,779,270,320,244,73.7900,34.6598,41.0783,76.2500
-2024/2025,Male,all,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,234,211,173,69,0,0,90.1709,39.8844,0.0000,0.0000
-2024/2025,Male,all,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,1169,784,560,178,184,193,67.0659,31.7857,32.8571,104.8913
-2024/2025,Male,all,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,1300,933,758,276,243,254,71.7692,36.4116,32.0580,104.5267
-2024/2025,Male,all,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,1296,885,720,230,237,237,68.2870,31.9444,32.9167,100.0000
-2024/2025,Male,all,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,1972,1343,974,417,345,361,68.1034,42.8131,35.4209,104.6377
-2024/2025,Male,all,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,935,612,452,156,141,148,65.4545,34.5133,31.1947,104.9645
-2024/2025,Male,all,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,1169,828,725,245,284,286,70.8298,33.7931,39.1724,100.7042
-2024/2025,Male,all,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,1058,832,587,299,235,174,78.6389,50.9370,40.0341,74.0426
-2024/2025,Male,all,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,1811,1448,1031,444,360,377,79.9558,43.0650,34.9176,104.7222
-2024/2025,Male,all,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,2869,2113,1796,618,724,602,73.6494,34.4098,40.3118,83.1492
-2024/2025,Male,all,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,1152,867,617,248,306,321,75.2604,40.1945,49.5948,104.9020
-2024/2025,Male,all,WAEC,lga,Udenu,South East,Enugu,Udenu,,,1653,1175,970,430,484,405,71.0829,44.3299,49.8969,83.6777
-2024/2025,Male,all,WAEC,lga,Udi,South East,Enugu,Udi,,,1624,1237,1039,437,457,474,76.1700,42.0597,43.9846,103.7199
-2024/2025,Male,all,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,943,735,503,223,233,172,77.9427,44.3340,46.3221,73.8197
-2024/2025,Male,disabled,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Aninri,South East,Enugu,Aninri,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Awgu,South East,Enugu,Awgu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Udenu,South East,Enugu,Udenu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,WAEC,lga,Udenu,South East,Enugu,Udenu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
-2024/2025,Male,disabled,WAEC,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+session,gender,disability,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
+2022/2023,Female,ALL,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,0,0,0,0,0,0,0,0,0,0
+2022/2023,Female,ALL,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,106,54,111,62,0,0,45.4545,24.6377,0.0,0
+2022/2023,Female,ALL,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,297,214,429,244,165,83,64.6766,25.0936,31.6479,49.7041
+2022/2023,Female,ALL,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,121,84,173,98,0,0,62.5767,25.1163,0.0,0
+2022/2023,Female,ALL,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,196,151,246,284,213,214,69.0566,50.9804,71.2418,99.5413
+2022/2023,Female,ALL,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,153,149,153,215,406,171,87.4396,61.7801,217.2775,41.9277
+2022/2023,Female,ALL,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,107,73,96,55,59,0,60.6897,25.0,50.0,0.0
+2022/2023,Female,ALL,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,177,146,250,252,83,83,73.75,44.373,27.3312,98.8235
+2022/2023,Female,ALL,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,69,64,90,119,83,83,82.7957,58.0357,75.8929,98.8235
+2022/2023,Female,ALL,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,122,86,171,146,131,131,63.0303,37.5587,62.9108,99.2537
+2022/2023,Female,ALL,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,144,125,112,157,186,186,77.9487,61.8705,136.6906,99.4737
+2022/2023,Female,ALL,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,99,79,134,77,15,14,71.6418,25.1497,8.982,93.3333
+2022/2023,Female,ALL,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,212,177,304,171,191,113,74.9129,24.8677,51.5873,58.9744
+2022/2023,Female,ALL,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,107,88,107,146,129,99,73.7931,60.1504,99.2481,76.5152
+2022/2023,Female,ALL,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,27,21,36,51,11,3,70.2703,62.2222,24.4444,27.2727
+2022/2023,Female,ALL,NABTEB,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0,0,0,0
+2022/2023,Female,ALL,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,18,17,32,18,0,0,87.5,25.0,0.0,0
+2022/2023,Female,ALL,NECO,lga,Aninri,South East,Enugu,Aninri,,,166,99,174,98,165,137,53.3333,25.0,78.2407,82.2485
+2022/2023,Female,ALL,NECO,lga,Awgu,South East,Enugu,Awgu,,,200,128,238,195,161,160,57.1956,36.1486,55.4054,99.3902
+2022/2023,Female,ALL,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,640,469,792,669,650,653,65.6647,37.2211,67.3428,99.8494
+2022/2023,Female,ALL,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,323,220,453,427,324,325,61.0984,41.4894,58.6879,99.6979
+2022/2023,Female,ALL,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,288,209,394,233,243,137,64.8718,26.1224,50.6122,56.0484
+2022/2023,Female,ALL,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,317,239,425,368,328,329,67.5991,38.1853,63.327,99.7015
+2022/2023,Female,ALL,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,151,107,221,215,66,58,63.7255,42.9091,24.3636,88.0597
+2022/2023,Female,ALL,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,299,216,371,303,253,253,64.6914,35.9307,55.8442,99.6124
+2022/2023,Female,ALL,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,109,84,133,122,110,109,68.9189,40.6061,67.8788,99.1071
+2022/2023,Female,ALL,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,187,120,246,206,161,140,57.3123,36.9281,53.5948,86.5854
+2022/2023,Female,ALL,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,138,96,168,108,91,91,62.3656,28.2297,44.4976,98.9247
+2022/2023,Female,ALL,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,34,17,36,20,0,0,45.6522,24.4444,0.0,0
+2022/2023,Female,ALL,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,54,32,80,46,41,0,53.4247,25.2525,42.4242,0.0
+2022/2023,Female,ALL,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,98,65,112,128,118,56,59.3985,50.0,85.7143,47.5
+2022/2023,Female,ALL,NECO,lga,Udenu,South East,Enugu,Udenu,,,176,134,202,182,324,164,68.0672,39.8406,131.8725,50.4532
+2022/2023,Female,ALL,NECO,lga,Udi,South East,Enugu,Udi,,,270,180,317,228,264,213,59.726,31.6456,68.3544,80.0
+2022/2023,Female,ALL,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,152,110,142,106,100,98,64.878,32.7684,57.6271,98.0392
+2022/2023,Female,ALL,WAEC,lga,Aninri,South East,Enugu,Aninri,,,273,205,341,277,249,207,67.4797,35.8491,59.9057,82.6772
+2022/2023,Female,ALL,WAEC,lga,Awgu,South East,Enugu,Awgu,,,296,225,340,336,242,242,68.25,43.4988,58.3924,99.5951
+2022/2023,Female,ALL,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,804,619,1035,636,643,646,68.9972,27.0963,51.0093,99.8478
+2022/2023,Female,ALL,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,384,288,501,376,338,339,67.2447,33.0658,55.3772,99.7101
+2022/2023,Female,ALL,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,379,281,462,418,349,303,66.4717,39.8261,61.913,86.5169
+2022/2023,Female,ALL,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,241,183,333,272,234,234,68.0982,35.9036,57.5904,99.5816
+2022/2023,Female,ALL,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,27,26,20,20,0,0,88.8889,44.0,0.0,0
+2022/2023,Female,ALL,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,67,35,62,49,0,0,46.6667,35.0649,0.0,0
+2022/2023,Female,ALL,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,16,16,38,44,11,0,86.3636,51.0638,23.4043,0.0
+2022/2023,Female,ALL,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,61,41,69,40,74,33,60.241,25.5814,88.3721,44.7368
+2022/2023,Female,ALL,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,180,133,227,206,186,167,65.9836,40.0709,67.3759,89.4737
+2022/2023,Female,ALL,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,270,192,323,274,246,229,63.8356,37.3134,62.4378,92.8287
+2022/2023,Female,ALL,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,579,416,733,691,537,432,64.3678,41.557,60.0877,80.1095
+2022/2023,Female,ALL,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,223,152,272,235,220,220,60.9272,38.1657,66.568,99.1111
+2022/2023,Female,ALL,WAEC,lga,Udenu,South East,Enugu,Udenu,,,277,210,323,221,219,169,68.0,30.0995,55.7214,76.7857
+2022/2023,Female,ALL,WAEC,lga,Udi,South East,Enugu,Udi,,,414,349,535,321,432,298,75.5357,26.4264,66.2162,68.7075
+2022/2023,Female,ALL,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,243,192,305,295,313,168,71.0366,42.6316,84.2105,53.4375
+2022/2023,Female,Disabled,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,0,0,0,0,0,0,0,0,0,0
+2022/2023,Female,Disabled,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,15,7,0,0,0,0,45.0,0,0,0
+2022/2023,Female,Disabled,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,38,19,88,51,0,0,44.2308,25.4545,0.0,0
+2022/2023,Female,Disabled,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,0,0,0,0,0,0,0,0,0,0
+2022/2023,Female,Disabled,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,12,12,0,0,0,0,87.5,0,0,0
+2022/2023,Female,Disabled,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,21,21,23,13,177,0,89.2857,24.1379,624.1379,0.0
+2022/2023,Female,Disabled,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,16,15,0,0,43,0,85.7143,0,0,0.0
+2022/2023,Female,Disabled,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,9,9,22,31,0,0,91.6667,62.963,0.0,0
+2022/2023,Female,Disabled,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,3,3,8,11,0,0,100.0,60.0,0.0,0
+2022/2023,Female,Disabled,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,3,3,4,2,0,0,100.0,20.0,0.0,0
+2022/2023,Female,Disabled,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,27,25,14,20,0,0,83.3333,64.7059,0.0,0
+2022/2023,Female,Disabled,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,8,4,10,13,0,0,45.4545,58.3333,0.0,0
+2022/2023,Female,Disabled,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,12,9,17,24,0,0,68.75,61.9048,0.0,0
+2022/2023,Female,Disabled,NABTEB,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0,0,0,0
+2022/2023,Female,Disabled,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,12,12,23,13,0,0,87.5,24.1379,0.0,0
+2022/2023,Female,Disabled,NECO,lga,Aninri,South East,Enugu,Aninri,,,4,2,0,0,0,0,40.0,0,0,0
+2022/2023,Female,Disabled,NECO,lga,Awgu,South East,Enugu,Awgu,,,19,19,30,16,0,0,88.4615,24.3243,0.0,0
+2022/2023,Female,Disabled,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,67,48,70,84,38,37,63.7363,52.8736,44.8276,97.4359
+2022/2023,Female,Disabled,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,22,12,24,35,0,0,46.6667,63.3333,0.0,0
+2022/2023,Female,Disabled,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,12,12,30,16,0,0,87.5,24.3243,0.0,0
+2022/2023,Female,Disabled,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,35,29,64,69,60,51,72.9167,47.5,76.25,85.2459
+2022/2023,Female,Disabled,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,13,12,31,44,1,0,88.2353,63.1579,2.6316,0.0
+2022/2023,Female,Disabled,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,12,6,18,11,0,0,43.75,26.087,0.0,0
+2022/2023,Female,Disabled,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,23,12,27,15,0,0,45.1613,24.2424,0.0,0
+2022/2023,Female,Disabled,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,37,22,58,33,30,0,54.0,25.0,43.0556,0.0
+2022/2023,Female,Disabled,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,0,0,0,0,2,0,0,0,0,0.0
+2022/2023,Female,Disabled,NECO,lga,Udenu,South East,Enugu,Udenu,,,0,0,0,0,118,0,0,0,0,0.0
+2022/2023,Female,Disabled,NECO,lga,Udi,South East,Enugu,Udi,,,18,14,0,0,1,0,70.8333,0,0,0.0
+2022/2023,Female,Disabled,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,20,13,0,0,0,0,59.2593,0,0,0
+2022/2023,Female,Disabled,WAEC,lga,Aninri,South East,Enugu,Aninri,,,21,14,31,18,0,0,58.6207,25.641,0.0,0
+2022/2023,Female,Disabled,WAEC,lga,Awgu,South East,Enugu,Awgu,,,23,16,26,36,0,0,64.5161,62.5,0.0,0
+2022/2023,Female,Disabled,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,66,56,93,53,1,0,76.4045,25.0,0.8621,0.0
+2022/2023,Female,Disabled,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,6,6,14,20,0,0,87.5,61.1111,0.0,0
+2022/2023,Female,Disabled,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,18,17,14,15,0,0,87.5,44.4444,0.0,0
+2022/2023,Female,Disabled,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,45,23,46,36,0,0,45.9016,35.0877,0.0,0
+2022/2023,Female,Disabled,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,11,11,28,33,8,0,86.6667,51.4286,22.8571,0.0
+2022/2023,Female,Disabled,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,18,9,16,9,31,0,44.0,25.0,160.0,0.0
+2022/2023,Female,Disabled,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,3,2,0,0,0,0,50.0,0,0,0
+2022/2023,Female,Disabled,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,21,13,23,13,0,0,55.1724,24.1379,0.0,0
+2022/2023,Female,Disabled,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,44,26,59,84,0,0,53.3333,62.1622,0.0,0
+2022/2023,Female,Disabled,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,10,5,0,0,6,0,46.1538,0,0,0.0
+2022/2023,Female,Disabled,WAEC,lga,Udenu,South East,Enugu,Udenu,,,21,14,0,0,21,0,60.7143,0,0,0.0
+2022/2023,Female,Disabled,WAEC,lga,Udi,South East,Enugu,Udi,,,33,32,51,29,106,0,88.6364,25.0,168.75,0.0
+2022/2023,Female,Disabled,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,27,26,66,67,97,0,88.8889,45.122,120.7317,0.0
+2022/2023,Male,ALL,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,143,110,190,244,165,165,68.5567,56.5401,71.308,99.4083
+2022/2023,Male,ALL,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,72,47,88,49,0,0,58.7629,24.7706,0.0,0
+2022/2023,Male,ALL,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,209,174,283,160,173,169,74.8227,25.0,50.2841,97.1751
+2022/2023,Male,ALL,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,63,54,87,113,88,88,76.4706,57.4074,83.3333,98.8889
+2022/2023,Male,ALL,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,7,7,13,7,0,0,88.8889,25.0,0.0,0
+2022/2023,Male,ALL,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,7,7,8,4,0,0,90.0,20.0,0.0,0
+2022/2023,Male,ALL,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,47,24,36,51,83,56,45.3125,62.2222,188.8889,67.0588
+2022/2023,Male,ALL,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,102,100,138,135,115,86,87.6812,43.0233,68.0233,74.359
+2022/2023,Male,ALL,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,76,57,80,55,29,0,66.9903,30.0,30.0,0.0
+2022/2023,Male,ALL,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,81,41,77,44,15,0,45.8716,25.0,15.625,0.0
+2022/2023,Male,ALL,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,53,44,67,40,49,48,73.6111,26.506,60.241,98.0
+2022/2023,Male,ALL,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,76,67,88,49,67,34,78.6408,24.7706,62.3853,51.4706
+2022/2023,Male,ALL,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,261,204,300,359,711,684,69.9717,52.815,194.6381,95.73
+2022/2023,Male,ALL,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,89,59,116,66,78,78,60.0,25.0,55.5556,98.75
+2022/2023,Male,ALL,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,90,70,104,108,83,83,69.6721,45.3846,65.3846,98.8235
+2022/2023,Male,ALL,NABTEB,lga,Udi,South East,Enugu,Udi,,,101,90,171,160,83,83,79.562,41.3146,39.9061,98.8235
+2022/2023,Male,ALL,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,78,54,95,86,83,83,61.3208,39.8305,72.0339,98.8235
+2022/2023,Male,ALL,NECO,lga,Aninri,South East,Enugu,Aninri,,,130,101,135,100,122,93,69.8864,32.7381,74.4048,75.2
+2022/2023,Male,ALL,NECO,lga,Awgu,South East,Enugu,Awgu,,,7,7,0,0,0,0,90.0,0,0,0
+2022/2023,Male,ALL,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,60,30,72,89,28,25,44.4444,55.0562,32.5843,86.2069
+2022/2023,Male,ALL,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,217,158,272,219,269,247,65.3061,35.503,81.3609,91.2727
+2022/2023,Male,ALL,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,287,199,297,197,311,210,62.1134,29.1892,85.9459,66.9811
+2022/2023,Male,ALL,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,155,97,188,150,462,161,56.1905,35.0427,201.7094,34.7458
+2022/2023,Male,ALL,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,125,87,160,159,216,203,62.1302,43.7186,111.0553,93.2127
+2022/2023,Male,ALL,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,257,202,333,246,304,304,70.4023,32.6087,74.8792,99.6774
+2022/2023,Male,ALL,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,147,103,199,155,161,160,62.8141,34.2742,66.129,99.3902
+2022/2023,Male,ALL,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,164,116,247,140,159,159,63.5135,25.0,52.5974,99.3827
+2022/2023,Male,ALL,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,104,81,156,88,154,154,70.0,24.7423,80.9278,99.3631
+2022/2023,Male,ALL,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,214,144,247,212,246,246,60.2076,37.6623,81.4935,99.6016
+2022/2023,Male,ALL,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,418,288,554,434,536,538,61.7699,34.5428,79.3904,99.8172
+2022/2023,Male,ALL,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,138,103,173,171,129,129,67.2043,43.7209,61.3953,99.2424
+2022/2023,Male,ALL,NECO,lga,Udenu,South East,Enugu,Udenu,,,162,106,202,201,247,247,58.9041,43.8247,100.3984,99.6032
+2022/2023,Male,ALL,NECO,lga,Udi,South East,Enugu,Udi,,,147,97,182,162,194,138,59.2965,39.3805,87.6106,70.7071
+2022/2023,Male,ALL,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,130,86,160,131,165,84,59.0909,36.1809,84.4221,50.5952
+2022/2023,Male,ALL,WAEC,lga,Aninri,South East,Enugu,Aninri,,,194,142,245,201,187,171,65.3992,36.0656,62.623,91.0995
+2022/2023,Male,ALL,WAEC,lga,Awgu,South East,Enugu,Awgu,,,195,163,260,197,242,213,75.0,33.4365,76.4706,87.4494
+2022/2023,Male,ALL,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,538,394,703,576,628,603,65.522,36.1143,73.2571,95.4758
+2022/2023,Male,ALL,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,319,242,394,222,269,270,67.8241,24.898,56.1224,99.6364
+2022/2023,Male,ALL,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,434,346,580,414,624,388,71.3799,31.4404,88.2271,61.8524
+2022/2023,Male,ALL,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,201,167,265,268,254,254,74.6324,44.5455,78.4848,99.6139
+2022/2023,Male,ALL,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,216,147,232,159,224,224,60.9589,30.1038,79.2388,99.5633
+2022/2023,Male,ALL,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,328,243,404,381,603,543,66.5914,41.5507,122.4652,89.6104
+2022/2023,Male,ALL,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,204,167,259,146,348,330,73.1884,24.8447,110.2484,94.3662
+2022/2023,Male,ALL,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,210,166,268,237,210,155,70.7746,39.039,64.2643,73.3645
+2022/2023,Male,ALL,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,139,101,161,150,175,175,64.8936,40.796,89.0547,99.4413
+2022/2023,Male,ALL,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,201,134,259,199,246,246,59.9265,33.8509,77.9503,99.6016
+2022/2023,Male,ALL,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,460,345,581,531,614,587,67.2026,40.249,86.722,95.0558
+2022/2023,Male,ALL,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,21,21,16,9,44,43,89.6552,25.0,225.0,97.7778
+2022/2023,Male,ALL,WAEC,lga,Udenu,South East,Enugu,Udenu,,,41,21,1,0,0,0,45.4545,0.0,0.0,0
+2022/2023,Male,ALL,WAEC,lga,Udi,South East,Enugu,Udi,,,34,29,44,62,0,0,76.087,61.8182,0.0,0
+2022/2023,Male,ALL,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,24,24,30,16,8,7,87.8788,24.3243,21.6216,87.5
+2022/2023,Male,Disabled,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,19,16,54,47,0,0,73.0769,38.806,0.0,0
+2022/2023,Male,Disabled,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,1,1,1,2,0,0,100.0,100.0,0.0,0
+2022/2023,Male,Disabled,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,10,9,14,20,0,0,84.6154,64.7059,0.0,0
+2022/2023,Male,Disabled,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,4,4,10,5,0,0,83.3333,25.0,0.0,0
+2022/2023,Male,Disabled,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,5,5,6,4,0,0,85.7143,28.5714,0.0,0
+2022/2023,Male,Disabled,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,10,5,0,0,0,0,46.1538,0,0,0
+2022/2023,Male,Disabled,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,0,0,0,0,0,0,0,0,0,0
+2022/2023,Male,Disabled,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,10,9,0,0,0,0,84.6154,0,0,0
+2022/2023,Male,Disabled,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,18,9,0,0,0,0,44.0,0,0,0
+2022/2023,Male,Disabled,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,0,0,0,0,0,0
+2022/2023,Male,Disabled,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,1,1,0,0,0,0,50.0,0,0,0
+2022/2023,Male,Disabled,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,33,31,23,13,241,207,82.2222,24.1379,848.2759,85.3659
+2022/2023,Male,Disabled,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,13,12,30,16,0,0,88.2353,24.3243,0.0,0
+2022/2023,Male,Disabled,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,0,0,0,0,0,0,0,0,0,0
+2022/2023,Male,Disabled,NABTEB,lga,Udi,South East,Enugu,Udi,,,10,9,22,31,0,0,84.6154,62.963,0.0,0
+2022/2023,Male,Disabled,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0,0,0,0
+2022/2023,Male,Disabled,NECO,lga,Aninri,South East,Enugu,Aninri,,,14,14,12,7,0,0,89.4737,26.6667,0.0,0
+2022/2023,Male,Disabled,NECO,lga,Awgu,South East,Enugu,Awgu,,,5,5,0,0,0,0,85.7143,0,0,0
+2022/2023,Male,Disabled,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,28,14,39,51,0,0,44.7368,58.3333,0.0,0
+2022/2023,Male,Disabled,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,2,2,2,0,0,0,100.0,0.0,0.0,0
+2022/2023,Male,Disabled,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,24,23,35,20,26,0,87.5,25.5814,62.7907,0.0
+2022/2023,Male,Disabled,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,21,11,6,7,169,0,44.8276,57.1429,2471.4286,0.0
+2022/2023,Male,Disabled,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,1,0,0,0,15,0,0.0,0,0,0.0
+2022/2023,Male,Disabled,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,25,18,17,9,0,0,64.7059,23.8095,0.0,0
+2022/2023,Male,Disabled,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,18,10,21,20,0,0,48.0,42.3077,0.0,0
+2022/2023,Male,Disabled,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,24,17,52,29,0,0,65.625,24.6154,0.0,0
+2022/2023,Male,Disabled,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,8,8,17,16,0,0,90.9091,42.8571,0.0,0
+2022/2023,Male,Disabled,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,16,7,10,9,0,0,42.8571,41.6667,0.0,0
+2022/2023,Male,Disabled,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,29,26,54,49,60,51,82.0513,40.2985,91.0448,85.2459
+2022/2023,Male,Disabled,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,10,10,22,31,0,0,85.7143,60.7143,0.0,0
+2022/2023,Male,Disabled,WAEC,lga,Aninri,South East,Enugu,Aninri,,,3,3,6,4,0,0,100.0,25.0,0.0,0
+2022/2023,Male,Disabled,WAEC,lga,Awgu,South East,Enugu,Awgu,,,16,11,22,13,0,0,61.9048,25.9259,0.0,0
+2022/2023,Male,Disabled,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,51,32,66,49,0,0,56.5217,32.9268,0.0,0
+2022/2023,Male,Disabled,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,19,19,34,18,0,0,88.4615,23.8095,0.0,0
+2022/2023,Male,Disabled,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,38,31,66,47,0,0,74.5098,31.7073,0.0,0
+2022/2023,Male,Disabled,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,19,19,44,51,5,4,88.4615,50.9091,9.0909,80.0
+2022/2023,Male,Disabled,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,13,7,0,0,21,19,44.4444,0,0,90.4762
+2022/2023,Male,Disabled,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,16,12,22,31,100,89,63.6364,62.963,377.7778,88.2353
+2022/2023,Male,Disabled,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,18,18,22,13,118,100,88.0,25.9259,444.4444,85.0
+2022/2023,Male,Disabled,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,19,18,22,31,13,8,84.6154,60.7143,46.4286,61.5385
+2022/2023,Male,Disabled,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,4,4,10,5,24,24,83.3333,23.0769,192.3077,96.0
+2022/2023,Male,Disabled,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,15,15,12,7,32,28,90.0,26.6667,220.0,84.8485
+2022/2023,Male,Disabled,WAEC,lga,Udenu,South East,Enugu,Udenu,,,28,14,0,0,0,0,44.7368,0,0,0
+2022/2023,Male,Disabled,WAEC,lga,Udi,South East,Enugu,Udi,,,24,21,33,46,0,0,78.125,60.9756,0.0,0
+2022/2023,Male,Disabled,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,12,12,15,9,0,0,87.5,26.3158,0.0,0
+2023/2024,Female,ALL,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,128,98,166,151,155,124,68.7861,40.2913,76.699,79.7468
+2023/2024,Female,ALL,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,156,121,194,186,137,137,69.6682,42.3237,58.0913,99.2857
+2023/2024,Female,ALL,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,325,252,490,277,85,85,69.7039,24.918,14.2623,98.8506
+2023/2024,Female,ALL,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,200,184,272,370,223,223,82.2878,60.0592,67.4556,99.5614
+2023/2024,Female,ALL,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,183,159,210,290,105,104,78.1377,60.687,40.8397,99.0654
+2023/2024,Female,ALL,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,123,97,154,131,135,76,71.0843,37.5,71.875,55.7971
+2023/2024,Female,ALL,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,67,65,92,51,0,0,87.7778,24.5614,0.0,0
+2023/2024,Female,ALL,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,183,123,211,241,167,140,60.3239,50.1901,65.019,83.0409
+2023/2024,Female,ALL,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,18,18,21,29,132,132,88.0,61.5385,519.2308,99.2593
+2023/2024,Female,ALL,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,0,0,0,0,134,134,0,0,0,99.2701
+2023/2024,Female,ALL,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,30,29,64,36,0,0,87.5,25.0,0.0,0
+2023/2024,Female,ALL,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,6,6,6,4,0,0,87.5,28.5714,0.0,0
+2023/2024,Female,ALL,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,262,187,257,352,101,70,64.1243,60.3125,32.1875,68.932
+2023/2024,Female,ALL,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,116,102,100,88,69,68,78.9809,38.7097,56.4516,98.5714
+2023/2024,Female,ALL,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,89,87,116,88,0,0,88.3333,33.3333,0.0,0
+2023/2024,Female,ALL,NABTEB,lga,Udi,South East,Enugu,Udi,,,123,110,135,77,36,35,80.1205,25.0,22.0238,97.2973
+2023/2024,Female,ALL,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,73,67,114,75,83,83,81.8182,28.8732,59.8592,98.8235
+2023/2024,Female,ALL,NECO,lga,Aninri,South East,Enugu,Aninri,,,258,163,335,264,206,206,56.7335,34.7722,50.3597,99.5238
+2023/2024,Female,ALL,NECO,lga,Awgu,South East,Enugu,Awgu,,,311,224,403,284,200,200,64.5238,31.0757,40.6375,99.5098
+2023/2024,Female,ALL,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,481,349,590,511,384,304,65.0769,38.1471,53.406,78.8265
+2023/2024,Female,ALL,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,341,248,419,376,292,283,65.2928,39.4636,57.0881,96.3087
+2023/2024,Female,ALL,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,75,61,86,82,24,23,73.2673,42.0561,22.4299,95.8333
+2023/2024,Female,ALL,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,38,23,7,4,0,0,53.8462,22.2222,0.0,0
+2023/2024,Female,ALL,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,24,24,53,29,0,0,87.8788,24.2424,0.0,0
+2023/2024,Female,ALL,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,198,150,258,228,178,178,67.9104,38.9408,56.6978,99.4505
+2023/2024,Female,ALL,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,150,110,189,170,132,132,65.5172,39.5745,57.4468,99.2593
+2023/2024,Female,ALL,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,189,160,225,239,157,107,75.7812,46.7857,57.1429,68.125
+2023/2024,Female,ALL,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,161,137,219,201,85,85,76.1468,40.293,31.8681,98.8506
+2023/2024,Female,ALL,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,158,112,194,173,126,68,63.5514,39.2562,53.3058,53.4884
+2023/2024,Female,ALL,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,511,366,547,483,609,386,64.2547,38.9134,91.3363,63.0225
+2023/2024,Female,ALL,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,237,189,337,308,175,175,71.5625,40.2381,42.619,99.4413
+2023/2024,Female,ALL,NECO,lga,Udenu,South East,Enugu,Udenu,,,240,190,350,306,180,140,70.7692,38.5321,42.2018,77.1739
+2023/2024,Female,ALL,NECO,lga,Udi,South East,Enugu,Udi,,,283,244,343,314,239,239,77.2846,40.281,57.1429,99.5902
+2023/2024,Female,ALL,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,135,115,179,204,152,152,76.5027,50.2242,69.5067,99.3548
+2023/2024,Female,ALL,WAEC,lga,Aninri,South East,Enugu,Aninri,,,295,251,415,350,273,274,76.1905,37.2093,54.0698,99.6416
+2023/2024,Female,ALL,WAEC,lga,Awgu,South East,Enugu,Awgu,,,216,184,288,204,127,127,76.3699,31.1978,36.2117,99.2308
+2023/2024,Female,ALL,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,92,87,103,144,0,0,85.4839,61.7188,0.0,0
+2023/2024,Female,ALL,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,151,123,190,115,100,92,73.0392,26.5823,43.038,91.1765
+2023/2024,Female,ALL,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,429,354,519,399,369,319,73.9655,33.9009,58.3591,85.9416
+2023/2024,Female,ALL,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,319,247,403,374,209,154,69.4444,40.8367,42.4303,73.2394
+2023/2024,Female,ALL,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,209,148,244,232,157,155,63.6042,41.7763,52.6316,98.125
+2023/2024,Female,ALL,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,446,307,487,410,377,268,61.6915,37.1287,63.5314,70.6494
+2023/2024,Female,ALL,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,214,177,253,259,201,126,74.1379,45.0794,65.0794,62.439
+2023/2024,Female,ALL,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,316,257,380,310,242,178,72.8972,35.9408,52.2199,73.2794
+2023/2024,Female,ALL,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,267,226,338,317,298,158,75.9003,41.3302,72.209,52.6316
+2023/2024,Female,ALL,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,277,221,384,312,204,204,71.6578,35.7741,43.5146,99.5192
+2023/2024,Female,ALL,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,663,535,821,835,513,515,72.2408,44.8141,51.272,99.8092
+2023/2024,Female,ALL,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,362,316,436,401,215,216,78.3231,40.5157,40.5157,99.5455
+2023/2024,Female,ALL,WAEC,lga,Udenu,South East,Enugu,Udenu,,,285,239,415,284,302,221,75.3247,30.2326,59.6899,72.7273
+2023/2024,Female,ALL,WAEC,lga,Udi,South East,Enugu,Udi,,,395,332,481,396,307,308,75.4682,36.227,52.4207,99.6815
+2023/2024,Female,ALL,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,149,122,193,195,152,89,73.6318,44.5833,64.5833,58.0645
+2023/2024,Female,Disabled,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,0,0,0,0,0,0,0,0,0,0
+2023/2024,Female,Disabled,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,12,12,2,0,0,0,87.5,0.0,0.0,0
+2023/2024,Female,Disabled,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,36,35,80,46,0,0,87.7551,25.0,0.0,0
+2023/2024,Female,Disabled,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,12,12,28,40,0,0,87.5,62.8571,0.0,0
+2023/2024,Female,Disabled,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,14,13,26,36,0,0,84.2105,62.5,0.0,0
+2023/2024,Female,Disabled,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,12,7,20,29,48,42,50.0,64.0,196.0,87.7551
+2023/2024,Female,Disabled,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,13,12,15,22,97,86,88.2353,63.1579,521.0526,87.8788
+2023/2024,Female,Disabled,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,0,0,0,0,98,86,0,0,0,87.0
+2023/2024,Female,Disabled,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,20,20,47,27,0,0,88.8889,25.4237,0.0,0
+2023/2024,Female,Disabled,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,4,4,4,2,0,0,83.3333,20.0,0.0,0
+2023/2024,Female,Disabled,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,40,20,0,0,0,0,44.4444,0,0,0
+2023/2024,Female,Disabled,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,12,12,0,0,0,0,87.5,0,0,0
+2023/2024,Female,Disabled,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,12,12,0,0,0,0,87.5,0,0,0
+2023/2024,Female,Disabled,NABTEB,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0,0,0,0
+2023/2024,Female,Disabled,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0,0,0,0
+2023/2024,Female,Disabled,NECO,lga,Aninri,South East,Enugu,Aninri,,,7,3,18,11,0,0,40.0,26.087,0.0,0
+2023/2024,Female,Disabled,NECO,lga,Awgu,South East,Enugu,Awgu,,,35,21,47,27,0,0,54.1667,25.4237,0.0,0
+2023/2024,Female,Disabled,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,5,5,13,13,0,0,85.7143,43.75,0.0,0
+2023/2024,Female,Disabled,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,33,26,40,40,1,0,71.1111,44.0,2.0,0.0
+2023/2024,Female,Disabled,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,26,16,5,4,0,0,54.2857,33.3333,0.0,0
+2023/2024,Female,Disabled,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,16,16,39,22,0,0,86.3636,24.4898,0.0,0
+2023/2024,Female,Disabled,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,5,5,13,7,0,0,85.7143,25.0,0.0,0
+2023/2024,Female,Disabled,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,1,2,0,0,0,0,100.0,0,0,0
+2023/2024,Female,Disabled,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,18,18,19,13,0,0,88.0,29.1667,0.0,0
+2023/2024,Female,Disabled,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,15,15,35,49,0,0,90.0,61.3636,0.0,0
+2023/2024,Female,Disabled,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,1,1,2,2,7,0,100.0,33.3333,233.3333,0.0
+2023/2024,Female,Disabled,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,27,14,10,5,170,0,45.9459,23.0769,1338.4615,0.0
+2023/2024,Female,Disabled,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,31,21,29,40,0,0,61.9048,61.1111,0.0,0
+2023/2024,Female,Disabled,NECO,lga,Udenu,South East,Enugu,Udenu,,,36,27,68,38,0,0,67.3469,24.7059,0.0,0
+2023/2024,Female,Disabled,NECO,lga,Udi,South East,Enugu,Udi,,,16,16,2,4,0,0,86.3636,66.6667,0.0,0
+2023/2024,Female,Disabled,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,19,13,29,40,50,44,61.5385,61.1111,141.6667,88.2353
+2023/2024,Female,Disabled,WAEC,lga,Awgu,South East,Enugu,Awgu,,,13,13,29,16,0,0,88.8889,25.0,0.0,0
+2023/2024,Female,Disabled,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,63,59,76,108,0,0,84.7059,62.1053,0.0,0
+2023/2024,Female,Disabled,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,24,13,29,16,7,0,48.4848,25.0,19.4444,0.0
+2023/2024,Female,Disabled,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,30,22,47,26,43,0,67.5,24.1379,75.8621,0.0
+2023/2024,Female,Disabled,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,36,20,41,24,23,1,48.9796,25.4902,45.098,4.3478
+2023/2024,Female,Disabled,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,19,10,16,16,0,0,46.1538,45.0,0.0,0
+2023/2024,Female,Disabled,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,42,21,29,16,42,0,45.614,25.0,119.4444,0.0
+2023/2024,Female,Disabled,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,9,7,0,0,0,0,66.6667,0,0,0
+2023/2024,Female,Disabled,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,24,23,35,20,50,0,87.5,25.5814,118.6047,0.0
+2023/2024,Female,Disabled,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,27,27,57,80,105,0,89.1892,61.9718,150.7042,0.0
+2023/2024,Female,Disabled,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,22,21,29,38,0,0,86.6667,58.3333,0.0,0
+2023/2024,Female,Disabled,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,38,27,48,64,0,0,63.4615,58.3333,0.0,0
+2023/2024,Female,Disabled,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,27,27,28,40,0,0,89.1892,62.8571,0.0,0
+2023/2024,Female,Disabled,WAEC,lga,Udenu,South East,Enugu,Udenu,,,21,21,38,22,0,0,89.6552,25.5319,0.0,0
+2023/2024,Male,ALL,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,27,27,0,0,0,0,89.1892,0,0,0
+2023/2024,Male,ALL,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,13,13,5,4,0,0,88.8889,33.3333,0.0,0
+2023/2024,Male,ALL,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,197,181,270,197,303,152,82.397,32.1429,91.9643,49.8382
+2023/2024,Male,ALL,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,136,94,195,126,6,0,61.9565,28.3951,2.4691,0.0
+2023/2024,Male,ALL,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,131,114,167,148,141,141,77.9661,38.9423,69.2308,99.3056
+2023/2024,Male,ALL,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,116,87,167,179,300,206,67.5159,47.1154,147.1154,68.3007
+2023/2024,Male,ALL,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,101,72,143,88,183,96,63.5036,26.9663,105.0562,52.4064
+2023/2024,Male,ALL,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,168,119,172,98,114,59,63.4361,25.2336,54.2056,51.7241
+2023/2024,Male,ALL,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,89,71,104,111,94,70,71.0744,47.2868,74.4186,73.9583
+2023/2024,Male,ALL,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,76,61,86,49,25,25,71.8447,25.2336,24.2991,96.1538
+2023/2024,Male,ALL,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,70,68,83,78,76,50,86.3158,41.7476,75.7282,65.3846
+2023/2024,Male,ALL,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,143,111,182,257,202,202,69.5876,62.1145,90.7489,99.5146
+2023/2024,Male,ALL,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,193,178,234,295,103,102,82.7586,55.6701,36.0825,99.0476
+2023/2024,Male,ALL,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,56,54,73,62,5,0,85.5263,37.3626,5.4945,0.0
+2023/2024,Male,ALL,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,103,84,129,102,137,112,73.3813,35.0,87.5,81.4286
+2023/2024,Male,ALL,NABTEB,lga,Udi,South East,Enugu,Udi,,,33,29,59,82,29,29,79.5455,61.6438,41.0959,96.6667
+2023/2024,Male,ALL,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0,0,0,0
+2023/2024,Male,ALL,NECO,lga,Aninri,South East,Enugu,Aninri,,,175,157,213,283,239,226,80.1688,58.4906,92.0755,94.2623
+2023/2024,Male,ALL,NECO,lga,Awgu,South East,Enugu,Awgu,,,134,102,183,186,197,66,68.5083,44.7368,88.1579,33.3333
+2023/2024,Male,ALL,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,472,370,577,481,450,452,70.2194,36.7688,64.0669,99.7826
+2023/2024,Male,ALL,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,289,253,399,398,292,237,78.5166,43.8632,59.9598,80.8725
+2023/2024,Male,ALL,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,279,208,357,314,308,309,66.8435,38.7387,70.9459,99.6825
+2023/2024,Male,ALL,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,180,126,234,210,192,164,62.963,39.5189,67.354,85.2041
+2023/2024,Male,ALL,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,194,142,239,164,259,236,65.3992,30.303,88.8889,90.9091
+2023/2024,Male,ALL,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,294,205,350,253,327,259,62.3116,31.8807,76.6055,78.7425
+2023/2024,Male,ALL,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,118,73,137,124,132,132,55.625,40.0,79.4118,99.2593
+2023/2024,Male,ALL,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,105,70,130,98,106,105,59.8592,33.3333,66.6667,99.0741
+2023/2024,Male,ALL,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,138,97,184,142,154,154,62.5668,34.0611,68.559,99.3631
+2023/2024,Male,ALL,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,161,130,203,171,189,159,72.4771,37.1542,76.2846,83.9378
+2023/2024,Male,ALL,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,61,34,14,20,141,32,50.0,64.7059,847.0588,22.9167
+2023/2024,Male,ALL,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,21,21,38,22,0,0,89.6552,25.5319,0.0,0
+2023/2024,Male,ALL,NECO,lga,Udenu,South East,Enugu,Udenu,,,76,54,93,69,74,74,63.1068,32.7586,65.5172,98.6842
+2023/2024,Male,ALL,NECO,lga,Udi,South East,Enugu,Udi,,,185,145,244,222,239,239,70.4,40.1316,80.2632,99.5902
+2023/2024,Male,ALL,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,129,92,170,164,152,152,63.7931,42.654,73.4597,99.3548
+2023/2024,Male,ALL,WAEC,lga,Aninri,South East,Enugu,Aninri,,,310,241,408,350,408,410,69.6897,37.7953,82.0866,99.7602
+2023/2024,Male,ALL,WAEC,lga,Awgu,South East,Enugu,Awgu,,,197,153,256,255,268,229,69.5489,43.8871,85.8934,85.0365
+2023/2024,Male,ALL,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,685,544,818,755,738,662,71.0895,40.668,74.0668,89.1247
+2023/2024,Male,ALL,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,367,323,505,500,514,441,78.8306,43.5612,83.4658,85.3333
+2023/2024,Male,ALL,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,325,249,372,352,379,296,68.6364,41.6847,83.5853,77.7778
+2023/2024,Male,ALL,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,207,166,270,213,229,163,71.7857,34.8214,69.6429,70.9402
+2023/2024,Male,ALL,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,209,176,260,239,258,173,75.5319,40.5573,81.4241,66.9202
+2023/2024,Male,ALL,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,82,74,76,88,46,30,81.0811,50.5263,49.4737,63.8298
+2023/2024,Male,ALL,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,26,13,5,4,0,0,45.7143,33.3333,0.0,0
+2023/2024,Male,ALL,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,24,24,51,73,0,0,87.8788,62.5,0.0,0
+2023/2024,Male,ALL,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,13,13,28,16,0,0,88.8889,25.7143,0.0,0
+2023/2024,Male,ALL,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,183,148,229,146,158,158,72.1774,28.0702,56.4912,99.3789
+2023/2024,Male,ALL,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,521,418,627,565,541,542,71.9149,39.7436,70.7692,99.8188
+2023/2024,Male,ALL,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,178,145,198,201,243,226,73.029,44.5344,100.4049,92.7419
+2023/2024,Male,ALL,WAEC,lga,Udenu,South East,Enugu,Udenu,,,220,181,285,190,205,205,73.4899,29.2958,58.8732,99.5215
+2023/2024,Male,ALL,WAEC,lga,Udi,South East,Enugu,Udi,,,274,226,383,284,307,181,73.8544,32.7044,65.8281,58.5987
+2023/2024,Male,ALL,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,216,189,275,206,154,154,78.4247,33.0409,45.9064,99.3631
+2023/2024,Male,Disabled,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,18,18,0,0,0,0,88.0,0,0,0
+2023/2024,Male,Disabled,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,10,9,4,2,0,0,84.6154,20.0,0.0,0
+2023/2024,Male,Disabled,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,0,0,12,7,0,0,0,26.6667,0.0,0
+2023/2024,Male,Disabled,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,14,10,35,46,0,0,63.1579,56.8182,0.0,0
+2023/2024,Male,Disabled,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,4,2,9,5,54,0,40.0,27.2727,500.0,0.0
+2023/2024,Male,Disabled,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,9,4,20,11,79,6,41.6667,24.0,324.0,7.4074
+2023/2024,Male,Disabled,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,13,7,28,16,66,0,47.0588,25.7143,191.4286,0.0
+2023/2024,Male,Disabled,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,21,21,14,7,0,0,89.2857,23.5294,0.0,0
+2023/2024,Male,Disabled,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,10,9,0,0,0,0,84.6154,0,0,0
+2023/2024,Male,Disabled,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,10,9,0,0,0,0,84.6154,0,0,0
+2023/2024,Male,Disabled,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,0,0,0,0,0,0
+2023/2024,Male,Disabled,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,20,15,22,31,0,0,66.6667,62.963,0.0,0
+2023/2024,Male,Disabled,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,7,7,7,7,0,0,90.0,44.4444,0.0,0
+2023/2024,Male,Disabled,NABTEB,lga,Udi,South East,Enugu,Udi,,,8,8,22,31,0,0,90.9091,60.7143,0.0,0
+2023/2024,Male,Disabled,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0,0,0,0
+2023/2024,Male,Disabled,NECO,lga,Aninri,South East,Enugu,Aninri,,,18,16,33,46,50,44,80.0,60.9756,124.3902,88.2353
+2023/2024,Male,Disabled,NECO,lga,Awgu,South East,Enugu,Awgu,,,4,2,0,0,0,0,50.0,0,0,0
+2023/2024,Male,Disabled,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,30,21,38,22,0,0,60.9756,25.5319,0.0,0
+2023/2024,Male,Disabled,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,38,38,83,95,0,0,88.4615,50.4854,0.0,0
+2023/2024,Male,Disabled,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,18,9,14,18,0,0,44.0,58.8235,0.0,0
+2023/2024,Male,Disabled,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,3,3,6,9,0,0,100.0,62.5,0.0,0
+2023/2024,Male,Disabled,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,19,16,20,11,49,43,73.0769,24.0,200.0,88.0
+2023/2024,Male,Disabled,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,18,11,21,11,26,1,54.1667,23.0769,103.8462,3.7037
+2023/2024,Male,Disabled,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,6,6,14,18,25,0,87.5,58.8235,152.9412,0.0
+2023/2024,Male,Disabled,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,41,23,10,13,104,21,50.0,58.3333,883.3333,19.8113
+2023/2024,Male,Disabled,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,15,15,28,16,0,0,90.0,25.7143,0.0,0
+2023/2024,Male,Disabled,NECO,lga,Udenu,South East,Enugu,Udenu,,,12,6,3,2,0,0,43.75,25.0,0.0,0
+2023/2024,Male,Disabled,NECO,lga,Udi,South East,Enugu,Udi,,,1,2,4,2,0,0,100.0,20.0,0.0,0
+2023/2024,Male,Disabled,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,11,11,25,18,0,0,86.6667,32.2581,0.0,0
+2023/2024,Male,Disabled,WAEC,lga,Aninri,South East,Enugu,Aninri,,,28,27,55,31,50,49,86.8421,25.0,75.0,98.0392
+2023/2024,Male,Disabled,WAEC,lga,Awgu,South East,Enugu,Awgu,,,18,14,28,40,50,15,70.8333,62.8571,145.7143,29.4118
+2023/2024,Male,Disabled,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,47,33,40,55,60,0,63.4921,60.0,122.0,0.0
+2023/2024,Male,Disabled,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,27,26,58,75,63,1,88.8889,56.9444,88.8889,1.5625
+2023/2024,Male,Disabled,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,30,29,21,29,0,0,85.3659,61.5385,0.0,0
+2023/2024,Male,Disabled,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,18,9,4,2,0,0,45.8333,20.0,0.0,0
+2023/2024,Male,Disabled,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,17,16,38,53,0,0,86.9565,61.7021,0.0,0
+2023/2024,Male,Disabled,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,10,9,21,11,0,0,84.6154,23.0769,0.0,0
+2023/2024,Male,Disabled,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,15,10,12,7,0,0,60.0,26.6667,0.0,0
+2023/2024,Male,Disabled,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,49,25,50,29,21,20,45.4545,25.8065,33.871,95.2381
+2023/2024,Male,Disabled,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,24,16,12,16,30,30,62.5,60.0,206.6667,96.7742
+2023/2024,Male,Disabled,WAEC,lga,Udenu,South East,Enugu,Udenu,,,3,2,0,0,0,0,50.0,0,0,0
+2023/2024,Male,Disabled,WAEC,lga,Udi,South East,Enugu,Udi,,,18,18,41,24,0,0,88.0,25.4902,0.0,0
+2023/2024,Male,Disabled,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,16,15,20,11,0,0,85.7143,24.0,0.0,0
+2024/2025,Female,ALL,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,54,47,35,20,9,0,78.0822,25.5814,20.9302,0.0000
+2024/2025,Female,ALL,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,50,36,34,20,9,10,65.6716,26.1905,21.4286,111.1111
+2024/2025,Female,ALL,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,126,101,74,100,36,32,72.3529,59.7826,40.2174,89.1892
+2024/2025,Female,ALL,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,3,3,3,2,24,28,100.0000,25.0000,600.0000,116.6667
+2024/2025,Female,ALL,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,13,14,14,7,0,0,94.4444,22.2222,0.0000,0.0000
+2024/2025,Female,ALL,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,47,40,29,38,6,6,77.7778,58.3333,16.6667,100.0000
+2024/2025,Female,ALL,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,48,37,22,20,9,2,69.2308,40.7407,33.3333,22.2222
+2024/2025,Female,ALL,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,97,83,48,27,11,12,77.0992,25.0000,18.3333,109.0909
+2024/2025,Female,ALL,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,24,19,17,9,1,0,69.6970,23.8095,4.7619,0.0000
+2024/2025,Female,ALL,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,41,33,22,13,0,0,71.4286,25.9259,0.0000,0.0000
+2024/2025,Female,ALL,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,36,31,19,20,9,10,75.5102,45.8333,37.5000,111.1111
+2024/2025,Female,ALL,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,69,61,42,57,25,30,79.5699,59.6154,50.0000,115.3846
+2024/2025,Female,ALL,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,157,125,96,58,19,22,71.3615,26.8908,15.9664,115.7895
+2024/2025,Female,ALL,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,62,49,39,38,16,19,70.2381,43.7500,33.3333,118.7500
+2024/2025,Female,ALL,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,48,47,43,24,9,10,87.6923,24.5283,16.9811,111.1111
+2024/2025,Female,ALL,NABTEB,lga,Udi,South East,Enugu,Udi,,,86,74,59,66,22,26,77.5862,48.6486,29.7297,118.1818
+2024/2025,Female,ALL,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,47,45,32,46,12,14,84.3750,62.5000,30.0000,116.6667
+2024/2025,Female,ALL,NECO,lga,Aninri,South East,Enugu,Aninri,,,79,40,6,4,165,166,45.7944,25.0000,2112.5000,100.0000
+2024/2025,Female,ALL,NECO,lga,Awgu,South East,Enugu,Awgu,,,115,115,52,31,0,0,90.3226,26.1538,0.0000,0.0000
+2024/2025,Female,ALL,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,1180,860,718,614,234,179,65.2882,37.6957,26.7338,76.1506
+2024/2025,Female,ALL,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,1309,1039,880,791,270,273,71.0898,39.6347,25.2055,100.3623
+2024/2025,Female,ALL,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,1080,816,593,629,225,210,67.6934,46.7480,31.1653,92.6087
+2024/2025,Female,ALL,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,851,535,480,408,159,159,56.2989,37.4582,27.0903,100.0000
+2024/2025,Female,ALL,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,678,528,482,306,118,119,69.7928,28.0000,20.1667,100.0000
+2024/2025,Female,ALL,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,1641,1320,1085,1008,297,299,72.1046,40.9630,22.4444,100.3300
+2024/2025,Female,ALL,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,552,403,336,401,123,123,65.4155,52.6316,30.1435,99.2063
+2024/2025,Female,ALL,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,769,620,460,425,162,162,72.2115,40.7343,28.8462,100.0000
+2024/2025,Female,ALL,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,748,582,463,523,134,118,69.7628,49.8264,23.7847,87.5912
+2024/2025,Female,ALL,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,881,700,571,512,158,146,71.2846,39.5218,22.6442,91.9255
+2024/2025,Female,ALL,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,2058,1473,1297,1072,446,444,64.1394,36.4312,28.1908,99.1209
+2024/2025,Female,ALL,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,804,636,468,421,163,152,70.8640,39.6907,28.5223,92.7711
+2024/2025,Female,ALL,NECO,lga,Udenu,South East,Enugu,Udenu,,,666,525,411,330,123,83,70.5882,35.4207,24.6575,66.6667
+2024/2025,Female,ALL,NECO,lga,Udi,South East,Enugu,Udi,,,1092,808,671,573,284,229,66.3507,37.6048,34.7305,80.3448
+2024/2025,Female,ALL,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,226,169,176,122,71,71,66.9935,30.5936,33.3333,98.6301
+2024/2025,Female,ALL,WAEC,lga,Aninri,South East,Enugu,Aninri,,,1191,977,709,529,213,224,73.4947,32.8426,24.6886,104.5872
+2024/2025,Female,ALL,WAEC,lga,Awgu,South East,Enugu,Awgu,,,1332,1100,860,870,278,292,74.0289,44.5378,26.5173,104.5775
+2024/2025,Female,ALL,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,3149,2535,1726,1512,566,580,72.1531,38.5940,26.9088,101.9031
+2024/2025,Female,ALL,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,2099,1794,1341,1131,445,422,76.6115,37.1480,27.2019,94.4934
+2024/2025,Female,ALL,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,1898,1624,1347,1041,376,397,76.6654,34.0489,22.8980,104.9479
+2024/2025,Female,ALL,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,1452,1256,905,784,298,294,77.5458,38.1883,26.9982,98.3553
+2024/2025,Female,ALL,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,1065,788,626,707,266,259,66.2734,49.8074,34.9166,96.6912
+2024/2025,Female,ALL,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,2438,2023,1596,1581,700,434,74.3481,43.6556,36.0020,61.6783
+2024/2025,Female,ALL,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,606,502,412,414,165,99,74.1463,44.2495,32.9435,59.7633
+2024/2025,Female,ALL,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,1081,915,672,492,198,194,75.8550,32.2581,24.1338,97.5248
+2024/2025,Female,ALL,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,801,624,496,529,212,198,69.8339,47.0016,35.0081,93.0556
+2024/2025,Female,ALL,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,1113,922,731,614,247,253,74.2857,37.0330,27.6923,101.9841
+2024/2025,Female,ALL,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,1364,1140,845,817,328,229,74.9051,42.5856,31.8441,69.5522
+2024/2025,Female,ALL,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,179,95,31,16,0,0,47.5207,23.6842,0.0000,0.0000
+2024/2025,Female,ALL,WAEC,lga,Udenu,South East,Enugu,Udenu,,,138,142,146,175,0,0,91.9786,52.7473,0.0000,0.0000
+2024/2025,Female,ALL,WAEC,lga,Udi,South East,Enugu,Udi,,,597,494,316,224,90,95,74.2255,31.2977,23.4097,104.3478
+2024/2025,Female,ALL,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,852,614,504,390,157,165,64.5833,34.1308,25.5183,105.0000
+2024/2025,Female,Disabled,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,lga,Aninri,South East,Enugu,Aninri,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,lga,Awgu,South East,Enugu,Awgu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,1,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,WAEC,lga,Aninri,South East,Enugu,Aninri,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,WAEC,lga,Awgu,South East,Enugu,Awgu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,1,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,0,1,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,WAEC,lga,Udenu,South East,Enugu,Udenu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,WAEC,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Female,Disabled,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,ALL,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,40,35,22,18,19,5,79.6296,37.0370,70.3704,26.3158
+2024/2025,Male,ALL,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,54,42,36,42,24,30,69.8630,51.1111,55.5556,120.0000
+2024/2025,Male,ALL,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,144,119,80,49,34,39,73.8462,27.2727,35.3535,114.2857
+2024/2025,Male,ALL,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,74,55,47,29,18,21,67.0000,27.1186,30.5085,116.6667
+2024/2025,Male,ALL,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,94,69,66,78,56,39,66.1417,52.4390,69.5122,70.1754
+2024/2025,Male,ALL,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,41,40,28,36,14,10,87.2727,57.1429,40.0000,71.4286
+2024/2025,Male,ALL,NABTEB,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,37,26,22,18,11,13,64.0000,35.7143,39.2857,118.1818
+2024/2025,Male,ALL,NABTEB,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,62,52,44,26,8,9,75.0000,25.4545,14.5455,112.5000
+2024/2025,Male,ALL,NABTEB,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,41,35,25,27,13,10,76.3636,48.3871,41.9355,76.9231
+2024/2025,Male,ALL,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,15,13,11,16,7,3,80.0000,64.2857,50.0000,42.8571
+2024/2025,Male,ALL,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,9,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,ALL,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,8,8,8,4,0,0,90.9091,20.0000,0.0000,0.0000
+2024/2025,Male,ALL,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,31,32,19,18,7,0,92.8571,41.6667,29.1667,0.0000
+2024/2025,Male,ALL,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,38,31,22,24,0,0,74.5098,48.1481,0.0000,0.0000
+2024/2025,Male,ALL,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,49,48,23,15,7,8,87.8788,27.5862,24.1379,114.2857
+2024/2025,Male,ALL,NABTEB,lga,Udi,South East,Enugu,Udi,,,38,35,22,13,2,2,82.6923,25.0000,7.1429,100.0000
+2024/2025,Male,ALL,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,33,26,19,20,9,10,71.1111,45.8333,37.5000,111.1111
+2024/2025,Male,ALL,NECO,lga,Aninri,South East,Enugu,Aninri,,,713,558,446,356,191,192,70.1554,35.1351,35.1351,100.0000
+2024/2025,Male,ALL,NECO,lga,Awgu,South East,Enugu,Awgu,,,713,525,406,345,186,187,65.9067,37.4257,37.6238,100.0000
+2024/2025,Male,ALL,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,1961,1418,1221,1107,583,498,64.8190,39.9342,39.1447,85.0420
+2024/2025,Male,ALL,NECO,lga,Enugu North,South East,Enugu,Enugu North,,,816,592,511,503,244,168,65.0362,43.3962,39.1509,68.6747
+2024/2025,Male,ALL,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,963,758,653,647,294,296,70.5837,43.6654,36.9004,100.3333
+2024/2025,Male,ALL,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,100,64,54,31,0,0,57.7778,25.3731,0.0000,0.0000
+2024/2025,Male,ALL,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,61,31,0,0,0,0,44.5783,0.0000,0.0000,0.0000
+2024/2025,Male,ALL,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,138,108,49,64,0,0,70.0535,57.3770,0.0000,0.0000
+2024/2025,Male,ALL,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,402,213,184,148,78,79,47.4265,35.3712,34.9345,100.0000
+2024/2025,Male,ALL,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,502,379,327,299,162,135,67.5994,40.2948,40.5405,83.0303
+2024/2025,Male,ALL,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,499,383,284,264,139,82,68.7407,41.0765,40.2266,58.4507
+2024/2025,Male,ALL,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,722,606,521,421,218,195,75.1279,35.5932,34.3606,88.7892
+2024/2025,Male,ALL,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,1371,964,793,808,415,419,63.0529,44.8835,42.9585,100.4717
+2024/2025,Male,ALL,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,608,494,423,281,199,201,72.8710,29.2220,38.5199,100.4926
+2024/2025,Male,ALL,NECO,lga,Udenu,South East,Enugu,Udenu,,,828,724,525,352,321,280,78.3929,29.5559,50.2297,86.5854
+2024/2025,Male,ALL,NECO,lga,Udi,South East,Enugu,Udi,,,836,697,603,587,286,287,74.7126,42.9333,38.9333,100.0000
+2024/2025,Male,ALL,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,467,365,268,261,141,142,70.2060,42.8144,43.1138,100.0000
+2024/2025,Male,ALL,WAEC,lga,Aninri,South East,Enugu,Aninri,,,751,621,484,509,283,229,74.1142,46.3455,48.0066,80.6228
+2024/2025,Male,ALL,WAEC,lga,Awgu,South East,Enugu,Awgu,,,1034,897,665,614,273,288,77.7539,40.7005,33.6957,105.0179
+2024/2025,Male,ALL,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,993,818,626,492,313,240,73.7900,34.6598,41.0783,76.2500
+2024/2025,Male,ALL,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,173,174,139,126,0,0,90.1709,39.8844,0.0000,0.0000
+2024/2025,Male,ALL,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,864,647,450,325,180,190,67.0659,31.7857,32.8571,104.8913
+2024/2025,Male,ALL,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,961,770,609,503,238,250,71.7692,36.4116,32.0580,104.5267
+2024/2025,Male,ALL,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,958,730,578,419,232,233,68.2870,31.9444,32.9167,100.0000
+2024/2025,Male,ALL,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,1458,1108,783,760,338,355,68.1034,42.8131,35.4209,104.6377
+2024/2025,Male,ALL,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,691,505,363,284,138,146,65.4545,34.5133,31.1947,104.9645
+2024/2025,Male,ALL,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,864,683,582,447,278,282,70.8298,33.7931,39.1724,100.7042
+2024/2025,Male,ALL,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,782,686,472,545,230,171,78.6389,50.9370,40.0341,74.0426
+2024/2025,Male,ALL,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,1339,1195,828,810,353,371,79.9558,43.0650,34.9176,104.7222
+2024/2025,Male,ALL,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,2121,1743,1443,1127,709,593,73.6494,34.4098,40.3118,83.1492
+2024/2025,Male,ALL,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,852,715,496,452,300,316,75.2604,40.1945,49.5948,104.9020
+2024/2025,Male,ALL,WAEC,lga,Udenu,South East,Enugu,Udenu,,,1222,969,779,784,474,399,71.0829,44.3299,49.8969,83.6777
+2024/2025,Male,ALL,WAEC,lga,Udi,South East,Enugu,Udi,,,1201,1020,835,797,448,467,76.1700,42.0597,43.9846,103.7199
+2024/2025,Male,ALL,WAEC,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,697,606,404,407,228,169,77.9427,44.3340,46.3221,73.8197
+2024/2025,Male,Disabled,NABTEB,lga,Aninri,South East,Enugu,Aninri,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,lga,Awgu,South East,Enugu,Awgu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,lga,Enugu East,South East,Enugu,Enugu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,lga,Enugu North,South East,Enugu,Enugu North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,lga,Enugu South,South East,Enugu,Enugu South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,lga,Ezeagu,South East,Enugu,Ezeagu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,lga,Nkanu West,South East,Enugu,Nkanu West,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,lga,Nsukka,South East,Enugu,Nsukka,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,lga,Oji-River,South East,Enugu,Oji-River,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,lga,Udenu,South East,Enugu,Udenu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Aninri,South East,Enugu,Aninri,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Awgu,South East,Enugu,Awgu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Enugu East,South East,Enugu,Enugu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Enugu South,South East,Enugu,Enugu South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Ezeagu,South East,Enugu,Ezeagu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Nkanu West,South East,Enugu,Nkanu West,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Nsukka,South East,Enugu,Nsukka,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Oji-River,South East,Enugu,Oji-River,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Udenu,South East,Enugu,Udenu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,NECO,lga,Uzo-Uwani,South East,Enugu,Uzo-Uwani,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,WAEC,lga,Enugu East,South East,Enugu,Enugu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,WAEC,lga,Enugu North,South East,Enugu,Enugu North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,WAEC,lga,Enugu South,South East,Enugu,Enugu South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,WAEC,lga,Ezeagu,South East,Enugu,Ezeagu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,WAEC,lga,Igbo-Etiti,South East,Enugu,Igbo-Etiti,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,WAEC,lga,Igbo-Eze North,South East,Enugu,Igbo-Eze North,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,WAEC,lga,Igbo-Eze South,South East,Enugu,Igbo-Eze South,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,WAEC,lga,Isi-Uzo,South East,Enugu,Isi-Uzo,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,WAEC,lga,Nkanu East,South East,Enugu,Nkanu East,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,WAEC,lga,Nkanu West,South East,Enugu,Nkanu West,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,WAEC,lga,Nsukka,South East,Enugu,Nsukka,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,WAEC,lga,Oji-River,South East,Enugu,Oji-River,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,WAEC,lga,Udenu,South East,Enugu,Udenu,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2024/2025,Male,Disabled,WAEC,lga,Udi,South East,Enugu,Udi,,,0,0,0,0,0,0,0.0000,0.0000,0.0000,0.0000

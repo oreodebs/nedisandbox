@@ -1,541 +1,541 @@
-session,gender,disability_scope,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
-2022/2023,Female,all,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,7,5,9,3,203,192,71.4286,33.3333,2255.5556,94.5813
-2022/2023,Female,all,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,7,5,7,2,171,160,71.4286,28.5714,2442.8571,93.5673
-2022/2023,Female,all,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,9,7,10,4,242,213,77.7778,40.0,2420.0,88.0165
-2022/2023,Female,all,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,9,7,11,4,242,213,77.7778,36.3636,2200.0,88.0165
-2022/2023,Female,all,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,8,6,10,3,242,213,75.0,30.0,2420.0,88.0165
-2022/2023,Female,all,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,8,6,9,3,201,181,75.0,33.3333,2233.3333,90.0498
-2022/2023,Female,all,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,9,7,11,4,232,211,77.7778,36.3636,2109.0909,90.9483
-2022/2023,Female,all,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,8,6,9,3,203,192,75.0,33.3333,2255.5556,94.5813
-2022/2023,Female,all,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,8,6,9,3,213,192,75.0,33.3333,2366.6667,90.1408
-2022/2023,Female,all,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,8,6,8,3,182,170,75.0,37.5,2275.0,93.4066
-2022/2023,Female,all,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,8,6,9,3,180,170,75.0,33.3333,2000.0,94.4444
-2022/2023,Female,all,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,8,6,9,3,201,181,75.0,33.3333,2233.3333,90.0498
-2022/2023,Female,all,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,7,5,8,3,190,170,71.4286,37.5,2375.0,89.4737
-2022/2023,Female,all,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,8,6,9,3,211,192,75.0,33.3333,2344.4444,90.9953
-2022/2023,Female,all,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,7,5,8,3,163,160,71.4286,37.5,2037.5,98.1595
-2022/2023,Female,all,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,13,8,15,5,364,334,61.5385,33.3333,2426.6667,91.7582
-2022/2023,Female,all,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,12,8,13,5,274,255,66.6667,38.4615,2107.6923,93.0657
-2022/2023,Female,all,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,17,11,20,7,437,411,64.7059,35.0,2185.0,94.0503
-2022/2023,Female,all,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,16,10,19,7,409,381,62.5,36.8421,2152.6316,93.154
-2022/2023,Female,all,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,14,9,17,6,384,370,64.2857,35.2941,2258.8235,96.3542
-2022/2023,Female,all,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,15,10,17,6,374,360,66.6667,35.2941,2200.0,96.2567
-2022/2023,Female,all,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,17,11,19,7,382,360,64.7059,36.8421,2010.5263,94.2408
-2022/2023,Female,all,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,16,10,19,7,418,390,62.5,36.8421,2200.0,93.3014
-2022/2023,Female,all,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,14,9,17,6,364,324,64.2857,35.2941,2141.1765,89.011
-2022/2023,Female,all,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,15,10,17,6,366,345,66.6667,35.2941,2152.9412,94.2623
-2022/2023,Female,all,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,13,8,15,5,301,277,61.5385,33.3333,2006.6667,92.0266
-2022/2023,Female,all,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,16,10,18,6,355,332,62.5,33.3333,1972.2222,93.5211
-2022/2023,Female,all,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,14,9,16,6,334,313,64.2857,37.5,2087.5,93.7126
-2022/2023,Female,all,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,14,9,16,6,347,311,64.2857,37.5,2168.75,89.6254
-2022/2023,Female,all,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,13,8,15,5,322,304,61.5385,33.3333,2146.6667,94.4099
-2022/2023,Female,all,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,17,12,20,7,426,402,70.5882,35.0,2130.0,94.3662
-2022/2023,Female,all,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,15,11,17,6,345,306,73.3333,35.2941,2029.4118,88.6957
-2022/2023,Female,all,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,23,16,27,10,539,485,69.5652,37.037,1996.2963,89.9814
-2022/2023,Female,all,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,23,16,26,9,541,485,69.5652,34.6154,2080.7692,89.6488
-2022/2023,Female,all,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,19,13,22,8,466,428,68.4211,36.3636,2118.1818,91.8455
-2022/2023,Female,all,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,20,14,24,8,526,479,70.0,33.3333,2191.6667,91.0646
-2022/2023,Female,all,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,22,15,25,9,512,473,68.1818,36.0,2048.0,92.3828
-2022/2023,Female,all,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,19,13,22,8,485,441,68.4211,36.3636,2204.5455,90.9278
-2022/2023,Female,all,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,18,13,20,7,443,413,72.2222,35.0,2215.0,93.228
-2022/2023,Female,all,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,21,15,23,8,464,432,71.4286,34.7826,2017.3913,93.1034
-2022/2023,Female,all,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,18,13,20,7,382,351,72.2222,35.0,1910.0,91.8848
-2022/2023,Female,all,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,22,15,25,9,472,432,68.1818,36.0,1888.0,91.5254
-2022/2023,Female,all,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,18,13,21,7,424,385,72.2222,33.3333,2019.0476,90.8019
-2022/2023,Female,all,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,17,12,21,7,462,415,70.5882,33.3333,2200.0,89.8268
-2022/2023,Female,all,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,16,11,19,7,349,315,68.75,36.8421,1836.8421,90.2579
-2022/2023,Female,disabled,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Female,disabled,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Female,disabled,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Female,disabled,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Female,disabled,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Female,disabled,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,1,1,1,0,23,20,100.0,0.0,2300.0,86.9565
-2022/2023,Female,disabled,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Female,disabled,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Female,disabled,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Female,disabled,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Female,disabled,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,1,1,1,0,23,20,100.0,0.0,2300.0,86.9565
-2022/2023,Female,disabled,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Female,disabled,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Female,disabled,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Female,disabled,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Female,disabled,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,1,1,1,0,24,21,100.0,0.0,2400.0,87.5
-2022/2023,Female,disabled,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,1,1,1,0,24,21,100.0,0.0,2400.0,87.5
-2022/2023,Female,disabled,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,1,1,2,1,24,21,100.0,50.0,1200.0,87.5
-2022/2023,Female,disabled,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,1,1,2,1,24,23,100.0,50.0,1200.0,95.8333
-2022/2023,Female,disabled,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1,1,1,0,24,23,100.0,0.0,2400.0,95.8333
-2022/2023,Female,disabled,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,1,1,1,0,24,23,100.0,0.0,2400.0,95.8333
-2022/2023,Female,disabled,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,1,1,2,1,24,23,100.0,50.0,1200.0,95.8333
-2022/2023,Female,disabled,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1,1,1,0,24,23,100.0,0.0,2400.0,95.8333
-2022/2023,Female,disabled,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,1,1,1,0,24,21,100.0,0.0,2400.0,87.5
-2022/2023,Female,disabled,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,1,1,1,0,32,28,100.0,0.0,3200.0,87.5
-2022/2023,Female,disabled,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,1,1,1,0,24,21,100.0,0.0,2400.0,87.5
-2022/2023,Female,disabled,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,1,1,2,1,24,21,100.0,50.0,1200.0,87.5
-2022/2023,Female,disabled,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,1,1,1,0,24,21,100.0,0.0,2400.0,87.5
-2022/2023,Female,disabled,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,1,1,1,0,24,23,100.0,0.0,2400.0,95.8333
-2022/2023,Female,disabled,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,1,1,1,0,24,23,100.0,0.0,2400.0,95.8333
-2022/2023,Female,disabled,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,1,1,2,1,29,25,100.0,50.0,1450.0,86.2069
-2022/2023,Female,disabled,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,1,1,2,1,24,21,100.0,50.0,1200.0,87.5
-2022/2023,Female,disabled,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,2,1,2,1,33,29,50.0,50.0,1650.0,87.8788
-2022/2023,Female,disabled,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,2,1,2,1,33,29,50.0,50.0,1650.0,87.8788
-2022/2023,Female,disabled,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1,1,2,1,20,19,100.0,50.0,1000.0,95.0
-2022/2023,Female,disabled,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,2,1,2,1,29,25,50.0,50.0,1450.0,86.2069
-2022/2023,Female,disabled,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,2,1,2,1,33,29,50.0,50.0,1650.0,87.8788
-2022/2023,Female,disabled,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1,1,2,1,24,21,100.0,50.0,1200.0,87.5
-2022/2023,Female,disabled,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,1,1,2,1,30,29,100.0,50.0,1500.0,96.6667
-2022/2023,Female,disabled,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,2,1,2,1,30,29,50.0,50.0,1500.0,96.6667
-2022/2023,Female,disabled,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,2,1,2,1,24,23,50.0,50.0,1200.0,95.8333
-2022/2023,Female,disabled,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,2,1,2,1,26,25,50.0,50.0,1300.0,96.1538
-2022/2023,Female,disabled,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,1,1,2,1,29,25,100.0,50.0,1450.0,86.2069
-2022/2023,Female,disabled,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,1,1,1,0,29,25,100.0,0.0,2900.0,86.2069
-2022/2023,Female,disabled,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,1,1,1,0,23,21,100.0,0.0,2300.0,91.3043
-2022/2023,Male,all,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,6,4,7,2,240,236,66.6667,28.5714,3428.5714,98.3333
-2022/2023,Male,all,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,6,4,7,2,209,189,66.6667,28.5714,2985.7143,90.4306
-2022/2023,Male,all,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,7,5,8,3,253,226,71.4286,37.5,3162.5,89.3281
-2022/2023,Male,all,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,8,6,9,3,290,260,75.0,33.3333,3222.2222,89.6552
-2022/2023,Male,all,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,7,5,8,3,270,236,71.4286,37.5,3375.0,87.4074
-2022/2023,Male,all,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,7,5,8,3,209,187,71.4286,37.5,2612.5,89.4737
-2022/2023,Male,all,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,8,6,9,3,257,236,75.0,33.3333,2855.5556,91.8288
-2022/2023,Male,all,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,7,5,8,3,224,211,71.4286,37.5,2800.0,94.1964
-2022/2023,Male,all,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,6,4,7,2,217,213,66.6667,28.5714,3100.0,98.1567
-2022/2023,Male,all,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,7,5,8,3,221,200,71.4286,37.5,2762.5,90.4977
-2022/2023,Male,all,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,7,5,8,3,196,177,71.4286,37.5,2450.0,90.3061
-2022/2023,Male,all,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,7,5,8,3,224,189,71.4286,37.5,2800.0,84.375
-2022/2023,Male,all,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,7,5,8,3,194,172,71.4286,37.5,2425.0,88.6598
-2022/2023,Male,all,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,6,4,6,2,182,162,66.6667,33.3333,3033.3333,89.011
-2022/2023,Male,all,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,6,4,7,2,161,160,66.6667,28.5714,2300.0,99.3789
-2022/2023,Male,all,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,11,7,14,5,389,366,63.6364,35.7143,2778.5714,94.0874
-2022/2023,Male,all,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,10,7,11,4,301,289,70.0,36.3636,2736.3636,96.0133
-2022/2023,Male,all,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,13,8,16,6,432,392,61.5385,37.5,2700.0,90.7407
-2022/2023,Male,all,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,15,10,17,6,470,455,66.6667,35.2941,2764.7059,96.8085
-2022/2023,Male,all,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,13,8,15,5,432,411,61.5385,33.3333,2880.0,95.1389
-2022/2023,Male,all,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,12,8,14,5,403,379,66.6667,35.7143,2878.5714,94.0447
-2022/2023,Male,all,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,14,9,17,6,470,421,64.2857,35.2941,2764.7059,89.5745
-2022/2023,Male,all,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,13,8,15,5,382,355,61.5385,33.3333,2546.6667,92.9319
-2022/2023,Male,all,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,11,7,13,5,414,390,63.6364,38.4615,3184.6154,94.2029
-2022/2023,Male,all,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,14,9,16,6,399,368,64.2857,37.5,2493.75,92.2306
-2022/2023,Male,all,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,12,8,13,5,345,324,66.6667,38.4615,2653.8462,93.913
-2022/2023,Male,all,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,14,9,16,6,412,381,64.2857,37.5,2575.0,92.4757
-2022/2023,Male,all,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,13,8,15,5,393,368,61.5385,33.3333,2620.0,93.6387
-2022/2023,Male,all,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,10,7,12,4,366,334,70.0,33.3333,3050.0,91.2568
-2022/2023,Male,all,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,11,7,11,4,305,281,63.6364,36.3636,2772.7273,92.1311
-2022/2023,Male,all,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,15,11,17,6,462,424,73.3333,35.2941,2717.6471,91.7749
-2022/2023,Male,all,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,13,9,15,5,395,370,69.2308,33.3333,2633.3333,93.6709
-2022/2023,Male,all,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,19,13,22,8,577,532,68.4211,36.3636,2622.7273,92.201
-2022/2023,Male,all,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,19,13,22,8,635,579,68.4211,36.3636,2886.3636,91.1811
-2022/2023,Male,all,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,16,11,19,7,552,504,68.75,36.8421,2905.2632,91.3043
-2022/2023,Male,all,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,18,13,20,7,568,528,72.2222,35.0,2840.0,92.9577
-2022/2023,Male,all,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,19,13,21,7,520,475,68.4211,33.3333,2476.1905,91.3462
-2022/2023,Male,all,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,16,11,19,7,518,475,68.75,36.8421,2726.3158,91.6988
-2022/2023,Male,all,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,15,11,17,6,470,424,73.3333,35.2941,2764.7059,90.2128
-2022/2023,Male,all,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,18,13,21,7,526,485,72.2222,33.3333,2504.7619,92.2053
-2022/2023,Male,all,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,16,11,18,6,412,368,68.75,33.3333,2288.8889,89.3204
-2022/2023,Male,all,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,19,13,22,8,510,462,68.4211,36.3636,2318.1818,90.5882
-2022/2023,Male,all,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,17,12,20,7,493,441,70.5882,35.0,2465.0,89.4523
-2022/2023,Male,all,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,14,10,16,6,428,396,71.4286,37.5,2675.0,92.5234
-2022/2023,Male,all,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,13,9,15,5,378,334,69.2308,33.3333,2520.0,88.3598
-2022/2023,Male,disabled,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,1,1,1,0,30,29,100.0,0.0,3000.0,96.6667
-2022/2023,Male,disabled,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,1,1,1,0,35,32,100.0,0.0,3500.0,91.4286
-2022/2023,Male,disabled,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,1,1,1,0,32,31,100.0,0.0,3200.0,96.875
-2022/2023,Male,disabled,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,1,1,1,0,33,32,100.0,0.0,3300.0,96.9697
-2022/2023,Male,disabled,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1,1,1,0,35,32,100.0,0.0,3500.0,91.4286
-2022/2023,Male,disabled,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,1,1,1,0,24,23,100.0,0.0,2400.0,95.8333
-2022/2023,Male,disabled,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,1,1,1,0,27,24,100.0,0.0,2700.0,88.8889
-2022/2023,Male,disabled,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1,1,1,0,27,24,100.0,0.0,2700.0,88.8889
-2022/2023,Male,disabled,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,1,1,1,0,32,31,100.0,0.0,3200.0,96.875
-2022/2023,Male,disabled,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,1,1,1,0,33,32,100.0,0.0,3300.0,96.9697
-2022/2023,Male,disabled,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,1,1,1,0,17,16,100.0,0.0,1700.0,94.1176
-2022/2023,Male,disabled,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,1,1,1,0,27,24,100.0,0.0,2700.0,88.8889
-2022/2023,Male,disabled,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,1,1,1,0,15,14,100.0,0.0,1500.0,93.3333
-2022/2023,Male,disabled,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,1,1,1,0,23,22,100.0,0.0,2300.0,95.6522
-2022/2023,Male,disabled,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,1,1,1,0,15,14,100.0,0.0,1500.0,93.3333
-2022/2023,Male,disabled,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,1,1,1,0,29,27,100.0,0.0,2900.0,93.1034
-2022/2023,Male,disabled,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,1,1,1,0,27,26,100.0,0.0,2700.0,96.2963
-2022/2023,Male,disabled,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Male,disabled,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,1,1,2,1,36,33,100.0,50.0,1800.0,91.6667
-2022/2023,Male,disabled,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Male,disabled,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Male,disabled,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,1,1,1,0,36,33,100.0,0.0,3600.0,91.6667
-2022/2023,Male,disabled,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Male,disabled,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Male,disabled,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,1,1,1,0,29,27,100.0,0.0,2900.0,93.1034
-2022/2023,Male,disabled,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,1,1,1,0,36,33,100.0,0.0,3600.0,91.6667
-2022/2023,Male,disabled,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Male,disabled,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Male,disabled,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Male,disabled,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Male,disabled,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Male,disabled,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,1,1,1,0,24,21,100.0,0.0,2400.0,87.5
-2022/2023,Male,disabled,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,2,1,2,1,36,34,50.0,50.0,1800.0,94.4444
-2022/2023,Male,disabled,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,2,1,2,1,42,37,50.0,50.0,2100.0,88.0952
-2022/2023,Male,disabled,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Male,disabled,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,1,1,1,0,36,32,100.0,0.0,3600.0,88.8889
-2022/2023,Male,disabled,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,1,1,2,1,30,27,100.0,50.0,1500.0,90.0
-2022/2023,Male,disabled,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Male,disabled,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,1,1,1,0,24,21,100.0,0.0,2400.0,87.5
-2022/2023,Male,disabled,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,2,1,2,1,36,32,50.0,50.0,1800.0,88.8889
-2022/2023,Male,disabled,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,1,1,2,1,36,32,100.0,50.0,1800.0,88.8889
-2022/2023,Male,disabled,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,2,1,2,1,30,28,50.0,50.0,1500.0,93.3333
-2022/2023,Male,disabled,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2022/2023,Male,disabled,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,1,1,1,0,24,21,100.0,0.0,2400.0,87.5
-2022/2023,Male,disabled,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,1,1,1,0,24,21,100.0,0.0,2400.0,87.5
-2023/2024,Female,all,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,8,6,9,4,168,163,75.0,44.4444,1866.6667,97.0238
-2023/2024,Female,all,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,7,5,8,3,134,131,71.4286,37.5,1675.0,97.7612
-2023/2024,Female,all,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,10,8,11,4,185,163,80.0,36.3636,1681.8182,88.1081
-2023/2024,Female,all,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,9,7,11,4,214,190,77.7778,36.3636,1945.4545,88.785
-2023/2024,Female,all,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,8,6,10,4,198,171,75.0,40.0,1980.0,86.3636
-2023/2024,Female,all,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,8,6,10,4,180,162,75.0,40.0,1800.0,90.0
-2023/2024,Female,all,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,10,8,12,5,189,163,80.0,41.6667,1575.0,86.2434
-2023/2024,Female,all,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,9,7,10,4,209,192,77.7778,40.0,2090.0,91.866
-2023/2024,Female,all,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,8,6,10,4,186,174,75.0,40.0,1860.0,93.5484
-2023/2024,Female,all,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,9,7,10,4,171,156,77.7778,40.0,1710.0,91.2281
-2023/2024,Female,all,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,8,6,9,4,160,146,75.0,44.4444,1777.7778,91.25
-2023/2024,Female,all,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,9,7,10,4,163,146,77.7778,40.0,1630.0,89.5706
-2023/2024,Female,all,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,8,6,9,3,169,153,75.0,33.3333,1877.7778,90.5325
-2023/2024,Female,all,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,8,6,9,3,168,156,75.0,33.3333,1866.6667,92.8571
-2023/2024,Female,all,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,8,6,9,3,138,137,75.0,33.3333,1533.3333,99.2754
-2023/2024,Female,all,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,13,9,16,6,286,263,69.2308,37.5,1787.5,91.958
-2023/2024,Female,all,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,12,8,14,5,240,229,66.6667,35.7143,1714.2857,95.4167
-2023/2024,Female,all,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,20,14,23,9,377,346,70.0,39.1304,1639.1304,91.7772
-2023/2024,Female,all,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,19,13,22,9,375,353,68.4211,40.9091,1704.5455,94.1333
-2023/2024,Female,all,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,15,11,18,7,323,304,73.3333,38.8889,1794.4444,94.1176
-2023/2024,Female,all,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,15,11,17,7,285,263,73.3333,41.1765,1676.4706,92.2807
-2023/2024,Female,all,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,18,13,21,8,352,329,72.2222,38.0952,1676.1905,93.4659
-2023/2024,Female,all,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,16,11,18,7,338,311,68.75,38.8889,1877.7778,92.0118
-2023/2024,Female,all,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,14,10,16,6,292,277,71.4286,37.5,1825.0,94.863
-2023/2024,Female,all,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,16,11,18,7,323,305,68.75,38.8889,1794.4444,94.4272
-2023/2024,Female,all,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,14,10,15,6,263,240,71.4286,40.0,1753.3333,91.2548
-2023/2024,Female,all,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,17,12,19,7,308,294,70.5882,36.8421,1621.0526,95.4545
-2023/2024,Female,all,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,15,11,17,7,278,252,73.3333,41.1765,1635.2941,90.6475
-2023/2024,Female,all,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,14,10,17,7,300,280,71.4286,41.1765,1764.7059,93.3333
-2023/2024,Female,all,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,14,10,16,6,254,240,71.4286,37.5,1587.5,94.4882
-2023/2024,Female,all,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,19,14,21,8,365,321,73.6842,38.0952,1738.0952,87.9452
-2023/2024,Female,all,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,18,14,20,8,314,290,77.7778,40.0,1570.0,92.3567
-2023/2024,Female,all,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,23,17,27,10,438,405,73.913,37.037,1622.2222,92.4658
-2023/2024,Female,all,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,24,18,29,11,489,455,75.0,37.931,1686.2069,93.047
-2023/2024,Female,all,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,20,15,24,9,414,383,75.0,37.5,1725.0,92.5121
-2023/2024,Female,all,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,21,16,24,9,408,377,76.1905,37.5,1700.0,92.402
-2023/2024,Female,all,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,25,19,29,11,497,456,76.0,37.931,1713.7931,91.7505
-2023/2024,Female,all,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,21,16,24,9,428,381,76.1905,37.5,1783.3333,89.0187
-2023/2024,Female,all,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,18,14,21,8,371,344,77.7778,38.0952,1766.6667,92.7224
-2023/2024,Female,all,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,21,16,24,9,401,369,76.1905,37.5,1670.8333,92.02
-2023/2024,Female,all,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,19,14,21,8,320,290,73.6842,38.0952,1523.8095,90.625
-2023/2024,Female,all,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,23,17,26,10,395,350,73.913,38.4615,1519.2308,88.6076
-2023/2024,Female,all,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,21,16,25,10,389,349,76.1905,40.0,1556.0,89.7172
-2023/2024,Female,all,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,18,14,20,8,346,324,77.7778,40.0,1730.0,93.6416
-2023/2024,Female,all,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,18,14,20,8,328,296,77.7778,40.0,1640.0,90.2439
-2023/2024,Female,disabled,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Female,disabled,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Female,disabled,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Female,disabled,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,1,1,1,0,26,23,100.0,0.0,2600.0,88.4615
-2023/2024,Female,disabled,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1,1,1,0,27,23,100.0,0.0,2700.0,85.1852
-2023/2024,Female,disabled,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,1,1,1,0,19,17,100.0,0.0,1900.0,89.4737
-2023/2024,Female,disabled,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,1,1,1,0,20,17,100.0,0.0,2000.0,85.0
-2023/2024,Female,disabled,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1,1,1,0,27,23,100.0,0.0,2700.0,85.1852
-2023/2024,Female,disabled,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,1,1,1,0,23,22,100.0,0.0,2300.0,95.6522
-2023/2024,Female,disabled,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,1,1,1,0,25,23,100.0,0.0,2500.0,92.0
-2023/2024,Female,disabled,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,1,1,1,0,23,22,100.0,0.0,2300.0,95.6522
-2023/2024,Female,disabled,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,1,1,1,0,19,17,100.0,0.0,1900.0,89.4737
-2023/2024,Female,disabled,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,1,1,1,0,23,22,100.0,0.0,2300.0,95.6522
-2023/2024,Female,disabled,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Female,disabled,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,1,1,1,0,26,23,100.0,0.0,2600.0,88.4615
-2023/2024,Female,disabled,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,1,1,1,0,22,19,100.0,0.0,2200.0,86.3636
-2023/2024,Female,disabled,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,1,1,1,0,22,19,100.0,0.0,2200.0,86.3636
-2023/2024,Female,disabled,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,2,1,2,1,22,19,50.0,50.0,1100.0,86.3636
-2023/2024,Female,disabled,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,2,1,2,1,22,19,50.0,50.0,1100.0,86.3636
-2023/2024,Female,disabled,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1,1,1,0,22,19,100.0,0.0,2200.0,86.3636
-2023/2024,Female,disabled,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,1,1,1,0,22,19,100.0,0.0,2200.0,86.3636
-2023/2024,Female,disabled,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,1,1,2,1,28,25,100.0,50.0,1400.0,89.2857
-2023/2024,Female,disabled,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1,1,1,0,22,19,100.0,0.0,2200.0,86.3636
-2023/2024,Female,disabled,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,1,1,1,0,22,19,100.0,0.0,2200.0,86.3636
-2023/2024,Female,disabled,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,1,1,2,1,28,25,100.0,50.0,1400.0,89.2857
-2023/2024,Female,disabled,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,1,1,1,0,28,25,100.0,0.0,2800.0,89.2857
-2023/2024,Female,disabled,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,1,1,2,1,22,19,100.0,50.0,1100.0,86.3636
-2023/2024,Female,disabled,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,1,1,1,0,22,19,100.0,0.0,2200.0,86.3636
-2023/2024,Female,disabled,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,1,1,1,0,22,19,100.0,0.0,2200.0,86.3636
-2023/2024,Female,disabled,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,1,1,1,0,22,19,100.0,0.0,2200.0,86.3636
-2023/2024,Female,disabled,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,1,1,2,1,22,19,100.0,50.0,1100.0,86.3636
-2023/2024,Female,disabled,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,2,2,2,1,22,20,100.0,50.0,1100.0,90.9091
-2023/2024,Female,disabled,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,2,2,2,1,27,25,100.0,50.0,1350.0,92.5926
-2023/2024,Female,disabled,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,2,2,2,1,31,28,100.0,50.0,1550.0,90.3226
-2023/2024,Female,disabled,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1,1,2,1,22,20,100.0,50.0,1100.0,90.9091
-2023/2024,Female,disabled,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,2,2,2,1,27,25,100.0,50.0,1350.0,92.5926
-2023/2024,Female,disabled,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,2,2,2,1,31,28,100.0,50.0,1550.0,90.3226
-2023/2024,Female,disabled,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1,1,2,1,18,15,100.0,50.0,900.0,83.3333
-2023/2024,Female,disabled,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,1,1,2,1,22,20,100.0,50.0,1100.0,90.9091
-2023/2024,Female,disabled,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,2,2,2,1,27,25,100.0,50.0,1350.0,92.5926
-2023/2024,Female,disabled,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,2,2,2,1,27,25,100.0,50.0,1350.0,92.5926
-2023/2024,Female,disabled,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,2,2,2,1,22,20,100.0,50.0,1100.0,90.9091
-2023/2024,Female,disabled,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,1,1,2,1,27,23,100.0,50.0,1350.0,85.1852
-2023/2024,Female,disabled,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,1,1,1,0,22,20,100.0,0.0,2200.0,90.9091
-2023/2024,Female,disabled,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,1,1,1,0,18,15,100.0,0.0,1800.0,83.3333
-2023/2024,Male,all,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,6,5,7,3,188,174,83.3333,42.8571,2685.7143,92.5532
-2023/2024,Male,all,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,6,5,7,3,166,153,83.3333,42.8571,2371.4286,92.1687
-2023/2024,Male,all,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,8,6,9,4,225,196,75.0,44.4444,2500.0,87.1111
-2023/2024,Male,all,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,9,7,10,4,235,207,77.7778,40.0,2350.0,88.0851
-2023/2024,Male,all,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,7,5,8,3,189,177,71.4286,37.5,2362.5,93.6508
-2023/2024,Male,all,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,7,5,8,3,168,154,71.4286,37.5,2100.0,91.6667
-2023/2024,Male,all,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,9,7,10,4,229,209,77.7778,40.0,2290.0,91.2664
-2023/2024,Male,all,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,7,5,8,3,200,187,71.4286,37.5,2500.0,93.5
-2023/2024,Male,all,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,7,5,8,3,195,174,71.4286,37.5,2437.5,89.2308
-2023/2024,Male,all,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,8,6,9,3,186,163,75.0,33.3333,2066.6667,87.6344
-2023/2024,Male,all,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,7,5,8,3,166,154,71.4286,37.5,2075.0,92.7711
-2023/2024,Male,all,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,8,6,9,3,186,165,75.0,33.3333,2066.6667,88.7097
-2023/2024,Male,all,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,8,6,9,4,217,196,75.0,44.4444,2411.1111,90.3226
-2023/2024,Male,all,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,6,5,7,3,189,177,83.3333,42.8571,2700.0,93.6508
-2023/2024,Male,all,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,6,5,7,3,155,154,83.3333,42.8571,2214.2857,99.3548
-2023/2024,Male,all,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,12,8,14,5,358,343,66.6667,35.7143,2557.1429,95.8101
-2023/2024,Male,all,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,11,8,12,5,268,246,72.7273,41.6667,2233.3333,91.791
-2023/2024,Male,all,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,15,11,18,7,388,353,73.3333,38.8889,2155.5556,90.9794
-2023/2024,Male,all,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,16,11,18,7,414,388,68.75,38.8889,2300.0,93.7198
-2023/2024,Male,all,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,13,9,16,6,372,352,69.2308,37.5,2325.0,94.6237
-2023/2024,Male,all,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,12,8,15,6,326,299,66.6667,40.0,2173.3333,91.7178
-2023/2024,Male,all,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,15,11,17,7,389,371,73.3333,41.1765,2288.2353,95.3728
-2023/2024,Male,all,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,13,9,15,6,348,327,69.2308,40.0,2320.0,93.9655
-2023/2024,Male,all,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,11,8,13,5,323,310,72.7273,38.4615,2484.6154,95.9752
-2023/2024,Male,all,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,15,11,17,7,334,299,73.3333,41.1765,1964.7059,89.521
-2023/2024,Male,all,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,13,9,14,5,315,297,69.2308,35.7143,2250.0,94.2857
-2023/2024,Male,all,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,14,10,15,6,308,291,71.4286,40.0,2053.3333,94.4805
-2023/2024,Male,all,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,14,10,16,6,325,301,71.4286,37.5,2031.25,92.6154
-2023/2024,Male,all,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,11,8,13,5,309,282,72.7273,38.4615,2376.9231,91.2621
-2023/2024,Male,all,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,11,8,13,5,277,255,72.7273,38.4615,2130.7692,92.0578
-2023/2024,Male,all,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,16,12,18,7,409,375,75.0,38.8889,2272.2222,91.687
-2023/2024,Male,all,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,15,11,18,7,389,363,73.3333,38.8889,2161.1111,93.3162
-2023/2024,Male,all,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,19,14,22,8,485,436,73.6842,36.3636,2204.5455,89.8969
-2023/2024,Male,all,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,20,15,24,9,511,472,75.0,37.5,2129.1667,92.3679
-2023/2024,Male,all,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,17,13,19,7,429,392,76.4706,36.8421,2257.8947,91.3753
-2023/2024,Male,all,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,18,14,21,8,466,416,77.7778,38.0952,2219.0476,89.2704
-2023/2024,Male,all,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,22,17,25,10,535,473,77.2727,40.0,2140.0,88.4112
-2023/2024,Male,all,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,18,14,21,8,443,408,77.7778,38.0952,2109.5238,92.0993
-2023/2024,Male,all,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,15,11,18,7,391,371,73.3333,38.8889,2172.2222,94.8849
-2023/2024,Male,all,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,19,14,21,8,420,386,73.6842,38.0952,2000.0,91.9048
-2023/2024,Male,all,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,16,12,18,7,346,308,75.0,38.8889,1922.2222,89.0173
-2023/2024,Male,all,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,20,15,22,8,437,392,75.0,36.3636,1986.3636,89.7025
-2023/2024,Male,all,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,18,14,21,8,465,428,77.7778,38.0952,2214.2857,92.043
-2023/2024,Male,all,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,14,11,16,6,377,353,78.5714,37.5,2356.25,93.634
-2023/2024,Male,all,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,17,13,19,7,389,353,76.4706,36.8421,2047.3684,90.7455
-2023/2024,Male,disabled,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,1,1,1,0,28,26,100.0,0.0,2800.0,92.8571
-2023/2024,Male,disabled,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,1,1,1,0,27,24,100.0,0.0,2700.0,88.8889
-2023/2024,Male,disabled,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,1,1,1,0,27,26,100.0,0.0,2700.0,96.2963
-2023/2024,Male,disabled,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,1,1,1,0,28,27,100.0,0.0,2800.0,96.4286
-2023/2024,Male,disabled,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1,1,1,0,30,27,100.0,0.0,3000.0,90.0
-2023/2024,Male,disabled,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,1,1,1,0,21,20,100.0,0.0,2100.0,95.2381
-2023/2024,Male,disabled,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,1,1,1,0,29,27,100.0,0.0,2900.0,93.1034
-2023/2024,Male,disabled,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1,1,1,0,31,27,100.0,0.0,3100.0,87.0968
-2023/2024,Male,disabled,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,1,1,1,0,27,26,100.0,0.0,2700.0,96.2963
-2023/2024,Male,disabled,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,1,1,1,0,27,25,100.0,0.0,2700.0,92.5926
-2023/2024,Male,disabled,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,1,1,1,0,20,19,100.0,0.0,2000.0,95.0
-2023/2024,Male,disabled,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,1,1,1,0,13,12,100.0,0.0,1300.0,92.3077
-2023/2024,Male,disabled,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,1,1,1,0,21,20,100.0,0.0,2100.0,95.2381
-2023/2024,Male,disabled,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,1,1,1,0,29,27,100.0,0.0,2900.0,93.1034
-2023/2024,Male,disabled,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,1,1,1,0,20,19,100.0,0.0,2000.0,95.0
-2023/2024,Male,disabled,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,1,1,1,0,29,28,100.0,0.0,2900.0,96.5517
-2023/2024,Male,disabled,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Male,disabled,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Male,disabled,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,1,1,2,1,29,28,100.0,50.0,1450.0,96.5517
-2023/2024,Male,disabled,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Male,disabled,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Male,disabled,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Male,disabled,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Male,disabled,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Male,disabled,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Male,disabled,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,1,1,1,0,29,27,100.0,0.0,2900.0,93.1034
-2023/2024,Male,disabled,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Male,disabled,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Male,disabled,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,1,1,1,0,22,21,100.0,0.0,2200.0,95.4545
-2023/2024,Male,disabled,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,1,1,1,0,23,22,100.0,0.0,2300.0,95.6522
-2023/2024,Male,disabled,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,1,1,1,0,27,23,100.0,0.0,2700.0,85.1852
-2023/2024,Male,disabled,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,1,1,2,1,22,19,100.0,50.0,1100.0,86.3636
-2023/2024,Male,disabled,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,2,2,2,1,27,24,100.0,50.0,1350.0,88.8889
-2023/2024,Male,disabled,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,2,2,2,1,35,31,100.0,50.0,1750.0,88.5714
-2023/2024,Male,disabled,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1,1,1,0,22,19,100.0,0.0,2200.0,86.3636
-2023/2024,Male,disabled,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,1,1,2,1,31,28,100.0,50.0,1550.0,90.3226
-2023/2024,Male,disabled,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,2,2,2,1,37,28,100.0,50.0,1850.0,75.6757
-2023/2024,Male,disabled,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1,1,2,1,26,24,100.0,50.0,1300.0,92.3077
-2023/2024,Male,disabled,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,1,1,1,0,25,24,100.0,0.0,2500.0,96.0
-2023/2024,Male,disabled,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,2,2,2,1,25,24,100.0,50.0,1250.0,96.0
-2023/2024,Male,disabled,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,2,2,2,1,31,28,100.0,50.0,1550.0,90.3226
-2023/2024,Male,disabled,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,2,2,2,1,27,24,100.0,50.0,1350.0,88.8889
-2023/2024,Male,disabled,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,1,1,2,1,27,23,100.0,50.0,1350.0,85.1852
-2023/2024,Male,disabled,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,1,1,1,0,25,23,100.0,0.0,2500.0,92.0
-2023/2024,Male,disabled,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,1,1,1,0,18,17,100.0,0.0,1800.0,94.4444
-2024/2025,Female,all,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,40,30,22,8,7,6,75.0000,36.3636,31.8182,85.7143
-2024/2025,Female,all,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,35,25,20,8,6,6,71.4286,40.0000,30.0000,100.0000
-2024/2025,Female,all,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,49,39,27,10,8,7,79.5918,37.0370,29.6296,87.5000
-2024/2025,Female,all,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,49,39,27,10,8,7,79.5918,37.0370,29.6296,87.5000
-2024/2025,Female,all,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,40,30,25,10,8,7,75.0000,40.0000,32.0000,87.5000
-2024/2025,Female,all,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,45,34,25,10,7,6,75.5556,40.0000,28.0000,85.7143
-2024/2025,Female,all,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,45,34,25,10,8,7,75.5556,40.0000,32.0000,87.5000
-2024/2025,Female,all,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,45,34,25,10,7,7,75.5556,40.0000,28.0000,100.0000
-2024/2025,Female,all,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,40,29,22,8,7,6,72.5000,36.3636,31.8182,85.7143
-2024/2025,Female,all,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,44,34,25,10,7,7,77.2727,40.0000,28.0000,100.0000
-2024/2025,Female,all,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,35,25,20,8,6,5,71.4286,40.0000,30.0000,83.3333
-2024/2025,Female,all,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,44,34,25,10,7,6,77.2727,40.0000,28.0000,85.7143
-2024/2025,Female,all,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,40,29,22,8,7,6,72.5000,36.3636,31.8182,85.7143
-2024/2025,Female,all,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,40,29,25,10,7,6,72.5000,40.0000,28.0000,85.7143
-2024/2025,Female,all,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,35,25,20,8,5,5,71.4286,40.0000,25.0000,100.0000
-2024/2025,Female,all,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,521,354,319,127,99,92,67.9463,39.8119,31.0345,92.9293
-2024/2025,Female,all,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,481,314,279,106,81,71,65.2807,37.9928,29.0323,87.6543
-2024/2025,Female,all,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,682,472,398,148,113,104,69.2082,37.1859,28.3920,92.0354
-2024/2025,Female,all,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,722,472,418,169,125,115,65.3740,40.4306,29.9043,92.0000
-2024/2025,Female,all,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,642,432,378,148,116,108,67.2897,39.1534,30.6878,93.1034
-2024/2025,Female,all,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,602,393,338,127,97,92,65.2824,37.5740,28.6982,94.8454
-2024/2025,Female,all,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,762,511,418,169,120,112,67.0604,40.4306,28.7081,93.3333
-2024/2025,Female,all,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,602,393,338,127,104,97,65.2824,37.5740,30.7692,93.2692
-2024/2025,Female,all,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,561,393,319,127,94,86,70.0535,39.8119,29.4671,91.4894
-2024/2025,Female,all,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,642,432,358,148,104,97,67.2897,41.3408,29.0503,93.2692
-2024/2025,Female,all,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,561,393,299,127,78,71,70.0535,42.4749,26.0870,91.0256
-2024/2025,Female,all,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,642,432,338,127,93,81,67.2897,37.5740,27.5148,87.0968
-2024/2025,Female,all,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,561,393,319,127,95,87,70.0535,39.8119,29.7806,91.5789
-2024/2025,Female,all,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,561,393,338,127,108,102,70.0535,37.5740,31.9527,94.4444
-2024/2025,Female,all,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,521,354,319,127,90,81,67.9463,39.8119,28.2132,90.0000
-2024/2025,Female,all,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,774,553,448,178,146,136,71.4470,39.7321,32.5893,93.1507
-2024/2025,Female,all,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,688,510,384,156,109,99,74.1279,40.6250,28.3854,90.8257
-2024/2025,Female,all,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,1076,766,640,245,187,170,71.1896,38.2813,29.2188,90.9091
-2024/2025,Female,all,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,990,723,555,223,166,159,73.0303,40.1802,29.9099,95.7831
-2024/2025,Female,all,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,860,638,512,201,165,151,74.1860,39.2578,32.2266,91.5152
-2024/2025,Female,all,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,860,638,491,201,147,133,74.1860,40.9369,29.9389,90.4762
-2024/2025,Female,all,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,1076,766,597,245,178,164,71.1896,41.0385,29.8157,92.1348
-2024/2025,Female,all,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,903,681,512,201,151,138,75.4153,39.2578,29.4922,91.3907
-2024/2025,Female,all,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,860,638,512,201,153,142,74.1860,39.2578,29.8828,92.8105
-2024/2025,Female,all,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,903,638,512,201,133,118,70.6534,39.2578,25.9766,88.7218
-2024/2025,Female,all,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,817,595,448,178,132,121,72.8274,39.7321,29.4643,91.6667
-2024/2025,Female,all,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,946,681,512,200,142,131,71.9873,39.0625,27.7344,92.2535
-2024/2025,Female,all,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,817,595,469,178,135,123,72.8274,37.9531,28.7846,91.1111
-2024/2025,Female,all,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,817,595,469,178,142,133,72.8274,37.9531,30.2772,93.6620
-2024/2025,Female,all,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,731,553,427,178,115,106,75.6498,41.6862,26.9321,92.1739
-2024/2025,Female,disabled,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,4,3,3,1,1,1,75.0000,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,4,3,3,1,1,1,75.0000,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,4,3,3,1,1,1,75.0000,33.3333,33.3333,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,48,34,24,0,8,7,70.8333,0.0000,33.3333,87.5000
-2024/2025,Female,disabled,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,48,34,24,0,8,7,70.8333,0.0000,33.3333,87.5000
-2024/2025,Female,disabled,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,48,34,49,67,8,7,70.8333,136.7347,16.3265,87.5000
-2024/2025,Female,disabled,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,48,34,49,67,8,7,70.8333,136.7347,16.3265,87.5000
-2024/2025,Female,disabled,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,48,33,24,0,8,7,68.7500,0.0000,33.3333,87.5000
-2024/2025,Female,disabled,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,47,33,24,0,8,7,70.2128,0.0000,33.3333,87.5000
-2024/2025,Female,disabled,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,95,33,49,66,10,9,34.7368,134.6939,20.4082,90.0000
-2024/2025,Female,disabled,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,47,33,24,0,8,7,70.2128,0.0000,33.3333,87.5000
-2024/2025,Female,disabled,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,47,33,24,0,8,7,70.2128,0.0000,33.3333,87.5000
-2024/2025,Female,disabled,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,47,33,49,66,10,9,70.2128,134.6939,20.4082,90.0000
-2024/2025,Female,disabled,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,47,33,24,0,8,7,70.2128,0.0000,33.3333,87.5000
-2024/2025,Female,disabled,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,47,33,24,0,8,7,70.2128,0.0000,33.3333,87.5000
-2024/2025,Female,disabled,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,47,33,24,0,8,7,70.2128,0.0000,33.3333,87.5000
-2024/2025,Female,disabled,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,47,33,24,0,8,7,70.2128,0.0000,33.3333,87.5000
-2024/2025,Female,disabled,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,47,33,24,0,8,7,70.2128,0.0000,33.3333,87.5000
-2024/2025,Female,disabled,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,50,52,47,22,11,10,104.0000,46.8085,23.4043,90.9091
-2024/2025,Female,disabled,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,50,52,47,22,7,6,104.0000,46.8085,14.8936,85.7143
-2024/2025,Female,disabled,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,100,52,47,22,13,12,52.0000,46.8085,27.6596,92.3077
-2024/2025,Female,disabled,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,100,52,47,22,14,14,52.0000,46.8085,29.7872,100.0000
-2024/2025,Female,disabled,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,50,52,47,22,9,9,104.0000,46.8085,19.1489,100.0000
-2024/2025,Female,disabled,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,50,52,47,22,9,8,104.0000,46.8085,19.1489,88.8889
-2024/2025,Female,disabled,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,100,52,47,22,15,12,52.0000,46.8085,31.9149,80.0000
-2024/2025,Female,disabled,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,100,52,47,22,11,10,52.0000,46.8085,23.4043,90.9091
-2024/2025,Female,disabled,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,50,52,47,22,11,10,104.0000,46.8085,23.4043,90.9091
-2024/2025,Female,disabled,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,100,52,47,22,9,8,52.0000,46.8085,19.1489,88.8889
-2024/2025,Female,disabled,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,100,52,47,22,9,8,52.0000,46.8085,19.1489,88.8889
-2024/2025,Female,disabled,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,100,51,47,22,9,8,51.0000,46.8085,19.1489,88.8889
-2024/2025,Female,disabled,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,50,51,47,22,7,6,102.0000,46.8085,14.8936,85.7143
-2024/2025,Female,disabled,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,50,51,47,22,9,8,102.0000,46.8085,19.1489,88.8889
-2024/2025,Female,disabled,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,50,51,23,0,7,7,102.0000,0.0000,30.4348,100.0000
-2024/2025,Male,all,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,30,25,20,8,7,7,83.3333,40.0000,35.0000,100.0000
-2024/2025,Male,all,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,30,25,17,8,7,7,83.3333,47.0588,41.1765,100.0000
-2024/2025,Male,all,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,40,29,22,8,9,8,72.5000,36.3636,40.9091,88.8889
-2024/2025,Male,all,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,40,29,25,10,9,8,72.5000,40.0000,36.0000,88.8889
-2024/2025,Male,all,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,35,25,22,8,9,8,71.4286,36.3636,40.9091,88.8889
-2024/2025,Male,all,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,35,25,22,8,8,8,71.4286,36.3636,36.3636,100.0000
-2024/2025,Male,all,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,35,25,20,8,7,7,71.4286,40.0000,35.0000,100.0000
-2024/2025,Male,all,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,35,25,20,8,8,7,71.4286,40.0000,40.0000,87.5000
-2024/2025,Male,all,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,30,25,17,8,7,7,83.3333,47.0588,41.1765,100.0000
-2024/2025,Male,all,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,40,29,22,8,8,7,72.5000,36.3636,36.3636,87.5000
-2024/2025,Male,all,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,35,25,17,8,5,5,71.4286,47.0588,29.4118,100.0000
-2024/2025,Male,all,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,40,29,22,8,7,6,72.5000,36.3636,31.8182,85.7143
-2024/2025,Male,all,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,35,25,20,7,7,7,71.4286,35.0000,35.0000,100.0000
-2024/2025,Male,all,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,30,25,17,7,6,6,83.3333,41.1765,35.2941,100.0000
-2024/2025,Male,all,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,30,25,17,7,7,6,83.3333,41.1765,41.1765,85.7143
-2024/2025,Male,all,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,441,314,259,106,107,99,71.2018,40.9266,41.3127,92.5234
-2024/2025,Male,all,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,441,314,239,84,89,86,71.2018,35.1464,37.2385,96.6292
-2024/2025,Male,all,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,561,393,319,127,120,111,70.0535,39.8119,37.6176,92.5000
-2024/2025,Male,all,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,642,432,378,148,138,125,67.2897,39.1534,36.5079,90.5797
-2024/2025,Male,all,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,521,354,299,127,119,111,67.9463,42.4749,39.7993,93.2773
-2024/2025,Male,all,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,481,314,279,106,107,96,65.2807,37.9928,38.3513,89.7196
-2024/2025,Male,all,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,602,393,338,127,126,116,65.2824,37.5740,37.2781,92.0635
-2024/2025,Male,all,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,481,314,279,106,106,97,65.2807,37.9928,37.9928,91.5094
-2024/2025,Male,all,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,441,314,279,106,102,94,71.2018,37.9928,36.5591,92.1569
-2024/2025,Male,all,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,601,393,319,127,115,105,65.3910,39.8119,36.0502,91.3043
-2024/2025,Male,all,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,481,314,279,106,95,88,65.2807,37.9928,34.0502,92.6316
-2024/2025,Male,all,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,561,393,299,127,99,92,70.0535,42.4749,33.1104,92.9293
-2024/2025,Male,all,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,561,393,319,127,121,111,70.0535,39.8119,37.9310,91.7355
-2024/2025,Male,all,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,441,314,259,106,100,91,71.2018,40.9266,38.6100,91.0000
-2024/2025,Male,all,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,441,314,259,105,94,85,71.2018,40.5405,36.2934,90.4255
-2024/2025,Male,all,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,688,510,384,156,154,142,74.1279,40.6250,40.1042,92.2078
-2024/2025,Male,all,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,645,468,363,134,131,121,72.5581,36.9146,36.0882,92.3664
-2024/2025,Male,all,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,860,638,491,200,176,163,74.1860,40.7332,35.8452,92.6136
-2024/2025,Male,all,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,903,681,512,200,193,176,75.4153,39.0625,37.6953,91.1917
-2024/2025,Male,all,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,731,553,448,178,181,166,75.6498,39.7321,40.4018,91.7127
-2024/2025,Male,all,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,688,510,405,156,162,147,74.1279,38.5185,40.0000,90.7407
-2024/2025,Male,all,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,860,638,491,200,185,169,74.1860,40.7332,37.6782,91.3514
-2024/2025,Male,all,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,731,553,405,156,154,142,75.6498,38.5185,38.0247,92.2078
-2024/2025,Male,all,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,688,510,405,156,153,142,74.1279,38.5185,37.7778,92.8105
-2024/2025,Male,all,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,817,595,448,178,157,144,72.8274,39.7321,35.0446,91.7197
-2024/2025,Male,all,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,731,553,405,156,142,132,75.6498,38.5185,35.0617,92.9577
-2024/2025,Male,all,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,817,595,469,178,159,144,72.8274,37.9531,33.9019,90.5660
-2024/2025,Male,all,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,731,553,427,156,148,139,75.6498,36.5340,34.6604,93.9189
-2024/2025,Male,all,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,645,468,384,156,147,136,72.5581,40.6250,38.2813,92.5170
-2024/2025,Male,all,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,645,468,363,134,131,121,72.5581,36.9146,36.0882,92.3664
-2024/2025,Male,disabled,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,4,3,2,1,2,1,75.0000,50.0000,100.0000,50.0000
-2024/2025,Male,disabled,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,4,3,2,1,2,1,75.0000,50.0000,100.0000,50.0000
-2024/2025,Male,disabled,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,4,3,2,0,1,1,75.0000,0.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,3,3,2,0,1,0,100.0000,0.0000,50.0000,0.0000
-2024/2025,Male,disabled,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,3,2,2,0,1,1,66.6667,0.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,3,2,2,0,1,1,66.6667,0.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,3,2,2,0,1,1,66.6667,0.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,3,2,2,0,1,1,66.6667,0.0000,50.0000,100.0000
-2024/2025,Male,disabled,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,47,33,24,0,10,10,70.2128,0.0000,41.6667,100.0000
-2024/2025,Male,disabled,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,47,33,24,0,8,8,70.2128,0.0000,33.3333,100.0000
-2024/2025,Male,disabled,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,47,33,24,0,8,8,70.2128,0.0000,33.3333,100.0000
-2024/2025,Male,disabled,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,47,33,49,66,10,9,70.2128,134.6939,20.4082,90.0000
-2024/2025,Male,disabled,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,47,33,24,0,9,9,70.2128,0.0000,37.5000,100.0000
-2024/2025,Male,disabled,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,47,33,24,0,9,9,70.2128,0.0000,37.5000,100.0000
-2024/2025,Male,disabled,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,47,33,24,0,10,10,70.2128,0.0000,41.6667,100.0000
-2024/2025,Male,disabled,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,47,33,24,0,9,8,70.2128,0.0000,37.5000,88.8889
-2024/2025,Male,disabled,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,47,33,24,0,8,8,70.2128,0.0000,33.3333,100.0000
-2024/2025,Male,disabled,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,47,33,24,0,10,10,70.2128,0.0000,41.6667,100.0000
-2024/2025,Male,disabled,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,47,33,24,0,9,8,70.2128,0.0000,37.5000,88.8889
-2024/2025,Male,disabled,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,47,33,24,0,8,8,70.2128,0.0000,33.3333,100.0000
-2024/2025,Male,disabled,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,47,33,24,0,8,8,70.2128,0.0000,33.3333,100.0000
-2024/2025,Male,disabled,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,47,33,24,0,9,9,70.2128,0.0000,37.5000,100.0000
-2024/2025,Male,disabled,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,47,33,24,0,10,9,70.2128,0.0000,41.6667,90.0000
-2024/2025,Male,disabled,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,50,51,47,21,11,10,102.0000,44.6809,23.4043,90.9091
-2024/2025,Male,disabled,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,50,51,47,21,13,12,102.0000,44.6809,27.6596,92.3077
-2024/2025,Male,disabled,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,100,51,47,21,16,16,51.0000,44.6809,34.0426,100.0000
-2024/2025,Male,disabled,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,100,51,46,21,14,13,51.0000,45.6522,30.4348,92.8571
-2024/2025,Male,disabled,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,50,51,23,0,11,10,102.0000,0.0000,47.8261,90.9091
-2024/2025,Male,disabled,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,50,51,23,0,12,12,102.0000,0.0000,52.1739,100.0000
-2024/2025,Male,disabled,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,100,51,46,21,15,12,51.0000,45.6522,32.6087,80.0000
-2024/2025,Male,disabled,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,50,51,23,0,12,12,102.0000,0.0000,52.1739,100.0000
-2024/2025,Male,disabled,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,50,51,23,0,10,9,102.0000,0.0000,43.4783,90.0000
-2024/2025,Male,disabled,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,99,51,46,21,12,11,51.5152,45.6522,26.0870,91.6667
-2024/2025,Male,disabled,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,50,51,46,21,11,10,102.0000,45.6522,23.9130,90.9091
-2024/2025,Male,disabled,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,99,51,46,21,11,9,51.5152,45.6522,23.9130,81.8182
-2024/2025,Male,disabled,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,50,51,23,0,10,9,102.0000,0.0000,43.4783,90.0000
-2024/2025,Male,disabled,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,50,51,23,0,8,8,102.0000,0.0000,34.7826,100.0000
-2024/2025,Male,disabled,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,50,51,23,0,8,8,102.0000,0.0000,34.7826,100.0000
+session,gender,disability,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
+2022/2023,Female,ALL,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,12,10,17,13,466,443,71.4286,33.3333,2255.5556,94.5813
+2022/2023,Female,ALL,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,12,10,13,9,392,369,71.4286,28.5714,2442.8571,93.5673
+2022/2023,Female,ALL,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,16,14,19,17,555,492,77.7778,40.0,2420.0,88.0165
+2022/2023,Female,ALL,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,16,14,21,17,555,492,77.7778,36.3636,2200.0,88.0165
+2022/2023,Female,ALL,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,14,12,19,13,555,492,75.0,30.0,2420.0,88.0165
+2022/2023,Female,ALL,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,14,12,17,13,461,418,75.0,33.3333,2233.3333,90.0498
+2022/2023,Female,ALL,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,16,14,21,17,533,487,77.7778,36.3636,2109.0909,90.9483
+2022/2023,Female,ALL,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,14,12,17,13,466,443,75.0,33.3333,2255.5556,94.5813
+2022/2023,Female,ALL,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,14,12,17,13,489,443,75.0,33.3333,2366.6667,90.1408
+2022/2023,Female,ALL,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,14,12,15,13,418,392,75.0,37.5,2275.0,93.4066
+2022/2023,Female,ALL,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,14,12,17,13,413,392,75.0,33.3333,2000.0,94.4444
+2022/2023,Female,ALL,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,14,12,17,13,461,418,75.0,33.3333,2233.3333,90.0498
+2022/2023,Female,ALL,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,12,10,15,13,436,392,71.4286,37.5,2375.0,89.4737
+2022/2023,Female,ALL,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,14,12,17,13,484,443,75.0,33.3333,2344.4444,90.9953
+2022/2023,Female,ALL,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,12,10,15,13,374,369,71.4286,37.5,2037.5,98.1595
+2022/2023,Female,ALL,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,23,15,28,21,835,771,61.5385,33.3333,2426.6667,91.7582
+2022/2023,Female,ALL,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,21,15,24,21,629,589,66.6667,38.4615,2107.6923,93.0657
+2022/2023,Female,ALL,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,29,21,38,30,1003,949,64.7059,35.0,2185.0,94.0503
+2022/2023,Female,ALL,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,28,19,36,30,939,879,62.5,36.8421,2152.6316,93.154
+2022/2023,Female,ALL,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,24,17,32,26,881,854,64.2857,35.2941,2258.8235,96.3542
+2022/2023,Female,ALL,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,26,19,32,26,858,831,66.6667,35.2941,2200.0,96.2567
+2022/2023,Female,ALL,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,29,21,36,30,877,831,64.7059,36.8421,2010.5263,94.2408
+2022/2023,Female,ALL,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,28,19,36,30,959,900,62.5,36.8421,2200.0,93.3014
+2022/2023,Female,ALL,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,24,17,32,26,835,748,64.2857,35.2941,2141.1765,89.011
+2022/2023,Female,ALL,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,26,19,32,26,840,796,66.6667,35.2941,2152.9412,94.2623
+2022/2023,Female,ALL,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,23,15,28,21,691,639,61.5385,33.3333,2006.6667,92.0266
+2022/2023,Female,ALL,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,28,19,34,26,815,766,62.5,33.3333,1972.2222,93.5211
+2022/2023,Female,ALL,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,24,17,30,26,767,722,64.2857,37.5,2087.5,93.7126
+2022/2023,Female,ALL,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,24,17,30,26,796,718,64.2857,37.5,2168.75,89.6254
+2022/2023,Female,ALL,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,23,15,28,21,739,702,61.5385,33.3333,2146.6667,94.4099
+2022/2023,Female,ALL,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,29,23,38,30,978,928,70.5882,35.0,2130.0,94.3662
+2022/2023,Female,ALL,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,26,21,32,26,792,706,73.3333,35.2941,2029.4118,88.6957
+2022/2023,Female,ALL,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,40,31,51,43,1237,1119,69.5652,37.037,1996.2963,89.9814
+2022/2023,Female,ALL,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,40,31,49,38,1242,1119,69.5652,34.6154,2080.7692,89.6488
+2022/2023,Female,ALL,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,33,25,41,34,1070,988,68.4211,36.3636,2118.1818,91.8455
+2022/2023,Female,ALL,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,35,27,45,34,1207,1106,70.0,33.3333,2191.6667,91.0646
+2022/2023,Female,ALL,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,38,29,47,38,1175,1092,68.1818,36.0,2048.0,92.3828
+2022/2023,Female,ALL,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,33,25,41,34,1113,1018,68.4211,36.3636,2204.5455,90.9278
+2022/2023,Female,ALL,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,31,25,38,30,1017,953,72.2222,35.0,2215.0,93.228
+2022/2023,Female,ALL,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,36,29,43,34,1065,997,71.4286,34.7826,2017.3913,93.1034
+2022/2023,Female,ALL,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,31,25,38,30,877,810,72.2222,35.0,1910.0,91.8848
+2022/2023,Female,ALL,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,38,29,47,38,1083,997,68.1818,36.0,1888.0,91.5254
+2022/2023,Female,ALL,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,31,25,40,30,973,889,72.2222,33.3333,2019.0476,90.8019
+2022/2023,Female,ALL,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,29,23,40,30,1060,958,70.5882,33.3333,2200.0,89.8268
+2022/2023,Female,ALL,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,28,21,36,30,801,727,68.75,36.8421,1836.8421,90.2579
+2022/2023,Female,Disabled,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Female,Disabled,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Female,Disabled,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Female,Disabled,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Female,Disabled,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Female,Disabled,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,2,2,2,0,53,46,100.0,0.0,2300.0,86.9565
+2022/2023,Female,Disabled,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Female,Disabled,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Female,Disabled,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Female,Disabled,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Female,Disabled,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,2,2,2,0,53,46,100.0,0.0,2300.0,86.9565
+2022/2023,Female,Disabled,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Female,Disabled,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Female,Disabled,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Female,Disabled,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Female,Disabled,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,2,2,2,0,55,48,100.0,0.0,2400.0,87.5
+2022/2023,Female,Disabled,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,2,2,2,0,55,48,100.0,0.0,2400.0,87.5
+2022/2023,Female,Disabled,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,2,2,4,4,55,48,100.0,50.0,1200.0,87.5
+2022/2023,Female,Disabled,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,2,2,4,4,55,53,100.0,50.0,1200.0,95.8333
+2022/2023,Female,Disabled,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,2,2,2,0,55,53,100.0,0.0,2400.0,95.8333
+2022/2023,Female,Disabled,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,2,2,2,0,55,53,100.0,0.0,2400.0,95.8333
+2022/2023,Female,Disabled,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,2,2,4,4,55,53,100.0,50.0,1200.0,95.8333
+2022/2023,Female,Disabled,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,2,2,2,0,55,53,100.0,0.0,2400.0,95.8333
+2022/2023,Female,Disabled,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,2,2,2,0,55,48,100.0,0.0,2400.0,87.5
+2022/2023,Female,Disabled,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,2,2,2,0,73,65,100.0,0.0,3200.0,87.5
+2022/2023,Female,Disabled,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,2,2,2,0,55,48,100.0,0.0,2400.0,87.5
+2022/2023,Female,Disabled,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,2,2,4,4,55,48,100.0,50.0,1200.0,87.5
+2022/2023,Female,Disabled,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,2,2,2,0,55,48,100.0,0.0,2400.0,87.5
+2022/2023,Female,Disabled,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,2,2,2,0,55,53,100.0,0.0,2400.0,95.8333
+2022/2023,Female,Disabled,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,2,2,2,0,55,53,100.0,0.0,2400.0,95.8333
+2022/2023,Female,Disabled,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,2,2,4,4,67,58,100.0,50.0,1450.0,86.2069
+2022/2023,Female,Disabled,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,2,2,4,4,55,48,100.0,50.0,1200.0,87.5
+2022/2023,Female,Disabled,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,3,2,4,4,76,67,50.0,50.0,1650.0,87.8788
+2022/2023,Female,Disabled,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,3,2,4,4,76,67,50.0,50.0,1650.0,87.8788
+2022/2023,Female,Disabled,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,2,2,4,4,46,44,100.0,50.0,1000.0,95.0
+2022/2023,Female,Disabled,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,3,2,4,4,67,58,50.0,50.0,1450.0,86.2069
+2022/2023,Female,Disabled,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,3,2,4,4,76,67,50.0,50.0,1650.0,87.8788
+2022/2023,Female,Disabled,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,2,2,4,4,55,48,100.0,50.0,1200.0,87.5
+2022/2023,Female,Disabled,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,2,2,4,4,69,67,100.0,50.0,1500.0,96.6667
+2022/2023,Female,Disabled,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,3,2,4,4,69,67,50.0,50.0,1500.0,96.6667
+2022/2023,Female,Disabled,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,3,2,4,4,55,53,50.0,50.0,1200.0,95.8333
+2022/2023,Female,Disabled,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,3,2,4,4,60,58,50.0,50.0,1300.0,96.1538
+2022/2023,Female,Disabled,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,2,2,4,4,67,58,100.0,50.0,1450.0,86.2069
+2022/2023,Female,Disabled,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,2,2,2,0,67,58,100.0,0.0,2900.0,86.2069
+2022/2023,Female,Disabled,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,2,2,2,0,53,48,100.0,0.0,2300.0,91.3043
+2022/2023,Male,ALL,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,10,8,13,9,551,545,66.6667,28.5714,3428.5714,98.3333
+2022/2023,Male,ALL,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,10,8,13,9,480,436,66.6667,28.5714,2985.7143,90.4306
+2022/2023,Male,ALL,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,12,10,15,13,581,522,71.4286,37.5,3162.5,89.3281
+2022/2023,Male,ALL,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,14,12,17,13,666,600,75.0,33.3333,3222.2222,89.6552
+2022/2023,Male,ALL,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,12,10,15,13,620,545,71.4286,37.5,3375.0,87.4074
+2022/2023,Male,ALL,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,12,10,15,13,480,432,71.4286,37.5,2612.5,89.4737
+2022/2023,Male,ALL,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,14,12,17,13,590,545,75.0,33.3333,2855.5556,91.8288
+2022/2023,Male,ALL,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,12,10,15,13,514,487,71.4286,37.5,2800.0,94.1964
+2022/2023,Male,ALL,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,10,8,13,9,498,492,66.6667,28.5714,3100.0,98.1567
+2022/2023,Male,ALL,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,12,10,15,13,507,462,71.4286,37.5,2762.5,90.4977
+2022/2023,Male,ALL,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,12,10,15,13,450,409,71.4286,37.5,2450.0,90.3061
+2022/2023,Male,ALL,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,12,10,15,13,514,436,71.4286,37.5,2800.0,84.375
+2022/2023,Male,ALL,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,12,10,15,13,445,397,71.4286,37.5,2425.0,88.6598
+2022/2023,Male,ALL,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,10,8,11,9,418,374,66.6667,33.3333,3033.3333,89.011
+2022/2023,Male,ALL,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,10,8,13,9,370,369,66.6667,28.5714,2300.0,99.3789
+2022/2023,Male,ALL,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,19,14,26,21,893,845,63.6364,35.7143,2778.5714,94.0874
+2022/2023,Male,ALL,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,17,14,21,17,691,667,70.0,36.3636,2736.3636,96.0133
+2022/2023,Male,ALL,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,23,15,30,26,992,905,61.5385,37.5,2700.0,90.7407
+2022/2023,Male,ALL,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,26,19,32,26,1079,1050,66.6667,35.2941,2764.7059,96.8085
+2022/2023,Male,ALL,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,23,15,28,21,992,949,61.5385,33.3333,2880.0,95.1389
+2022/2023,Male,ALL,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,21,15,26,21,925,875,66.6667,35.7143,2878.5714,94.0447
+2022/2023,Male,ALL,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,24,17,32,26,1079,972,64.2857,35.2941,2764.7059,89.5745
+2022/2023,Male,ALL,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,23,15,28,21,877,819,61.5385,33.3333,2546.6667,92.9319
+2022/2023,Male,ALL,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,19,14,24,21,950,900,63.6364,38.4615,3184.6154,94.2029
+2022/2023,Male,ALL,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,24,17,30,26,916,849,64.2857,37.5,2493.75,92.2306
+2022/2023,Male,ALL,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,21,15,24,21,792,748,66.6667,38.4615,2653.8462,93.913
+2022/2023,Male,ALL,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,24,17,30,26,946,879,64.2857,37.5,2575.0,92.4757
+2022/2023,Male,ALL,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,23,15,28,21,902,849,61.5385,33.3333,2620.0,93.6387
+2022/2023,Male,ALL,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,17,14,23,17,840,771,70.0,33.3333,3050.0,91.2568
+2022/2023,Male,ALL,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,19,14,21,17,700,649,63.6364,36.3636,2772.7273,92.1311
+2022/2023,Male,ALL,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,26,21,32,26,1060,979,73.3333,35.2941,2717.6471,91.7749
+2022/2023,Male,ALL,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,23,17,28,21,907,854,69.2308,33.3333,2633.3333,93.6709
+2022/2023,Male,ALL,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,33,25,41,34,1324,1228,68.4211,36.3636,2622.7273,92.201
+2022/2023,Male,ALL,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,33,25,41,34,1458,1336,68.4211,36.3636,2886.3636,91.1811
+2022/2023,Male,ALL,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,28,21,36,30,1267,1163,68.75,36.8421,2905.2632,91.3043
+2022/2023,Male,ALL,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,31,25,38,30,1304,1219,72.2222,35.0,2840.0,92.9577
+2022/2023,Male,ALL,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,33,25,40,30,1194,1096,68.4211,33.3333,2476.1905,91.3462
+2022/2023,Male,ALL,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,28,21,36,30,1189,1096,68.75,36.8421,2726.3158,91.6988
+2022/2023,Male,ALL,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,26,21,32,26,1079,979,73.3333,35.2941,2764.7059,90.2128
+2022/2023,Male,ALL,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,31,25,40,30,1207,1119,72.2222,33.3333,2504.7619,92.2053
+2022/2023,Male,ALL,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,28,21,34,26,946,849,68.75,33.3333,2288.8889,89.3204
+2022/2023,Male,ALL,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,33,25,41,34,1171,1066,68.4211,36.3636,2318.1818,90.5882
+2022/2023,Male,ALL,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,29,23,38,30,1132,1018,70.5882,35.0,2465.0,89.4523
+2022/2023,Male,ALL,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,24,19,30,26,982,914,71.4286,37.5,2675.0,92.5234
+2022/2023,Male,ALL,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,23,17,28,21,868,771,69.2308,33.3333,2520.0,88.3598
+2022/2023,Male,Disabled,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,2,2,2,0,69,67,100.0,0.0,3000.0,96.6667
+2022/2023,Male,Disabled,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,2,2,2,0,80,74,100.0,0.0,3500.0,91.4286
+2022/2023,Male,Disabled,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,2,2,2,0,73,72,100.0,0.0,3200.0,96.875
+2022/2023,Male,Disabled,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,2,2,2,0,76,74,100.0,0.0,3300.0,96.9697
+2022/2023,Male,Disabled,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,2,2,2,0,80,74,100.0,0.0,3500.0,91.4286
+2022/2023,Male,Disabled,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,2,2,2,0,55,53,100.0,0.0,2400.0,95.8333
+2022/2023,Male,Disabled,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,2,2,2,0,62,55,100.0,0.0,2700.0,88.8889
+2022/2023,Male,Disabled,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,2,2,2,0,62,55,100.0,0.0,2700.0,88.8889
+2022/2023,Male,Disabled,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,2,2,2,0,73,72,100.0,0.0,3200.0,96.875
+2022/2023,Male,Disabled,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,2,2,2,0,76,74,100.0,0.0,3300.0,96.9697
+2022/2023,Male,Disabled,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,2,2,2,0,39,37,100.0,0.0,1700.0,94.1176
+2022/2023,Male,Disabled,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,2,2,2,0,62,55,100.0,0.0,2700.0,88.8889
+2022/2023,Male,Disabled,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,2,2,2,0,34,32,100.0,0.0,1500.0,93.3333
+2022/2023,Male,Disabled,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,2,2,2,0,53,51,100.0,0.0,2300.0,95.6522
+2022/2023,Male,Disabled,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,2,2,2,0,34,32,100.0,0.0,1500.0,93.3333
+2022/2023,Male,Disabled,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,2,2,2,0,67,62,100.0,0.0,2900.0,93.1034
+2022/2023,Male,Disabled,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,2,2,2,0,62,60,100.0,0.0,2700.0,96.2963
+2022/2023,Male,Disabled,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Male,Disabled,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,2,2,4,4,83,76,100.0,50.0,1800.0,91.6667
+2022/2023,Male,Disabled,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Male,Disabled,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Male,Disabled,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,2,2,2,0,83,76,100.0,0.0,3600.0,91.6667
+2022/2023,Male,Disabled,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Male,Disabled,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Male,Disabled,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,2,2,2,0,67,62,100.0,0.0,2900.0,93.1034
+2022/2023,Male,Disabled,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,2,2,2,0,83,76,100.0,0.0,3600.0,91.6667
+2022/2023,Male,Disabled,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Male,Disabled,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Male,Disabled,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Male,Disabled,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Male,Disabled,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Male,Disabled,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,2,2,2,0,55,48,100.0,0.0,2400.0,87.5
+2022/2023,Male,Disabled,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,3,2,4,4,83,78,50.0,50.0,1800.0,94.4444
+2022/2023,Male,Disabled,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,3,2,4,4,96,85,50.0,50.0,2100.0,88.0952
+2022/2023,Male,Disabled,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Male,Disabled,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,2,2,2,0,83,74,100.0,0.0,3600.0,88.8889
+2022/2023,Male,Disabled,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,2,2,4,4,69,62,100.0,50.0,1500.0,90.0
+2022/2023,Male,Disabled,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Male,Disabled,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,2,2,2,0,55,48,100.0,0.0,2400.0,87.5
+2022/2023,Male,Disabled,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,3,2,4,4,83,74,50.0,50.0,1800.0,88.8889
+2022/2023,Male,Disabled,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,2,2,4,4,83,74,100.0,50.0,1800.0,88.8889
+2022/2023,Male,Disabled,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,3,2,4,4,69,65,50.0,50.0,1500.0,93.3333
+2022/2023,Male,Disabled,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2022/2023,Male,Disabled,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,2,2,2,0,55,48,100.0,0.0,2400.0,87.5
+2022/2023,Male,Disabled,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,2,2,2,0,55,48,100.0,0.0,2400.0,87.5
+2023/2024,Female,ALL,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,14,12,17,17,386,376,75.0,44.4444,1866.6667,97.0238
+2023/2024,Female,ALL,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,12,10,15,13,308,302,71.4286,37.5,1675.0,97.7612
+2023/2024,Female,ALL,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,17,15,21,17,425,376,80.0,36.3636,1681.8182,88.1081
+2023/2024,Female,ALL,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,16,14,21,17,491,439,77.7778,36.3636,1945.4545,88.785
+2023/2024,Female,ALL,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,14,12,19,17,454,395,75.0,40.0,1980.0,86.3636
+2023/2024,Female,ALL,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,14,12,19,17,413,374,75.0,40.0,1800.0,90.0
+2023/2024,Female,ALL,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,17,15,23,21,434,376,80.0,41.6667,1575.0,86.2434
+2023/2024,Female,ALL,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,16,14,19,17,480,443,77.7778,40.0,2090.0,91.866
+2023/2024,Female,ALL,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,14,12,19,17,427,402,75.0,40.0,1860.0,93.5484
+2023/2024,Female,ALL,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,16,14,19,17,392,360,77.7778,40.0,1710.0,91.2281
+2023/2024,Female,ALL,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,14,12,17,17,367,337,75.0,44.4444,1777.7778,91.25
+2023/2024,Female,ALL,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,16,14,19,17,374,337,77.7778,40.0,1630.0,89.5706
+2023/2024,Female,ALL,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,14,12,17,13,388,353,75.0,33.3333,1877.7778,90.5325
+2023/2024,Female,ALL,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,14,12,17,13,386,360,75.0,33.3333,1866.6667,92.8571
+2023/2024,Female,ALL,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,14,12,17,13,317,316,75.0,33.3333,1533.3333,99.2754
+2023/2024,Female,ALL,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,23,17,30,26,656,607,69.2308,37.5,1787.5,91.958
+2023/2024,Female,ALL,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,21,15,26,21,551,529,66.6667,35.7143,1714.2857,95.4167
+2023/2024,Female,ALL,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,35,27,43,38,865,799,70.0,39.1304,1639.1304,91.7772
+2023/2024,Female,ALL,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,33,25,41,38,861,815,68.4211,40.9091,1704.5455,94.1333
+2023/2024,Female,ALL,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,26,21,34,30,741,702,73.3333,38.8889,1794.4444,94.1176
+2023/2024,Female,ALL,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,26,21,32,30,654,607,73.3333,41.1765,1676.4706,92.2807
+2023/2024,Female,ALL,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,31,25,40,34,808,759,72.2222,38.0952,1676.1905,93.4659
+2023/2024,Female,ALL,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,28,21,34,30,776,718,68.75,38.8889,1877.7778,92.0118
+2023/2024,Female,ALL,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,24,19,30,26,670,639,71.4286,37.5,1825.0,94.863
+2023/2024,Female,ALL,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,28,21,34,30,741,704,68.75,38.8889,1794.4444,94.4272
+2023/2024,Female,ALL,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,24,19,28,26,604,554,71.4286,40.0,1753.3333,91.2548
+2023/2024,Female,ALL,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,29,23,36,30,707,679,70.5882,36.8421,1621.0526,95.4545
+2023/2024,Female,ALL,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,26,21,32,30,638,582,73.3333,41.1765,1635.2941,90.6475
+2023/2024,Female,ALL,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,24,19,32,30,689,646,71.4286,41.1765,1764.7059,93.3333
+2023/2024,Female,ALL,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,24,19,30,26,583,554,71.4286,37.5,1587.5,94.4882
+2023/2024,Female,ALL,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,33,27,40,34,838,741,73.6842,38.0952,1738.0952,87.9452
+2023/2024,Female,ALL,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,31,27,38,34,721,669,77.7778,40.0,1570.0,92.3567
+2023/2024,Female,ALL,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,40,33,51,43,1005,935,73.913,37.037,1622.2222,92.4658
+2023/2024,Female,ALL,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,42,35,55,47,1122,1050,75.0,37.931,1686.2069,93.047
+2023/2024,Female,ALL,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,35,29,45,38,950,884,75.0,37.5,1725.0,92.5121
+2023/2024,Female,ALL,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,36,31,45,38,936,870,76.1905,37.5,1700.0,92.402
+2023/2024,Female,ALL,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,43,37,55,47,1141,1052,76.0,37.931,1713.7931,91.7505
+2023/2024,Female,ALL,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,36,31,45,38,982,879,76.1905,37.5,1783.3333,89.0187
+2023/2024,Female,ALL,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,31,27,40,34,852,794,77.7778,38.0952,1766.6667,92.7224
+2023/2024,Female,ALL,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,36,31,45,38,920,852,76.1905,37.5,1670.8333,92.02
+2023/2024,Female,ALL,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,33,27,40,34,734,669,73.6842,38.0952,1523.8095,90.625
+2023/2024,Female,ALL,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,40,33,49,43,907,808,73.913,38.4615,1519.2308,88.6076
+2023/2024,Female,ALL,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,36,31,47,43,893,805,76.1905,40.0,1556.0,89.7172
+2023/2024,Female,ALL,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,31,27,38,34,794,748,77.7778,40.0,1730.0,93.6416
+2023/2024,Female,ALL,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,31,27,38,34,753,683,77.7778,40.0,1640.0,90.2439
+2023/2024,Female,Disabled,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Female,Disabled,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Female,Disabled,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Female,Disabled,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,2,2,2,0,60,53,100.0,0.0,2600.0,88.4615
+2023/2024,Female,Disabled,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,2,2,2,0,62,53,100.0,0.0,2700.0,85.1852
+2023/2024,Female,Disabled,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,2,2,2,0,44,39,100.0,0.0,1900.0,89.4737
+2023/2024,Female,Disabled,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,2,2,2,0,46,39,100.0,0.0,2000.0,85.0
+2023/2024,Female,Disabled,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,2,2,2,0,62,53,100.0,0.0,2700.0,85.1852
+2023/2024,Female,Disabled,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,2,2,2,0,53,51,100.0,0.0,2300.0,95.6522
+2023/2024,Female,Disabled,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,2,2,2,0,57,53,100.0,0.0,2500.0,92.0
+2023/2024,Female,Disabled,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,2,2,2,0,53,51,100.0,0.0,2300.0,95.6522
+2023/2024,Female,Disabled,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,2,2,2,0,44,39,100.0,0.0,1900.0,89.4737
+2023/2024,Female,Disabled,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,2,2,2,0,53,51,100.0,0.0,2300.0,95.6522
+2023/2024,Female,Disabled,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Female,Disabled,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,2,2,2,0,60,53,100.0,0.0,2600.0,88.4615
+2023/2024,Female,Disabled,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,2,2,2,0,50,44,100.0,0.0,2200.0,86.3636
+2023/2024,Female,Disabled,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,2,2,2,0,50,44,100.0,0.0,2200.0,86.3636
+2023/2024,Female,Disabled,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,3,2,4,4,50,44,50.0,50.0,1100.0,86.3636
+2023/2024,Female,Disabled,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,3,2,4,4,50,44,50.0,50.0,1100.0,86.3636
+2023/2024,Female,Disabled,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,2,2,2,0,50,44,100.0,0.0,2200.0,86.3636
+2023/2024,Female,Disabled,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,2,2,2,0,50,44,100.0,0.0,2200.0,86.3636
+2023/2024,Female,Disabled,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,2,2,4,4,64,58,100.0,50.0,1400.0,89.2857
+2023/2024,Female,Disabled,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,2,2,2,0,50,44,100.0,0.0,2200.0,86.3636
+2023/2024,Female,Disabled,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,2,2,2,0,50,44,100.0,0.0,2200.0,86.3636
+2023/2024,Female,Disabled,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,2,2,4,4,64,58,100.0,50.0,1400.0,89.2857
+2023/2024,Female,Disabled,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,2,2,2,0,64,58,100.0,0.0,2800.0,89.2857
+2023/2024,Female,Disabled,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,2,2,4,4,50,44,100.0,50.0,1100.0,86.3636
+2023/2024,Female,Disabled,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,2,2,2,0,50,44,100.0,0.0,2200.0,86.3636
+2023/2024,Female,Disabled,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,2,2,2,0,50,44,100.0,0.0,2200.0,86.3636
+2023/2024,Female,Disabled,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,2,2,2,0,50,44,100.0,0.0,2200.0,86.3636
+2023/2024,Female,Disabled,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,2,2,4,4,50,44,100.0,50.0,1100.0,86.3636
+2023/2024,Female,Disabled,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,3,4,4,4,50,46,100.0,50.0,1100.0,90.9091
+2023/2024,Female,Disabled,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,3,4,4,4,62,58,100.0,50.0,1350.0,92.5926
+2023/2024,Female,Disabled,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,3,4,4,4,71,65,100.0,50.0,1550.0,90.3226
+2023/2024,Female,Disabled,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,2,2,4,4,50,46,100.0,50.0,1100.0,90.9091
+2023/2024,Female,Disabled,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,3,4,4,4,62,58,100.0,50.0,1350.0,92.5926
+2023/2024,Female,Disabled,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,3,4,4,4,71,65,100.0,50.0,1550.0,90.3226
+2023/2024,Female,Disabled,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,2,2,4,4,41,35,100.0,50.0,900.0,83.3333
+2023/2024,Female,Disabled,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,2,2,4,4,50,46,100.0,50.0,1100.0,90.9091
+2023/2024,Female,Disabled,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,3,4,4,4,62,58,100.0,50.0,1350.0,92.5926
+2023/2024,Female,Disabled,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,3,4,4,4,62,58,100.0,50.0,1350.0,92.5926
+2023/2024,Female,Disabled,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,3,4,4,4,50,46,100.0,50.0,1100.0,90.9091
+2023/2024,Female,Disabled,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,2,2,4,4,62,53,100.0,50.0,1350.0,85.1852
+2023/2024,Female,Disabled,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,2,2,2,0,50,46,100.0,0.0,2200.0,90.9091
+2023/2024,Female,Disabled,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,2,2,2,0,41,35,100.0,0.0,1800.0,83.3333
+2023/2024,Male,ALL,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,10,10,13,13,432,402,83.3333,42.8571,2685.7143,92.5532
+2023/2024,Male,ALL,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,10,10,13,13,381,353,83.3333,42.8571,2371.4286,92.1687
+2023/2024,Male,ALL,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,14,12,17,17,516,452,75.0,44.4444,2500.0,87.1111
+2023/2024,Male,ALL,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,16,14,19,17,539,478,77.7778,40.0,2350.0,88.0851
+2023/2024,Male,ALL,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,12,10,15,13,434,409,71.4286,37.5,2362.5,93.6508
+2023/2024,Male,ALL,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,12,10,15,13,386,355,71.4286,37.5,2100.0,91.6667
+2023/2024,Male,ALL,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,16,14,19,17,526,482,77.7778,40.0,2290.0,91.2664
+2023/2024,Male,ALL,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,12,10,15,13,459,432,71.4286,37.5,2500.0,93.5
+2023/2024,Male,ALL,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,12,10,15,13,448,402,71.4286,37.5,2437.5,89.2308
+2023/2024,Male,ALL,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,14,12,17,13,427,376,75.0,33.3333,2066.6667,87.6344
+2023/2024,Male,ALL,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,12,10,15,13,381,355,71.4286,37.5,2075.0,92.7711
+2023/2024,Male,ALL,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,14,12,17,13,427,381,75.0,33.3333,2066.6667,88.7097
+2023/2024,Male,ALL,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,14,12,17,17,498,452,75.0,44.4444,2411.1111,90.3226
+2023/2024,Male,ALL,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,10,10,13,13,434,409,83.3333,42.8571,2700.0,93.6508
+2023/2024,Male,ALL,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,10,10,13,13,356,355,83.3333,42.8571,2214.2857,99.3548
+2023/2024,Male,ALL,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,21,15,26,21,822,792,66.6667,35.7143,2557.1429,95.8101
+2023/2024,Male,ALL,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,19,15,23,21,615,568,72.7273,41.6667,2233.3333,91.791
+2023/2024,Male,ALL,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,26,21,34,30,891,815,73.3333,38.8889,2155.5556,90.9794
+2023/2024,Male,ALL,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,28,21,34,30,950,895,68.75,38.8889,2300.0,93.7198
+2023/2024,Male,ALL,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,23,17,30,26,854,812,69.2308,37.5,2325.0,94.6237
+2023/2024,Male,ALL,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,21,15,28,26,748,690,66.6667,40.0,2173.3333,91.7178
+2023/2024,Male,ALL,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,26,21,32,30,893,856,73.3333,41.1765,2288.2353,95.3728
+2023/2024,Male,ALL,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,23,17,28,26,799,755,69.2308,40.0,2320.0,93.9655
+2023/2024,Male,ALL,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,19,15,24,21,741,715,72.7273,38.4615,2484.6154,95.9752
+2023/2024,Male,ALL,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,26,21,32,30,767,690,73.3333,41.1765,1964.7059,89.521
+2023/2024,Male,ALL,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,23,17,26,21,723,685,69.2308,35.7143,2250.0,94.2857
+2023/2024,Male,ALL,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,24,19,28,26,707,672,71.4286,40.0,2053.3333,94.4805
+2023/2024,Male,ALL,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,24,19,30,26,746,695,71.4286,37.5,2031.25,92.6154
+2023/2024,Male,ALL,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,19,15,24,21,709,651,72.7273,38.4615,2376.9231,91.2621
+2023/2024,Male,ALL,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,19,15,24,21,636,589,72.7273,38.4615,2130.7692,92.0578
+2023/2024,Male,ALL,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,28,23,34,30,939,865,75.0,38.8889,2272.2222,91.687
+2023/2024,Male,ALL,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,26,21,34,30,893,838,73.3333,38.8889,2161.1111,93.3162
+2023/2024,Male,ALL,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,33,27,41,34,1113,1006,73.6842,36.3636,2204.5455,89.8969
+2023/2024,Male,ALL,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,35,29,45,38,1173,1089,75.0,37.5,2129.1667,92.3679
+2023/2024,Male,ALL,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,29,25,36,30,985,905,76.4706,36.8421,2257.8947,91.3753
+2023/2024,Male,ALL,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,31,27,40,34,1070,960,77.7778,38.0952,2219.0476,89.2704
+2023/2024,Male,ALL,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,38,33,47,43,1228,1092,77.2727,40.0,2140.0,88.4112
+2023/2024,Male,ALL,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,31,27,40,34,1017,942,77.7778,38.0952,2109.5238,92.0993
+2023/2024,Male,ALL,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,26,21,34,30,897,856,73.3333,38.8889,2172.2222,94.8849
+2023/2024,Male,ALL,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,33,27,40,34,964,891,73.6842,38.0952,2000.0,91.9048
+2023/2024,Male,ALL,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,28,23,34,30,794,711,75.0,38.8889,1922.2222,89.0173
+2023/2024,Male,ALL,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,35,29,41,34,1003,905,75.0,36.3636,1986.3636,89.7025
+2023/2024,Male,ALL,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,31,27,40,34,1067,988,77.7778,38.0952,2214.2857,92.043
+2023/2024,Male,ALL,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,24,21,30,26,865,815,78.5714,37.5,2356.25,93.634
+2023/2024,Male,ALL,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,29,25,36,30,893,815,76.4706,36.8421,2047.3684,90.7455
+2023/2024,Male,Disabled,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,2,2,2,0,64,60,100.0,0.0,2800.0,92.8571
+2023/2024,Male,Disabled,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,2,2,2,0,62,55,100.0,0.0,2700.0,88.8889
+2023/2024,Male,Disabled,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,2,2,2,0,62,60,100.0,0.0,2700.0,96.2963
+2023/2024,Male,Disabled,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,2,2,2,0,64,62,100.0,0.0,2800.0,96.4286
+2023/2024,Male,Disabled,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,2,2,2,0,69,62,100.0,0.0,3000.0,90.0
+2023/2024,Male,Disabled,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,2,2,2,0,48,46,100.0,0.0,2100.0,95.2381
+2023/2024,Male,Disabled,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,2,2,2,0,67,62,100.0,0.0,2900.0,93.1034
+2023/2024,Male,Disabled,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,2,2,2,0,71,62,100.0,0.0,3100.0,87.0968
+2023/2024,Male,Disabled,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,2,2,2,0,62,60,100.0,0.0,2700.0,96.2963
+2023/2024,Male,Disabled,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,2,2,2,0,62,58,100.0,0.0,2700.0,92.5926
+2023/2024,Male,Disabled,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,2,2,2,0,46,44,100.0,0.0,2000.0,95.0
+2023/2024,Male,Disabled,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,2,2,2,0,30,28,100.0,0.0,1300.0,92.3077
+2023/2024,Male,Disabled,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,2,2,2,0,48,46,100.0,0.0,2100.0,95.2381
+2023/2024,Male,Disabled,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,2,2,2,0,67,62,100.0,0.0,2900.0,93.1034
+2023/2024,Male,Disabled,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,2,2,2,0,46,44,100.0,0.0,2000.0,95.0
+2023/2024,Male,Disabled,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,2,2,2,0,67,65,100.0,0.0,2900.0,96.5517
+2023/2024,Male,Disabled,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Male,Disabled,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Male,Disabled,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,2,2,4,4,67,65,100.0,50.0,1450.0,96.5517
+2023/2024,Male,Disabled,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Male,Disabled,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Male,Disabled,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Male,Disabled,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Male,Disabled,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Male,Disabled,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Male,Disabled,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,2,2,2,0,67,62,100.0,0.0,2900.0,93.1034
+2023/2024,Male,Disabled,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Male,Disabled,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Male,Disabled,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,2,2,2,0,50,48,100.0,0.0,2200.0,95.4545
+2023/2024,Male,Disabled,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,2,2,2,0,53,51,100.0,0.0,2300.0,95.6522
+2023/2024,Male,Disabled,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,2,2,2,0,62,53,100.0,0.0,2700.0,85.1852
+2023/2024,Male,Disabled,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,2,2,4,4,50,44,100.0,50.0,1100.0,86.3636
+2023/2024,Male,Disabled,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,3,4,4,4,62,55,100.0,50.0,1350.0,88.8889
+2023/2024,Male,Disabled,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,3,4,4,4,80,72,100.0,50.0,1750.0,88.5714
+2023/2024,Male,Disabled,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,2,2,2,0,50,44,100.0,0.0,2200.0,86.3636
+2023/2024,Male,Disabled,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,2,2,4,4,71,65,100.0,50.0,1550.0,90.3226
+2023/2024,Male,Disabled,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,3,4,4,4,85,65,100.0,50.0,1850.0,75.6757
+2023/2024,Male,Disabled,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,2,2,4,4,60,55,100.0,50.0,1300.0,92.3077
+2023/2024,Male,Disabled,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,2,2,2,0,57,55,100.0,0.0,2500.0,96.0
+2023/2024,Male,Disabled,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,3,4,4,4,57,55,100.0,50.0,1250.0,96.0
+2023/2024,Male,Disabled,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,3,4,4,4,71,65,100.0,50.0,1550.0,90.3226
+2023/2024,Male,Disabled,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,3,4,4,4,62,55,100.0,50.0,1350.0,88.8889
+2023/2024,Male,Disabled,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,2,2,4,4,62,53,100.0,50.0,1350.0,85.1852
+2023/2024,Male,Disabled,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,2,2,2,0,57,53,100.0,0.0,2500.0,92.0
+2023/2024,Male,Disabled,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,2,2,2,0,41,39,100.0,0.0,1800.0,94.4444
+2024/2025,Female,ALL,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,69,58,41,34,16,14,75.0000,36.3636,31.8182,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,61,48,38,34,14,14,71.4286,40.0000,30.0000,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,85,75,51,43,18,16,79.5918,37.0370,29.6296,87.5000
+2024/2025,Female,ALL,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,85,75,51,43,18,16,79.5918,37.0370,29.6296,87.5000
+2024/2025,Female,ALL,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,69,58,47,43,18,16,75.0000,40.0000,32.0000,87.5000
+2024/2025,Female,ALL,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,78,66,47,43,16,14,75.5556,40.0000,28.0000,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,78,66,47,43,18,16,75.5556,40.0000,32.0000,87.5000
+2024/2025,Female,ALL,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,78,66,47,43,16,16,75.5556,40.0000,28.0000,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,69,56,41,34,16,14,72.5000,36.3636,31.8182,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,76,66,47,43,16,16,77.2727,40.0000,28.0000,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,61,48,38,34,14,12,71.4286,40.0000,30.0000,83.3333
+2024/2025,Female,ALL,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,76,66,47,43,16,14,77.2727,40.0000,28.0000,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,69,56,41,34,16,14,72.5000,36.3636,31.8182,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,69,56,47,43,16,14,72.5000,40.0000,28.0000,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,61,48,38,34,11,12,71.4286,40.0000,25.0000,100.0000
+2024/2025,Female,ALL,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,903,685,601,543,227,212,67.9463,39.8119,31.0345,92.9293
+2024/2025,Female,ALL,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,833,607,525,453,186,164,65.2807,37.9928,29.0323,87.6543
+2024/2025,Female,ALL,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,1182,913,750,633,259,240,69.2082,37.1859,28.3920,92.0354
+2024/2025,Female,ALL,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,1251,913,787,722,287,265,65.3740,40.4306,29.9043,92.0000
+2024/2025,Female,ALL,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1112,835,712,633,266,249,67.2897,39.1534,30.6878,93.1034
+2024/2025,Female,ALL,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,1043,760,637,543,223,212,65.2824,37.5740,28.6982,94.8454
+2024/2025,Female,ALL,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,1320,988,787,722,275,258,67.0604,40.4306,28.7081,93.3333
+2024/2025,Female,ALL,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1043,760,637,543,239,224,65.2824,37.5740,30.7692,93.2692
+2024/2025,Female,ALL,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,972,760,601,543,216,198,70.0535,39.8119,29.4671,91.4894
+2024/2025,Female,ALL,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,1112,835,674,633,239,224,67.2897,41.3408,29.0503,93.2692
+2024/2025,Female,ALL,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,972,760,563,543,179,164,70.0535,42.4749,26.0870,91.0256
+2024/2025,Female,ALL,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,1112,835,637,543,213,187,67.2897,37.5740,27.5148,87.0968
+2024/2025,Female,ALL,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,972,760,601,543,218,201,70.0535,39.8119,29.7806,91.5789
+2024/2025,Female,ALL,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,972,760,637,543,248,235,70.0535,37.5740,31.9527,94.4444
+2024/2025,Female,ALL,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,903,685,601,543,207,187,67.9463,39.8119,28.2132,90.0000
+2024/2025,Female,ALL,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,1341,1069,844,761,335,314,71.4470,39.7321,32.5893,93.1507
+2024/2025,Female,ALL,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,1192,986,723,667,250,228,74.1279,40.6250,28.3854,90.8257
+2024/2025,Female,ALL,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,1865,1481,1205,1047,429,392,71.1896,38.2813,29.2188,90.9091
+2024/2025,Female,ALL,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,1715,1398,1045,953,381,367,73.0303,40.1802,29.9099,95.7831
+2024/2025,Female,ALL,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1490,1234,964,859,379,349,74.1860,39.2578,32.2266,91.5152
+2024/2025,Female,ALL,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,1490,1234,925,859,337,307,74.1860,40.9369,29.9389,90.4762
+2024/2025,Female,ALL,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,1865,1481,1124,1047,409,379,71.1896,41.0385,29.8157,92.1348
+2024/2025,Female,ALL,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1565,1317,964,859,347,319,75.4153,39.2578,29.4922,91.3907
+2024/2025,Female,ALL,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,1490,1234,964,859,351,328,74.1860,39.2578,29.8828,92.8105
+2024/2025,Female,ALL,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,1565,1234,964,859,305,272,70.6534,39.2578,25.9766,88.7218
+2024/2025,Female,ALL,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,1416,1151,844,761,303,279,72.8274,39.7321,29.4643,91.6667
+2024/2025,Female,ALL,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,1639,1317,964,855,326,302,71.9873,39.0625,27.7344,92.2535
+2024/2025,Female,ALL,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,1416,1151,883,761,310,284,72.8274,37.9531,28.7846,91.1111
+2024/2025,Female,ALL,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,1416,1151,883,761,326,307,72.8274,37.9531,30.2772,93.6620
+2024/2025,Female,ALL,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,1267,1069,804,761,264,245,75.6498,41.6862,26.9321,92.1739
+2024/2025,Female,Disabled,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,7,6,6,4,2,2,75.0000,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,7,6,6,4,2,2,75.0000,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,7,6,6,4,2,2,75.0000,33.3333,33.3333,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,83,66,45,0,18,16,70.8333,0.0000,33.3333,87.5000
+2024/2025,Female,Disabled,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,83,66,45,0,18,16,70.8333,0.0000,33.3333,87.5000
+2024/2025,Female,Disabled,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,83,66,92,286,18,16,70.8333,136.7347,16.3265,87.5000
+2024/2025,Female,Disabled,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,83,66,92,286,18,16,70.8333,136.7347,16.3265,87.5000
+2024/2025,Female,Disabled,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,83,64,45,0,18,16,68.7500,0.0000,33.3333,87.5000
+2024/2025,Female,Disabled,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,81,64,45,0,18,16,70.2128,0.0000,33.3333,87.5000
+2024/2025,Female,Disabled,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,165,64,92,282,23,21,34.7368,134.6939,20.4082,90.0000
+2024/2025,Female,Disabled,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,81,64,45,0,18,16,70.2128,0.0000,33.3333,87.5000
+2024/2025,Female,Disabled,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,81,64,45,0,18,16,70.2128,0.0000,33.3333,87.5000
+2024/2025,Female,Disabled,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,81,64,92,282,23,21,70.2128,134.6939,20.4082,90.0000
+2024/2025,Female,Disabled,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,81,64,45,0,18,16,70.2128,0.0000,33.3333,87.5000
+2024/2025,Female,Disabled,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,81,64,45,0,18,16,70.2128,0.0000,33.3333,87.5000
+2024/2025,Female,Disabled,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,81,64,45,0,18,16,70.2128,0.0000,33.3333,87.5000
+2024/2025,Female,Disabled,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,81,64,45,0,18,16,70.2128,0.0000,33.3333,87.5000
+2024/2025,Female,Disabled,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,81,64,45,0,18,16,70.2128,0.0000,33.3333,87.5000
+2024/2025,Female,Disabled,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,87,101,89,94,25,23,104.0000,46.8085,23.4043,90.9091
+2024/2025,Female,Disabled,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,87,101,89,94,16,14,104.0000,46.8085,14.8936,85.7143
+2024/2025,Female,Disabled,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,173,101,89,94,30,28,52.0000,46.8085,27.6596,92.3077
+2024/2025,Female,Disabled,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,173,101,89,94,32,32,52.0000,46.8085,29.7872,100.0000
+2024/2025,Female,Disabled,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,87,101,89,94,21,21,104.0000,46.8085,19.1489,100.0000
+2024/2025,Female,Disabled,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,87,101,89,94,21,18,104.0000,46.8085,19.1489,88.8889
+2024/2025,Female,Disabled,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,173,101,89,94,34,28,52.0000,46.8085,31.9149,80.0000
+2024/2025,Female,Disabled,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,173,101,89,94,25,23,52.0000,46.8085,23.4043,90.9091
+2024/2025,Female,Disabled,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,87,101,89,94,25,23,104.0000,46.8085,23.4043,90.9091
+2024/2025,Female,Disabled,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,173,101,89,94,21,18,52.0000,46.8085,19.1489,88.8889
+2024/2025,Female,Disabled,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,173,101,89,94,21,18,52.0000,46.8085,19.1489,88.8889
+2024/2025,Female,Disabled,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,173,99,89,94,21,18,51.0000,46.8085,19.1489,88.8889
+2024/2025,Female,Disabled,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,87,99,89,94,16,14,102.0000,46.8085,14.8936,85.7143
+2024/2025,Female,Disabled,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,87,99,89,94,21,18,102.0000,46.8085,19.1489,88.8889
+2024/2025,Female,Disabled,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,87,99,43,0,16,16,102.0000,0.0000,30.4348,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,52,48,38,34,16,16,83.3333,40.0000,35.0000,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,52,48,32,34,16,16,83.3333,47.0588,41.1765,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,69,56,41,34,21,18,72.5000,36.3636,40.9091,88.8889
+2024/2025,Male,ALL,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,69,56,47,43,21,18,72.5000,40.0000,36.0000,88.8889
+2024/2025,Male,ALL,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,61,48,41,34,21,18,71.4286,36.3636,40.9091,88.8889
+2024/2025,Male,ALL,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,61,48,41,34,18,18,71.4286,36.3636,36.3636,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,61,48,38,34,16,16,71.4286,40.0000,35.0000,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,61,48,38,34,18,16,71.4286,40.0000,40.0000,87.5000
+2024/2025,Male,ALL,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,52,48,32,34,16,16,83.3333,47.0588,41.1765,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,69,56,41,34,18,16,72.5000,36.3636,36.3636,87.5000
+2024/2025,Male,ALL,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,61,48,32,34,11,12,71.4286,47.0588,29.4118,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,69,56,41,34,16,14,72.5000,36.3636,31.8182,85.7143
+2024/2025,Male,ALL,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,61,48,38,30,16,16,71.4286,35.0000,35.0000,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,52,48,32,30,14,14,83.3333,41.1765,35.2941,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,52,48,32,30,16,14,83.3333,41.1765,41.1765,85.7143
+2024/2025,Male,ALL,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,764,607,488,453,246,228,71.2018,40.9266,41.3127,92.5234
+2024/2025,Male,ALL,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,764,607,450,359,204,198,71.2018,35.1464,37.2385,96.6292
+2024/2025,Male,ALL,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,972,760,601,543,275,256,70.0535,39.8119,37.6176,92.5000
+2024/2025,Male,ALL,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,1112,835,712,633,317,288,67.2897,39.1534,36.5079,90.5797
+2024/2025,Male,ALL,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,903,685,563,543,273,256,67.9463,42.4749,39.7993,93.2773
+2024/2025,Male,ALL,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,833,607,525,453,246,222,65.2807,37.9928,38.3513,89.7196
+2024/2025,Male,ALL,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,1043,760,637,543,289,268,65.2824,37.5740,37.2781,92.0635
+2024/2025,Male,ALL,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,833,607,525,453,243,224,65.2807,37.9928,37.9928,91.5094
+2024/2025,Male,ALL,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,764,607,525,453,234,217,71.2018,37.9928,36.5591,92.1569
+2024/2025,Male,ALL,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,1041,760,601,543,264,242,65.3910,39.8119,36.0502,91.3043
+2024/2025,Male,ALL,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,833,607,525,453,218,203,65.2807,37.9928,34.0502,92.6316
+2024/2025,Male,ALL,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,972,760,563,543,227,212,70.0535,42.4749,33.1104,92.9293
+2024/2025,Male,ALL,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,972,760,601,543,278,256,70.0535,39.8119,37.9310,91.7355
+2024/2025,Male,ALL,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,764,607,488,453,230,210,71.2018,40.9266,38.6100,91.0000
+2024/2025,Male,ALL,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,764,607,488,449,216,196,71.2018,40.5405,36.2934,90.4255
+2024/2025,Male,ALL,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,1192,986,723,667,353,328,74.1279,40.6250,40.1042,92.2078
+2024/2025,Male,ALL,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,1118,905,684,573,301,279,72.5581,36.9146,36.0882,92.3664
+2024/2025,Male,ALL,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,1490,1234,925,855,404,376,74.1860,40.7332,35.8452,92.6136
+2024/2025,Male,ALL,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,1565,1317,964,855,443,406,75.4153,39.0625,37.6953,91.1917
+2024/2025,Male,ALL,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,1267,1069,844,761,415,383,75.6498,39.7321,40.4018,91.7127
+2024/2025,Male,ALL,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,1192,986,763,667,372,339,74.1279,38.5185,40.0000,90.7407
+2024/2025,Male,ALL,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,1490,1234,925,855,425,390,74.1860,40.7332,37.6782,91.3514
+2024/2025,Male,ALL,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,1267,1069,763,667,353,328,75.6498,38.5185,38.0247,92.2078
+2024/2025,Male,ALL,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,1192,986,763,667,351,328,74.1279,38.5185,37.7778,92.8105
+2024/2025,Male,ALL,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,1416,1151,844,761,360,332,72.8274,39.7321,35.0446,91.7197
+2024/2025,Male,ALL,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,1267,1069,763,667,326,305,75.6498,38.5185,35.0617,92.9577
+2024/2025,Male,ALL,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,1416,1151,883,761,365,332,72.8274,37.9531,33.9019,90.5660
+2024/2025,Male,ALL,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,1267,1069,804,667,340,321,75.6498,36.5340,34.6604,93.9189
+2024/2025,Male,ALL,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,1118,905,723,667,337,314,72.5581,40.6250,38.2813,92.5170
+2024/2025,Male,ALL,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,1118,905,684,573,301,279,72.5581,36.9146,36.0882,92.3664
+2024/2025,Male,Disabled,NABTEB,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Alusekere,South West,Osun,Ede North,Alusekere,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Apaso,South West,Osun,Ede North,Apaso,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,7,6,4,4,5,2,75.0000,50.0000,100.0000,50.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,7,6,4,4,5,2,75.0000,50.0000,100.0000,50.0000
+2024/2025,Male,Disabled,NABTEB,ward,Biladu,South West,Osun,Ilesha East,Biladu,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,7,6,4,4,2,2,75.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,7,6,4,0,2,2,75.0000,0.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ereja,South West,Osun,Ilesha West,Ereja,,5,6,4,0,2,0,100.0000,0.0000,50.0000,0.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,5,4,4,0,2,2,66.6667,0.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Alagba,South West,Osun,Osogbo,Alagba,,5,4,4,0,2,2,66.6667,0.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,5,4,4,0,2,2,66.6667,0.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,5,4,4,0,2,2,66.6667,0.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NECO,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,81,64,45,0,23,23,70.2128,0.0000,41.6667,100.0000
+2024/2025,Male,Disabled,NECO,ward,Alusekere,South West,Osun,Ede North,Alusekere,,81,64,45,0,18,18,70.2128,0.0000,33.3333,100.0000
+2024/2025,Male,Disabled,NECO,ward,Apaso,South West,Osun,Ede North,Apaso,,81,64,45,0,18,18,70.2128,0.0000,33.3333,100.0000
+2024/2025,Male,Disabled,NECO,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,81,64,92,282,23,21,70.2128,134.6939,20.4082,90.0000
+2024/2025,Male,Disabled,NECO,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,81,64,45,0,21,21,70.2128,0.0000,37.5000,100.0000
+2024/2025,Male,Disabled,NECO,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,81,64,45,0,21,21,70.2128,0.0000,37.5000,100.0000
+2024/2025,Male,Disabled,NECO,ward,Biladu,South West,Osun,Ilesha East,Biladu,,81,64,45,0,23,23,70.2128,0.0000,41.6667,100.0000
+2024/2025,Male,Disabled,NECO,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,81,64,45,0,21,18,70.2128,0.0000,37.5000,88.8889
+2024/2025,Male,Disabled,NECO,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,81,64,45,0,18,18,70.2128,0.0000,33.3333,100.0000
+2024/2025,Male,Disabled,NECO,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,81,64,45,0,23,23,70.2128,0.0000,41.6667,100.0000
+2024/2025,Male,Disabled,NECO,ward,Ereja,South West,Osun,Ilesha West,Ereja,,81,64,45,0,21,18,70.2128,0.0000,37.5000,88.8889
+2024/2025,Male,Disabled,NECO,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,81,64,45,0,18,18,70.2128,0.0000,33.3333,100.0000
+2024/2025,Male,Disabled,NECO,ward,Alagba,South West,Osun,Osogbo,Alagba,,81,64,45,0,18,18,70.2128,0.0000,33.3333,100.0000
+2024/2025,Male,Disabled,NECO,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,81,64,45,0,21,21,70.2128,0.0000,37.5000,100.0000
+2024/2025,Male,Disabled,NECO,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,81,64,45,0,23,21,70.2128,0.0000,41.6667,90.0000
+2024/2025,Male,Disabled,WAEC,ward,Abogunde/Sagba,South West,Osun,Ede North,Abogunde/Sagba,,87,99,89,90,25,23,102.0000,44.6809,23.4043,90.9091
+2024/2025,Male,Disabled,WAEC,ward,Alusekere,South West,Osun,Ede North,Alusekere,,87,99,89,90,30,28,102.0000,44.6809,27.6596,92.3077
+2024/2025,Male,Disabled,WAEC,ward,Apaso,South West,Osun,Ede North,Apaso,,173,99,89,90,37,37,51.0000,44.6809,34.0426,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Akarabata,South West,Osun,Ife Central,Akarabata,,173,99,87,90,32,30,51.0000,45.6522,30.4348,92.8571
+2024/2025,Male,Disabled,WAEC,ward,Ilare I,South West,Osun,Ife Central,Ilare I,,87,99,43,0,25,23,102.0000,0.0000,47.8261,90.9091
+2024/2025,Male,Disabled,WAEC,ward,Ilare II,South West,Osun,Ife Central,Ilare II,,87,99,43,0,28,28,102.0000,0.0000,52.1739,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Biladu,South West,Osun,Ilesha East,Biladu,,173,99,87,90,34,28,51.0000,45.6522,32.6087,80.0000
+2024/2025,Male,Disabled,WAEC,ward,Bolorunduro,South West,Osun,Ilesha East,Bolorunduro,,87,99,43,0,28,28,102.0000,0.0000,52.1739,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Ifosan/Oke-Eso,South West,Osun,Ilesha East,Ifosan/Oke-Eso,,87,99,43,0,23,21,102.0000,0.0000,43.4783,90.0000
+2024/2025,Male,Disabled,WAEC,ward,Ayeso,South West,Osun,Ilesha West,Ayeso,,172,99,87,90,28,25,51.5152,45.6522,26.0870,91.6667
+2024/2025,Male,Disabled,WAEC,ward,Ereja,South West,Osun,Ilesha West,Ereja,,87,99,87,90,25,23,102.0000,45.6522,23.9130,90.9091
+2024/2025,Male,Disabled,WAEC,ward,Ikoyi / Ikoti Araromi,South West,Osun,Ilesha West,Ikoyi / Ikoti Araromi,,172,99,87,90,25,21,51.5152,45.6522,23.9130,81.8182
+2024/2025,Male,Disabled,WAEC,ward,Alagba,South West,Osun,Osogbo,Alagba,,87,99,43,0,23,21,102.0000,0.0000,43.4783,90.0000
+2024/2025,Male,Disabled,WAEC,ward,Are-Ago,South West,Osun,Osogbo,Are-Ago,,87,99,43,0,18,18,102.0000,0.0000,34.7826,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Ataoja  'A',South West,Osun,Osogbo,Ataoja  'A',,87,99,43,0,18,18,102.0000,0.0000,34.7826,100.0000

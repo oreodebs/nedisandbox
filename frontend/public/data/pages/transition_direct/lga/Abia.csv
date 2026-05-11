@@ -1,541 +1,541 @@
-session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,all,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,15,13,0,0,0,0,2
-2022/2023,Female,all,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,8,7,0,0,0,0,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,11,10,0,0,0,0,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,7,6,0,0,0,0,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,18,16,0,0,0,0,2
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,17,15,0,0,0,0,2
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,18,16,0,0,0,0,2
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,25,22,0,0,0,0,3
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,27,23,0,0,0,0,4
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,23,21,0,0,0,0,2
-2022/2023,Female,all,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,126,118,1,0,0,0,8
-2022/2023,Female,all,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,352,319,3,0,0,0,33
-2022/2023,Female,all,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,265,233,3,0,0,0,32
-2022/2023,Female,all,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,349,306,3,0,0,0,43
-2022/2023,Female,all,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,126,115,1,0,0,0,11
-2022/2023,Female,all,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,1,1,34,33,0,0,0,0,1
-2022/2023,Female,all,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,18,17,0,0,0,0,1
-2022/2023,Female,all,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,0,0,24,22,0,1,0,0,2
-2022/2023,Female,all,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,14,13,0,0,0,0,1
-2022/2023,Female,all,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,1,1,34,32,0,0,0,0,2
-2022/2023,Female,all,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,38,35,0,0,0,0,3
-2022/2023,Female,all,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,41,38,0,0,0,0,3
-2022/2023,Female,all,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,51,49,0,0,0,0,2
-2022/2023,Female,all,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,0,0,61,59,0,1,0,0,2
-2022/2023,Female,all,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,57,54,0,0,0,0,3
-2022/2023,Female,all,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,301,280,2,0,0,0,21
-2022/2023,Female,all,NECO,University,lga,Aba South,South East,Abia,Aba South,,,1,1,1,861,806,4,0,0,0,55
-2022/2023,Female,all,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,0,0,605,577,2,1,0,0,28
-2022/2023,Female,all,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,783,749,3,0,0,0,34
-2022/2023,Female,all,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,301,280,2,0,0,0,21
-2022/2023,Female,all,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,1,1,42,38,0,0,0,0,4
-2022/2023,Female,all,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,1,0,1,23,20,0,1,0,0,3
-2022/2023,Female,all,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,31,28,0,0,0,0,3
-2022/2023,Female,all,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,19,17,0,0,0,0,2
-2022/2023,Female,all,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,1,1,48,44,0,0,0,0,4
-2022/2023,Female,all,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,47,42,0,0,0,0,5
-2022/2023,Female,all,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,50,45,0,0,0,0,5
-2022/2023,Female,all,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,1,0,1,69,62,1,1,0,0,7
-2022/2023,Female,all,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,75,67,1,0,0,0,8
-2022/2023,Female,all,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,1,0,1,81,74,1,1,0,0,7
-2022/2023,Female,all,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,439,408,2,0,0,0,31
-2022/2023,Female,all,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,1,1,1,1105,1003,8,0,0,0,102
-2022/2023,Female,all,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,876,793,7,0,0,0,83
-2022/2023,Female,all,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,1035,940,8,0,0,0,95
-2022/2023,Female,all,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,385,354,2,0,0,0,31
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,1,0,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,1,0,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,1,0,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,2,1,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,4,3,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,4,3,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Female,disabled,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,22,20,0,0,0,0,2
-2022/2023,Female,disabled,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,56,51,0,0,0,0,5
-2022/2023,Female,disabled,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,45,41,0,0,0,0,4
-2022/2023,Female,disabled,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,53,51,0,0,0,0,2
-2022/2023,Female,disabled,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,20,16,0,0,0,0,4
-2022/2023,Female,disabled,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,2,1,0,0,0,0,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,1,0,0,0,0,0,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,2,1,0,0,0,0,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,1,0,0,0,0,0,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,2,1,0,0,0,0,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,4,3,0,0,0,0,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,4,3,0,0,0,0,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,4,3,0,0,0,0,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Female,disabled,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,22,20,0,0,0,0,2
-2022/2023,Female,disabled,NECO,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,67,63,0,0,0,0,4
-2022/2023,Female,disabled,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,42,39,0,0,0,0,3
-2022/2023,Female,disabled,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,56,51,0,0,0,0,5
-2022/2023,Female,disabled,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,22,20,0,0,0,0,2
-2022/2023,Female,disabled,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,1,0,0,0,0,0,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,1,0,0,0,0,0,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,1,0,0,0,0,0,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,5,4,0,0,0,0,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,4,3,0,0,0,0,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Female,disabled,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,27,24,0,0,0,0,3
-2022/2023,Female,disabled,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,76,71,0,0,0,0,5
-2022/2023,Female,disabled,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,60,55,0,0,0,0,5
-2022/2023,Female,disabled,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,53,49,0,0,0,0,4
-2022/2023,Female,disabled,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,29,26,0,0,0,0,3
-2022/2023,Male,all,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,0,1,16,14,0,1,0,0,2
-2022/2023,Male,all,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,8,7,0,0,0,0,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,12,11,0,0,0,0,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,6,5,0,0,0,0,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,0,1,16,14,0,1,0,0,2
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,18,15,0,0,0,0,3
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,13,12,0,0,0,0,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,23,22,0,0,0,0,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,23,19,0,0,0,0,4
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,25,22,0,0,0,0,3
-2022/2023,Male,all,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,141,131,1,0,0,0,10
-2022/2023,Male,all,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,1,0,0,364,338,2,1,0,0,26
-2022/2023,Male,all,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,253,236,1,0,0,0,17
-2022/2023,Male,all,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,352,309,3,0,0,0,43
-2022/2023,Male,all,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,126,115,1,0,0,0,11
-2022/2023,Male,all,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,1,1,34,31,0,0,0,0,3
-2022/2023,Male,all,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,1,1,1,17,16,0,0,0,0,1
-2022/2023,Male,all,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,24,23,0,0,0,0,1
-2022/2023,Male,all,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,14,13,0,0,0,0,1
-2022/2023,Male,all,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,1,1,36,34,0,0,0,0,2
-2022/2023,Male,all,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,38,35,0,0,0,0,3
-2022/2023,Male,all,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,35,32,0,0,0,0,3
-2022/2023,Male,all,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,1,0,1,47,43,0,1,0,0,4
-2022/2023,Male,all,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,56,55,0,0,0,0,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,1,0,1,60,57,0,1,0,0,3
-2022/2023,Male,all,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,331,315,1,0,0,0,16
-2022/2023,Male,all,NECO,University,lga,Aba South,South East,Abia,Aba South,,,1,1,1,864,790,6,0,0,0,74
-2022/2023,Male,all,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,587,548,3,0,0,0,39
-2022/2023,Male,all,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,816,765,4,0,0,0,51
-2022/2023,Male,all,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,271,268,0,0,0,0,3
-2022/2023,Male,all,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,1,1,43,39,0,0,0,0,4
-2022/2023,Male,all,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,1,1,1,24,22,0,0,0,0,2
-2022/2023,Male,all,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,32,29,0,0,0,0,3
-2022/2023,Male,all,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,21,20,0,0,0,0,1
-2022/2023,Male,all,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,2,1,1,50,47,0,1,0,0,3
-2022/2023,Male,all,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,1,0,0,48,44,0,1,0,0,4
-2022/2023,Male,all,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,1,0,0,45,41,0,1,0,0,4
-2022/2023,Male,all,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,69,65,0,0,0,0,4
-2022/2023,Male,all,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,77,69,1,0,0,0,8
-2022/2023,Male,all,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,1,1,1,81,74,1,0,0,0,7
-2022/2023,Male,all,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,370,328,3,0,0,0,42
-2022/2023,Male,all,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,1,1,1,1138,1035,8,0,0,0,103
-2022/2023,Male,all,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,768,694,6,0,0,0,74
-2022/2023,Male,all,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,1102,1019,7,0,0,0,83
-2022/2023,Male,all,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,331,296,3,0,0,0,35
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,1,0,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,1,0,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,1,0,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,2,1,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Male,disabled,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,22,20,0,0,0,0,2
-2022/2023,Male,disabled,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,56,51,0,0,0,0,5
-2022/2023,Male,disabled,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,33,30,0,0,0,0,3
-2022/2023,Male,disabled,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,53,49,0,0,0,0,4
-2022/2023,Male,disabled,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,20,16,0,0,0,0,4
-2022/2023,Male,disabled,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,2,1,0,0,0,0,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,1,0,0,0,0,0,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,2,1,0,0,0,0,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,1,0,0,0,0,0,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,2,1,0,0,0,0,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,4,3,0,0,0,0,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,4,3,0,0,0,0,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Male,disabled,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,22,20,0,0,0,0,2
-2022/2023,Male,disabled,NECO,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,56,51,0,0,0,0,5
-2022/2023,Male,disabled,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,45,41,0,0,0,0,4
-2022/2023,Male,disabled,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,53,49,0,0,0,0,4
-2022/2023,Male,disabled,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,22,20,0,0,0,0,2
-2022/2023,Male,disabled,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,1,0,0,0,0,0,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,2,1,0,0,0,0,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,2,1,0,0,0,0,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,3,2,0,0,0,0,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,5,4,0,0,0,0,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,5,4,0,0,0,0,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,5,4,0,0,0,0,1
-2022/2023,Male,disabled,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,18,17,0,0,0,0,1
-2022/2023,Male,disabled,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,78,73,0,0,0,0,5
-2022/2023,Male,disabled,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,47,45,0,0,0,0,2
-2022/2023,Male,disabled,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,65,59,0,0,0,0,6
-2022/2023,Male,disabled,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,18,16,0,0,0,0,2
-2023/2024,Female,all,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,10,9,0,0,0,0,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,6,5,0,0,0,0,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,7,6,0,0,0,0,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,10,9,0,0,0,0,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,18,16,0,0,0,0,2
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,20,19,0,0,0,0,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,31,28,0,0,0,0,3
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,32,28,0,0,0,0,4
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,31,27,0,0,0,0,4
-2023/2024,Female,all,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,107,90,1,0,0,0,17
-2023/2024,Female,all,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,255,225,2,0,0,0,30
-2023/2024,Female,all,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,233,227,0,0,0,0,6
-2023/2024,Female,all,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,276,248,2,0,0,0,28
-2023/2024,Female,all,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,107,90,1,0,0,0,17
-2023/2024,Female,all,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,1,1,21,20,0,0,0,0,1
-2023/2024,Female,all,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,12,11,0,0,0,0,1
-2023/2024,Female,all,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,0,0,15,14,0,1,0,0,1
-2023/2024,Female,all,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,9,8,0,0,0,0,1
-2023/2024,Female,all,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,1,1,23,21,0,0,0,0,2
-2023/2024,Female,all,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,37,36,0,0,0,0,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,45,43,0,0,0,0,2
-2023/2024,Female,all,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,65,61,0,0,0,0,4
-2023/2024,Female,all,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,0,0,70,65,0,1,0,0,5
-2023/2024,Female,all,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,63,59,0,0,0,0,4
-2023/2024,Female,all,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,225,213,1,0,0,0,12
-2023/2024,Female,all,NECO,University,lga,Aba South,South East,Abia,Aba South,,,1,1,1,665,620,4,0,0,0,45
-2023/2024,Female,all,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,0,1,446,422,2,1,0,0,24
-2023/2024,Female,all,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,632,597,3,0,0,0,35
-2023/2024,Female,all,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,237,213,2,0,0,0,24
-2023/2024,Female,all,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,1,1,28,26,0,0,0,0,2
-2023/2024,Female,all,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,1,1,1,15,14,0,0,0,0,1
-2023/2024,Female,all,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,20,18,0,0,0,0,2
-2023/2024,Female,all,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,1,0,0,13,12,0,1,0,0,1
-2023/2024,Female,all,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,1,1,29,27,0,0,0,0,2
-2023/2024,Female,all,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,57,51,0,0,0,0,6
-2023/2024,Female,all,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,64,59,0,0,0,0,5
-2023/2024,Female,all,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,82,75,1,0,0,0,7
-2023/2024,Female,all,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,99,92,1,0,0,0,7
-2023/2024,Female,all,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,1,0,1,82,74,1,1,0,0,8
-2023/2024,Female,all,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,320,290,2,0,0,0,30
-2023/2024,Female,all,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,1,1,1,873,795,6,0,0,0,78
-2023/2024,Female,all,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,642,588,4,0,0,0,54
-2023/2024,Female,all,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,821,749,6,0,0,0,72
-2023/2024,Female,all,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,342,311,2,0,0,0,31
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,3,2,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,3,2,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,3,2,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,14,13,0,0,0,0,1
-2023/2024,Female,disabled,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,41,34,1,0,0,0,7
-2023/2024,Female,disabled,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,33,29,0,0,0,0,4
-2023/2024,Female,disabled,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,38,35,0,0,0,0,3
-2023/2024,Female,disabled,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,14,13,0,0,0,0,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,2,1,0,0,0,0,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,2,1,0,0,0,0,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,3,2,0,0,0,0,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,5,4,0,0,0,0,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,5,4,0,0,0,0,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Female,disabled,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,19,18,0,0,0,0,1
-2023/2024,Female,disabled,NECO,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,47,44,0,0,0,0,3
-2023/2024,Female,disabled,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,36,34,0,0,0,0,2
-2023/2024,Female,disabled,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,47,44,0,0,0,0,3
-2023/2024,Female,disabled,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,17,16,0,0,0,0,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,2,1,0,0,0,0,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,2,1,0,0,0,0,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,5,4,0,0,0,0,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,7,6,0,0,0,0,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,5,4,0,0,0,0,1
-2023/2024,Female,disabled,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,24,22,0,0,0,0,2
-2023/2024,Female,disabled,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,55,51,0,0,0,0,4
-2023/2024,Female,disabled,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,38,35,0,0,0,0,3
-2023/2024,Female,disabled,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,47,44,0,0,0,0,3
-2023/2024,Female,disabled,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,24,22,0,0,0,0,2
-2023/2024,Male,all,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,1,1,10,9,0,0,0,0,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,6,5,0,0,0,0,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,7,6,0,0,0,0,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,1,1,10,9,0,0,0,0,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,22,21,0,0,0,0,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,20,18,0,0,0,0,2
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,28,26,0,0,0,0,2
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,32,28,0,0,0,0,4
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,29,26,0,0,0,0,3
-2023/2024,Male,all,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,107,90,1,0,0,0,17
-2023/2024,Male,all,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,1,0,1,300,267,3,1,0,0,33
-2023/2024,Male,all,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,233,213,2,0,0,0,20
-2023/2024,Male,all,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,267,240,2,0,0,0,27
-2023/2024,Male,all,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,97,92,0,0,0,0,5
-2023/2024,Male,all,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,1,1,22,20,0,0,0,0,2
-2023/2024,Male,all,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,1,1,1,12,11,0,0,0,0,1
-2023/2024,Male,all,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,15,14,0,0,0,0,1
-2023/2024,Male,all,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,1,0,0,9,8,0,1,0,0,1
-2023/2024,Male,all,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,1,1,23,22,0,0,0,0,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,42,39,0,0,0,0,3
-2023/2024,Male,all,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,44,41,0,0,0,0,3
-2023/2024,Male,all,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,62,57,0,0,0,0,5
-2023/2024,Male,all,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,66,63,0,0,0,0,3
-2023/2024,Male,all,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,1,1,1,68,64,0,0,0,0,4
-2023/2024,Male,all,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,247,236,1,0,0,0,11
-2023/2024,Male,all,NECO,University,lga,Aba South,South East,Abia,Aba South,,,1,1,1,663,632,2,0,0,0,31
-2023/2024,Male,all,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,448,426,2,0,0,0,22
-2023/2024,Male,all,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,662,622,3,0,0,0,40
-2023/2024,Male,all,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,237,213,2,0,0,0,24
-2023/2024,Male,all,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,2,1,1,30,27,0,1,0,0,3
-2023/2024,Male,all,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,1,1,1,17,15,0,0,0,0,2
-2023/2024,Male,all,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,22,20,0,0,0,0,2
-2023/2024,Male,all,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,12,11,0,0,0,0,1
-2023/2024,Male,all,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,2,1,1,31,28,0,1,0,0,3
-2023/2024,Male,all,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,1,0,1,56,49,1,1,0,0,7
-2023/2024,Male,all,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,1,0,1,60,52,1,1,0,0,8
-2023/2024,Male,all,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,84,79,0,0,0,0,5
-2023/2024,Male,all,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,99,91,1,0,0,0,8
-2023/2024,Male,all,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,1,1,1,90,82,1,0,0,0,8
-2023/2024,Male,all,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,1,0,0,312,280,3,1,0,0,32
-2023/2024,Male,all,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,1,1,1,841,772,6,0,0,0,69
-2023/2024,Male,all,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,1,1,600,566,3,0,0,0,34
-2023/2024,Male,all,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,1,1,853,764,7,0,0,0,89
-2023/2024,Male,all,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,330,298,3,0,0,0,32
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,3,2,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,5,4,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,3,2,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,16,15,0,0,0,0,1
-2023/2024,Male,disabled,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,35,28,1,0,0,0,7
-2023/2024,Male,disabled,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,33,29,0,0,0,0,4
-2023/2024,Male,disabled,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,30,28,0,0,0,0,2
-2023/2024,Male,disabled,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,14,13,0,0,0,0,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,2,1,0,0,0,0,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,2,1,0,0,0,0,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,5,4,0,0,0,0,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,5,4,0,0,0,0,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,19,18,0,0,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,47,44,0,0,0,0,3
-2023/2024,Male,disabled,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,35,34,0,0,0,0,1
-2023/2024,Male,disabled,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,46,44,0,0,0,0,2
-2023/2024,Male,disabled,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,17,16,0,0,0,0,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,2,1,0,0,0,0,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,1,0,0,0,0,0,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,2,1,0,0,0,0,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,4,3,0,0,0,0,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,6,5,0,0,0,0,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,6,5,0,0,0,0,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,5,4,0,0,0,0,1
-2023/2024,Male,disabled,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,16,15,0,0,0,0,1
-2023/2024,Male,disabled,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,63,58,0,0,0,0,5
-2023/2024,Male,disabled,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,39,37,0,0,0,0,2
-2023/2024,Male,disabled,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,61,57,0,0,0,0,4
-2023/2024,Male,disabled,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,24,22,0,0,0,0,2
-2024/2025,Female,all,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,597,478,334,160,148,0.951055,119,144,174,12
-2024/2025,Female,all,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,597,478,334,160,148,0.951055,119,144,174,12
-2024/2025,Female,all,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,597,478,334,160,148,0.951055,119,144,174,12
-2024/2025,Female,all,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,598,478,335,160,148,0.951055,120,143,175,12
-2024/2025,Female,all,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,NECO,University,lga,Aba South,South East,Abia,Aba South,,,598,478,335,160,148,0.951055,120,143,175,12
-2024/2025,Female,all,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,597,478,334,160,148,0.951055,119,144,174,12
-2024/2025,Female,all,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,598,478,335,160,148,0.951055,120,143,175,12
-2024/2025,Female,all,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,598,478,335,160,148,0.951055,120,143,175,12
-2024/2025,Female,all,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,598,479,335,160,148,0.951055,119,144,175,12
-2024/2025,Female,all,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,598,479,335,160,147,0.951055,119,144,175,13
-2024/2025,Female,all,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,598,479,335,160,147,0.951055,119,144,175,13
-2024/2025,Female,all,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Female,all,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Female,all,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Female,all,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Female,all,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,all,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Female,all,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Female,all,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Female,all,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,disabled,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Male,all,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,597,478,334,160,147,0.951055,119,144,174,13
-2024/2025,Male,all,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Male,all,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Male,all,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Male,all,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Male,all,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Male,all,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Male,all,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Male,all,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,598,478,335,160,147,0.951055,120,143,175,13
-2024/2025,Male,all,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,NECO,University,lga,Aba South,South East,Abia,Aba South,,,597,478,334,160,147,0.951055,119,144,174,13
-2024/2025,Male,all,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,597,478,334,160,147,0.951055,119,144,174,13
-2024/2025,Male,all,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,597,478,334,160,147,0.951055,119,144,174,13
-2024/2025,Male,all,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,all,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,1195,957,669,320,295,1.902109,238,288,349,25
-2024/2025,Male,all,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,597,478,334,160,147,0.951055,119,144,174,13
-2024/2025,Male,all,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,597,478,335,160,147,0.951055,119,143,175,13
-2024/2025,Male,all,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,597,478,335,160,147,0.951055,119,143,175,13
-2024/2025,Male,all,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,597,478,334,160,147,0.951055,119,144,174,13
-2024/2025,Male,all,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,597,478,335,160,147,0.951055,119,143,175,13
-2024/2025,Male,all,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,597,478,335,160,147,0.951055,119,143,175,13
-2024/2025,Male,all,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,597,478,335,160,147,0.951055,119,143,175,13
-2024/2025,Male,all,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,597,478,334,160,147,0.951055,119,144,174,13
-2024/2025,Male,all,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,597,478,334,160,147,0.951055,119,144,174,13
-2024/2025,Male,all,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,597,478,334,160,147,0.951055,119,144,174,13
-2024/2025,Male,all,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,597,478,334,160,147,0.951055,119,144,174,13
-2024/2025,Male,all,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,597,478,334,159,147,0.951055,119,144,175,12
-2024/2025,Male,all,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,597,478,334,159,147,0.951055,119,144,175,12
-2024/2025,Male,all,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,disabled,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,35,30,0,0,0,0,2
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,19,16,0,0,0,0,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,26,23,0,0,0,0,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,16,14,0,0,0,0,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,42,37,0,0,0,0,2
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,40,35,0,0,0,0,2
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,42,37,0,0,0,0,2
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,58,51,0,0,0,0,3
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,63,54,0,0,0,0,4
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,54,49,0,0,0,0,2
+2022/2023,Female,ALL,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,294,275,31,0,0,0,8
+2022/2023,Female,ALL,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,821,744,94,0,0,0,33
+2022/2023,Female,ALL,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,618,543,94,0,0,0,32
+2022/2023,Female,ALL,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,814,714,94,0,0,0,43
+2022/2023,Female,ALL,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,294,268,31,0,0,0,11
+2022/2023,Female,ALL,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,3,3,79,77,0,0,0,0,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,42,40,0,0,0,0,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,0,0,56,51,0,1,0,0,2
+2022/2023,Female,ALL,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,33,30,0,0,0,0,1
+2022/2023,Female,ALL,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,3,3,79,75,0,0,0,0,2
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,89,82,0,0,0,0,3
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,96,89,0,0,0,0,3
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,119,114,0,0,0,0,2
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,0,0,142,138,0,1,0,0,2
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,133,126,0,0,0,0,3
+2022/2023,Female,ALL,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,702,653,63,0,0,0,21
+2022/2023,Female,ALL,NECO,University,lga,Aba South,South East,Abia,Aba South,,,1,3,3,2009,1880,125,0,0,0,55
+2022/2023,Female,ALL,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,0,0,1411,1346,63,1,0,0,28
+2022/2023,Female,ALL,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,1827,1747,94,0,0,0,34
+2022/2023,Female,ALL,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,702,653,63,0,0,0,21
+2022/2023,Female,ALL,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,3,3,98,89,0,0,0,0,4
+2022/2023,Female,ALL,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,1,0,3,54,47,0,1,0,0,3
+2022/2023,Female,ALL,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,72,65,0,0,0,0,3
+2022/2023,Female,ALL,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,44,40,0,0,0,0,2
+2022/2023,Female,ALL,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,3,3,112,103,0,0,0,0,4
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,110,98,0,0,0,0,5
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,117,105,0,0,0,0,5
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,1,0,3,161,145,31,1,0,0,7
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,175,156,31,0,0,0,8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,1,0,3,189,173,31,1,0,0,7
+2022/2023,Female,ALL,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,1024,952,63,0,0,0,31
+2022/2023,Female,ALL,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,1,3,3,2578,2339,251,0,0,0,102
+2022/2023,Female,ALL,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,2044,1849,219,0,0,0,83
+2022/2023,Female,ALL,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,2414,2192,251,0,0,0,95
+2022/2023,Female,ALL,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,898,826,63,0,0,0,31
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,2,0,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,2,0,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,2,0,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,5,2,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,9,7,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,9,7,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,51,47,0,0,0,0,2
+2022/2023,Female,Disabled,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,131,119,0,0,0,0,5
+2022/2023,Female,Disabled,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,105,96,0,0,0,0,4
+2022/2023,Female,Disabled,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,124,119,0,0,0,0,2
+2022/2023,Female,Disabled,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,47,37,0,0,0,0,4
+2022/2023,Female,Disabled,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,5,2,0,0,0,0,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,2,0,0,0,0,0,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,5,2,0,0,0,0,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,2,0,0,0,0,0,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,5,2,0,0,0,0,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,9,7,0,0,0,0,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,9,7,0,0,0,0,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,9,7,0,0,0,0,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Female,Disabled,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,51,47,0,0,0,0,2
+2022/2023,Female,Disabled,NECO,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,156,147,0,0,0,0,4
+2022/2023,Female,Disabled,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,98,91,0,0,0,0,3
+2022/2023,Female,Disabled,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,131,119,0,0,0,0,5
+2022/2023,Female,Disabled,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,51,47,0,0,0,0,2
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,2,0,0,0,0,0,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,2,0,0,0,0,0,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,2,0,0,0,0,0,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,12,9,0,0,0,0,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,9,7,0,0,0,0,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Female,Disabled,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,63,56,0,0,0,0,3
+2022/2023,Female,Disabled,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,177,166,0,0,0,0,5
+2022/2023,Female,Disabled,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,140,128,0,0,0,0,5
+2022/2023,Female,Disabled,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,124,114,0,0,0,0,4
+2022/2023,Female,Disabled,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,68,61,0,0,0,0,3
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,0,3,37,33,0,1,0,0,2
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,19,16,0,0,0,0,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,28,26,0,0,0,0,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,14,12,0,0,0,0,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,0,3,37,33,0,1,0,0,2
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,42,35,0,0,0,0,3
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,30,28,0,0,0,0,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,54,51,0,0,0,0,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,54,44,0,0,0,0,4
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,58,51,0,0,0,0,3
+2022/2023,Male,ALL,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,329,306,31,0,0,0,10
+2022/2023,Male,ALL,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,1,0,0,849,788,63,1,0,0,26
+2022/2023,Male,ALL,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,590,550,31,0,0,0,17
+2022/2023,Male,ALL,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,821,721,94,0,0,0,43
+2022/2023,Male,ALL,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,294,268,31,0,0,0,11
+2022/2023,Male,ALL,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,3,3,79,72,0,0,0,0,3
+2022/2023,Male,ALL,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,1,3,3,40,37,0,0,0,0,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,56,54,0,0,0,0,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,33,30,0,0,0,0,1
+2022/2023,Male,ALL,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,3,3,84,79,0,0,0,0,2
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,89,82,0,0,0,0,3
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,82,75,0,0,0,0,3
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,1,0,3,110,100,0,1,0,0,4
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,131,128,0,0,0,0,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,1,0,3,140,133,0,1,0,0,3
+2022/2023,Male,ALL,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,772,735,31,0,0,0,16
+2022/2023,Male,ALL,NECO,University,lga,Aba South,South East,Abia,Aba South,,,1,3,3,2016,1842,188,0,0,0,74
+2022/2023,Male,ALL,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,1369,1278,94,0,0,0,39
+2022/2023,Male,ALL,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,1904,1784,125,0,0,0,51
+2022/2023,Male,ALL,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,632,625,0,0,0,0,3
+2022/2023,Male,ALL,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,3,3,100,91,0,0,0,0,4
+2022/2023,Male,ALL,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,1,3,3,56,51,0,0,0,0,2
+2022/2023,Male,ALL,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,75,68,0,0,0,0,3
+2022/2023,Male,ALL,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,49,47,0,0,0,0,1
+2022/2023,Male,ALL,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,2,3,3,117,110,0,1,0,0,3
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,1,0,0,112,103,0,1,0,0,4
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,1,0,0,105,96,0,1,0,0,4
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,161,152,0,0,0,0,4
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,180,161,31,0,0,0,8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,1,3,3,189,173,31,0,0,0,7
+2022/2023,Male,ALL,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,863,765,94,0,0,0,42
+2022/2023,Male,ALL,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,1,3,3,2655,2414,251,0,0,0,103
+2022/2023,Male,ALL,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,1792,1619,188,0,0,0,74
+2022/2023,Male,ALL,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,2571,2377,219,0,0,0,83
+2022/2023,Male,ALL,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,772,690,94,0,0,0,35
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,2,0,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,2,0,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,2,0,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,5,2,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,51,47,0,0,0,0,2
+2022/2023,Male,Disabled,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,131,119,0,0,0,0,5
+2022/2023,Male,Disabled,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,77,70,0,0,0,0,3
+2022/2023,Male,Disabled,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,124,114,0,0,0,0,4
+2022/2023,Male,Disabled,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,47,37,0,0,0,0,4
+2022/2023,Male,Disabled,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,5,2,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,2,0,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,5,2,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,2,0,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,5,2,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,9,7,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,9,7,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Male,Disabled,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,51,47,0,0,0,0,2
+2022/2023,Male,Disabled,NECO,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,131,119,0,0,0,0,5
+2022/2023,Male,Disabled,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,105,96,0,0,0,0,4
+2022/2023,Male,Disabled,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,124,114,0,0,0,0,4
+2022/2023,Male,Disabled,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,51,47,0,0,0,0,2
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,2,0,0,0,0,0,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,5,2,0,0,0,0,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,5,2,0,0,0,0,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,7,5,0,0,0,0,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,12,9,0,0,0,0,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,12,9,0,0,0,0,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,12,9,0,0,0,0,1
+2022/2023,Male,Disabled,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,42,40,0,0,0,0,1
+2022/2023,Male,Disabled,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,182,170,0,0,0,0,5
+2022/2023,Male,Disabled,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,110,105,0,0,0,0,2
+2022/2023,Male,Disabled,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,152,138,0,0,0,0,6
+2022/2023,Male,Disabled,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,42,37,0,0,0,0,2
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,23,21,0,0,0,0,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,14,12,0,0,0,0,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,16,14,0,0,0,0,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,23,21,0,0,0,0,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,42,37,0,0,0,0,2
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,47,44,0,0,0,0,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,72,65,0,0,0,0,3
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,75,65,0,0,0,0,4
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,72,63,0,0,0,0,4
+2023/2024,Female,ALL,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,250,210,31,0,0,0,17
+2023/2024,Female,ALL,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,595,525,63,0,0,0,30
+2023/2024,Female,ALL,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,544,529,0,0,0,0,6
+2023/2024,Female,ALL,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,644,578,63,0,0,0,28
+2023/2024,Female,ALL,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,250,210,31,0,0,0,17
+2023/2024,Female,ALL,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,3,3,49,47,0,0,0,0,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,28,26,0,0,0,0,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,0,0,35,33,0,1,0,0,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,21,19,0,0,0,0,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,3,3,54,49,0,0,0,0,2
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,86,84,0,0,0,0,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,105,100,0,0,0,0,2
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,152,142,0,0,0,0,4
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,0,0,163,152,0,1,0,0,5
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,147,138,0,0,0,0,4
+2023/2024,Female,ALL,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,525,497,31,0,0,0,12
+2023/2024,Female,ALL,NECO,University,lga,Aba South,South East,Abia,Aba South,,,1,3,3,1551,1446,125,0,0,0,45
+2023/2024,Female,ALL,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,0,3,1040,984,63,1,0,0,24
+2023/2024,Female,ALL,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,1474,1392,94,0,0,0,35
+2023/2024,Female,ALL,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,553,497,63,0,0,0,24
+2023/2024,Female,ALL,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,3,3,65,61,0,0,0,0,2
+2023/2024,Female,ALL,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,1,3,3,35,33,0,0,0,0,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,47,42,0,0,0,0,2
+2023/2024,Female,ALL,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,1,0,0,30,28,0,1,0,0,1
+2023/2024,Female,ALL,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,3,3,68,63,0,0,0,0,2
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,133,119,0,0,0,0,6
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,149,138,0,0,0,0,5
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,191,175,31,0,0,0,7
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,231,215,31,0,0,0,7
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,1,0,3,191,173,31,1,0,0,8
+2023/2024,Female,ALL,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,746,676,63,0,0,0,30
+2023/2024,Female,ALL,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,1,3,3,2037,1854,188,0,0,0,78
+2023/2024,Female,ALL,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,1498,1371,125,0,0,0,54
+2023/2024,Female,ALL,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,1915,1747,188,0,0,0,72
+2023/2024,Female,ALL,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,798,725,63,0,0,0,31
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,7,5,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,7,5,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,7,5,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,33,30,0,0,0,0,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,96,79,31,0,0,0,7
+2023/2024,Female,Disabled,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,77,68,0,0,0,0,4
+2023/2024,Female,Disabled,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,89,82,0,0,0,0,3
+2023/2024,Female,Disabled,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,33,30,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,5,2,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,5,2,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,7,5,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,12,9,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,12,9,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,44,42,0,0,0,0,1
+2023/2024,Female,Disabled,NECO,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,110,103,0,0,0,0,3
+2023/2024,Female,Disabled,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,84,79,0,0,0,0,2
+2023/2024,Female,Disabled,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,110,103,0,0,0,0,3
+2023/2024,Female,Disabled,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,40,37,0,0,0,0,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,5,2,0,0,0,0,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,5,2,0,0,0,0,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,12,9,0,0,0,0,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,16,14,0,0,0,0,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,12,9,0,0,0,0,1
+2023/2024,Female,Disabled,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,56,51,0,0,0,0,2
+2023/2024,Female,Disabled,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,128,119,0,0,0,0,4
+2023/2024,Female,Disabled,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,89,82,0,0,0,0,3
+2023/2024,Female,Disabled,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,110,103,0,0,0,0,3
+2023/2024,Female,Disabled,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,56,51,0,0,0,0,2
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,3,3,23,21,0,0,0,0,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,14,12,0,0,0,0,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,16,14,0,0,0,0,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,3,3,23,21,0,0,0,0,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,51,49,0,0,0,0,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,47,42,0,0,0,0,2
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,65,61,0,0,0,0,2
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,75,65,0,0,0,0,4
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,68,61,0,0,0,0,3
+2023/2024,Male,ALL,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,250,210,31,0,0,0,17
+2023/2024,Male,ALL,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,1,0,3,700,623,94,1,0,0,33
+2023/2024,Male,ALL,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,544,497,63,0,0,0,20
+2023/2024,Male,ALL,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,623,560,63,0,0,0,27
+2023/2024,Male,ALL,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,226,215,0,0,0,0,5
+2023/2024,Male,ALL,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,1,3,3,51,47,0,0,0,0,2
+2023/2024,Male,ALL,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,1,3,3,28,26,0,0,0,0,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,35,33,0,0,0,0,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,1,0,0,21,19,0,1,0,0,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,1,3,3,54,51,0,0,0,0,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,98,91,0,0,0,0,3
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,103,96,0,0,0,0,3
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,145,133,0,0,0,0,5
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,154,147,0,0,0,0,3
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,1,3,3,159,149,0,0,0,0,4
+2023/2024,Male,ALL,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,576,550,31,0,0,0,11
+2023/2024,Male,ALL,NECO,University,lga,Aba South,South East,Abia,Aba South,,,1,3,3,1547,1474,63,0,0,0,31
+2023/2024,Male,ALL,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,1045,994,63,0,0,0,22
+2023/2024,Male,ALL,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,1544,1451,94,0,0,0,40
+2023/2024,Male,ALL,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,553,497,63,0,0,0,24
+2023/2024,Male,ALL,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,2,3,3,70,63,0,1,0,0,3
+2023/2024,Male,ALL,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,1,3,3,40,35,0,0,0,0,2
+2023/2024,Male,ALL,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,51,47,0,0,0,0,2
+2023/2024,Male,ALL,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,28,26,0,0,0,0,1
+2023/2024,Male,ALL,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,2,3,3,72,65,0,1,0,0,3
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,1,0,3,131,114,31,1,0,0,7
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,1,0,3,140,121,31,1,0,0,8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,196,184,0,0,0,0,5
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,231,212,31,0,0,0,8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,1,3,3,210,191,31,0,0,0,8
+2023/2024,Male,ALL,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,1,0,0,728,653,94,1,0,0,32
+2023/2024,Male,ALL,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,1,3,3,1962,1801,188,0,0,0,69
+2023/2024,Male,ALL,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,1,3,3,1400,1320,94,0,0,0,34
+2023/2024,Male,ALL,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,1,3,3,1990,1782,219,0,0,0,89
+2023/2024,Male,ALL,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,770,695,94,0,0,0,32
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,7,5,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,12,9,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,7,5,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,37,35,0,0,0,0,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,82,65,31,0,0,0,7
+2023/2024,Male,Disabled,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,77,68,0,0,0,0,4
+2023/2024,Male,Disabled,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,70,65,0,0,0,0,2
+2023/2024,Male,Disabled,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,33,30,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,5,2,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,5,2,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,12,9,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,12,9,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,44,42,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,110,103,0,0,0,0,3
+2023/2024,Male,Disabled,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,82,79,0,0,0,0,1
+2023/2024,Male,Disabled,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,107,103,0,0,0,0,2
+2023/2024,Male,Disabled,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,40,37,0,0,0,0,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,5,2,0,0,0,0,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,2,0,0,0,0,0,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,5,2,0,0,0,0,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,9,7,0,0,0,0,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,14,12,0,0,0,0,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,14,12,0,0,0,0,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,12,9,0,0,0,0,1
+2023/2024,Male,Disabled,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,37,35,0,0,0,0,1
+2023/2024,Male,Disabled,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,147,135,0,0,0,0,5
+2023/2024,Male,Disabled,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,91,86,0,0,0,0,2
+2023/2024,Male,Disabled,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,142,133,0,0,0,0,4
+2023/2024,Male,Disabled,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,56,51,0,0,0,0,2
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,511,1318,876,373,345,30,119,144,174,12
+2024/2025,Female,ALL,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,511,1318,876,373,345,30,119,144,174,12
+2024/2025,Female,ALL,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,511,1318,876,373,345,30,119,144,174,12
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,512,1318,879,373,345,30,120,143,175,12
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,NECO,University,lga,Aba South,South East,Abia,Aba South,,,512,1318,879,373,345,30,120,143,175,12
+2024/2025,Female,ALL,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,511,1318,876,373,345,30,119,144,174,12
+2024/2025,Female,ALL,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,512,1318,879,373,345,30,120,143,175,12
+2024/2025,Female,ALL,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,512,1318,879,373,345,30,120,143,175,12
+2024/2025,Female,ALL,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,512,1321,879,373,345,30,119,144,175,12
+2024/2025,Female,ALL,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,512,1321,879,373,343,30,119,144,175,13
+2024/2025,Female,ALL,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,512,1321,879,373,343,30,119,144,175,13
+2024/2025,Female,ALL,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Female,ALL,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,ALL,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Female,ALL,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Female,ALL,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Female,ALL,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Female,Disabled,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,511,1318,876,373,343,30,119,144,174,13
+2024/2025,Male,ALL,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Male,ALL,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Male,ALL,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Male,ALL,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Male,ALL,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,512,1318,879,373,343,30,120,143,175,13
+2024/2025,Male,ALL,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,NECO,University,lga,Aba South,South East,Abia,Aba South,,,511,1318,876,373,343,30,119,144,174,13
+2024/2025,Male,ALL,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,511,1318,876,373,343,30,119,144,174,13
+2024/2025,Male,ALL,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,511,1318,876,373,343,30,119,144,174,13
+2024/2025,Male,ALL,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,ALL,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,1023,2640,1755,746,688,60,238,288,349,25
+2024/2025,Male,ALL,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,511,1318,876,373,343,30,119,144,174,13
+2024/2025,Male,ALL,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,511,1318,879,373,343,30,119,143,175,13
+2024/2025,Male,ALL,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,511,1318,879,373,343,30,119,143,175,13
+2024/2025,Male,ALL,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,511,1318,876,373,343,30,119,144,174,13
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,511,1318,879,373,343,30,119,143,175,13
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,511,1318,879,373,343,30,119,143,175,13
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,511,1318,879,373,343,30,119,143,175,13
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,511,1318,876,373,343,30,119,144,174,13
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,511,1318,876,373,343,30,119,144,174,13
+2024/2025,Male,ALL,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,511,1318,876,373,343,30,119,144,174,13
+2024/2025,Male,ALL,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,511,1318,876,373,343,30,119,144,174,13
+2024/2025,Male,ALL,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,511,1318,876,371,343,30,119,144,175,12
+2024/2025,Male,ALL,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,511,1318,876,371,343,30,119,144,175,12
+2024/2025,Male,ALL,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NABTEB,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,NECO,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,University,lga,Aba North,South East,Abia,Aba North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,University,lga,Aba South,South East,Abia,Aba South,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,University,lga,Arochukwu,South East,Abia,Arochukwu,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,University,lga,Umuahia North,South East,Abia,Umuahia North,,,0,0,0,0,0,0,0,0,0,0
+2024/2025,Male,Disabled,WAEC,University,lga,Umuahia South,South East,Abia,Umuahia South,,,0,0,0,0,0,0,0,0,0,0

@@ -1,541 +1,541 @@
-session,gender,disability_scope,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
-2022/2023,Female,all,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,279,215,328,127,182,169,77.0609,38.7195,55.4878,92.8571
-2022/2023,Female,all,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,229,177,254,100,150,132,77.2926,39.3701,59.0551,88.0
-2022/2023,Female,all,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,240,185,263,102,152,144,77.0833,38.7833,57.7947,94.7368
-2022/2023,Female,all,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,308,237,358,139,182,158,76.9481,38.8268,50.838,86.8132
-2022/2023,Female,all,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,255,196,284,109,182,169,76.8627,38.3803,64.0845,92.8571
-2022/2023,Female,all,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,331,255,376,147,182,171,77.0393,39.0957,48.4043,93.956
-2022/2023,Female,all,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,299,230,350,136,202,169,76.9231,38.8571,57.7143,83.6634
-2022/2023,Female,all,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,310,238,350,135,194,169,76.7742,38.5714,55.4286,87.1134
-2022/2023,Female,all,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,310,238,371,143,214,189,76.7742,38.5445,57.6819,88.3178
-2022/2023,Female,all,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,260,200,298,115,160,136,76.9231,38.5906,53.6913,85.0
-2022/2023,Female,all,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,244,188,293,113,180,158,77.0492,38.5666,61.4334,87.7778
-2022/2023,Female,all,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,319,246,350,136,192,158,77.116,38.8571,54.8571,82.2917
-2022/2023,Female,all,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,301,232,348,135,182,154,77.0764,38.7931,52.2989,84.6154
-2022/2023,Female,all,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,286,221,337,131,182,169,77.2727,38.8724,54.0059,92.8571
-2022/2023,Female,all,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,325,251,378,147,214,189,77.2308,38.8889,56.6138,88.3178
-2022/2023,Female,all,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,523,359,597,230,340,307,68.6424,38.526,56.9514,90.2941
-2022/2023,Female,all,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,444,306,496,191,270,256,68.9189,38.5081,54.4355,94.8148
-2022/2023,Female,all,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,382,262,442,169,260,238,68.5864,38.2353,58.8235,91.5385
-2022/2023,Female,all,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,553,381,634,241,338,325,68.8969,38.0126,53.3123,96.1538
-2022/2023,Female,all,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,436,300,525,202,304,278,68.8073,38.4762,57.9048,91.4474
-2022/2023,Female,all,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,634,435,720,278,372,341,68.612,38.6111,51.6667,91.6667
-2022/2023,Female,all,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,584,401,669,257,362,333,68.6644,38.4155,54.1106,91.989
-2022/2023,Female,all,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,600,412,669,259,342,307,68.6667,38.7145,51.1211,89.7661
-2022/2023,Female,all,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,593,407,711,276,406,370,68.6341,38.8186,57.1027,91.133
-2022/2023,Female,all,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,445,306,515,197,278,258,68.764,38.2524,53.9806,92.8058
-2022/2023,Female,all,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,463,318,546,211,338,325,68.6825,38.6447,61.9048,96.1538
-2022/2023,Female,all,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,565,388,629,241,346,307,68.6726,38.3148,55.0079,88.7283
-2022/2023,Female,all,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,566,389,649,249,372,343,68.7279,38.3667,57.319,92.2043
-2022/2023,Female,all,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,500,343,567,219,312,297,68.6,38.6243,55.0265,95.1923
-2022/2023,Female,all,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,625,430,729,279,426,400,68.8,38.2716,58.4362,93.8967
-2022/2023,Female,all,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,684,508,776,297,454,421,74.269,38.2732,58.5052,92.7313
-2022/2023,Female,all,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,559,415,629,241,344,315,74.2397,38.3148,54.69,91.5698
-2022/2023,Female,all,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,544,405,623,239,354,331,74.4485,38.3628,56.8218,93.5028
-2022/2023,Female,all,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,703,521,813,312,444,410,74.111,38.3764,54.6125,92.3423
-2022/2023,Female,all,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,588,436,675,258,386,370,74.1497,38.2222,57.1852,95.8549
-2022/2023,Female,all,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,826,614,942,361,494,457,74.3341,38.3227,52.4416,92.5101
-2022/2023,Female,all,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,769,570,873,335,468,431,74.1222,38.3734,53.6082,92.094
-2022/2023,Female,all,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,855,634,957,366,558,530,74.152,38.2445,58.3072,94.9821
-2022/2023,Female,all,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,756,560,902,344,566,530,74.0741,38.1375,62.7494,93.6396
-2022/2023,Female,all,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,595,442,688,264,410,376,74.2857,38.3721,59.593,91.7073
-2022/2023,Female,all,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,624,463,734,280,476,441,74.1987,38.1471,64.8501,92.6471
-2022/2023,Female,all,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,698,518,790,302,402,368,74.212,38.2278,50.8861,91.5423
-2022/2023,Female,all,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,756,560,865,331,460,439,74.0741,38.2659,53.1792,95.4348
-2022/2023,Female,all,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,658,489,777,298,450,419,74.3161,38.3526,57.9151,93.1111
-2022/2023,Female,all,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,785,582,916,350,558,510,74.1401,38.2096,60.917,91.3978
-2022/2023,Female,disabled,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,24,19,27,12,21,19,79.1667,44.4444,77.7778,90.4762
-2022/2023,Female,disabled,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,24,19,27,12,29,25,79.1667,44.4444,107.4074,86.2069
-2022/2023,Female,disabled,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,24,19,27,12,29,25,79.1667,44.4444,107.4074,86.2069
-2022/2023,Female,disabled,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,27,21,32,13,21,19,77.7778,40.625,65.625,90.4762
-2022/2023,Female,disabled,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,24,19,27,12,29,25,79.1667,44.4444,107.4074,86.2069
-2022/2023,Female,disabled,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,27,21,32,13,21,19,77.7778,40.625,65.625,90.4762
-2022/2023,Female,disabled,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,27,21,30,13,29,25,77.7778,43.3333,96.6667,86.2069
-2022/2023,Female,disabled,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,27,21,30,13,21,19,77.7778,43.3333,70.0,90.4762
-2022/2023,Female,disabled,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,27,21,32,13,29,25,77.7778,40.625,90.625,86.2069
-2022/2023,Female,disabled,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,24,19,27,12,21,19,79.1667,44.4444,77.7778,90.4762
-2022/2023,Female,disabled,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,24,19,27,12,29,25,79.1667,44.4444,107.4074,86.2069
-2022/2023,Female,disabled,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,26,20,30,13,29,25,76.9231,43.3333,96.6667,86.2069
-2022/2023,Female,disabled,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,26,20,30,13,29,25,76.9231,43.3333,96.6667,86.2069
-2022/2023,Female,disabled,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,24,19,27,12,21,19,79.1667,44.4444,77.7778,90.4762
-2022/2023,Female,disabled,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,24,19,27,12,29,25,79.1667,44.4444,107.4074,86.2069
-2022/2023,Female,disabled,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,37,25,45,17,23,20,67.5676,37.7778,51.1111,86.9565
-2022/2023,Female,disabled,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,42,29,47,17,23,22,69.0476,36.1702,48.9362,95.6522
-2022/2023,Female,disabled,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,29,20,37,13,23,22,68.9655,35.1351,62.1622,95.6522
-2022/2023,Female,disabled,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,45,31,49,17,23,22,68.8889,34.6939,46.9388,95.6522
-2022/2023,Female,disabled,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,31,21,40,15,23,20,67.7419,37.5,57.5,86.9565
-2022/2023,Female,disabled,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,49,33,58,24,23,22,67.3469,41.3793,39.6552,95.6522
-2022/2023,Female,disabled,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,51,35,56,21,23,22,68.6275,37.5,41.0714,95.6522
-2022/2023,Female,disabled,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,50,35,54,22,26,25,70.0,40.7407,48.1481,96.1538
-2022/2023,Female,disabled,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,48,33,55,23,23,22,68.75,41.8182,41.8182,95.6522
-2022/2023,Female,disabled,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,31,21,42,15,23,22,67.7419,35.7143,54.7619,95.6522
-2022/2023,Female,disabled,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,34,23,43,17,23,22,67.6471,39.5349,53.4884,95.6522
-2022/2023,Female,disabled,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,47,32,51,19,23,20,68.0851,37.2549,45.098,86.9565
-2022/2023,Female,disabled,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,41,28,44,16,23,22,68.2927,36.3636,52.2727,95.6522
-2022/2023,Female,disabled,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,41,28,45,17,23,22,68.2927,37.7778,51.1111,95.6522
-2022/2023,Female,disabled,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,44,30,51,19,24,23,68.1818,37.2549,47.0588,95.8333
-2022/2023,Female,disabled,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,48,36,53,20,23,20,75.0,37.7358,43.3962,86.9565
-2022/2023,Female,disabled,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,48,36,51,19,23,20,75.0,37.2549,45.098,86.9565
-2022/2023,Female,disabled,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,45,34,54,20,29,26,75.5556,37.037,53.7037,89.6552
-2022/2023,Female,disabled,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,57,43,64,24,29,26,75.4386,37.5,45.3125,89.6552
-2022/2023,Female,disabled,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,43,32,51,19,29,26,74.4186,37.2549,56.8627,89.6552
-2022/2023,Female,disabled,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,66,50,74,28,34,33,75.7576,37.8378,45.9459,97.0588
-2022/2023,Female,disabled,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,66,49,74,28,29,28,74.2424,37.8378,39.1892,96.5517
-2022/2023,Female,disabled,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,65,48,77,29,40,39,73.8462,37.6623,51.9481,97.5
-2022/2023,Female,disabled,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,65,48,80,30,34,33,73.8462,37.5,42.5,97.0588
-2022/2023,Female,disabled,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,39,29,43,16,23,20,74.359,37.2093,53.4884,86.9565
-2022/2023,Female,disabled,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,48,36,56,21,29,26,75.0,37.5,51.7857,89.6552
-2022/2023,Female,disabled,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,60,45,70,26,23,20,75.0,37.1429,32.8571,86.9565
-2022/2023,Female,disabled,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,52,39,61,23,29,28,75.0,37.7049,47.541,96.5517
-2022/2023,Female,disabled,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,51,38,58,22,29,28,74.5098,37.931,50.0,96.5517
-2022/2023,Female,disabled,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,55,41,65,24,34,33,74.5455,36.9231,52.3077,97.0588
-2022/2023,Male,all,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,271,209,297,116,174,171,77.1218,39.0572,58.5859,98.2759
-2022/2023,Male,all,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,254,195,281,109,186,171,76.7717,38.79,66.1922,91.9355
-2022/2023,Male,all,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,211,162,246,96,130,122,76.7773,39.0244,52.8455,93.8462
-2022/2023,Male,all,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,279,214,321,125,210,183,76.7025,38.9408,65.4206,87.1429
-2022/2023,Male,all,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,254,195,291,113,174,146,76.7717,38.8316,59.7938,83.908
-2022/2023,Male,all,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,326,250,369,142,234,205,76.6871,38.4824,63.4146,87.6068
-2022/2023,Male,all,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,310,238,361,140,222,195,76.7742,38.7812,61.4958,87.8378
-2022/2023,Male,all,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,280,216,326,127,198,171,77.1429,38.9571,60.7362,86.3636
-2022/2023,Male,all,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,293,225,354,137,246,217,76.7918,38.7006,69.4915,88.2114
-2022/2023,Male,all,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,259,200,302,119,222,195,77.2201,39.404,73.5099,87.8378
-2022/2023,Male,all,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,240,184,286,112,222,207,76.6667,39.1608,77.6224,93.2432
-2022/2023,Male,all,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,292,225,333,129,160,122,77.0548,38.7387,48.048,76.25
-2022/2023,Male,all,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,317,243,346,134,176,158,76.6562,38.7283,50.8671,89.7727
-2022/2023,Male,all,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,271,208,319,124,210,183,76.7528,38.8715,65.8307,87.1429
-2022/2023,Male,all,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,304,233,354,137,234,207,76.6447,38.7006,66.1017,88.4615
-2022/2023,Male,all,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,542,373,633,242,404,362,68.8192,38.2306,63.8231,89.604
-2022/2023,Male,all,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,460,317,521,201,304,289,68.913,38.5797,58.3493,95.0658
-2022/2023,Male,all,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,343,237,382,144,238,213,69.0962,37.6963,62.3037,89.4958
-2022/2023,Male,all,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,495,341,556,215,346,311,68.8889,38.6691,62.2302,89.8844
-2022/2023,Male,all,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,472,325,551,213,354,321,68.8559,38.657,64.2468,90.678
-2022/2023,Male,all,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,604,416,684,263,384,352,68.8742,38.4503,56.1404,91.6667
-2022/2023,Male,all,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,598,411,688,264,434,400,68.7291,38.3721,63.0814,92.1659
-2022/2023,Male,all,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,525,362,595,231,356,331,68.9524,38.8235,59.8319,92.9775
-2022/2023,Male,all,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,554,381,641,247,422,396,68.7726,38.5335,65.8346,93.8389
-2022/2023,Male,all,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,445,306,514,196,334,309,68.764,38.1323,64.9805,92.515
-2022/2023,Male,all,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,467,321,575,220,402,376,68.7366,38.2609,69.913,93.5323
-2022/2023,Male,all,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,510,351,565,217,334,321,68.8235,38.4071,59.115,96.1078
-2022/2023,Male,all,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,588,405,690,265,414,388,68.8776,38.4058,60.0,93.7198
-2022/2023,Male,all,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,492,339,573,220,364,343,68.9024,38.3944,63.5253,94.2308
-2022/2023,Male,all,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,574,395,649,250,434,398,68.8153,38.5208,66.8721,91.7051
-2022/2023,Male,all,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,696,515,798,307,518,486,73.9943,38.4712,64.9123,93.8224
-2022/2023,Male,all,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,589,437,660,253,396,368,74.1935,38.3333,60.0,92.9293
-2022/2023,Male,all,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,479,355,556,213,370,358,74.1127,38.3094,66.5468,96.7568
-2022/2023,Male,all,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,651,483,754,288,474,443,74.1935,38.1963,62.8647,93.4599
-2022/2023,Male,all,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,603,447,683,262,476,445,74.1294,38.3602,69.6925,93.4874
-2022/2023,Male,all,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,837,620,936,358,518,471,74.0741,38.2479,55.3419,90.9266
-2022/2023,Male,all,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,764,565,868,332,520,473,73.9529,38.2488,59.9078,90.9615
-2022/2023,Male,all,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,706,524,830,317,540,502,74.221,38.1928,65.0602,92.963
-2022/2023,Male,all,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,771,572,921,353,644,587,74.1894,38.3279,69.924,91.1491
-2022/2023,Male,all,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,609,452,728,278,464,435,74.22,38.1868,63.7363,93.75
-2022/2023,Male,all,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,618,458,708,270,496,463,74.11,38.1356,70.0565,93.3468
-2022/2023,Male,all,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,667,494,748,286,448,427,74.063,38.2353,59.893,95.3125
-2022/2023,Male,all,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,739,548,848,327,538,492,74.1543,38.5613,63.4434,91.4498
-2022/2023,Male,all,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,624,463,716,274,452,419,74.1987,38.2682,63.1285,92.6991
-2022/2023,Male,all,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,727,539,835,319,586,553,74.1403,38.2036,70.1796,94.3686
-2022/2023,Male,disabled,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,23,18,26,11,26,23,78.2609,42.3077,100.0,88.4615
-2022/2023,Male,disabled,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,25,19,26,11,26,23,76.0,42.3077,100.0,88.4615
-2022/2023,Male,disabled,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,21,16,24,10,9,8,76.1905,41.6667,37.5,88.8889
-2022/2023,Male,disabled,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,26,20,29,12,26,23,76.9231,41.3793,89.6552,88.4615
-2022/2023,Male,disabled,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,23,18,26,11,17,15,78.2609,42.3077,65.3846,88.2353
-2022/2023,Male,disabled,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,29,22,31,13,26,23,75.8621,41.9355,83.871,88.4615
-2022/2023,Male,disabled,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,27,21,32,13,26,23,77.7778,40.625,81.25,88.4615
-2022/2023,Male,disabled,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,21,16,24,10,26,23,76.1905,41.6667,108.3333,88.4615
-2022/2023,Male,disabled,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,27,20,29,12,34,30,74.0741,41.3793,117.2414,88.2353
-2022/2023,Male,disabled,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,23,18,26,11,34,30,78.2609,42.3077,130.7692,88.2353
-2022/2023,Male,disabled,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,21,16,24,10,34,30,76.1905,41.6667,141.6667,88.2353
-2022/2023,Male,disabled,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,24,18,26,11,9,8,75.0,42.3077,34.6154,88.8889
-2022/2023,Male,disabled,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,26,20,26,11,17,15,76.9231,42.3077,65.3846,88.2353
-2022/2023,Male,disabled,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,21,16,24,10,26,23,76.1905,41.6667,108.3333,88.4615
-2022/2023,Male,disabled,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,23,18,26,11,34,30,78.2609,42.3077,130.7692,88.2353
-2022/2023,Male,disabled,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,36,25,43,15,29,25,69.4444,34.8837,67.4419,86.2069
-2022/2023,Male,disabled,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,40,28,48,19,29,25,70.0,39.5833,60.4167,86.2069
-2022/2023,Male,disabled,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,29,20,30,11,21,19,68.9655,36.6667,70.0,90.4762
-2022/2023,Male,disabled,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,44,31,48,19,29,25,70.4545,39.5833,60.4167,86.2069
-2022/2023,Male,disabled,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,34,24,40,15,29,25,70.5882,37.5,72.5,86.2069
-2022/2023,Male,disabled,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,47,33,52,20,29,25,70.2128,38.4615,55.7692,86.2069
-2022/2023,Male,disabled,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,55,38,63,24,36,34,69.0909,38.0952,57.1429,94.4444
-2022/2023,Male,disabled,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,44,31,51,20,29,25,70.4545,39.2157,56.8627,86.2069
-2022/2023,Male,disabled,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,47,32,58,23,36,33,68.0851,39.6552,62.069,91.6667
-2022/2023,Male,disabled,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,30,21,37,13,29,25,70.0,35.1351,78.3784,86.2069
-2022/2023,Male,disabled,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,33,23,40,15,29,25,69.697,37.5,72.5,86.2069
-2022/2023,Male,disabled,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,40,28,46,17,29,25,70.0,36.9565,63.0435,86.2069
-2022/2023,Male,disabled,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,40,28,47,18,29,26,70.0,38.2979,61.7021,89.6552
-2022/2023,Male,disabled,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,39,27,47,19,21,19,69.2308,40.4255,44.6809,90.4762
-2022/2023,Male,disabled,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,44,31,48,19,29,26,70.4545,39.5833,60.4167,89.6552
-2022/2023,Male,disabled,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,48,35,55,20,23,22,72.9167,36.3636,41.8182,95.6522
-2022/2023,Male,disabled,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,50,37,58,21,30,29,74.0,36.2069,51.7241,96.6667
-2022/2023,Male,disabled,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,40,30,48,18,30,29,75.0,37.5,62.5,96.6667
-2022/2023,Male,disabled,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,55,41,65,24,37,35,74.5455,36.9231,56.9231,94.5946
-2022/2023,Male,disabled,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,46,34,54,20,30,29,73.913,37.037,55.5556,96.6667
-2022/2023,Male,disabled,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,62,46,74,28,37,35,74.1935,37.8378,50.0,94.5946
-2022/2023,Male,disabled,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,70,51,80,29,37,30,72.8571,36.25,46.25,81.0811
-2022/2023,Male,disabled,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,57,43,67,25,39,35,75.4386,37.3134,58.209,89.7436
-2022/2023,Male,disabled,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,63,47,76,29,44,40,74.6032,38.1579,57.8947,90.9091
-2022/2023,Male,disabled,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,41,31,47,18,23,22,75.6098,38.2979,48.9362,95.6522
-2022/2023,Male,disabled,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,49,36,59,22,39,35,73.4694,37.2881,66.1017,89.7436
-2022/2023,Male,disabled,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,53,39,59,22,23,22,73.5849,37.2881,38.9831,95.6522
-2022/2023,Male,disabled,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,56,42,66,25,39,35,75.0,37.8788,59.0909,89.7436
-2022/2023,Male,disabled,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,49,36,54,20,26,25,73.4694,37.037,48.1481,96.1538
-2022/2023,Male,disabled,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,51,37,57,21,33,30,72.549,36.8421,57.8947,90.9091
-2023/2024,Female,all,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,304,248,357,151,174,151,81.5789,42.2969,48.7395,86.7816
-2023/2024,Female,all,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,243,197,276,117,119,118,81.07,42.3913,43.1159,99.1597
-2023/2024,Female,all,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,231,187,266,113,129,128,80.9524,42.4812,48.4962,99.2248
-2023/2024,Female,all,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,329,269,386,164,156,138,81.7629,42.487,40.4145,88.4615
-2023/2024,Female,all,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,271,220,320,137,146,130,81.1808,42.8125,45.625,89.0411
-2023/2024,Female,all,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,356,290,408,174,166,141,81.4607,42.6471,40.6863,84.9398
-2023/2024,Female,all,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,336,274,386,164,196,171,81.5476,42.487,50.7772,87.2449
-2023/2024,Female,all,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,331,270,367,156,179,154,81.571,42.5068,48.7738,86.0335
-2023/2024,Female,all,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,344,281,401,170,200,164,81.686,42.394,49.8753,82.0
-2023/2024,Female,all,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,258,210,287,123,122,117,81.3953,42.8571,42.5087,95.9016
-2023/2024,Female,all,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,284,232,334,142,166,136,81.6901,42.515,49.7006,81.9277
-2023/2024,Female,all,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,322,263,359,152,146,127,81.677,42.3398,40.6685,86.9863
-2023/2024,Female,all,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,298,244,337,143,159,135,81.8792,42.4332,47.181,84.9057
-2023/2024,Female,all,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,304,247,348,148,175,162,81.25,42.5287,50.2874,92.5714
-2023/2024,Female,all,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,360,295,427,181,222,198,81.9444,42.3888,51.9906,89.1892
-2023/2024,Female,all,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,536,399,600,255,274,258,74.4403,42.5,45.6667,94.1606
-2023/2024,Female,all,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,507,378,592,252,257,252,74.5562,42.5676,43.4122,98.0545
-2023/2024,Female,all,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,418,310,475,204,220,201,74.1627,42.9474,46.3158,91.3636
-2023/2024,Female,all,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,576,430,658,281,302,276,74.6528,42.7052,45.8967,91.3907
-2023/2024,Female,all,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,489,363,546,232,256,235,74.2331,42.4908,46.8864,91.7969
-2023/2024,Female,all,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,619,462,705,298,301,268,74.6365,42.2695,42.695,89.0365
-2023/2024,Female,all,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,600,447,686,293,309,283,74.5,42.7114,45.0437,91.5858
-2023/2024,Female,all,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,652,486,741,314,339,305,74.5399,42.3752,45.749,89.9705
-2023/2024,Female,all,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,614,457,727,307,368,338,74.43,42.2283,50.619,91.8478
-2023/2024,Female,all,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,468,348,537,228,264,244,74.359,42.4581,49.162,92.4242
-2023/2024,Female,all,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,497,369,615,261,325,307,74.2455,42.439,52.8455,94.4615
-2023/2024,Female,all,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,569,423,645,275,264,252,74.3409,42.6357,40.9302,95.4545
-2023/2024,Female,all,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,584,435,644,275,333,315,74.4863,42.7019,51.7081,94.5946
-2023/2024,Female,all,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,525,390,606,257,282,260,74.2857,42.4092,46.5347,92.1986
-2023/2024,Female,all,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,671,500,799,342,378,344,74.5156,42.8035,47.3091,91.0053
-2023/2024,Female,all,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,709,566,850,361,428,399,79.8307,42.4706,50.3529,93.2243
-2023/2024,Female,all,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,578,462,649,275,286,263,79.9308,42.3729,44.0678,91.958
-2023/2024,Female,all,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,567,453,639,271,309,299,79.8942,42.41,48.3568,96.7638
-2023/2024,Female,all,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,805,643,899,382,410,369,79.8758,42.4917,45.6062,90.0
-2023/2024,Female,all,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,642,512,726,308,370,348,79.7508,42.4242,50.9642,94.0541
-2023/2024,Female,all,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,861,688,983,417,420,399,79.9071,42.4212,42.7263,95.0
-2023/2024,Female,all,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,809,645,947,404,452,422,79.7281,42.661,47.7297,93.3628
-2023/2024,Female,all,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,856,683,978,415,467,435,79.7897,42.4335,47.7505,93.1478
-2023/2024,Female,all,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,849,677,1010,430,513,476,79.7409,42.5743,50.7921,92.7875
-2023/2024,Female,all,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,660,528,770,325,373,346,80.0,42.2078,48.4416,92.7614
-2023/2024,Female,all,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,658,525,784,334,420,401,79.7872,42.602,53.5714,95.4762
-2023/2024,Female,all,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,771,616,846,358,365,338,79.8962,42.3168,43.1442,92.6027
-2023/2024,Female,all,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,796,636,914,387,410,377,79.8995,42.3414,44.8578,91.9512
-2023/2024,Female,all,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,714,570,817,347,409,370,79.8319,42.4725,50.0612,90.4645
-2023/2024,Female,all,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,892,712,1032,437,515,476,79.8206,42.345,49.9031,92.4272
-2023/2024,Female,disabled,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,25,20,26,11,23,22,80.0,42.3077,88.4615,95.6522
-2023/2024,Female,disabled,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,25,20,26,11,23,21,80.0,42.3077,88.4615,91.3043
-2023/2024,Female,disabled,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,25,20,26,11,23,22,80.0,42.3077,88.4615,95.6522
-2023/2024,Female,disabled,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,29,24,34,15,24,20,82.7586,44.1176,70.5882,83.3333
-2023/2024,Female,disabled,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,25,20,26,11,23,20,80.0,42.3077,88.4615,86.9565
-2023/2024,Female,disabled,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,29,23,30,13,18,16,79.3103,43.3333,60.0,88.8889
-2023/2024,Female,disabled,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,30,24,31,13,27,23,80.0,41.9355,87.0968,85.1852
-2023/2024,Female,disabled,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,26,21,26,11,27,23,80.7692,42.3077,103.8462,85.1852
-2023/2024,Female,disabled,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,32,26,38,16,23,20,81.25,42.1053,60.5263,86.9565
-2023/2024,Female,disabled,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,25,20,26,11,19,18,80.0,42.3077,73.0769,94.7368
-2023/2024,Female,disabled,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,26,21,26,11,25,23,80.7692,42.3077,96.1538,92.0
-2023/2024,Female,disabled,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,28,23,32,13,24,23,82.1429,40.625,75.0,95.8333
-2023/2024,Female,disabled,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,28,23,30,13,26,23,82.1429,43.3333,86.6667,88.4615
-2023/2024,Female,disabled,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,25,20,26,11,26,23,80.0,42.3077,100.0,88.4615
-2023/2024,Female,disabled,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,28,23,31,13,26,23,82.1429,41.9355,83.871,88.4615
-2023/2024,Female,disabled,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,38,28,42,18,18,17,73.6842,42.8571,42.8571,94.4444
-2023/2024,Female,disabled,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,44,33,54,24,18,17,75.0,44.4444,33.3333,94.4444
-2023/2024,Female,disabled,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,34,25,34,15,18,17,73.5294,44.1176,52.9412,94.4444
-2023/2024,Female,disabled,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,45,34,54,24,23,20,75.5556,44.4444,42.5926,86.9565
-2023/2024,Female,disabled,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,36,26,39,17,20,19,72.2222,43.5897,51.2821,95.0
-2023/2024,Female,disabled,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,49,37,55,23,20,19,75.5102,41.8182,36.3636,95.0
-2023/2024,Female,disabled,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,54,40,65,28,27,24,74.0741,43.0769,41.5385,88.8889
-2023/2024,Female,disabled,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,50,38,59,25,23,20,76.0,42.3729,38.9831,86.9565
-2023/2024,Female,disabled,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,53,40,61,25,20,19,75.4717,40.9836,32.7869,95.0
-2023/2024,Female,disabled,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,33,24,37,16,21,20,72.7273,43.2432,56.7568,95.2381
-2023/2024,Female,disabled,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,40,29,50,22,23,20,72.5,44.0,46.0,86.9565
-2023/2024,Female,disabled,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,46,34,53,23,23,20,73.913,43.3962,43.3962,86.9565
-2023/2024,Female,disabled,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,39,29,40,18,23,20,74.359,45.0,57.5,86.9565
-2023/2024,Female,disabled,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,41,30,49,21,23,20,73.1707,42.8571,46.9388,86.9565
-2023/2024,Female,disabled,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,44,33,51,23,23,20,75.0,45.098,45.098,86.9565
-2023/2024,Female,disabled,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,51,41,61,26,18,17,80.3922,42.623,29.5082,94.4444
-2023/2024,Female,disabled,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,51,41,60,24,18,17,80.3922,40.0,30.0,94.4444
-2023/2024,Female,disabled,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,46,37,55,22,24,23,80.4348,40.0,43.6364,95.8333
-2023/2024,Female,disabled,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,66,53,76,32,29,27,80.303,42.1053,38.1579,93.1034
-2023/2024,Female,disabled,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,48,39,55,23,24,23,81.25,41.8182,43.6364,95.8333
-2023/2024,Female,disabled,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,69,55,80,34,29,27,79.7101,42.5,36.25,93.1034
-2023/2024,Female,disabled,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,74,59,87,37,36,31,79.7297,42.5287,41.3793,86.1111
-2023/2024,Female,disabled,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,69,55,82,35,35,31,79.7101,42.6829,42.6829,88.5714
-2023/2024,Female,disabled,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,70,55,88,38,29,27,78.5714,43.1818,32.9545,93.1034
-2023/2024,Female,disabled,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,46,37,55,23,19,18,80.4348,41.8182,34.5455,94.7368
-2023/2024,Female,disabled,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,49,39,62,27,18,17,79.5918,43.5484,29.0323,94.4444
-2023/2024,Female,disabled,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,65,52,73,30,24,23,80.0,41.0959,32.8767,95.8333
-2023/2024,Female,disabled,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,58,46,69,28,26,23,79.3103,40.5797,37.6812,88.4615
-2023/2024,Female,disabled,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,54,43,65,28,20,19,79.6296,43.0769,30.7692,95.0
-2023/2024,Female,disabled,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,61,49,69,29,29,27,80.3279,42.029,42.029,93.1034
-2023/2024,Male,all,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,305,248,348,148,208,182,81.3115,42.5287,59.7701,87.5
-2023/2024,Male,all,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,251,206,284,122,145,132,82.0717,42.9577,51.0563,91.0345
-2023/2024,Male,all,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,210,171,239,101,117,112,81.4286,42.2594,48.954,95.7265
-2023/2024,Male,all,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,299,244,353,151,187,159,81.6054,42.7762,52.9745,85.0267
-2023/2024,Male,all,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,289,235,330,140,196,182,81.3149,42.4242,59.3939,92.8571
-2023/2024,Male,all,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,359,294,397,168,167,153,81.8942,42.3174,42.0655,91.6168
-2023/2024,Male,all,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,339,277,389,165,208,171,81.7109,42.4165,53.4704,82.2115
-2023/2024,Male,all,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,293,239,335,142,177,161,81.57,42.3881,52.8358,90.9605
-2023/2024,Male,all,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,325,267,396,168,227,190,82.1538,42.4242,57.3232,83.7004
-2023/2024,Male,all,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,256,209,296,126,156,151,81.6406,42.5676,52.7027,96.7949
-2023/2024,Male,all,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,275,224,325,137,198,161,81.4545,42.1538,60.9231,81.3131
-2023/2024,Male,all,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,297,242,336,142,137,120,81.4815,42.2619,40.7738,87.5912
-2023/2024,Male,all,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,325,265,363,154,187,171,81.5385,42.4242,51.5152,91.4439
-2023/2024,Male,all,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,279,227,325,135,167,153,81.362,41.5385,51.3846,91.6168
-2023/2024,Male,all,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,327,267,378,159,208,180,81.6514,42.0635,55.0265,86.5385
-2023/2024,Male,all,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,526,392,619,264,327,310,74.5247,42.6494,52.8271,94.8012
-2023/2024,Male,all,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,507,377,581,247,285,274,74.359,42.5129,49.0534,96.1404
-2023/2024,Male,all,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,394,294,442,188,233,206,74.6193,42.5339,52.7149,88.412
-2023/2024,Male,all,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,534,397,613,261,311,292,74.3446,42.5775,50.7341,93.8907
-2023/2024,Male,all,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,497,371,562,239,285,253,74.6479,42.5267,50.7117,88.7719
-2023/2024,Male,all,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,618,460,667,284,335,310,74.4337,42.5787,50.2249,92.5373
-2023/2024,Male,all,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,655,488,758,323,394,356,74.5038,42.6121,51.9789,90.3553
-2023/2024,Male,all,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,557,415,635,271,320,291,74.5063,42.6772,50.3937,90.9375
-2023/2024,Male,all,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,608,453,719,306,405,373,74.5066,42.5591,56.3282,92.0988
-2023/2024,Male,all,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,474,352,561,236,311,300,74.2616,42.0677,55.4367,96.463
-2023/2024,Male,all,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,474,352,575,244,335,320,74.2616,42.4348,58.2609,95.5224
-2023/2024,Male,all,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,529,394,596,255,306,281,74.4802,42.7852,51.3423,91.8301
-2023/2024,Male,all,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,588,437,652,277,339,312,74.3197,42.4847,51.9939,92.0354
-2023/2024,Male,all,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,499,372,596,255,315,292,74.5491,42.7852,52.8523,92.6984
-2023/2024,Male,all,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,610,455,704,298,386,348,74.5902,42.3295,54.8295,90.1554
-2023/2024,Male,all,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,721,575,821,349,454,427,79.7503,42.5091,55.2984,94.0529
-2023/2024,Male,all,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,618,493,692,295,362,338,79.7735,42.6301,52.3121,93.3702
-2023/2024,Male,all,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,525,419,603,256,309,294,79.8095,42.4544,51.2438,95.1456
-2023/2024,Male,all,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,737,589,834,353,459,427,79.9186,42.3261,55.036,93.0283
-2023/2024,Male,all,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,687,547,810,344,460,427,79.6215,42.4691,56.7901,92.8261
-2023/2024,Male,all,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,823,656,913,389,467,435,79.7084,42.6068,51.1501,93.1478
-2023/2024,Male,all,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,845,674,978,416,534,502,79.7633,42.5358,54.6012,94.0075
-2023/2024,Male,all,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,762,608,866,368,465,435,79.79,42.4942,53.6952,93.5484
-2023/2024,Male,all,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,806,644,966,409,526,492,79.9007,42.3395,54.4513,93.5361
-2023/2024,Male,all,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,665,531,765,325,410,380,79.8496,42.4837,53.5948,92.6829
-2023/2024,Male,all,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,639,510,740,315,431,386,79.8122,42.5676,58.2432,89.5592
-2023/2024,Male,all,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,701,559,772,328,386,354,79.7432,42.487,50.0,91.7098
-2023/2024,Male,all,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,814,649,939,398,468,429,79.7297,42.3855,49.8403,91.6667
-2023/2024,Male,all,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,677,540,803,342,442,412,79.7637,42.5903,55.0436,93.2127
-2023/2024,Male,all,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,802,639,942,400,542,508,79.6758,42.4628,57.5372,93.7269
-2023/2024,Male,disabled,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,23,18,24,10,20,18,78.2609,41.6667,83.3333,90.0
-2023/2024,Male,disabled,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,26,21,26,11,27,23,80.7692,42.3077,103.8462,85.1852
-2023/2024,Male,disabled,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,23,18,23,10,20,18,78.2609,43.4783,86.9565,90.0
-2023/2024,Male,disabled,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,27,22,29,13,27,23,81.4815,44.8276,93.1034,85.1852
-2023/2024,Male,disabled,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,23,18,23,10,20,18,78.2609,43.4783,86.9565,90.0
-2023/2024,Male,disabled,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,29,24,30,13,14,12,82.7586,43.3333,46.6667,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,30,25,36,16,20,18,83.3333,44.4444,55.5556,90.0
-2023/2024,Male,disabled,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,25,20,28,12,27,23,80.0,42.8571,96.4286,85.1852
-2023/2024,Male,disabled,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,28,23,33,14,27,23,82.1429,42.4242,81.8182,85.1852
-2023/2024,Male,disabled,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,25,20,26,11,27,23,80.0,42.3077,103.8462,85.1852
-2023/2024,Male,disabled,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,23,18,23,10,27,23,78.2609,43.4783,117.3913,85.1852
-2023/2024,Male,disabled,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,25,20,25,10,14,12,80.0,40.0,56.0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,27,22,26,11,27,23,81.4815,42.3077,103.8462,85.1852
-2023/2024,Male,disabled,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,23,18,26,10,20,18,78.2609,38.4615,76.9231,90.0
-2023/2024,Male,disabled,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,25,20,29,12,27,23,80.0,41.3793,93.1034,85.1852
-2023/2024,Male,disabled,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,38,28,45,20,23,22,73.6842,44.4444,51.1111,95.6522
-2023/2024,Male,disabled,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,44,33,52,22,23,22,75.0,42.3077,44.2308,95.6522
-2023/2024,Male,disabled,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,31,23,40,17,23,22,74.1935,42.5,57.5,95.6522
-2023/2024,Male,disabled,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,45,33,55,23,23,22,73.3333,41.8182,41.8182,95.6522
-2023/2024,Male,disabled,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,39,29,44,20,23,22,74.359,45.4545,52.2727,95.6522
-2023/2024,Male,disabled,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,50,37,56,24,23,22,74.0,42.8571,41.0714,95.6522
-2023/2024,Male,disabled,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,54,40,63,27,32,28,74.0741,42.8571,50.7937,87.5
-2023/2024,Male,disabled,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,44,33,50,21,24,23,75.0,42.0,48.0,95.8333
-2023/2024,Male,disabled,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,51,38,63,27,29,28,74.5098,42.8571,46.0317,96.5517
-2023/2024,Male,disabled,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,34,25,40,16,23,22,73.5294,40.0,57.5,95.6522
-2023/2024,Male,disabled,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,37,27,45,19,23,22,72.973,42.2222,51.1111,95.6522
-2023/2024,Male,disabled,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,42,32,47,21,26,23,76.1905,44.6809,55.3191,88.4615
-2023/2024,Male,disabled,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,44,33,49,21,25,23,75.0,42.8571,51.0204,92.0
-2023/2024,Male,disabled,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,40,30,47,21,26,23,75.0,44.6809,55.3191,88.4615
-2023/2024,Male,disabled,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,45,33,52,22,26,23,73.3333,42.3077,50.0,88.4615
-2023/2024,Male,disabled,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,51,41,56,24,27,24,80.3922,42.8571,48.2143,88.8889
-2023/2024,Male,disabled,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,51,41,57,25,23,20,80.3922,43.8596,40.3509,86.9565
-2023/2024,Male,disabled,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,44,35,52,21,23,20,79.5455,40.3846,44.2308,86.9565
-2023/2024,Male,disabled,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,59,47,66,28,32,29,79.661,42.4242,48.4848,90.625
-2023/2024,Male,disabled,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,51,41,62,27,27,24,80.3922,43.5484,43.5484,88.8889
-2023/2024,Male,disabled,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,62,50,70,30,27,24,80.6452,42.8571,38.5714,88.8889
-2023/2024,Male,disabled,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,78,62,92,39,37,29,79.4872,42.3913,40.2174,78.3784
-2023/2024,Male,disabled,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,58,47,68,29,32,29,81.0345,42.6471,47.0588,90.625
-2023/2024,Male,disabled,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,71,57,89,38,32,29,80.2817,42.6966,35.9551,90.625
-2023/2024,Male,disabled,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,45,36,53,23,23,20,80.0,43.3962,43.3962,86.9565
-2023/2024,Male,disabled,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,48,38,57,24,23,20,79.1667,42.1053,40.3509,86.9565
-2023/2024,Male,disabled,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,58,46,66,28,23,20,79.3103,42.4242,34.8485,86.9565
-2023/2024,Male,disabled,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,58,46,67,28,32,29,79.3103,41.791,47.7612,90.625
-2023/2024,Male,disabled,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,55,44,66,29,32,29,80.0,43.9394,48.4848,90.625
-2023/2024,Male,disabled,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,58,46,67,29,36,34,79.3103,43.2836,53.7313,94.4444
-2024/2025,Female,all,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,117,88,66,26,22,21,75.2137,39.3939,33.3333,95.4545
-2024/2025,Female,all,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,102,77,57,22,19,17,75.4902,38.5965,33.3333,89.4737
-2024/2025,Female,all,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,98,73,56,22,17,17,74.4898,39.2857,30.3571,100.0000
-2024/2025,Female,all,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,126,95,73,29,22,20,75.3968,39.7260,30.1370,90.9091
-2024/2025,Female,all,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,107,80,59,23,19,18,74.7664,38.9831,32.2034,94.7368
-2024/2025,Female,all,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,142,107,78,31,22,20,75.3521,39.7436,28.2051,90.9091
-2024/2025,Female,all,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,126,95,75,29,23,20,75.3968,38.6667,30.6667,86.9565
-2024/2025,Female,all,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,132,99,77,30,23,21,75.0000,38.9610,29.8701,91.3043
-2024/2025,Female,all,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,132,100,76,30,23,21,75.7576,39.4737,30.2632,91.3043
-2024/2025,Female,all,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,107,80,62,24,22,19,74.7664,38.7097,35.4839,86.3636
-2024/2025,Female,all,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,107,80,63,25,22,22,74.7664,39.6825,34.9206,100.0000
-2024/2025,Female,all,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,118,89,66,26,18,16,75.4237,39.3939,27.2727,88.8889
-2024/2025,Female,all,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,124,94,69,27,20,18,75.8065,39.1304,28.9855,90.0000
-2024/2025,Female,all,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,114,86,66,26,20,19,75.4386,39.3939,30.3030,95.0000
-2024/2025,Female,all,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,130,98,75,29,25,22,75.3846,38.6667,33.3333,88.0000
-2024/2025,Female,all,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,1631,1108,932,366,291,267,67.9338,39.2704,31.2232,91.7526
-2024/2025,Female,all,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,1523,1032,855,336,258,234,67.7610,39.2982,30.1754,90.6977
-2024/2025,Female,all,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,1292,878,720,285,219,192,67.9567,39.5833,30.4167,87.6712
-2024/2025,Female,all,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,1849,1256,1072,421,324,285,67.9286,39.2724,30.2239,87.9630
-2024/2025,Female,all,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,1548,1051,906,354,316,286,67.8941,39.0728,34.8786,90.5063
-2024/2025,Female,all,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,1986,1349,1111,438,339,319,67.9255,39.4239,30.5131,94.1003
-2024/2025,Female,all,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,1878,1274,1054,413,346,322,67.8381,39.1841,32.8273,93.0636
-2024/2025,Female,all,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,2028,1377,1161,456,346,320,67.8994,39.2765,29.8019,92.4855
-2024/2025,Female,all,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,2006,1364,1173,464,378,345,67.9960,39.5567,32.2251,91.2698
-2024/2025,Female,all,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,1475,1002,846,331,267,252,67.9322,39.1253,31.5603,94.3820
-2024/2025,Female,all,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,1631,1108,983,386,341,317,67.9338,39.2675,34.6897,92.9619
-2024/2025,Female,all,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,1833,1241,1005,393,285,274,67.7032,39.1045,28.3582,96.1404
-2024/2025,Female,all,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,1750,1186,978,383,299,277,67.7714,39.1616,30.5726,92.6421
-2024/2025,Female,all,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,1689,1144,957,375,292,278,67.7324,39.1850,30.5120,95.2055
-2024/2025,Female,all,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,1945,1319,1143,450,346,307,67.8149,39.3701,30.2712,88.7283
-2024/2025,Female,all,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,2407,1770,1397,550,440,398,73.5355,39.3701,31.4961,90.4545
-2024/2025,Female,all,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,2202,1618,1232,480,380,348,73.4787,38.9610,30.8442,91.5789
-2024/2025,Female,all,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,1986,1463,1165,459,380,349,73.6657,39.3991,32.6180,91.8421
-2024/2025,Female,all,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,2489,1828,1378,542,430,406,73.4431,39.3324,31.2046,94.4186
-2024/2025,Female,all,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,2150,1583,1274,501,393,359,73.6279,39.3250,30.8477,91.3486
-2024/2025,Female,all,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,2948,2167,1644,644,437,406,73.5075,39.1727,26.5815,92.9062
-2024/2025,Female,all,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,2907,2138,1690,662,513,465,73.5466,39.1716,30.3550,90.6433
-2024/2025,Female,all,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,2876,2116,1615,634,506,474,73.5744,39.2570,31.3313,93.6759
-2024/2025,Female,all,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,2585,1899,1470,578,499,456,73.4623,39.3197,33.9456,91.3828
-2024/2025,Female,all,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,2219,1631,1295,508,446,415,73.5016,39.2278,34.4402,93.0493
-2024/2025,Female,all,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,2229,1641,1285,503,430,400,73.6205,39.1440,33.4630,93.0233
-2024/2025,Female,all,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,2537,1864,1434,563,409,372,73.4726,39.2608,28.5216,90.9535
-2024/2025,Female,all,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,2866,2109,1591,626,476,430,73.5869,39.3463,29.9183,90.3361
-2024/2025,Female,all,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,2506,1848,1434,563,461,424,73.7430,39.2608,32.1478,91.9740
-2024/2025,Female,all,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,2890,2125,1696,665,537,498,73.5294,39.2099,31.6627,92.7374
-2024/2025,Female,disabled,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,11,9,6,2,4,3,81.8182,33.3333,66.6667,75.0000
-2024/2025,Female,disabled,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,12,9,6,2,4,3,75.0000,33.3333,66.6667,75.0000
-2024/2025,Female,disabled,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,11,9,6,2,4,3,81.8182,33.3333,66.6667,75.0000
-2024/2025,Female,disabled,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,12,9,7,3,4,3,75.0000,42.8571,57.1429,75.0000
-2024/2025,Female,disabled,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,11,9,6,2,4,3,81.8182,33.3333,66.6667,75.0000
-2024/2025,Female,disabled,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,14,10,8,3,4,3,71.4286,37.5000,50.0000,75.0000
-2024/2025,Female,disabled,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,13,10,7,3,3,3,76.9231,42.8571,42.8571,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,13,10,8,3,3,3,76.9231,37.5000,37.5000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,13,10,8,3,3,3,76.9231,37.5000,37.5000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,11,9,6,2,3,3,81.8182,33.3333,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,11,9,6,2,3,3,81.8182,33.3333,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,11,8,6,2,3,3,72.7273,33.3333,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,12,9,7,3,3,3,75.0000,42.8571,42.8571,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,12,9,7,3,3,3,75.0000,42.8571,42.8571,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,12,9,7,3,3,3,75.0000,42.8571,42.8571,100.0000
-2024/2025,Female,disabled,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,139,95,80,32,26,23,68.3453,40.0000,32.5000,88.4615
-2024/2025,Female,disabled,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,154,105,86,33,26,23,68.1818,38.3721,30.2326,88.4615
-2024/2025,Female,disabled,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,122,81,64,25,26,23,66.3934,39.0625,40.6250,88.4615
-2024/2025,Female,disabled,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,165,111,96,39,25,23,67.2727,40.6250,26.0417,92.0000
-2024/2025,Female,disabled,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,125,84,75,28,25,23,67.2000,37.3333,33.3333,92.0000
-2024/2025,Female,disabled,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,182,121,102,40,25,23,66.4835,39.2157,24.5098,92.0000
-2024/2025,Female,disabled,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,182,121,105,42,25,24,66.4835,40.0000,23.8095,96.0000
-2024/2025,Female,disabled,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,175,118,102,40,25,23,67.4286,39.2157,24.5098,92.0000
-2024/2025,Female,disabled,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,182,121,112,45,32,29,66.4835,40.1786,28.5714,90.6250
-2024/2025,Female,disabled,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,111,74,66,27,25,23,66.6667,40.9091,37.8788,92.0000
-2024/2025,Female,disabled,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,139,94,80,32,25,23,67.6259,40.0000,31.2500,92.0000
-2024/2025,Female,disabled,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,154,101,87,35,25,24,65.5844,40.2299,28.7356,96.0000
-2024/2025,Female,disabled,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,150,101,86,33,25,23,67.3333,38.3721,29.0698,92.0000
-2024/2025,Female,disabled,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,154,101,91,35,25,23,65.5844,38.4615,27.4725,92.0000
-2024/2025,Female,disabled,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,154,105,91,35,25,24,68.1818,38.4615,27.4725,96.0000
-2024/2025,Female,disabled,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,199,148,115,44,32,29,74.3719,38.2609,27.8261,90.6250
-2024/2025,Female,disabled,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,219,159,120,46,27,23,72.6027,38.3333,22.5000,85.1852
-2024/2025,Female,disabled,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,173,130,101,41,27,23,75.1445,40.5941,26.7327,85.1852
-2024/2025,Female,disabled,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,242,177,141,56,43,40,73.1405,39.7163,30.4965,93.0233
-2024/2025,Female,disabled,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,173,127,105,41,32,29,73.4104,39.0476,30.4762,90.6250
-2024/2025,Female,disabled,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,261,192,149,59,37,34,73.5632,39.5973,24.8322,91.8919
-2024/2025,Female,disabled,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,276,202,160,61,37,34,73.1884,38.1250,23.1250,91.8919
-2024/2025,Female,disabled,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,242,177,130,50,32,29,73.1405,38.4615,24.6154,90.6250
-2024/2025,Female,disabled,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,249,184,143,55,37,34,73.8956,38.4615,25.8741,91.8919
-2024/2025,Female,disabled,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,165,123,94,37,27,23,74.5455,39.3617,28.7234,85.1852
-2024/2025,Female,disabled,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,184,137,115,44,32,29,74.4565,38.2609,27.8261,90.6250
-2024/2025,Female,disabled,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,249,184,137,54,26,23,73.8956,39.4161,18.9781,88.4615
-2024/2025,Female,disabled,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,223,163,137,54,37,34,73.0942,39.4161,27.0073,91.8919
-2024/2025,Female,disabled,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,226,166,132,52,32,29,73.4513,39.3939,24.2424,90.6250
-2024/2025,Female,disabled,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,230,170,135,52,37,34,73.9130,38.5185,27.4074,91.8919
-2024/2025,Male,all,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,115,86,67,26,22,20,74.7826,38.8060,32.8358,90.9091
-2024/2025,Male,all,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,99,74,58,23,18,18,74.7475,39.6552,31.0345,100.0000
-2024/2025,Male,all,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,89,67,50,20,18,17,75.2809,40.0000,36.0000,94.4444
-2024/2025,Male,all,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,117,88,66,26,23,21,75.2137,39.3939,34.8485,91.3043
-2024/2025,Male,all,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,109,81,63,25,22,21,74.3119,39.6825,34.9206,95.4545
-2024/2025,Male,all,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,136,103,78,31,25,22,75.7353,39.7436,32.0513,88.0000
-2024/2025,Male,all,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,138,103,81,32,29,26,74.6377,39.5062,35.8025,89.6552
-2024/2025,Male,all,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,114,85,63,25,21,19,74.5614,39.6825,33.3333,90.4762
-2024/2025,Male,all,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,125,94,72,28,26,23,75.2000,38.8889,36.1111,88.4615
-2024/2025,Male,all,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,107,80,61,24,22,20,74.7664,39.3443,36.0656,90.9091
-2024/2025,Male,all,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,105,78,61,24,25,23,74.2857,39.3443,40.9836,92.0000
-2024/2025,Male,all,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,105,79,58,23,17,16,75.2381,39.6552,29.3103,94.1176
-2024/2025,Male,all,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,136,102,73,28,25,24,75.0000,38.3562,34.2466,96.0000
-2024/2025,Male,all,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,109,82,63,24,23,21,75.2294,38.0952,36.5079,91.3043
-2024/2025,Male,all,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,123,92,74,29,28,26,74.7967,39.1892,37.8378,92.8571
-2024/2025,Male,all,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,1660,1129,948,372,325,285,68.0120,39.2405,34.2827,87.6923
-2024/2025,Male,all,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,1548,1054,890,351,280,266,68.0879,39.4382,31.4607,95.0000
-2024/2025,Male,all,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,1270,863,728,285,265,237,67.9528,39.1484,36.4011,89.4340
-2024/2025,Male,all,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,1698,1156,980,386,331,313,68.0801,39.3878,33.7755,94.5619
-2024/2025,Male,all,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,1612,1099,946,372,350,320,68.1762,39.3235,36.9979,91.4286
-2024/2025,Male,all,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,1948,1325,1057,415,325,303,68.0185,39.2621,30.7474,93.2308
-2024/2025,Male,all,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,1967,1340,1115,438,405,377,68.1240,39.2825,36.3229,93.0864
-2024/2025,Male,all,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,1794,1223,1024,404,356,320,68.1717,39.4531,34.7656,89.8876
-2024/2025,Male,all,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,1801,1226,1057,416,376,349,68.0733,39.3567,35.5724,92.8191
-2024/2025,Male,all,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,1439,981,824,325,297,275,68.1723,39.4417,36.0437,92.5926
-2024/2025,Male,all,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,1551,1057,932,368,339,320,68.1496,39.4850,36.3734,94.3953
-2024/2025,Male,all,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,1641,1117,906,357,292,275,68.0683,39.4040,32.2296,94.1781
-2024/2025,Male,all,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,1961,1334,1102,433,371,340,68.0265,39.2922,33.6661,91.6442
-2024/2025,Male,all,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,1612,1099,902,355,329,303,68.1762,39.3570,36.4745,92.0973
-2024/2025,Male,all,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,1756,1198,1027,404,373,330,68.2232,39.3379,36.3194,88.4718
-2024/2025,Male,all,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,2427,1783,1394,549,497,451,73.4652,39.3831,35.6528,90.7445
-2024/2025,Male,all,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,2239,1647,1261,495,428,391,73.5596,39.2546,33.9413,91.3551
-2024/2025,Male,all,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,1828,1340,1074,424,349,329,73.3042,39.4786,32.4953,94.2693
-2024/2025,Male,all,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,2417,1776,1365,539,463,424,73.4795,39.4872,33.9194,91.5767
-2024/2025,Male,all,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,2335,1718,1344,527,488,441,73.5760,39.2113,36.3095,90.3689
-2024/2025,Male,all,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,2763,2028,1526,601,479,446,73.3985,39.3840,31.3893,93.1106
-2024/2025,Male,all,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,2907,2138,1656,650,580,527,73.5466,39.2512,35.0242,90.8621
-2024/2025,Male,all,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,2510,1847,1450,568,495,455,73.5857,39.1724,34.1379,91.9192
-2024/2025,Male,all,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,2513,1844,1485,585,546,515,73.3784,39.3939,36.7677,94.3223
-2024/2025,Male,all,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,2160,1586,1223,482,406,367,73.4259,39.4113,33.1971,90.3941
-2024/2025,Male,all,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,2184,1605,1302,513,488,448,73.4890,39.4009,37.4808,91.8033
-2024/2025,Male,all,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,2297,1686,1274,503,412,384,73.4001,39.4819,32.3391,93.2039
-2024/2025,Male,all,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,2965,2180,1666,657,580,527,73.5245,39.4358,34.8139,90.8621
-2024/2025,Male,all,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,2304,1692,1317,518,479,445,73.4375,39.3318,36.3705,92.9019
-2024/2025,Male,all,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,2760,2032,1591,626,580,536,73.6232,39.3463,36.4551,92.4138
-2024/2025,Male,disabled,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,11,8,6,3,3,3,72.7273,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,12,9,7,3,3,3,75.0000,42.8571,42.8571,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,11,8,6,3,3,2,72.7273,50.0000,50.0000,66.6667
-2024/2025,Male,disabled,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,12,9,6,2,3,3,75.0000,33.3333,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,11,8,6,2,3,3,72.7273,33.3333,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,13,10,7,3,3,2,76.9231,42.8571,42.8571,66.6667
-2024/2025,Male,disabled,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,14,11,8,3,3,3,78.5714,37.5000,37.5000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,11,8,6,2,3,3,72.7273,33.3333,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,13,9,7,3,3,3,69.2308,42.8571,42.8571,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,11,8,6,2,3,3,72.7273,33.3333,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,11,8,6,2,4,4,72.7273,33.3333,66.6667,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,11,8,5,2,2,2,72.7273,40.0000,40.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,13,9,7,3,4,4,69.2308,42.8571,57.1429,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,11,8,5,2,4,4,72.7273,40.0000,80.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,11,8,6,2,4,4,72.7273,33.3333,66.6667,100.0000
-2024/2025,Male,disabled,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,136,94,78,32,25,24,69.1176,41.0256,32.0513,96.0000
-2024/2025,Male,disabled,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,161,111,91,35,25,24,68.9441,38.4615,27.4725,96.0000
-2024/2025,Male,disabled,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,107,74,59,23,25,24,69.1589,38.9831,42.3729,96.0000
-2024/2025,Male,disabled,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,157,108,91,35,25,24,68.7898,38.4615,27.4725,96.0000
-2024/2025,Male,disabled,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,129,88,78,32,25,24,68.2171,41.0256,32.0513,96.0000
-2024/2025,Male,disabled,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,175,121,100,39,27,26,69.1429,39.0000,27.0000,96.2963
-2024/2025,Male,disabled,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,190,132,111,44,38,34,69.4737,39.6396,34.2342,89.4737
-2024/2025,Male,disabled,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,161,111,91,35,24,20,68.9441,38.4615,26.3736,83.3333
-2024/2025,Male,disabled,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,182,125,105,42,35,34,68.6813,40.0000,33.3333,97.1429
-2024/2025,Male,disabled,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,118,81,68,27,25,24,68.6441,39.7059,36.7647,96.0000
-2024/2025,Male,disabled,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,139,94,84,33,25,24,67.6259,39.2857,29.7619,96.0000
-2024/2025,Male,disabled,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,147,101,82,32,28,27,68.7075,39.0244,34.1463,96.4286
-2024/2025,Male,disabled,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,157,108,86,33,29,27,68.7898,38.3721,33.7209,93.1034
-2024/2025,Male,disabled,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,139,94,82,32,31,27,67.6259,39.0244,37.8049,87.0968
-2024/2025,Male,disabled,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,150,105,89,35,31,27,70.0000,39.3258,34.8315,87.0968
-2024/2025,Male,disabled,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,188,137,107,43,33,30,72.8723,40.1869,30.8411,90.9091
-2024/2025,Male,disabled,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,211,156,116,46,26,25,73.9336,39.6552,22.4138,96.1538
-2024/2025,Male,disabled,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,165,119,99,39,26,25,72.1212,39.3939,26.2626,96.1538
-2024/2025,Male,disabled,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,223,163,124,50,33,30,73.0942,40.3226,26.6129,90.9091
-2024/2025,Male,disabled,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,192,141,118,46,33,30,73.4375,38.9831,27.9661,90.9091
-2024/2025,Male,disabled,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,257,188,145,55,40,38,73.1518,37.9310,27.5862,95.0000
-2024/2025,Male,disabled,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,292,217,162,65,47,38,74.3151,40.1235,29.0123,80.8511
-2024/2025,Male,disabled,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,222,163,130,50,40,38,73.4234,38.4615,30.7692,95.0000
-2024/2025,Male,disabled,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,238,174,145,57,40,36,73.1092,39.3103,27.5862,90.0000
-2024/2025,Male,disabled,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,165,123,94,37,26,25,74.5455,39.3617,27.6596,96.1538
-2024/2025,Male,disabled,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,180,130,113,44,26,25,72.2222,38.9381,23.0088,96.1538
-2024/2025,Male,disabled,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,211,152,118,46,26,25,72.0379,38.9831,22.0339,96.1538
-2024/2025,Male,disabled,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,226,166,126,50,33,31,73.4513,39.6825,26.1905,93.9394
-2024/2025,Male,disabled,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,203,148,126,50,40,38,72.9064,39.6825,31.7460,95.0000
-2024/2025,Male,disabled,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,219,163,124,50,40,38,74.4292,40.3226,32.2581,95.0000
+session,gender,disability,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
+2022/2023,Female,ALL,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,189,162,241,212,163,152,77.0609,38.7195,55.4878,92.8571
+2022/2023,Female,ALL,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,155,133,186,167,134,119,77.2926,39.3701,59.0551,88.0
+2022/2023,Female,ALL,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,162,139,193,170,136,130,77.0833,38.7833,57.7947,94.7368
+2022/2023,Female,ALL,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,208,179,263,232,163,142,76.9481,38.8268,50.838,86.8132
+2022/2023,Female,ALL,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,172,148,208,182,163,152,76.8627,38.3803,64.0845,92.8571
+2022/2023,Female,ALL,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,224,192,276,245,163,154,77.0393,39.0957,48.4043,93.956
+2022/2023,Female,ALL,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,202,173,257,227,181,152,76.9231,38.8571,57.7143,83.6634
+2022/2023,Female,ALL,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,210,179,257,225,174,152,76.7742,38.5714,55.4286,87.1134
+2022/2023,Female,ALL,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,210,179,272,238,191,170,76.7742,38.5445,57.6819,88.3178
+2022/2023,Female,ALL,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,176,151,219,192,143,122,76.9231,38.5906,53.6913,85.0
+2022/2023,Female,ALL,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,165,142,215,188,161,142,77.0492,38.5666,61.4334,87.7778
+2022/2023,Female,ALL,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,216,185,257,227,172,142,77.116,38.8571,54.8571,82.2917
+2022/2023,Female,ALL,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,204,175,255,225,163,139,77.0764,38.7931,52.2989,84.6154
+2022/2023,Female,ALL,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,193,167,247,218,163,152,77.2727,38.8724,54.0059,92.8571
+2022/2023,Female,ALL,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,220,189,277,245,191,170,77.2308,38.8889,56.6138,88.3178
+2022/2023,Female,ALL,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,354,271,438,383,304,276,68.6424,38.526,56.9514,90.2941
+2022/2023,Female,ALL,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,300,231,364,318,242,230,68.9189,38.5081,54.4355,94.8148
+2022/2023,Female,ALL,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,258,197,324,282,233,214,68.5864,38.2353,58.8235,91.5385
+2022/2023,Female,ALL,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,374,287,465,401,302,292,68.8969,38.0126,53.3123,96.1538
+2022/2023,Female,ALL,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,295,226,385,337,272,250,68.8073,38.4762,57.9048,91.4474
+2022/2023,Female,ALL,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,429,328,529,463,333,307,68.612,38.6111,51.6667,91.6667
+2022/2023,Female,ALL,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,395,302,491,428,324,300,68.6644,38.4155,54.1106,91.989
+2022/2023,Female,ALL,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,406,311,491,431,306,276,68.6667,38.7145,51.1211,89.7661
+2022/2023,Female,ALL,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,401,307,522,460,363,333,68.6341,38.8186,57.1027,91.133
+2022/2023,Female,ALL,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,301,231,378,328,249,232,68.764,38.2524,53.9806,92.8058
+2022/2023,Female,ALL,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,313,240,401,352,302,292,68.6825,38.6447,61.9048,96.1538
+2022/2023,Female,ALL,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,382,292,462,401,310,276,68.6726,38.3148,55.0079,88.7283
+2022/2023,Female,ALL,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,383,293,476,415,333,309,68.7279,38.3667,57.319,92.2043
+2022/2023,Female,ALL,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,338,259,416,365,279,267,68.6,38.6243,55.0265,95.1923
+2022/2023,Female,ALL,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,423,324,535,465,381,360,68.8,38.2716,58.4362,93.8967
+2022/2023,Female,ALL,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,463,383,570,495,406,379,74.269,38.2732,58.5052,92.7313
+2022/2023,Female,ALL,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,378,313,462,401,308,283,74.2397,38.3148,54.69,91.5698
+2022/2023,Female,ALL,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,368,305,457,398,317,298,74.4485,38.3628,56.8218,93.5028
+2022/2023,Female,ALL,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,475,393,597,520,397,369,74.111,38.3764,54.6125,92.3423
+2022/2023,Female,ALL,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,398,329,496,430,345,333,74.1497,38.2222,57.1852,95.8549
+2022/2023,Female,ALL,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,559,463,692,601,442,411,74.3341,38.3227,52.4416,92.5101
+2022/2023,Female,ALL,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,520,430,641,558,419,388,74.1222,38.3734,53.6082,92.094
+2022/2023,Female,ALL,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,578,478,703,610,499,477,74.152,38.2445,58.3072,94.9821
+2022/2023,Female,ALL,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,511,422,662,573,506,477,74.0741,38.1375,62.7494,93.6396
+2022/2023,Female,ALL,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,402,333,505,440,367,338,74.2857,38.3721,59.593,91.7073
+2022/2023,Female,ALL,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,422,349,539,466,426,397,74.1987,38.1471,64.8501,92.6471
+2022/2023,Female,ALL,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,472,390,580,503,360,331,74.212,38.2278,50.8861,91.5423
+2022/2023,Female,ALL,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,511,422,635,551,412,395,74.0741,38.2659,53.1792,95.4348
+2022/2023,Female,ALL,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,445,369,570,496,403,377,74.3161,38.3526,57.9151,93.1111
+2022/2023,Female,ALL,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,531,439,672,583,499,459,74.1401,38.2096,60.917,91.3978
+2022/2023,Female,Disabled,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,16,14,20,20,19,17,79.1667,44.4444,77.7778,90.4762
+2022/2023,Female,Disabled,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,16,14,20,20,26,22,79.1667,44.4444,107.4074,86.2069
+2022/2023,Female,Disabled,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,16,14,20,20,26,22,79.1667,44.4444,107.4074,86.2069
+2022/2023,Female,Disabled,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,18,16,23,22,19,17,77.7778,40.625,65.625,90.4762
+2022/2023,Female,Disabled,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,16,14,20,20,26,22,79.1667,44.4444,107.4074,86.2069
+2022/2023,Female,Disabled,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,18,16,23,22,19,17,77.7778,40.625,65.625,90.4762
+2022/2023,Female,Disabled,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,18,16,22,22,26,22,77.7778,43.3333,96.6667,86.2069
+2022/2023,Female,Disabled,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,18,16,22,22,19,17,77.7778,43.3333,70.0,90.4762
+2022/2023,Female,Disabled,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,18,16,23,22,26,22,77.7778,40.625,90.625,86.2069
+2022/2023,Female,Disabled,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,16,14,20,20,19,17,79.1667,44.4444,77.7778,90.4762
+2022/2023,Female,Disabled,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,16,14,20,20,26,22,79.1667,44.4444,107.4074,86.2069
+2022/2023,Female,Disabled,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,18,15,22,22,26,22,76.9231,43.3333,96.6667,86.2069
+2022/2023,Female,Disabled,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,18,15,22,22,26,22,76.9231,43.3333,96.6667,86.2069
+2022/2023,Female,Disabled,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,16,14,20,20,19,17,79.1667,44.4444,77.7778,90.4762
+2022/2023,Female,Disabled,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,16,14,20,20,26,22,79.1667,44.4444,107.4074,86.2069
+2022/2023,Female,Disabled,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,25,19,33,28,21,18,67.5676,37.7778,51.1111,86.9565
+2022/2023,Female,Disabled,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,28,22,35,28,21,20,69.0476,36.1702,48.9362,95.6522
+2022/2023,Female,Disabled,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,20,15,27,22,21,20,68.9655,35.1351,62.1622,95.6522
+2022/2023,Female,Disabled,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,30,23,36,28,21,20,68.8889,34.6939,46.9388,95.6522
+2022/2023,Female,Disabled,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,21,16,29,25,21,18,67.7419,37.5,57.5,86.9565
+2022/2023,Female,Disabled,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,33,25,43,40,21,20,67.3469,41.3793,39.6552,95.6522
+2022/2023,Female,Disabled,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,34,26,41,35,21,20,68.6275,37.5,41.0714,95.6522
+2022/2023,Female,Disabled,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,34,26,40,37,23,22,70.0,40.7407,48.1481,96.1538
+2022/2023,Female,Disabled,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,32,25,40,38,21,20,68.75,41.8182,41.8182,95.6522
+2022/2023,Female,Disabled,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,21,16,31,25,21,20,67.7419,35.7143,54.7619,95.6522
+2022/2023,Female,Disabled,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,23,17,32,28,21,20,67.6471,39.5349,53.4884,95.6522
+2022/2023,Female,Disabled,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,32,24,37,32,21,18,68.0851,37.2549,45.098,86.9565
+2022/2023,Female,Disabled,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,28,21,32,27,21,20,68.2927,36.3636,52.2727,95.6522
+2022/2023,Female,Disabled,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,28,21,33,28,21,20,68.2927,37.7778,51.1111,95.6522
+2022/2023,Female,Disabled,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,30,23,37,32,21,21,68.1818,37.2549,47.0588,95.8333
+2022/2023,Female,Disabled,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,32,27,39,33,21,18,75.0,37.7358,43.3962,86.9565
+2022/2023,Female,Disabled,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,32,27,37,32,21,18,75.0,37.2549,45.098,86.9565
+2022/2023,Female,Disabled,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,30,26,40,33,26,23,75.5556,37.037,53.7037,89.6552
+2022/2023,Female,Disabled,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,39,32,47,40,26,23,75.4386,37.5,45.3125,89.6552
+2022/2023,Female,Disabled,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,29,24,37,32,26,23,74.4186,37.2549,56.8627,89.6552
+2022/2023,Female,Disabled,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,45,38,54,47,30,30,75.7576,37.8378,45.9459,97.0588
+2022/2023,Female,Disabled,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,45,37,54,47,26,25,74.2424,37.8378,39.1892,96.5517
+2022/2023,Female,Disabled,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,44,36,57,48,36,35,73.8462,37.6623,51.9481,97.5
+2022/2023,Female,Disabled,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,44,36,59,50,30,30,73.8462,37.5,42.5,97.0588
+2022/2023,Female,Disabled,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,26,22,32,27,21,18,74.359,37.2093,53.4884,86.9565
+2022/2023,Female,Disabled,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,32,27,41,35,26,23,75.0,37.5,51.7857,89.6552
+2022/2023,Female,Disabled,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,41,34,51,43,21,18,75.0,37.1429,32.8571,86.9565
+2022/2023,Female,Disabled,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,35,29,45,38,26,25,75.0,37.7049,47.541,96.5517
+2022/2023,Female,Disabled,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,34,29,43,37,26,25,74.5098,37.931,50.0,96.5517
+2022/2023,Female,Disabled,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,37,31,48,40,30,30,74.5455,36.9231,52.3077,97.0588
+2022/2023,Male,ALL,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,183,158,218,193,156,154,77.1218,39.0572,58.5859,98.2759
+2022/2023,Male,ALL,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,172,147,206,182,166,154,76.7717,38.79,66.1922,91.9355
+2022/2023,Male,ALL,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,143,122,181,160,116,110,76.7773,39.0244,52.8455,93.8462
+2022/2023,Male,ALL,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,189,161,236,208,188,165,76.7025,38.9408,65.4206,87.1429
+2022/2023,Male,ALL,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,172,147,214,188,156,131,76.7717,38.8316,59.7938,83.908
+2022/2023,Male,ALL,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,220,188,271,237,209,184,76.6871,38.4824,63.4146,87.6068
+2022/2023,Male,ALL,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,210,179,265,233,199,175,76.7742,38.7812,61.4958,87.8378
+2022/2023,Male,ALL,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,189,163,239,212,177,154,77.1429,38.9571,60.7362,86.3636
+2022/2023,Male,ALL,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,198,170,260,228,220,195,76.7918,38.7006,69.4915,88.2114
+2022/2023,Male,ALL,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,175,151,222,198,199,175,77.2201,39.404,73.5099,87.8378
+2022/2023,Male,ALL,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,162,139,210,187,199,186,76.6667,39.1608,77.6224,93.2432
+2022/2023,Male,ALL,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,197,170,244,215,143,110,77.0548,38.7387,48.048,76.25
+2022/2023,Male,ALL,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,214,183,254,223,157,142,76.6562,38.7283,50.8671,89.7727
+2022/2023,Male,ALL,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,183,157,234,207,188,165,76.7528,38.8715,65.8307,87.1429
+2022/2023,Male,ALL,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,206,176,260,228,209,186,76.6447,38.7006,66.1017,88.4615
+2022/2023,Male,ALL,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,367,281,465,403,361,326,68.8192,38.2306,63.8231,89.604
+2022/2023,Male,ALL,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,311,239,382,335,272,260,68.913,38.5797,58.3493,95.0658
+2022/2023,Male,ALL,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,232,179,280,240,213,192,69.0962,37.6963,62.3037,89.4958
+2022/2023,Male,ALL,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,335,257,408,358,310,280,68.8889,38.6691,62.2302,89.8844
+2022/2023,Male,ALL,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,319,245,404,355,317,289,68.8559,38.657,64.2468,90.678
+2022/2023,Male,ALL,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,408,314,502,438,344,317,68.8742,38.4503,56.1404,91.6667
+2022/2023,Male,ALL,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,404,310,505,440,388,360,68.7291,38.3721,63.0814,92.1659
+2022/2023,Male,ALL,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,355,273,437,385,318,298,68.9524,38.8235,59.8319,92.9775
+2022/2023,Male,ALL,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,375,287,471,411,378,356,68.7726,38.5335,65.8346,93.8389
+2022/2023,Male,ALL,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,301,231,377,327,299,278,68.764,38.1323,64.9805,92.515
+2022/2023,Male,ALL,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,316,242,422,367,360,338,68.7366,38.2609,69.913,93.5323
+2022/2023,Male,ALL,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,345,265,415,362,299,289,68.8235,38.4071,59.115,96.1078
+2022/2023,Male,ALL,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,398,305,507,441,370,349,68.8776,38.4058,60.0,93.7198
+2022/2023,Male,ALL,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,333,256,421,367,326,309,68.9024,38.3944,63.5253,94.2308
+2022/2023,Male,ALL,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,388,298,476,416,388,358,68.8153,38.5208,66.8721,91.7051
+2022/2023,Male,ALL,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,471,388,586,511,463,437,73.9943,38.4712,64.9123,93.8224
+2022/2023,Male,ALL,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,398,329,485,421,354,331,74.1935,38.3333,60.0,92.9293
+2022/2023,Male,ALL,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,324,268,408,355,331,322,74.1127,38.3094,66.5468,96.7568
+2022/2023,Male,ALL,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,440,364,554,480,424,398,74.1935,38.1963,62.8647,93.4599
+2022/2023,Male,ALL,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,408,337,501,436,426,400,74.1294,38.3602,69.6925,93.4874
+2022/2023,Male,ALL,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,566,467,687,596,463,424,74.0741,38.2479,55.3419,90.9266
+2022/2023,Male,ALL,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,517,426,637,553,465,425,73.9529,38.2488,59.9078,90.9615
+2022/2023,Male,ALL,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,477,395,609,528,483,452,74.221,38.1928,65.0602,92.963
+2022/2023,Male,ALL,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,521,431,676,588,576,528,74.1894,38.3279,69.924,91.1491
+2022/2023,Male,ALL,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,412,341,534,463,415,391,74.22,38.1868,63.7363,93.75
+2022/2023,Male,ALL,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,418,345,520,450,444,416,74.11,38.1356,70.0565,93.3468
+2022/2023,Male,ALL,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,451,372,549,476,401,384,74.063,38.2353,59.893,95.3125
+2022/2023,Male,ALL,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,500,413,623,545,481,443,74.1543,38.5613,63.4434,91.4498
+2022/2023,Male,ALL,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,422,349,526,456,404,377,74.1987,38.2682,63.1285,92.6991
+2022/2023,Male,ALL,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,492,406,613,531,524,497,74.1403,38.2036,70.1796,94.3686
+2022/2023,Male,Disabled,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,16,14,19,18,23,21,78.2609,42.3077,100.0,88.4615
+2022/2023,Male,Disabled,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,17,14,19,18,23,21,76.0,42.3077,100.0,88.4615
+2022/2023,Male,Disabled,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,14,12,18,17,8,7,76.1905,41.6667,37.5,88.8889
+2022/2023,Male,Disabled,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,18,15,21,20,23,21,76.9231,41.3793,89.6552,88.4615
+2022/2023,Male,Disabled,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,16,14,19,18,15,13,78.2609,42.3077,65.3846,88.2353
+2022/2023,Male,Disabled,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,20,17,23,22,23,21,75.8621,41.9355,83.871,88.4615
+2022/2023,Male,Disabled,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,18,16,23,22,23,21,77.7778,40.625,81.25,88.4615
+2022/2023,Male,Disabled,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,14,12,18,17,23,21,76.1905,41.6667,108.3333,88.4615
+2022/2023,Male,Disabled,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,18,15,21,20,30,27,74.0741,41.3793,117.2414,88.2353
+2022/2023,Male,Disabled,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,16,14,19,18,30,27,78.2609,42.3077,130.7692,88.2353
+2022/2023,Male,Disabled,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,14,12,18,17,30,27,76.1905,41.6667,141.6667,88.2353
+2022/2023,Male,Disabled,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,16,14,19,18,8,7,75.0,42.3077,34.6154,88.8889
+2022/2023,Male,Disabled,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,18,15,19,18,15,13,76.9231,42.3077,65.3846,88.2353
+2022/2023,Male,Disabled,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,14,12,18,17,23,21,76.1905,41.6667,108.3333,88.4615
+2022/2023,Male,Disabled,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,16,14,19,18,30,27,78.2609,42.3077,130.7692,88.2353
+2022/2023,Male,Disabled,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,24,19,32,25,26,22,69.4444,34.8837,67.4419,86.2069
+2022/2023,Male,Disabled,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,27,21,35,32,26,22,70.0,39.5833,60.4167,86.2069
+2022/2023,Male,Disabled,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,20,15,22,18,19,17,68.9655,36.6667,70.0,90.4762
+2022/2023,Male,Disabled,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,30,23,35,32,26,22,70.4545,39.5833,60.4167,86.2069
+2022/2023,Male,Disabled,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,23,18,29,25,26,22,70.5882,37.5,72.5,86.2069
+2022/2023,Male,Disabled,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,32,25,38,33,26,22,70.2128,38.4615,55.7692,86.2069
+2022/2023,Male,Disabled,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,37,29,46,40,32,31,69.0909,38.0952,57.1429,94.4444
+2022/2023,Male,Disabled,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,30,23,37,33,26,22,70.4545,39.2157,56.8627,86.2069
+2022/2023,Male,Disabled,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,32,24,43,38,32,30,68.0851,39.6552,62.069,91.6667
+2022/2023,Male,Disabled,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,20,16,27,22,26,22,70.0,35.1351,78.3784,86.2069
+2022/2023,Male,Disabled,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,22,17,29,25,26,22,69.697,37.5,72.5,86.2069
+2022/2023,Male,Disabled,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,27,21,34,28,26,22,70.0,36.9565,63.0435,86.2069
+2022/2023,Male,Disabled,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,27,21,35,30,26,23,70.0,38.2979,61.7021,89.6552
+2022/2023,Male,Disabled,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,26,20,35,32,19,17,69.2308,40.4255,44.6809,90.4762
+2022/2023,Male,Disabled,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,30,23,35,32,26,23,70.4545,39.5833,60.4167,89.6552
+2022/2023,Male,Disabled,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,32,26,40,33,21,20,72.9167,36.3636,41.8182,95.6522
+2022/2023,Male,Disabled,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,34,28,43,35,27,26,74.0,36.2069,51.7241,96.6667
+2022/2023,Male,Disabled,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,27,23,35,30,27,26,75.0,37.5,62.5,96.6667
+2022/2023,Male,Disabled,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,37,31,48,40,33,31,74.5455,36.9231,56.9231,94.5946
+2022/2023,Male,Disabled,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,31,26,40,33,27,26,73.913,37.037,55.5556,96.6667
+2022/2023,Male,Disabled,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,42,35,54,47,33,31,74.1935,37.8378,50.0,94.5946
+2022/2023,Male,Disabled,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,47,38,59,48,33,27,72.8571,36.25,46.25,81.0811
+2022/2023,Male,Disabled,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,39,32,49,42,35,31,75.4386,37.3134,58.209,89.7436
+2022/2023,Male,Disabled,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,43,35,56,48,39,36,74.6032,38.1579,57.8947,90.9091
+2022/2023,Male,Disabled,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,28,23,35,30,21,20,75.6098,38.2979,48.9362,95.6522
+2022/2023,Male,Disabled,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,33,27,43,37,35,31,73.4694,37.2881,66.1017,89.7436
+2022/2023,Male,Disabled,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,36,29,43,37,21,20,73.5849,37.2881,38.9831,95.6522
+2022/2023,Male,Disabled,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,38,32,48,42,35,31,75.0,37.8788,59.0909,89.7436
+2022/2023,Male,Disabled,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,33,27,40,33,23,22,73.4694,37.037,48.1481,96.1538
+2022/2023,Male,Disabled,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,34,28,42,35,30,27,72.549,36.8421,57.8947,90.9091
+2023/2024,Female,ALL,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,206,187,262,252,156,136,81.5789,42.2969,48.7395,86.7816
+2023/2024,Female,ALL,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,164,148,203,195,106,106,81.07,42.3913,43.1159,99.1597
+2023/2024,Female,ALL,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,156,141,195,188,115,115,80.9524,42.4812,48.4962,99.2248
+2023/2024,Female,ALL,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,223,203,283,273,140,124,81.7629,42.487,40.4145,88.4615
+2023/2024,Female,ALL,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,183,166,235,228,131,117,81.1808,42.8125,45.625,89.0411
+2023/2024,Female,ALL,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,241,219,300,290,149,127,81.4607,42.6471,40.6863,84.9398
+2023/2024,Female,ALL,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,227,207,283,273,175,154,81.5476,42.487,50.7772,87.2449
+2023/2024,Female,ALL,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,224,204,269,260,160,139,81.571,42.5068,48.7738,86.0335
+2023/2024,Female,ALL,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,233,212,294,283,179,148,81.686,42.394,49.8753,82.0
+2023/2024,Female,ALL,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,174,158,211,205,109,105,81.3953,42.8571,42.5087,95.9016
+2023/2024,Female,ALL,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,192,175,245,237,149,122,81.6901,42.515,49.7006,81.9277
+2023/2024,Female,ALL,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,218,198,264,253,131,114,81.677,42.3398,40.6685,86.9863
+2023/2024,Female,ALL,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,202,184,247,238,142,121,81.8792,42.4332,47.181,84.9057
+2023/2024,Female,ALL,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,206,186,255,247,157,146,81.25,42.5287,50.2874,92.5714
+2023/2024,Female,ALL,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,243,222,313,302,199,178,81.9444,42.3888,51.9906,89.1892
+2023/2024,Female,ALL,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,363,301,440,425,245,232,74.4403,42.5,45.6667,94.1606
+2023/2024,Female,ALL,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,343,285,435,420,230,227,74.5562,42.5676,43.4122,98.0545
+2023/2024,Female,ALL,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,283,234,349,340,197,181,74.1627,42.9474,46.3158,91.3636
+2023/2024,Female,ALL,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,390,324,483,468,270,248,74.6528,42.7052,45.8967,91.3907
+2023/2024,Female,ALL,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,331,274,401,386,229,211,74.2331,42.4908,46.8864,91.7969
+2023/2024,Female,ALL,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,419,348,518,496,269,241,74.6365,42.2695,42.695,89.0365
+2023/2024,Female,ALL,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,406,337,504,488,276,255,74.5,42.7114,45.0437,91.5858
+2023/2024,Female,ALL,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,441,366,544,523,303,274,74.5399,42.3752,45.749,89.9705
+2023/2024,Female,ALL,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,415,344,534,511,329,304,74.43,42.2283,50.619,91.8478
+2023/2024,Female,ALL,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,317,262,394,380,236,219,74.359,42.4581,49.162,92.4242
+2023/2024,Female,ALL,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,336,278,451,435,291,276,74.2455,42.439,52.8455,94.4615
+2023/2024,Female,ALL,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,385,319,473,458,236,227,74.3409,42.6357,40.9302,95.4545
+2023/2024,Female,ALL,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,395,328,473,458,298,283,74.4863,42.7019,51.7081,94.5946
+2023/2024,Female,ALL,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,355,294,445,428,252,234,74.2857,42.4092,46.5347,92.1986
+2023/2024,Female,ALL,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,454,377,587,570,338,309,74.5156,42.8035,47.3091,91.0053
+2023/2024,Female,ALL,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,480,427,624,601,383,359,79.8307,42.4706,50.3529,93.2243
+2023/2024,Female,ALL,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,391,348,476,458,256,237,79.9308,42.3729,44.0678,91.958
+2023/2024,Female,ALL,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,383,341,469,451,276,269,79.8942,42.41,48.3568,96.7638
+2023/2024,Female,ALL,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,544,485,660,636,367,332,79.8758,42.4917,45.6062,90.0
+2023/2024,Female,ALL,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,434,386,533,513,331,313,79.7508,42.4242,50.9642,94.0541
+2023/2024,Female,ALL,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,582,519,722,695,376,359,79.9071,42.4212,42.7263,95.0
+2023/2024,Female,ALL,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,547,486,695,673,404,380,79.7281,42.661,47.7297,93.3628
+2023/2024,Female,ALL,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,579,515,718,691,418,391,79.7897,42.4335,47.7505,93.1478
+2023/2024,Female,ALL,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,574,510,741,716,459,428,79.7409,42.5743,50.7921,92.7875
+2023/2024,Female,ALL,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,446,398,565,541,334,311,80.0,42.2078,48.4416,92.7614
+2023/2024,Female,ALL,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,445,396,576,556,376,361,79.7872,42.602,53.5714,95.4762
+2023/2024,Female,ALL,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,521,464,621,596,327,304,79.8962,42.3168,43.1442,92.6027
+2023/2024,Female,ALL,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,538,479,671,645,367,339,79.8995,42.3414,44.8578,91.9512
+2023/2024,Female,ALL,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,483,430,600,578,366,333,79.8319,42.4725,50.0612,90.4645
+2023/2024,Female,ALL,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,603,537,758,728,461,428,79.8206,42.345,49.9031,92.4272
+2023/2024,Female,Disabled,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,17,15,19,18,21,20,80.0,42.3077,88.4615,95.6522
+2023/2024,Female,Disabled,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,17,15,19,18,21,19,80.0,42.3077,88.4615,91.3043
+2023/2024,Female,Disabled,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,17,15,19,18,21,20,80.0,42.3077,88.4615,95.6522
+2023/2024,Female,Disabled,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,20,18,25,25,21,18,82.7586,44.1176,70.5882,83.3333
+2023/2024,Female,Disabled,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,17,15,19,18,21,18,80.0,42.3077,88.4615,86.9565
+2023/2024,Female,Disabled,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,20,17,22,22,16,14,79.3103,43.3333,60.0,88.8889
+2023/2024,Female,Disabled,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,20,18,23,22,24,21,80.0,41.9355,87.0968,85.1852
+2023/2024,Female,Disabled,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,18,16,19,18,24,21,80.7692,42.3077,103.8462,85.1852
+2023/2024,Female,Disabled,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,22,20,28,27,21,18,81.25,42.1053,60.5263,86.9565
+2023/2024,Female,Disabled,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,17,15,19,18,17,16,80.0,42.3077,73.0769,94.7368
+2023/2024,Female,Disabled,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,18,16,19,18,22,21,80.7692,42.3077,96.1538,92.0
+2023/2024,Female,Disabled,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,19,17,23,22,21,21,82.1429,40.625,75.0,95.8333
+2023/2024,Female,Disabled,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,19,17,22,22,23,21,82.1429,43.3333,86.6667,88.4615
+2023/2024,Female,Disabled,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,17,15,19,18,23,21,80.0,42.3077,100.0,88.4615
+2023/2024,Female,Disabled,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,19,17,23,22,23,21,82.1429,41.9355,83.871,88.4615
+2023/2024,Female,Disabled,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,26,21,31,30,16,15,73.6842,42.8571,42.8571,94.4444
+2023/2024,Female,Disabled,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,30,25,40,40,16,15,75.0,44.4444,33.3333,94.4444
+2023/2024,Female,Disabled,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,23,19,25,25,16,15,73.5294,44.1176,52.9412,94.4444
+2023/2024,Female,Disabled,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,30,26,40,40,21,18,75.5556,44.4444,42.5926,86.9565
+2023/2024,Female,Disabled,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,24,20,29,28,18,17,72.2222,43.5897,51.2821,95.0
+2023/2024,Female,Disabled,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,33,28,40,38,18,17,75.5102,41.8182,36.3636,95.0
+2023/2024,Female,Disabled,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,37,30,48,47,24,22,74.0741,43.0769,41.5385,88.8889
+2023/2024,Female,Disabled,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,34,29,43,42,21,18,76.0,42.3729,38.9831,86.9565
+2023/2024,Female,Disabled,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,36,30,45,42,18,17,75.4717,40.9836,32.7869,95.0
+2023/2024,Female,Disabled,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,22,18,27,27,19,18,72.7273,43.2432,56.7568,95.2381
+2023/2024,Female,Disabled,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,27,22,37,37,21,18,72.5,44.0,46.0,86.9565
+2023/2024,Female,Disabled,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,31,26,39,38,21,18,73.913,43.3962,43.3962,86.9565
+2023/2024,Female,Disabled,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,26,22,29,30,21,18,74.359,45.0,57.5,86.9565
+2023/2024,Female,Disabled,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,28,23,36,35,21,18,73.1707,42.8571,46.9388,86.9565
+2023/2024,Female,Disabled,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,30,25,37,38,21,18,75.0,45.098,45.098,86.9565
+2023/2024,Female,Disabled,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,34,31,45,43,16,15,80.3922,42.623,29.5082,94.4444
+2023/2024,Female,Disabled,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,34,31,44,40,16,15,80.3922,40.0,30.0,94.4444
+2023/2024,Female,Disabled,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,31,28,40,37,21,21,80.4348,40.0,43.6364,95.8333
+2023/2024,Female,Disabled,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,45,40,56,53,26,24,80.303,42.1053,38.1579,93.1034
+2023/2024,Female,Disabled,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,32,29,40,38,21,21,81.25,41.8182,43.6364,95.8333
+2023/2024,Female,Disabled,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,47,41,59,57,26,24,79.7101,42.5,36.25,93.1034
+2023/2024,Female,Disabled,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,50,44,64,62,32,28,79.7297,42.5287,41.3793,86.1111
+2023/2024,Female,Disabled,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,47,41,60,58,31,28,79.7101,42.6829,42.6829,88.5714
+2023/2024,Female,Disabled,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,47,41,65,63,26,24,78.5714,43.1818,32.9545,93.1034
+2023/2024,Female,Disabled,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,31,28,40,38,17,16,80.4348,41.8182,34.5455,94.7368
+2023/2024,Female,Disabled,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,33,29,46,45,16,15,79.5918,43.5484,29.0323,94.4444
+2023/2024,Female,Disabled,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,44,39,54,50,21,21,80.0,41.0959,32.8767,95.8333
+2023/2024,Female,Disabled,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,39,35,51,47,23,21,79.3103,40.5797,37.6812,88.4615
+2023/2024,Female,Disabled,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,37,32,48,47,18,17,79.6296,43.0769,30.7692,95.0
+2023/2024,Female,Disabled,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,41,37,51,48,26,24,80.3279,42.029,42.029,93.1034
+2023/2024,Male,ALL,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,206,187,255,247,186,164,81.3115,42.5287,59.7701,87.5
+2023/2024,Male,ALL,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,170,155,208,203,130,119,82.0717,42.9577,51.0563,91.0345
+2023/2024,Male,ALL,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,142,129,175,168,105,101,81.4286,42.2594,48.954,95.7265
+2023/2024,Male,ALL,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,202,184,259,252,167,143,81.6054,42.7762,52.9745,85.0267
+2023/2024,Male,ALL,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,195,177,242,233,175,164,81.3149,42.4242,59.3939,92.8571
+2023/2024,Male,ALL,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,243,222,291,280,149,138,81.8942,42.3174,42.0655,91.6168
+2023/2024,Male,ALL,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,229,209,286,275,186,154,81.7109,42.4165,53.4704,82.2115
+2023/2024,Male,ALL,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,198,180,246,237,158,145,81.57,42.3881,52.8358,90.9605
+2023/2024,Male,ALL,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,220,201,291,280,203,171,82.1538,42.4242,57.3232,83.7004
+2023/2024,Male,ALL,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,173,158,217,210,140,136,81.6406,42.5676,52.7027,96.7949
+2023/2024,Male,ALL,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,186,169,239,228,177,145,81.4545,42.1538,60.9231,81.3131
+2023/2024,Male,ALL,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,201,182,247,237,123,108,81.4815,42.2619,40.7738,87.5912
+2023/2024,Male,ALL,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,220,200,266,257,167,154,81.5385,42.4242,51.5152,91.4439
+2023/2024,Male,ALL,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,189,171,239,225,149,138,81.362,41.5385,51.3846,91.6168
+2023/2024,Male,ALL,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,221,201,277,265,186,162,81.6514,42.0635,55.0265,86.5385
+2023/2024,Male,ALL,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,356,295,454,440,293,279,74.5247,42.6494,52.8271,94.8012
+2023/2024,Male,ALL,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,343,284,427,411,255,246,74.359,42.5129,49.0534,96.1404
+2023/2024,Male,ALL,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,266,222,324,313,208,185,74.6193,42.5339,52.7149,88.412
+2023/2024,Male,ALL,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,361,299,450,435,278,263,74.3446,42.5775,50.7341,93.8907
+2023/2024,Male,ALL,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,336,280,413,398,255,228,74.6479,42.5267,50.7117,88.7719
+2023/2024,Male,ALL,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,418,347,490,473,300,279,74.4337,42.5787,50.2249,92.5373
+2023/2024,Male,ALL,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,443,368,556,538,352,320,74.5038,42.6121,51.9789,90.3553
+2023/2024,Male,ALL,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,377,313,466,451,286,262,74.5063,42.6772,50.3937,90.9375
+2023/2024,Male,ALL,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,411,341,528,510,362,336,74.5066,42.5591,56.3282,92.0988
+2023/2024,Male,ALL,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,321,265,412,393,278,270,74.2616,42.0677,55.4367,96.463
+2023/2024,Male,ALL,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,321,265,422,406,300,288,74.2616,42.4348,58.2609,95.5224
+2023/2024,Male,ALL,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,358,297,438,425,274,253,74.4802,42.7852,51.3423,91.8301
+2023/2024,Male,ALL,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,398,329,479,461,303,281,74.3197,42.4847,51.9939,92.0354
+2023/2024,Male,ALL,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,337,280,438,425,282,263,74.5491,42.7852,52.8523,92.6984
+2023/2024,Male,ALL,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,413,343,517,496,345,313,74.5902,42.3295,54.8295,90.1554
+2023/2024,Male,ALL,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,488,433,603,581,406,384,79.7503,42.5091,55.2984,94.0529
+2023/2024,Male,ALL,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,418,372,508,491,324,304,79.7735,42.6301,52.3121,93.3702
+2023/2024,Male,ALL,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,355,316,443,426,276,264,79.8095,42.4544,51.2438,95.1456
+2023/2024,Male,ALL,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,498,444,612,588,411,384,79.9186,42.3261,55.036,93.0283
+2023/2024,Male,ALL,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,465,412,595,573,412,384,79.6215,42.4691,56.7901,92.8261
+2023/2024,Male,ALL,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,557,494,670,648,418,391,79.7084,42.6068,51.1501,93.1478
+2023/2024,Male,ALL,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,571,508,718,693,478,452,79.7633,42.5358,54.6012,94.0075
+2023/2024,Male,ALL,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,515,458,636,613,416,391,79.79,42.4942,53.6952,93.5484
+2023/2024,Male,ALL,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,545,485,709,681,471,443,79.9007,42.3395,54.4513,93.5361
+2023/2024,Male,ALL,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,450,400,562,541,367,342,79.8496,42.4837,53.5948,92.6829
+2023/2024,Male,ALL,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,432,384,543,525,386,347,79.8122,42.5676,58.2432,89.5592
+2023/2024,Male,ALL,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,474,421,567,546,345,318,79.7432,42.487,50.0,91.7098
+2023/2024,Male,ALL,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,551,489,689,663,419,386,79.7297,42.3855,49.8403,91.6667
+2023/2024,Male,ALL,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,458,407,589,570,395,371,79.7637,42.5903,55.0436,93.2127
+2023/2024,Male,ALL,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,542,482,692,666,485,457,79.6758,42.4628,57.5372,93.7269
+2023/2024,Male,Disabled,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,16,14,18,17,18,16,78.2609,41.6667,83.3333,90.0
+2023/2024,Male,Disabled,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,18,16,19,18,24,21,80.7692,42.3077,103.8462,85.1852
+2023/2024,Male,Disabled,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,16,14,17,17,18,16,78.2609,43.4783,86.9565,90.0
+2023/2024,Male,Disabled,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,18,17,21,22,24,21,81.4815,44.8276,93.1034,85.1852
+2023/2024,Male,Disabled,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,16,14,17,17,18,16,78.2609,43.4783,86.9565,90.0
+2023/2024,Male,Disabled,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,20,18,22,22,13,11,82.7586,43.3333,46.6667,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,20,19,26,27,18,16,83.3333,44.4444,55.5556,90.0
+2023/2024,Male,Disabled,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,17,15,21,20,24,21,80.0,42.8571,96.4286,85.1852
+2023/2024,Male,Disabled,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,19,17,24,23,24,21,82.1429,42.4242,81.8182,85.1852
+2023/2024,Male,Disabled,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,17,15,19,18,24,21,80.0,42.3077,103.8462,85.1852
+2023/2024,Male,Disabled,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,16,14,17,17,24,21,78.2609,43.4783,117.3913,85.1852
+2023/2024,Male,Disabled,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,17,15,18,17,13,11,80.0,40.0,56.0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,18,17,19,18,24,21,81.4815,42.3077,103.8462,85.1852
+2023/2024,Male,Disabled,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,16,14,19,17,18,16,78.2609,38.4615,76.9231,90.0
+2023/2024,Male,Disabled,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,17,15,21,20,24,21,80.0,41.3793,93.1034,85.1852
+2023/2024,Male,Disabled,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,26,21,33,33,21,20,73.6842,44.4444,51.1111,95.6522
+2023/2024,Male,Disabled,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,30,25,38,37,21,20,75.0,42.3077,44.2308,95.6522
+2023/2024,Male,Disabled,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,21,17,29,28,21,20,74.1935,42.5,57.5,95.6522
+2023/2024,Male,Disabled,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,30,25,40,38,21,20,73.3333,41.8182,41.8182,95.6522
+2023/2024,Male,Disabled,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,26,22,32,33,21,20,74.359,45.4545,52.2727,95.6522
+2023/2024,Male,Disabled,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,34,28,41,40,21,20,74.0,42.8571,41.0714,95.6522
+2023/2024,Male,Disabled,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,37,30,46,45,29,25,74.0741,42.8571,50.7937,87.5
+2023/2024,Male,Disabled,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,30,25,37,35,21,21,75.0,42.0,48.0,95.8333
+2023/2024,Male,Disabled,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,34,29,46,45,26,25,74.5098,42.8571,46.0317,96.5517
+2023/2024,Male,Disabled,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,23,19,29,27,21,20,73.5294,40.0,57.5,95.6522
+2023/2024,Male,Disabled,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,25,20,33,32,21,20,72.973,42.2222,51.1111,95.6522
+2023/2024,Male,Disabled,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,28,24,35,35,23,21,76.1905,44.6809,55.3191,88.4615
+2023/2024,Male,Disabled,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,30,25,36,35,22,21,75.0,42.8571,51.0204,92.0
+2023/2024,Male,Disabled,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,27,23,35,35,23,21,75.0,44.6809,55.3191,88.4615
+2023/2024,Male,Disabled,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,30,25,38,37,23,21,73.3333,42.3077,50.0,88.4615
+2023/2024,Male,Disabled,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,34,31,41,40,24,22,80.3922,42.8571,48.2143,88.8889
+2023/2024,Male,Disabled,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,34,31,42,42,21,18,80.3922,43.8596,40.3509,86.9565
+2023/2024,Male,Disabled,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,30,26,38,35,21,18,79.5455,40.3846,44.2308,86.9565
+2023/2024,Male,Disabled,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,40,35,48,47,29,26,79.661,42.4242,48.4848,90.625
+2023/2024,Male,Disabled,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,34,31,46,45,24,22,80.3922,43.5484,43.5484,88.8889
+2023/2024,Male,Disabled,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,42,38,51,50,24,22,80.6452,42.8571,38.5714,88.8889
+2023/2024,Male,Disabled,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,53,47,68,65,33,26,79.4872,42.3913,40.2174,78.3784
+2023/2024,Male,Disabled,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,39,35,50,48,29,26,81.0345,42.6471,47.0588,90.625
+2023/2024,Male,Disabled,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,48,43,65,63,29,26,80.2817,42.6966,35.9551,90.625
+2023/2024,Male,Disabled,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,30,27,39,38,21,18,80.0,43.3962,43.3962,86.9565
+2023/2024,Male,Disabled,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,32,29,42,40,21,18,79.1667,42.1053,40.3509,86.9565
+2023/2024,Male,Disabled,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,39,35,48,47,21,18,79.3103,42.4242,34.8485,86.9565
+2023/2024,Male,Disabled,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,39,35,49,47,29,26,79.3103,41.791,47.7612,90.625
+2023/2024,Male,Disabled,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,37,33,48,48,29,26,80.0,43.9394,48.4848,90.625
+2023/2024,Male,Disabled,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,39,35,49,48,32,31,79.3103,43.2836,53.7313,94.4444
+2024/2025,Female,ALL,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,79,66,48,43,20,19,75.2137,39.3939,33.3333,95.4545
+2024/2025,Female,ALL,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,69,58,42,37,17,15,75.4902,38.5965,33.3333,89.4737
+2024/2025,Female,ALL,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,66,55,41,37,15,15,74.4898,39.2857,30.3571,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,85,72,54,48,20,18,75.3968,39.7260,30.1370,90.9091
+2024/2025,Female,ALL,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,72,60,43,38,17,16,74.7664,38.9831,32.2034,94.7368
+2024/2025,Female,ALL,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,96,81,57,52,20,18,75.3521,39.7436,28.2051,90.9091
+2024/2025,Female,ALL,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,85,72,55,48,21,18,75.3968,38.6667,30.6667,86.9565
+2024/2025,Female,ALL,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,89,75,57,50,21,19,75.0000,38.9610,29.8701,91.3043
+2024/2025,Female,ALL,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,89,75,56,50,21,19,75.7576,39.4737,30.2632,91.3043
+2024/2025,Female,ALL,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,72,60,46,40,20,17,74.7664,38.7097,35.4839,86.3636
+2024/2025,Female,ALL,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,72,60,46,42,20,20,74.7664,39.6825,34.9206,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,80,67,48,43,16,14,75.4237,39.3939,27.2727,88.8889
+2024/2025,Female,ALL,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,84,71,51,45,18,16,75.8065,39.1304,28.9855,90.0000
+2024/2025,Female,ALL,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,77,65,48,43,18,17,75.4386,39.3939,30.3030,95.0000
+2024/2025,Female,ALL,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,88,74,55,48,22,20,75.3846,38.6667,33.3333,88.0000
+2024/2025,Female,ALL,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,1103,835,684,610,260,240,67.9338,39.2704,31.2232,91.7526
+2024/2025,Female,ALL,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,1030,778,628,560,231,210,67.7610,39.2982,30.1754,90.6977
+2024/2025,Female,ALL,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,874,662,529,475,196,173,67.9567,39.5833,30.4167,87.6712
+2024/2025,Female,ALL,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,1251,947,787,701,290,256,67.9286,39.2724,30.2239,87.9630
+2024/2025,Female,ALL,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,1047,792,665,590,283,257,67.8941,39.0728,34.8786,90.5063
+2024/2025,Female,ALL,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,1343,1017,816,730,303,287,67.9255,39.4239,30.5131,94.1003
+2024/2025,Female,ALL,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,1270,960,774,688,310,290,67.8381,39.1841,32.8273,93.0636
+2024/2025,Female,ALL,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,1372,1038,852,760,310,288,67.8994,39.2765,29.8019,92.4855
+2024/2025,Female,ALL,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,1357,1028,861,773,338,310,67.9960,39.5567,32.2251,91.2698
+2024/2025,Female,ALL,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,998,755,621,551,239,227,67.9322,39.1253,31.5603,94.3820
+2024/2025,Female,ALL,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,1103,835,722,643,305,285,67.9338,39.2675,34.6897,92.9619
+2024/2025,Female,ALL,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,1240,935,738,655,255,246,67.7032,39.1045,28.3582,96.1404
+2024/2025,Female,ALL,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,1184,894,718,638,268,249,67.7714,39.1616,30.5726,92.6421
+2024/2025,Female,ALL,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,1142,862,703,625,261,250,67.7324,39.1850,30.5120,95.2055
+2024/2025,Female,ALL,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,1315,994,839,750,310,276,67.8149,39.3701,30.2712,88.7283
+2024/2025,Female,ALL,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,1628,1334,1026,916,394,358,73.5355,39.3701,31.4961,90.4545
+2024/2025,Female,ALL,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,1489,1220,904,800,340,313,73.4787,38.9610,30.8442,91.5789
+2024/2025,Female,ALL,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,1343,1103,855,765,340,314,73.6657,39.3991,32.6180,91.8421
+2024/2025,Female,ALL,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,1683,1378,1012,903,385,365,73.4431,39.3324,31.2046,94.4186
+2024/2025,Female,ALL,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,1454,1193,935,835,352,323,73.6279,39.3250,30.8477,91.3486
+2024/2025,Female,ALL,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,1994,1633,1207,1073,391,365,73.5075,39.1727,26.5815,92.9062
+2024/2025,Female,ALL,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,1966,1612,1241,1103,459,418,73.5466,39.1716,30.3550,90.6433
+2024/2025,Female,ALL,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,1945,1595,1186,1056,453,426,73.5744,39.2570,31.3313,93.6759
+2024/2025,Female,ALL,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,1748,1431,1079,963,446,410,73.4623,39.3197,33.9456,91.3828
+2024/2025,Female,ALL,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,1501,1229,951,846,399,373,73.5016,39.2278,34.4402,93.0493
+2024/2025,Female,ALL,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,1508,1237,943,838,385,360,73.6205,39.1440,33.4630,93.0233
+2024/2025,Female,ALL,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,1716,1405,1053,938,366,335,73.4726,39.2608,28.5216,90.9535
+2024/2025,Female,ALL,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,1938,1590,1168,1043,426,387,73.5869,39.3463,29.9183,90.3361
+2024/2025,Female,ALL,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,1695,1393,1053,938,412,381,73.7430,39.2608,32.1478,91.9740
+2024/2025,Female,ALL,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,1955,1602,1245,1108,480,448,73.5294,39.2099,31.6627,92.7374
+2024/2025,Female,Disabled,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,7,7,4,3,4,3,81.8182,33.3333,66.6667,75.0000
+2024/2025,Female,Disabled,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,8,7,4,3,4,3,75.0000,33.3333,66.6667,75.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,7,7,4,3,4,3,81.8182,33.3333,66.6667,75.0000
+2024/2025,Female,Disabled,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,8,7,5,5,4,3,75.0000,42.8571,57.1429,75.0000
+2024/2025,Female,Disabled,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,7,7,4,3,4,3,81.8182,33.3333,66.6667,75.0000
+2024/2025,Female,Disabled,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,9,8,6,5,4,3,71.4286,37.5000,50.0000,75.0000
+2024/2025,Female,Disabled,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,9,8,5,5,3,3,76.9231,42.8571,42.8571,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,9,8,6,5,3,3,76.9231,37.5000,37.5000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,9,8,6,5,3,3,76.9231,37.5000,37.5000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,7,7,4,3,3,3,81.8182,33.3333,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,7,7,4,3,3,3,81.8182,33.3333,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,7,6,4,3,3,3,72.7273,33.3333,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,8,7,5,5,3,3,75.0000,42.8571,42.8571,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,8,7,5,5,3,3,75.0000,42.8571,42.8571,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,8,7,5,5,3,3,75.0000,42.8571,42.8571,100.0000
+2024/2025,Female,Disabled,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,94,72,59,53,23,21,68.3453,40.0000,32.5000,88.4615
+2024/2025,Female,Disabled,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,104,79,63,55,23,21,68.1818,38.3721,30.2326,88.4615
+2024/2025,Female,Disabled,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,83,61,47,42,23,21,66.3934,39.0625,40.6250,88.4615
+2024/2025,Female,Disabled,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,112,84,70,65,22,21,67.2727,40.6250,26.0417,92.0000
+2024/2025,Female,Disabled,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,85,63,55,47,22,21,67.2000,37.3333,33.3333,92.0000
+2024/2025,Female,Disabled,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,123,91,75,67,22,21,66.4835,39.2157,24.5098,92.0000
+2024/2025,Female,Disabled,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,123,91,77,70,22,22,66.4835,40.0000,23.8095,96.0000
+2024/2025,Female,Disabled,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,118,89,75,67,22,21,67.4286,39.2157,24.5098,92.0000
+2024/2025,Female,Disabled,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,123,91,82,75,29,26,66.4835,40.1786,28.5714,90.6250
+2024/2025,Female,Disabled,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,75,56,48,45,22,21,66.6667,40.9091,37.8788,92.0000
+2024/2025,Female,Disabled,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,94,71,59,53,22,21,67.6259,40.0000,31.2500,92.0000
+2024/2025,Female,Disabled,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,104,76,64,58,22,22,65.5844,40.2299,28.7356,96.0000
+2024/2025,Female,Disabled,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,101,76,63,55,22,21,67.3333,38.3721,29.0698,92.0000
+2024/2025,Female,Disabled,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,104,76,67,58,22,21,65.5844,38.4615,27.4725,92.0000
+2024/2025,Female,Disabled,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,104,79,67,58,22,22,68.1818,38.4615,27.4725,96.0000
+2024/2025,Female,Disabled,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,135,112,84,73,29,26,74.3719,38.2609,27.8261,90.6250
+2024/2025,Female,Disabled,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,148,120,88,77,24,21,72.6027,38.3333,22.5000,85.1852
+2024/2025,Female,Disabled,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,117,98,74,68,24,21,75.1445,40.5941,26.7327,85.1852
+2024/2025,Female,Disabled,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,164,133,104,93,38,36,73.1405,39.7163,30.4965,93.0233
+2024/2025,Female,Disabled,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,117,96,77,68,29,26,73.4104,39.0476,30.4762,90.6250
+2024/2025,Female,Disabled,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,177,145,109,98,33,31,73.5632,39.5973,24.8322,91.8919
+2024/2025,Female,Disabled,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,187,152,117,102,33,31,73.1884,38.1250,23.1250,91.8919
+2024/2025,Female,Disabled,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,164,133,95,83,29,26,73.1405,38.4615,24.6154,90.6250
+2024/2025,Female,Disabled,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,168,139,105,92,33,31,73.8956,38.4615,25.8741,91.8919
+2024/2025,Female,Disabled,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,112,93,69,62,24,21,74.5455,39.3617,28.7234,85.1852
+2024/2025,Female,Disabled,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,124,103,84,73,29,26,74.4565,38.2609,27.8261,90.6250
+2024/2025,Female,Disabled,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,168,139,101,90,23,21,73.8956,39.4161,18.9781,88.4615
+2024/2025,Female,Disabled,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,151,123,101,90,33,31,73.0942,39.4161,27.0073,91.8919
+2024/2025,Female,Disabled,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,153,125,97,87,29,26,73.4513,39.3939,24.2424,90.6250
+2024/2025,Female,Disabled,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,156,128,99,87,33,31,73.9130,38.5185,27.4074,91.8919
+2024/2025,Male,ALL,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,78,65,49,43,20,18,74.7826,38.8060,32.8358,90.9091
+2024/2025,Male,ALL,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,67,56,43,38,16,16,74.7475,39.6552,31.0345,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,60,51,37,33,16,15,75.2809,40.0000,36.0000,94.4444
+2024/2025,Male,ALL,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,79,66,48,43,21,19,75.2137,39.3939,34.8485,91.3043
+2024/2025,Male,ALL,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,74,61,46,42,20,19,74.3119,39.6825,34.9206,95.4545
+2024/2025,Male,ALL,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,92,78,57,52,22,20,75.7353,39.7436,32.0513,88.0000
+2024/2025,Male,ALL,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,93,78,59,53,26,23,74.6377,39.5062,35.8025,89.6552
+2024/2025,Male,ALL,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,77,64,46,42,19,17,74.5614,39.6825,33.3333,90.4762
+2024/2025,Male,ALL,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,85,71,53,47,23,21,75.2000,38.8889,36.1111,88.4615
+2024/2025,Male,ALL,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,72,60,45,40,20,18,74.7664,39.3443,36.0656,90.9091
+2024/2025,Male,ALL,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,71,59,45,40,22,21,74.2857,39.3443,40.9836,92.0000
+2024/2025,Male,ALL,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,71,60,43,38,15,14,75.2381,39.6552,29.3103,94.1176
+2024/2025,Male,ALL,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,92,77,54,47,22,22,75.0000,38.3562,34.2466,96.0000
+2024/2025,Male,ALL,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,74,62,46,40,21,19,75.2294,38.0952,36.5079,91.3043
+2024/2025,Male,ALL,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,83,69,54,48,25,23,74.7967,39.1892,37.8378,92.8571
+2024/2025,Male,ALL,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,1123,851,696,620,291,256,68.0120,39.2405,34.2827,87.6923
+2024/2025,Male,ALL,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,1047,794,653,585,251,239,68.0879,39.4382,31.4607,95.0000
+2024/2025,Male,ALL,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,859,651,534,475,237,213,67.9528,39.1484,36.4011,89.4340
+2024/2025,Male,ALL,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,1148,871,719,643,296,282,68.0801,39.3878,33.7755,94.5619
+2024/2025,Male,ALL,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,1090,828,694,620,313,288,68.1762,39.3235,36.9979,91.4286
+2024/2025,Male,ALL,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,1317,999,776,691,291,273,68.0185,39.2621,30.7474,93.2308
+2024/2025,Male,ALL,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,1330,1010,819,730,362,339,68.1240,39.2825,36.3229,93.0864
+2024/2025,Male,ALL,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,1213,922,752,673,318,288,68.1717,39.4531,34.7656,89.8876
+2024/2025,Male,ALL,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,1218,924,776,693,336,314,68.0733,39.3567,35.5724,92.8191
+2024/2025,Male,ALL,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,973,739,605,541,266,247,68.1723,39.4417,36.0437,92.5926
+2024/2025,Male,ALL,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,1049,797,684,613,303,288,68.1496,39.4850,36.3734,94.3953
+2024/2025,Male,ALL,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,1110,842,665,595,261,247,68.0683,39.4040,32.2296,94.1781
+2024/2025,Male,ALL,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,1326,1006,809,721,332,306,68.0265,39.2922,33.6661,91.6442
+2024/2025,Male,ALL,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,1090,828,662,591,294,273,68.1762,39.3570,36.4745,92.0973
+2024/2025,Male,ALL,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,1188,903,754,673,334,297,68.2232,39.3379,36.3194,88.4718
+2024/2025,Male,ALL,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,1641,1344,1023,915,445,406,73.4652,39.3831,35.6528,90.7445
+2024/2025,Male,ALL,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,1514,1241,926,825,383,352,73.5596,39.2546,33.9413,91.3551
+2024/2025,Male,ALL,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,1236,1010,788,706,312,296,73.3042,39.4786,32.4953,94.2693
+2024/2025,Male,ALL,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,1635,1339,1002,898,414,381,73.4795,39.4872,33.9194,91.5767
+2024/2025,Male,ALL,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,1579,1295,987,878,437,397,73.5760,39.2113,36.3095,90.3689
+2024/2025,Male,ALL,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,1869,1529,1120,1001,429,401,73.3985,39.3840,31.3893,93.1106
+2024/2025,Male,ALL,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,1966,1612,1216,1083,519,474,73.5466,39.2512,35.0242,90.8621
+2024/2025,Male,ALL,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,1698,1392,1064,946,443,409,73.5857,39.1724,34.1379,91.9192
+2024/2025,Male,ALL,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,1700,1390,1090,975,488,463,73.3784,39.3939,36.7677,94.3223
+2024/2025,Male,ALL,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,1461,1195,898,803,363,330,73.4259,39.4113,33.1971,90.3941
+2024/2025,Male,ALL,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,1477,1210,956,855,437,403,73.4890,39.4009,37.4808,91.8033
+2024/2025,Male,ALL,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,1553,1271,935,838,369,345,73.4001,39.4819,32.3391,93.2039
+2024/2025,Male,ALL,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,2005,1643,1223,1095,519,474,73.5245,39.4358,34.8139,90.8621
+2024/2025,Male,ALL,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,1558,1275,967,863,429,400,73.4375,39.3318,36.3705,92.9019
+2024/2025,Male,ALL,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,1867,1532,1168,1043,519,482,73.6232,39.3463,36.4551,92.4138
+2024/2025,Male,Disabled,NABTEB,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,7,6,4,5,3,3,72.7273,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,8,7,5,5,3,3,75.0000,42.8571,42.8571,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,7,6,4,5,3,2,72.7273,50.0000,50.0000,66.6667
+2024/2025,Male,Disabled,NABTEB,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,8,7,4,3,3,3,75.0000,33.3333,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Aku,South East,Imo,Okigwe,Aku,,7,6,4,3,3,3,72.7273,33.3333,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Amuro,South East,Imo,Okigwe,Amuro,,9,8,5,5,3,2,76.9231,42.8571,42.8571,66.6667
+2024/2025,Male,Disabled,NABTEB,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,9,8,6,5,3,3,78.5714,37.5000,37.5000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,7,6,4,3,3,3,72.7273,33.3333,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,9,7,5,5,3,3,69.2308,42.8571,42.8571,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,7,6,4,3,3,3,72.7273,33.3333,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,7,6,4,3,4,4,72.7273,33.3333,66.6667,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Egbu,South East,Imo,Owerri North,Egbu,,7,6,4,3,2,2,72.7273,40.0000,40.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,9,7,5,5,4,4,69.2308,42.8571,57.1429,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,7,6,4,3,4,4,72.7273,40.0000,80.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,7,6,4,3,4,4,72.7273,33.3333,66.6667,100.0000
+2024/2025,Male,Disabled,NECO,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,92,71,57,53,22,22,69.1176,41.0256,32.0513,96.0000
+2024/2025,Male,Disabled,NECO,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,109,84,67,58,22,22,68.9441,38.4615,27.4725,96.0000
+2024/2025,Male,Disabled,NECO,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,72,56,43,38,22,22,69.1589,38.9831,42.3729,96.0000
+2024/2025,Male,Disabled,NECO,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,106,81,67,58,22,22,68.7898,38.4615,27.4725,96.0000
+2024/2025,Male,Disabled,NECO,ward,Aku,South East,Imo,Okigwe,Aku,,87,66,57,53,22,22,68.2171,41.0256,32.0513,96.0000
+2024/2025,Male,Disabled,NECO,ward,Amuro,South East,Imo,Okigwe,Amuro,,118,91,73,65,24,23,69.1429,39.0000,27.0000,96.2963
+2024/2025,Male,Disabled,NECO,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,128,99,81,73,34,31,69.4737,39.6396,34.2342,89.4737
+2024/2025,Male,Disabled,NECO,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,109,84,67,58,21,18,68.9441,38.4615,26.3736,83.3333
+2024/2025,Male,Disabled,NECO,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,123,94,77,70,31,31,68.6813,40.0000,33.3333,97.1429
+2024/2025,Male,Disabled,NECO,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,80,61,50,45,22,22,68.6441,39.7059,36.7647,96.0000
+2024/2025,Male,Disabled,NECO,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,94,71,62,55,22,22,67.6259,39.2857,29.7619,96.0000
+2024/2025,Male,Disabled,NECO,ward,Egbu,South East,Imo,Owerri North,Egbu,,99,76,60,53,25,24,68.7075,39.0244,34.1463,96.4286
+2024/2025,Male,Disabled,NECO,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,106,81,63,55,26,24,68.7898,38.3721,33.7209,93.1034
+2024/2025,Male,Disabled,NECO,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,94,71,60,53,28,24,67.6259,39.0244,37.8049,87.0968
+2024/2025,Male,Disabled,NECO,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,101,79,65,58,28,24,70.0000,39.3258,34.8315,87.0968
+2024/2025,Male,Disabled,WAEC,ward,Amuzu,South East,Imo,Aboh Mbaise,Amuzu,,127,103,79,72,30,27,72.8723,40.1869,30.8411,90.9091
+2024/2025,Male,Disabled,WAEC,ward,Enyiogugu,South East,Imo,Aboh Mbaise,Enyiogugu,,143,118,85,77,23,22,73.9336,39.6552,22.4138,96.1538
+2024/2025,Male,Disabled,WAEC,ward,Ibeku,South East,Imo,Aboh Mbaise,Ibeku,,112,90,73,65,23,22,72.1212,39.3939,26.2626,96.1538
+2024/2025,Male,Disabled,WAEC,ward,Agbobu,South East,Imo,Okigwe,Agbobu,,151,123,91,83,30,27,73.0942,40.3226,26.6129,90.9091
+2024/2025,Male,Disabled,WAEC,ward,Aku,South East,Imo,Okigwe,Aku,,130,106,87,77,30,27,73.4375,38.9831,27.9661,90.9091
+2024/2025,Male,Disabled,WAEC,ward,Amuro,South East,Imo,Okigwe,Amuro,,174,142,106,92,36,34,73.1518,37.9310,27.5862,95.0000
+2024/2025,Male,Disabled,WAEC,ward,Amaifeke,South East,Imo,Orlu,Amaifeke,,197,164,119,108,42,34,74.3151,40.1235,29.0123,80.8511
+2024/2025,Male,Disabled,WAEC,ward,Ebenese/Umueze/Nnachi Ihioma,South East,Imo,Orlu,Ebenese/Umueze/Nnachi Ihioma,,150,123,95,83,36,34,73.4234,38.4615,30.7692,95.0000
+2024/2025,Male,Disabled,WAEC,ward,Eziachi/Amike,South East,Imo,Orlu,Eziachi/Amike,,161,131,106,95,36,32,73.1092,39.3103,27.5862,90.0000
+2024/2025,Male,Disabled,WAEC,ward,Agbala/Obube/Ulakwo,South East,Imo,Owerri North,Agbala/Obube/Ulakwo,,112,93,69,62,23,22,74.5455,39.3617,27.6596,96.1538
+2024/2025,Male,Disabled,WAEC,ward,Awaka/Ihitte-Ogada,South East,Imo,Owerri North,Awaka/Ihitte-Ogada,,122,98,83,73,23,22,72.2222,38.9381,23.0088,96.1538
+2024/2025,Male,Disabled,WAEC,ward,Egbu,South East,Imo,Owerri North,Egbu,,143,115,87,77,23,22,72.0379,38.9831,22.0339,96.1538
+2024/2025,Male,Disabled,WAEC,ward,Amakohia-Ubi/Ndegwu Ohii,South East,Imo,Owerri West,Amakohia-Ubi/Ndegwu Ohii,,153,125,92,83,30,28,73.4513,39.6825,26.1905,93.9394
+2024/2025,Male,Disabled,WAEC,ward,Avu/Oforola,South East,Imo,Owerri West,Avu/Oforola,,137,112,92,83,36,34,72.9064,39.6825,31.7460,95.0000
+2024/2025,Male,Disabled,WAEC,ward,Emeabiam/Okolochi,South East,Imo,Owerri West,Emeabiam/Okolochi,,148,123,91,83,36,34,74.4292,40.3226,32.2581,95.0000

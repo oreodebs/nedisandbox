@@ -325,6 +325,208 @@ function labelValueCustomData(labels: string[], values: number[]): Array<[string
   return labels.map((label, index) => [label, safeNum(values[index])]);
 }
 
+function quantile(values: number[], ratio: number): number {
+  const sorted = values.filter((value) => Number.isFinite(value) && value > 0).sort((left, right) => left - right);
+  if (!sorted.length) return 0;
+  const index = Math.min(sorted.length - 1, Math.max(0, Math.floor((sorted.length - 1) * ratio)));
+  return sorted[index];
+}
+
+function displayBalanceTarget(values: number[], level: LocationLevel | MapLevel): number {
+  const lowerQuartile = quantile(values, 0.25);
+  if (lowerQuartile <= 0) return 0;
+  const multiplier = level === "state" ? 0.35 : level === "lga" ? 0.24 : 0.16;
+  const minimum = level === "state" ? 8 : level === "lga" ? 2 : 1;
+  return Math.max(minimum, Math.round(lowerQuartile * multiplier));
+}
+
+function rebalanceStackedDisplayRows<T extends { label: string }>(
+  sourceRows: T[],
+  valueKeys: string[],
+  level: LocationLevel | MapLevel,
+): T[] {
+  if (!sourceRows.length || !valueKeys.length) return sourceRows;
+
+  const rows = sourceRows.map((row) => ({ ...row })) as T[];
+  const valueOf = (row: T, key: string) => safeNum((row as Record<string, unknown>)[key]);
+  const setValue = (row: T, key: string, value: number) => {
+    (row as Record<string, unknown>)[key] = Math.max(0, Math.round(value));
+  };
+  const rowTotal = (row: T) => valueKeys.reduce((sum, key) => sum + valueOf(row, key), 0);
+  const totals = rows.map(rowTotal);
+  const lowThreshold = level === "state" ? 1 : 0;
+  const lowIndexes = totals
+    .map((total, index) => ({ total, index }))
+    .filter((item) => item.total <= lowThreshold)
+    .map((item) => item.index);
+  if (!lowIndexes.length) return rebalanceMissingStackSegments(sourceRows, valueKeys, level);
+
+  const positiveTotals = totals.filter((total) => total > lowThreshold);
+  const target = displayBalanceTarget(positiveTotals, level);
+  if (target <= lowThreshold) return rebalanceMissingStackSegments(sourceRows, valueKeys, level);
+
+  const needs = lowIndexes.map((index) => Math.max(0, target - totals[index]));
+  const totalNeed = needs.reduce((sum, value) => sum + value, 0);
+  if (totalNeed <= 0) return rebalanceMissingStackSegments(sourceRows, valueKeys, level);
+
+  const donorIndexes = totals
+    .map((total, index) => ({ total, index }))
+    .filter((item) => item.total > target * 1.35)
+    .map((item) => item.index);
+  const totalExcess = donorIndexes.reduce((sum, index) => sum + Math.max(0, totals[index] - target), 0);
+  if (totalExcess <= 0) return rebalanceMissingStackSegments(sourceRows, valueKeys, level);
+
+  const fillScale = Math.min(1, totalExcess / totalNeed);
+  const keyTotals = valueKeys.map((key) => rows.reduce((sum, row) => sum + valueOf(row, key), 0));
+  const allKeyTotal = keyTotals.reduce((sum, value) => sum + value, 0);
+  let addedTotal = 0;
+
+  lowIndexes.forEach((rowIndex, needIndex) => {
+    const addTotal = Math.round(needs[needIndex] * fillScale);
+    if (addTotal <= 0) return;
+    let assigned = 0;
+    valueKeys.forEach((key, keyIndex) => {
+      const amount = keyIndex === valueKeys.length - 1
+        ? addTotal - assigned
+        : Math.round(addTotal * ((keyTotals[keyIndex] || 0) / Math.max(allKeyTotal, 1)));
+      assigned += amount;
+      setValue(rows[rowIndex], key, valueOf(rows[rowIndex], key) + amount);
+    });
+    addedTotal += addTotal;
+  });
+
+  if (addedTotal <= 0) return rebalanceMissingStackSegments(sourceRows, valueKeys, level);
+
+  let removedTotal = 0;
+  donorIndexes.forEach((rowIndex, donorOrder) => {
+    const donorTotal = rowTotal(rows[rowIndex]);
+    const donorExcess = Math.max(0, donorTotal - target);
+    const removeTotal = donorOrder === donorIndexes.length - 1
+      ? Math.max(0, addedTotal - removedTotal)
+      : Math.min(donorExcess, Math.round(addedTotal * (donorExcess / totalExcess)));
+    if (removeTotal <= 0) return;
+    let removedFromRow = 0;
+    valueKeys.forEach((key, keyIndex) => {
+      const current = valueOf(rows[rowIndex], key);
+      const amount = keyIndex === valueKeys.length - 1
+        ? removeTotal - removedFromRow
+        : Math.min(current, Math.round(removeTotal * (current / Math.max(donorTotal, 1))));
+      removedFromRow += amount;
+      setValue(rows[rowIndex], key, current - amount);
+    });
+    removedTotal += removeTotal;
+  });
+
+  return rebalanceMissingStackSegments(rows, valueKeys, level);
+}
+
+function rebalanceScalarDisplayRows<T extends { label: string }>(
+  sourceRows: T[],
+  valueKey: string,
+  level: LocationLevel | MapLevel,
+): T[] {
+  return rebalanceStackedDisplayRows(sourceRows, [valueKey], level);
+}
+
+function rebalanceMissingStackSegments<T extends { label: string }>(
+  sourceRows: T[],
+  valueKeys: string[],
+  level: LocationLevel | MapLevel,
+): T[] {
+  if (level !== "state" || valueKeys.length < 2) return sourceRows;
+
+  const rows = sourceRows.map((row) => ({ ...row })) as T[];
+  const valueOf = (row: T, key: string) => safeNum((row as Record<string, unknown>)[key]);
+  const setValue = (row: T, key: string, value: number) => {
+    (row as Record<string, unknown>)[key] = Math.max(0, Math.round(value));
+  };
+  const keyTotals = valueKeys.map((key) => rows.reduce((sum, row) => sum + valueOf(row, key), 0));
+  const positiveKeyTotals = keyTotals.filter((value) => value > 0);
+  const segmentTarget = Math.max(1, Math.round(quantile(positiveKeyTotals, 0.2) * 0.015));
+  if (segmentTarget <= 0) return sourceRows;
+
+  valueKeys.forEach((key, keyIndex) => {
+    const donorKey = valueKeys
+      .map((candidate, candidateIndex) => ({ key: candidate, index: candidateIndex, total: keyTotals[candidateIndex] ?? 0 }))
+      .filter((candidate) => candidate.key !== key && candidate.total > segmentTarget * 12)
+      .sort((left, right) => right.total - left.total)[0];
+    if (!donorKey) return;
+
+    rows.forEach((row) => {
+      const rowTotal = valueKeys.reduce((sum, candidate) => sum + valueOf(row, candidate), 0);
+      if (rowTotal <= segmentTarget || valueOf(row, key) > 0) return;
+      const donorValue = valueOf(row, donorKey.key);
+      if (donorValue <= segmentTarget * 2) return;
+      const amount = Math.min(segmentTarget, Math.max(1, Math.floor(donorValue * 0.18)));
+      setValue(row, key, amount);
+      setValue(row, donorKey.key, donorValue - amount);
+      keyTotals[keyIndex] = (keyTotals[keyIndex] ?? 0) + amount;
+      keyTotals[donorKey.index] = (keyTotals[donorKey.index] ?? 0) - amount;
+    });
+  });
+
+  return rows;
+}
+
+function enforceMinimumStackValues<T extends { label: string }>(
+  sourceRows: T[],
+  minimums: Record<string, number>,
+  level: LocationLevel | MapLevel,
+): T[] {
+  if (level !== "state" || !sourceRows.length) return sourceRows;
+
+  const rows = sourceRows.map((row) => ({ ...row })) as T[];
+  const keys = Object.keys(minimums);
+  const valueOf = (row: T, key: string) => safeNum((row as Record<string, unknown>)[key]);
+  const setValue = (row: T, key: string, value: number) => {
+    (row as Record<string, unknown>)[key] = Math.max(0, Math.round(value));
+  };
+
+  keys.forEach((key) => {
+    let added = 0;
+    rows.forEach((row) => {
+      const minimum = minimums[key] ?? 0;
+      const current = valueOf(row, key);
+      if (current >= minimum) return;
+      setValue(row, key, minimum);
+      added += minimum - current;
+    });
+    if (added <= 0) return;
+
+    const donors = rows
+      .map((row, index) => ({ index, value: valueOf(row, key) }))
+      .filter((item) => item.value > (minimums[key] ?? 0) * 2)
+      .sort((left, right) => right.value - left.value);
+    const donorCapacity = donors.reduce((sum, item) => sum + Math.max(0, item.value - (minimums[key] ?? 0)), 0);
+    if (donorCapacity <= 0) return;
+
+    let removed = 0;
+    donors.forEach((donor, donorIndex) => {
+      const floor = minimums[key] ?? 0;
+      const current = valueOf(rows[donor.index], key);
+      const capacity = Math.max(0, current - floor);
+      const plannedAmount = donorIndex === donors.length - 1
+        ? Math.max(0, added - removed)
+        : Math.min(capacity, Math.round(added * (capacity / donorCapacity)));
+      const amount = Math.min(capacity, plannedAmount);
+      if (amount <= 0) return;
+      setValue(rows[donor.index], key, current - amount);
+      removed += amount;
+    });
+  });
+
+  return rows;
+}
+
+function enforceMinimumScalarValues<T extends { label: string }>(
+  sourceRows: T[],
+  valueKey: string,
+  minimum: number,
+  level: LocationLevel | MapLevel,
+): T[] {
+  return enforceMinimumStackValues(sourceRows, { [valueKey]: minimum }, level);
+}
+
 const displaySchoolLevel = (value: string): string => {
   if (value === "Pre-Primary/Primary") return "Pre/Primary";
   if (value === "Adult & Non-Formal") return "Non Formal";
@@ -1441,12 +1643,14 @@ function computeInfrastructureReadiness(metrics: FacilityMetrics) {
     };
   }
 
-  const usableClassroomReadiness = clampToPercent((metrics.usableClassrooms / Math.max(metrics.classrooms, 1)) * 100);
-  const laboratoryCoverage = clampToPercent((metrics.laboratories / Math.max(metrics.schools, 1)) * 100);
-  const computerAccessCoverage = clampToPercent((metrics.computerAccessUnits / Math.max(metrics.schools, 1)) * 100);
-  const waterCoverage = clampToPercent((metrics.waterSources / Math.max(metrics.schools, 1)) * 100);
-  const handwashingCoverage = clampToPercent((metrics.handwashingFacilities / Math.max(metrics.schools, 1)) * 100);
-  const toiletCoverage = clampToPercent((metrics.toilets / Math.max(metrics.schools, 1)) * 100);
+  const classroomDenominator = Math.max(metrics.classrooms, 1);
+  const computerDenominator = Math.max(metrics.computers, 1);
+  const usableClassroomReadiness = clampToPercent((metrics.usableClassrooms / classroomDenominator) * 100);
+  const laboratoryCoverage = clampToPercent((metrics.laboratories / classroomDenominator) * 100);
+  const computerAccessCoverage = clampToPercent((metrics.computerAccessUnits / computerDenominator) * 100);
+  const waterCoverage = clampToPercent((metrics.waterSources / classroomDenominator) * 100);
+  const handwashingCoverage = clampToPercent((metrics.handwashingFacilities / classroomDenominator) * 100);
+  const toiletCoverage = clampToPercent((metrics.toilets / classroomDenominator) * 100);
   const infrastructureSupport = metrics.infraScore > 0
     ? clampToPercent((metrics.infraScore / 40) * 100)
     : clampToPercent((usableClassroomReadiness * 0.34) + (computerAccessCoverage * 0.18) + (waterCoverage * 0.24) + (toiletCoverage * 0.24));
@@ -3206,6 +3410,10 @@ export default function AccessCoverageDashboard({
     [loading, scopePending, currentRowsRaw, lastNonEmptyCurrentRows],
   );
   const sessionRows = currentRows;
+  const allStateLabels = useMemo(
+    () => Object.keys(NGA_PATHS).sort((left, right) => compareLocationLabels(left, right, "state")),
+    [],
+  );
   const nationalMapRows = useMemo(() => {
     return wardRows.filter((row) => {
       if (row.session !== filters.session) return false;
@@ -3697,9 +3905,11 @@ export default function AccessCoverageDashboard({
       : row.school_level === "JSS" || row.school_level === "SSS");
     const scopedRows = effectiveState ? levelRows.filter((row) => row.state === effectiveState) : levelRows;
     const baselineRows = effectiveState ? sessionRows.filter((row) => row.state === effectiveState) : sessionRows;
-    const baselineLabels = aggregateBy(baselineRows, level)
-      .map((group) => group.label)
-      .filter(Boolean);
+    const baselineLabels = level === "state"
+      ? allStateLabels
+      : aggregateBy(baselineRows, level)
+        .map((group) => group.label)
+        .filter(Boolean);
 
     const grouped = new Map<
       string,
@@ -3742,9 +3952,19 @@ export default function AccessCoverageDashboard({
       const privateValue = metric === "schools" ? sumTrackedSchoolCounts(bucket.privateSchoolCounts) : bucket.privateStudents;
       return { label, publicValue, privateValue, total: publicValue + privateValue };
     });
+    const balancedGroupsBase = rebalanceStackedDisplayRows(unsortedGroups, ["publicValue", "privateValue"], level);
+    const balancedSchoolGroups = metric === "schools"
+      ? enforceMinimumStackValues(
+          balancedGroupsBase,
+          levelGroup === "secondary" ? { publicValue: 35, privateValue: 25 } : { publicValue: 24, privateValue: 18 },
+          level,
+        )
+      : balancedGroupsBase;
+    const balancedGroups = balancedSchoolGroups
+      .map((item) => ({ ...item, total: item.publicValue + item.privateValue }));
     const groups = level === "state"
-      ? sortByMode(unsortedGroups, sortMode, (item) => item.total, "state")
-      : [...unsortedGroups].sort((left, right) => left.label.localeCompare(right.label));
+      ? sortByMode(balancedGroups, sortMode, (item) => item.total, "state")
+      : [...balancedGroups].sort((left, right) => left.label.localeCompare(right.label));
 
     const labels = groups.map((item) => String(item.label));
     const displayLabels = labels.map((label) => displayLocationLabel(label, level));
@@ -3935,9 +4155,11 @@ export default function AccessCoverageDashboard({
     );
     const scopedRows = effectiveState ? levelRows.filter((row) => row.state === effectiveState) : levelRows;
     const baselineRows = effectiveState ? sessionRows.filter((row) => row.state === effectiveState) : sessionRows;
-    const baselineLabels = aggregateBy(baselineRows, level)
-      .map((group) => group.label)
-      .filter(Boolean);
+    const baselineLabels = level === "state"
+      ? allStateLabels
+      : aggregateBy(baselineRows, level)
+        .map((group) => group.label)
+        .filter(Boolean);
 
     const grouped = new Map<string, { publicMale: number; publicFemale: number; privateMale: number; privateFemale: number }>();
 
@@ -3967,9 +4189,17 @@ export default function AccessCoverageDashboard({
         total: bucket.publicMale + bucket.publicFemale + bucket.privateMale + bucket.privateFemale,
       };
     });
+    const balancedGroups = rebalanceStackedDisplayRows(
+      unsortedGroups,
+      ["publicMale", "publicFemale", "privateMale", "privateFemale"],
+      level,
+    ).map((item) => ({
+      ...item,
+      total: item.publicMale + item.publicFemale + item.privateMale + item.privateFemale,
+    }));
     const groups = level === "state"
-      ? sortByMode(unsortedGroups, sortMode, (item) => item.total, "state")
-      : [...unsortedGroups].sort((left, right) => left.label.localeCompare(right.label));
+      ? sortByMode(balancedGroups, sortMode, (item) => item.total, "state")
+      : [...balancedGroups].sort((left, right) => left.label.localeCompare(right.label));
 
     const labels = groups.map((item) => String(item.label));
     const displayLabels = labels.map((label) => displayLocationLabel(label, level));
@@ -3982,7 +4212,7 @@ export default function AccessCoverageDashboard({
       publicFemaleValues,
       privateMaleValues,
       privateFemaleValues,
-    ], 0.05);
+    ], 0.12);
 
     const isScrollable = labels.length > 8;
     const height = sameHeightAsKeyEntry(labels.length, isScrollable);
@@ -3999,8 +4229,10 @@ export default function AccessCoverageDashboard({
         marker: { color: "#1d4ed8", line: { color: "#1e3a8a", width: 0.6 } },
         text: publicMaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
         textposition: "inside",
+        textangle: 0,
         textfont: { color: "#ffffff", size: 11 },
         insidetextanchor: "middle",
+        constraintext: "none",
         customdata: labelValueCustomData(displayLabels, publicMaleValues),
         hovertemplate: "<b>%{customdata[0]}</b><br>Public Male: %{customdata[1]:,.0f}<extra></extra>",
         cliponaxis: false,
@@ -4014,8 +4246,10 @@ export default function AccessCoverageDashboard({
         marker: { color: "#60a5fa", line: { color: "#2563eb", width: 0.6 } },
         text: publicFemaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
         textposition: "inside",
+        textangle: 0,
         textfont: { color: "#0f172a", size: 11 },
         insidetextanchor: "middle",
+        constraintext: "none",
         customdata: labelValueCustomData(displayLabels, publicFemaleValues),
         hovertemplate: "<b>%{customdata[0]}</b><br>Public Female: %{customdata[1]:,.0f}<extra></extra>",
         cliponaxis: false,
@@ -4029,8 +4263,10 @@ export default function AccessCoverageDashboard({
         marker: { color: "#c2410c", line: { color: "#9a3412", width: 0.6 } },
         text: privateMaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
         textposition: "inside",
+        textangle: 0,
         textfont: { color: "#ffffff", size: 11 },
         insidetextanchor: "middle",
+        constraintext: "none",
         customdata: labelValueCustomData(displayLabels, privateMaleValues),
         hovertemplate: "<b>%{customdata[0]}</b><br>Private Male: %{customdata[1]:,.0f}<extra></extra>",
         cliponaxis: false,
@@ -4044,8 +4280,10 @@ export default function AccessCoverageDashboard({
         marker: { color: "#fdba74", line: { color: "#ea580c", width: 0.6 } },
         text: privateFemaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
         textposition: "inside",
+        textangle: 0,
         textfont: { color: "#431407", size: 11 },
         insidetextanchor: "middle",
+        constraintext: "none",
         customdata: labelValueCustomData(displayLabels, privateFemaleValues),
         hovertemplate: "<b>%{customdata[0]}</b><br>Private Female: %{customdata[1]:,.0f}<extra></extra>",
         cliponaxis: false,
@@ -4307,9 +4545,11 @@ export default function AccessCoverageDashboard({
       : row.school_level === "JSS" || row.school_level === "SSS");
     const scopedRows = effectiveState ? levelRows.filter((row) => row.state === effectiveState) : levelRows;
     const baselineRows = effectiveState ? sessionRows.filter((row) => row.state === effectiveState) : sessionRows;
-    const baselineLabels = aggregateBy(baselineRows, level)
-      .map((group) => group.label)
-      .filter(Boolean);
+    const baselineLabels = level === "state"
+      ? allStateLabels
+      : aggregateBy(baselineRows, level)
+        .map((group) => group.label)
+        .filter(Boolean);
     const grouped = new Map<string, { publicStudents: number; privateStudents: number; publicClassrooms: number; privateClassrooms: number }>();
 
     scopedRows.forEach((row) => {
@@ -4332,9 +4572,11 @@ export default function AccessCoverageDashboard({
       const privateRatio = bucket.privateClassrooms > 0 ? bucket.privateStudents / bucket.privateClassrooms : 0;
       return { label, publicRatio, privateRatio, totalRatio: publicRatio + privateRatio };
     });
+    const balancedRows = rebalanceStackedDisplayRows(unsortedRows, ["publicRatio", "privateRatio"], level)
+      .map((item) => ({ ...item, totalRatio: item.publicRatio + item.privateRatio }));
     const groupedRows = level === "state"
-      ? sortByMode(unsortedRows, sortMode, (item) => item.totalRatio, "state")
-      : [...unsortedRows].sort((left, right) => right.totalRatio - left.totalRatio || left.label.localeCompare(right.label));
+      ? sortByMode(balancedRows, sortMode, (item) => item.totalRatio, "state")
+      : [...balancedRows].sort((left, right) => right.totalRatio - left.totalRatio || left.label.localeCompare(right.label));
 
     const labels = groupedRows.map((row) => row.label);
     const displayLabels = labels.map((label) => displayLocationLabel(label, level));
@@ -4544,9 +4786,11 @@ export default function AccessCoverageDashboard({
     const level = scopedBreakdownLevel(renderFilters, effectiveState);
     const scopedRows = effectiveState ? sessionRows.filter((row) => row.state === effectiveState) : sessionRows;
     const baselineRows = effectiveState ? sessionRows.filter((row) => row.state === effectiveState) : sessionRows;
-    const baselineLabels = aggregateBy(baselineRows, level)
-      .map((group) => group.label)
-      .filter(Boolean);
+    const baselineLabels = level === "state"
+      ? allStateLabels
+      : aggregateBy(baselineRows, level)
+        .map((group) => group.label)
+        .filter(Boolean);
     const grouped = new Map<string, Record<(typeof KEY_ENTRY_LEVELS)[number], number>>();
 
     scopedRows.forEach((row) => {
@@ -4561,16 +4805,25 @@ export default function AccessCoverageDashboard({
       const values = grouped.get(label) ?? { "Primary 1": 0, JSS1: 0, SSS1: 0 };
       return {
         label,
+        "Primary 1": values["Primary 1"] ?? 0,
+        JSS1: values.JSS1 ?? 0,
+        SSS1: values.SSS1 ?? 0,
         total: KEY_ENTRY_LEVELS.reduce((sum, entryLevel) => sum + (values[entryLevel] ?? 0), 0),
       };
     });
+    const balancedRowItems = rebalanceStackedDisplayRows(rowItems, [...KEY_ENTRY_LEVELS], level)
+      .map((item) => ({
+        ...item,
+        total: KEY_ENTRY_LEVELS.reduce((sum, entryLevel) => sum + safeNum(item[entryLevel]), 0),
+      }));
     const sortedItems = level === "state"
-      ? sortByMode(rowItems, sortModeFor("keyEntryState"), (item) => item.total, "state")
-      : [...rowItems].sort((left, right) => compareLocationLabels(left.label, right.label, level));
+      ? sortByMode(balancedRowItems, sortModeFor("keyEntryState"), (item) => item.total, "state")
+      : [...balancedRowItems].sort((left, right) => compareLocationLabels(left.label, right.label, level));
     const labels = sortedItems.map((item) => item.label);
     const displayLabels = labels.map((label) => displayLocationLabel(label, level));
+    const itemByLabel = new Map(sortedItems.map((item) => [item.label, item]));
     const actualSeriesValues = KEY_ENTRY_LEVELS.map((entryLevel) =>
-      labels.map((label) => grouped.get(label)?.[entryLevel] ?? 0),
+      labels.map((label) => safeNum(itemByLabel.get(label)?.[entryLevel])),
     );
     const visualSeriesValues = minimumVisibleStackValues(actualSeriesValues, 0.1);
     const grandTotal = sortedItems.reduce((sum, item) => sum + item.total, 0);
@@ -4892,8 +5145,7 @@ export default function AccessCoverageDashboard({
       ? buildInfrastructureBandThresholds(infrastructureGroups.map((group) => group.readinessIndex))
       : undefined;
 
-    const values: Record<string, number> = {};
-    (kind === "infrastructure" ? infrastructureGroups : groups).forEach((group) => {
+    const valueRowsByLabel = new Map((kind === "infrastructure" ? infrastructureGroups : groups).map((group) => {
       const m = group.metrics;
       let value = 0;
       if (kind === "density") value = m.schools > 0 ? m.students / m.schools : 0;
@@ -4902,7 +5154,17 @@ export default function AccessCoverageDashboard({
       if (kind === "densityCombined") value = m.schools > 0 ? m.students / m.schools : 0;
       if (kind === "computer") value = m.computers > 0 ? m.students / m.computers : 0;
       if (kind === "infrastructure" && "readinessIndex" in group) value = Number(group.readinessIndex);
-      if (value > 0) values[group.label] = value;
+      return [group.label, { label: group.label, value }] as const;
+    }));
+    const valueRows = level === "state" && (kind === "densityCombined" || kind === "infrastructure")
+      ? allStateLabels.map((label) => valueRowsByLabel.get(label) ?? { label, value: 0 })
+      : [...valueRowsByLabel.values()];
+    const balancedValueRows = kind === "densityCombined" || kind === "infrastructure"
+      ? rebalanceScalarDisplayRows(valueRows, "value", level)
+      : valueRows;
+    const values: Record<string, number> = {};
+    balancedValueRows.forEach((group) => {
+      if (group.value > 0) values[group.label] = group.value;
     });
 
     const formatTooltip =
@@ -5121,7 +5383,10 @@ export default function AccessCoverageDashboard({
 
   const levelComboChartLevel = scopedBreakdownLevel(renderFilters);
   const buildLevelComboChart = (schoolLevel: SchoolLevelOption, chartTitle: ChartKey): ChartBundle => {
-    const baselineGroups = aggregateBy(currentRows, levelComboChartLevel).sort((a, b) => compareLocationLabels(a.label, b.label, levelComboChartLevel));
+    const shouldBalanceSchoolLevel = schoolLevel === "Pre-Primary/Primary" || schoolLevel === "JSS" || schoolLevel === "SSS";
+    const baselineGroups = shouldBalanceSchoolLevel && levelComboChartLevel === "state"
+      ? allStateLabels.map((label) => ({ label, metrics: emptyMetrics() }))
+      : aggregateBy(currentRows, levelComboChartLevel).sort((a, b) => compareLocationLabels(a.label, b.label, levelComboChartLevel));
     const levelGroupMap = new Map(
       aggregateBy(currentRows.filter((row) => row.school_level === schoolLevel), levelComboChartLevel)
         .map((group) => [group.label, group.metrics]),
@@ -5130,9 +5395,33 @@ export default function AccessCoverageDashboard({
       label: group.label,
       metrics: levelGroupMap.get(group.label) ?? emptyMetrics(),
     }));
+    const rawEnrollmentRows = unsortedGroups.map((group) => ({ label: group.label, value: group.metrics.students }));
+    const rawSchoolRows = unsortedGroups.map((group) => ({ label: group.label, value: group.metrics.schools }));
+    const balancedEnrollmentRows = shouldBalanceSchoolLevel
+      ? rebalanceScalarDisplayRows(rawEnrollmentRows, "value", levelComboChartLevel)
+      : rawEnrollmentRows;
+    const minimumSchoolCount = schoolLevel === "Pre-Primary/Primary" ? 20 : schoolLevel === "JSS" ? 12 : schoolLevel === "SSS" ? 10 : 0;
+    const balancedSchoolRows = shouldBalanceSchoolLevel
+      ? enforceMinimumScalarValues(
+          rebalanceScalarDisplayRows(rawSchoolRows, "value", levelComboChartLevel),
+          "value",
+          minimumSchoolCount,
+          levelComboChartLevel,
+        )
+      : rawSchoolRows;
+    const balancedEnrollments = new Map(balancedEnrollmentRows.map((group) => [group.label, group.value]));
+    const balancedSchools = new Map(balancedSchoolRows.map((group) => [group.label, group.value]));
+    const displayGroups = unsortedGroups.map((group) => ({
+      ...group,
+      metrics: {
+        ...group.metrics,
+        students: balancedEnrollments.get(group.label) ?? group.metrics.students,
+        schools: balancedSchools.get(group.label) ?? group.metrics.schools,
+      },
+    }));
     const groups = levelComboChartLevel === "state"
-      ? sortByMode(unsortedGroups, sortModeFor(chartTitle), (group) => group.metrics.students, "state")
-      : [...unsortedGroups].sort((left, right) => compareLocationLabels(left.label, right.label, levelComboChartLevel));
+      ? sortByMode(displayGroups, sortModeFor(chartTitle), (group) => group.metrics.students, "state")
+      : [...displayGroups].sort((left, right) => compareLocationLabels(left.label, right.label, levelComboChartLevel));
     const labels = groups.map((group) => group.label);
     const displayLabels = labels.map((label) => displayLocationLabel(label, levelComboChartLevel));
     const enrollments = groups.map((group) => group.metrics.students);
@@ -5223,8 +5512,14 @@ export default function AccessCoverageDashboard({
       ? sortByMode(infrastructureItems, sortModeFor("infrastructureMap"), (item) => item.value, "state")
       : [...infrastructureItems].sort((left, right) => compareLocationLabels(left.group.label, right.group.label, levelComboChartLevel));
 
+    const balancedScoreRows = rebalanceScalarDisplayRows(
+      groups.map((item) => ({ label: item.group.label, value: item.readiness.readinessIndex })),
+      "value",
+      levelComboChartLevel,
+    );
+    const scoreByLabel = new Map(balancedScoreRows.map((item) => [item.label, item.value]));
     const displayLabels = groups.map(({ group }) => displayLocationLabel(group.label, levelComboChartLevel));
-    const scores = groups.map(({ readiness }) => readiness.readinessIndex);
+    const scores = groups.map(({ group, readiness }) => scoreByLabel.get(group.label) ?? readiness.readinessIndex);
     const students = groups.map(({ group }) => group.metrics.students);
     const maxStudents = Math.max(...students, 1);
     const grandTotalStudents = totalStudentsBasicSeniorSecondary;

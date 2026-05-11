@@ -1,541 +1,541 @@
-session,gender,disability_scope,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
-2022/2023,Female,all,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,151,132,0,0,0,87.4172
-2022/2023,Female,all,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,160,146,0,0,0,91.25
-2022/2023,Female,all,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,157,151,0,0,0,96.1783
-2022/2023,Female,all,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,151,138,0,0,0,91.3907
-2022/2023,Female,all,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,148,132,0,0,0,89.1892
-2022/2023,Female,all,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,127,124,0,0,0,97.6378
-2022/2023,Female,all,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,186,166,0,0,0,89.2473
-2022/2023,Female,all,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,139,124,0,0,0,89.2086
-2022/2023,Female,all,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,154,132,0,0,0,85.7143
-2022/2023,Female,all,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,145,137,0,0,0,94.4828
-2022/2023,Female,all,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,159,141,0,0,0,88.6792
-2022/2023,Female,all,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,166,146,0,0,0,87.9518
-2022/2023,Female,all,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,200,179,0,0,0,89.5
-2022/2023,Female,all,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,118,117,0,0,0,99.1525
-2022/2023,Female,all,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,171,160,0,0,0,93.5673
-2022/2023,Female,all,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,293,258,0,0,0,88.0546
-2022/2023,Female,all,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,340,307,0,0,0,90.2941
-2022/2023,Female,all,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,305,290,0,0,0,95.082
-2022/2023,Female,all,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,347,311,0,0,0,89.6254
-2022/2023,Female,all,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,282,259,0,0,0,91.844
-2022/2023,Female,all,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,247,230,0,0,0,93.1174
-2022/2023,Female,all,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,369,337,0,0,0,91.3279
-2022/2023,Female,all,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,321,293,0,0,0,91.2773
-2022/2023,Female,all,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,325,286,0,0,0,88.0
-2022/2023,Female,all,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,293,272,0,0,0,92.8328
-2022/2023,Female,all,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,331,297,0,0,0,89.7281
-2022/2023,Female,all,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,327,300,0,0,0,91.7431
-2022/2023,Female,all,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,400,363,0,0,0,90.75
-2022/2023,Female,all,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,203,183,0,0,0,90.1478
-2022/2023,Female,all,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,354,315,0,0,0,88.9831
-2022/2023,Female,all,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,360,339,0,0,0,94.1667
-2022/2023,Female,all,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,377,356,0,0,0,94.4297
-2022/2023,Female,all,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,424,396,0,0,0,93.3962
-2022/2023,Female,all,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,399,371,0,0,0,92.9825
-2022/2023,Female,all,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,383,363,0,0,0,94.7781
-2022/2023,Female,all,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,305,283,0,0,0,92.7869
-2022/2023,Female,all,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,463,436,0,0,0,94.1685
-2022/2023,Female,all,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,402,373,0,0,0,92.7861
-2022/2023,Female,all,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,402,373,0,0,0,92.7861
-2022/2023,Female,all,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,365,339,0,0,0,92.8767
-2022/2023,Female,all,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,428,404,0,0,0,94.3925
-2022/2023,Female,all,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,486,443,0,0,0,91.1523
-2022/2023,Female,all,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,469,439,0,0,0,93.6034
-2022/2023,Female,all,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,287,269,0,0,0,93.7282
-2022/2023,Female,all,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,437,402,0,0,0,91.9908
-2022/2023,Female,disabled,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,20,19,0,0,0,95.0
-2022/2023,Female,disabled,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,21,20,0,0,0,95.2381
-2022/2023,Female,disabled,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,24,22,0,0,0,91.6667
-2022/2023,Female,disabled,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,20,19,0,0,0,95.0
-2022/2023,Female,disabled,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,21,20,0,0,0,95.2381
-2022/2023,Female,disabled,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,21,20,0,0,0,95.2381
-2022/2023,Female,disabled,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,20,17,0,0,0,85.0
-2022/2023,Female,disabled,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,20,17,0,0,0,85.0
-2022/2023,Female,disabled,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,20,17,0,0,0,85.0
-2022/2023,Female,disabled,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,20,19,0,0,0,95.0
-2022/2023,Female,disabled,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,20,19,0,0,0,95.0
-2022/2023,Female,disabled,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,20,17,0,0,0,85.0
-2022/2023,Female,disabled,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,20,17,0,0,0,85.0
-2022/2023,Female,disabled,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,20,17,0,0,0,85.0
-2022/2023,Female,disabled,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,20,17,0,0,0,85.0
-2022/2023,Female,disabled,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,20,17,0,0,0,85.0
-2022/2023,Female,disabled,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,20,17,0,0,0,85.0
-2022/2023,Female,disabled,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,20,19,0,0,0,95.0
-2022/2023,Female,disabled,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,32,29,0,0,0,90.625
-2022/2023,Female,disabled,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,20,19,0,0,0,95.0
-2022/2023,Female,disabled,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,20,19,0,0,0,95.0
-2022/2023,Female,disabled,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,30,28,0,0,0,93.3333
-2022/2023,Female,disabled,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,26,23,0,0,0,88.4615
-2022/2023,Female,disabled,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,20,17,0,0,0,85.0
-2022/2023,Female,disabled,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,20,19,0,0,0,95.0
-2022/2023,Female,disabled,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,20,19,0,0,0,95.0
-2022/2023,Female,disabled,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,20,17,0,0,0,85.0
-2022/2023,Female,disabled,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,26,23,0,0,0,88.4615
-2022/2023,Female,disabled,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,20,17,0,0,0,85.0
-2022/2023,Female,disabled,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,26,23,0,0,0,88.4615
-2022/2023,Female,disabled,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,21,20,0,0,0,95.2381
-2022/2023,Female,disabled,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,25,24,0,0,0,96.0
-2022/2023,Female,disabled,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,25,24,0,0,0,96.0
-2022/2023,Female,disabled,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,25,24,0,0,0,96.0
-2022/2023,Female,disabled,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,21,20,0,0,0,95.2381
-2022/2023,Female,disabled,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,19,17,0,0,0,89.4737
-2022/2023,Female,disabled,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,31,28,0,0,0,90.3226
-2022/2023,Female,disabled,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,27,24,0,0,0,88.8889
-2022/2023,Female,disabled,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,24,21,0,0,0,87.5
-2022/2023,Female,disabled,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,27,25,0,0,0,92.5926
-2022/2023,Female,disabled,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,31,28,0,0,0,90.3226
-2022/2023,Female,disabled,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,31,28,0,0,0,90.3226
-2022/2023,Female,disabled,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,26,25,0,0,0,96.1538
-2022/2023,Female,disabled,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,21,20,0,0,0,95.2381
-2022/2023,Female,disabled,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,30,24,0,0,0,80.0
-2022/2023,Male,all,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,1,1,1,0,154,132,100.0,0.0,15400.0,85.7143
-2022/2023,Male,all,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,1,1,1,0,162,140,100.0,0.0,16200.0,86.4198
-2022/2023,Male,all,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,1,1,1,0,166,161,100.0,0.0,16600.0,96.988
-2022/2023,Male,all,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,1,1,1,0,182,163,100.0,0.0,18200.0,89.5604
-2022/2023,Male,all,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,1,1,1,0,183,163,100.0,0.0,18300.0,89.071
-2022/2023,Male,all,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,1,0,139,124,0,0.0,13900.0,89.2086
-2022/2023,Male,all,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,1,1,1,0,189,179,100.0,0.0,18900.0,94.709
-2022/2023,Male,all,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,1,1,1,0,153,140,100.0,0.0,15300.0,91.5033
-2022/2023,Male,all,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,1,1,1,0,183,163,100.0,0.0,18300.0,89.071
-2022/2023,Male,all,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,1,1,1,0,166,155,100.0,0.0,16600.0,93.3735
-2022/2023,Male,all,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,1,1,1,0,176,155,100.0,0.0,17600.0,88.0682
-2022/2023,Male,all,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,1,1,1,0,197,179,100.0,0.0,19700.0,90.8629
-2022/2023,Male,all,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,1,1,1,0,197,179,100.0,0.0,19700.0,90.8629
-2022/2023,Male,all,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,1,0,124,123,0,0.0,12400.0,99.1935
-2022/2023,Male,all,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,1,1,1,0,189,177,100.0,0.0,18900.0,93.6508
-2022/2023,Male,all,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,1,1,1,0,327,292,100.0,0.0,32700.0,89.2966
-2022/2023,Male,all,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,1,1,1,0,345,314,100.0,0.0,34500.0,91.0145
-2022/2023,Male,all,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,1,1,1,0,307,278,100.0,0.0,30700.0,90.5537
-2022/2023,Male,all,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,1,1,1,0,389,351,100.0,0.0,38900.0,90.2314
-2022/2023,Male,all,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,1,1,1,0,347,312,100.0,0.0,34700.0,89.9135
-2022/2023,Male,all,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,1,1,1,0,276,255,100.0,0.0,27600.0,92.3913
-2022/2023,Male,all,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,1,1,1,0,362,329,100.0,0.0,36200.0,90.884
-2022/2023,Male,all,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,1,1,1,0,319,293,100.0,0.0,31900.0,91.8495
-2022/2023,Male,all,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,1,1,1,0,362,337,100.0,0.0,36200.0,93.0939
-2022/2023,Male,all,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,1,1,1,0,342,307,100.0,0.0,34200.0,89.7661
-2022/2023,Male,all,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,1,1,2,1,403,366,100.0,50.0,20150.0,90.8189
-2022/2023,Male,all,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,1,1,1,0,417,374,100.0,0.0,41700.0,89.6882
-2022/2023,Male,all,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,1,1,1,0,395,359,100.0,0.0,39500.0,90.8861
-2022/2023,Male,all,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,1,1,1,0,237,217,100.0,0.0,23700.0,91.5612
-2022/2023,Male,all,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,1,1,1,0,374,335,100.0,0.0,37400.0,89.5722
-2022/2023,Male,all,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,1,1,2,1,421,390,100.0,50.0,21050.0,92.6366
-2022/2023,Male,all,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,2,1,2,1,428,398,50.0,50.0,21400.0,92.9907
-2022/2023,Male,all,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,1,1,2,1,418,399,100.0,50.0,20900.0,95.4545
-2022/2023,Male,all,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,2,1,2,1,507,481,50.0,50.0,25350.0,94.8718
-2022/2023,Male,all,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,2,1,2,1,476,441,50.0,50.0,23800.0,92.6471
-2022/2023,Male,all,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,1,1,1,0,336,317,100.0,0.0,33600.0,94.3452
-2022/2023,Male,all,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,2,1,2,1,464,436,50.0,50.0,23200.0,93.9655
-2022/2023,Male,all,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,1,1,2,1,409,390,100.0,50.0,20450.0,95.3545
-2022/2023,Male,all,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,2,1,2,1,476,435,50.0,50.0,23800.0,91.3866
-2022/2023,Male,all,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,1,1,2,1,409,376,100.0,50.0,20450.0,91.9315
-2022/2023,Male,all,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,2,1,2,1,446,408,50.0,50.0,22300.0,91.4798
-2022/2023,Male,all,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,2,1,2,1,519,491,50.0,50.0,25950.0,94.605
-2022/2023,Male,all,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,2,1,2,1,507,477,50.0,50.0,25350.0,94.0828
-2022/2023,Male,all,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,1,1,1,0,289,262,100.0,0.0,28900.0,90.6574
-2022/2023,Male,all,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,2,1,2,1,464,430,50.0,50.0,23200.0,92.6724
-2022/2023,Male,disabled,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,30,26,0,0,0,86.6667
-2022/2023,Male,disabled,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,30,26,0,0,0,86.6667
-2022/2023,Male,disabled,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,20,19,0,0,0,95.0
-2022/2023,Male,disabled,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,20,19,0,0,0,95.0
-2022/2023,Male,disabled,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,20,19,0,0,0,95.0
-2022/2023,Male,disabled,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,25,22,0,0,0,88.0
-2022/2023,Male,disabled,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,22,21,0,0,0,95.4545
-2022/2023,Male,disabled,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,30,26,0,0,0,86.6667
-2022/2023,Male,disabled,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,21,20,0,0,0,95.2381
-2022/2023,Male,disabled,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,30,27,0,0,0,90.0
-2022/2023,Male,disabled,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,25,23,0,0,0,92.0
-2022/2023,Male,disabled,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,30,28,0,0,0,93.3333
-2022/2023,Male,disabled,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,30,28,0,0,0,93.3333
-2022/2023,Male,disabled,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,30,27,0,0,0,90.0
-2022/2023,Male,disabled,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,30,23,0,0,0,76.6667
-2022/2023,Male,disabled,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,25,23,0,0,0,92.0
-2022/2023,Male,disabled,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,35,33,0,0,0,94.2857
-2022/2023,Male,disabled,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,35,33,0,0,0,94.2857
-2022/2023,Male,disabled,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,20,17,0,0,0,85.0
-2022/2023,Male,disabled,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,25,23,0,0,0,92.0
-2022/2023,Male,disabled,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,25,23,0,0,0,92.0
-2022/2023,Male,disabled,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,35,34,0,0,0,97.1429
-2022/2023,Male,disabled,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,25,23,0,0,0,92.0
-2022/2023,Male,disabled,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,20,17,0,0,0,85.0
-2022/2023,Male,disabled,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,30,28,0,0,0,93.3333
-2023/2024,Female,all,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,129,113,0,0,0,87.5969
-2023/2024,Female,all,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,135,120,0,0,0,88.8889
-2023/2024,Female,all,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,144,139,0,0,0,96.5278
-2023/2024,Female,all,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,129,122,0,0,0,94.5736
-2023/2024,Female,all,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,120,104,0,0,0,86.6667
-2023/2024,Female,all,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,110,98,0,0,0,89.0909
-2023/2024,Female,all,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,139,128,0,0,0,92.0863
-2023/2024,Female,all,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,139,122,0,0,0,87.7698
-2023/2024,Female,all,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,129,111,0,0,0,86.0465
-2023/2024,Female,all,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,115,103,0,0,0,89.5652
-2023/2024,Female,all,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,139,126,0,0,0,90.6475
-2023/2024,Female,all,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,152,138,0,0,0,90.7895
-2023/2024,Female,all,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,156,146,0,0,0,93.5897
-2023/2024,Female,all,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,99,95,0,0,0,95.9596
-2023/2024,Female,all,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,151,145,0,0,0,96.0265
-2023/2024,Female,all,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,246,219,0,0,0,89.0244
-2023/2024,Female,all,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,252,224,0,0,0,88.8889
-2023/2024,Female,all,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,273,245,0,0,0,89.7436
-2023/2024,Female,all,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,271,245,0,0,0,90.4059
-2023/2024,Female,all,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,262,233,0,0,0,88.9313
-2023/2024,Female,all,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,213,198,0,0,0,92.9577
-2023/2024,Female,all,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,298,278,0,0,0,93.2886
-2023/2024,Female,all,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,246,225,0,0,0,91.4634
-2023/2024,Female,all,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,272,249,0,0,0,91.5441
-2023/2024,Female,all,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,224,205,0,0,0,91.5179
-2023/2024,Female,all,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,315,289,0,0,0,91.746
-2023/2024,Female,all,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,293,267,0,0,0,91.1263
-2023/2024,Female,all,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,321,288,0,0,0,89.7196
-2023/2024,Female,all,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,208,192,0,0,0,92.3077
-2023/2024,Female,all,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,298,266,0,0,0,89.2617
-2023/2024,Female,all,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,306,288,0,0,0,94.1176
-2023/2024,Female,all,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,319,302,0,0,0,94.6708
-2023/2024,Female,all,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,352,336,0,0,0,95.4545
-2023/2024,Female,all,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,338,311,0,0,0,92.0118
-2023/2024,Female,all,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,312,285,0,0,0,91.3462
-2023/2024,Female,all,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,259,237,0,0,0,91.5058
-2023/2024,Female,all,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,380,357,0,0,0,93.9474
-2023/2024,Female,all,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,366,336,0,0,0,91.8033
-2023/2024,Female,all,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,340,317,0,0,0,93.2353
-2023/2024,Female,all,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,312,296,0,0,0,94.8718
-2023/2024,Female,all,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,387,361,0,0,0,93.2817
-2023/2024,Female,all,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,404,371,0,0,0,91.8317
-2023/2024,Female,all,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,433,407,0,0,0,93.9954
-2023/2024,Female,all,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,258,242,0,0,0,93.7984
-2023/2024,Female,all,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,377,352,0,0,0,93.3687
-2023/2024,Female,disabled,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,17,16,0,0,0,94.1176
-2023/2024,Female,disabled,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,18,17,0,0,0,94.4444
-2023/2024,Female,disabled,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Female,disabled,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,18,17,0,0,0,94.4444
-2023/2024,Female,disabled,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,18,17,0,0,0,94.4444
-2023/2024,Female,disabled,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,20,18,0,0,0,90.0
-2023/2024,Female,disabled,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,17,15,0,0,0,88.2353
-2023/2024,Female,disabled,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,17,15,0,0,0,88.2353
-2023/2024,Female,disabled,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,17,15,0,0,0,88.2353
-2023/2024,Female,disabled,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,19,18,0,0,0,94.7368
-2023/2024,Female,disabled,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,17,16,0,0,0,94.1176
-2023/2024,Female,disabled,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,17,16,0,0,0,94.1176
-2023/2024,Female,disabled,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,17,16,0,0,0,94.1176
-2023/2024,Female,disabled,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,17,16,0,0,0,94.1176
-2023/2024,Female,disabled,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,17,16,0,0,0,94.1176
-2023/2024,Female,disabled,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,17,15,0,0,0,88.2353
-2023/2024,Female,disabled,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,17,16,0,0,0,94.1176
-2023/2024,Female,disabled,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,17,16,0,0,0,94.1176
-2023/2024,Female,disabled,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,17,16,0,0,0,94.1176
-2023/2024,Female,disabled,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,17,16,0,0,0,94.1176
-2023/2024,Female,disabled,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,17,15,0,0,0,88.2353
-2023/2024,Female,disabled,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,25,24,0,0,0,96.0
-2023/2024,Female,disabled,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,17,15,0,0,0,88.2353
-2023/2024,Female,disabled,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,17,15,0,0,0,88.2353
-2023/2024,Female,disabled,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,17,16,0,0,0,94.1176
-2023/2024,Female,disabled,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,17,16,0,0,0,94.1176
-2023/2024,Female,disabled,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,21,19,0,0,0,90.4762
-2023/2024,Female,disabled,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,21,19,0,0,0,90.4762
-2023/2024,Female,disabled,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,17,15,0,0,0,88.2353
-2023/2024,Female,disabled,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,21,19,0,0,0,90.4762
-2023/2024,Female,disabled,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,18,17,0,0,0,94.4444
-2023/2024,Female,disabled,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,25,24,0,0,0,96.0
-2023/2024,Female,disabled,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,23,22,0,0,0,95.6522
-2023/2024,Female,disabled,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,22,21,0,0,0,95.4545
-2023/2024,Female,disabled,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,19,18,0,0,0,94.7368
-2023/2024,Female,disabled,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,18,17,0,0,0,94.4444
-2023/2024,Female,disabled,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,26,25,0,0,0,96.1538
-2023/2024,Female,disabled,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,30,26,0,0,0,86.6667
-2023/2024,Female,disabled,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,23,22,0,0,0,95.6522
-2023/2024,Female,disabled,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,20,18,0,0,0,90.0
-2023/2024,Female,disabled,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,22,21,0,0,0,95.4545
-2023/2024,Female,disabled,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,27,22,0,0,0,81.4815
-2023/2024,Female,disabled,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,29,28,0,0,0,96.5517
-2023/2024,Female,disabled,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,20,18,0,0,0,90.0
-2023/2024,Female,disabled,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,27,22,0,0,0,81.4815
-2023/2024,Male,all,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,1,1,1,0,156,137,100.0,0.0,15600.0,87.8205
-2023/2024,Male,all,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,1,1,1,0,137,124,100.0,0.0,13700.0,90.5109
-2023/2024,Male,all,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,1,1,1,0,135,133,100.0,0.0,13500.0,98.5185
-2023/2024,Male,all,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,1,1,1,0,155,145,100.0,0.0,15500.0,93.5484
-2023/2024,Male,all,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,1,1,1,0,150,130,100.0,0.0,15000.0,86.6667
-2023/2024,Male,all,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,1,0,111,110,0,0.0,11100.0,99.0991
-2023/2024,Male,all,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,1,1,1,0,148,137,100.0,0.0,14800.0,92.5676
-2023/2024,Male,all,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,1,1,1,0,130,117,100.0,0.0,13000.0,90.0
-2023/2024,Male,all,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,1,1,1,0,156,137,100.0,0.0,15600.0,87.8205
-2023/2024,Male,all,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,1,1,1,0,137,117,100.0,0.0,13700.0,85.4015
-2023/2024,Male,all,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,1,1,1,0,163,143,100.0,0.0,16300.0,87.7301
-2023/2024,Male,all,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,1,1,1,0,179,164,100.0,0.0,17900.0,91.6201
-2023/2024,Male,all,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,1,1,1,0,187,171,100.0,0.0,18700.0,91.4439
-2023/2024,Male,all,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,1,0,111,104,0,0.0,11100.0,93.6937
-2023/2024,Male,all,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,1,1,1,0,155,143,100.0,0.0,15500.0,92.2581
-2023/2024,Male,all,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,1,1,1,0,272,244,100.0,0.0,27200.0,89.7059
-2023/2024,Male,all,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,1,1,1,0,279,250,100.0,0.0,27900.0,89.6057
-2023/2024,Male,all,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,1,1,1,0,297,265,100.0,0.0,29700.0,89.2256
-2023/2024,Male,all,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,1,1,1,0,338,309,100.0,0.0,33800.0,91.4201
-2023/2024,Male,all,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,1,1,2,1,315,294,100.0,50.0,15750.0,93.3333
-2023/2024,Male,all,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,1,1,1,0,195,175,100.0,0.0,19500.0,89.7436
-2023/2024,Male,all,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,1,1,1,0,308,283,100.0,0.0,30800.0,91.8831
-2023/2024,Male,all,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,1,1,1,0,263,237,100.0,0.0,26300.0,90.1141
-2023/2024,Male,all,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,1,1,1,0,291,257,100.0,0.0,29100.0,88.3162
-2023/2024,Male,all,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,1,1,1,0,267,237,100.0,0.0,26700.0,88.764
-2023/2024,Male,all,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,1,1,2,1,333,301,100.0,50.0,16650.0,90.3904
-2023/2024,Male,all,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,1,1,2,1,397,365,100.0,50.0,19850.0,91.9395
-2023/2024,Male,all,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,1,1,2,1,353,321,100.0,50.0,17650.0,90.9348
-2023/2024,Male,all,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,1,1,1,0,222,207,100.0,0.0,22200.0,93.2432
-2023/2024,Male,all,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,1,1,1,0,307,283,100.0,0.0,30700.0,92.1824
-2023/2024,Male,all,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,1,1,2,1,330,305,100.0,50.0,16500.0,92.4242
-2023/2024,Male,all,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,2,2,2,1,388,352,100.0,50.0,19400.0,90.7216
-2023/2024,Male,all,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,1,1,2,1,353,330,100.0,50.0,17650.0,93.4844
-2023/2024,Male,all,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,2,2,2,1,387,369,100.0,50.0,19350.0,95.3488
-2023/2024,Male,all,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,2,2,2,1,378,345,100.0,50.0,18900.0,91.2698
-2023/2024,Male,all,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,1,1,1,0,263,242,100.0,0.0,26300.0,92.0152
-2023/2024,Male,all,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,2,2,2,1,414,387,100.0,50.0,20700.0,93.4783
-2023/2024,Male,all,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,2,2,2,1,373,353,100.0,50.0,18650.0,94.6381
-2023/2024,Male,all,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,2,2,2,1,387,367,100.0,50.0,19350.0,94.832
-2023/2024,Male,all,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,2,2,2,1,362,345,100.0,50.0,18100.0,95.3039
-2023/2024,Male,all,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,2,2,2,1,404,374,100.0,50.0,20200.0,92.5743
-2023/2024,Male,all,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,2,2,2,1,471,448,100.0,50.0,23550.0,95.1168
-2023/2024,Male,all,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,2,2,2,1,515,472,100.0,50.0,25750.0,91.6505
-2023/2024,Male,all,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,1,1,1,0,279,259,100.0,0.0,27900.0,92.8315
-2023/2024,Male,all,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,2,2,2,1,415,387,100.0,50.0,20750.0,93.253
-2023/2024,Male,disabled,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,25,23,0,0,0,92.0
-2023/2024,Male,disabled,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,25,23,0,0,0,92.0
-2023/2024,Male,disabled,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,20,18,0,0,0,90.0
-2023/2024,Male,disabled,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,18,17,0,0,0,94.4444
-2023/2024,Male,disabled,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,21,18,0,0,0,85.7143
-2023/2024,Male,disabled,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,19,18,0,0,0,94.7368
-2023/2024,Male,disabled,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,23,22,0,0,0,95.6522
-2023/2024,Male,disabled,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,19,18,0,0,0,94.7368
-2023/2024,Male,disabled,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,24,23,0,0,0,95.8333
-2023/2024,Male,disabled,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,17,15,0,0,0,88.2353
-2023/2024,Male,disabled,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,25,24,0,0,0,96.0
-2023/2024,Male,disabled,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,25,24,0,0,0,96.0
-2023/2024,Male,disabled,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,25,24,0,0,0,96.0
-2023/2024,Male,disabled,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,21,19,0,0,0,90.4762
-2023/2024,Male,disabled,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,17,15,0,0,0,88.2353
-2023/2024,Male,disabled,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,29,28,0,0,0,96.5517
-2023/2024,Male,disabled,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,29,28,0,0,0,96.5517
-2023/2024,Male,disabled,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,25,24,0,0,0,96.0
-2023/2024,Male,disabled,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,21,19,0,0,0,90.4762
-2023/2024,Male,disabled,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,21,19,0,0,0,90.4762
-2023/2024,Male,disabled,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,29,28,0,0,0,96.5517
-2023/2024,Male,disabled,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,29,28,0,0,0,96.5517
-2023/2024,Male,disabled,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,17,15,0,0,0,88.2353
-2023/2024,Male,disabled,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,25,24,0,0,0,96.0
-2024/2025,Female,all,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,9,7,6,0.0000,0.0000,0.0000,85.7143
-2024/2025,Female,all,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,9,7,6,0.0000,0.0000,0.0000,85.7143
-2024/2025,Female,all,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,9,6,6,0.0000,0.0000,0.0000,100.0000
-2024/2025,Female,all,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,8,6,6,0.0000,0.0000,0.0000,100.0000
-2024/2025,Female,all,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,8,6,6,0.0000,0.0000,0.0000,100.0000
-2024/2025,Female,all,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,8,6,5,0.0000,0.0000,0.0000,83.3333
-2024/2025,Female,all,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,8,7,6,0.0000,0.0000,0.0000,85.7143
-2024/2025,Female,all,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,8,6,6,0.0000,0.0000,0.0000,100.0000
-2024/2025,Female,all,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,8,7,6,0.0000,0.0000,0.0000,85.7143
-2024/2025,Female,all,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,8,6,6,0.0000,0.0000,0.0000,100.0000
-2024/2025,Female,all,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,8,7,6,0.0000,0.0000,0.0000,85.7143
-2024/2025,Female,all,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,8,7,7,0.0000,0.0000,0.0000,100.0000
-2024/2025,Female,all,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,8,8,7,0.0000,0.0000,0.0000,87.5000
-2024/2025,Female,all,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,8,5,5,0.0000,0.0000,0.0000,100.0000
-2024/2025,Female,all,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,8,7,7,0.0000,0.0000,0.0000,100.0000
-2024/2025,Female,all,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,100,93,0.0000,0.0000,0.0000,93.0000
-2024/2025,Female,all,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,91,83,0.0000,0.0000,0.0000,91.2088
-2024/2025,Female,all,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,100,93,0.0000,0.0000,0.0000,93.0000
-2024/2025,Female,all,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,105,96,0.0000,0.0000,0.0000,91.4286
-2024/2025,Female,all,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,91,83,0.0000,0.0000,0.0000,91.2088
-2024/2025,Female,all,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,72,67,0.0000,0.0000,0.0000,93.0556
-2024/2025,Female,all,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,105,98,0.0000,0.0000,0.0000,93.3333
-2024/2025,Female,all,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,95,88,0.0000,0.0000,0.0000,92.6316
-2024/2025,Female,all,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,91,85,0.0000,0.0000,0.0000,93.4066
-2024/2025,Female,all,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,87,82,0.0000,0.0000,0.0000,94.2529
-2024/2025,Female,all,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,98,90,0.0000,0.0000,0.0000,91.8367
-2024/2025,Female,all,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,123,111,0.0000,0.0000,0.0000,90.2439
-2024/2025,Female,all,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,110,99,0.0000,0.0000,0.0000,90.0000
-2024/2025,Female,all,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,68,63,0.0000,0.0000,0.0000,92.6471
-2024/2025,Female,all,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,108,98,0.0000,0.0000,0.0000,90.7407
-2024/2025,Female,all,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,134,123,0.0000,0.0000,0.0000,91.7910
-2024/2025,Female,all,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,136,125,0.0000,0.0000,0.0000,91.9118
-2024/2025,Female,all,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,129,120,0.0000,0.0000,0.0000,93.0233
-2024/2025,Female,all,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,143,131,0.0000,0.0000,0.0000,91.6084
-2024/2025,Female,all,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,125,117,0.0000,0.0000,0.0000,93.6000
-2024/2025,Female,all,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,114,106,0.0000,0.0000,0.0000,92.9825
-2024/2025,Female,all,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,165,153,0.0000,0.0000,0.0000,92.7273
-2024/2025,Female,all,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,142,125,0.0000,0.0000,0.0000,88.0282
-2024/2025,Female,all,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,145,137,0.0000,0.0000,0.0000,94.4828
-2024/2025,Female,all,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,125,113,0.0000,0.0000,0.0000,90.4000
-2024/2025,Female,all,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,149,137,0.0000,0.0000,0.0000,91.9463
-2024/2025,Female,all,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,148,135,0.0000,0.0000,0.0000,91.2162
-2024/2025,Female,all,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,168,157,0.0000,0.0000,0.0000,93.4524
-2024/2025,Female,all,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,103,94,0.0000,0.0000,0.0000,91.2621
-2024/2025,Female,all,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,168,151,0.0000,0.0000,0.0000,89.8810
-2024/2025,Female,disabled,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,4,3,2,1,1,1,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,4,3,2,1,1,0,75.0000,50.0000,50.0000,0.0000
-2024/2025,Female,disabled,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,4,3,2,1,1,0,75.0000,50.0000,50.0000,0.0000
-2024/2025,Female,disabled,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,3,3,2,1,0,0,100.0000,50.0000,0.0000,0.0000
-2024/2025,Female,disabled,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,45,31,26,11,8,7,68.8889,42.3077,30.7692,87.5000
-2024/2025,Female,disabled,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,45,31,26,11,6,6,68.8889,42.3077,23.0769,100.0000
-2024/2025,Female,disabled,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,45,31,26,10,6,6,68.8889,38.4615,23.0769,100.0000
-2024/2025,Female,disabled,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,45,30,26,10,10,9,66.6667,38.4615,38.4615,90.0000
-2024/2025,Female,disabled,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,45,30,26,10,8,8,66.6667,38.4615,30.7692,100.0000
-2024/2025,Female,disabled,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,45,30,26,10,6,6,66.6667,38.4615,23.0769,100.0000
-2024/2025,Female,disabled,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,45,30,26,10,10,9,66.6667,38.4615,38.4615,90.0000
-2024/2025,Female,disabled,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,45,30,26,10,8,7,66.6667,38.4615,30.7692,87.5000
-2024/2025,Female,disabled,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,45,30,26,10,6,6,66.6667,38.4615,23.0769,100.0000
-2024/2025,Female,disabled,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,44,30,26,10,6,6,68.1818,38.4615,23.0769,100.0000
-2024/2025,Female,disabled,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,44,30,26,10,6,6,68.1818,38.4615,23.0769,100.0000
-2024/2025,Female,disabled,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,44,30,26,10,8,7,68.1818,38.4615,30.7692,87.5000
-2024/2025,Female,disabled,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,44,30,26,10,8,7,68.1818,38.4615,30.7692,87.5000
-2024/2025,Female,disabled,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,44,30,26,10,6,6,68.1818,38.4615,23.0769,100.0000
-2024/2025,Female,disabled,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,44,30,26,10,8,7,68.1818,38.4615,30.7692,87.5000
-2024/2025,Female,disabled,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,64,47,37,15,8,7,73.4375,40.5405,21.6216,87.5000
-2024/2025,Female,disabled,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,64,47,37,15,9,8,73.4375,40.5405,24.3243,88.8889
-2024/2025,Female,disabled,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,64,47,37,15,9,8,73.4375,40.5405,24.3243,88.8889
-2024/2025,Female,disabled,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,64,47,37,15,10,10,73.4375,40.5405,27.0270,100.0000
-2024/2025,Female,disabled,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,64,47,37,15,8,7,73.4375,40.5405,21.6216,87.5000
-2024/2025,Female,disabled,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,64,47,37,15,10,10,73.4375,40.5405,27.0270,100.0000
-2024/2025,Female,disabled,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,64,47,37,15,11,10,73.4375,40.5405,29.7297,90.9091
-2024/2025,Female,disabled,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,64,47,37,15,13,10,73.4375,40.5405,35.1351,76.9231
-2024/2025,Female,disabled,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,64,47,37,15,10,10,73.4375,40.5405,27.0270,100.0000
-2024/2025,Female,disabled,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,64,47,37,15,10,10,73.4375,40.5405,27.0270,100.0000
-2024/2025,Female,disabled,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,64,47,37,15,8,7,73.4375,40.5405,21.6216,87.5000
-2024/2025,Female,disabled,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,64,47,37,15,10,10,73.4375,40.5405,27.0270,100.0000
-2024/2025,Female,disabled,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,64,47,37,14,9,8,73.4375,37.8378,24.3243,88.8889
-2024/2025,Female,disabled,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,64,47,37,14,8,7,73.4375,37.8378,21.6216,87.5000
-2024/2025,Female,disabled,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,64,47,37,14,15,11,73.4375,37.8378,40.5405,73.3333
-2024/2025,Male,all,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,78,59,42,8,7,6,75.6410,19.0476,16.6667,85.7143
-2024/2025,Male,all,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,78,59,42,8,7,6,75.6410,19.0476,16.6667,85.7143
-2024/2025,Male,all,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,78,59,42,8,7,6,75.6410,19.0476,16.6667,85.7143
-2024/2025,Male,all,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,78,58,42,8,7,7,74.3590,19.0476,16.6667,100.0000
-2024/2025,Male,all,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,78,58,42,8,7,7,74.3590,19.0476,16.6667,100.0000
-2024/2025,Male,all,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,78,58,41,8,6,5,74.3590,19.5122,14.6341,83.3333
-2024/2025,Male,all,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,78,58,41,8,8,7,74.3590,19.5122,19.5122,87.5000
-2024/2025,Male,all,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,78,58,41,8,7,7,74.3590,19.5122,17.0732,100.0000
-2024/2025,Male,all,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,77,58,41,8,8,7,75.3247,19.5122,19.5122,87.5000
-2024/2025,Male,all,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,77,58,41,8,7,6,75.3247,19.5122,17.0732,85.7143
-2024/2025,Male,all,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,77,58,41,8,7,7,75.3247,19.5122,17.0732,100.0000
-2024/2025,Male,all,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,77,58,41,8,7,7,75.3247,19.5122,17.0732,100.0000
-2024/2025,Male,all,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,77,58,41,8,8,7,75.3247,19.5122,19.5122,87.5000
-2024/2025,Male,all,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,41,8,5,5,0.0000,19.5122,12.1951,100.0000
-2024/2025,Male,all,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,77,58,41,8,8,7,75.3247,19.5122,19.5122,87.5000
-2024/2025,Male,all,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,1059,720,504,0,105,98,67.9887,0.0000,20.8333,93.3333
-2024/2025,Male,all,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,1059,720,504,0,94,88,67.9887,0.0000,18.6508,93.6170
-2024/2025,Male,all,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,1059,720,504,0,96,87,67.9887,0.0000,19.0476,90.6250
-2024/2025,Male,all,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,1059,720,504,0,115,104,67.9887,0.0000,22.8175,90.4348
-2024/2025,Male,all,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,1059,720,504,0,102,95,67.9887,0.0000,20.2381,93.1373
-2024/2025,Male,all,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,1059,720,504,0,76,71,67.9887,0.0000,15.0794,93.4211
-2024/2025,Male,all,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,1058,720,504,0,106,100,68.0529,0.0000,21.0317,94.3396
-2024/2025,Male,all,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,1058,720,504,0,86,79,68.0529,0.0000,17.0635,91.8605
-2024/2025,Male,all,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,1058,719,504,0,109,100,67.9584,0.0000,21.6270,91.7431
-2024/2025,Male,all,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,1058,719,504,0,90,82,67.9584,0.0000,17.8571,91.1111
-2024/2025,Male,all,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,1058,719,1009,1189,117,106,67.9584,117.8394,11.5956,90.5983
-2024/2025,Male,all,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,1058,719,1009,1189,130,120,67.9584,117.8394,12.8840,92.3077
-2024/2025,Male,all,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,1058,719,1008,1189,126,113,67.9584,117.9563,12.5000,89.6825
-2024/2025,Male,all,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,1058,719,504,0,74,69,67.9584,0.0000,14.6825,93.2432
-2024/2025,Male,all,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,1058,719,504,0,119,109,67.9584,0.0000,23.6111,91.5966
-2024/2025,Male,all,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,1771,1302,940,398,143,132,73.5178,42.3404,15.2128,92.3077
-2024/2025,Male,all,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,1771,1302,940,398,134,125,73.5178,42.3404,14.2553,93.2836
-2024/2025,Male,all,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,885,651,940,398,130,119,73.5593,42.3404,13.8298,91.5385
-2024/2025,Male,all,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,1771,1302,940,398,165,153,73.5178,42.3404,17.5532,92.7273
-2024/2025,Male,all,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,1771,1302,940,398,140,128,73.5178,42.3404,14.8936,91.4286
-2024/2025,Male,all,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,885,651,470,0,103,94,73.5593,0.0000,21.9149,91.2621
-2024/2025,Male,all,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,1771,1302,940,398,171,156,73.5178,42.3404,18.1915,91.2281
-2024/2025,Male,all,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,1771,1302,940,398,144,130,73.5178,42.3404,15.3191,90.2778
-2024/2025,Male,all,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,1771,1302,940,398,165,151,73.5178,42.3404,17.5532,91.5152
-2024/2025,Male,all,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,885,651,940,398,143,132,73.5593,42.3404,15.2128,92.3077
-2024/2025,Male,all,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,1770,1301,939,398,168,153,73.5028,42.3855,17.8914,91.0714
-2024/2025,Male,all,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,1770,1301,939,397,191,178,73.5028,42.2790,20.3408,93.1937
-2024/2025,Male,all,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,1770,1301,939,397,176,164,73.5028,42.2790,18.7433,93.1818
-2024/2025,Male,all,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,885,651,470,0,101,94,73.5593,0.0000,21.4894,93.0693
-2024/2025,Male,all,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,1770,1301,939,397,165,153,73.5028,42.2790,17.5719,92.7273
-2024/2025,Male,disabled,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,3,3,2,1,1,1,100.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,3,3,2,1,1,1,100.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,3,3,2,1,1,1,100.0000,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,3,2,2,1,1,1,66.6667,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,3,2,2,1,1,1,66.6667,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,3,2,2,1,1,1,66.6667,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,3,2,2,1,1,1,66.6667,50.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,3,2,2,0,1,1,66.6667,0.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,3,2,2,0,1,1,66.6667,0.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,3,2,2,0,1,1,66.6667,0.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,3,2,2,0,1,1,66.6667,0.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,3,2,2,0,1,1,66.6667,0.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,3,2,1,0,1,1,66.6667,0.0000,100.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,3,2,1,0,1,1,66.6667,0.0000,100.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,3,2,1,0,1,1,66.6667,0.0000,100.0000,100.0000
-2024/2025,Male,disabled,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,44,30,26,10,8,7,68.1818,38.4615,30.7692,87.5000
-2024/2025,Male,disabled,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,44,30,26,10,8,7,68.1818,38.4615,30.7692,87.5000
-2024/2025,Male,disabled,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,44,30,25,10,8,7,68.1818,40.0000,32.0000,87.5000
-2024/2025,Male,disabled,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,44,30,25,10,8,7,68.1818,40.0000,32.0000,87.5000
-2024/2025,Male,disabled,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,44,30,25,10,8,7,68.1818,40.0000,32.0000,87.5000
-2024/2025,Male,disabled,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,44,30,25,10,8,7,68.1818,40.0000,32.0000,87.5000
-2024/2025,Male,disabled,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,44,30,25,10,9,9,68.1818,40.0000,36.0000,100.0000
-2024/2025,Male,disabled,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,44,30,25,10,7,7,68.1818,40.0000,28.0000,100.0000
-2024/2025,Male,disabled,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,44,30,25,10,8,7,68.1818,40.0000,32.0000,87.5000
-2024/2025,Male,disabled,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,44,30,25,10,8,7,68.1818,40.0000,32.0000,87.5000
-2024/2025,Male,disabled,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,44,30,25,10,8,7,68.1818,40.0000,32.0000,87.5000
-2024/2025,Male,disabled,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,44,30,25,10,10,10,68.1818,40.0000,40.0000,100.0000
-2024/2025,Male,disabled,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,44,30,25,10,8,8,68.1818,40.0000,32.0000,100.0000
-2024/2025,Male,disabled,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,44,30,25,10,8,7,68.1818,40.0000,32.0000,87.5000
-2024/2025,Male,disabled,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,44,30,25,10,11,11,68.1818,40.0000,44.0000,100.0000
-2024/2025,Male,disabled,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,63,47,37,14,11,10,74.6032,37.8378,29.7297,90.9091
-2024/2025,Male,disabled,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,63,47,37,14,10,8,74.6032,37.8378,27.0270,80.0000
-2024/2025,Male,disabled,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,63,47,37,14,8,7,74.6032,37.8378,21.6216,87.5000
-2024/2025,Male,disabled,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,63,47,37,14,9,9,74.6032,37.8378,24.3243,100.0000
-2024/2025,Male,disabled,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,63,47,37,14,8,7,74.6032,37.8378,21.6216,87.5000
-2024/2025,Male,disabled,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,63,46,37,14,8,7,73.0159,37.8378,21.6216,87.5000
-2024/2025,Male,disabled,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,63,46,37,14,11,11,73.0159,37.8378,29.7297,100.0000
-2024/2025,Male,disabled,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,63,46,36,14,11,11,73.0159,38.8889,30.5556,100.0000
-2024/2025,Male,disabled,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,63,46,36,14,11,11,73.0159,38.8889,30.5556,100.0000
-2024/2025,Male,disabled,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,63,46,36,14,9,9,73.0159,38.8889,25.0000,100.0000
-2024/2025,Male,disabled,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,63,46,36,14,11,11,73.0159,38.8889,30.5556,100.0000
-2024/2025,Male,disabled,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,63,46,36,14,13,11,73.0159,38.8889,36.1111,84.6154
-2024/2025,Male,disabled,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,63,46,36,14,9,9,73.0159,38.8889,25.0000,100.0000
-2024/2025,Male,disabled,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,63,46,36,14,6,6,73.0159,38.8889,16.6667,100.0000
-2024/2025,Male,disabled,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,63,46,36,14,11,9,73.0159,38.8889,30.5556,81.8182
+session,gender,disability,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
+2022/2023,Female,ALL,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,454,399,0,0,0,87.4172
+2022/2023,Female,ALL,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,482,442,0,0,0,91.25
+2022/2023,Female,ALL,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,473,457,0,0,0,96.1783
+2022/2023,Female,ALL,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,454,418,0,0,0,91.3907
+2022/2023,Female,ALL,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,445,399,0,0,0,89.1892
+2022/2023,Female,ALL,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,382,375,0,0,0,97.6378
+2022/2023,Female,ALL,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,560,502,0,0,0,89.2473
+2022/2023,Female,ALL,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,418,375,0,0,0,89.2086
+2022/2023,Female,ALL,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,464,399,0,0,0,85.7143
+2022/2023,Female,ALL,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,436,415,0,0,0,94.4828
+2022/2023,Female,ALL,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,479,427,0,0,0,88.6792
+2022/2023,Female,ALL,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,500,442,0,0,0,87.9518
+2022/2023,Female,ALL,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,602,542,0,0,0,89.5
+2022/2023,Female,ALL,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,355,354,0,0,0,99.1525
+2022/2023,Female,ALL,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,515,484,0,0,0,93.5673
+2022/2023,Female,ALL,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,882,781,0,0,0,88.0546
+2022/2023,Female,ALL,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,1023,929,0,0,0,90.2941
+2022/2023,Female,ALL,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,918,878,0,0,0,95.082
+2022/2023,Female,ALL,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,1044,941,0,0,0,89.6254
+2022/2023,Female,ALL,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,849,784,0,0,0,91.844
+2022/2023,Female,ALL,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,743,696,0,0,0,93.1174
+2022/2023,Female,ALL,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,1111,1020,0,0,0,91.3279
+2022/2023,Female,ALL,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,966,887,0,0,0,91.2773
+2022/2023,Female,ALL,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,978,866,0,0,0,88.0
+2022/2023,Female,ALL,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,882,823,0,0,0,92.8328
+2022/2023,Female,ALL,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,996,899,0,0,0,89.7281
+2022/2023,Female,ALL,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,984,908,0,0,0,91.7431
+2022/2023,Female,ALL,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,1204,1099,0,0,0,90.75
+2022/2023,Female,ALL,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,611,554,0,0,0,90.1478
+2022/2023,Female,ALL,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,1065,953,0,0,0,88.9831
+2022/2023,Female,ALL,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,1084,1026,0,0,0,94.1667
+2022/2023,Female,ALL,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,1135,1077,0,0,0,94.4297
+2022/2023,Female,ALL,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,1276,1198,0,0,0,93.3962
+2022/2023,Female,ALL,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,1201,1123,0,0,0,92.9825
+2022/2023,Female,ALL,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,1153,1099,0,0,0,94.7781
+2022/2023,Female,ALL,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,918,856,0,0,0,92.7869
+2022/2023,Female,ALL,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,1394,1319,0,0,0,94.1685
+2022/2023,Female,ALL,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,1210,1129,0,0,0,92.7861
+2022/2023,Female,ALL,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,1210,1129,0,0,0,92.7861
+2022/2023,Female,ALL,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,1099,1026,0,0,0,92.8767
+2022/2023,Female,ALL,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,1288,1223,0,0,0,94.3925
+2022/2023,Female,ALL,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,1463,1341,0,0,0,91.1523
+2022/2023,Female,ALL,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,1412,1329,0,0,0,93.6034
+2022/2023,Female,ALL,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,864,814,0,0,0,93.7282
+2022/2023,Female,ALL,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,1315,1217,0,0,0,91.9908
+2022/2023,Female,Disabled,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,60,57,0,0,0,95.0
+2022/2023,Female,Disabled,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,63,61,0,0,0,95.2381
+2022/2023,Female,Disabled,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,72,67,0,0,0,91.6667
+2022/2023,Female,Disabled,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,60,57,0,0,0,95.0
+2022/2023,Female,Disabled,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,63,61,0,0,0,95.2381
+2022/2023,Female,Disabled,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,63,61,0,0,0,95.2381
+2022/2023,Female,Disabled,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,60,51,0,0,0,85.0
+2022/2023,Female,Disabled,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,60,51,0,0,0,85.0
+2022/2023,Female,Disabled,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,60,51,0,0,0,85.0
+2022/2023,Female,Disabled,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,60,57,0,0,0,95.0
+2022/2023,Female,Disabled,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,60,57,0,0,0,95.0
+2022/2023,Female,Disabled,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,60,51,0,0,0,85.0
+2022/2023,Female,Disabled,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,60,51,0,0,0,85.0
+2022/2023,Female,Disabled,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,60,51,0,0,0,85.0
+2022/2023,Female,Disabled,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,60,51,0,0,0,85.0
+2022/2023,Female,Disabled,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,60,51,0,0,0,85.0
+2022/2023,Female,Disabled,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,60,51,0,0,0,85.0
+2022/2023,Female,Disabled,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,60,57,0,0,0,95.0
+2022/2023,Female,Disabled,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,96,88,0,0,0,90.625
+2022/2023,Female,Disabled,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,60,57,0,0,0,95.0
+2022/2023,Female,Disabled,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,60,57,0,0,0,95.0
+2022/2023,Female,Disabled,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,90,85,0,0,0,93.3333
+2022/2023,Female,Disabled,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,78,70,0,0,0,88.4615
+2022/2023,Female,Disabled,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,60,51,0,0,0,85.0
+2022/2023,Female,Disabled,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,60,57,0,0,0,95.0
+2022/2023,Female,Disabled,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,60,57,0,0,0,95.0
+2022/2023,Female,Disabled,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,60,51,0,0,0,85.0
+2022/2023,Female,Disabled,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,78,70,0,0,0,88.4615
+2022/2023,Female,Disabled,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,60,51,0,0,0,85.0
+2022/2023,Female,Disabled,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,78,70,0,0,0,88.4615
+2022/2023,Female,Disabled,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,63,61,0,0,0,95.2381
+2022/2023,Female,Disabled,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,75,73,0,0,0,96.0
+2022/2023,Female,Disabled,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,75,73,0,0,0,96.0
+2022/2023,Female,Disabled,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,75,73,0,0,0,96.0
+2022/2023,Female,Disabled,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,63,61,0,0,0,95.2381
+2022/2023,Female,Disabled,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,57,51,0,0,0,89.4737
+2022/2023,Female,Disabled,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,93,85,0,0,0,90.3226
+2022/2023,Female,Disabled,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,81,73,0,0,0,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,72,64,0,0,0,87.5
+2022/2023,Female,Disabled,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,81,76,0,0,0,92.5926
+2022/2023,Female,Disabled,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,93,85,0,0,0,90.3226
+2022/2023,Female,Disabled,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,93,85,0,0,0,90.3226
+2022/2023,Female,Disabled,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,78,76,0,0,0,96.1538
+2022/2023,Female,Disabled,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,63,61,0,0,0,95.2381
+2022/2023,Female,Disabled,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,90,73,0,0,0,80.0
+2022/2023,Male,ALL,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,2,3,2,0,464,399,100.0,0.0,15400.0,85.7143
+2022/2023,Male,ALL,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,2,3,2,0,488,424,100.0,0.0,16200.0,86.4198
+2022/2023,Male,ALL,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,2,3,2,0,500,487,100.0,0.0,16600.0,96.988
+2022/2023,Male,ALL,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,2,3,2,0,548,493,100.0,0.0,18200.0,89.5604
+2022/2023,Male,ALL,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,2,3,2,0,551,493,100.0,0.0,18300.0,89.071
+2022/2023,Male,ALL,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,2,0,418,375,0,0.0,13900.0,89.2086
+2022/2023,Male,ALL,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,2,3,2,0,569,542,100.0,0.0,18900.0,94.709
+2022/2023,Male,ALL,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,2,3,2,0,461,424,100.0,0.0,15300.0,91.5033
+2022/2023,Male,ALL,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,2,3,2,0,551,493,100.0,0.0,18300.0,89.071
+2022/2023,Male,ALL,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,2,3,2,0,500,469,100.0,0.0,16600.0,93.3735
+2022/2023,Male,ALL,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,2,3,2,0,530,469,100.0,0.0,17600.0,88.0682
+2022/2023,Male,ALL,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,2,3,2,0,593,542,100.0,0.0,19700.0,90.8629
+2022/2023,Male,ALL,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,2,3,2,0,593,542,100.0,0.0,19700.0,90.8629
+2022/2023,Male,ALL,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,2,0,373,372,0,0.0,12400.0,99.1935
+2022/2023,Male,ALL,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,2,3,2,0,569,536,100.0,0.0,18900.0,93.6508
+2022/2023,Male,ALL,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,2,3,2,0,984,884,100.0,0.0,32700.0,89.2966
+2022/2023,Male,ALL,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,2,3,2,0,1038,950,100.0,0.0,34500.0,91.0145
+2022/2023,Male,ALL,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,2,3,2,0,924,841,100.0,0.0,30700.0,90.5537
+2022/2023,Male,ALL,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,2,3,2,0,1171,1062,100.0,0.0,38900.0,90.2314
+2022/2023,Male,ALL,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,2,3,2,0,1044,944,100.0,0.0,34700.0,89.9135
+2022/2023,Male,ALL,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,2,3,2,0,831,772,100.0,0.0,27600.0,92.3913
+2022/2023,Male,ALL,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,2,3,2,0,1090,996,100.0,0.0,36200.0,90.884
+2022/2023,Male,ALL,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,2,3,2,0,960,887,100.0,0.0,31900.0,91.8495
+2022/2023,Male,ALL,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,2,3,2,0,1090,1020,100.0,0.0,36200.0,93.0939
+2022/2023,Male,ALL,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,2,3,2,0,1029,929,100.0,0.0,34200.0,89.7661
+2022/2023,Male,ALL,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,2,3,5,6,1213,1108,100.0,50.0,20150.0,90.8189
+2022/2023,Male,ALL,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,2,3,2,0,1255,1132,100.0,0.0,41700.0,89.6882
+2022/2023,Male,ALL,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,2,3,2,0,1189,1086,100.0,0.0,39500.0,90.8861
+2022/2023,Male,ALL,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,2,3,2,0,713,657,100.0,0.0,23700.0,91.5612
+2022/2023,Male,ALL,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,2,3,2,0,1126,1014,100.0,0.0,37400.0,89.5722
+2022/2023,Male,ALL,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,2,3,5,6,1267,1180,100.0,50.0,21050.0,92.6366
+2022/2023,Male,ALL,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,5,3,5,6,1288,1204,50.0,50.0,21400.0,92.9907
+2022/2023,Male,ALL,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,2,3,5,6,1258,1207,100.0,50.0,20900.0,95.4545
+2022/2023,Male,ALL,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,5,3,5,6,1526,1456,50.0,50.0,25350.0,94.8718
+2022/2023,Male,ALL,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,5,3,5,6,1433,1335,50.0,50.0,23800.0,92.6471
+2022/2023,Male,ALL,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,2,3,2,0,1011,959,100.0,0.0,33600.0,94.3452
+2022/2023,Male,ALL,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,5,3,5,6,1397,1319,50.0,50.0,23200.0,93.9655
+2022/2023,Male,ALL,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,2,3,5,6,1231,1180,100.0,50.0,20450.0,95.3545
+2022/2023,Male,ALL,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,5,3,5,6,1433,1316,50.0,50.0,23800.0,91.3866
+2022/2023,Male,ALL,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,2,3,5,6,1231,1138,100.0,50.0,20450.0,91.9315
+2022/2023,Male,ALL,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,5,3,5,6,1342,1235,50.0,50.0,22300.0,91.4798
+2022/2023,Male,ALL,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,5,3,5,6,1562,1486,50.0,50.0,25950.0,94.605
+2022/2023,Male,ALL,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,5,3,5,6,1526,1444,50.0,50.0,25350.0,94.0828
+2022/2023,Male,ALL,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,2,3,2,0,870,793,100.0,0.0,28900.0,90.6574
+2022/2023,Male,ALL,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,5,3,5,6,1397,1301,50.0,50.0,23200.0,92.6724
+2022/2023,Male,Disabled,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,90,79,0,0,0,86.6667
+2022/2023,Male,Disabled,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,90,79,0,0,0,86.6667
+2022/2023,Male,Disabled,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,60,57,0,0,0,95.0
+2022/2023,Male,Disabled,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,60,57,0,0,0,95.0
+2022/2023,Male,Disabled,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,60,57,0,0,0,95.0
+2022/2023,Male,Disabled,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,75,67,0,0,0,88.0
+2022/2023,Male,Disabled,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,66,64,0,0,0,95.4545
+2022/2023,Male,Disabled,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,90,79,0,0,0,86.6667
+2022/2023,Male,Disabled,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,63,61,0,0,0,95.2381
+2022/2023,Male,Disabled,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,90,82,0,0,0,90.0
+2022/2023,Male,Disabled,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,75,70,0,0,0,92.0
+2022/2023,Male,Disabled,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,90,85,0,0,0,93.3333
+2022/2023,Male,Disabled,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,90,85,0,0,0,93.3333
+2022/2023,Male,Disabled,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,90,82,0,0,0,90.0
+2022/2023,Male,Disabled,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,90,70,0,0,0,76.6667
+2022/2023,Male,Disabled,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,75,70,0,0,0,92.0
+2022/2023,Male,Disabled,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,105,100,0,0,0,94.2857
+2022/2023,Male,Disabled,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,105,100,0,0,0,94.2857
+2022/2023,Male,Disabled,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,60,51,0,0,0,85.0
+2022/2023,Male,Disabled,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,75,70,0,0,0,92.0
+2022/2023,Male,Disabled,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,75,70,0,0,0,92.0
+2022/2023,Male,Disabled,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,105,103,0,0,0,97.1429
+2022/2023,Male,Disabled,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,75,70,0,0,0,92.0
+2022/2023,Male,Disabled,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,60,51,0,0,0,85.0
+2022/2023,Male,Disabled,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,90,85,0,0,0,93.3333
+2023/2024,Female,ALL,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,388,342,0,0,0,87.5969
+2023/2024,Female,ALL,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,406,363,0,0,0,88.8889
+2023/2024,Female,ALL,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,433,421,0,0,0,96.5278
+2023/2024,Female,ALL,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,388,369,0,0,0,94.5736
+2023/2024,Female,ALL,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,361,315,0,0,0,86.6667
+2023/2024,Female,ALL,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,331,297,0,0,0,89.0909
+2023/2024,Female,ALL,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,418,387,0,0,0,92.0863
+2023/2024,Female,ALL,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,418,369,0,0,0,87.7698
+2023/2024,Female,ALL,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,388,336,0,0,0,86.0465
+2023/2024,Female,ALL,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,346,312,0,0,0,89.5652
+2023/2024,Female,ALL,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,418,381,0,0,0,90.6475
+2023/2024,Female,ALL,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,457,418,0,0,0,90.7895
+2023/2024,Female,ALL,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,470,442,0,0,0,93.5897
+2023/2024,Female,ALL,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,298,287,0,0,0,95.9596
+2023/2024,Female,ALL,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,454,439,0,0,0,96.0265
+2023/2024,Female,ALL,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,740,663,0,0,0,89.0244
+2023/2024,Female,ALL,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,758,678,0,0,0,88.8889
+2023/2024,Female,ALL,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,822,741,0,0,0,89.7436
+2023/2024,Female,ALL,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,816,741,0,0,0,90.4059
+2023/2024,Female,ALL,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,789,705,0,0,0,88.9313
+2023/2024,Female,ALL,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,641,599,0,0,0,92.9577
+2023/2024,Female,ALL,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,897,841,0,0,0,93.2886
+2023/2024,Female,ALL,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,740,681,0,0,0,91.4634
+2023/2024,Female,ALL,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,819,754,0,0,0,91.5441
+2023/2024,Female,ALL,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,674,620,0,0,0,91.5179
+2023/2024,Female,ALL,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,948,875,0,0,0,91.746
+2023/2024,Female,ALL,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,882,808,0,0,0,91.1263
+2023/2024,Female,ALL,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,966,872,0,0,0,89.7196
+2023/2024,Female,ALL,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,626,581,0,0,0,92.3077
+2023/2024,Female,ALL,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,897,805,0,0,0,89.2617
+2023/2024,Female,ALL,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,921,872,0,0,0,94.1176
+2023/2024,Female,ALL,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,960,914,0,0,0,94.6708
+2023/2024,Female,ALL,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,1059,1017,0,0,0,95.4545
+2023/2024,Female,ALL,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,1017,941,0,0,0,92.0118
+2023/2024,Female,ALL,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,939,862,0,0,0,91.3462
+2023/2024,Female,ALL,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,780,717,0,0,0,91.5058
+2023/2024,Female,ALL,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,1144,1080,0,0,0,93.9474
+2023/2024,Female,ALL,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,1102,1017,0,0,0,91.8033
+2023/2024,Female,ALL,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,1023,959,0,0,0,93.2353
+2023/2024,Female,ALL,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,939,896,0,0,0,94.8718
+2023/2024,Female,ALL,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,1165,1092,0,0,0,93.2817
+2023/2024,Female,ALL,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,1216,1123,0,0,0,91.8317
+2023/2024,Female,ALL,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,1303,1232,0,0,0,93.9954
+2023/2024,Female,ALL,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,777,732,0,0,0,93.7984
+2023/2024,Female,ALL,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,1135,1065,0,0,0,93.3687
+2023/2024,Female,Disabled,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,51,48,0,0,0,94.1176
+2023/2024,Female,Disabled,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,54,51,0,0,0,94.4444
+2023/2024,Female,Disabled,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Female,Disabled,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,54,51,0,0,0,94.4444
+2023/2024,Female,Disabled,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,54,51,0,0,0,94.4444
+2023/2024,Female,Disabled,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,60,54,0,0,0,90.0
+2023/2024,Female,Disabled,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,51,45,0,0,0,88.2353
+2023/2024,Female,Disabled,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,51,45,0,0,0,88.2353
+2023/2024,Female,Disabled,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,51,45,0,0,0,88.2353
+2023/2024,Female,Disabled,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,57,54,0,0,0,94.7368
+2023/2024,Female,Disabled,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,51,48,0,0,0,94.1176
+2023/2024,Female,Disabled,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,51,48,0,0,0,94.1176
+2023/2024,Female,Disabled,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,51,48,0,0,0,94.1176
+2023/2024,Female,Disabled,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,51,48,0,0,0,94.1176
+2023/2024,Female,Disabled,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,51,48,0,0,0,94.1176
+2023/2024,Female,Disabled,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,51,45,0,0,0,88.2353
+2023/2024,Female,Disabled,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,51,48,0,0,0,94.1176
+2023/2024,Female,Disabled,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,51,48,0,0,0,94.1176
+2023/2024,Female,Disabled,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,51,48,0,0,0,94.1176
+2023/2024,Female,Disabled,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,51,48,0,0,0,94.1176
+2023/2024,Female,Disabled,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,51,45,0,0,0,88.2353
+2023/2024,Female,Disabled,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,75,73,0,0,0,96.0
+2023/2024,Female,Disabled,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,51,45,0,0,0,88.2353
+2023/2024,Female,Disabled,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,51,45,0,0,0,88.2353
+2023/2024,Female,Disabled,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,51,48,0,0,0,94.1176
+2023/2024,Female,Disabled,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,51,48,0,0,0,94.1176
+2023/2024,Female,Disabled,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,63,57,0,0,0,90.4762
+2023/2024,Female,Disabled,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,63,57,0,0,0,90.4762
+2023/2024,Female,Disabled,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,51,45,0,0,0,88.2353
+2023/2024,Female,Disabled,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,63,57,0,0,0,90.4762
+2023/2024,Female,Disabled,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,54,51,0,0,0,94.4444
+2023/2024,Female,Disabled,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,75,73,0,0,0,96.0
+2023/2024,Female,Disabled,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,69,67,0,0,0,95.6522
+2023/2024,Female,Disabled,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,66,64,0,0,0,95.4545
+2023/2024,Female,Disabled,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,57,54,0,0,0,94.7368
+2023/2024,Female,Disabled,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,54,51,0,0,0,94.4444
+2023/2024,Female,Disabled,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,78,76,0,0,0,96.1538
+2023/2024,Female,Disabled,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,90,79,0,0,0,86.6667
+2023/2024,Female,Disabled,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,69,67,0,0,0,95.6522
+2023/2024,Female,Disabled,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,60,54,0,0,0,90.0
+2023/2024,Female,Disabled,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,66,64,0,0,0,95.4545
+2023/2024,Female,Disabled,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,81,67,0,0,0,81.4815
+2023/2024,Female,Disabled,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,87,85,0,0,0,96.5517
+2023/2024,Female,Disabled,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,60,54,0,0,0,90.0
+2023/2024,Female,Disabled,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,81,67,0,0,0,81.4815
+2023/2024,Male,ALL,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,2,3,2,0,470,415,100.0,0.0,15600.0,87.8205
+2023/2024,Male,ALL,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,2,3,2,0,412,375,100.0,0.0,13700.0,90.5109
+2023/2024,Male,ALL,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,2,3,2,0,406,402,100.0,0.0,13500.0,98.5185
+2023/2024,Male,ALL,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,2,3,2,0,467,439,100.0,0.0,15500.0,93.5484
+2023/2024,Male,ALL,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,2,3,2,0,451,393,100.0,0.0,15000.0,86.6667
+2023/2024,Male,ALL,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,2,0,334,333,0,0.0,11100.0,99.0991
+2023/2024,Male,ALL,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,2,3,2,0,445,415,100.0,0.0,14800.0,92.5676
+2023/2024,Male,ALL,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,2,3,2,0,391,354,100.0,0.0,13000.0,90.0
+2023/2024,Male,ALL,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,2,3,2,0,470,415,100.0,0.0,15600.0,87.8205
+2023/2024,Male,ALL,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,2,3,2,0,412,354,100.0,0.0,13700.0,85.4015
+2023/2024,Male,ALL,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,2,3,2,0,491,433,100.0,0.0,16300.0,87.7301
+2023/2024,Male,ALL,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,2,3,2,0,539,496,100.0,0.0,17900.0,91.6201
+2023/2024,Male,ALL,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,2,3,2,0,563,517,100.0,0.0,18700.0,91.4439
+2023/2024,Male,ALL,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,2,0,334,315,0,0.0,11100.0,93.6937
+2023/2024,Male,ALL,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,2,3,2,0,467,433,100.0,0.0,15500.0,92.2581
+2023/2024,Male,ALL,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,2,3,2,0,819,738,100.0,0.0,27200.0,89.7059
+2023/2024,Male,ALL,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,2,3,2,0,840,757,100.0,0.0,27900.0,89.6057
+2023/2024,Male,ALL,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,2,3,2,0,894,802,100.0,0.0,29700.0,89.2256
+2023/2024,Male,ALL,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,2,3,2,0,1017,935,100.0,0.0,33800.0,91.4201
+2023/2024,Male,ALL,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,2,3,5,6,948,890,100.0,50.0,15750.0,93.3333
+2023/2024,Male,ALL,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,2,3,2,0,587,530,100.0,0.0,19500.0,89.7436
+2023/2024,Male,ALL,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,2,3,2,0,927,856,100.0,0.0,30800.0,91.8831
+2023/2024,Male,ALL,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,2,3,2,0,792,717,100.0,0.0,26300.0,90.1141
+2023/2024,Male,ALL,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,2,3,2,0,876,778,100.0,0.0,29100.0,88.3162
+2023/2024,Male,ALL,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,2,3,2,0,804,717,100.0,0.0,26700.0,88.764
+2023/2024,Male,ALL,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,2,3,5,6,1002,911,100.0,50.0,16650.0,90.3904
+2023/2024,Male,ALL,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,2,3,5,6,1195,1105,100.0,50.0,19850.0,91.9395
+2023/2024,Male,ALL,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,2,3,5,6,1062,971,100.0,50.0,17650.0,90.9348
+2023/2024,Male,ALL,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,2,3,2,0,668,626,100.0,0.0,22200.0,93.2432
+2023/2024,Male,ALL,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,2,3,2,0,924,856,100.0,0.0,30700.0,92.1824
+2023/2024,Male,ALL,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,2,3,5,6,993,923,100.0,50.0,16500.0,92.4242
+2023/2024,Male,ALL,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,5,5,5,6,1168,1065,100.0,50.0,19400.0,90.7216
+2023/2024,Male,ALL,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,2,3,5,6,1062,999,100.0,50.0,17650.0,93.4844
+2023/2024,Male,ALL,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,5,5,5,6,1165,1117,100.0,50.0,19350.0,95.3488
+2023/2024,Male,ALL,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,5,5,5,6,1138,1044,100.0,50.0,18900.0,91.2698
+2023/2024,Male,ALL,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,2,3,2,0,792,732,100.0,0.0,26300.0,92.0152
+2023/2024,Male,ALL,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,5,5,5,6,1246,1171,100.0,50.0,20700.0,93.4783
+2023/2024,Male,ALL,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,5,5,5,6,1123,1068,100.0,50.0,18650.0,94.6381
+2023/2024,Male,ALL,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,5,5,5,6,1165,1111,100.0,50.0,19350.0,94.832
+2023/2024,Male,ALL,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,5,5,5,6,1090,1044,100.0,50.0,18100.0,95.3039
+2023/2024,Male,ALL,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,5,5,5,6,1216,1132,100.0,50.0,20200.0,92.5743
+2023/2024,Male,ALL,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,5,5,5,6,1418,1356,100.0,50.0,23550.0,95.1168
+2023/2024,Male,ALL,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,5,5,5,6,1550,1428,100.0,50.0,25750.0,91.6505
+2023/2024,Male,ALL,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,2,3,2,0,840,784,100.0,0.0,27900.0,92.8315
+2023/2024,Male,ALL,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,5,5,5,6,1249,1171,100.0,50.0,20750.0,93.253
+2023/2024,Male,Disabled,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,75,70,0,0,0,92.0
+2023/2024,Male,Disabled,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,75,70,0,0,0,92.0
+2023/2024,Male,Disabled,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,60,54,0,0,0,90.0
+2023/2024,Male,Disabled,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,54,51,0,0,0,94.4444
+2023/2024,Male,Disabled,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,63,54,0,0,0,85.7143
+2023/2024,Male,Disabled,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,57,54,0,0,0,94.7368
+2023/2024,Male,Disabled,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,69,67,0,0,0,95.6522
+2023/2024,Male,Disabled,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,57,54,0,0,0,94.7368
+2023/2024,Male,Disabled,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,72,70,0,0,0,95.8333
+2023/2024,Male,Disabled,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,51,45,0,0,0,88.2353
+2023/2024,Male,Disabled,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,75,73,0,0,0,96.0
+2023/2024,Male,Disabled,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,75,73,0,0,0,96.0
+2023/2024,Male,Disabled,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,75,73,0,0,0,96.0
+2023/2024,Male,Disabled,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,63,57,0,0,0,90.4762
+2023/2024,Male,Disabled,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,51,45,0,0,0,88.2353
+2023/2024,Male,Disabled,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,87,85,0,0,0,96.5517
+2023/2024,Male,Disabled,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,87,85,0,0,0,96.5517
+2023/2024,Male,Disabled,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,75,73,0,0,0,96.0
+2023/2024,Male,Disabled,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,63,57,0,0,0,90.4762
+2023/2024,Male,Disabled,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,63,57,0,0,0,90.4762
+2023/2024,Male,Disabled,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,87,85,0,0,0,96.5517
+2023/2024,Male,Disabled,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,87,85,0,0,0,96.5517
+2023/2024,Male,Disabled,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,51,45,0,0,0,88.2353
+2023/2024,Male,Disabled,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,75,73,0,0,0,96.0
+2024/2025,Female,ALL,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,50,21,18,0.0000,0.0000,0.0000,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,50,21,18,0.0000,0.0000,0.0000,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,50,18,18,0.0000,0.0000,0.0000,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,45,18,18,0.0000,0.0000,0.0000,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,45,18,18,0.0000,0.0000,0.0000,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,45,18,15,0.0000,0.0000,0.0000,83.3333
+2024/2025,Female,ALL,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,45,21,18,0.0000,0.0000,0.0000,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,45,18,18,0.0000,0.0000,0.0000,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,45,21,18,0.0000,0.0000,0.0000,85.7143
+2024/2025,Female,ALL,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,45,18,18,0.0000,0.0000,0.0000,100.0000
+2024/2025,Female,ALL,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,45,21,18,0.0000,0.0000,0.0000,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,45,21,21,0.0000,0.0000,0.0000,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,45,24,21,0.0000,0.0000,0.0000,87.5000
+2024/2025,Female,ALL,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,45,15,15,0.0000,0.0000,0.0000,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,45,21,21,0.0000,0.0000,0.0000,100.0000
+2024/2025,Female,ALL,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,301,281,0.0000,0.0000,0.0000,93.0000
+2024/2025,Female,ALL,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,274,251,0.0000,0.0000,0.0000,91.2088
+2024/2025,Female,ALL,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,301,281,0.0000,0.0000,0.0000,93.0000
+2024/2025,Female,ALL,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,316,291,0.0000,0.0000,0.0000,91.4286
+2024/2025,Female,ALL,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,274,251,0.0000,0.0000,0.0000,91.2088
+2024/2025,Female,ALL,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,217,203,0.0000,0.0000,0.0000,93.0556
+2024/2025,Female,ALL,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,316,297,0.0000,0.0000,0.0000,93.3333
+2024/2025,Female,ALL,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,286,266,0.0000,0.0000,0.0000,92.6316
+2024/2025,Female,ALL,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,274,257,0.0000,0.0000,0.0000,93.4066
+2024/2025,Female,ALL,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,262,248,0.0000,0.0000,0.0000,94.2529
+2024/2025,Female,ALL,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,295,272,0.0000,0.0000,0.0000,91.8367
+2024/2025,Female,ALL,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,370,336,0.0000,0.0000,0.0000,90.2439
+2024/2025,Female,ALL,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,331,300,0.0000,0.0000,0.0000,90.0000
+2024/2025,Female,ALL,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,205,191,0.0000,0.0000,0.0000,92.6471
+2024/2025,Female,ALL,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,325,297,0.0000,0.0000,0.0000,90.7407
+2024/2025,Female,ALL,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,0,0,0,0,403,372,0.0000,0.0000,0.0000,91.7910
+2024/2025,Female,ALL,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,0,0,0,0,409,378,0.0000,0.0000,0.0000,91.9118
+2024/2025,Female,ALL,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,0,0,0,0,388,363,0.0000,0.0000,0.0000,93.0233
+2024/2025,Female,ALL,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,0,0,0,0,430,396,0.0000,0.0000,0.0000,91.6084
+2024/2025,Female,ALL,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,0,0,0,0,376,354,0.0000,0.0000,0.0000,93.6000
+2024/2025,Female,ALL,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,0,0,0,0,343,321,0.0000,0.0000,0.0000,92.9825
+2024/2025,Female,ALL,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,0,0,0,0,497,463,0.0000,0.0000,0.0000,92.7273
+2024/2025,Female,ALL,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,0,0,0,0,427,378,0.0000,0.0000,0.0000,88.0282
+2024/2025,Female,ALL,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,0,0,0,0,436,415,0.0000,0.0000,0.0000,94.4828
+2024/2025,Female,ALL,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,0,0,0,0,376,342,0.0000,0.0000,0.0000,90.4000
+2024/2025,Female,ALL,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,0,0,0,0,448,415,0.0000,0.0000,0.0000,91.9463
+2024/2025,Female,ALL,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,0,0,0,0,445,409,0.0000,0.0000,0.0000,91.2162
+2024/2025,Female,ALL,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,0,0,0,0,506,475,0.0000,0.0000,0.0000,93.4524
+2024/2025,Female,ALL,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,0,0,310,284,0.0000,0.0000,0.0000,91.2621
+2024/2025,Female,ALL,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,0,0,0,0,506,457,0.0000,0.0000,0.0000,89.8810
+2024/2025,Female,Disabled,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,9,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,9,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,9,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,9,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,9,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,9,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,9,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,9,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,9,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,9,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,9,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,9,8,5,6,3,3,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,9,8,5,6,3,0,75.0000,50.0000,50.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,9,8,5,6,3,0,75.0000,50.0000,50.0000,0.0000
+2024/2025,Female,Disabled,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,7,8,5,6,0,0,100.0000,50.0000,0.0000,0.0000
+2024/2025,Female,Disabled,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,103,79,64,62,24,21,68.8889,42.3077,30.7692,87.5000
+2024/2025,Female,Disabled,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,103,79,64,62,18,18,68.8889,42.3077,23.0769,100.0000
+2024/2025,Female,Disabled,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,103,79,64,56,18,18,68.8889,38.4615,23.0769,100.0000
+2024/2025,Female,Disabled,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,103,76,64,56,30,27,66.6667,38.4615,38.4615,90.0000
+2024/2025,Female,Disabled,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,103,76,64,56,24,24,66.6667,38.4615,30.7692,100.0000
+2024/2025,Female,Disabled,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,103,76,64,56,18,18,66.6667,38.4615,23.0769,100.0000
+2024/2025,Female,Disabled,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,103,76,64,56,30,27,66.6667,38.4615,38.4615,90.0000
+2024/2025,Female,Disabled,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,103,76,64,56,24,21,66.6667,38.4615,30.7692,87.5000
+2024/2025,Female,Disabled,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,103,76,64,56,18,18,66.6667,38.4615,23.0769,100.0000
+2024/2025,Female,Disabled,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,100,76,64,56,18,18,68.1818,38.4615,23.0769,100.0000
+2024/2025,Female,Disabled,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,100,76,64,56,18,18,68.1818,38.4615,23.0769,100.0000
+2024/2025,Female,Disabled,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,100,76,64,56,24,21,68.1818,38.4615,30.7692,87.5000
+2024/2025,Female,Disabled,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,100,76,64,56,24,21,68.1818,38.4615,30.7692,87.5000
+2024/2025,Female,Disabled,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,100,76,64,56,18,18,68.1818,38.4615,23.0769,100.0000
+2024/2025,Female,Disabled,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,100,76,64,56,24,21,68.1818,38.4615,30.7692,87.5000
+2024/2025,Female,Disabled,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,146,119,91,84,24,21,73.4375,40.5405,21.6216,87.5000
+2024/2025,Female,Disabled,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,146,119,91,84,27,24,73.4375,40.5405,24.3243,88.8889
+2024/2025,Female,Disabled,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,146,119,91,84,27,24,73.4375,40.5405,24.3243,88.8889
+2024/2025,Female,Disabled,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,146,119,91,84,30,30,73.4375,40.5405,27.0270,100.0000
+2024/2025,Female,Disabled,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,146,119,91,84,24,21,73.4375,40.5405,21.6216,87.5000
+2024/2025,Female,Disabled,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,146,119,91,84,30,30,73.4375,40.5405,27.0270,100.0000
+2024/2025,Female,Disabled,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,146,119,91,84,33,30,73.4375,40.5405,29.7297,90.9091
+2024/2025,Female,Disabled,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,146,119,91,84,39,30,73.4375,40.5405,35.1351,76.9231
+2024/2025,Female,Disabled,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,146,119,91,84,30,30,73.4375,40.5405,27.0270,100.0000
+2024/2025,Female,Disabled,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,146,119,91,84,30,30,73.4375,40.5405,27.0270,100.0000
+2024/2025,Female,Disabled,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,146,119,91,84,24,21,73.4375,40.5405,21.6216,87.5000
+2024/2025,Female,Disabled,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,146,119,91,84,30,30,73.4375,40.5405,27.0270,100.0000
+2024/2025,Female,Disabled,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,146,119,91,78,27,24,73.4375,37.8378,24.3243,88.8889
+2024/2025,Female,Disabled,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,146,119,91,78,24,21,73.4375,37.8378,21.6216,87.5000
+2024/2025,Female,Disabled,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,146,119,91,78,45,33,73.4375,37.8378,40.5405,73.3333
+2024/2025,Male,ALL,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,178,150,104,45,21,18,75.6410,19.0476,16.6667,85.7143
+2024/2025,Male,ALL,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,178,150,104,45,21,18,75.6410,19.0476,16.6667,85.7143
+2024/2025,Male,ALL,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,178,150,104,45,21,18,75.6410,19.0476,16.6667,85.7143
+2024/2025,Male,ALL,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,178,147,104,45,21,21,74.3590,19.0476,16.6667,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,178,147,104,45,21,21,74.3590,19.0476,16.6667,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,178,147,101,45,18,15,74.3590,19.5122,14.6341,83.3333
+2024/2025,Male,ALL,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,178,147,101,45,24,21,74.3590,19.5122,19.5122,87.5000
+2024/2025,Male,ALL,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,178,147,101,45,21,21,74.3590,19.5122,17.0732,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,176,147,101,45,24,21,75.3247,19.5122,19.5122,87.5000
+2024/2025,Male,ALL,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,176,147,101,45,21,18,75.3247,19.5122,17.0732,85.7143
+2024/2025,Male,ALL,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,176,147,101,45,21,21,75.3247,19.5122,17.0732,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,176,147,101,45,21,21,75.3247,19.5122,17.0732,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,176,147,101,45,24,21,75.3247,19.5122,19.5122,87.5000
+2024/2025,Male,ALL,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,0,0,101,45,15,15,0.0000,19.5122,12.1951,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,176,147,101,45,24,21,75.3247,19.5122,19.5122,87.5000
+2024/2025,Male,ALL,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,2414,1826,1245,0,316,297,67.9887,0.0000,20.8333,93.3333
+2024/2025,Male,ALL,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,2414,1826,1245,0,283,266,67.9887,0.0000,18.6508,93.6170
+2024/2025,Male,ALL,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,2414,1826,1245,0,289,263,67.9887,0.0000,19.0476,90.6250
+2024/2025,Male,ALL,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,2414,1826,1245,0,346,315,67.9887,0.0000,22.8175,90.4348
+2024/2025,Male,ALL,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,2414,1826,1245,0,307,287,67.9887,0.0000,20.2381,93.1373
+2024/2025,Male,ALL,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,2414,1826,1245,0,229,215,67.9887,0.0000,15.0794,93.4211
+2024/2025,Male,ALL,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,2412,1826,1245,0,319,303,68.0529,0.0000,21.0317,94.3396
+2024/2025,Male,ALL,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,2412,1826,1245,0,259,239,68.0529,0.0000,17.0635,91.8605
+2024/2025,Male,ALL,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,2412,1823,1245,0,328,303,67.9584,0.0000,21.6270,91.7431
+2024/2025,Male,ALL,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,2412,1823,1245,0,271,248,67.9584,0.0000,17.8571,91.1111
+2024/2025,Male,ALL,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,2412,1823,2492,6665,352,321,67.9584,117.8394,11.5956,90.5983
+2024/2025,Male,ALL,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,2412,1823,2492,6665,391,363,67.9584,117.8394,12.8840,92.3077
+2024/2025,Male,ALL,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,2412,1823,2490,6665,379,342,67.9584,117.9563,12.5000,89.6825
+2024/2025,Male,ALL,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,2412,1823,1245,0,223,209,67.9584,0.0000,14.6825,93.2432
+2024/2025,Male,ALL,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,2412,1823,1245,0,358,330,67.9584,0.0000,23.6111,91.5966
+2024/2025,Male,ALL,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,4037,3302,2322,2231,430,399,73.5178,42.3404,15.2128,92.3077
+2024/2025,Male,ALL,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,4037,3302,2322,2231,403,378,73.5178,42.3404,14.2553,93.2836
+2024/2025,Male,ALL,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,2017,1651,2322,2231,391,360,73.5593,42.3404,13.8298,91.5385
+2024/2025,Male,ALL,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,4037,3302,2322,2231,497,463,73.5178,42.3404,17.5532,92.7273
+2024/2025,Male,ALL,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,4037,3302,2322,2231,421,387,73.5178,42.3404,14.8936,91.4286
+2024/2025,Male,ALL,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,2017,1651,1161,0,310,284,73.5593,0.0000,21.9149,91.2621
+2024/2025,Male,ALL,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,4037,3302,2322,2231,515,472,73.5178,42.3404,18.1915,91.2281
+2024/2025,Male,ALL,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,4037,3302,2322,2231,433,393,73.5178,42.3404,15.3191,90.2778
+2024/2025,Male,ALL,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,4037,3302,2322,2231,497,457,73.5178,42.3404,17.5532,91.5152
+2024/2025,Male,ALL,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,2017,1651,2322,2231,430,399,73.5593,42.3404,15.2128,92.3077
+2024/2025,Male,ALL,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,4035,3299,2319,2231,506,463,73.5028,42.3855,17.8914,91.0714
+2024/2025,Male,ALL,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,4035,3299,2319,2225,575,539,73.5028,42.2790,20.3408,93.1937
+2024/2025,Male,ALL,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,4035,3299,2319,2225,530,496,73.5028,42.2790,18.7433,93.1818
+2024/2025,Male,ALL,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,2017,1651,1161,0,304,284,73.5593,0.0000,21.4894,93.0693
+2024/2025,Male,ALL,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,4035,3299,2319,2225,497,463,73.5028,42.2790,17.5719,92.7273
+2024/2025,Male,Disabled,NABTEB,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,7,8,5,6,3,3,100.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,7,8,5,6,3,3,100.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,7,8,5,6,3,3,100.0000,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,7,5,5,6,3,3,66.6667,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,7,5,5,6,3,3,66.6667,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,7,5,5,6,3,3,66.6667,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,7,5,5,6,3,3,66.6667,50.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,7,5,5,0,3,3,66.6667,0.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,7,5,5,0,3,3,66.6667,0.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,7,5,5,0,3,3,66.6667,0.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,7,5,5,0,3,3,66.6667,0.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,7,5,5,0,3,3,66.6667,0.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,7,5,2,0,3,3,66.6667,0.0000,100.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,7,5,2,0,3,3,66.6667,0.0000,100.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,7,5,2,0,3,3,66.6667,0.0000,100.0000,100.0000
+2024/2025,Male,Disabled,NECO,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,100,76,64,56,24,21,68.1818,38.4615,30.7692,87.5000
+2024/2025,Male,Disabled,NECO,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,100,76,64,56,24,21,68.1818,38.4615,30.7692,87.5000
+2024/2025,Male,Disabled,NECO,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,100,76,62,56,24,21,68.1818,40.0000,32.0000,87.5000
+2024/2025,Male,Disabled,NECO,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,100,76,62,56,24,21,68.1818,40.0000,32.0000,87.5000
+2024/2025,Male,Disabled,NECO,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,100,76,62,56,24,21,68.1818,40.0000,32.0000,87.5000
+2024/2025,Male,Disabled,NECO,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,100,76,62,56,24,21,68.1818,40.0000,32.0000,87.5000
+2024/2025,Male,Disabled,NECO,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,100,76,62,56,27,27,68.1818,40.0000,36.0000,100.0000
+2024/2025,Male,Disabled,NECO,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,100,76,62,56,21,21,68.1818,40.0000,28.0000,100.0000
+2024/2025,Male,Disabled,NECO,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,100,76,62,56,24,21,68.1818,40.0000,32.0000,87.5000
+2024/2025,Male,Disabled,NECO,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,100,76,62,56,24,21,68.1818,40.0000,32.0000,87.5000
+2024/2025,Male,Disabled,NECO,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,100,76,62,56,24,21,68.1818,40.0000,32.0000,87.5000
+2024/2025,Male,Disabled,NECO,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,100,76,62,56,30,30,68.1818,40.0000,40.0000,100.0000
+2024/2025,Male,Disabled,NECO,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,100,76,62,56,24,24,68.1818,40.0000,32.0000,100.0000
+2024/2025,Male,Disabled,NECO,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,100,76,62,56,24,21,68.1818,40.0000,32.0000,87.5000
+2024/2025,Male,Disabled,NECO,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,100,76,62,56,33,33,68.1818,40.0000,44.0000,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Achalla  I,South East,Anambra,Awka North,Achalla  I,,144,119,91,78,33,30,74.6032,37.8378,29.7297,90.9091
+2024/2025,Male,Disabled,WAEC,ward,Achalla  II,South East,Anambra,Awka North,Achalla  II,,144,119,91,78,30,24,74.6032,37.8378,27.0270,80.0000
+2024/2025,Male,Disabled,WAEC,ward,Achalla  III,South East,Anambra,Awka North,Achalla  III,,144,119,91,78,24,21,74.6032,37.8378,21.6216,87.5000
+2024/2025,Male,Disabled,WAEC,ward,Agu Oka,South East,Anambra,Awka South,Agu Oka,,144,119,91,78,27,27,74.6032,37.8378,24.3243,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Amawbia  I,South East,Anambra,Awka South,Amawbia  I,,144,119,91,78,24,21,74.6032,37.8378,21.6216,87.5000
+2024/2025,Male,Disabled,WAEC,ward,Amawbia  II,South East,Anambra,Awka South,Amawbia  II,,144,117,91,78,24,21,73.0159,37.8378,21.6216,87.5000
+2024/2025,Male,Disabled,WAEC,ward,Nnewi-ichi  I,South East,Anambra,Nnewi North,Nnewi-ichi  I,,144,117,91,78,33,33,73.0159,37.8378,29.7297,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Nnewi-ichi  II,South East,Anambra,Nnewi North,Nnewi-ichi  II,,144,117,89,78,33,33,73.0159,38.8889,30.5556,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Otolo  I,South East,Anambra,Nnewi North,Otolo  I,,144,117,89,78,33,33,73.0159,38.8889,30.5556,100.0000
+2024/2025,Male,Disabled,WAEC,ward,American Quarters,South East,Anambra,Onitsha North,American Quarters,,144,117,89,78,27,27,73.0159,38.8889,25.0000,100.0000
+2024/2025,Male,Disabled,WAEC,ward,G.R.A,South East,Anambra,Onitsha North,G.R.A,,144,117,89,78,33,33,73.0159,38.8889,30.5556,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Inland Town I,South East,Anambra,Onitsha North,Inland Town I,,144,117,89,78,39,33,73.0159,38.8889,36.1111,84.6154
+2024/2025,Male,Disabled,WAEC,ward,Bridge Head I,South East,Anambra,Onitsha South,Bridge Head I,,144,117,89,78,27,27,73.0159,38.8889,25.0000,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Bridge Head II,South East,Anambra,Onitsha South,Bridge Head II,,144,117,89,78,18,18,73.0159,38.8889,16.6667,100.0000
+2024/2025,Male,Disabled,WAEC,ward,Bridge Head III,South East,Anambra,Onitsha South,Bridge Head III,,144,117,89,78,33,27,73.0159,38.8889,30.5556,81.8182

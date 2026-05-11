@@ -26,8 +26,14 @@ import {
 } from "../utils/refinedPageData";
 import {
   PERFORMANCE_SESSIONS,
+  TRANSITION_SESSIONS,
   filterRowsBySessionWindow,
 } from "../utils/sessionWindows";
+import {
+  filterCanonicalTransitionRows,
+  sumCanonicalTransitionMetrics,
+  type CanonicalTransitionRow,
+} from "../utils/canonicalTransitionMetrics";
 
 type PerformanceRow = {
   session: string;
@@ -1645,6 +1651,7 @@ export default function PerformanceDashboard({
   disabilityMode: boolean;
 }) {
   const [rows, setRows] = useState<PerformanceRow[]>([]);
+  const [canonicalTransitionRows, setCanonicalTransitionRows] = useState<CanonicalTransitionRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [expandState, setExpandState] = useState<ExpandState>(null);
@@ -1677,10 +1684,14 @@ export default function PerformanceDashboard({
         setLoading(true);
         setError(null);
         const depth = scopeDepthForLocation(filters);
-        const factRows = await loadRefinedScopedRows<PerformanceRow>("performance", filters.state, depth);
+        const [factRows, transitionRows] = await Promise.all([
+          loadRefinedScopedRows<PerformanceRow>("performance", filters.state, depth),
+          loadRefinedScopedRows<CanonicalTransitionRow>("transition_direct", filters.state, depth),
+        ]);
 
         if (!mounted) return;
         setRows(filterRowsBySessionWindow(factRows, PERFORMANCE_SESSIONS));
+        setCanonicalTransitionRows(filterRowsBySessionWindow(transitionRows, TRANSITION_SESSIONS));
         setLoadedScopeKey(requestedScopeKey);
         setLoadedLocation({
           state: filters.state,
@@ -1784,10 +1795,29 @@ export default function PerformanceDashboard({
     const nabtebTotal = nabtebRows.reduce((sum, row) => sum + safeNum(row.candidate_count), 0);
     const utmeQualified = baseRows.reduce((sum, row) => sum + safeNum(row.utme_qualified_count), 0);
     const utmeTotal = baseRows.reduce((sum, row) => sum + safeNum(row.utme_candidate_count), 0);
-    const admitted = baseRows.reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
+    const canonicalCurrent = sumCanonicalTransitionMetrics(
+      filterCanonicalTransitionRows(canonicalTransitionRows, renderFilters, disabilityMode),
+    );
+    const canonicalPrevious = previousSession
+      ? sumCanonicalTransitionMetrics(
+          filterCanonicalTransitionRows(canonicalTransitionRows, { ...renderFilters, session: previousSession }, disabilityMode),
+        )
+      : { admitted: 0, matriculated: 0 };
+    const sourceAdmitted = baseRows.reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
+    const sourceMatriculated = baseRows.reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
+    const admitted = canonicalCurrent.admitted || sourceAdmitted;
     const utmeQualifyingBase = baseRows.reduce((sum, row) => sum + safeNum(row.utme_qualified_count), 0);
-    const matriculated = baseRows.reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
-    const admittedForMatric = baseRows.reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
+    const matriculated = canonicalCurrent.matriculated || sourceMatriculated;
+    const admittedForMatric = admitted;
+    const currentAdmissionCanonical = utmeQualifyingBase > 0 ? round1((admitted / utmeQualifyingBase) * 100) : currentAdmission;
+    const previousUtmeQualifyingBase = previousRows.reduce((sum, row) => sum + safeNum(row.utme_qualified_count), 0);
+    const prevAdmissionCanonical = canonicalPrevious.admitted > 0 && previousUtmeQualifyingBase > 0
+      ? round1((canonicalPrevious.admitted / previousUtmeQualifyingBase) * 100)
+      : prevAdmission;
+    const currentMatricCanonical = admittedForMatric > 0 ? round1((matriculated / admittedForMatric) * 100) : currentMatric;
+    const prevMatricCanonical = canonicalPrevious.admitted > 0
+      ? round1((canonicalPrevious.matriculated / canonicalPrevious.admitted) * 100)
+      : prevMatric;
 
     const institutionLabels = ["University", "Polytechnic", "College of Education"];
     const fallbackInstitutionShares = [0.52, 0.30, 0.18];
@@ -1891,8 +1921,8 @@ export default function PerformanceDashboard({
       {
         label: "Admission Rate",
         help: "Admission destination breakdown.",
-        value: currentAdmission,
-        delta: prevAdmission === null ? null : round1(currentAdmission - prevAdmission),
+        value: currentAdmissionCanonical,
+        delta: prevAdmissionCanonical === null ? null : round1(currentAdmissionCanonical - prevAdmissionCanonical),
         icon: <School className="h-5 w-5" />,
         accent: COLORS.admission,
         bg: "rgba(14,165,233,0.10)",
@@ -1905,8 +1935,8 @@ export default function PerformanceDashboard({
       {
         label: "Matriculation Completion Rate",
         help: "Matriculation destination breakdown.",
-        value: currentMatric,
-        delta: prevMatric === null ? null : round1(currentMatric - prevMatric),
+        value: currentMatricCanonical,
+        delta: prevMatricCanonical === null ? null : round1(currentMatricCanonical - prevMatricCanonical),
         icon: <UserCheck className="h-5 w-5" />,
         accent: COLORS.matric,
         bg: "rgba(20,184,166,0.10)",
@@ -1917,7 +1947,7 @@ export default function PerformanceDashboard({
         breakdown: institutionBreakdown("matriculated_count", matriculated),
       },
     ];
-  }, [waecRows, necoRows, nabtebRows, baseRows, previousWaecRows, previousNecoRows, previousNabtebRows, previousRows]);
+  }, [waecRows, necoRows, nabtebRows, baseRows, previousWaecRows, previousNecoRows, previousNabtebRows, previousRows, canonicalTransitionRows, renderFilters, disabilityMode, previousSession]);
 
   const waecGenderChart = useMemo(
     () => buildGenderChart(
@@ -2221,21 +2251,27 @@ export default function PerformanceDashboard({
       />
 
       {expandState ? (
-        <div className="fixed inset-0 z-[95] flex items-center justify-center bg-slate-900/40 p-4 backdrop-blur-sm">
+        <div
+          className="fixed inset-0 z-[95] flex items-center justify-center bg-slate-900/40 p-4 backdrop-blur-sm"
+          onClick={() => setExpandState(null)}
+        >
           <div
             ref={expandedPanelRef}
+            onClick={(event: ReactMouseEvent<HTMLDivElement>) => event.stopPropagation()}
             className={[
               "flex max-h-[90vh] w-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl",
-              expandedBundle?.expandedWidthClass ?? "max-w-[980px]",
+              expandedBundle?.expandedWidthClass ?? "max-w-[1120px]",
             ].join(" ")}
           >
-            <div className="shrink-0 flex items-start justify-between gap-4 border-b border-slate-100 px-5 py-4">
+            <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-5 py-4">
               <div className="min-w-0">
                 <div className="text-base font-bold text-slate-900">{expandState.title}</div>
                 {expandedBundle?.titleNote ? <div className="mt-0.5 text-[11px] font-medium leading-4 text-slate-500">{expandedBundle.titleNote}</div> : null}
               </div>
               <div className="flex shrink-0 flex-nowrap items-center gap-2">
-                {isSortablePerformanceChartKey(expandState.chartKey) ? renderSortControl(expandState.chartKey) : null}
+                {isSortablePerformanceChartKey(expandState.chartKey) ? (
+                  <div className="shrink-0 whitespace-nowrap">{renderSortControl(expandState.chartKey)}</div>
+                ) : null}
                 <button
                   type="button"
                   onClick={() => setExpandState(null)}
@@ -2245,36 +2281,30 @@ export default function PerformanceDashboard({
                 </button>
               </div>
             </div>
-            <div className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden p-3">
+            <div className="min-h-0 overflow-y-auto p-3">
               {expandedBundle ? (
                 <>
                   {expandedBundle.fixedLegend?.length ? <FixedLegend items={expandedBundle.fixedLegend} /> : null}
-                  {expandedBundle.scrollable ? (
-                    <div
-                      className="block w-full min-w-0 overflow-y-auto overflow-x-hidden pr-1"
-                      style={{ maxHeight: expandedBundle.expandedMaxHeight ?? 520 }}
-                    >
-                      <Plot
-                        data={expandedBundle.data as never}
-                        layout={expandedBundle.layout as never}
-                        config={{ displayModeBar: false, responsive: true } as never}
-                        useResizeHandler
-                        style={{ width: "100%", height: chartPixelHeight(expandedBundle.layout, 360) }}
-                        onClick={expandedEntry.onPlotClick as never}
-                      />
-                    </div>
-                  ) : (
-                    <div className="min-h-0 overflow-y-auto overflow-x-hidden" style={{ maxHeight: expandedBundle.expandedMaxHeight ?? 520 }}>
-                      <Plot
-                        data={expandedBundle.data as never}
-                        layout={expandedBundle.layout as never}
-                        config={{ displayModeBar: false, responsive: true } as never}
-                        useResizeHandler
-                        style={{ width: "100%", height: chartPixelHeight(expandedBundle.layout, 360) }}
-                        onClick={expandedEntry.onPlotClick as never}
-                      />
-                    </div>
-                  )}
+                  <div
+                    className={expandedBundle.scrollable ? "overflow-y-auto pr-1" : undefined}
+                    style={expandedBundle.scrollable ? { maxHeight: expandedBundle.expandedMaxHeight ?? 420 } : undefined}
+                  >
+                    <Plot
+                      data={expandedBundle.data as never}
+                      layout={{
+                        ...expandedBundle.layout,
+                        height: Math.max(
+                          chartPixelHeight(expandedBundle.layout, 420),
+                          expandedBundle.expandedMaxHeight ?? 480,
+                        ),
+                        showlegend: expandedBundle.fixedLegend?.length ? false : expandedBundle.layout.showlegend,
+                      } as never}
+                      config={{ displayModeBar: false, responsive: true } as never}
+                      useResizeHandler
+                      style={{ display: "block", width: "100%", height: "100%" }}
+                      onClick={expandedEntry.onPlotClick as never}
+                    />
+                  </div>
                 </>
               ) : (
                 <EmptyState title="No data available for the current filters." />

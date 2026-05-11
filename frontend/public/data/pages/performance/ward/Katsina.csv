@@ -1,541 +1,541 @@
-session,gender,disability_scope,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
-2022/2023,Female,all,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,136,100,151,53,67,62,73.5294,35.0993,44.3709,92.5373
-2022/2023,Female,all,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,122,89,137,47,66,58,72.9508,34.3066,48.1752,87.8788
-2022/2023,Female,all,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,131,96,158,55,81,70,73.2824,34.8101,51.2658,86.4198
-2022/2023,Female,all,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,132,97,152,52,69,66,73.4848,34.2105,45.3947,95.6522
-2022/2023,Female,all,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,132,97,143,49,61,58,73.4848,34.2657,42.6573,95.082
-2022/2023,Female,all,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,133,97,153,53,64,63,72.9323,34.6405,41.8301,98.4375
-2022/2023,Female,all,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,163,119,191,67,84,75,73.0061,35.0785,43.9791,89.2857
-2022/2023,Female,all,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,117,86,130,44,53,52,73.5043,33.8462,40.7692,98.1132
-2022/2023,Female,all,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,128,94,145,50,68,62,73.4375,34.4828,46.8966,91.1765
-2022/2023,Female,all,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,119,87,137,47,65,64,73.1092,34.3066,47.4453,98.4615
-2022/2023,Female,all,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,155,114,177,62,92,79,73.5484,35.0282,51.9774,85.8696
-2022/2023,Female,all,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,124,91,143,49,53,52,73.3871,34.2657,37.0629,98.1132
-2022/2023,Female,all,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,162,119,193,68,90,85,73.4568,35.2332,46.6321,94.4444
-2022/2023,Female,all,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,152,111,180,63,78,72,73.0263,35.0,43.3333,92.3077
-2022/2023,Female,all,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,136,100,156,54,65,58,73.5294,34.6154,41.6667,89.2308
-2022/2023,Female,all,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,250,164,285,100,138,122,65.6,35.0877,48.4211,88.4058
-2022/2023,Female,all,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,212,139,251,88,119,109,65.566,35.0598,47.4104,91.5966
-2022/2023,Female,all,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,247,162,290,101,139,126,65.587,34.8276,47.931,90.6475
-2022/2023,Female,all,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,255,167,293,103,131,117,65.4902,35.1536,44.7099,89.313
-2022/2023,Female,all,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,238,156,269,94,122,114,65.5462,34.9442,45.3532,93.4426
-2022/2023,Female,all,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,268,176,306,106,146,135,65.6716,34.6405,47.7124,92.4658
-2022/2023,Female,all,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,302,198,352,123,142,126,65.5629,34.9432,40.3409,88.7324
-2022/2023,Female,all,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,225,147,251,88,114,106,65.3333,35.0598,45.4183,92.9825
-2022/2023,Female,all,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,235,154,270,94,134,122,65.5319,34.8148,49.6296,91.0448
-2022/2023,Female,all,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,208,137,247,86,131,117,65.8654,34.8178,53.0364,89.313
-2022/2023,Female,all,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,295,193,345,121,161,147,65.4237,35.0725,46.6667,91.3043
-2022/2023,Female,all,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,203,133,220,77,87,73,65.5172,35.0,39.5455,83.908
-2022/2023,Female,all,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,289,190,337,119,138,122,65.7439,35.3116,40.9496,88.4058
-2022/2023,Female,all,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,272,179,319,111,142,130,65.8088,34.7962,44.5141,91.5493
-2022/2023,Female,all,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,260,171,288,101,126,114,65.7692,35.0694,43.75,90.4762
-2022/2023,Female,all,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,319,226,359,127,162,152,70.8464,35.376,45.1253,93.8272
-2022/2023,Female,all,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,285,202,333,118,148,139,70.8772,35.4354,44.4444,93.9189
-2022/2023,Female,all,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,334,236,391,138,182,167,70.6587,35.2941,46.5473,91.7582
-2022/2023,Female,all,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,325,230,360,127,158,142,70.7692,35.2778,43.8889,89.8734
-2022/2023,Female,all,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,311,221,355,126,158,147,71.0611,35.493,44.507,93.038
-2022/2023,Female,all,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,339,240,380,134,168,155,70.7965,35.2632,44.2105,92.2619
-2022/2023,Female,all,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,379,269,436,154,192,177,70.9763,35.3211,44.0367,92.1875
-2022/2023,Female,all,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,292,207,329,116,138,130,70.8904,35.2584,41.9453,94.2029
-2022/2023,Female,all,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,311,220,363,129,171,157,70.7395,35.5372,47.1074,91.8129
-2022/2023,Female,all,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,273,193,327,116,151,145,70.696,35.474,46.1774,96.0265
-2022/2023,Female,all,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,399,283,463,163,206,190,70.9273,35.2052,44.4924,92.233
-2022/2023,Female,all,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,263,187,299,106,127,120,71.1027,35.4515,42.4749,94.4882
-2022/2023,Female,all,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,398,282,464,164,210,191,70.8543,35.3448,45.2586,90.9524
-2022/2023,Female,all,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,367,259,432,153,202,189,70.5722,35.4167,46.7593,93.5644
-2022/2023,Female,all,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,346,245,392,138,179,167,70.8092,35.2041,45.6633,93.2961
-2022/2023,Female,disabled,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,13,9,14,5,11,9,69.2308,35.7143,78.5714,81.8182
-2022/2023,Female,disabled,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,12,9,13,4,11,9,75.0,30.7692,84.6154,81.8182
-2022/2023,Female,disabled,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,12,9,14,5,14,12,75.0,35.7143,100.0,85.7143
-2022/2023,Female,disabled,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,11,8,13,4,9,8,72.7273,30.7692,69.2308,88.8889
-2022/2023,Female,disabled,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,13,9,13,4,6,5,69.2308,30.7692,46.1538,83.3333
-2022/2023,Female,disabled,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,11,8,13,4,9,8,72.7273,30.7692,69.2308,88.8889
-2022/2023,Female,disabled,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,14,10,18,6,11,9,71.4286,33.3333,61.1111,81.8182
-2022/2023,Female,disabled,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,12,9,13,4,7,6,75.0,30.7692,53.8462,85.7143
-2022/2023,Female,disabled,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,12,9,13,4,9,8,75.0,30.7692,69.2308,88.8889
-2022/2023,Female,disabled,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,11,8,13,4,12,11,72.7273,30.7692,92.3077,91.6667
-2022/2023,Female,disabled,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,11,8,13,4,10,9,72.7273,30.7692,76.9231,90.0
-2022/2023,Female,disabled,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,11,8,13,4,4,3,72.7273,30.7692,30.7692,75.0
-2022/2023,Female,disabled,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,14,10,16,6,12,11,71.4286,37.5,75.0,91.6667
-2022/2023,Female,disabled,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,14,10,16,5,9,8,71.4286,31.25,56.25,88.8889
-2022/2023,Female,disabled,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,12,9,13,4,6,5,75.0,30.7692,46.1538,83.3333
-2022/2023,Female,disabled,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,19,12,21,7,12,10,63.1579,33.3333,57.1429,83.3333
-2022/2023,Female,disabled,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,16,10,18,6,12,10,62.5,33.3333,66.6667,83.3333
-2022/2023,Female,disabled,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,19,12,23,8,12,10,63.1579,34.7826,52.1739,83.3333
-2022/2023,Female,disabled,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,20,13,21,7,9,8,65.0,33.3333,42.8571,88.8889
-2022/2023,Female,disabled,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,19,13,23,8,12,10,68.4211,34.7826,52.1739,83.3333
-2022/2023,Female,disabled,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,20,13,22,7,12,10,65.0,31.8182,54.5455,83.3333
-2022/2023,Female,disabled,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,25,17,30,10,12,10,68.0,33.3333,40.0,83.3333
-2022/2023,Female,disabled,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,18,12,19,6,12,10,66.6667,31.5789,63.1579,83.3333
-2022/2023,Female,disabled,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,19,12,21,7,12,10,63.1579,33.3333,57.1429,83.3333
-2022/2023,Female,disabled,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,15,10,18,6,12,10,66.6667,33.3333,66.6667,83.3333
-2022/2023,Female,disabled,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,19,12,21,7,9,8,63.1579,33.3333,42.8571,88.8889
-2022/2023,Female,disabled,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,16,11,17,6,6,5,68.75,35.2941,35.2941,83.3333
-2022/2023,Female,disabled,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,23,15,27,10,9,8,65.2174,37.037,33.3333,88.8889
-2022/2023,Female,disabled,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,25,17,27,9,9,8,68.0,33.3333,33.3333,88.8889
-2022/2023,Female,disabled,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,18,12,21,7,12,10,66.6667,33.3333,57.1429,83.3333
-2022/2023,Female,disabled,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,25,18,28,10,12,11,72.0,35.7143,42.8571,91.6667
-2022/2023,Female,disabled,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,22,16,26,9,9,8,72.7273,34.6154,34.6154,88.8889
-2022/2023,Female,disabled,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,27,19,34,12,12,11,70.3704,35.2941,35.2941,91.6667
-2022/2023,Female,disabled,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,26,18,29,10,9,8,69.2308,34.4828,31.0345,88.8889
-2022/2023,Female,disabled,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,24,17,30,11,9,8,70.8333,36.6667,30.0,88.8889
-2022/2023,Female,disabled,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,27,19,32,11,9,8,70.3704,34.375,28.125,88.8889
-2022/2023,Female,disabled,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,32,23,37,13,15,14,71.875,35.1351,40.5405,93.3333
-2022/2023,Female,disabled,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,21,15,25,9,9,8,71.4286,36.0,36.0,88.8889
-2022/2023,Female,disabled,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,23,16,27,10,9,8,69.5652,37.037,33.3333,88.8889
-2022/2023,Female,disabled,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,20,14,24,8,9,8,70.0,33.3333,37.5,88.8889
-2022/2023,Female,disabled,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,28,20,33,12,9,8,71.4286,36.3636,27.2727,88.8889
-2022/2023,Female,disabled,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,20,14,23,8,9,8,70.0,34.7826,39.1304,88.8889
-2022/2023,Female,disabled,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,30,21,37,13,15,13,70.0,35.1351,40.5405,86.6667
-2022/2023,Female,disabled,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,31,22,38,13,12,11,70.9677,34.2105,31.5789,91.6667
-2022/2023,Female,disabled,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,24,17,28,10,12,11,70.8333,35.7143,42.8571,91.6667
-2022/2023,Male,all,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,151,111,167,58,73,68,73.5099,34.7305,43.7126,93.1507
-2022/2023,Male,all,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,144,106,168,58,62,55,73.6111,34.5238,36.9048,88.7097
-2022/2023,Male,all,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,166,121,198,69,84,75,72.8916,34.8485,42.4242,89.2857
-2022/2023,Male,all,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,170,125,193,67,73,72,73.5294,34.715,37.8238,98.6301
-2022/2023,Male,all,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,162,118,193,68,90,79,72.8395,35.2332,46.6321,87.7778
-2022/2023,Male,all,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,148,109,177,61,73,67,73.6486,34.4633,41.2429,91.7808
-2022/2023,Male,all,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,184,135,206,72,84,75,73.3696,34.9515,40.7767,89.2857
-2022/2023,Male,all,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,137,100,153,53,56,55,72.9927,34.6405,36.6013,98.2143
-2022/2023,Male,all,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,145,106,162,57,84,80,73.1034,35.1852,51.8519,95.2381
-2022/2023,Male,all,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,141,103,170,59,89,88,73.0496,34.7059,52.3529,98.8764
-2022/2023,Male,all,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,177,130,210,73,84,81,73.4463,34.7619,40.0,96.4286
-2022/2023,Male,all,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,140,102,153,52,56,55,72.8571,33.9869,36.6013,98.2143
-2022/2023,Male,all,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,176,129,200,70,78,67,73.2955,35.0,39.0,85.8974
-2022/2023,Male,all,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,173,127,198,69,84,72,73.4104,34.8485,42.4242,85.7143
-2022/2023,Male,all,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,160,117,182,64,73,68,73.125,35.1648,40.1099,93.1507
-2022/2023,Male,all,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,276,181,311,110,134,115,65.5797,35.3698,43.0868,85.8209
-2022/2023,Male,all,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,259,170,304,107,134,119,65.6371,35.1974,44.0789,88.806
-2022/2023,Male,all,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,285,187,331,117,155,143,65.614,35.3474,46.8278,92.2581
-2022/2023,Male,all,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,320,210,375,132,145,134,65.625,35.2,38.6667,92.4138
-2022/2023,Male,all,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,281,184,329,116,131,114,65.4804,35.2584,39.8176,87.0229
-2022/2023,Male,all,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,287,188,326,114,119,105,65.5052,34.9693,36.5031,88.2353
-2022/2023,Male,all,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,362,237,400,141,165,147,65.4696,35.25,41.25,89.0909
-2022/2023,Male,all,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,275,181,310,109,111,100,65.8182,35.1613,35.8065,90.0901
-2022/2023,Male,all,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,269,177,308,109,135,124,65.7993,35.3896,43.8312,91.8519
-2022/2023,Male,all,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,255,167,303,106,150,139,65.4902,34.9835,49.505,92.6667
-2022/2023,Male,all,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,342,224,400,141,180,167,65.4971,35.25,45.0,92.7778
-2022/2023,Male,all,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,245,161,282,99,116,106,65.7143,35.1064,41.1348,91.3793
-2022/2023,Male,all,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,324,213,370,131,162,143,65.7407,35.4054,43.7838,88.2716
-2022/2023,Male,all,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,288,189,341,121,154,143,65.625,35.4839,45.1613,92.8571
-2022/2023,Male,all,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,304,199,339,119,145,130,65.4605,35.1032,42.7729,89.6552
-2022/2023,Male,all,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,362,257,412,145,167,159,70.9945,35.1942,40.534,95.2096
-2022/2023,Male,all,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,356,253,410,144,177,160,71.0674,35.122,43.1707,90.3955
-2022/2023,Male,all,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,410,290,486,171,221,205,70.7317,35.1852,45.4733,92.7602
-2022/2023,Male,all,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,423,300,481,169,190,176,70.922,35.1351,39.501,92.6316
-2022/2023,Male,all,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,376,267,438,153,187,176,71.0106,34.9315,42.6941,94.1176
-2022/2023,Male,all,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,351,249,402,141,160,151,70.9402,35.0746,39.801,94.375
-2022/2023,Male,all,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,460,326,520,182,206,192,70.8696,35.0,39.6154,93.2039
-2022/2023,Male,all,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,354,251,389,136,148,139,70.904,34.9614,38.0463,93.9189
-2022/2023,Male,all,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,344,244,417,146,175,164,70.9302,35.012,41.9664,93.7143
-2022/2023,Male,all,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,342,242,403,141,182,172,70.7602,34.9876,45.1613,94.5055
-2022/2023,Male,all,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,438,311,494,173,206,185,71.0046,35.0202,41.7004,89.8058
-2022/2023,Male,all,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,310,220,347,122,145,138,70.9677,35.1585,41.7867,95.1724
-2022/2023,Male,all,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,424,301,500,175,212,197,70.9906,35.0,42.4,92.9245
-2022/2023,Male,all,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,395,280,459,161,194,176,70.8861,35.0763,42.2658,90.7216
-2022/2023,Male,all,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,403,286,453,159,194,176,70.9677,35.0993,42.8256,90.7216
-2022/2023,Male,disabled,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,15,11,16,5,4,3,73.3333,31.25,25.0,75.0
-2022/2023,Male,disabled,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,13,9,14,4,0,0,69.2308,28.5714,0.0,0
-2022/2023,Male,disabled,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,14,10,16,5,8,7,71.4286,31.25,50.0,87.5
-2022/2023,Male,disabled,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,14,10,16,5,4,3,71.4286,31.25,25.0,75.0
-2022/2023,Male,disabled,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,15,11,18,6,8,7,73.3333,33.3333,44.4444,87.5
-2022/2023,Male,disabled,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,13,9,14,4,4,3,69.2308,28.5714,28.5714,75.0
-2022/2023,Male,disabled,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,17,12,22,7,17,16,70.5882,31.8182,77.2727,94.1176
-2022/2023,Male,disabled,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,14,10,14,4,0,0,71.4286,28.5714,0.0,0
-2022/2023,Male,disabled,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,15,11,16,5,17,16,73.3333,31.25,106.25,94.1176
-2022/2023,Male,disabled,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,14,10,16,5,12,11,71.4286,31.25,75.0,91.6667
-2022/2023,Male,disabled,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,14,10,16,5,12,11,71.4286,31.25,75.0,91.6667
-2022/2023,Male,disabled,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,14,10,14,4,0,0,71.4286,28.5714,0.0,0
-2022/2023,Male,disabled,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,15,11,18,6,8,7,73.3333,33.3333,44.4444,87.5
-2022/2023,Male,disabled,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,15,11,18,6,12,11,73.3333,33.3333,66.6667,91.6667
-2022/2023,Male,disabled,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,15,11,16,5,8,7,73.3333,31.25,50.0,87.5
-2022/2023,Male,disabled,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,22,14,24,8,11,9,63.6364,33.3333,45.8333,81.8182
-2022/2023,Male,disabled,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,21,14,24,8,11,9,66.6667,33.3333,45.8333,81.8182
-2022/2023,Male,disabled,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,22,14,24,8,13,12,63.6364,33.3333,54.1667,92.3077
-2022/2023,Male,disabled,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,25,17,29,10,6,5,68.0,34.4828,20.6897,83.3333
-2022/2023,Male,disabled,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,22,14,26,9,9,8,63.6364,34.6154,34.6154,88.8889
-2022/2023,Male,disabled,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,22,14,24,8,10,9,63.6364,33.3333,41.6667,90.0
-2022/2023,Male,disabled,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,29,19,33,12,11,9,65.5172,36.3636,33.3333,81.8182
-2022/2023,Male,disabled,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,22,14,24,8,7,6,63.6364,33.3333,29.1667,85.7143
-2022/2023,Male,disabled,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,21,14,24,8,12,11,66.6667,33.3333,50.0,91.6667
-2022/2023,Male,disabled,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,20,13,24,8,12,11,65.0,33.3333,50.0,91.6667
-2022/2023,Male,disabled,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,23,15,27,9,12,11,65.2174,33.3333,44.4444,91.6667
-2022/2023,Male,disabled,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,20,13,22,7,10,9,65.0,31.8182,45.4545,90.0
-2022/2023,Male,disabled,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,25,16,29,10,9,8,64.0,34.4828,31.0345,88.8889
-2022/2023,Male,disabled,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,26,17,33,12,12,11,65.3846,36.3636,36.3636,91.6667
-2022/2023,Male,disabled,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,22,14,26,9,12,11,63.6364,34.6154,46.1538,91.6667
-2022/2023,Male,disabled,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,28,20,31,11,14,13,71.4286,35.4839,45.1613,92.8571
-2022/2023,Male,disabled,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,27,19,33,12,12,10,70.3704,36.3636,36.3636,83.3333
-2022/2023,Male,disabled,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,32,23,38,13,14,13,71.875,34.2105,36.8421,92.8571
-2022/2023,Male,disabled,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,32,23,37,13,14,13,71.875,35.1351,37.8378,92.8571
-2022/2023,Male,disabled,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,28,20,33,12,14,13,71.4286,36.3636,42.4242,92.8571
-2022/2023,Male,disabled,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,28,20,32,11,12,10,71.4286,34.375,37.5,83.3333
-2022/2023,Male,disabled,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,36,26,41,14,14,13,72.2222,34.1463,34.1463,92.8571
-2022/2023,Male,disabled,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,26,19,29,10,12,10,73.0769,34.4828,41.3793,83.3333
-2022/2023,Male,disabled,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,27,19,34,12,12,10,70.3704,35.2941,35.2941,83.3333
-2022/2023,Male,disabled,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,26,19,28,10,12,10,73.0769,35.7143,42.8571,83.3333
-2022/2023,Male,disabled,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,31,22,37,13,12,10,70.9677,35.1351,32.4324,83.3333
-2022/2023,Male,disabled,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,25,18,26,9,12,10,72.0,34.6154,46.1538,83.3333
-2022/2023,Male,disabled,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,33,24,40,14,14,13,72.7273,35.0,35.0,92.8571
-2022/2023,Male,disabled,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,34,24,39,14,14,13,70.5882,35.8974,35.8974,92.8571
-2022/2023,Male,disabled,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,30,21,34,12,11,10,70.0,35.2941,32.3529,90.9091
-2023/2024,Female,all,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,141,110,162,63,58,53,78.0142,38.8889,35.8025,91.3793
-2023/2024,Female,all,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,139,109,161,62,50,42,78.4173,38.5093,31.0559,84.0
-2023/2024,Female,all,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,137,107,164,63,65,58,78.1022,38.4146,39.6341,89.2308
-2023/2024,Female,all,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,142,111,164,64,61,58,78.169,39.0244,37.1951,95.082
-2023/2024,Female,all,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,140,109,158,61,57,54,77.8571,38.6076,36.0759,94.7368
-2023/2024,Female,all,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,144,113,160,63,57,53,78.4722,39.375,35.625,92.9825
-2023/2024,Female,all,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,178,139,209,81,77,72,78.0899,38.756,36.8421,93.5065
-2023/2024,Female,all,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,124,97,141,55,49,44,78.2258,39.0071,34.7518,89.7959
-2023/2024,Female,all,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,136,107,159,61,60,54,78.6765,38.3648,37.7358,90.0
-2023/2024,Female,all,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,121,95,141,55,57,54,78.5124,39.0071,40.4255,94.7368
-2023/2024,Female,all,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,165,129,194,75,81,72,78.1818,38.6598,41.7526,88.8889
-2023/2024,Female,all,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,124,97,141,54,49,48,78.2258,38.2979,34.7518,97.9592
-2023/2024,Female,all,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,179,140,200,78,69,68,78.2123,39.0,34.5,98.5507
-2023/2024,Female,all,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,157,123,188,73,76,72,78.3439,38.8298,40.4255,94.7368
-2023/2024,Female,all,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,144,113,157,61,60,59,78.4722,38.8535,38.2166,98.3333
-2023/2024,Female,all,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,274,195,316,123,120,108,71.1679,38.9241,37.9747,90.0
-2023/2024,Female,all,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,234,166,263,102,100,94,70.9402,38.7833,38.0228,94.0
-2023/2024,Female,all,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,262,187,314,122,119,113,71.374,38.8535,37.8981,94.958
-2023/2024,Female,all,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,277,197,304,118,113,103,71.1191,38.8158,37.1711,91.1504
-2023/2024,Female,all,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,264,188,306,119,113,99,71.2121,38.8889,36.9281,87.6106
-2023/2024,Female,all,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,249,177,279,108,100,85,71.0843,38.7097,35.8423,85.0
-2023/2024,Female,all,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,314,223,359,140,135,123,71.0191,38.9972,37.6045,91.1111
-2023/2024,Female,all,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,226,161,253,98,84,77,71.2389,38.7352,33.2016,91.6667
-2023/2024,Female,all,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,245,175,282,110,106,95,71.4286,39.0071,37.5887,89.6226
-2023/2024,Female,all,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,220,157,253,98,106,97,71.3636,38.7352,41.8972,91.5094
-2023/2024,Female,all,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,305,217,362,141,145,131,71.1475,38.9503,40.0552,90.3448
-2023/2024,Female,all,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,218,155,249,97,91,81,71.1009,38.9558,36.5462,89.011
-2023/2024,Female,all,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,329,234,388,150,148,135,71.1246,38.6598,38.1443,91.2162
-2023/2024,Female,all,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,297,211,347,135,132,117,71.0438,38.9049,38.0403,88.6364
-2023/2024,Female,all,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,243,173,276,108,100,89,71.1934,39.1304,36.2319,89.0
-2023/2024,Female,all,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,351,268,407,158,150,141,76.3533,38.8206,36.855,94.0
-2023/2024,Female,all,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,319,243,372,144,141,128,76.1755,38.7097,37.9032,90.7801
-2023/2024,Female,all,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,338,258,396,154,169,156,76.3314,38.8889,42.6768,92.3077
-2023/2024,Female,all,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,355,271,418,162,154,141,76.338,38.756,36.8421,91.5584
-2023/2024,Female,all,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,320,244,373,145,128,119,76.25,38.874,34.3164,92.9688
-2023/2024,Female,all,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,377,288,426,165,154,141,76.3926,38.7324,36.1502,91.5584
-2023/2024,Female,all,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,425,324,467,181,157,147,76.2353,38.758,33.6188,93.6306
-2023/2024,Female,all,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,311,237,350,136,123,116,76.2058,38.8571,35.1429,94.3089
-2023/2024,Female,all,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,356,271,409,159,152,141,76.1236,38.8753,37.1638,92.7632
-2023/2024,Female,all,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,302,231,356,139,136,125,76.4901,39.0449,38.2022,91.9118
-2023/2024,Female,all,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,389,297,451,176,175,162,76.3496,39.0244,38.8027,92.5714
-2023/2024,Female,all,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,285,217,328,128,118,107,76.1404,39.0244,35.9756,90.678
-2023/2024,Female,all,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,442,337,507,197,199,188,76.2443,38.856,39.2505,94.4724
-2023/2024,Female,all,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,409,312,474,184,176,163,76.2836,38.8186,37.1308,92.6136
-2023/2024,Female,all,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,326,249,367,143,128,122,76.3804,38.9646,34.8774,95.3125
-2023/2024,Female,disabled,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,14,11,16,6,6,5,78.5714,37.5,37.5,83.3333
-2023/2024,Female,disabled,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,12,10,14,5,0,0,83.3333,35.7143,0.0,0
-2023/2024,Female,disabled,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,13,10,16,6,11,10,76.9231,37.5,68.75,90.9091
-2023/2024,Female,disabled,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,12,10,12,5,6,5,83.3333,41.6667,50.0,83.3333
-2023/2024,Female,disabled,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,14,11,16,6,8,7,78.5714,37.5,50.0,87.5
-2023/2024,Female,disabled,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,12,10,12,5,8,7,83.3333,41.6667,66.6667,87.5
-2023/2024,Female,disabled,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,15,12,19,7,8,7,80.0,36.8421,42.1053,87.5
-2023/2024,Female,disabled,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,13,10,14,5,8,7,76.9231,35.7143,57.1429,87.5
-2023/2024,Female,disabled,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,13,10,13,5,8,7,76.9231,38.4615,61.5385,87.5
-2023/2024,Female,disabled,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,12,10,12,5,11,10,83.3333,41.6667,91.6667,90.9091
-2023/2024,Female,disabled,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,13,10,13,5,8,7,76.9231,38.4615,61.5385,87.5
-2023/2024,Female,disabled,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,12,10,14,5,8,7,83.3333,35.7143,57.1429,87.5
-2023/2024,Female,disabled,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,15,12,18,7,11,10,80.0,38.8889,61.1111,90.9091
-2023/2024,Female,disabled,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,15,12,17,7,11,10,80.0,41.1765,64.7059,90.9091
-2023/2024,Female,disabled,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,14,11,15,6,8,7,78.5714,40.0,53.3333,87.5
-2023/2024,Female,disabled,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,22,16,26,10,12,11,72.7273,38.4615,46.1538,91.6667
-2023/2024,Female,disabled,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,18,13,22,9,9,8,72.2222,40.9091,40.9091,88.8889
-2023/2024,Female,disabled,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,20,15,24,10,9,8,75.0,41.6667,37.5,88.8889
-2023/2024,Female,disabled,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,19,13,20,8,9,8,68.4211,40.0,45.0,88.8889
-2023/2024,Female,disabled,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,20,14,22,9,7,6,70.0,40.9091,31.8182,85.7143
-2023/2024,Female,disabled,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,19,13,20,8,9,8,68.4211,40.0,45.0,88.8889
-2023/2024,Female,disabled,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,26,19,31,12,9,8,73.0769,38.7097,29.0323,88.8889
-2023/2024,Female,disabled,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,17,12,18,7,7,6,70.5882,38.8889,38.8889,85.7143
-2023/2024,Female,disabled,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,19,14,24,10,9,8,73.6842,41.6667,37.5,88.8889
-2023/2024,Female,disabled,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,16,12,20,8,9,8,75.0,40.0,45.0,88.8889
-2023/2024,Female,disabled,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,21,15,24,9,9,8,71.4286,37.5,37.5,88.8889
-2023/2024,Female,disabled,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,16,12,19,8,9,8,75.0,42.1053,47.3684,88.8889
-2023/2024,Female,disabled,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,24,17,28,11,9,8,70.8333,39.2857,32.1429,88.8889
-2023/2024,Female,disabled,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,28,20,33,12,12,10,71.4286,36.3636,36.3636,83.3333
-2023/2024,Female,disabled,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,17,12,21,8,9,8,70.5882,38.0952,42.8571,88.8889
-2023/2024,Female,disabled,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,28,21,34,13,11,10,75.0,38.2353,32.3529,90.9091
-2023/2024,Female,disabled,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,26,20,30,11,9,8,76.9231,36.6667,30.0,88.8889
-2023/2024,Female,disabled,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,26,20,30,12,11,10,76.9231,40.0,36.6667,90.9091
-2023/2024,Female,disabled,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,27,21,32,12,11,10,77.7778,37.5,34.375,90.9091
-2023/2024,Female,disabled,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,23,18,26,10,8,7,78.2609,38.4615,30.7692,87.5
-2023/2024,Female,disabled,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,26,20,30,11,8,7,76.9231,36.6667,26.6667,87.5
-2023/2024,Female,disabled,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,33,25,37,14,13,12,75.7576,37.8378,35.1351,92.3077
-2023/2024,Female,disabled,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,24,18,29,11,11,10,75.0,37.931,37.931,90.9091
-2023/2024,Female,disabled,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,26,20,28,11,9,8,76.9231,39.2857,32.1429,88.8889
-2023/2024,Female,disabled,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,22,17,27,11,8,7,77.2727,40.7407,29.6296,87.5
-2023/2024,Female,disabled,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,28,21,33,13,11,10,75.0,39.3939,33.3333,90.9091
-2023/2024,Female,disabled,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,24,18,27,11,11,10,75.0,40.7407,40.7407,90.9091
-2023/2024,Female,disabled,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,35,27,41,16,12,11,77.1429,39.0244,29.2683,91.6667
-2023/2024,Female,disabled,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,38,29,44,17,12,11,76.3158,38.6364,27.2727,91.6667
-2023/2024,Female,disabled,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,25,19,28,11,8,7,76.0,39.2857,28.5714,87.5
-2023/2024,Male,all,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,160,125,180,69,65,64,78.125,38.3333,36.1111,98.4615
-2023/2024,Male,all,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,163,128,192,74,74,71,78.5276,38.5417,38.5417,95.9459
-2023/2024,Male,all,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,169,132,198,77,69,66,78.1065,38.8889,34.8485,95.6522
-2023/2024,Male,all,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,179,140,199,77,60,56,78.2123,38.6935,30.1508,93.3333
-2023/2024,Male,all,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,169,132,190,73,61,56,78.1065,38.4211,32.1053,91.8033
-2023/2024,Male,all,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,170,133,194,75,66,61,78.2353,38.6598,34.0206,92.4242
-2023/2024,Male,all,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,205,160,231,89,84,78,78.0488,38.5281,36.3636,92.8571
-2023/2024,Male,all,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,144,113,161,62,47,41,78.4722,38.5093,29.1925,87.234
-2023/2024,Male,all,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,155,121,184,72,69,66,78.0645,39.1304,37.5,95.6522
-2023/2024,Male,all,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,148,115,172,67,69,68,77.7027,38.9535,40.1163,98.5507
-2023/2024,Male,all,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,189,148,215,83,83,72,78.3069,38.6047,38.6047,86.747
-2023/2024,Male,all,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,148,116,168,66,47,46,78.3784,39.2857,27.9762,97.8723
-2023/2024,Male,all,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,183,143,225,87,79,72,78.1421,38.6667,35.1111,91.1392
-2023/2024,Male,all,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,172,135,203,79,75,61,78.4884,38.9163,36.9458,81.3333
-2023/2024,Male,all,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,176,138,195,75,65,61,78.4091,38.4615,33.3333,93.8462
-2023/2024,Male,all,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,306,218,353,138,121,110,71.2418,39.0935,34.2776,90.9091
-2023/2024,Male,all,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,274,195,321,125,109,97,71.1679,38.9408,33.9564,88.9908
-2023/2024,Male,all,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,327,233,371,143,135,121,71.2538,38.5445,36.3881,89.6296
-2023/2024,Male,all,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,351,250,402,157,143,129,71.2251,39.0547,35.5721,90.2098
-2023/2024,Male,all,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,309,220,354,138,124,114,71.1974,38.9831,35.0282,91.9355
-2023/2024,Male,all,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,277,197,324,126,117,101,71.1191,38.8889,36.1111,86.3248
-2023/2024,Male,all,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,358,254,396,154,139,126,70.9497,38.8889,35.101,90.6475
-2023/2024,Male,all,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,266,189,302,117,91,82,71.0526,38.7417,30.1325,90.1099
-2023/2024,Male,all,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,290,206,345,134,131,122,71.0345,38.8406,37.971,93.1298
-2023/2024,Male,all,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,268,190,310,121,132,121,70.8955,39.0323,42.5806,91.6667
-2023/2024,Male,all,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,348,248,412,161,150,137,71.2644,39.0777,36.4078,91.3333
-2023/2024,Male,all,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,261,185,291,113,99,86,70.8812,38.8316,34.0206,86.8687
-2023/2024,Male,all,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,345,245,400,156,138,125,71.0145,39.0,34.5,90.5797
-2023/2024,Male,all,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,318,226,380,148,135,125,71.0692,38.9474,35.5263,92.5926
-2023/2024,Male,all,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,305,217,333,129,109,97,71.1475,38.7387,32.7327,88.9908
-2023/2024,Male,all,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,390,297,456,177,153,141,76.1538,38.8158,33.5526,92.1569
-2023/2024,Male,all,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,385,294,450,174,155,144,76.3636,38.6667,34.4444,92.9032
-2023/2024,Male,all,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,414,316,483,187,175,160,76.3285,38.7164,36.2319,91.4286
-2023/2024,Male,all,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,463,353,539,209,189,174,76.2419,38.7755,35.0649,92.0635
-2023/2024,Male,all,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,384,292,429,166,135,127,76.0417,38.6946,31.4685,94.0741
-2023/2024,Male,all,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,405,309,463,180,162,153,76.2963,38.8769,34.9892,94.4444
-2023/2024,Male,all,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,466,355,529,206,182,165,76.1803,38.9414,34.4045,90.6593
-2023/2024,Male,all,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,386,294,430,167,135,127,76.1658,38.8372,31.3953,94.0741
-2023/2024,Male,all,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,396,302,466,181,172,163,76.2626,38.8412,36.9099,94.7674
-2023/2024,Male,all,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,370,282,428,166,152,138,76.2162,38.785,35.514,90.7895
-2023/2024,Male,all,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,449,343,515,200,191,178,76.392,38.835,37.0874,93.1937
-2023/2024,Male,all,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,347,265,389,151,135,127,76.3689,38.8175,34.7044,94.0741
-2023/2024,Male,all,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,458,349,535,208,195,180,76.2009,38.8785,36.4486,92.3077
-2023/2024,Male,all,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,448,341,527,205,188,174,76.1161,38.8994,35.6736,92.5532
-2023/2024,Male,all,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,414,315,462,180,159,145,76.087,38.961,34.4156,91.195
-2023/2024,Male,disabled,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,15,12,17,7,3,2,80.0,41.1765,17.6471,66.6667
-2023/2024,Male,disabled,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,15,12,17,7,10,9,80.0,41.1765,58.8235,90.0
-2023/2024,Male,disabled,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,15,12,17,7,10,9,80.0,41.1765,58.8235,90.0
-2023/2024,Male,disabled,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,14,11,15,6,3,2,78.5714,40.0,20.0,66.6667
-2023/2024,Male,disabled,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,16,12,17,7,7,6,75.0,41.1765,41.1765,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,13,10,15,6,4,3,76.9231,40.0,26.6667,75.0
-2023/2024,Male,disabled,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,18,14,18,7,10,9,77.7778,38.8889,55.5556,90.0
-2023/2024,Male,disabled,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,15,12,15,6,0,0,80.0,40.0,0.0,0
-2023/2024,Male,disabled,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,14,11,15,6,10,9,78.5714,40.0,66.6667,90.0
-2023/2024,Male,disabled,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,13,10,15,6,10,9,76.9231,40.0,66.6667,90.0
-2023/2024,Male,disabled,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,15,12,17,7,10,9,80.0,41.1765,58.8235,90.0
-2023/2024,Male,disabled,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,13,10,15,6,0,0,76.9231,40.0,0.0,0
-2023/2024,Male,disabled,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,16,13,20,8,6,5,81.25,40.0,30.0,83.3333
-2023/2024,Male,disabled,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,17,14,18,7,7,6,82.3529,38.8889,38.8889,85.7143
-2023/2024,Male,disabled,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,17,14,18,7,3,2,82.3529,38.8889,16.6667,66.6667
-2023/2024,Male,disabled,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,24,17,27,11,11,9,70.8333,40.7407,40.7407,81.8182
-2023/2024,Male,disabled,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,23,16,27,11,11,9,69.5652,40.7407,40.7407,81.8182
-2023/2024,Male,disabled,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,26,19,31,11,11,9,73.0769,35.4839,35.4839,81.8182
-2023/2024,Male,disabled,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,25,18,30,12,11,9,72.0,40.0,36.6667,81.8182
-2023/2024,Male,disabled,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,24,17,29,11,8,7,70.8333,37.931,27.5862,87.5
-2023/2024,Male,disabled,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,21,15,25,9,11,9,71.4286,36.0,44.0,81.8182
-2023/2024,Male,disabled,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,29,21,34,13,11,9,72.4138,38.2353,32.3529,81.8182
-2023/2024,Male,disabled,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,20,14,24,10,8,7,70.0,41.6667,33.3333,87.5
-2023/2024,Male,disabled,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,21,15,24,9,11,9,71.4286,37.5,45.8333,81.8182
-2023/2024,Male,disabled,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,21,15,24,9,11,9,71.4286,37.5,45.8333,81.8182
-2023/2024,Male,disabled,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,23,16,27,11,11,9,69.5652,40.7407,40.7407,81.8182
-2023/2024,Male,disabled,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,21,15,24,10,11,9,71.4286,41.6667,45.8333,81.8182
-2023/2024,Male,disabled,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,26,18,29,12,8,7,69.2308,41.3793,27.5862,87.5
-2023/2024,Male,disabled,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,30,21,35,14,11,9,70.0,40.0,31.4286,81.8182
-2023/2024,Male,disabled,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,21,15,25,10,8,7,71.4286,40.0,32.0,87.5
-2023/2024,Male,disabled,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,32,24,38,15,12,11,75.0,39.4737,31.5789,91.6667
-2023/2024,Male,disabled,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,29,22,35,13,12,11,75.8621,37.1429,34.2857,91.6667
-2023/2024,Male,disabled,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,34,26,39,15,9,8,76.4706,38.4615,23.0769,88.8889
-2023/2024,Male,disabled,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,35,27,41,16,12,11,77.1429,39.0244,29.2683,91.6667
-2023/2024,Male,disabled,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,29,22,33,13,9,8,75.8621,39.3939,27.2727,88.8889
-2023/2024,Male,disabled,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,32,25,38,15,9,8,78.125,39.4737,23.6842,88.8889
-2023/2024,Male,disabled,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,39,30,44,17,15,13,76.9231,38.6364,34.0909,86.6667
-2023/2024,Male,disabled,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,29,22,32,12,9,8,75.8621,37.5,28.125,88.8889
-2023/2024,Male,disabled,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,30,23,34,13,12,11,76.6667,38.2353,35.2941,91.6667
-2023/2024,Male,disabled,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,29,22,34,13,9,8,75.8621,38.2353,26.4706,88.8889
-2023/2024,Male,disabled,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,31,24,37,14,9,8,77.4194,37.8378,24.3243,88.8889
-2023/2024,Male,disabled,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,27,21,30,12,9,8,77.7778,40.0,30.0,88.8889
-2023/2024,Male,disabled,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,35,26,42,16,10,9,74.2857,38.0952,23.8095,90.0
-2023/2024,Male,disabled,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,41,31,46,18,12,11,75.6098,39.1304,26.087,91.6667
-2023/2024,Male,disabled,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,31,24,36,14,12,11,77.4194,38.8889,33.3333,91.6667
-2024/2025,Female,all,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,72,54,41,16,13,13,75.0000,39.0244,31.7073,100.0000
-2024/2025,Female,all,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,67,50,38,15,14,13,74.6269,39.4737,36.8421,92.8571
-2024/2025,Female,all,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,67,50,40,16,15,14,74.6269,40.0000,37.5000,93.3333
-2024/2025,Female,all,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,73,55,41,16,12,11,75.3425,39.0244,29.2683,91.6667
-2024/2025,Female,all,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,69,52,38,15,13,12,75.3623,39.4737,34.2105,92.3077
-2024/2025,Female,all,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,75,56,42,17,13,12,74.6667,40.4762,30.9524,92.3077
-2024/2025,Female,all,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,82,61,46,18,14,12,74.3902,39.1304,30.4348,85.7143
-2024/2025,Female,all,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,60,45,34,13,11,11,75.0000,38.2353,32.3529,100.0000
-2024/2025,Female,all,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,68,51,39,15,14,13,75.0000,38.4615,35.8974,92.8571
-2024/2025,Female,all,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,59,45,35,14,13,12,76.2712,40.0000,37.1429,92.3077
-2024/2025,Female,all,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,84,63,48,19,17,16,75.0000,39.5833,35.4167,94.1176
-2024/2025,Female,all,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,64,48,37,15,10,10,75.0000,40.5405,27.0270,100.0000
-2024/2025,Female,all,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,96,72,56,22,19,17,75.0000,39.2857,33.9286,89.4737
-2024/2025,Female,all,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,79,59,46,18,16,15,74.6835,39.1304,34.7826,93.7500
-2024/2025,Female,all,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,72,54,40,16,14,12,75.0000,40.0000,35.0000,85.7143
-2024/2025,Female,all,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,1014,689,573,225,187,171,67.9487,39.2670,32.6353,91.4439
-2024/2025,Female,all,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,927,628,532,210,187,169,67.7454,39.4737,35.1504,90.3743
-2024/2025,Female,all,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,1042,709,606,237,223,208,68.0422,39.1089,36.7987,93.2735
-2024/2025,Female,all,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,1075,729,612,240,206,196,67.8140,39.2157,33.6601,95.1456
-2024/2025,Female,all,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,985,668,542,212,179,163,67.8173,39.1144,33.0258,91.0615
-2024/2025,Female,all,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,1083,737,612,240,198,177,68.0517,39.2157,32.3529,89.3939
-2024/2025,Female,all,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,1231,839,685,270,228,213,68.1560,39.4161,33.2847,93.4211
-2024/2025,Female,all,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,899,612,512,201,158,146,68.0756,39.2578,30.8594,92.4051
-2024/2025,Female,all,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,1022,693,598,235,202,183,67.8082,39.2977,33.7793,90.5941
-2024/2025,Female,all,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,911,620,524,205,192,183,68.0571,39.1221,36.6412,95.3125
-2024/2025,Female,all,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,1293,879,752,295,257,240,67.9814,39.2287,34.1755,93.3852
-2024/2025,Female,all,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,841,571,471,186,164,146,67.8954,39.4904,34.8195,89.0244
-2024/2025,Female,all,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,1395,948,799,312,266,246,67.9570,39.0488,33.2916,92.4812
-2024/2025,Female,all,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,1133,770,659,259,221,208,67.9612,39.3020,33.5357,94.1176
-2024/2025,Female,all,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,1026,697,600,235,198,175,67.9337,39.1667,33.0000,88.3838
-2024/2025,Female,all,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,1462,1075,851,336,297,281,73.5294,39.4830,34.9001,94.6128
-2024/2025,Female,all,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,1317,967,751,295,250,230,73.4244,39.2810,33.2889,92.0000
-2024/2025,Female,all,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,1514,1114,877,346,308,287,73.5799,39.4527,35.1197,93.1818
-2024/2025,Female,all,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,1471,1080,823,323,279,261,73.4194,39.2467,33.9004,93.5484
-2024/2025,Female,all,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,1462,1075,812,318,263,238,73.5294,39.1626,32.3892,90.4943
-2024/2025,Female,all,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,1528,1123,868,341,287,261,73.4948,39.2857,33.0645,90.9408
-2024/2025,Female,all,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,1962,1444,1102,433,353,318,73.5984,39.2922,32.0327,90.0850
-2024/2025,Female,all,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,1299,954,729,286,217,199,73.4411,39.2318,29.7668,91.7051
-2024/2025,Female,all,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,1444,1062,844,332,297,271,73.5457,39.3365,35.1896,91.2458
-2024/2025,Female,all,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,1339,984,770,302,283,254,73.4877,39.2208,36.7532,89.7527
-2024/2025,Female,all,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,1791,1318,1045,410,369,346,73.5902,39.2344,35.3110,93.7669
-2024/2025,Female,all,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,1234,906,720,282,236,218,73.4198,39.1667,32.7778,92.3729
-2024/2025,Female,all,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,1940,1427,1111,437,382,352,73.5567,39.3339,34.3834,92.1466
-2024/2025,Female,all,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,1655,1214,960,380,341,315,73.3535,39.5833,35.5208,92.3754
-2024/2025,Female,all,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,1607,1179,899,353,283,261,73.3665,39.2659,31.4794,92.2261
-2024/2025,Female,disabled,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,8,6,4,2,2,2,75.0000,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,7,5,4,2,3,3,71.4286,50.0000,75.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,8,6,4,2,3,3,75.0000,50.0000,75.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,7,5,4,2,2,1,71.4286,50.0000,50.0000,50.0000
-2024/2025,Female,disabled,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,7,6,4,2,1,1,85.7143,50.0000,25.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,7,5,4,1,1,1,71.4286,25.0000,25.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,7,6,4,2,3,2,85.7143,50.0000,75.0000,66.6667
-2024/2025,Female,disabled,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,7,6,4,1,3,2,85.7143,25.0000,75.0000,66.6667
-2024/2025,Female,disabled,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,7,6,3,1,2,2,85.7143,33.3333,66.6667,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,7,5,3,1,3,3,71.4286,33.3333,100.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,7,6,3,1,2,2,85.7143,33.3333,66.6667,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,7,5,3,1,1,0,71.4286,33.3333,33.3333,0.0000
-2024/2025,Female,disabled,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,9,7,5,2,3,3,77.7778,40.0000,60.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,7,6,4,2,2,2,85.7143,50.0000,50.0000,100.0000
-2024/2025,Female,disabled,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,7,6,4,2,3,2,85.7143,50.0000,75.0000,66.6667
-2024/2025,Female,disabled,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,98,65,56,22,20,17,66.3265,39.2857,35.7143,85.0000
-2024/2025,Female,disabled,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,79,55,51,22,20,17,69.6203,43.1373,39.2157,85.0000
-2024/2025,Female,disabled,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,93,65,58,24,20,17,69.8925,41.3793,34.4828,85.0000
-2024/2025,Female,disabled,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,93,64,51,22,16,15,68.8172,43.1373,31.3725,93.7500
-2024/2025,Female,disabled,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,93,64,53,22,18,17,68.8172,41.5094,33.9623,94.4444
-2024/2025,Female,disabled,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,98,64,53,22,18,17,65.3061,41.5094,33.9623,94.4444
-2024/2025,Female,disabled,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,117,78,70,26,19,17,66.6667,37.1429,27.1429,89.4737
-2024/2025,Female,disabled,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,79,55,42,17,19,17,69.6203,40.4762,45.2381,89.4737
-2024/2025,Female,disabled,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,89,60,46,19,18,17,67.4157,41.3043,39.1304,94.4444
-2024/2025,Female,disabled,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,75,51,44,19,19,17,68.0000,43.1818,43.1818,89.4737
-2024/2025,Female,disabled,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,98,64,56,22,19,17,65.3061,39.2857,33.9286,89.4737
-2024/2025,Female,disabled,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,75,51,42,17,19,17,68.0000,40.4762,45.2381,89.4737
-2024/2025,Female,disabled,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,117,78,70,26,21,21,66.6667,37.1429,30.0000,100.0000
-2024/2025,Female,disabled,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,117,78,70,29,18,17,66.6667,41.4286,25.7143,94.4444
-2024/2025,Female,disabled,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,89,60,53,22,14,13,67.4157,41.5094,26.4151,92.8571
-2024/2025,Female,disabled,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,139,103,82,31,23,21,74.1007,37.8049,28.0488,91.3043
-2024/2025,Female,disabled,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,110,79,67,26,19,17,71.8182,38.8060,28.3582,89.4737
-2024/2025,Female,disabled,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,135,99,79,31,23,21,73.3333,39.2405,29.1139,91.3043
-2024/2025,Female,disabled,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,125,94,69,26,23,21,75.2000,37.6812,33.3333,91.3043
-2024/2025,Female,disabled,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,130,99,77,31,23,21,76.1538,40.2597,29.8701,91.3043
-2024/2025,Female,disabled,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,135,98,81,34,18,17,72.5926,41.9753,22.2222,94.4444
-2024/2025,Female,disabled,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,169,123,94,36,28,26,72.7811,38.2979,29.7872,92.8571
-2024/2025,Female,disabled,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,120,89,67,26,18,17,74.1667,38.8060,26.8657,94.4444
-2024/2025,Female,disabled,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,125,94,74,28,18,17,75.2000,37.8378,24.3243,94.4444
-2024/2025,Female,disabled,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,115,84,67,26,18,17,73.0435,38.8060,26.8657,94.4444
-2024/2025,Female,disabled,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,135,98,77,28,18,16,72.5926,36.3636,23.3766,88.8889
-2024/2025,Female,disabled,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,115,84,67,26,18,16,73.0435,38.8060,26.8657,88.8889
-2024/2025,Female,disabled,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,159,118,89,36,23,21,74.2138,40.4494,25.8427,91.3043
-2024/2025,Female,disabled,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,169,123,96,39,23,21,72.7811,40.6250,23.9583,91.3043
-2024/2025,Female,disabled,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,135,98,84,34,23,21,72.5926,40.4762,27.3810,91.3043
-2024/2025,Male,all,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,84,63,47,19,14,13,75.0000,40.4255,29.7872,92.8571
-2024/2025,Male,all,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,80,60,45,17,14,14,75.0000,37.7778,31.1111,100.0000
-2024/2025,Male,all,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,83,63,49,19,16,12,75.9036,38.7755,32.6531,75.0000
-2024/2025,Male,all,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,89,67,51,20,16,13,75.2809,39.2157,31.3725,81.2500
-2024/2025,Male,all,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,85,64,47,18,15,14,75.2941,38.2979,31.9149,93.3333
-2024/2025,Male,all,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,84,63,49,19,13,12,75.0000,38.7755,26.5306,92.3077
-2024/2025,Male,all,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,92,69,53,21,17,16,75.0000,39.6226,32.0755,94.1176
-2024/2025,Male,all,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,72,54,41,16,13,11,75.0000,39.0244,31.7073,84.6154
-2024/2025,Male,all,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,77,58,43,17,17,15,75.3247,39.5349,39.5349,88.2353
-2024/2025,Male,all,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,74,56,42,16,14,14,75.6757,38.0952,33.3333,100.0000
-2024/2025,Male,all,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,99,75,58,23,20,18,75.7576,39.6552,34.4828,90.0000
-2024/2025,Male,all,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,73,54,39,15,11,11,73.9726,38.4615,28.2051,100.0000
-2024/2025,Male,all,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,102,77,60,23,19,18,75.4902,38.3333,31.6667,94.7368
-2024/2025,Male,all,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,82,61,48,19,18,17,74.3902,39.5833,37.5000,94.4444
-2024/2025,Male,all,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,86,65,50,20,17,16,75.5814,40.0000,34.0000,94.1176
-2024/2025,Male,all,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,1137,774,624,248,187,173,68.0739,39.7436,29.9679,92.5134
-2024/2025,Male,all,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,1079,733,597,235,177,160,67.9333,39.3635,29.6482,90.3955
-2024/2025,Male,all,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,1256,851,734,289,257,240,67.7548,39.3733,35.0136,93.3852
-2024/2025,Male,all,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,1362,928,761,299,240,225,68.1351,39.2904,31.5375,93.7500
-2024/2025,Male,all,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,1215,826,677,267,206,188,67.9835,39.4387,30.4284,91.2621
-2024/2025,Male,all,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,1223,834,691,274,206,188,68.1930,39.6527,29.8119,91.2621
-2024/2025,Male,all,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,1420,964,793,310,264,248,67.8873,39.0921,33.2913,93.9394
-2024/2025,Male,all,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,1030,701,573,227,175,159,68.0583,39.6161,30.5410,90.8571
-2024/2025,Male,all,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,1166,794,685,269,234,211,68.0961,39.2701,34.1606,90.1709
-2024/2025,Male,all,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,1124,766,665,261,234,217,68.1495,39.2481,35.1880,92.7350
-2024/2025,Male,all,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,1482,1009,879,344,300,282,68.0837,39.1354,34.1297,94.0000
-2024/2025,Male,all,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,1014,689,579,229,175,152,67.9487,39.5509,30.2245,86.8571
-2024/2025,Male,all,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,1461,992,840,332,279,254,67.8987,39.5238,33.2143,91.0394
-2024/2025,Male,all,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,1239,843,738,291,247,234,68.0387,39.4309,33.4688,94.7368
-2024/2025,Male,all,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,1276,867,726,284,221,196,67.9467,39.1185,30.4408,88.6878
-2024/2025,Male,all,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,1673,1227,945,371,277,258,73.3413,39.2593,29.3122,93.1408
-2024/2025,Male,all,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,1506,1110,864,341,291,265,73.7052,39.4676,33.6806,91.0653
-2024/2025,Male,all,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,1870,1375,1080,426,377,346,73.5294,39.4444,34.9074,91.7772
-2024/2025,Male,all,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,1870,1375,1082,423,349,317,73.5294,39.0943,32.2551,90.8309
-2024/2025,Male,all,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,1773,1301,1008,394,339,311,73.3785,39.0873,33.6310,91.7404
-2024/2025,Male,all,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,1703,1257,954,375,281,258,73.8109,39.3082,29.4549,91.8149
-2024/2025,Male,all,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,2138,1570,1237,485,384,346,73.4331,39.2078,31.0428,90.1042
-2024/2025,Male,all,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,1593,1171,903,357,291,265,73.5091,39.5349,32.2259,91.0653
-2024/2025,Male,all,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,1668,1227,953,375,291,271,73.5612,39.3494,30.5352,93.1271
-2024/2025,Male,all,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,1712,1257,980,387,332,311,73.4229,39.4898,33.8776,93.6747
-2024/2025,Male,all,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,2155,1583,1255,492,408,379,73.4571,39.2032,32.5100,92.8922
-2024/2025,Male,all,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,1453,1071,827,325,261,238,73.7096,39.2987,31.5599,91.1877
-2024/2025,Male,all,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,2011,1479,1146,449,375,354,73.5455,39.1798,32.7225,94.4000
-2024/2025,Male,all,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,1743,1284,984,387,338,305,73.6661,39.3293,34.3496,90.2367
-2024/2025,Male,all,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,1923,1414,1093,430,338,311,73.5309,39.3413,30.9241,92.0118
-2024/2025,Male,disabled,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,9,6,5,2,1,1,66.6667,40.0000,20.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,8,6,4,1,2,2,75.0000,25.0000,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,8,6,5,2,2,2,75.0000,40.0000,40.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,8,6,5,2,1,1,75.0000,40.0000,20.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,9,6,5,2,3,3,66.6667,40.0000,60.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,8,6,4,1,1,1,75.0000,25.0000,25.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,9,7,5,2,3,3,77.7778,40.0000,60.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,8,6,5,2,2,2,75.0000,40.0000,40.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,8,6,4,1,3,3,75.0000,25.0000,75.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,8,6,5,2,3,3,75.0000,40.0000,60.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,9,6,5,2,2,2,66.6667,40.0000,40.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,8,5,5,2,1,1,62.5000,40.0000,20.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,11,8,6,2,3,3,72.7273,33.3333,50.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,9,6,5,2,3,3,66.6667,40.0000,60.0000,100.0000
-2024/2025,Male,disabled,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,9,7,5,2,2,2,77.7778,40.0000,40.0000,100.0000
-2024/2025,Male,disabled,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,98,64,51,19,16,15,65.3061,37.2549,31.3725,93.7500
-2024/2025,Male,disabled,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,98,64,56,22,12,10,65.3061,39.2857,21.4286,83.3333
-2024/2025,Male,disabled,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,112,74,63,24,21,21,66.0714,38.0952,33.3333,100.0000
-2024/2025,Male,disabled,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,126,88,70,26,14,12,69.8413,37.1429,20.0000,85.7143
-2024/2025,Male,disabled,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,107,74,63,24,14,12,69.1589,38.0952,22.2222,85.7143
-2024/2025,Male,disabled,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,107,74,63,26,14,12,69.1589,41.2698,22.2222,85.7143
-2024/2025,Male,disabled,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,131,88,81,31,27,25,67.1756,38.2716,33.3333,92.5926
-2024/2025,Male,disabled,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,93,64,51,22,12,10,68.8172,43.1373,23.5294,83.3333
-2024/2025,Male,disabled,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,98,69,58,22,19,19,70.4082,37.9310,32.7586,100.0000
-2024/2025,Male,disabled,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,93,64,56,21,19,19,68.8172,37.5000,33.9286,100.0000
-2024/2025,Male,disabled,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,121,83,72,26,19,19,68.5950,36.1111,26.3889,100.0000
-2024/2025,Male,disabled,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,93,64,51,19,21,21,68.8172,37.2549,41.1765,100.0000
-2024/2025,Male,disabled,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,126,88,70,26,19,19,69.8413,37.1429,27.1429,100.0000
-2024/2025,Male,disabled,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,121,83,74,29,19,19,68.5950,39.1892,25.6757,100.0000
-2024/2025,Male,disabled,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,103,69,58,21,14,12,66.9903,36.2069,24.1379,85.7143
-2024/2025,Male,disabled,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,154,113,89,36,28,26,73.3766,40.4494,31.4607,92.8571
-2024/2025,Male,disabled,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,135,98,77,31,23,19,72.5926,40.2597,29.8701,82.6087
-2024/2025,Male,disabled,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,164,123,94,39,28,26,75.0000,41.4894,29.7872,92.8571
-2024/2025,Male,disabled,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,149,108,84,34,18,16,72.4832,40.4762,21.4286,88.8889
-2024/2025,Male,disabled,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,164,118,91,33,21,19,71.9512,36.2637,23.0769,90.4762
-2024/2025,Male,disabled,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,149,113,81,33,18,16,75.8389,40.7407,22.2222,88.8889
-2024/2025,Male,disabled,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,184,133,109,41,28,26,72.2826,37.6147,25.6881,92.8571
-2024/2025,Male,disabled,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,130,94,69,28,23,19,72.3077,40.5797,33.3333,82.6087
-2024/2025,Male,disabled,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,144,108,84,33,25,24,75.0000,39.2857,29.7619,96.0000
-2024/2025,Male,disabled,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,149,108,89,36,25,24,72.4832,40.4494,28.0899,96.0000
-2024/2025,Male,disabled,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,164,118,96,36,25,24,71.9512,37.5000,26.0417,96.0000
-2024/2025,Male,disabled,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,139,103,81,31,23,19,74.1007,38.2716,28.3951,82.6087
-2024/2025,Male,disabled,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,179,133,106,41,25,24,74.3017,38.6792,23.5849,96.0000
-2024/2025,Male,disabled,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,184,138,109,41,25,24,75.0000,37.6147,22.9358,96.0000
-2024/2025,Male,disabled,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,149,108,89,36,21,19,72.4832,40.4494,23.5955,90.4762
+session,gender,disability,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
+2022/2023,Female,ALL,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,203,165,243,194,132,122,73.5294,35.0993,44.3709,92.5373
+2022/2023,Female,ALL,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,182,147,221,172,130,114,72.9508,34.3066,48.1752,87.8788
+2022/2023,Female,ALL,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,195,159,255,201,159,138,73.2824,34.8101,51.2658,86.4198
+2022/2023,Female,ALL,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,197,160,245,190,135,130,73.4848,34.2105,45.3947,95.6522
+2022/2023,Female,ALL,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,197,160,230,179,120,114,73.4848,34.2657,42.6573,95.082
+2022/2023,Female,ALL,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,198,160,246,194,126,124,72.9323,34.6405,41.8301,98.4375
+2022/2023,Female,ALL,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,243,197,308,245,165,148,73.0061,35.0785,43.9791,89.2857
+2022/2023,Female,ALL,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,174,142,209,161,104,103,73.5043,33.8462,40.7692,98.1132
+2022/2023,Female,ALL,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,191,156,234,183,134,122,73.4375,34.4828,46.8966,91.1765
+2022/2023,Female,ALL,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,177,144,221,172,128,126,73.1092,34.3066,47.4453,98.4615
+2022/2023,Female,ALL,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,231,189,285,227,181,156,73.5484,35.0282,51.9774,85.8696
+2022/2023,Female,ALL,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,185,151,230,179,104,103,73.3871,34.2657,37.0629,98.1132
+2022/2023,Female,ALL,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,242,197,311,249,177,168,73.4568,35.2332,46.6321,94.4444
+2022/2023,Female,ALL,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,227,184,290,230,153,142,73.0263,35.0,43.3333,92.3077
+2022/2023,Female,ALL,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,203,165,251,197,128,114,73.5294,34.6154,41.6667,89.2308
+2022/2023,Female,ALL,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,373,271,459,366,271,241,65.6,35.0877,48.4211,88.4058
+2022/2023,Female,ALL,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,316,230,404,322,234,215,65.566,35.0598,47.4104,91.5966
+2022/2023,Female,ALL,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,368,268,467,369,273,249,65.587,34.8276,47.931,90.6475
+2022/2023,Female,ALL,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,380,276,472,377,257,231,65.4902,35.1536,44.7099,89.313
+2022/2023,Female,ALL,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,355,258,433,344,240,225,65.5462,34.9442,45.3532,93.4426
+2022/2023,Female,ALL,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,400,291,493,388,287,267,65.6716,34.6405,47.7124,92.4658
+2022/2023,Female,ALL,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,450,328,567,450,279,249,65.5629,34.9432,40.3409,88.7324
+2022/2023,Female,ALL,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,336,243,404,322,224,209,65.3333,35.0598,45.4183,92.9825
+2022/2023,Female,ALL,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,350,255,435,344,263,241,65.5319,34.8148,49.6296,91.0448
+2022/2023,Female,ALL,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,310,227,398,314,257,231,65.8654,34.8178,53.0364,89.313
+2022/2023,Female,ALL,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,440,319,556,442,316,290,65.4237,35.0725,46.6667,91.3043
+2022/2023,Female,ALL,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,303,220,354,282,171,144,65.5172,35.0,39.5455,83.908
+2022/2023,Female,ALL,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,431,314,543,435,271,241,65.7439,35.3116,40.9496,88.4058
+2022/2023,Female,ALL,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,406,296,514,406,279,257,65.8088,34.7962,44.5141,91.5493
+2022/2023,Female,ALL,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,388,283,464,369,247,225,65.7692,35.0694,43.75,90.4762
+2022/2023,Female,ALL,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,476,374,578,464,318,300,70.8464,35.376,45.1253,93.8272
+2022/2023,Female,ALL,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,425,334,536,431,291,274,70.8772,35.4354,44.4444,93.9189
+2022/2023,Female,ALL,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,498,390,630,505,357,330,70.6587,35.2941,46.5473,91.7582
+2022/2023,Female,ALL,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,485,380,580,464,310,280,70.7692,35.2778,43.8889,89.8734
+2022/2023,Female,ALL,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,464,366,572,461,310,290,71.0611,35.493,44.507,93.038
+2022/2023,Female,ALL,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,506,397,612,490,330,306,70.7965,35.2632,44.2105,92.2619
+2022/2023,Female,ALL,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,565,445,702,563,377,349,70.9763,35.3211,44.0367,92.1875
+2022/2023,Female,ALL,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,435,342,530,424,271,257,70.8904,35.2584,41.9453,94.2029
+2022/2023,Female,ALL,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,464,364,585,472,336,310,70.7395,35.5372,47.1074,91.8129
+2022/2023,Female,ALL,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,407,319,527,424,297,286,70.696,35.474,46.1774,96.0265
+2022/2023,Female,ALL,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,595,468,746,596,404,375,70.9273,35.2052,44.4924,92.233
+2022/2023,Female,ALL,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,392,309,482,388,249,237,71.1027,35.4515,42.4749,94.4882
+2022/2023,Female,ALL,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,594,467,748,600,412,377,70.8543,35.3448,45.2586,90.9524
+2022/2023,Female,ALL,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,547,428,696,559,397,373,70.5722,35.4167,46.7593,93.5644
+2022/2023,Female,ALL,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,516,405,632,505,351,330,70.8092,35.2041,45.6633,93.2961
+2022/2023,Female,Disabled,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,19,15,23,18,22,18,69.2308,35.7143,78.5714,81.8182
+2022/2023,Female,Disabled,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,18,15,21,15,22,18,75.0,30.7692,84.6154,81.8182
+2022/2023,Female,Disabled,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,18,15,23,18,27,24,75.0,35.7143,100.0,85.7143
+2022/2023,Female,Disabled,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,16,13,21,15,18,16,72.7273,30.7692,69.2308,88.8889
+2022/2023,Female,Disabled,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,19,15,21,15,12,10,69.2308,30.7692,46.1538,83.3333
+2022/2023,Female,Disabled,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,16,13,21,15,18,16,72.7273,30.7692,69.2308,88.8889
+2022/2023,Female,Disabled,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,21,17,29,22,22,18,71.4286,33.3333,61.1111,81.8182
+2022/2023,Female,Disabled,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,18,15,21,15,14,12,75.0,30.7692,53.8462,85.7143
+2022/2023,Female,Disabled,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,18,15,21,15,18,16,75.0,30.7692,69.2308,88.8889
+2022/2023,Female,Disabled,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,16,13,21,15,24,22,72.7273,30.7692,92.3077,91.6667
+2022/2023,Female,Disabled,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,16,13,21,15,20,18,72.7273,30.7692,76.9231,90.0
+2022/2023,Female,Disabled,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,16,13,21,15,8,6,72.7273,30.7692,30.7692,75.0
+2022/2023,Female,Disabled,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,21,17,26,22,24,22,71.4286,37.5,75.0,91.6667
+2022/2023,Female,Disabled,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,21,17,26,18,18,16,71.4286,31.25,56.25,88.8889
+2022/2023,Female,Disabled,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,18,15,21,15,12,10,75.0,30.7692,46.1538,83.3333
+2022/2023,Female,Disabled,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,28,20,34,26,24,20,63.1579,33.3333,57.1429,83.3333
+2022/2023,Female,Disabled,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,24,17,29,22,24,20,62.5,33.3333,66.6667,83.3333
+2022/2023,Female,Disabled,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,28,20,37,29,24,20,63.1579,34.7826,52.1739,83.3333
+2022/2023,Female,Disabled,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,30,22,34,26,18,16,65.0,33.3333,42.8571,88.8889
+2022/2023,Female,Disabled,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,28,22,37,29,24,20,68.4211,34.7826,52.1739,83.3333
+2022/2023,Female,Disabled,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,30,22,35,26,24,20,65.0,31.8182,54.5455,83.3333
+2022/2023,Female,Disabled,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,37,28,48,37,24,20,68.0,33.3333,40.0,83.3333
+2022/2023,Female,Disabled,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,27,20,31,22,24,20,66.6667,31.5789,63.1579,83.3333
+2022/2023,Female,Disabled,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,28,20,34,26,24,20,63.1579,33.3333,57.1429,83.3333
+2022/2023,Female,Disabled,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,22,17,29,22,24,20,66.6667,33.3333,66.6667,83.3333
+2022/2023,Female,Disabled,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,28,20,34,26,18,16,63.1579,33.3333,42.8571,88.8889
+2022/2023,Female,Disabled,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,24,18,27,22,12,10,68.75,35.2941,35.2941,83.3333
+2022/2023,Female,Disabled,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,34,25,43,37,18,16,65.2174,37.037,33.3333,88.8889
+2022/2023,Female,Disabled,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,37,28,43,33,18,16,68.0,33.3333,33.3333,88.8889
+2022/2023,Female,Disabled,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,27,20,34,26,24,20,66.6667,33.3333,57.1429,83.3333
+2022/2023,Female,Disabled,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,37,30,45,37,24,22,72.0,35.7143,42.8571,91.6667
+2022/2023,Female,Disabled,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,33,26,42,33,18,16,72.7273,34.6154,34.6154,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,40,31,55,44,24,22,70.3704,35.2941,35.2941,91.6667
+2022/2023,Female,Disabled,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,39,30,47,37,18,16,69.2308,34.4828,31.0345,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,36,28,48,40,18,16,70.8333,36.6667,30.0,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,40,31,52,40,18,16,70.3704,34.375,28.125,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,48,38,60,48,29,28,71.875,35.1351,40.5405,93.3333
+2022/2023,Female,Disabled,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,31,25,40,33,18,16,71.4286,36.0,36.0,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,34,26,43,37,18,16,69.5652,37.037,33.3333,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,30,23,39,29,18,16,70.0,33.3333,37.5,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,42,33,53,44,18,16,71.4286,36.3636,27.2727,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,30,23,37,29,18,16,70.0,34.7826,39.1304,88.8889
+2022/2023,Female,Disabled,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,45,35,60,48,29,26,70.0,35.1351,40.5405,86.6667
+2022/2023,Female,Disabled,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,46,36,61,48,24,22,70.9677,34.2105,31.5789,91.6667
+2022/2023,Female,Disabled,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,36,28,45,37,24,22,70.8333,35.7143,42.8571,91.6667
+2022/2023,Male,ALL,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,225,184,269,212,143,134,73.5099,34.7305,43.7126,93.1507
+2022/2023,Male,ALL,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,215,175,271,212,122,109,73.6111,34.5238,36.9048,88.7097
+2022/2023,Male,ALL,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,248,200,319,252,165,148,72.8916,34.8485,42.4242,89.2857
+2022/2023,Male,ALL,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,254,207,311,245,143,142,73.5294,34.715,37.8238,98.6301
+2022/2023,Male,ALL,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,242,195,311,249,177,156,72.8395,35.2332,46.6321,87.7778
+2022/2023,Male,ALL,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,221,180,285,223,143,132,73.6486,34.4633,41.2429,91.7808
+2022/2023,Male,ALL,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,274,223,332,263,165,148,73.3696,34.9515,40.7767,89.2857
+2022/2023,Male,ALL,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,204,165,246,194,110,109,72.9927,34.6405,36.6013,98.2143
+2022/2023,Male,ALL,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,216,175,261,208,165,158,73.1034,35.1852,51.8519,95.2381
+2022/2023,Male,ALL,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,210,170,274,216,175,174,73.0496,34.7059,52.3529,98.8764
+2022/2023,Male,ALL,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,264,215,338,267,165,160,73.4463,34.7619,40.0,96.4286
+2022/2023,Male,ALL,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,209,169,246,190,110,109,72.8571,33.9869,36.6013,98.2143
+2022/2023,Male,ALL,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,262,213,322,256,153,132,73.2955,35.0,39.0,85.8974
+2022/2023,Male,ALL,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,258,210,319,252,165,142,73.4104,34.8485,42.4242,85.7143
+2022/2023,Male,ALL,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,239,194,293,234,143,134,73.125,35.1648,40.1099,93.1507
+2022/2023,Male,ALL,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,412,299,501,402,263,227,65.5797,35.3698,43.0868,85.8209
+2022/2023,Male,ALL,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,386,281,490,391,263,235,65.6371,35.1974,44.0789,88.806
+2022/2023,Male,ALL,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,425,309,533,428,304,282,65.614,35.3474,46.8278,92.2581
+2022/2023,Male,ALL,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,477,347,604,483,285,265,65.625,35.2,38.6667,92.4138
+2022/2023,Male,ALL,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,419,304,530,424,257,225,65.4804,35.2584,39.8176,87.0229
+2022/2023,Male,ALL,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,428,311,525,417,234,207,65.5052,34.9693,36.5031,88.2353
+2022/2023,Male,ALL,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,540,392,644,516,324,290,65.4696,35.25,41.25,89.0909
+2022/2023,Male,ALL,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,410,299,499,399,218,197,65.8182,35.1613,35.8065,90.0901
+2022/2023,Male,ALL,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,401,293,496,399,265,245,65.7993,35.3896,43.8312,91.8519
+2022/2023,Male,ALL,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,380,276,488,388,295,274,65.4902,34.9835,49.505,92.6667
+2022/2023,Male,ALL,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,510,371,644,516,353,330,65.4971,35.25,45.0,92.7778
+2022/2023,Male,ALL,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,365,266,454,362,228,209,65.7143,35.1064,41.1348,91.3793
+2022/2023,Male,ALL,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,483,352,596,479,318,282,65.7407,35.4054,43.7838,88.2716
+2022/2023,Male,ALL,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,429,313,549,442,302,282,65.625,35.4839,45.1613,92.8571
+2022/2023,Male,ALL,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,453,329,546,435,285,257,65.4605,35.1032,42.7729,89.6552
+2022/2023,Male,ALL,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,540,425,664,530,328,314,70.9945,35.1942,40.534,95.2096
+2022/2023,Male,ALL,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,531,419,661,526,348,316,71.0674,35.122,43.1707,90.3955
+2022/2023,Male,ALL,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,611,480,783,625,434,405,70.7317,35.1852,45.4733,92.7602
+2022/2023,Male,ALL,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,631,496,775,618,373,347,70.922,35.1351,39.501,92.6316
+2022/2023,Male,ALL,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,561,442,706,559,367,347,71.0106,34.9315,42.6941,94.1176
+2022/2023,Male,ALL,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,523,412,648,516,314,298,70.9402,35.0746,39.801,94.375
+2022/2023,Male,ALL,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,686,539,838,665,404,379,70.8696,35.0,39.6154,93.2039
+2022/2023,Male,ALL,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,528,415,627,497,291,274,70.904,34.9614,38.0463,93.9189
+2022/2023,Male,ALL,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,513,404,672,534,344,324,70.9302,35.012,41.9664,93.7143
+2022/2023,Male,ALL,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,510,400,649,516,357,340,70.7602,34.9876,45.1613,94.5055
+2022/2023,Male,ALL,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,653,514,796,632,404,365,71.0046,35.0202,41.7004,89.8058
+2022/2023,Male,ALL,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,462,364,559,446,285,272,70.9677,35.1585,41.7867,95.1724
+2022/2023,Male,ALL,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,632,498,806,640,416,389,70.9906,35.0,42.4,92.9245
+2022/2023,Male,ALL,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,589,463,739,589,381,347,70.8861,35.0763,42.2658,90.7216
+2022/2023,Male,ALL,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,601,473,730,581,381,347,70.9677,35.0993,42.8256,90.7216
+2022/2023,Male,Disabled,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,22,18,26,18,8,6,73.3333,31.25,25.0,75.0
+2022/2023,Male,Disabled,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,19,15,23,15,0,0,69.2308,28.5714,0.0,0
+2022/2023,Male,Disabled,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,21,17,26,18,16,14,71.4286,31.25,50.0,87.5
+2022/2023,Male,Disabled,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,21,17,26,18,8,6,71.4286,31.25,25.0,75.0
+2022/2023,Male,Disabled,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,22,18,29,22,16,14,73.3333,33.3333,44.4444,87.5
+2022/2023,Male,Disabled,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,19,15,23,15,8,6,69.2308,28.5714,28.5714,75.0
+2022/2023,Male,Disabled,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,25,20,35,26,33,32,70.5882,31.8182,77.2727,94.1176
+2022/2023,Male,Disabled,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,21,17,23,15,0,0,71.4286,28.5714,0.0,0
+2022/2023,Male,Disabled,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,22,18,26,18,33,32,73.3333,31.25,106.25,94.1176
+2022/2023,Male,Disabled,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,21,17,26,18,24,22,71.4286,31.25,75.0,91.6667
+2022/2023,Male,Disabled,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,21,17,26,18,24,22,71.4286,31.25,75.0,91.6667
+2022/2023,Male,Disabled,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,21,17,23,15,0,0,71.4286,28.5714,0.0,0
+2022/2023,Male,Disabled,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,22,18,29,22,16,14,73.3333,33.3333,44.4444,87.5
+2022/2023,Male,Disabled,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,22,18,29,22,24,22,73.3333,33.3333,66.6667,91.6667
+2022/2023,Male,Disabled,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,22,18,26,18,16,14,73.3333,31.25,50.0,87.5
+2022/2023,Male,Disabled,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,33,23,39,29,22,18,63.6364,33.3333,45.8333,81.8182
+2022/2023,Male,Disabled,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,31,23,39,29,22,18,66.6667,33.3333,45.8333,81.8182
+2022/2023,Male,Disabled,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,33,23,39,29,26,24,63.6364,33.3333,54.1667,92.3077
+2022/2023,Male,Disabled,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,37,28,47,37,12,10,68.0,34.4828,20.6897,83.3333
+2022/2023,Male,Disabled,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,33,23,42,33,18,16,63.6364,34.6154,34.6154,88.8889
+2022/2023,Male,Disabled,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,33,23,39,29,20,18,63.6364,33.3333,41.6667,90.0
+2022/2023,Male,Disabled,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,43,31,53,44,22,18,65.5172,36.3636,33.3333,81.8182
+2022/2023,Male,Disabled,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,33,23,39,29,14,12,63.6364,33.3333,29.1667,85.7143
+2022/2023,Male,Disabled,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,31,23,39,29,24,22,66.6667,33.3333,50.0,91.6667
+2022/2023,Male,Disabled,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,30,22,39,29,24,22,65.0,33.3333,50.0,91.6667
+2022/2023,Male,Disabled,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,34,25,43,33,24,22,65.2174,33.3333,44.4444,91.6667
+2022/2023,Male,Disabled,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,30,22,35,26,20,18,65.0,31.8182,45.4545,90.0
+2022/2023,Male,Disabled,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,37,26,47,37,18,16,64.0,34.4828,31.0345,88.8889
+2022/2023,Male,Disabled,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,39,28,53,44,24,22,65.3846,36.3636,36.3636,91.6667
+2022/2023,Male,Disabled,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,33,23,42,33,24,22,63.6364,34.6154,46.1538,91.6667
+2022/2023,Male,Disabled,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,42,33,50,40,27,26,71.4286,35.4839,45.1613,92.8571
+2022/2023,Male,Disabled,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,40,31,53,44,24,20,70.3704,36.3636,36.3636,83.3333
+2022/2023,Male,Disabled,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,48,38,61,48,27,26,71.875,34.2105,36.8421,92.8571
+2022/2023,Male,Disabled,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,48,38,60,48,27,26,71.875,35.1351,37.8378,92.8571
+2022/2023,Male,Disabled,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,42,33,53,44,27,26,71.4286,36.3636,42.4242,92.8571
+2022/2023,Male,Disabled,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,42,33,52,40,24,20,71.4286,34.375,37.5,83.3333
+2022/2023,Male,Disabled,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,54,43,66,51,27,26,72.2222,34.1463,34.1463,92.8571
+2022/2023,Male,Disabled,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,39,31,47,37,24,20,73.0769,34.4828,41.3793,83.3333
+2022/2023,Male,Disabled,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,40,31,55,44,24,20,70.3704,35.2941,35.2941,83.3333
+2022/2023,Male,Disabled,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,39,31,45,37,24,20,73.0769,35.7143,42.8571,83.3333
+2022/2023,Male,Disabled,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,46,36,60,48,24,20,70.9677,35.1351,32.4324,83.3333
+2022/2023,Male,Disabled,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,37,30,42,33,24,20,72.0,34.6154,46.1538,83.3333
+2022/2023,Male,Disabled,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,49,40,64,51,27,26,72.7273,35.0,35.0,92.8571
+2022/2023,Male,Disabled,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,51,40,63,51,27,26,70.5882,35.8974,35.8974,92.8571
+2022/2023,Male,Disabled,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,45,35,55,44,22,20,70.0,35.2941,32.3529,90.9091
+2023/2024,Female,ALL,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,210,182,261,230,114,105,78.0142,38.8889,35.8025,91.3793
+2023/2024,Female,ALL,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,207,180,259,227,98,83,78.4173,38.5093,31.0559,84.0
+2023/2024,Female,ALL,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,204,177,264,230,128,114,78.1022,38.4146,39.6341,89.2308
+2023/2024,Female,ALL,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,212,184,264,234,120,114,78.169,39.0244,37.1951,95.082
+2023/2024,Female,ALL,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,209,180,255,223,112,107,77.8571,38.6076,36.0759,94.7368
+2023/2024,Female,ALL,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,215,187,258,230,112,105,78.4722,39.375,35.625,92.9825
+2023/2024,Female,ALL,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,265,230,337,296,151,142,78.0899,38.756,36.8421,93.5065
+2023/2024,Female,ALL,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,185,160,227,201,96,87,78.2258,39.0071,34.7518,89.7959
+2023/2024,Female,ALL,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,203,177,256,223,118,107,78.6765,38.3648,37.7358,90.0
+2023/2024,Female,ALL,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,180,157,227,201,112,107,78.5124,39.0071,40.4255,94.7368
+2023/2024,Female,ALL,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,246,213,313,274,159,142,78.1818,38.6598,41.7526,88.8889
+2023/2024,Female,ALL,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,185,160,227,197,96,95,78.2258,38.2979,34.7518,97.9592
+2023/2024,Female,ALL,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,267,232,322,285,135,134,78.2123,39.0,34.5,98.5507
+2023/2024,Female,ALL,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,234,203,303,267,149,142,78.3439,38.8298,40.4255,94.7368
+2023/2024,Female,ALL,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,215,187,253,223,118,116,78.4722,38.8535,38.2166,98.3333
+2023/2024,Female,ALL,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,409,323,509,450,236,213,71.1679,38.9241,37.9747,90.0
+2023/2024,Female,ALL,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,349,275,424,373,196,186,70.9402,38.7833,38.0228,94.0
+2023/2024,Female,ALL,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,391,309,506,446,234,223,71.374,38.8535,37.8981,94.958
+2023/2024,Female,ALL,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,413,326,490,431,222,203,71.1191,38.8158,37.1711,91.1504
+2023/2024,Female,ALL,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,394,311,493,435,222,195,71.2121,38.8889,36.9281,87.6106
+2023/2024,Female,ALL,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,371,293,449,395,196,168,71.0843,38.7097,35.8423,85.0
+2023/2024,Female,ALL,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,468,369,578,512,265,243,71.0191,38.9972,37.6045,91.1111
+2023/2024,Female,ALL,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,337,266,408,358,165,152,71.2389,38.7352,33.2016,91.6667
+2023/2024,Female,ALL,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,365,290,454,402,208,188,71.4286,39.0071,37.5887,89.6226
+2023/2024,Female,ALL,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,328,260,408,358,208,191,71.3636,38.7352,41.8972,91.5094
+2023/2024,Female,ALL,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,455,359,583,516,285,259,71.1475,38.9503,40.0552,90.3448
+2023/2024,Female,ALL,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,325,256,401,355,179,160,71.1009,38.9558,36.5462,89.011
+2023/2024,Female,ALL,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,491,387,625,548,291,267,71.1246,38.6598,38.1443,91.2162
+2023/2024,Female,ALL,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,443,349,559,494,259,231,71.0438,38.9049,38.0403,88.6364
+2023/2024,Female,ALL,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,362,286,445,395,196,176,71.1934,39.1304,36.2319,89.0
+2023/2024,Female,ALL,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,523,443,656,578,295,278,76.3533,38.8206,36.855,94.0
+2023/2024,Female,ALL,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,476,402,599,526,277,253,76.1755,38.7097,37.9032,90.7801
+2023/2024,Female,ALL,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,504,427,638,563,332,308,76.3314,38.8889,42.6768,92.3077
+2023/2024,Female,ALL,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,529,448,673,592,302,278,76.338,38.756,36.8421,91.5584
+2023/2024,Female,ALL,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,477,404,601,530,251,235,76.25,38.874,34.3164,92.9688
+2023/2024,Female,ALL,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,562,476,686,603,302,278,76.3926,38.7324,36.1502,91.5584
+2023/2024,Female,ALL,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,634,536,752,662,308,290,76.2353,38.758,33.6188,93.6306
+2023/2024,Female,ALL,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,464,392,564,497,242,229,76.2058,38.8571,35.1429,94.3089
+2023/2024,Female,ALL,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,531,448,659,581,298,278,76.1236,38.8753,37.1638,92.7632
+2023/2024,Female,ALL,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,450,382,574,508,267,247,76.4901,39.0449,38.2022,91.9118
+2023/2024,Female,ALL,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,580,491,727,643,344,320,76.3496,39.0244,38.8027,92.5714
+2023/2024,Female,ALL,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,425,359,528,468,232,211,76.1404,39.0244,35.9756,90.678
+2023/2024,Female,ALL,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,659,557,817,720,391,371,76.2443,38.856,39.2505,94.4724
+2023/2024,Female,ALL,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,610,516,764,673,346,322,76.2836,38.8186,37.1308,92.6136
+2023/2024,Female,ALL,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,486,412,591,523,251,241,76.3804,38.9646,34.8774,95.3125
+2023/2024,Female,Disabled,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,21,18,26,22,12,10,78.5714,37.5,37.5,83.3333
+2023/2024,Female,Disabled,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,18,17,23,18,0,0,83.3333,35.7143,0.0,0
+2023/2024,Female,Disabled,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,19,17,26,22,22,20,76.9231,37.5,68.75,90.9091
+2023/2024,Female,Disabled,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,18,17,19,18,12,10,83.3333,41.6667,50.0,83.3333
+2023/2024,Female,Disabled,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,21,18,26,22,16,14,78.5714,37.5,50.0,87.5
+2023/2024,Female,Disabled,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,18,17,19,18,16,14,83.3333,41.6667,66.6667,87.5
+2023/2024,Female,Disabled,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,22,20,31,26,16,14,80.0,36.8421,42.1053,87.5
+2023/2024,Female,Disabled,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,19,17,23,18,16,14,76.9231,35.7143,57.1429,87.5
+2023/2024,Female,Disabled,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,19,17,21,18,16,14,76.9231,38.4615,61.5385,87.5
+2023/2024,Female,Disabled,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,18,17,19,18,22,20,83.3333,41.6667,91.6667,90.9091
+2023/2024,Female,Disabled,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,19,17,21,18,16,14,76.9231,38.4615,61.5385,87.5
+2023/2024,Female,Disabled,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,18,17,23,18,16,14,83.3333,35.7143,57.1429,87.5
+2023/2024,Female,Disabled,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,22,20,29,26,22,20,80.0,38.8889,61.1111,90.9091
+2023/2024,Female,Disabled,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,22,20,27,26,22,20,80.0,41.1765,64.7059,90.9091
+2023/2024,Female,Disabled,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,21,18,24,22,16,14,78.5714,40.0,53.3333,87.5
+2023/2024,Female,Disabled,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,33,26,42,37,24,22,72.7273,38.4615,46.1538,91.6667
+2023/2024,Female,Disabled,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,27,22,35,33,18,16,72.2222,40.9091,40.9091,88.8889
+2023/2024,Female,Disabled,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,30,25,39,37,18,16,75.0,41.6667,37.5,88.8889
+2023/2024,Female,Disabled,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,28,22,32,29,18,16,68.4211,40.0,45.0,88.8889
+2023/2024,Female,Disabled,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,30,23,35,33,14,12,70.0,40.9091,31.8182,85.7143
+2023/2024,Female,Disabled,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,28,22,32,29,18,16,68.4211,40.0,45.0,88.8889
+2023/2024,Female,Disabled,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,39,31,50,44,18,16,73.0769,38.7097,29.0323,88.8889
+2023/2024,Female,Disabled,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,25,20,29,26,14,12,70.5882,38.8889,38.8889,85.7143
+2023/2024,Female,Disabled,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,28,23,39,37,18,16,73.6842,41.6667,37.5,88.8889
+2023/2024,Female,Disabled,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,24,20,32,29,18,16,75.0,40.0,45.0,88.8889
+2023/2024,Female,Disabled,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,31,25,39,33,18,16,71.4286,37.5,37.5,88.8889
+2023/2024,Female,Disabled,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,24,20,31,29,18,16,75.0,42.1053,47.3684,88.8889
+2023/2024,Female,Disabled,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,36,28,45,40,18,16,70.8333,39.2857,32.1429,88.8889
+2023/2024,Female,Disabled,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,42,33,53,44,24,20,71.4286,36.3636,36.3636,83.3333
+2023/2024,Female,Disabled,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,25,20,34,29,18,16,70.5882,38.0952,42.8571,88.8889
+2023/2024,Female,Disabled,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,42,35,55,48,22,20,75.0,38.2353,32.3529,90.9091
+2023/2024,Female,Disabled,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,39,33,48,40,18,16,76.9231,36.6667,30.0,88.8889
+2023/2024,Female,Disabled,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,39,33,48,44,22,20,76.9231,40.0,36.6667,90.9091
+2023/2024,Female,Disabled,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,40,35,52,44,22,20,77.7778,37.5,34.375,90.9091
+2023/2024,Female,Disabled,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,34,30,42,37,16,14,78.2609,38.4615,30.7692,87.5
+2023/2024,Female,Disabled,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,39,33,48,40,16,14,76.9231,36.6667,26.6667,87.5
+2023/2024,Female,Disabled,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,49,41,60,51,26,24,75.7576,37.8378,35.1351,92.3077
+2023/2024,Female,Disabled,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,36,30,47,40,22,20,75.0,37.931,37.931,90.9091
+2023/2024,Female,Disabled,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,39,33,45,40,18,16,76.9231,39.2857,32.1429,88.8889
+2023/2024,Female,Disabled,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,33,28,43,40,16,14,77.2727,40.7407,29.6296,87.5
+2023/2024,Female,Disabled,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,42,35,53,48,22,20,75.0,39.3939,33.3333,90.9091
+2023/2024,Female,Disabled,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,36,30,43,40,22,20,75.0,40.7407,40.7407,90.9091
+2023/2024,Female,Disabled,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,52,45,66,58,24,22,77.1429,39.0244,29.2683,91.6667
+2023/2024,Female,Disabled,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,57,48,71,62,24,22,76.3158,38.6364,27.2727,91.6667
+2023/2024,Female,Disabled,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,37,31,45,40,16,14,76.0,39.2857,28.5714,87.5
+2023/2024,Male,ALL,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,239,207,290,252,128,126,78.125,38.3333,36.1111,98.4615
+2023/2024,Male,ALL,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,243,212,309,271,145,140,78.5276,38.5417,38.5417,95.9459
+2023/2024,Male,ALL,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,252,218,319,282,135,130,78.1065,38.8889,34.8485,95.6522
+2023/2024,Male,ALL,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,267,232,321,282,118,111,78.2123,38.6935,30.1508,93.3333
+2023/2024,Male,ALL,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,252,218,306,267,120,111,78.1065,38.4211,32.1053,91.8033
+2023/2024,Male,ALL,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,254,220,313,274,130,120,78.2353,38.6598,34.0206,92.4242
+2023/2024,Male,ALL,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,306,265,372,325,165,154,78.0488,38.5281,36.3636,92.8571
+2023/2024,Male,ALL,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,215,187,259,227,92,81,78.4722,38.5093,29.1925,87.234
+2023/2024,Male,ALL,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,231,200,296,263,135,130,78.0645,39.1304,37.5,95.6522
+2023/2024,Male,ALL,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,221,190,277,245,135,134,77.7027,38.9535,40.1163,98.5507
+2023/2024,Male,ALL,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,282,245,346,303,163,142,78.3069,38.6047,38.6047,86.747
+2023/2024,Male,ALL,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,221,192,271,241,92,91,78.3784,39.2857,27.9762,97.8723
+2023/2024,Male,ALL,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,273,237,362,318,155,142,78.1421,38.6667,35.1111,91.1392
+2023/2024,Male,ALL,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,256,223,327,289,147,120,78.4884,38.9163,36.9458,81.3333
+2023/2024,Male,ALL,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,262,228,314,274,128,120,78.4091,38.4615,33.3333,93.8462
+2023/2024,Male,ALL,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,456,361,569,505,238,217,71.2418,39.0935,34.2776,90.9091
+2023/2024,Male,ALL,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,409,323,517,457,214,191,71.1679,38.9408,33.9564,88.9908
+2023/2024,Male,ALL,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,488,385,598,523,265,239,71.2538,38.5445,36.3881,89.6296
+2023/2024,Male,ALL,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,523,414,648,574,281,255,71.2251,39.0547,35.5721,90.2098
+2023/2024,Male,ALL,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,461,364,570,505,243,225,71.1974,38.9831,35.0282,91.9355
+2023/2024,Male,ALL,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,413,326,522,461,230,199,71.1191,38.8889,36.1111,86.3248
+2023/2024,Male,ALL,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,534,420,638,563,273,249,70.9497,38.8889,35.101,90.6475
+2023/2024,Male,ALL,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,397,313,487,428,179,162,71.0526,38.7417,30.1325,90.1099
+2023/2024,Male,ALL,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,432,341,556,490,257,241,71.0345,38.8406,37.971,93.1298
+2023/2024,Male,ALL,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,400,314,499,442,259,239,70.8955,39.0323,42.5806,91.6667
+2023/2024,Male,ALL,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,519,410,664,589,295,270,71.2644,39.0777,36.4078,91.3333
+2023/2024,Male,ALL,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,389,306,469,413,194,170,70.8812,38.8316,34.0206,86.8687
+2023/2024,Male,ALL,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,514,405,644,570,271,247,71.0145,39.0,34.5,90.5797
+2023/2024,Male,ALL,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,474,374,612,541,265,247,71.0692,38.9474,35.5263,92.5926
+2023/2024,Male,ALL,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,455,359,536,472,214,191,71.1475,38.7387,32.7327,88.9908
+2023/2024,Male,ALL,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,582,491,735,647,300,278,76.1538,38.8158,33.5526,92.1569
+2023/2024,Male,ALL,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,574,486,725,636,304,284,76.3636,38.6667,34.4444,92.9032
+2023/2024,Male,ALL,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,617,523,778,684,344,316,76.3285,38.7164,36.2319,91.4286
+2023/2024,Male,ALL,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,690,584,868,764,371,343,76.2419,38.7755,35.0649,92.0635
+2023/2024,Male,ALL,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,573,483,691,607,265,251,76.0417,38.6946,31.4685,94.0741
+2023/2024,Male,ALL,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,604,511,746,658,318,302,76.2963,38.8769,34.9892,94.4444
+2023/2024,Male,ALL,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,695,587,852,753,357,326,76.1803,38.9414,34.4045,90.6593
+2023/2024,Male,ALL,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,576,486,693,611,265,251,76.1658,38.8372,31.3953,94.0741
+2023/2024,Male,ALL,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,591,500,751,662,338,322,76.2626,38.8412,36.9099,94.7674
+2023/2024,Male,ALL,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,552,467,690,607,298,272,76.2162,38.785,35.514,90.7895
+2023/2024,Male,ALL,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,670,567,830,731,375,351,76.392,38.835,37.0874,93.1937
+2023/2024,Male,ALL,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,517,438,627,552,265,251,76.3689,38.8175,34.7044,94.0741
+2023/2024,Male,ALL,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,683,577,862,760,383,355,76.2009,38.8785,36.4486,92.3077
+2023/2024,Male,ALL,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,668,564,849,749,369,343,76.1161,38.8994,35.6736,92.5532
+2023/2024,Male,ALL,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,617,521,744,658,312,286,76.087,38.961,34.4156,91.195
+2023/2024,Male,Disabled,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,22,20,27,26,6,4,80.0,41.1765,17.6471,66.6667
+2023/2024,Male,Disabled,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,22,20,27,26,20,18,80.0,41.1765,58.8235,90.0
+2023/2024,Male,Disabled,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,22,20,27,26,20,18,80.0,41.1765,58.8235,90.0
+2023/2024,Male,Disabled,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,21,18,24,22,6,4,78.5714,40.0,20.0,66.6667
+2023/2024,Male,Disabled,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,24,20,27,26,14,12,75.0,41.1765,41.1765,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,19,17,24,22,8,6,76.9231,40.0,26.6667,75.0
+2023/2024,Male,Disabled,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,27,23,29,26,20,18,77.7778,38.8889,55.5556,90.0
+2023/2024,Male,Disabled,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,22,20,24,22,0,0,80.0,40.0,0.0,0
+2023/2024,Male,Disabled,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,21,18,24,22,20,18,78.5714,40.0,66.6667,90.0
+2023/2024,Male,Disabled,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,19,17,24,22,20,18,76.9231,40.0,66.6667,90.0
+2023/2024,Male,Disabled,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,22,20,27,26,20,18,80.0,41.1765,58.8235,90.0
+2023/2024,Male,Disabled,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,19,17,24,22,0,0,76.9231,40.0,0.0,0
+2023/2024,Male,Disabled,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,24,22,32,29,12,10,81.25,40.0,30.0,83.3333
+2023/2024,Male,Disabled,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,25,23,29,26,14,12,82.3529,38.8889,38.8889,85.7143
+2023/2024,Male,Disabled,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,25,23,29,26,6,4,82.3529,38.8889,16.6667,66.6667
+2023/2024,Male,Disabled,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,36,28,43,40,22,18,70.8333,40.7407,40.7407,81.8182
+2023/2024,Male,Disabled,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,34,26,43,40,22,18,69.5652,40.7407,40.7407,81.8182
+2023/2024,Male,Disabled,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,39,31,50,40,22,18,73.0769,35.4839,35.4839,81.8182
+2023/2024,Male,Disabled,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,37,30,48,44,22,18,72.0,40.0,36.6667,81.8182
+2023/2024,Male,Disabled,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,36,28,47,40,16,14,70.8333,37.931,27.5862,87.5
+2023/2024,Male,Disabled,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,31,25,40,33,22,18,71.4286,36.0,44.0,81.8182
+2023/2024,Male,Disabled,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,43,35,55,48,22,18,72.4138,38.2353,32.3529,81.8182
+2023/2024,Male,Disabled,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,30,23,39,37,16,14,70.0,41.6667,33.3333,87.5
+2023/2024,Male,Disabled,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,31,25,39,33,22,18,71.4286,37.5,45.8333,81.8182
+2023/2024,Male,Disabled,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,31,25,39,33,22,18,71.4286,37.5,45.8333,81.8182
+2023/2024,Male,Disabled,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,34,26,43,40,22,18,69.5652,40.7407,40.7407,81.8182
+2023/2024,Male,Disabled,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,31,25,39,37,22,18,71.4286,41.6667,45.8333,81.8182
+2023/2024,Male,Disabled,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,39,30,47,44,16,14,69.2308,41.3793,27.5862,87.5
+2023/2024,Male,Disabled,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,45,35,56,51,22,18,70.0,40.0,31.4286,81.8182
+2023/2024,Male,Disabled,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,31,25,40,37,16,14,71.4286,40.0,32.0,87.5
+2023/2024,Male,Disabled,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,48,40,61,55,24,22,75.0,39.4737,31.5789,91.6667
+2023/2024,Male,Disabled,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,43,36,56,48,24,22,75.8621,37.1429,34.2857,91.6667
+2023/2024,Male,Disabled,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,51,43,63,55,18,16,76.4706,38.4615,23.0769,88.8889
+2023/2024,Male,Disabled,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,52,45,66,58,24,22,77.1429,39.0244,29.2683,91.6667
+2023/2024,Male,Disabled,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,43,36,53,48,18,16,75.8621,39.3939,27.2727,88.8889
+2023/2024,Male,Disabled,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,48,41,61,55,18,16,78.125,39.4737,23.6842,88.8889
+2023/2024,Male,Disabled,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,58,50,71,62,29,26,76.9231,38.6364,34.0909,86.6667
+2023/2024,Male,Disabled,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,43,36,52,44,18,16,75.8621,37.5,28.125,88.8889
+2023/2024,Male,Disabled,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,45,38,55,48,24,22,76.6667,38.2353,35.2941,91.6667
+2023/2024,Male,Disabled,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,43,36,55,48,18,16,75.8621,38.2353,26.4706,88.8889
+2023/2024,Male,Disabled,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,46,40,60,51,18,16,77.4194,37.8378,24.3243,88.8889
+2023/2024,Male,Disabled,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,40,35,48,44,18,16,77.7778,40.0,30.0,88.8889
+2023/2024,Male,Disabled,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,52,43,68,58,20,18,74.2857,38.0952,23.8095,90.0
+2023/2024,Male,Disabled,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,61,51,74,66,24,22,75.6098,39.1304,26.087,91.6667
+2023/2024,Male,Disabled,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,46,40,58,51,24,22,77.4194,38.8889,33.3333,91.6667
+2024/2025,Female,ALL,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,107,89,66,58,26,26,75.0000,39.0244,31.7073,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,100,83,61,55,27,26,74.6269,39.4737,36.8421,92.8571
+2024/2025,Female,ALL,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,100,83,64,58,29,28,74.6269,40.0000,37.5000,93.3333
+2024/2025,Female,ALL,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,109,91,66,58,24,22,75.3425,39.0244,29.2683,91.6667
+2024/2025,Female,ALL,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,103,86,61,55,26,24,75.3623,39.4737,34.2105,92.3077
+2024/2025,Female,ALL,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,112,93,68,62,26,24,74.6667,40.4762,30.9524,92.3077
+2024/2025,Female,ALL,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,122,101,74,66,27,24,74.3902,39.1304,30.4348,85.7143
+2024/2025,Female,ALL,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,89,74,55,48,22,22,75.0000,38.2353,32.3529,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,101,84,63,55,27,26,75.0000,38.4615,35.8974,92.8571
+2024/2025,Female,ALL,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,88,74,56,51,26,24,76.2712,40.0000,37.1429,92.3077
+2024/2025,Female,ALL,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,125,104,77,69,33,32,75.0000,39.5833,35.4167,94.1176
+2024/2025,Female,ALL,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,95,79,60,55,20,20,75.0000,40.5405,27.0270,100.0000
+2024/2025,Female,ALL,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,143,119,90,80,37,34,75.0000,39.2857,33.9286,89.4737
+2024/2025,Female,ALL,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,118,98,74,66,31,30,74.6835,39.1304,34.7826,93.7500
+2024/2025,Female,ALL,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,107,89,64,58,27,24,75.0000,40.0000,35.0000,85.7143
+2024/2025,Female,ALL,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,1512,1140,923,823,367,338,67.9487,39.2670,32.6353,91.4439
+2024/2025,Female,ALL,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,1382,1039,857,768,367,334,67.7454,39.4737,35.1504,90.3743
+2024/2025,Female,ALL,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,1554,1173,976,866,438,411,68.0422,39.1089,36.7987,93.2735
+2024/2025,Female,ALL,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,1603,1206,986,877,404,387,67.8140,39.2157,33.6601,95.1456
+2024/2025,Female,ALL,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,1469,1105,873,775,351,322,67.8173,39.1144,33.0258,91.0615
+2024/2025,Female,ALL,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,1615,1219,986,877,389,349,68.0517,39.2157,32.3529,89.3939
+2024/2025,Female,ALL,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,1836,1388,1104,987,448,420,68.1560,39.4161,33.2847,93.4211
+2024/2025,Female,ALL,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,1341,1012,825,735,310,288,68.0756,39.2578,30.8594,92.4051
+2024/2025,Female,ALL,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,1524,1146,963,859,397,361,67.8082,39.2977,33.7793,90.5941
+2024/2025,Female,ALL,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,1359,1026,844,749,377,361,68.0571,39.1221,36.6412,95.3125
+2024/2025,Female,ALL,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,1928,1454,1212,1079,505,474,67.9814,39.2287,34.1755,93.3852
+2024/2025,Female,ALL,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,1254,945,759,680,322,288,67.8954,39.4904,34.8195,89.0244
+2024/2025,Female,ALL,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,2080,1568,1287,1141,522,486,67.9570,39.0488,33.2916,92.4812
+2024/2025,Female,ALL,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,1690,1274,1062,947,434,411,67.9612,39.3020,33.5357,94.1176
+2024/2025,Female,ALL,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,1530,1153,967,859,389,345,67.9337,39.1667,33.0000,88.3838
+2024/2025,Female,ALL,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,2180,1778,1371,1228,583,555,73.5294,39.4830,34.9001,94.6128
+2024/2025,Female,ALL,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,1964,1600,1210,1079,491,454,73.4244,39.2810,33.2889,92.0000
+2024/2025,Female,ALL,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,2258,1843,1413,1265,605,567,73.5799,39.4527,35.1197,93.1818
+2024/2025,Female,ALL,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,2194,1787,1326,1181,548,515,73.4194,39.2467,33.9004,93.5484
+2024/2025,Female,ALL,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,2180,1778,1308,1163,516,470,73.5294,39.1626,32.3892,90.4943
+2024/2025,Female,ALL,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,2279,1858,1398,1247,564,515,73.4948,39.2857,33.0645,90.9408
+2024/2025,Female,ALL,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,2926,2389,1775,1583,693,628,73.5984,39.2922,32.0327,90.0850
+2024/2025,Female,ALL,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,1937,1578,1174,1046,426,393,73.4411,39.2318,29.7668,91.7051
+2024/2025,Female,ALL,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,2153,1757,1360,1214,583,535,73.5457,39.3365,35.1896,91.2458
+2024/2025,Female,ALL,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,1997,1628,1241,1104,556,501,73.4877,39.2208,36.7532,89.7527
+2024/2025,Female,ALL,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,2671,2180,1684,1499,725,683,73.5902,39.2344,35.3110,93.7669
+2024/2025,Female,ALL,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,1840,1499,1160,1031,463,430,73.4198,39.1667,32.7778,92.3729
+2024/2025,Female,ALL,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,2893,2361,1790,1598,750,695,73.5567,39.3339,34.3834,92.1466
+2024/2025,Female,ALL,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,2468,2008,1547,1389,670,622,73.3535,39.5833,35.5208,92.3754
+2024/2025,Female,ALL,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,2396,1950,1448,1291,556,515,73.3665,39.2659,31.4794,92.2261
+2024/2025,Female,Disabled,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,12,10,6,7,4,4,75.0000,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,10,8,6,7,6,6,71.4286,50.0000,75.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,12,10,6,7,6,6,75.0000,50.0000,75.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,10,8,6,7,4,2,71.4286,50.0000,50.0000,50.0000
+2024/2025,Female,Disabled,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,10,10,6,7,2,2,85.7143,50.0000,25.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,10,8,6,4,2,2,71.4286,25.0000,25.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,10,10,6,7,6,4,85.7143,50.0000,75.0000,66.6667
+2024/2025,Female,Disabled,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,10,10,6,4,6,4,85.7143,25.0000,75.0000,66.6667
+2024/2025,Female,Disabled,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,10,10,5,4,4,4,85.7143,33.3333,66.6667,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,10,8,5,4,6,6,71.4286,33.3333,100.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,10,10,5,4,4,4,85.7143,33.3333,66.6667,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,10,8,5,4,2,0,71.4286,33.3333,33.3333,0.0000
+2024/2025,Female,Disabled,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,13,12,8,7,6,6,77.7778,40.0000,60.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,10,10,6,7,4,4,85.7143,50.0000,50.0000,100.0000
+2024/2025,Female,Disabled,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,10,10,6,7,6,4,85.7143,50.0000,75.0000,66.6667
+2024/2025,Female,Disabled,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,146,108,90,80,39,34,66.3265,39.2857,35.7143,85.0000
+2024/2025,Female,Disabled,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,118,91,82,80,39,34,69.6203,43.1373,39.2157,85.0000
+2024/2025,Female,Disabled,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,139,108,93,88,39,34,69.8925,41.3793,34.4828,85.0000
+2024/2025,Female,Disabled,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,139,106,82,80,31,30,68.8172,43.1373,31.3725,93.7500
+2024/2025,Female,Disabled,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,139,106,85,80,35,34,68.8172,41.5094,33.9623,94.4444
+2024/2025,Female,Disabled,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,146,106,85,80,35,34,65.3061,41.5094,33.9623,94.4444
+2024/2025,Female,Disabled,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,174,129,113,95,37,34,66.6667,37.1429,27.1429,89.4737
+2024/2025,Female,Disabled,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,118,91,68,62,37,34,69.6203,40.4762,45.2381,89.4737
+2024/2025,Female,Disabled,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,133,99,74,69,35,34,67.4157,41.3043,39.1304,94.4444
+2024/2025,Female,Disabled,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,112,84,71,69,37,34,68.0000,43.1818,43.1818,89.4737
+2024/2025,Female,Disabled,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,146,106,90,80,37,34,65.3061,39.2857,33.9286,89.4737
+2024/2025,Female,Disabled,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,112,84,68,62,37,34,68.0000,40.4762,45.2381,89.4737
+2024/2025,Female,Disabled,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,174,129,113,95,41,41,66.6667,37.1429,30.0000,100.0000
+2024/2025,Female,Disabled,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,174,129,113,106,35,34,66.6667,41.4286,25.7143,94.4444
+2024/2025,Female,Disabled,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,133,99,85,80,27,26,67.4157,41.5094,26.4151,92.8571
+2024/2025,Female,Disabled,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,207,170,132,113,45,41,74.1007,37.8049,28.0488,91.3043
+2024/2025,Female,Disabled,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,164,131,108,95,37,34,71.8182,38.8060,28.3582,89.4737
+2024/2025,Female,Disabled,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,201,164,127,113,45,41,73.3333,39.2405,29.1139,91.3043
+2024/2025,Female,Disabled,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,186,156,111,95,45,41,75.2000,37.6812,33.3333,91.3043
+2024/2025,Female,Disabled,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,194,164,124,113,45,41,76.1538,40.2597,29.8701,91.3043
+2024/2025,Female,Disabled,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,201,162,130,124,35,34,72.5926,41.9753,22.2222,94.4444
+2024/2025,Female,Disabled,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,252,203,151,132,55,51,72.7811,38.2979,29.7872,92.8571
+2024/2025,Female,Disabled,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,179,147,108,95,35,34,74.1667,38.8060,26.8657,94.4444
+2024/2025,Female,Disabled,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,186,156,119,102,35,34,75.2000,37.8378,24.3243,94.4444
+2024/2025,Female,Disabled,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,171,139,108,95,35,34,73.0435,38.8060,26.8657,94.4444
+2024/2025,Female,Disabled,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,201,162,124,102,35,32,72.5926,36.3636,23.3766,88.8889
+2024/2025,Female,Disabled,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,171,139,108,95,35,32,73.0435,38.8060,26.8657,88.8889
+2024/2025,Female,Disabled,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,237,195,143,132,45,41,74.2138,40.4494,25.8427,91.3043
+2024/2025,Female,Disabled,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,252,203,155,143,45,41,72.7811,40.6250,23.9583,91.3043
+2024/2025,Female,Disabled,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,201,162,135,124,45,41,72.5926,40.4762,27.3810,91.3043
+2024/2025,Male,ALL,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,125,104,76,69,27,26,75.0000,40.4255,29.7872,92.8571
+2024/2025,Male,ALL,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,119,99,72,62,27,28,75.0000,37.7778,31.1111,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,124,104,79,69,31,24,75.9036,38.7755,32.6531,75.0000
+2024/2025,Male,ALL,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,133,111,82,73,31,26,75.2809,39.2157,31.3725,81.2500
+2024/2025,Male,ALL,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,127,106,76,66,29,28,75.2941,38.2979,31.9149,93.3333
+2024/2025,Male,ALL,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,125,104,79,69,26,24,75.0000,38.7755,26.5306,92.3077
+2024/2025,Male,ALL,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,137,114,85,77,33,32,75.0000,39.6226,32.0755,94.1176
+2024/2025,Male,ALL,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,107,89,66,58,26,22,75.0000,39.0244,31.7073,84.6154
+2024/2025,Male,ALL,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,115,96,69,62,33,30,75.3247,39.5349,39.5349,88.2353
+2024/2025,Male,ALL,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,110,93,68,58,27,28,75.6757,38.0952,33.3333,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,148,124,93,84,39,36,75.7576,39.6552,34.4828,90.0000
+2024/2025,Male,ALL,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,109,89,63,55,22,22,73.9726,38.4615,28.2051,100.0000
+2024/2025,Male,ALL,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,152,127,97,84,37,36,75.4902,38.3333,31.6667,94.7368
+2024/2025,Male,ALL,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,122,101,77,69,35,34,74.3902,39.5833,37.5000,94.4444
+2024/2025,Male,ALL,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,128,108,81,73,33,32,75.5814,40.0000,34.0000,94.1176
+2024/2025,Male,ALL,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,1696,1280,1005,907,367,342,68.0739,39.7436,29.9679,92.5134
+2024/2025,Male,ALL,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,1609,1213,962,859,348,316,67.9333,39.3635,29.6482,90.3955
+2024/2025,Male,ALL,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,1873,1408,1183,1057,505,474,67.7548,39.3733,35.0136,93.3852
+2024/2025,Male,ALL,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,2031,1535,1226,1093,471,444,68.1351,39.2904,31.5375,93.7500
+2024/2025,Male,ALL,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,1812,1366,1091,976,404,371,67.9835,39.4387,30.4284,91.2621
+2024/2025,Male,ALL,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,1824,1380,1113,1002,404,371,68.1930,39.6527,29.8119,91.2621
+2024/2025,Male,ALL,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,2118,1595,1278,1133,518,490,67.8873,39.0921,33.2913,93.9394
+2024/2025,Male,ALL,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,1536,1160,923,830,344,314,68.0583,39.6161,30.5410,90.8571
+2024/2025,Male,ALL,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,1739,1314,1104,983,459,417,68.0961,39.2701,34.1606,90.1709
+2024/2025,Male,ALL,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,1676,1267,1071,954,459,428,68.1495,39.2481,35.1880,92.7350
+2024/2025,Male,ALL,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,2210,1669,1416,1258,589,557,68.0837,39.1354,34.1297,94.0000
+2024/2025,Male,ALL,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,1512,1140,933,837,344,300,67.9487,39.5509,30.2245,86.8571
+2024/2025,Male,ALL,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,2179,1641,1353,1214,548,501,67.8987,39.5238,33.2143,91.0394
+2024/2025,Male,ALL,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,1848,1395,1189,1064,485,462,68.0387,39.4309,33.4688,94.7368
+2024/2025,Male,ALL,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,1903,1434,1170,1038,434,387,67.9467,39.1185,30.4408,88.6878
+2024/2025,Male,ALL,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,2495,2030,1522,1356,544,509,73.3413,39.2593,29.3122,93.1408
+2024/2025,Male,ALL,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,2246,1836,1392,1247,571,523,73.7052,39.4676,33.6806,91.0653
+2024/2025,Male,ALL,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,2789,2275,1740,1557,740,683,73.5294,39.4444,34.9074,91.7772
+2024/2025,Male,ALL,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,2789,2275,1743,1547,685,626,73.5294,39.0943,32.2551,90.8309
+2024/2025,Male,ALL,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,2644,2152,1624,1440,666,614,73.3785,39.0873,33.6310,91.7404
+2024/2025,Male,ALL,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,2540,2079,1537,1371,552,509,73.8109,39.3082,29.4549,91.8149
+2024/2025,Male,ALL,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,3188,2597,1993,1773,754,683,73.4331,39.2078,31.0428,90.1042
+2024/2025,Male,ALL,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,2376,1937,1455,1305,571,523,73.5091,39.5349,32.2259,91.0653
+2024/2025,Male,ALL,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,2487,2030,1535,1371,571,535,73.5612,39.3494,30.5352,93.1271
+2024/2025,Male,ALL,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,2553,2079,1579,1415,652,614,73.4229,39.4898,33.8776,93.6747
+2024/2025,Male,ALL,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,3214,2619,2022,1799,801,748,73.4571,39.2032,32.5100,92.8922
+2024/2025,Male,ALL,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,2167,1772,1332,1188,512,470,73.7096,39.2987,31.5599,91.1877
+2024/2025,Male,ALL,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,2999,2447,1846,1642,736,699,73.5455,39.1798,32.7225,94.4000
+2024/2025,Male,ALL,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,2599,2124,1585,1415,664,602,73.6661,39.3293,34.3496,90.2367
+2024/2025,Male,ALL,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,2868,2339,1761,1572,664,614,73.5309,39.3413,30.9241,92.0118
+2024/2025,Male,Disabled,NABTEB,ward,Kusugu,North West,Katsina,Daura,Kusugu,,13,10,8,7,2,2,66.6667,40.0000,20.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Madobi A,North West,Katsina,Daura,Madobi A,,12,10,6,4,4,4,75.0000,25.0000,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Madobi B,North West,Katsina,Daura,Madobi B,,12,10,8,7,4,4,75.0000,40.0000,40.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,12,10,8,7,2,2,75.0000,40.0000,20.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,13,10,8,7,6,6,66.6667,40.0000,60.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,12,10,6,4,2,2,75.0000,25.0000,25.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,13,12,8,7,6,6,77.7778,40.0000,60.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Dukke,North West,Katsina,Funtua,Dukke,,12,10,8,7,4,4,75.0000,40.0000,40.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Goya,North West,Katsina,Funtua,Goya,,12,10,6,4,6,6,75.0000,25.0000,75.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,12,10,8,7,6,6,75.0000,40.0000,60.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,13,10,8,7,4,4,66.6667,40.0000,40.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,12,8,8,7,2,2,62.5000,40.0000,20.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Bamble,North West,Katsina,Mashi,Bamble,,16,13,10,7,6,6,72.7273,33.3333,50.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,13,10,8,7,6,6,66.6667,40.0000,60.0000,100.0000
+2024/2025,Male,Disabled,NABTEB,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,13,12,8,7,4,4,77.7778,40.0000,40.0000,100.0000
+2024/2025,Male,Disabled,NECO,ward,Kusugu,North West,Katsina,Daura,Kusugu,,146,106,82,69,31,30,65.3061,37.2549,31.3725,93.7500
+2024/2025,Male,Disabled,NECO,ward,Madobi A,North West,Katsina,Daura,Madobi A,,146,106,90,80,24,20,65.3061,39.2857,21.4286,83.3333
+2024/2025,Male,Disabled,NECO,ward,Madobi B,North West,Katsina,Daura,Madobi B,,167,122,101,88,41,41,66.0714,38.0952,33.3333,100.0000
+2024/2025,Male,Disabled,NECO,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,188,146,113,95,27,24,69.8413,37.1429,20.0000,85.7143
+2024/2025,Male,Disabled,NECO,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,160,122,101,88,27,24,69.1589,38.0952,22.2222,85.7143
+2024/2025,Male,Disabled,NECO,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,160,122,101,95,27,24,69.1589,41.2698,22.2222,85.7143
+2024/2025,Male,Disabled,NECO,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,195,146,130,113,53,49,67.1756,38.2716,33.3333,92.5926
+2024/2025,Male,Disabled,NECO,ward,Dukke,North West,Katsina,Funtua,Dukke,,139,106,82,80,24,20,68.8172,43.1373,23.5294,83.3333
+2024/2025,Male,Disabled,NECO,ward,Goya,North West,Katsina,Funtua,Goya,,146,114,93,80,37,38,70.4082,37.9310,32.7586,100.0000
+2024/2025,Male,Disabled,NECO,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,139,106,90,77,37,38,68.8172,37.5000,33.9286,100.0000
+2024/2025,Male,Disabled,NECO,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,180,137,116,95,37,38,68.5950,36.1111,26.3889,100.0000
+2024/2025,Male,Disabled,NECO,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,139,106,82,69,41,41,68.8172,37.2549,41.1765,100.0000
+2024/2025,Male,Disabled,NECO,ward,Bamble,North West,Katsina,Mashi,Bamble,,188,146,113,95,37,38,69.8413,37.1429,27.1429,100.0000
+2024/2025,Male,Disabled,NECO,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,180,137,119,106,37,38,68.5950,39.1892,25.6757,100.0000
+2024/2025,Male,Disabled,NECO,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,154,114,93,77,27,24,66.9903,36.2069,24.1379,85.7143
+2024/2025,Male,Disabled,WAEC,ward,Kusugu,North West,Katsina,Daura,Kusugu,,230,187,143,132,55,51,73.3766,40.4494,31.4607,92.8571
+2024/2025,Male,Disabled,WAEC,ward,Madobi A,North West,Katsina,Daura,Madobi A,,201,162,124,113,45,38,72.5926,40.2597,29.8701,82.6087
+2024/2025,Male,Disabled,WAEC,ward,Madobi B,North West,Katsina,Daura,Madobi B,,245,203,151,143,55,51,75.0000,41.4894,29.7872,92.8571
+2024/2025,Male,Disabled,WAEC,ward,Bagagadi,North West,Katsina,Dutsinma,Bagagadi,,222,179,135,124,35,32,72.4832,40.4762,21.4286,88.8889
+2024/2025,Male,Disabled,WAEC,ward,Dabawa,North West,Katsina,Dutsinma,Dabawa,,245,195,147,121,41,38,71.9512,36.2637,23.0769,90.4762
+2024/2025,Male,Disabled,WAEC,ward,Dutsin-Ma A,North West,Katsina,Dutsinma,Dutsin-Ma A,,222,187,130,121,35,32,75.8389,40.7407,22.2222,88.8889
+2024/2025,Male,Disabled,WAEC,ward,Dandutse,North West,Katsina,Funtua,Dandutse,,274,220,176,150,55,51,72.2826,37.6147,25.6881,92.8571
+2024/2025,Male,Disabled,WAEC,ward,Dukke,North West,Katsina,Funtua,Dukke,,194,156,111,102,45,38,72.3077,40.5797,33.3333,82.6087
+2024/2025,Male,Disabled,WAEC,ward,Goya,North West,Katsina,Funtua,Goya,,215,179,135,121,49,47,75.0000,39.2857,29.7619,96.0000
+2024/2025,Male,Disabled,WAEC,ward,Kangiwa,North West,Katsina,Katsina,Kangiwa,,222,179,143,132,49,47,72.4832,40.4494,28.0899,96.0000
+2024/2025,Male,Disabled,WAEC,ward,Shinkafi 'A,North West,Katsina,Katsina,Shinkafi 'A,,245,195,155,132,49,47,71.9512,37.5000,26.0417,96.0000
+2024/2025,Male,Disabled,WAEC,ward,Shinkafi 'B',North West,Katsina,Katsina,Shinkafi 'B',,207,170,130,113,45,38,74.1007,38.2716,28.3951,82.6087
+2024/2025,Male,Disabled,WAEC,ward,Bamble,North West,Katsina,Mashi,Bamble,,267,220,171,150,49,47,74.3017,38.6792,23.5849,96.0000
+2024/2025,Male,Disabled,WAEC,ward,Doguru 'A',North West,Katsina,Mashi,Doguru 'A',,274,228,176,150,49,47,75.0000,37.6147,22.9358,96.0000
+2024/2025,Male,Disabled,WAEC,ward,Doguru 'B',North West,Katsina,Mashi,Doguru 'B',,222,179,143,132,41,38,72.4832,40.4494,23.5955,90.4762

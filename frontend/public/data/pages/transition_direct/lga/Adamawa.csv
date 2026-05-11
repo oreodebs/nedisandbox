@@ -1,433 +1,433 @@
-session,gender,disability_scope,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,all,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,450,360,410,25,23,0,90,0,385,2
-2022/2023,Female,all,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,605,483,556,35,31,0,122,0,521,4
-2022/2023,Female,all,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,544,435,494,25,24,0,109,0,469,1
-2022/2023,Female,all,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,395,315,368,21,19,0,80,0,347,2
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,177,141,167,4,3,0,36,0,163,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,254,203,231,5,4,0,51,0,226,1
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,1159,928,1101,27,24,0,231,0,1074,3
-2022/2023,Female,all,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,276,221,252,6,5,0,55,0,246,1
-2022/2023,Female,all,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,552,442,522,172,165,1,110,0,350,7
-2022/2023,Female,all,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,555,444,495,161,142,2,111,0,334,19
-2022/2023,Female,all,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,776,621,719,266,261,0,155,0,453,5
-2022/2023,Female,all,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,451,361,419,180,177,0,90,0,239,3
-2022/2023,Female,all,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,878,703,783,45,43,0,175,0,738,2
-2022/2023,Female,all,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,1102,882,999,59,56,0,220,0,940,3
-2022/2023,Female,all,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,1020,816,904,56,53,0,204,0,848,3
-2022/2023,Female,all,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,765,613,727,46,43,0,152,0,681,3
-2022/2023,Female,all,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,299,239,274,5,4,0,60,0,269,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,469,375,432,10,9,0,94,0,422,1
-2022/2023,Female,all,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,2271,1817,2111,46,44,0,454,0,2065,2
-2022/2023,Female,all,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,542,433,506,12,11,0,109,0,494,1
-2022/2023,Female,all,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,1035,827,946,341,313,2,208,0,605,28
-2022/2023,Female,all,NECO,University,lga,Numan,North East,Adamawa,Numan,,,1049,840,935,298,283,1,209,0,637,15
-2022/2023,Female,all,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,1441,1152,1328,496,465,2,289,0,832,31
-2022/2023,Female,all,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,822,658,778,324,304,2,164,0,454,20
-2022/2023,Female,all,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,1081,864,986,55,48,1,217,0,931,7
-2022/2023,Female,all,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,1457,1166,1321,75,68,1,291,0,1246,7
-2022/2023,Female,all,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,1306,1044,1185,64,56,1,262,0,1121,8
-2022/2023,Female,all,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,952,762,898,55,50,0,190,0,843,5
-2022/2023,Female,all,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,400,320,366,7,6,0,80,0,359,1
-2022/2023,Female,all,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,620,496,573,12,11,0,124,0,561,1
-2022/2023,Female,all,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,2948,2357,2746,60,53,1,591,0,2686,7
-2022/2023,Female,all,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,659,528,616,15,13,0,131,0,601,2
-2022/2023,Female,all,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,1380,1105,1266,402,361,3,275,0,864,41
-2022/2023,Female,all,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,1412,1130,1240,381,346,3,282,0,859,35
-2022/2023,Female,all,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,2026,1621,1900,668,599,6,405,0,1232,69
-2022/2023,Female,all,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,1131,905,1045,403,362,3,226,0,642,41
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,46,37,40,3,2,0,9,0,37,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,46,37,39,3,2,0,9,0,36,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,56,45,52,2,1,0,11,0,50,1
-2022/2023,Female,disabled,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,38,31,36,0,0,0,7,0,36,0
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,18,14,16,0,0,0,4,0,16,0
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,19,15,20,0,0,0,4,0,20,0
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,105,85,96,4,3,0,20,0,92,1
-2022/2023,Female,disabled,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,34,27,31,1,0,0,7,0,30,1
-2022/2023,Female,disabled,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,55,44,47,10,9,0,11,0,37,1
-2022/2023,Female,disabled,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,53,43,48,18,17,0,10,0,30,1
-2022/2023,Female,disabled,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,69,56,63,30,26,0,13,0,33,4
-2022/2023,Female,disabled,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,38,31,36,34,33,0,7,0,2,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,69,55,62,4,3,0,14,0,58,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,73,59,72,6,5,0,14,0,66,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,83,66,71,7,6,0,17,0,64,1
-2022/2023,Female,disabled,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,59,48,52,4,3,0,11,0,48,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,22,18,20,0,0,0,4,0,20,0
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,34,27,28,1,0,0,7,0,27,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,187,149,169,3,2,0,38,0,166,1
-2022/2023,Female,disabled,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,41,33,40,2,1,0,8,0,38,1
-2022/2023,Female,disabled,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,80,64,76,32,29,0,16,0,44,3
-2022/2023,Female,disabled,NECO,University,lga,Numan,North East,Adamawa,Numan,,,83,66,72,31,29,0,17,0,41,2
-2022/2023,Female,disabled,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,105,85,101,32,30,0,20,0,69,2
-2022/2023,Female,disabled,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,57,46,56,22,21,0,11,0,34,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,88,70,77,4,3,0,18,0,73,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,101,81,93,4,3,0,20,0,89,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,111,88,100,4,3,0,23,0,96,1
-2022/2023,Female,disabled,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,83,66,80,6,5,0,17,0,74,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,27,22,25,0,0,0,5,0,25,0
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,43,35,40,1,0,0,8,0,39,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,242,192,228,4,3,0,50,0,224,1
-2022/2023,Female,disabled,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,48,38,49,1,0,0,10,0,48,1
-2022/2023,Female,disabled,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,107,86,99,25,22,0,21,0,74,3
-2022/2023,Female,disabled,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,116,92,103,25,22,0,24,0,78,3
-2022/2023,Female,disabled,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,144,116,134,43,38,0,28,0,91,5
-2022/2023,Female,disabled,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,80,64,77,32,28,0,16,0,45,4
-2022/2023,Male,all,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,439,351,386,18,15,0,88,0,368,3
-2022/2023,Male,all,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,559,447,504,28,27,0,112,0,476,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,549,439,503,23,22,0,110,0,480,1
-2022/2023,Male,all,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,355,284,329,16,15,0,71,0,313,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,176,140,158,3,2,0,36,0,155,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,237,189,215,5,4,0,48,0,210,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,1126,901,1007,21,20,0,225,0,986,1
-2022/2023,Male,all,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,291,232,291,6,5,0,59,0,285,1
-2022/2023,Male,all,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,551,441,506,161,142,2,110,0,345,19
-2022/2023,Male,all,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,527,421,479,161,142,2,106,0,318,19
-2022/2023,Male,all,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,728,583,695,234,225,1,145,0,461,9
-2022/2023,Male,all,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,472,378,447,149,130,2,94,0,298,19
-2022/2023,Male,all,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,813,650,746,40,38,0,163,0,706,2
-2022/2023,Male,all,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,1039,831,931,49,45,0,208,0,882,4
-2022/2023,Male,all,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,1031,824,940,52,48,0,207,0,888,4
-2022/2023,Male,all,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,662,530,633,40,38,0,132,0,593,2
-2022/2023,Male,all,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,335,267,298,6,5,0,68,0,292,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,459,367,431,9,8,0,92,0,422,1
-2022/2023,Male,all,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,2223,1779,2084,45,42,0,444,0,2039,3
-2022/2023,Male,all,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,545,436,519,12,11,0,109,0,507,1
-2022/2023,Male,all,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,1005,804,916,332,303,2,201,0,584,29
-2022/2023,Male,all,NECO,University,lga,Numan,North East,Adamawa,Numan,,,969,776,876,278,264,1,193,0,598,14
-2022/2023,Male,all,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,1361,1088,1233,430,392,3,273,0,803,38
-2022/2023,Male,all,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,851,681,816,324,314,1,170,0,492,10
-2022/2023,Male,all,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,1091,873,982,52,47,0,218,0,930,5
-2022/2023,Male,all,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,1313,1051,1225,74,64,1,262,0,1151,10
-2022/2023,Male,all,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,1278,1022,1148,61,54,1,256,0,1087,7
-2022/2023,Male,all,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,842,673,766,41,36,0,169,0,725,5
-2022/2023,Male,all,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,434,348,416,9,8,0,86,0,407,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,631,505,592,11,10,0,126,0,581,1
-2022/2023,Male,all,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,2916,2333,2664,57,52,0,583,0,2607,5
-2022/2023,Male,all,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,673,539,647,14,13,0,134,0,633,1
-2022/2023,Male,all,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,1382,1106,1234,433,395,3,276,0,801,38
-2022/2023,Male,all,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,1279,1023,1150,359,323,3,256,0,791,36
-2022/2023,Male,all,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,1852,1481,1716,595,543,4,371,0,1121,52
-2022/2023,Male,all,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,1171,938,1111,442,401,3,233,0,669,41
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,38,30,33,0,0,0,8,0,33,0
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,43,34,36,0,0,0,9,0,36,0
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,53,43,47,0,0,0,10,0,47,0
-2022/2023,Male,disabled,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,33,26,33,0,0,0,7,0,33,0
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,16,13,14,0,0,0,3,0,14,0
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,17,14,19,0,0,0,3,0,19,0
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,99,80,92,2,1,0,19,0,90,1
-2022/2023,Male,disabled,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,31,25,29,0,0,0,6,0,29,0
-2022/2023,Male,disabled,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,52,42,47,9,8,0,10,0,38,1
-2022/2023,Male,disabled,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,48,39,44,20,17,0,9,0,24,3
-2022/2023,Male,disabled,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,64,51,58,9,8,0,13,0,49,1
-2022/2023,Male,disabled,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,35,28,37,17,16,0,7,0,20,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,67,53,61,2,1,0,14,0,59,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,75,60,71,3,2,0,15,0,68,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,86,69,75,7,6,0,17,0,68,1
-2022/2023,Male,disabled,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,54,43,50,5,4,0,11,0,45,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,24,20,22,0,0,0,4,0,22,0
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,35,28,29,0,0,0,7,0,29,0
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,184,146,178,4,3,0,38,0,174,1
-2022/2023,Male,disabled,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,41,33,37,1,0,0,8,0,36,1
-2022/2023,Male,disabled,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,85,69,80,32,29,0,16,0,48,3
-2022/2023,Male,disabled,NECO,University,lga,Numan,North East,Adamawa,Numan,,,80,63,70,23,22,0,17,0,47,1
-2022/2023,Male,disabled,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,96,77,89,38,37,0,19,0,51,1
-2022/2023,Male,disabled,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,62,50,57,28,27,0,12,0,29,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,85,67,73,4,3,0,18,0,69,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,89,72,82,4,3,0,17,0,78,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,110,87,99,6,5,0,23,0,93,1
-2022/2023,Male,disabled,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,73,58,69,5,4,0,15,0,64,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,31,25,29,0,0,0,6,0,29,0
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,45,37,43,1,0,0,8,0,42,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,241,192,225,4,3,0,49,0,221,1
-2022/2023,Male,disabled,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,48,38,47,1,0,0,10,0,46,1
-2022/2023,Male,disabled,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,106,85,94,37,32,0,21,0,57,5
-2022/2023,Male,disabled,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,112,89,98,25,22,0,23,0,73,3
-2022/2023,Male,disabled,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,131,106,120,37,32,0,25,0,83,5
-2022/2023,Male,disabled,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,84,67,79,32,28,0,17,0,47,4
-2023/2024,Female,all,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,491,394,460,14,13,0,97,0,446,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,608,485,567,16,13,0,123,0,551,3
-2023/2024,Female,all,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,561,449,509,13,12,0,112,0,496,1
-2023/2024,Female,all,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,423,338,371,11,10,0,85,0,360,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,201,161,190,13,12,0,40,0,177,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,263,210,246,13,12,0,53,0,233,1
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,1274,1021,1169,86,75,1,253,0,1083,11
-2023/2024,Female,all,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,301,241,273,23,22,0,60,0,250,1
-2023/2024,Female,all,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,586,469,527,105,104,0,117,0,422,1
-2023/2024,Female,all,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,630,505,564,132,119,1,125,0,432,13
-2023/2024,Female,all,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,825,660,764,173,171,0,165,0,591,2
-2023/2024,Female,all,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,472,378,450,132,128,0,94,0,318,4
-2023/2024,Female,all,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,860,689,791,23,22,0,171,0,768,1
-2023/2024,Female,all,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,1088,871,994,30,29,0,217,0,964,1
-2023/2024,Female,all,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,1041,833,922,26,24,0,208,0,896,2
-2023/2024,Female,all,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,827,662,751,23,22,0,165,0,728,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,344,276,320,21,20,0,68,0,299,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,499,399,474,31,30,0,100,0,443,1
-2023/2024,Female,all,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,2347,1876,2153,146,140,0,471,0,2007,6
-2023/2024,Female,all,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,586,469,560,45,42,0,117,0,515,3
-2023/2024,Female,all,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,1136,909,1057,217,199,1,227,0,840,18
-2023/2024,Female,all,NECO,University,lga,Numan,North East,Adamawa,Numan,,,1082,865,1007,195,186,1,217,0,812,9
-2023/2024,Female,all,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,1536,1229,1429,332,306,2,307,0,1097,26
-2023/2024,Female,all,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,907,726,852,195,186,1,181,0,657,9
-2023/2024,Female,all,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,1177,941,1099,30,27,0,236,0,1069,3
-2023/2024,Female,all,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,1651,1320,1518,40,36,0,331,0,1478,4
-2023/2024,Female,all,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,1453,1162,1325,35,31,0,291,0,1290,4
-2023/2024,Female,all,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,1049,839,972,28,26,0,210,0,944,2
-2023/2024,Female,all,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,487,389,463,32,29,0,98,0,431,3
-2023/2024,Female,all,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,730,584,666,46,41,0,146,0,620,5
-2023/2024,Female,all,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,3152,2522,2906,196,175,2,630,0,2710,21
-2023/2024,Female,all,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,715,572,680,50,46,0,143,0,630,4
-2023/2024,Female,all,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,1424,1139,1277,275,248,2,285,0,1002,27
-2023/2024,Female,all,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,1434,1146,1290,270,239,2,288,0,1020,31
-2023/2024,Female,all,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,2077,1661,1900,429,387,3,416,0,1471,42
-2023/2024,Female,all,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,1168,934,1075,246,214,3,234,0,829,32
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,46,37,42,2,1,0,9,0,40,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,46,37,42,1,0,0,9,0,41,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,60,48,56,1,0,0,12,0,55,1
-2023/2024,Female,disabled,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,39,31,34,1,0,0,8,0,33,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,18,14,16,2,1,0,4,0,14,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,18,14,16,0,0,0,4,0,16,0
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,113,91,108,10,9,0,22,0,98,1
-2023/2024,Female,disabled,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,36,29,34,5,4,0,7,0,29,1
-2023/2024,Female,disabled,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,55,44,51,0,0,0,11,0,51,0
-2023/2024,Female,disabled,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,60,48,51,17,16,0,12,0,34,1
-2023/2024,Female,disabled,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,74,59,69,17,16,0,15,0,52,1
-2023/2024,Female,disabled,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,39,31,34,21,20,0,8,0,13,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,70,56,60,2,1,0,14,0,58,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,75,60,66,3,2,0,15,0,63,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,87,70,79,2,1,0,17,0,77,1
-2023/2024,Female,disabled,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,66,53,59,2,1,0,13,0,57,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,26,21,22,1,0,0,5,0,21,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,36,29,33,3,2,0,7,0,30,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,189,151,173,12,11,0,38,0,161,1
-2023/2024,Female,disabled,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,46,37,44,5,4,0,9,0,39,1
-2023/2024,Female,disabled,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,87,70,84,18,17,0,17,0,66,1
-2023/2024,Female,disabled,NECO,University,lga,Numan,North East,Adamawa,Numan,,,93,74,84,19,17,0,19,0,65,2
-2023/2024,Female,disabled,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,108,87,97,33,30,0,21,0,64,3
-2023/2024,Female,disabled,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,60,48,58,18,17,0,12,0,40,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,95,75,87,2,1,0,20,0,85,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,111,89,107,2,1,0,22,0,105,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,124,99,106,3,2,0,25,0,103,1
-2023/2024,Female,disabled,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,87,69,82,2,1,0,18,0,80,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,35,28,33,1,0,0,7,0,32,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,50,40,46,2,1,0,10,0,44,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,268,213,249,16,15,0,55,0,233,1
-2023/2024,Female,disabled,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,53,42,52,5,4,0,11,0,47,1
-2023/2024,Female,disabled,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,119,95,105,21,19,0,24,0,84,2
-2023/2024,Female,disabled,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,115,91,108,21,19,0,24,0,87,2
-2023/2024,Female,disabled,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,152,121,144,33,30,0,31,0,111,3
-2023/2024,Female,disabled,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,82,66,77,17,15,0,16,0,60,2
-2023/2024,Male,all,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,453,362,400,10,9,0,91,0,390,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,545,436,491,12,11,0,109,0,479,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,568,455,534,12,11,0,113,0,522,1
-2023/2024,Male,all,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,383,307,363,12,11,0,76,0,351,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,206,165,200,13,12,0,41,0,187,1
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,261,208,236,17,14,0,53,0,219,3
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,1245,996,1164,78,65,1,249,0,1086,13
-2023/2024,Male,all,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,306,245,290,23,22,0,61,0,267,1
-2023/2024,Male,all,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,590,473,534,113,112,0,117,0,421,1
-2023/2024,Male,all,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,558,447,494,83,82,0,111,0,411,1
-2023/2024,Male,all,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,787,630,739,140,133,1,157,0,599,7
-2023/2024,Male,all,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,511,410,478,104,98,0,101,0,374,6
-2023/2024,Male,all,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,840,672,766,19,18,0,168,0,747,1
-2023/2024,Male,all,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,1061,849,971,28,26,0,212,0,943,2
-2023/2024,Male,all,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,1057,846,945,25,23,0,211,0,920,2
-2023/2024,Male,all,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,756,605,697,21,19,0,151,0,676,2
-2023/2024,Male,all,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,358,286,321,24,23,0,72,0,297,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,480,384,451,28,27,0,96,0,423,1
-2023/2024,Male,all,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,2257,1806,2093,153,149,0,451,0,1940,4
-2023/2024,Male,all,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,557,445,543,43,41,0,112,0,500,2
-2023/2024,Male,all,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,1088,872,1011,212,199,1,216,0,799,13
-2023/2024,Male,all,NECO,University,lga,Numan,North East,Adamawa,Numan,,,1065,852,940,184,167,1,213,0,756,17
-2023/2024,Male,all,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,1485,1188,1336,313,287,2,297,0,1023,26
-2023/2024,Male,all,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,909,727,874,201,186,1,182,0,673,15
-2023/2024,Male,all,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,1093,874,1006,27,24,0,219,0,979,3
-2023/2024,Male,all,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,1533,1226,1388,36,32,0,307,0,1352,4
-2023/2024,Male,all,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,1459,1166,1334,34,30,0,293,0,1300,4
-2023/2024,Male,all,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,879,703,820,23,20,0,176,0,797,3
-2023/2024,Male,all,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,503,403,473,31,27,0,100,0,442,4
-2023/2024,Male,all,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,669,536,605,39,35,0,133,0,566,4
-2023/2024,Male,all,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,3082,2467,2843,194,176,1,615,0,2649,18
-2023/2024,Male,all,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,716,573,688,54,49,0,143,0,634,5
-2023/2024,Male,all,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,1434,1147,1318,284,250,3,287,0,1034,34
-2023/2024,Male,all,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,1332,1066,1182,242,220,2,266,0,940,22
-2023/2024,Male,all,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,1972,1577,1822,405,362,3,395,0,1417,43
-2023/2024,Male,all,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,1239,990,1151,266,246,2,249,0,885,20
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,41,33,38,0,0,0,8,0,38,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,41,33,38,1,0,0,8,0,37,1
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,54,44,50,0,0,0,10,0,50,0
-2023/2024,Male,disabled,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,37,30,34,1,0,0,7,0,33,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,18,15,19,0,0,0,3,0,19,0
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,18,15,19,2,1,0,3,0,17,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,105,84,97,3,2,0,21,0,94,1
-2023/2024,Male,disabled,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,33,27,30,2,1,0,6,0,28,1
-2023/2024,Male,disabled,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,54,44,50,11,10,0,10,0,39,1
-2023/2024,Male,disabled,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,54,44,50,6,5,0,10,0,44,1
-2023/2024,Male,disabled,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,67,54,62,0,0,0,13,0,62,0
-2023/2024,Male,disabled,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,39,32,34,6,5,0,7,0,28,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,70,56,65,1,0,0,14,0,64,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,70,57,63,3,2,0,13,0,60,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,90,72,80,2,1,0,18,0,78,1
-2023/2024,Male,disabled,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,60,48,56,2,1,0,12,0,54,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,23,19,20,1,0,0,4,0,19,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,37,29,35,1,0,0,8,0,34,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,189,151,173,13,12,0,38,0,160,1
-2023/2024,Male,disabled,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,42,34,42,5,4,0,8,0,37,1
-2023/2024,Male,disabled,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,88,71,79,15,13,0,17,0,64,2
-2023/2024,Male,disabled,NECO,University,lga,Numan,North East,Adamawa,Numan,,,90,71,78,19,17,0,19,0,59,2
-2023/2024,Male,disabled,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,103,83,95,28,25,0,20,0,67,3
-2023/2024,Male,disabled,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,67,54,64,13,12,0,13,0,51,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,90,71,81,2,1,0,19,0,79,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,101,81,94,2,1,0,20,0,92,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,125,100,112,3,2,0,25,0,109,1
-2023/2024,Male,disabled,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,75,60,69,2,1,0,15,0,67,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,34,27,31,1,0,0,7,0,30,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,56,44,50,2,1,0,12,0,48,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,259,206,239,15,14,0,53,0,224,1
-2023/2024,Male,disabled,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,49,40,51,5,4,0,9,0,46,1
-2023/2024,Male,disabled,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,121,97,109,21,19,0,24,0,88,2
-2023/2024,Male,disabled,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,104,83,91,21,19,0,21,0,70,2
-2023/2024,Male,disabled,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,138,110,133,28,26,0,28,0,105,2
-2023/2024,Male,disabled,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,96,76,88,20,19,0,20,0,68,1
-2024/2025,Female,all,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,693,554,388,186,171,1.102501,139,166,202,15
-2024/2025,Female,all,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,875,701,490,234,216,1.393504,174,211,256,18
-2024/2025,Female,all,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,828,662,464,222,204,1.317796,166,198,242,18
-2024/2025,Female,all,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,670,536,375,180,165,1.067013,134,161,195,15
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,275,220,154,74,68,0.437688,55,66,80,6
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,410,328,230,110,101,0.652983,82,98,120,9
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,1861,1489,1042,498,459,2.962084,372,447,544,39
-2024/2025,Female,all,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,462,370,259,124,114,0.735789,92,111,135,10
-2024/2025,Female,all,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,844,676,473,226,208,1.343821,168,203,247,18
-2024/2025,Female,all,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,828,662,464,222,204,1.317796,166,198,242,18
-2024/2025,Female,all,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,1265,1012,708,339,312,2.013365,253,304,369,27
-2024/2025,Female,all,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,694,555,389,186,171,1.104867,139,166,203,15
-2024/2025,Female,all,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,1307,1045,732,350,322,2.07961,262,313,382,28
-2024/2025,Female,all,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,1644,1315,921,440,405,2.616665,329,394,481,35
-2024/2025,Female,all,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,1512,1209,847,405,372,2.406102,303,362,442,33
-2024/2025,Female,all,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,1194,955,668,320,294,1.899803,239,287,348,26
-2024/2025,Female,all,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,543,434,304,145,134,0.863547,109,130,159,11
-2024/2025,Female,all,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,708,566,396,189,174,1.12616,142,170,207,15
-2024/2025,Female,all,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,3409,2727,1909,913,840,5.424967,682,818,996,73
-2024/2025,Female,all,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,785,628,440,210,193,1.249186,157,188,230,17
-2024/2025,Female,all,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,1512,1209,847,405,372,2.406102,303,362,442,33
-2024/2025,Female,all,NECO,University,lga,Numan,North East,Adamawa,Numan,,,1556,1245,872,417,383,2.477078,311,373,455,34
-2024/2025,Female,all,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,2303,1842,1289,617,567,3.664751,461,553,672,50
-2024/2025,Female,all,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,1326,1061,743,355,327,2.110366,265,318,388,28
-2024/2025,Female,all,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,1732,1385,970,464,427,2.756252,347,415,506,37
-2024/2025,Female,all,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,2313,1850,1295,619,570,3.681312,463,555,676,49
-2024/2025,Female,all,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,2011,1609,1126,539,495,3.201038,402,483,587,44
-2024/2025,Female,all,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,1610,1288,902,431,397,2.56225,322,386,471,34
-2024/2025,Female,all,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,725,580,406,194,179,1.15455,145,174,212,15
-2024/2025,Female,all,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,977,781,547,262,241,1.554384,196,234,285,21
-2024/2025,Female,all,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,4645,3716,2601,1244,1145,7.39338,929,1115,1357,99
-2024/2025,Female,all,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,1070,856,599,287,264,1.703435,214,257,312,23
-2024/2025,Female,all,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,2135,1708,1195,572,526,3.397406,427,513,623,46
-2024/2025,Female,all,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,2172,1737,1216,582,535,3.456553,435,521,634,47
-2024/2025,Female,all,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,3123,2499,1749,836,769,4.970717,624,750,913,67
-2024/2025,Female,all,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,1779,1424,996,477,438,2.83196,355,428,519,39
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,62,50,35,17,15,0.099367,12,15,18,2
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,61,49,34,16,15,0.097001,12,15,18,1
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,83,67,47,22,20,0.132489,16,20,25,2
-2024/2025,Female,disabled,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,59,48,33,16,15,0.094635,11,15,17,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,25,20,14,7,6,0.04022,5,6,7,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,28,23,16,8,7,0.044952,5,7,8,1
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,164,131,92,44,40,0.260247,33,39,48,4
-2024/2025,Female,disabled,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,51,40,28,14,12,0.08044,11,12,14,2
-2024/2025,Female,disabled,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,82,65,46,22,20,0.130123,17,19,24,2
-2024/2025,Female,disabled,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,73,58,41,19,18,0.115928,15,17,22,1
-2024/2025,Female,disabled,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,106,84,59,28,26,0.167978,22,25,31,2
-2024/2025,Female,disabled,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,55,44,31,15,14,0.087538,11,13,16,1
-2024/2025,Female,disabled,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,106,84,59,28,26,0.167978,22,25,31,2
-2024/2025,Female,disabled,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,111,89,63,30,27,0.177441,22,26,33,3
-2024/2025,Female,disabled,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,129,104,72,35,32,0.205832,25,32,37,3
-2024/2025,Female,disabled,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,98,79,55,26,24,0.156148,19,24,29,2
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,42,33,23,11,10,0.066245,9,10,12,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,49,39,28,13,12,0.078074,10,11,15,1
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,284,227,159,76,70,0.451883,57,68,83,6
-2024/2025,Female,disabled,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,64,51,36,17,16,0.101733,13,15,19,1
-2024/2025,Female,disabled,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,122,98,68,33,30,0.194002,24,30,35,3
-2024/2025,Female,disabled,NECO,University,lga,Numan,North East,Adamawa,Numan,,,129,103,72,35,32,0.205832,26,31,37,3
-2024/2025,Female,disabled,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,164,131,92,44,40,0.260247,33,39,48,4
-2024/2025,Female,disabled,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,92,74,52,25,23,0.146685,18,22,27,2
-2024/2025,Female,disabled,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,141,113,79,38,35,0.224759,28,34,41,3
-2024/2025,Female,disabled,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,162,130,91,43,40,0.257881,32,39,48,3
-2024/2025,Female,disabled,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,174,139,97,47,43,0.276808,35,42,50,4
-2024/2025,Female,disabled,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,129,103,72,35,32,0.205832,26,31,37,3
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,53,43,30,14,13,0.085172,10,13,16,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,80,64,45,21,20,0.127758,16,19,24,1
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,388,310,217,104,96,0.617495,78,93,113,8
-2024/2025,Female,disabled,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,82,65,46,22,20,0.130123,17,19,24,2
-2024/2025,Female,disabled,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,166,133,93,45,41,0.264979,33,40,48,4
-2024/2025,Female,disabled,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,177,142,99,47,44,0.28154,35,43,52,3
-2024/2025,Female,disabled,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,223,178,125,60,55,0.354882,45,53,65,5
-2024/2025,Female,disabled,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,129,104,72,35,32,0.205832,25,32,37,3
-2024/2025,Male,all,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,669,535,375,179,165,1.064647,134,160,196,14
-2024/2025,Male,all,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,858,686,480,230,211,1.365114,172,206,250,19
-2024/2025,Male,all,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,828,662,464,222,204,1.317796,166,198,242,18
-2024/2025,Male,all,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,602,482,337,161,148,0.958182,120,145,176,13
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,302,241,169,81,74,0.480274,61,72,88,7
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,412,329,231,110,101,0.655349,83,98,121,9
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,1767,1414,990,473,435,2.813033,353,424,517,38
-2024/2025,Male,all,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,450,360,252,121,111,0.716862,90,108,131,10
-2024/2025,Male,all,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,841,673,471,225,207,1.339089,168,202,246,18
-2024/2025,Male,all,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,792,634,444,212,195,1.261015,158,190,232,17
-2024/2025,Male,all,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,1148,918,643,307,283,1.826461,230,275,336,24
-2024/2025,Male,all,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,699,559,391,187,172,1.111964,140,168,204,15
-2024/2025,Male,all,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,1189,951,666,318,293,1.892705,238,285,348,25
-2024/2025,Male,all,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,1478,1182,827,396,364,2.351686,296,355,431,32
-2024/2025,Male,all,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,1518,1214,850,406,374,2.415565,304,364,444,32
-2024/2025,Male,all,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,1103,882,618,295,272,1.755484,221,264,323,23
-2024/2025,Male,all,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,532,426,298,143,131,0.846986,106,128,155,12
-2024/2025,Male,all,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,763,610,427,204,188,1.213697,153,183,223,16
-2024/2025,Male,all,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,3437,2749,1925,920,847,5.469918,688,824,1005,73
-2024/2025,Male,all,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,812,649,454,217,200,1.291771,163,195,237,17
-2024/2025,Male,all,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,1491,1193,835,399,367,2.372979,298,358,436,32
-2024/2025,Male,all,NECO,University,lga,Numan,North East,Adamawa,Numan,,,1498,1199,839,401,369,2.384809,299,360,438,32
-2024/2025,Male,all,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,2191,1753,1227,587,540,3.48731,438,526,640,47
-2024/2025,Male,all,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,1341,1073,751,359,330,2.134025,268,322,392,29
-2024/2025,Male,all,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,1640,1312,918,439,404,2.609568,328,394,479,35
-2024/2025,Male,all,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,2154,1723,1206,577,531,3.428163,431,517,629,46
-2024/2025,Male,all,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,2022,1617,1132,541,498,3.217599,405,485,591,43
-2024/2025,Male,all,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,1376,1101,771,369,339,2.190806,275,330,402,30
-2024/2025,Male,all,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,727,582,407,195,179,1.156916,145,175,212,16
-2024/2025,Male,all,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,1021,817,572,273,252,1.625361,204,245,299,21
-2024/2025,Male,all,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,4553,3643,2550,1219,1122,7.246696,910,1093,1331,97
-2024/2025,Male,all,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,1054,843,590,282,260,1.67741,211,253,308,22
-2024/2025,Male,all,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,2047,1638,1146,548,504,3.257819,409,492,598,44
-2024/2025,Male,all,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,2080,1664,1165,557,512,3.309868,416,499,608,45
-2024/2025,Male,all,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,2873,2299,1609,769,708,4.573249,574,690,840,61
-2024/2025,Male,all,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,1821,1457,1020,488,449,2.898205,364,437,532,39
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,58,46,33,15,14,0.092269,12,13,18,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,56,45,32,15,14,0.089904,11,13,17,1
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,79,63,44,21,19,0.125392,16,19,23,2
-2024/2025,Male,disabled,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,58,46,33,15,14,0.092269,12,13,18,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,27,21,15,7,7,0.042586,6,6,8,0
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,30,24,17,8,7,0.047318,6,7,9,1
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,150,120,84,40,37,0.238954,30,36,44,3
-2024/2025,Male,disabled,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,46,37,26,12,11,0.073342,9,11,14,1
-2024/2025,Male,disabled,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,79,63,44,21,19,0.125392,16,19,23,2
-2024/2025,Male,disabled,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,70,56,39,19,17,0.111196,14,17,20,2
-2024/2025,Male,disabled,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,95,76,53,25,23,0.151416,19,23,28,2
-2024/2025,Male,disabled,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,55,44,31,15,14,0.087538,11,13,16,1
-2024/2025,Male,disabled,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,97,77,54,26,24,0.153782,20,23,28,2
-2024/2025,Male,disabled,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,100,80,56,27,25,0.158514,20,24,29,2
-2024/2025,Male,disabled,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,129,103,72,35,32,0.205832,26,31,37,3
-2024/2025,Male,disabled,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,97,77,54,26,24,0.153782,20,23,28,2
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,39,31,22,10,10,0.061513,8,9,12,0
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,52,42,29,14,13,0.082806,10,13,15,1
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,291,233,163,78,72,0.463713,58,70,85,6
-2024/2025,Male,disabled,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,59,48,33,16,15,0.094635,11,15,17,1
-2024/2025,Male,disabled,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,122,98,68,33,30,0.194002,24,30,35,3
-2024/2025,Male,disabled,NECO,University,lga,Numan,North East,Adamawa,Numan,,,128,102,72,34,31,0.203466,26,30,38,3
-2024/2025,Male,disabled,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,150,120,84,40,37,0.238954,30,36,44,3
-2024/2025,Male,disabled,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,97,77,54,26,24,0.153782,20,23,28,2
-2024/2025,Male,disabled,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,134,107,75,36,33,0.212929,27,32,39,3
-2024/2025,Male,disabled,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,147,118,82,39,36,0.234222,29,36,43,3
-2024/2025,Male,disabled,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,168,134,94,45,41,0.267345,34,40,49,4
-2024/2025,Male,disabled,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,120,96,67,32,30,0.191636,24,29,35,2
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,52,42,29,14,13,0.082806,10,13,15,1
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,82,65,46,22,20,0.130123,17,19,24,2
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,382,306,214,102,94,0.608032,76,92,112,8
-2024/2025,Male,disabled,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,76,61,43,20,19,0.12066,15,18,23,1
-2024/2025,Male,disabled,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,177,142,99,47,44,0.28154,35,43,52,3
-2024/2025,Male,disabled,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,171,137,96,46,42,0.272076,34,41,50,4
-2024/2025,Male,disabled,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,201,161,112,54,49,0.319394,40,49,58,5
-2024/2025,Male,disabled,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,138,111,77,37,34,0.220027,27,34,40,3
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,106,273,296,16,15,0,90,0,385,2
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,142,366,401,22,20,0,122,0,521,4
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,128,330,356,16,15,0,109,0,469,1
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,93,239,266,13,12,0,80,0,347,2
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,42,107,120,3,2,0,36,0,163,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,60,154,167,3,3,0,51,0,226,1
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,273,704,794,17,15,0,231,0,1074,3
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,65,168,182,4,3,0,55,0,246,1
+2022/2023,Female,ALL,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,130,335,377,110,106,9,110,0,350,7
+2022/2023,Female,ALL,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,131,337,357,103,91,17,111,0,334,19
+2022/2023,Female,ALL,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,183,471,519,171,167,0,155,0,453,5
+2022/2023,Female,ALL,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,106,274,302,115,114,0,90,0,239,3
+2022/2023,Female,ALL,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,207,533,565,29,28,0,175,0,738,2
+2022/2023,Female,ALL,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,259,669,721,38,36,0,220,0,940,3
+2022/2023,Female,ALL,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,240,619,652,36,34,0,204,0,848,3
+2022/2023,Female,ALL,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,180,465,525,30,28,0,152,0,681,3
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,70,181,198,3,3,0,60,0,269,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,110,285,312,6,6,0,94,0,422,1
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,535,1379,1523,30,28,0,454,0,2065,2
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,128,329,365,8,7,0,109,0,494,1
+2022/2023,Female,ALL,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,244,627,683,219,201,17,208,0,605,28
+2022/2023,Female,ALL,NECO,University,lga,Numan,North East,Adamawa,Numan,,,247,637,675,191,182,9,209,0,637,15
+2022/2023,Female,ALL,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,339,874,958,318,298,17,289,0,832,31
+2022/2023,Female,ALL,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,194,499,561,208,195,17,164,0,454,20
+2022/2023,Female,ALL,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,254,656,711,35,31,9,217,0,931,7
+2022/2023,Female,ALL,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,343,885,953,48,44,9,291,0,1246,7
+2022/2023,Female,ALL,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,307,792,855,41,36,9,262,0,1121,8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,224,578,648,35,32,0,190,0,843,5
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,94,243,264,4,4,0,80,0,359,1
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,146,376,413,8,7,0,124,0,561,1
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,694,1788,1981,38,34,9,591,0,2686,7
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,155,401,444,10,8,0,131,0,601,2
+2022/2023,Female,ALL,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,325,838,913,258,232,26,275,0,864,41
+2022/2023,Female,ALL,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,332,857,895,244,222,26,282,0,859,35
+2022/2023,Female,ALL,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,477,1230,1371,428,384,52,405,0,1232,69
+2022/2023,Female,ALL,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,266,687,754,258,232,26,226,0,642,41
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,11,28,29,2,1,0,9,0,37,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,11,28,28,2,1,0,9,0,36,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,13,34,38,1,1,0,11,0,50,1
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,9,24,26,0,0,0,7,0,36,0
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,4,11,12,0,0,0,4,0,16,0
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,4,11,14,0,0,0,4,0,20,0
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,25,64,69,3,2,0,20,0,92,1
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,8,20,22,1,0,0,7,0,30,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,13,33,34,6,6,0,11,0,37,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,12,33,35,12,11,0,10,0,30,1
+2022/2023,Female,Disabled,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,16,42,45,19,17,0,13,0,33,4
+2022/2023,Female,Disabled,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,9,24,26,22,21,0,7,0,2,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,16,42,45,3,2,0,14,0,58,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,17,45,52,4,3,0,14,0,66,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,20,50,51,4,4,0,17,0,64,1
+2022/2023,Female,Disabled,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,14,36,38,3,2,0,11,0,48,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,5,14,14,0,0,0,4,0,20,0
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,8,20,20,1,0,0,7,0,27,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,44,113,122,2,1,0,38,0,166,1
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,10,25,29,1,1,0,8,0,38,1
+2022/2023,Female,Disabled,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,19,49,55,21,19,0,16,0,44,3
+2022/2023,Female,Disabled,NECO,University,lga,Numan,North East,Adamawa,Numan,,,20,50,52,20,19,0,17,0,41,2
+2022/2023,Female,Disabled,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,25,64,73,21,19,0,20,0,69,2
+2022/2023,Female,Disabled,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,13,35,40,14,13,0,11,0,34,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,21,53,56,3,2,0,18,0,73,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,24,61,67,3,2,0,20,0,89,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,26,67,72,3,2,0,23,0,96,1
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,20,50,58,4,3,0,17,0,74,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,6,17,18,0,0,0,5,0,25,0
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,10,27,29,1,0,0,8,0,39,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,57,146,165,3,2,0,50,0,224,1
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,11,29,35,1,0,0,10,0,48,1
+2022/2023,Female,Disabled,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,25,65,71,16,14,0,21,0,74,3
+2022/2023,Female,Disabled,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,27,70,74,16,14,0,24,0,78,3
+2022/2023,Female,Disabled,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,34,88,97,28,24,0,28,0,91,5
+2022/2023,Female,Disabled,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,19,49,56,21,18,0,16,0,45,4
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,103,266,279,12,10,0,88,0,368,3
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,132,339,364,18,17,0,112,0,476,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,129,333,363,15,14,0,110,0,480,1
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,84,215,237,10,10,0,71,0,313,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,41,106,114,2,1,0,36,0,155,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,56,143,155,3,3,0,48,0,210,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,265,684,727,13,13,0,225,0,986,1
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,69,176,210,4,3,0,59,0,285,1
+2022/2023,Male,ALL,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,130,335,365,103,91,17,110,0,345,19
+2022/2023,Male,ALL,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,124,319,346,103,91,17,106,0,318,19
+2022/2023,Male,ALL,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,171,442,501,150,144,9,145,0,461,9
+2022/2023,Male,ALL,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,111,287,323,96,83,17,94,0,298,19
+2022/2023,Male,ALL,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,191,493,538,26,24,0,163,0,706,2
+2022/2023,Male,ALL,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,245,630,672,31,29,0,208,0,882,4
+2022/2023,Male,ALL,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,243,625,678,33,31,0,207,0,888,4
+2022/2023,Male,ALL,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,156,402,457,26,24,0,132,0,593,2
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,79,203,215,4,3,0,68,0,292,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,108,278,311,6,5,0,92,0,422,1
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,523,1350,1504,29,27,0,444,0,2039,3
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,128,331,374,8,7,0,109,0,507,1
+2022/2023,Male,ALL,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,237,610,661,213,194,17,201,0,584,29
+2022/2023,Male,ALL,NECO,University,lga,Numan,North East,Adamawa,Numan,,,228,589,632,178,169,9,193,0,598,14
+2022/2023,Male,ALL,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,320,825,890,276,251,26,273,0,803,38
+2022/2023,Male,ALL,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,200,517,589,208,201,9,170,0,492,10
+2022/2023,Male,ALL,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,257,662,709,33,30,0,218,0,930,5
+2022/2023,Male,ALL,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,309,797,884,47,41,9,262,0,1151,10
+2022/2023,Male,ALL,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,301,775,828,39,35,9,256,0,1087,7
+2022/2023,Male,ALL,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,198,511,553,26,23,0,169,0,725,5
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,102,264,300,6,5,0,86,0,407,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,149,383,427,7,6,0,126,0,581,1
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,686,1770,1922,37,33,0,583,0,2607,5
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,158,409,467,9,8,0,134,0,633,1
+2022/2023,Male,ALL,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,325,839,890,278,253,26,276,0,801,38
+2022/2023,Male,ALL,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,301,776,830,230,207,26,256,0,791,36
+2022/2023,Male,ALL,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,436,1124,1238,382,348,35,371,0,1121,52
+2022/2023,Male,ALL,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,276,712,802,283,257,26,233,0,669,41
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,9,23,24,0,0,0,8,0,33,0
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,10,26,26,0,0,0,9,0,36,0
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,12,33,34,0,0,0,10,0,47,0
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,8,20,24,0,0,0,7,0,33,0
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,4,10,10,0,0,0,3,0,14,0
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,4,11,14,0,0,0,3,0,19,0
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,23,61,66,1,1,0,19,0,90,1
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,7,19,21,0,0,0,6,0,29,0
+2022/2023,Male,Disabled,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,12,32,34,6,5,0,10,0,38,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,11,30,32,13,11,0,9,0,24,3
+2022/2023,Male,Disabled,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,15,39,42,6,5,0,13,0,49,1
+2022/2023,Male,Disabled,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,8,21,27,11,10,0,7,0,20,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,16,40,44,1,1,0,14,0,59,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,18,46,51,2,1,0,15,0,68,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,20,52,54,4,4,0,17,0,68,1
+2022/2023,Male,Disabled,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,13,33,36,3,3,0,11,0,45,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,6,15,16,0,0,0,4,0,22,0
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,8,21,21,0,0,0,7,0,29,0
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,43,111,128,3,2,0,38,0,174,1
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,10,25,27,1,0,0,8,0,36,1
+2022/2023,Male,Disabled,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,20,52,58,21,19,0,16,0,48,3
+2022/2023,Male,Disabled,NECO,University,lga,Numan,North East,Adamawa,Numan,,,19,48,51,15,14,0,17,0,47,1
+2022/2023,Male,Disabled,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,23,58,64,24,24,0,19,0,51,1
+2022/2023,Male,Disabled,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,15,38,41,18,17,0,12,0,29,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,20,51,53,3,2,0,18,0,69,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,21,55,59,3,2,0,17,0,78,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,26,66,71,4,3,0,23,0,93,1
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,17,44,50,3,3,0,15,0,64,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,7,19,21,0,0,0,6,0,29,0
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,11,28,31,1,0,0,8,0,42,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,57,146,162,3,2,0,49,0,221,1
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,11,29,34,1,0,0,10,0,46,1
+2022/2023,Male,Disabled,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,25,64,68,24,21,0,21,0,57,5
+2022/2023,Male,Disabled,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,26,68,71,16,14,0,23,0,73,3
+2022/2023,Male,Disabled,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,31,80,87,24,21,0,25,0,83,5
+2022/2023,Male,Disabled,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,20,51,57,21,18,0,17,0,47,4
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,116,299,332,9,8,0,97,0,446,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,143,368,409,10,8,0,123,0,551,3
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,132,341,367,8,8,0,112,0,496,1
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,100,256,268,7,6,0,85,0,360,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,47,122,137,8,8,0,40,0,177,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,62,159,177,8,8,0,53,0,233,1
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,300,775,843,55,48,9,253,0,1083,11
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,71,183,197,15,14,0,60,0,250,1
+2023/2024,Female,ALL,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,138,356,380,67,67,0,117,0,422,1
+2023/2024,Female,ALL,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,148,383,407,85,76,9,125,0,432,13
+2023/2024,Female,ALL,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,194,501,551,111,110,0,165,0,591,2
+2023/2024,Female,ALL,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,111,287,325,85,82,0,94,0,318,4
+2023/2024,Female,ALL,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,202,523,571,15,14,0,171,0,768,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,256,661,717,19,19,0,217,0,964,1
+2023/2024,Female,ALL,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,245,632,665,17,15,0,208,0,896,2
+2023/2024,Female,ALL,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,195,502,542,15,14,0,165,0,728,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,81,209,231,13,13,0,68,0,299,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,117,303,342,20,19,0,100,0,443,1
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,553,1423,1553,94,90,0,471,0,2007,6
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,138,356,404,29,27,0,117,0,515,3
+2023/2024,Female,ALL,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,267,690,763,139,128,9,227,0,840,18
+2023/2024,Female,ALL,NECO,University,lga,Numan,North East,Adamawa,Numan,,,255,656,727,125,119,9,217,0,812,9
+2023/2024,Female,ALL,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,362,932,1031,213,196,17,307,0,1097,26
+2023/2024,Female,ALL,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,214,551,615,125,119,9,181,0,657,9
+2023/2024,Female,ALL,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,277,714,793,19,17,0,236,0,1069,3
+2023/2024,Female,ALL,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,389,1001,1095,26,23,0,331,0,1478,4
+2023/2024,Female,ALL,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,342,882,956,22,20,0,291,0,1290,4
+2023/2024,Female,ALL,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,247,637,701,18,17,0,210,0,944,2
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,115,295,334,21,19,0,98,0,431,3
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,172,443,481,30,26,0,146,0,620,5
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,742,1913,2097,126,112,17,630,0,2710,21
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,168,434,491,32,30,0,143,0,630,4
+2023/2024,Female,ALL,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,335,864,921,176,159,17,285,0,1002,27
+2023/2024,Female,ALL,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,338,869,931,173,153,17,288,0,1020,31
+2023/2024,Female,ALL,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,489,1260,1371,275,248,26,416,0,1471,42
+2023/2024,Female,ALL,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,275,709,776,158,137,26,234,0,829,32
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,11,28,30,1,1,0,9,0,40,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,11,28,30,1,0,0,9,0,41,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,14,36,40,1,0,0,12,0,55,1
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,9,24,25,1,0,0,8,0,33,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,4,11,12,1,1,0,4,0,14,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,4,11,12,0,0,0,4,0,16,0
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,27,69,78,6,6,0,22,0,98,1
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,8,22,25,3,3,0,7,0,29,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,13,33,37,0,0,0,11,0,51,0
+2023/2024,Female,Disabled,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,14,36,37,11,10,0,12,0,34,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,17,45,50,11,10,0,15,0,52,1
+2023/2024,Female,Disabled,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,9,24,25,13,13,0,8,0,13,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,16,42,43,1,1,0,14,0,58,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,18,46,48,2,1,0,15,0,63,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,20,53,57,1,1,0,17,0,77,1
+2023/2024,Female,Disabled,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,16,40,43,1,1,0,13,0,57,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,6,16,16,1,0,0,5,0,21,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,8,22,24,2,1,0,7,0,30,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,44,115,125,8,7,0,38,0,161,1
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,11,28,32,3,3,0,9,0,39,1
+2023/2024,Female,Disabled,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,20,53,61,12,11,0,17,0,66,1
+2023/2024,Female,Disabled,NECO,University,lga,Numan,North East,Adamawa,Numan,,,22,56,61,12,11,0,19,0,65,2
+2023/2024,Female,Disabled,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,25,66,70,21,19,0,21,0,64,3
+2023/2024,Female,Disabled,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,14,36,42,12,11,0,12,0,40,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,22,57,63,1,1,0,20,0,85,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,26,68,77,1,1,0,22,0,105,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,29,75,76,2,1,0,25,0,103,1
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,20,52,59,1,1,0,18,0,80,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,8,21,24,1,0,0,7,0,32,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,12,30,33,1,1,0,10,0,44,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,63,162,180,10,10,0,55,0,233,1
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,12,32,38,3,3,0,11,0,47,1
+2023/2024,Female,Disabled,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,28,72,76,13,12,0,24,0,84,2
+2023/2024,Female,Disabled,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,27,69,78,13,12,0,24,0,87,2
+2023/2024,Female,Disabled,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,36,92,104,21,19,0,31,0,111,3
+2023/2024,Female,Disabled,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,19,50,56,11,10,0,16,0,60,2
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,107,275,289,6,6,0,91,0,390,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,128,331,354,8,7,0,109,0,479,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,134,345,385,8,7,0,113,0,522,1
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,90,233,262,8,7,0,76,0,351,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,48,125,144,8,8,0,41,0,187,1
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,61,158,170,11,9,0,53,0,219,3
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,293,756,840,50,42,9,249,0,1086,13
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,72,186,209,15,14,0,61,0,267,1
+2023/2024,Male,ALL,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,139,359,385,72,72,0,117,0,421,1
+2023/2024,Male,ALL,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,131,339,356,53,53,0,111,0,411,1
+2023/2024,Male,ALL,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,185,478,533,90,85,9,157,0,599,7
+2023/2024,Male,ALL,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,120,311,345,67,63,0,101,0,374,6
+2023/2024,Male,ALL,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,198,510,553,12,12,0,168,0,747,1
+2023/2024,Male,ALL,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,250,644,701,18,17,0,212,0,943,2
+2023/2024,Male,ALL,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,249,642,682,16,15,0,211,0,920,2
+2023/2024,Male,ALL,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,178,459,503,13,12,0,151,0,676,2
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,84,217,232,15,15,0,72,0,297,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,113,291,325,18,17,0,96,0,423,1
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,531,1370,1510,98,96,0,451,0,1940,4
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,131,338,392,28,26,0,112,0,500,2
+2023/2024,Male,ALL,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,256,662,729,136,128,9,216,0,799,13
+2023/2024,Male,ALL,NECO,University,lga,Numan,North East,Adamawa,Numan,,,251,646,678,118,107,9,213,0,756,17
+2023/2024,Male,ALL,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,350,901,964,201,184,17,297,0,1023,26
+2023/2024,Male,ALL,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,214,552,631,129,119,9,182,0,673,15
+2023/2024,Male,ALL,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,257,663,726,17,15,0,219,0,979,3
+2023/2024,Male,ALL,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,361,930,1001,23,21,0,307,0,1352,4
+2023/2024,Male,ALL,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,343,885,963,22,19,0,293,0,1300,4
+2023/2024,Male,ALL,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,207,533,592,15,13,0,176,0,797,3
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,118,306,341,20,17,0,100,0,442,4
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,157,407,437,25,22,0,133,0,566,4
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,726,1872,2051,124,113,9,615,0,2649,18
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,169,435,496,35,31,0,143,0,634,5
+2023/2024,Male,ALL,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,338,870,951,182,160,26,287,0,1034,34
+2023/2024,Male,ALL,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,314,809,853,155,141,17,266,0,940,22
+2023/2024,Male,ALL,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,464,1196,1315,260,232,26,395,0,1417,43
+2023/2024,Male,ALL,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,292,751,830,171,158,17,249,0,885,20
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,10,25,27,0,0,0,8,0,38,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,10,25,27,1,0,0,8,0,37,1
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,13,33,36,0,0,0,10,0,50,0
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,9,23,25,1,0,0,7,0,33,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,4,11,14,0,0,0,3,0,19,0
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,4,11,14,1,1,0,3,0,17,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,25,64,70,2,1,0,21,0,94,1
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,8,20,22,1,1,0,6,0,28,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,13,33,36,7,6,0,10,0,39,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,13,33,36,4,3,0,10,0,44,1
+2023/2024,Male,Disabled,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,16,41,45,0,0,0,13,0,62,0
+2023/2024,Male,Disabled,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,9,24,25,4,3,0,7,0,28,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,16,42,47,1,0,0,14,0,64,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,16,43,45,2,1,0,13,0,60,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,21,55,58,1,1,0,18,0,78,1
+2023/2024,Male,Disabled,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,14,36,40,1,1,0,12,0,54,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,5,14,14,1,0,0,4,0,19,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,9,22,25,1,0,0,8,0,34,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,44,115,125,8,8,0,38,0,160,1
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,10,26,30,3,3,0,8,0,37,1
+2023/2024,Male,Disabled,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,21,54,57,10,8,0,17,0,64,2
+2023/2024,Male,Disabled,NECO,University,lga,Numan,North East,Adamawa,Numan,,,21,54,56,12,11,0,19,0,59,2
+2023/2024,Male,Disabled,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,24,63,69,18,16,0,20,0,67,3
+2023/2024,Male,Disabled,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,16,41,46,8,8,0,13,0,51,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,21,54,58,1,1,0,19,0,79,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,24,61,68,1,1,0,20,0,92,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,29,76,81,2,1,0,25,0,109,1
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,18,46,50,1,1,0,15,0,67,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,8,20,22,1,0,0,7,0,30,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,13,33,36,1,1,0,12,0,48,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,61,156,172,10,9,0,53,0,224,1
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,12,30,37,3,3,0,9,0,46,1
+2023/2024,Male,Disabled,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,28,74,79,13,12,0,24,0,88,2
+2023/2024,Male,Disabled,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,24,63,66,13,12,0,21,0,70,2
+2023/2024,Male,Disabled,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,32,83,96,18,17,0,28,0,105,2
+2023/2024,Male,Disabled,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,23,58,63,13,12,0,20,0,68,1
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,163,420,280,119,110,10,139,166,202,15
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,206,532,354,150,139,12,174,211,256,18
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,195,502,335,142,131,11,166,198,242,18
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,158,407,271,115,106,9,134,161,195,15
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,65,167,111,47,44,4,55,66,80,6
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,97,249,166,71,65,6,82,98,120,9
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,438,1130,752,319,294,26,372,447,544,39
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,109,281,187,80,73,6,92,111,135,10
+2024/2025,Female,ALL,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,199,513,341,145,133,12,168,203,247,18
+2024/2025,Female,ALL,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,195,502,335,142,131,11,166,198,242,18
+2024/2025,Female,ALL,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,298,768,511,217,200,17,253,304,369,27
+2024/2025,Female,ALL,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,163,421,281,119,110,10,139,166,203,15
+2024/2025,Female,ALL,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,308,793,528,224,207,18,262,313,382,28
+2024/2025,Female,ALL,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,387,998,665,282,260,23,329,394,481,35
+2024/2025,Female,ALL,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,356,917,611,260,239,21,303,362,442,33
+2024/2025,Female,ALL,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,281,725,482,205,189,16,239,287,348,26
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,128,329,219,93,86,7,109,130,159,11
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,167,429,286,121,112,10,142,170,207,15
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,803,2069,1377,586,539,47,682,818,996,73
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,185,476,317,135,124,11,157,188,230,17
+2024/2025,Female,ALL,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,356,917,611,260,239,21,303,362,442,33
+2024/2025,Female,ALL,NECO,University,lga,Numan,North East,Adamawa,Numan,,,366,945,629,267,246,21,311,373,455,34
+2024/2025,Female,ALL,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,542,1398,930,396,364,32,461,553,672,50
+2024/2025,Female,ALL,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,312,805,536,228,210,18,265,318,388,28
+2024/2025,Female,ALL,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,408,1051,700,298,274,24,347,415,506,37
+2024/2025,Female,ALL,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,545,1404,934,397,366,32,463,555,676,49
+2024/2025,Female,ALL,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,473,1221,812,346,317,28,402,483,587,44
+2024/2025,Female,ALL,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,379,977,651,276,255,22,322,386,471,34
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,171,440,293,124,115,10,145,174,212,15
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,230,593,395,168,155,13,196,234,285,21
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,1094,2819,1877,798,734,64,929,1115,1357,99
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,252,649,432,184,169,15,214,257,312,23
+2024/2025,Female,ALL,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,503,1296,862,367,337,29,427,513,623,46
+2024/2025,Female,ALL,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,511,1318,877,373,343,30,435,521,634,47
+2024/2025,Female,ALL,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,735,1896,1262,536,493,43,624,750,913,67
+2024/2025,Female,ALL,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,419,1080,719,306,281,24,355,428,519,39
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,15,38,25,11,10,1,12,15,18,2
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,14,37,25,10,10,1,12,15,18,1
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,20,51,34,14,13,1,16,20,25,2
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,14,36,24,10,10,1,11,15,17,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,6,15,10,4,4,0,5,6,7,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,7,17,12,5,4,0,5,7,8,1
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,39,99,66,28,26,2,33,39,48,4
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,12,30,20,9,8,1,11,12,14,2
+2024/2025,Female,Disabled,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,19,49,33,14,13,1,17,19,24,2
+2024/2025,Female,Disabled,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,17,44,30,12,12,1,15,17,22,1
+2024/2025,Female,Disabled,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,25,64,43,18,17,1,22,25,31,2
+2024/2025,Female,Disabled,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,13,33,22,10,9,1,11,13,16,1
+2024/2025,Female,Disabled,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,25,64,43,18,17,1,22,25,31,2
+2024/2025,Female,Disabled,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,26,68,45,19,17,2,22,26,33,3
+2024/2025,Female,Disabled,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,30,79,52,22,21,2,25,32,37,3
+2024/2025,Female,Disabled,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,23,60,40,17,15,1,19,24,29,2
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,10,25,17,7,6,1,9,10,12,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,12,30,20,8,8,1,10,11,15,1
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,67,172,115,49,45,4,57,68,83,6
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,15,39,26,11,10,1,13,15,19,1
+2024/2025,Female,Disabled,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,29,74,49,21,19,2,24,30,35,3
+2024/2025,Female,Disabled,NECO,University,lga,Numan,North East,Adamawa,Numan,,,30,78,52,22,21,2,26,31,37,3
+2024/2025,Female,Disabled,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,39,99,66,28,26,2,33,39,48,4
+2024/2025,Female,Disabled,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,22,56,38,16,15,1,18,22,27,2
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,33,86,57,24,22,2,28,34,41,3
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,38,99,66,28,26,2,32,39,48,3
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,41,105,70,30,28,2,35,42,50,4
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,30,78,52,22,21,2,26,31,37,3
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,12,33,22,9,8,1,10,13,16,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,19,49,32,13,13,1,16,19,24,1
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,91,235,157,67,62,5,78,93,113,8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,19,49,33,14,13,1,17,19,24,2
+2024/2025,Female,Disabled,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,39,101,67,29,26,2,33,40,48,4
+2024/2025,Female,Disabled,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,42,108,71,30,28,2,35,43,52,3
+2024/2025,Female,Disabled,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,52,135,90,38,35,3,45,53,65,5
+2024/2025,Female,Disabled,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,30,79,52,22,21,2,25,32,37,3
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,157,406,271,115,106,9,134,160,196,14
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,202,520,346,148,135,12,172,206,250,19
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,195,502,335,142,131,11,166,198,242,18
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,142,366,243,103,95,8,120,145,176,13
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,71,183,122,52,47,4,61,72,88,7
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,97,250,167,71,65,6,83,98,121,9
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,416,1073,714,303,279,24,353,424,517,38
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,106,273,182,78,71,6,90,108,131,10
+2024/2025,Male,ALL,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,198,511,340,144,133,12,168,202,246,18
+2024/2025,Male,ALL,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,186,481,320,136,125,11,158,190,232,17
+2024/2025,Male,ALL,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,270,696,464,197,182,16,230,275,336,24
+2024/2025,Male,ALL,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,165,424,282,120,110,10,140,168,204,15
+2024/2025,Male,ALL,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,280,722,481,204,188,16,238,285,348,25
+2024/2025,Male,ALL,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,348,897,597,254,233,20,296,355,431,32
+2024/2025,Male,ALL,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,357,921,613,260,240,21,304,364,444,32
+2024/2025,Male,ALL,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,260,669,446,189,174,15,221,264,323,23
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,125,323,215,92,84,7,106,128,155,12
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,180,463,308,131,121,10,153,183,223,16
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,809,2086,1389,590,543,47,688,824,1005,73
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,191,492,328,139,128,11,163,195,237,17
+2024/2025,Male,ALL,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,351,905,602,256,235,20,298,358,436,32
+2024/2025,Male,ALL,NECO,University,lga,Numan,North East,Adamawa,Numan,,,353,910,605,257,237,21,299,360,438,32
+2024/2025,Male,ALL,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,516,1330,885,376,346,30,438,526,640,47
+2024/2025,Male,ALL,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,316,814,542,230,212,18,268,322,392,29
+2024/2025,Male,ALL,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,386,995,662,282,259,23,328,394,479,35
+2024/2025,Male,ALL,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,507,1307,870,370,341,30,431,517,629,46
+2024/2025,Male,ALL,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,476,1227,817,347,319,28,405,485,591,43
+2024/2025,Male,ALL,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,324,835,556,237,217,19,275,330,402,30
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,171,442,294,125,115,10,145,175,212,16
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,240,620,413,175,162,14,204,245,299,21
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,1072,2764,1840,782,720,63,910,1093,1331,97
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,248,640,426,181,167,14,211,253,308,22
+2024/2025,Male,ALL,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,482,1243,827,351,323,28,409,492,598,44
+2024/2025,Male,ALL,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,490,1262,841,357,328,29,416,499,608,45
+2024/2025,Male,ALL,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,676,1744,1161,493,454,39,574,690,840,61
+2024/2025,Male,ALL,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,429,1105,736,313,288,25,364,437,532,39
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,14,35,24,10,9,1,12,13,18,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Numan,North East,Adamawa,Numan,,,13,34,23,10,9,1,11,13,17,1
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,19,48,32,13,12,1,16,19,23,2
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,14,35,24,10,9,1,12,13,18,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,6,16,11,4,4,0,6,6,8,0
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,7,18,12,5,4,0,6,7,9,1
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,35,91,61,26,24,2,30,36,44,3
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,11,28,19,8,7,1,9,11,14,1
+2024/2025,Male,Disabled,NABTEB,University,lga,Mubi North,North East,Adamawa,Mubi North,,,19,48,32,13,12,1,16,19,23,2
+2024/2025,Male,Disabled,NABTEB,University,lga,Numan,North East,Adamawa,Numan,,,16,42,28,12,11,1,14,17,20,2
+2024/2025,Male,Disabled,NABTEB,University,lga,Yola North,North East,Adamawa,Yola North,,,22,58,38,16,15,1,19,23,28,2
+2024/2025,Male,Disabled,NABTEB,University,lga,Yola South,North East,Adamawa,Yola South,,,13,33,22,10,9,1,11,13,16,1
+2024/2025,Male,Disabled,NECO,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,23,58,39,17,15,1,20,23,28,2
+2024/2025,Male,Disabled,NECO,College of Education,lga,Numan,North East,Adamawa,Numan,,,24,61,40,17,16,1,20,24,29,2
+2024/2025,Male,Disabled,NECO,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,30,78,52,22,21,2,26,31,37,3
+2024/2025,Male,Disabled,NECO,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,23,58,39,17,15,1,20,23,28,2
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,9,24,16,6,6,1,8,9,12,0
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,12,32,21,9,8,1,10,13,15,1
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,69,177,118,50,46,4,58,70,85,6
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,14,36,24,10,10,1,11,15,17,1
+2024/2025,Male,Disabled,NECO,University,lga,Mubi North,North East,Adamawa,Mubi North,,,29,74,49,21,19,2,24,30,35,3
+2024/2025,Male,Disabled,NECO,University,lga,Numan,North East,Adamawa,Numan,,,30,77,52,22,20,2,26,30,38,3
+2024/2025,Male,Disabled,NECO,University,lga,Yola North,North East,Adamawa,Yola North,,,35,91,61,26,24,2,30,36,44,3
+2024/2025,Male,Disabled,NECO,University,lga,Yola South,North East,Adamawa,Yola South,,,23,58,39,17,15,1,20,23,28,2
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Mubi North,North East,Adamawa,Mubi North,,,32,81,54,23,21,2,27,32,39,3
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Numan,North East,Adamawa,Numan,,,35,90,59,25,23,2,29,36,43,3
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Yola North,North East,Adamawa,Yola North,,,40,102,68,29,26,2,34,40,49,4
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Yola South,North East,Adamawa,Yola South,,,28,73,48,21,19,2,24,29,35,2
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Mubi North,North East,Adamawa,Mubi North,,,12,32,21,9,8,1,10,13,15,1
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Numan,North East,Adamawa,Numan,,,19,49,33,14,13,1,17,19,24,2
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Yola North,North East,Adamawa,Yola North,,,90,232,154,65,60,5,76,92,112,8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Yola South,North East,Adamawa,Yola South,,,18,46,31,13,12,1,15,18,23,1
+2024/2025,Male,Disabled,WAEC,University,lga,Mubi North,North East,Adamawa,Mubi North,,,42,108,71,30,28,2,35,43,52,3
+2024/2025,Male,Disabled,WAEC,University,lga,Numan,North East,Adamawa,Numan,,,40,104,69,30,27,2,34,41,50,4
+2024/2025,Male,Disabled,WAEC,University,lga,Yola North,North East,Adamawa,Yola North,,,47,122,81,35,31,3,40,49,58,5
+2024/2025,Male,Disabled,WAEC,University,lga,Yola South,North East,Adamawa,Yola South,,,32,84,56,24,22,2,27,34,40,3

@@ -1,181 +1,181 @@
-session,gender,disability_scope,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
-2022/2023,Female,all,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,1689,1187,1952,748,232,216,70.2783,38.3197,11.8852,93.1034
-2022/2023,Female,all,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,1638,1150,1873,717,218,198,70.2076,38.2808,11.6391,90.8257
-2022/2023,Female,all,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,1611,1132,1889,724,206,187,70.2669,38.3272,10.9052,90.7767
-2022/2023,Female,all,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,1746,1226,1950,746,208,188,70.2176,38.2564,10.6667,90.3846
-2022/2023,Female,all,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,1605,1127,1870,717,213,196,70.2181,38.3422,11.3904,92.0188
-2022/2023,Female,all,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,3171,1992,3661,1410,396,354,62.8193,38.5141,10.8167,89.3939
-2022/2023,Female,all,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,3018,1895,3482,1340,362,326,62.7899,38.4836,10.3963,90.0552
-2022/2023,Female,all,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,2965,1861,3433,1322,350,311,62.7656,38.5086,10.1952,88.8571
-2022/2023,Female,all,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,3247,2036,3676,1412,366,328,62.704,38.4113,9.9565,89.6175
-2022/2023,Female,all,NECO,lga,Surulere,South West,Lagos,Surulere,,,2871,1803,3311,1274,352,315,62.8004,38.4778,10.6312,89.4886
-2022/2023,Female,all,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,4019,2722,4703,1807,495,473,67.7283,38.4223,10.5252,95.5556
-2022/2023,Female,all,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,4026,2725,4648,1793,516,483,67.685,38.5757,11.1015,93.6047
-2022/2023,Female,all,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,4011,2717,4534,1743,475,449,67.7387,38.4429,10.4764,94.5263
-2022/2023,Female,all,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,4332,2934,4899,1886,474,445,67.7285,38.4977,9.6754,93.8819
-2022/2023,Female,all,WAEC,lga,Surulere,South West,Lagos,Surulere,,,3683,2495,4298,1654,441,410,67.7437,38.483,10.2606,92.9705
-2022/2023,Female,disabled,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,156,111,174,63,29,27,71.1538,36.2069,16.6667,93.1034
-2022/2023,Female,disabled,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,148,105,156,57,31,27,70.9459,36.5385,19.8718,87.0968
-2022/2023,Female,disabled,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,142,101,150,55,27,26,71.1268,36.6667,18.0,96.2963
-2022/2023,Female,disabled,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,162,115,172,64,31,27,70.9877,37.2093,18.0233,87.0968
-2022/2023,Female,disabled,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,151,107,162,59,30,27,70.8609,36.4198,18.5185,90.0
-2022/2023,Female,disabled,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,239,151,286,112,30,27,63.1799,39.1608,10.4895,90.0
-2022/2023,Female,disabled,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,236,150,288,111,25,23,63.5593,38.5417,8.6806,92.0
-2022/2023,Female,disabled,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,222,139,259,101,23,22,62.6126,38.9961,8.8803,95.6522
-2022/2023,Female,disabled,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,261,164,303,115,26,25,62.8352,37.9538,8.5809,96.1538
-2022/2023,Female,disabled,NECO,lga,Surulere,South West,Lagos,Surulere,,,233,148,279,108,28,26,63.5193,38.7097,10.0358,92.8571
-2022/2023,Female,disabled,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,296,201,348,131,25,24,67.9054,37.6437,7.1839,96.0
-2022/2023,Female,disabled,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,315,213,368,141,35,33,67.619,38.3152,9.5109,94.2857
-2022/2023,Female,disabled,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,294,200,338,127,31,28,68.0272,37.574,9.1716,90.3226
-2022/2023,Female,disabled,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,342,232,387,146,30,28,67.8363,37.7261,7.7519,93.3333
-2022/2023,Female,disabled,WAEC,lga,Surulere,South West,Lagos,Surulere,,,294,199,344,129,27,25,67.6871,37.5,7.8488,92.5926
-2022/2023,Male,all,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,1494,1052,1715,663,253,231,70.415,38.6589,14.7522,91.3043
-2022/2023,Male,all,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,1468,1033,1715,664,248,224,70.3678,38.7172,14.4606,90.3226
-2022/2023,Male,all,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,1469,1033,1664,644,224,201,70.3199,38.7019,13.4615,89.7321
-2022/2023,Male,all,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,1542,1083,1752,677,234,220,70.2335,38.6416,13.3562,94.0171
-2022/2023,Male,all,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,1442,1013,1682,652,231,215,70.2497,38.7634,13.7337,93.0736
-2022/2023,Male,all,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,2699,1694,3154,1217,426,381,62.764,38.5859,13.5067,89.4366
-2022/2023,Male,all,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,2660,1671,3071,1185,393,347,62.8195,38.5868,12.7971,88.2952
-2022/2023,Male,all,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,2725,1712,3118,1201,409,370,62.8257,38.5183,13.1174,90.4645
-2022/2023,Male,all,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,2871,1804,3253,1253,398,352,62.8352,38.5183,12.2349,88.4422
-2022/2023,Male,all,NECO,lga,Surulere,South West,Lagos,Surulere,,,2706,1699,3112,1200,394,355,62.7864,38.5604,12.6607,90.1015
-2022/2023,Male,all,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,3484,2359,3975,1531,525,493,67.7095,38.5157,13.2075,93.9048
-2022/2023,Male,all,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,3647,2471,4209,1621,551,514,67.7543,38.5127,13.091,93.2849
-2022/2023,Male,all,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,3568,2417,4138,1597,537,510,67.741,38.5935,12.9773,94.9721
-2022/2023,Male,all,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,3773,2554,4284,1650,530,495,67.6915,38.5154,12.3716,93.3962
-2022/2023,Male,all,WAEC,lga,Surulere,South West,Lagos,Surulere,,,3481,2357,4041,1556,511,486,67.7104,38.5053,12.6454,95.1076
-2022/2023,Male,disabled,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,135,96,144,57,31,30,71.1111,39.5833,21.5278,96.7742
-2022/2023,Male,disabled,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,133,95,139,56,33,30,71.4286,40.2878,23.741,90.9091
-2022/2023,Male,disabled,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,125,89,137,56,26,24,71.2,40.8759,18.9781,92.3077
-2022/2023,Male,disabled,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,145,102,156,61,31,30,70.3448,39.1026,19.8718,96.7742
-2022/2023,Male,disabled,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,137,97,157,64,34,30,70.8029,40.7643,21.6561,88.2353
-2022/2023,Male,disabled,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,204,129,238,93,32,28,63.2353,39.0756,13.4454,87.5
-2022/2023,Male,disabled,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,207,131,243,95,27,24,63.285,39.0947,11.1111,88.8889
-2022/2023,Male,disabled,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,197,125,235,91,27,23,63.4518,38.7234,11.4894,85.1852
-2022/2023,Male,disabled,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,234,148,267,104,30,27,63.2479,38.9513,11.236,90.0
-2022/2023,Male,disabled,NECO,lga,Surulere,South West,Lagos,Surulere,,,217,138,252,98,30,27,63.5945,38.8889,11.9048,90.0
-2022/2023,Male,disabled,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,263,179,306,117,30,28,68.0608,38.2353,9.8039,93.3333
-2022/2023,Male,disabled,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,279,190,319,123,34,30,68.1004,38.558,10.6583,88.2353
-2022/2023,Male,disabled,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,258,175,303,117,32,30,67.8295,38.6139,10.5611,93.75
-2022/2023,Male,disabled,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,303,205,348,133,34,30,67.6568,38.2184,9.7701,88.2353
-2022/2023,Male,disabled,WAEC,lga,Surulere,South West,Lagos,Surulere,,,286,194,346,133,34,32,67.8322,38.4393,9.8266,94.1176
-2023/2024,Female,all,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,1776,1327,2076,884,237,213,74.7185,42.5819,11.4162,89.8734
-2023/2024,Female,all,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,1762,1319,2037,869,226,207,74.8581,42.6608,11.0947,91.5929
-2023/2024,Female,all,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,1691,1266,1936,831,212,195,74.8669,42.9236,10.9504,91.9811
-2023/2024,Female,all,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,1883,1407,2130,906,225,206,74.7212,42.5352,10.5634,91.5556
-2023/2024,Female,all,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,1714,1282,1972,842,222,206,74.7958,42.6978,11.2576,92.7928
-2023/2024,Female,all,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,3333,2263,3828,1631,398,363,67.8968,42.6071,10.3971,91.206
-2023/2024,Female,all,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,3213,2183,3741,1595,383,344,67.9427,42.6357,10.2379,89.8172
-2023/2024,Female,all,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,3107,2111,3526,1500,354,313,67.9434,42.5411,10.0397,88.4181
-2023/2024,Female,all,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,3312,2250,3816,1628,382,340,67.9348,42.6625,10.0105,89.0052
-2023/2024,Female,all,NECO,lga,Surulere,South West,Lagos,Surulere,,,3107,2111,3571,1518,364,322,67.9434,42.5091,10.1932,88.4615
-2023/2024,Female,all,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,4367,3180,5068,2160,528,496,72.8189,42.6204,10.4183,93.9394
-2023/2024,Female,all,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,4313,3143,4974,2119,511,478,72.8727,42.6015,10.2734,93.5421
-2023/2024,Female,all,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,4309,3142,4889,2086,495,464,72.9172,42.6672,10.1248,93.7374
-2023/2024,Female,all,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,4564,3326,5220,2221,505,475,72.8747,42.5479,9.6743,94.0594
-2023/2024,Female,all,WAEC,lga,Surulere,South West,Lagos,Surulere,,,4000,2916,4635,1973,483,461,72.9,42.5674,10.4207,95.4451
-2023/2024,Female,disabled,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,161,121,178,76,31,28,75.1553,42.6966,17.4157,90.3226
-2023/2024,Female,disabled,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,161,122,168,74,31,28,75.7764,44.0476,18.4524,90.3226
-2023/2024,Female,disabled,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,152,116,152,69,29,28,76.3158,45.3947,19.0789,96.5517
-2023/2024,Female,disabled,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,170,127,194,83,31,28,74.7059,42.7835,15.9794,90.3226
-2023/2024,Female,disabled,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,168,127,194,83,31,28,75.5952,42.7835,15.9794,90.3226
-2023/2024,Female,disabled,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,267,180,312,133,30,29,67.4157,42.6282,9.6154,96.6667
-2023/2024,Female,disabled,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,250,169,294,127,26,24,67.6,43.1973,8.8435,92.3077
-2023/2024,Female,disabled,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,223,151,260,110,26,24,67.713,42.3077,10.0,92.3077
-2023/2024,Female,disabled,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,273,184,329,142,27,24,67.3993,43.1611,8.2067,88.8889
-2023/2024,Female,disabled,NECO,lga,Surulere,South West,Lagos,Surulere,,,255,173,294,125,29,28,67.8431,42.517,9.8639,96.5517
-2023/2024,Female,disabled,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,321,233,369,159,32,29,72.5857,43.0894,8.6721,90.625
-2023/2024,Female,disabled,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,334,243,395,171,33,31,72.7545,43.2911,8.3544,93.9394
-2023/2024,Female,disabled,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,301,220,342,148,27,24,73.0897,43.2749,7.8947,88.8889
-2023/2024,Female,disabled,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,356,259,414,178,31,29,72.7528,42.9952,7.4879,93.5484
-2023/2024,Female,disabled,WAEC,lga,Surulere,South West,Lagos,Surulere,,,324,236,380,163,29,28,72.8395,42.8947,7.6316,96.5517
-2023/2024,Male,all,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,1545,1153,1800,765,260,240,74.6278,42.5,14.4444,92.3077
-2023/2024,Male,all,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,1571,1173,1798,765,234,216,74.6658,42.5473,13.0145,92.3077
-2023/2024,Male,all,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,1552,1157,1785,758,242,214,74.549,42.465,13.5574,88.4298
-2023/2024,Male,all,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,1636,1222,1851,791,238,216,74.6944,42.7337,12.8579,90.7563
-2023/2024,Male,all,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,1590,1189,1843,782,246,232,74.7799,42.4308,13.3478,94.3089
-2023/2024,Male,all,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,2857,1943,3292,1401,424,381,68.0084,42.5577,12.8797,89.8585
-2023/2024,Male,all,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,2852,1941,3284,1397,421,375,68.0575,42.5396,12.8197,89.0736
-2023/2024,Male,all,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,2815,1915,3223,1372,393,350,68.0284,42.569,12.1936,89.0585
-2023/2024,Male,all,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,2940,1999,3321,1414,380,346,67.9932,42.5775,11.4423,91.0526
-2023/2024,Male,all,NECO,lga,Surulere,South West,Lagos,Surulere,,,2912,1981,3412,1450,428,377,68.0288,42.4971,12.544,88.0841
-2023/2024,Male,all,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,3810,2777,4436,1885,579,546,72.8871,42.4932,13.0523,94.3005
-2023/2024,Male,all,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,3849,2804,4410,1871,558,520,72.8501,42.4263,12.6531,93.19
-2023/2024,Male,all,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,3859,2811,4377,1860,526,491,72.8427,42.4949,12.0174,93.346
-2023/2024,Male,all,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,4027,2935,4583,1947,531,502,72.883,42.4831,11.5863,94.5386
-2023/2024,Male,all,WAEC,lga,Surulere,South West,Lagos,Surulere,,,3734,2721,4364,1854,549,523,72.8709,42.484,12.5802,95.2641
-2023/2024,Male,disabled,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,139,104,157,66,34,31,74.8201,42.0382,21.6561,91.1765
-2023/2024,Male,disabled,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,147,110,164,70,35,31,74.8299,42.6829,21.3415,88.5714
-2023/2024,Male,disabled,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,133,99,149,63,32,29,74.4361,42.2819,21.4765,90.625
-2023/2024,Male,disabled,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,153,114,172,75,35,31,74.5098,43.6047,20.3488,88.5714
-2023/2024,Male,disabled,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,146,110,168,71,35,31,75.3425,42.2619,20.8333,88.5714
-2023/2024,Male,disabled,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,219,148,255,108,32,28,67.5799,42.3529,12.549,87.5
-2023/2024,Male,disabled,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,215,147,248,106,27,24,68.3721,42.7419,10.8871,88.8889
-2023/2024,Male,disabled,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,206,141,234,101,27,24,68.4466,43.1624,11.5385,88.8889
-2023/2024,Male,disabled,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,236,160,276,119,27,24,67.7966,43.1159,9.7826,88.8889
-2023/2024,Male,disabled,NECO,lga,Surulere,South West,Lagos,Surulere,,,239,163,274,116,34,30,68.2008,42.3358,12.4088,88.2353
-2023/2024,Male,disabled,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,283,206,334,140,30,29,72.7915,41.9162,8.982,96.6667
-2023/2024,Male,disabled,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,307,224,351,147,37,35,72.9642,41.8803,10.5413,94.5946
-2023/2024,Male,disabled,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,269,197,307,128,26,25,73.2342,41.6938,8.4691,96.1538
-2023/2024,Male,disabled,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,330,241,375,157,32,31,73.0303,41.8667,8.5333,96.875
-2023/2024,Male,disabled,WAEC,lga,Surulere,South West,Lagos,Surulere,,,303,221,361,152,33,31,72.9373,42.1053,9.1413,93.9394
-2024/2025,Female,all,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,577,434,341,134,103,96,75.2166,39.2962,30.2053,93.2039
-2024/2025,Female,all,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,597,449,346,136,104,95,75.2094,39.3064,30.0578,91.3462
-2024/2025,Female,all,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,568,426,315,124,94,85,75.0000,39.3651,29.8413,90.4255
-2024/2025,Female,all,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,636,478,357,140,102,92,75.1572,39.2157,28.5714,90.1961
-2024/2025,Female,all,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,572,430,327,128,100,94,75.1748,39.1437,30.5810,94.0000
-2024/2025,Female,all,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,8790,5973,5057,1995,1519,1410,67.9522,39.4503,30.0376,92.8242
-2024/2025,Female,all,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,8675,5896,4933,1938,1522,1403,67.9654,39.2864,30.8534,92.1813
-2024/2025,Female,all,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,8527,5791,4876,1919,1487,1371,67.9137,39.3560,30.4963,92.1991
-2024/2025,Female,all,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,8958,6095,5128,2014,1462,1332,68.0397,39.2746,28.5101,91.1081
-2024/2025,Female,all,NECO,lga,Surulere,South West,Lagos,Surulere,,,8195,5573,4666,1839,1364,1250,68.0049,39.4128,29.2327,91.6422
-2024/2025,Female,all,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,12688,9330,7409,2915,2351,2182,73.5340,39.3440,31.7317,92.8116
-2024/2025,Female,all,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,12376,9099,7113,2790,2097,1917,73.5213,39.2240,29.4812,91.4163
-2024/2025,Female,all,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,12218,8987,6955,2727,2015,1838,73.5554,39.2092,28.9720,91.2159
-2024/2025,Female,all,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,13630,10019,7660,3007,2212,2046,73.5070,39.2559,28.8773,92.4955
-2024/2025,Female,all,WAEC,lga,Surulere,South West,Lagos,Surulere,,,11639,8553,6615,2598,1985,1821,73.4857,39.2744,30.0076,91.7380
-2024/2025,Female,disabled,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,61,46,33,13,15,14,75.4098,39.3939,45.4545,93.3333
-2024/2025,Female,disabled,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,59,45,31,12,15,14,76.2712,38.7097,48.3871,93.3333
-2024/2025,Female,disabled,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,56,42,30,12,15,13,75.0000,40.0000,50.0000,86.6667
-2024/2025,Female,disabled,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,64,48,35,14,15,14,75.0000,40.0000,42.8571,93.3333
-2024/2025,Female,disabled,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,61,46,33,13,15,14,75.4098,39.3939,45.4545,93.3333
-2024/2025,Female,disabled,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,769,521,460,184,141,131,67.7503,40.0000,30.6522,92.9078
-2024/2025,Female,disabled,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,775,524,458,181,119,109,67.6129,39.5197,25.9825,91.5966
-2024/2025,Female,disabled,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,701,473,389,156,115,108,67.4750,40.1028,29.5630,93.9130
-2024/2025,Female,disabled,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,840,576,486,191,119,108,68.5714,39.3004,24.4856,90.7563
-2024/2025,Female,disabled,NECO,lga,Surulere,South West,Lagos,Surulere,,,756,515,432,172,127,116,68.1217,39.8148,29.3981,91.3386
-2024/2025,Female,disabled,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,1063,781,622,245,150,140,73.4713,39.3891,24.1158,93.3333
-2024/2025,Female,disabled,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,1094,802,648,249,153,144,73.3090,38.4259,23.6111,94.1176
-2024/2025,Female,disabled,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,1040,767,606,234,138,132,73.7500,38.6139,22.7723,95.6522
-2024/2025,Female,disabled,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,1203,885,675,260,153,136,73.5661,38.5185,22.6667,88.8889
-2024/2025,Female,disabled,WAEC,lga,Surulere,South West,Lagos,Surulere,,,1020,746,604,235,142,120,73.1373,38.9073,23.5099,84.5070
-2024/2025,Male,all,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,511,384,297,116,112,106,75.1468,39.0572,37.7104,94.6429
-2024/2025,Male,all,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,525,394,297,117,110,102,75.0476,39.3939,37.0370,92.7273
-2024/2025,Male,all,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,520,389,298,117,110,98,74.8077,39.2617,36.9128,89.0909
-2024/2025,Male,all,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,544,408,303,119,102,92,75.0000,39.2739,33.6634,90.1961
-2024/2025,Male,all,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,539,405,313,123,115,108,75.1391,39.2971,36.7412,93.9130
-2024/2025,Male,all,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,7603,5170,4416,1735,1687,1550,67.9995,39.2889,38.2020,91.8791
-2024/2025,Male,all,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,7611,5173,4326,1699,1630,1498,67.9674,39.2742,37.6791,91.9018
-2024/2025,Male,all,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,7773,5286,4445,1744,1563,1452,68.0046,39.2351,35.1631,92.8983
-2024/2025,Male,all,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,7940,5397,4434,1741,1516,1394,67.9723,39.2648,34.1903,91.9525
-2024/2025,Male,all,NECO,lga,Surulere,South West,Lagos,Surulere,,,7663,5212,4436,1742,1636,1495,68.0151,39.2696,36.8801,91.3814
-2024/2025,Male,all,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,11002,8091,6308,2482,2401,2192,73.5412,39.3469,38.0628,91.2953
-2024/2025,Male,all,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,11052,8122,6357,2502,2388,2215,73.4890,39.3582,37.5649,92.7554
-2024/2025,Male,all,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,10979,8070,6249,2460,2215,2053,73.5040,39.3663,35.4457,92.6862
-2024/2025,Male,all,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,11930,8774,6723,2645,2347,2152,73.5457,39.3426,34.9100,91.6915
-2024/2025,Male,all,WAEC,lga,Surulere,South West,Lagos,Surulere,,,10985,8073,6341,2494,2296,2106,73.4911,39.3313,36.2088,91.7247
-2024/2025,Male,disabled,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,51,38,29,11,17,15,74.5098,37.9310,58.6207,88.2353
-2024/2025,Male,disabled,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,52,39,29,11,17,16,75.0000,37.9310,58.6207,94.1176
-2024/2025,Male,disabled,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,48,36,26,10,16,14,75.0000,38.4615,61.5385,87.5000
-2024/2025,Male,disabled,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,57,43,32,12,15,15,75.4386,37.5000,46.8750,100.0000
-2024/2025,Male,disabled,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,56,42,32,12,17,15,75.0000,37.5000,53.1250,88.2353
-2024/2025,Male,disabled,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,670,453,398,155,134,123,67.6119,38.9447,33.6683,91.7910
-2024/2025,Male,disabled,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,667,453,385,150,138,123,67.9160,38.9610,35.8442,89.1304
-2024/2025,Male,disabled,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,635,431,379,146,119,116,67.8740,38.5224,31.3984,97.4790
-2024/2025,Male,disabled,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,729,495,398,156,123,120,67.9012,39.1960,30.9045,97.5610
-2024/2025,Male,disabled,NECO,lga,Surulere,South West,Lagos,Surulere,,,685,466,386,150,145,131,68.0292,38.8601,37.5648,90.3448
-2024/2025,Male,disabled,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,940,691,553,219,169,155,73.5106,39.6022,30.5606,91.7160
-2024/2025,Male,disabled,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,1000,733,575,229,165,155,73.3000,39.8261,28.6957,93.9394
-2024/2025,Male,disabled,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,937,688,548,219,153,148,73.4258,39.9635,27.9197,96.7320
-2024/2025,Male,disabled,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,1090,805,609,241,192,167,73.8532,39.5731,31.5271,86.9792
-2024/2025,Male,disabled,WAEC,lga,Surulere,South West,Lagos,Surulere,,,973,715,552,218,184,167,73.4841,39.4928,33.3333,90.7609
+session,gender,disability,olevel_exam_body,loc_level,loc_label,zone,state,lga,ward,school,candidate_count,passed_count,utme_candidate_count,utme_qualified_count,admitted_count,matriculated_count,pass_rate_pct,utme_qualifying_rate_pct,admission_rate_pct,matriculation_completion_rate_pct
+2022/2023,Female,ALL,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,1766,1377,2206,1918,320,299,70.2783,38.3197,11.8852,93.1034
+2022/2023,Female,ALL,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,1713,1334,2116,1839,300,274,70.2076,38.2808,11.6391,90.8257
+2022/2023,Female,ALL,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,1684,1313,2135,1857,284,259,70.2669,38.3272,10.9052,90.7767
+2022/2023,Female,ALL,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,1826,1423,2203,1913,286,260,70.2176,38.2564,10.6667,90.3846
+2022/2023,Female,ALL,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,1678,1308,2113,1839,293,271,70.2181,38.3422,11.3904,92.0188
+2022/2023,Female,ALL,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,3315,2311,4137,3616,545,490,62.8193,38.5141,10.8167,89.3939
+2022/2023,Female,ALL,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,3155,2199,3935,3436,499,451,62.7899,38.4836,10.3963,90.0552
+2022/2023,Female,ALL,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,3100,2159,3879,3390,482,431,62.7656,38.5086,10.1952,88.8571
+2022/2023,Female,ALL,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,3395,2362,4154,3621,504,454,62.704,38.4113,9.9565,89.6175
+2022/2023,Female,ALL,NECO,lga,Surulere,South West,Lagos,Surulere,,,3002,2092,3741,3267,485,436,62.8004,38.4778,10.6312,89.4886
+2022/2023,Female,ALL,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,4202,3158,5314,4634,682,655,67.7283,38.4223,10.5252,95.5556
+2022/2023,Female,ALL,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,4209,3162,5252,4598,711,669,67.685,38.5757,11.1015,93.6047
+2022/2023,Female,ALL,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,4194,3152,5123,4470,654,622,67.7387,38.4429,10.4764,94.5263
+2022/2023,Female,ALL,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,4529,3404,5536,4836,653,616,67.7285,38.4977,9.6754,93.8819
+2022/2023,Female,ALL,WAEC,lga,Surulere,South West,Lagos,Surulere,,,3851,2895,4857,4241,607,568,67.7437,38.483,10.2606,92.9705
+2022/2023,Female,Disabled,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,163,129,197,162,40,37,71.1538,36.2069,16.6667,93.1034
+2022/2023,Female,Disabled,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,155,122,176,146,43,37,70.9459,36.5385,19.8718,87.0968
+2022/2023,Female,Disabled,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,148,117,169,141,37,36,71.1268,36.6667,18.0,96.2963
+2022/2023,Female,Disabled,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,169,133,194,164,43,37,70.9877,37.2093,18.0233,87.0968
+2022/2023,Female,Disabled,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,158,124,183,151,41,37,70.8609,36.4198,18.5185,90.0
+2022/2023,Female,Disabled,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,250,175,323,287,41,37,63.1799,39.1608,10.4895,90.0
+2022/2023,Female,Disabled,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,247,174,325,285,34,32,63.5593,38.5417,8.6806,92.0
+2022/2023,Female,Disabled,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,232,161,293,259,32,30,62.6126,38.9961,8.8803,95.6522
+2022/2023,Female,Disabled,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,273,190,342,295,36,35,62.8352,37.9538,8.5809,96.1538
+2022/2023,Female,Disabled,NECO,lga,Surulere,South West,Lagos,Surulere,,,244,172,315,277,39,36,63.5193,38.7097,10.0358,92.8571
+2022/2023,Female,Disabled,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,309,233,393,336,34,33,67.9054,37.6437,7.1839,96.0
+2022/2023,Female,Disabled,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,329,247,416,362,48,46,67.619,38.3152,9.5109,94.2857
+2022/2023,Female,Disabled,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,307,232,382,326,43,39,68.0272,37.574,9.1716,90.3226
+2022/2023,Female,Disabled,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,358,269,437,374,41,39,67.8363,37.7261,7.7519,93.3333
+2022/2023,Female,Disabled,WAEC,lga,Surulere,South West,Lagos,Surulere,,,307,231,389,331,37,35,67.6871,37.5,7.8488,92.5926
+2022/2023,Male,ALL,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,1562,1221,1938,1700,348,320,70.415,38.6589,14.7522,91.3043
+2022/2023,Male,ALL,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,1535,1199,1938,1703,342,310,70.3678,38.7172,14.4606,90.3226
+2022/2023,Male,ALL,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,1536,1199,1880,1651,308,278,70.3199,38.7019,13.4615,89.7321
+2022/2023,Male,ALL,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,1612,1257,1980,1736,322,305,70.2335,38.6416,13.3562,94.0171
+2022/2023,Male,ALL,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,1508,1175,1901,1672,318,298,70.2497,38.7634,13.7337,93.0736
+2022/2023,Male,ALL,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,2822,1966,3564,3121,587,528,62.764,38.5859,13.5067,89.4366
+2022/2023,Male,ALL,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,2781,1939,3470,3039,541,480,62.8195,38.5868,12.7971,88.2952
+2022/2023,Male,ALL,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,2849,1986,3523,3080,563,512,62.8257,38.5183,13.1174,90.4645
+2022/2023,Male,ALL,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,3002,2093,3676,3213,548,487,62.8352,38.5183,12.2349,88.4422
+2022/2023,Male,ALL,NECO,lga,Surulere,South West,Lagos,Surulere,,,2829,1971,3516,3077,543,492,62.7864,38.5604,12.6607,90.1015
+2022/2023,Male,ALL,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,3643,2737,4492,3926,723,683,67.7095,38.5157,13.2075,93.9048
+2022/2023,Male,ALL,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,3813,2867,4756,4157,759,712,67.7543,38.5127,13.091,93.2849
+2022/2023,Male,ALL,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,3730,2804,4676,4095,740,706,67.741,38.5935,12.9773,94.9721
+2022/2023,Male,ALL,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,3945,2963,4841,4231,730,685,67.6915,38.5154,12.3716,93.3962
+2022/2023,Male,ALL,WAEC,lga,Surulere,South West,Lagos,Surulere,,,3640,2735,4566,3990,704,673,67.7104,38.5053,12.6454,95.1076
+2022/2023,Male,Disabled,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,141,111,163,146,43,42,71.1111,39.5833,21.5278,96.7742
+2022/2023,Male,Disabled,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,139,110,157,144,45,42,71.4286,40.2878,23.741,90.9091
+2022/2023,Male,Disabled,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,131,103,155,144,36,33,71.2,40.8759,18.9781,92.3077
+2022/2023,Male,Disabled,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,152,118,176,156,43,42,70.3448,39.1026,19.8718,96.7742
+2022/2023,Male,Disabled,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,143,113,177,164,47,42,70.8029,40.7643,21.6561,88.2353
+2022/2023,Male,Disabled,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,213,150,269,238,44,39,63.2353,39.0756,13.4454,87.5
+2022/2023,Male,Disabled,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,216,152,275,244,37,33,63.285,39.0947,11.1111,88.8889
+2022/2023,Male,Disabled,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,206,145,266,233,37,32,63.4518,38.7234,11.4894,85.1852
+2022/2023,Male,Disabled,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,245,172,302,267,41,37,63.2479,38.9513,11.236,90.0
+2022/2023,Male,Disabled,NECO,lga,Surulere,South West,Lagos,Surulere,,,227,160,285,251,41,37,63.5945,38.8889,11.9048,90.0
+2022/2023,Male,Disabled,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,275,208,346,300,41,39,68.0608,38.2353,9.8039,93.3333
+2022/2023,Male,Disabled,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,292,220,360,315,47,42,68.1004,38.558,10.6583,88.2353
+2022/2023,Male,Disabled,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,270,203,342,300,44,42,67.8295,38.6139,10.5611,93.75
+2022/2023,Male,Disabled,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,317,238,393,341,47,42,67.6568,38.2184,9.7701,88.2353
+2022/2023,Male,Disabled,WAEC,lga,Surulere,South West,Lagos,Surulere,,,299,225,391,341,47,44,67.8322,38.4393,9.8266,94.1176
+2023/2024,Female,ALL,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,1857,1540,2346,2267,326,295,74.7185,42.5819,11.4162,89.8734
+2023/2024,Female,ALL,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,1842,1530,2302,2228,311,287,74.8581,42.6608,11.0947,91.5929
+2023/2024,Female,ALL,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,1768,1469,2188,2131,292,270,74.8669,42.9236,10.9504,91.9811
+2023/2024,Female,ALL,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,1969,1633,2407,2323,310,285,74.7212,42.5352,10.5634,91.5556
+2023/2024,Female,ALL,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,1792,1487,2228,2159,306,285,74.7958,42.6978,11.2576,92.7928
+2023/2024,Female,ALL,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,3485,2626,4326,4182,548,503,67.8968,42.6071,10.3971,91.206
+2023/2024,Female,ALL,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,3359,2533,4227,4090,527,476,67.9427,42.6357,10.2379,89.8172
+2023/2024,Female,ALL,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,3248,2449,3984,3847,488,433,67.9434,42.5411,10.0397,88.4181
+2023/2024,Female,ALL,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,3463,2611,4312,4175,526,471,67.9348,42.6625,10.0105,89.0052
+2023/2024,Female,ALL,NECO,lga,Surulere,South West,Lagos,Surulere,,,3248,2449,4035,3893,501,446,67.9434,42.5091,10.1932,88.4615
+2023/2024,Female,ALL,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,4566,3690,5727,5539,727,687,72.8189,42.6204,10.4183,93.9394
+2023/2024,Female,ALL,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,4509,3647,5621,5434,704,662,72.8727,42.6015,10.2734,93.5421
+2023/2024,Female,ALL,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,4505,3646,5524,5349,682,642,72.9172,42.6672,10.1248,93.7374
+2023/2024,Female,ALL,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,4772,3859,5898,5695,695,658,72.8747,42.5479,9.6743,94.0594
+2023/2024,Female,ALL,WAEC,lga,Surulere,South West,Lagos,Surulere,,,4182,3383,5237,5059,665,638,72.9,42.5674,10.4207,95.4451
+2023/2024,Female,Disabled,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,168,140,201,195,43,39,75.1553,42.6966,17.4157,90.3226
+2023/2024,Female,Disabled,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,168,142,190,190,43,39,75.7764,44.0476,18.4524,90.3226
+2023/2024,Female,Disabled,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,159,135,172,177,40,39,76.3158,45.3947,19.0789,96.5517
+2023/2024,Female,Disabled,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,178,147,219,213,43,39,74.7059,42.7835,15.9794,90.3226
+2023/2024,Female,Disabled,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,176,147,219,213,43,39,75.5952,42.7835,15.9794,90.3226
+2023/2024,Female,Disabled,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,279,209,353,341,41,40,67.4157,42.6282,9.6154,96.6667
+2023/2024,Female,Disabled,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,261,196,332,326,36,33,67.6,43.1973,8.8435,92.3077
+2023/2024,Female,Disabled,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,233,175,294,282,36,33,67.713,42.3077,10.0,92.3077
+2023/2024,Female,Disabled,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,285,213,372,364,37,33,67.3993,43.1611,8.2067,88.8889
+2023/2024,Female,Disabled,NECO,lga,Surulere,South West,Lagos,Surulere,,,267,201,332,321,40,39,67.8431,42.517,9.8639,96.5517
+2023/2024,Female,Disabled,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,336,270,417,408,44,40,72.5857,43.0894,8.6721,90.625
+2023/2024,Female,Disabled,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,349,282,446,439,45,43,72.7545,43.2911,8.3544,93.9394
+2023/2024,Female,Disabled,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,315,255,386,380,37,33,73.0897,43.2749,7.8947,88.8889
+2023/2024,Female,Disabled,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,372,301,468,456,43,40,72.7528,42.9952,7.4879,93.5484
+2023/2024,Female,Disabled,WAEC,lga,Surulere,South West,Lagos,Surulere,,,339,274,429,418,40,39,72.8395,42.8947,7.6316,96.5517
+2023/2024,Male,ALL,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,1615,1338,2034,1962,358,332,74.6278,42.5,14.4444,92.3077
+2023/2024,Male,ALL,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,1643,1361,2032,1962,322,299,74.6658,42.5473,13.0145,92.3077
+2023/2024,Male,ALL,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,1623,1342,2017,1944,333,296,74.549,42.465,13.5574,88.4298
+2023/2024,Male,ALL,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,1711,1418,2092,2028,328,299,74.6944,42.7337,12.8579,90.7563
+2023/2024,Male,ALL,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,1662,1380,2083,2005,339,321,74.7799,42.4308,13.3478,94.3089
+2023/2024,Male,ALL,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,2987,2254,3720,3593,584,528,68.0084,42.5577,12.8797,89.8585
+2023/2024,Male,ALL,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,2982,2252,3711,3582,580,519,68.0575,42.5396,12.8197,89.0736
+2023/2024,Male,ALL,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,2943,2222,3642,3518,541,485,68.0284,42.569,12.1936,89.0585
+2023/2024,Male,ALL,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,3074,2319,3753,3626,523,479,67.9932,42.5775,11.4423,91.0526
+2023/2024,Male,ALL,NECO,lga,Surulere,South West,Lagos,Surulere,,,3045,2299,3855,3718,589,522,68.0288,42.4971,12.544,88.0841
+2023/2024,Male,ALL,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,3984,3222,5013,4834,797,756,72.8871,42.4932,13.0523,94.3005
+2023/2024,Male,ALL,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,4024,3253,4983,4798,768,720,72.8501,42.4263,12.6531,93.19
+2023/2024,Male,ALL,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,4035,3262,4946,4770,724,680,72.8427,42.4949,12.0174,93.346
+2023/2024,Male,ALL,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,4210,3405,5179,4993,731,695,72.883,42.4831,11.5863,94.5386
+2023/2024,Male,ALL,WAEC,lga,Surulere,South West,Lagos,Surulere,,,3904,3157,4931,4754,756,724,72.8709,42.484,12.5802,95.2641
+2023/2024,Male,Disabled,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,145,121,177,169,47,43,74.8201,42.0382,21.6561,91.1765
+2023/2024,Male,Disabled,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,154,128,185,180,48,43,74.8299,42.6829,21.3415,88.5714
+2023/2024,Male,Disabled,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,139,115,168,162,44,40,74.4361,42.2819,21.4765,90.625
+2023/2024,Male,Disabled,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,160,132,194,192,48,43,74.5098,43.6047,20.3488,88.5714
+2023/2024,Male,Disabled,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,153,128,190,182,48,43,75.3425,42.2619,20.8333,88.5714
+2023/2024,Male,Disabled,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,229,172,288,277,44,39,67.5799,42.3529,12.549,87.5
+2023/2024,Male,Disabled,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,225,171,280,272,37,33,68.3721,42.7419,10.8871,88.8889
+2023/2024,Male,Disabled,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,215,164,264,259,37,33,68.4466,43.1624,11.5385,88.8889
+2023/2024,Male,Disabled,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,247,186,312,305,37,33,67.7966,43.1159,9.7826,88.8889
+2023/2024,Male,Disabled,NECO,lga,Surulere,South West,Lagos,Surulere,,,250,189,310,297,47,42,68.2008,42.3358,12.4088,88.2353
+2023/2024,Male,Disabled,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,296,239,377,359,41,40,72.7915,41.9162,8.982,96.6667
+2023/2024,Male,Disabled,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,321,260,397,377,51,48,72.9642,41.8803,10.5413,94.5946
+2023/2024,Male,Disabled,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,281,229,347,328,36,35,73.2342,41.6938,8.4691,96.1538
+2023/2024,Male,Disabled,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,345,280,424,403,44,43,73.0303,41.8667,8.5333,96.875
+2023/2024,Male,Disabled,WAEC,lga,Surulere,South West,Lagos,Surulere,,,317,256,408,390,45,43,72.9373,42.1053,9.1413,93.9394
+2024/2025,Female,ALL,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,603,504,385,344,142,133,75.2166,39.2962,30.2053,93.2039
+2024/2025,Female,ALL,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,624,521,391,349,143,132,75.2094,39.3064,30.0578,91.3462
+2024/2025,Female,ALL,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,594,494,356,318,129,118,75.0000,39.3651,29.8413,90.4255
+2024/2025,Female,ALL,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,665,555,403,359,140,127,75.1572,39.2157,28.5714,90.1961
+2024/2025,Female,ALL,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,598,499,370,328,138,130,75.1748,39.1437,30.5810,94.0000
+2024/2025,Female,ALL,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,9190,6930,5714,5116,2092,1952,67.9522,39.4503,30.0376,92.8242
+2024/2025,Female,ALL,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,9070,6841,5574,4970,2096,1943,67.9654,39.2864,30.8534,92.1813
+2024/2025,Female,ALL,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,8915,6719,5510,4921,2048,1898,67.9137,39.3560,30.4963,92.1991
+2024/2025,Female,ALL,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,9366,7072,5795,5165,2013,1844,68.0397,39.2746,28.5101,91.1081
+2024/2025,Female,ALL,NECO,lga,Surulere,South West,Lagos,Surulere,,,8568,6466,5272,4716,1878,1731,68.0049,39.4128,29.2327,91.6422
+2024/2025,Female,ALL,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,13266,10825,8372,7475,3238,3021,73.5340,39.3440,31.7317,92.8116
+2024/2025,Female,ALL,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,12940,10557,8038,7155,2888,2654,73.5213,39.2240,29.4812,91.4163
+2024/2025,Female,ALL,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,12774,10427,7859,6993,2775,2545,73.5554,39.2092,28.9720,91.2159
+2024/2025,Female,ALL,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,14251,11625,8656,7711,3046,2833,73.5070,39.2559,28.8773,92.4955
+2024/2025,Female,ALL,WAEC,lga,Surulere,South West,Lagos,Surulere,,,12169,9924,7475,6662,2734,2522,73.4857,39.2744,30.0076,91.7380
+2024/2025,Female,Disabled,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,64,53,37,33,21,19,75.4098,39.3939,45.4545,93.3333
+2024/2025,Female,Disabled,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,62,52,35,31,21,19,76.2712,38.7097,48.3871,93.3333
+2024/2025,Female,Disabled,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,59,49,34,31,21,18,75.0000,40.0000,50.0000,86.6667
+2024/2025,Female,Disabled,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,67,56,40,36,21,19,75.0000,40.0000,42.8571,93.3333
+2024/2025,Female,Disabled,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,64,53,37,33,21,19,75.4098,39.3939,45.4545,93.3333
+2024/2025,Female,Disabled,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,804,605,520,472,194,181,67.7503,40.0000,30.6522,92.9078
+2024/2025,Female,Disabled,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,810,608,518,464,164,151,67.6129,39.5197,25.9825,91.5966
+2024/2025,Female,Disabled,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,733,549,440,400,158,150,67.4750,40.1028,29.5630,93.9130
+2024/2025,Female,Disabled,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,878,668,549,490,164,150,68.5714,39.3004,24.4856,90.7563
+2024/2025,Female,Disabled,NECO,lga,Surulere,South West,Lagos,Surulere,,,790,598,488,441,175,161,68.1217,39.8148,29.3981,91.3386
+2024/2025,Female,Disabled,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,1111,906,703,628,207,194,73.4713,39.3891,24.1158,93.3333
+2024/2025,Female,Disabled,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,1144,931,732,639,211,199,73.3090,38.4259,23.6111,94.1176
+2024/2025,Female,Disabled,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,1087,890,685,600,190,183,73.7500,38.6139,22.7723,95.6522
+2024/2025,Female,Disabled,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,1258,1027,763,667,211,188,73.5661,38.5185,22.6667,88.8889
+2024/2025,Female,Disabled,WAEC,lga,Surulere,South West,Lagos,Surulere,,,1066,866,683,603,196,166,73.1373,38.9073,23.5099,84.5070
+2024/2025,Male,ALL,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,534,446,336,297,154,147,75.1468,39.0572,37.7104,94.6429
+2024/2025,Male,ALL,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,549,457,336,300,151,141,75.0476,39.3939,37.0370,92.7273
+2024/2025,Male,ALL,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,544,451,337,300,151,136,74.8077,39.2617,36.9128,89.0909
+2024/2025,Male,ALL,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,569,473,342,305,140,127,75.0000,39.2739,33.6634,90.1961
+2024/2025,Male,ALL,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,564,470,354,315,158,150,75.1391,39.2971,36.7412,93.9130
+2024/2025,Male,ALL,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,7949,5999,4990,4449,2323,2146,67.9995,39.2889,38.2020,91.8791
+2024/2025,Male,ALL,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,7958,6002,4888,4357,2245,2074,67.9674,39.2742,37.6791,91.9018
+2024/2025,Male,ALL,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,8127,6133,5023,4472,2152,2011,68.0046,39.2351,35.1631,92.8983
+2024/2025,Male,ALL,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,8302,6262,5010,4465,2088,1930,67.9723,39.2648,34.1903,91.9525
+2024/2025,Male,ALL,NECO,lga,Surulere,South West,Lagos,Surulere,,,8012,6047,5013,4467,2253,2070,68.0151,39.2696,36.8801,91.3814
+2024/2025,Male,ALL,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,11503,9388,7128,6365,3307,3035,73.5412,39.3469,38.0628,91.2953
+2024/2025,Male,ALL,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,11555,9424,7183,6416,3289,3067,73.4890,39.3582,37.5649,92.7554
+2024/2025,Male,ALL,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,11479,9364,7061,6308,3050,2843,73.5040,39.3663,35.4457,92.6862
+2024/2025,Male,ALL,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,12473,10180,7597,6783,3232,2980,73.5457,39.3426,34.9100,91.6915
+2024/2025,Male,ALL,WAEC,lga,Surulere,South West,Lagos,Surulere,,,11485,9367,7165,6395,3162,2916,73.4911,39.3313,36.2088,91.7247
+2024/2025,Male,Disabled,NABTEB,lga,Alimosho,South West,Lagos,Alimosho,,,53,44,33,28,23,21,74.5098,37.9310,58.6207,88.2353
+2024/2025,Male,Disabled,NABTEB,lga,Ikeja,South West,Lagos,Ikeja,,,54,45,33,28,23,22,75.0000,37.9310,58.6207,94.1176
+2024/2025,Male,Disabled,NABTEB,lga,Kosofe,South West,Lagos,Kosofe,,,50,42,29,26,22,19,75.0000,38.4615,61.5385,87.5000
+2024/2025,Male,Disabled,NABTEB,lga,Lagos Island,South West,Lagos,Lagos Island,,,60,50,36,31,21,21,75.4386,37.5000,46.8750,100.0000
+2024/2025,Male,Disabled,NABTEB,lga,Surulere,South West,Lagos,Surulere,,,59,49,36,31,23,21,75.0000,37.5000,53.1250,88.2353
+2024/2025,Male,Disabled,NECO,lga,Alimosho,South West,Lagos,Alimosho,,,701,526,450,397,185,170,67.6119,38.9447,33.6683,91.7910
+2024/2025,Male,Disabled,NECO,lga,Ikeja,South West,Lagos,Ikeja,,,697,526,435,385,190,170,67.9160,38.9610,35.8442,89.1304
+2024/2025,Male,Disabled,NECO,lga,Kosofe,South West,Lagos,Kosofe,,,664,500,428,374,164,161,67.8740,38.5224,31.3984,97.4790
+2024/2025,Male,Disabled,NECO,lga,Lagos Island,South West,Lagos,Lagos Island,,,762,574,450,400,169,166,67.9012,39.1960,30.9045,97.5610
+2024/2025,Male,Disabled,NECO,lga,Surulere,South West,Lagos,Surulere,,,716,541,436,385,200,181,68.0292,38.8601,37.5648,90.3448
+2024/2025,Male,Disabled,WAEC,lga,Alimosho,South West,Lagos,Alimosho,,,983,802,625,562,233,215,73.5106,39.6022,30.5606,91.7160
+2024/2025,Male,Disabled,WAEC,lga,Ikeja,South West,Lagos,Ikeja,,,1046,850,650,587,227,215,73.3000,39.8261,28.6957,93.9394
+2024/2025,Male,Disabled,WAEC,lga,Kosofe,South West,Lagos,Kosofe,,,980,798,619,562,211,205,73.4258,39.9635,27.9197,96.7320
+2024/2025,Male,Disabled,WAEC,lga,Lagos Island,South West,Lagos,Lagos Island,,,1140,934,688,618,264,231,73.8532,39.5731,31.5271,86.9792
+2024/2025,Male,Disabled,WAEC,lga,Surulere,South West,Lagos,Surulere,,,1017,830,624,559,253,231,73.4841,39.4928,33.3333,90.7609

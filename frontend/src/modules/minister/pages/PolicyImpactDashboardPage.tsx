@@ -17,12 +17,24 @@ import {
 } from "lucide-react";
 
 import type { DimSession, MinisterFilters } from "../types";
-import { canonicalState, loadRefinedFile } from "../utils/refinedPageData";
+import {
+  canonicalState,
+  loadRefinedFile,
+  loadRefinedScopedRows,
+  scopeDepthForLocation,
+} from "../utils/refinedPageData";
 import {
   LOAN_TREND_SESSIONS,
   POLICY_IMPACT_SESSIONS,
+  TRANSITION_SESSIONS,
   filterRowsBySessionWindow,
 } from "../utils/sessionWindows";
+import {
+  canUseCanonicalPolicyMatriculation,
+  filterCanonicalTransitionRows,
+  sumCanonicalTransitionMetrics,
+  type CanonicalTransitionRow,
+} from "../utils/canonicalTransitionMetrics";
 
 type PolicyImpactRow = {
   session: string;
@@ -969,6 +981,7 @@ export default function PolicyImpactDashboard({
 }) {
   const [rows, setRows] = useState<PolicyImpactRow[]>([]);
   const [loanRows, setLoanRows] = useState<PolicyLoanRow[]>([]);
+  const [canonicalTransitionRows, setCanonicalTransitionRows] = useState<CanonicalTransitionRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [zoneDrill, setZoneDrill] = useState<DrillState>({});
@@ -1000,6 +1013,24 @@ export default function PolicyImpactDashboard({
       mounted = false;
     };
   }, []);
+
+  useEffect(() => {
+    let mounted = true;
+    (async () => {
+      try {
+        const depth = scopeDepthForLocation(filters);
+        const transitionRows = await loadRefinedScopedRows<CanonicalTransitionRow>("transition_direct", filters.state, depth);
+        if (!mounted) return;
+        setCanonicalTransitionRows(filterRowsBySessionWindow(transitionRows, TRANSITION_SESSIONS));
+      } catch {
+        if (!mounted) return;
+        setCanonicalTransitionRows([]);
+      }
+    })();
+    return () => {
+      mounted = false;
+    };
+  }, [filters.state, filters.lga, filters.ward, filters.school]);
 
   useEffect(() => {
     if (!filters.state) return;
@@ -1178,12 +1209,28 @@ export default function PolicyImpactDashboard({
         return true;
       })
       .reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
-    const totalMatriculated = filteredRows.reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
-    const stemmValue = filteredRows.filter((row) => row.programme_cluster === "STEMM").reduce((sum, row) => sum + currentValue(row), 0);
-    const nonStemmValue = filteredRows.filter((row) => row.programme_cluster === "Non-STEMM").reduce((sum, row) => sum + currentValue(row), 0);
+    const policyMatriculated = filteredRows.reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
+    const useCanonical = canUseCanonicalPolicyMatriculation(filters);
+    const canonicalCurrent = useCanonical
+      ? sumCanonicalTransitionMetrics(filterCanonicalTransitionRows(canonicalTransitionRows, filters, disabilityMode))
+      : { admitted: 0, matriculated: 0 };
+    const canonicalPrevious = useCanonical && previousSession
+      ? sumCanonicalTransitionMetrics(filterCanonicalTransitionRows(canonicalTransitionRows, { ...filters, session: previousSession }, disabilityMode))
+      : { admitted: 0, matriculated: 0 };
+    const totalMatriculated = canonicalCurrent.matriculated || policyMatriculated;
+    const matriculationScale = policyMatriculated > 0 ? totalMatriculated / policyMatriculated : 1;
+    const rawStemmValue = filteredRows.filter((row) => row.programme_cluster === "STEMM").reduce((sum, row) => sum + currentValue(row), 0);
+    const rawNonStemmValue = filteredRows.filter((row) => row.programme_cluster === "Non-STEMM").reduce((sum, row) => sum + currentValue(row), 0);
+    const stemmValue = Math.round(rawStemmValue * matriculationScale);
+    const nonStemmValue = totalMatriculated > 0
+      ? Math.max(0, totalMatriculated - stemmValue)
+      : Math.round(rawNonStemmValue * matriculationScale);
     const totalStage = stemmValue + nonStemmValue;
     const previousAdmitted = previousRows.reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
-    const previousMatriculated = previousRows.reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
+    const previousPolicyMatriculated = previousRows.reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
+    const previousMatriculated = canonicalPrevious.matriculated || previousPolicyMatriculated;
+    const displayAdmitted = canonicalCurrent.admitted || totalAdmitted;
+    const displayPreviousAdmitted = canonicalPrevious.admitted || previousAdmitted;
     const prevStemmValue = previousRows.filter((row) => row.programme_cluster === "STEMM").reduce((sum, row) => sum + currentValue(row), 0);
     const prevNonStemmValue = previousRows.filter((row) => row.programme_cluster === "Non-STEMM").reduce((sum, row) => sum + currentValue(row), 0);
     const prevStage = prevStemmValue + prevNonStemmValue;
@@ -1192,7 +1239,7 @@ export default function PolicyImpactDashboard({
     const totalLoansApproved = filteredLoanRows.reduce((sum, row) => sum + safeNum(row.loan_approved), 0);
     const previousLoansDisbursed = previousLoanRows.reduce((sum, row) => sum + safeNum(row.loan_disbursed), 0);
     return {
-      totalAdmitted,
+      totalAdmitted: displayAdmitted,
       totalMatriculated,
       totalLoansDisbursed,
       totalLoanApplications,
@@ -1201,13 +1248,13 @@ export default function PolicyImpactDashboard({
       nonStemmValue,
       stemmShare: totalStage ? (stemmValue / totalStage) * 100 : 0,
       nonStemmShare: totalStage ? (nonStemmValue / totalStage) * 100 : 0,
-      totalAdmittedDelta: percentDelta(totalAdmitted, previousAdmitted),
+      totalAdmittedDelta: percentDelta(displayAdmitted, displayPreviousAdmitted),
       totalMatriculatedDelta: percentDelta(totalMatriculated, previousMatriculated),
       totalLoansDisbursedDelta: percentDelta(totalLoansDisbursed, previousLoansDisbursed),
       stemmShareDelta: percentDelta(totalStage ? (stemmValue / totalStage) * 100 : 0, prevStage ? (prevStemmValue / prevStage) * 100 : 0),
       nonStemmShareDelta: percentDelta(totalStage ? (nonStemmValue / totalStage) * 100 : 0, prevStage ? (prevNonStemmValue / prevStage) * 100 : 0),
     };
-  }, [rows, filteredRows, previousRows, filteredLoanRows, previousLoanRows, filters, disabilityMode]);
+  }, [rows, filteredRows, previousRows, filteredLoanRows, previousLoanRows, filters, disabilityMode, canonicalTransitionRows, previousSession]);
 
   const metricCards = useMemo<MetricCard[]>(() => [
     {
@@ -1268,6 +1315,35 @@ export default function PolicyImpactDashboard({
     },
   ], [totals, filteredLoanRows.length]);
 
+  const rawFilteredMatriculatedTotal = useMemo(
+    () => filteredRows.reduce((sum, row) => sum + currentValue(row), 0),
+    [filteredRows],
+  );
+  const matriculatedDisplayScale = rawFilteredMatriculatedTotal > 0
+    ? totals.totalMatriculated / rawFilteredMatriculatedTotal
+    : 1;
+  const displayMatriculatedValue = (value: number): number => Math.round(value * matriculatedDisplayScale);
+  const scaleStackRows = (
+    sourceRows: Array<{ label: string; stemm: number; nonStemm: number }>,
+    targetTotal: number,
+  ): Array<{ label: string; stemm: number; nonStemm: number }> => {
+    const rawTotal = sourceRows.reduce((sum, row) => sum + row.stemm + row.nonStemm, 0);
+    if (rawTotal <= 0 || targetTotal <= 0) return sourceRows;
+    let assigned = 0;
+    return sourceRows.map((row, index) => {
+      if (index === sourceRows.length - 1) {
+        const remaining = Math.max(0, targetTotal - assigned);
+        const rawRowTotal = row.stemm + row.nonStemm;
+        const stemm = rawRowTotal > 0 ? Math.round(remaining * (row.stemm / rawRowTotal)) : 0;
+        return { ...row, stemm, nonStemm: Math.max(0, remaining - stemm) };
+      }
+      const stemm = displayMatriculatedValue(row.stemm);
+      const nonStemm = displayMatriculatedValue(row.nonStemm);
+      assigned += stemm + nonStemm;
+      return { ...row, stemm, nonStemm };
+    });
+  };
+
   const groupedBy = <K extends string>(
     source: PolicyImpactRow[],
     keyGetter: (row: PolicyImpactRow) => K,
@@ -1318,32 +1394,39 @@ export default function PolicyImpactDashboard({
   const stateLevel = effectiveStateDrill.lga ? "institution" : effectiveStateDrill.state ? "lga" : "state";
 
   const zoneRows = useMemo(() => {
+    let rows: Array<{ label: string; stemm: number; nonStemm: number }>;
     if (zoneLevel === "zone") {
-      return groupedBy(drillBaseRows.filter((row) => !isInternationalZone(row.zone)), (row) => row.zone)
+      rows = groupedBy(drillBaseRows.filter((row) => !isInternationalZone(row.zone)), (row) => row.zone)
         .map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
-    }
-    if (zoneLevel === "state") {
+    } else if (zoneLevel === "state") {
       const rowsForState = groupedBy(zoneScopedRows, (row) => sourcePolicyLabel(row.state))
         .map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
-      return includeMissingStates(rowsForState, effectiveZoneDrill.zone ?? "");
+      rows = includeMissingStates(rowsForState, effectiveZoneDrill.zone ?? "");
+    } else if (zoneLevel === "lga") {
+      rows = groupedBy(zoneScopedRows, (row) => row.lga).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
+    } else {
+      rows = groupedBy(zoneScopedRows, (row) => row.tertiary_institution).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
     }
-    if (zoneLevel === "lga") return groupedBy(zoneScopedRows, (row) => row.lga).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
-    return groupedBy(zoneScopedRows, (row) => row.tertiary_institution).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
-  }, [drillBaseRows, zoneScopedRows, zoneLevel, effectiveZoneDrill.zone]);
+    return scaleStackRows(rows, totals.totalMatriculated);
+  }, [drillBaseRows, zoneScopedRows, zoneLevel, effectiveZoneDrill.zone, matriculatedDisplayScale, totals.totalMatriculated]);
 
   const stateRows = useMemo(() => {
+    let rows: Array<{ label: string; stemm: number; nonStemm: number }>;
     if (stateLevel === "state") {
       const rowsForState = groupedBy(drillBaseRows, (row) => sourcePolicyLabel(row.state))
         .map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
-      return includeMissingStates(rowsForState, filters.zone || "");
+      rows = includeMissingStates(rowsForState, filters.zone || "");
+    } else if (stateLevel === "lga") {
+      rows = groupedBy(stateScopedRows, (row) => row.lga).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
+    } else {
+      rows = groupedBy(stateScopedRows, (row) => row.tertiary_institution).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
     }
-    if (stateLevel === "lga") return groupedBy(stateScopedRows, (row) => row.lga).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
-    return groupedBy(stateScopedRows, (row) => row.tertiary_institution).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
-  }, [drillBaseRows, stateScopedRows, stateLevel, filters.zone]);
+    return scaleStackRows(rows, totals.totalMatriculated);
+  }, [drillBaseRows, stateScopedRows, stateLevel, filters.zone, matriculatedDisplayScale, totals.totalMatriculated]);
 
   const programmeMixBundle = useMemo<ChartBundle>(() => {
-    const stemm = filteredRows.filter((row) => row.programme_cluster === "STEMM").reduce((sum, row) => sum + currentValue(row), 0);
-    const nonStemm = filteredRows.filter((row) => row.programme_cluster === "Non-STEMM").reduce((sum, row) => sum + currentValue(row), 0);
+    const stemm = totals.stemmValue;
+    const nonStemm = totals.nonStemmValue;
     const layout = baseLayout(320);
     layout.margin = { l: 8, r: 8, t: 8, b: 8 };
     layout.showlegend = false;
@@ -1378,7 +1461,7 @@ export default function PolicyImpactDashboard({
       fixedLegend: [{ label: "STEMM", color: COLORS.stemm }, { label: "Non-STEMM", color: COLORS.nonStemm }],
       titleNote: titleGrandTotal("Matriculated Students", stemm + nonStemm),
     };
-  }, [filteredRows]);
+  }, [totals.stemmValue, totals.nonStemmValue]);
 
   const matriculatedGrandTotal = titleGrandTotal("Matriculated Students", totals.totalMatriculated);
 
@@ -1401,10 +1484,19 @@ export default function PolicyImpactDashboard({
   );
 
   const genderBundle = useMemo<ChartBundle>(() => {
-    const maleStemm = filteredRows.filter((row) => row.gender === "Male" && row.programme_cluster === "STEMM").reduce((sum, row) => sum + currentValue(row), 0);
-    const maleNon = filteredRows.filter((row) => row.gender === "Male" && row.programme_cluster === "Non-STEMM").reduce((sum, row) => sum + currentValue(row), 0);
-    const femaleStemm = filteredRows.filter((row) => row.gender === "Female" && row.programme_cluster === "STEMM").reduce((sum, row) => sum + currentValue(row), 0);
-    const femaleNon = filteredRows.filter((row) => row.gender === "Female" && row.programme_cluster === "Non-STEMM").reduce((sum, row) => sum + currentValue(row), 0);
+    const rawMaleStemm = filteredRows.filter((row) => row.gender === "Male" && row.programme_cluster === "STEMM").reduce((sum, row) => sum + currentValue(row), 0);
+    const rawMaleNon = filteredRows.filter((row) => row.gender === "Male" && row.programme_cluster === "Non-STEMM").reduce((sum, row) => sum + currentValue(row), 0);
+    const rawFemaleStemm = filteredRows.filter((row) => row.gender === "Female" && row.programme_cluster === "STEMM").reduce((sum, row) => sum + currentValue(row), 0);
+    const rawFemaleNon = filteredRows.filter((row) => row.gender === "Female" && row.programme_cluster === "Non-STEMM").reduce((sum, row) => sum + currentValue(row), 0);
+    const genderRows = scaleStackRows([
+      { label: "Male", stemm: rawMaleStemm, nonStemm: rawMaleNon },
+      { label: "Female", stemm: rawFemaleStemm, nonStemm: rawFemaleNon },
+    ], totals.totalMatriculated);
+    const [male, female] = genderRows;
+    const maleStemm = male?.stemm ?? 0;
+    const maleNon = male?.nonStemm ?? 0;
+    const femaleStemm = female?.stemm ?? 0;
+    const femaleNon = female?.nonStemm ?? 0;
     return {
       data: [
         { type: "bar", name: "STEMM", x: ["Male", "Female"], y: [maleStemm, femaleStemm], text: [fmtInt(maleStemm), fmtInt(femaleStemm)], textposition: "inside", textangle: 0, insidetextanchor: "middle", textfont: { color: "white", size: 12 }, marker: { color: COLORS.stemm }, hovertemplate: "%{x}<br>STEMM: %{y:,}<extra></extra>" },
@@ -1414,14 +1506,14 @@ export default function PolicyImpactDashboard({
       fixedLegend: [{ label: "STEMM", color: COLORS.stemm }, { label: "Non-STEMM", color: COLORS.nonStemm }],
       titleNote: matriculatedGrandTotal,
     };
-  }, [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
+  }, [filteredRows, currentMetricLabel, matriculatedGrandTotal, matriculatedDisplayScale, totals.totalMatriculated]);
 
   const disciplineMixBundle = useMemo<ChartBundle>(() => {
     const totals = new Map<string, number>();
     DISCIPLINE_ORDER.forEach((label) => totals.set(label, 0));
     filteredRows.forEach((row) => {
       const label = getPolicyDisciplineBucket(row);
-      totals.set(label, (totals.get(label) ?? 0) + safeNum(row.matriculated_count));
+      totals.set(label, (totals.get(label) ?? 0) + displayMatriculatedValue(row.matriculated_count));
     });
     const labels = DISCIPLINE_ORDER.filter((label) => (totals.get(label) ?? 0) > 0);
     const values = labels.map((label) => totals.get(label) ?? 0);
@@ -1481,9 +1573,9 @@ export default function PolicyImpactDashboard({
       }],
       layout,
       fixedLegend: labels.map((label) => ({ label, color: disciplineColor(label) })),
-      titleNote: titleGrandTotal("Matriculated Students", values.reduce((sum, value) => sum + value, 0)),
+      titleNote: matriculatedGrandTotal,
     };
-  }, [filteredRows]);
+  }, [filteredRows, matriculatedDisplayScale, matriculatedGrandTotal]);
 
   const topMatriculatedCoursesBundle = useMemo<ChartBundle>(() => {
     const grouped = new Map<string, { value: number; color: string; hoverLabel: string }>();
@@ -1491,7 +1583,7 @@ export default function PolicyImpactDashboard({
       const key = row.programme;
       const bucket = getPolicyDisciplineBucket(row);
       const entry = grouped.get(key) ?? { value: 0, color: disciplineColor(bucket), hoverLabel: bucket };
-      entry.value += currentValue(row);
+      entry.value += displayMatriculatedValue(currentValue(row));
       grouped.set(key, entry);
     });
     return buildMultiColorRankedChart(
@@ -1499,61 +1591,61 @@ export default function PolicyImpactDashboard({
       `${currentMetricLabel} students`,
       matriculatedGrandTotal,
     );
-  }, [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
+  }, [filteredRows, currentMetricLabel, matriculatedGrandTotal, matriculatedDisplayScale]);
 
   const topStemmCoursesBundle = useMemo(() => buildRankedChart(
     [...filteredRows.filter((row) => row.programme_cluster === "STEMM").reduce((map, row) => {
-      map.set(row.programme, (map.get(row.programme) ?? 0) + currentValue(row));
+      map.set(row.programme, (map.get(row.programme) ?? 0) + displayMatriculatedValue(currentValue(row)));
       return map;
     }, new Map<string, number>()).entries()].map(([label, value]) => ({ label, value })),
     COLORS.stemm,
     `${currentMetricLabel} students`,
     true,
     matriculatedGrandTotal,
-  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
+  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal, matriculatedDisplayScale]);
 
   const lowestStemmCoursesBundle = useMemo(() => buildRankedChart(
     [...filteredRows.filter((row) => row.programme_cluster === "STEMM").reduce((map, row) => {
-      map.set(row.programme, (map.get(row.programme) ?? 0) + currentValue(row));
+      map.set(row.programme, (map.get(row.programme) ?? 0) + displayMatriculatedValue(currentValue(row)));
       return map;
     }, new Map<string, number>()).entries()].map(([label, value]) => ({ label, value })),
     COLORS.stemm,
     `${currentMetricLabel} students`,
     false,
     matriculatedGrandTotal,
-  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
+  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal, matriculatedDisplayScale]);
 
 
   const topNonStemmCoursesBundle = useMemo(() => buildRankedChart(
     [...filteredRows.filter((row) => row.programme_cluster === "Non-STEMM").reduce((map, row) => {
-      map.set(row.programme, (map.get(row.programme) ?? 0) + currentValue(row));
+      map.set(row.programme, (map.get(row.programme) ?? 0) + displayMatriculatedValue(currentValue(row)));
       return map;
     }, new Map<string, number>()).entries()].map(([label, value]) => ({ label, value })),
     COLORS.nonStemm,
     `${currentMetricLabel} students`,
     true,
     matriculatedGrandTotal,
-  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
+  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal, matriculatedDisplayScale]);
 
   const lowestNonStemmCoursesBundle = useMemo(() => buildRankedChart(
     [...filteredRows.filter((row) => row.programme_cluster === "Non-STEMM").reduce((map, row) => {
-      map.set(row.programme, (map.get(row.programme) ?? 0) + currentValue(row));
+      map.set(row.programme, (map.get(row.programme) ?? 0) + displayMatriculatedValue(currentValue(row)));
       return map;
     }, new Map<string, number>()).entries()].map(([label, value]) => ({ label, value })),
     COLORS.nonStemm,
     `${currentMetricLabel} students`,
     false,
     matriculatedGrandTotal,
-  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
+  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal, matriculatedDisplayScale]);
 
   const institutionAdmissionRows = useMemo(() => {
     const grouped = new Map<string, number>();
     filteredRows.forEach((row) => {
       const institutionLabel = cleanInstitutionLabel(row.tertiary_institution);
-      grouped.set(institutionLabel, (grouped.get(institutionLabel) ?? 0) + currentValue(row));
+      grouped.set(institutionLabel, (grouped.get(institutionLabel) ?? 0) + displayMatriculatedValue(currentValue(row)));
     });
     return [...grouped.entries()].map(([label, value]) => ({ label, value }));
-  }, [filteredRows]);
+  }, [filteredRows, matriculatedDisplayScale]);
 
   const topStemmInstitutionsBundle = useMemo(() => buildRankedChart(
     institutionAdmissionRows,
@@ -1572,29 +1664,41 @@ export default function PolicyImpactDashboard({
   ), [institutionAdmissionRows, currentMetricLabel, matriculatedGrandTotal]);
 
   const topNonStemmInstitutionsBundle = useMemo(() => buildRankedChart(
-    groupedBy(filteredRows.filter((row) => row.programme_cluster === "Non-STEMM"), (row) => cleanInstitutionLabel(row.tertiary_institution)).map((row) => ({ label: row.key, value: row.nonStemm })),
+    groupedBy(filteredRows.filter((row) => row.programme_cluster === "Non-STEMM"), (row) => cleanInstitutionLabel(row.tertiary_institution)).map((row) => ({ label: row.key, value: displayMatriculatedValue(row.nonStemm) })),
     COLORS.nonStemm,
     `${currentMetricLabel} students`,
     true,
     matriculatedGrandTotal,
-  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
+  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal, matriculatedDisplayScale]);
 
   const lowestNonStemmInstitutionsBundle = useMemo(() => buildRankedChart(
-    groupedBy(filteredRows.filter((row) => row.programme_cluster === "Non-STEMM"), (row) => cleanInstitutionLabel(row.tertiary_institution)).map((row) => ({ label: row.key, value: row.nonStemm })),
+    groupedBy(filteredRows.filter((row) => row.programme_cluster === "Non-STEMM"), (row) => cleanInstitutionLabel(row.tertiary_institution)).map((row) => ({ label: row.key, value: displayMatriculatedValue(row.nonStemm) })),
     COLORS.nonStemm,
     `${currentMetricLabel} students`,
     false,
     matriculatedGrandTotal,
-  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
+  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal, matriculatedDisplayScale]);
 
   const stemmNonStemmTrendBundle = useMemo<ChartBundle>(() => {
     const sessions = POLICY_IMPACT_SESSIONS.filter((session) => trendRows.some((row) => row.session === session));
-    const stemmMatric = sessions.map((session) => trendRows
+    const canScaleTrend = canUseCanonicalPolicyMatriculation(filters);
+    const scaledSessionValue = (session: string, value: number): number => {
+      if (!canScaleTrend) return value;
+      const rawSessionTotal = trendRows
+        .filter((row) => row.session === session)
+        .reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
+      const canonicalSessionTotal = sumCanonicalTransitionMetrics(
+        filterCanonicalTransitionRows(canonicalTransitionRows, { ...filters, session }, disabilityMode),
+      ).matriculated;
+      if (rawSessionTotal <= 0 || canonicalSessionTotal <= 0) return value;
+      return Math.round(value * (canonicalSessionTotal / rawSessionTotal));
+    };
+    const stemmMatric = sessions.map((session) => scaledSessionValue(session, trendRows
       .filter((row) => row.session === session && row.programme_cluster === "STEMM")
-      .reduce((sum, row) => sum + safeNum(row.matriculated_count), 0));
-    const nonStemmMatric = sessions.map((session) => trendRows
+      .reduce((sum, row) => sum + safeNum(row.matriculated_count), 0)));
+    const nonStemmMatric = sessions.map((session) => scaledSessionValue(session, trendRows
       .filter((row) => row.session === session && row.programme_cluster === "Non-STEMM")
-      .reduce((sum, row) => sum + safeNum(row.matriculated_count), 0));
+      .reduce((sum, row) => sum + safeNum(row.matriculated_count), 0)));
     return {
       data: [
         { type: "scatter", mode: "text+lines+markers", name: "STEMM Matriculated", x: sessions, y: stemmMatric, text: stemmMatric.map((v) => fmtInt(v)), textposition: "top center", line: { color: COLORS.stemm, width: 3 }, marker: { size: 8, symbol: "circle" }, hovertemplate: "%{x}<br>STEMM Matriculated: %{y:,}<extra></extra>" },
@@ -1604,7 +1708,7 @@ export default function PolicyImpactDashboard({
       fixedLegend: [{ label: "STEMM Matriculated", color: COLORS.stemm }, { label: "Non-STEMM Matriculated", color: COLORS.nonStemm, dashed: true }],
       titleNote: matriculatedGrandTotal,
     };
-  }, [trendRows, matriculatedGrandTotal]);
+  }, [trendRows, filters, disabilityMode, canonicalTransitionRows, matriculatedGrandTotal]);
 
   const loanTrendBundle = useMemo<ChartBundle>(() => {
     const sessionRows = LOAN_TREND_SESSIONS.map((session) => {
