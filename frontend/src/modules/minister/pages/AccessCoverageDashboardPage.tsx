@@ -268,12 +268,6 @@ type SchoolLevelOption =
 const ABUJA_STATE_NAME = "Abuja Federal Capital Territory";
 const ABUJA_STATE_LABEL = "FCT";
 const DEFAULT_SORT_MODE: SortMode = "alphabetical";
-const SORT_LABELS: Record<SortMode, string> = {
-  alphabetical: "Alphabetical A-Z",
-  desc: "Highest to Lowest",
-  asc: "Lowest to Highest",
-};
-
 const displayLocationLabel = (label: string, level?: LocationLevel | MapLevel): string => {
   const trimmed = String(label ?? "").trim();
   const shouldUseFctLabel = level === undefined || level === "state";
@@ -669,12 +663,12 @@ const CHART_SIDE_PADDING_PX = 12;
 const HORIZONTAL_LABEL_MARGIN_PX = 92;
 const VERTICAL_AXIS_MARGIN_PX = 48;
 
-const HIDDEN_HORIZONTAL_AXIS = {
+const HIDDEN_HORIZONTAL_AXIS: NonNullable<PlotlyLayout["xaxis"]> = {
   showgrid: false,
   showticklabels: false,
   zeroline: false,
   ticks: "",
-  rangemode: "tozero" as const,
+  rangemode: "tozero",
 };
 
 function sameHeightAsKeyEntry(labelsLength: number, isScrollable: boolean): number {
@@ -3928,7 +3922,7 @@ export default function AccessCoverageDashboard({
       publicFemaleValues,
       privateMaleValues,
       privateFemaleValues,
-    ], 0.14);
+    ], 0.05);
 
     const isScrollable = labels.length > 8;
     const height = sameHeightAsKeyEntry(labels.length, isScrollable);
@@ -3945,9 +3939,7 @@ export default function AccessCoverageDashboard({
         marker: { color: "#1d4ed8", line: { color: "#1e3a8a", width: 0.6 } },
         text: publicMaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
         textposition: "inside",
-        textangle: 0,
         textfont: { color: "#ffffff", size: 11 },
-        constraintext: "none",
         insidetextanchor: "middle",
         customdata: labelValueCustomData(displayLabels, publicMaleValues),
         hovertemplate: "<b>%{customdata[0]}</b><br>Public Male: %{customdata[1]:,.0f}<extra></extra>",
@@ -3962,9 +3954,7 @@ export default function AccessCoverageDashboard({
         marker: { color: "#60a5fa", line: { color: "#2563eb", width: 0.6 } },
         text: publicFemaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
         textposition: "inside",
-        textangle: 0,
         textfont: { color: "#0f172a", size: 11 },
-        constraintext: "none",
         insidetextanchor: "middle",
         customdata: labelValueCustomData(displayLabels, publicFemaleValues),
         hovertemplate: "<b>%{customdata[0]}</b><br>Public Female: %{customdata[1]:,.0f}<extra></extra>",
@@ -3979,9 +3969,7 @@ export default function AccessCoverageDashboard({
         marker: { color: "#c2410c", line: { color: "#9a3412", width: 0.6 } },
         text: privateMaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
         textposition: "inside",
-        textangle: 0,
         textfont: { color: "#ffffff", size: 11 },
-        constraintext: "none",
         insidetextanchor: "middle",
         customdata: labelValueCustomData(displayLabels, privateMaleValues),
         hovertemplate: "<b>%{customdata[0]}</b><br>Private Male: %{customdata[1]:,.0f}<extra></extra>",
@@ -3996,9 +3984,7 @@ export default function AccessCoverageDashboard({
         marker: { color: "#fdba74", line: { color: "#ea580c", width: 0.6 } },
         text: privateFemaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
         textposition: "inside",
-        textangle: 0,
         textfont: { color: "#431407", size: 11 },
-        constraintext: "none",
         insidetextanchor: "middle",
         customdata: labelValueCustomData(displayLabels, privateFemaleValues),
         hovertemplate: "<b>%{customdata[0]}</b><br>Private Female: %{customdata[1]:,.0f}<extra></extra>",
@@ -4810,13 +4796,10 @@ export default function AccessCoverageDashboard({
   const buildMapData = (
     drill: DrillState,
     kind: "density" | "densityPublic" | "densityPrivate" | "densityCombined" | "computer" | "infrastructure",
-    options?: { useFilterState?: boolean },
   ): SvgMapData | null => {
     // Effective state: use map's own drill.state, OR fall back to filters.state when a chart
-    // drill has set the filter without updating the map drill yet. For the combined density map,
-    // we can disable the filter fallback while scoped LGA data is still loading so the map does
-    // not briefly render an empty LGA view.
-    const effectiveState = drill.state ?? (options?.useFilterState === false ? undefined : (renderFilters.state || undefined));
+    // drill has set the filter without updating the map drill yet.
+    const effectiveState = drill.state ?? (renderFilters.state || undefined);
     const level: MapLevel = effectiveState ? "lga" : "state";
 
     const baseRows = effectiveState
@@ -4976,22 +4959,7 @@ export default function AccessCoverageDashboard({
     };
   }, [renderComputerDrill, currentRows, renderFilters.state]);
 
-  const densityCombinedActiveState = renderDensityDrill.state ?? (renderFilters.state || "");
-  const densityCombinedDrillReady = Boolean(
-    densityCombinedActiveState &&
-      currentRows.some(
-        (row) => row.state === densityCombinedActiveState && row.school_level === "Pre-Primary/Primary" && Boolean(row.lga),
-      ),
-  );
-  const densityCombinedDisplayDrill = useMemo<DrillState>(
-    () => (densityCombinedDrillReady ? { ...renderDensityDrill, state: densityCombinedActiveState } : {}),
-    [densityCombinedDrillReady, renderDensityDrill, densityCombinedActiveState],
-  );
-  const densityCombinedMapData = useMemo(
-    () => buildMapData(densityCombinedDisplayDrill, "densityCombined", { useFilterState: false }),
-    [currentRows, densityCombinedDisplayDrill],
-  );
-  const visibleDensityCombinedDrillChart = densityCombinedDrillReady ? densityCombinedDrillChart : null;
+  const densityCombinedMapData = useMemo(() => buildMapData(renderDensityDrill, "densityCombined"), [currentRows, renderDensityDrill, renderFilters.state]);
   const computerMapData = useMemo(() => buildMapData(renderComputerDrill, "computer"), [currentRows, renderComputerDrill, renderFilters.state]);
   const infrastructureMapData = useMemo(() => buildMapData({}, "infrastructure"), [currentRows]);
   const activeInfrastructureState = renderInfrastructureDrill.state ?? (renderFilters.state || "");
@@ -5301,7 +5269,7 @@ export default function AccessCoverageDashboard({
     densityMapPublic: { bundle: { data: [], layout: buildCommonLayout(10) } },
     densityMapPrivate: { bundle: { data: [], layout: buildCommonLayout(10) } },
     densityCombined: { bundle: { data: [], layout: buildCommonLayout(10) } },
-    densityCombinedDrill: visibleDensityCombinedDrillChart ? { bundle: visibleDensityCombinedDrillChart } : { bundle: { data: [], layout: buildCommonLayout(10) } },
+    densityCombinedDrill: densityCombinedDrillChart ? { bundle: densityCombinedDrillChart } : { bundle: { data: [], layout: buildCommonLayout(10) } },
     densitySchoolLevel: { bundle: densitySchoolLevelChart },
     densityDrillPublic: densityPublicDrillChart ? { bundle: densityPublicDrillChart } : { bundle: { data: [], layout: buildCommonLayout(10) } },
     densityDrillPrivate: densityPrivateDrillChart ? { bundle: densityPrivateDrillChart } : { bundle: { data: [], layout: buildCommonLayout(10) } },
@@ -5395,12 +5363,12 @@ export default function AccessCoverageDashboard({
       <section className="space-y-4" id="access-coverage-main">
         <SectionTitle id="access-coverage-main-anchor" title="Access & Coverage" />
         <div className="flex flex-nowrap items-stretch gap-3 [&>*:first-child]:min-w-0 [&>*:first-child]:flex-[1.35] [&>*:last-child]:min-w-0 [&>*:last-child]:flex-1">
-          {visibleDensityCombinedDrillChart ? (
+          {densityCombinedDrillChart ? (
             <div className="relative w-full min-w-0 overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm">
               <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
                 <div>
                   <div className="text-sm font-bold text-slate-900">Average Primary Learners per School</div>
-                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {displayLocationLabel(densityCombinedDisplayDrill.state ?? renderFilters.state, "state")} ({locationLevelLabel(scopedBreakdownLevel(renderFilters, (densityCombinedDisplayDrill.state ?? renderFilters.state) || undefined))} view)</div>
+                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {displayLocationLabel(renderDensityDrill.state ?? renderFilters.state, "state")} ({locationLevelLabel(scopedBreakdownLevel(renderFilters, (renderDensityDrill.state ?? renderFilters.state) || undefined))} view)</div>
                 </div>
                 <div className="flex items-center gap-2">
                   <button
@@ -5424,13 +5392,13 @@ export default function AccessCoverageDashboard({
                 </div>
               </div>
               <div className="w-full overflow-x-hidden px-3 py-0">
-                {visibleDensityCombinedDrillChart.fixedLegend?.length ? <FixedLegend items={visibleDensityCombinedDrillChart.fixedLegend} /> : null}
-                {visibleDensityCombinedDrillChart.scrollable ? (
-                  <div className="block w-full min-w-0 overflow-y-auto" style={{ maxHeight: visibleDensityCombinedDrillChart.scrollMaxHeight ?? 320 }}>
-                    <StretchedPlot bundle={visibleDensityCombinedDrillChart} />
+                {densityCombinedDrillChart.fixedLegend?.length ? <FixedLegend items={densityCombinedDrillChart.fixedLegend} /> : null}
+                {densityCombinedDrillChart.scrollable ? (
+                  <div className="block w-full min-w-0 overflow-y-auto" style={{ maxHeight: densityCombinedDrillChart.scrollMaxHeight ?? 320 }}>
+                    <StretchedPlot bundle={densityCombinedDrillChart} />
                   </div>
                 ) : (
-                  <StretchedPlot bundle={visibleDensityCombinedDrillChart} />
+                  <StretchedPlot bundle={densityCombinedDrillChart} />
                 )}
               </div>
             </div>
@@ -5439,7 +5407,7 @@ export default function AccessCoverageDashboard({
               title="Average Primary Learners per School"
               explanation={CHART_HELP.densityCombined}
               mapData={densityCombinedMapData}
-              drill={densityCombinedDisplayDrill}
+              drill={renderDensityDrill}
               onReset={() => {
                 resetLinkedStateDrills();
                 setFilters((p: MinisterFilters) => ({ ...p, zone: "", state: "", lga: "", ward: "", school: "" }));
