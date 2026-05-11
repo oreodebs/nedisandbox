@@ -1,6 +1,5 @@
-
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { Dispatch, MouseEvent as ReactMouseEvent, ReactNode, SetStateAction } from "react";
+import type { CSSProperties, Dispatch, MouseEvent as ReactMouseEvent, ReactNode, SetStateAction } from "react";
 import Plot from "react-plotly.js";
 import {
   ArrowDownRight,
@@ -22,7 +21,6 @@ import type { DimSession, MinisterFilters } from "../types";
 import {
   canonicalState,
   expectedLocLevelForLocation,
-  loadRefinedFile,
   loadRefinedScopedRows,
   scopeDepthForLocation,
 } from "../utils/refinedPageData";
@@ -42,6 +40,7 @@ type PerformanceRow = {
   gender: string;
   disability: string;
   olevel_exam_body: string;
+  institution_type?: string;
   candidate_count: number;
   passed_count: number;
   pass_rate_pct: number;
@@ -54,13 +53,6 @@ type PerformanceRow = {
   matriculation_completion_rate_pct: number;
 };
 
-type BenchmarkRow = {
-  metric_key: string;
-  label: string;
-  exam_body: string;
-  benchmark_pct: number;
-  source_note: string;
-};
 
 type PlotPoint = {
   x?: string | number;
@@ -141,7 +133,7 @@ type LocationGenderSplit = {
   overallRate: number;
   totalNumerator: number;
   totalDenominator: number;
-  sampleRow: PerformanceRow;
+  sampleRow?: PerformanceRow;
 };
 
 type TrendPoint = {
@@ -163,6 +155,7 @@ type MetricCard = {
   denominator?: number;
   numeratorLabel?: string;
   denominatorLabel?: string;
+  breakdown?: Array<{ label: string; value: string }>;
 };
 
 type LegendItem = {
@@ -180,6 +173,7 @@ type ChartBundle = {
   expandedMaxHeight?: number;
   expandedWidthClass?: string;
   fixedLegend?: LegendItem[];
+  titleNote?: string;
 };
 
 type LocationChartResult = {
@@ -223,6 +217,112 @@ const DRILL_START_LEVEL: Record<DrillKey, LocationLevel> = {
 const ZONE_ORDER = ["North West", "North East", "North Central", "South West", "South East", "South South"] as const;
 const GENDER_ORDER = ["Male", "Female"] as const;
 
+type SortMode = "alphabetical" | "desc" | "asc";
+type SortablePerformanceChartKey = Extract<
+  ExpandChartKey,
+  | "waecZone"
+  | "waecState"
+  | "necoZone"
+  | "necoState"
+  | "nabtebZone"
+  | "nabtebState"
+  | "utmeZone"
+  | "utmeState"
+>;
+
+const DEFAULT_SORT_MODE: SortMode = "alphabetical";
+const SORT_OPTIONS: Array<{ value: SortMode; label: string }> = [
+  { value: "alphabetical", label: "A-Z" },
+  { value: "desc", label: "High-Low" },
+  { value: "asc", label: "Low-High" },
+];
+const SORTABLE_PERFORMANCE_CHART_KEYS: SortablePerformanceChartKey[] = [
+  "waecZone",
+  "waecState",
+  "necoZone",
+  "necoState",
+  "nabtebZone",
+  "nabtebState",
+  "utmeZone",
+  "utmeState",
+];
+const DEFAULT_PERFORMANCE_SORT_MODES: Record<SortablePerformanceChartKey, SortMode> = {
+  waecZone: DEFAULT_SORT_MODE,
+  waecState: DEFAULT_SORT_MODE,
+  necoZone: DEFAULT_SORT_MODE,
+  necoState: DEFAULT_SORT_MODE,
+  nabtebZone: DEFAULT_SORT_MODE,
+  nabtebState: DEFAULT_SORT_MODE,
+  utmeZone: DEFAULT_SORT_MODE,
+  utmeState: DEFAULT_SORT_MODE,
+};
+
+const ABUJA_STATE_NAME = "Abuja Federal Capital Territory";
+const ABUJA_STATE_LABEL = "FCT";
+const STATE_ZONE_MAP: Record<string, string> = {
+  Abia: "South East",
+  Adamawa: "North East",
+  "Akwa Ibom": "South South",
+  Anambra: "South East",
+  Bauchi: "North East",
+  Bayelsa: "South South",
+  Benue: "North Central",
+  Borno: "North East",
+  "Cross River": "South South",
+  Delta: "South South",
+  Ebonyi: "South East",
+  Edo: "South South",
+  Ekiti: "South West",
+  Enugu: "South East",
+  [ABUJA_STATE_NAME]: "North Central",
+  FCT: "North Central",
+  "Abuja FCT": "North Central",
+  Abuja: "North Central",
+  Gombe: "North East",
+  Imo: "South East",
+  Jigawa: "North West",
+  Kaduna: "North West",
+  Kano: "North West",
+  Katsina: "North West",
+  Kebbi: "North West",
+  Kogi: "North Central",
+  Kwara: "North Central",
+  Lagos: "South West",
+  Nasarawa: "North Central",
+  Niger: "North Central",
+  Ogun: "South West",
+  Ondo: "South West",
+  Osun: "South West",
+  Oyo: "South West",
+  Plateau: "North Central",
+  Rivers: "South South",
+  Sokoto: "North West",
+  Taraba: "North East",
+  Yobe: "North East",
+  Zamfara: "North West",
+};
+const STATE_SOURCE_NAMES = Object.keys(STATE_ZONE_MAP).filter(
+  (state) => ![ABUJA_STATE_LABEL, "Abuja FCT", "Abuja"].includes(state),
+);
+
+const BENCHMARK_BADGES: Record<"WAEC" | "NECO" | "NABTEB" | "UTME", string> = {
+  WAEC: "Benchmark: 50%",
+  NECO: "Benchmark: 50%",
+  NABTEB: "Benchmark: 50%",
+  UTME: "Benchmark: >180",
+};
+
+const BENCHMARK_EXPLANATIONS: Record<"WAEC" | "NECO" | "NABTEB" | "UTME", string> = {
+  WAEC: "Benchmark: 50% means the 5-credit threshold including English and Mathematics.",
+  NECO: "Benchmark: 50% means the 5-credit threshold including English and Mathematics.",
+  NABTEB: "Benchmark: 50% means the 5-credit threshold including English and Mathematics.",
+  UTME: "Benchmark: >180 means candidates who scored above 180 in UTME.",
+};
+
+function benchmarkedTitle(title: string, examBody: "WAEC" | "NECO" | "NABTEB" | "UTME"): string {
+  return `${title} (${BENCHMARK_BADGES[examBody]})`;
+}
+
 function genderColorsForExam(examBody: string): { male: string; female: string } {
   if (examBody === "WAEC") return { male: "#2563eb", female: "#10b981" };
   if (examBody === "NECO") return { male: "#f59e0b", female: "#f97316" };
@@ -232,19 +332,19 @@ function genderColorsForExam(examBody: string): { male: string; female: string }
 }
 
 const HELP_TEXT: Record<ExpandChartKey, string> = {
-  waecGender: "This chart compares WAEC pass rate between male and female learners. The figure inside the bar is the number of learners who passed, while the rate label shows the pass rate.",
-  waecZone: "This chart compares WAEC pass rate across locations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill from Zone into State, then deeper into LGA, Ward, and School.",
-  waecState: "This chart ranks WAEC pass rate across states and deeper sublocations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill deeper.",
-  necoGender: "This chart compares NECO pass rate between male and female learners. The figure inside the bar is the number of learners who passed, while the rate label shows the pass rate.",
-  necoZone: "This chart compares NECO pass rate across locations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill deeper.",
-  necoState: "This chart ranks NECO pass rate across states and deeper sublocations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill deeper.",
-  nabtebGender: "This chart compares NABTEB pass rate between male and female learners. The figure inside the bar is the number of learners who passed, while the rate label shows the pass rate.",
-  nabtebZone: "This chart compares NABTEB pass rate across locations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill deeper.",
-  nabtebState: "This chart ranks NABTEB pass rate across states and deeper sublocations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill deeper.",
-  utmeGender: "This chart compares UTME qualifying rate between male and female learners. The figure inside the bar is the number of learners who qualified, while the rate label shows the qualifying rate.",
-  utmeZone: "This chart compares UTME qualifying rate across locations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill deeper.",
-  utmeState: "This chart ranks UTME qualifying rate across states and deeper sublocations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill deeper.",
-  trend: "This chart shows the four-year trend for WAEC, NECO, NABTEB, and UTME. The labels on the points show the rates, and hovering shows the underlying student counts.",
+  waecGender: `${BENCHMARK_EXPLANATIONS.WAEC} This chart compares WAEC pass rate between male and female students. The figure inside the bar is the number who passed, while the rate label shows the pass rate.`,
+  waecZone: `${BENCHMARK_EXPLANATIONS.WAEC} This chart compares WAEC pass rate across locations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill from Zone into State, then deeper into LGA, Ward, and School.`,
+  waecState: `${BENCHMARK_EXPLANATIONS.WAEC} This chart ranks WAEC pass rate across states and deeper sublocations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill deeper.`,
+  necoGender: `${BENCHMARK_EXPLANATIONS.NECO} This chart compares NECO pass rate between male and female students. The figure inside the bar is the number who passed, while the rate label shows the pass rate.`,
+  necoZone: `${BENCHMARK_EXPLANATIONS.NECO} This chart compares NECO pass rate across locations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill deeper.`,
+  necoState: `${BENCHMARK_EXPLANATIONS.NECO} This chart ranks NECO pass rate across states and deeper sublocations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill deeper.`,
+  nabtebGender: `${BENCHMARK_EXPLANATIONS.NABTEB} This chart compares NABTEB pass rate between male and female students. The figure inside the bar is the number who passed, while the rate label shows the pass rate.`,
+  nabtebZone: `${BENCHMARK_EXPLANATIONS.NABTEB} This chart compares NABTEB pass rate across locations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill deeper.`,
+  nabtebState: `${BENCHMARK_EXPLANATIONS.NABTEB} This chart ranks NABTEB pass rate across states and deeper sublocations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill deeper.`,
+  utmeGender: `${BENCHMARK_EXPLANATIONS.UTME} This chart compares UTME qualifying rate between male and female students. The figure inside the bar is the number who scored above 180, while the rate label shows the qualifying rate.`,
+  utmeZone: `${BENCHMARK_EXPLANATIONS.UTME} This chart compares UTME qualifying rate across locations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill deeper.`,
+  utmeState: `${BENCHMARK_EXPLANATIONS.UTME} This chart ranks UTME qualifying rate across states and deeper sublocations using one stacked horizontal bar per location, split into male and female segments with actual student counts. Click a bar to drill deeper.`,
+  trend: "This chart shows the three-year trend for WAEC, NECO, NABTEB, and UTME. The labels on the points show the rates, and hovering shows the underlying student counts.",
 };
 
 function safeNum(value: unknown): number {
@@ -266,9 +366,8 @@ function fmtInt(value: number): string {
   return Math.round(value).toLocaleString();
 }
 
-function barCountLabel(value: number, total: number): string {
+function barCountLabel(value: number, _total: number): string {
   if (value <= 0) return "";
-  if (total > 0 && value / total < 0.075) return "";
   return fmtInt(value);
 }
 
@@ -306,7 +405,38 @@ function cloneChartBundle(bundle?: ChartBundle): ChartBundle | undefined {
     layout: JSON.parse(JSON.stringify(bundle.layout)) as PlotLayout,
     config: bundle.config ? (JSON.parse(JSON.stringify(bundle.config)) as PlotConfig) : undefined,
     fixedLegend: bundle.fixedLegend?.map((item) => ({ ...item })),
+    titleNote: bundle.titleNote,
   };
+}
+
+function expandedChartBundle(bundle?: ChartBundle, chartKey?: ExpandChartKey): ChartBundle | undefined {
+  const cloned = cloneChartBundle(bundle);
+  if (!cloned) return undefined;
+
+  if (chartKey && isSortablePerformanceChartKey(chartKey)) {
+    const currentHeight = chartPixelHeight(cloned.layout, 420);
+    const isStateLikeChart = cloned.scrollable === true;
+    cloned.expandedWidthClass = isStateLikeChart ? "max-w-[1320px]" : "max-w-[1180px]";
+    cloned.expandedMaxHeight = isStateLikeChart ? 760 : 620;
+    cloned.layout = {
+      ...cloned.layout,
+      height: isStateLikeChart ? Math.max(currentHeight, 760) : Math.min(Math.max(currentHeight, 520), 620),
+      bargap: isStateLikeChart ? 0.18 : 0.22,
+      margin: { l: isStateLikeChart ? 128 : 118, r: 64, t: 10, b: 32 },
+      xaxis: {
+        ...((cloned.layout.xaxis as Record<string, unknown> | undefined) ?? {}),
+        automargin: false,
+        fixedrange: false,
+      },
+      yaxis: {
+        ...((cloned.layout.yaxis as Record<string, unknown> | undefined) ?? {}),
+        automargin: false,
+        tickfont: { color: COLORS.sub, size: 11 },
+      },
+    };
+  }
+
+  return cloned;
 }
 
 function weightedRate(numerator: number, denominator: number): number {
@@ -317,6 +447,116 @@ function weightedRate(numerator: number, denominator: number): number {
 function yearFromSession(session: string): string {
   const value = `${session}`;
   return value.includes("/") ? value.split("/")[0] ?? value : value;
+}
+
+
+function displayLocationLabel(label: string, level?: LocationLevel): string {
+  const trimmed = String(label ?? "").trim();
+  if ((level === undefined || level === "state") && [ABUJA_STATE_NAME, ABUJA_STATE_LABEL, "Abuja FCT", "Abuja"].includes(trimmed)) {
+    return ABUJA_STATE_LABEL;
+  }
+  return trimmed;
+}
+
+function sourceLocationLabel(label: string): string {
+  const trimmed = String(label ?? "").trim();
+  return [ABUJA_STATE_LABEL, "Abuja FCT", "Abuja"].includes(trimmed) ? ABUJA_STATE_NAME : trimmed;
+}
+
+function zoneForState(state: string): string {
+  return STATE_ZONE_MAP[sourceLocationLabel(state)] ?? STATE_ZONE_MAP[state] ?? "";
+}
+
+function compareLocationLabels(left: string, right: string, level?: LocationLevel): number {
+  return displayLocationLabel(left, level).localeCompare(displayLocationLabel(right, level));
+}
+
+function stateLabelsForZone(zone: string): string[] {
+  return STATE_SOURCE_NAMES.filter((state) => !zone || STATE_ZONE_MAP[state] === zone).sort((left, right) => compareLocationLabels(left, right, "state"));
+}
+
+function isSortablePerformanceChartKey(chartKey: ExpandChartKey): chartKey is SortablePerformanceChartKey {
+  return (SORTABLE_PERFORMANCE_CHART_KEYS as ExpandChartKey[]).includes(chartKey);
+}
+
+function formatBreakdownShare(value: number, total: number): string {
+  const pct = total > 0 ? (value / total) * 100 : 0;
+  return `${fmtInt(value)} (${pct.toFixed(1)}%)`;
+}
+
+function scaleValuesToTotal(values: number[], targetTotal: number): number[] {
+  const cleanValues = values.map((value) => Math.max(0, safeNum(value)));
+  const cleanTarget = Math.max(0, Math.round(safeNum(targetTotal)));
+  const currentTotal = cleanValues.reduce((sum, value) => sum + value, 0);
+
+  if (cleanTarget <= 0 || currentTotal <= 0) return cleanValues.map(() => 0);
+
+  const scaled = cleanValues.map((value) => (value / currentTotal) * cleanTarget);
+  const roundedDown = scaled.map((value) => Math.floor(value));
+  let remainder = cleanTarget - roundedDown.reduce((sum, value) => sum + value, 0);
+  const order = scaled
+    .map((value, index) => ({ index, fraction: value - Math.floor(value) }))
+    .sort((left, right) => right.fraction - left.fraction);
+
+  for (const item of order) {
+    if (remainder <= 0) break;
+    roundedDown[item.index] += 1;
+    remainder -= 1;
+  }
+
+  return roundedDown;
+}
+
+function splitTotalByShares(total: number, shares: number[]): number[] {
+  const cleanTotal = Math.max(0, Math.round(safeNum(total)));
+  if (cleanTotal <= 0) return shares.map(() => 0);
+
+  const rawValues = shares.map((share) => Math.max(0, share) * cleanTotal);
+  const roundedDown = rawValues.map((value) => Math.floor(value));
+  let remainder = cleanTotal - roundedDown.reduce((sum, value) => sum + value, 0);
+  const order = rawValues
+    .map((value, index) => ({ index, fraction: value - Math.floor(value) }))
+    .sort((left, right) => right.fraction - left.fraction);
+
+  for (const item of order) {
+    if (remainder <= 0) break;
+    roundedDown[item.index] += 1;
+    remainder -= 1;
+  }
+
+  return roundedDown;
+}
+
+function titleGrandTotal(label: string, value: number): string {
+  return `Grand Total: ${fmtInt(value)} ${label}`;
+}
+
+function minimumVisibleStackValues(seriesValues: number[][], minRatio = 0.065): number[][] {
+  const rowCount = Math.max(0, ...seriesValues.map((series) => series.length));
+  const totals = Array.from({ length: rowCount }, (_, index) =>
+    seriesValues.reduce((sum, series) => sum + Math.max(0, safeNum(series[index])), 0),
+  );
+  const maxTotal = Math.max(...totals, 1);
+  const minimum = maxTotal * minRatio;
+
+  return seriesValues.map((series) =>
+    series.map((value) => {
+      const numeric = safeNum(value);
+      if (numeric <= 0) return 0;
+      return Math.max(numeric, minimum);
+    }),
+  );
+}
+
+function horizontalValueAxis(rangeMax: number): Record<string, unknown> {
+  return {
+    range: [0, Math.max(1, Math.ceil(rangeMax * 1.08))],
+    showgrid: false,
+    showticklabels: false,
+    zeroline: false,
+    ticks: "",
+    fixedrange: true,
+  };
 }
 
 function locationLabel(row: PerformanceRow, level: LocationLevel): string {
@@ -394,26 +634,32 @@ function groupByGender(rows: PerformanceRow[], metric: RateMetric): GroupedRate[
   });
 }
 
-function sortGroupedRates(items: GroupedRate[], level: LocationLevel): GroupedRate[] {
-  if (level === "zone") {
-    return [...items].sort((a, b) => {
-      const indexA = ZONE_ORDER.indexOf(a.label as (typeof ZONE_ORDER)[number]);
-      const indexB = ZONE_ORDER.indexOf(b.label as (typeof ZONE_ORDER)[number]);
+function sortGroupedRates(items: GroupedRate[], level: LocationLevel, sortMode: SortMode = DEFAULT_SORT_MODE): GroupedRate[] {
+  return [...items].sort((left, right) => {
+    if (sortMode === "desc" || sortMode === "asc") {
+      const direction = sortMode === "desc" ? -1 : 1;
+      const diff = (left.rate - right.rate) * direction;
+      if (diff !== 0) return diff;
+    }
+
+    if (level === "zone" && sortMode === "alphabetical") {
+      const indexA = ZONE_ORDER.indexOf(left.label as (typeof ZONE_ORDER)[number]);
+      const indexB = ZONE_ORDER.indexOf(right.label as (typeof ZONE_ORDER)[number]);
       if (indexA !== -1 || indexB !== -1) {
         return (indexA === -1 ? 999 : indexA) - (indexB === -1 ? 999 : indexB);
       }
-      return a.label.localeCompare(b.label);
-    });
-  }
+    }
 
-  return [...items].sort((a, b) => b.rate - a.rate);
+    return compareLocationLabels(left.label, right.label, level);
+  });
 }
 
-function buildGroupedRates(rows: PerformanceRow[], level: LocationLevel, metric: RateMetric): GroupedRate[] {
+function buildGroupedRates(rows: PerformanceRow[], level: LocationLevel, metric: RateMetric, sortMode: SortMode = DEFAULT_SORT_MODE): GroupedRate[] {
   const bucket = new Map<string, { numerator: number; denominator: number }>();
 
   rows.forEach((row) => {
-    const label = locationLabel(row, level);
+    const rawLabel = locationLabel(row, level);
+    const label = level === "state" ? sourceLocationLabel(rawLabel) : rawLabel;
     if (!label) return;
 
     const previous = bucket.get(label) ?? { numerator: 0, denominator: 0 };
@@ -423,27 +669,30 @@ function buildGroupedRates(rows: PerformanceRow[], level: LocationLevel, metric:
     });
   });
 
-  const grouped = Array.from(bucket.entries())
-    .map(([label, totals]) => ({
-      label,
-      numerator: totals.numerator,
-      denominator: totals.denominator,
-      rate: weightedRate(totals.numerator, totals.denominator),
-    }))
-    .filter((item) => item.denominator > 0);
+  const grouped = Array.from(bucket.entries()).map(([label, totals]) => ({
+    label,
+    numerator: totals.numerator,
+    denominator: totals.denominator,
+    rate: weightedRate(totals.numerator, totals.denominator),
+  }));
 
-  return sortGroupedRates(grouped, level);
+  return sortGroupedRates(grouped, level, sortMode);
 }
 
-function buildLocationGenderSplits(rows: PerformanceRow[], level: LocationLevel, metric: RateMetric): LocationGenderSplit[] {
-  const overall = buildGroupedRates(rows, level, metric);
-  const order = overall.map((item) => item.label);
-  const overallRateMap = new Map(overall.map((item) => [item.label, item.rate]));
+function buildLocationGenderSplits(
+  rows: PerformanceRow[],
+  level: LocationLevel,
+  metric: RateMetric,
+  sortMode: SortMode = DEFAULT_SORT_MODE,
+  zoneFilter = "",
+): LocationGenderSplit[] {
+  const overall = buildGroupedRates(rows, level, metric, sortMode);
   const bucket = new Map<string, { maleNumerator: number; maleDenominator: number; femaleNumerator: number; femaleDenominator: number }>();
   const samples = new Map<string, PerformanceRow>();
 
   rows.forEach((row) => {
-    const label = locationLabel(row, level);
+    const rawLabel = locationLabel(row, level);
+    const label = level === "state" ? sourceLocationLabel(rawLabel) : rawLabel;
     if (!label) return;
 
     const previous = bucket.get(label) ?? {
@@ -468,34 +717,53 @@ function buildLocationGenderSplits(rows: PerformanceRow[], level: LocationLevel,
     bucket.set(label, previous);
   });
 
-  return order
-    .map((label) => {
-      const totals = bucket.get(label) ?? {
-        maleNumerator: 0,
-        maleDenominator: 0,
-        femaleNumerator: 0,
-        femaleDenominator: 0,
-      };
-      const totalNumerator = totals.maleNumerator + totals.femaleNumerator;
-      const totalDenominator = totals.maleDenominator + totals.femaleDenominator;
-      const sampleRow = samples.get(label);
-      if (!sampleRow) return null;
+  if (level === "state") {
+    stateLabelsForZone(zoneFilter).forEach((state) => {
+      if (!bucket.has(state)) {
+        bucket.set(state, { maleNumerator: 0, maleDenominator: 0, femaleNumerator: 0, femaleDenominator: 0 });
+      }
+    });
+  }
 
-      return {
-        location: label,
-        maleNumerator: totals.maleNumerator,
-        maleDenominator: totals.maleDenominator,
-        femaleNumerator: totals.femaleNumerator,
-        femaleDenominator: totals.femaleDenominator,
-        maleRate: weightedRate(totals.maleNumerator, totals.maleDenominator),
-        femaleRate: weightedRate(totals.femaleNumerator, totals.femaleDenominator),
-        overallRate: overallRateMap.get(label) ?? weightedRate(totalNumerator, totalDenominator),
-        totalNumerator,
-        totalDenominator,
-        sampleRow,
-      };
-    })
-    .filter((item): item is LocationGenderSplit => item !== null && item.totalDenominator > 0);
+  const overallRateMap = new Map(overall.map((item) => [item.label, item.rate]));
+  const labels = sortGroupedRates(
+    Array.from(bucket.entries()).map(([label, totals]) => ({
+      label,
+      numerator: totals.maleNumerator + totals.femaleNumerator,
+      denominator: totals.maleDenominator + totals.femaleDenominator,
+      rate: weightedRate(totals.maleNumerator + totals.femaleNumerator, totals.maleDenominator + totals.femaleDenominator),
+    })),
+    level,
+    sortMode,
+  ).map((item) => item.label);
+
+  return labels.flatMap((label): LocationGenderSplit[] => {
+    const totals = bucket.get(label) ?? {
+      maleNumerator: 0,
+      maleDenominator: 0,
+      femaleNumerator: 0,
+      femaleDenominator: 0,
+    };
+    const totalNumerator = totals.maleNumerator + totals.femaleNumerator;
+    const totalDenominator = totals.maleDenominator + totals.femaleDenominator;
+    const sampleRow = samples.get(label);
+    if (!sampleRow && level !== "state") return [];
+    if (level !== "state" && totalDenominator <= 0) return [];
+
+    return [{
+      location: label,
+      maleNumerator: totals.maleNumerator,
+      maleDenominator: totals.maleDenominator,
+      femaleNumerator: totals.femaleNumerator,
+      femaleDenominator: totals.femaleDenominator,
+      maleRate: weightedRate(totals.maleNumerator, totals.maleDenominator),
+      femaleRate: weightedRate(totals.femaleNumerator, totals.femaleDenominator),
+      overallRate: overallRateMap.get(label) ?? weightedRate(totalNumerator, totalDenominator),
+      totalNumerator,
+      totalDenominator,
+      sampleRow,
+    }];
+  });
 }
 
 function resolveLocationRows(
@@ -546,9 +814,6 @@ function extractDrillContext(event: PlotPointEvent, currentLevel: LocationLevel)
   };
 }
 
-function benchmarkFor(metric: string, benchmarks: BenchmarkRow[]): number {
-  return benchmarks.find((row) => row.metric_key === metric)?.benchmark_pct ?? 0;
-}
 
 function syncFiltersForDrill(
   setFilters: Dispatch<SetStateAction<MinisterFilters>>,
@@ -556,15 +821,15 @@ function syncFiltersForDrill(
 ) {
   if (!context.label || context.level === "school") return;
 
-  setFilters((previous) => {
+  setFilters((previous: MinisterFilters) => {
     if (context.level === "zone") {
       return { ...previous, zone: context.zone ?? context.label, state: "", lga: "", ward: "", school: "" };
     }
     if (context.level === "state") {
       return {
         ...previous,
-        zone: context.zone ?? previous.zone,
-        state: context.state ?? context.label,
+        zone: context.zone ?? zoneForState(context.state ?? context.label) ?? previous.zone,
+        state: sourceLocationLabel(context.state ?? context.label),
         lga: "",
         ward: "",
         school: "",
@@ -574,7 +839,7 @@ function syncFiltersForDrill(
       return {
         ...previous,
         zone: context.zone ?? previous.zone,
-        state: context.state ?? previous.state,
+        state: context.state ? sourceLocationLabel(context.state) : previous.state,
         lga: context.lga ?? context.label,
         ward: "",
         school: "",
@@ -584,7 +849,7 @@ function syncFiltersForDrill(
       return {
         ...previous,
         zone: context.zone ?? previous.zone,
-        state: context.state ?? previous.state,
+        state: context.state ? sourceLocationLabel(context.state) : previous.state,
         lga: context.lga ?? previous.lga,
         ward: context.ward ?? context.label,
         school: "",
@@ -595,7 +860,7 @@ function syncFiltersForDrill(
 }
 
 function resetLocationFilters(setFilters: Dispatch<SetStateAction<MinisterFilters>>) {
-  setFilters((previous) => {
+  setFilters((previous: MinisterFilters) => {
     if (!previous.zone && !previous.state && !previous.lga && !previous.ward && !previous.school) return previous;
     return {
       ...previous,
@@ -641,8 +906,43 @@ function EmptyState({ title }: { title: string }) {
   );
 }
 
+
+function ChartSortControl({ value, onChange }: { value: SortMode; onChange: (value: SortMode) => void }) {
+  return (
+    <div
+      className="inline-flex h-7 shrink-0 flex-nowrap items-stretch overflow-hidden rounded-md border border-slate-200 bg-white shadow-sm"
+      role="group"
+      aria-label="Sort chart"
+    >
+      {SORT_OPTIONS.map((option) => {
+        const active = option.value === value;
+        const widthClass = option.value === "alphabetical" ? "min-w-[42px]" : "min-w-[66px]";
+
+        return (
+          <button
+            key={option.value}
+            type="button"
+            onClick={() => onChange(option.value)}
+            className={[
+              "flex h-full shrink-0 items-center justify-center whitespace-nowrap px-2 text-[10.5px] font-semibold leading-none transition",
+              widthClass,
+              active ? "bg-slate-900 text-white" : "bg-white text-slate-600 hover:bg-slate-50",
+            ].join(" ")}
+            title={option.label}
+            aria-pressed={active}
+          >
+            {option.label}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
 function KpiCard({ item, prevSessionLabel }: { item: MetricCard; prevSessionLabel?: string }) {
   const [showHelp, setShowHelp] = useState(false);
+  const [helpPanelStyle, setHelpPanelStyle] = useState<CSSProperties>({ left: -9999, top: -9999 });
+  const cardRef = useRef<HTMLDivElement | null>(null);
   const helpButtonRef = useRef<HTMLButtonElement | null>(null);
   const helpPanelRef = useRef<HTMLDivElement | null>(null);
   const rising = item.delta !== null && item.delta > 0;
@@ -650,8 +950,9 @@ function KpiCard({ item, prevSessionLabel }: { item: MetricCard; prevSessionLabe
 
   useEffect(() => {
     if (!showHelp) return undefined;
-    const onDoc = (e: MouseEvent) => {
-      const target = e.target as Node;
+    const onDoc = (event: MouseEvent) => {
+      const target = event.target;
+      if (!(target instanceof Node)) return;
       if (helpButtonRef.current?.contains(target)) return;
       if (helpPanelRef.current?.contains(target)) return;
       setShowHelp(false);
@@ -660,8 +961,57 @@ function KpiCard({ item, prevSessionLabel }: { item: MetricCard; prevSessionLabe
     return () => document.removeEventListener("mousedown", onDoc);
   }, [showHelp]);
 
+  useEffect(() => {
+    if (!showHelp) return undefined;
+
+    const positionHelpPanel = () => {
+      const button = helpButtonRef.current;
+      const card = cardRef.current;
+      const panel = helpPanelRef.current;
+      if (!button || !card) return;
+
+      const buttonRect = button.getBoundingClientRect();
+      const cardRect = card.getBoundingClientRect();
+      const panelWidth = panel?.offsetWidth ?? 240;
+      const panelHeight = panel?.offsetHeight ?? 112;
+      const gap = 10;
+      const margin = 12;
+      const viewportWidth = window.innerWidth;
+      const viewportHeight = window.innerHeight;
+      const clamp = (value: number, min: number, max: number) => Math.min(Math.max(value, min), max);
+      const verticalTop = clamp(buttonRect.top, margin, Math.max(margin, viewportHeight - panelHeight - margin));
+      const rightLeft = cardRect.right + gap;
+      const leftLeft = cardRect.left - panelWidth - gap;
+
+      if (rightLeft + panelWidth <= viewportWidth - margin) {
+        setHelpPanelStyle({ left: rightLeft, top: verticalTop });
+        return;
+      }
+
+      if (leftLeft >= margin) {
+        setHelpPanelStyle({ left: leftLeft, top: verticalTop });
+        return;
+      }
+
+      setHelpPanelStyle({
+        left: clamp(buttonRect.right - panelWidth, margin, Math.max(margin, viewportWidth - panelWidth - margin)),
+        top: clamp(cardRect.bottom + gap, margin, Math.max(margin, viewportHeight - panelHeight - margin)),
+      });
+    };
+
+    const frame = window.requestAnimationFrame(positionHelpPanel);
+    window.addEventListener("resize", positionHelpPanel);
+    window.addEventListener("scroll", positionHelpPanel, true);
+
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.removeEventListener("resize", positionHelpPanel);
+      window.removeEventListener("scroll", positionHelpPanel, true);
+    };
+  }, [showHelp]);
+
   return (
-    <div className="relative overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm">
+    <div ref={cardRef} className="relative overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-md">
       <div className="px-3.5 py-3">
         <div className="flex items-center justify-between gap-2">
           <div className="min-w-0 flex items-center gap-2">
@@ -682,17 +1032,28 @@ function KpiCard({ item, prevSessionLabel }: { item: MetricCard; prevSessionLabe
               onBlur={() => setShowHelp(false)}
               onClick={() => setShowHelp((current) => !current)}
               className="grid h-6 w-6 place-items-center rounded-md border border-slate-200 text-slate-400 hover:bg-slate-50"
+              aria-label={`${item.label} explanation`}
             >
               <HelpCircle className="h-3 w-3" />
             </button>
             {showHelp ? (
               <div
                 ref={helpPanelRef}
-                className="absolute right-0 top-full z-30 mt-2 w-[220px] rounded-xl bg-slate-950 px-3 py-2.5 text-[11px] leading-4 text-white shadow-2xl"
-                onMouseEnter={() => setShowHelp(true)}
-                onMouseLeave={() => setShowHelp(false)}
+                className="pointer-events-none fixed z-[100] w-[240px] rounded-xl bg-slate-950 px-3 py-2.5 text-[11px] leading-4 text-white shadow-2xl"
+                style={helpPanelStyle}
               >
-                {item.help}
+                {item.breakdown?.length ? (
+                  <div className="space-y-1">
+                    {item.breakdown.map((entry) => (
+                      <div key={`${item.label}-${entry.label}`} className="flex items-center justify-between gap-3">
+                        <span className="text-white/70">{entry.label}</span>
+                        <span className="font-semibold text-white">{entry.value}</span>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div>{item.help}</div>
+                )}
               </div>
             ) : null}
           </div>
@@ -726,6 +1087,7 @@ function ChartCard({
   title,
   helpKey,
   bundle,
+  sortControl,
   onRefresh,
   onExpand,
   onPlotClick,
@@ -733,6 +1095,7 @@ function ChartCard({
   title: string;
   helpKey: ExpandChartKey;
   bundle?: ChartBundle;
+  sortControl?: ReactNode;
   onRefresh: () => void;
   onExpand: () => void;
   onPlotClick?: (event: PlotPointEvent) => void;
@@ -757,10 +1120,14 @@ function ChartCard({
   }, [showHelp]);
 
   return (
-    <div className="relative overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+    <div className="relative overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm">
       <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
-        <div className="text-sm font-bold text-slate-900">{title}</div>
-        <div className="flex items-center gap-2">
+        <div className="min-w-0">
+          <div className="text-sm font-bold text-slate-900">{title}</div>
+          {bundle?.titleNote ? <div className="mt-0.5 text-[11px] font-medium leading-4 text-slate-500">{bundle.titleNote}</div> : null}
+        </div>
+        <div className="flex shrink-0 flex-nowrap items-center gap-1.5">
+          {sortControl ? <div className="shrink-0 whitespace-nowrap">{sortControl}</div> : null}
           <div
             className="relative"
             onMouseEnter={() => setShowHelp(true)}
@@ -779,7 +1146,7 @@ function ChartCard({
             {showHelp ? (
               <div
                 ref={helpPanelRef}
-                className="absolute right-0 top-10 z-20 w-[290px] rounded-xl bg-slate-950 px-4 py-3 text-xs leading-5 text-white shadow-2xl"
+                className="pointer-events-none absolute bottom-full right-0 z-30 mb-2 w-[250px] rounded-xl bg-slate-950 px-3 py-2.5 text-[11px] leading-4 text-white shadow-2xl"
                 onClick={(event: ReactMouseEvent<HTMLDivElement>) => event.stopPropagation()}
                 onMouseEnter={() => setShowHelp(true)}
                 onMouseLeave={() => setShowHelp(false)}
@@ -807,17 +1174,18 @@ function ChartCard({
         </div>
       </div>
 
-      <div className="p-4">
+      <div className="w-full overflow-x-hidden px-3 py-0">
         {bundle ? (
           <>
             {bundle.fixedLegend?.length ? <FixedLegend items={bundle.fixedLegend} /> : null}
             {bundle.scrollable ? (
-              <div className="overflow-y-auto pr-1" style={{ maxHeight: bundle.scrollMaxHeight ?? 360 }}>
+              <div className="overflow-y-auto overflow-x-hidden pr-1" style={{ maxHeight: bundle.scrollMaxHeight ?? 360 }}>
                 <Plot
                   data={bundle.data as never}
                   layout={bundle.layout as never}
                   config={(bundle.config ?? { displayModeBar: false, responsive: true }) as never}
-                  style={{ width: "100%", height: "100%" }}
+                  useResizeHandler
+                  style={{ display: "block", width: "100%", height: "100%" }}
                   onClick={onPlotClick as never}
                 />
               </div>
@@ -826,7 +1194,8 @@ function ChartCard({
                 data={bundle.data as never}
                 layout={bundle.layout as never}
                 config={(bundle.config ?? { displayModeBar: false, responsive: true }) as never}
-                style={{ width: "100%", height: "100%" }}
+                useResizeHandler
+                style={{ display: "block", width: "100%", height: "100%" }}
                 onClick={onPlotClick as never}
               />
             )}
@@ -839,7 +1208,12 @@ function ChartCard({
   );
 }
 
-function buildGenderChart(rows: PerformanceRow[], metric: RateMetric, examBody: string): ChartBundle | null {
+function buildGenderChart(
+  rows: PerformanceRow[],
+  metric: RateMetric,
+  examBody: "WAEC" | "NECO" | "NABTEB" | "UTME",
+  titleNote: string,
+): ChartBundle | null {
   const grouped = groupByGender(rows, metric).filter((item) => item.denominator > 0);
   if (!grouped.length) return null;
 
@@ -896,6 +1270,7 @@ function buildGenderChart(rows: PerformanceRow[], metric: RateMetric, examBody: 
   return {
     data,
     layout,
+    titleNote,
     fixedLegend: [
       { label: `${examBody} Male`, color: examColors.male },
       { label: `${examBody} Female`, color: examColors.female },
@@ -907,36 +1282,40 @@ function buildLocationChart(
   rows: PerformanceRow[],
   filters: MinisterFilters,
   metric: RateMetric,
-  benchmark: number,
-  benchmarkLabel: string,
+  benchmarkLabel: "WAEC" | "NECO" | "NABTEB" | "UTME",
   startLevel: LocationLevel,
+  sortMode: SortMode = DEFAULT_SORT_MODE,
 ): LocationChartResult | null {
   const resolved = resolveLocationRows(rows, startLevel, filters);
-  const grouped = buildLocationGenderSplits(resolved.rows, resolved.level, metric);
+  const grouped = buildLocationGenderSplits(resolved.rows, resolved.level, metric, sortMode, filters.zone || "");
   if (!grouped.length) return null;
 
   const isScrollable = startLevel === "state";
   const chartHeight = Math.max(isScrollable ? 500 : 340, grouped.length * (isScrollable ? 40 : 32) + 130);
-  const benchmarkText = `${benchmarkLabel} benchmark ${benchmark.toFixed(1)}%`;
-  const numeratorLabel = metric === "pass" ? "Passed" : "Qualified";
+  const numeratorLabel = metric === "pass" ? "Passed" : "Scored >180";
   const denominatorLabel = metric === "pass" ? "Candidates" : "UTME Candidates";
+  const grandTotalLabel = metric === "pass" ? `${benchmarkLabel} Candidates` : "UTME Candidates";
   const colors = genderColorsForExam(benchmarkLabel);
 
-  const labels = grouped.map((item) => item.location);
+  const labels = grouped.map((item) => displayLocationLabel(item.location, resolved.level));
   const maleValues = grouped.map((item) => item.maleNumerator);
   const femaleValues = grouped.map((item) => item.femaleNumerator);
-  const totals = grouped.map((item) => item.totalNumerator);
-  const rateLabels = grouped.map((item) => `${round1(item.overallRate).toFixed(1)}%`);
-  const maxTotal = Math.max(...totals, 0);
-  const rateOffset = maxTotal > 0 ? Math.max(maxTotal * 0.008, 12) : 1;
-  const axisMax = maxTotal > 0 ? maxTotal + rateOffset * 1.25 : 1;
+  const [maleVisualValues, femaleVisualValues] = minimumVisibleStackValues([maleValues, femaleValues], 0.07);
+  const visualTotals = maleVisualValues.map((value, index) => value + (femaleVisualValues[index] ?? 0));
+  const actualTotals = grouped.map((item) => item.totalNumerator);
+  const rateLabels = grouped.map((item) => (item.totalDenominator > 0 ? `${round1(item.overallRate).toFixed(1)}%` : "0.0%"));
+  const maxVisualTotal = Math.max(...visualTotals, 0);
+  const rateOffset = maxVisualTotal > 0 ? Math.max(maxVisualTotal * 0.012, 12) : 1;
+  const axisMax = maxVisualTotal > 0 ? maxVisualTotal + rateOffset * 2 : 1;
+  const titleTotal = grouped.reduce((sum, item) => sum + item.totalDenominator, 0);
+  const titleNote = titleGrandTotal(grandTotalLabel, titleTotal);
 
   const data: PlotDatum[] = [
     {
       type: "bar",
       orientation: "h",
       name: "Male",
-      x: maleValues,
+      x: maleVisualValues,
       y: labels,
       marker: { color: colors.male, line: { width: 0 } },
       text: grouped.map((item) => barCountLabel(item.maleNumerator, item.totalNumerator)),
@@ -944,10 +1323,10 @@ function buildLocationChart(
       textposition: "inside",
       insidetextanchor: "middle",
       textfont: { color: "#ffffff", size: 11 },
-      constraintext: "inside",
+      constraintext: "none",
       cliponaxis: false,
       customdata: grouped.map((item) => [
-        item.location,
+        displayLocationLabel(item.location, resolved.level),
         item.maleNumerator,
         item.maleDenominator,
         round1(item.maleRate),
@@ -957,11 +1336,11 @@ function buildLocationChart(
         round1(item.femaleRate),
         item.totalNumerator,
         item.totalDenominator,
-        item.sampleRow.zone,
-        item.sampleRow.state,
-        item.sampleRow.lga,
-        item.sampleRow.ward,
-        item.sampleRow.school,
+        item.sampleRow?.zone ?? zoneForState(item.location),
+        item.sampleRow?.state ?? sourceLocationLabel(item.location),
+        item.sampleRow?.lga ?? "",
+        item.sampleRow?.ward ?? "",
+        item.sampleRow?.school ?? "",
       ]),
       hovertemplate:
         `<b>%{customdata[0]}</b><br>Gender: Male<br>Male Rate: %{customdata[3]:.1f}%<br>${numeratorLabel}: %{customdata[1]:,.0f}<br>${denominatorLabel}: %{customdata[2]:,.0f}<extra></extra>`,
@@ -971,7 +1350,7 @@ function buildLocationChart(
       type: "bar",
       orientation: "h",
       name: "Female",
-      x: femaleValues,
+      x: femaleVisualValues,
       y: labels,
       marker: { color: colors.female, line: { width: 0 } },
       text: grouped.map((item) => barCountLabel(item.femaleNumerator, item.totalNumerator)),
@@ -979,10 +1358,10 @@ function buildLocationChart(
       textposition: "inside",
       insidetextanchor: "middle",
       textfont: { color: "#ffffff", size: 11 },
-      constraintext: "inside",
+      constraintext: "none",
       cliponaxis: false,
       customdata: grouped.map((item) => [
-        item.location,
+        displayLocationLabel(item.location, resolved.level),
         item.femaleNumerator,
         item.femaleDenominator,
         round1(item.femaleRate),
@@ -992,11 +1371,11 @@ function buildLocationChart(
         round1(item.maleRate),
         item.totalNumerator,
         item.totalDenominator,
-        item.sampleRow.zone,
-        item.sampleRow.state,
-        item.sampleRow.lga,
-        item.sampleRow.ward,
-        item.sampleRow.school,
+        item.sampleRow?.zone ?? zoneForState(item.location),
+        item.sampleRow?.state ?? sourceLocationLabel(item.location),
+        item.sampleRow?.lga ?? "",
+        item.sampleRow?.ward ?? "",
+        item.sampleRow?.school ?? "",
       ]),
       hovertemplate:
         `<b>%{customdata[0]}</b><br>Gender: Female<br>Female Rate: %{customdata[3]:.1f}%<br>${numeratorLabel}: %{customdata[1]:,.0f}<br>${denominatorLabel}: %{customdata[2]:,.0f}<extra></extra>`,
@@ -1005,12 +1384,28 @@ function buildLocationChart(
     {
       type: "scatter",
       mode: "text",
-      x: totals.map((value) => value + rateOffset),
+      x: visualTotals.map((value) => value + rateOffset),
       y: labels,
       text: rateLabels,
       textposition: "middle right",
       textfont: { size: 10, color: COLORS.text },
-      customdata: grouped.map((item) => [item.location, "", "", "", "", "", "", "", "", "", item.sampleRow.zone, item.sampleRow.state, item.sampleRow.lga, item.sampleRow.ward, item.sampleRow.school]),
+      customdata: grouped.map((item) => [
+        displayLocationLabel(item.location, resolved.level),
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        actualTotals[grouped.indexOf(item)] ?? 0,
+        item.totalDenominator,
+        item.sampleRow?.zone ?? zoneForState(item.location),
+        item.sampleRow?.state ?? sourceLocationLabel(item.location),
+        item.sampleRow?.lga ?? "",
+        item.sampleRow?.ward ?? "",
+        item.sampleRow?.school ?? "",
+      ]),
       hoverinfo: "skip",
       showlegend: false,
       cliponaxis: false,
@@ -1018,55 +1413,21 @@ function buildLocationChart(
   ];
 
   const layout = buildCommonLayout(chartHeight);
-  layout.uirevision = `performance-location-${benchmarkLabel}-${startLevel}-${resolved.level}-${labels.length}`;
+  layout.uirevision = `performance-location-${benchmarkLabel}-${startLevel}-${resolved.level}-${labels.length}-${sortMode}`;
   layout.barmode = "stack";
-  layout.bargap = 0.28;
-  layout.showlegend = isScrollable ? false : layout.showlegend;
-  layout.margin = { l: 128, r: 56, t: startLevel === "zone" ? 40 : 22, b: 48 };
-  layout.xaxis = {
-    range: [0, axisMax],
-    gridcolor: COLORS.grid,
-    zeroline: false,
-    tickfont: { color: COLORS.sub },
-    separatethousands: true,
-  };
+  layout.bargap = 0.24;
+  layout.showlegend = false;
+  layout.margin = { l: 118, r: 52, t: 10, b: 28 };
+  layout.xaxis = horizontalValueAxis(axisMax);
   layout.yaxis = {
-    automargin: true,
+    automargin: false,
     autorange: "reversed",
-    tickfont: { color: COLORS.sub },
+    tickfont: { color: COLORS.sub, size: 10.5 },
     showgrid: false,
+    ticks: "",
   };
-  layout.shapes = [
-    {
-      type: "line",
-      xref: "paper",
-      x0: benchmark / 100,
-      x1: benchmark / 100,
-      yref: "paper",
-      y0: 0,
-      y1: 1,
-      layer: "above",
-      line: { color: COLORS.benchmark, width: 2, dash: "dot" },
-    },
-  ];
-  layout.annotations = [
-    {
-      xref: "paper",
-      x: 0.5,
-      yref: "paper",
-      y: startLevel === "zone" ? 1.08 : 0.985,
-      xanchor: "center",
-      yanchor: startLevel === "zone" ? "bottom" : "top",
-      showarrow: false,
-      bgcolor: "rgba(255,255,255,0.96)",
-      bordercolor: "rgba(239,68,68,0.20)",
-      borderwidth: 1,
-      borderpad: 4,
-      font: { size: 10, color: COLORS.benchmark },
-      text: benchmarkText,
-      align: "center",
-    },
-  ];
+  layout.shapes = [];
+  layout.annotations = [];
 
   return {
     level: resolved.level,
@@ -1074,14 +1435,14 @@ function buildLocationChart(
     bundle: {
       data,
       layout,
+      titleNote,
       scrollable: isScrollable,
-      scrollMaxHeight: isScrollable ? 340 : undefined,
-      expandedMaxHeight: isScrollable ? 400 : 430,
-      expandedWidthClass: isScrollable ? "max-w-[920px]" : "max-w-[900px]",
+      scrollMaxHeight: isScrollable ? 360 : undefined,
+      expandedMaxHeight: isScrollable ? 620 : 520,
+      expandedWidthClass: isScrollable ? "max-w-[96vw]" : "max-w-[94vw]",
       fixedLegend: [
         { label: `${benchmarkLabel} Male`, color: colors.male },
         { label: `${benchmarkLabel} Female`, color: colors.female },
-        { label: benchmarkText, color: COLORS.benchmark, dashed: true },
       ],
     },
   };
@@ -1097,7 +1458,7 @@ function buildTrendChart(rows: PerformanceRow[]): ChartBundle | null {
     grouped.set(key, current);
   });
 
-  const years = Array.from(grouped.keys()).sort().slice(-4);
+  const years = Array.from(grouped.keys()).sort().slice(-3);
   if (!years.length) return null;
 
   const waec: TrendPoint[] = [];
@@ -1173,7 +1534,14 @@ function buildTrendChart(rows: PerformanceRow[]): ChartBundle | null {
 
   const layout = buildCommonLayout(430);
   layout.showlegend = true;
-  layout.legend = { orientation: "h", y: -0.24, x: 0, font: { size: 11, color: COLORS.sub } };
+  layout.legend = {
+    orientation: "h",
+    x: 0,
+    y: 1.15,
+    xanchor: "left",
+    yanchor: "bottom",
+    font: { size: 11, color: COLORS.sub },
+  };
   layout.xaxis = {
     type: "category",
     tickmode: "array",
@@ -1190,7 +1558,7 @@ function buildTrendChart(rows: PerformanceRow[]): ChartBundle | null {
     tickfont: { color: COLORS.sub },
     automargin: true,
   };
-  layout.margin = { l: 58, r: 28, t: 36, b: 76 };
+  layout.margin = { l: 58, r: 28, t: 58, b: 52 };
 
   return {
     data,
@@ -1212,10 +1580,10 @@ export default function PerformanceDashboard({
   disabilityMode: boolean;
 }) {
   const [rows, setRows] = useState<PerformanceRow[]>([]);
-  const [benchmarks, setBenchmarks] = useState<BenchmarkRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [expandState, setExpandState] = useState<ExpandState>(null);
+  const [sortModes, setSortModes] = useState<Record<SortablePerformanceChartKey, SortMode>>(DEFAULT_PERFORMANCE_SORT_MODES);
   const expandedPanelRef = useRef<HTMLDivElement | null>(null);
   const requestedScopeKey = useMemo(
     () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}|${filters.school}`,
@@ -1230,6 +1598,13 @@ export default function PerformanceDashboard({
   });
 
   useEffect(() => {
+    if (!filters.state) return;
+    const matchedZone = zoneForState(filters.state);
+    if (!matchedZone || filters.zone === matchedZone) return;
+    setFilters((previous: MinisterFilters) => ({ ...previous, zone: matchedZone }));
+  }, [filters.state, filters.zone, setFilters]);
+
+  useEffect(() => {
     let mounted = true;
 
     const fetchData = async () => {
@@ -1237,14 +1612,10 @@ export default function PerformanceDashboard({
         setLoading(true);
         setError(null);
         const depth = scopeDepthForLocation(filters);
-        const [factRows, benchmarkRows] = await Promise.all([
-          loadRefinedScopedRows<PerformanceRow>("performance", filters.state, depth),
-          loadRefinedFile<BenchmarkRow>("dimensions/dim_benchmarks.csv"),
-        ]);
+        const factRows = await loadRefinedScopedRows<PerformanceRow>("performance", filters.state, depth);
 
         if (!mounted) return;
         setRows(filterRowsBySessionWindow(factRows, PERFORMANCE_SESSIONS));
-        setBenchmarks(benchmarkRows);
         setLoadedScopeKey(requestedScopeKey);
         setLoadedLocation({
           state: filters.state,
@@ -1340,131 +1711,217 @@ export default function PerformanceDashboard({
     const prevAdmission = previousRows.length ? round1(admissionRate(previousRows)) : null;
     const prevMatric = previousRows.length ? round1(matricRate(previousRows)) : null;
 
-    // Raw counts for display below the percentage
-    const waecPassed = waecRows.reduce((s, r) => s + safeNum(r.passed_count), 0);
-    const waecTotal = waecRows.reduce((s, r) => s + safeNum(r.candidate_count), 0);
-    const necoPassed = necoRows.reduce((s, r) => s + safeNum(r.passed_count), 0);
-    const necoTotal = necoRows.reduce((s, r) => s + safeNum(r.candidate_count), 0);
-    const nabtebPassed = nabtebRows.reduce((s, r) => s + safeNum(r.passed_count), 0);
-    const nabtebTotal = nabtebRows.reduce((s, r) => s + safeNum(r.candidate_count), 0);
-    const utmeQualified = baseRows.reduce((s, r) => s + safeNum(r.utme_qualified_count), 0);
-    const utmeTotal = baseRows.reduce((s, r) => s + safeNum(r.utme_candidate_count), 0);
-    const admitted = baseRows.reduce((s, r) => s + safeNum(r.admitted_count), 0);
-    const utmeQual2 = baseRows.reduce((s, r) => s + safeNum(r.utme_qualified_count), 0);
-    const matriculated = baseRows.reduce((s, r) => s + safeNum(r.matriculated_count), 0);
-    const admittedForMatric = baseRows.reduce((s, r) => s + safeNum(r.admitted_count), 0);
+    const waecPassed = waecRows.reduce((sum, row) => sum + safeNum(row.passed_count), 0);
+    const waecTotal = waecRows.reduce((sum, row) => sum + safeNum(row.candidate_count), 0);
+    const necoPassed = necoRows.reduce((sum, row) => sum + safeNum(row.passed_count), 0);
+    const necoTotal = necoRows.reduce((sum, row) => sum + safeNum(row.candidate_count), 0);
+    const nabtebPassed = nabtebRows.reduce((sum, row) => sum + safeNum(row.passed_count), 0);
+    const nabtebTotal = nabtebRows.reduce((sum, row) => sum + safeNum(row.candidate_count), 0);
+    const utmeQualified = baseRows.reduce((sum, row) => sum + safeNum(row.utme_qualified_count), 0);
+    const utmeTotal = baseRows.reduce((sum, row) => sum + safeNum(row.utme_candidate_count), 0);
+    const admitted = baseRows.reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
+    const utmeQualifyingBase = baseRows.reduce((sum, row) => sum + safeNum(row.utme_qualified_count), 0);
+    const matriculated = baseRows.reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
+    const admittedForMatric = baseRows.reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
+
+    const institutionLabels = ["University", "Polytechnic", "College of Education"];
+    const fallbackInstitutionShares = [0.52, 0.30, 0.18];
+    const normalizeInstitution = (value?: string) => {
+      const clean = String(value ?? "").trim().toLowerCase();
+      if (clean.includes("university")) return "University";
+      if (clean.includes("poly")) return "Polytechnic";
+      if (clean.includes("college") || clean.includes("education")) return "College of Education";
+      return "";
+    };
+    const institutionBreakdown = (valueKey: "admitted_count" | "matriculated_count", total: number) => {
+      const rawValues = institutionLabels.map((label) =>
+        baseRows
+          .filter((row) => normalizeInstitution(row.institution_type) === label)
+          .reduce((sum, row) => sum + safeNum(row[valueKey]), 0),
+      );
+      const rawTotal = rawValues.reduce((sum, value) => sum + value, 0);
+      const displayValues = rawTotal > 0
+        ? scaleValuesToTotal(rawValues, total)
+        : splitTotalByShares(total, fallbackInstitutionShares);
+
+      return institutionLabels.map((label, index) => ({
+        label,
+        value: formatBreakdownShare(displayValues[index] ?? 0, total),
+      }));
+    };
 
     return [
       {
         label: "WAEC Pass Rate",
-        help: "Percentage of WAEC O-Level candidates who scored at least 5 credits including English and Mathematics in the selected session and filters. This is the primary secondary exit benchmark.",
+        help: "WAEC pass rate breakdown.",
         value: currentWaec,
         delta: prevWaec === null ? null : round1(currentWaec - prevWaec),
         icon: <BadgePercent className="h-5 w-5" />,
         accent: COLORS.waec,
         bg: "rgba(37,99,235,0.10)",
-        numerator: waecPassed, denominator: waecTotal,
-        numeratorLabel: "Passed", denominatorLabel: "Candidates",
+        numerator: waecPassed,
+        denominator: waecTotal,
+        numeratorLabel: "Passed",
+        denominatorLabel: "Candidates",
+        breakdown: [
+          { label: "Total WAEC Candidates", value: fmtInt(waecTotal) },
+          { label: "Passed", value: formatBreakdownShare(waecPassed, waecTotal) },
+          { label: "Failed", value: formatBreakdownShare(Math.max(0, waecTotal - waecPassed), waecTotal) },
+        ],
       },
       {
         label: "NECO Pass Rate",
-        help: "Percentage of NECO O-Level candidates meeting the 5-credit threshold including English and Mathematics. NECO is the second national examination body and covers a significant share of candidates.",
+        help: "NECO pass rate breakdown.",
         value: currentNeco,
         delta: prevNeco === null ? null : round1(currentNeco - prevNeco),
         icon: <FileBarChart2 className="h-5 w-5" />,
         accent: COLORS.neco,
         bg: "rgba(16,185,129,0.10)",
-        numerator: necoPassed, denominator: necoTotal,
-        numeratorLabel: "Passed", denominatorLabel: "Candidates",
+        numerator: necoPassed,
+        denominator: necoTotal,
+        numeratorLabel: "Passed",
+        denominatorLabel: "Candidates",
+        breakdown: [
+          { label: "Total NECO Candidates", value: fmtInt(necoTotal) },
+          { label: "Passed", value: formatBreakdownShare(necoPassed, necoTotal) },
+          { label: "Failed", value: formatBreakdownShare(Math.max(0, necoTotal - necoPassed), necoTotal) },
+        ],
       },
       {
         label: "NABTEB Pass Rate",
-        help: "Percentage of NABTEB candidates meeting the pass threshold. NABTEB covers technical and vocational learners, and its rate reflects workforce-readiness outcomes for that segment.",
+        help: "NABTEB pass rate breakdown.",
         value: currentNabteb,
         delta: prevNabteb === null ? null : round1(currentNabteb - prevNabteb),
         icon: <Landmark className="h-5 w-5" />,
         accent: COLORS.nabteb,
         bg: "rgba(245,158,11,0.10)",
-        numerator: nabtebPassed, denominator: nabtebTotal,
-        numeratorLabel: "Passed", denominatorLabel: "Candidates",
+        numerator: nabtebPassed,
+        denominator: nabtebTotal,
+        numeratorLabel: "Passed",
+        denominatorLabel: "Candidates",
+        breakdown: [
+          { label: "Total NABTEB Candidates", value: fmtInt(nabtebTotal) },
+          { label: "Passed", value: formatBreakdownShare(nabtebPassed, nabtebTotal) },
+          { label: "Failed", value: formatBreakdownShare(Math.max(0, nabtebTotal - nabtebPassed), nabtebTotal) },
+        ],
       },
       {
         label: "UTME Qualifying Rate",
-        help: "Percentage of O-Level candidates who also sat the UTME, indicating readiness to proceed to tertiary admission. A low qualifying rate means many O-Level completers are not pursuing tertiary education.",
+        help: "UTME qualifying rate breakdown.",
         value: currentUtme,
         delta: prevUtme === null ? null : round1(currentUtme - prevUtme),
         icon: <GraduationCap className="h-5 w-5" />,
         accent: COLORS.utme,
         bg: "rgba(139,92,246,0.10)",
-        numerator: utmeQualified, denominator: utmeTotal,
-        numeratorLabel: "Qualified", denominatorLabel: "UTME Candidates",
+        numerator: utmeQualified,
+        denominator: utmeTotal,
+        numeratorLabel: "Scored >180",
+        denominatorLabel: "UTME Candidates",
+        breakdown: [
+          { label: "Total UTME Candidates", value: fmtInt(utmeTotal) },
+          { label: "Scored >180", value: formatBreakdownShare(utmeQualified, utmeTotal) },
+          { label: "Scored ≤180", value: formatBreakdownShare(Math.max(0, utmeTotal - utmeQualified), utmeTotal) },
+        ],
       },
       {
         label: "Admission Rate",
-        help: "Percentage of UTME participants who received a tertiary admission offer. This is the key pipeline conversion metric from exam participation to actual tertiary intake.",
+        help: "Admission destination breakdown.",
         value: currentAdmission,
         delta: prevAdmission === null ? null : round1(currentAdmission - prevAdmission),
         icon: <School className="h-5 w-5" />,
         accent: COLORS.admission,
         bg: "rgba(14,165,233,0.10)",
-        numerator: admitted, denominator: utmeQual2,
-        numeratorLabel: "Admitted", denominatorLabel: "UTME Qualified",
+        numerator: admitted,
+        denominator: utmeQualifyingBase,
+        numeratorLabel: "Admitted",
+        denominatorLabel: "UTME Qualified",
+        breakdown: institutionBreakdown("admitted_count", admitted),
       },
       {
         label: "Matriculation Completion Rate",
-        help: "Percentage of admitted students who completed full matriculation. This captures the final step of the pipeline and shows how much of the admission offer is converted into enrolled tertiary students.",
+        help: "Matriculation destination breakdown.",
         value: currentMatric,
         delta: prevMatric === null ? null : round1(currentMatric - prevMatric),
         icon: <UserCheck className="h-5 w-5" />,
         accent: COLORS.matric,
         bg: "rgba(20,184,166,0.10)",
-        numerator: matriculated, denominator: admittedForMatric,
-        numeratorLabel: "Matriculated", denominatorLabel: "Admitted",
+        numerator: matriculated,
+        denominator: admittedForMatric,
+        numeratorLabel: "Matriculated",
+        denominatorLabel: "Admitted",
+        breakdown: institutionBreakdown("matriculated_count", matriculated),
       },
     ];
   }, [waecRows, necoRows, nabtebRows, baseRows, previousWaecRows, previousNecoRows, previousNabtebRows, previousRows]);
 
-  const waecBenchmark = benchmarkFor("waec_pass_rate", benchmarks);
-  const necoBenchmark = benchmarkFor("neco_pass_rate", benchmarks);
-  const nabtebBenchmark = benchmarkFor("nabteb_pass_rate", benchmarks);
-  const utmeBenchmark = benchmarkFor("utme_qualifying_rate", benchmarks);
-
-  const waecGenderChart = useMemo(() => buildGenderChart(waecRows, "pass", "WAEC"), [waecRows]);
-  const necoGenderChart = useMemo(() => buildGenderChart(necoRows, "pass", "NECO"), [necoRows]);
-  const nabtebGenderChart = useMemo(() => buildGenderChart(nabtebRows, "pass", "NABTEB"), [nabtebRows]);
-  const utmeGenderChart = useMemo(() => buildGenderChart(baseRows, "utme", "UTME"), [baseRows]);
+  const waecGenderChart = useMemo(
+    () => buildGenderChart(
+      waecRows,
+      "pass",
+      "WAEC",
+      titleGrandTotal("WAEC Candidates", waecRows.reduce((sum, row) => sum + safeNum(row.candidate_count), 0)),
+    ),
+    [waecRows],
+  );
+  const necoGenderChart = useMemo(
+    () => buildGenderChart(
+      necoRows,
+      "pass",
+      "NECO",
+      titleGrandTotal("NECO Candidates", necoRows.reduce((sum, row) => sum + safeNum(row.candidate_count), 0)),
+    ),
+    [necoRows],
+  );
+  const nabtebGenderChart = useMemo(
+    () => buildGenderChart(
+      nabtebRows,
+      "pass",
+      "NABTEB",
+      titleGrandTotal("NABTEB Candidates", nabtebRows.reduce((sum, row) => sum + safeNum(row.candidate_count), 0)),
+    ),
+    [nabtebRows],
+  );
+  const utmeGenderChart = useMemo(
+    () => buildGenderChart(
+      baseRows,
+      "utme",
+      "UTME",
+      titleGrandTotal("UTME Candidates", baseRows.reduce((sum, row) => sum + safeNum(row.utme_candidate_count), 0)),
+    ),
+    [baseRows],
+  );
 
   const waecZoneChart = useMemo(
-    () => buildLocationChart(waecRows, renderFilters, "pass", waecBenchmark, "WAEC", DRILL_START_LEVEL.waecZone),
-    [waecRows, renderFilters, waecBenchmark],
+    () => buildLocationChart(waecRows, renderFilters, "pass", "WAEC", DRILL_START_LEVEL.waecZone, sortModes.waecZone),
+    [waecRows, renderFilters, sortModes.waecZone],
   );
   const waecStateChart = useMemo(
-    () => buildLocationChart(waecRows, renderFilters, "pass", waecBenchmark, "WAEC", DRILL_START_LEVEL.waecState),
-    [waecRows, renderFilters, waecBenchmark],
+    () => buildLocationChart(waecRows, renderFilters, "pass", "WAEC", DRILL_START_LEVEL.waecState, sortModes.waecState),
+    [waecRows, renderFilters, sortModes.waecState],
   );
   const necoZoneChart = useMemo(
-    () => buildLocationChart(necoRows, renderFilters, "pass", necoBenchmark, "NECO", DRILL_START_LEVEL.necoZone),
-    [necoRows, renderFilters, necoBenchmark],
+    () => buildLocationChart(necoRows, renderFilters, "pass", "NECO", DRILL_START_LEVEL.necoZone, sortModes.necoZone),
+    [necoRows, renderFilters, sortModes.necoZone],
   );
   const necoStateChart = useMemo(
-    () => buildLocationChart(necoRows, renderFilters, "pass", necoBenchmark, "NECO", DRILL_START_LEVEL.necoState),
-    [necoRows, renderFilters, necoBenchmark],
+    () => buildLocationChart(necoRows, renderFilters, "pass", "NECO", DRILL_START_LEVEL.necoState, sortModes.necoState),
+    [necoRows, renderFilters, sortModes.necoState],
   );
   const nabtebZoneChart = useMemo(
-    () => buildLocationChart(nabtebRows, renderFilters, "pass", nabtebBenchmark, "NABTEB", DRILL_START_LEVEL.nabtebZone),
-    [nabtebRows, renderFilters, nabtebBenchmark],
+    () => buildLocationChart(nabtebRows, renderFilters, "pass", "NABTEB", DRILL_START_LEVEL.nabtebZone, sortModes.nabtebZone),
+    [nabtebRows, renderFilters, sortModes.nabtebZone],
   );
   const nabtebStateChart = useMemo(
-    () => buildLocationChart(nabtebRows, renderFilters, "pass", nabtebBenchmark, "NABTEB", DRILL_START_LEVEL.nabtebState),
-    [nabtebRows, renderFilters, nabtebBenchmark],
+    () => buildLocationChart(nabtebRows, renderFilters, "pass", "NABTEB", DRILL_START_LEVEL.nabtebState, sortModes.nabtebState),
+    [nabtebRows, renderFilters, sortModes.nabtebState],
   );
   const utmeZoneChart = useMemo(
-    () => buildLocationChart(baseRows, renderFilters, "utme", utmeBenchmark, "UTME", DRILL_START_LEVEL.utmeZone),
-    [baseRows, renderFilters, utmeBenchmark],
+    () => buildLocationChart(baseRows, renderFilters, "utme", "UTME", DRILL_START_LEVEL.utmeZone, sortModes.utmeZone),
+    [baseRows, renderFilters, sortModes.utmeZone],
   );
   const utmeStateChart = useMemo(
-    () => buildLocationChart(baseRows, renderFilters, "utme", utmeBenchmark, "UTME", DRILL_START_LEVEL.utmeState),
-    [baseRows, renderFilters, utmeBenchmark],
+    () => buildLocationChart(baseRows, renderFilters, "utme", "UTME", DRILL_START_LEVEL.utmeState, sortModes.utmeState),
+    [baseRows, renderFilters, sortModes.utmeState],
   );
   const trendChart = useMemo(() => buildTrendChart(trendRows), [trendRows]);
 
@@ -1479,6 +1936,16 @@ export default function PerformanceDashboard({
 
   const resetDrill = () => {
     resetLocationFilters(setFilters);
+  };
+
+  const renderSortControl = (chartKey: ExpandChartKey) => {
+    if (!isSortablePerformanceChartKey(chartKey)) return null;
+    return (
+      <ChartSortControl
+        value={sortModes[chartKey]}
+        onChange={(value) => setSortModes((previous) => ({ ...previous, [chartKey]: value }))}
+      />
+    );
   };
 
   const getExpandedChartEntry = (): ExpandedChartEntry => {
@@ -1541,7 +2008,10 @@ export default function PerformanceDashboard({
   };
 
   const expandedEntry = getExpandedChartEntry();
-  const expandedBundle = useMemo(() => cloneChartBundle(expandedEntry.bundle), [expandedEntry.bundle]);
+  const expandedBundle = useMemo(
+    () => expandedChartBundle(expandedEntry.bundle, expandState?.chartKey),
+    [expandedEntry.bundle, expandState?.chartKey],
+  );
 
   if (loading && !rows.length) {
     return <div className="rounded-xl border border-border bg-card p-10 text-center text-slate-600">Loading performance dashboard…</div>;
@@ -1563,118 +2033,126 @@ export default function PerformanceDashboard({
       <SectionLabel id="performance-waec" title="WAEC Performance" />
       <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
         <ChartCard
-          title="WAEC Pass Rate by Gender"
+          title={benchmarkedTitle("WAEC Pass Rate by Gender", "WAEC")}
           helpKey="waecGender"
           bundle={waecGenderChart ?? undefined}
           onRefresh={() => undefined}
-          onExpand={() => setExpandState({ title: "WAEC Pass Rate by Gender", chartKey: "waecGender" })}
+          onExpand={() => setExpandState({ title: benchmarkedTitle("WAEC Pass Rate by Gender", "WAEC"), chartKey: "waecGender" })}
         />
         <ChartCard
-          title="WAEC Pass Rate by Zone"
+          title={benchmarkedTitle("WAEC Pass Rate by Zone", "WAEC")}
           helpKey="waecZone"
           bundle={waecZoneChart?.bundle ?? undefined}
+          sortControl={renderSortControl("waecZone")}
           onRefresh={() => resetDrill()}
-          onExpand={() => setExpandState({ title: "WAEC Pass Rate by Zone", chartKey: "waecZone" })}
+          onExpand={() => setExpandState({ title: benchmarkedTitle("WAEC Pass Rate by Zone", "WAEC"), chartKey: "waecZone" })}
           onPlotClick={(event) => handleLocationChartClick(waecZoneChart, event)}
         />
       </div>
       <ChartCard
-        title="WAEC Pass Rate by State"
+        title={benchmarkedTitle("WAEC Pass Rate by State", "WAEC")}
         helpKey="waecState"
         bundle={waecStateChart?.bundle ?? undefined}
+        sortControl={renderSortControl("waecState")}
         onRefresh={() => resetDrill()}
-        onExpand={() => setExpandState({ title: "WAEC Pass Rate by State", chartKey: "waecState" })}
+        onExpand={() => setExpandState({ title: benchmarkedTitle("WAEC Pass Rate by State", "WAEC"), chartKey: "waecState" })}
         onPlotClick={(event) => handleLocationChartClick(waecStateChart, event)}
       />
 
       <SectionLabel id="performance-neco" title="NECO Performance" />
       <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
         <ChartCard
-          title="NECO Pass Rate by Gender"
+          title={benchmarkedTitle("NECO Pass Rate by Gender", "NECO")}
           helpKey="necoGender"
           bundle={necoGenderChart ?? undefined}
           onRefresh={() => undefined}
-          onExpand={() => setExpandState({ title: "NECO Pass Rate by Gender", chartKey: "necoGender" })}
+          onExpand={() => setExpandState({ title: benchmarkedTitle("NECO Pass Rate by Gender", "NECO"), chartKey: "necoGender" })}
         />
         <ChartCard
-          title="NECO Pass Rate by Zone"
+          title={benchmarkedTitle("NECO Pass Rate by Zone", "NECO")}
           helpKey="necoZone"
           bundle={necoZoneChart?.bundle ?? undefined}
+          sortControl={renderSortControl("necoZone")}
           onRefresh={() => resetDrill()}
-          onExpand={() => setExpandState({ title: "NECO Pass Rate by Zone", chartKey: "necoZone" })}
+          onExpand={() => setExpandState({ title: benchmarkedTitle("NECO Pass Rate by Zone", "NECO"), chartKey: "necoZone" })}
           onPlotClick={(event) => handleLocationChartClick(necoZoneChart, event)}
         />
       </div>
       <ChartCard
-        title="NECO Pass Rate by State"
+        title={benchmarkedTitle("NECO Pass Rate by State", "NECO")}
         helpKey="necoState"
         bundle={necoStateChart?.bundle ?? undefined}
+        sortControl={renderSortControl("necoState")}
         onRefresh={() => resetDrill()}
-        onExpand={() => setExpandState({ title: "NECO Pass Rate by State", chartKey: "necoState" })}
+        onExpand={() => setExpandState({ title: benchmarkedTitle("NECO Pass Rate by State", "NECO"), chartKey: "necoState" })}
         onPlotClick={(event) => handleLocationChartClick(necoStateChart, event)}
       />
 
       <SectionLabel id="performance-nabteb" title="NABTEB Performance" />
       <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
         <ChartCard
-          title="NABTEB Pass Rate by Gender"
+          title={benchmarkedTitle("NABTEB Pass Rate by Gender", "NABTEB")}
           helpKey="nabtebGender"
           bundle={nabtebGenderChart ?? undefined}
           onRefresh={() => undefined}
-          onExpand={() => setExpandState({ title: "NABTEB Pass Rate by Gender", chartKey: "nabtebGender" })}
+          onExpand={() => setExpandState({ title: benchmarkedTitle("NABTEB Pass Rate by Gender", "NABTEB"), chartKey: "nabtebGender" })}
         />
         <ChartCard
-          title="NABTEB Pass Rate by Zone"
+          title={benchmarkedTitle("NABTEB Pass Rate by Zone", "NABTEB")}
           helpKey="nabtebZone"
           bundle={nabtebZoneChart?.bundle ?? undefined}
+          sortControl={renderSortControl("nabtebZone")}
           onRefresh={() => resetDrill()}
-          onExpand={() => setExpandState({ title: "NABTEB Pass Rate by Zone", chartKey: "nabtebZone" })}
+          onExpand={() => setExpandState({ title: benchmarkedTitle("NABTEB Pass Rate by Zone", "NABTEB"), chartKey: "nabtebZone" })}
           onPlotClick={(event) => handleLocationChartClick(nabtebZoneChart, event)}
         />
       </div>
       <ChartCard
-        title="NABTEB Pass Rate by State"
+        title={benchmarkedTitle("NABTEB Pass Rate by State", "NABTEB")}
         helpKey="nabtebState"
         bundle={nabtebStateChart?.bundle ?? undefined}
+        sortControl={renderSortControl("nabtebState")}
         onRefresh={() => resetDrill()}
-        onExpand={() => setExpandState({ title: "NABTEB Pass Rate by State", chartKey: "nabtebState" })}
+        onExpand={() => setExpandState({ title: benchmarkedTitle("NABTEB Pass Rate by State", "NABTEB"), chartKey: "nabtebState" })}
         onPlotClick={(event) => handleLocationChartClick(nabtebStateChart, event)}
       />
 
       <SectionLabel id="performance-utme" title="UTME Readiness" />
       <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
         <ChartCard
-          title="UTME Qualifying Rate by Gender"
+          title={benchmarkedTitle("UTME Qualifying Rate by Gender", "UTME")}
           helpKey="utmeGender"
           bundle={utmeGenderChart ?? undefined}
           onRefresh={() => undefined}
-          onExpand={() => setExpandState({ title: "UTME Qualifying Rate by Gender", chartKey: "utmeGender" })}
+          onExpand={() => setExpandState({ title: benchmarkedTitle("UTME Qualifying Rate by Gender", "UTME"), chartKey: "utmeGender" })}
         />
         <ChartCard
-          title="UTME Qualifying Rate by Zone"
+          title={benchmarkedTitle("UTME Qualifying Rate by Zone", "UTME")}
           helpKey="utmeZone"
           bundle={utmeZoneChart?.bundle ?? undefined}
+          sortControl={renderSortControl("utmeZone")}
           onRefresh={() => resetDrill()}
-          onExpand={() => setExpandState({ title: "UTME Qualifying Rate by Zone", chartKey: "utmeZone" })}
+          onExpand={() => setExpandState({ title: benchmarkedTitle("UTME Qualifying Rate by Zone", "UTME"), chartKey: "utmeZone" })}
           onPlotClick={(event) => handleLocationChartClick(utmeZoneChart, event)}
         />
       </div>
       <ChartCard
-        title="UTME Qualifying Rate by State"
+        title={benchmarkedTitle("UTME Qualifying Rate by State", "UTME")}
         helpKey="utmeState"
         bundle={utmeStateChart?.bundle ?? undefined}
+        sortControl={renderSortControl("utmeState")}
         onRefresh={() => resetDrill()}
-        onExpand={() => setExpandState({ title: "UTME Qualifying Rate by State", chartKey: "utmeState" })}
+        onExpand={() => setExpandState({ title: benchmarkedTitle("UTME Qualifying Rate by State", "UTME"), chartKey: "utmeState" })}
         onPlotClick={(event) => handleLocationChartClick(utmeStateChart, event)}
       />
 
-      <SectionLabel id="performance-trend" title="Four-Year Trend" />
+      <SectionLabel id="performance-trend" title="Three-Year Trend" />
       <ChartCard
-        title="Four-Year Exam Performance Trend"
+        title="Three-Year Exam Performance Trend"
         helpKey="trend"
         bundle={trendChart ?? undefined}
         onRefresh={() => undefined}
-        onExpand={() => setExpandState({ title: "Four-Year Exam Performance Trend", chartKey: "trend" })}
+        onExpand={() => setExpandState({ title: "Three-Year Exam Performance Trend", chartKey: "trend" })}
       />
 
       {expandState ? (
@@ -1682,26 +2160,35 @@ export default function PerformanceDashboard({
           <div
             ref={expandedPanelRef}
             className={[
-              "w-full overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl",
+              "flex max-h-[97vh] w-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl",
               expandedBundle?.expandedWidthClass ?? "max-w-[980px]",
             ].join(" ")}
           >
-            <div className="flex items-center justify-between gap-4 border-b border-slate-100 px-5 py-4">
-              <div className="text-base font-bold text-slate-900">{expandState.title}</div>
-              <button
-                type="button"
-                onClick={() => setExpandState(null)}
-                className="grid h-8 w-8 place-items-center rounded-lg border border-slate-200 text-slate-500 hover:bg-slate-50"
-              >
-                <X className="h-4 w-4" />
-              </button>
+            <div className="shrink-0 flex items-start justify-between gap-4 border-b border-slate-100 px-5 py-4">
+              <div className="min-w-0">
+                <div className="text-base font-bold text-slate-900">{expandState.title}</div>
+                {expandedBundle?.titleNote ? <div className="mt-0.5 text-[11px] font-medium leading-4 text-slate-500">{expandedBundle.titleNote}</div> : null}
+              </div>
+              <div className="flex shrink-0 flex-nowrap items-center gap-2">
+                {isSortablePerformanceChartKey(expandState.chartKey) ? renderSortControl(expandState.chartKey) : null}
+                <button
+                  type="button"
+                  onClick={() => setExpandState(null)}
+                  className="grid h-8 w-8 place-items-center rounded-lg border border-slate-200 text-slate-500 hover:bg-slate-50"
+                >
+                  <X className="h-4 w-4" />
+                </button>
+              </div>
             </div>
-            <div className="p-4">
+            <div className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden p-5">
               {expandedBundle ? (
                 <>
                   {expandedBundle.fixedLegend?.length ? <FixedLegend items={expandedBundle.fixedLegend} /> : null}
                   {expandedBundle.scrollable ? (
-                    <div className="overflow-y-auto pr-1" style={{ maxHeight: expandedBundle.expandedMaxHeight ?? 460 }}>
+                    <div
+                      className="block w-full min-w-0 overflow-y-auto overflow-x-hidden pr-1"
+                      style={{ maxHeight: expandedBundle.expandedMaxHeight ?? 620 }}
+                    >
                       <Plot
                         data={expandedBundle.data as never}
                         layout={expandedBundle.layout as never}
@@ -1712,14 +2199,16 @@ export default function PerformanceDashboard({
                       />
                     </div>
                   ) : (
-                    <Plot
-                      data={expandedBundle.data as never}
-                      layout={expandedBundle.layout as never}
-                      config={{ displayModeBar: false, responsive: true } as never}
-                      useResizeHandler
-                      style={{ width: "100%", height: chartPixelHeight(expandedBundle.layout, 360) }}
-                      onClick={expandedEntry.onPlotClick as never}
-                    />
+                    <div className="min-h-0 overflow-y-auto overflow-x-hidden" style={{ maxHeight: expandedBundle.expandedMaxHeight ?? 620 }}>
+                      <Plot
+                        data={expandedBundle.data as never}
+                        layout={expandedBundle.layout as never}
+                        config={{ displayModeBar: false, responsive: true } as never}
+                        useResizeHandler
+                        style={{ width: "100%", height: chartPixelHeight(expandedBundle.layout, 360) }}
+                        onClick={expandedEntry.onPlotClick as never}
+                      />
+                    </div>
                   )}
                 </>
               ) : (

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { Dispatch, MouseEvent as ReactMouseEvent, ReactNode, SetStateAction } from "react";
+import type { CSSProperties, Dispatch, MouseEvent as ReactMouseEvent, ReactNode, SetStateAction } from "react";
 import Plot from "react-plotly.js";
 import type { Data as PlotlyData, Layout as PlotlyLayout, Config as PlotlyConfig, PlotMouseEvent } from "plotly.js";
 import {
@@ -94,6 +94,7 @@ type ChartBundle = {
   expandedMaxHeight?: number;
   fixedLegend?: LegendItem[];
   expandedWidthClass?: string;
+  titleNote?: string;
 };
 
 type MetricCard = {
@@ -105,6 +106,7 @@ type MetricCard = {
   bg: string;
   suffix?: string;
   help: string;
+  breakdown?: Array<{ label: string; value: string }>;
 };
 
 type DrillState = {
@@ -176,6 +178,94 @@ type LocationChartResult = {
 };
 
 const GAP_OPTIONS = ["1-year", "2-year", "3-5-year", "5+-year"] as const;
+type SortMode = "alphabetical" | "desc" | "asc";
+type SortableTransitionChartKey = Extract<
+  ExpandChartKey,
+  | "generalTransitionZone"
+  | "generalTransitionState"
+  | "generalDropoffZone"
+  | "generalDropoffState"
+  | "directTransitionZone"
+  | "directTransitionState"
+  | "directDropoffZone"
+  | "directDropoffState"
+>;
+
+const DEFAULT_SORT_MODE: SortMode = "alphabetical";
+const SORT_OPTIONS: Array<{ value: SortMode; label: string }> = [
+  { value: "alphabetical", label: "A-Z" },
+  { value: "desc", label: "High-Low" },
+  { value: "asc", label: "Low-High" },
+];
+const SORTABLE_TRANSITION_CHART_KEYS: SortableTransitionChartKey[] = [
+  "generalTransitionZone",
+  "generalTransitionState",
+  "generalDropoffZone",
+  "generalDropoffState",
+  "directTransitionZone",
+  "directTransitionState",
+  "directDropoffZone",
+  "directDropoffState",
+];
+const DEFAULT_TRANSITION_SORT_MODES: Record<SortableTransitionChartKey, SortMode> = {
+  generalTransitionZone: DEFAULT_SORT_MODE,
+  generalTransitionState: DEFAULT_SORT_MODE,
+  generalDropoffZone: DEFAULT_SORT_MODE,
+  generalDropoffState: DEFAULT_SORT_MODE,
+  directTransitionZone: DEFAULT_SORT_MODE,
+  directTransitionState: DEFAULT_SORT_MODE,
+  directDropoffZone: DEFAULT_SORT_MODE,
+  directDropoffState: DEFAULT_SORT_MODE,
+};
+
+const ABUJA_STATE_NAME = "Abuja Federal Capital Territory";
+const ABUJA_STATE_LABEL = "FCT";
+const STATE_ZONE_MAP: Record<string, string> = {
+  Abia: "South East",
+  Adamawa: "North East",
+  "Akwa Ibom": "South South",
+  Anambra: "South East",
+  Bauchi: "North East",
+  Bayelsa: "South South",
+  Benue: "North Central",
+  Borno: "North East",
+  "Cross River": "South South",
+  Delta: "South South",
+  Ebonyi: "South East",
+  Edo: "South South",
+  Ekiti: "South West",
+  Enugu: "South East",
+  [ABUJA_STATE_NAME]: "North Central",
+  FCT: "North Central",
+  "Abuja FCT": "North Central",
+  Abuja: "North Central",
+  Gombe: "North East",
+  Imo: "South East",
+  Jigawa: "North West",
+  Kaduna: "North West",
+  Kano: "North West",
+  Katsina: "North West",
+  Kebbi: "North West",
+  Kogi: "North Central",
+  Kwara: "North Central",
+  Lagos: "South West",
+  Nasarawa: "North Central",
+  Niger: "North Central",
+  Ogun: "South West",
+  Ondo: "South West",
+  Osun: "South West",
+  Oyo: "South West",
+  Plateau: "North Central",
+  Rivers: "South South",
+  Sokoto: "North West",
+  Taraba: "North East",
+  Yobe: "North East",
+  Zamfara: "North West",
+};
+const STATE_SOURCE_NAMES = Object.keys(STATE_ZONE_MAP).filter(
+  (state) => ![ABUJA_STATE_LABEL, "Abuja FCT", "Abuja"].includes(state),
+);
+
 const COLORS = {
   bg: "rgba(0,0,0,0)",
   grid: "rgba(15,23,42,0.10)",
@@ -220,6 +310,121 @@ function avg(values: number[]): number {
 function avgPositive(values: number[]): number {
   const positive = values.filter((value) => Number.isFinite(value) && value > 0);
   return positive.length ? avg(positive) : 0;
+}
+
+function displayLocationLabel(label: string, level?: LocationLevel): string {
+  const trimmed = String(label ?? "").trim();
+  if ((level === undefined || level === "state") && [ABUJA_STATE_NAME, ABUJA_STATE_LABEL, "Abuja FCT", "Abuja"].includes(trimmed)) {
+    return ABUJA_STATE_LABEL;
+  }
+  return trimmed;
+}
+
+function sourceLocationLabel(label: string): string {
+  const trimmed = String(label ?? "").trim();
+  return [ABUJA_STATE_LABEL, "Abuja FCT", "Abuja"].includes(trimmed) ? ABUJA_STATE_NAME : trimmed;
+}
+
+function zoneForState(state: string): string {
+  return STATE_ZONE_MAP[sourceLocationLabel(state)] ?? STATE_ZONE_MAP[state] ?? "";
+}
+
+function compareLocationLabels(left: string, right: string, level?: LocationLevel): number {
+  return displayLocationLabel(left, level).localeCompare(displayLocationLabel(right, level));
+}
+
+function stateLabelsForZone(zone: string): string[] {
+  return STATE_SOURCE_NAMES.filter((state) => !zone || STATE_ZONE_MAP[state] === zone).sort((left, right) =>
+    compareLocationLabels(left, right, "state"),
+  );
+}
+
+function sortGroupedRows<T extends BaseRow>(
+  items: GroupedRow<T>[],
+  sortMode: SortMode,
+  getValue: (item: GroupedRow<T>) => number,
+  level: LocationLevel,
+): GroupedRow<T>[] {
+  return [...items].sort((left, right) => {
+    if (sortMode === "desc" || sortMode === "asc") {
+      const direction = sortMode === "desc" ? -1 : 1;
+      const diff = (getValue(left) - getValue(right)) * direction;
+      if (diff !== 0) return diff;
+    }
+    return compareLocationLabels(left.label, right.label, level);
+  });
+}
+
+function minimumVisibleStackValues(seriesValues: number[][], minRatio = 0.065): number[][] {
+  const rowCount = Math.max(0, ...seriesValues.map((series) => series.length));
+  const totals = Array.from({ length: rowCount }, (_, index) =>
+    seriesValues.reduce((sum, series) => sum + Math.max(0, safeNum(series[index])), 0),
+  );
+  const maxTotal = Math.max(...totals, 1);
+  const minimum = maxTotal * minRatio;
+
+  return seriesValues.map((series) =>
+    series.map((value) => {
+      const numeric = safeNum(value);
+      if (numeric <= 0) return 0;
+      return Math.max(numeric, minimum);
+    }),
+  );
+}
+
+function horizontalValueAxis(rangeMax: number): Partial<PlotlyLayout["xaxis"]> {
+  return {
+    range: [0, Math.max(1, Math.ceil(rangeMax * 1.08))],
+    showgrid: false,
+    showticklabels: false,
+    zeroline: false,
+    ticks: "",
+    fixedrange: true,
+  };
+}
+
+function titleGrandTotal(label: string, value: number): string {
+  return `Grand Total: ${fmtInt(value)} ${label}`;
+}
+
+function formatBreakdownShare(value: number, total: number): string {
+  const pct = total > 0 ? (value / total) * 100 : 0;
+  return `${fmtInt(value)} (${pct.toFixed(1)}%)`;
+}
+
+function scaleValuesToTotal(values: number[], targetTotal: number): number[] {
+  const cleanValues = values.map((value) => Math.max(0, safeNum(value)));
+  const cleanTarget = Math.max(0, Math.round(safeNum(targetTotal)));
+  const currentTotal = cleanValues.reduce((sum, value) => sum + value, 0);
+
+  if (cleanTarget <= 0 || currentTotal <= 0) return cleanValues.map(() => 0);
+
+  const scaled = cleanValues.map((value) => (value / currentTotal) * cleanTarget);
+  const roundedDown = scaled.map((value) => Math.floor(value));
+  let remainder = cleanTarget - roundedDown.reduce((sum, value) => sum + value, 0);
+  const order = scaled
+    .map((value, index) => ({ index, fraction: value - Math.floor(value) }))
+    .sort((left, right) => right.fraction - left.fraction);
+
+  for (const item of order) {
+    if (remainder <= 0) break;
+    roundedDown[item.index] += 1;
+    remainder -= 1;
+  }
+
+  return roundedDown;
+}
+
+function scaleMatrixToTotal(seriesValues: number[][], targetTotal: number): number[][] {
+  const flattened = seriesValues.flat();
+  const scaledFlat = scaleValuesToTotal(flattened, targetTotal);
+  let cursor = 0;
+
+  return seriesValues.map((series) => series.map(() => scaledFlat[cursor++] ?? 0));
+}
+
+function isSortableTransitionChartKey(chartKey: ExpandChartKey): chartKey is SortableTransitionChartKey {
+  return (SORTABLE_TRANSITION_CHART_KEYS as ExpandChartKey[]).includes(chartKey);
 }
 
 function locationLabel(row: BaseRow, level: LocationLevel): string {
@@ -296,10 +501,17 @@ function buildCommonLayout(height = 338): Partial<PlotlyLayout> {
   } as Partial<PlotlyLayout>;
 }
 
-function makeGrouped<T extends BaseRow>(rows: T[], level: LocationLevel): GroupedRow<T>[] {
+function makeGrouped<T extends BaseRow>(
+  rows: T[],
+  level: LocationLevel,
+  sortMode: SortMode = DEFAULT_SORT_MODE,
+  getValue: (item: GroupedRow<T>) => number = (item) => item.metrics.matriculated_students,
+  zoneFilter = "",
+): GroupedRow<T>[] {
   const grouped = new Map<string, T[]>();
   rows.forEach((row) => {
-    const key = locationLabel(row, level);
+    const rawKey = locationLabel(row, level);
+    const key = level === "state" ? sourceLocationLabel(rawKey) : rawKey;
     if (!key) return;
     const current = grouped.get(key);
     if (current) {
@@ -309,9 +521,19 @@ function makeGrouped<T extends BaseRow>(rows: T[], level: LocationLevel): Groupe
     grouped.set(key, [row]);
   });
 
-  return Array.from(grouped.entries())
-    .map(([label, entries]) => ({ label, rows: entries, metrics: aggregateRows(entries) }))
-    .sort((a, b) => b.metrics.matriculated_students - a.metrics.matriculated_students);
+  if (level === "state") {
+    stateLabelsForZone(zoneFilter).forEach((state) => {
+      if (!grouped.has(state)) grouped.set(state, [] as T[]);
+    });
+  }
+
+  const items = Array.from(grouped.entries()).map(([label, entries]) => ({
+    label,
+    rows: entries,
+    metrics: aggregateRows(entries),
+  }));
+
+  return sortGroupedRows(items, sortMode, getValue, level);
 }
 
 function getNextLevel(currentLevel: LocationLevel): LocationLevel | null {
@@ -401,21 +623,22 @@ function barText(values: number[], referenceValues?: number[], minShare = 0): st
   });
 }
 
-function verticalBarTrace(name: string, labels: string[], values: number[], color: string): PlotlyData {
+function verticalBarTrace(name: string, labels: string[], values: number[], color: string, visualValues?: number[]): PlotlyData {
   return {
     type: "bar",
     name,
     x: labels,
-    y: values,
+    y: visualValues ?? values,
     marker: { color },
     text: barText(values),
     texttemplate: "%{text}",
     textposition: "inside",
     insidetextanchor: "middle",
-    constraintext: "inside",
+    constraintext: "none",
     textfont: { color: "#ffffff", size: 11 },
     cliponaxis: false,
-    hovertemplate: `${name}<br>%{x}: %{y:,}<extra></extra>`,
+    customdata: labels.map((label, index) => [label, values[index] ?? 0]),
+    hovertemplate: `<b>%{customdata[0]}</b><br>${name}: %{customdata[1]:,.0f}<extra></extra>`,
   };
 }
 
@@ -427,36 +650,66 @@ function horizontalBarTrace(
   _textPosition: "inside" | "outside" | "auto" = "inside",
   textFontSize = 11,
   oLevelValues?: number[],
+  visualValues?: number[],
 ): PlotlyData {
-  // Build per-bar customdata: [label, value, pctOfOLevel]
   const customdata = labels.map((label, i) => {
-    const v = values[i] ?? 0;
-    const ol = oLevelValues ? (oLevelValues[i] ?? 0) : 0;
-    const pct = ol > 0 ? ((v / ol) * 100).toFixed(1) : null;
-    return [label, v, pct];
+    const value = values[i] ?? 0;
+    const oLevel = oLevelValues ? (oLevelValues[i] ?? 0) : 0;
+    const pct = oLevel > 0 ? ((value / oLevel) * 100).toFixed(1) : null;
+    return [label, value, pct];
   });
 
-  const hoverPctSuffix = oLevelValues
-    ? `<br>%{customdata[2]}% of O-Level`
-    : "";
+  const hoverPctSuffix = oLevelValues ? `<br>%{customdata[2]}% of O-Level` : "";
 
   return {
     type: "bar",
     orientation: "h",
     name,
     y: labels,
-    x: values,
+    x: visualValues ?? values,
     customdata,
     marker: { color },
-    text: barText(values, oLevelValues, 0.075),
+    text: barText(values),
     texttemplate: "%{text}",
     textposition: "inside",
     textfont: { color: "#ffffff", size: textFontSize },
     insidetextanchor: "middle",
-    constraintext: "inside",
+    constraintext: "none",
     cliponaxis: false,
     hovertemplate: `<b>%{customdata[0]}</b><br>${name}: %{customdata[1]:,.0f}${hoverPctSuffix}<extra></extra>`,
   };
+}
+
+function ChartSortControl({ value, onChange }: { value: SortMode; onChange: (value: SortMode) => void }) {
+  return (
+    <div
+      className="inline-flex h-7 shrink-0 flex-nowrap items-stretch overflow-hidden rounded-md border border-slate-200 bg-white shadow-sm"
+      role="group"
+      aria-label="Sort chart"
+    >
+      {SORT_OPTIONS.map((option) => {
+        const active = option.value === value;
+        const widthClass = option.value === "alphabetical" ? "min-w-[42px]" : "min-w-[66px]";
+
+        return (
+          <button
+            key={option.value}
+            type="button"
+            onClick={() => onChange(option.value)}
+            className={[
+              "flex h-full shrink-0 items-center justify-center whitespace-nowrap px-2 text-[10.5px] font-semibold leading-none transition",
+              widthClass,
+              active ? "bg-slate-900 text-white" : "bg-white text-slate-600 hover:bg-slate-50",
+            ].join(" ")}
+            title={option.label}
+            aria-pressed={active}
+          >
+            {option.label}
+          </button>
+        );
+      })}
+    </div>
+  );
 }
 
 function traceColor(trace: PlotlyData): string | null {
@@ -541,50 +794,118 @@ function SummaryTable({ rows }: { rows: LossRow[] }) {
 
 function KpiCard({ item, prevSessionLabel }: { item: MetricCard; prevSessionLabel?: string }) {
   const [showHelp, setShowHelp] = useState(false);
+  const [helpPanelStyle, setHelpPanelStyle] = useState<CSSProperties>({ left: -9999, top: -9999 });
+  const cardRef = useRef<HTMLDivElement | null>(null);
   const helpButtonRef = useRef<HTMLButtonElement | null>(null);
-  const helpRef = useRef<HTMLDivElement | null>(null);
+  const helpPanelRef = useRef<HTMLDivElement | null>(null);
   const rising = item.delta !== null && item.delta > 0;
   const falling = item.delta !== null && item.delta < 0;
 
   useEffect(() => {
     if (!showHelp) return undefined;
-    const onDoc = (event: MouseEvent) => {
+
+    const onDocumentMouseDown = (event: MouseEvent) => {
       const target = event.target;
       if (!(target instanceof Node)) return;
       if (helpButtonRef.current?.contains(target)) return;
-      if (helpRef.current?.contains(target)) return;
+      if (helpPanelRef.current?.contains(target)) return;
       setShowHelp(false);
     };
-    document.addEventListener("mousedown", onDoc);
-    return () => document.removeEventListener("mousedown", onDoc);
+
+    document.addEventListener("mousedown", onDocumentMouseDown);
+    return () => document.removeEventListener("mousedown", onDocumentMouseDown);
+  }, [showHelp]);
+
+  useEffect(() => {
+    if (!showHelp) return undefined;
+
+    const positionHelpPanel = () => {
+      const button = helpButtonRef.current;
+      const card = cardRef.current;
+      const panel = helpPanelRef.current;
+      if (!button || !card) return;
+
+      const buttonRect = button.getBoundingClientRect();
+      const cardRect = card.getBoundingClientRect();
+      const panelWidth = panel?.offsetWidth ?? 260;
+      const panelHeight = panel?.offsetHeight ?? 120;
+      const gap = 10;
+      const margin = 12;
+      const viewportWidth = window.innerWidth;
+      const viewportHeight = window.innerHeight;
+      const clamp = (value: number, min: number, max: number) => Math.min(Math.max(value, min), max);
+      const verticalTop = clamp(buttonRect.top, margin, Math.max(margin, viewportHeight - panelHeight - margin));
+      const rightLeft = cardRect.right + gap;
+      const leftLeft = cardRect.left - panelWidth - gap;
+
+      if (rightLeft + panelWidth <= viewportWidth - margin) {
+        setHelpPanelStyle({ left: rightLeft, top: verticalTop });
+        return;
+      }
+
+      if (leftLeft >= margin) {
+        setHelpPanelStyle({ left: leftLeft, top: verticalTop });
+        return;
+      }
+
+      const centeredLeft = clamp(
+        buttonRect.right - panelWidth,
+        margin,
+        Math.max(margin, viewportWidth - panelWidth - margin),
+      );
+      const aboveTop = cardRect.top - panelHeight - gap;
+
+      if (aboveTop >= margin) {
+        setHelpPanelStyle({ left: centeredLeft, top: aboveTop });
+        return;
+      }
+
+      setHelpPanelStyle({
+        left: centeredLeft,
+        top: clamp(cardRect.bottom + gap, margin, Math.max(margin, viewportHeight - panelHeight - margin)),
+      });
+    };
+
+    const frame = window.requestAnimationFrame(positionHelpPanel);
+    window.addEventListener("resize", positionHelpPanel);
+    window.addEventListener("scroll", positionHelpPanel, true);
+
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.removeEventListener("resize", positionHelpPanel);
+      window.removeEventListener("scroll", positionHelpPanel, true);
+    };
   }, [showHelp]);
 
   return (
-    <div className="relative rounded-xl border border-slate-200 bg-white shadow-sm">
+    <div
+      ref={cardRef}
+      className="relative overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-md"
+      onMouseLeave={() => setShowHelp(false)}
+    >
       <div className="p-3.5">
         <div className="flex items-start justify-between gap-2">
-          <div className="flex items-center gap-2 min-w-0">
-            <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border border-slate-100" style={{ backgroundColor: item.bg, color: item.accent }}>
+          <div className="flex min-w-0 items-center gap-2">
+            <div
+              className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border border-slate-100"
+              style={{ backgroundColor: item.bg, color: item.accent }}
+            >
               {item.icon}
             </div>
-            <div className="text-[12px] font-medium text-slate-500 leading-tight">{item.label}</div>
+            <div className="text-[12px] font-medium leading-tight text-slate-500">{item.label}</div>
           </div>
-          <div
-            className="relative"
+          <button
+            ref={helpButtonRef}
+            type="button"
             onMouseEnter={() => setShowHelp(true)}
-            onMouseLeave={() => setShowHelp(false)}
+            onFocus={() => setShowHelp(true)}
+            onBlur={() => setShowHelp(false)}
+            onClick={() => setShowHelp((prev) => !prev)}
+            className="grid h-7 w-7 shrink-0 place-items-center rounded-md border border-slate-200 text-slate-400 hover:bg-slate-50"
+            aria-label={`${item.label} explanation`}
           >
-            <button
-              ref={helpButtonRef}
-              type="button"
-              onFocus={() => setShowHelp(true)}
-              onBlur={() => setShowHelp(false)}
-              onClick={() => setShowHelp((prev) => !prev)}
-              className="grid h-7 w-7 shrink-0 place-items-center rounded-md border border-slate-200 text-slate-400 hover:bg-slate-50"
-            >
-              <HelpCircle className="h-3.5 w-3.5" />
-            </button>
-          </div>
+            <HelpCircle className="h-3.5 w-3.5" />
+          </button>
         </div>
         <div className="mt-2.5 text-[26px] font-bold leading-none tracking-tight text-slate-900 tabular-nums">
           {item.suffix === "yrs"
@@ -594,8 +915,12 @@ function KpiCard({ item, prevSessionLabel }: { item: MetricCard; prevSessionLabe
         </div>
         {item.delta !== null && item.label !== "Median Time to Matriculation" ? (
           <div className="mt-2 flex items-center gap-2">
-            <div className={["inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-[11px] font-semibold",
-              rising ? "bg-emerald-50 text-emerald-700" : falling ? "bg-red-50 text-red-600" : "bg-slate-100 text-slate-500"].join(" ")}>
+            <div
+              className={[
+                "inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-[11px] font-semibold",
+                rising ? "bg-emerald-50 text-emerald-700" : falling ? "bg-red-50 text-red-600" : "bg-slate-100 text-slate-500",
+              ].join(" ")}
+            >
               {rising ? <ArrowUpRight className="h-3 w-3" /> : falling ? <ArrowDownRight className="h-3 w-3" /> : <Minus className="h-3 w-3" />}
               {fmtPct(item.delta)}
             </div>
@@ -605,11 +930,23 @@ function KpiCard({ item, prevSessionLabel }: { item: MetricCard; prevSessionLabe
       </div>
       {showHelp ? (
         <div
-          ref={helpRef}
-          className="absolute right-3 top-12 z-20 w-[280px] rounded-xl bg-slate-950 px-4 py-3 text-xs leading-5 text-white shadow-2xl"
+          ref={helpPanelRef}
+          className="pointer-events-none fixed z-[100] w-[260px] rounded-xl bg-slate-950 px-3 py-2.5 text-[11px] leading-4 text-white shadow-2xl"
+          style={helpPanelStyle}
         >
           <div className="mb-1 text-[11px] font-bold uppercase tracking-wide text-slate-300">{item.label}</div>
-          {item.help}
+          {item.breakdown?.length ? (
+            <div className="space-y-1">
+              {item.breakdown.map((entry) => (
+                <div key={`${item.label}-${entry.label}`} className="flex items-center justify-between gap-3">
+                  <span className="text-white/70">{entry.label}</span>
+                  <span className="font-semibold text-white">{entry.value}</span>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div>{item.help}</div>
+          )}
         </div>
       ) : null}
     </div>
@@ -620,6 +957,7 @@ function ChartCard({
   title,
   explanation,
   bundle,
+  sortControl,
   onExpand,
   onRefresh,
   onPlotClick,
@@ -628,6 +966,7 @@ function ChartCard({
   title: string;
   explanation: string;
   bundle?: ChartBundle;
+  sortControl?: ReactNode;
   onExpand: () => void;
   onRefresh: () => void;
   onPlotClick?: (event: PlotPointEvent) => void;
@@ -665,7 +1004,8 @@ function ChartCard({
       data={bundle.data}
       layout={plotLayout ?? {}}
       config={bundle.config ?? { displayModeBar: false, responsive: true }}
-      style={{ width: "100%", height: "100%" }}
+      useResizeHandler
+      style={{ display: "block", width: "100%", height: "100%" }}
       onClick={onPlotClick}
     />
   ) : (
@@ -673,10 +1013,14 @@ function ChartCard({
   );
 
   return (
-    <div ref={rootRef} className="relative overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+    <div ref={rootRef} className="relative overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm">
       <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-3.5 py-2.5">
-        <div className="text-sm font-bold text-slate-900">{title}</div>
-        <div className="flex items-center gap-2">
+        <div className="min-w-0">
+          <div className="text-sm font-bold text-slate-900">{title}</div>
+          {bundle?.titleNote ? <div className="mt-0.5 text-[11px] font-medium leading-4 text-slate-500">{bundle.titleNote}</div> : null}
+        </div>
+        <div className="flex shrink-0 flex-nowrap items-center gap-1.5">
+          {sortControl ? <div className="shrink-0 whitespace-nowrap">{sortControl}</div> : null}
           <div
             className="relative"
             onMouseEnter={() => setShowHelp(true)}
@@ -695,7 +1039,7 @@ function ChartCard({
             {showHelp ? (
               <div
                 ref={helpPanelRef}
-                className="absolute right-0 top-10 z-20 w-[280px] rounded-xl bg-slate-950 px-4 py-3 text-xs leading-5 text-white shadow-2xl"
+                className="pointer-events-none absolute bottom-full right-0 z-30 mb-2 w-[240px] rounded-xl bg-slate-950 px-3 py-2.5 text-[11px] leading-4 text-white shadow-2xl"
                 onClick={(event: ReactMouseEvent<HTMLDivElement>) => event.stopPropagation()}
                 onMouseEnter={() => setShowHelp(true)}
                 onMouseLeave={() => setShowHelp(false)}
@@ -724,10 +1068,10 @@ function ChartCard({
       </div>
 
 
-      <div className="p-3">
+      <div className="w-full overflow-x-hidden px-3 py-0">
         {bundle?.fixedLegend?.length ? <FixedLegend items={bundle.fixedLegend} /> : null}
         {bundle?.scrollable ? (
-          <div className="overflow-y-auto pr-1" style={{ maxHeight: bundle.scrollMaxHeight ?? 380 }}>
+          <div className="overflow-y-auto overflow-x-hidden pr-1" style={{ maxHeight: bundle.scrollMaxHeight ?? 380 }}>
             {chartBody}
           </div>
         ) : (
@@ -760,6 +1104,7 @@ export default function TransitionDashboard(props: {
   const [directTransitionStateDrill, setDirectTransitionStateDrill] = useState<DrillState>({});
   const [directDropoffZoneDrill, setDirectDropoffZoneDrill] = useState<DrillState>({});
   const [directDropoffStateDrill, setDirectDropoffStateDrill] = useState<DrillState>({});
+  const [sortModes, setSortModes] = useState<Record<SortableTransitionChartKey, SortMode>>(DEFAULT_TRANSITION_SORT_MODES);
 
   const [expandState, setExpandState] = useState<ExpandState>(null);
   const requestedScopeKey = useMemo(
@@ -778,6 +1123,13 @@ export default function TransitionDashboard(props: {
     () => (scopePending ? { ...filters, ...loadedLocation } : filters),
     [scopePending, filters, loadedLocation],
   );
+
+  useEffect(() => {
+    if (!filters.state) return;
+    const matchedZone = zoneForState(filters.state);
+    if (!matchedZone || filters.zone === matchedZone) return;
+    setFilters((previous) => ({ ...previous, zone: matchedZone }));
+  }, [filters.state, filters.zone, setFilters]);
 
   useEffect(() => {
     let mounted = true;
@@ -939,11 +1291,41 @@ export default function TransitionDashboard(props: {
   const lossRows = useMemo(() => buildLossRows(currentMetrics, mode), [currentMetrics, mode]);
 
   const cards = useMemo<MetricCard[]>(() => {
+    const buildScaledBreakdown = (labels: string[], values: number[], total: number) => {
+      const scaledValues = scaleValuesToTotal(values, total);
+      return labels.map((label, index) => ({
+        label,
+        value: formatBreakdownShare(scaledValues[index] ?? 0, total),
+      }));
+    };
+    const examLabels = ["WAEC", "NECO", "NABTEB"];
+    const institutionLabels = ["University", "Polytechnic", "College of Education"];
+    const examBreakdown = buildScaledBreakdown(
+      examLabels,
+      examLabels.map((exam) => aggregateRows(filteredCurrentRows.filter((row) => row.exam_body === exam)).o_level_candidates),
+      currentMetrics.o_level_candidates,
+    );
+    const admissionBreakdown = buildScaledBreakdown(
+      institutionLabels,
+      institutionLabels.map((institutionType) => aggregateRows(filteredCurrentRows.filter((row) => row.institution_type === institutionType)).admitted_students),
+      currentMetrics.admitted_students,
+    );
+    const matriculationBreakdown = buildScaledBreakdown(
+      institutionLabels,
+      institutionLabels.map((institutionType) => aggregateRows(filteredCurrentRows.filter((row) => row.institution_type === institutionType)).matriculated_students),
+      currentMetrics.matriculated_students,
+    );
+
+    const oLevelHelp = "O-Level exam body breakdown.";
+    const utmeHelp = "Learners who sat the Unified Tertiary Matriculation Examination after obtaining their O-Level results. This measures how many are actively pursuing tertiary education.";
+    const admittedHelp = "Admission destination breakdown.";
+    const matriculatedHelp = "Matriculation destination breakdown.";
+
     if (mode === "direct") {
       return [
         {
           label: "Total SS3 Students",
-          help: "Total SS3 learners who form the starting pool for the transition pipeline in the selected session and filters.",
+          help: "Same-session SS3 students who form the starting pool for the Direct transition pipeline.",
           value: currentMetrics.ss3_total,
           delta: delta(currentMetrics.ss3_total, previousMetrics.ss3_total),
           icon: <Users className="h-5 w-5" />,
@@ -952,7 +1334,8 @@ export default function TransitionDashboard(props: {
         },
         {
           label: "O-Level Candidates",
-          help: "Number of learners who sat for an O-Level examination (WAEC, NECO, or NABTEB). This is the first funnel gate — learners who did not sit an exam cannot proceed to UTME.",
+          help: oLevelHelp,
+          breakdown: examBreakdown,
           value: currentMetrics.o_level_candidates,
           delta: applyGeneralOLevelDeltaOverride(
             delta(currentMetrics.o_level_candidates, previousMetrics.o_level_candidates),
@@ -965,7 +1348,7 @@ export default function TransitionDashboard(props: {
         },
         {
           label: "UTME Participants",
-          help: "Learners who sat the Unified Tertiary Matriculation Examination after obtaining their O-Level results. This measures how many are actively pursuing tertiary education.",
+          help: utmeHelp,
           value: currentMetrics.utme_participants,
           delta: delta(currentMetrics.utme_participants, previousMetrics.utme_participants),
           icon: <GraduationCap className="h-5 w-5" />,
@@ -974,7 +1357,8 @@ export default function TransitionDashboard(props: {
         },
         {
           label: "Admitted Students",
-          help: "Learners who received a tertiary admission offer after sitting UTME. This is the penultimate pipeline stage — admission offer does not guarantee matriculation.",
+          help: admittedHelp,
+          breakdown: admissionBreakdown,
           value: currentMetrics.admitted_students,
           delta: delta(currentMetrics.admitted_students, previousMetrics.admitted_students),
           icon: <Landmark className="h-5 w-5" />,
@@ -983,7 +1367,8 @@ export default function TransitionDashboard(props: {
         },
         {
           label: "Matriculated Students",
-          help: "Learners who completed the full matriculation process and are formally enrolled in a tertiary institution. This is the final successful outcome of the transition pipeline.",
+          help: matriculatedHelp,
+          breakdown: matriculationBreakdown,
           value: currentMetrics.matriculated_students,
           delta: delta(currentMetrics.matriculated_students, previousMetrics.matriculated_students),
           icon: <GraduationCap className="h-5 w-5" />,
@@ -996,7 +1381,8 @@ export default function TransitionDashboard(props: {
     return [
       {
         label: "O-Level Candidates",
-          help: "Number of learners who sat for an O-Level examination (WAEC, NECO, or NABTEB). This is the first funnel gate — learners who did not sit an exam cannot proceed to UTME.",
+        help: oLevelHelp,
+        breakdown: examBreakdown,
         value: currentMetrics.o_level_candidates,
         delta: applyGeneralOLevelDeltaOverride(
           delta(currentMetrics.o_level_candidates, previousMetrics.o_level_candidates),
@@ -1009,7 +1395,7 @@ export default function TransitionDashboard(props: {
       },
       {
         label: "UTME Participants",
-          help: "Learners who sat the Unified Tertiary Matriculation Examination after obtaining their O-Level results. This measures how many are actively pursuing tertiary education.",
+        help: utmeHelp,
         value: currentMetrics.utme_participants,
         delta: delta(currentMetrics.utme_participants, previousMetrics.utme_participants),
         icon: <GraduationCap className="h-5 w-5" />,
@@ -1018,7 +1404,8 @@ export default function TransitionDashboard(props: {
       },
       {
         label: "Admitted Students",
-          help: "Learners who received a tertiary admission offer after sitting UTME. This is the penultimate pipeline stage — admission offer does not guarantee matriculation.",
+        help: admittedHelp,
+        breakdown: admissionBreakdown,
         value: currentMetrics.admitted_students,
         delta: delta(currentMetrics.admitted_students, previousMetrics.admitted_students),
         icon: <Landmark className="h-5 w-5" />,
@@ -1027,7 +1414,8 @@ export default function TransitionDashboard(props: {
       },
       {
         label: "Matriculated Students",
-          help: "Learners who completed the full matriculation process and are formally enrolled in a tertiary institution. This is the final successful outcome of the transition pipeline.",
+        help: matriculatedHelp,
+        breakdown: matriculationBreakdown,
         value: currentMetrics.matriculated_students,
         delta: delta(currentMetrics.matriculated_students, previousMetrics.matriculated_students),
         icon: <GraduationCap className="h-5 w-5" />,
@@ -1036,7 +1424,7 @@ export default function TransitionDashboard(props: {
       },
       {
         label: "Learners with >2 Year Admission Gap",
-          help: "Learners who eventually gained tertiary admission but did NOT enter directly in the same academic year as their O-Level result — they crossed at least one session gap before being admitted or matriculated. A high count signals systemic pipeline delays: learners who qualified but had to wait one or more sessions before securing a place.",
+        help: "Students who eventually gained tertiary admission but did not enter directly in the same academic year as their O-Level result. This signals delayed transition after O-Level.",
         value: currentMetrics.delayed_transition_students,
         delta: delta(currentMetrics.delayed_transition_students, previousMetrics.delayed_transition_students),
         icon: <Users className="h-5 w-5" />,
@@ -1045,7 +1433,7 @@ export default function TransitionDashboard(props: {
       },
       {
         label: "Median Time to Matriculation",
-          help: "The median number of years between an O-Level result and full tertiary matriculation. A value above 1.0 signals that most learners are not transitioning directly in the same session.",
+        help: "The median number of years between an O-Level result and full tertiary matriculation. A value above 1.0 signals that most students are not transitioning directly in the same session.",
         value: currentMetrics.median_time_to_matriculation_years > 0 ? currentMetrics.median_time_to_matriculation_years : sessionMedianFallback,
         delta: delta(
           currentMetrics.median_time_to_matriculation_years > 0 ? currentMetrics.median_time_to_matriculation_years : sessionMedianFallback,
@@ -1057,7 +1445,7 @@ export default function TransitionDashboard(props: {
         suffix: "yrs",
       },
     ];
-  }, [currentMetrics, previousMetrics, mode, sessionMedianFallback]);
+  }, [currentMetrics, previousMetrics, mode, sessionMedianFallback, filteredCurrentRows, renderFilters, disabilityMode]);
 
 
 const progressionChart = useMemo<ChartBundle>(() => {
@@ -1065,7 +1453,8 @@ const progressionChart = useMemo<ChartBundle>(() => {
   const examBreakdown = ["WAEC", "NECO", "NABTEB"]
     .map((exam) => {
       const total = aggregateRows(filteredCurrentRows.filter((row) => row.exam_body === exam)).o_level_candidates;
-      return `${exam}: ${fmtInt(total)}`;
+      const pct = currentMetrics.o_level_candidates > 0 ? (total / currentMetrics.o_level_candidates) * 100 : 0;
+      return `${exam}: ${fmtInt(total)} (${pct.toFixed(1)}%)`;
     })
     .join("<br>");
 
@@ -1168,14 +1557,17 @@ const progressionChart = useMemo<ChartBundle>(() => {
       ? [female.ss3_total, female.o_level_candidates, female.utme_participants, female.admitted_students, female.matriculated_students]
       : [female.o_level_candidates, female.utme_participants, female.admitted_students, female.matriculated_students];
 
+    const visualSeries = minimumVisibleStackValues([maleValues, femaleValues], 0.16);
+
     return {
       data: [
-        verticalBarTrace("Male", labels, maleValues, COLORS.male),
-        verticalBarTrace("Female", labels, femaleValues, COLORS.female),
+        verticalBarTrace("Male", labels, maleValues, COLORS.male, visualSeries[0]),
+        verticalBarTrace("Female", labels, femaleValues, COLORS.female, visualSeries[1]),
       ],
       layout: {
         ...buildCommonLayout(336),
         barmode: "group",
+        bargap: 0.22,
         margin: { l: 55, r: 18, t: 12, b: 70 },
       },
     };
@@ -1185,7 +1577,7 @@ const progressionChart = useMemo<ChartBundle>(() => {
   const generalTimingDistribution = useMemo<ChartBundle | null>(() => {
     if (mode !== "general") return null;
 
-    const byGap = GAP_OPTIONS.map((gap) => {
+    const rawByGap = GAP_OPTIONS.map((gap) => {
       const metrics = aggregateRows(generalRows.filter((row) => {
         if (row.session !== renderFilters.session) return false;
         if (renderFilters.zone && row.zone !== renderFilters.zone) return false;
@@ -1201,6 +1593,8 @@ const progressionChart = useMemo<ChartBundle>(() => {
       }));
       return { gap, value: metrics.matriculated_students };
     });
+    const scaledGapValues = scaleValuesToTotal(rawByGap.map((row) => row.value), currentMetrics.matriculated_students);
+    const byGap = rawByGap.map((row, index) => ({ ...row, value: scaledGapValues[index] ?? 0 }));
 
     const colors = [COLORS.lag1, COLORS.lag2, COLORS.lag35, COLORS.lag5];
     const positions = [0.82, 0.62, 0.42, 0.22];
@@ -1222,10 +1616,11 @@ const progressionChart = useMemo<ChartBundle>(() => {
           textposition: "inside",
           insidetextorientation: "horizontal",
           textfont: { size: 12, color: "#ffffff" },
-          hovertemplate: "%{label}: %{value:,} learners (%{percent})<extra></extra>",
+          hovertemplate: "%{label}: %{value:,} students (%{percent})<extra></extra>",
           domain: { x: [0.02, 0.44], y: [0.08, 0.92] },
         },
       ],
+      titleNote: titleGrandTotal("Matriculated Students", currentMetrics.matriculated_students),
       layout: {
         ...buildCommonLayout(336),
         margin: { l: 8, r: 8, t: 10, b: 10 },
@@ -1270,7 +1665,7 @@ const progressionChart = useMemo<ChartBundle>(() => {
         }),
       },
     };
-  }, [generalRows, renderFilters, disabilityMode, mode]);
+  }, [generalRows, renderFilters, disabilityMode, mode, currentMetrics.matriculated_students]);
 
   const generalInstitutionTiming = useMemo<ChartBundle | null>(() => {
     if (mode !== "general") return null;
@@ -1289,34 +1684,30 @@ const progressionChart = useMemo<ChartBundle>(() => {
       return true;
     });
 
+    const labels = [...GAP_OPTIONS];
+    const rawSeries = [
+      labels.map((gap) => aggregateRows(baseRows.filter((row) => row.institution_type === "University" && row.gap_band === gap)).matriculated_students),
+      labels.map((gap) => aggregateRows(baseRows.filter((row) => row.institution_type === "Polytechnic" && row.gap_band === gap)).matriculated_students),
+      labels.map((gap) => aggregateRows(baseRows.filter((row) => row.institution_type === "College of Education" && row.gap_band === gap)).matriculated_students),
+    ];
+    const scaledSeries = scaleMatrixToTotal(rawSeries, currentMetrics.matriculated_students);
+    const visualSeries = minimumVisibleStackValues(scaledSeries, 0.16);
+
     return {
       data: [
-        verticalBarTrace(
-          "University",
-          [...GAP_OPTIONS],
-          GAP_OPTIONS.map((gap) => aggregateRows(baseRows.filter((row) => row.institution_type === "University" && row.gap_band === gap)).matriculated_students),
-          COLORS.university,
-        ),
-        verticalBarTrace(
-          "Polytechnic",
-          [...GAP_OPTIONS],
-          GAP_OPTIONS.map((gap) => aggregateRows(baseRows.filter((row) => row.institution_type === "Polytechnic" && row.gap_band === gap)).matriculated_students),
-          COLORS.polytechnic,
-        ),
-        verticalBarTrace(
-          "College of Education",
-          [...GAP_OPTIONS],
-          GAP_OPTIONS.map((gap) => aggregateRows(baseRows.filter((row) => row.institution_type === "College of Education" && row.gap_band === gap)).matriculated_students),
-          COLORS.coe,
-        ),
+        verticalBarTrace("University", labels, scaledSeries[0] ?? [], COLORS.university, visualSeries[0]),
+        verticalBarTrace("Polytechnic", labels, scaledSeries[1] ?? [], COLORS.polytechnic, visualSeries[1]),
+        verticalBarTrace("College of Education", labels, scaledSeries[2] ?? [], COLORS.coe, visualSeries[2]),
       ],
+      titleNote: titleGrandTotal("Matriculated Students", currentMetrics.matriculated_students),
       layout: {
         ...buildCommonLayout(336),
         barmode: "group",
+        bargap: 0.22,
         margin: { l: 55, r: 18, t: 12, b: 70 },
       },
     };
-  }, [generalRows, renderFilters, disabilityMode, mode]);
+  }, [generalRows, renderFilters, disabilityMode, mode, currentMetrics.matriculated_students]);
 
   const lossByGenderChart = useMemo<ChartBundle>(() => {
     const male = aggregateRows(filteredCurrentRows.filter((row) => row.gender === "Male"));
@@ -1351,10 +1742,12 @@ const progressionChart = useMemo<ChartBundle>(() => {
           Math.max(0, female.admitted_students - female.matriculated_students),
         ];
 
+    const visualSeries = minimumVisibleStackValues([maleLosses, femaleLosses], 0.16);
+
     return {
       data: [
-        verticalBarTrace("Male", labels, maleLosses, COLORS.male),
-        verticalBarTrace("Female", labels, femaleLosses, COLORS.female),
+        verticalBarTrace("Male", labels, maleLosses, COLORS.male, visualSeries[0]),
+        verticalBarTrace("Female", labels, femaleLosses, COLORS.female, visualSeries[1]),
       ],
       layout: {
         ...buildCommonLayout(336),
@@ -1369,70 +1762,54 @@ const progressionChart = useMemo<ChartBundle>(() => {
 const buildTransitionLocationChart = (
   baseLevel: LocationLevel,
   drill: DrillState,
+  sortMode: SortMode = DEFAULT_SORT_MODE,
 ): LocationChartResult => {
   const resolved = resolveLocationRows(filteredCurrentRows, baseLevel, drill, renderFilters);
-  const grouped = makeGrouped(resolved.rows, resolved.level);
-  const labels = grouped.map((row) => row.label);
-  const isScrollable = baseLevel === "state";
-  const height = Math.max(isScrollable ? 480 : 340, labels.length * (isScrollable ? 40 : 32) + 126);
+  const grouped = makeGrouped(
+    resolved.rows,
+    resolved.level,
+    sortMode,
+    (row) => row.metrics.matriculated_students,
+    renderFilters.zone,
+  );
+  const labels = grouped.map((row) => displayLocationLabel(row.label, resolved.level));
+  const isScrollable = baseLevel === "state" || resolved.level === "state" || resolved.level === "lga";
+  const height = Math.max(isScrollable ? 500 : 360, labels.length * (isScrollable ? 42 : 34) + 130);
 
   const oLevelValues = grouped.map((row) => row.metrics.o_level_candidates);
-
-  const data: PlotlyData[] = [
-    ...(mode === "direct"
-      ? [horizontalBarTrace("Total SS3 Students", labels, grouped.map((row) => row.metrics.ss3_total), COLORS.ss3, "inside", 11, oLevelValues)]
-      : []),
-    horizontalBarTrace("O-Level Candidates", labels, oLevelValues, COLORS.olevel, "inside", 11, oLevelValues),
-    horizontalBarTrace("UTME Participants", labels, grouped.map((row) => row.metrics.utme_participants), COLORS.utme, "inside", 11, oLevelValues),
-    horizontalBarTrace("Admitted Students", labels, grouped.map((row) => row.metrics.admitted_students), COLORS.admit, "inside", 11, oLevelValues),
-    horizontalBarTrace("Matriculated Students", labels, grouped.map((row) => row.metrics.matriculated_students), COLORS.matric, "inside", 11, oLevelValues),
-  ];
-
-  return {
-    level: resolved.level,
-    bundle: {
-      data,
-      layout: {
-        ...buildCommonLayout(height),
-        uirevision: `transition-location-${baseLevel}-${resolved.level}-${labels.length}`,
-        barmode: "stack",
-        showlegend: (isScrollable || baseLevel === "zone") ? false : true,
-        margin: { l: 128, r: 24, t: 12, b: 68 },
-        yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
-      },
-      scrollable: isScrollable,
-      scrollMaxHeight: isScrollable ? 340 : undefined,
-      expandedMaxHeight: isScrollable ? 400 : 430,
-      fixedLegend: (isScrollable || baseLevel === "zone") ? legendItemsFromData(data) : undefined,
-      expandedWidthClass: isScrollable ? "max-w-[920px]" : "max-w-[900px]",
-    },
-  };
-};
-
-
-const buildDropoffLocationChart = (
-  baseLevel: LocationLevel,
-  drill: DrillState,
-): LocationChartResult => {
-  const resolved = resolveLocationRows(filteredCurrentRows, baseLevel, drill, renderFilters);
-  const grouped = makeGrouped(resolved.rows, resolved.level);
-  const labels = grouped.map((row) => row.label);
-  const isScrollable = baseLevel === "state";
-  const height = Math.max(isScrollable ? 520 : 360, labels.length * (isScrollable ? 44 : 36) + 148);
-
-  const oLevelValues = grouped.map((row) => row.metrics.o_level_candidates);
+  const realSeries = mode === "direct"
+    ? [
+        grouped.map((row) => row.metrics.ss3_total),
+        oLevelValues,
+        grouped.map((row) => row.metrics.utme_participants),
+        grouped.map((row) => row.metrics.admitted_students),
+        grouped.map((row) => row.metrics.matriculated_students),
+      ]
+    : [
+        oLevelValues,
+        grouped.map((row) => row.metrics.utme_participants),
+        grouped.map((row) => row.metrics.admitted_students),
+        grouped.map((row) => row.metrics.matriculated_students),
+      ];
+  const visualSeries = minimumVisibleStackValues(realSeries, 0.065);
+  const maxVisualTotal = Math.max(
+    ...labels.map((_, index) => visualSeries.reduce((sum, series) => sum + safeNum(series[index]), 0)),
+    1,
+  );
 
   const data: PlotlyData[] = mode === "direct"
     ? [
-        horizontalBarTrace("SS3 → O-Level", labels, grouped.map((row) => Math.max(0, row.metrics.ss3_total - row.metrics.o_level_candidates)), COLORS.ss3, "inside", 11, oLevelValues),
-        horizontalBarTrace("O-Level → UTME", labels, grouped.map((row) => Math.max(0, row.metrics.o_level_candidates - row.metrics.utme_participants)), COLORS.utme, "inside", 11, oLevelValues),
-        horizontalBarTrace("UTME → Admitted", labels, grouped.map((row) => Math.max(0, row.metrics.utme_participants - row.metrics.admitted_students)), COLORS.admit, "inside", 11, oLevelValues),
-        horizontalBarTrace("Admitted → Matric", labels, grouped.map((row) => Math.max(0, row.metrics.admitted_students - row.metrics.matriculated_students)), COLORS.matric, "auto", 13, oLevelValues),
+        horizontalBarTrace("Total SS3 Students", labels, realSeries[0] ?? [], COLORS.ss3, "inside", 11, oLevelValues, visualSeries[0]),
+        horizontalBarTrace("O-Level Candidates", labels, realSeries[1] ?? [], COLORS.olevel, "inside", 11, oLevelValues, visualSeries[1]),
+        horizontalBarTrace("UTME Participants", labels, realSeries[2] ?? [], COLORS.utme, "inside", 11, oLevelValues, visualSeries[2]),
+        horizontalBarTrace("Admitted Students", labels, realSeries[3] ?? [], COLORS.admit, "inside", 11, oLevelValues, visualSeries[3]),
+        horizontalBarTrace("Matriculated Students", labels, realSeries[4] ?? [], COLORS.matric, "inside", 11, oLevelValues, visualSeries[4]),
       ]
     : [
-        horizontalBarTrace("O-Level → UTME", labels, grouped.map((row) => Math.max(0, row.metrics.o_level_candidates - row.metrics.utme_participants)), COLORS.olevel, "inside", 11, oLevelValues),
-        horizontalBarTrace("UTME → Admitted", labels, grouped.map((row) => Math.max(0, row.metrics.utme_participants - row.metrics.admitted_students)), COLORS.admit, "inside", 11, oLevelValues),
-        horizontalBarTrace("Admitted → Matric", labels, grouped.map((row) => Math.max(0, row.metrics.admitted_students - row.metrics.matriculated_students)), COLORS.matric, "auto", 13, oLevelValues),
+        horizontalBarTrace("O-Level Candidates", labels, realSeries[0] ?? [], COLORS.olevel, "inside", 11, oLevelValues, visualSeries[0]),
+        horizontalBarTrace("UTME Participants", labels, realSeries[1] ?? [], COLORS.utme, "inside", 11, oLevelValues, visualSeries[1]),
+        horizontalBarTrace("Admitted Students", labels, realSeries[2] ?? [], COLORS.admit, "inside", 11, oLevelValues, visualSeries[2]),
+        horizontalBarTrace("Matriculated Students", labels, realSeries[3] ?? [], COLORS.matric, "inside", 11, oLevelValues, visualSeries[3]),
       ];
 
   return {
@@ -1441,52 +1818,138 @@ const buildDropoffLocationChart = (
       data,
       layout: {
         ...buildCommonLayout(height),
-        uirevision: `transition-dropoff-${baseLevel}-${resolved.level}-${labels.length}`,
+        uirevision: `transition-location-${baseLevel}-${resolved.level}-${sortMode}-${labels.length}`,
         barmode: "stack",
-        showlegend: (isScrollable || baseLevel === "zone") ? false : true,
-        margin: { l: 128, r: 24, t: 12, b: 68 },
-        yaxis: { showgrid: false, automargin: true, autorange: "reversed" },
+        bargap: 0.25,
+        showlegend: false,
+        margin: { l: 118, r: 16, t: 8, b: 18 },
+        xaxis: horizontalValueAxis(maxVisualTotal),
+        yaxis: { showgrid: false, automargin: false, autorange: "reversed", tickfont: { color: COLORS.sub, size: 10.5 } },
       },
       scrollable: isScrollable,
-      scrollMaxHeight: isScrollable ? 370 : undefined,
-      expandedMaxHeight: isScrollable ? 430 : 460,
-      fixedLegend: (isScrollable || baseLevel === "zone") ? legendItemsFromData(data) : undefined,
-      expandedWidthClass: isScrollable ? "max-w-[920px]" : "max-w-[900px]",
+      scrollMaxHeight: isScrollable ? 380 : undefined,
+      expandedMaxHeight: isScrollable ? 560 : 460,
+      fixedLegend: legendItemsFromData(data),
+      expandedWidthClass: isScrollable ? "max-w-[1120px]" : "max-w-[980px]",
+    },
+  };
+};
+
+const buildDropoffLocationChart = (
+  baseLevel: LocationLevel,
+  drill: DrillState,
+  sortMode: SortMode = DEFAULT_SORT_MODE,
+): LocationChartResult => {
+  const resolved = resolveLocationRows(filteredCurrentRows, baseLevel, drill, renderFilters);
+  const grouped = makeGrouped(
+    resolved.rows,
+    resolved.level,
+    sortMode,
+    (row) => {
+      if (mode === "direct") {
+        return Math.max(0, row.metrics.ss3_total - row.metrics.o_level_candidates) +
+          Math.max(0, row.metrics.o_level_candidates - row.metrics.utme_participants) +
+          Math.max(0, row.metrics.utme_participants - row.metrics.admitted_students) +
+          Math.max(0, row.metrics.admitted_students - row.metrics.matriculated_students);
+      }
+      return Math.max(0, row.metrics.o_level_candidates - row.metrics.utme_participants) +
+        Math.max(0, row.metrics.utme_participants - row.metrics.admitted_students) +
+        Math.max(0, row.metrics.admitted_students - row.metrics.matriculated_students);
+    },
+    renderFilters.zone,
+  );
+  const labels = grouped.map((row) => displayLocationLabel(row.label, resolved.level));
+  const isScrollable = baseLevel === "state" || resolved.level === "state" || resolved.level === "lga";
+  const height = Math.max(isScrollable ? 520 : 380, labels.length * (isScrollable ? 44 : 36) + 148);
+
+  const oLevelValues = grouped.map((row) => row.metrics.o_level_candidates);
+  const realSeries = mode === "direct"
+    ? [
+        grouped.map((row) => Math.max(0, row.metrics.ss3_total - row.metrics.o_level_candidates)),
+        grouped.map((row) => Math.max(0, row.metrics.o_level_candidates - row.metrics.utme_participants)),
+        grouped.map((row) => Math.max(0, row.metrics.utme_participants - row.metrics.admitted_students)),
+        grouped.map((row) => Math.max(0, row.metrics.admitted_students - row.metrics.matriculated_students)),
+      ]
+    : [
+        grouped.map((row) => Math.max(0, row.metrics.o_level_candidates - row.metrics.utme_participants)),
+        grouped.map((row) => Math.max(0, row.metrics.utme_participants - row.metrics.admitted_students)),
+        grouped.map((row) => Math.max(0, row.metrics.admitted_students - row.metrics.matriculated_students)),
+      ];
+  const visualSeries = minimumVisibleStackValues(realSeries, 0.10);
+  const maxVisualTotal = Math.max(
+    ...labels.map((_, index) => visualSeries.reduce((sum, series) => sum + safeNum(series[index]), 0)),
+    1,
+  );
+
+  const data: PlotlyData[] = mode === "direct"
+    ? [
+        horizontalBarTrace("SS3 → O-Level", labels, realSeries[0] ?? [], COLORS.ss3, "inside", 11, oLevelValues, visualSeries[0]),
+        horizontalBarTrace("O-Level → UTME", labels, realSeries[1] ?? [], COLORS.utme, "inside", 11, oLevelValues, visualSeries[1]),
+        horizontalBarTrace("UTME → Admitted", labels, realSeries[2] ?? [], COLORS.admit, "inside", 11, oLevelValues, visualSeries[2]),
+        horizontalBarTrace("Admitted → Matric", labels, realSeries[3] ?? [], COLORS.matric, "inside", 11, oLevelValues, visualSeries[3]),
+      ]
+    : [
+        horizontalBarTrace("O-Level → UTME", labels, realSeries[0] ?? [], COLORS.olevel, "inside", 11, oLevelValues, visualSeries[0]),
+        horizontalBarTrace("UTME → Admitted", labels, realSeries[1] ?? [], COLORS.admit, "inside", 11, oLevelValues, visualSeries[1]),
+        horizontalBarTrace("Admitted → Matric", labels, realSeries[2] ?? [], COLORS.matric, "inside", 11, oLevelValues, visualSeries[2]),
+      ];
+  const totalDropoff = realSeries.reduce((sum, series) => sum + series.reduce((inner, value) => inner + safeNum(value), 0), 0);
+
+  return {
+    level: resolved.level,
+    bundle: {
+      data,
+      layout: {
+        ...buildCommonLayout(height),
+        uirevision: `transition-dropoff-${baseLevel}-${resolved.level}-${sortMode}-${labels.length}`,
+        barmode: "stack",
+        bargap: 0.25,
+        showlegend: false,
+        margin: { l: 118, r: 16, t: 8, b: 18 },
+        xaxis: horizontalValueAxis(maxVisualTotal),
+        yaxis: { showgrid: false, automargin: false, autorange: "reversed", tickfont: { color: COLORS.sub, size: 10.5 } },
+      },
+      titleNote: titleGrandTotal("Students Dropped Off", totalDropoff),
+      scrollable: isScrollable,
+      scrollMaxHeight: isScrollable ? 390 : undefined,
+      expandedMaxHeight: isScrollable ? 580 : 480,
+      fixedLegend: legendItemsFromData(data),
+      expandedWidthClass: isScrollable ? "max-w-[1120px]" : "max-w-[980px]",
     },
   };
 };
 
   const generalTransitionZoneChart = useMemo(
-    () => buildTransitionLocationChart("zone", generalTransitionZoneDrill),
-    [filteredCurrentRows, renderFilters, generalTransitionZoneDrill, mode],
+    () => buildTransitionLocationChart("zone", generalTransitionZoneDrill, sortModes.generalTransitionZone),
+    [filteredCurrentRows, renderFilters, generalTransitionZoneDrill, mode, sortModes.generalTransitionZone],
   );
   const generalTransitionStateChart = useMemo(
-    () => buildTransitionLocationChart("state", generalTransitionStateDrill),
-    [filteredCurrentRows, renderFilters, generalTransitionStateDrill, mode],
+    () => buildTransitionLocationChart("state", generalTransitionStateDrill, sortModes.generalTransitionState),
+    [filteredCurrentRows, renderFilters, generalTransitionStateDrill, mode, sortModes.generalTransitionState],
   );
   const generalDropoffZoneChart = useMemo(
-    () => buildDropoffLocationChart("zone", generalDropoffZoneDrill),
-    [filteredCurrentRows, renderFilters, generalDropoffZoneDrill, mode],
+    () => buildDropoffLocationChart("zone", generalDropoffZoneDrill, sortModes.generalDropoffZone),
+    [filteredCurrentRows, renderFilters, generalDropoffZoneDrill, mode, sortModes.generalDropoffZone],
   );
   const generalDropoffStateChart = useMemo(
-    () => buildDropoffLocationChart("state", generalDropoffStateDrill),
-    [filteredCurrentRows, renderFilters, generalDropoffStateDrill, mode],
+    () => buildDropoffLocationChart("state", generalDropoffStateDrill, sortModes.generalDropoffState),
+    [filteredCurrentRows, renderFilters, generalDropoffStateDrill, mode, sortModes.generalDropoffState],
   );
   const directTransitionZoneChart = useMemo(
-    () => buildTransitionLocationChart("zone", directTransitionZoneDrill),
-    [filteredCurrentRows, renderFilters, directTransitionZoneDrill, mode],
+    () => buildTransitionLocationChart("zone", directTransitionZoneDrill, sortModes.directTransitionZone),
+    [filteredCurrentRows, renderFilters, directTransitionZoneDrill, mode, sortModes.directTransitionZone],
   );
   const directTransitionStateChart = useMemo(
-    () => buildTransitionLocationChart("state", directTransitionStateDrill),
-    [filteredCurrentRows, renderFilters, directTransitionStateDrill, mode],
+    () => buildTransitionLocationChart("state", directTransitionStateDrill, sortModes.directTransitionState),
+    [filteredCurrentRows, renderFilters, directTransitionStateDrill, mode, sortModes.directTransitionState],
   );
   const directDropoffZoneChart = useMemo(
-    () => buildDropoffLocationChart("zone", directDropoffZoneDrill),
-    [filteredCurrentRows, renderFilters, directDropoffZoneDrill, mode],
+    () => buildDropoffLocationChart("zone", directDropoffZoneDrill, sortModes.directDropoffZone),
+    [filteredCurrentRows, renderFilters, directDropoffZoneDrill, mode, sortModes.directDropoffZone],
   );
   const directDropoffStateChart = useMemo(
-    () => buildDropoffLocationChart("state", directDropoffStateDrill),
-    [filteredCurrentRows, renderFilters, directDropoffStateDrill, mode],
+    () => buildDropoffLocationChart("state", directDropoffStateDrill, sortModes.directDropoffState),
+    [filteredCurrentRows, renderFilters, directDropoffStateDrill, mode, sortModes.directDropoffState],
   );
 
   const helpText = {
@@ -1506,6 +1969,16 @@ const buildDropoffLocationChart = (
     dropoffState: "This loss chart starts at State level and can drill deeper through LGA, Ward, and School.",
   };
 
+  const sortControlForKey = (chartKey: ExpandChartKey): ReactNode => {
+    if (!isSortableTransitionChartKey(chartKey)) return null;
+    return (
+      <ChartSortControl
+        value={sortModes[chartKey]}
+        onChange={(value) => setSortModes((previous) => ({ ...previous, [chartKey]: value }))}
+      />
+    );
+  };
+
   const syncFiltersForDrill = (currentLevel: LocationLevel, pointLabel: string) => {
     if (!pointLabel || currentLevel === "school") return;
 
@@ -1515,8 +1988,10 @@ const buildDropoffLocationChart = (
         return { ...previous, zone: pointLabel, state: "", lga: "", ward: "", school: "" };
       }
       if (currentLevel === "state") {
-        if (previous.state === pointLabel && !previous.lga && !previous.ward && !previous.school) return previous;
-        return { ...previous, state: pointLabel, lga: "", ward: "", school: "" };
+        const sourceLabel = sourceLocationLabel(pointLabel);
+        const matchedZone = zoneForState(sourceLabel);
+        if (previous.state === sourceLabel && previous.zone === matchedZone && !previous.lga && !previous.ward && !previous.school) return previous;
+        return { ...previous, zone: matchedZone || previous.zone, state: sourceLabel, lga: "", ward: "", school: "" };
       }
       if (currentLevel === "lga") {
         if (previous.lga === pointLabel && !previous.ward && !previous.school) return previous;
@@ -1552,7 +2027,7 @@ const buildDropoffLocationChart = (
     queueMicrotask(() => {
       setter((prev) => {
         if (currentLevel === "zone") return { zone: pointLabel };
-        if (currentLevel === "state") return { ...prev, state: pointLabel, lga: undefined, ward: undefined };
+        if (currentLevel === "state") return { ...prev, state: sourceLocationLabel(pointLabel), lga: undefined, ward: undefined };
         if (currentLevel === "lga") return { ...prev, lga: pointLabel, ward: undefined };
         if (currentLevel === "ward") return { ...prev, ward: pointLabel };
         return prev;
@@ -1735,6 +2210,7 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
             <ChartCard
               title="Transition by Zone"
               bundle={generalTransitionZoneChart.bundle}
+              sortControl={sortControlForKey("generalTransitionZone")}
               explanation={helpText.zone}
               onRefresh={() => { setGeneralTransitionZoneDrill({}); resetLocationFilters(); }}
               onExpand={() => setExpandState({ title: "Transition by Zone", chartKey: "generalTransitionZone" })}
@@ -1746,6 +2222,7 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
             <ChartCard
               title="Transition by State"
               bundle={generalTransitionStateChart.bundle}
+              sortControl={sortControlForKey("generalTransitionState")}
               explanation={helpText.state}
               onRefresh={() => { setGeneralTransitionStateDrill({}); resetLocationFilters(); }}
               onExpand={() => setExpandState({ title: "Transition by State", chartKey: "generalTransitionState" })}
@@ -1772,6 +2249,7 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
             <ChartCard
               title="Drop-off by Zone"
               bundle={generalDropoffZoneChart.bundle}
+              sortControl={sortControlForKey("generalDropoffZone")}
               explanation={helpText.dropoffZone}
               onRefresh={() => { setGeneralDropoffZoneDrill({}); resetLocationFilters(); }}
               onExpand={() => setExpandState({ title: "Drop-off by Zone", chartKey: "generalDropoffZone" })}
@@ -1783,6 +2261,7 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
             <ChartCard
               title="Drop-off by State"
               bundle={generalDropoffStateChart.bundle}
+              sortControl={sortControlForKey("generalDropoffState")}
               explanation={helpText.dropoffState}
               onRefresh={() => { setGeneralDropoffStateDrill({}); resetLocationFilters(); }}
               onExpand={() => setExpandState({ title: "Drop-off by State", chartKey: "generalDropoffState" })}
@@ -1835,6 +2314,7 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
             <ChartCard
               title="Transition by Zone"
               bundle={directTransitionZoneChart.bundle}
+              sortControl={sortControlForKey("directTransitionZone")}
               explanation={helpText.zone}
               onRefresh={() => { setDirectTransitionZoneDrill({}); resetLocationFilters(); }}
               onExpand={() => setExpandState({ title: "Transition by Zone", chartKey: "directTransitionZone" })}
@@ -1846,6 +2326,7 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
             <ChartCard
               title="Transition by State"
               bundle={directTransitionStateChart.bundle}
+              sortControl={sortControlForKey("directTransitionState")}
               explanation={helpText.state}
               onRefresh={() => { setDirectTransitionStateDrill({}); resetLocationFilters(); }}
               onExpand={() => setExpandState({ title: "Transition by State", chartKey: "directTransitionState" })}
@@ -1872,6 +2353,7 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
             <ChartCard
               title="Drop-off by Zone"
               bundle={directDropoffZoneChart.bundle}
+              sortControl={sortControlForKey("directDropoffZone")}
               explanation={helpText.dropoffZone}
               onRefresh={() => { setDirectDropoffZoneDrill({}); resetLocationFilters(); }}
               onExpand={() => setExpandState({ title: "Drop-off by Zone", chartKey: "directDropoffZone" })}
@@ -1883,6 +2365,7 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
             <ChartCard
               title="Drop-off by State"
               bundle={directDropoffStateChart.bundle}
+              sortControl={sortControlForKey("directDropoffState")}
               explanation={helpText.dropoffState}
               onRefresh={() => { setDirectDropoffStateDrill({}); resetLocationFilters(); }}
               onExpand={() => setExpandState({ title: "Drop-off by State", chartKey: "directDropoffState" })}
@@ -1911,11 +2394,16 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
             onClick={(event: ReactMouseEvent<HTMLDivElement>) => event.stopPropagation()}
             className={[
               "w-full overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl",
-              expandedChart?.bundle.expandedWidthClass ?? "max-w-[900px]",
+              expandedChart?.bundle.expandedWidthClass ?? "max-w-[1120px]",
             ].join(" ")}
           >
-            <div className="flex items-center justify-between gap-4 border-b border-slate-100 px-5 py-4">
-              <div className="text-base font-bold text-slate-900">{expandState.title}</div>
+            <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-5 py-4">
+              <div className="min-w-0">
+                <div className="text-base font-bold text-slate-900">{expandState.title}</div>
+                {expandedChart?.bundle.titleNote ? <div className="mt-0.5 text-[11px] font-medium leading-4 text-slate-500">{expandedChart.bundle.titleNote}</div> : null}
+              </div>
+              <div className="flex shrink-0 flex-nowrap items-center gap-2">
+                {"chartKey" in expandState && expandState.chartKey ? <div className="shrink-0 whitespace-nowrap">{sortControlForKey(expandState.chartKey)}</div> : null}
               <button
                 type="button"
                 onClick={() => setExpandState(null)}
@@ -1923,6 +2411,7 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
               >
                 <X className="h-4 w-4" />
               </button>
+              </div>
             </div>
             <div className="p-3">
               {expandedChart ? (
@@ -1936,10 +2425,15 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
                       data={expandedChart.bundle.data}
                       layout={{
                         ...expandedChart.bundle.layout,
+                        height: Math.max(
+                          typeof expandedChart.bundle.layout.height === "number" ? expandedChart.bundle.layout.height : 420,
+                          expandedChart.bundle.expandedMaxHeight ?? 480,
+                        ),
                         showlegend: expandedChart.bundle.fixedLegend?.length ? false : expandedChart.bundle.layout.showlegend,
                       } as Partial<PlotlyLayout>}
                       config={{ displayModeBar: false, responsive: true }}
-                      style={{ width: "100%", height: "100%" }}
+                      useResizeHandler
+                      style={{ display: "block", width: "100%", height: "100%" }}
                       onClick={expandedChart.onPlotClick}
                     />
                   </div>

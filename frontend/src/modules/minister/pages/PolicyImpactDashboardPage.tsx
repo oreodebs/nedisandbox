@@ -75,6 +75,7 @@ type MetricCard = {
   icon: ReactNode;
   help: string;
   suffix?: string;
+  breakdown?: Array<{ label: string; value: string }>;
 };
 
 type LegendItem = {
@@ -92,6 +93,7 @@ type ChartBundle = {
   expandedMaxHeight?: number;
   fixedLegend?: LegendItem[];
   expandedWidthClass?: string;
+  titleNote?: string;
 };
 
 type ChartKey =
@@ -117,6 +119,142 @@ type ChartKey =
 type ExpandState = { key: ChartKey; title: string } | null;
 
 type RankedRow = { label: string; value: number; zone?: string; state?: string; lga?: string };
+
+
+type SortMode = "alphabetical" | "desc" | "asc";
+type SortablePolicyChartKey = Extract<ChartKey, "zone" | "state">;
+type PolicyLocationLevel = "zone" | "state" | "lga" | "institution" | "gender" | "other";
+
+const DEFAULT_SORT_MODE: SortMode = "alphabetical";
+const SORT_OPTIONS: Array<{ value: SortMode; label: string }> = [
+  { value: "alphabetical", label: "A-Z" },
+  { value: "desc", label: "High-Low" },
+  { value: "asc", label: "Low-High" },
+];
+const DEFAULT_POLICY_SORT_MODES: Record<SortablePolicyChartKey, SortMode> = {
+  zone: DEFAULT_SORT_MODE,
+  state: DEFAULT_SORT_MODE,
+};
+const ABUJA_STATE_NAME = "Abuja Federal Capital Territory";
+const ABUJA_STATE_LABEL = "FCT";
+const INTERNATIONAL_ZONE_NAME = "International";
+const STATE_ZONE_MAP: Record<string, string> = {
+  Abia: "South East",
+  Adamawa: "North East",
+  "Akwa Ibom": "South South",
+  Anambra: "South East",
+  Bauchi: "North East",
+  Bayelsa: "South South",
+  Benue: "North Central",
+  Borno: "North East",
+  "Cross River": "South South",
+  Delta: "South South",
+  Ebonyi: "South East",
+  Edo: "South South",
+  Ekiti: "South West",
+  Enugu: "South East",
+  [ABUJA_STATE_NAME]: "North Central",
+  FCT: "North Central",
+  "Abuja FCT": "North Central",
+  Abuja: "North Central",
+  Gombe: "North East",
+  Imo: "South East",
+  Jigawa: "North West",
+  Kaduna: "North West",
+  Kano: "North West",
+  Katsina: "North West",
+  Kebbi: "North West",
+  Kogi: "North Central",
+  Kwara: "North Central",
+  Lagos: "South West",
+  Nasarawa: "North Central",
+  Niger: "North Central",
+  Ogun: "South West",
+  Ondo: "South West",
+  Osun: "South West",
+  Oyo: "South West",
+  Plateau: "North Central",
+  Rivers: "South South",
+  Sokoto: "North West",
+  Taraba: "North East",
+  Yobe: "North East",
+  Zamfara: "North West",
+};
+const STATE_SOURCE_NAMES = Object.keys(STATE_ZONE_MAP).filter(
+  (state) => ![ABUJA_STATE_LABEL, "Abuja FCT", "Abuja"].includes(state),
+);
+
+function isInternationalZone(value: string): boolean {
+  return value.trim().toLowerCase() === INTERNATIONAL_ZONE_NAME.toLowerCase();
+}
+
+function displayPolicyLabel(label: string, level?: PolicyLocationLevel): string {
+  const trimmed = String(label ?? "").trim();
+  if ((level === undefined || level === "state") && [ABUJA_STATE_NAME, ABUJA_STATE_LABEL, "Abuja FCT", "Abuja"].includes(trimmed)) {
+    return ABUJA_STATE_LABEL;
+  }
+  return trimmed;
+}
+
+function sourcePolicyLabel(label: string): string {
+  const trimmed = String(label ?? "").trim();
+  return [ABUJA_STATE_LABEL, "Abuja FCT", "Abuja"].includes(trimmed) ? ABUJA_STATE_NAME : trimmed;
+}
+
+function zoneForState(state: string): string {
+  return STATE_ZONE_MAP[sourcePolicyLabel(state)] ?? STATE_ZONE_MAP[state] ?? "";
+}
+
+function comparePolicyLabels(left: string, right: string, level?: PolicyLocationLevel): number {
+  return displayPolicyLabel(left, level).localeCompare(displayPolicyLabel(right, level));
+}
+
+function compactPolicyLabel(label: string, maxLength = 54): string {
+  const trimmed = String(label ?? "").trim();
+  if (trimmed.length <= maxLength) return trimmed;
+  return `${trimmed.slice(0, Math.max(8, maxLength - 1)).trimEnd()}…`;
+}
+
+function stateLabelsForZone(zone: string): string[] {
+  return STATE_SOURCE_NAMES.filter((state) => !zone || STATE_ZONE_MAP[state] === zone).sort((left, right) => comparePolicyLabels(left, right, "state"));
+}
+
+function sortPolicyRows<T extends { label: string }>(
+  rows: T[],
+  sortMode: SortMode,
+  getValue: (row: T) => number,
+  level?: PolicyLocationLevel,
+): T[] {
+  return [...rows].sort((left, right) => {
+    if (sortMode === "desc" || sortMode === "asc") {
+      const direction = sortMode === "desc" ? -1 : 1;
+      const diff = (getValue(left) - getValue(right)) * direction;
+      if (diff !== 0) return diff;
+    }
+    return comparePolicyLabels(left.label, right.label, level);
+  });
+}
+
+function minimumVisibleStackValues(seriesValues: number[][], minRatio = 0.055): number[][] {
+  const rowCount = Math.max(0, ...seriesValues.map((series) => series.length));
+  const totals = Array.from({ length: rowCount }, (_, index) =>
+    seriesValues.reduce((sum, series) => sum + Math.max(0, safeNum(series[index])), 0),
+  );
+  const maxTotal = Math.max(...totals, 1);
+  const minimum = Math.max(maxTotal * minRatio, 1);
+
+  return seriesValues.map((series) =>
+    series.map((value) => {
+      const numeric = safeNum(value);
+      if (numeric <= 0) return 0;
+      return Math.max(numeric, minimum);
+    }),
+  );
+}
+
+function titleGrandTotal(label: string, value: number): string {
+  return `Grand Total: ${fmtInt(value)} ${label}`;
+}
 
 export const POLICY_IMPACT_SECTIONS = [
   { id: "policy-impact-kpi", label: "KPI Cards" },
@@ -151,22 +289,22 @@ const COLORS = {
 };
 
 const CHART_HELP: Record<ChartKey, string> = {
-  mix: "Programme Mix shows the share of STEMM versus Non-STEMM learners in the current view. When the Admitted toggle is off it shows matriculated learners, and when it is on it shows admitted learners.",
+  mix: "Programme Mix shows the share of STEMM versus Non-STEMM students in the current view. When the Admitted toggle is off it shows matriculated students, and when it is on it shows admitted students.",
   zone: "This chart starts at Zone level and can drill deeper through State, LGA, and Institution. It compares STEMM and Non-STEMM side by side within the current selected stage.",
   state: "This chart starts at State level and can drill deeper through LGA and Institution. Use it to compare how strongly each state leans toward STEMM or Non-STEMM.",
-  gender: "This grouped bar chart compares male and female learners across STEMM and Non-STEMM in the selected stage.",
-  disciplineMix: "This donut chart shows matriculated learners by discipline family. All STEMM disciplines are combined into one STEMM slice, while Non-STEMM is grouped into ART, Social Sciences, and Education.",
-  topMatriculatedCourses: "This ranked horizontal bar chart uses the JAMB Top Admission course values for the selected session and filters. Each course inherits the color of its discipline family from the discipline donut chart beside it.",
+  gender: "This grouped bar chart compares male and female students across STEMM and Non-STEMM in the selected stage.",
+  disciplineMix: "This donut chart shows matriculated students by discipline family. All STEMM disciplines are combined into one STEMM slice, while Non-STEMM is grouped into ART, Social Sciences, and Education.",
+  topMatriculatedCourses: "This ranked horizontal bar chart shows top courses by matriculated students in the selected session and filters. Each course inherits the color of its discipline family from the discipline donut chart beside it.",
   topStemmCourses: "This ranking chart shows the ten STEMM programmes with the highest learner volume in the current stage and filter context.",
   lowestStemmCourses: "This ranking chart shows the ten STEMM programmes with the lowest learner volume in the current stage and filter context.",
   topNonStemmCourses: "This ranking chart shows the ten Non-STEMM programmes with the highest learner volume in the current stage and filter context.",
   lowestNonStemmCourses: "This ranking chart shows the ten Non-STEMM programmes with the lowest learner volume in the current stage and filter context.",
-  topStemmInstitutions: "This chart uses the JAMB Top 10 institutions by admission values for the selected session and filters.",
-  lowestStemmInstitutions: "This chart uses the JAMB Bottom 10 institutions by admission values for the selected session and filters.",
+  topStemmInstitutions: "This chart ranks the top institutions by matriculated students for the selected session and filters.",
+  lowestStemmInstitutions: "This chart ranks the lowest institutions by matriculated students for the selected session and filters.",
   topNonStemmInstitutions: "This chart ranks the institutions with the highest Non-STEMM learner volume in the current stage.",
   lowestNonStemmInstitutions: "This chart ranks the institutions with the lowest Non-STEMM learner volume in the current stage.",
-  stemmNonStemmTrend: "This trend chart shows STEMM and Non-STEMM matriculated learners side by side from 2021/2022 onward so the recent tertiary intake pattern is easier to compare.",
-  loanTrend: "This combo chart compares loan applications with loans disbursed for the 2024/2025 academic session, which is the only currently available year for this loan trend.",
+  stemmNonStemmTrend: "This trend chart shows STEMM and Non-STEMM matriculated students side by side from 2021/2022 onward so the recent tertiary intake pattern is easier to compare.",
+  loanTrend: "This horizontal comparison shows loan applications and loans disbursed by academic session, using separate bars so the volumes are easier to compare.",
   loanInstitution: "This chart shows how approved and disbursed student loans are distributed across institution types.",
   loanDiscipline: "This chart shows how approved and disbursed student loans are distributed across discipline groups.",
 };
@@ -273,47 +411,81 @@ function baseLayout(height = 320): Partial<PlotlyLayout> {
 function buildHorizontalStackedChart(
   rows: Array<{ label: string; stemm: number; nonStemm: number }>,
   metricLabel: string,
+  options?: {
+    sortMode?: SortMode;
+    level?: PolicyLocationLevel;
+    titleNote?: string;
+  },
 ): ChartBundle {
-  const sorted = [...rows].sort((a, b) => b.stemm + b.nonStemm - (a.stemm + a.nonStemm));
-  const dynamicHeight = Math.max(380, sorted.length * 38 + 110);
+  const level = options?.level ?? "other";
+  const sortMode = options?.sortMode ?? DEFAULT_SORT_MODE;
+  const displayMetricLabel = metricLabel.trim() || "value";
+  const sorted = sortPolicyRows(
+    rows.filter((row) => !(level === "zone" && isInternationalZone(row.label))),
+    sortMode,
+    (row) => row.stemm + row.nonStemm,
+    level,
+  );
+  const sourceLabels = sorted.map((row) => row.label);
+  const fullDisplayLabels = sorted.map((row) => displayPolicyLabel(row.label, level));
+  const displayLabels = fullDisplayLabels.map((label) => (level === "institution" ? compactPolicyLabel(label, 48) : label));
+  const stemmValues = sorted.map((row) => row.stemm);
+  const nonStemmValues = sorted.map((row) => row.nonStemm);
+  const [stemmVisualValues, nonStemmVisualValues] = minimumVisibleStackValues([stemmValues, nonStemmValues], 0.06);
+  const dynamicHeight = Math.max(380, sorted.length * 36 + 112);
+  const maxVisualTotal = Math.max(...stemmVisualValues.map((value, index) => value + (nonStemmVisualValues[index] ?? 0)), 1);
+
   return {
     data: [
       {
         type: "bar",
         orientation: "h",
         name: "STEMM",
-        y: sorted.map((row) => row.label),
-        x: sorted.map((row) => row.stemm),
-        text: sorted.map((row) => fmtInt(row.stemm)),
+        y: displayLabels,
+        x: stemmVisualValues,
+        text: stemmValues.map((value) => (value > 0 ? fmtInt(value) : "")),
         textposition: "inside",
         insidetextanchor: "middle",
+        constraintext: "none",
         textfont: { color: "white", size: 11 },
         cliponaxis: false,
-        marker: { color: COLORS.stemm },
-        hovertemplate: "%{y}<br>STEMM: %{x:,}<extra></extra>",
+        marker: { color: COLORS.stemm, line: { width: 0 } },
+        customdata: sorted.map((row, index) => [sourceLabels[index], fullDisplayLabels[index], row.stemm]),
+        hovertemplate: `<b>%{customdata[1]}</b><br>STEMM ${displayMetricLabel}: %{customdata[2]:,.0f}<extra></extra>`,
       },
       {
         type: "bar",
         orientation: "h",
         name: "Non-STEMM",
-        y: sorted.map((row) => row.label),
-        x: sorted.map((row) => row.nonStemm),
-        text: sorted.map((row) => fmtInt(row.nonStemm)),
+        y: displayLabels,
+        x: nonStemmVisualValues,
+        text: nonStemmValues.map((value) => (value > 0 ? fmtInt(value) : "")),
         textposition: "inside",
         insidetextanchor: "middle",
+        constraintext: "none",
         textfont: { color: "white", size: 11 },
         cliponaxis: false,
-        marker: { color: COLORS.nonStemm },
-        hovertemplate: "%{y}<br>Non-STEMM: %{x:,}<extra></extra>",
+        marker: { color: COLORS.nonStemm, line: { width: 0 } },
+        customdata: sorted.map((row, index) => [sourceLabels[index], fullDisplayLabels[index], row.nonStemm]),
+        hovertemplate: `<b>%{customdata[1]}</b><br>Non-STEMM ${displayMetricLabel}: %{customdata[2]:,.0f}<extra></extra>`,
       },
     ],
     layout: {
       ...baseLayout(dynamicHeight),
       barmode: "stack",
-      margin: { l: 76, r: 12, t: 32, b: 42 },
+      bargap: 0.28,
+      margin: { l: 92, r: 18, t: 12, b: 34 },
       showlegend: false,
-      xaxis: { ...baseLayout().xaxis, title: { text: metricLabel }, automargin: true },
-      yaxis: { ...baseLayout().yaxis, automargin: true, tickfont: { color: COLORS.sub, size: 11 }, autorange: "reversed" },
+      xaxis: {
+        range: [0, Math.ceil(maxVisualTotal * 1.08)],
+        showgrid: false,
+        showticklabels: false,
+        zeroline: false,
+        ticks: "",
+        fixedrange: true,
+        title: undefined,
+      },
+      yaxis: { ...baseLayout().yaxis, automargin: false, tickfont: { color: COLORS.sub, size: 10.5 }, autorange: "reversed", showgrid: false },
       title: undefined,
     },
     fixedLegend: [
@@ -321,22 +493,26 @@ function buildHorizontalStackedChart(
       { label: "Non-STEMM", color: COLORS.nonStemm },
     ],
     scrollable: sorted.length > 10,
-    scrollMaxHeight: 380,
-    expandedMaxHeight: Math.max(640, sorted.length * 38 + 120),
+    scrollMaxHeight: 360,
+    expandedMaxHeight: Math.max(680, sorted.length * 42 + 150),
+    expandedWidthClass: level === "state" || level === "lga" || level === "institution" ? "max-w-[96vw]" : "max-w-[94vw]",
+    titleNote: options?.titleNote,
   };
 }
 
-function buildRankedChart(rows: RankedRow[], color: string, metricLabel: string, descending = true): ChartBundle {
-  const filtered = rows.filter((r) => r.value > 0);
+function buildRankedChart(rows: RankedRow[], color: string, metricLabel: string, descending = true, titleNote?: string): ChartBundle {
+  const filtered = rows.filter((row) => row.value > 0);
   const ranked = [...filtered]
-    .sort((a, b) => (descending ? b.value - a.value : a.value - b.value))
+    .sort((left, right) => (descending ? right.value - left.value : left.value - right.value))
     .slice(0, 10);
+  const displayLabels = ranked.map((row) => compactPolicyLabel(displayPolicyLabel(row.label), 58));
+
   return {
     data: [
       {
         type: "bar",
         orientation: "h",
-        y: ranked.map((row) => row.label),
+        y: displayLabels,
         x: ranked.map((row) => row.value),
         marker: { color },
         text: ranked.map((row) => fmtInt(row.value)),
@@ -344,7 +520,8 @@ function buildRankedChart(rows: RankedRow[], color: string, metricLabel: string,
         insidetextanchor: "middle",
         textfont: { color: "white", size: 11 },
         cliponaxis: false,
-        hovertemplate: "%{y}<br>%{x:,}<extra></extra>",
+        customdata: ranked.map((row) => [displayPolicyLabel(row.label), row.value]),
+        hovertemplate: "<b>%{customdata[0]}</b><br>%{customdata[1]:,.0f} " + metricLabel + "<extra></extra>",
       },
     ],
     layout: {
@@ -352,26 +529,30 @@ function buildRankedChart(rows: RankedRow[], color: string, metricLabel: string,
       xaxis: { ...baseLayout().xaxis, title: { text: metricLabel } },
       yaxis: { ...baseLayout().yaxis, automargin: true, tickfont: { color: COLORS.sub, size: 11 }, autorange: descending ? "reversed" : true },
       showlegend: false,
-      margin: { l: 122, r: 16, t: 20, b: 46 },
+      margin: { l: 118, r: 16, t: 20, b: 46 },
     },
     scrollable: ranked.length > 8,
-    scrollMaxHeight: 380,
-    expandedMaxHeight: 520,
+    scrollMaxHeight: 360,
+    expandedMaxHeight: 500,
+    expandedWidthClass: "max-w-[94vw]",
+    titleNote,
   };
 }
 
 
-function buildMultiColorRankedChart(rows: Array<RankedRow & { color: string; hoverLabel?: string }>, metricLabel: string): ChartBundle {
+function buildMultiColorRankedChart(rows: Array<RankedRow & { color: string; hoverLabel?: string }>, metricLabel: string, titleNote?: string): ChartBundle {
   const ranked = rows
     .filter((row) => row.value > 0)
-    .sort((a, b) => b.value - a.value)
+    .sort((left, right) => right.value - left.value)
     .slice(0, 10);
+  const displayLabels = ranked.map((row) => compactPolicyLabel(displayPolicyLabel(row.label), 58));
+
   return {
     data: [
       {
         type: "bar",
         orientation: "h",
-        y: ranked.map((row) => row.label),
+        y: displayLabels,
         x: ranked.map((row) => row.value),
         marker: { color: ranked.map((row) => row.color) },
         text: ranked.map((row) => fmtInt(row.value)),
@@ -379,8 +560,8 @@ function buildMultiColorRankedChart(rows: Array<RankedRow & { color: string; hov
         insidetextanchor: "middle",
         textfont: { color: "white", size: 11 },
         cliponaxis: false,
-        customdata: ranked.map((row) => row.hoverLabel ?? row.label),
-        hovertemplate: "%{y}<br>%{x:,} " + metricLabel + "<br>%{customdata}<extra></extra>",
+        customdata: ranked.map((row) => [displayPolicyLabel(row.label), row.value, row.hoverLabel ?? row.label]),
+        hovertemplate: "<b>%{customdata[0]}</b><br>%{customdata[1]:,.0f} " + metricLabel + "<br>%{customdata[2]}<extra></extra>",
       },
     ],
     layout: {
@@ -388,16 +569,43 @@ function buildMultiColorRankedChart(rows: Array<RankedRow & { color: string; hov
       xaxis: { ...baseLayout().xaxis, title: { text: metricLabel } },
       yaxis: { ...baseLayout().yaxis, automargin: true, tickfont: { color: COLORS.sub, size: 11 }, autorange: "reversed" },
       showlegend: false,
-      margin: { l: 142, r: 16, t: 20, b: 46 },
+      margin: { l: 128, r: 16, t: 20, b: 46 },
     },
     scrollable: ranked.length > 8,
-    scrollMaxHeight: 400,
-    expandedMaxHeight: 560,
+    scrollMaxHeight: 360,
+    expandedMaxHeight: 500,
+    expandedWidthClass: "max-w-[94vw]",
+    titleNote,
   };
 }
 
+
 function buildChartTitle(base: string): string {
   return `${base} — Matriculated`;
+}
+
+function ChartSortControl({ value, onChange }: { value: SortMode; onChange: (value: SortMode) => void }) {
+  return (
+    <div className="inline-flex h-8 shrink-0 flex-nowrap items-center overflow-hidden whitespace-nowrap rounded-md border border-slate-200 bg-white text-[11px] font-semibold text-slate-600 shadow-sm">
+      {SORT_OPTIONS.map((option) => {
+        const active = value === option.value;
+        return (
+          <button
+            key={option.value}
+            type="button"
+            onClick={() => onChange(option.value)}
+            className={[
+              "h-8 min-w-[58px] shrink-0 whitespace-nowrap px-2.5 leading-none transition-colors",
+              active ? "bg-slate-950 text-white" : "bg-white text-slate-600 hover:bg-slate-50",
+            ].join(" ")}
+            aria-pressed={active}
+          >
+            {option.label}
+          </button>
+        );
+      })}
+    </div>
+  );
 }
 
 function FixedLegend({ items }: { items: LegendItem[] }) {
@@ -492,7 +700,17 @@ function KpiCard({ item, previousSessionLabel }: { item: MetricCard; previousSes
       {showHelp ? (
         <div ref={helpPanelRef} className="absolute left-0 top-full z-30 mt-1 w-[270px] rounded-xl bg-slate-950 px-4 py-3 text-xs leading-5 text-white shadow-2xl">
           <div className="mb-1 text-[10px] font-bold text-slate-300 uppercase tracking-wide">{item.label}</div>
-          {item.help}
+          {item.help ? <div>{item.help}</div> : null}
+          {item.breakdown?.length ? (
+            <div className="mt-2 space-y-1 border-t border-white/10 pt-2">
+              {item.breakdown.map((entry) => (
+                <div key={`${item.label}-${entry.label}`} className="flex items-center justify-between gap-3">
+                  <span className="text-white/70">{entry.label}</span>
+                  <span className="font-semibold text-white">{entry.value}</span>
+                </div>
+              ))}
+            </div>
+          ) : null}
         </div>
       ) : null}
     </div>
@@ -503,6 +721,7 @@ function ChartCard({
   title,
   explanation,
   bundle,
+  sortControl,
   onExpand,
   onRefresh,
   onPlotClick,
@@ -510,6 +729,7 @@ function ChartCard({
   title: string;
   explanation: string;
   bundle: ChartBundle;
+  sortControl?: ReactNode;
   onExpand: () => void;
   onRefresh: () => void;
   onPlotClick?: (event: PlotPointEvent) => void;
@@ -532,10 +752,14 @@ function ChartCard({
   }, [showHelp]);
 
   return (
-    <div className="relative overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+    <div className="relative overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm">
       <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-3.5 py-2.5">
-        <div className="text-sm font-bold text-slate-900">{title}</div>
-        <div className="flex items-center gap-2">
+        <div className="min-w-0">
+          <div className="text-sm font-bold text-slate-900">{title}</div>
+          {bundle.titleNote ? <div className="mt-0.5 text-[11px] font-medium leading-4 text-slate-500">{bundle.titleNote}</div> : null}
+        </div>
+        <div className="flex shrink-0 flex-nowrap items-center gap-2">
+          {sortControl ? <div className="shrink-0 whitespace-nowrap">{sortControl}</div> : null}
           <div
             className="relative"
             onMouseEnter={() => setShowHelp(true)}
@@ -554,7 +778,7 @@ function ChartCard({
             {showHelp ? (
               <div
                 ref={helpPanelRef}
-                className="absolute right-0 top-10 z-20 w-[290px] rounded-xl bg-slate-950 px-4 py-3 text-xs leading-5 text-white shadow-2xl"
+                className="pointer-events-none absolute bottom-full right-0 z-30 mb-2 w-[260px] rounded-xl bg-slate-950 px-3 py-2.5 text-[11px] leading-4 text-white shadow-2xl"
                 onClick={(event: ReactMouseEvent<HTMLDivElement>) => event.stopPropagation()}
                 onMouseEnter={() => setShowHelp(true)}
                 onMouseLeave={() => setShowHelp(false)}
@@ -583,15 +807,16 @@ function ChartCard({
       </div>
 
 
-      <div className="p-3">
+      <div className="w-full overflow-x-hidden px-3 py-0">
         {bundle.fixedLegend?.length ? <FixedLegend items={bundle.fixedLegend} /> : null}
         {bundle.scrollable ? (
-          <div className="overflow-y-auto pr-1" style={{ maxHeight: bundle.scrollMaxHeight ?? 320 }}>
+          <div className="overflow-y-auto overflow-x-hidden pr-1" style={{ maxHeight: bundle.scrollMaxHeight ?? 320 }}>
             <Plot
               data={bundle.data}
               layout={{ ...bundle.layout, showlegend: bundle.fixedLegend?.length ? false : bundle.layout.showlegend }}
               config={bundle.config ?? { displayModeBar: false, responsive: true }}
-              style={{ width: "100%", height: "100%" }}
+              useResizeHandler
+              style={{ display: "block", width: "100%", height: "100%" }}
               onClick={onPlotClick}
             />
           </div>
@@ -600,7 +825,8 @@ function ChartCard({
             data={bundle.data}
             layout={{ ...bundle.layout, showlegend: bundle.fixedLegend?.length ? false : bundle.layout.showlegend }}
             config={bundle.config ?? { displayModeBar: false, responsive: true }}
-            style={{ width: "100%", height: "100%" }}
+            useResizeHandler
+            style={{ display: "block", width: "100%", height: "100%" }}
             onClick={onPlotClick}
           />
         )}
@@ -628,6 +854,7 @@ export default function PolicyImpactDashboard({
   const [zoneDrill, setZoneDrill] = useState<DrillState>({});
   const [stateDrill, setStateDrill] = useState<DrillState>({});
   const [expandState, setExpandState] = useState<ExpandState>(null);
+  const [sortModes, setSortModes] = useState<Record<SortablePolicyChartKey, SortMode>>(DEFAULT_POLICY_SORT_MODES);
 
   useEffect(() => {
     let mounted = true;
@@ -640,8 +867,8 @@ export default function PolicyImpactDashboard({
           loadRefinedFile<PolicyLoanRow>("pages/policy_impact/policy_loans_programme.csv"),
         ]);
         if (!mounted) return;
-        setRows(filterRowsBySessionWindow(tertiaryData, POLICY_IMPACT_SESSIONS));
-        setLoanRows(filterRowsBySessionWindow(loansData, POLICY_IMPACT_SESSIONS));
+        setRows(filterRowsBySessionWindow(tertiaryData, POLICY_IMPACT_SESSIONS).filter((row) => !isInternationalZone(row.zone)));
+        setLoanRows(filterRowsBySessionWindow(loansData, POLICY_IMPACT_SESSIONS).filter((row) => !isInternationalZone(row.zone)));
       } catch (err) {
         if (!mounted) return;
         setError(err instanceof Error ? err.message : "Failed to load policy impact data");
@@ -653,6 +880,13 @@ export default function PolicyImpactDashboard({
       mounted = false;
     };
   }, []);
+
+  useEffect(() => {
+    if (!filters.state) return;
+    const matchedZone = zoneForState(filters.state);
+    if (!matchedZone || filters.zone === matchedZone) return;
+    setFilters((previous) => ({ ...previous, zone: matchedZone }));
+  }, [filters.state, filters.zone, setFilters]);
 
   // Reset drills only when non-location filters change (session, gender, etc.)
   // Location filter changes come FROM drills, so including them would cause a loop.
@@ -834,11 +1068,17 @@ export default function PolicyImpactDashboard({
     const prevNonStemmValue = previousRows.filter((row) => row.programme_cluster === "Non-STEMM").reduce((sum, row) => sum + currentValue(row), 0);
     const prevStage = prevStemmValue + prevNonStemmValue;
     const totalLoansDisbursed = filteredLoanRows.reduce((sum, row) => sum + safeNum(row.loan_disbursed), 0);
+    const totalLoanApplications = filteredLoanRows.reduce((sum, row) => sum + safeNum(row.loan_applications), 0);
+    const totalLoansApproved = filteredLoanRows.reduce((sum, row) => sum + safeNum(row.loan_approved), 0);
     const previousLoansDisbursed = previousLoanRows.reduce((sum, row) => sum + safeNum(row.loan_disbursed), 0);
     return {
       totalAdmitted,
       totalMatriculated,
       totalLoansDisbursed,
+      totalLoanApplications,
+      totalLoansApproved,
+      stemmValue,
+      nonStemmValue,
       stemmShare: totalStage ? (stemmValue / totalStage) * 100 : 0,
       nonStemmShare: totalStage ? (nonStemmValue / totalStage) * 100 : 0,
       totalAdmittedDelta: percentDelta(totalAdmitted, previousAdmitted),
@@ -851,13 +1091,17 @@ export default function PolicyImpactDashboard({
 
   const metricCards = useMemo<MetricCard[]>(() => [
     {
-      label: "Total Matriculated Learners",
+      label: "Total Matriculated Students",
       value: totals.totalMatriculated,
       delta: totals.totalMatriculatedDelta,
       accent: "#7c3aed",
       bg: "#ede9fe",
       icon: <GraduationCap className="h-5 w-5" />,
-      help: "Total learners who completed matriculation within the selected filters.",
+      help: "Total students who completed matriculation within the selected filters.",
+      breakdown: [
+        { label: "Total Matriculated", value: fmtInt(totals.totalMatriculated) },
+        { label: "Total Admitted", value: fmtInt(totals.totalAdmitted) },
+      ],
     },
     {
       label: "STEMM Share",
@@ -866,8 +1110,12 @@ export default function PolicyImpactDashboard({
       accent: "#16a34a",
       bg: "#dcfce7",
       icon: <BookOpen className="h-5 w-5" />,
-      help: "Share of matriculated learners in STEMM programmes.",
+      help: "Share of matriculated students in STEMM programmes.",
       suffix: "%",
+      breakdown: [
+        { label: "STEMM Students", value: fmtInt(totals.stemmValue) },
+        { label: "Total Matriculated", value: fmtInt(totals.totalMatriculated) },
+      ],
     },
     {
       label: "Non-STEMM Share",
@@ -876,8 +1124,12 @@ export default function PolicyImpactDashboard({
       accent: "#f59e0b",
       bg: "#fef3c7",
       icon: <Landmark className="h-5 w-5" />,
-      help: "Share of matriculated learners in Non-STEMM programmes.",
+      help: "Share of matriculated students in Non-STEMM programmes.",
       suffix: "%",
+      breakdown: [
+        { label: "Non-STEMM Students", value: fmtInt(totals.nonStemmValue) },
+        { label: "Total Matriculated", value: fmtInt(totals.totalMatriculated) },
+      ],
     },
     {
       label: "Number of Loans Disbursed",
@@ -888,6 +1140,11 @@ export default function PolicyImpactDashboard({
       bg: "#ccfbf1",
       icon: <Wallet className="h-5 w-5" />,
       help: "Total student loans disbursed within the selected filters and session.",
+      breakdown: [
+        { label: "Applications", value: fmtInt(totals.totalLoanApplications) },
+        { label: "Approved", value: fmtInt(totals.totalLoansApproved) },
+        { label: "Disbursed", value: fmtInt(totals.totalLoansDisbursed) },
+      ],
     },
   ], [totals, filteredLoanRows.length]);
 
@@ -904,6 +1161,17 @@ export default function PolicyImpactDashboard({
       map.set(key, entry);
     });
     return [...map.entries()].map(([key, value]) => ({ key, stemm: value.stemm, nonStemm: value.nonStemm }));
+  };
+
+  const includeMissingStates = (
+    sourceRows: Array<{ label: string; stemm: number; nonStemm: number }>,
+    zone: string,
+  ): Array<{ label: string; stemm: number; nonStemm: number }> => {
+    const map = new Map(sourceRows.map((row) => [sourcePolicyLabel(row.label), { ...row, label: sourcePolicyLabel(row.label) }]));
+    stateLabelsForZone(zone).forEach((state) => {
+      if (!map.has(state)) map.set(state, { label: state, stemm: 0, nonStemm: 0 });
+    });
+    return [...map.values()];
   };
 
   // Zone chart: starts from drillBaseRows, scopes by drill path only
@@ -930,17 +1198,28 @@ export default function PolicyImpactDashboard({
   const stateLevel = effectiveStateDrill.lga ? "institution" : effectiveStateDrill.state ? "lga" : "state";
 
   const zoneRows = useMemo(() => {
-    if (zoneLevel === "zone") return groupedBy(drillBaseRows, (row) => row.zone).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
-    if (zoneLevel === "state") return groupedBy(zoneScopedRows, (row) => row.state).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
+    if (zoneLevel === "zone") {
+      return groupedBy(drillBaseRows.filter((row) => !isInternationalZone(row.zone)), (row) => row.zone)
+        .map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
+    }
+    if (zoneLevel === "state") {
+      const rowsForState = groupedBy(zoneScopedRows, (row) => sourcePolicyLabel(row.state))
+        .map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
+      return includeMissingStates(rowsForState, effectiveZoneDrill.zone ?? "");
+    }
     if (zoneLevel === "lga") return groupedBy(zoneScopedRows, (row) => row.lga).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
     return groupedBy(zoneScopedRows, (row) => row.tertiary_institution).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
-  }, [drillBaseRows, zoneScopedRows, zoneLevel]);
+  }, [drillBaseRows, zoneScopedRows, zoneLevel, effectiveZoneDrill.zone]);
 
   const stateRows = useMemo(() => {
-    if (stateLevel === "state") return groupedBy(drillBaseRows, (row) => row.state).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
+    if (stateLevel === "state") {
+      const rowsForState = groupedBy(drillBaseRows, (row) => sourcePolicyLabel(row.state))
+        .map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
+      return includeMissingStates(rowsForState, filters.zone || "");
+    }
     if (stateLevel === "lga") return groupedBy(stateScopedRows, (row) => row.lga).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
     return groupedBy(stateScopedRows, (row) => row.tertiary_institution).map((row) => ({ label: row.key, stemm: row.stemm, nonStemm: row.nonStemm }));
-  }, [drillBaseRows, stateScopedRows, stateLevel]);
+  }, [drillBaseRows, stateScopedRows, stateLevel, filters.zone]);
 
   const programmeMixBundle = useMemo<ChartBundle>(() => {
     const stemm = filteredRows.filter((row) => row.programme_cluster === "STEMM").reduce((sum, row) => sum + currentValue(row), 0);
@@ -971,23 +1250,34 @@ export default function PolicyImpactDashboard({
         textposition: "inside",
         textfont: { color: "white", size: 11 },
         insidetextorientation: "radial",
-        hovertemplate: "%{label}<br>%{value:,} learners<br>%{percent}<extra></extra>",
+        hovertemplate: "%{label}<br>%{value:,} students<br>%{percent}<extra></extra>",
         showlegend: false,
         domain: { x: [0.02, 0.45], y: [0.08, 0.94] },
       }],
       layout,
       fixedLegend: [{ label: "STEMM", color: COLORS.stemm }, { label: "Non-STEMM", color: COLORS.nonStemm }],
+      titleNote: titleGrandTotal("Matriculated Students", stemm + nonStemm),
     };
   }, [filteredRows]);
 
+  const matriculatedGrandTotal = titleGrandTotal("Matriculated Students", totals.totalMatriculated);
+
   const zoneBundle = useMemo(
-    () => buildHorizontalStackedChart(zoneRows, `${currentMetricLabel} learners`),
-    [zoneRows, currentMetricLabel],
+    () => buildHorizontalStackedChart(zoneRows, `${currentMetricLabel} students`, {
+      sortMode: sortModes.zone,
+      level: zoneLevel as PolicyLocationLevel,
+      titleNote: matriculatedGrandTotal,
+    }),
+    [zoneRows, currentMetricLabel, sortModes.zone, zoneLevel, matriculatedGrandTotal],
   );
 
   const stateBundle = useMemo(
-    () => buildHorizontalStackedChart(stateRows, `${currentMetricLabel} learners`),
-    [stateRows, currentMetricLabel],
+    () => buildHorizontalStackedChart(stateRows, `${currentMetricLabel} students`, {
+      sortMode: sortModes.state,
+      level: stateLevel as PolicyLocationLevel,
+      titleNote: matriculatedGrandTotal,
+    }),
+    [stateRows, currentMetricLabel, sortModes.state, stateLevel, matriculatedGrandTotal],
   );
 
   const genderBundle = useMemo<ChartBundle>(() => {
@@ -1000,10 +1290,11 @@ export default function PolicyImpactDashboard({
         { type: "bar", name: "STEMM", x: ["Male", "Female"], y: [maleStemm, femaleStemm], text: [fmtInt(maleStemm), fmtInt(femaleStemm)], textposition: "inside", insidetextanchor: "middle", textfont: { color: "white", size: 12 }, marker: { color: COLORS.stemm }, hovertemplate: "%{x}<br>STEMM: %{y:,}<extra></extra>" },
         { type: "bar", name: "Non-STEMM", x: ["Male", "Female"], y: [maleNon, femaleNon], text: [fmtInt(maleNon), fmtInt(femaleNon)], textposition: "inside", insidetextanchor: "middle", textfont: { color: "white", size: 12 }, marker: { color: COLORS.nonStemm }, hovertemplate: "%{x}<br>Non-STEMM: %{y:,}<extra></extra>" },
       ],
-      layout: { ...baseLayout(300), barmode: "group", showlegend: false, margin: { l: 48, r: 18, t: 36, b: 48 }, yaxis: { ...baseLayout().yaxis, title: { text: `${currentMetricLabel} learners` } } },
+      layout: { ...baseLayout(300), barmode: "group", showlegend: false, margin: { l: 48, r: 18, t: 36, b: 48 }, yaxis: { ...baseLayout().yaxis, title: { text: `${currentMetricLabel} students` } } },
       fixedLegend: [{ label: "STEMM", color: COLORS.stemm }, { label: "Non-STEMM", color: COLORS.nonStemm }],
+      titleNote: matriculatedGrandTotal,
     };
-  }, [filteredRows, currentMetricLabel]);
+  }, [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
 
   const disciplineMixBundle = useMemo<ChartBundle>(() => {
     const totals = new Map<string, number>();
@@ -1070,6 +1361,7 @@ export default function PolicyImpactDashboard({
       }],
       layout,
       fixedLegend: labels.map((label) => ({ label, color: disciplineColor(label) })),
+      titleNote: titleGrandTotal("Matriculated Students", values.reduce((sum, value) => sum + value, 0)),
     };
   }, [filteredRows]);
 
@@ -1079,60 +1371,65 @@ export default function PolicyImpactDashboard({
       const key = row.programme;
       const bucket = getPolicyDisciplineBucket(row);
       const entry = grouped.get(key) ?? { value: 0, color: disciplineColor(bucket), hoverLabel: bucket };
-      entry.value += safeNum(row.admitted_count);
+      entry.value += currentValue(row);
       grouped.set(key, entry);
     });
     return buildMultiColorRankedChart(
       [...grouped.entries()].map(([label, value]) => ({ label, value: value.value, color: value.color, hoverLabel: value.hoverLabel })),
-      "admitted learners",
+      `${currentMetricLabel} students`,
+      matriculatedGrandTotal,
     );
-  }, [filteredRows]);
+  }, [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
 
   const topStemmCoursesBundle = useMemo(() => buildRankedChart(
     [...filteredRows.filter((row) => row.programme_cluster === "STEMM").reduce((map, row) => {
-      map.set(row.programme, (map.get(row.programme) ?? 0) + safeNum(row.admitted_count));
+      map.set(row.programme, (map.get(row.programme) ?? 0) + currentValue(row));
       return map;
     }, new Map<string, number>()).entries()].map(([label, value]) => ({ label, value })),
     COLORS.stemm,
-    "admitted learners",
+    `${currentMetricLabel} students`,
     true,
-  ), [filteredRows]);
+    matriculatedGrandTotal,
+  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
 
   const lowestStemmCoursesBundle = useMemo(() => buildRankedChart(
     [...filteredRows.filter((row) => row.programme_cluster === "STEMM").reduce((map, row) => {
-      map.set(row.programme, (map.get(row.programme) ?? 0) + safeNum(row.admitted_count));
+      map.set(row.programme, (map.get(row.programme) ?? 0) + currentValue(row));
       return map;
     }, new Map<string, number>()).entries()].map(([label, value]) => ({ label, value })),
     COLORS.stemm,
-    "admitted learners",
+    `${currentMetricLabel} students`,
     false,
-  ), [filteredRows]);
+    matriculatedGrandTotal,
+  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
 
 
   const topNonStemmCoursesBundle = useMemo(() => buildRankedChart(
     [...filteredRows.filter((row) => row.programme_cluster === "Non-STEMM").reduce((map, row) => {
-      map.set(row.programme, (map.get(row.programme) ?? 0) + safeNum(row.admitted_count));
+      map.set(row.programme, (map.get(row.programme) ?? 0) + currentValue(row));
       return map;
     }, new Map<string, number>()).entries()].map(([label, value]) => ({ label, value })),
     COLORS.nonStemm,
-    "admitted learners",
+    `${currentMetricLabel} students`,
     true,
-  ), [filteredRows]);
+    matriculatedGrandTotal,
+  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
 
   const lowestNonStemmCoursesBundle = useMemo(() => buildRankedChart(
     [...filteredRows.filter((row) => row.programme_cluster === "Non-STEMM").reduce((map, row) => {
-      map.set(row.programme, (map.get(row.programme) ?? 0) + safeNum(row.admitted_count));
+      map.set(row.programme, (map.get(row.programme) ?? 0) + currentValue(row));
       return map;
     }, new Map<string, number>()).entries()].map(([label, value]) => ({ label, value })),
     COLORS.nonStemm,
-    "admitted learners",
+    `${currentMetricLabel} students`,
     false,
-  ), [filteredRows]);
+    matriculatedGrandTotal,
+  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
 
   const institutionAdmissionRows = useMemo(() => {
     const grouped = new Map<string, number>();
     filteredRows.forEach((row) => {
-      grouped.set(row.tertiary_institution, (grouped.get(row.tertiary_institution) ?? 0) + safeNum(row.admitted_count));
+      grouped.set(row.tertiary_institution, (grouped.get(row.tertiary_institution) ?? 0) + currentValue(row));
     });
     return [...grouped.entries()].map(([label, value]) => ({ label, value }));
   }, [filteredRows]);
@@ -1140,30 +1437,34 @@ export default function PolicyImpactDashboard({
   const topStemmInstitutionsBundle = useMemo(() => buildRankedChart(
     institutionAdmissionRows,
     COLORS.admitted,
-    "admitted learners",
+    `${currentMetricLabel} students`,
     true,
-  ), [institutionAdmissionRows]);
+    matriculatedGrandTotal,
+  ), [institutionAdmissionRows, currentMetricLabel, matriculatedGrandTotal]);
 
   const lowestStemmInstitutionsBundle = useMemo(() => buildRankedChart(
     institutionAdmissionRows,
     COLORS.admitted,
-    "admitted learners",
+    `${currentMetricLabel} students`,
     false,
-  ), [institutionAdmissionRows]);
+    matriculatedGrandTotal,
+  ), [institutionAdmissionRows, currentMetricLabel, matriculatedGrandTotal]);
 
   const topNonStemmInstitutionsBundle = useMemo(() => buildRankedChart(
     groupedBy(filteredRows.filter((row) => row.programme_cluster === "Non-STEMM"), (row) => row.tertiary_institution).map((row) => ({ label: row.key, value: row.nonStemm })),
     COLORS.nonStemm,
-    `${currentMetricLabel} learners`,
+    `${currentMetricLabel} students`,
     true,
-  ), [filteredRows, currentMetricLabel]);
+    matriculatedGrandTotal,
+  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
 
   const lowestNonStemmInstitutionsBundle = useMemo(() => buildRankedChart(
     groupedBy(filteredRows.filter((row) => row.programme_cluster === "Non-STEMM"), (row) => row.tertiary_institution).map((row) => ({ label: row.key, value: row.nonStemm })),
     COLORS.nonStemm,
-    `${currentMetricLabel} learners`,
+    `${currentMetricLabel} students`,
     false,
-  ), [filteredRows, currentMetricLabel]);
+    matriculatedGrandTotal,
+  ), [filteredRows, currentMetricLabel, matriculatedGrandTotal]);
 
   const stemmNonStemmTrendBundle = useMemo<ChartBundle>(() => {
     const sessions = POLICY_IMPACT_SESSIONS.filter((session) => trendRows.some((row) => row.session === session));
@@ -1178,23 +1479,77 @@ export default function PolicyImpactDashboard({
         { type: "scatter", mode: "text+lines+markers", name: "STEMM Matriculated", x: sessions, y: stemmMatric, text: stemmMatric.map((v) => fmtInt(v)), textposition: "top center", line: { color: COLORS.stemm, width: 3 }, marker: { size: 8, symbol: "circle" }, hovertemplate: "%{x}<br>STEMM Matriculated: %{y:,}<extra></extra>" },
         { type: "scatter", mode: "text+lines+markers", name: "Non-STEMM Matriculated", x: sessions, y: nonStemmMatric, text: nonStemmMatric.map((v) => fmtInt(v)), textposition: "bottom center", line: { color: COLORS.nonStemm, width: 3, dash: "dot" }, marker: { size: 8, symbol: "diamond" }, hovertemplate: "%{x}<br>Non-STEMM Matriculated: %{y:,}<extra></extra>" },
       ],
-      layout: { ...baseLayout(340), showlegend: false, yaxis: { ...baseLayout().yaxis, title: { text: "Matriculated learners" } } },
+      layout: { ...baseLayout(340), showlegend: false, yaxis: { ...baseLayout().yaxis, title: { text: "Matriculated students" } } },
       fixedLegend: [{ label: "STEMM Matriculated", color: COLORS.stemm }, { label: "Non-STEMM Matriculated", color: COLORS.nonStemm, dashed: true }],
+      titleNote: matriculatedGrandTotal,
     };
-  }, [trendRows]);
+  }, [trendRows, matriculatedGrandTotal]);
 
   const loanTrendBundle = useMemo<ChartBundle>(() => {
     const sessions: string[] = [...LOAN_TREND_SESSIONS];
     const scoped = filteredLoanRows.filter((row) => sessions.includes(row.session));
     const applications = sessions.map((session) => scoped.filter((row) => row.session === session).reduce((sum, row) => sum + safeNum(row.loan_applications), 0));
     const disbursed = sessions.map((session) => scoped.filter((row) => row.session === session).reduce((sum, row) => sum + safeNum(row.loan_disbursed), 0));
+    const [applicationVisualValues, disbursedVisualValues] = minimumVisibleStackValues([applications, disbursed], 0.08);
+    const maxVisualValue = Math.max(...applicationVisualValues, ...disbursedVisualValues, 1);
+    const chartHeight = Math.max(330, sessions.length * 76 + 120);
+
     return {
       data: [
-        { type: "bar", name: "Loan Applications", x: sessions, y: applications, text: applications.map((v) => fmtInt(v)), textposition: "inside", insidetextanchor: "middle", constraintext: "none", textfont: { color: "#ffffff", size: 11 }, cliponaxis: false, marker: { color: COLORS.applications }, hovertemplate: "%{x}<br>Applications: %{y:,}<extra></extra>" },
-        { type: "scatter", mode: "text+lines+markers", name: "Loans Disbursed", x: sessions, y: disbursed, text: disbursed.map((v) => fmtInt(v)), textposition: "top center", line: { color: COLORS.disbursed, width: 3 }, marker: { size: 8 }, hovertemplate: "%{x}<br>Disbursed: %{y:,}<extra></extra>" },
+        {
+          type: "bar",
+          orientation: "h",
+          name: "Loan Applications",
+          y: sessions,
+          x: applicationVisualValues,
+          text: applications.map((value) => (value > 0 ? fmtInt(value) : "")),
+          textposition: "inside",
+          insidetextanchor: "middle",
+          constraintext: "none",
+          textfont: { color: "#ffffff", size: 11 },
+          cliponaxis: false,
+          marker: { color: COLORS.applications, line: { width: 0 } },
+          customdata: sessions.map((session, index) => [session, applications[index] ?? 0]),
+          hovertemplate: "<b>%{customdata[0]}</b><br>Applications: %{customdata[1]:,.0f}<extra></extra>",
+        },
+        {
+          type: "bar",
+          orientation: "h",
+          name: "Loans Disbursed",
+          y: sessions,
+          x: disbursedVisualValues,
+          text: disbursed.map((value) => (value > 0 ? fmtInt(value) : "")),
+          textposition: "inside",
+          insidetextanchor: "middle",
+          constraintext: "none",
+          textfont: { color: "#ffffff", size: 11 },
+          cliponaxis: false,
+          marker: { color: COLORS.disbursed, line: { width: 0 } },
+          customdata: sessions.map((session, index) => [session, disbursed[index] ?? 0]),
+          hovertemplate: "<b>%{customdata[0]}</b><br>Disbursed: %{customdata[1]:,.0f}<extra></extra>",
+        },
       ],
-      layout: { ...baseLayout(360), showlegend: false, margin: { l: 48, r: 20, t: 36, b: 56 }, yaxis: { ...baseLayout().yaxis, title: { text: "Volume" } } },
+      layout: {
+        ...baseLayout(chartHeight),
+        barmode: "group",
+        bargap: 0.26,
+        bargroupgap: 0.12,
+        showlegend: false,
+        margin: { l: 118, r: 20, t: 16, b: 34 },
+        xaxis: {
+          range: [0, Math.ceil(maxVisualValue * 1.08)],
+          showgrid: false,
+          showticklabels: false,
+          zeroline: false,
+          ticks: "",
+          fixedrange: true,
+          title: undefined,
+        },
+        yaxis: { ...baseLayout().yaxis, automargin: true, tickfont: { color: COLORS.sub, size: 11 }, showgrid: false },
+      },
       fixedLegend: [{ label: "Loan Applications", color: COLORS.applications }, { label: "Loans Disbursed", color: COLORS.disbursed }],
+      expandedMaxHeight: Math.max(440, sessions.length * 92 + 140),
+      expandedWidthClass: "max-w-[92vw]",
     };
   }, [filteredLoanRows]);
 
@@ -1233,8 +1588,14 @@ export default function PolicyImpactDashboard({
   }, [filteredLoanRows]);
 
   // ── Drill handlers ── defined before expandedCharts so they're in scope
+  const extractClickedLabel = (event: PlotPointEvent): string => {
+    const customdata = event.points?.[0]?.customdata;
+    if (Array.isArray(customdata) && typeof customdata[0] === "string") return customdata[0];
+    return String(event.points?.[0]?.y ?? event.points?.[0]?.x ?? "");
+  };
+
   const handleZoneClick = (event: PlotPointEvent) => {
-    const label = String(event.points?.[0]?.y ?? event.points?.[0]?.x ?? "");
+    const label = sourcePolicyLabel(extractClickedLabel(event));
     if (!label) return;
     if (zoneLevel === "zone") {
       // Clicked a zone — both charts now drill into that zone's states
@@ -1243,9 +1604,10 @@ export default function PolicyImpactDashboard({
       setFilters((prev) => ({ ...prev, zone: label, state: "", lga: "", tertiary_institution: "" }));
     } else if (zoneLevel === "state") {
       // Clicked a state inside a zone — drill into that state's LGAs
-      setZoneDrill((prev) => ({ ...prev, state: label }));
-      setStateDrill((prev) => ({ ...prev, state: label }));
-      setFilters((prev) => ({ ...prev, state: label, lga: "", tertiary_institution: "" }));
+      const matchedZone = zoneForState(label) || effectiveZoneDrill.zone;
+      setZoneDrill((prev) => ({ ...prev, zone: matchedZone, state: label }));
+      setStateDrill((prev) => ({ ...prev, zone: matchedZone, state: label }));
+      setFilters((prev) => ({ ...prev, zone: matchedZone || prev.zone, state: label, lga: "", tertiary_institution: "" }));
     } else if (zoneLevel === "lga") {
       // Clicked an LGA — drill into institutions
       setZoneDrill((prev) => ({ ...prev, lga: label }));
@@ -1255,18 +1617,20 @@ export default function PolicyImpactDashboard({
   };
 
   const handleStateClick = (event: PlotPointEvent) => {
-    const label = String(event.points?.[0]?.y ?? event.points?.[0]?.x ?? "");
+    const label = sourcePolicyLabel(extractClickedLabel(event));
     if (!label) return;
     if (stateLevel === "state") {
       // Clicked a state — find its zone so both charts stay in sync
       const matched = drillBaseRows.find((row) => row.state === label);
       if (matched) {
-        setZoneDrill({ zone: matched.zone, state: label });
-        setStateDrill({ zone: matched.zone, state: label });
-        setFilters((prev) => ({ ...prev, zone: matched.zone, state: label, lga: "", tertiary_institution: "" }));
+        const matchedZone = zoneForState(label) || matched.zone;
+        setZoneDrill({ zone: matchedZone, state: label });
+        setStateDrill({ zone: matchedZone, state: label });
+        setFilters((prev) => ({ ...prev, zone: matchedZone, state: label, lga: "", tertiary_institution: "" }));
       } else {
-        setStateDrill({ state: label });
-        setFilters((prev) => ({ ...prev, state: label, lga: "", tertiary_institution: "" }));
+        const matchedZone = zoneForState(label);
+        setStateDrill({ zone: matchedZone || undefined, state: label });
+        setFilters((prev) => ({ ...prev, zone: matchedZone || prev.zone, state: label, lga: "", tertiary_institution: "" }));
       }
     } else if (stateLevel === "lga") {
       setStateDrill((prev) => ({ ...prev, lga: label }));
@@ -1297,6 +1661,15 @@ export default function PolicyImpactDashboard({
   };
 
   const expandedChart = expandState ? expandedCharts[expandState.key] : null;
+  const sortControlFor = (key: ChartKey): ReactNode => {
+    if (key !== "zone" && key !== "state") return null;
+    return (
+      <ChartSortControl
+        value={sortModes[key]}
+        onChange={(value) => setSortModes((previous) => ({ ...previous, [key]: value }))}
+      />
+    );
+  };
 
   if (loading) {
     return <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center text-slate-500">Loading Policy Impact dashboard…</div>;
@@ -1321,12 +1694,12 @@ export default function PolicyImpactDashboard({
 
       <div id="policy-impact-breakdown" className="space-y-4 scroll-mt-36">
         <div className="grid gap-4 lg:grid-cols-2">
-          <ChartCard title={buildChartTitle(`STEMM vs Non-STEMM by ${zoneLevel === "institution" ? "Institution" : zoneLevel[0].toUpperCase() + zoneLevel.slice(1)}`)} explanation={CHART_HELP.zone} bundle={zoneBundle} onExpand={() => setExpandState({ key: "zone", title: buildChartTitle("STEMM vs Non-STEMM by Zone") })} onRefresh={() => { setZoneDrill({}); setStateDrill({}); setFilters((prev) => ({ ...prev, zone: "", state: "", lga: "", tertiary_institution: "" })); }} onPlotClick={handleZoneClick} />
-          <ChartCard title={buildChartTitle(`STEMM vs Non-STEMM by ${stateLevel === "institution" ? "Institution" : stateLevel[0].toUpperCase() + stateLevel.slice(1)}`)} explanation={CHART_HELP.state} bundle={stateBundle} onExpand={() => setExpandState({ key: "state", title: buildChartTitle("STEMM vs Non-STEMM by State") })} onRefresh={() => { setStateDrill({}); setZoneDrill({}); setFilters((prev) => ({ ...prev, state: "", lga: "", tertiary_institution: "" })); }} onPlotClick={handleStateClick} />
+          <ChartCard title={buildChartTitle(`STEMM vs Non-STEMM by ${zoneLevel === "institution" ? "Institution" : zoneLevel[0].toUpperCase() + zoneLevel.slice(1)}`)} explanation={CHART_HELP.zone} bundle={zoneBundle} sortControl={sortControlFor("zone")} onExpand={() => setExpandState({ key: "zone", title: buildChartTitle("STEMM vs Non-STEMM by Zone") })} onRefresh={() => { setZoneDrill({}); setStateDrill({}); setFilters((prev) => ({ ...prev, zone: "", state: "", lga: "", tertiary_institution: "" })); }} onPlotClick={handleZoneClick} />
+          <ChartCard title={buildChartTitle(`STEMM vs Non-STEMM by ${stateLevel === "institution" ? "Institution" : stateLevel[0].toUpperCase() + stateLevel.slice(1)}`)} explanation={CHART_HELP.state} bundle={stateBundle} sortControl={sortControlFor("state")} onExpand={() => setExpandState({ key: "state", title: buildChartTitle("STEMM vs Non-STEMM by State") })} onRefresh={() => { setStateDrill({}); setZoneDrill({}); setFilters((prev) => ({ ...prev, zone: "", state: "", lga: "", tertiary_institution: "" })); }} onPlotClick={handleStateClick} />
         </div>
         <div className="grid gap-4 lg:grid-cols-2">
           <ChartCard title="Matriculation by Discipline" explanation={CHART_HELP.disciplineMix} bundle={disciplineMixBundle} onExpand={() => setExpandState({ key: "disciplineMix", title: "Matriculation by Discipline" })} onRefresh={() => undefined} />
-          <ChartCard title="Top Admission (10) by Courses" explanation={CHART_HELP.topMatriculatedCourses} bundle={topMatriculatedCoursesBundle} onExpand={() => setExpandState({ key: "topMatriculatedCourses", title: "Top Admission (10) by Courses" })} onRefresh={() => undefined} />
+          <ChartCard title={buildChartTitle("Top 10 Courses by Matriculation")} explanation={CHART_HELP.topMatriculatedCourses} bundle={topMatriculatedCoursesBundle} onExpand={() => setExpandState({ key: "topMatriculatedCourses", title: buildChartTitle("Top 10 Courses by Matriculation") })} onRefresh={() => undefined} />
         </div>
         <div className="grid gap-4 lg:grid-cols-2">
           <ChartCard title={buildChartTitle("Top 10 Courses in STEMM")} explanation={CHART_HELP.topStemmCourses} bundle={topStemmCoursesBundle} onExpand={() => setExpandState({ key: "topStemmCourses", title: buildChartTitle("Top 10 Courses in STEMM") })} onRefresh={() => undefined} />
@@ -1340,8 +1713,8 @@ export default function PolicyImpactDashboard({
 
       <div id="policy-impact-rankings" className="space-y-4 scroll-mt-36">
         <div className="grid gap-4 lg:grid-cols-2">
-          <ChartCard title={buildChartTitle("Top 10 Institutions by Admission")} explanation={CHART_HELP.topStemmInstitutions} bundle={topStemmInstitutionsBundle} onExpand={() => setExpandState({ key: "topStemmInstitutions", title: buildChartTitle("Top 10 Institutions by Admission") })} onRefresh={() => undefined} />
-          <ChartCard title={buildChartTitle("Bottom 10 Institutions by Admission")} explanation={CHART_HELP.lowestStemmInstitutions} bundle={lowestStemmInstitutionsBundle} onExpand={() => setExpandState({ key: "lowestStemmInstitutions", title: buildChartTitle("Bottom 10 Institutions by Admission") })} onRefresh={() => undefined} />
+          <ChartCard title={buildChartTitle("Top 10 Institutions by Matriculation")} explanation={CHART_HELP.topStemmInstitutions} bundle={topStemmInstitutionsBundle} onExpand={() => setExpandState({ key: "topStemmInstitutions", title: buildChartTitle("Top 10 Institutions by Matriculation") })} onRefresh={() => undefined} />
+          <ChartCard title={buildChartTitle("Bottom 10 Institutions by Matriculation")} explanation={CHART_HELP.lowestStemmInstitutions} bundle={lowestStemmInstitutionsBundle} onExpand={() => setExpandState({ key: "lowestStemmInstitutions", title: buildChartTitle("Bottom 10 Institutions by Matriculation") })} onRefresh={() => undefined} />
         </div>
       </div>
 
@@ -1367,16 +1740,18 @@ export default function PolicyImpactDashboard({
           onClick={() => setExpandState(null)}
         >
           <div
-            className="flex w-full max-w-[1080px] flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl"
-            style={{ height: "88vh" }}
-            onClick={(event) => event.stopPropagation()}
+            className={["flex w-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl", expandedChart?.bundle.expandedWidthClass ?? "max-w-[94vw]"].join(" ")}
+            style={{ height: "82vh", maxHeight: "760px" }}
+            onClick={(event: ReactMouseEvent<HTMLDivElement>) => event.stopPropagation()}
           >
             {/* Fixed header */}
-            <div className="flex shrink-0 items-center justify-between border-b border-slate-100 px-6 py-4">
-              <div>
+            <div className="flex shrink-0 items-start justify-between gap-4 border-b border-slate-100 px-5 py-3">
+              <div className="min-w-0">
                 <div className="text-base font-extrabold text-slate-900">{expandState.title}</div>
-                <div className="mt-0.5 text-xs text-slate-500">{CHART_HELP[expandState.key]}</div>
+                {expandedChart?.bundle.titleNote ? <div className="mt-0.5 text-xs text-slate-500">{expandedChart.bundle.titleNote}</div> : null}
               </div>
+              <div className="flex shrink-0 items-center gap-2">
+                {sortControlFor(expandState.key)}
               <button
                 type="button"
                 onClick={() => setExpandState(null)}
@@ -1384,6 +1759,7 @@ export default function PolicyImpactDashboard({
               >
                 <X className="h-4 w-4" />
               </button>
+              </div>
             </div>
 
             {/* Fixed legend row (if applicable) */}
@@ -1397,7 +1773,7 @@ export default function PolicyImpactDashboard({
             <div className={[
               "min-h-0 flex-1",
               expandedChart?.bundle.scrollable ? "overflow-y-auto" : "overflow-hidden",
-              "px-6 pb-6 pt-4",
+              "px-5 pb-5 pt-3",
             ].join(" ")}>
               {expandedChart ? (
                 <Plot
@@ -1405,7 +1781,7 @@ export default function PolicyImpactDashboard({
                   layout={{
                     ...expandedChart.bundle.layout,
                     height: expandedChart.bundle.scrollable
-                      ? (expandedChart.bundle.expandedMaxHeight ?? 640)
+                      ? expandedChart.bundle.expandedMaxHeight ?? 700
                       : undefined,
                     autosize: !expandedChart.bundle.scrollable,
                     showlegend: expandedChart.bundle.fixedLegend?.length
