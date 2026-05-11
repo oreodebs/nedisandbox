@@ -2107,10 +2107,19 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
         title="KPI Summary"
         subtitle="Top-line transition cards arranged to match the approved mockup flow."
       />
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-4">
-        {cards.map((card) => (
-          <KpiCard key={card.label} item={card} prevSessionLabel={previousSession || undefined} />
-        ))}
+      <div className="space-y-3 overflow-x-auto pb-1">
+        <div className="grid min-w-[920px] grid-cols-4 gap-3">
+          {cards.slice(0, 4).map((card) => (
+            <KpiCard key={card.label} item={card} prevSessionLabel={previousSession || undefined} />
+          ))}
+        </div>
+        {cards.length > 4 ? (
+          <div className="grid min-w-[690px] grid-cols-3 gap-3">
+            {cards.slice(4, 7).map((card) => (
+              <KpiCard key={card.label} item={card} prevSessionLabel={previousSession || undefined} />
+            ))}
+          </div>
+        ) : null}
       </div>
 
       {mode === "general" ? (

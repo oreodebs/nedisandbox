@@ -2930,8 +2930,11 @@ export default function AccessCoverageDashboard({
   const [studentCountDrill, setStudentCountDrill] = useState<DrillState>({});
   const [keyEntryStateDrill, setKeyEntryStateDrill] = useState<DrillState>({});
   const [classroomStateDrill, setClassroomStateDrill] = useState<DrillState>({});
+  const [pendingDensityCombinedState, setPendingDensityCombinedState] = useState<string | null>(null);
+  const [densityMapResetting, setDensityMapResetting] = useState(false);
 
   const resetLinkedStateDrills = () => {
+    setPendingDensityCombinedState(null);
     setDensityDrill({});
     setDensityPrivateDrill({});
     setComputerDrill({});
@@ -2943,6 +2946,7 @@ export default function AccessCoverageDashboard({
   };
 
   const clearLocationSelection = () => {
+    setDensityMapResetting(true);
     resetLinkedStateDrills();
     setFilters((previous: MinisterFilters) => ({ ...previous, zone: "", state: "", lga: "", ward: "", school: "" }));
   };
@@ -2974,8 +2978,13 @@ export default function AccessCoverageDashboard({
   const stateSortControl = (key: ChartKey, enabled: boolean): ReactNode =>
     enabled ? <ChartSortControl value={sortModeFor(key)} onChange={(value) => setSortModeFor(key, value)} /> : null;
 
+  const locationFiltersAreClear = !filters.zone && !filters.state && !filters.lga && !filters.ward && !filters.school;
+  const hasDrillLocation = (drill: DrillState): boolean => Boolean(drill.state || drill.lga || drill.ward || drill.school);
+
   const stableDrillForLoadedScope = (drill: DrillState): DrillState => {
+    if (locationFiltersAreClear) return {};
     if (!scopePending) return drill;
+    if (!filters.state && !filters.lga && !filters.ward && !filters.school) return {};
     const stable: DrillState = {};
     if (drill.state && loadedLocation.state === drill.state) {
       stable.state = drill.state;
@@ -3068,6 +3077,45 @@ export default function AccessCoverageDashboard({
   }, [filters.zone, filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey]);
 
   useEffect(() => {
+    if (!locationFiltersAreClear) return;
+
+    setPendingDensityCombinedState(null);
+    setDensityDrill((previous) => (hasDrillLocation(previous) ? {} : previous));
+    setDensityPrivateDrill((previous) => (hasDrillLocation(previous) ? {} : previous));
+    setComputerDrill((previous) => (hasDrillLocation(previous) ? {} : previous));
+    setInfrastructureDrill((previous) => (hasDrillLocation(previous) ? {} : previous));
+    setSchoolCountDrill((previous) => (hasDrillLocation(previous) ? {} : previous));
+    setStudentCountDrill((previous) => (hasDrillLocation(previous) ? {} : previous));
+    setKeyEntryStateDrill((previous) => (hasDrillLocation(previous) ? {} : previous));
+    setClassroomStateDrill((previous) => (hasDrillLocation(previous) ? {} : previous));
+  }, [locationFiltersAreClear]);
+
+  useEffect(() => {
+    if (!densityMapResetting) return;
+    if (loading || scopePending) return;
+    if (!locationFiltersAreClear) return;
+    setDensityMapResetting(false);
+  }, [densityMapResetting, loading, scopePending, locationFiltersAreClear]);
+
+  useEffect(() => {
+    if (densityMapResetting) return;
+    if (!pendingDensityCombinedState) return;
+    if (scopePending || loading) return;
+    if (canonicalState(filters.state) !== canonicalState(pendingDensityCombinedState)) return;
+
+    const nextDrill = { state: sourceLocationLabel(pendingDensityCombinedState) };
+    setDensityDrill(nextDrill);
+    setDensityPrivateDrill(nextDrill);
+    setComputerDrill(nextDrill);
+    setInfrastructureDrill(nextDrill);
+    setSchoolCountDrill(nextDrill);
+    setStudentCountDrill(nextDrill);
+    setKeyEntryStateDrill(nextDrill);
+    setClassroomStateDrill(nextDrill);
+    setPendingDensityCombinedState(null);
+  }, [pendingDensityCombinedState, scopePending, loading, filters.state, densityMapResetting]);
+
+  useEffect(() => {
     // Reset chart-level drills when non-location global filters change
     setSchoolCountDrill({});
     setStudentCountDrill({});
@@ -3158,6 +3206,18 @@ export default function AccessCoverageDashboard({
     [loading, scopePending, currentRowsRaw, lastNonEmptyCurrentRows],
   );
   const sessionRows = currentRows;
+  const nationalMapRows = useMemo(() => {
+    return wardRows.filter((row) => {
+      if (row.session !== filters.session) return false;
+      if (row.loc_level && row.loc_level.toLowerCase() !== "state") return false;
+      if (filters.gender && row.gender !== filters.gender) return false;
+      if (filters.school_type && row.school_type !== filters.school_type) return false;
+      if (!schoolLevelMatches(row.school_level, filters.school_level)) return false;
+      if (filters.class_grade && row.class_grade !== filters.class_grade) return false;
+      if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
+      return true;
+    });
+  }, [wardRows, filters.session, filters.gender, filters.school_type, filters.school_level, filters.class_grade, disabilityMode]);
   const previousRows = useMemo(
     () => ((loading || scopePending) && !previousRowsRaw.length && lastNonEmptyPreviousRows.length ? lastNonEmptyPreviousRows : previousRowsRaw),
     [loading, scopePending, previousRowsRaw, lastNonEmptyPreviousRows],
@@ -3386,7 +3446,7 @@ export default function AccessCoverageDashboard({
     ));
   }, [filters.state, filters.zone, accessStateZoneByState, setFilters]);
 
-  const renderDensityDrill = stableDrillForLoadedScope(densityDrill);
+  const renderDensityDrill = densityMapResetting || locationFiltersAreClear ? {} : stableDrillForLoadedScope(densityDrill);
   const renderDensityPrivateDrill = stableDrillForLoadedScope(densityPrivateDrill);
   const renderComputerDrill = stableDrillForLoadedScope(computerDrill);
   const renderInfrastructureDrill = stableDrillForLoadedScope(infrastructureDrill);
@@ -4796,15 +4856,18 @@ export default function AccessCoverageDashboard({
   const buildMapData = (
     drill: DrillState,
     kind: "density" | "densityPublic" | "densityPrivate" | "densityCombined" | "computer" | "infrastructure",
+    options?: { forceNational?: boolean; sourceRows?: AccessWardRow[] },
   ): SvgMapData | null => {
     // Effective state: use map's own drill.state, OR fall back to filters.state when a chart
-    // drill has set the filter without updating the map drill yet.
-    const effectiveState = drill.state ?? (renderFilters.state || undefined);
+    // drill has set the filter without updating the map drill yet. During reset, forceNational
+    // keeps the old national map visible until the national rows are loaded again.
+    const sourceRows = options?.sourceRows ?? currentRows;
+    const effectiveState = options?.forceNational ? undefined : drill.state ?? (renderFilters.state || undefined);
     const level: MapLevel = effectiveState ? "lga" : "state";
 
     const baseRows = effectiveState
-      ? currentRows.filter((row) => row.state === effectiveState)
-      : currentRows;
+      ? sourceRows.filter((row) => row.state === effectiveState)
+      : sourceRows;
 
     const densityScopedRows = kind === "densityPublic"
       ? baseRows.filter((row) => row.school_level === "Pre-Primary/Primary" && row.school_type === "Public")
@@ -4816,7 +4879,7 @@ export default function AccessCoverageDashboard({
 
     const groups =
       level === "state"
-        ? aggregateBy(kind === "densityPublic" || kind === "densityPrivate" || kind === "densityCombined" ? densityScopedRows : currentRows, "state")
+        ? aggregateBy(kind === "densityPublic" || kind === "densityPrivate" || kind === "densityCombined" ? densityScopedRows : sourceRows, "state")
         : aggregateBy(kind === "densityPublic" || kind === "densityPrivate" || kind === "densityCombined" ? densityScopedRows : baseRows, "lga");
 
     const infrastructureGroups = kind === "infrastructure"
@@ -4959,7 +5022,15 @@ export default function AccessCoverageDashboard({
     };
   }, [renderComputerDrill, currentRows, renderFilters.state]);
 
-  const densityCombinedMapData = useMemo(() => buildMapData(renderDensityDrill, "densityCombined"), [currentRows, renderDensityDrill, renderFilters.state]);
+  const isClearingDensityLocation = densityMapResetting || (locationFiltersAreClear && (scopePending || Boolean(loadedLocation.state)));
+  const visibleDensityDrill = isClearingDensityLocation ? {} : renderDensityDrill;
+  const densityCombinedMapData = useMemo(
+    () => buildMapData(visibleDensityDrill, "densityCombined", {
+      forceNational: isClearingDensityLocation,
+      sourceRows: isClearingDensityLocation ? nationalMapRows : undefined,
+    }),
+    [currentRows, visibleDensityDrill, renderFilters.state, isClearingDensityLocation, nationalMapRows],
+  );
   const computerMapData = useMemo(() => buildMapData(renderComputerDrill, "computer"), [currentRows, renderComputerDrill, renderFilters.state]);
   const infrastructureMapData = useMemo(() => buildMapData({}, "infrastructure"), [currentRows]);
   const activeInfrastructureState = renderInfrastructureDrill.state ?? (renderFilters.state || "");
@@ -5363,7 +5434,7 @@ export default function AccessCoverageDashboard({
       <section className="space-y-4" id="access-coverage-main">
         <SectionTitle id="access-coverage-main-anchor" title="Access & Coverage" />
         <div className="flex flex-nowrap items-stretch gap-3 [&>*:first-child]:min-w-0 [&>*:first-child]:flex-[1.35] [&>*:last-child]:min-w-0 [&>*:last-child]:flex-1">
-          {densityCombinedDrillChart ? (
+          {densityCombinedDrillChart && !isClearingDensityLocation ? (
             <div className="relative w-full min-w-0 overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm">
               <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
                 <div>
@@ -5373,10 +5444,7 @@ export default function AccessCoverageDashboard({
                 <div className="flex items-center gap-2">
                   <button
                     type="button"
-                    onClick={() => {
-                      resetLinkedStateDrills();
-                      setFilters((previous: MinisterFilters) => ({ ...previous, zone: "", state: "", lga: "", ward: "", school: "" }));
-                    }}
+                    onClick={clearLocationSelection}
                     className="inline-flex items-center rounded-md border border-slate-200 px-2.5 py-1.5 text-xs font-medium text-slate-600 hover:bg-slate-50"
                   >
                     Back to map
@@ -5407,21 +5475,11 @@ export default function AccessCoverageDashboard({
               title="Average Primary Learners per School"
               explanation={CHART_HELP.densityCombined}
               mapData={densityCombinedMapData}
-              drill={renderDensityDrill}
-              onReset={() => {
-                resetLinkedStateDrills();
-                setFilters((p: MinisterFilters) => ({ ...p, zone: "", state: "", lga: "", ward: "", school: "" }));
-              }}
+              drill={visibleDensityDrill}
+              onReset={clearLocationSelection}
               onStateClick={(name) => {
+                setPendingDensityCombinedState(sourceLocationLabel(name));
                 syncFiltersForDrill("state", name);
-                setDensityDrill({ state: name });
-                setDensityPrivateDrill({ state: name });
-                setComputerDrill({ state: name });
-                setInfrastructureDrill({ state: name });
-                setSchoolCountDrill({ state: name });
-                setStudentCountDrill({ state: name });
-                setKeyEntryStateDrill({ state: name });
-                setClassroomStateDrill({ state: name });
               }}
             />
           )}
