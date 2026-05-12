@@ -1232,7 +1232,7 @@ function ChartCard({
     <div className="relative w-full min-w-0 overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm">
       <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-3.5 py-2.5">
         <div className="min-w-0">
-          <div className="text-sm font-bold text-slate-900">{title}</div>
+          <div className="text-[13px] font-bold leading-tight text-slate-900">{title}</div>
           {bundle?.subtitle ? <div className="mt-0.5 text-[11px] font-medium leading-4 text-slate-500">{bundle.subtitle}</div> : null}
         </div>
         <div className="flex shrink-0 flex-nowrap items-center gap-1.5">
@@ -3191,7 +3191,7 @@ function MapChartCard({ title, explanation, note, mapData, drill, onReset, onSta
       <div className="relative overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
         <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
           <div>
-            <div className="text-sm font-bold text-slate-900">{title}</div>
+            <div className="text-[13px] font-bold leading-tight text-slate-900">{title}</div>
             <div className="mt-0.5 text-[11px] text-slate-400">{drillLabel}</div>
             {note ? <div className="mt-1 inline-flex rounded-full border border-slate-200 bg-slate-50 px-2 py-0.5 text-[11px] font-medium text-slate-600">{note}</div> : null}
           </div>
