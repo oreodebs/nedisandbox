@@ -620,9 +620,9 @@ const CHART_HELP: Record<ChartKey, string> = {
   densityMapPrivate: "Average Primary Learners per Private School shows average learner load per private primary school by state. Click a state to switch into a ranked LGA view, then use the back action to return to the map.",
   densityDrillPublic: "Average Primary Learners per Public School by LGA ranks all LGAs within the selected state and uses a heat-style gradient so higher-pressure LGAs stand out immediately.",
   densityDrillPrivate: "Average Primary Learners per Private School by LGA ranks all LGAs within the selected state and uses a heat-style gradient so higher-pressure LGAs stand out immediately.",
-  densityCombined: "Average Primary Learners per School shows primary learner load by map area using the same continuous green heatmap scale. Click a state to drill into a filled LGA partition, then click an LGA to view filled Ward sections. Available LGAs/Wards fill the parent outline without blank spaces.",
-  densityCombinedDrill: "Average Primary Learners per School drilldown uses continuous green heatmap partitions so available LGAs or Wards fill the selected parent outline and remain map-like without blank missing areas.",
-  densitySchoolLevel: "Average Primary Learners per School by School Level compares learner load per school across Pre/Primary, JSS, SSS, and Non Formal.",
+  densityCombined: "Average Learners per School shows primary learner load by map area using the same continuous green heatmap scale. Click a state to drill into a filled LGA partition, then click an LGA to view filled Ward sections. Available LGAs/Wards fill the parent outline without blank spaces.",
+  densityCombinedDrill: "Average Learners per School drilldown uses continuous green heatmap partitions so available LGAs or Wards fill the selected parent outline and remain map-like without blank missing areas.",
+  densitySchoolLevel: "Average Learners per School by School Level compares learner load per school across Pre/Primary, JSS, SSS, and Non Formal.",
   schoolCountState: "Public vs Private School Count by State compares actual school counts by management type. It stays scrollable and drills deeper from state to LGA so you can compare supply structure clearly.",
   schoolCountPrimaryState: "Primary Level Public vs Private School Count by State compares actual school counts across public and private school type for the pre-primary and primary pipeline only.",
   schoolCountSecondaryState: "Secondary Level Public vs Private School Count by State compares actual school counts across public and private school type for JSS and SSS together.",
@@ -6093,10 +6093,10 @@ export default function AccessCoverageDashboard({
           />
 
           <ChartCard
-            title="Average Primary Learners per School by School Level"
+            title="Average Learners per School by School Level"
             explanation={CHART_HELP.densitySchoolLevel}
             bundle={densitySchoolLevelChart}
-            onExpand={() => setExpandState({ key: "densitySchoolLevel", title: "Average Primary Learners per School by School Level" })}
+            onExpand={() => setExpandState({ key: "densitySchoolLevel", title: "Average Learners per School by School Level" })}
             onRefresh={() => undefined}
           />
         </div>
