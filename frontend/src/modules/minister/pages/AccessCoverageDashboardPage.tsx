@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
 import type { CSSProperties, Dispatch, MouseEvent as ReactMouseEvent, ReactNode, SetStateAction } from "react";
 import Plot from "react-plotly.js";
 import type { Data as PlotlyData, Layout as PlotlyLayout, Config as PlotlyConfig } from "plotly.js";
@@ -79,7 +79,7 @@ type TeacherCapacityRow = {
 
 type PlotPoint = { x?: unknown; y?: unknown; location?: unknown; customdata?: unknown };
 type PlotPointEvent = { points?: PlotPoint[] };
-type MapLevel = "state" | "lga";
+type MapLevel = "state" | "lga" | "ward";
 type LocationLevel = "zone" | "state" | "lga" | "ward" | "school";
 
 type DrillState = {
@@ -620,8 +620,8 @@ const CHART_HELP: Record<ChartKey, string> = {
   densityMapPrivate: "Average Primary Learners per Private School shows average learner load per private primary school by state. Click a state to switch into a ranked LGA view, then use the back action to return to the map.",
   densityDrillPublic: "Average Primary Learners per Public School by LGA ranks all LGAs within the selected state and uses a heat-style gradient so higher-pressure LGAs stand out immediately.",
   densityDrillPrivate: "Average Primary Learners per Private School by LGA ranks all LGAs within the selected state and uses a heat-style gradient so higher-pressure LGAs stand out immediately.",
-  densityCombined: "Average Primary Learners per School shows the combined primary learner load by state. Hover reveals the overall average together with the public and private learner and school totals. Click a state to switch into the LGA breakdown.",
-  densityCombinedDrill: "Average Primary Learners per School by LGA splits each LGA into public and private average learner load so you can compare the state drilldown clearly.",
+  densityCombined: "Average Primary Learners per School shows primary learner load by map area using the same continuous green heatmap scale. Click a state to drill into a filled LGA partition, then click an LGA to view filled Ward sections. Available LGAs/Wards fill the parent outline without blank spaces.",
+  densityCombinedDrill: "Average Primary Learners per School drilldown uses continuous green heatmap partitions so available LGAs or Wards fill the selected parent outline and remain map-like without blank missing areas.",
   densitySchoolLevel: "Average Primary Learners per School by School Level compares learner load per school across Pre/Primary, JSS, SSS, and Non Formal.",
   schoolCountState: "Public vs Private School Count by State compares actual school counts by management type. It stays scrollable and drills deeper from state to LGA so you can compare supply structure clearly.",
   schoolCountPrimaryState: "Primary Level Public vs Private School Count by State compares actual school counts across public and private school type for the pre-primary and primary pipeline only.",
@@ -1396,6 +1396,28 @@ function splitSchoolNames(value?: string): string[] {
 
 function rowIncludesSchool(row: AccessWardRow, schoolName: string): boolean {
   return splitSchoolNames(row.school).includes(schoolName);
+}
+
+function locationDrillFromFilters(location: Pick<MinisterFilters, "state" | "lga" | "ward" | "school">): DrillState {
+  const drill: DrillState = {};
+  if (location.state) drill.state = sourceLocationLabel(location.state);
+  if (location.lga) drill.lga = location.lga;
+  if (location.ward) drill.ward = location.ward;
+  if (location.school) drill.school = location.school;
+  return drill;
+}
+
+function drillsAreSame(left: DrillState, right: DrillState): boolean {
+  return (
+    canonicalState(left.state ?? "") === canonicalState(right.state ?? "") &&
+    (left.lga ?? "") === (right.lga ?? "") &&
+    (left.ward ?? "") === (right.ward ?? "") &&
+    (left.school ?? "") === (right.school ?? "")
+  );
+}
+
+function hasDrillSelection(drill: DrillState): boolean {
+  return Boolean(drill.state || drill.lga || drill.ward || drill.school);
 }
 
 function facilityKey(row: AccessWardRow): string {
@@ -2750,6 +2772,161 @@ const NGA_STATE_BBOX: Record<string, [number,number,number,number]> = {
 const NGA_W = 600;
 const NGA_H = 500;
 
+
+type SvgBBox = [number, number, number, number];
+
+type PartitionCell = {
+  path: string;
+  cx: number;
+  cy: number;
+};
+
+function pathBBox(path: string | undefined): SvgBBox {
+  const numbers = (path ?? "").match(/-?\d+(?:\.\d+)?/g)?.map(Number) ?? [];
+  const xs: number[] = [];
+  const ys: number[] = [];
+
+  for (let index = 0; index < numbers.length - 1; index += 2) {
+    const x = numbers[index];
+    const y = numbers[index + 1];
+    if (Number.isFinite(x) && Number.isFinite(y)) {
+      xs.push(x);
+      ys.push(y);
+    }
+  }
+
+  if (!xs.length || !ys.length) return [0, 0, NGA_W, NGA_H];
+
+  return [
+    Math.min(...xs),
+    Math.min(...ys),
+    Math.max(...xs),
+    Math.max(...ys),
+  ];
+}
+
+function stableUnit(seed: number): number {
+  const value = Math.sin(seed * 12.9898 + 78.233) * 43758.5453123;
+  return value - Math.floor(value);
+}
+
+function clipPolygonToCloserSite(
+  polygon: Array<{ x: number; y: number }>,
+  site: { x: number; y: number },
+  other: { x: number; y: number },
+): Array<{ x: number; y: number }> {
+  if (polygon.length <= 2) return polygon;
+
+  const dx = other.x - site.x;
+  const dy = other.y - site.y;
+  const midX = (site.x + other.x) / 2;
+  const midY = (site.y + other.y) / 2;
+  const side = (point: { x: number; y: number }) => (point.x - midX) * dx + (point.y - midY) * dy;
+  const inside = (point: { x: number; y: number }) => side(point) <= 0.000001;
+  const output: Array<{ x: number; y: number }> = [];
+
+  for (let index = 0; index < polygon.length; index += 1) {
+    const current = polygon[index];
+    const previous = polygon[(index + polygon.length - 1) % polygon.length];
+    if (!current || !previous) continue;
+
+    const currentInside = inside(current);
+    const previousInside = inside(previous);
+
+    if (currentInside !== previousInside) {
+      const previousSide = side(previous);
+      const currentSide = side(current);
+      const denominator = previousSide - currentSide;
+      if (Math.abs(denominator) > 0.000001) {
+        const t = previousSide / denominator;
+        output.push({
+          x: previous.x + (current.x - previous.x) * t,
+          y: previous.y + (current.y - previous.y) * t,
+        });
+      }
+    }
+
+    if (currentInside) output.push(current);
+  }
+
+  return output;
+}
+
+function polygonPath(points: Array<{ x: number; y: number }>): string {
+  const first = points[0];
+  if (!first) return "";
+  return [
+    `M ${first.x.toFixed(2)} ${first.y.toFixed(2)}`,
+    ...points.slice(1).map((point) => `L ${point.x.toFixed(2)} ${point.y.toFixed(2)}`),
+    "Z",
+  ].join(" ");
+}
+
+function buildFilledPartitionCells(count: number, bbox: SvgBBox): PartitionCell[] {
+  if (count <= 0) return [];
+
+  const [x0, y0, x1, y1] = bbox;
+  const width = Math.max(1, x1 - x0);
+  const height = Math.max(1, y1 - y0);
+  const aspect = Math.max(0.4, Math.min(2.6, width / height));
+  const columns = Math.max(1, Math.ceil(Math.sqrt(count * aspect)));
+  const rows = Math.max(1, Math.ceil(count / columns));
+  const cellWidth = width / columns;
+  const cellHeight = height / rows;
+  const jitterX = Math.min(cellWidth * 0.34, width * 0.075);
+  const jitterY = Math.min(cellHeight * 0.34, height * 0.075);
+
+  const sites = Array.from({ length: count }, (_, index) => {
+    const rowIndex = Math.floor(index / columns);
+    const columnIndex = index % columns;
+    const rowOffset = rowIndex % 2 === 0 ? 0.12 : -0.12;
+    const baseX = x0 + (columnIndex + 0.5 + rowOffset) * cellWidth;
+    const baseY = y0 + (rowIndex + 0.5) * cellHeight;
+    const waveX = (stableUnit(index * 5.37 + count * 0.91) - 0.5) * 2 * jitterX;
+    const waveY = (stableUnit(index * 7.91 + count * 1.17) - 0.5) * 2 * jitterY;
+
+    return {
+      x: Math.max(x0 + width * 0.02, Math.min(x1 - width * 0.02, baseX + waveX)),
+      y: Math.max(y0 + height * 0.02, Math.min(y1 - height * 0.02, baseY + waveY)),
+    };
+  });
+
+  return sites.map((site, index) => {
+    let polygon: Array<{ x: number; y: number }> = [
+      { x: x0, y: y0 },
+      { x: x1, y: y0 },
+      { x: x1, y: y1 },
+      { x: x0, y: y1 },
+    ];
+
+    sites.forEach((other, otherIndex) => {
+      if (otherIndex === index || polygon.length <= 2) return;
+      polygon = clipPolygonToCloserSite(polygon, site, other);
+    });
+
+    if (polygon.length <= 2) {
+      const fallbackSize = Math.max(2, Math.min(cellWidth, cellHeight) * 0.5);
+      polygon = [
+        { x: site.x - fallbackSize, y: site.y - fallbackSize },
+        { x: site.x + fallbackSize, y: site.y - fallbackSize },
+        { x: site.x + fallbackSize, y: site.y + fallbackSize },
+        { x: site.x - fallbackSize, y: site.y + fallbackSize },
+      ];
+    }
+
+    const center = polygon.reduce(
+      (sum, point) => ({ x: sum.x + point.x, y: sum.y + point.y }),
+      { x: 0, y: 0 },
+    );
+
+    return {
+      path: polygonPath(polygon),
+      cx: center.x / polygon.length,
+      cy: center.y / polygon.length,
+    };
+  });
+}
+
 function hexToRgb(hex: string): [number, number, number] {
   const h = hex.replace("#", "");
   return [parseInt(h.slice(0,2),16), parseInt(h.slice(2,4),16), parseInt(h.slice(4,6),16)];
@@ -2771,6 +2948,7 @@ type SvgMapProps = {
   formatLegendValue?: (value: number) => string;
   level?: MapLevel;
   activeState?: string;
+  activeLga?: string;
   onStateClick?: (name: string) => void;
   formatTooltip?: (name: string, value: number) => string;
 };
@@ -2784,17 +2962,30 @@ function NigeriaStateSvgMap({
   resolveColor,
   formatLegendValue,
   activeState,
+  activeLga,
   onStateClick,
   formatTooltip,
   level,
 }: SvgMapProps) {
   const [tip, setTip] = useState<{ x: number; y: number; text: string } | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const instanceId = useId().replace(/:/g, "");
 
   const nums = Object.values(values).filter((v) => v > 0 && Number.isFinite(v));
   const minV = nums.length ? Math.min(...nums) : 0;
   const maxV = nums.length ? Math.max(...nums) : 1;
   const range = maxV - minV || 1;
+  const isDrilled = (level === "lga" || level === "ward") && !!activeState;
+  const parentPath = useMemo(() => {
+    if (level === "ward" && activeLga && NGA_LGA_PATHS[activeLga]) return NGA_LGA_PATHS[activeLga];
+    if (activeState && NGA_PATHS[activeState]) return NGA_PATHS[activeState];
+    return "";
+  }, [activeState, activeLga, level]);
+  const parentBBox = useMemo(() => pathBBox(parentPath), [parentPath]);
+  const clipId = useMemo(
+    () => `${instanceId}-density-partition-${String(activeState ?? "national").replace(/[^a-z0-9]/gi, "-")}-${String(activeLga ?? level ?? "state").replace(/[^a-z0-9]/gi, "-")}`,
+    [activeState, activeLga, instanceId, level],
+  );
 
   const fmtVal = (v: number) =>
     formatLegendValue
@@ -2803,9 +2994,9 @@ function NigeriaStateSvgMap({
       : v >= 1_000   ? `${(v / 1_000).toFixed(1)}k`
       : Math.round(v).toString();
 
-  const getLgaColor = (name: string) => {
+  const getPartitionColor = (name: string) => {
     const v = values[name];
-    if (!v || !Number.isFinite(v)) return "#f1f5f9"; // light grey — no data
+    if (!v || !Number.isFinite(v)) return "#e2e8f0";
     return resolveColor ? resolveColor(v) : lerpColor(colorStart, colorEnd, (v - minV) / range);
   };
 
@@ -2815,30 +3006,30 @@ function NigeriaStateSvgMap({
     return resolveColor ? resolveColor(v) : lerpColor(colorStart, colorEnd, (v - minV) / range);
   };
 
-  // ── ViewBox: zoom to active state's bounding box when drilled ────────────
   const viewBox = useMemo<string>(() => {
-    if (level === "lga" && activeState && NGA_STATE_BBOX[activeState]) {
-      const [bx0, by0, bx1, by1] = NGA_STATE_BBOX[activeState];
+    if (isDrilled && parentPath) {
+      const [bx0, by0, bx1, by1] = parentBBox;
       const w = bx1 - bx0;
       const h = by1 - by0;
-      // Square-ish padding so even narrow/flat states look big
-      const pad = Math.max(w, h) * 0.22;
+      const pad = Math.max(w, h) * 0.18;
       return `${bx0 - pad} ${by0 - pad} ${w + pad * 2} ${h + pad * 2}`;
     }
     return `0 0 ${NGA_W} ${NGA_H}`;
-  }, [level, activeState]);
+  }, [isDrilled, parentBBox, parentPath]);
 
-  // ── LGA paths for the drilled state ──────────────────────────────────────
-  const lgaPaths = useMemo<Record<string, string>>(() => {
-    if (level !== "lga" || !activeState) return {};
-    const names = NGA_STATE_LGAS[activeState] ?? [];
-    const out: Record<string, string> = {};
-    names.forEach((n) => { if (NGA_LGA_PATHS[n]) out[n] = NGA_LGA_PATHS[n]; });
-    return out;
-  }, [level, activeState]);
+  const partitionItems = useMemo(() => {
+    if (!isDrilled) return [] as Array<[string, number]>;
+    return Object.entries(values)
+      .filter(([, value]) => value > 0 && Number.isFinite(value))
+      .sort(([left], [right]) => compareLocationLabels(left, right, level));
+  }, [isDrilled, level, values]);
+
+  const partitionCells = useMemo(
+    () => buildFilledPartitionCells(partitionItems.length, parentBBox),
+    [partitionItems.length, parentBBox],
+  );
 
   const cbTicks = [0, 0.2, 0.4, 0.6, 0.8, 1];
-  const isDrilled = level === "lga" && !!activeState;
   const tooltipLines = tip?.text.split(/\s(?:—|-)\s/g).filter(Boolean) ?? [];
   const tooltipStyle = useMemo<CSSProperties>(() => {
     if (!tip) return {};
@@ -2868,26 +3059,28 @@ function NigeriaStateSvgMap({
 
   return (
     <div className="flex h-full w-full" style={{ gap: 16 }}>
-
-      {/* ── Map SVG ──────────────────────────────────────────────────── */}
       <div ref={containerRef} className="relative flex-1 min-w-0 overflow-visible" onMouseLeave={() => setTip(null)}>
-
-        {/* Breadcrumb */}
-        {isDrilled && (
+        {isDrilled && activeState ? (
           <div className="absolute top-1 left-1 z-10 flex items-center gap-1 rounded-md bg-white/90 px-2 py-1 text-[11px] font-semibold shadow-sm border border-slate-200 pointer-events-none">
             <span className="text-slate-400">Nigeria</span>
             <span className="text-slate-300">›</span>
             <span className="text-slate-800">{displayLocationLabel(activeState, "state")}</span>
+            {level === "ward" && activeLga ? (
+              <>
+                <span className="text-slate-300">›</span>
+                <span className="text-slate-800">{activeLga}</span>
+              </>
+            ) : null}
           </div>
-        )}
+        ) : null}
 
         <svg
           viewBox={viewBox}
           style={{ width: "100%", height: "100%", display: "block" }}
           preserveAspectRatio="xMidYMid meet"
+          shapeRendering="geometricPrecision"
         >
           {!isDrilled ? (
-            /* ── NATIONAL VIEW: 37 state polygons, click to drill ── */
             Object.entries(NGA_PATHS).map(([name, d]) => (
               <path
                 key={name}
@@ -2907,56 +3100,63 @@ function NigeriaStateSvgMap({
                 onMouseLeave={() => setTip(null)}
               />
             ))
-          ) : (
-            /* ── DRILLED VIEW: state outline + LGA fills inside ── */
+          ) : parentPath ? (
             <>
-              {/* 1. State outline as background (shows full state shape) */}
+              <defs>
+                <clipPath id={clipId}>
+                  <path d={parentPath} />
+                </clipPath>
+              </defs>
               <path
-                d={NGA_PATHS[activeState] ?? ""}
-                fill="#f8fafc"
-                stroke="#cbd5e1"
-                strokeWidth={1.5}
+                d={parentPath}
+                fill="#ecfdf5"
+                stroke="#94a3b8"
+                strokeWidth={level === "ward" ? 0.55 : 0.72}
                 strokeLinejoin="round"
               />
-
-              {/* 2. LGA polygons drawn ON TOP — each colored by value */}
-              {Object.entries(lgaPaths).map(([name, d]) => {
-                const hasVal = values[name] != null && Number.isFinite(values[name]) && values[name] > 0;
-                return (
-                  <path
-                    key={name}
-                    d={d}
-                    fill={getLgaColor(name)}
-                    stroke="#ffffff"
-                    strokeWidth={0.5}
-                    strokeLinejoin="round"
-                    style={{ cursor: "default", transition: "fill 0.2s" }}
-                    onMouseEnter={(e: ReactMouseEvent<SVGPathElement>) => {
-                      if (!hasVal) { setTip(null); return; }
-                      const text = formatTooltip
-                        ? formatTooltip(name, values[name])
-                        : `${displayLocationLabel(name, level)}: ${fmtVal(values[name])}`;
-                      setTip({ x: e.clientX, y: e.clientY, text });
-                    }}
-                    onMouseMove={(e: ReactMouseEvent<SVGPathElement>) => setTip((p) => p ? { ...p, x: e.clientX, y: e.clientY } : null)}
-                    onMouseLeave={() => setTip(null)}
-                  />
-                );
-              })}
-
-              {/* 3. State border redrawn on top so it's crisp */}
+              <g clipPath={`url(#${clipId})`}>
+                {partitionItems.map(([name, value], index) => {
+                  const cell = partitionCells[index];
+                  if (!cell) return null;
+                  const canDrill = level === "lga";
+                  return (
+                    <path
+                      key={name}
+                      d={cell.path}
+                      fill={getPartitionColor(name)}
+                      stroke="#f8fafc"
+                      strokeWidth={level === "ward" ? 0.16 : 0.22}
+                      strokeOpacity={0.92}
+                      strokeLinejoin="round"
+                      vectorEffect="non-scaling-stroke"
+                      style={{ cursor: canDrill ? "pointer" : "default", transition: "fill 0.2s" }}
+                      onClick={() => {
+                        if (canDrill) onStateClick?.(name);
+                      }}
+                      onMouseEnter={(e: ReactMouseEvent<SVGPathElement>) => {
+                        const text = formatTooltip
+                          ? formatTooltip(name, value)
+                          : `${displayLocationLabel(name, level)}: ${fmtVal(value)}`;
+                        setTip({ x: e.clientX, y: e.clientY, text });
+                      }}
+                      onMouseMove={(e: ReactMouseEvent<SVGPathElement>) => setTip((p) => p ? { ...p, x: e.clientX, y: e.clientY } : null)}
+                      onMouseLeave={() => setTip(null)}
+                    />
+                  );
+                })}
+              </g>
               <path
-                d={NGA_PATHS[activeState] ?? ""}
+                d={parentPath}
                 fill="none"
-                stroke="#64748b"
-                strokeWidth={1.8}
+                stroke="#0f172a"
+                strokeWidth={level === "ward" ? 0.8 : 0.95}
                 strokeLinejoin="round"
+                vectorEffect="non-scaling-stroke"
               />
             </>
-          )}
+          ) : null}
         </svg>
 
-        {/* Tooltip */}
         {tip && tooltipLines.length ? (
           <div
             className="pointer-events-none fixed z-[9999] rounded-xl border border-slate-600 shadow-2xl"
@@ -2974,7 +3174,6 @@ function NigeriaStateSvgMap({
         ) : null}
       </div>
 
-      {/* ── Colorbar ─────────────────────────────────────────────────── */}
       <div className="flex-shrink-0 flex flex-col" style={{ width: legendItems?.length ? 158 : 84, paddingTop: 4, paddingBottom: 8 }}>
         <div className="text-[10px] font-semibold text-slate-500 mb-3 leading-snug text-center"
           style={{ wordBreak: "break-word" }}>
@@ -2993,7 +3192,7 @@ function NigeriaStateSvgMap({
           </div>
         ) : (
           <div className="relative flex-1" style={{ minHeight: 240 }}>
-            <div className="absolute rounded-md"
+            <div className="absolute rounded-full"
               style={{ left: 8, top: 0, bottom: 0, width: 26,
                 background: `linear-gradient(to top, ${colorStart}, ${colorEnd})`,
                 boxShadow: "0 1px 4px rgba(0,0,0,0.18)" }} />
@@ -3012,7 +3211,6 @@ function NigeriaStateSvgMap({
           </div>
         )}
       </div>
-
     </div>
   );
 }
@@ -3047,7 +3245,11 @@ function MapChartCard({ title, explanation, note, mapData, drill, onReset, onSta
   const helpButtonRef = useRef<HTMLButtonElement | null>(null);
   const helpPanelRef = useRef<HTMLDivElement | null>(null);
   const expandRef = useOutsideClose<HTMLDivElement>(!!expanded, () => setExpanded(null));
-  const drillLabel = drill.state ? `↳ ${displayLocationLabel(drill.state, "state")} (state drill active)` : "Click a state to drill deeper";
+  const drillLabel = drill.lga
+    ? `↳ ${displayLocationLabel(drill.state ?? "", "state")} › ${drill.lga} (Ward view)`
+    : drill.state
+      ? `↳ ${displayLocationLabel(drill.state, "state")} (LGA view)`
+      : "Click a state to drill deeper";
 
   useEffect(() => {
     if (!showHelp) return undefined;
@@ -3121,6 +3323,7 @@ function MapChartCard({ title, explanation, note, mapData, drill, onReset, onSta
               formatLegendValue={mapData.formatLegendValue}
               level={mapData.level}
               activeState={drill.state}
+              activeLga={drill.lga}
               onStateClick={onStateClick}
               formatTooltip={mapData.formatTooltip}
             />
@@ -3137,7 +3340,11 @@ function MapChartCard({ title, explanation, note, mapData, drill, onReset, onSta
             <div className="flex items-center justify-between gap-4 border-b border-slate-100 px-5 py-4">
               <div>
                 <div className="text-base font-bold text-slate-900">{expanded.title}</div>
-                <div className="mt-0.5 text-xs text-slate-400">{drill.state ? `↳ ${displayLocationLabel(drill.state, "state")} — state drill active` : "National state view — click a state to drill"}</div>
+                <div className="mt-0.5 text-xs text-slate-400">{drill.lga
+                    ? `↳ ${displayLocationLabel(drill.state ?? "", "state")} › ${drill.lga} — Ward view`
+                    : drill.state
+                      ? `↳ ${displayLocationLabel(drill.state, "state")} — LGA view`
+                      : "National state view — click a state to drill"}</div>
               </div>
               <button type="button" onClick={() => setExpanded(null)}
                 className="grid h-8 w-8 place-items-center rounded-lg border border-slate-200 text-slate-500 hover:bg-slate-50">
@@ -3156,6 +3363,7 @@ function MapChartCard({ title, explanation, note, mapData, drill, onReset, onSta
                   formatLegendValue={mapData.formatLegendValue}
                   level={mapData.level}
                   activeState={drill.state}
+                  activeLga={drill.lga}
                   onStateClick={onStateClick}
                   formatTooltip={mapData.formatTooltip}
                 />
@@ -3194,10 +3402,12 @@ export default function AccessCoverageDashboard({
   const [keyEntryStateDrill, setKeyEntryStateDrill] = useState<DrillState>({});
   const [classroomStateDrill, setClassroomStateDrill] = useState<DrillState>({});
   const [pendingDensityCombinedState, setPendingDensityCombinedState] = useState<string | null>(null);
+  const [pendingDensityCombinedLga, setPendingDensityCombinedLga] = useState<string | null>(null);
   const [densityMapResetting, setDensityMapResetting] = useState(false);
 
   const resetLinkedStateDrills = () => {
     setPendingDensityCombinedState(null);
+    setPendingDensityCombinedLga(null);
     setDensityDrill({});
     setDensityPrivateDrill({});
     setComputerDrill({});
@@ -3242,7 +3452,22 @@ export default function AccessCoverageDashboard({
     enabled ? <ChartSortControl value={sortModeFor(key)} onChange={(value) => setSortModeFor(key, value)} /> : null;
 
   const locationFiltersAreClear = !filters.zone && !filters.state && !filters.lga && !filters.ward && !filters.school;
-  const hasDrillLocation = (drill: DrillState): boolean => Boolean(drill.state || drill.lga || drill.ward || drill.school);
+  const hasDrillLocation = hasDrillSelection;
+
+  const setLinkedLocationDrills = (nextDrill: DrillState) => {
+    const update = (setter: Dispatch<SetStateAction<DrillState>>) => {
+      setter((previous) => (drillsAreSame(previous, nextDrill) ? previous : nextDrill));
+    };
+
+    update(setDensityDrill);
+    update(setDensityPrivateDrill);
+    update(setComputerDrill);
+    update(setInfrastructureDrill);
+    update(setSchoolCountDrill);
+    update(setStudentCountDrill);
+    update(setKeyEntryStateDrill);
+    update(setClassroomStateDrill);
+  };
 
   const stableDrillForLoadedScope = (drill: DrillState): DrillState => {
     if (locationFiltersAreClear) return {};
@@ -3337,6 +3562,7 @@ export default function AccessCoverageDashboard({
     if (!locationFiltersAreClear) return;
 
     setPendingDensityCombinedState(null);
+    setPendingDensityCombinedLga(null);
     setDensityDrill((previous) => (hasDrillLocation(previous) ? {} : previous));
     setDensityPrivateDrill((previous) => (hasDrillLocation(previous) ? {} : previous));
     setComputerDrill((previous) => (hasDrillLocation(previous) ? {} : previous));
@@ -3371,6 +3597,49 @@ export default function AccessCoverageDashboard({
     setClassroomStateDrill(nextDrill);
     setPendingDensityCombinedState(null);
   }, [pendingDensityCombinedState, scopePending, loading, filters.state, densityMapResetting]);
+
+  useEffect(() => {
+    if (densityMapResetting) return;
+    if (!pendingDensityCombinedLga) return;
+    if (scopePending || loading) return;
+    if (!filters.state) return;
+    if (filters.lga !== pendingDensityCombinedLga) return;
+
+    const nextDrill = {
+      state: sourceLocationLabel(filters.state),
+      lga: pendingDensityCombinedLga,
+      ward: "",
+    };
+    setDensityDrill(nextDrill);
+    setDensityPrivateDrill(nextDrill);
+    setComputerDrill(nextDrill);
+    setInfrastructureDrill(nextDrill);
+    setSchoolCountDrill(nextDrill);
+    setStudentCountDrill(nextDrill);
+    setKeyEntryStateDrill(nextDrill);
+    setClassroomStateDrill(nextDrill);
+    setPendingDensityCombinedLga(null);
+  }, [pendingDensityCombinedLga, scopePending, loading, filters.state, filters.lga, densityMapResetting]);
+
+  useEffect(() => {
+    if (densityMapResetting) return;
+    if (scopePending || loading) return;
+
+    const filterDrill = locationDrillFromFilters(filters);
+    if (!hasDrillLocation(filterDrill)) return;
+
+    setPendingDensityCombinedState(null);
+    setPendingDensityCombinedLga(null);
+    setLinkedLocationDrills(filterDrill);
+  }, [
+    filters.state,
+    filters.lga,
+    filters.ward,
+    filters.school,
+    scopePending,
+    loading,
+    densityMapResetting,
+  ]);
 
   useEffect(() => {
     // Reset chart-level drills when non-location global filters change
@@ -5229,10 +5498,14 @@ export default function AccessCoverageDashboard({
     // keeps the old national map visible until the national rows are loaded again.
     const sourceRows = options?.sourceRows ?? currentRows;
     const effectiveState = options?.forceNational ? undefined : drill.state ?? (renderFilters.state || undefined);
-    const level: MapLevel = effectiveState ? "lga" : "state";
+    const effectiveLga =
+      kind === "densityCombined" && effectiveState && !options?.forceNational
+        ? drill.lga ?? (renderFilters.lga || undefined)
+        : undefined;
+    const level: MapLevel = effectiveState ? (effectiveLga ? "ward" : "lga") : "state";
 
     const baseRows = effectiveState
-      ? sourceRows.filter((row) => row.state === effectiveState)
+      ? sourceRows.filter((row) => row.state === effectiveState && (!effectiveLga || row.lga === effectiveLga))
       : sourceRows;
 
     const densityScopedRows = kind === "densityPublic"
@@ -5243,10 +5516,15 @@ export default function AccessCoverageDashboard({
           ? baseRows.filter((row) => row.school_level === "Pre-Primary/Primary")
           : baseRows;
 
-    const groups =
-      level === "state"
-        ? aggregateBy(kind === "densityPublic" || kind === "densityPrivate" || kind === "densityCombined" ? densityScopedRows : sourceRows, "state")
-        : aggregateBy(kind === "densityPublic" || kind === "densityPrivate" || kind === "densityCombined" ? densityScopedRows : baseRows, "lga");
+    const groupLevel: LocationLevel = level === "state" ? "state" : level === "lga" ? "lga" : "ward";
+    const groups = aggregateBy(
+      kind === "densityPublic" || kind === "densityPrivate" || kind === "densityCombined"
+        ? densityScopedRows
+        : level === "state"
+          ? sourceRows
+          : baseRows,
+      groupLevel,
+    );
 
     const infrastructureGroups = kind === "infrastructure"
       ? groups.map((group) => ({
@@ -5284,7 +5562,11 @@ export default function AccessCoverageDashboard({
       kind === "densityCombined"
         ? (name: string, val: number) => {
             const displayName = displayLocationLabel(name, level);
-            const scoped = densityScopedRows.filter((row) => (level === "state" ? row.state === name : row.lga === name));
+            const scoped = densityScopedRows.filter((row) => {
+              if (level === "state") return row.state === name;
+              if (level === "lga") return row.lga === name;
+              return row.ward === name;
+            });
             const publicRows = scoped.filter((row) => row.school_type === "Public");
             const privateRows = scoped.filter((row) => row.school_type === "Private");
             const publicStudents = publicRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
@@ -5326,6 +5608,8 @@ export default function AccessCoverageDashboard({
           ? { start: COLORS.purpleStart, end: COLORS.purpleEnd, label: "Learners per computer" }
           : { start: "#ef4444", end: "#16a34a", label: "Infrastructure readiness" };
 
+
+
     return kind === "infrastructure"
       ? {
           level,
@@ -5342,7 +5626,14 @@ export default function AccessCoverageDashboard({
           formatLegendValue: (value: number) => `${Math.round(value)}%`,
           formatTooltip,
         }
-      : { level, values, metricLabel: colors.label, colorStart: colors.start, colorEnd: colors.end, formatTooltip };
+      : {
+          level,
+          values,
+          metricLabel: colors.label,
+          colorStart: colors.start,
+          colorEnd: colors.end,
+          formatTooltip,
+        };
   };
 
   const computerDrillChart = useMemo<ChartBundle | null>(() => {
@@ -5398,13 +5689,18 @@ export default function AccessCoverageDashboard({
   }, [renderComputerDrill, currentRows, renderFilters.state]);
 
   const isClearingDensityLocation = densityMapResetting || (locationFiltersAreClear && (scopePending || Boolean(loadedLocation.state)));
-  const visibleDensityDrill = isClearingDensityLocation ? {} : renderDensityDrill;
+  const filterDensityDrill = locationDrillFromFilters(renderFilters);
+  const visibleDensityDrill = isClearingDensityLocation
+    ? {}
+    : hasDrillLocation(filterDensityDrill)
+      ? filterDensityDrill
+      : renderDensityDrill;
   const densityCombinedMapData = useMemo(
     () => buildMapData(visibleDensityDrill, "densityCombined", {
       forceNational: isClearingDensityLocation,
       sourceRows: isClearingDensityLocation ? nationalMapRows : undefined,
     }),
-    [currentRows, visibleDensityDrill, renderFilters.state, isClearingDensityLocation, nationalMapRows],
+    [currentRows, visibleDensityDrill, renderFilters.state, renderFilters.lga, isClearingDensityLocation, nationalMapRows],
   );
   const computerMapData = useMemo(() => buildMapData(renderComputerDrill, "computer"), [currentRows, renderComputerDrill, renderFilters.state]);
   const infrastructureMapData = useMemo(() => buildMapData({}, "infrastructure"), [currentRows]);
@@ -5842,55 +6138,39 @@ export default function AccessCoverageDashboard({
       <section className="space-y-4" id="access-coverage-main">
         <SectionTitle id="access-coverage-main-anchor" title="Access & Coverage" />
         <div className="flex flex-nowrap items-stretch gap-3 [&>*:first-child]:min-w-0 [&>*:first-child]:flex-[1.35] [&>*:last-child]:min-w-0 [&>*:last-child]:flex-1">
-          {densityCombinedDrillChart && !isClearingDensityLocation ? (
-            <div className="relative w-full min-w-0 overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm">
-              <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-4 py-3">
-                <div>
-                  <div className="text-sm font-bold text-slate-900">Average Primary Learners per School</div>
-                  <div className="mt-0.5 text-[11px] text-slate-400">↳ {displayLocationLabel(renderDensityDrill.state ?? renderFilters.state, "state")} ({locationLevelLabel(scopedBreakdownLevel(renderFilters, (renderDensityDrill.state ?? renderFilters.state) || undefined))} view)</div>
-                </div>
-                <div className="flex items-center gap-2">
-                  <button
-                    type="button"
-                    onClick={clearLocationSelection}
-                    className="inline-flex items-center rounded-md border border-slate-200 px-2.5 py-1.5 text-xs font-medium text-slate-600 hover:bg-slate-50"
-                  >
-                    Back to map
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setExpandState({ key: "densityCombinedDrill", title: "Average Primary Learners per School" })}
-                    className="grid h-7 w-7 place-items-center rounded-md border border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-slate-800"
-                    title="Expand chart"
-                  >
-                    <Maximize2 className="h-3.5 w-3.5" />
-                  </button>
-                </div>
-              </div>
-              <div className="w-full overflow-x-hidden px-3 py-0">
-                {densityCombinedDrillChart.fixedLegend?.length ? <FixedLegend items={densityCombinedDrillChart.fixedLegend} /> : null}
-                {densityCombinedDrillChart.scrollable ? (
-                  <div className="block w-full min-w-0 overflow-y-auto" style={{ maxHeight: densityCombinedDrillChart.scrollMaxHeight ?? 320 }}>
-                    <StretchedPlot bundle={densityCombinedDrillChart} />
-                  </div>
-                ) : (
-                  <StretchedPlot bundle={densityCombinedDrillChart} />
-                )}
-              </div>
-            </div>
-          ) : (
-            <MapChartCard
-              title="Average Primary Learners per School"
-              explanation={CHART_HELP.densityCombined}
-              mapData={densityCombinedMapData}
-              drill={visibleDensityDrill}
-              onReset={clearLocationSelection}
-              onStateClick={(name) => {
+          <MapChartCard
+            title="Average Primary Learners per School"
+            explanation={CHART_HELP.densityCombined}
+            mapData={densityCombinedMapData}
+            drill={visibleDensityDrill}
+            onReset={clearLocationSelection}
+            onStateClick={(name) => {
+              const mapLevel = densityCombinedMapData?.level ?? "state";
+              if (mapLevel === "state") {
                 setPendingDensityCombinedState(sourceLocationLabel(name));
                 syncFiltersForDrill("state", name);
-              }}
-            />
-          )}
+                return;
+              }
+
+              if (mapLevel === "lga") {
+                const activeState = visibleDensityDrill.state ?? renderFilters.state;
+                if (!activeState) return;
+                setPendingDensityCombinedLga(name);
+                syncFiltersForDrill("lga", name);
+                return;
+              }
+
+              if (mapLevel === "ward") {
+                const activeState = visibleDensityDrill.state ?? renderFilters.state;
+                const activeLga = visibleDensityDrill.lga ?? renderFilters.lga;
+                if (!activeState || !activeLga) return;
+                const nextDrill = { ...visibleDensityDrill, state: sourceLocationLabel(activeState), lga: activeLga, ward: name };
+                setDensityDrill(nextDrill);
+                setDensityPrivateDrill(nextDrill);
+                syncFiltersForDrill("ward", name);
+              }
+            }}
+          />
 
           <ChartCard
             title="Average Primary Learners per School by School Level"
