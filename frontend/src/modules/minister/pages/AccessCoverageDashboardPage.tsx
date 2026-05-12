@@ -1738,19 +1738,32 @@ function filterRowsByDrill(rows: AccessWardRow[], drill: DrillState): AccessWard
   });
 }
 
-function getNextChartLevel(drill: DrillState): "state" | "lga" | "ward" {
+function getNextChartLevel(drill: DrillState): Exclude<LocationLevel, "zone"> {
   if (!drill.state) return "state";
   if (!drill.lga) return "lga";
-  return "ward";
+  if (!drill.ward) return "ward";
+  return "school";
 }
 
 function buildDrillFromSelection(rows: AccessWardRow[], drill: DrillState, label: string): DrillState {
   const selectedLabel = sourceLocationLabel(label);
   const nextLevel = getNextChartLevel(drill);
   const scopedRows = filterRowsByDrill(rows, drill);
-  if (nextLevel === "state") return scopedRows.some((row) => row.state === selectedLabel) ? { state: selectedLabel } : drill;
-  if (nextLevel === "lga") return scopedRows.some((row) => row.lga === selectedLabel) ? { ...drill, lga: selectedLabel } : drill;
-  return scopedRows.some((row) => row.ward === selectedLabel) ? { ...drill, ward: selectedLabel } : drill;
+
+  if (nextLevel === "state") {
+    return scopedRows.some((row) => row.state === selectedLabel) ? { state: selectedLabel } : drill;
+  }
+
+  if (nextLevel === "lga") {
+    return scopedRows.some((row) => row.lga === selectedLabel) ? { ...drill, lga: selectedLabel } : drill;
+  }
+
+  if (nextLevel === "ward") {
+    return scopedRows.some((row) => row.ward === selectedLabel) ? { ...drill, ward: selectedLabel } : drill;
+  }
+
+  const schoolMatch = scopedRows.find((row) => rowIncludesSchool(row, selectedLabel));
+  return schoolMatch ? { ...drill, school: selectedLabel } : drill;
 }
 
 
