@@ -6059,7 +6059,7 @@ export default function AccessCoverageDashboard({
         <SectionTitle id="access-coverage-main-anchor" title="Access & Coverage" />
         <div className="flex flex-nowrap items-stretch gap-3 [&>*:first-child]:min-w-0 [&>*:first-child]:flex-[1.35] [&>*:last-child]:min-w-0 [&>*:last-child]:flex-1">
           <MapChartCard
-            title="Average Primary Learners per School"
+            title="Average Learners per School"
             explanation={CHART_HELP.densityCombined}
             mapData={densityCombinedMapData}
             drill={visibleDensityDrill}
