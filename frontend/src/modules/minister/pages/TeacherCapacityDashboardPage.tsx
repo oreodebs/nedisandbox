@@ -2441,8 +2441,8 @@ export default function TeacherCapacityDashboard({
   if (error) {
     return (
       <div className="mt-6 rounded-xl border border-red-200 bg-red-50 p-6 text-sm text-red-700 shadow-sm">
-        Failed to load Teacher Capacity CSVs: {error}. Check <b>/public/data/</b> for <b>fact_teacher_capacity_school.csv</b> and
-        <b> dim_teacher_capacity_benchmarks.csv</b>.
+        Failed to load Teacher Capacity CSVs: {error}. Check <b>/public/data/pages/teacher_capacity/</b> and
+        <b> /public/data/dimensions/dim_teacher_capacity_benchmarks.csv</b>.
       </div>
     );
   }

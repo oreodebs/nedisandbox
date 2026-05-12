@@ -1,469 +1,541 @@
-session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,126,116,0,0,0,0,3
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,176,160,0,0,0,0,5
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,216,193,45,0,0,0,7
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,33,30,0,0,0,0,1
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,97,90,0,0,0,0,2
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,60,53,0,0,0,0,2
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,253,230,45,0,0,0,7
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,223,206,0,0,0,0,5
-2022/2023,Female,ALL,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,2333,2116,224,0,0,0,65
-2022/2023,Female,ALL,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,939,835,90,0,0,0,31
-2022/2023,Female,ALL,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,1514,1321,224,0,0,0,58
-2022/2023,Female,ALL,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,885,779,134,0,0,0,32
-2022/2023,Female,ALL,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,722,669,45,0,0,0,16
-2022/2023,Female,ALL,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,300,276,45,0,0,0,7
-2022/2023,Female,ALL,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,389,356,45,0,0,0,10
-2022/2023,Female,ALL,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,499,449,45,0,0,0,15
-2022/2023,Female,ALL,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,80,73,0,0,0,0,2
-2022/2023,Female,ALL,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,203,183,0,0,0,0,6
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,140,126,0,0,0,0,4
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,543,482,45,0,0,0,18
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,426,386,45,0,0,0,12
-2022/2023,Female,ALL,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,4879,4396,538,0,0,0,145
-2022/2023,Female,ALL,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,2010,1810,224,0,0,0,60
-2022/2023,Female,ALL,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,3405,3101,314,0,0,0,91
-2022/2023,Female,ALL,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,2050,1933,134,0,0,0,35
-2022/2023,Female,ALL,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,1904,1684,224,0,0,0,66
-2022/2023,Female,ALL,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,389,366,45,0,0,0,7
-2022/2023,Female,ALL,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,489,463,45,0,0,0,8
-2022/2023,Female,ALL,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,636,599,45,0,0,0,11
-2022/2023,Female,ALL,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,130,116,0,0,0,0,4
-2022/2023,Female,ALL,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,266,246,0,0,0,0,6
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,153,143,0,0,0,0,3
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,776,725,45,0,0,0,15
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,549,516,45,0,0,0,10
-2022/2023,Female,ALL,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,6044,5720,358,0,0,0,97
-2022/2023,Female,ALL,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,2882,2659,224,0,0,0,67
-2022/2023,Female,ALL,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,4344,4076,269,0,0,0,80
-2022/2023,Female,ALL,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,2267,2143,134,0,0,0,37
-2022/2023,Female,ALL,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,2307,2100,224,0,0,0,62
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,17,13,0,0,0,0,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,30,27,0,0,0,0,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,30,27,0,0,0,0,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,3,0,0,0,0,0,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,17,13,0,0,0,0,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,10,7,0,0,0,0,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,37,33,0,0,0,0,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,27,23,0,0,0,0,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,359,323,45,0,0,0,11
-2022/2023,Female,Disabled,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,136,120,0,0,0,0,5
-2022/2023,Female,Disabled,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,226,203,45,0,0,0,7
-2022/2023,Female,Disabled,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,136,120,0,0,0,0,5
-2022/2023,Female,Disabled,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,90,80,0,0,0,0,3
-2022/2023,Female,Disabled,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,17,13,0,0,0,0,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,33,30,0,0,0,0,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,37,33,0,0,0,0,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,3,0,0,0,0,0,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,17,13,0,0,0,0,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,13,10,0,0,0,0,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,37,33,0,0,0,0,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,33,30,0,0,0,0,1
-2022/2023,Female,Disabled,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,349,313,45,0,0,0,11
-2022/2023,Female,Disabled,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,136,120,0,0,0,0,5
-2022/2023,Female,Disabled,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,260,243,0,0,0,0,5
-2022/2023,Female,Disabled,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,123,110,0,0,0,0,4
-2022/2023,Female,Disabled,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,136,120,0,0,0,0,5
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,23,20,0,0,0,0,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,30,27,0,0,0,0,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,37,33,0,0,0,0,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,7,3,0,0,0,0,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,20,17,0,0,0,0,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,13,10,0,0,0,0,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,57,53,0,0,0,0,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,33,30,0,0,0,0,1
-2022/2023,Female,Disabled,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,416,393,45,0,0,0,7
-2022/2023,Female,Disabled,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,156,153,0,0,0,0,1
-2022/2023,Female,Disabled,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,270,263,0,0,0,0,2
-2022/2023,Female,Disabled,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,146,143,0,0,0,0,1
-2022/2023,Female,Disabled,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,156,110,45,0,0,0,14
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,1,4,4,130,120,0,0,0,0,3
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,1,4,4,183,163,0,0,0,0,6
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,4,4,206,186,0,0,0,0,6
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,40,37,0,0,0,0,1
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,4,97,90,0,0,0,0,2
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,63,57,0,0,0,0,2
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,2,4,4,266,240,45,1,0,0,8
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,4,196,180,0,0,0,0,5
-2022/2023,Male,ALL,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,1,4,4,2064,1837,224,0,0,0,68
-2022/2023,Male,ALL,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,1,4,4,1032,945,90,0,0,0,26
-2022/2023,Male,ALL,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,4,4,1608,1487,134,0,0,0,36
-2022/2023,Male,ALL,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,0,0,899,779,134,1,0,0,36
-2022/2023,Male,ALL,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,779,709,90,0,0,0,21
-2022/2023,Male,ALL,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,1,4,4,263,240,45,0,0,0,7
-2022/2023,Male,ALL,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,2,8,7,403,366,45,0,0,0,11
-2022/2023,Male,ALL,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,4,8,7,459,419,45,1,0,0,12
-2022/2023,Male,ALL,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,80,73,0,0,0,0,2
-2022/2023,Male,ALL,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,4,196,176,0,0,0,0,6
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,1,4,4,140,133,0,0,0,0,2
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,4,8,11,622,566,45,1,0,0,17
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,2,8,7,426,386,45,0,0,0,12
-2022/2023,Male,ALL,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,4,8,7,4786,4369,448,1,0,0,125
-2022/2023,Male,ALL,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,1,4,4,2240,2046,224,0,0,0,58
-2022/2023,Male,ALL,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,4,7,3378,3088,314,1,0,0,87
-2022/2023,Male,ALL,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,4,4,2117,1933,179,0,0,0,55
-2022/2023,Male,ALL,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,4,1621,1517,90,0,0,0,31
-2022/2023,Male,ALL,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,2,8,7,346,326,0,0,0,0,6
-2022/2023,Male,ALL,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,4,8,11,513,482,45,1,0,0,9
-2022/2023,Male,ALL,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,4,12,11,599,559,45,0,0,0,12
-2022/2023,Male,ALL,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,0,4,93,87,0,1,0,0,2
-2022/2023,Male,ALL,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,2,4,4,260,233,45,1,0,0,8
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,1,4,4,166,160,0,0,0,0,2
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,5,12,15,742,685,45,1,0,0,17
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,4,8,11,509,479,45,1,0,0,9
-2022/2023,Male,ALL,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,5,12,11,6114,5720,403,1,0,0,118
-2022/2023,Male,ALL,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,2,4,7,3192,2965,224,1,0,0,68
-2022/2023,Male,ALL,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,8,7,4171,3883,314,0,0,0,86
-2022/2023,Male,ALL,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,4,4,2453,2283,179,0,0,0,51
-2022/2023,Male,ALL,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,4,2077,1933,134,0,0,0,43
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,17,13,0,0,0,0,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,30,27,0,0,0,0,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,30,27,0,0,0,0,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,3,0,0,0,0,0,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,17,13,0,0,0,0,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,10,7,0,0,0,0,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,37,33,0,0,0,0,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,27,23,0,0,0,0,1
-2022/2023,Male,Disabled,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,359,323,45,0,0,0,11
-2022/2023,Male,Disabled,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,136,120,0,0,0,0,5
-2022/2023,Male,Disabled,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,226,203,45,0,0,0,7
-2022/2023,Male,Disabled,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,136,120,0,0,0,0,5
-2022/2023,Male,Disabled,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,90,80,0,0,0,0,3
-2022/2023,Male,Disabled,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,17,13,0,0,0,0,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,30,27,0,0,0,0,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,30,27,0,0,0,0,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,3,0,0,0,0,0,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,17,13,0,0,0,0,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,10,7,0,0,0,0,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,37,33,0,0,0,0,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,30,27,0,0,0,0,1
-2022/2023,Male,Disabled,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,396,363,45,0,0,0,10
-2022/2023,Male,Disabled,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,180,173,0,0,0,0,2
-2022/2023,Male,Disabled,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,213,193,0,0,0,0,6
-2022/2023,Male,Disabled,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,123,110,0,0,0,0,4
-2022/2023,Male,Disabled,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,136,120,0,0,0,0,5
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,20,17,0,0,0,0,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,33,30,0,0,0,0,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,43,40,0,0,0,0,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,7,3,0,0,0,0,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,17,13,0,0,0,0,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,13,10,0,0,0,0,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,47,43,0,0,0,0,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,30,27,0,0,0,0,1
-2022/2023,Male,Disabled,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,416,413,0,0,0,0,1
-2022/2023,Male,Disabled,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,193,153,45,0,0,0,12
-2022/2023,Male,Disabled,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,226,223,0,0,0,0,1
-2022/2023,Male,Disabled,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,103,100,0,0,0,0,1
-2022/2023,Male,Disabled,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,123,110,0,0,0,0,4
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,90,87,0,0,0,0,1
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,113,96,0,0,0,0,5
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,140,123,0,0,0,0,5
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,27,23,0,0,0,0,1
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,67,57,0,0,0,0,3
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,83,80,0,0,0,0,1
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,356,319,45,0,0,0,11
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,270,250,0,0,0,0,6
-2023/2024,Female,ALL,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,1947,1700,269,0,0,0,74
-2023/2024,Female,ALL,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,732,636,90,0,0,0,29
-2023/2024,Female,ALL,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,1271,1158,134,0,0,0,34
-2023/2024,Female,ALL,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,699,589,134,0,0,0,33
-2023/2024,Female,ALL,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,732,705,45,0,0,0,8
-2023/2024,Female,ALL,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,193,173,0,0,0,0,6
-2023/2024,Female,ALL,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,260,233,45,0,0,0,8
-2023/2024,Female,ALL,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,303,280,45,0,0,0,7
-2023/2024,Female,ALL,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,60,53,0,0,0,0,2
-2023/2024,Female,ALL,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,140,126,0,0,0,0,4
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,186,173,0,0,0,0,4
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,825,752,90,0,0,0,22
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,619,556,90,0,0,0,19
-2023/2024,Female,ALL,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,3938,3507,448,0,0,0,129
-2023/2024,Female,ALL,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,1744,1564,179,0,0,0,54
-2023/2024,Female,ALL,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,2882,2639,269,0,0,0,73
-2023/2024,Female,ALL,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,1498,1378,134,0,0,0,36
-2023/2024,Female,ALL,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,1554,1424,134,0,0,0,39
-2023/2024,Female,ALL,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,240,226,0,0,0,0,4
-2023/2024,Female,ALL,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,303,280,45,0,0,0,7
-2023/2024,Female,ALL,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,396,366,45,0,0,0,9
-2023/2024,Female,ALL,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,73,67,0,0,0,0,2
-2023/2024,Female,ALL,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,190,180,0,0,0,0,3
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,230,213,0,0,0,0,5
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,1108,1028,90,0,0,0,24
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,802,752,45,0,0,0,15
-2023/2024,Female,ALL,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,5122,4918,224,0,0,0,61
-2023/2024,Female,ALL,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,2353,2143,224,0,0,0,63
-2023/2024,Female,ALL,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,3928,3703,224,0,0,0,67
-2023/2024,Female,ALL,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,2004,1910,90,0,0,0,28
-2023/2024,Female,ALL,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,1891,1737,179,0,0,0,46
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,10,7,0,0,0,0,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,17,13,0,0,0,0,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,17,13,0,0,0,0,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,3,0,0,0,0,0,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,10,7,0,0,0,0,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,13,10,0,0,0,0,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,53,50,0,0,0,0,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,40,37,0,0,0,0,1
-2023/2024,Female,Disabled,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,290,270,0,0,0,0,6
-2023/2024,Female,Disabled,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,110,100,0,0,0,0,3
-2023/2024,Female,Disabled,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,180,166,0,0,0,0,4
-2023/2024,Female,Disabled,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,110,100,0,0,0,0,3
-2023/2024,Female,Disabled,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,73,67,0,0,0,0,2
-2023/2024,Female,Disabled,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,10,7,0,0,0,0,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,17,13,0,0,0,0,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,23,20,0,0,0,0,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,7,3,0,0,0,0,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,10,7,0,0,0,0,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,13,10,0,0,0,0,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,53,50,0,0,0,0,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,47,43,0,0,0,0,1
-2023/2024,Female,Disabled,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,290,270,0,0,0,0,6
-2023/2024,Female,Disabled,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,110,100,0,0,0,0,3
-2023/2024,Female,Disabled,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,180,166,0,0,0,0,4
-2023/2024,Female,Disabled,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,110,100,0,0,0,0,3
-2023/2024,Female,Disabled,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,110,106,0,0,0,0,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,13,10,0,0,0,0,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,23,20,0,0,0,0,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,27,23,0,0,0,0,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,3,0,0,0,0,0,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,13,10,0,0,0,0,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,17,13,0,0,0,0,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,77,67,0,0,0,0,3
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,57,53,0,0,0,0,1
-2023/2024,Female,Disabled,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,389,359,45,0,0,0,9
-2023/2024,Female,Disabled,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,126,116,0,0,0,0,3
-2023/2024,Female,Disabled,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,280,236,45,0,0,0,13
-2023/2024,Female,Disabled,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,110,100,0,0,0,0,3
-2023/2024,Female,Disabled,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,126,93,45,0,0,0,10
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,1,4,4,80,73,0,0,0,0,2
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,1,4,4,126,116,0,0,0,0,3
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,4,4,133,116,0,0,0,0,5
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,23,20,0,0,0,0,1
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,4,63,57,0,0,0,0,2
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,77,70,0,0,0,0,2
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,2,4,7,383,339,45,1,0,0,13
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,4,293,266,45,0,0,0,8
-2023/2024,Male,ALL,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,2,4,4,1937,1747,224,1,0,0,57
-2023/2024,Male,ALL,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,1,4,4,766,682,90,0,0,0,25
-2023/2024,Male,ALL,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,4,4,1271,1158,134,0,0,0,34
-2023/2024,Male,ALL,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,0,4,789,682,134,1,0,0,32
-2023/2024,Male,ALL,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,652,602,45,0,0,0,15
-2023/2024,Male,ALL,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,2,4,4,186,166,0,1,0,0,6
-2023/2024,Male,ALL,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,2,8,7,260,236,45,0,0,0,7
-2023/2024,Male,ALL,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,4,8,7,283,256,45,1,0,0,8
-2023/2024,Male,ALL,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,57,50,0,0,0,0,2
-2023/2024,Male,ALL,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,4,140,126,0,0,0,0,4
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,1,4,4,186,166,0,0,0,0,6
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,4,12,11,892,812,90,0,0,0,24
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,2,8,7,586,529,45,0,0,0,17
-2023/2024,Male,ALL,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,4,8,7,3838,3474,403,1,0,0,109
-2023/2024,Male,ALL,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,1,4,4,1791,1654,134,0,0,0,41
-2023/2024,Male,ALL,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,4,7,2703,2386,358,1,0,0,95
-2023/2024,Male,ALL,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,4,4,1554,1411,134,0,0,0,43
-2023/2024,Male,ALL,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,4,1375,1274,90,0,0,0,30
-2023/2024,Male,ALL,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,2,8,7,233,220,0,0,0,0,4
-2023/2024,Male,ALL,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,4,8,11,306,286,0,1,0,0,6
-2023/2024,Male,ALL,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,5,12,11,379,359,0,1,0,0,6
-2023/2024,Male,ALL,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,0,4,63,60,0,1,0,0,1
-2023/2024,Male,ALL,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,2,4,7,183,166,0,1,0,0,5
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,1,4,4,210,196,0,0,0,0,4
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,5,16,15,1095,1028,90,0,0,0,20
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,4,8,11,829,769,45,1,0,0,18
-2023/2024,Male,ALL,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,5,12,11,4953,4572,403,1,0,0,114
-2023/2024,Male,ALL,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,2,4,7,2430,2269,179,1,0,0,48
-2023/2024,Male,ALL,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,8,7,3738,3517,224,0,0,0,66
-2023/2024,Male,ALL,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,4,4,2117,2036,90,0,0,0,24
-2023/2024,Male,ALL,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,4,1847,1737,134,0,0,0,33
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,10,7,0,0,0,0,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,17,13,0,0,0,0,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,17,13,0,0,0,0,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,3,0,0,0,0,0,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,10,7,0,0,0,0,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,13,10,0,0,0,0,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,53,50,0,0,0,0,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,40,37,0,0,0,0,1
-2023/2024,Male,Disabled,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,290,270,0,0,0,0,6
-2023/2024,Male,Disabled,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,110,100,0,0,0,0,3
-2023/2024,Male,Disabled,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,180,166,0,0,0,0,4
-2023/2024,Male,Disabled,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,110,100,0,0,0,0,3
-2023/2024,Male,Disabled,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,73,67,0,0,0,0,2
-2023/2024,Male,Disabled,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,10,7,0,0,0,0,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,20,17,0,0,0,0,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,17,13,0,0,0,0,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,3,0,0,0,0,0,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,10,7,0,0,0,0,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,13,10,0,0,0,0,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,53,50,0,0,0,0,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,47,43,0,0,0,0,1
-2023/2024,Male,Disabled,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,290,270,0,0,0,0,6
-2023/2024,Male,Disabled,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,146,143,0,0,0,0,1
-2023/2024,Male,Disabled,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,180,166,0,0,0,0,4
-2023/2024,Male,Disabled,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,110,100,0,0,0,0,3
-2023/2024,Male,Disabled,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,110,106,0,0,0,0,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,13,10,0,0,0,0,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,20,17,0,0,0,0,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,27,23,0,0,0,0,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,3,0,0,0,0,0,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,13,10,0,0,0,0,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,17,13,0,0,0,0,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,70,67,0,0,0,0,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,53,50,0,0,0,0,1
-2023/2024,Male,Disabled,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,336,309,45,0,0,0,8
-2023/2024,Male,Disabled,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,136,126,0,0,0,0,3
-2023/2024,Male,Disabled,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,253,236,0,0,0,0,5
-2023/2024,Male,Disabled,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,110,100,0,0,0,0,3
-2023/2024,Male,Disabled,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,100,93,0,0,0,0,2
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,ALL,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,33,87,56,27,23,0,5,7,7,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,33,83,56,27,23,0,6,6,7,1
-2024/2025,Female,Disabled,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,33,83,56,27,23,0,6,6,7,1
-2024/2025,Female,Disabled,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,33,83,56,27,23,0,6,6,7,1
-2024/2025,Female,Disabled,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,33,83,56,27,23,0,6,6,7,1
-2024/2025,Female,Disabled,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,33,83,56,23,23,0,6,6,8,0
-2024/2025,Female,Disabled,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,33,83,56,23,23,0,6,6,8,0
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,33,83,56,23,23,0,6,6,8,0
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,33,83,56,23,23,0,6,6,8,0
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,33,83,56,23,23,0,6,6,8,0
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,33,83,56,23,23,0,6,6,8,0
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,33,87,56,23,23,0,5,7,8,0
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,33,87,56,23,23,0,5,7,8,0
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,33,87,56,23,23,0,5,7,8,0
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,33,87,56,23,23,0,5,7,8,0
-2024/2025,Female,Disabled,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,33,87,56,23,23,0,5,7,8,0
-2024/2025,Female,Disabled,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,33,83,56,23,23,0,6,6,8,0
-2024/2025,Female,Disabled,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,33,83,56,23,23,0,6,6,8,0
-2024/2025,Female,Disabled,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,33,87,56,23,23,0,5,7,8,0
-2024/2025,Female,Disabled,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,33,83,56,23,23,0,6,6,8,0
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,545,1405,936,399,366,32,89,107,130,10
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,545,1405,936,399,366,32,89,107,130,10
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,545,1405,936,399,366,32,89,107,130,10
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,545,1405,936,399,366,32,89,107,130,10
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,1090,2811,1869,795,732,64,178,215,260,19
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,545,1405,936,399,366,32,89,107,130,10
-2024/2025,Male,ALL,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,545,1405,936,399,366,32,89,107,130,10
-2024/2025,Male,ALL,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,545,1405,936,399,366,32,89,107,130,10
-2024/2025,Male,ALL,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,545,1405,936,399,366,32,89,107,130,10
-2024/2025,Male,ALL,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,545,1405,936,399,366,32,89,107,130,10
-2024/2025,Male,ALL,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,ALL,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,1090,2811,1869,795,732,64,178,215,260,19
-2024/2025,Male,ALL,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,1090,2811,1869,795,732,64,178,215,260,19
-2024/2025,Male,ALL,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,1635,4212,2805,1192,1098,95,268,321,391,28
-2024/2025,Male,ALL,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,0,0,0,0,0,0,0,0,0
-2024/2025,Male,ALL,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,545,1405,936,396,366,32,89,107,131,9
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,545,1405,936,396,366,32,89,107,131,9
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,1635,4212,2805,1192,1095,95,268,321,391,29
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,1090,2811,1872,795,732,64,178,214,261,19
-2024/2025,Male,ALL,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,1636,4212,2805,1192,1095,95,269,321,391,29
-2024/2025,Male,ALL,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,545,1405,936,396,366,32,89,107,131,9
-2024/2025,Male,ALL,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,1090,2811,1869,795,732,64,178,215,260,19
-2024/2025,Male,ALL,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,545,1405,936,396,366,32,89,107,131,9
-2024/2025,Male,ALL,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,545,1405,936,396,366,32,89,107,131,9
-2024/2025,Male,ALL,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,1090,2807,1869,795,732,64,179,214,260,19
-2024/2025,Male,ALL,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,1635,4212,2805,1192,1095,95,268,321,391,29
-2024/2025,Male,ALL,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,2181,5617,3741,1591,1464,127,358,428,521,38
-2024/2025,Male,ALL,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,545,1405,936,396,366,32,89,107,131,9
-2024/2025,Male,ALL,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,1090,2811,1869,795,732,64,178,215,260,19
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,545,1405,936,396,366,32,89,107,131,9
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,2181,5617,3741,1588,1461,127,358,428,522,38
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,1635,4212,2805,1192,1095,95,268,321,391,29
-2024/2025,Male,ALL,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,2181,5617,3741,1588,1461,127,358,428,522,38
-2024/2025,Male,ALL,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,1090,2811,1869,795,732,64,178,215,260,19
-2024/2025,Male,ALL,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,1090,2811,1869,795,732,64,178,215,260,19
-2024/2025,Male,ALL,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,545,1405,936,396,366,32,89,107,131,9
-2024/2025,Male,ALL,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,545,1405,936,396,366,32,89,107,131,9
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,34,87,60,23,23,0,6,6,9,0
-2024/2025,Male,Disabled,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,34,87,60,23,20,0,6,6,9,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,34,87,60,23,20,0,6,6,9,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,34,87,60,23,20,0,6,6,9,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,34,87,56,23,20,0,6,7,8,1
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,34,87,60,23,20,0,6,6,9,1
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,34,87,60,23,20,0,6,6,9,1
-2024/2025,Male,Disabled,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,33,87,56,23,20,0,5,7,8,1
-2024/2025,Male,Disabled,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,33,87,56,23,20,0,5,7,8,1
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated,median_time_to_matriculation_years
+2022/2023,Female,ALL,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,70,208,151,63,58,3,0,57,88,5,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,32,95,69,29,26,1,0,26,40,3,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,25,76,55,23,21,1,0,21,32,2,1.8
+2022/2023,Female,ALL,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,33,97,70,30,27,1,0,27,40,3,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,15,44,32,13,12,1,0,12,19,1,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,12,35,26,11,10,1,0,9,15,1,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,10,30,22,9,8,0,0,8,13,1,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,5,14,10,4,4,0,0,4,6,0,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,4,11,8,3,3,0,0,3,5,0,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,5,14,10,4,4,0,0,4,6,0,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,2,5,4,1,1,0,0,1,3,0,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,2,6,5,2,2,0,0,1,3,0,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,1,3,2,1,1,0,0,1,1,0,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,1,2,2,1,1,0,0,0,1,0,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,1,2,1,1,1,0,0,1,0,0,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,145,434,314,132,121,7,0,120,182,11,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,66,197,143,60,55,3,0,54,83,5,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,53,158,114,48,44,2,0,44,66,4,1.8
+2022/2023,Female,ALL,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,68,203,147,62,56,3,0,56,85,6,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,31,92,67,28,26,1,0,25,39,2,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,25,74,53,22,21,1,0,21,31,1,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,21,63,46,19,18,1,0,17,27,1,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,10,29,21,9,8,0,0,8,12,1,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,8,23,17,7,6,0,0,6,10,1,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,9,28,20,9,8,0,0,8,11,1,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,4,13,9,4,4,0,0,4,5,0,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,3,10,7,3,3,0,0,3,4,0,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,4,13,10,4,4,0,0,3,6,0,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,2,6,4,2,2,0,0,2,2,0,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,2,5,3,1,1,0,0,2,2,0,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,1,4,3,1,1,0,0,1,2,0,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,1,2,1,1,1,0,0,1,0,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,0,1,1,0,0,0,0,0,1,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,127,380,275,115,106,6,0,105,160,9,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,58,173,125,52,48,3,0,48,73,4,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,46,138,100,42,39,2,0,38,58,3,1.8
+2022/2023,Female,ALL,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,59,178,129,54,50,3,0,49,75,4,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,27,81,59,25,23,1,0,22,34,2,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,22,65,47,20,18,1,0,18,27,2,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,18,55,40,17,15,1,0,15,23,2,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,8,25,18,8,7,0,0,7,10,1,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,7,20,15,6,6,0,0,5,9,0,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,8,25,18,7,7,0,0,7,11,0,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,4,11,8,3,3,0,0,3,5,0,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,3,9,7,3,3,0,0,2,4,0,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,4,12,8,4,3,0,0,4,4,1,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,2,5,4,2,1,0,0,1,2,1,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,4,3,1,1,0,0,1,2,0,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,4,3,1,1,0,0,1,2,0,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,2,1,0,0,0,0,1,1,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,102,304,220,92,85,5,0,84,128,7,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,46,138,100,42,39,2,0,38,58,3,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,37,110,80,34,31,2,0,30,46,3,1.8
+2022/2023,Female,ALL,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,48,142,103,43,40,2,0,39,60,3,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,22,65,47,20,18,1,0,18,27,2,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,17,52,37,16,14,1,0,15,21,2,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,15,44,32,13,12,1,0,12,19,1,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,7,20,15,6,6,0,0,5,9,0,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,5,16,12,5,4,0,0,4,7,1,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,7,20,14,6,6,0,0,6,8,0,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,9,7,3,3,0,0,2,4,0,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,2,7,5,2,2,0,0,2,3,0,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,9,7,3,3,0,0,2,4,0,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,3,1,1,0,0,1,2,0,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,3,2,1,1,0,0,1,1,0,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,3,2,1,1,0,0,1,1,0,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,1,1,0,0,0,0,0,1,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,1,1,0,0,0,0,0,1,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,188,563,407,171,157,9,0,156,236,14,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,85,256,185,78,71,4,0,71,107,7,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,68,205,148,62,57,3,0,57,86,5,1.8
+2022/2023,Female,ALL,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,88,263,191,80,73,4,0,72,111,7,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,40,120,87,36,33,2,0,33,51,3,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,32,96,69,29,27,1,0,27,40,2,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,27,82,59,25,23,1,0,23,34,2,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,12,37,27,11,10,1,0,10,16,1,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,10,30,22,9,8,0,0,8,13,1,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,12,37,26,11,10,1,0,11,15,1,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,6,17,12,5,5,0,0,5,7,0,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,4,13,10,4,4,0,0,3,6,0,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,6,17,12,5,5,0,0,5,7,0,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,3,8,6,2,2,0,0,2,4,0,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,6,5,2,2,0,0,1,3,0,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,5,4,2,1,0,0,1,2,1,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,2,2,1,1,0,0,0,1,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,2,1,1,1,0,0,1,0,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,74,222,161,68,62,3,0,61,93,6,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,34,101,73,31,28,2,0,28,42,3,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,27,81,59,25,23,1,0,22,34,2,1.8
+2022/2023,Male,ALL,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,35,104,75,32,29,2,0,29,43,3,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,16,47,34,14,13,1,0,13,20,1,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,13,38,27,11,11,1,0,11,16,0,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,11,32,23,10,9,0,0,9,13,1,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,5,15,11,4,4,0,0,4,7,0,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,4,12,8,4,3,0,0,4,4,1,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,5,14,10,4,4,0,0,4,6,0,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,2,5,4,2,1,0,0,1,2,1,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,1,3,2,1,1,0,0,1,1,0,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,1,2,2,1,1,0,0,0,1,0,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,1,2,2,1,1,0,0,0,1,0,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,154,464,336,140,129,7,0,128,196,11,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,70,211,153,64,59,3,0,58,89,5,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,56,169,122,51,47,3,0,47,71,4,1.8
+2022/2023,Male,ALL,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,72,217,157,66,60,3,0,60,91,6,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,33,99,71,30,27,1,0,28,41,3,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,26,79,57,24,22,1,0,22,33,2,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,22,67,49,20,19,1,0,18,29,1,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,10,31,22,9,9,0,0,9,13,0,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,8,24,18,7,7,0,0,6,11,0,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,10,30,22,9,8,0,0,8,13,1,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,5,14,10,4,4,0,0,4,6,0,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,4,11,8,3,3,0,0,3,5,0,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,5,14,10,4,4,0,0,4,6,0,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,2,6,5,2,2,0,0,1,3,0,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,2,5,4,2,1,0,0,1,2,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,1,4,3,1,1,0,0,1,2,0,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,1,2,1,1,1,0,0,1,0,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,1,2,1,0,0,0,0,1,1,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,135,406,294,123,113,6,0,112,171,10,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,62,185,134,56,51,3,0,51,78,5,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,49,148,107,45,41,2,0,41,62,4,1.8
+2022/2023,Male,ALL,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,63,190,137,58,53,3,0,53,79,5,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,29,86,62,26,24,1,0,24,36,2,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,23,69,50,21,19,1,0,19,29,2,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,20,59,43,18,16,1,0,16,25,2,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,9,27,19,8,7,0,0,8,11,1,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,7,21,16,6,6,0,0,5,10,0,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,9,26,19,8,7,0,0,7,11,1,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,4,12,9,4,3,0,0,3,5,1,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,3,10,7,3,3,0,0,3,4,0,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,4,12,9,4,3,0,0,3,5,1,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,4,3,1,1,0,0,1,2,0,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,4,3,1,1,0,0,1,2,0,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,2,1,1,0,0,0,1,0,1,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,108,325,235,99,90,5,0,90,136,9,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,49,148,107,45,41,2,0,41,62,4,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,39,118,85,36,33,2,0,33,49,3,1.8
+2022/2023,Male,ALL,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,51,152,110,46,42,2,0,42,64,4,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,23,69,50,21,19,1,0,19,29,2,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,18,55,40,17,15,1,0,15,23,2,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,16,47,34,14,13,1,0,13,20,1,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,7,21,16,7,6,0,0,5,9,1,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,6,17,12,5,5,0,0,5,7,0,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,7,21,15,6,6,0,0,6,9,0,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,10,7,3,3,0,0,3,4,0,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,8,6,2,2,0,0,2,4,0,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,10,7,3,3,0,0,3,4,0,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,3,1,1,0,0,1,2,0,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,3,1,1,0,0,1,2,0,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,3,2,1,1,0,0,1,1,0,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,1,1,0,0,0,0,0,1,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,1,1,0,0,0,0,0,1,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,201,602,435,182,167,9,0,167,253,15,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,91,273,198,83,76,4,0,75,115,7,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,73,219,158,66,61,3,0,61,92,5,1.8
+2022/2023,Male,ALL,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,94,281,204,85,78,4,0,77,119,7,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,43,128,93,39,36,2,0,35,54,3,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,34,102,74,31,28,2,0,28,43,3,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,29,87,63,26,24,1,0,24,37,2,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,13,40,29,12,11,1,0,11,17,1,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,11,32,23,10,9,0,0,9,13,1,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,13,39,28,12,11,1,0,11,16,1,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,6,18,13,5,5,0,0,5,8,0,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,5,14,10,4,4,0,0,4,6,0,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,6,18,13,6,5,0,0,5,7,1,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,3,8,6,3,2,0,0,2,3,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,3,2,1,1,0,0,1,1,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,2,1,1,1,0,0,1,0,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,73,216,158,68,62,3,0,58,90,6,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,33,98,72,31,28,2,0,26,41,3,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,27,79,57,25,23,1,0,22,32,2,1.8
+2023/2024,Female,ALL,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,34,101,74,32,29,2,0,27,42,3,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,16,46,33,14,13,1,0,13,19,1,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,12,37,27,11,11,1,0,10,16,0,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,11,31,23,10,9,0,0,8,13,1,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,5,14,10,4,4,0,0,4,6,0,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,4,11,8,4,3,0,0,3,4,1,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,5,14,10,4,4,0,0,4,6,0,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,2,6,5,2,2,0,0,1,3,0,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,2,5,4,2,1,0,0,1,2,1,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,1,3,2,1,1,0,0,1,1,0,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,1,2,2,1,1,0,0,0,1,0,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,1,2,1,1,1,0,0,1,0,0,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,153,450,328,140,130,7,0,122,188,10,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,69,205,149,64,59,3,0,56,85,5,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,56,164,119,51,47,3,0,45,68,4,1.8
+2023/2024,Female,ALL,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,71,211,153,66,61,3,0,58,87,5,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,32,96,70,30,28,2,0,26,40,2,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,26,77,56,24,22,1,0,21,32,2,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,22,65,48,20,19,1,0,17,28,1,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,10,30,22,9,9,0,0,8,13,0,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,8,24,17,7,7,0,0,7,10,0,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,10,29,21,9,8,0,0,8,12,1,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,5,13,10,4,4,0,0,3,6,0,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,4,11,8,3,3,0,0,3,5,0,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,5,14,10,4,4,0,0,4,6,0,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,2,6,5,2,2,0,0,1,3,0,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,2,5,4,2,1,0,0,1,2,1,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,1,4,3,1,1,0,0,1,2,0,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,1,2,1,1,1,0,0,1,0,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,1,2,1,0,0,0,0,1,1,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,134,395,287,123,114,6,0,108,164,9,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,61,179,131,56,52,3,0,48,75,4,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,49,144,105,45,41,2,0,39,60,4,1.8
+2023/2024,Female,ALL,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,63,185,134,58,53,3,0,51,76,5,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,28,84,61,26,24,1,0,23,35,2,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,23,67,49,21,19,1,0,18,28,2,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,19,57,42,18,16,1,0,15,24,2,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,9,26,19,8,7,0,0,7,11,1,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,7,21,15,6,6,0,0,6,9,0,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,9,26,19,8,7,0,0,7,11,1,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,4,12,8,4,3,0,0,4,4,1,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,3,9,7,3,3,0,0,2,4,0,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,4,12,9,4,3,0,0,3,5,1,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,2,5,4,2,2,0,0,1,2,0,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,4,3,1,1,0,0,1,2,0,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,4,3,1,1,0,0,1,2,0,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,2,1,1,0,0,0,1,0,1,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,107,315,230,99,91,5,0,85,131,8,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,49,143,104,45,41,2,0,39,59,4,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,39,115,84,36,33,2,0,31,48,3,1.8
+2023/2024,Female,ALL,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,50,148,108,46,42,2,0,40,62,4,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,23,67,49,21,19,1,0,18,28,2,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,18,54,39,17,15,1,0,15,22,2,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,16,46,33,14,13,1,0,13,19,1,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,7,21,15,7,6,0,0,6,8,1,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,6,17,12,5,5,0,0,5,7,0,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,7,21,15,6,6,0,0,6,9,0,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,9,7,3,3,0,0,2,4,0,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,7,5,2,2,0,0,2,3,0,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,10,7,3,3,0,0,3,4,0,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,3,1,1,0,0,1,2,0,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,3,3,1,1,0,0,0,2,0,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,3,2,1,1,0,0,1,1,0,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,1,1,0,0,0,0,0,1,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,1,1,0,0,0,0,0,1,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,198,585,426,182,168,9,0,159,244,14,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,90,266,193,83,76,4,0,73,110,7,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,72,213,155,66,61,3,0,58,89,5,1.8
+2023/2024,Female,ALL,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,93,274,199,85,78,4,0,75,114,7,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,42,124,90,39,36,2,0,34,51,3,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,34,99,72,31,29,2,0,27,41,2,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,29,85,62,26,24,1,0,23,36,2,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,13,39,28,12,11,1,0,11,16,1,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,10,31,22,10,9,0,0,9,12,1,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,13,38,28,12,11,1,0,10,16,1,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,6,17,13,5,5,0,0,4,8,0,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,5,14,10,4,4,0,0,4,6,0,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,6,18,13,6,5,0,0,5,7,1,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,3,8,6,3,2,0,0,2,3,1,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,6,5,2,2,0,0,1,3,0,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,3,2,1,1,0,0,1,1,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,2,1,1,1,0,0,1,0,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,78,231,168,72,66,4,0,63,96,6,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,36,105,76,33,30,2,0,29,43,3,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,29,84,61,26,24,1,0,23,35,2,1.8
+2023/2024,Male,ALL,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,37,108,79,34,31,2,0,29,45,3,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,17,49,36,15,14,1,0,13,21,1,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,13,39,29,12,11,1,0,10,17,1,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,11,34,24,10,10,1,0,10,14,0,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,5,15,11,5,4,0,0,4,6,1,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,4,12,9,4,4,0,0,3,5,0,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,5,15,11,5,4,0,0,4,6,1,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,2,5,4,2,2,0,0,1,2,0,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,1,3,2,1,1,0,0,1,1,0,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,1,3,2,1,1,0,0,1,1,0,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,1,2,2,1,1,0,0,0,1,0,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,163,481,350,150,138,8,0,131,200,12,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,74,219,159,68,63,3,0,60,91,5,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,59,175,127,55,50,3,0,48,72,5,1.8
+2023/2024,Male,ALL,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,76,225,164,70,65,4,0,61,94,5,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,35,102,74,32,29,2,0,28,42,3,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,28,82,60,26,23,1,0,22,34,3,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,24,70,51,22,20,1,0,19,29,2,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,11,32,23,10,9,0,0,9,13,1,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,9,25,18,8,7,0,0,7,10,1,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,11,31,23,10,9,0,0,8,13,1,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,5,14,10,4,4,0,0,4,6,0,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,4,11,8,4,3,0,0,3,4,1,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,5,15,11,5,4,0,0,4,6,1,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,2,7,5,2,2,0,0,2,3,0,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,2,5,4,2,2,0,0,1,2,0,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,2,5,3,1,1,0,0,2,2,0,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,1,2,2,1,1,0,0,0,1,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,1,2,1,1,0,0,0,1,0,1,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,143,422,307,132,121,7,0,115,175,11,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,65,192,140,60,55,3,0,52,80,5,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,52,153,112,48,44,2,0,41,64,4,1.8
+2023/2024,Male,ALL,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,67,197,144,62,57,3,0,53,82,5,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,30,90,65,28,26,1,0,25,37,2,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,24,72,52,22,21,1,0,20,30,1,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,21,61,45,19,18,1,0,16,26,1,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,9,28,20,9,8,0,0,8,11,1,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,8,22,16,7,6,0,0,6,9,1,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,9,27,20,9,8,0,0,7,11,1,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,4,12,9,4,4,0,0,3,5,0,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,3,10,7,3,3,0,0,3,4,0,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,4,13,9,4,4,0,0,4,5,0,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,2,5,3,1,1,0,0,2,2,0,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,4,3,1,1,0,0,1,2,0,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,2,1,1,1,0,0,1,0,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,114,337,246,105,97,5,0,91,141,8,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,52,153,112,48,44,2,0,41,64,4,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,42,123,89,38,35,2,0,34,51,3,1.8
+2023/2024,Male,ALL,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,53,158,115,49,45,2,0,43,66,4,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,24,72,52,22,21,1,0,20,30,1,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,19,57,42,18,16,1,0,15,24,2,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,17,49,36,15,14,1,0,13,21,1,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,8,22,16,7,6,0,0,6,9,1,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,6,18,13,6,5,0,0,5,7,1,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,7,22,16,7,6,0,0,6,9,1,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,10,7,3,3,0,0,3,4,0,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,8,6,2,2,0,0,2,4,0,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,10,7,3,3,0,0,3,4,0,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,2,5,3,1,1,0,0,2,2,0,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,3,1,1,0,0,1,2,0,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,3,2,1,1,0,0,1,1,0,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,1,1,0,0,0,0,0,1,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,1,1,0,0,0,0,0,1,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,211,624,455,195,179,10,0,169,260,16,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,96,284,207,89,82,5,0,77,118,7,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,77,227,165,71,65,4,0,62,94,6,1.8
+2023/2024,Male,ALL,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,99,292,213,91,84,5,0,79,122,7,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,45,133,97,41,38,2,0,36,56,3,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,36,106,77,33,31,2,0,29,44,2,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,31,91,66,28,26,1,0,25,38,2,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,14,41,30,13,12,1,0,11,17,1,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,11,33,24,10,9,0,0,9,14,1,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,14,41,30,13,12,1,0,11,17,1,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,6,18,13,6,5,0,0,5,7,1,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,5,15,11,5,4,0,0,4,6,1,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,6,19,14,6,5,0,0,5,8,1,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,3,9,6,3,2,0,0,3,3,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,3,2,1,1,0,0,1,1,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,2,2,1,1,0,0,0,1,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,76,227,164,70,64,4,0,63,94,6,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,35,103,75,32,29,2,0,28,43,3,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,28,82,60,25,23,1,0,22,35,2,1.8
+2024/2025,Female,ALL,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,36,106,77,33,30,2,0,29,44,3,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,16,48,35,15,14,1,0,13,20,1,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,13,39,28,12,11,1,0,11,16,1,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,11,33,24,10,9,0,0,9,14,1,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,5,15,11,5,4,0,0,4,6,1,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,4,12,9,4,3,0,0,3,5,1,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,5,15,11,5,4,0,0,4,6,1,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,2,5,4,2,2,0,0,1,2,0,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,1,3,2,1,1,0,0,1,1,0,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,1,3,2,1,1,0,0,1,1,0,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,1,2,2,1,1,0,0,0,1,0,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,159,472,343,146,134,7,0,129,197,12,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,72,215,156,66,61,3,0,59,90,5,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,58,172,125,53,49,3,0,47,72,4,1.8
+2024/2025,Female,ALL,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,74,221,160,68,63,3,0,61,92,5,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,34,100,73,31,28,2,0,27,42,3,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,27,80,58,25,23,1,0,22,33,2,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,23,69,50,21,19,1,0,19,29,2,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,10,31,23,10,9,0,0,8,13,1,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,8,25,18,8,7,0,0,7,10,1,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,10,31,22,9,9,0,0,9,13,0,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,5,14,10,4,4,0,0,4,6,0,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,4,11,8,3,3,0,0,3,5,0,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,5,14,10,4,4,0,0,4,6,0,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,2,7,5,2,2,0,0,2,3,0,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,2,5,4,2,1,0,0,1,2,1,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,1,4,3,1,1,0,0,1,2,0,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,1,2,1,1,1,0,0,1,0,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,1,2,1,0,0,0,0,1,1,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,139,414,300,128,117,6,0,114,172,11,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,63,188,136,58,53,3,0,52,78,5,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,51,151,109,46,43,2,0,42,63,3,1.8
+2024/2025,Female,ALL,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,65,194,140,60,55,3,0,54,80,5,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,30,88,64,27,25,1,0,24,37,2,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,24,70,51,22,20,1,0,19,29,2,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,20,60,44,19,17,1,0,16,25,2,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,9,27,20,8,8,0,0,7,12,0,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,7,22,16,7,6,0,0,6,9,1,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,9,27,20,8,8,0,0,7,12,0,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,4,12,9,4,3,0,0,3,5,1,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,3,10,7,3,3,0,0,3,4,0,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,4,13,9,4,4,0,0,4,5,0,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,2,5,3,1,1,0,0,2,2,0,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,4,3,1,1,0,0,1,2,0,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,2,1,1,1,0,0,1,0,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,112,331,240,102,94,5,0,91,138,8,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,51,150,109,46,43,2,0,41,63,3,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,41,120,87,37,34,2,0,33,50,3,1.8
+2024/2025,Female,ALL,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,52,155,112,48,44,2,0,43,64,4,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,24,70,51,22,20,1,0,19,29,2,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,19,56,41,17,16,1,0,15,24,1,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,16,48,35,15,14,1,0,13,20,1,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,7,22,16,7,6,0,0,6,9,1,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,6,17,13,5,5,0,0,4,8,0,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,7,22,16,7,6,0,0,6,9,1,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,10,7,3,3,0,0,3,4,0,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,8,6,2,2,0,0,2,4,0,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,10,7,3,3,0,0,3,4,0,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,2,5,3,1,1,0,0,2,2,0,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,3,1,1,0,0,1,2,0,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,3,2,1,1,0,0,1,1,0,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,1,1,0,0,0,0,0,1,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,1,1,0,0,0,0,0,1,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,206,613,445,189,174,10,0,168,256,15,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,94,279,202,86,79,4,0,77,116,7,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,75,223,162,69,63,3,0,61,93,6,1.8
+2024/2025,Female,ALL,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,96,287,208,88,81,4,0,79,120,7,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,44,130,95,40,37,2,0,35,55,3,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,35,104,76,32,30,2,0,28,44,2,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,30,89,65,27,25,1,0,24,38,2,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,14,40,29,12,11,1,0,11,17,1,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,11,32,23,10,9,0,0,9,13,1,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,13,40,29,12,11,1,0,11,17,1,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,6,18,13,6,5,0,0,5,7,1,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,5,14,11,4,4,0,0,3,7,0,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,6,19,14,6,5,0,0,5,8,1,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,3,8,6,3,2,0,0,2,3,1,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,3,2,1,1,0,0,1,1,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,2,2,1,1,0,0,0,1,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,81,242,176,75,69,4,0,66,101,6,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,37,110,80,34,31,2,0,30,46,3,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,30,88,64,27,25,1,0,24,37,2,1.8
+2024/2025,Male,ALL,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,38,113,82,35,32,2,0,31,47,3,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,17,51,37,16,15,1,0,14,21,1,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,14,41,30,13,12,1,0,11,17,1,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,12,35,25,11,10,1,0,10,14,1,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,5,16,12,5,5,0,0,4,7,0,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,4,13,9,4,4,0,0,4,5,0,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Awka North,South East,Anambra,Awka North,,,5,16,11,5,4,0,0,5,6,1,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Awka North,South East,Anambra,Awka North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Awka North,South East,Anambra,Awka North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,1,3,2,1,1,0,0,1,1,0,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Awka North,South East,Anambra,Awka North,,,1,3,2,1,1,0,0,1,1,0,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Awka North,South East,Anambra,Awka North,,,1,2,2,1,1,0,0,0,1,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Awka North,South East,Anambra,Awka North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Awka North,South East,Anambra,Awka North,,,0,1,1,0,0,0,0,0,1,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,170,505,366,155,143,8,0,139,211,12,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,77,229,166,71,65,4,0,63,95,6,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,62,184,133,57,52,3,0,51,76,5,1.8
+2024/2025,Male,ALL,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,79,236,171,73,67,4,0,65,98,6,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,36,107,78,33,30,2,0,29,45,3,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,29,86,62,26,24,1,0,24,36,2,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,25,73,53,23,21,1,0,20,30,2,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,11,33,24,10,9,0,0,9,14,1,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,9,27,19,8,8,0,0,8,11,0,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Awka South,South East,Anambra,Awka South,,,11,33,24,10,9,0,0,9,14,1,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,5,15,11,5,4,0,0,4,6,1,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Awka South,South East,Anambra,Awka South,,,4,12,9,4,3,0,0,3,5,1,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Awka South,South East,Anambra,Awka South,,,5,15,11,5,4,0,0,4,6,1,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,2,7,5,2,2,0,0,2,3,0,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Awka South,South East,Anambra,Awka South,,,2,6,4,2,2,0,0,2,2,0,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Awka South,South East,Anambra,Awka South,,,2,5,3,1,1,0,0,2,2,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Awka South,South East,Anambra,Awka South,,,1,2,2,1,1,0,0,0,1,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Awka South,South East,Anambra,Awka South,,,1,2,1,1,0,0,0,1,0,1,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,149,442,321,136,125,7,0,121,185,11,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,68,201,146,62,57,3,0,55,84,5,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,54,161,117,50,46,3,0,44,67,4,1.8
+2024/2025,Male,ALL,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,70,207,150,64,59,3,0,57,86,5,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,32,94,68,29,27,1,0,26,39,2,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,25,75,55,23,21,1,0,20,32,2,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,22,64,47,20,18,1,0,17,27,2,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,10,29,21,9,8,0,0,8,12,1,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,8,23,17,7,7,0,0,6,10,0,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,10,29,21,9,8,0,0,8,12,1,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,4,13,9,4,4,0,0,4,5,0,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,4,10,8,3,3,0,0,2,5,0,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,5,13,10,4,4,0,0,3,6,0,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,2,5,4,2,1,0,0,1,2,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,4,3,1,1,0,0,1,2,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,2,1,1,1,0,0,1,0,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Onitsha North,South East,Anambra,Onitsha North,,,1,2,1,0,0,0,0,1,1,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,119,353,256,109,100,6,0,97,147,9,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,54,161,117,50,46,3,0,44,67,4,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,43,128,93,40,36,2,0,35,53,4,1.8
+2024/2025,Male,ALL,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,56,165,120,51,47,3,0,45,69,4,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,25,75,55,23,21,1,0,20,32,2,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,20,60,44,19,17,1,0,16,25,2,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,17,51,37,16,15,1,0,14,21,1,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,8,23,17,7,7,0,0,6,10,0,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,6,19,14,6,5,0,0,5,8,1,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,8,23,17,7,7,0,0,6,10,0,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,4,10,8,3,3,0,0,2,5,0,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,3,8,6,3,2,0,0,2,3,1,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,4,11,8,3,3,0,0,3,5,0,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,2,5,4,2,1,0,0,1,2,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,4,3,1,1,0,0,1,2,0,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,3,2,1,1,0,0,1,1,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Onitsha South,South East,Anambra,Onitsha South,,,1,2,1,0,0,0,0,1,1,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Onitsha South,South East,Anambra,Onitsha South,,,0,1,1,0,0,0,0,0,1,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,220,655,475,202,186,10,0,180,273,16,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,100,298,216,92,84,5,0,82,124,8,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,80,238,173,73,67,4,0,65,100,6,1.8
+2024/2025,Male,ALL,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,103,306,222,94,87,5,0,84,128,7,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,47,139,101,43,39,2,0,38,58,4,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,37,111,81,34,32,2,0,30,47,2,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,32,95,69,29,27,1,0,26,40,2,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,15,43,31,13,12,1,0,12,18,1,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,12,35,25,11,10,1,0,10,14,1,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,14,43,31,13,12,1,0,12,18,1,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,7,19,14,6,5,0,0,5,8,1,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,5,15,11,5,4,0,0,4,6,1,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,7,20,14,6,6,0,0,6,8,0,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,3,9,7,3,3,0,0,2,4,0,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Nnewi North,South East,Anambra,Nnewi North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,3,2,1,1,0,0,1,1,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Nnewi North,South East,Anambra,Nnewi North,,,1,2,2,1,1,0,0,0,1,0,1.8

@@ -20,11 +20,6 @@ import {
   LOAN_TREND_SESSIONS,
   filterRowsBySessionWindow,
 } from "../utils/sessionWindows";
-import {
-  applyDirectTransitionMetricOverride,
-  applyGeneralOLevelDeltaOverride,
-  applyGeneralOLevelOverride,
-} from "../utils/metricOverrides";
 // ─── Row types ────────────────────────────────────────────────────────────────
 type AccessWardRow = {
   session: string; zone: string; state: string; lga: string; ward: string;
@@ -2370,8 +2365,7 @@ setDropoffDrill({}); setIqsDrill({});
     const totalFormalSecondary = currentRows
       .filter((row) => row.school_level === "JSS" || row.school_level === "SSS")
       .reduce((sum, row) => sum + safeNum(row.student_count), 0);
-    const rawTotalOLevel = currentTransition.reduce((sum, row) => sum + safeNum(row.o_level_candidates), 0);
-    const totalOLevel = applyGeneralOLevelOverride(rawTotalOLevel, renderFilters, disabilityMode);
+    const totalOLevel = currentTransition.reduce((sum, row) => sum + safeNum(row.o_level_candidates), 0);
     const totalTeachers = currentTeacher.reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
 
 const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_level_candidates), 0);
@@ -2410,11 +2404,7 @@ const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_l
       {
         label: "Total O-Level Students",
         value: totalOLevel,
-        delta: applyGeneralOLevelDeltaOverride(
-          computeDelta(totalOLevel, prevOLevel),
-          renderFilters,
-          disabilityMode,
-        ),
+        delta: computeDelta(totalOLevel, prevOLevel),
         accent: "#8b5cf6",
         bg: "rgba(139,92,246,0.12)",
         icon: <FileCheck className="h-5 w-5" />,
@@ -2552,8 +2542,8 @@ const prevOLevel = previousTransition.reduce((sum, row) => sum + safeNum(row.o_l
 
   // ── Section 3: Transition funnel ────────────────────────────────────────────
   const currentMetrics = useMemo(
-    () => applyDirectTransitionMetricOverride(aggregateRows(currentTransition), renderFilters, disabilityMode),
-    [currentTransition, renderFilters, disabilityMode],
+    () => aggregateRows(currentTransition),
+    [currentTransition],
   );
   const progressionChartBundle = useMemo<ChartBundle>(() => {
     const metrics = currentMetrics;

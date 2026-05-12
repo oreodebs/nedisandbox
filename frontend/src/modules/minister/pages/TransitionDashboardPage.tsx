@@ -28,7 +28,6 @@ import {
   TRANSITION_SESSIONS,
   filterRowsBySessionWindow,
 } from "../utils/sessionWindows";
-import { applySs3EnrollmentOverride } from "../utils/metricOverrides";
 
 type TransitionGeneralRow = {
   session: string;
@@ -1324,28 +1323,15 @@ export default function TransitionDashboard(props: {
     [loading, scopePending, filteredPreviousRowsRaw, lastNonEmptyPreviousRows],
   );
 
-  const currentMetrics = useMemo(() => {
-    const aggregated = aggregateRows(filteredCurrentRows);
-    return {
-      ...aggregated,
-      ss3_total: applySs3EnrollmentOverride(renderFilters.session, "SSS3", aggregated.ss3_total, renderFilters, disabilityMode),
-    };
-  }, [filteredCurrentRows, renderFilters, disabilityMode]);
+  const currentMetrics = useMemo(
+    () => aggregateRows(filteredCurrentRows),
+    [filteredCurrentRows],
+  );
 
-  const previousMetrics = useMemo(() => {
-    const aggregated = aggregateRows(filteredPreviousRows);
-    if (!previousSession) return aggregated;
-    return {
-      ...aggregated,
-      ss3_total: applySs3EnrollmentOverride(
-        previousSession,
-        "SSS3",
-        aggregated.ss3_total,
-        { ...renderFilters, session: previousSession },
-        disabilityMode,
-      ),
-    };
-  }, [filteredPreviousRows, previousSession, renderFilters, disabilityMode]);
+  const previousMetrics = useMemo(
+    () => aggregateRows(filteredPreviousRows),
+    [filteredPreviousRows],
+  );
   const sessionMedianFallback = useMemo(() => {
     const scopedSessionRows = currentRows.filter((row) => {
       if (row.session !== renderFilters.session) return false;

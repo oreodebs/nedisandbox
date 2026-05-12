@@ -1,505 +1,541 @@
-session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,63,163,179,84,81,0,34,0,74,3
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,25,65,72,36,32,0,14,0,28,4
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,32,82,93,43,39,0,17,0,39,4
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,74,189,210,96,86,14,40,0,89,10
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,97,251,284,128,112,14,52,0,122,16
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,23,59,65,5,4,0,12,0,52,1
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,109,280,305,22,20,0,59,0,244,2
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,25,64,68,6,5,0,14,0,53,1
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,68,176,193,15,14,0,36,0,153,1
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,25,64,70,7,6,0,13,0,54,1
-2022/2023,Female,ALL,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,47,121,127,127,120,14,25,0,0,7
-2022/2023,Female,ALL,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,15,37,36,34,29,0,8,0,0,5
-2022/2023,Female,ALL,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,82,212,232,260,226,41,44,0,0,33
-2022/2023,Female,ALL,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,26,68,70,68,65,0,14,0,0,3
-2022/2023,Female,ALL,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,117,301,326,163,151,14,63,0,124,12
-2022/2023,Female,ALL,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,44,115,123,59,54,0,23,0,49,5
-2022/2023,Female,ALL,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,58,151,169,78,72,0,31,0,70,6
-2022/2023,Female,ALL,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,137,354,385,204,193,14,73,0,136,11
-2022/2023,Female,ALL,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,185,477,528,260,241,27,99,0,205,19
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,40,104,117,10,9,0,21,0,92,1
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,204,527,576,52,49,0,109,0,451,3
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,51,130,146,11,10,0,27,0,116,1
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,130,334,367,34,31,0,70,0,287,3
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,48,123,133,12,11,0,25,0,104,1
-2022/2023,Female,ALL,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,83,215,232,279,257,27,45,0,0,22
-2022/2023,Female,ALL,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,25,65,70,81,72,14,14,0,0,8
-2022/2023,Female,ALL,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,153,393,430,536,506,27,82,0,0,30
-2022/2023,Female,ALL,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,46,119,127,151,142,14,25,0,0,9
-2022/2023,Female,ALL,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,149,383,423,199,181,14,80,0,174,17
-2022/2023,Female,ALL,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,66,170,188,83,75,14,36,0,83,7
-2022/2023,Female,ALL,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,76,198,216,103,95,14,40,0,87,8
-2022/2023,Female,ALL,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,180,463,517,252,233,14,96,0,204,18
-2022/2023,Female,ALL,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,244,629,702,324,295,27,129,0,294,29
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,54,137,151,11,10,0,29,0,121,1
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,263,678,721,59,55,0,141,0,571,4
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,60,156,173,13,12,0,32,0,138,1
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,172,443,490,43,39,0,92,0,385,4
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,67,174,195,17,16,0,36,0,153,1
-2022/2023,Female,ALL,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,110,283,307,330,312,14,58,0,0,18
-2022/2023,Female,ALL,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,36,94,95,96,85,14,19,0,0,11
-2022/2023,Female,ALL,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,201,517,561,637,592,55,108,0,0,44
-2022/2023,Female,ALL,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,63,162,175,207,190,14,34,0,0,17
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,6,16,17,15,14,0,4,0,0,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,2,5,6,5,4,0,1,0,0,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,7,7,4,3,0,1,0,2,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,7,18,19,12,11,0,4,0,5,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,7,18,19,12,11,0,4,0,5,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,2,5,6,1,0,0,1,0,4,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,10,25,26,2,1,0,5,0,21,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,6,7,0,0,0,2,0,6,0
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,6,14,16,2,1,0,3,0,12,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,3,7,7,1,0,0,1,0,5,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,4,12,14,19,16,0,2,0,0,3
-2022/2023,Female,Disabled,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,1,2,2,0,0,0,1,0,2,0
-2022/2023,Female,Disabled,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,8,20,21,41,40,0,4,0,0,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,2,6,7,12,10,0,1,0,0,2
-2022/2023,Female,Disabled,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,9,24,25,15,14,0,5,0,7,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,3,7,9,5,4,0,1,0,3,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,4,11,13,8,7,0,2,0,3,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,12,31,36,20,18,0,7,0,11,2
-2022/2023,Female,Disabled,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,12,31,34,17,16,0,6,0,13,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,3,8,10,1,0,0,2,0,8,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,16,41,47,5,4,0,8,0,36,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,4,11,13,1,0,0,3,0,10,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,11,28,31,2,1,0,6,0,25,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,4,11,14,1,0,0,2,0,11,1
-2022/2023,Female,Disabled,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,8,20,18,20,18,0,4,1,0,2
-2022/2023,Female,Disabled,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,2,5,5,7,6,0,1,0,0,1
-2022/2023,Female,Disabled,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,12,30,33,48,42,0,6,0,0,6
-2022/2023,Female,Disabled,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,4,11,9,13,12,0,2,1,0,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,11,29,32,13,12,0,6,0,15,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,4,10,10,4,3,0,2,0,5,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,5,13,15,5,4,0,3,0,8,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,16,41,46,19,17,0,9,0,21,2
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,17,43,49,17,16,0,9,0,26,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,4,11,11,1,0,0,2,0,9,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,20,52,57,4,3,0,11,0,46,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,5,13,15,1,0,0,2,0,12,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,13,35,40,2,1,0,7,0,33,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,5,13,16,1,0,0,3,0,13,1
-2022/2023,Female,Disabled,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,9,24,24,24,22,0,5,0,0,2
-2022/2023,Female,Disabled,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,3,7,8,5,4,0,2,0,2,1
-2022/2023,Female,Disabled,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,15,39,42,45,42,0,8,0,0,3
-2022/2023,Female,Disabled,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,5,12,13,15,14,0,3,0,0,1
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,82,211,229,76,69,14,44,0,125,7
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,32,82,93,32,31,0,18,0,50,1
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,41,106,120,43,39,0,22,0,63,4
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,93,239,265,92,88,0,50,0,141,4
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,122,315,353,124,111,14,65,0,186,13
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,30,77,85,4,3,0,16,0,70,1
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,135,347,374,18,17,0,72,0,308,1
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,34,88,99,5,4,0,18,0,81,1
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,97,250,265,15,14,0,52,0,216,1
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,34,87,97,6,5,0,18,0,79,1
-2022/2023,Male,ALL,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,54,137,149,86,76,14,29,0,46,9
-2022/2023,Male,ALL,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,22,55,60,34,29,0,12,0,19,5
-2022/2023,Male,ALL,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,108,280,320,260,238,27,57,0,24,22
-2022/2023,Male,ALL,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,33,83,91,59,57,0,18,0,21,2
-2022/2023,Male,ALL,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,149,383,420,154,144,14,80,0,215,10
-2022/2023,Male,ALL,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,58,150,165,56,51,0,31,0,89,5
-2022/2023,Male,ALL,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,74,192,218,89,82,14,40,0,103,7
-2022/2023,Male,ALL,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,178,461,503,193,180,14,95,0,250,12
-2022/2023,Male,ALL,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,233,600,661,234,213,27,124,0,346,21
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,56,143,154,9,8,0,30,0,125,1
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,263,678,721,47,43,0,142,0,583,4
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,72,187,201,11,10,0,38,0,164,1
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,175,451,498,34,31,0,93,0,401,3
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,65,166,190,14,13,0,35,0,152,1
-2022/2023,Male,ALL,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,100,259,283,232,211,27,53,0,19,21
-2022/2023,Male,ALL,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,34,87,93,64,52,14,18,0,18,12
-2022/2023,Male,ALL,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,201,517,565,469,440,27,108,0,33,28
-2022/2023,Male,ALL,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,58,150,161,127,115,14,32,0,15,12
-2022/2023,Male,ALL,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,189,487,536,183,168,14,101,0,287,15
-2022/2023,Male,ALL,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,83,215,237,85,77,14,45,0,124,7
-2022/2023,Male,ALL,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,92,238,259,89,81,14,49,0,139,8
-2022/2023,Male,ALL,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,231,596,656,244,225,14,123,0,333,18
-2022/2023,Male,ALL,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,316,815,911,334,310,27,168,0,466,24
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,72,186,202,12,11,0,38,0,164,1
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,341,879,947,58,52,0,182,0,769,6
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,84,216,218,12,11,0,45,0,178,1
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,224,576,644,40,36,0,120,0,523,4
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,91,234,259,16,15,0,48,0,210,1
-2022/2023,Male,ALL,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,134,345,360,289,261,27,72,0,30,28
-2022/2023,Male,ALL,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,46,119,127,90,85,0,25,0,23,5
-2022/2023,Male,ALL,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,274,708,764,649,597,55,146,0,29,51
-2022/2023,Male,ALL,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,85,219,242,188,170,14,46,0,27,17
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,7,19,19,7,6,0,4,0,10,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,2,6,6,4,3,0,1,0,1,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,4,10,9,3,2,0,2,0,5,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,9,24,29,15,14,0,5,0,10,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,9,23,24,10,9,0,5,0,11,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,3,7,8,0,0,0,1,0,7,0
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,11,29,31,1,0,0,6,0,26,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,8,9,0,0,0,2,0,8,0
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,8,20,21,1,0,0,4,0,17,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,4,10,9,1,0,0,2,0,7,1
-2022/2023,Male,Disabled,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,6,14,15,0,0,0,3,0,13,0
-2022/2023,Male,Disabled,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,1,4,2,0,0,0,0,1,2,0
-2022/2023,Male,Disabled,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,9,24,26,19,18,0,5,0,4,1
-2022/2023,Male,Disabled,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,3,8,8,7,6,0,1,0,0,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,12,31,34,15,14,0,6,0,15,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,3,8,10,5,4,0,2,0,4,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,5,13,14,5,4,0,3,0,7,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,16,42,45,17,16,0,9,0,22,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,16,41,48,15,13,0,9,0,27,2
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,4,11,11,1,0,0,2,0,9,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,22,55,61,5,4,0,12,0,48,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,6,16,16,1,0,0,3,0,13,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,15,40,45,2,1,0,8,0,37,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,5,13,13,1,0,0,3,0,10,1
-2022/2023,Male,Disabled,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,9,24,25,20,18,0,5,0,2,2
-2022/2023,Male,Disabled,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,2,6,6,0,0,0,1,0,5,0
-2022/2023,Male,Disabled,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,15,40,45,28,24,0,8,0,12,3
-2022/2023,Male,Disabled,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,5,13,16,13,12,0,3,0,1,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,15,39,42,11,10,0,7,0,26,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,5,12,14,4,3,0,3,0,8,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,6,16,17,5,4,0,3,0,10,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,20,52,57,19,17,0,11,0,31,2
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,21,55,63,19,18,0,11,0,36,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,6,14,16,1,0,0,3,0,13,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,26,66,73,3,2,0,14,0,61,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,7,18,18,1,0,0,4,0,15,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,19,49,54,2,1,0,11,0,45,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,7,19,22,1,0,0,4,0,18,1
-2022/2023,Male,Disabled,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,12,31,32,24,22,0,6,0,4,2
-2022/2023,Male,Disabled,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,3,8,9,5,4,0,2,0,3,1
-2022/2023,Male,Disabled,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,19,49,58,45,42,0,11,0,7,3
-2022/2023,Male,Disabled,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,7,17,18,15,14,0,4,0,1,1
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,67,172,193,48,46,0,36,0,121,2
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,28,74,81,21,20,0,15,0,50,1
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,36,92,101,26,25,0,19,0,62,1
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,81,209,227,59,57,0,43,0,140,2
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,100,259,289,73,64,14,53,0,180,9
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,24,60,62,6,5,0,13,0,48,1
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,114,294,319,28,27,0,61,0,251,1
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,27,70,75,7,6,0,15,0,58,1
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,72,187,214,19,17,0,38,0,168,2
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,30,78,91,8,7,0,16,0,71,1
-2023/2024,Female,ALL,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,47,122,134,97,91,0,25,0,22,6
-2023/2024,Female,ALL,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,16,42,48,33,30,0,9,0,10,3
-2023/2024,Female,ALL,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,90,232,248,202,191,14,48,0,18,11
-2023/2024,Female,ALL,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,24,63,69,58,50,14,12,0,3,8
-2023/2024,Female,ALL,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,119,306,330,100,89,14,64,0,190,11
-2023/2024,Female,ALL,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,48,124,135,42,39,0,26,0,77,3
-2023/2024,Female,ALL,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,61,157,175,54,50,0,32,0,100,4
-2023/2024,Female,ALL,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,142,367,403,126,117,14,76,0,227,9
-2023/2024,Female,ALL,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,193,498,556,164,148,14,104,0,324,16
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,45,117,132,13,12,0,24,0,102,1
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,212,546,579,55,51,0,113,0,451,4
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,51,131,136,12,11,0,27,0,107,1
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,135,348,381,39,35,0,72,0,294,4
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,51,130,148,15,14,0,27,0,114,1
-2023/2024,Female,ALL,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,88,228,245,226,210,14,47,0,0,16
-2023/2024,Female,ALL,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,31,80,83,73,67,0,16,0,0,6
-2023/2024,Female,ALL,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,166,427,469,419,382,41,89,0,0,36
-2023/2024,Female,ALL,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,48,123,130,117,107,14,25,0,0,10
-2023/2024,Female,ALL,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,165,427,470,134,121,14,88,0,279,12
-2023/2024,Female,ALL,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,68,175,195,54,49,0,36,0,117,5
-2023/2024,Female,ALL,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,81,207,220,65,62,0,44,0,128,3
-2023/2024,Female,ALL,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,192,497,542,157,147,14,102,0,319,10
-2023/2024,Female,ALL,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,266,687,772,226,207,27,142,0,451,19
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,58,151,158,14,12,0,31,0,124,2
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,280,721,783,68,63,0,150,0,616,5
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,66,170,179,16,14,0,35,0,140,2
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,185,477,526,52,47,0,99,0,408,5
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,67,171,187,19,18,0,36,0,144,1
-2023/2024,Female,ALL,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,124,321,346,283,263,27,65,0,24,20
-2023/2024,Female,ALL,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,35,90,99,74,70,0,18,0,13,4
-2023/2024,Female,ALL,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,218,561,610,515,473,41,117,0,27,41
-2023/2024,Female,ALL,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,66,170,188,161,146,14,35,0,6,15
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,6,16,16,6,5,0,4,0,8,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,2,5,5,3,2,0,1,0,1,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,7,8,5,4,0,2,0,2,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,8,19,22,8,7,0,5,0,11,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,7,19,22,10,9,0,4,0,9,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,2,6,6,1,0,0,1,0,4,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,10,25,25,4,3,0,5,0,18,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,2,6,6,1,0,0,1,0,4,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,6,16,18,3,2,0,3,0,13,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,3,7,8,1,0,0,2,0,6,1
-2023/2024,Female,Disabled,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,5,12,14,19,17,0,3,0,0,2
-2023/2024,Female,Disabled,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,1,2,2,0,0,0,0,0,2,0
-2023/2024,Female,Disabled,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,8,20,19,29,25,0,4,0,0,3
-2023/2024,Female,Disabled,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,2,6,7,9,8,0,1,0,0,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,9,23,25,9,8,0,5,0,13,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,3,6,7,3,2,0,2,0,3,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,4,11,11,4,3,0,2,0,6,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,13,33,37,12,11,0,7,0,20,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,13,33,37,10,9,0,7,0,22,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,3,8,11,1,0,0,2,0,9,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,16,42,47,5,4,0,9,0,36,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,5,12,14,1,0,0,3,0,11,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,12,29,33,3,2,0,7,0,26,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,4,10,11,1,0,0,3,0,9,1
-2023/2024,Female,Disabled,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,8,20,21,19,17,0,4,0,0,2
-2023/2024,Female,Disabled,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,2,5,6,5,4,0,2,0,0,1
-2023/2024,Female,Disabled,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,12,31,34,31,30,0,6,0,0,1
-2023/2024,Female,Disabled,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,4,10,10,9,8,0,3,0,0,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,12,31,37,8,7,0,7,0,24,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,4,11,11,3,2,0,2,0,7,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,6,14,16,3,2,0,3,0,11,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,18,46,50,13,12,0,9,0,31,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,19,49,54,10,9,0,10,0,37,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,4,11,13,1,0,0,2,0,10,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,22,58,62,4,3,0,12,0,50,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,6,16,17,1,0,0,3,0,14,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,16,40,46,3,2,0,9,0,37,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,5,13,17,2,1,0,3,0,13,1
-2023/2024,Female,Disabled,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,11,28,30,22,21,0,6,0,4,1
-2023/2024,Female,Disabled,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,3,6,7,4,3,0,2,0,2,1
-2023/2024,Female,Disabled,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,17,43,48,30,28,0,9,0,13,2
-2023/2024,Female,Disabled,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,6,16,17,11,10,0,4,0,4,1
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,86,221,235,48,43,0,46,0,158,5
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,35,90,95,19,18,0,19,0,64,1
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,45,115,131,25,24,0,24,0,89,1
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,99,254,278,55,50,0,53,0,188,5
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,126,326,368,75,69,0,67,0,247,6
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,30,77,86,5,4,0,16,0,70,1
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,146,375,399,22,20,0,78,0,326,2
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,37,96,104,6,5,0,19,0,85,1
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,101,259,289,17,15,0,54,0,235,2
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,41,106,112,8,7,0,21,0,90,1
-2023/2024,Male,ALL,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,58,148,157,90,75,14,31,0,49,14
-2023/2024,Male,ALL,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,22,57,60,33,28,0,12,0,20,5
-2023/2024,Male,ALL,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,118,304,338,191,175,14,63,0,108,15
-2023/2024,Male,ALL,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,35,89,102,58,50,14,19,0,32,8
-2023/2024,Male,ALL,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,159,410,448,100,94,0,85,0,293,6
-2023/2024,Male,ALL,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,61,158,171,40,38,0,33,0,110,2
-2023/2024,Male,ALL,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,77,198,222,52,48,0,41,0,143,4
-2023/2024,Male,ALL,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,175,450,501,109,100,14,94,0,330,9
-2023/2024,Male,ALL,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,244,631,711,162,150,14,130,0,461,12
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,60,154,163,12,11,0,32,0,130,1
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,272,702,758,55,52,0,146,0,607,3
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,72,184,201,13,12,0,39,0,162,1
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,192,496,553,43,40,0,103,0,440,3
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,71,182,201,16,15,0,38,0,159,1
-2023/2024,Male,ALL,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,107,276,297,191,168,27,58,0,72,22
-2023/2024,Male,ALL,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,41,105,108,61,53,14,22,0,34,8
-2023/2024,Male,ALL,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,217,559,611,419,390,27,116,0,122,28
-2023/2024,Male,ALL,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,67,172,179,115,108,14,36,0,43,7
-2023/2024,Male,ALL,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,211,544,592,131,120,14,112,0,387,11
-2023/2024,Male,ALL,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,82,211,222,51,47,0,44,0,144,4
-2023/2024,Male,ALL,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,100,257,279,59,53,0,54,0,185,6
-2023/2024,Male,ALL,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,242,625,697,155,142,14,130,0,456,13
-2023/2024,Male,ALL,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,332,856,941,203,185,14,178,0,622,18
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,78,201,211,14,13,0,42,0,170,1
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,354,913,991,68,62,0,190,0,797,6
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,89,230,251,18,16,0,47,0,201,2
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,254,655,724,51,47,0,135,0,581,4
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,94,242,265,20,18,0,50,0,211,2
-2023/2024,Male,ALL,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,150,387,422,267,250,14,81,0,106,17
-2023/2024,Male,ALL,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,49,125,135,74,70,0,26,0,45,4
-2023/2024,Male,ALL,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,294,757,834,540,501,41,157,0,197,39
-2023/2024,Male,ALL,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,88,225,241,156,146,14,48,0,57,10
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,8,20,21,6,5,0,4,0,12,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,2,6,7,3,2,0,1,0,3,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,4,10,9,3,2,0,2,0,5,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,10,27,30,7,6,0,5,0,19,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,9,23,26,10,9,0,5,0,13,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,3,7,8,1,0,0,1,0,6,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,12,31,32,2,1,0,7,0,26,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,8,8,1,0,0,1,0,6,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,8,20,25,2,1,0,4,0,20,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,4,10,11,1,0,0,3,0,9,1
-2023/2024,Male,Disabled,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,6,14,15,14,12,0,3,0,0,2
-2023/2024,Male,Disabled,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,1,4,5,4,3,0,1,0,0,1
-2023/2024,Male,Disabled,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,10,25,28,19,17,0,6,0,5,2
-2023/2024,Male,Disabled,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,3,7,7,5,4,0,1,0,1,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,13,33,37,10,9,0,7,0,22,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,3,8,10,3,2,0,2,0,6,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,4,12,13,3,2,0,2,0,8,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,16,42,48,10,9,0,9,0,32,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,17,45,50,9,8,0,9,0,35,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,4,11,11,1,0,0,2,0,9,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,21,54,62,5,4,0,12,0,49,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,6,16,16,1,0,0,3,0,13,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,15,39,45,3,2,0,8,0,36,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,6,14,16,1,0,0,3,0,13,1
-2023/2024,Male,Disabled,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,9,24,25,14,12,0,4,0,8,2
-2023/2024,Male,Disabled,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,3,7,7,5,4,0,2,0,1,1
-2023/2024,Male,Disabled,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,16,41,45,33,30,0,9,0,7,3
-2023/2024,Male,Disabled,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,5,13,14,8,7,0,3,0,4,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,17,43,47,8,7,0,9,0,33,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,4,12,14,2,1,0,2,0,10,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,7,18,19,3,2,0,4,0,14,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,22,55,62,12,11,0,12,0,42,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,25,65,73,11,10,0,13,0,53,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,6,16,18,1,0,0,4,0,15,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,29,74,78,4,3,0,16,0,64,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,7,19,21,1,0,0,4,0,17,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,21,55,61,3,2,0,11,0,50,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,7,18,19,1,0,0,4,0,16,1
-2023/2024,Male,Disabled,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,13,35,37,15,14,0,7,0,17,1
-2023/2024,Male,Disabled,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,3,8,8,4,3,0,2,0,3,1
-2023/2024,Male,Disabled,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,23,59,65,34,32,0,12,0,24,2
-2023/2024,Male,Disabled,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,8,20,22,11,10,0,4,0,8,1
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,141,364,242,103,95,8,75,91,110,8
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,60,156,103,44,41,4,32,39,47,3
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,78,200,133,57,52,5,42,50,60,5
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,170,439,292,124,114,10,91,109,133,10
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,223,575,383,163,150,13,119,143,174,13
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,60,156,103,44,40,4,32,39,47,4
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,240,619,412,175,161,14,128,154,187,14
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,62,159,106,45,42,4,33,40,48,3
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,156,403,268,114,105,9,84,100,122,9
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,64,164,109,46,43,4,34,41,50,3
-2024/2025,Female,ALL,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,107,276,183,77,71,6,57,69,84,6
-2024/2025,Female,ALL,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,37,96,64,28,25,2,20,24,29,2
-2024/2025,Female,ALL,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,194,499,333,142,130,11,104,124,151,11
-2024/2025,Female,ALL,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,54,140,93,40,37,3,29,35,42,3
-2024/2025,Female,ALL,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,272,699,466,198,182,16,146,174,212,15
-2024/2025,Female,ALL,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,108,277,185,78,72,6,58,69,84,6
-2024/2025,Female,ALL,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,140,362,241,102,94,8,75,90,110,8
-2024/2025,Female,ALL,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,304,784,522,222,204,18,163,195,237,18
-2024/2025,Female,ALL,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,430,1107,737,313,288,25,230,275,336,24
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,104,269,179,76,70,6,56,67,81,6
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,470,1211,806,342,315,27,251,301,367,27
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,113,291,194,83,75,7,60,72,88,7
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,297,764,509,216,199,17,159,190,232,17
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,113,291,194,83,75,7,60,72,88,7
-2024/2025,Female,ALL,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,184,474,315,135,123,11,98,118,143,11
-2024/2025,Female,ALL,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,68,175,116,49,45,4,36,44,53,4
-2024/2025,Female,ALL,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,345,890,592,252,231,20,184,222,269,20
-2024/2025,Female,ALL,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,105,271,181,76,70,6,56,67,83,6
-2024/2025,Female,ALL,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,352,907,603,257,235,21,188,226,274,21
-2024/2025,Female,ALL,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,161,414,275,117,108,9,86,103,125,9
-2024/2025,Female,ALL,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,195,504,336,143,132,11,104,125,153,11
-2024/2025,Female,ALL,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,418,1077,717,305,280,24,223,268,326,24
-2024/2025,Female,ALL,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,550,1419,945,402,369,32,294,353,430,32
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,135,348,233,99,91,8,73,86,106,8
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,653,1684,1122,477,438,38,349,419,510,38
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,158,406,271,115,106,9,85,101,123,9
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,412,1061,706,301,276,24,221,264,321,24
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,150,387,258,110,101,9,81,96,117,9
-2024/2025,Female,ALL,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,253,652,435,184,170,15,135,162,198,14
-2024/2025,Female,ALL,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,79,205,136,58,53,5,42,51,62,5
-2024/2025,Female,ALL,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,467,1203,802,340,313,27,250,299,365,27
-2024/2025,Female,ALL,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,145,375,250,106,98,8,77,93,114,8
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,14,36,24,10,9,1,8,9,11,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,5,13,8,4,3,0,2,4,3,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,7,17,11,5,4,0,4,4,5,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,18,47,31,13,12,1,10,12,14,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,17,43,29,12,11,1,9,11,13,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,5,13,9,4,3,0,2,3,4,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,22,55,37,15,14,1,12,14,17,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,6,14,10,4,4,0,4,3,5,0
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,13,34,23,10,9,1,8,8,10,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,7,17,11,5,4,0,4,4,5,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,11,28,18,8,7,1,6,7,8,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,3,6,5,2,2,0,2,1,2,0
-2024/2025,Female,Disabled,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,18,47,31,13,12,1,10,12,14,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,5,13,8,4,3,0,2,4,3,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,21,54,36,15,14,1,11,14,16,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,7,17,11,5,4,0,4,4,5,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,9,24,16,7,6,1,4,6,7,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,27,71,47,20,18,2,14,18,21,2
-2024/2025,Female,Disabled,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,29,75,50,21,19,2,16,18,23,2
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,8,22,14,6,5,0,4,6,6,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,36,93,62,26,24,2,19,23,28,2
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,9,24,16,7,6,1,4,6,7,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,24,63,41,17,16,1,13,16,19,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,10,25,17,7,7,1,6,6,8,0
-2024/2025,Female,Disabled,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,16,43,29,12,11,1,8,11,13,1
-2024/2025,Female,Disabled,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,4,11,7,3,3,0,2,3,3,0
-2024/2025,Female,Disabled,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,26,66,45,18,17,2,14,16,21,1
-2024/2025,Female,Disabled,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,9,24,16,7,6,1,4,6,7,1
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,27,71,47,20,18,2,14,18,21,2
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,9,24,16,7,6,1,4,6,7,1
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,13,34,23,10,9,1,8,8,10,1
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,38,99,65,28,25,2,20,25,30,2
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,38,99,65,28,25,2,20,25,30,2
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,11,28,18,8,7,1,6,7,8,1
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,49,127,85,36,33,3,26,31,39,3
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,14,36,24,10,9,1,8,9,11,1
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,33,83,56,23,21,2,18,20,26,2
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,12,33,22,9,8,1,6,8,10,1
-2024/2025,Female,Disabled,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,22,58,39,16,15,1,12,14,18,1
-2024/2025,Female,Disabled,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,6,14,10,4,4,0,4,3,5,0
-2024/2025,Female,Disabled,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,34,88,58,24,23,2,18,22,27,1
-2024/2025,Female,Disabled,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,11,28,18,8,7,1,6,7,8,1
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,189,487,325,138,126,11,101,121,148,11
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,78,200,133,57,52,5,42,50,60,5
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,92,236,158,67,61,5,50,58,72,6
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,220,567,377,160,148,13,117,141,172,12
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,281,726,483,205,189,16,150,181,220,16
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,79,203,134,57,53,5,42,51,61,4
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,312,803,534,227,209,18,167,200,243,18
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,86,222,148,63,58,5,46,55,67,5
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,224,578,384,163,150,13,119,144,175,13
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,86,222,148,63,58,5,46,55,67,5
-2024/2025,Male,ALL,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,127,327,218,93,86,7,68,81,99,7
-2024/2025,Male,ALL,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,44,115,76,33,30,3,23,29,34,3
-2024/2025,Male,ALL,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,270,696,463,197,181,16,144,173,211,15
-2024/2025,Male,ALL,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,74,192,127,54,50,4,40,48,58,4
-2024/2025,Male,ALL,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,349,900,600,255,234,20,187,223,273,20
-2024/2025,Male,ALL,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,130,336,224,95,88,8,69,84,102,7
-2024/2025,Male,ALL,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,175,450,299,127,117,10,94,112,136,10
-2024/2025,Male,ALL,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,399,1030,686,291,268,23,213,256,312,23
-2024/2025,Male,ALL,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,555,1430,952,405,372,32,296,356,433,32
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,141,364,242,103,95,8,75,91,110,8
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,590,1520,1013,430,396,34,315,378,461,34
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,145,375,250,106,98,8,77,93,114,8
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,404,1042,694,295,271,24,217,259,316,23
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,158,406,271,115,106,9,85,101,123,9
-2024/2025,Male,ALL,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,220,568,378,161,148,13,118,141,172,13
-2024/2025,Male,ALL,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,85,219,146,62,57,5,46,55,66,5
-2024/2025,Male,ALL,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,456,1176,783,332,306,27,244,292,357,26
-2024/2025,Male,ALL,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,129,332,221,94,87,8,69,82,101,7
-2024/2025,Male,ALL,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,461,1189,791,336,310,27,246,296,360,26
-2024/2025,Male,ALL,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,190,488,326,139,127,11,102,121,148,11
-2024/2025,Male,ALL,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,233,600,400,170,156,14,125,149,182,14
-2024/2025,Male,ALL,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,525,1353,900,382,352,31,280,337,410,30
-2024/2025,Male,ALL,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,715,1844,1227,522,480,42,382,459,558,41
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,179,461,307,130,120,10,96,114,140,10
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,829,2137,1422,605,556,48,443,532,646,49
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,220,567,377,160,148,13,117,141,172,12
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,554,1428,951,404,372,32,296,355,433,31
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,208,537,357,152,140,12,111,134,162,12
-2024/2025,Male,ALL,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,308,792,528,224,206,18,165,197,240,18
-2024/2025,Male,ALL,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,102,263,175,74,68,6,54,65,80,6
-2024/2025,Male,ALL,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,639,1647,1096,466,429,37,342,410,499,36
-2024/2025,Male,ALL,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,186,480,320,136,125,11,100,119,146,10
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,18,45,30,12,12,1,10,11,14,0
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,6,14,10,4,4,0,4,3,5,0
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,8,22,14,6,5,0,4,6,6,1
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,22,58,39,16,15,1,12,14,18,1
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,21,54,36,15,14,1,11,14,16,1
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,6,14,10,4,4,0,4,3,5,0
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,27,69,46,19,18,2,14,17,21,1
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,7,17,11,5,4,0,4,4,5,1
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,18,45,30,12,12,1,10,11,14,0
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,9,24,16,7,6,1,4,6,7,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,13,35,23,10,9,1,7,9,10,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,3,8,6,2,2,0,2,2,3,0
-2024/2025,Male,Disabled,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,22,58,39,16,15,1,12,14,18,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,7,17,11,5,4,0,4,4,5,1
-2024/2025,Male,Disabled,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,25,64,42,18,16,1,14,16,19,2
-2024/2025,Male,Disabled,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,7,19,13,5,5,0,4,5,6,0
-2024/2025,Male,Disabled,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,12,33,22,9,8,1,6,8,10,1
-2024/2025,Male,Disabled,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,36,93,62,26,24,2,19,23,28,2
-2024/2025,Male,Disabled,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,37,96,64,28,25,2,20,24,29,2
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,10,25,17,7,7,1,6,6,8,0
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,47,121,80,34,32,3,25,30,37,2
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,13,35,23,10,9,1,7,9,10,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,35,90,60,25,23,2,18,23,27,2
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,13,35,23,10,9,1,7,9,10,1
-2024/2025,Male,Disabled,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,19,49,33,14,13,1,10,12,15,1
-2024/2025,Male,Disabled,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,6,14,10,4,4,0,4,3,5,0
-2024/2025,Male,Disabled,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,34,88,58,24,22,2,18,22,27,2
-2024/2025,Male,Disabled,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,12,30,19,8,8,1,6,8,9,0
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,38,99,65,28,25,2,20,25,30,2
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,11,28,18,8,7,1,6,7,8,1
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,17,43,29,12,11,1,9,11,13,1
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,48,123,81,35,32,3,25,31,37,3
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,51,131,87,37,34,3,27,33,40,3
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,13,34,23,9,9,1,8,8,11,0
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,61,157,104,44,41,4,33,39,48,3
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,19,49,33,14,13,1,10,12,15,1
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,47,121,80,34,32,3,25,30,37,2
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,16,43,29,12,11,1,8,11,13,1
-2024/2025,Male,Disabled,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,29,75,50,21,19,2,16,18,23,2
-2024/2025,Male,Disabled,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,7,19,13,5,5,0,4,5,6,0
-2024/2025,Male,Disabled,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,47,121,80,34,32,3,25,30,37,2
-2024/2025,Male,Disabled,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,16,43,29,12,11,1,8,11,13,1
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated,median_time_to_matriculation_years
+2022/2023,Female,ALL,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,680,2042,1477,619,568,31,0,565,858,51,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,309,928,671,281,258,14,0,257,390,23,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,247,742,537,225,207,11,0,205,312,18,1.8
+2022/2023,Female,ALL,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,318,955,691,289,266,15,0,264,402,23,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,145,434,314,132,121,7,0,120,182,11,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,116,347,251,105,97,5,0,96,146,8,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,99,296,214,90,83,5,0,82,124,7,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,45,135,97,41,38,2,0,38,56,3,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,36,108,78,33,30,2,0,30,45,3,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,44,133,96,40,37,2,0,37,56,3,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,20,60,44,18,17,1,0,16,26,1,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,16,48,35,15,13,1,0,13,20,2,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,21,62,45,19,17,1,0,17,26,2,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,9,28,20,9,8,0,0,8,11,1,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,8,23,16,7,6,0,0,7,9,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,6,19,14,6,5,0,0,5,8,1,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,3,9,6,3,2,0,0,3,3,1,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,2,7,5,2,2,0,0,2,3,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,261,782,566,237,218,12,0,216,329,19,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,119,355,257,108,99,5,0,98,149,9,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,95,284,206,86,79,4,0,78,120,7,1.8
+2022/2023,Female,ALL,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,122,366,265,111,102,6,0,101,154,9,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,55,166,120,50,46,3,0,46,70,4,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,44,133,96,40,37,2,0,37,56,3,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,38,114,82,34,32,2,0,32,48,2,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,17,52,37,16,14,1,0,15,21,2,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,14,41,30,13,12,1,0,11,17,1,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,17,51,37,15,14,1,0,14,22,1,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,8,23,17,7,6,0,0,6,10,1,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,6,18,13,6,5,0,0,5,7,1,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,8,24,17,7,7,0,0,7,10,0,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,4,11,8,3,3,0,0,3,5,0,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,3,9,6,3,2,0,0,3,3,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,2,7,5,2,2,0,0,2,3,0,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,1,3,2,1,1,0,0,1,1,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,1,3,2,1,1,0,0,1,1,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,239,717,519,218,200,11,0,198,301,18,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,109,326,236,99,91,5,0,90,137,8,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,87,261,189,79,73,4,0,72,110,6,1.8
+2022/2023,Female,ALL,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,112,335,243,102,93,5,0,92,141,9,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,51,152,110,46,42,2,0,42,64,4,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,41,122,88,37,34,2,0,34,51,3,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,35,104,75,32,29,2,0,29,43,3,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,16,47,34,14,13,1,0,13,20,1,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,13,38,27,11,11,1,0,11,16,0,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,16,47,34,14,13,1,0,13,20,1,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,7,21,15,6,6,0,0,6,9,0,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,6,17,12,5,5,0,0,5,7,0,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,7,22,16,7,6,0,0,6,9,1,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,10,7,3,3,0,0,3,4,0,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,8,6,2,2,0,0,2,4,0,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,2,7,5,2,2,0,0,2,3,0,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,1,3,2,1,1,0,0,1,1,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,1,2,2,1,1,0,0,0,1,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,396,1186,859,360,330,18,0,327,499,30,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,180,539,390,164,150,8,0,149,226,14,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,144,431,312,131,120,7,0,119,181,11,1.8
+2022/2023,Female,ALL,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,185,555,402,168,155,9,0,153,234,13,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,84,252,183,76,70,4,0,69,107,6,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,67,202,146,61,56,3,0,56,85,5,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,57,172,125,52,48,3,0,47,73,4,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,26,78,57,24,22,1,0,21,33,2,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,21,63,45,19,17,1,0,18,26,2,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,26,77,56,23,21,1,0,21,33,2,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,12,35,25,11,10,1,0,10,14,1,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,9,28,20,9,8,0,0,8,11,1,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,12,36,26,11,10,1,0,10,15,1,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,5,16,12,5,5,0,0,4,7,0,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,4,13,9,4,4,0,0,4,5,0,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,4,11,8,3,3,0,0,3,5,0,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,2,5,4,2,1,0,0,1,2,1,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,1,4,3,1,1,0,0,1,2,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Nafada,North East,Gombe,Nafada,,,383,1148,831,348,320,18,0,317,483,28,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,174,522,378,158,145,8,0,144,220,13,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,139,418,302,127,116,6,0,116,175,11,1.8
+2022/2023,Female,ALL,NECO,University,lga,Nafada,North East,Gombe,Nafada,,,179,537,389,163,150,8,0,148,226,13,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,81,244,177,74,68,4,0,67,103,6,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,65,195,141,59,54,3,0,54,82,5,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Nafada,North East,Gombe,Nafada,,,56,167,121,51,46,3,0,46,70,5,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,25,76,55,23,21,1,0,21,32,2,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,20,61,44,18,17,1,0,17,26,1,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Nafada,North East,Gombe,Nafada,,,25,75,54,23,21,1,0,21,31,2,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,11,34,25,10,9,0,0,9,15,1,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,9,27,20,8,8,0,0,7,12,0,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Nafada,North East,Gombe,Nafada,,,12,35,25,11,10,1,0,10,14,1,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,5,16,11,5,4,0,0,5,6,1,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,4,13,9,4,4,0,0,4,5,0,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Nafada,North East,Gombe,Nafada,,,4,11,8,3,3,0,0,3,5,0,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,2,5,4,1,1,0,0,1,3,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,1,4,3,1,1,0,0,1,2,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,773,2318,1678,703,646,36,0,640,975,57,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,351,1054,763,319,293,16,0,291,444,26,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,281,843,610,256,235,13,0,233,354,21,1.8
+2022/2023,Male,ALL,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,361,1084,785,329,302,17,0,299,456,27,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,164,493,357,149,137,8,0,136,208,12,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,131,394,285,120,110,6,0,109,165,10,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,112,337,244,102,94,5,0,93,142,8,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,51,153,111,46,43,2,0,42,65,3,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,41,122,89,37,34,2,0,33,52,3,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,50,151,109,46,42,2,0,42,63,4,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,23,68,50,21,19,1,0,18,29,2,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,18,55,40,17,15,1,0,15,23,2,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,23,70,51,21,20,1,0,19,30,1,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,11,32,23,10,9,0,0,9,13,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,9,26,19,8,7,0,0,7,11,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,7,22,16,7,6,0,0,6,9,1,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,3,10,7,3,3,0,0,3,4,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,3,8,6,2,2,0,0,2,4,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,296,888,642,269,247,14,0,246,373,22,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,135,404,292,122,112,6,0,112,170,10,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,108,323,234,98,90,5,0,89,136,8,1.8
+2022/2023,Male,ALL,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,138,415,300,126,116,6,0,115,174,10,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,63,189,137,57,53,3,0,52,80,4,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,50,151,109,46,42,2,0,42,63,4,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,43,129,93,39,36,2,0,36,54,3,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,20,59,42,18,16,1,0,17,24,2,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,16,47,34,14,13,1,0,13,20,1,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,19,58,42,18,16,1,0,16,24,2,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,9,26,19,8,7,0,0,7,11,1,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,7,21,15,6,6,0,0,6,9,0,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,9,27,20,8,8,0,0,7,12,0,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,4,12,9,4,3,0,0,3,5,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,3,10,7,3,3,0,0,3,4,0,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,3,8,6,3,2,0,0,2,3,1,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,1,4,3,1,1,0,0,1,2,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,1,3,2,1,1,0,0,1,1,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,272,815,590,247,227,12,0,225,343,20,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,124,370,268,112,103,6,0,102,156,9,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,99,296,214,90,83,5,0,82,124,7,1.8
+2022/2023,Male,ALL,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,127,381,276,115,106,6,0,105,161,9,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,58,173,125,52,48,3,0,48,73,4,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,46,139,100,42,39,2,0,39,58,3,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,39,118,86,36,33,2,0,32,50,3,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,18,54,39,16,15,1,0,15,23,1,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,14,43,31,13,12,1,0,12,18,1,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,18,53,38,16,15,1,0,15,22,1,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,8,24,17,7,7,0,0,7,10,0,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,6,19,14,6,5,0,0,5,8,1,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,8,25,18,8,7,0,0,7,10,1,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,4,11,8,3,3,0,0,3,5,0,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,9,7,3,3,0,0,2,4,0,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,8,6,2,2,0,0,2,4,0,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,1,3,3,1,1,0,0,0,2,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,1,3,2,1,1,0,0,1,1,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,449,1348,975,409,375,21,0,373,566,34,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,204,613,443,186,171,9,0,170,257,15,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,163,490,355,149,137,8,0,135,206,12,1.8
+2022/2023,Male,ALL,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,210,630,456,191,176,10,0,174,265,15,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,95,287,207,87,80,4,0,80,120,7,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,76,229,166,69,64,4,0,63,97,5,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,65,196,142,59,54,3,0,54,83,5,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,30,89,64,27,25,1,0,25,37,2,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,24,71,51,22,20,1,0,20,29,2,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,29,88,63,27,24,1,0,25,36,3,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,13,40,29,12,11,1,0,11,17,1,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,11,32,23,10,9,0,0,9,13,1,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,14,41,30,12,11,1,0,11,18,1,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,6,19,13,6,5,0,0,6,7,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,5,15,11,5,4,0,0,4,6,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,4,13,9,4,4,0,0,4,5,0,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,2,6,4,2,2,0,0,2,2,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,2,5,3,1,1,0,0,2,2,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Nafada,North East,Gombe,Nafada,,,435,1304,944,395,363,20,0,360,549,32,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,198,593,429,180,165,9,0,164,249,15,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,158,474,343,144,132,7,0,131,199,12,1.8
+2022/2023,Male,ALL,NECO,University,lga,Nafada,North East,Gombe,Nafada,,,203,610,441,185,170,9,0,169,256,15,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,92,277,201,84,77,4,0,76,117,7,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,74,222,160,67,62,3,0,62,93,5,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Nafada,North East,Gombe,Nafada,,,63,189,137,57,53,3,0,52,80,4,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,29,86,62,26,24,1,0,24,36,2,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,23,69,50,21,19,1,0,19,29,2,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Nafada,North East,Gombe,Nafada,,,28,85,61,26,24,1,0,24,35,2,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,13,39,28,12,11,1,0,11,16,1,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,10,31,22,9,9,0,0,9,13,0,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Nafada,North East,Gombe,Nafada,,,13,40,29,12,11,1,0,11,17,1,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,6,18,13,5,5,0,0,5,8,0,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,5,14,10,4,4,0,0,4,6,0,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Nafada,North East,Gombe,Nafada,,,4,12,9,4,3,0,0,3,5,1,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,2,6,4,2,2,0,0,2,2,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,1,4,3,1,1,0,0,1,2,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,718,2119,1543,661,608,33,0,576,882,53,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,326,963,701,300,277,15,0,262,401,23,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,261,771,561,240,221,12,0,210,321,19,1.8
+2023/2024,Female,ALL,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,336,991,722,309,285,16,0,269,413,24,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,153,451,328,140,129,7,0,123,188,11,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,122,360,262,112,103,6,0,98,150,9,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,104,308,224,96,88,5,0,84,128,8,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,47,140,102,44,40,2,0,38,58,4,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,38,112,81,35,32,2,0,31,46,3,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,47,138,100,43,40,2,0,38,57,3,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,21,63,46,20,18,1,0,17,26,2,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,17,50,36,16,14,1,0,14,20,2,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,22,64,47,20,18,1,0,17,27,2,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,10,29,21,9,8,0,0,8,12,1,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,8,23,17,7,7,0,0,6,10,0,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,7,20,15,6,6,0,0,5,9,0,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,3,9,7,3,3,0,0,2,4,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,2,7,5,2,2,0,0,2,3,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,275,812,591,253,233,13,0,221,338,20,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,125,369,268,115,106,6,0,101,153,9,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,100,295,215,92,85,5,0,80,123,7,1.8
+2023/2024,Female,ALL,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,129,380,276,118,109,6,0,104,158,9,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,58,173,126,54,50,3,0,47,72,4,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,47,138,100,43,40,2,0,38,57,3,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,40,118,86,37,34,2,0,32,49,3,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,18,54,39,17,15,1,0,15,22,2,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,15,43,31,13,12,1,0,12,18,1,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,18,53,38,16,15,1,0,15,22,1,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,8,24,17,7,7,0,0,7,10,0,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,6,19,14,6,6,0,0,5,8,0,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,8,25,18,8,7,0,0,7,10,1,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,4,11,8,3,3,0,0,3,5,0,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,3,9,7,3,3,0,0,2,4,0,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,3,8,6,2,2,0,0,2,4,0,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,1,3,3,1,1,0,0,0,2,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,1,3,2,1,1,0,0,1,1,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,252,744,542,232,214,12,0,202,310,18,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,115,338,246,106,97,5,0,92,140,9,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,92,271,197,84,78,4,0,74,113,6,1.8
+2023/2024,Female,ALL,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,118,348,254,109,100,6,0,94,145,9,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,54,158,115,49,45,2,0,43,66,4,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,43,127,92,39,36,2,0,35,53,3,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,37,108,79,34,31,2,0,29,45,3,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,17,49,36,15,14,1,0,13,21,1,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,13,39,29,12,11,1,0,10,17,1,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,16,48,35,15,14,1,0,13,20,1,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,7,22,16,7,6,0,0,6,9,1,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,6,18,13,5,5,0,0,5,8,0,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,8,23,16,7,7,0,0,7,9,0,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,10,7,3,3,0,0,3,4,0,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,8,6,3,2,0,0,2,3,1,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,2,7,5,2,2,0,0,2,3,0,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,1,3,2,1,1,0,0,1,1,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,1,3,2,1,1,0,0,1,1,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,417,1232,896,384,354,19,0,336,512,30,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,190,560,407,175,161,9,0,153,232,14,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,152,448,326,140,129,7,0,122,186,11,1.8
+2023/2024,Female,ALL,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,195,576,419,180,165,9,0,157,239,15,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,89,262,191,82,75,4,0,71,109,7,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,71,209,152,65,60,3,0,57,87,5,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,61,179,130,56,51,3,0,49,74,5,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,28,81,59,25,23,1,0,22,34,2,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,22,65,47,20,19,1,0,18,27,1,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,27,80,58,25,23,1,0,22,33,2,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,12,36,26,11,10,1,0,10,15,1,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,10,29,21,9,8,0,0,8,12,1,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,13,37,27,12,11,1,0,10,15,1,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,6,17,12,5,5,0,0,5,7,0,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,5,14,10,4,4,0,0,4,6,0,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,4,12,8,4,3,0,0,4,4,1,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,2,5,4,2,2,0,0,1,2,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,1,4,3,1,1,0,0,1,2,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Nafada,North East,Gombe,Nafada,,,404,1192,868,371,342,19,0,324,497,29,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,184,542,394,169,156,9,0,148,225,13,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,147,433,316,135,124,7,0,117,181,11,1.8
+2023/2024,Female,ALL,NECO,University,lga,Nafada,North East,Gombe,Nafada,,,189,557,406,174,160,9,0,151,232,14,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,86,253,185,79,73,4,0,68,106,6,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,69,203,148,63,58,3,0,55,85,5,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Nafada,North East,Gombe,Nafada,,,59,173,126,54,50,3,0,47,72,4,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,27,79,57,25,23,1,0,22,32,2,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,21,63,46,20,18,1,0,17,26,2,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Nafada,North East,Gombe,Nafada,,,26,77,56,24,22,1,0,21,32,2,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,12,35,26,11,10,1,0,9,15,1,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,10,28,21,9,8,0,0,7,12,1,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Nafada,North East,Gombe,Nafada,,,12,36,26,11,10,1,0,10,15,1,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,6,16,12,5,5,0,0,4,7,0,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,4,13,10,4,4,0,0,3,6,0,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Nafada,North East,Gombe,Nafada,,,4,11,8,4,3,0,0,3,4,1,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,2,5,4,2,1,0,0,1,2,1,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,1,4,3,1,1,0,0,1,2,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,815,2407,1752,750,691,38,0,655,1002,59,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,371,1094,796,341,314,17,0,298,455,27,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,296,875,637,273,251,14,0,238,364,22,1.8
+2023/2024,Male,ALL,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,381,1126,820,351,323,18,0,306,469,28,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,173,512,373,159,147,8,0,139,214,12,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,139,409,298,128,118,6,0,111,170,10,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,118,349,254,109,100,6,0,95,145,9,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,54,159,116,49,46,3,0,43,67,3,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,43,127,92,40,36,2,0,35,52,4,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,53,156,114,49,45,2,0,42,65,4,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,24,71,52,22,20,1,0,19,30,2,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,19,57,41,18,16,1,0,16,23,2,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,25,73,53,23,21,1,0,20,30,2,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,11,33,24,10,10,1,0,9,14,0,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,9,27,19,8,8,0,0,8,11,0,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,8,23,17,7,7,0,0,6,10,0,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,3,10,8,3,3,0,0,2,5,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,3,8,6,3,2,0,0,2,3,1,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,312,922,671,287,265,15,0,251,384,22,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,142,419,305,131,120,7,0,114,174,11,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,114,335,244,105,96,5,0,91,139,9,1.8
+2023/2024,Male,ALL,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,146,431,314,134,124,7,0,117,180,10,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,66,196,143,61,56,3,0,53,82,5,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,53,157,114,49,45,2,0,43,65,4,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,45,134,97,42,38,2,0,37,55,4,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,21,61,44,19,17,1,0,17,25,2,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,16,49,35,15,14,1,0,14,20,1,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,20,60,44,19,17,1,0,16,25,2,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,9,27,20,8,8,0,0,7,12,0,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,7,22,16,7,6,0,0,6,9,1,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,9,28,20,9,8,0,0,8,11,1,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,4,13,9,4,4,0,0,4,5,0,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,3,10,7,3,3,0,0,3,4,0,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,3,9,6,3,2,0,0,3,3,1,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,1,4,3,1,1,0,0,1,2,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,1,3,2,1,1,0,0,1,1,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,286,845,616,264,243,13,0,229,352,21,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,130,384,280,120,110,6,0,104,160,10,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,104,307,224,96,88,5,0,83,128,8,1.8
+2023/2024,Male,ALL,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,134,395,288,123,114,6,0,107,165,9,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,61,180,131,56,52,3,0,49,75,4,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,49,144,105,45,41,2,0,39,60,4,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,42,123,89,38,35,2,0,34,51,3,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,19,56,41,17,16,1,0,15,24,1,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,15,45,33,14,13,1,0,12,19,1,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,19,55,40,17,16,1,0,15,23,1,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,8,25,18,8,7,0,0,7,10,1,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,7,20,15,6,6,0,0,5,9,0,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,9,26,19,8,7,0,0,7,11,1,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,4,12,9,4,3,0,0,3,5,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,9,7,3,3,0,0,2,4,0,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,8,6,2,2,0,0,2,4,0,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,1,4,3,1,1,0,0,1,2,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,1,3,2,1,1,0,0,1,1,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,474,1399,1018,436,402,22,0,381,582,34,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,215,636,463,198,183,10,0,173,265,15,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,172,509,370,159,146,8,0,139,211,13,1.8
+2023/2024,Male,ALL,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,222,654,476,204,188,10,0,178,272,16,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,101,297,216,93,85,5,0,81,123,8,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,81,238,173,74,68,4,0,65,99,6,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,69,203,148,63,58,3,0,55,85,5,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,31,92,67,29,27,1,0,25,38,2,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,25,74,54,23,21,1,0,20,31,2,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,31,91,66,28,26,1,0,25,38,2,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,14,41,30,13,12,1,0,11,17,1,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,11,33,24,10,9,0,0,9,14,1,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,14,43,31,13,12,1,0,12,18,1,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,7,19,14,6,6,0,0,5,8,0,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,5,15,11,5,4,0,0,4,6,1,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,4,13,10,4,4,0,0,3,6,0,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,2,6,4,2,2,0,0,2,2,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,2,5,3,1,1,0,0,2,2,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Nafada,North East,Gombe,Nafada,,,459,1354,985,422,389,21,0,369,563,33,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,208,615,448,192,177,10,0,167,256,15,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,167,492,358,153,141,8,0,134,205,12,1.8
+2023/2024,Male,ALL,NECO,University,lga,Nafada,North East,Gombe,Nafada,,,215,633,461,197,182,10,0,172,264,15,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,98,288,210,90,83,5,0,78,120,7,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,78,230,168,72,66,4,0,62,96,6,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Nafada,North East,Gombe,Nafada,,,67,197,143,61,56,3,0,54,82,5,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,30,89,65,28,26,1,0,24,37,2,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,24,71,52,22,21,1,0,19,30,1,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Nafada,North East,Gombe,Nafada,,,30,88,64,27,25,1,0,24,37,2,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,14,40,29,12,11,1,0,11,17,1,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,11,32,23,10,9,0,0,9,13,1,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Nafada,North East,Gombe,Nafada,,,14,41,30,13,12,1,0,11,17,1,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,6,19,14,6,5,0,0,5,8,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,5,15,11,5,4,0,0,4,6,1,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Nafada,North East,Gombe,Nafada,,,4,13,9,4,4,0,0,4,5,0,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,2,6,4,2,2,0,0,2,2,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,2,5,3,1,1,0,0,2,2,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,747,2222,1611,685,630,35,0,611,926,55,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,340,1010,732,311,286,16,0,278,421,25,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,272,808,586,249,229,13,0,222,337,20,1.8
+2024/2025,Female,ALL,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,350,1039,754,320,295,16,0,285,434,25,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,159,472,343,146,134,7,0,129,197,12,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,127,378,274,116,107,6,0,104,158,9,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,109,322,234,99,91,5,0,88,135,8,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,49,147,106,45,42,2,0,41,61,3,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,39,117,85,36,33,2,0,32,49,3,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,49,144,105,45,41,2,0,39,60,4,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,22,66,48,20,19,1,0,18,28,1,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,18,53,38,16,15,1,0,15,22,1,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,23,68,49,21,19,1,0,19,28,2,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,10,31,22,9,9,0,0,9,13,0,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,8,25,18,8,7,0,0,7,10,1,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,7,21,15,6,6,0,0,6,9,0,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,3,10,7,3,3,0,0,3,4,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,3,8,6,2,2,0,0,2,4,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,286,851,617,262,241,13,0,234,355,21,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,130,387,281,119,110,6,0,106,162,9,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,104,309,224,95,88,5,0,85,129,7,1.8
+2024/2025,Female,ALL,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,134,398,289,123,113,6,0,109,166,10,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,61,181,131,56,51,3,0,50,75,5,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,49,145,105,45,41,2,0,40,60,4,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,42,124,90,38,35,2,0,34,52,3,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,19,56,41,17,16,1,0,15,24,1,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,15,45,33,14,13,1,0,12,19,1,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,19,55,40,17,16,1,0,15,23,1,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,8,25,18,8,7,0,0,7,10,1,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,7,20,15,6,6,0,0,5,9,0,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,9,26,19,8,7,0,0,7,11,1,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,4,12,9,4,3,0,0,3,5,1,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,3,9,7,3,3,0,0,2,4,0,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,3,8,6,2,2,0,0,2,4,0,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,1,4,3,1,1,0,0,1,2,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,1,3,2,1,1,0,0,1,1,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,263,781,566,241,222,12,0,215,325,19,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,120,355,257,109,101,6,0,98,148,8,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,96,284,206,88,81,4,0,78,118,7,1.8
+2024/2025,Female,ALL,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,123,365,265,113,104,6,0,100,152,9,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,56,166,120,51,47,3,0,46,69,4,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,45,133,96,41,38,2,0,37,55,3,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,38,113,82,35,32,2,0,31,47,3,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,17,52,37,16,15,1,0,15,21,1,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,14,41,30,13,12,1,0,11,17,1,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,17,51,37,16,14,1,0,14,21,2,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,8,23,17,7,7,0,0,6,10,0,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,6,18,13,6,5,0,0,5,7,1,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,8,24,17,7,7,0,0,7,10,0,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,4,11,8,3,3,0,0,3,5,0,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,9,6,3,2,0,0,3,3,1,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,2,7,5,2,2,0,0,2,3,0,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,1,3,2,1,1,0,0,1,1,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,1,3,2,1,1,0,0,1,1,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,435,1291,937,398,366,20,0,354,539,32,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,198,587,426,181,166,9,0,161,245,15,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,158,470,341,145,133,7,0,129,196,12,1.8
+2024/2025,Female,ALL,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,203,604,438,186,171,9,0,166,252,15,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,92,275,199,85,78,4,0,76,114,7,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,74,220,159,68,62,3,0,61,91,6,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,63,187,136,58,53,3,0,51,78,5,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,29,85,62,26,24,1,0,23,36,2,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,23,68,49,21,19,1,0,19,28,2,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,28,84,61,26,24,1,0,23,35,2,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,13,38,28,12,11,1,0,10,16,1,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,10,31,22,9,9,0,0,9,13,0,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,13,39,28,12,11,1,0,11,16,1,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,6,18,13,6,5,0,0,5,7,1,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,5,14,10,4,4,0,0,4,6,0,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,4,12,9,4,3,0,0,3,5,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,2,6,4,2,2,0,0,2,2,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,1,4,3,1,1,0,0,1,2,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Nafada,North East,Gombe,Nafada,,,420,1249,906,385,354,19,0,343,521,31,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,191,568,412,175,161,9,0,156,237,14,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,153,454,330,140,129,7,0,124,190,11,1.8
+2024/2025,Female,ALL,NECO,University,lga,Nafada,North East,Gombe,Nafada,,,197,584,424,180,166,9,0,160,244,14,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,89,266,193,82,75,4,0,73,111,7,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,72,213,154,66,60,3,0,59,88,6,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Nafada,North East,Gombe,Nafada,,,61,181,132,56,51,3,0,49,76,5,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,28,82,60,25,23,1,0,22,35,2,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,22,66,48,20,19,1,0,18,28,1,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Nafada,North East,Gombe,Nafada,,,27,81,59,25,23,1,0,22,34,2,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,12,37,27,11,10,1,0,10,16,1,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,10,30,21,9,8,0,0,9,12,1,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Nafada,North East,Gombe,Nafada,,,13,38,28,12,11,1,0,10,16,1,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,6,17,13,5,5,0,0,4,8,0,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,5,14,10,4,4,0,0,4,6,0,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Nafada,North East,Gombe,Nafada,,,4,12,9,4,3,0,0,3,5,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,2,5,4,2,2,0,0,1,2,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,1,4,3,1,1,0,0,1,2,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,849,2523,1830,778,715,39,0,693,1052,63,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,386,1147,832,354,325,18,0,315,478,29,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,309,918,666,283,260,14,0,252,383,23,1.8
+2024/2025,Male,ALL,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,397,1180,856,364,335,18,0,324,492,29,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,181,536,389,165,152,8,0,147,224,13,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,144,429,311,132,122,7,0,118,179,10,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,123,366,266,113,104,6,0,100,153,9,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,56,166,121,51,47,3,0,45,70,4,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,45,133,97,41,38,2,0,36,56,3,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Gombe,North East,Gombe,Gombe,,,55,164,119,51,47,3,0,45,68,4,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,25,75,54,23,21,1,0,21,31,2,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Gombe,North East,Gombe,Gombe,,,20,60,43,18,17,1,0,17,25,1,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Gombe,North East,Gombe,Gombe,,,26,77,56,24,22,1,0,21,32,2,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,12,35,25,11,10,1,0,10,14,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Gombe,North East,Gombe,Gombe,,,9,28,20,9,8,0,0,8,11,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Gombe,North East,Gombe,Gombe,,,8,24,17,7,7,0,0,7,10,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Gombe,North East,Gombe,Gombe,,,4,11,8,3,3,0,0,3,5,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Gombe,North East,Gombe,Gombe,,,3,9,6,3,2,0,0,3,3,1,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,325,966,701,298,274,15,0,265,403,24,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,148,439,319,135,125,7,0,120,184,10,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,118,351,255,108,100,6,0,96,147,8,1.8
+2024/2025,Male,ALL,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,152,452,328,139,128,7,0,124,189,11,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,69,205,149,63,58,3,0,56,86,5,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,55,164,119,51,47,3,0,45,68,4,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,47,140,102,43,40,2,0,38,59,3,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,21,64,46,20,18,1,0,18,26,2,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,17,51,37,16,14,1,0,14,21,2,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,21,63,46,19,18,1,0,17,27,1,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,10,29,21,9,8,0,0,8,12,1,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,8,23,17,7,6,0,0,6,10,1,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,10,29,21,9,8,0,0,8,12,1,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,4,13,10,4,4,0,0,3,6,0,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,4,11,8,3,3,0,0,3,5,0,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,3,9,7,3,3,0,0,2,4,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,1,4,3,1,1,0,0,1,2,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Yamaltu/Deba,North East,Gombe,Yamaltu/Deba,,,1,3,2,1,1,0,0,1,1,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,298,887,643,273,252,14,0,244,370,21,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,136,403,292,124,114,6,0,111,168,10,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,108,322,234,99,92,5,0,88,135,7,1.8
+2024/2025,Male,ALL,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,140,415,301,128,118,6,0,114,173,10,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,63,188,137,58,54,3,0,51,79,4,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,51,151,109,47,43,2,0,42,62,4,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,43,129,93,40,37,2,0,36,53,3,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,20,58,42,18,17,1,0,16,24,1,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,16,47,34,14,13,1,0,13,20,1,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,19,58,42,18,16,1,0,16,24,2,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,9,26,19,8,7,0,0,7,11,1,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,7,21,15,6,6,0,0,6,9,0,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,9,27,20,8,8,0,0,7,12,0,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,4,12,9,4,3,0,0,3,5,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,10,7,3,3,0,0,3,4,0,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Kaltungo,North East,Gombe,Kaltungo,,,3,8,6,3,2,0,0,2,3,1,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Kaltungo,North East,Gombe,Kaltungo,,,1,4,3,1,1,0,0,1,2,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Kaltungo,North East,Gombe,Kaltungo,,,1,3,2,1,1,0,0,1,1,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,494,1467,1064,452,416,23,0,403,612,36,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,224,667,484,206,189,10,0,183,278,17,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,180,533,387,164,151,8,0,146,223,13,1.8
+2024/2025,Male,ALL,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,231,686,498,211,195,11,0,188,287,16,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,105,312,226,96,88,5,0,86,130,8,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,84,249,181,77,71,4,0,68,104,6,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,72,213,154,66,60,3,0,59,88,6,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,33,97,70,30,27,1,0,27,40,3,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,26,77,56,24,22,1,0,21,32,2,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Balanga,North East,Gombe,Balanga,,,32,95,69,29,27,1,0,26,40,2,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,15,43,31,13,12,1,0,12,18,1,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Balanga,North East,Gombe,Balanga,,,12,35,25,11,10,1,0,10,14,1,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Balanga,North East,Gombe,Balanga,,,15,45,32,14,13,1,0,13,18,1,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,7,20,15,6,6,0,0,5,9,0,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Balanga,North East,Gombe,Balanga,,,5,16,12,5,5,0,0,4,7,0,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Balanga,North East,Gombe,Balanga,,,5,14,10,4,4,0,0,4,6,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Balanga,North East,Gombe,Balanga,,,2,6,5,2,2,0,0,1,3,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Balanga,North East,Gombe,Balanga,,,2,5,4,2,1,0,0,1,2,1,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Nafada,North East,Gombe,Nafada,,,478,1419,1029,438,402,22,0,390,591,36,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,217,645,468,199,183,10,0,177,269,16,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,174,516,374,159,146,8,0,142,215,13,1.8
+2024/2025,Male,ALL,NECO,University,lga,Nafada,North East,Gombe,Nafada,,,223,664,482,205,188,10,0,182,277,17,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,102,302,219,93,86,5,0,83,126,7,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,81,241,175,74,68,4,0,66,101,6,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Nafada,North East,Gombe,Nafada,,,69,206,149,64,58,3,0,57,85,6,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,32,94,68,29,27,1,0,26,39,2,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,25,75,54,23,21,1,0,21,31,2,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Nafada,North East,Gombe,Nafada,,,31,92,67,28,26,1,0,25,39,2,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,14,42,30,13,12,1,0,12,17,1,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Nafada,North East,Gombe,Nafada,,,11,34,24,10,10,1,0,10,14,0,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Nafada,North East,Gombe,Nafada,,,15,43,31,13,12,1,0,12,18,1,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,7,20,14,6,6,0,0,6,8,0,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Nafada,North East,Gombe,Nafada,,,5,16,11,5,4,0,0,5,6,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Nafada,North East,Gombe,Nafada,,,5,13,10,4,4,0,0,3,6,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Nafada,North East,Gombe,Nafada,,,2,6,4,2,2,0,0,2,2,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Nafada,North East,Gombe,Nafada,,,2,5,4,2,1,0,0,1,2,1,1.8

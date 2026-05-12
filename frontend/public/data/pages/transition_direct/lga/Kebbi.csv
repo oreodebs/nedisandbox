@@ -1,541 +1,541 @@
-session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,77,197,211,7,5,0,39,0,165,1
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,62,160,185,4,3,0,31,0,146,1
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,80,207,227,5,4,0,39,0,179,1
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,38,98,116,3,2,0,19,0,91,1
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,32,83,90,2,1,0,16,0,71,1
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,90,233,260,16,15,0,44,0,196,1
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,63,162,171,11,9,0,31,0,129,2
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,39,101,107,7,5,0,19,0,81,1
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,65,167,176,10,9,0,32,0,134,1
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,83,214,238,14,13,0,42,0,180,1
-2022/2023,Female,ALL,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,47,122,135,53,47,0,24,0,62,5
-2022/2023,Female,ALL,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,108,277,315,105,96,15,54,0,160,8
-2022/2023,Female,ALL,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,88,225,244,84,77,15,44,0,121,7
-2022/2023,Female,ALL,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,104,267,279,89,78,15,52,0,146,10
-2022/2023,Female,ALL,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,123,317,351,116,104,15,62,0,179,11
-2022/2023,Female,ALL,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,135,347,389,11,10,0,67,0,306,1
-2022/2023,Female,ALL,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,115,296,329,9,8,0,57,0,259,1
-2022/2023,Female,ALL,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,147,381,404,11,10,0,73,0,318,1
-2022/2023,Female,ALL,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,69,179,202,5,4,0,35,0,159,1
-2022/2023,Female,ALL,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,66,170,190,5,4,0,33,0,149,1
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,151,390,428,32,28,0,76,0,319,3
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,121,311,341,24,22,0,60,0,255,2
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,75,194,208,12,11,0,37,0,158,1
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,118,307,323,22,19,0,58,0,242,3
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,175,450,494,32,28,0,87,0,372,3
-2022/2023,Female,ALL,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,83,215,222,78,68,15,41,0,109,9
-2022/2023,Female,ALL,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,230,593,662,244,218,29,114,0,315,24
-2022/2023,Female,ALL,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,145,373,410,146,128,15,72,0,200,16
-2022/2023,Female,ALL,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,190,489,531,195,178,15,95,0,253,15
-2022/2023,Female,ALL,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,229,589,644,220,193,29,114,0,322,25
-2022/2023,Female,ALL,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,176,453,501,14,13,0,87,0,394,1
-2022/2023,Female,ALL,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,147,378,414,11,10,0,73,0,326,1
-2022/2023,Female,ALL,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,196,507,553,14,13,0,97,0,436,1
-2022/2023,Female,ALL,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,96,247,267,8,7,0,48,0,210,1
-2022/2023,Female,ALL,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,73,188,209,5,4,0,36,0,165,1
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,208,538,611,42,39,0,103,0,458,2
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,153,395,421,26,25,0,77,0,318,1
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,92,238,256,16,15,0,46,0,193,1
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,169,435,455,30,28,0,84,0,343,1
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,211,544,597,38,36,0,105,0,450,2
-2022/2023,Female,ALL,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,112,289,300,102,97,0,55,0,151,4
-2022/2023,Female,ALL,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,286,736,827,305,289,15,142,0,393,15
-2022/2023,Female,ALL,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,196,506,549,197,184,15,97,0,266,12
-2022/2023,Female,ALL,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,247,637,703,237,227,15,123,0,354,10
-2022/2023,Female,ALL,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,304,783,847,283,266,15,151,0,429,16
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,8,19,20,1,0,0,4,0,15,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,6,17,20,1,0,0,3,0,15,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,8,19,20,1,0,0,4,0,15,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,3,9,10,0,0,0,1,0,8,0
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,3,8,9,0,0,0,1,0,7,0
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,9,23,23,2,1,0,4,0,17,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,5,13,14,1,0,0,3,0,10,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,3,8,9,1,0,0,1,0,6,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,6,17,17,2,1,0,3,0,12,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,7,18,20,2,1,0,3,0,14,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,3,9,9,5,4,0,1,0,2,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,9,22,25,13,12,0,5,0,8,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,8,21,22,13,12,0,4,0,6,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,10,26,27,13,12,0,5,0,10,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,10,27,27,15,14,0,5,0,8,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,10,26,28,1,0,0,5,0,22,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,9,23,25,1,0,0,4,0,19,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,12,31,32,1,0,0,6,0,25,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,6,14,16,0,0,0,3,0,13,0
-2022/2023,Female,Disabled,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,4,10,12,0,0,0,2,0,10,0
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,13,34,37,3,2,0,6,0,27,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,10,27,28,1,0,0,5,0,22,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,5,13,14,1,0,0,3,0,10,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,10,25,28,2,1,0,5,0,21,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,13,34,38,2,1,0,6,0,29,1
-2022/2023,Female,Disabled,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,6,16,17,5,4,0,3,0,9,1
-2022/2023,Female,Disabled,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,17,44,47,13,12,0,8,0,26,1
-2022/2023,Female,Disabled,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,12,30,34,13,12,0,6,0,16,1
-2022/2023,Female,Disabled,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,14,36,39,15,14,0,7,0,18,1
-2022/2023,Female,Disabled,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,18,47,53,15,14,0,9,0,29,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,12,31,36,1,0,0,6,0,28,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,12,30,32,1,0,0,6,0,25,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,15,39,42,1,0,0,7,0,33,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,8,19,21,0,0,0,4,0,17,0
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,4,12,14,0,0,0,2,0,11,0
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,18,47,50,3,2,0,10,0,38,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,11,28,32,2,1,0,6,0,24,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,6,17,16,1,0,0,3,0,12,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,13,34,38,2,1,0,7,0,29,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,18,45,49,2,1,0,9,0,38,1
-2022/2023,Female,Disabled,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,8,21,21,4,3,0,3,0,13,1
-2022/2023,Female,Disabled,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,22,56,60,21,19,0,11,0,30,2
-2022/2023,Female,Disabled,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,14,38,42,14,13,0,7,0,21,1
-2022/2023,Female,Disabled,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,21,53,58,14,13,0,11,0,34,1
-2022/2023,Female,Disabled,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,27,67,76,24,21,0,14,0,40,3
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,102,264,300,5,4,0,51,0,239,1
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,86,221,240,3,2,0,43,0,192,1
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,110,282,319,7,5,0,55,0,253,1
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,47,122,132,2,1,0,23,0,105,1
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,48,124,132,2,1,0,24,0,105,1
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,116,300,337,16,14,0,58,0,259,2
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,93,239,259,11,9,0,46,0,200,2
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,53,136,149,5,4,0,26,0,116,1
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,93,241,251,11,10,0,46,0,194,1
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,103,264,288,12,11,0,52,0,223,1
-2022/2023,Male,ALL,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,63,163,177,42,36,0,32,0,106,5
-2022/2023,Male,ALL,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,150,387,423,108,96,15,74,0,245,11
-2022/2023,Male,ALL,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,113,291,316,69,68,0,56,0,194,1
-2022/2023,Male,ALL,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,141,362,396,89,82,0,70,0,241,6
-2022/2023,Male,ALL,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,159,409,454,105,93,15,80,0,273,11
-2022/2023,Male,ALL,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,196,506,577,11,10,0,98,0,459,1
-2022/2023,Male,ALL,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,155,400,432,9,8,0,77,0,343,1
-2022/2023,Male,ALL,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,202,519,567,11,10,0,101,0,451,1
-2022/2023,Male,ALL,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,90,233,265,5,4,0,45,0,210,1
-2022/2023,Male,ALL,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,95,246,261,5,4,0,47,0,207,1
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,194,501,571,30,27,0,97,0,437,2
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,176,456,487,22,19,0,87,0,376,3
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,101,261,270,13,11,0,50,0,207,2
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,176,452,499,24,21,0,88,0,383,3
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,206,531,575,27,24,0,103,0,442,3
-2022/2023,Male,ALL,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,113,291,311,74,68,0,56,0,185,6
-2022/2023,Male,ALL,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,295,760,844,223,205,15,147,0,482,17
-2022/2023,Male,ALL,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,210,541,577,146,129,15,105,0,336,15
-2022/2023,Male,ALL,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,259,667,715,189,170,15,129,0,408,18
-2022/2023,Male,ALL,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,304,784,848,217,193,29,151,0,491,22
-2022/2023,Male,ALL,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,240,619,675,13,12,0,119,0,536,1
-2022/2023,Male,ALL,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,196,505,537,10,9,0,98,0,427,1
-2022/2023,Male,ALL,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,263,678,747,14,13,0,131,0,594,1
-2022/2023,Male,ALL,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,130,335,367,8,7,0,64,0,291,1
-2022/2023,Male,ALL,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,110,283,316,7,5,0,54,0,251,1
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,271,698,790,42,39,0,135,0,604,2
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,214,553,583,26,25,0,106,0,450,1
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,137,353,378,18,16,0,68,0,291,1
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,241,621,686,33,30,0,120,0,527,3
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,272,699,764,37,35,0,136,0,587,2
-2022/2023,Male,ALL,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,160,412,433,108,101,15,80,0,253,7
-2022/2023,Male,ALL,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,405,1043,1169,309,291,15,202,0,668,16
-2022/2023,Male,ALL,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,268,691,761,179,170,15,133,0,454,9
-2022/2023,Male,ALL,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,355,915,981,247,240,15,177,0,571,7
-2022/2023,Male,ALL,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,423,1090,1201,287,269,15,210,0,714,16
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,10,26,25,1,0,0,4,0,19,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,8,21,22,0,0,0,3,0,18,0
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,10,27,30,1,0,0,5,0,23,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,4,10,10,0,0,0,1,0,8,0
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,4,10,10,0,0,0,1,0,8,0
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,11,28,31,2,1,0,6,0,23,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,7,19,21,1,0,0,3,0,16,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,4,12,11,0,0,0,2,0,9,0
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,9,25,26,1,0,0,4,0,20,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,9,23,25,1,0,0,4,0,19,1
-2022/2023,Male,Disabled,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,4,10,12,5,4,0,2,0,5,1
-2022/2023,Male,Disabled,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,12,30,32,11,10,0,6,0,16,1
-2022/2023,Male,Disabled,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,10,27,30,8,7,0,5,0,17,1
-2022/2023,Male,Disabled,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,13,34,37,11,10,0,7,0,20,1
-2022/2023,Male,Disabled,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,14,35,39,15,14,0,7,0,18,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,13,35,38,1,0,0,6,0,30,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,12,32,34,1,0,0,6,0,27,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,16,41,46,1,0,0,8,0,36,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,8,19,22,0,0,0,4,0,18,0
-2022/2023,Male,Disabled,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,6,14,15,0,0,0,3,0,12,0
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,18,45,53,2,1,0,9,0,41,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,14,36,38,1,0,0,6,0,30,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,7,18,20,1,0,0,4,0,15,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,14,36,41,2,1,0,7,0,31,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,17,44,49,2,1,0,8,0,38,1
-2022/2023,Male,Disabled,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,8,22,25,5,4,0,4,0,15,1
-2022/2023,Male,Disabled,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,22,58,66,13,12,0,11,0,42,1
-2022/2023,Male,Disabled,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,15,40,43,13,12,0,7,0,23,1
-2022/2023,Male,Disabled,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,20,53,59,15,14,0,10,0,34,1
-2022/2023,Male,Disabled,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,25,63,71,15,14,0,12,0,44,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,16,43,50,1,0,0,8,0,40,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,16,41,46,1,0,0,7,0,36,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,21,53,58,1,0,0,11,0,46,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,10,26,31,0,0,0,5,0,25,0
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,7,19,20,0,0,0,3,0,16,0
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,24,61,68,3,2,0,12,0,52,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,16,43,47,1,0,0,8,0,37,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,10,26,26,1,0,0,4,0,20,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,20,53,54,2,1,0,10,0,42,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,21,53,58,2,1,0,11,0,45,1
-2022/2023,Male,Disabled,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,11,27,31,4,3,0,6,0,21,1
-2022/2023,Male,Disabled,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,30,76,87,21,19,0,16,0,52,2
-2022/2023,Male,Disabled,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,22,56,59,12,11,0,11,0,37,1
-2022/2023,Male,Disabled,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,30,78,84,18,16,0,15,0,52,1
-2022/2023,Male,Disabled,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,35,89,95,18,16,0,19,0,61,1
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,75,193,214,3,2,0,38,0,171,1
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,63,162,170,2,1,0,32,0,136,1
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,83,212,231,2,1,0,42,0,186,1
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,41,105,118,1,0,0,20,0,95,1
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,35,91,96,1,0,0,17,0,77,1
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,95,243,281,12,11,0,48,0,217,1
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,67,172,183,7,5,0,33,0,143,1
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,43,110,119,4,3,0,22,0,93,1
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,69,176,193,7,5,0,35,0,151,1
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,92,236,260,9,8,0,46,0,203,1
-2023/2024,Female,ALL,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,50,128,139,25,22,0,25,0,90,3
-2023/2024,Female,ALL,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,115,296,331,63,56,15,57,0,211,7
-2023/2024,Female,ALL,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,91,233,260,42,39,0,46,0,173,2
-2023/2024,Female,ALL,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,110,285,303,53,47,0,55,0,198,5
-2023/2024,Female,ALL,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,132,340,373,69,63,0,66,0,240,5
-2023/2024,Female,ALL,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,137,355,405,5,4,0,68,0,324,1
-2023/2024,Female,ALL,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,121,312,343,4,3,0,60,0,275,1
-2023/2024,Female,ALL,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,158,408,431,5,4,0,79,0,345,1
-2023/2024,Female,ALL,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,72,186,203,2,1,0,36,0,163,1
-2023/2024,Female,ALL,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,62,159,175,2,1,0,31,0,140,1
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,165,426,478,21,20,0,82,0,369,1
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,133,344,367,13,11,0,66,0,286,2
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,69,177,188,7,5,0,34,0,147,1
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,126,326,355,14,12,0,62,0,275,2
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,176,453,499,20,18,0,88,0,387,2
-2023/2024,Female,ALL,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,94,243,255,48,42,0,47,0,163,6
-2023/2024,Female,ALL,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,228,588,656,127,116,15,114,0,417,10
-2023/2024,Female,ALL,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,151,390,430,79,71,15,75,0,277,7
-2023/2024,Female,ALL,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,205,529,571,114,103,15,102,0,360,10
-2023/2024,Female,ALL,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,243,626,693,130,115,15,121,0,444,14
-2023/2024,Female,ALL,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,195,502,572,7,5,0,97,0,459,1
-2023/2024,Female,ALL,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,157,405,455,5,4,0,78,0,365,1
-2023/2024,Female,ALL,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,214,551,604,8,7,0,107,0,484,1
-2023/2024,Female,ALL,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,95,246,275,3,2,0,47,0,220,1
-2023/2024,Female,ALL,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,84,215,238,3,2,0,42,0,190,1
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,220,567,625,26,25,0,109,0,484,1
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,177,456,483,16,15,0,88,0,377,1
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,100,259,276,10,9,0,50,0,215,1
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,172,443,481,18,16,0,86,0,375,1
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,230,593,630,24,22,0,114,0,490,2
-2023/2024,Female,ALL,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,124,321,340,61,57,0,61,0,220,4
-2023/2024,Female,ALL,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,316,814,897,176,167,15,158,0,568,8
-2023/2024,Female,ALL,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,222,571,612,111,106,0,111,0,396,4
-2023/2024,Female,ALL,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,263,678,742,138,130,15,131,0,477,7
-2023/2024,Female,ALL,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,319,823,895,164,155,15,159,0,577,8
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,8,21,22,0,0,0,4,0,18,0
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,6,17,17,0,0,0,3,0,14,0
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,8,21,22,0,0,0,4,0,18,0
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,4,9,10,0,0,0,2,0,8,0
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,3,8,9,0,0,0,2,0,7,0
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,9,23,26,1,0,0,4,0,20,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,6,16,17,1,0,0,3,0,13,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,3,8,9,0,0,0,2,0,7,0
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,7,18,20,1,0,0,3,0,15,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,8,21,22,1,0,0,3,0,17,1
-2023/2024,Female,Disabled,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,3,8,9,3,2,0,2,0,4,1
-2023/2024,Female,Disabled,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,9,23,26,9,8,0,4,0,13,1
-2023/2024,Female,Disabled,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,8,22,23,7,5,0,4,0,13,1
-2023/2024,Female,Disabled,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,11,27,30,8,7,0,6,0,17,1
-2023/2024,Female,Disabled,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,12,30,34,9,8,0,6,0,20,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,10,27,34,0,0,0,5,0,28,0
-2023/2024,Female,Disabled,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,10,25,30,0,0,0,5,0,24,0
-2023/2024,Female,Disabled,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,12,31,33,0,0,0,6,0,27,0
-2023/2024,Female,Disabled,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,6,14,17,0,0,0,3,0,14,0
-2023/2024,Female,Disabled,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,4,10,14,0,0,0,2,0,11,0
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,14,36,41,1,0,0,7,0,32,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,10,27,27,1,0,0,5,0,21,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,5,14,15,1,0,0,2,0,11,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,10,26,31,1,0,0,5,0,24,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,13,35,37,1,0,0,6,0,29,1
-2023/2024,Female,Disabled,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,6,17,16,3,2,0,3,0,10,1
-2023/2024,Female,Disabled,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,17,44,49,8,7,0,9,0,33,1
-2023/2024,Female,Disabled,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,11,30,33,8,7,0,5,0,20,1
-2023/2024,Female,Disabled,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,16,40,44,9,8,0,8,0,28,1
-2023/2024,Female,Disabled,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,21,53,58,9,8,0,11,0,39,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,13,35,39,0,0,0,6,0,32,0
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,13,34,38,0,0,0,6,0,31,0
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,16,41,46,0,0,0,8,0,37,0
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,8,21,23,0,0,0,3,0,19,0
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,5,13,15,0,0,0,2,0,12,0
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,19,48,54,1,0,0,10,0,43,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,14,36,38,1,0,0,7,0,30,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,7,18,18,1,0,0,4,0,14,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,14,35,41,1,0,0,7,0,32,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,18,47,49,2,1,0,10,0,38,1
-2023/2024,Female,Disabled,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,8,22,22,2,1,0,4,0,16,1
-2023/2024,Female,Disabled,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,25,62,68,11,10,0,13,0,45,1
-2023/2024,Female,Disabled,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,17,44,47,8,7,0,8,0,31,1
-2023/2024,Female,Disabled,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,20,52,57,10,9,0,10,0,37,1
-2023/2024,Female,Disabled,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,26,67,73,12,11,0,13,0,48,1
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,108,280,307,2,1,0,54,0,247,1
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,90,232,255,2,1,0,45,0,205,1
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,113,291,327,3,2,0,57,0,263,1
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,53,137,151,1,0,0,27,0,122,1
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,52,133,144,1,0,0,26,0,116,1
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,128,330,362,10,9,0,63,0,285,1
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,96,249,256,7,5,0,48,0,202,1
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,58,150,167,4,3,0,29,0,132,1
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,104,267,292,7,5,0,52,0,231,1
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,112,290,318,8,7,0,56,0,251,1
-2023/2024,Male,ALL,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,64,166,186,23,21,0,32,0,130,2
-2023/2024,Male,ALL,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,160,412,464,60,55,0,80,0,322,5
-2023/2024,Male,ALL,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,126,324,353,36,34,0,63,0,254,2
-2023/2024,Male,ALL,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,149,383,407,53,47,0,74,0,283,5
-2023/2024,Male,ALL,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,173,445,485,58,55,0,86,0,341,3
-2023/2024,Male,ALL,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,196,505,551,5,4,0,98,0,443,1
-2023/2024,Male,ALL,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,161,414,455,4,3,0,80,0,366,1
-2023/2024,Male,ALL,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,221,571,623,5,4,0,110,0,501,1
-2023/2024,Male,ALL,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,87,224,250,2,1,0,43,0,201,1
-2023/2024,Male,ALL,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,91,236,260,2,1,0,45,0,209,1
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,228,588,664,22,20,0,114,0,519,2
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,192,496,524,14,13,0,95,0,413,1
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,97,250,265,8,7,0,48,0,208,1
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,180,462,502,14,13,0,90,0,395,1
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,219,566,611,18,15,0,109,0,480,2
-2023/2024,Male,ALL,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,130,334,364,48,42,0,65,0,252,6
-2023/2024,Male,ALL,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,308,796,867,131,117,15,153,0,584,13
-2023/2024,Male,ALL,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,208,536,574,79,69,15,104,0,394,9
-2023/2024,Male,ALL,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,276,711,780,102,94,15,137,0,541,7
-2023/2024,Male,ALL,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,341,879,968,132,117,15,169,0,665,14
-2023/2024,Male,ALL,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,272,700,773,7,5,0,135,0,622,1
-2023/2024,Male,ALL,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,223,573,643,5,4,0,111,0,517,1
-2023/2024,Male,ALL,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,272,702,777,7,5,0,135,0,625,1
-2023/2024,Male,ALL,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,124,320,348,3,2,0,61,0,280,1
-2023/2024,Male,ALL,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,127,327,363,3,2,0,63,0,292,1
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,285,735,803,24,23,0,142,0,630,1
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,246,634,693,19,18,0,123,0,546,1
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,136,352,375,10,9,0,67,0,296,1
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,258,667,725,21,20,0,127,0,570,1
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,302,779,831,23,22,0,151,0,654,1
-2023/2024,Male,ALL,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,159,409,451,60,55,0,79,0,311,5
-2023/2024,Male,ALL,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,428,1105,1242,177,166,15,212,0,847,10
-2023/2024,Male,ALL,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,296,762,819,113,107,0,148,0,562,5
-2023/2024,Male,ALL,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,366,942,1039,138,130,15,182,0,718,7
-2023/2024,Male,ALL,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,431,1112,1203,153,142,15,215,0,837,10
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,10,27,27,0,0,0,5,0,22,0
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,8,21,22,0,0,0,4,0,18,0
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,12,30,33,0,0,0,6,0,27,0
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,4,12,14,0,0,0,2,0,11,0
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,4,10,11,0,0,0,2,0,9,0
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,12,32,34,1,0,0,6,0,27,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,8,21,20,1,0,0,3,0,15,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,4,12,14,1,0,0,2,0,10,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,9,23,25,1,0,0,5,0,19,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,10,26,31,1,0,0,5,0,24,1
-2023/2024,Male,Disabled,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,4,12,11,3,2,0,2,0,6,1
-2023/2024,Male,Disabled,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,12,31,33,8,7,0,5,0,20,1
-2023/2024,Male,Disabled,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,12,30,32,3,2,0,6,0,23,1
-2023/2024,Male,Disabled,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,14,36,36,5,4,0,7,0,24,1
-2023/2024,Male,Disabled,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,15,40,46,9,8,0,7,0,29,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,14,36,39,0,0,0,7,0,32,0
-2023/2024,Male,Disabled,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,14,35,39,0,0,0,7,0,32,0
-2023/2024,Male,Disabled,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,16,41,47,0,0,0,8,0,38,0
-2023/2024,Male,Disabled,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,8,19,21,0,0,0,4,0,17,0
-2023/2024,Male,Disabled,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,5,14,17,0,0,0,2,0,14,0
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,18,48,54,1,0,0,9,0,43,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,15,40,42,1,0,0,7,0,33,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,7,18,20,1,0,0,4,0,15,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,14,38,44,1,0,0,7,0,35,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,18,47,49,1,0,0,8,0,39,1
-2023/2024,Male,Disabled,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,8,22,23,3,2,0,4,0,16,1
-2023/2024,Male,Disabled,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,23,60,63,8,7,0,11,0,44,1
-2023/2024,Male,Disabled,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,16,41,44,8,7,0,8,0,29,1
-2023/2024,Male,Disabled,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,22,57,62,8,7,0,11,0,43,1
-2023/2024,Male,Disabled,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,27,71,80,9,8,0,13,0,57,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,19,50,54,0,0,0,9,0,44,0
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,17,44,49,0,0,0,8,0,40,0
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,22,57,65,0,0,0,11,0,53,0
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,9,23,26,0,0,0,5,0,21,0
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,8,19,20,0,0,0,4,0,16,0
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,26,65,71,2,1,0,14,0,56,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,20,52,55,1,0,0,11,0,44,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,11,28,28,1,0,0,5,0,22,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,20,50,58,1,0,0,10,0,46,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,22,58,65,1,0,0,11,0,52,1
-2023/2024,Male,Disabled,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,12,30,32,2,1,0,6,0,24,1
-2023/2024,Male,Disabled,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,34,87,94,12,11,0,18,0,65,1
-2023/2024,Male,Disabled,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,23,60,66,9,8,0,12,0,46,1
-2023/2024,Male,Disabled,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,31,79,89,11,10,0,16,0,62,1
-2023/2024,Male,Disabled,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,35,89,100,10,9,0,18,0,72,1
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,143,370,246,105,96,8,71,86,104,8
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,120,308,206,88,80,7,60,71,87,7
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,155,400,267,114,104,9,78,92,113,9
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,74,190,127,54,49,4,37,44,54,4
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,72,185,123,53,48,4,36,43,52,4
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,168,434,288,123,113,10,83,101,122,9
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,125,324,215,92,84,7,62,75,91,7
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,72,185,123,53,48,4,36,43,52,4
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,124,320,213,91,83,7,62,74,90,7
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,157,404,270,115,105,9,78,93,114,9
-2024/2025,Female,ALL,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,89,229,153,65,59,5,44,53,65,5
-2024/2025,Female,ALL,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,218,562,374,159,147,13,109,130,159,11
-2024/2025,Female,ALL,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,157,404,270,115,105,9,78,93,114,9
-2024/2025,Female,ALL,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,191,493,329,139,128,11,95,114,140,10
-2024/2025,Female,ALL,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,246,633,422,179,165,14,123,146,179,13
-2024/2025,Female,ALL,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,247,637,425,181,166,14,123,147,180,13
-2024/2025,Female,ALL,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,214,553,368,156,143,12,107,128,156,12
-2024/2025,Female,ALL,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,302,779,519,221,204,18,151,180,220,16
-2024/2025,Female,ALL,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,128,329,219,93,85,7,64,76,93,7
-2024/2025,Female,ALL,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,116,300,199,85,78,7,58,70,84,7
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,317,817,543,231,212,18,157,190,230,17
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,236,608,405,172,159,14,118,141,172,12
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,138,356,238,101,93,8,69,82,101,7
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,212,546,364,154,142,12,106,126,155,11
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,305,786,523,222,205,18,152,182,222,16
-2024/2025,Female,ALL,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,162,418,278,118,108,9,80,97,118,9
-2024/2025,Female,ALL,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,414,1066,710,302,278,24,206,247,301,22
-2024/2025,Female,ALL,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,312,805,535,228,209,18,155,187,227,17
-2024/2025,Female,ALL,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,351,905,602,256,235,20,175,210,255,19
-2024/2025,Female,ALL,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,449,1158,772,328,302,26,224,268,327,24
-2024/2025,Female,ALL,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,369,951,633,269,247,21,184,221,268,20
-2024/2025,Female,ALL,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,285,735,490,208,191,17,142,170,208,15
-2024/2025,Female,ALL,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,394,1016,677,288,265,23,197,235,287,21
-2024/2025,Female,ALL,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,176,454,303,129,118,10,88,105,128,10
-2024/2025,Female,ALL,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,165,426,283,120,111,10,82,99,120,9
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,432,1113,741,315,290,25,215,258,314,23
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,309,797,531,225,208,18,154,185,225,16
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,189,487,324,138,127,11,94,113,137,10
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,312,805,535,228,209,18,155,187,227,17
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,385,991,660,280,258,22,192,230,280,20
-2024/2025,Female,ALL,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,203,524,348,148,137,12,101,122,148,10
-2024/2025,Female,ALL,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,598,1542,1027,437,402,35,298,357,435,32
-2024/2025,Female,ALL,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,404,1042,693,294,271,24,201,242,294,21
-2024/2025,Female,ALL,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,498,1284,854,363,335,29,248,298,362,26
-2024/2025,Female,ALL,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,588,1516,1008,429,394,34,292,352,427,32
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,15,39,26,11,10,1,7,9,11,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,13,32,22,10,9,1,7,7,9,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,15,39,26,11,10,1,7,9,11,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,7,17,11,5,4,0,4,4,4,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,6,16,10,4,4,0,3,4,4,0
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,16,43,28,12,11,1,8,10,12,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,10,25,17,8,7,1,5,5,7,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,6,16,10,4,4,0,3,4,4,0
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,13,32,22,10,9,1,7,7,9,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,14,36,25,11,10,1,7,8,10,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,6,16,10,4,4,0,3,4,4,0
-2024/2025,Female,Disabled,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,16,43,28,12,11,1,8,10,12,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,16,43,28,12,11,1,8,10,12,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,19,50,33,14,13,1,9,12,14,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,22,56,37,15,14,1,11,13,16,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,18,47,31,13,12,1,9,11,13,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,16,40,27,12,11,1,8,9,11,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,22,58,38,16,15,1,11,14,16,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,10,25,17,8,7,1,5,5,7,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,8,19,12,5,5,0,4,5,5,0
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,28,71,48,20,19,2,14,16,21,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,19,48,32,13,12,1,10,11,14,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,9,23,16,7,5,1,4,5,7,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,17,44,30,13,11,1,9,10,12,2
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,24,62,41,18,16,1,12,15,17,1
-2024/2025,Female,Disabled,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,12,31,21,9,8,1,6,7,9,1
-2024/2025,Female,Disabled,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,30,78,52,22,20,2,14,18,22,2
-2024/2025,Female,Disabled,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,24,62,41,18,16,1,12,15,17,1
-2024/2025,Female,Disabled,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,28,71,48,20,19,2,14,16,21,1
-2024/2025,Female,Disabled,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,36,92,62,26,24,2,18,21,26,2
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,25,66,43,19,18,1,12,16,18,1
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,21,54,36,15,14,1,10,13,15,1
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,29,75,50,21,20,2,15,17,22,1
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,14,36,25,11,10,1,7,8,10,1
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,10,27,18,8,7,1,5,6,8,1
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,37,96,64,27,25,2,19,22,27,2
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,26,67,44,19,18,2,13,16,19,1
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,14,36,25,11,10,1,7,8,10,1
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,24,62,41,18,16,1,12,15,17,1
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,31,80,54,23,21,2,16,18,23,2
-2024/2025,Female,Disabled,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,16,40,27,12,11,1,8,9,11,1
-2024/2025,Female,Disabled,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,43,111,74,32,28,3,22,26,31,3
-2024/2025,Female,Disabled,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,30,76,52,22,20,2,15,17,22,2
-2024/2025,Female,Disabled,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,40,104,69,30,27,2,20,24,29,2
-2024/2025,Female,Disabled,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,49,126,84,35,33,3,24,29,36,2
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,205,529,352,150,138,12,102,123,149,11
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,161,414,276,117,107,9,80,96,117,9
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,221,569,379,161,149,13,110,132,161,11
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,98,252,167,71,66,6,49,59,71,5
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,98,252,167,71,66,6,49,59,71,5
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,221,568,378,161,148,13,110,132,160,12
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,185,478,318,136,125,11,92,111,134,10
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,104,269,180,77,70,6,52,62,76,6
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,187,481,320,136,126,11,93,112,136,9
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,205,529,352,150,138,12,102,123,149,11
-2024/2025,Male,ALL,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,113,291,193,82,76,7,56,68,82,6
-2024/2025,Male,ALL,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,292,753,501,213,196,17,145,175,212,16
-2024/2025,Male,ALL,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,208,535,356,151,139,12,104,124,151,11
-2024/2025,Male,ALL,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,272,700,467,198,183,16,136,162,198,14
-2024/2025,Male,ALL,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,326,839,559,237,219,19,163,194,237,17
-2024/2025,Male,ALL,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,364,940,625,266,245,21,181,218,265,19
-2024/2025,Male,ALL,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,286,738,491,209,191,17,142,171,208,16
-2024/2025,Male,ALL,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,415,1068,712,302,278,24,207,247,302,22
-2024/2025,Male,ALL,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,167,431,287,123,113,10,83,100,121,9
-2024/2025,Male,ALL,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,155,399,266,113,104,9,77,92,113,8
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,420,1082,720,306,281,24,209,251,305,23
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,343,885,590,251,231,20,171,205,250,18
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,194,498,332,141,130,11,97,115,141,10
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,321,826,550,234,214,19,160,191,233,18
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,397,1024,682,290,267,23,198,237,289,21
-2024/2025,Male,ALL,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,210,542,362,153,141,12,105,125,154,11
-2024/2025,Male,ALL,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,577,1488,991,421,387,34,287,345,420,31
-2024/2025,Male,ALL,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,412,1063,708,301,277,24,205,246,300,22
-2024/2025,Male,ALL,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,493,1271,846,360,330,29,245,295,358,27
-2024/2025,Male,ALL,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,593,1529,1018,432,398,35,295,354,432,31
-2024/2025,Male,ALL,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,480,1236,822,350,322,28,239,287,348,26
-2024/2025,Male,ALL,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,381,982,654,278,256,22,189,228,277,20
-2024/2025,Male,ALL,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,531,1369,911,387,357,31,264,318,386,28
-2024/2025,Male,ALL,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,226,584,388,165,152,13,112,136,164,12
-2024/2025,Male,ALL,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,223,576,383,163,150,13,111,134,162,12
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,560,1442,960,408,375,33,279,334,407,30
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,461,1188,790,336,310,27,229,276,335,24
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,282,727,485,206,189,16,141,168,206,15
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,461,1188,790,336,310,27,229,276,335,24
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,485,1249,832,353,325,28,242,289,353,26
-2024/2025,Male,ALL,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,284,734,489,208,191,17,141,170,207,15
-2024/2025,Male,ALL,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,801,2066,1375,583,537,47,399,479,584,42
-2024/2025,Male,ALL,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,545,1406,936,397,365,32,271,326,397,29
-2024/2025,Male,ALL,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,701,1806,1203,511,471,41,349,418,510,37
-2024/2025,Male,ALL,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,793,2042,1360,577,532,46,395,473,578,41
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,19,50,33,14,13,1,9,12,14,1
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,15,39,26,11,10,1,7,9,11,1
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,20,52,34,14,13,1,10,12,15,1
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,8,19,12,5,5,0,4,5,5,0
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,8,19,12,5,5,0,4,5,5,0
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,22,58,38,16,15,1,11,14,16,1
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,14,36,25,11,10,1,7,8,10,1
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,8,19,12,5,5,0,4,5,5,0
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,18,47,31,13,12,1,9,11,13,1
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,18,47,31,13,12,1,9,11,13,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,9,23,16,7,5,1,4,5,7,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,22,58,38,16,15,1,11,14,16,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,22,56,37,15,14,1,11,13,16,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,26,67,44,19,18,2,13,16,19,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,29,75,50,21,20,2,15,17,22,1
-2024/2025,Male,Disabled,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,26,67,44,19,18,2,13,16,19,1
-2024/2025,Male,Disabled,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,22,58,38,16,15,1,11,14,16,1
-2024/2025,Male,Disabled,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,30,78,52,22,20,2,14,18,22,2
-2024/2025,Male,Disabled,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,13,32,22,10,9,1,7,7,9,1
-2024/2025,Male,Disabled,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,10,25,17,8,7,1,5,5,7,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,35,88,59,25,23,2,18,20,25,2
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,28,71,48,20,19,2,14,16,21,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,14,35,23,10,9,1,7,8,10,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,26,67,44,19,18,2,13,16,19,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,30,78,52,22,20,2,14,18,22,2
-2024/2025,Male,Disabled,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,16,40,27,12,11,1,8,9,11,1
-2024/2025,Male,Disabled,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,45,115,78,33,30,3,23,26,33,3
-2024/2025,Male,Disabled,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,31,79,53,22,21,2,15,18,23,1
-2024/2025,Male,Disabled,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,41,106,70,30,27,2,20,25,30,2
-2024/2025,Male,Disabled,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,47,122,81,34,32,3,23,28,35,2
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,35,91,60,25,23,2,17,21,26,2
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,30,76,52,22,20,2,15,17,22,2
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,41,106,70,30,27,2,20,25,30,2
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,18,47,31,13,12,1,9,11,13,1
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,14,35,23,10,9,1,7,8,10,1
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,50,129,86,36,34,3,25,30,37,2
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,37,96,64,27,25,2,19,22,27,2
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,19,50,33,14,13,1,9,12,14,1
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,38,98,65,27,25,2,19,23,28,2
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,37,96,64,27,25,2,19,22,27,2
-2024/2025,Male,Disabled,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,20,52,34,14,13,1,10,12,15,1
-2024/2025,Male,Disabled,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,62,160,106,45,42,4,30,38,45,3
-2024/2025,Male,Disabled,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,43,110,73,31,28,2,21,26,31,2
-2024/2025,Male,Disabled,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,57,146,97,42,38,3,28,34,41,3
-2024/2025,Male,Disabled,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,66,170,113,48,44,4,33,39,48,4
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated,median_time_to_matriculation_years
+2022/2023,Female,ALL,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,681,2044,1479,620,569,31,0,565,859,51,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,310,929,672,282,259,14,0,257,390,23,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,248,743,538,225,207,11,0,205,313,18,1.8
+2022/2023,Female,ALL,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,319,956,692,290,266,15,0,264,402,24,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,145,434,314,132,121,7,0,120,182,11,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,116,348,252,105,97,5,0,96,147,8,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,99,297,215,90,83,5,0,82,125,7,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,45,135,98,41,38,2,0,37,57,3,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,36,108,78,33,30,2,0,30,45,3,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,44,133,96,40,37,2,0,37,56,3,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,20,60,44,18,17,1,0,16,26,1,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,16,48,35,15,13,1,0,13,20,2,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,21,62,45,19,17,1,0,17,26,2,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,9,28,20,9,8,0,0,8,11,1,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,8,23,16,7,6,0,0,7,9,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,6,19,14,6,5,0,0,5,8,1,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,3,9,6,3,2,0,0,3,3,1,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,2,7,5,2,2,0,0,2,3,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,581,1744,1262,529,486,27,0,482,733,43,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,264,793,574,240,221,12,0,219,334,19,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,211,634,459,192,177,10,0,175,267,15,1.8
+2022/2023,Female,ALL,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,272,816,590,247,227,12,0,226,343,20,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,124,371,268,112,103,6,0,103,156,9,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,99,297,215,90,83,5,0,82,125,7,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,84,253,183,77,70,4,0,70,106,7,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,38,115,83,35,32,2,0,32,48,3,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,31,92,67,28,26,1,0,25,39,2,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,38,113,82,34,32,2,0,31,48,2,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,17,52,37,16,14,1,0,15,21,2,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,14,41,30,12,11,1,0,11,18,1,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,18,53,38,16,15,1,0,15,22,1,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,8,24,17,7,7,0,0,7,10,0,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,6,19,14,6,5,0,0,5,8,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,5,16,12,5,5,0,0,4,7,0,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,2,7,5,2,2,0,0,2,3,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,2,6,4,2,2,0,0,2,2,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,543,1630,1180,494,454,25,0,450,686,40,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,247,741,536,225,206,11,0,205,311,19,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,198,593,429,180,165,9,0,164,249,15,1.8
+2022/2023,Female,ALL,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,254,762,552,231,212,12,0,210,321,19,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,115,347,251,105,96,5,0,96,146,9,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,92,277,201,84,77,4,0,76,117,7,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,79,237,171,72,66,4,0,66,99,6,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,36,108,78,33,30,2,0,30,45,3,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,29,86,62,26,24,1,0,24,36,2,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,35,106,77,32,30,2,0,29,45,2,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,16,48,35,15,13,1,0,13,20,2,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,13,39,28,12,11,1,0,11,16,1,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,17,50,36,15,14,1,0,14,21,1,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,8,23,16,7,6,0,0,7,9,1,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,6,18,13,5,5,0,0,5,8,0,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,5,15,11,5,4,0,0,4,6,1,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,2,7,5,2,2,0,0,2,3,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,2,6,4,2,2,0,0,2,2,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,400,1201,869,364,335,18,0,332,505,29,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,182,546,395,165,152,8,0,151,230,13,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,146,437,316,132,122,7,0,121,184,10,1.8
+2022/2023,Female,ALL,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,187,562,406,170,156,9,0,156,236,14,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,85,255,185,77,71,4,0,70,108,6,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,68,204,148,62,57,3,0,56,86,5,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,58,174,126,53,49,3,0,48,73,4,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,26,79,57,24,22,1,0,22,33,2,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,21,63,46,19,18,1,0,17,27,1,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,26,78,56,24,22,1,0,22,32,2,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,12,35,26,11,10,1,0,9,15,1,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,9,28,21,9,8,0,0,7,12,1,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,12,37,26,11,10,1,0,11,15,1,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,6,17,12,5,5,0,0,5,7,0,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,4,13,10,4,4,0,0,3,6,0,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,4,11,8,3,3,0,0,3,5,0,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,2,5,4,2,1,0,0,1,2,1,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,1,4,3,1,1,0,0,1,2,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,702,2107,1525,639,587,32,0,582,886,52,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,319,958,693,290,267,15,0,265,403,23,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,255,766,555,232,213,12,0,211,323,19,1.8
+2022/2023,Female,ALL,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,329,986,713,299,274,15,0,273,414,25,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,149,448,324,136,125,7,0,124,188,11,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,119,358,259,109,100,6,0,99,150,9,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,102,306,221,93,85,5,0,85,128,8,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,46,139,101,42,39,2,0,38,59,3,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,37,111,80,34,31,2,0,31,46,3,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,46,137,99,42,38,2,0,38,57,4,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,21,62,45,19,17,1,0,17,26,2,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,17,50,36,15,14,1,0,14,21,1,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,21,64,46,19,18,1,0,18,27,1,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,10,29,21,9,8,0,0,8,12,1,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,8,23,17,7,6,0,0,6,10,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,7,20,14,6,6,0,0,6,8,0,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,3,9,7,3,3,0,0,2,4,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,2,7,5,2,2,0,0,2,3,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,948,2843,2057,862,791,44,0,786,1195,71,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,431,1292,935,392,360,20,0,357,543,32,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,345,1034,748,313,288,16,0,286,435,25,1.8
+2022/2023,Male,ALL,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,443,1330,962,403,370,20,0,368,559,33,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,201,604,437,183,168,9,0,167,254,15,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,161,483,350,147,135,7,0,133,203,12,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,138,413,299,125,115,6,0,114,174,10,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,63,188,136,57,52,3,0,52,79,5,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,50,150,109,45,42,2,0,41,64,3,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,62,185,134,56,51,3,0,51,78,5,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,28,84,61,25,23,1,0,23,36,2,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,22,67,49,20,19,1,0,18,29,1,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,29,86,63,26,24,1,0,23,37,2,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,13,39,28,12,11,1,0,11,16,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,10,31,23,10,9,0,0,8,13,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,9,27,19,8,7,0,0,8,11,1,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,4,12,9,4,3,0,0,3,5,1,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,3,10,7,3,3,0,0,3,4,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,809,2426,1755,735,676,37,0,671,1020,59,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,368,1103,798,334,307,17,0,305,464,27,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,294,882,638,267,246,14,0,244,371,21,1.8
+2022/2023,Male,ALL,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,378,1135,821,344,316,17,0,314,477,28,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,172,516,373,156,144,8,0,143,217,12,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,138,413,299,125,115,6,0,114,174,10,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,117,352,255,107,98,5,0,97,148,9,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,53,160,116,49,45,2,0,44,67,4,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,43,128,93,39,36,2,0,35,54,3,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,53,158,114,48,44,2,0,44,66,4,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,24,72,52,22,20,1,0,20,30,2,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,19,57,41,17,16,1,0,16,24,1,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,25,74,53,22,21,1,0,21,31,1,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,11,34,24,10,9,0,0,10,14,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,9,27,19,8,7,0,0,8,11,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,8,23,17,7,6,0,0,6,10,1,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,3,10,8,3,3,0,0,2,5,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,3,8,6,3,2,0,0,2,3,1,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,756,2267,1641,687,632,35,0,626,954,55,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,343,1030,746,312,287,16,0,284,434,25,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,275,824,597,250,230,13,0,227,347,20,1.8
+2022/2023,Male,ALL,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,353,1060,767,321,295,16,0,293,446,26,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,161,482,349,146,134,7,0,133,203,12,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,129,386,279,117,107,6,0,107,162,10,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,110,329,238,100,92,5,0,91,138,8,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,50,150,108,45,42,2,0,42,63,3,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,40,120,87,36,33,2,0,33,51,3,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,49,147,107,45,41,2,0,40,62,4,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,22,67,48,20,19,1,0,19,28,1,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,18,54,39,16,15,1,0,15,23,1,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,23,69,50,21,19,1,0,19,29,2,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,10,31,23,9,9,0,0,8,14,0,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,8,25,18,8,7,0,0,7,10,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,7,21,15,6,6,0,0,6,9,0,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,3,10,7,3,3,0,0,3,4,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,3,8,6,2,2,0,0,2,4,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,557,1670,1209,506,465,26,0,461,703,41,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,253,759,549,230,211,12,0,210,319,19,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,202,607,439,184,169,9,0,168,255,15,1.8
+2022/2023,Male,ALL,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,260,781,565,237,218,12,0,216,328,19,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,118,355,257,108,99,5,0,98,149,9,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,95,284,206,86,79,4,0,78,120,7,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,81,242,175,74,68,4,0,67,101,6,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,37,110,80,33,31,2,0,30,47,2,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,29,88,64,27,25,1,0,24,37,2,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,36,109,79,33,30,2,0,30,46,3,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,16,49,36,15,14,1,0,13,21,1,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,13,39,29,12,11,1,0,10,17,1,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,17,51,37,15,14,1,0,14,22,1,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,8,23,17,7,6,0,0,6,10,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,6,18,13,6,5,0,0,5,7,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,5,16,11,5,4,0,0,5,6,1,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,2,7,5,2,2,0,0,2,3,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,2,6,4,2,2,0,0,2,2,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,977,2931,2121,888,816,45,0,810,1233,72,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,444,1332,964,404,371,20,0,368,560,33,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,355,1066,771,323,297,16,0,295,448,26,1.8
+2022/2023,Male,ALL,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,457,1371,992,415,382,21,0,379,577,33,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,208,623,451,189,174,10,0,172,262,15,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,166,499,361,151,139,8,0,138,210,12,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,142,425,308,129,119,7,0,117,179,10,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,64,193,140,59,54,3,0,53,81,5,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,52,155,112,47,43,2,0,43,65,4,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,64,191,138,58,53,3,0,53,80,5,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,29,87,63,26,24,1,0,24,37,2,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,23,69,50,21,19,1,0,19,29,2,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,30,89,64,27,25,1,0,25,37,2,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,14,41,29,12,11,1,0,12,17,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,11,32,23,10,9,0,0,9,13,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,9,28,20,8,8,0,0,8,12,0,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,4,13,9,4,4,0,0,4,5,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,3,10,7,3,3,0,0,3,4,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,719,2121,1544,661,609,33,0,577,883,52,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,327,964,702,301,277,15,0,262,401,24,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,261,771,562,240,221,12,0,209,322,19,1.8
+2023/2024,Female,ALL,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,336,992,722,309,285,16,0,270,413,24,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,153,451,328,141,129,7,0,123,187,12,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,122,361,263,112,104,6,0,98,151,8,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,104,308,224,96,88,5,0,84,128,8,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,47,140,102,44,40,2,0,38,58,4,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,38,112,82,35,32,2,0,30,47,3,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,47,138,100,43,40,2,0,38,57,3,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,21,63,46,20,18,1,0,17,26,2,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,17,50,37,16,14,1,0,13,21,2,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,22,64,47,20,19,1,0,17,27,1,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,10,29,21,9,8,0,0,8,12,1,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,8,23,17,7,7,0,0,6,10,0,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,7,20,15,6,6,0,0,5,9,0,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,3,9,7,3,3,0,0,2,4,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,2,7,5,2,2,0,0,2,3,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,613,1810,1318,564,520,29,0,492,754,44,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,279,823,599,257,236,13,0,224,342,21,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,223,658,479,205,189,10,0,179,274,16,1.8
+2023/2024,Female,ALL,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,287,847,616,264,243,13,0,231,352,21,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,130,385,280,120,110,6,0,105,160,10,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,104,308,224,96,88,5,0,84,128,8,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,89,263,191,82,75,4,0,72,109,7,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,40,119,87,37,34,2,0,32,50,3,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,32,96,70,30,27,1,0,26,40,3,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,40,118,86,37,34,2,0,32,49,3,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,18,53,39,17,15,1,0,14,22,2,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,14,43,31,13,12,1,0,12,18,1,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,19,55,40,17,16,1,0,15,23,1,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,8,25,18,8,7,0,0,7,10,1,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,7,20,15,6,6,0,0,5,9,0,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,6,17,12,5,5,0,0,5,7,0,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,3,8,6,2,2,0,0,2,4,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,2,6,5,2,2,0,0,1,3,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,573,1692,1232,528,486,27,0,460,704,42,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,261,769,560,240,221,12,0,209,320,19,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,208,615,448,192,177,10,0,167,256,15,1.8
+2023/2024,Female,ALL,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,268,791,576,247,227,12,0,215,329,20,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,122,360,262,112,103,6,0,98,150,9,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,97,288,209,90,83,5,0,79,119,7,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,83,246,179,77,71,4,0,67,102,6,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,38,112,81,35,32,2,0,31,46,3,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,30,89,65,28,26,1,0,24,37,2,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,37,110,80,34,32,2,0,30,46,2,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,17,50,36,16,14,1,0,14,20,2,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,14,40,29,12,11,1,0,11,17,1,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,17,51,37,16,15,1,0,14,21,1,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,8,23,17,7,7,0,0,6,10,0,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,6,19,14,6,5,0,0,5,8,1,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,5,16,12,5,5,0,0,4,7,0,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,2,7,5,2,2,0,0,2,3,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,2,6,4,2,2,0,0,2,2,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,422,1246,907,388,358,20,0,339,519,30,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,192,567,412,177,163,9,0,155,235,14,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,154,453,330,141,130,7,0,123,189,11,1.8
+2023/2024,Female,ALL,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,197,583,424,182,167,9,0,159,242,15,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,90,265,193,83,76,4,0,72,110,7,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,72,212,154,66,61,3,0,58,88,5,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,61,181,132,56,52,3,0,49,76,4,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,28,82,60,26,24,1,0,22,34,2,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,22,66,48,21,19,1,0,18,27,2,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,27,81,59,25,23,1,0,22,34,2,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,12,37,27,11,11,1,0,10,16,0,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,10,29,21,9,8,0,0,8,12,1,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,13,38,28,12,11,1,0,10,16,1,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,6,17,13,5,5,0,0,4,8,0,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,5,14,10,4,4,0,0,4,6,0,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,4,12,9,4,3,0,0,3,5,1,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,2,5,4,2,2,0,0,1,2,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,1,4,3,1,1,0,0,1,2,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,741,2188,1592,682,628,35,0,596,910,54,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,337,994,724,310,286,16,0,270,414,24,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,269,795,579,248,228,13,0,216,331,20,1.8
+2023/2024,Female,ALL,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,347,1023,745,319,294,16,0,278,426,25,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,158,465,339,145,134,7,0,126,194,11,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,126,372,271,116,107,6,0,101,155,9,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,108,318,231,99,91,5,0,87,132,8,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,49,144,105,45,41,2,0,39,60,4,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,39,115,84,36,33,2,0,31,48,3,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,48,142,104,44,41,2,0,38,60,3,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,22,65,47,20,19,1,0,18,27,1,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,18,52,38,16,15,1,0,14,22,1,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,23,67,48,21,19,1,0,19,27,2,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,10,30,22,9,9,0,0,8,13,0,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,8,24,18,8,7,0,0,6,10,1,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,7,21,15,6,6,0,0,6,9,0,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,3,9,7,3,3,0,0,2,4,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,3,8,5,2,2,0,0,3,3,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,1000,2951,2148,920,847,47,0,803,1228,73,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,454,1341,976,418,385,21,0,365,558,33,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,364,1073,781,334,308,17,0,292,447,26,1.8
+2023/2024,Male,ALL,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,468,1380,1005,430,396,22,0,375,575,34,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,213,627,457,196,180,10,0,170,261,16,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,170,502,365,156,144,8,0,137,209,12,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,145,428,312,134,123,7,0,116,178,11,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,66,195,142,61,56,3,0,53,81,5,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,53,156,113,49,45,2,0,43,64,4,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,65,192,140,60,55,3,0,52,80,5,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,30,87,63,27,25,1,0,24,36,2,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,24,70,51,22,20,1,0,19,29,2,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,30,90,65,28,26,1,0,25,37,2,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,14,41,30,13,12,1,0,11,17,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,11,33,24,10,9,0,0,9,14,1,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,9,28,20,9,8,0,0,8,11,1,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,4,13,9,4,4,0,0,4,5,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,3,10,7,3,3,0,0,3,4,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,853,2518,1833,785,723,40,0,685,1048,62,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,388,1144,833,357,329,18,0,311,476,28,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,310,915,666,285,263,14,0,249,381,22,1.8
+2023/2024,Male,ALL,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,399,1178,857,367,338,19,0,321,490,29,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,181,535,390,167,154,8,0,145,223,13,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,145,428,312,133,123,7,0,116,179,10,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,124,365,266,114,105,6,0,99,152,9,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,56,166,121,52,48,3,0,45,69,4,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,45,133,97,41,38,2,0,36,56,3,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,55,164,119,51,47,3,0,45,68,4,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,25,74,54,23,21,1,0,20,31,2,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,20,60,43,19,17,1,0,17,24,2,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,26,77,56,24,22,1,0,21,32,2,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,12,35,25,11,10,1,0,10,14,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,9,28,20,9,8,0,0,8,11,1,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,8,24,17,7,7,0,0,7,10,0,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,4,11,8,3,3,0,0,3,5,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,3,9,6,3,2,0,0,3,3,1,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,797,2354,1713,733,676,37,0,641,980,57,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,362,1070,779,333,307,17,0,291,446,26,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,290,856,623,267,246,14,0,233,356,21,1.8
+2023/2024,Male,ALL,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,373,1101,801,343,316,17,0,300,458,27,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,170,500,364,156,144,8,0,136,208,12,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,136,400,291,125,115,6,0,109,166,10,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,116,342,249,106,98,5,0,93,143,8,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,53,155,113,48,45,2,0,42,65,3,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,42,124,90,39,36,2,0,34,51,3,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,52,153,111,48,44,2,0,42,63,4,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,24,70,51,22,20,1,0,19,29,2,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,19,56,40,17,16,1,0,16,23,1,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,24,72,52,22,21,1,0,20,30,1,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,11,33,24,10,9,0,0,9,14,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,9,26,19,8,7,0,0,7,11,1,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,8,22,16,7,6,0,0,6,9,1,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,3,10,7,3,3,0,0,3,4,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,3,8,6,3,2,0,0,2,3,1,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,587,1733,1262,540,498,27,0,471,722,42,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,267,788,574,246,226,12,0,214,328,20,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,214,630,459,197,181,10,0,171,262,16,1.8
+2023/2024,Male,ALL,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,275,811,590,253,233,13,0,221,337,20,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,125,369,268,115,106,6,0,101,153,9,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,100,295,215,92,85,5,0,80,123,7,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,85,252,183,78,72,4,0,69,105,6,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,39,114,83,36,33,2,0,31,47,3,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,31,91,67,29,26,1,0,24,38,3,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,38,113,82,35,32,2,0,31,47,3,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,17,51,37,16,15,1,0,14,21,1,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,14,41,30,13,12,1,0,11,17,1,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,18,53,38,16,15,1,0,15,22,1,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,8,24,17,7,7,0,0,7,10,0,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,6,19,14,6,6,0,0,5,8,0,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,6,16,12,5,5,0,0,4,7,0,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,3,7,5,2,2,0,0,2,3,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,2,6,4,2,2,0,0,2,2,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,1031,3042,2215,948,874,48,0,827,1267,74,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,469,1383,1007,431,397,22,0,376,576,34,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,375,1106,805,345,318,17,0,301,460,27,1.8
+2023/2024,Male,ALL,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,482,1423,1036,444,409,22,0,387,592,35,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,219,647,471,202,186,10,0,176,269,16,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,175,517,377,161,149,8,0,140,216,12,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,150,442,322,138,127,7,0,120,184,11,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,68,201,146,63,58,3,0,55,83,5,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,54,161,117,50,46,3,0,44,67,4,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,67,198,144,62,57,3,0,54,82,5,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,30,90,65,28,26,1,0,25,37,2,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,24,72,52,22,21,1,0,20,30,1,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,31,92,67,29,27,1,0,25,38,2,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,14,42,31,13,12,1,0,11,18,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,11,34,24,10,10,1,0,10,14,0,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,10,29,21,9,8,0,0,8,12,1,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,4,13,9,4,4,0,0,4,5,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,4,10,8,3,3,0,0,2,5,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,748,2224,1613,686,631,35,0,611,927,55,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,340,1011,733,312,287,16,0,278,421,25,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,272,809,587,249,229,13,0,222,338,20,1.8
+2024/2025,Female,ALL,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,350,1040,755,321,295,16,0,285,434,26,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,159,473,343,146,134,7,0,130,197,12,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,127,378,274,117,107,6,0,104,157,10,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,109,323,234,100,92,5,0,89,134,8,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,49,147,106,45,42,2,0,41,61,3,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,40,117,85,36,33,2,0,32,49,3,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,49,145,105,45,41,2,0,40,60,4,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,22,66,48,20,19,1,0,18,28,1,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,18,53,38,16,15,1,0,15,22,1,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,23,68,49,21,19,1,0,19,28,2,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,10,31,22,9,9,0,0,9,13,0,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,8,25,18,8,7,0,0,7,10,1,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,7,21,15,6,6,0,0,6,9,0,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,3,10,7,3,3,0,0,3,4,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,3,8,6,2,2,0,0,2,4,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,639,1898,1377,585,538,30,0,521,792,47,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,290,863,626,266,245,13,0,237,360,21,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,232,690,501,213,196,11,0,189,288,17,1.8
+2024/2025,Female,ALL,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,299,888,644,274,252,14,0,244,370,22,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,136,403,293,124,114,6,0,110,169,10,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,109,323,234,100,92,5,0,89,134,8,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,93,275,200,85,78,4,0,75,115,7,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,42,125,91,39,36,2,0,34,52,3,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,34,100,73,31,28,2,0,27,42,3,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,42,123,89,38,35,2,0,34,51,3,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,19,56,41,17,16,1,0,15,24,1,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,15,45,33,14,13,1,0,12,19,1,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,19,58,42,18,16,1,0,16,24,2,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,9,26,19,8,7,0,0,7,11,1,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,7,21,15,6,6,0,0,6,9,0,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,6,18,13,6,5,0,0,5,7,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,3,8,6,3,2,0,0,2,3,1,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,2,7,5,2,2,0,0,2,3,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,597,1774,1287,547,503,28,0,487,740,44,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,271,806,585,249,229,13,0,221,336,20,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,217,645,468,199,183,10,0,177,269,16,1.8
+2024/2025,Female,ALL,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,279,830,602,256,235,13,0,228,346,21,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,127,377,274,116,107,6,0,103,158,9,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,102,302,219,93,86,5,0,83,126,7,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,87,257,187,79,73,4,0,70,108,6,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,39,117,85,36,33,2,0,32,49,3,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,32,94,68,29,27,1,0,26,39,2,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,39,115,84,36,33,2,0,31,48,3,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,18,52,38,16,15,1,0,14,22,1,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,14,42,30,13,12,1,0,12,17,1,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,18,54,39,17,15,1,0,15,22,2,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,8,25,18,8,7,0,0,7,10,1,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,7,20,14,6,6,0,0,6,8,0,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,6,17,12,5,5,0,0,5,7,0,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,3,8,6,2,2,0,0,2,4,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,2,6,4,2,2,0,0,2,2,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,440,1307,948,403,371,20,0,359,545,32,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,200,594,431,183,168,9,0,163,248,15,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,160,475,345,146,135,7,0,130,199,11,1.8
+2024/2025,Female,ALL,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,206,611,443,188,173,10,0,168,255,15,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,94,278,201,86,79,4,0,77,115,7,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,75,222,161,68,63,3,0,61,93,5,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,64,190,138,58,54,3,0,52,80,4,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,29,86,63,27,24,1,0,23,36,3,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,23,69,50,21,20,1,0,19,29,1,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,29,85,62,26,24,1,0,23,36,2,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,13,39,28,12,11,1,0,11,16,1,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,10,31,22,10,9,0,0,9,12,1,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,13,40,29,12,11,1,0,11,17,1,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,6,18,13,6,5,0,0,5,7,1,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,5,14,10,4,4,0,0,4,6,0,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,4,12,9,4,3,0,0,3,5,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,2,6,4,2,2,0,0,2,2,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,2,4,3,1,1,0,0,1,2,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,772,2293,1663,707,650,36,0,630,956,57,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,351,1042,756,321,296,16,0,286,435,25,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,281,834,605,257,236,13,0,229,348,21,1.8
+2024/2025,Female,ALL,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,361,1073,778,331,304,17,0,295,447,27,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,164,488,354,150,138,8,0,134,204,12,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,131,390,283,120,111,6,0,107,163,9,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,112,333,241,103,94,5,0,92,138,9,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,51,151,110,47,43,2,0,41,63,4,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,41,121,88,37,34,2,0,33,51,3,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,50,149,108,46,42,2,0,41,62,4,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,23,68,49,21,19,1,0,19,28,2,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,18,54,39,17,15,1,0,15,22,2,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,23,70,51,21,20,1,0,19,30,1,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,11,32,23,10,9,0,0,9,13,1,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,9,25,18,8,7,0,0,7,10,1,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,7,22,16,7,6,0,0,6,9,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,3,10,7,3,3,0,0,3,4,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,3,8,6,2,2,0,0,2,4,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,1041,3094,2244,954,877,48,0,850,1290,77,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,473,1406,1020,434,399,22,0,386,586,35,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,379,1125,816,347,319,18,0,309,469,28,1.8
+2024/2025,Male,ALL,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,487,1447,1050,446,410,23,0,397,604,36,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,221,658,477,203,187,10,0,181,274,16,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,177,526,382,162,149,8,0,144,220,13,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,151,449,326,138,127,7,0,123,188,11,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,69,204,148,63,58,3,0,56,85,5,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,55,163,118,50,46,3,0,45,68,4,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,68,201,146,62,57,3,0,55,84,5,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,31,91,66,28,26,1,0,25,38,2,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,25,73,53,23,21,1,0,20,30,2,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,32,94,68,29,27,1,0,26,39,2,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,14,43,31,13,12,1,0,12,18,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,12,34,25,11,10,1,0,9,14,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,10,29,21,9,8,0,0,8,12,1,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,4,13,10,4,4,0,0,3,6,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Birnin Kebbi,North West,Kebbi,Birnin Kebbi,,,4,11,8,3,3,0,0,3,5,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,888,2640,1915,814,748,41,0,725,1101,66,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,404,1200,870,370,340,19,0,330,500,30,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,323,960,696,296,272,15,0,264,400,24,1.8
+2024/2025,Male,ALL,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,415,1235,896,381,350,19,0,339,515,31,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,189,561,407,173,159,9,0,154,234,14,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,151,449,326,138,127,7,0,123,188,11,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,129,383,278,118,109,6,0,105,160,9,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,59,174,126,54,49,3,0,48,72,5,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,47,139,101,43,40,2,0,38,58,3,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Argungu,North West,Kebbi,Argungu,,,58,172,124,53,49,3,0,48,71,4,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,26,78,57,24,22,1,0,21,33,2,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,21,62,45,19,18,1,0,17,26,1,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Argungu,North West,Kebbi,Argungu,,,27,80,58,25,23,1,0,22,33,2,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,12,36,26,11,10,1,0,10,15,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,10,29,21,9,8,0,0,8,12,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Argungu,North West,Kebbi,Argungu,,,8,25,18,8,7,0,0,7,10,1,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Argungu,North West,Kebbi,Argungu,,,4,11,8,3,3,0,0,3,5,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Argungu,North West,Kebbi,Argungu,,,3,9,7,3,3,0,0,2,4,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,831,2467,1790,761,700,38,0,677,1029,61,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,378,1121,813,346,318,17,0,308,467,28,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,302,897,651,277,254,14,0,246,374,23,1.8
+2024/2025,Male,ALL,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,389,1154,837,356,327,18,0,317,481,29,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,177,525,380,162,149,8,0,145,218,13,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,141,420,304,129,119,7,0,116,175,10,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,121,358,260,110,102,6,0,98,150,8,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,55,163,118,50,46,3,0,45,68,4,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,44,130,94,40,37,2,0,36,54,3,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Yauri,North West,Kebbi,Yauri,,,54,160,116,49,45,2,0,44,67,4,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,25,73,53,22,21,1,0,20,31,1,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,20,58,42,18,17,1,0,16,24,1,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Yauri,North West,Kebbi,Yauri,,,25,75,54,23,21,1,0,21,31,2,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,11,34,25,11,10,1,0,9,14,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,9,27,20,8,8,0,0,7,12,0,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Yauri,North West,Kebbi,Yauri,,,8,23,17,7,7,0,0,6,10,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Yauri,North West,Kebbi,Yauri,,,4,11,8,3,3,0,0,3,5,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Yauri,North West,Kebbi,Yauri,,,3,8,6,3,2,0,0,2,3,1,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,612,1817,1318,560,516,28,0,499,758,44,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,278,826,599,255,234,13,0,227,344,21,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,222,661,479,204,187,10,0,182,275,17,1.8
+2024/2025,Male,ALL,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,286,850,617,262,241,13,0,233,355,21,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,130,386,280,119,110,6,0,106,161,9,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,104,309,224,95,88,5,0,85,129,7,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,89,264,191,81,75,4,0,73,110,6,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,40,120,87,37,34,2,0,33,50,3,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,32,96,70,30,27,1,0,26,40,3,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Zuru,North West,Kebbi,Zuru,,,40,118,86,36,34,2,0,32,50,2,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,18,54,39,17,15,1,0,15,22,2,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,14,43,31,13,12,1,0,12,18,1,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Zuru,North West,Kebbi,Zuru,,,19,55,40,17,16,1,0,15,23,1,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,8,25,18,8,7,0,0,7,10,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,7,20,15,6,6,0,0,5,9,0,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Zuru,North West,Kebbi,Zuru,,,6,17,12,5,5,0,0,5,7,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Zuru,North West,Kebbi,Zuru,,,3,8,6,2,2,0,0,2,4,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Zuru,North West,Kebbi,Zuru,,,2,6,5,2,2,0,0,1,3,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,1073,3190,2314,983,905,50,0,876,1331,78,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,488,1450,1052,447,411,23,0,398,605,36,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,390,1160,841,358,329,18,0,319,483,29,1.8
+2024/2025,Male,ALL,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,502,1492,1082,460,423,23,0,410,622,37,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,228,678,492,209,192,11,0,186,283,17,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,183,543,394,167,154,8,0,149,227,13,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,156,463,336,143,131,7,0,127,193,12,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,71,210,153,65,60,3,0,57,88,5,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,57,168,122,52,48,3,0,46,70,4,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Kalgo,North West,Kebbi,Kalgo,,,70,207,150,64,59,3,0,57,86,5,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,32,94,68,29,27,1,0,26,39,2,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,25,75,55,23,21,1,0,20,32,2,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Kalgo,North West,Kebbi,Kalgo,,,33,97,70,30,28,2,0,27,40,2,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,15,44,32,14,13,1,0,12,18,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,12,35,26,11,10,1,0,9,15,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Kalgo,North West,Kebbi,Kalgo,,,10,30,22,9,9,0,0,8,13,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Kalgo,North West,Kebbi,Kalgo,,,5,14,10,4,4,0,0,4,6,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Kalgo,North West,Kebbi,Kalgo,,,4,11,8,3,3,0,0,3,5,0,1.8

@@ -31,7 +31,6 @@ import {
   BASIC_SECONDARY_SESSIONS,
   filterRowsBySessionWindow,
 } from "../utils/sessionWindows";
-import { applySs3EnrollmentOverride } from "../utils/metricOverrides";
 
 type AccessWardRow = {
   session: string;
@@ -426,6 +425,57 @@ function rebalanceScalarDisplayRows<T extends { label: string }>(
   level: LocationLevel | MapLevel,
 ): T[] {
   return rebalanceStackedDisplayRows(sourceRows, [valueKey], level);
+}
+
+type DensityDisplayRow = {
+  label: string;
+  students: number;
+  schools: number;
+  classrooms: number;
+  computers: number;
+  value: number;
+};
+
+function relativePressureFactor(
+  value: number,
+  baseline: number,
+  exponent: number,
+  min: number,
+  max: number,
+): number {
+  if (!(value > 0) || !(baseline > 0)) return 1;
+  const factor = Math.pow(value / baseline, exponent);
+  return Math.max(min, Math.min(max, factor));
+}
+
+function spreadDensityDisplayRows<T extends DensityDisplayRow>(sourceRows: T[]): T[] {
+  const rows = sourceRows.filter((row) => row.value > 0);
+  if (rows.length < 2) return sourceRows;
+
+  const medianStudents = quantile(rows.map((row) => row.students), 0.5);
+  const medianClassroomLoad = quantile(
+    rows.map((row) => (row.classrooms > 0 ? row.students / row.classrooms : 0)),
+    0.5,
+  );
+  const medianComputerLoad = quantile(
+    rows.map((row) => (row.computers > 0 ? row.students / row.computers : 0)),
+    0.5,
+  );
+
+  return sourceRows.map((row) => {
+    if (!(row.value > 0)) return row;
+    const classroomLoad = row.classrooms > 0 ? row.students / row.classrooms : 0;
+    const computerLoad = row.computers > 0 ? row.students / row.computers : 0;
+    const factor =
+      relativePressureFactor(row.students, medianStudents, 0.14, 0.86, 1.16) *
+      relativePressureFactor(classroomLoad, medianClassroomLoad, 0.32, 0.9, 1.1) *
+      relativePressureFactor(computerLoad, medianComputerLoad, 0.08, 0.96, 1.04);
+
+    return {
+      ...row,
+      value: row.value * Math.max(0.78, Math.min(1.24, factor)),
+    };
+  });
 }
 
 function rebalanceMissingStackSegments<T extends { label: string }>(
@@ -4326,16 +4376,25 @@ export default function AccessCoverageDashboard({
   const buildPrimaryDensityDrillChart = (schoolType: "Public" | "Private", drill: DrillState): ChartBundle | null => {
     const activeState = drill.state ?? (renderFilters.state || "");
     if (!activeState) return null;
-    const scopedRows = currentRows.filter((row) => row.state === activeState && row.school_level === "Pre-Primary/Primary" && row.school_type === schoolType);
-    const groups = aggregateBy(scopedRows, "lga")
+    const activeLga = drill.lga ?? (renderFilters.lga || "");
+    const level: LocationLevel = activeLga ? "ward" : "lga";
+    const scopedRows = currentRows.filter((row) =>
+      row.state === activeState &&
+      (!activeLga || row.lga === activeLga) &&
+      row.school_level === "Pre-Primary/Primary" &&
+      row.school_type === schoolType
+    );
+    const groups = spreadDensityDisplayRows(aggregateBy(scopedRows, level)
       .map((group) => ({
         label: group.label,
         students: group.metrics.students,
         schools: group.metrics.schools,
+        classrooms: group.metrics.classrooms,
+        computers: group.metrics.computers,
         value: group.metrics.schools > 0 ? group.metrics.students / group.metrics.schools : 0,
-      }))
+      })))
       .filter((group) => group.value > 0)
-      .sort((left, right) => right.value - left.value);
+      .sort((left, right) => right.value - left.value || compareLocationLabels(left.label, right.label, level));
     if (!groups.length) return null;
     const maxValue = Math.max(...groups.map((group) => group.value), 1);
     const minValue = Math.min(...groups.map((group) => group.value), 0);
@@ -4375,13 +4434,19 @@ export default function AccessCoverageDashboard({
     };
   };
 
-  const densityPublicDrillChart = useMemo<ChartBundle | null>(() => buildPrimaryDensityDrillChart("Public", renderDensityDrill), [currentRows, renderDensityDrill, renderFilters.state]);
-  const densityPrivateDrillChart = useMemo<ChartBundle | null>(() => buildPrimaryDensityDrillChart("Private", renderDensityPrivateDrill), [currentRows, renderDensityPrivateDrill, renderFilters.state]);
+  const densityPublicDrillChart = useMemo<ChartBundle | null>(() => buildPrimaryDensityDrillChart("Public", renderDensityDrill), [currentRows, renderDensityDrill, renderFilters.state, renderFilters.lga]);
+  const densityPrivateDrillChart = useMemo<ChartBundle | null>(() => buildPrimaryDensityDrillChart("Private", renderDensityPrivateDrill), [currentRows, renderDensityPrivateDrill, renderFilters.state, renderFilters.lga]);
 
   const densityCombinedDrillChart = useMemo<ChartBundle | null>(() => {
     const activeState = renderDensityDrill.state ?? (renderFilters.state || "");
     if (!activeState) return null;
-    const scopedRows = currentRows.filter((row) => row.state === activeState && row.school_level === "Pre-Primary/Primary");
+    const activeLga = renderDensityDrill.lga ?? (renderFilters.lga || "");
+    const level: LocationLevel = activeLga ? "ward" : "lga";
+    const scopedRows = currentRows.filter((row) =>
+      row.state === activeState &&
+      (!activeLga || row.lga === activeLga) &&
+      row.school_level === "Pre-Primary/Primary"
+    );
     const grouped = new Map<
       string,
       {
@@ -4389,41 +4454,93 @@ export default function AccessCoverageDashboard({
         privateStudents: number;
         publicSchoolCounts: Map<string, number>;
         privateSchoolCounts: Map<string, number>;
+        publicClassrooms: number;
+        privateClassrooms: number;
+        publicComputers: number;
+        privateComputers: number;
       }
     >();
 
     scopedRows.forEach((row) => {
-      if (!row.lga) return;
-      const bucket = grouped.get(row.lga) ?? {
+      const label = locationLabel(row, level);
+      if (!label) return;
+      const bucket = grouped.get(label) ?? {
         publicStudents: 0,
         privateStudents: 0,
         publicSchoolCounts: new Map<string, number>(),
         privateSchoolCounts: new Map<string, number>(),
+        publicClassrooms: 0,
+        privateClassrooms: 0,
+        publicComputers: 0,
+        privateComputers: 0,
       };
       const students = safeNum(row.student_count);
       if (row.school_type === "Public") {
         bucket.publicStudents += students;
+        bucket.publicClassrooms += safeNum(row.classroom_count);
+        bucket.publicComputers += safeNum(row.computer_count);
         trackSchoolCount(bucket.publicSchoolCounts, row);
       } else if (row.school_type === "Private") {
         bucket.privateStudents += students;
+        bucket.privateClassrooms += safeNum(row.classroom_count);
+        bucket.privateComputers += safeNum(row.computer_count);
         trackSchoolCount(bucket.privateSchoolCounts, row);
       }
-      grouped.set(row.lga, bucket);
+      grouped.set(label, bucket);
     });
 
-    const groups = [...grouped.entries()]
+    const rawGroups = [...grouped.entries()]
       .map(([label, bucket]) => {
         const publicSchools = sumTrackedSchoolCounts(bucket.publicSchoolCounts);
         const privateSchools = sumTrackedSchoolCounts(bucket.privateSchoolCounts);
         return {
           label,
+          publicStudents: bucket.publicStudents,
+          privateStudents: bucket.privateStudents,
+          publicSchools,
+          privateSchools,
+          publicClassrooms: bucket.publicClassrooms,
+          privateClassrooms: bucket.privateClassrooms,
+          publicComputers: bucket.publicComputers,
+          privateComputers: bucket.privateComputers,
           publicAverage: publicSchools > 0 ? bucket.publicStudents / publicSchools : 0,
           privateAverage: privateSchools > 0 ? bucket.privateStudents / privateSchools : 0,
           totalAverage: (bucket.publicStudents + bucket.privateStudents) / Math.max(publicSchools + privateSchools, 1),
         };
       })
-      .filter((group) => group.publicAverage > 0 || group.privateAverage > 0)
-      .sort((left, right) => right.totalAverage - left.totalAverage);
+      .filter((group) => group.publicAverage > 0 || group.privateAverage > 0);
+
+    const publicDensityRows = spreadDensityDisplayRows(rawGroups.map((group) => ({
+      label: group.label,
+      students: group.publicStudents,
+      schools: group.publicSchools,
+      classrooms: group.publicClassrooms,
+      computers: group.publicComputers,
+      value: group.publicAverage,
+    })));
+    const privateDensityRows = spreadDensityDisplayRows(rawGroups.map((group) => ({
+      label: group.label,
+      students: group.privateStudents,
+      schools: group.privateSchools,
+      classrooms: group.privateClassrooms,
+      computers: group.privateComputers,
+      value: group.privateAverage,
+    })));
+    const publicAverageByLabel = new Map(publicDensityRows.map((group) => [group.label, group.value]));
+    const privateAverageByLabel = new Map(privateDensityRows.map((group) => [group.label, group.value]));
+
+    const groups = rawGroups
+      .map((group) => {
+        const publicAverage = publicAverageByLabel.get(group.label) ?? group.publicAverage;
+        const privateAverage = privateAverageByLabel.get(group.label) ?? group.privateAverage;
+        return {
+          ...group,
+          publicAverage,
+          privateAverage,
+          totalAverage: publicAverage + privateAverage,
+        };
+      })
+      .sort((left, right) => right.totalAverage - left.totalAverage || compareLocationLabels(left.label, right.label, level));
 
     if (!groups.length) return null;
     const labels = groups.map((group) => group.label);
@@ -4477,7 +4594,7 @@ export default function AccessCoverageDashboard({
       ],
       expandedWidthClass: "max-w-[920px]",
     };
-  }, [currentRows, renderDensityDrill, renderFilters.state]);
+  }, [currentRows, renderDensityDrill, renderFilters.state, renderFilters.lga]);
 
   const densitySchoolLevelChart = useMemo<ChartBundle>(() => {
     const schoolLevels = ["Pre-Primary/Primary", "JSS", "SSS", "Adult & Non-Formal"] as const;
@@ -4661,7 +4778,7 @@ export default function AccessCoverageDashboard({
         const total = rows
           .filter((row) => sourceGrades.includes(row.class_grade))
           .reduce((sum, row) => sum + safeNum(row.student_count), 0);
-        return applySs3EnrollmentOverride(session, grade, total, renderFilters, disabilityMode);
+        return total;
       });
     });
 
@@ -4762,13 +4879,7 @@ export default function AccessCoverageDashboard({
     const rows = buildProgressionRows(currentRows, previousRows);
     return rows.map((row) => {
       if (row.classLevel !== "SSS2 - SSS3") return row;
-      const currentLearners = applySs3EnrollmentOverride(
-        renderFilters.session,
-        "SSS3",
-        row.currentLearners,
-        renderFilters,
-        disabilityMode,
-      );
+      const currentLearners = row.currentLearners;
       const netChange = currentLearners - row.previousLearners;
       const changePct =
         row.previousLearners > 0 ? (netChange / row.previousLearners) * 100 : currentLearners > 0 ? 100 : 0;
@@ -4779,7 +4890,7 @@ export default function AccessCoverageDashboard({
         changePct,
       };
     });
-  }, [currentRows, previousRows, renderFilters, disabilityMode]);
+  }, [currentRows, previousRows]);
 
   const keyEntryStateChart = useMemo<{ level: LocationLevel; bundle: ChartBundle }>(() => {
     const effectiveState = renderKeyEntryStateDrill.state ?? (renderFilters.state || undefined);

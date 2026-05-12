@@ -1,541 +1,541 @@
-session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,271,699,752,161,152,15,134,0,458,9
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,264,679,765,185,170,15,130,0,448,13
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,293,756,866,197,183,15,144,0,518,13
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,289,745,823,171,156,15,142,0,506,14
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,223,577,635,148,138,15,109,0,376,9
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,52,132,138,45,44,0,26,0,70,1
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,225,580,647,284,260,30,110,0,263,22
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,34,88,96,35,34,0,17,0,45,1
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,71,184,200,80,75,0,35,0,89,4
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,199,514,563,239,227,15,98,0,236,11
-2022/2023,Female,ALL,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,280,724,787,548,515,30,137,0,137,29
-2022/2023,Female,ALL,NABTEB,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,55,141,161,138,131,15,28,0,4,7
-2022/2023,Female,ALL,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,327,843,900,647,583,74,162,0,138,58
-2022/2023,Female,ALL,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,260,670,733,509,461,45,128,0,129,43
-2022/2023,Female,ALL,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,164,423,452,350,310,45,80,0,47,36
-2022/2023,Female,ALL,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,469,1206,1318,315,281,30,232,0,774,31
-2022/2023,Female,ALL,NECO,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,507,1307,1455,387,335,60,249,0,819,47
-2022/2023,Female,ALL,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,570,1468,1627,399,355,45,282,0,946,40
-2022/2023,Female,ALL,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,541,1394,1534,364,324,45,267,0,904,36
-2022/2023,Female,ALL,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,377,971,1078,263,237,30,186,0,628,24
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,106,272,289,125,106,15,53,0,119,17
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,413,1065,1201,583,511,74,203,0,438,65
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,63,161,172,67,60,15,31,0,77,7
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,123,318,331,137,118,15,61,0,142,17
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,363,936,1015,446,392,60,178,0,413,49
-2022/2023,Female,ALL,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,577,1486,1660,1247,1112,149,284,0,207,122
-2022/2023,Female,ALL,NECO,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,87,225,253,237,206,30,43,0,0,28
-2022/2023,Female,ALL,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,602,1553,1670,1303,1151,164,296,0,164,137
-2022/2023,Female,ALL,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,469,1209,1277,983,869,119,231,0,137,103
-2022/2023,Female,ALL,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,309,797,860,695,601,104,153,0,63,85
-2022/2023,Female,ALL,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,627,1616,1762,394,368,30,309,0,1060,23
-2022/2023,Female,ALL,WAEC,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,632,1629,1804,463,439,30,311,0,1031,22
-2022/2023,Female,ALL,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,666,1718,1923,472,434,45,327,0,1118,35
-2022/2023,Female,ALL,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,716,1846,1995,468,445,30,353,0,1180,21
-2022/2023,Female,ALL,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,535,1379,1511,355,336,15,264,0,893,17
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,144,372,385,167,155,15,71,0,158,11
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,532,1371,1538,717,691,30,262,0,588,23
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,73,190,212,92,91,0,36,0,87,1
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,197,506,519,205,196,15,97,0,232,8
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,475,1225,1318,595,557,45,234,0,521,34
-2022/2023,Female,ALL,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,755,1946,2076,1578,1479,104,372,0,241,90
-2022/2023,Female,ALL,WAEC,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,133,344,412,354,323,30,65,0,11,28
-2022/2023,Female,ALL,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,838,2162,2355,1837,1717,134,413,0,231,109
-2022/2023,Female,ALL,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,601,1549,1658,1126,1076,60,297,0,314,45
-2022/2023,Female,ALL,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,390,1005,1101,906,861,45,192,0,66,41
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,25,64,66,29,25,0,12,0,27,3
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,24,63,61,30,27,0,12,0,22,3
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,20,52,55,22,20,0,9,0,24,2
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,24,63,66,24,22,0,12,0,31,2
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,17,43,47,17,15,0,8,0,23,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,4,12,7,8,7,0,2,3,0,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,22,59,58,45,40,0,10,0,6,5
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,4,9,10,8,7,0,2,0,1,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,5,12,15,9,8,0,3,0,4,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,19,48,52,29,28,0,9,0,16,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,24,60,63,77,69,15,12,0,0,8
-2022/2023,Female,Disabled,NABTEB,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,4,10,10,15,13,0,1,0,0,2
-2022/2023,Female,Disabled,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,25,64,67,81,77,0,12,0,0,3
-2022/2023,Female,Disabled,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,25,65,70,81,80,0,12,0,0,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,17,44,47,56,55,0,8,0,0,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,35,90,107,28,24,0,17,0,61,3
-2022/2023,Female,Disabled,NECO,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,38,98,108,30,27,0,19,0,60,3
-2022/2023,Female,Disabled,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,40,103,114,23,21,0,20,0,71,2
-2022/2023,Female,Disabled,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,44,114,132,23,21,0,22,0,85,2
-2022/2023,Female,Disabled,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,28,73,85,15,14,0,14,0,54,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,10,25,24,9,7,0,5,0,11,2
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,32,82,91,44,39,0,16,0,33,5
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,5,12,12,8,7,0,3,0,3,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,9,25,27,8,7,0,4,0,15,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,34,86,96,39,38,0,17,0,42,1
-2022/2023,Female,Disabled,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,45,118,134,84,77,0,22,0,32,6
-2022/2023,Female,Disabled,NECO,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,5,12,17,12,11,0,3,0,3,1
-2022/2023,Female,Disabled,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,42,107,122,91,74,15,21,0,16,15
-2022/2023,Female,Disabled,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,41,106,117,87,74,15,20,0,15,12
-2022/2023,Female,Disabled,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,26,68,83,46,41,0,13,0,25,5
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,48,124,139,27,24,0,24,0,88,2
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,50,130,137,29,28,0,24,0,84,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,50,127,142,25,23,0,25,0,91,2
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,56,143,157,33,32,0,28,0,96,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,41,105,118,25,24,0,21,0,72,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,14,34,34,13,12,0,8,0,15,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,45,115,131,42,39,0,23,0,67,3
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,6,14,16,8,7,0,3,0,6,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,15,37,37,13,12,0,8,0,18,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,43,109,117,42,39,0,22,0,56,3
-2022/2023,Female,Disabled,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,62,158,174,91,88,0,31,0,58,2
-2022/2023,Female,Disabled,WAEC,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,7,18,19,12,11,0,3,0,4,1
-2022/2023,Female,Disabled,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,58,149,157,93,85,15,28,0,42,7
-2022/2023,Female,Disabled,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,54,137,151,93,88,0,27,0,37,4
-2022/2023,Female,Disabled,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,34,86,92,72,66,0,17,0,9,5
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,249,642,698,160,157,0,122,0,416,3
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,252,649,729,171,164,15,124,0,431,7
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,278,717,794,195,183,15,136,0,462,11
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,277,717,799,190,176,15,135,0,470,13
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,217,561,611,143,131,15,106,0,362,11
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,50,128,143,58,49,15,25,0,63,8
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,217,560,619,284,248,45,106,0,240,33
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,34,89,92,22,21,0,16,0,54,1
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,63,164,164,67,62,0,30,0,71,5
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,191,493,563,237,236,0,94,0,238,1
-2022/2023,Male,ALL,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,279,718,778,552,515,45,137,0,126,33
-2022/2023,Male,ALL,NABTEB,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,44,114,128,116,107,15,22,0,0,8
-2022/2023,Male,ALL,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,314,810,889,586,542,45,154,0,184,40
-2022/2023,Male,ALL,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,245,629,684,475,439,45,122,0,121,32
-2022/2023,Male,ALL,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,167,432,470,311,286,30,82,0,97,22
-2022/2023,Male,ALL,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,439,1133,1211,293,254,45,216,0,708,35
-2022/2023,Male,ALL,NECO,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,490,1263,1395,399,354,45,242,0,760,41
-2022/2023,Male,ALL,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,518,1336,1492,393,343,60,255,0,844,45
-2022/2023,Male,ALL,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,492,1269,1388,351,305,45,242,0,798,41
-2022/2023,Male,ALL,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,387,997,1095,280,254,30,191,0,627,23
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,92,237,248,102,83,15,45,0,107,17
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,437,1125,1242,637,570,74,216,0,422,61
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,57,147,152,67,60,15,28,0,61,7
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,117,302,320,137,118,15,57,0,133,17
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,366,945,1019,538,488,60,180,0,333,45
-2022/2023,Male,ALL,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,564,1451,1564,1247,1134,119,279,0,130,102
-2022/2023,Male,ALL,NECO,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,78,202,229,237,206,30,39,0,0,28
-2022/2023,Male,ALL,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,558,1438,1569,1224,1085,149,275,0,154,126
-2022/2023,Male,ALL,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,454,1170,1216,966,869,104,225,0,104,87
-2022/2023,Male,ALL,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,328,847,927,790,699,104,162,0,31,82
-2022/2023,Male,ALL,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,612,1578,1726,395,368,30,301,0,1030,24
-2022/2023,Male,ALL,WAEC,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,611,1575,1781,452,432,15,301,0,1022,18
-2022/2023,Male,ALL,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,645,1662,1853,458,432,30,318,0,1075,23
-2022/2023,Male,ALL,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,665,1714,1956,501,470,30,327,0,1119,28
-2022/2023,Male,ALL,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,521,1344,1456,361,346,15,257,0,844,13
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,129,332,337,149,145,0,64,0,136,4
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,566,1460,1627,804,740,74,279,0,580,58
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,74,191,205,92,91,0,37,0,82,1
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,153,395,428,197,186,15,76,0,166,10
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,480,1237,1330,635,585,60,236,0,495,45
-2022/2023,Male,ALL,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,724,1867,1982,1531,1470,60,357,0,209,55
-2022/2023,Male,ALL,WAEC,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,119,307,353,341,305,45,59,0,0,32
-2022/2023,Male,ALL,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,774,1995,2193,1742,1649,104,382,0,187,84
-2022/2023,Male,ALL,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,596,1535,1630,1181,1129,60,294,0,242,47
-2022/2023,Male,ALL,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,417,1073,1177,966,910,60,206,0,73,50
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,21,55,54,28,24,0,10,0,18,3
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,23,59,58,30,27,0,11,0,20,3
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,19,51,55,23,20,0,9,0,23,3
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,22,56,63,23,22,0,11,0,30,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,17,44,47,15,14,0,8,0,24,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,4,10,12,9,8,0,2,0,2,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,20,51,54,45,40,0,10,0,2,5
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,3,8,9,0,0,0,2,0,7,0
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,4,10,10,9,8,0,2,0,0,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,17,44,46,22,21,0,9,0,17,1
-2022/2023,Male,Disabled,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,23,59,70,77,69,15,11,0,0,8
-2022/2023,Male,Disabled,NABTEB,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,3,9,9,15,13,0,1,0,0,2
-2022/2023,Male,Disabled,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,24,63,68,74,66,15,11,0,0,7
-2022/2023,Male,Disabled,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,23,60,67,84,80,0,11,0,0,4
-2022/2023,Male,Disabled,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,16,43,45,38,37,0,7,0,2,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,33,85,95,29,24,0,16,0,50,4
-2022/2023,Male,Disabled,NECO,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,37,94,107,30,27,0,18,0,59,3
-2022/2023,Male,Disabled,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,41,106,122,28,25,0,21,0,73,2
-2022/2023,Male,Disabled,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,40,103,116,22,21,0,19,0,73,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,30,79,86,14,13,0,15,0,56,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,9,22,26,9,8,0,5,0,13,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,35,90,103,44,39,0,17,0,43,5
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,4,10,11,8,7,0,2,0,2,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,9,22,21,8,7,0,4,0,10,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,30,76,86,39,35,0,16,0,34,3
-2022/2023,Male,Disabled,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,48,122,132,87,80,15,25,0,27,7
-2022/2023,Male,Disabled,NECO,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,4,10,16,12,11,0,2,0,2,1
-2022/2023,Male,Disabled,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,38,99,112,87,74,15,18,0,11,12
-2022/2023,Male,Disabled,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,41,105,113,87,77,15,20,0,12,9
-2022/2023,Male,Disabled,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,28,71,77,50,44,0,14,0,17,5
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,43,114,126,27,24,0,20,0,77,2
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,49,126,141,32,31,0,24,0,84,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,52,132,147,30,28,0,26,0,91,2
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,53,136,152,30,28,0,27,0,95,2
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,41,105,111,19,18,0,20,0,72,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,11,29,29,13,12,0,6,0,11,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,44,114,124,42,39,0,21,0,62,3
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,6,16,17,8,7,0,3,0,7,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,11,29,29,13,12,0,6,0,11,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,41,103,111,40,39,0,21,0,53,1
-2022/2023,Male,Disabled,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,61,156,162,100,98,0,31,0,40,1
-2022/2023,Male,Disabled,WAEC,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,6,16,17,12,11,0,3,0,3,1
-2022/2023,Male,Disabled,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,57,148,166,93,88,0,28,0,49,4
-2022/2023,Male,Disabled,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,52,135,151,93,85,15,26,0,37,7
-2022/2023,Male,Disabled,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,34,86,95,74,66,15,17,0,9,7
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,284,734,796,110,108,0,139,0,541,1
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,280,722,824,131,125,0,137,0,544,5
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,307,793,907,129,119,15,151,0,612,9
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,313,806,891,131,119,15,155,0,598,10
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,238,615,681,103,95,15,117,0,454,7
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,58,150,163,63,56,0,29,0,74,6
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,230,591,672,302,278,30,114,0,267,22
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,39,102,108,49,42,0,19,0,43,6
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,75,195,200,76,67,15,36,0,92,8
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,206,531,596,285,261,30,102,0,221,22
-2023/2024,Female,ALL,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,317,816,900,492,450,45,156,0,278,38
-2023/2024,Female,ALL,NABTEB,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,51,131,154,100,87,15,25,0,34,11
-2023/2024,Female,ALL,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,350,902,987,521,468,60,173,0,322,48
-2023/2024,Female,ALL,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,266,686,731,408,384,30,132,0,218,22
-2023/2024,Female,ALL,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,179,462,500,312,307,0,87,0,120,4
-2023/2024,Female,ALL,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,501,1291,1391,226,200,30,248,0,914,23
-2023/2024,Female,ALL,NECO,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,503,1295,1485,247,213,30,248,0,970,30
-2023/2024,Female,ALL,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,566,1460,1649,264,233,30,277,0,1086,28
-2023/2024,Female,ALL,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,536,1380,1510,234,205,30,265,0,1001,27
-2023/2024,Female,ALL,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,452,1165,1281,204,183,30,222,0,845,19
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,107,276,285,136,115,30,52,0,106,19
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,437,1125,1233,621,550,74,216,0,430,64
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,69,177,183,87,75,15,34,0,68,11
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,145,376,370,160,140,15,71,0,152,18
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,363,937,1042,520,460,60,179,0,367,54
-2023/2024,Female,ALL,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,573,1476,1600,1021,889,149,282,0,363,119
-2023/2024,Female,ALL,NECO,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,104,267,317,259,234,30,51,0,21,22
-2023/2024,Female,ALL,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,657,1693,1775,1095,966,134,325,0,436,117
-2023/2024,Female,ALL,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,495,1276,1355,791,699,104,245,0,374,83
-2023/2024,Female,ALL,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,339,874,952,595,520,74,168,0,227,68
-2023/2024,Female,ALL,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,684,1765,1912,278,269,15,336,0,1285,8
-2023/2024,Female,ALL,WAEC,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,695,1791,1979,320,302,15,342,0,1301,16
-2023/2024,Female,ALL,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,735,1893,2098,325,301,30,362,0,1392,22
-2023/2024,Female,ALL,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,796,2053,2270,357,334,30,392,0,1501,21
-2023/2024,Female,ALL,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,572,1475,1612,246,231,15,281,0,1073,13
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,140,362,383,158,152,0,69,0,165,6
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,592,1526,1661,822,788,30,291,0,592,31
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,87,225,245,106,95,15,43,0,101,10
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,191,492,504,223,210,15,94,0,203,12
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,510,1315,1444,677,645,30,250,0,548,29
-2023/2024,Female,ALL,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,788,2031,2199,1365,1269,104,388,0,533,87
-2023/2024,Female,ALL,WAEC,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,120,309,358,277,260,15,59,0,38,15
-2023/2024,Female,ALL,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,891,2296,2510,1524,1467,60,440,0,639,52
-2023/2024,Female,ALL,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,650,1675,1804,1060,994,74,320,0,492,59
-2023/2024,Female,ALL,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,433,1116,1198,759,710,60,214,0,277,44
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,24,63,63,18,17,0,12,0,35,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,26,65,68,18,17,0,13,0,39,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,22,58,63,14,13,0,11,0,38,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,23,59,58,14,13,0,11,0,34,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,17,44,46,11,10,0,8,0,27,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,5,13,15,8,7,0,2,0,5,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,22,55,58,45,41,0,11,0,6,4
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,4,10,10,8,7,0,1,0,1,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,6,16,15,10,9,0,3,0,3,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,18,47,46,35,32,0,9,0,5,3
-2023/2024,Female,Disabled,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,24,63,68,61,54,0,12,0,0,6
-2023/2024,Female,Disabled,NABTEB,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,4,10,14,11,10,0,1,0,1,1
-2023/2024,Female,Disabled,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,26,65,68,71,64,0,13,0,0,6
-2023/2024,Female,Disabled,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,26,69,68,74,66,15,12,0,0,7
-2023/2024,Female,Disabled,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,17,44,46,44,43,0,8,0,0,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,37,94,108,20,18,0,18,0,69,2
-2023/2024,Female,Disabled,NECO,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,38,99,119,20,18,0,18,0,78,2
-2023/2024,Female,Disabled,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,39,101,112,15,14,0,19,0,76,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,41,107,123,14,13,0,20,0,86,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,33,85,95,11,10,0,16,0,66,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,9,22,24,10,9,0,4,0,10,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,35,89,107,55,50,0,18,0,36,5
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,5,13,14,10,9,0,3,0,2,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,11,29,29,8,7,0,5,0,16,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,29,75,83,32,29,0,14,0,38,3
-2023/2024,Female,Disabled,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,51,132,147,76,69,15,25,0,49,7
-2023/2024,Female,Disabled,NECO,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,5,13,19,11,10,0,3,0,5,1
-2023/2024,Female,Disabled,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,50,128,144,71,69,0,24,0,52,2
-2023/2024,Female,Disabled,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,46,120,138,71,66,0,22,0,47,4
-2023/2024,Female,Disabled,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,30,79,88,42,41,0,15,0,33,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,52,136,144,21,19,0,25,0,97,2
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,53,136,158,21,19,0,27,0,108,2
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,54,140,158,21,17,0,27,0,108,4
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,63,160,173,27,25,0,33,0,115,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,46,119,123,19,18,0,23,0,82,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,14,35,40,15,14,0,7,0,18,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,45,116,127,45,41,0,22,0,61,4
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,7,18,19,8,7,0,3,0,8,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,14,35,35,15,14,0,7,0,14,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,46,118,128,48,46,0,24,0,60,1
-2023/2024,Female,Disabled,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,65,167,178,84,66,15,33,0,67,16
-2023/2024,Female,Disabled,WAEC,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,8,20,21,11,10,0,4,0,7,1
-2023/2024,Female,Disabled,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,67,173,185,84,76,15,34,0,73,7
-2023/2024,Female,Disabled,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,58,150,163,84,76,15,29,0,55,7
-2023/2024,Female,Disabled,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,38,97,105,63,62,0,19,0,27,1
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,282,728,775,115,110,0,139,0,519,5
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,255,656,729,114,110,0,126,0,483,4
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,293,755,828,123,111,15,144,0,554,11
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,288,742,810,118,107,15,142,0,544,10
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,233,601,663,95,86,15,115,0,447,8
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,54,139,142,63,56,0,27,0,57,6
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,235,606,684,337,316,30,115,0,245,19
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,35,90,98,38,37,0,17,0,45,1
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,66,171,169,63,56,0,32,0,79,6
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,202,521,581,278,261,15,99,0,216,15
-2023/2024,Male,ALL,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,315,811,889,503,482,30,156,0,259,19
-2023/2024,Male,ALL,NABTEB,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,48,123,144,100,92,15,23,0,26,7
-2023/2024,Male,ALL,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,333,860,958,539,487,60,162,0,283,47
-2023/2024,Male,ALL,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,258,666,704,389,384,0,126,0,214,5
-2023/2024,Male,ALL,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,172,444,497,259,252,0,85,0,165,6
-2023/2024,Male,ALL,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,479,1235,1339,222,197,30,236,0,875,23
-2023/2024,Male,ALL,NECO,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,495,1276,1396,243,213,30,244,0,902,27
-2023/2024,Male,ALL,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,554,1429,1583,274,239,45,273,0,1024,32
-2023/2024,Male,ALL,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,497,1280,1399,239,213,30,246,0,908,23
-2023/2024,Male,ALL,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,440,1136,1281,204,181,30,216,0,845,20
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,95,245,254,98,90,15,46,0,115,8
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,443,1142,1269,682,588,104,219,0,403,85
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,64,166,167,87,75,15,31,0,55,11
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,138,356,371,185,154,30,68,0,131,28
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,354,913,1015,520,468,60,175,0,346,47
-2023/2024,Male,ALL,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,575,1484,1583,1018,893,134,283,0,352,113
-2023/2024,Male,ALL,NECO,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,94,242,269,195,168,30,46,0,40,24
-2023/2024,Male,ALL,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,629,1624,1756,1130,991,149,309,0,389,126
-2023/2024,Male,ALL,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,488,1257,1343,840,739,104,240,0,320,91
-2023/2024,Male,ALL,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,342,883,955,659,607,60,168,0,171,47
-2023/2024,Male,ALL,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,675,1739,1844,295,279,15,333,0,1215,15
-2023/2024,Male,ALL,WAEC,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,623,1606,1780,293,273,15,307,0,1165,18
-2023/2024,Male,ALL,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,705,1820,2062,336,316,15,346,0,1353,18
-2023/2024,Male,ALL,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,749,1929,2147,343,331,15,370,0,1415,11
-2023/2024,Male,ALL,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,551,1421,1572,252,239,15,271,0,1035,12
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,113,290,320,136,129,0,56,0,134,6
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,615,1586,1758,854,807,45,303,0,641,42
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,77,199,214,95,94,0,38,0,86,1
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,149,386,404,168,166,0,73,0,173,2
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,529,1363,1508,737,700,45,261,0,546,33
-2023/2024,Male,ALL,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,764,1968,2185,1347,1265,89,377,0,538,74
-2023/2024,Male,ALL,WAEC,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,112,289,335,262,246,15,56,0,32,15
-2023/2024,Male,ALL,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,851,2193,2358,1503,1394,119,419,0,536,99
-2023/2024,Male,ALL,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,619,1596,1696,1042,999,45,305,0,421,39
-2023/2024,Male,ALL,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,445,1145,1225,783,753,30,220,0,276,27
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,22,56,57,18,17,0,11,0,30,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,22,56,57,18,17,0,11,0,30,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,21,55,58,15,14,0,10,0,33,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,22,56,61,14,13,0,11,0,36,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,17,43,44,12,11,0,8,0,24,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,4,12,14,8,7,0,2,0,4,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,20,52,52,45,41,0,10,0,1,4
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,3,9,9,8,7,0,1,0,0,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,5,13,14,8,7,0,3,0,4,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,18,48,52,32,31,0,8,0,13,1
-2023/2024,Male,Disabled,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,26,67,67,63,58,0,12,0,0,5
-2023/2024,Male,Disabled,NABTEB,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,3,9,9,11,10,0,1,0,0,1
-2023/2024,Male,Disabled,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,24,61,67,61,54,0,11,0,0,6
-2023/2024,Male,Disabled,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,25,64,67,74,66,15,12,0,0,7
-2023/2024,Male,Disabled,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,17,46,49,32,31,0,8,0,10,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,35,92,111,20,18,0,16,0,71,2
-2023/2024,Male,Disabled,NECO,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,37,97,103,20,18,0,18,0,65,2
-2023/2024,Male,Disabled,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,41,105,113,18,17,0,20,0,75,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,39,102,116,13,12,0,19,0,81,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,34,86,97,11,10,0,17,0,68,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,9,24,25,10,9,0,4,0,11,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,37,97,111,50,44,0,18,0,44,5
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,4,12,12,8,7,0,2,0,3,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,9,25,25,8,7,0,4,0,13,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,30,77,87,42,38,0,14,0,32,4
-2023/2024,Male,Disabled,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,47,120,137,76,69,15,23,0,41,7
-2023/2024,Male,Disabled,NECO,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,4,12,16,13,12,0,2,0,1,1
-2023/2024,Male,Disabled,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,46,120,134,76,69,15,22,0,39,7
-2023/2024,Male,Disabled,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,43,111,123,71,69,0,22,0,35,2
-2023/2024,Male,Disabled,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,29,75,82,42,41,0,14,0,28,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,50,130,139,17,14,0,24,0,97,2
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,50,130,139,19,17,0,25,0,95,2
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,55,140,161,21,17,0,28,0,110,4
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,60,153,170,21,20,0,31,0,118,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,43,111,119,19,18,0,21,0,79,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,11,29,31,8,7,0,6,0,18,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,50,128,139,48,42,0,25,0,69,5
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,6,16,15,8,7,0,2,0,5,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,13,31,32,8,7,0,7,0,19,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,44,111,118,45,44,0,23,0,54,1
-2023/2024,Male,Disabled,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,65,166,190,84,76,15,34,0,77,7
-2023/2024,Male,Disabled,WAEC,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,6,16,15,11,10,0,2,0,2,1
-2023/2024,Male,Disabled,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,63,161,174,84,76,15,32,0,64,7
-2023/2024,Male,Disabled,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,58,148,163,84,79,0,29,0,55,5
-2023/2024,Male,Disabled,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,37,96,105,53,50,0,19,0,36,3
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,380,979,652,277,254,22,187,224,274,20
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,408,1052,701,298,274,24,201,241,294,21
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,439,1132,754,321,294,26,217,259,316,24
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,429,1106,735,313,288,25,211,254,308,23
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,325,839,558,237,218,19,160,193,234,17
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,88,226,151,64,59,5,44,52,63,5
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,342,882,587,250,229,20,168,202,246,19
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,47,120,81,34,31,3,23,27,34,3
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,103,266,177,75,69,6,51,61,74,6
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,295,760,507,216,198,17,146,174,212,16
-2024/2025,Female,ALL,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,440,1133,755,321,295,26,217,259,317,23
-2024/2025,Female,ALL,NABTEB,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,83,215,143,61,56,5,41,49,60,4
-2024/2025,Female,ALL,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,491,1267,844,358,330,29,242,290,354,26
-2024/2025,Female,ALL,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,381,981,653,278,256,22,188,225,274,20
-2024/2025,Female,ALL,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,248,640,426,181,167,14,122,147,178,13
-2024/2025,Female,ALL,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,738,1904,1267,539,496,43,363,437,531,39
-2024/2025,Female,ALL,NECO,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,712,1834,1222,519,478,42,351,420,513,37
-2024/2025,Female,ALL,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,806,2077,1383,587,541,47,397,476,580,42
-2024/2025,Female,ALL,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,799,2058,1370,583,535,47,394,472,574,43
-2024/2025,Female,ALL,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,588,1515,1009,429,395,34,290,347,423,31
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,143,366,244,104,95,8,71,84,102,8
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,576,1484,988,420,386,34,284,340,414,31
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,89,228,152,64,60,5,44,52,64,4
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,199,512,341,145,133,12,98,117,143,11
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,538,1387,923,393,362,31,265,318,387,28
-2024/2025,Female,ALL,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,798,2057,1370,582,535,47,393,471,575,42
-2024/2025,Female,ALL,NECO,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,152,393,261,111,102,9,75,90,110,8
-2024/2025,Female,ALL,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,900,2321,1546,657,604,53,443,532,648,48
-2024/2025,Female,ALL,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,694,1789,1191,507,466,41,342,410,499,37
-2024/2025,Female,ALL,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,450,1161,773,329,302,26,222,266,324,24
-2024/2025,Female,ALL,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,1008,2599,1730,736,677,59,497,596,725,53
-2024/2025,Female,ALL,WAEC,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,912,2350,1564,665,612,53,449,539,656,48
-2024/2025,Female,ALL,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1084,2794,1860,791,728,63,534,640,780,57
-2024/2025,Female,ALL,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,1044,2693,1792,762,701,61,514,618,751,55
-2024/2025,Female,ALL,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,814,2097,1396,594,546,48,401,481,585,43
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,206,531,353,150,138,12,101,122,148,11
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,818,2109,1404,597,549,48,403,484,588,44
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,123,317,210,90,82,7,60,73,88,7
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,283,731,487,207,190,17,139,168,204,15
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,713,1838,1223,520,479,42,351,422,513,37
-2024/2025,Female,ALL,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,1056,2723,1812,770,709,62,520,625,760,55
-2024/2025,Female,ALL,WAEC,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,195,502,335,143,131,11,96,115,140,11
-2024/2025,Female,ALL,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1249,3220,2144,911,838,73,616,738,899,66
-2024/2025,Female,ALL,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,953,2456,1635,695,639,56,469,563,686,50
-2024/2025,Female,ALL,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,601,1548,1030,438,403,35,296,355,432,32
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,35,89,60,25,23,2,17,20,25,2
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,37,96,63,27,24,2,18,22,27,2
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,32,84,56,23,22,2,16,19,24,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,34,88,58,25,23,2,17,20,24,2
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,25,64,42,18,17,1,12,15,18,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,7,20,12,6,6,0,3,5,5,0
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,32,84,56,23,22,2,16,19,24,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,5,13,9,3,3,0,3,3,4,0
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,7,18,12,6,4,0,3,4,5,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,27,68,46,20,18,2,14,15,19,2
-2024/2025,Female,Disabled,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,37,96,63,27,24,2,18,22,27,2
-2024/2025,Female,Disabled,NABTEB,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,5,13,9,3,3,0,3,3,4,0
-2024/2025,Female,Disabled,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,38,98,66,28,25,2,19,22,28,2
-2024/2025,Female,Disabled,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,38,98,66,28,25,2,19,22,28,2
-2024/2025,Female,Disabled,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,25,64,42,18,17,1,12,15,18,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,56,143,96,41,38,3,28,32,40,3
-2024/2025,Female,Disabled,NECO,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,57,147,97,41,38,3,28,34,41,3
-2024/2025,Female,Disabled,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,56,145,96,41,38,3,27,34,40,3
-2024/2025,Female,Disabled,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,58,149,100,42,39,3,28,34,42,3
-2024/2025,Female,Disabled,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,43,111,75,32,29,3,22,25,31,3
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,15,37,25,11,10,1,8,8,10,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,47,120,81,34,31,3,23,27,34,3
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,7,20,12,6,6,0,3,5,5,0
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,16,42,27,12,11,1,8,10,11,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,43,111,75,32,29,3,22,25,31,3
-2024/2025,Female,Disabled,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,64,165,111,46,43,4,32,37,47,3
-2024/2025,Female,Disabled,NECO,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,7,18,12,6,4,0,3,4,5,1
-2024/2025,Female,Disabled,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,64,164,110,46,43,4,32,37,46,3
-2024/2025,Female,Disabled,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,60,153,102,43,40,3,30,35,43,3
-2024/2025,Female,Disabled,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,42,107,71,31,28,2,21,25,29,3
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,76,195,129,55,51,4,38,45,54,4
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,72,184,123,52,49,4,36,42,52,3
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,76,196,131,55,51,4,38,45,55,4
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,84,216,144,61,56,5,42,49,61,4
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,67,171,114,49,44,4,33,39,48,4
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,18,46,31,13,12,1,9,10,13,1
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,69,178,118,50,46,4,33,41,50,3
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,9,24,16,7,7,1,5,5,7,0
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,19,51,34,14,13,1,9,12,14,1
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,67,171,114,49,44,4,33,39,48,4
-2024/2025,Female,Disabled,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,87,224,149,63,59,5,43,51,63,4
-2024/2025,Female,Disabled,WAEC,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,11,30,20,9,8,1,5,7,8,1
-2024/2025,Female,Disabled,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,90,233,154,66,61,5,44,54,64,5
-2024/2025,Female,Disabled,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,86,221,147,62,58,5,42,51,62,4
-2024/2025,Female,Disabled,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,49,126,83,35,32,3,24,29,35,3
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,356,917,611,260,239,21,175,210,256,19
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,397,1023,681,290,267,23,196,235,285,21
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,416,1073,714,303,279,24,205,246,300,22
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,402,1035,689,293,270,23,198,237,289,21
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,305,785,523,222,205,18,150,180,219,16
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,70,181,121,51,46,4,34,41,51,4
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,348,898,597,254,233,20,172,206,250,19
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,45,116,77,33,30,3,22,27,32,3
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,85,220,146,62,58,5,41,51,61,4
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,278,717,478,204,187,16,137,164,200,15
-2024/2025,Male,ALL,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,433,1116,743,315,291,25,213,256,312,22
-2024/2025,Male,ALL,NABTEB,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,73,190,126,53,50,4,36,44,53,3
-2024/2025,Male,ALL,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,464,1196,796,338,312,27,229,274,334,24
-2024/2025,Male,ALL,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,365,939,626,265,244,21,180,215,263,19
-2024/2025,Male,ALL,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,253,653,436,185,170,15,125,149,183,13
-2024/2025,Male,ALL,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,701,1807,1202,511,470,41,345,415,504,37
-2024/2025,Male,ALL,NECO,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,699,1802,1200,510,469,41,345,413,503,37
-2024/2025,Male,ALL,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,754,1946,1296,551,507,44,371,446,543,40
-2024/2025,Male,ALL,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,746,1923,1281,544,501,44,367,441,537,39
-2024/2025,Male,ALL,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,587,1513,1007,428,394,34,289,347,422,31
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,118,305,203,86,80,7,58,70,85,6
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,609,1571,1045,445,409,36,300,361,438,32
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,78,202,134,56,52,5,38,46,57,4
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,176,454,302,128,118,10,86,104,127,9
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,516,1329,885,376,346,30,254,305,371,27
-2024/2025,Male,ALL,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,777,2002,1333,566,521,45,383,459,559,41
-2024/2025,Male,ALL,NECO,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,131,339,225,96,88,8,64,78,94,7
-2024/2025,Male,ALL,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,844,2176,1449,616,566,49,416,499,607,45
-2024/2025,Male,ALL,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,668,1723,1147,488,449,39,329,395,481,35
-2024/2025,Male,ALL,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,478,1231,819,348,321,28,235,283,343,25
-2024/2025,Male,ALL,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,951,2452,1633,694,638,56,469,562,685,50
-2024/2025,Male,ALL,WAEC,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,923,2378,1583,673,619,54,455,545,664,48
-2024/2025,Male,ALL,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1002,2584,1720,731,673,59,493,593,721,53
-2024/2025,Male,ALL,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,1003,2587,1722,732,674,59,494,593,722,53
-2024/2025,Male,ALL,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,799,2060,1371,583,536,47,394,472,575,42
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,164,424,282,119,111,10,81,97,119,8
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,851,2193,1460,621,571,50,419,503,612,45
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,104,268,179,76,70,6,52,61,75,6
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,241,620,413,176,161,14,119,142,173,13
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,709,1828,1217,517,476,41,349,419,511,37
-2024/2025,Male,ALL,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,1036,2671,1778,755,695,60,510,612,746,55
-2024/2025,Male,ALL,WAEC,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,194,500,332,142,131,11,95,115,139,10
-2024/2025,Male,ALL,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1167,3009,2004,852,783,68,574,690,840,62
-2024/2025,Male,ALL,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,944,2432,1620,688,634,55,465,557,680,49
-2024/2025,Male,ALL,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,649,1674,1114,473,436,38,320,384,467,34
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,30,79,52,22,21,2,15,18,22,1
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,32,84,56,23,22,2,16,19,24,1
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,30,77,51,22,20,2,15,18,21,2
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,31,81,54,23,21,2,15,19,22,2
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,23,60,40,17,15,1,11,14,17,1
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,6,17,11,4,4,0,3,4,5,0
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,30,77,51,22,20,2,15,18,21,2
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,4,12,7,3,3,0,2,3,3,0
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,6,17,11,4,4,0,3,4,5,0
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,25,64,42,18,17,1,12,15,18,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,36,93,61,27,24,2,17,22,25,2
-2024/2025,Male,Disabled,NABTEB,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,4,12,7,3,3,0,2,3,3,0
-2024/2025,Male,Disabled,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,34,86,57,24,22,2,17,20,24,2
-2024/2025,Male,Disabled,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,35,90,61,25,23,2,18,20,26,2
-2024/2025,Male,Disabled,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,23,60,40,17,15,1,11,14,17,1
-2024/2025,Male,Disabled,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,53,137,91,39,35,3,26,32,38,3
-2024/2025,Male,Disabled,NECO,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,54,139,92,40,37,3,26,32,38,3
-2024/2025,Male,Disabled,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,57,147,97,41,38,3,28,34,41,3
-2024/2025,Male,Disabled,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,60,156,103,44,41,4,29,36,43,3
-2024/2025,Male,Disabled,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,45,115,76,32,30,3,22,27,32,2
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,11,29,19,8,8,1,5,7,8,0
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,49,126,83,35,32,3,24,29,35,3
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,6,17,11,4,4,0,3,4,5,0
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,14,35,24,10,9,1,7,8,10,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,46,119,80,34,31,3,23,27,33,3
-2024/2025,Male,Disabled,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,65,167,111,48,43,4,32,39,46,4
-2024/2025,Male,Disabled,NECO,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,7,20,12,6,6,0,3,5,5,0
-2024/2025,Male,Disabled,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,66,170,113,49,44,4,32,39,47,4
-2024/2025,Male,Disabled,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,64,164,110,46,43,4,32,37,46,3
-2024/2025,Male,Disabled,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,40,103,68,29,27,2,19,24,29,2
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,67,171,114,49,44,4,33,39,48,4
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Ibadan South,South West,Oyo,Ibadan South,,,71,183,122,52,48,4,35,42,51,4
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,75,194,129,55,51,4,37,44,54,4
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,78,202,134,58,52,5,38,46,56,5
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,60,154,103,44,41,4,30,35,43,3
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,17,44,30,12,12,1,9,10,13,0
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ibadan South,South West,Oyo,Ibadan South,,,67,173,116,49,45,4,33,39,49,3
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,10,25,17,8,7,1,5,5,7,1
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,20,52,35,14,13,1,10,12,15,1
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,60,156,103,44,40,4,29,36,43,4
-2024/2025,Male,Disabled,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,90,233,154,66,61,5,44,54,64,5
-2024/2025,Male,Disabled,WAEC,University,lga,Ibadan South,South West,Oyo,Ibadan South,,,11,29,19,8,8,1,5,7,8,0
-2024/2025,Male,Disabled,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,84,216,144,61,56,5,42,49,61,4
-2024/2025,Male,Disabled,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,82,211,139,60,54,5,40,49,58,5
-2024/2025,Male,Disabled,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,53,136,91,39,35,3,26,31,38,3
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated,median_time_to_matriculation_years
+2022/2023,Female,ALL,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,1415,4246,3073,1287,1183,65,0,1173,1786,104,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,643,1930,1397,585,538,30,0,533,812,47,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,515,1544,1117,468,430,24,0,427,649,38,1.8
+2022/2023,Female,ALL,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,662,1986,1437,602,553,30,0,549,835,49,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,301,903,653,274,251,14,0,250,379,23,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,241,722,523,219,201,11,0,199,304,18,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,205,616,446,187,172,9,0,170,259,15,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,93,280,203,85,78,4,0,77,118,7,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,75,224,162,68,62,3,0,62,94,6,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,92,276,200,84,77,4,0,76,116,7,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,42,125,91,38,35,2,0,34,53,3,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,33,100,73,30,28,2,0,27,43,2,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,43,129,93,39,36,2,0,36,54,3,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,20,59,42,18,16,1,0,17,24,2,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,16,47,34,14,13,1,0,13,20,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,13,40,29,12,11,1,0,11,17,1,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,6,18,13,6,5,0,0,5,7,1,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,5,15,11,4,4,0,0,4,7,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,3094,9282,6716,2813,2585,142,0,2566,3903,228,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1406,4219,3053,1279,1175,65,0,1166,1774,104,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1125,3375,2442,1023,940,52,0,933,1419,83,1.8
+2022/2023,Female,ALL,NECO,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1447,4341,3142,1316,1209,66,0,1199,1826,107,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,658,1973,1428,598,550,30,0,545,830,48,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,526,1579,1142,478,440,24,0,437,664,38,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,449,1347,975,408,375,21,0,372,567,33,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,204,612,443,186,171,9,0,169,257,15,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,163,490,355,148,136,7,0,135,207,12,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,201,603,437,183,168,9,0,166,254,15,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,91,274,198,83,76,4,0,76,115,7,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,73,219,159,66,61,3,0,60,93,5,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,94,282,204,86,79,4,0,78,118,7,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,43,128,93,39,36,2,0,35,54,3,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,34,103,74,31,29,2,0,29,43,2,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,29,88,63,27,24,1,0,25,36,3,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,13,40,29,12,11,1,0,11,17,1,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,11,32,23,10,9,0,0,9,13,1,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,2236,6709,4855,2033,1868,103,0,1854,2822,165,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1016,3049,2207,924,849,47,0,842,1283,75,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,813,2440,1765,739,679,37,0,675,1026,60,1.8
+2022/2023,Female,ALL,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1046,3138,2271,951,874,48,0,867,1320,77,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,475,1426,1032,432,397,22,0,394,600,35,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,380,1141,826,346,318,17,0,315,480,28,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,325,974,705,295,271,15,0,269,410,24,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,148,443,320,134,123,7,0,123,186,11,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,118,354,256,107,99,5,0,98,149,8,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,145,436,316,132,121,7,0,120,184,11,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,66,198,143,60,55,3,0,55,83,5,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,53,159,115,48,44,2,0,44,67,4,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,68,204,148,62,57,3,0,56,86,5,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,31,93,67,28,26,1,0,26,39,2,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,25,74,54,22,21,1,0,20,32,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,21,63,46,19,18,1,0,17,27,1,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,10,29,21,9,8,0,0,8,12,1,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,8,23,17,7,6,0,0,6,10,1,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,3672,11017,7972,3339,3068,169,0,3045,4633,271,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,1669,5008,3624,1518,1395,77,0,1384,2106,123,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,1335,4006,2899,1214,1116,61,0,1107,1685,98,1.8
+2022/2023,Female,ALL,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,1718,5153,3729,1562,1435,79,0,1424,2167,127,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,781,2342,1695,710,652,36,0,647,985,58,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,625,1874,1356,568,522,29,0,518,788,46,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,533,1599,1157,485,445,24,0,442,672,40,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,242,727,526,220,202,11,0,201,306,18,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,194,582,421,176,162,9,0,161,245,14,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,239,716,518,217,199,11,0,198,301,18,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,108,326,236,99,91,5,0,90,137,8,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,87,260,188,79,73,4,0,72,109,6,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,112,335,242,102,93,5,0,93,140,9,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,51,152,110,46,42,2,0,42,64,4,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,41,122,88,37,34,2,0,34,51,3,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,35,104,75,32,29,2,0,29,43,3,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,16,47,34,14,13,1,0,13,20,1,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,13,38,27,11,11,1,0,11,16,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,2149,6447,4665,1954,1796,99,0,1782,2711,158,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,977,2930,2121,888,816,45,0,809,1233,72,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,782,2344,1696,711,653,36,0,648,985,58,1.8
+2022/2023,Female,ALL,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,1005,3016,2182,914,840,46,0,834,1268,74,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,457,1371,992,415,382,21,0,379,577,33,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,366,1097,793,332,305,17,0,304,461,27,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,312,936,677,284,261,14,0,259,393,23,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,142,425,308,129,118,6,0,117,179,11,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,113,340,246,103,95,5,0,94,143,8,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,140,419,303,127,117,6,0,116,176,10,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,64,190,138,58,53,3,0,52,80,5,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,51,152,110,46,42,2,0,42,64,4,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,65,196,142,59,55,3,0,54,83,4,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,30,89,64,27,25,1,0,25,37,2,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,24,71,52,22,20,1,0,19,30,2,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,20,61,44,18,17,1,0,17,26,1,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,9,28,20,8,8,0,0,8,12,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,7,22,16,7,6,0,0,6,9,1,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,1383,4150,3003,1258,1156,64,0,1147,1745,102,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,629,1886,1365,572,525,29,0,521,793,47,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,503,1509,1092,457,420,23,0,417,635,37,1.8
+2022/2023,Male,ALL,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,647,1941,1405,588,541,30,0,536,817,47,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,294,882,639,267,246,14,0,243,372,21,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,235,706,511,214,197,11,0,195,297,17,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,201,602,436,183,168,9,0,166,253,15,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,91,274,198,83,76,4,0,76,115,7,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,73,219,159,66,61,3,0,60,93,5,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,90,270,195,82,75,4,0,75,113,7,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,41,123,89,37,34,2,0,34,52,3,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,33,98,71,30,27,1,0,27,41,3,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,42,126,91,38,35,2,0,35,53,3,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,19,57,42,17,16,1,0,15,25,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,15,46,33,14,13,1,0,13,19,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,13,39,28,12,11,1,0,11,16,1,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,6,18,13,5,5,0,0,5,8,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,5,14,10,4,4,0,0,4,6,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,3024,9071,6564,2749,2526,139,0,2507,3815,223,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1374,4123,2984,1250,1148,63,0,1139,1734,102,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1100,3298,2387,1000,919,51,0,911,1387,81,1.8
+2022/2023,Male,ALL,NECO,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1414,4243,3070,1286,1182,65,0,1173,1784,104,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,643,1928,1396,585,537,30,0,532,811,48,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,514,1543,1116,468,430,24,0,427,648,38,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,439,1317,953,399,367,20,0,364,554,32,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,200,598,433,181,167,9,0,165,252,14,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,160,479,346,145,133,7,0,133,201,12,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,197,590,427,179,164,9,0,163,248,15,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,89,268,194,81,75,4,0,74,113,6,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,71,214,155,65,60,3,0,59,90,5,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,92,276,200,84,77,4,0,76,116,7,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,42,125,91,38,35,2,0,34,53,3,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,33,100,73,30,28,2,0,27,43,2,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,29,86,62,26,24,1,0,24,36,2,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,13,39,28,12,11,1,0,11,16,1,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,10,31,23,9,9,0,0,8,14,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,2185,6556,4744,1987,1826,100,0,1812,2757,161,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,993,2980,2157,903,830,46,0,823,1254,73,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,795,2384,1725,723,664,37,0,659,1002,59,1.8
+2022/2023,Male,ALL,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1022,3067,2219,930,854,47,0,848,1289,76,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,465,1394,1009,423,388,21,0,385,586,35,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,372,1115,807,338,311,17,0,308,469,27,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,317,952,689,288,265,15,0,263,401,23,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,144,433,313,131,120,7,0,120,182,11,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,115,346,250,105,96,5,0,96,145,9,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,142,426,308,129,119,7,0,118,179,10,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,65,194,140,59,54,3,0,54,81,5,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,52,155,112,47,43,2,0,43,65,4,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,66,199,144,60,56,3,0,55,84,4,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,30,91,66,27,25,1,0,25,39,2,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,24,72,52,22,20,1,0,20,30,2,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,21,62,45,19,17,1,0,17,26,2,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,9,28,20,9,8,0,0,8,11,1,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,7,22,16,7,6,0,0,6,9,1,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,3589,10767,7791,3263,2998,165,0,2976,4528,265,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,1631,4894,3541,1483,1363,75,0,1353,2058,120,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,1305,3915,2833,1187,1090,60,0,1082,1646,97,1.8
+2022/2023,Male,ALL,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,1679,5036,3644,1526,1402,77,0,1392,2118,124,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,763,2289,1656,694,637,35,0,633,962,57,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,610,1831,1325,555,510,28,0,506,770,45,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,521,1563,1131,474,435,24,0,432,657,39,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,237,710,514,215,198,11,0,196,299,17,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,189,568,411,172,158,9,0,157,239,14,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,233,700,506,212,195,11,0,194,294,17,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,106,318,230,96,89,5,0,88,134,7,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,85,254,184,77,71,4,0,70,107,6,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,109,327,237,99,91,5,0,90,138,8,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,50,149,108,45,41,2,0,41,63,4,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,40,119,86,36,33,2,0,33,50,3,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,34,102,74,31,28,2,0,28,43,3,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,15,46,33,14,13,1,0,13,19,1,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,12,37,27,11,10,1,0,10,16,1,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,2100,6301,4559,1910,1755,97,0,1742,2649,155,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,955,2864,2072,868,798,44,0,792,1204,70,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,764,2291,1658,695,638,35,0,633,963,57,1.8
+2022/2023,Male,ALL,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,982,2947,2133,893,821,45,0,814,1240,72,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,447,1340,969,406,373,21,0,371,563,33,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,357,1072,775,325,298,16,0,297,450,27,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,305,915,662,277,255,14,0,253,385,22,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,139,416,301,126,116,6,0,115,175,10,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,111,333,241,101,93,5,0,92,140,8,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,137,410,296,124,114,6,0,114,172,10,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,62,186,135,56,52,3,0,51,79,4,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,50,149,108,45,41,2,0,41,63,4,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,64,192,139,58,53,3,0,53,81,5,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,29,87,63,26,24,1,0,24,37,2,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,23,70,50,21,19,1,0,20,29,2,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,20,59,43,18,17,1,0,16,25,1,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,9,27,20,8,8,0,0,7,12,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,7,22,16,7,6,0,0,6,9,1,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,1493,4408,3209,1374,1266,70,0,1199,1835,108,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,679,2004,1459,624,575,32,0,545,835,49,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,543,1603,1167,500,460,25,0,436,667,40,1.8
+2023/2024,Female,ALL,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,698,2062,1501,643,592,33,0,561,858,51,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,317,937,682,292,269,15,0,255,390,23,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,254,750,546,234,215,12,0,204,312,19,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,217,640,466,199,184,10,0,174,267,15,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,99,291,212,91,84,5,0,79,121,7,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,79,233,169,73,67,4,0,64,96,6,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,97,287,209,89,82,5,0,78,120,7,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,44,130,95,41,37,2,0,35,54,4,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,35,104,76,32,30,2,0,28,44,2,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,45,134,98,42,38,2,0,36,56,4,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,21,61,44,19,17,1,0,17,25,2,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,17,49,35,15,14,1,0,14,20,1,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,14,42,30,13,12,1,0,12,17,1,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,6,19,14,6,5,0,0,5,8,1,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,5,15,11,5,4,0,0,4,6,1,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,3264,9635,7014,3003,2767,152,0,2621,4011,236,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1484,4379,3188,1365,1258,69,0,1191,1823,107,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1187,3503,2551,1092,1006,55,0,952,1459,86,1.8
+2023/2024,Female,ALL,NECO,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1527,4507,3281,1405,1294,71,0,1226,1876,111,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,694,2048,1491,638,588,32,0,557,853,50,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,555,1639,1193,511,471,26,0,446,682,40,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,474,1399,1018,436,402,22,0,381,582,34,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,215,636,463,198,183,10,0,173,265,15,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,172,509,370,159,146,8,0,139,211,13,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,212,626,456,195,180,10,0,170,261,15,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,96,285,207,89,82,5,0,78,118,7,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,77,228,166,71,65,4,0,62,95,6,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,99,293,213,91,84,5,0,80,122,7,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,45,133,97,41,38,2,0,36,56,3,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,36,107,78,33,31,2,0,29,45,2,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,31,91,66,28,26,1,0,25,38,2,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,14,41,30,13,12,1,0,11,17,1,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,11,33,24,10,9,0,0,9,14,1,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,2359,6964,5070,2170,2000,110,0,1894,2900,170,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1072,3166,2305,987,909,50,0,861,1318,78,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,858,2532,1844,789,727,40,0,688,1055,62,1.8
+2023/2024,Female,ALL,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1104,3257,2371,1015,935,51,0,886,1356,80,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,502,1481,1078,461,425,23,0,403,617,36,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,401,1185,862,369,340,19,0,323,493,29,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,342,1011,736,315,290,16,0,275,421,25,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,156,460,335,143,132,7,0,125,192,11,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,125,368,268,115,106,6,0,100,153,9,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,153,453,330,141,130,7,0,123,189,11,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,70,206,150,64,59,3,0,56,86,5,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,56,165,120,51,47,3,0,45,69,4,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,72,212,154,66,61,3,0,58,88,5,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,33,96,70,30,28,2,0,26,40,2,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,26,77,56,24,22,1,0,21,32,2,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,22,66,48,20,19,1,0,18,28,1,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,10,30,22,9,9,0,0,8,13,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,8,24,17,7,7,0,0,7,10,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,3874,11436,8326,3564,3284,181,0,3110,4762,280,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,1761,5198,3784,1620,1493,82,0,1414,2164,127,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,1409,4159,3027,1296,1194,66,0,1132,1731,102,1.8
+2023/2024,Female,ALL,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,1812,5349,3894,1667,1536,84,0,1455,2227,131,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,824,2431,1770,758,698,38,0,661,1012,60,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,659,1945,1416,606,559,31,0,529,810,47,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,562,1660,1209,517,477,26,0,451,692,40,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,256,755,549,235,217,12,0,206,314,18,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,204,604,439,188,173,10,0,165,251,15,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,252,743,541,232,213,12,0,202,309,19,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,114,338,246,105,97,5,0,92,141,8,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,92,270,197,84,78,4,0,73,113,6,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,118,348,253,108,100,6,0,95,145,8,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,54,158,115,49,45,2,0,43,66,4,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,43,126,92,39,36,2,0,34,53,3,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,37,108,79,34,31,2,0,29,45,3,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,17,49,36,15,14,1,0,13,21,1,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,13,39,29,12,11,1,0,10,17,1,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,2267,6692,4872,2086,1922,106,0,1820,2786,164,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,1031,3042,2215,948,873,48,0,827,1267,75,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,824,2434,1772,759,699,38,0,662,1013,60,1.8
+2023/2024,Female,ALL,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,1061,3130,2279,976,899,49,0,851,1303,77,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,482,1423,1036,443,409,22,0,387,593,34,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,386,1138,829,355,327,18,0,309,474,28,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,329,971,707,303,279,15,0,264,404,24,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,150,442,321,138,127,7,0,121,183,11,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,120,353,257,110,101,6,0,96,147,9,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,147,435,317,136,125,7,0,118,181,11,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,67,198,144,62,57,3,0,54,82,5,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,54,158,115,49,45,2,0,43,66,4,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,69,203,148,63,58,3,0,55,85,5,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,31,92,67,29,27,1,0,25,38,2,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,25,74,54,23,21,1,0,20,31,2,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,21,63,46,20,18,1,0,17,26,2,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,10,29,21,9,8,0,0,8,12,1,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,8,23,17,7,7,0,0,6,10,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,1459,4308,3136,1343,1237,68,0,1172,1793,106,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,663,1958,1426,610,562,31,0,532,816,48,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,531,1566,1140,488,450,25,0,426,652,38,1.8
+2023/2024,Male,ALL,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,683,2015,1467,628,579,32,0,548,839,49,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,310,916,667,285,263,14,0,249,382,22,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,248,733,533,228,210,12,0,200,305,18,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,212,625,455,195,180,10,0,170,260,15,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,96,284,207,89,82,5,0,77,118,7,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,77,227,166,71,65,4,0,61,95,6,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,95,280,204,87,80,4,0,76,117,7,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,43,127,93,40,37,2,0,34,53,3,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,34,102,74,32,29,2,0,28,42,3,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,44,131,95,41,38,2,0,36,54,3,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,20,60,43,19,17,1,0,17,24,2,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,16,48,35,15,14,1,0,13,20,1,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,14,41,30,13,12,1,0,11,17,1,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,6,18,13,6,5,0,0,5,7,1,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,5,15,11,5,4,0,0,4,6,1,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,3190,9416,6855,2935,2704,149,0,2561,3920,231,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1450,4280,3116,1334,1229,68,0,1164,1782,105,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1160,3424,2493,1067,983,54,0,931,1426,84,1.8
+2023/2024,Male,ALL,NECO,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1492,4404,3206,1373,1265,70,0,1198,1833,108,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,678,2002,1457,624,575,32,0,545,833,49,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,543,1601,1166,499,460,25,0,435,667,39,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,463,1367,995,426,392,22,0,372,569,34,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,210,621,452,194,178,10,0,169,258,16,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,168,497,362,155,143,8,0,135,207,12,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,207,612,446,191,176,10,0,166,255,15,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,94,278,203,87,80,4,0,75,116,7,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,75,223,162,69,64,4,0,61,93,5,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,97,286,208,89,82,5,0,78,119,7,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,44,130,95,41,37,2,0,35,54,4,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,35,104,76,32,30,2,0,28,44,2,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,30,89,65,28,26,1,0,24,37,2,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,14,40,29,13,12,1,0,11,16,1,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,11,32,24,10,9,0,0,8,14,1,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,2306,6806,4955,2121,1954,107,0,1851,2834,167,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1048,3094,2252,964,888,49,0,842,1288,76,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,838,2475,1802,771,711,39,0,673,1031,60,1.8
+2023/2024,Male,ALL,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1078,3183,2318,992,914,50,0,865,1326,78,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,490,1447,1053,451,415,23,0,394,602,36,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,392,1158,843,361,332,18,0,315,482,29,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,335,988,719,308,284,16,0,269,411,24,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,152,449,327,140,129,7,0,122,187,11,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,122,359,262,112,103,6,0,97,150,9,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,150,442,322,138,127,7,0,120,184,11,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,68,201,146,63,58,3,0,55,83,5,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,54,161,117,50,46,3,0,44,67,4,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,70,207,151,64,59,3,0,56,87,5,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,32,94,68,29,27,1,0,26,39,2,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,25,75,55,23,22,1,0,20,32,1,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,22,64,47,20,18,1,0,17,27,2,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,10,29,21,9,8,0,0,8,12,1,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,8,23,17,7,7,0,0,6,10,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,3786,11176,8137,3483,3209,176,0,3039,4654,274,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,1721,5080,3698,1583,1459,80,0,1382,2115,124,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,1377,4064,2959,1267,1167,64,0,1105,1692,100,1.8
+2023/2024,Male,ALL,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,1771,5228,3806,1629,1501,83,0,1422,2177,128,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,805,2376,1730,741,682,38,0,646,989,59,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,644,1901,1384,592,546,30,0,517,792,46,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,550,1622,1181,506,466,26,0,441,675,40,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,250,737,537,230,212,12,0,200,307,18,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,200,590,429,184,169,9,0,161,245,15,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,246,726,529,226,209,11,0,197,303,17,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,112,330,240,103,95,5,0,90,137,8,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,89,264,192,82,76,4,0,72,110,6,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,115,340,247,106,98,5,0,93,141,8,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,52,154,112,48,44,2,0,42,64,4,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,42,124,90,39,35,2,0,34,51,4,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,36,105,77,33,30,2,0,28,44,3,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,16,48,35,15,14,1,0,13,20,1,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,13,38,28,12,11,1,0,10,16,1,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,2216,6540,4761,2038,1878,103,0,1779,2723,160,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,1007,2973,2164,927,854,47,0,809,1237,73,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,806,2378,1731,741,683,38,0,647,990,58,1.8
+2023/2024,Male,ALL,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,1036,3059,2227,953,878,48,0,832,1274,75,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,471,1391,1012,433,399,22,0,379,579,34,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,377,1112,810,347,319,18,0,302,463,28,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,322,949,691,296,273,15,0,258,395,23,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,146,432,314,135,124,7,0,118,179,11,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,117,345,251,108,99,5,0,94,143,9,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,144,425,309,133,122,7,0,116,176,11,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,65,193,141,60,55,3,0,52,81,5,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,52,155,113,48,44,2,0,42,65,4,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,67,199,145,62,57,3,0,54,83,5,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,31,90,66,28,26,1,0,24,38,2,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,24,72,53,23,21,1,0,19,30,2,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,21,62,45,19,18,1,0,17,26,1,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,10,28,20,9,8,0,0,8,11,1,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,8,22,16,7,6,0,0,6,9,1,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,1556,4621,3352,1425,1311,72,0,1269,1927,114,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,707,2101,1524,648,596,33,0,577,876,52,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,566,1680,1219,518,477,26,0,461,701,41,1.8
+2024/2025,Female,ALL,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,728,2162,1568,666,613,34,0,594,902,53,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,331,983,713,303,279,15,0,270,410,24,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,265,786,570,242,223,12,0,216,328,19,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,226,671,487,207,190,10,0,184,280,17,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,103,305,221,94,86,5,0,84,127,8,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,82,244,177,75,69,4,0,67,102,6,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,101,300,218,93,85,5,0,82,125,8,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,46,137,99,42,39,2,0,38,57,3,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,37,109,79,34,31,2,0,30,45,3,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,47,141,102,43,40,2,0,39,59,3,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,21,64,46,20,18,1,0,18,26,2,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,17,51,37,16,14,1,0,14,21,2,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,15,44,32,13,12,1,0,12,19,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,7,20,14,6,6,0,0,6,8,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,5,16,12,5,4,0,0,4,7,1,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,3400,10101,7327,3114,2865,158,0,2774,4213,249,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1545,4591,3330,1415,1302,72,0,1261,1915,113,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1236,3673,2664,1132,1042,57,0,1009,1532,90,1.8
+2024/2025,Female,ALL,NECO,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1590,4725,3427,1457,1340,74,0,1298,1970,117,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,723,2148,1558,662,609,33,0,590,896,53,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,578,1718,1246,530,487,27,0,472,716,43,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,494,1466,1064,452,416,23,0,402,612,36,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,224,666,483,205,189,10,0,183,278,16,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,179,533,387,164,151,8,0,146,223,13,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,221,657,476,202,186,10,0,181,274,16,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,100,298,216,92,85,5,0,82,124,7,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,80,239,173,74,68,4,0,66,99,6,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,103,307,223,95,87,5,0,84,128,8,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,47,140,101,43,40,2,0,39,58,3,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,38,112,81,34,32,2,0,31,47,2,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,32,95,69,29,27,1,0,26,40,2,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,15,43,31,13,12,1,0,12,18,1,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,12,35,25,11,10,1,0,10,14,1,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,2458,7301,5296,2251,2071,114,0,2005,3045,180,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1117,3319,2407,1023,941,52,0,912,1384,82,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,894,2655,1926,819,753,41,0,729,1107,66,1.8
+2024/2025,Female,ALL,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1150,3415,2477,1053,968,53,0,938,1424,85,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,523,1552,1126,479,440,24,0,426,647,39,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,418,1242,901,383,352,19,0,341,518,31,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,357,1060,769,327,301,17,0,291,442,26,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,162,482,349,149,137,8,0,133,200,12,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,130,385,280,119,109,6,0,105,161,10,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,160,475,344,146,135,7,0,131,198,11,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,73,216,156,67,61,3,0,60,89,6,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,58,173,125,53,49,3,0,48,72,4,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,75,222,161,68,63,3,0,61,93,5,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,34,101,73,31,29,2,0,28,42,2,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,27,81,59,25,23,1,0,22,34,2,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,23,69,50,21,20,1,0,19,29,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,11,31,23,10,9,0,0,8,13,1,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,8,25,18,8,7,0,0,7,10,1,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,4035,11990,8697,3696,3400,187,0,3293,5001,296,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,1834,5450,3953,1680,1546,85,0,1497,2273,134,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,1467,4360,3162,1344,1237,68,0,1198,1818,107,1.8
+2024/2025,Female,ALL,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,1888,5608,4068,1729,1591,88,0,1540,2339,138,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,858,2549,1849,786,723,40,0,700,1063,63,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,686,2039,1479,629,578,32,0,560,850,51,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,586,1740,1262,537,494,27,0,478,725,43,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,266,791,574,244,224,12,0,217,330,20,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,213,633,459,195,179,10,0,174,264,16,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,262,779,565,240,221,12,0,214,325,19,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,119,354,257,109,100,6,0,97,148,9,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,95,283,206,87,80,4,0,77,119,7,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,123,365,264,112,103,6,0,101,152,9,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,56,166,120,51,47,3,0,46,69,4,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,45,133,96,41,38,2,0,37,55,3,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,38,113,82,35,32,2,0,31,47,3,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,17,51,37,16,15,1,0,14,21,1,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,14,41,30,13,12,1,0,11,17,1,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,2362,7016,5089,2163,1990,109,0,1927,2926,173,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,1074,3189,2313,983,905,50,0,876,1330,78,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,859,2551,1851,787,724,40,0,700,1064,63,1.8
+2024/2025,Female,ALL,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,1105,3282,2380,1012,931,51,0,902,1368,81,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,502,1492,1082,460,423,23,0,410,622,37,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,402,1193,866,368,338,19,0,327,498,30,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,343,1018,739,314,289,16,0,279,425,25,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,156,463,336,143,131,7,0,127,193,12,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,125,370,269,114,105,6,0,101,155,9,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,154,456,331,141,129,7,0,125,190,12,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,70,207,150,64,59,3,0,57,86,5,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,56,166,120,51,47,3,0,46,69,4,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,72,213,155,66,61,3,0,58,89,5,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,33,97,70,30,28,2,0,27,40,2,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,26,78,56,24,22,1,0,22,32,2,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,22,66,48,20,19,1,0,18,28,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,10,30,22,9,9,0,0,8,13,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,8,24,17,7,7,0,0,7,10,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,1520,4516,3276,1392,1281,70,0,1240,1884,111,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,691,2053,1489,633,582,32,0,564,856,51,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,553,1642,1191,506,466,26,0,451,685,40,1.8
+2024/2025,Male,ALL,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,711,2112,1532,651,599,33,0,580,881,52,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,323,960,697,296,272,15,0,263,401,24,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,259,768,557,237,218,12,0,211,320,19,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,221,656,476,202,186,10,0,180,274,16,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,100,298,216,92,85,5,0,82,124,7,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,80,238,173,73,68,4,0,65,100,5,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,99,294,213,90,83,5,0,81,123,7,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,45,133,97,41,38,2,0,36,56,3,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,36,107,77,33,30,2,0,30,44,3,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,46,137,100,42,39,2,0,37,58,3,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,21,62,45,19,18,1,0,17,26,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,17,50,36,15,14,1,0,14,21,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Ibadan North,South West,Oyo,Ibadan North,,,14,43,31,13,12,1,0,12,18,1,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ibadan North,South West,Oyo,Ibadan North,,,7,19,14,6,5,0,0,5,8,1,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ibadan North,South West,Oyo,Ibadan North,,,5,15,11,5,4,0,0,4,6,1,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,3323,9872,7160,3043,2800,154,0,2712,4117,243,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1510,4487,3255,1383,1273,70,0,1232,1872,110,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1208,3590,2604,1107,1018,56,0,986,1497,89,1.8
+2024/2025,Male,ALL,NECO,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,1554,4617,3349,1423,1309,72,0,1268,1926,114,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,706,2099,1522,647,595,33,0,577,875,52,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,565,1679,1218,518,476,26,0,461,700,42,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,482,1433,1039,442,406,22,0,394,597,36,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,219,651,472,201,185,10,0,179,271,16,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,175,521,378,161,148,8,0,143,217,13,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,216,642,465,198,182,10,0,177,267,16,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,98,292,212,90,83,5,0,80,122,7,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,79,233,169,72,66,4,0,64,97,6,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,101,300,218,93,85,5,0,82,125,8,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,46,136,99,42,39,2,0,37,57,3,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,37,109,79,34,31,2,0,30,45,3,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,31,93,68,29,26,1,0,25,39,3,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,14,42,31,13,12,1,0,11,18,1,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ibadan South West,South West,Oyo,Ibadan South West,,,11,34,25,10,10,1,0,9,15,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,2402,7135,5176,2200,2024,111,0,1959,2976,176,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1092,3243,2353,1000,920,51,0,890,1353,80,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,873,2595,1882,800,736,40,0,713,1082,64,1.8
+2024/2025,Male,ALL,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,1123,3337,2421,1029,947,52,0,916,1392,82,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,511,1517,1100,468,430,24,0,417,632,38,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,408,1214,880,374,344,19,0,334,506,30,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,349,1036,751,319,294,16,0,285,432,25,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,158,471,342,145,134,7,0,129,197,11,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,127,377,273,116,107,6,0,104,157,9,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,156,464,336,143,132,7,0,128,193,11,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,71,211,153,65,60,3,0,58,88,5,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,57,169,122,52,48,3,0,47,70,4,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,73,217,157,67,62,3,0,60,90,5,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,33,99,72,30,28,2,0,27,42,2,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,27,79,57,24,22,1,0,22,33,2,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,23,67,49,21,19,1,0,18,28,2,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,10,31,22,9,9,0,0,9,13,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ogbomosho North,South West,Oyo,Ogbomosho North,,,8,24,18,8,7,0,0,6,10,1,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,3944,11717,8499,3612,3323,183,0,3218,4887,289,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,1793,5326,3863,1642,1510,83,0,1463,2221,132,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,1434,4261,3091,1314,1208,66,0,1170,1777,106,1.8
+2024/2025,Male,ALL,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,1845,5481,3975,1690,1554,85,0,1506,2285,136,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,839,2491,1807,768,707,39,0,684,1039,61,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,671,1993,1446,614,565,31,0,547,832,49,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,573,1701,1234,524,482,27,0,467,710,42,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,260,773,561,238,219,12,0,212,323,19,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,208,619,449,191,175,10,0,170,258,16,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Oyo East,South West,Oyo,Oyo East,,,256,762,552,235,216,12,0,210,317,19,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,117,346,251,107,98,5,0,95,144,9,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,93,277,201,85,79,4,0,76,116,6,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Oyo East,South West,Oyo,Oyo East,,,120,356,258,110,101,6,0,98,148,9,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,55,162,117,50,46,3,0,45,67,4,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,44,130,94,40,37,2,0,36,54,3,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Oyo East,South West,Oyo,Oyo East,,,37,111,80,34,31,2,0,31,46,3,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Oyo East,South West,Oyo,Oyo East,,,17,50,36,15,14,1,0,14,21,1,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Oyo East,South West,Oyo,Oyo East,,,14,40,29,12,11,1,0,11,17,1,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,2308,6857,4974,2114,1945,107,0,1883,2860,169,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,1049,3117,2261,961,884,49,0,856,1300,77,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,839,2493,1809,769,707,39,0,684,1040,62,1.8
+2024/2025,Male,ALL,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,1079,3207,2326,989,910,50,0,881,1337,79,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,491,1458,1057,449,413,23,0,401,608,36,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,393,1166,846,360,331,18,0,320,486,29,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,335,995,722,307,282,16,0,273,415,25,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,152,452,328,139,128,7,0,124,189,11,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,122,362,263,112,103,6,0,99,151,9,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Saki East,South West,Oyo,Saki East,,,150,446,323,137,126,7,0,123,186,11,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,68,203,147,62,57,3,0,56,85,5,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Saki East,South West,Oyo,Saki East,,,55,162,118,50,46,3,0,44,68,4,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Saki East,South West,Oyo,Saki East,,,70,208,151,64,59,3,0,57,87,5,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,32,95,69,29,27,1,0,26,40,2,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Saki East,South West,Oyo,Saki East,,,26,76,55,23,22,1,0,21,32,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Saki East,South West,Oyo,Saki East,,,22,65,47,20,18,1,0,18,27,2,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Saki East,South West,Oyo,Saki East,,,10,29,21,9,8,0,0,8,12,1,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Saki East,South West,Oyo,Saki East,,,8,24,17,7,7,0,0,7,10,0,1.8

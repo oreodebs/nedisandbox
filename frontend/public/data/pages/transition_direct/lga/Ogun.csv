@@ -1,541 +1,541 @@
-session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,104,268,299,46,44,0,61,0,237,2
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,203,524,574,84,79,0,118,0,461,6
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,150,386,424,59,52,12,88,0,343,8
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,225,581,660,99,88,12,132,0,527,12
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,152,393,439,68,63,0,89,0,349,5
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,220,568,620,198,178,25,129,0,382,22
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,81,209,226,70,60,12,47,0,141,11
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,111,286,318,120,105,12,65,0,176,16
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,119,308,349,121,98,25,70,0,204,25
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,72,186,194,57,52,0,42,0,124,6
-2022/2023,Female,ALL,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,118,304,319,416,380,37,70,0,0,39
-2022/2023,Female,ALL,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,56,147,162,221,204,25,32,0,0,19
-2022/2023,Female,ALL,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,98,253,283,441,401,37,57,0,0,43
-2022/2023,Female,ALL,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,69,176,194,251,204,50,41,0,0,51
-2022/2023,Female,ALL,NABTEB,University,lga,Sagamu,South West,Ogun,Sagamu,,,131,337,357,537,495,50,77,0,0,45
-2022/2023,Female,ALL,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,198,511,573,79,72,12,116,0,466,7
-2022/2023,Female,ALL,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,384,991,1095,153,141,12,226,0,887,13
-2022/2023,Female,ALL,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,305,785,846,115,103,12,180,0,689,13
-2022/2023,Female,ALL,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,413,1065,1195,170,153,25,243,0,964,19
-2022/2023,Female,ALL,NECO,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,288,742,815,121,108,12,171,0,652,14
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,417,1075,1183,375,339,37,246,0,732,38
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,146,375,399,123,113,12,86,0,250,11
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,213,548,620,210,194,12,125,0,369,17
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,234,602,660,208,199,12,138,0,409,10
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,133,344,372,105,93,12,78,0,243,13
-2022/2023,Female,ALL,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,206,532,556,772,698,75,122,0,0,80
-2022/2023,Female,ALL,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,97,251,255,341,313,25,57,0,0,31
-2022/2023,Female,ALL,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,179,461,515,702,646,62,106,0,0,61
-2022/2023,Female,ALL,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,131,338,359,462,438,25,77,0,0,26
-2022/2023,Female,ALL,NECO,University,lga,Sagamu,South West,Ogun,Sagamu,,,253,653,689,918,859,62,149,0,0,63
-2022/2023,Female,ALL,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,247,637,707,112,105,12,146,0,558,8
-2022/2023,Female,ALL,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,512,1321,1434,218,204,12,302,0,1142,16
-2022/2023,Female,ALL,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,388,1000,1091,163,150,12,229,0,872,14
-2022/2023,Female,ALL,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,557,1435,1611,250,232,25,329,0,1278,19
-2022/2023,Female,ALL,WAEC,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,386,995,1094,175,161,12,227,0,862,15
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,519,1338,1437,478,443,37,306,0,864,38
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,198,509,551,162,149,12,117,0,354,14
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,267,688,748,268,250,25,158,0,429,20
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,301,776,884,290,272,25,178,0,536,19
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,179,460,509,163,156,12,106,0,313,7
-2022/2023,Female,ALL,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,292,753,797,1114,1027,100,172,0,0,94
-2022/2023,Female,ALL,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,130,334,347,512,489,25,77,0,0,24
-2022/2023,Female,ALL,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,260,671,740,1134,1027,112,153,0,0,116
-2022/2023,Female,ALL,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,181,466,504,667,636,37,106,0,0,34
-2022/2023,Female,ALL,WAEC,University,lga,Sagamu,South West,Ogun,Sagamu,,,326,840,892,1159,1073,87,192,0,0,93
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,8,22,23,6,5,0,4,0,16,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,21,54,57,16,13,0,12,0,38,3
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,14,37,40,8,7,0,8,0,29,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,22,57,62,11,10,0,12,0,48,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,14,37,39,9,8,0,8,0,27,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,19,49,56,26,22,0,11,0,26,4
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,8,21,22,13,11,0,5,0,7,2
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,11,28,29,18,16,0,6,0,9,2
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,11,30,30,16,14,0,6,0,12,2
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,6,15,18,7,6,0,3,0,9,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,8,22,23,59,54,0,5,0,0,6
-2022/2023,Female,Disabled,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,6,14,15,42,34,12,4,0,0,8
-2022/2023,Female,Disabled,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,10,26,29,52,47,0,6,0,0,5
-2022/2023,Female,Disabled,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,5,14,15,31,28,0,3,0,0,4
-2022/2023,Female,Disabled,NABTEB,University,lga,Sagamu,South West,Ogun,Sagamu,,,15,38,39,83,75,12,9,0,0,9
-2022/2023,Female,Disabled,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,14,37,41,6,5,0,8,0,33,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,29,73,87,15,13,0,17,0,68,2
-2022/2023,Female,Disabled,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,23,59,67,9,8,0,13,0,54,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,37,96,108,15,13,0,22,0,88,2
-2022/2023,Female,Disabled,NECO,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,18,48,52,8,7,0,10,0,41,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,35,90,101,24,21,0,21,0,71,3
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,13,33,34,12,11,0,7,0,20,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,18,47,55,16,15,0,10,0,36,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,17,44,46,16,15,0,10,0,27,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,11,27,26,7,6,0,6,0,17,1
-2022/2023,Female,Disabled,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,14,35,39,52,47,0,8,0,0,5
-2022/2023,Female,Disabled,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,6,15,14,35,31,0,4,1,0,4
-2022/2023,Female,Disabled,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,15,39,47,66,59,12,9,0,0,7
-2022/2023,Female,Disabled,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,8,22,24,31,28,0,4,0,0,4
-2022/2023,Female,Disabled,NECO,University,lga,Sagamu,South West,Ogun,Sagamu,,,22,57,58,83,75,12,12,0,0,9
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,16,42,47,6,5,0,10,0,39,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,39,101,109,14,13,0,22,0,90,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,27,70,79,9,8,0,16,0,66,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,49,124,139,16,15,0,30,0,117,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,26,69,76,7,6,0,15,0,65,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,45,115,124,30,28,0,27,0,87,2
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,16,40,43,10,9,0,9,0,30,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,22,57,60,19,18,0,13,0,38,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,19,50,57,12,11,0,11,0,42,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,15,37,41,10,9,0,9,0,28,1
-2022/2023,Female,Disabled,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,19,49,54,63,59,0,11,0,0,4
-2022/2023,Female,Disabled,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,8,22,22,31,31,0,4,0,0,1
-2022/2023,Female,Disabled,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,23,59,66,69,56,12,13,0,0,14
-2022/2023,Female,Disabled,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,11,28,29,28,27,0,6,0,0,1
-2022/2023,Female,Disabled,WAEC,University,lga,Sagamu,South West,Ogun,Sagamu,,,26,68,73,66,65,0,16,0,0,1
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,77,200,214,38,36,0,45,0,165,2
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,163,421,453,79,76,0,95,0,350,3
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,123,317,344,61,57,0,72,0,265,4
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,183,474,521,102,93,12,107,0,391,9
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,123,316,347,65,55,12,73,0,263,11
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,176,454,517,191,172,25,104,0,291,20
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,69,179,191,63,59,0,40,0,116,4
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,89,231,262,115,100,12,52,0,128,16
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,96,246,265,121,105,12,57,0,124,18
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,53,136,151,57,46,12,31,0,83,12
-2022/2023,Male,ALL,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,90,232,258,422,376,50,53,0,0,50
-2022/2023,Male,ALL,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,44,116,129,226,204,25,25,0,0,24
-2022/2023,Male,ALL,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,71,183,207,422,376,50,42,0,0,50
-2022/2023,Male,ALL,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,49,125,132,226,172,62,30,0,0,58
-2022/2023,Male,ALL,NABTEB,University,lga,Sagamu,South West,Ogun,Sagamu,,,103,265,285,391,349,50,60,0,0,46
-2022/2023,Male,ALL,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,143,369,423,76,68,12,84,0,324,9
-2022/2023,Male,ALL,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,306,789,847,148,135,12,181,0,654,14
-2022/2023,Male,ALL,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,255,655,720,119,111,12,151,0,563,9
-2022/2023,Male,ALL,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,348,898,1003,180,164,12,205,0,769,18
-2022/2023,Male,ALL,NECO,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,227,585,644,112,100,12,134,0,498,13
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,327,844,917,349,310,37,193,0,504,42
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,131,337,350,121,113,12,77,0,205,9
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,175,452,501,211,194,12,103,0,253,18
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,167,431,480,198,183,12,99,0,247,16
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,98,254,275,94,89,0,58,0,162,6
-2022/2023,Male,ALL,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,162,417,447,677,620,62,95,0,0,62
-2022/2023,Male,ALL,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,85,218,241,412,390,25,50,0,0,23
-2022/2023,Male,ALL,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,129,332,375,677,620,62,76,0,0,62
-2022/2023,Male,ALL,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,87,224,237,412,390,25,51,0,0,23
-2022/2023,Male,ALL,NECO,University,lga,Sagamu,South West,Ogun,Sagamu,,,193,498,513,787,750,37,114,0,0,40
-2022/2023,Male,ALL,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,186,479,528,105,100,0,109,0,393,6
-2022/2023,Male,ALL,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,421,1084,1174,212,196,12,249,0,899,17
-2022/2023,Male,ALL,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,313,808,896,168,158,12,184,0,679,11
-2022/2023,Male,ALL,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,468,1206,1336,261,245,12,275,0,1002,17
-2022/2023,Male,ALL,WAEC,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,301,776,839,149,138,12,177,0,645,12
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,410,1057,1153,462,443,25,242,0,609,20
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,167,430,462,168,156,12,99,0,262,13
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,221,570,631,279,266,12,130,0,304,14
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,218,560,628,259,244,12,129,0,323,16
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,133,345,369,147,139,12,78,0,196,9
-2022/2023,Male,ALL,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,224,577,621,1068,1000,75,132,0,0,74
-2022/2023,Male,ALL,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,116,299,327,602,562,37,69,0,0,43
-2022/2023,Male,ALL,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,188,487,547,1029,932,100,110,0,0,104
-2022/2023,Male,ALL,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,120,308,333,557,511,50,71,0,0,50
-2022/2023,Male,ALL,WAEC,University,lga,Sagamu,South West,Ogun,Sagamu,,,250,645,685,1108,1027,87,148,0,0,88
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,6,15,16,4,3,0,4,0,11,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,15,39,42,13,11,0,9,0,26,2
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,11,28,30,8,7,0,6,0,20,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,17,44,45,11,10,0,10,0,31,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,11,27,28,7,6,0,6,0,19,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,15,39,45,22,18,0,9,0,19,5
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,6,16,19,9,7,0,4,0,8,2
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,8,21,22,17,15,0,5,0,3,2
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,8,21,22,16,14,0,5,0,4,2
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,4,12,10,4,3,0,2,1,6,1
-2022/2023,Male,Disabled,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,7,18,20,38,31,12,4,0,0,7
-2022/2023,Male,Disabled,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4,11,10,42,38,0,2,0,0,4
-2022/2023,Male,Disabled,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,7,19,22,52,47,0,5,0,0,5
-2022/2023,Male,Disabled,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,4,11,10,18,16,0,2,0,0,2
-2022/2023,Male,Disabled,NABTEB,University,lga,Sagamu,South West,Ogun,Sagamu,,,11,28,28,35,31,0,7,0,0,4
-2022/2023,Male,Disabled,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,10,24,25,6,5,0,6,0,18,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,25,65,69,13,12,0,14,0,52,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,18,47,57,7,6,0,11,0,47,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,32,81,92,16,15,0,19,0,71,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,16,40,45,9,8,0,9,0,33,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,28,71,82,29,25,0,17,0,48,4
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,11,28,30,12,11,0,6,0,16,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,15,38,42,16,14,0,9,0,23,2
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,11,28,33,16,15,0,7,0,15,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,9,23,25,8,7,0,5,0,15,1
-2022/2023,Male,Disabled,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,11,28,31,52,47,0,7,0,0,5
-2022/2023,Male,Disabled,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4,12,15,35,31,0,2,0,0,4
-2022/2023,Male,Disabled,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,11,28,31,66,59,12,7,0,0,7
-2022/2023,Male,Disabled,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,7,19,20,35,31,0,5,0,0,4
-2022/2023,Male,Disabled,NECO,University,lga,Sagamu,South West,Ogun,Sagamu,,,16,42,41,66,59,12,10,0,0,7
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,13,34,40,6,6,0,8,0,31,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,29,74,81,14,12,0,18,0,63,2
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,24,62,69,10,9,0,15,0,55,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,40,102,113,17,16,0,24,0,91,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,22,57,61,7,6,0,13,0,51,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,34,89,99,25,24,0,20,0,68,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,14,36,37,9,8,0,8,0,26,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,19,48,54,22,20,0,11,0,28,2
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,13,34,40,12,11,0,7,0,25,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,11,28,31,9,8,0,7,0,20,1
-2022/2023,Male,Disabled,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,15,38,44,63,59,0,9,0,0,4
-2022/2023,Male,Disabled,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,6,16,18,31,28,0,4,0,0,4
-2022/2023,Male,Disabled,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,16,40,45,69,56,12,10,0,0,14
-2022/2023,Male,Disabled,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,9,23,24,28,27,0,5,0,0,1
-2022/2023,Male,Disabled,WAEC,University,lga,Sagamu,South West,Ogun,Sagamu,,,21,54,59,69,68,0,12,0,0,1
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,105,271,297,37,33,0,61,0,245,4
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,216,558,618,68,62,12,126,0,520,7
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,171,442,462,53,50,0,101,0,387,3
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,239,617,705,85,77,12,140,0,585,9
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,165,426,453,48,45,0,97,0,383,3
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,236,608,675,222,193,25,139,0,409,31
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,83,212,218,75,71,0,49,0,128,4
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,120,309,359,137,130,12,70,0,197,8
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,135,348,384,132,116,12,80,0,226,18
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,77,199,224,69,57,12,45,0,140,13
-2023/2024,Female,ALL,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,120,311,341,361,303,62,70,0,0,62
-2023/2024,Female,ALL,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,54,140,151,177,163,12,31,0,0,15
-2023/2024,Female,ALL,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,101,260,286,313,277,37,59,0,0,39
-2023/2024,Female,ALL,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,78,202,218,251,212,37,46,0,0,42
-2023/2024,Female,ALL,NABTEB,University,lga,Sagamu,South West,Ogun,Sagamu,,,141,363,385,401,394,12,83,0,0,8
-2023/2024,Female,ALL,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,193,498,554,67,62,0,113,0,460,5
-2023/2024,Female,ALL,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,408,1052,1148,126,116,12,240,0,967,11
-2023/2024,Female,ALL,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,291,751,820,85,78,12,171,0,696,8
-2023/2024,Female,ALL,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,470,1211,1338,148,133,12,278,0,1126,16
-2023/2024,Female,ALL,NECO,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,290,747,825,93,84,12,171,0,692,10
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,452,1163,1257,407,368,37,267,0,768,42
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,163,420,441,138,129,12,95,0,275,10
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,229,591,659,238,214,25,135,0,376,26
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,237,610,701,256,231,25,140,0,397,27
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,140,361,400,128,117,12,83,0,246,12
-2023/2024,Female,ALL,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,229,591,620,633,591,50,135,0,0,45
-2023/2024,Female,ALL,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,101,259,288,298,273,25,59,0,0,27
-2023/2024,Female,ALL,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,189,487,557,629,583,50,111,0,0,50
-2023/2024,Female,ALL,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,148,383,397,398,356,50,87,0,0,45
-2023/2024,Female,ALL,NECO,University,lga,Sagamu,South West,Ogun,Sagamu,,,259,670,704,770,693,87,152,0,0,83
-2023/2024,Female,ALL,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,274,707,779,90,83,12,162,0,652,7
-2023/2024,Female,ALL,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,559,1441,1590,185,171,12,330,0,1328,15
-2023/2024,Female,ALL,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,419,1080,1196,138,130,12,248,0,1000,8
-2023/2024,Female,ALL,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,565,1457,1626,191,178,12,333,0,1356,14
-2023/2024,Female,ALL,WAEC,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,407,1051,1132,132,123,12,240,0,945,10
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,570,1470,1601,559,513,50,336,0,934,49
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,210,541,578,187,181,0,124,0,353,6
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,302,780,848,339,316,25,177,0,449,24
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,308,793,893,357,328,25,182,0,472,31
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,188,485,525,175,167,12,111,0,315,9
-2023/2024,Female,ALL,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,314,810,852,891,818,75,186,0,0,79
-2023/2024,Female,ALL,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,129,332,348,379,352,25,77,0,0,29
-2023/2024,Female,ALL,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,262,676,746,928,859,75,154,0,0,74
-2023/2024,Female,ALL,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,208,535,592,626,587,37,123,0,0,42
-2023/2024,Female,ALL,WAEC,University,lga,Sagamu,South West,Ogun,Sagamu,,,352,907,971,1056,977,87,208,0,0,86
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,8,22,22,5,4,0,4,0,16,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,21,55,56,11,10,0,12,0,42,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,15,39,42,7,6,0,9,0,32,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,22,56,61,10,8,0,13,0,48,2
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,14,36,36,7,6,0,8,0,27,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,20,53,55,28,24,0,11,0,23,4
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,8,22,22,13,11,0,4,0,7,2
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,12,30,30,19,17,0,7,0,8,3
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,11,28,29,19,16,0,7,0,8,3
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,7,19,18,9,8,0,4,0,7,1
-2023/2024,Female,Disabled,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,9,23,23,42,38,0,5,0,0,4
-2023/2024,Female,Disabled,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,6,15,16,30,27,0,3,0,0,3
-2023/2024,Female,Disabled,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,11,28,31,42,38,0,7,0,0,4
-2023/2024,Female,Disabled,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,5,14,15,27,24,0,3,0,0,3
-2023/2024,Female,Disabled,NABTEB,University,lga,Sagamu,South West,Ogun,Sagamu,,,15,38,41,68,62,12,9,0,0,7
-2023/2024,Female,Disabled,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,13,34,35,5,4,0,7,0,29,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,31,79,89,11,10,0,18,0,74,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,23,60,65,8,7,0,13,0,53,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,42,107,120,10,9,0,27,0,104,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,20,53,60,6,6,0,12,0,51,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,36,92,100,31,30,0,22,0,63,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,13,34,40,13,12,0,8,0,24,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,19,49,54,19,18,0,11,0,32,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,14,36,47,17,15,0,8,0,27,2
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,11,28,31,8,7,0,7,0,21,1
-2023/2024,Female,Disabled,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,16,39,46,37,36,0,10,0,4,1
-2023/2024,Female,Disabled,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,6,18,22,27,26,0,3,0,0,1
-2023/2024,Female,Disabled,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,16,40,50,51,49,0,10,0,0,2
-2023/2024,Female,Disabled,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,12,30,32,24,23,0,7,0,5,1
-2023/2024,Female,Disabled,NECO,University,lga,Sagamu,South West,Ogun,Sagamu,,,21,56,61,61,56,0,12,0,0,6
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,19,50,56,6,5,0,11,0,48,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,40,104,113,11,10,0,24,0,97,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,31,81,92,8,7,0,18,0,79,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,50,127,140,13,12,0,31,0,121,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,29,74,78,7,6,0,17,0,67,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,47,119,131,33,31,0,28,0,90,3
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,19,48,51,12,11,0,11,0,36,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,26,68,74,20,19,0,15,0,49,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,21,55,57,17,16,0,12,0,37,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,17,43,47,12,11,0,10,0,32,1
-2023/2024,Female,Disabled,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,20,51,56,49,46,0,13,0,1,3
-2023/2024,Female,Disabled,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,7,20,20,24,22,0,4,0,0,2
-2023/2024,Female,Disabled,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,23,60,68,64,46,25,14,0,0,19
-2023/2024,Female,Disabled,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,16,40,43,24,22,0,10,0,15,2
-2023/2024,Female,Disabled,WAEC,University,lga,Sagamu,South West,Ogun,Sagamu,,,30,76,87,73,68,0,18,0,5,5
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,80,207,223,34,31,0,47,0,177,3
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,177,455,508,68,65,0,104,0,414,4
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,131,338,374,48,43,0,77,0,307,6
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,204,525,602,85,74,12,120,0,486,12
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,125,322,351,56,47,12,74,0,277,9
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,186,478,539,228,202,25,110,0,272,28
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,72,186,197,82,71,12,42,0,100,12
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,97,250,281,124,107,12,58,0,136,18
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,98,254,292,131,116,12,58,0,139,17
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,57,147,165,77,64,12,33,0,76,14
-2023/2024,Male,ALL,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,96,250,270,339,303,37,56,0,0,38
-2023/2024,Male,ALL,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,43,112,120,154,136,25,24,0,0,20
-2023/2024,Male,ALL,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,71,184,205,313,277,37,41,0,0,39
-2023/2024,Male,ALL,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,55,142,150,228,182,50,33,0,0,50
-2023/2024,Male,ALL,NABTEB,University,lga,Sagamu,South West,Ogun,Sagamu,,,112,289,297,353,345,12,65,0,0,9
-2023/2024,Male,ALL,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,144,372,407,56,52,0,85,0,330,5
-2023/2024,Male,ALL,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,328,846,913,119,108,12,193,0,748,12
-2023/2024,Male,ALL,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,233,599,649,95,86,12,138,0,521,10
-2023/2024,Male,ALL,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,377,973,1090,154,138,12,222,0,880,18
-2023/2024,Male,ALL,NECO,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,224,578,637,85,78,12,132,0,520,8
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,350,904,979,408,369,37,206,0,500,42
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,142,367,377,141,129,12,84,0,210,13
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,187,484,545,242,219,25,110,0,262,25
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,176,454,510,217,205,12,103,0,255,13
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,114,295,317,128,117,12,67,0,167,12
-2023/2024,Male,ALL,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,178,460,493,655,610,50,105,0,0,49
-2023/2024,Male,ALL,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,83,212,231,335,315,25,49,0,0,22
-2023/2024,Male,ALL,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,142,367,418,593,546,50,84,0,0,51
-2023/2024,Male,ALL,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,101,259,266,335,315,25,60,0,0,22
-2023/2024,Male,ALL,NECO,University,lga,Sagamu,South West,Ogun,Sagamu,,,201,519,545,696,629,75,119,0,0,72
-2023/2024,Male,ALL,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,198,511,576,87,81,0,117,0,459,6
-2023/2024,Male,ALL,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,454,1172,1248,183,171,12,267,0,1001,13
-2023/2024,Male,ALL,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,336,867,943,134,124,12,198,0,761,11
-2023/2024,Male,ALL,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,485,1252,1359,201,189,12,285,0,1089,13
-2023/2024,Male,ALL,WAEC,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,315,812,894,138,130,12,186,0,710,8
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,444,1144,1238,543,516,25,263,0,603,29
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,169,436,467,191,186,0,100,0,242,6
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,250,645,734,339,321,25,147,0,339,19
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,244,628,720,322,303,25,144,0,344,20
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,152,391,428,181,174,12,90,0,215,8
-2023/2024,Male,ALL,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,247,637,685,969,897,75,145,0,0,77
-2023/2024,Male,ALL,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,114,295,311,475,439,37,67,0,0,38
-2023/2024,Male,ALL,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,195,501,562,828,772,62,116,0,0,60
-2023/2024,Male,ALL,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,143,369,400,549,503,50,84,0,0,49
-2023/2024,Male,ALL,WAEC,University,lga,Sagamu,South West,Ogun,Sagamu,,,268,691,737,943,897,50,157,0,0,49
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,6,16,16,5,4,0,3,0,10,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,16,40,42,9,8,0,9,0,30,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,12,31,32,6,6,0,6,0,24,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,18,47,54,7,6,0,10,0,44,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,10,27,27,7,6,0,5,0,18,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,15,37,40,28,24,0,9,0,8,4
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,6,18,19,13,11,0,3,0,4,2
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,9,24,25,19,17,0,5,0,3,3
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,8,22,22,19,16,0,4,0,1,3
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,5,13,14,9,8,0,3,0,3,1
-2023/2024,Male,Disabled,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,7,18,20,42,38,0,4,0,0,4
-2023/2024,Male,Disabled,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4,11,11,30,27,0,3,0,0,3
-2023/2024,Male,Disabled,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,8,22,23,42,38,0,4,0,0,4
-2023/2024,Male,Disabled,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,4,11,10,27,24,0,2,0,0,3
-2023/2024,Male,Disabled,NABTEB,University,lga,Sagamu,South West,Ogun,Sagamu,,,12,31,30,54,49,0,6,0,0,5
-2023/2024,Male,Disabled,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,10,25,26,5,4,0,5,0,20,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,25,65,74,10,9,0,14,0,60,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,17,45,48,7,6,0,9,0,38,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,33,84,98,10,8,0,21,0,83,2
-2023/2024,Male,Disabled,NECO,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,16,43,47,7,6,0,9,0,37,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,29,73,80,30,29,0,17,0,45,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,11,30,31,13,12,0,6,0,16,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,15,39,43,19,17,0,9,0,21,2
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,12,30,31,17,15,0,7,0,12,2
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,9,23,23,8,7,0,6,0,13,1
-2023/2024,Male,Disabled,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,13,32,34,42,40,0,8,0,0,2
-2023/2024,Male,Disabled,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,5,14,16,24,23,0,3,0,0,1
-2023/2024,Male,Disabled,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,13,33,40,51,46,0,8,0,0,5
-2023/2024,Male,Disabled,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,7,19,19,24,22,0,4,0,0,2
-2023/2024,Male,Disabled,NECO,University,lga,Sagamu,South West,Ogun,Sagamu,,,17,43,43,61,57,0,10,0,0,4
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,14,37,42,5,4,0,8,0,35,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,35,90,93,13,12,0,21,0,75,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,24,61,71,8,7,0,14,0,59,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,41,106,116,14,13,0,25,0,96,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,23,59,70,8,7,0,14,0,58,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,38,96,105,33,31,0,24,0,65,3
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,16,39,42,12,11,0,10,0,27,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,22,56,65,25,24,0,14,0,35,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,16,42,47,17,16,0,9,0,27,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,13,34,37,12,11,0,7,0,23,1
-2023/2024,Male,Disabled,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,17,43,47,49,46,0,10,0,0,3
-2023/2024,Male,Disabled,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,7,18,20,24,22,0,4,0,0,2
-2023/2024,Male,Disabled,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,17,43,49,64,46,25,10,0,0,19
-2023/2024,Male,Disabled,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,12,28,30,24,23,0,8,0,3,1
-2023/2024,Male,Disabled,WAEC,University,lga,Sagamu,South West,Ogun,Sagamu,,,23,59,68,73,68,0,14,0,0,5
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,162,417,278,118,108,9,96,114,139,11
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,363,935,622,265,243,21,214,256,312,23
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,267,687,458,194,179,16,157,188,230,17
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,357,920,612,260,240,21,210,253,307,22
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,251,646,430,183,168,15,148,177,215,16
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,357,921,613,261,240,21,210,253,307,23
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,135,348,232,99,91,8,80,95,116,9
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,175,452,301,128,117,10,103,124,151,11
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,210,540,359,153,141,12,124,148,180,13
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,111,287,190,81,75,6,65,79,95,7
-2024/2025,Female,ALL,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,190,490,327,139,128,11,112,134,164,12
-2024/2025,Female,ALL,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,85,218,145,62,56,5,50,60,72,6
-2024/2025,Female,ALL,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,148,383,255,108,100,9,87,105,128,9
-2024/2025,Female,ALL,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,131,339,226,96,88,8,77,93,113,9
-2024/2025,Female,ALL,NABTEB,University,lga,Sagamu,South West,Ogun,Sagamu,,,227,585,389,166,153,13,134,161,195,14
-2024/2025,Female,ALL,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,328,846,563,240,220,19,193,232,282,21
-2024/2025,Female,ALL,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,606,1562,1040,442,407,35,357,428,521,38
-2024/2025,Female,ALL,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,497,1283,853,363,334,29,293,352,428,31
-2024/2025,Female,ALL,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,703,1812,1206,512,472,41,414,497,605,44
-2024/2025,Female,ALL,NECO,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,471,1214,808,343,315,27,277,333,405,30
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,664,1712,1140,485,446,39,391,469,571,42
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,242,624,415,177,163,14,143,171,208,15
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,339,873,582,247,228,20,199,239,292,21
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,362,932,620,264,242,21,213,256,311,23
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,199,513,342,145,134,12,118,140,172,12
-2024/2025,Female,ALL,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,342,883,588,250,229,20,201,242,295,22
-2024/2025,Female,ALL,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,159,410,274,116,107,9,94,112,138,9
-2024/2025,Female,ALL,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,271,698,465,198,182,16,160,191,233,17
-2024/2025,Female,ALL,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,244,630,419,179,165,14,144,173,210,15
-2024/2025,Female,ALL,NECO,University,lga,Sagamu,South West,Ogun,Sagamu,,,396,1020,680,289,265,23,234,279,341,25
-2024/2025,Female,ALL,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,409,1055,702,299,275,24,241,289,352,26
-2024/2025,Female,ALL,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,860,2218,1477,628,577,50,507,608,740,55
-2024/2025,Female,ALL,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,683,1762,1173,499,459,40,402,483,588,43
-2024/2025,Female,ALL,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,924,2382,1586,673,620,54,544,653,796,58
-2024/2025,Female,ALL,WAEC,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,608,1568,1044,444,408,36,359,430,523,39
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,909,2344,1560,663,610,53,535,643,782,58
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,343,885,589,251,230,20,202,243,295,22
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,470,1211,807,343,315,27,277,332,404,30
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,482,1242,827,352,324,28,284,340,415,30
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,294,757,505,215,197,17,173,207,253,19
-2024/2025,Female,ALL,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,480,1237,823,350,322,28,283,339,413,30
-2024/2025,Female,ALL,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,202,522,348,148,136,12,119,143,174,13
-2024/2025,Female,ALL,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,405,1044,695,295,272,24,238,286,349,25
-2024/2025,Female,ALL,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,281,726,483,205,189,16,166,199,242,18
-2024/2025,Female,ALL,WAEC,University,lga,Sagamu,South West,Ogun,Sagamu,,,546,1407,937,398,366,32,322,386,470,34
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,14,36,24,10,9,1,8,10,12,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,35,90,59,25,23,2,20,25,30,2
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,24,62,42,18,16,1,14,17,21,2
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,34,86,57,25,22,2,20,24,28,3
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,23,59,40,17,16,1,14,16,20,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,32,82,55,23,21,2,19,22,28,2
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,14,36,24,10,9,1,8,10,12,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,19,48,32,14,13,1,11,13,16,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,19,48,32,14,13,1,11,13,16,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,10,26,18,7,6,1,6,7,9,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,14,36,24,10,9,1,8,10,12,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,9,23,16,6,6,1,6,6,8,0
-2024/2025,Female,Disabled,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,17,43,28,12,11,1,10,12,14,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,9,23,16,6,6,1,6,6,8,0
-2024/2025,Female,Disabled,NABTEB,University,lga,Sagamu,South West,Ogun,Sagamu,,,24,62,42,18,16,1,14,17,21,2
-2024/2025,Female,Disabled,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,20,53,34,15,14,1,12,15,17,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,46,117,78,33,31,3,27,32,39,3
-2024/2025,Female,Disabled,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,38,98,66,28,26,2,23,27,33,2
-2024/2025,Female,Disabled,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,60,154,103,43,40,3,35,42,52,4
-2024/2025,Female,Disabled,NECO,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,33,84,56,24,22,2,19,23,28,2
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,56,144,96,41,38,3,33,40,48,3
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,20,50,34,15,13,1,12,13,17,2
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,31,79,52,22,20,2,18,22,26,2
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,22,58,39,17,15,1,13,16,19,2
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,18,47,31,13,12,1,10,13,16,1
-2024/2025,Female,Disabled,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,21,54,35,15,14,1,12,15,18,1
-2024/2025,Female,Disabled,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,10,26,18,7,6,1,6,7,9,1
-2024/2025,Female,Disabled,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,25,65,43,19,17,1,15,18,21,2
-2024/2025,Female,Disabled,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,16,42,27,12,11,1,9,12,13,1
-2024/2025,Female,Disabled,NECO,University,lga,Sagamu,South West,Ogun,Sagamu,,,33,85,57,24,22,2,19,23,29,2
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,28,73,49,20,19,2,16,20,25,1
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,60,155,103,44,41,4,36,43,51,4
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,48,124,82,35,32,3,28,34,41,3
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,77,198,132,56,52,4,45,54,66,5
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,44,113,75,31,30,3,26,31,38,2
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,74,192,127,54,50,4,43,53,64,4
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,29,74,50,21,19,2,17,20,25,2
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,40,103,69,30,27,2,24,28,34,3
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,32,82,55,23,21,2,19,22,28,2
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,26,68,45,19,18,2,15,19,22,2
-2024/2025,Female,Disabled,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,31,80,53,22,20,2,18,22,27,2
-2024/2025,Female,Disabled,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,13,33,22,9,8,1,8,9,11,1
-2024/2025,Female,Disabled,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,38,97,66,28,25,2,23,26,33,3
-2024/2025,Female,Disabled,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,19,49,33,14,13,1,12,13,17,1
-2024/2025,Female,Disabled,WAEC,University,lga,Sagamu,South West,Ogun,Sagamu,,,48,124,82,35,32,3,28,34,41,3
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,115,297,197,84,77,7,67,82,98,8
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,293,755,503,214,196,17,172,207,252,19
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,214,553,367,156,143,13,126,152,184,14
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,303,780,519,221,204,18,179,214,260,19
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,188,485,323,137,126,11,111,133,162,12
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,273,704,468,199,183,16,161,193,235,17
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,108,279,186,79,73,6,64,76,94,6
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,148,382,254,108,99,9,87,105,127,10
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,152,393,261,111,103,9,89,108,131,9
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,86,222,148,63,57,5,50,61,74,6
-2024/2025,Male,ALL,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,148,382,254,108,99,9,87,105,127,10
-2024/2025,Male,ALL,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,74,190,127,54,50,4,43,52,64,4
-2024/2025,Male,ALL,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,108,278,185,79,72,6,64,76,93,7
-2024/2025,Male,ALL,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,86,222,148,63,57,5,50,61,74,6
-2024/2025,Male,ALL,NABTEB,University,lga,Sagamu,South West,Ogun,Sagamu,,,174,449,299,127,117,10,103,123,150,11
-2024/2025,Male,ALL,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,238,614,409,174,160,14,141,168,205,15
-2024/2025,Male,ALL,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,492,1269,845,359,330,29,290,348,424,31
-2024/2025,Male,ALL,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,391,1008,671,285,263,23,230,276,337,24
-2024/2025,Male,ALL,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,581,1498,997,424,390,34,343,411,500,36
-2024/2025,Male,ALL,NECO,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,376,968,644,274,252,22,221,266,323,24
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,509,1311,873,371,341,30,300,359,438,32
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,204,526,351,149,137,12,120,144,176,13
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,292,753,502,213,196,17,172,206,252,18
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,267,688,458,195,179,16,158,189,229,17
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,159,409,273,116,106,9,93,112,137,10
-2024/2025,Male,ALL,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,257,662,441,188,172,15,152,181,221,17
-2024/2025,Male,ALL,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,136,350,233,99,91,8,80,96,117,9
-2024/2025,Male,ALL,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,213,549,365,155,143,12,126,151,183,13
-2024/2025,Male,ALL,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,165,425,282,120,110,10,97,117,141,11
-2024/2025,Male,ALL,NECO,University,lga,Sagamu,South West,Ogun,Sagamu,,,320,825,549,233,215,19,188,226,276,20
-2024/2025,Male,ALL,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,288,744,495,210,193,17,169,204,249,18
-2024/2025,Male,ALL,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,720,1856,1235,525,483,42,425,509,619,46
-2024/2025,Male,ALL,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,551,1419,945,401,370,32,325,389,474,34
-2024/2025,Male,ALL,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,754,1945,1295,550,506,44,444,533,649,48
-2024/2025,Male,ALL,WAEC,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,469,1209,804,342,315,27,276,332,403,30
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,700,1805,1201,511,470,41,412,495,602,44
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,299,771,513,218,201,17,176,212,257,19
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,404,1041,693,294,271,24,238,285,348,25
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,356,918,612,260,240,21,210,251,307,22
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,230,593,395,168,154,13,136,162,198,15
-2024/2025,Male,ALL,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,369,952,634,269,248,22,217,261,318,23
-2024/2025,Male,ALL,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,182,469,312,133,122,11,107,129,156,12
-2024/2025,Male,ALL,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,302,778,518,220,203,18,178,213,260,19
-2024/2025,Male,ALL,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,203,524,350,148,137,12,120,143,176,12
-2024/2025,Male,ALL,WAEC,University,lga,Sagamu,South West,Ogun,Sagamu,,,419,1080,719,305,281,24,246,296,361,26
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,11,27,19,7,7,1,6,7,10,0
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,26,68,45,19,18,2,15,19,22,2
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,18,47,31,13,12,1,10,13,16,1
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,26,68,45,19,18,2,15,19,22,2
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,18,45,30,13,12,1,11,12,15,1
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,23,59,40,17,16,1,14,16,20,1
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,11,27,19,7,7,1,6,7,10,0
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,14,37,25,10,9,1,8,10,13,1
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,14,36,24,10,9,1,8,10,12,1
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,7,20,12,6,5,0,4,6,6,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,11,28,20,8,7,1,7,7,10,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,7,18,11,5,5,0,4,5,6,0
-2024/2025,Male,Disabled,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,12,32,21,9,8,1,7,9,10,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,7,18,11,5,5,0,4,5,6,0
-2024/2025,Male,Disabled,NABTEB,University,lga,Sagamu,South West,Ogun,Sagamu,,,18,47,31,13,12,1,10,13,16,1
-2024/2025,Male,Disabled,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,17,43,28,12,11,1,10,12,14,1
-2024/2025,Male,Disabled,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,39,101,67,29,26,2,23,28,33,3
-2024/2025,Male,Disabled,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,29,76,50,21,19,2,17,21,25,2
-2024/2025,Male,Disabled,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,50,128,85,36,33,3,29,35,43,3
-2024/2025,Male,Disabled,NECO,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,26,68,45,19,18,2,15,19,22,2
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,43,111,73,31,29,2,25,31,36,3
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,18,45,30,13,12,1,11,12,15,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,23,60,41,18,16,1,14,16,20,2
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,18,45,30,13,12,1,11,12,15,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,12,31,20,8,8,1,7,9,10,0
-2024/2025,Male,Disabled,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,18,45,30,13,12,1,11,12,15,1
-2024/2025,Male,Disabled,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,8,21,14,6,6,0,4,6,7,0
-2024/2025,Male,Disabled,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,19,48,32,14,13,1,11,13,16,1
-2024/2025,Male,Disabled,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,11,28,20,8,7,1,7,7,10,1
-2024/2025,Male,Disabled,NECO,University,lga,Sagamu,South West,Ogun,Sagamu,,,28,71,48,20,19,2,17,19,24,2
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,22,57,37,16,15,1,12,16,19,1
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,52,134,88,38,35,3,30,37,44,3
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,38,97,66,28,25,2,23,26,33,3
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,65,166,111,47,43,4,38,45,56,4
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Sagamu,South West,Ogun,Sagamu,,,35,90,59,25,23,2,20,25,30,2
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,57,146,97,42,38,3,34,40,48,4
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,25,66,44,19,18,1,15,18,22,1
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,34,86,57,25,22,2,20,24,28,3
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,23,59,40,17,16,1,14,16,20,1
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Sagamu,South West,Ogun,Sagamu,,,20,53,34,15,14,1,12,15,17,1
-2024/2025,Male,Disabled,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,27,69,46,19,18,2,16,19,23,2
-2024/2025,Male,Disabled,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,12,31,20,8,7,1,7,9,10,1
-2024/2025,Male,Disabled,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,27,69,46,19,18,2,16,19,23,2
-2024/2025,Male,Disabled,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,14,37,25,10,9,1,8,10,13,1
-2024/2025,Male,Disabled,WAEC,University,lga,Sagamu,South West,Ogun,Sagamu,,,36,92,61,26,24,2,21,25,31,2
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated,median_time_to_matriculation_years
+2022/2023,Female,ALL,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,592,1776,1285,538,494,27,0,491,747,44,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,269,807,584,245,225,12,0,223,339,20,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,215,646,467,196,180,10,0,179,271,16,1.8
+2022/2023,Female,ALL,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,277,831,601,252,231,13,0,230,349,21,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,126,378,273,114,105,6,0,105,159,9,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,101,302,219,92,84,5,0,83,127,8,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,86,258,187,78,72,4,0,71,109,6,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,39,117,85,36,33,2,0,32,49,3,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,31,94,68,28,26,1,0,26,40,2,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,38,115,84,35,32,2,0,31,49,3,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,17,52,38,16,15,1,0,14,22,1,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,14,42,30,13,12,1,0,12,17,1,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,18,54,39,16,15,1,0,15,23,1,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,8,25,18,7,7,0,0,7,11,0,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,7,20,14,6,5,0,0,6,8,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,6,17,12,5,5,0,0,5,7,0,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3,8,6,2,2,0,0,2,4,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,877,2630,1903,797,732,40,0,727,1106,65,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,399,1196,865,362,333,18,0,331,503,29,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,319,956,692,290,266,15,0,264,402,24,1.8
+2022/2023,Female,ALL,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,410,1230,890,373,343,19,0,340,517,30,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,186,559,405,170,156,9,0,154,235,14,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,149,447,324,136,125,7,0,123,188,11,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,127,382,276,116,106,6,0,106,160,10,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,58,174,126,53,48,3,0,48,73,5,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,46,139,100,42,39,2,0,39,58,3,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,57,171,124,52,48,3,0,47,72,4,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,26,78,56,24,22,1,0,22,32,2,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,21,62,45,19,17,1,0,17,26,2,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,27,80,58,24,22,1,0,22,34,2,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,12,36,26,11,10,1,0,10,15,1,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,10,29,21,9,8,0,0,8,12,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,8,25,18,8,7,0,0,7,10,1,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4,11,8,3,3,0,0,3,5,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,3,9,7,3,3,0,0,2,4,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,935,2805,2030,850,781,43,0,775,1180,69,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,425,1275,923,386,355,20,0,352,537,31,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,340,1020,738,309,284,16,0,282,429,25,1.8
+2022/2023,Female,ALL,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,437,1312,949,398,365,20,0,363,551,33,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,199,596,432,181,166,9,0,164,251,15,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,159,477,345,145,133,7,0,132,200,12,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,136,407,295,123,113,6,0,112,172,10,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,62,185,134,56,52,3,0,51,78,4,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,49,148,107,45,41,2,0,41,62,4,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,61,182,132,55,51,3,0,50,77,4,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,28,83,60,25,23,1,0,23,35,2,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,22,66,48,20,18,1,0,18,28,2,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,28,85,62,26,24,1,0,23,36,2,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,13,39,28,12,11,1,0,11,16,1,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,10,31,22,9,9,0,0,9,13,0,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,9,26,19,8,7,0,0,7,11,1,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,4,12,9,4,3,0,0,3,5,1,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3,10,7,3,3,0,0,3,4,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Shagamu,South West,Ogun,Shagamu,,,965,2896,2096,878,806,44,0,800,1218,72,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,439,1316,953,399,367,20,0,363,554,32,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,351,1053,762,319,293,16,0,291,443,26,1.8
+2022/2023,Female,ALL,NECO,University,lga,Shagamu,South West,Ogun,Shagamu,,,452,1355,980,411,377,21,0,375,569,34,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,205,616,446,187,171,9,0,170,259,16,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,164,493,356,149,137,8,0,137,207,12,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Shagamu,South West,Ogun,Shagamu,,,140,420,304,127,117,6,0,116,177,10,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,64,191,138,58,53,3,0,53,80,5,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,51,153,111,46,43,2,0,42,65,3,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Shagamu,South West,Ogun,Shagamu,,,63,188,136,57,52,3,0,52,79,5,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,29,86,62,26,24,1,0,24,36,2,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,23,68,50,21,19,1,0,18,29,2,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Shagamu,South West,Ogun,Shagamu,,,29,88,64,27,25,1,0,24,37,2,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,13,40,29,12,11,1,0,11,17,1,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,11,32,23,10,9,0,0,9,13,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Shagamu,South West,Ogun,Shagamu,,,9,27,20,8,8,0,0,7,12,0,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,4,12,9,4,3,0,0,3,5,1,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,3,10,7,3,3,0,0,3,4,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,551,1653,1197,501,461,25,0,456,696,40,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,250,751,544,228,209,11,0,207,316,19,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,200,601,435,182,168,9,0,166,253,14,1.8
+2022/2023,Female,ALL,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,258,773,560,234,215,12,0,213,326,19,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,117,351,254,107,98,5,0,97,147,9,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,94,281,204,85,78,4,0,77,119,7,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,80,240,174,73,67,4,0,66,101,6,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,36,109,79,33,30,2,0,30,46,3,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,29,87,63,26,24,1,0,24,37,2,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,36,107,78,33,30,2,0,29,45,3,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,16,49,35,15,14,1,0,14,20,1,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,13,39,28,12,11,1,0,11,16,1,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,17,50,36,15,14,1,0,14,21,1,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,8,23,17,7,6,0,0,6,10,1,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,6,18,13,6,5,0,0,5,7,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,5,16,11,5,4,0,0,5,6,1,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,602,1805,1306,547,503,28,0,499,759,44,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,274,820,594,249,228,13,0,226,345,21,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,219,656,475,199,183,10,0,181,276,16,1.8
+2022/2023,Male,ALL,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,282,844,611,256,235,13,0,233,355,21,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,128,384,278,116,107,6,0,106,162,9,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,102,307,222,93,85,5,0,85,129,8,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,87,262,190,79,73,4,0,72,111,6,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,40,119,86,36,33,2,0,33,50,3,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,32,95,69,29,27,1,0,26,40,2,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,39,117,85,36,33,2,0,32,49,3,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,18,53,39,16,15,1,0,14,23,1,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,14,43,31,13,12,1,0,12,18,1,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,18,55,40,17,15,1,0,15,23,2,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,8,25,18,8,7,0,0,7,10,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,7,20,14,6,6,0,0,6,8,0,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,6,17,12,5,5,0,0,5,7,0,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3,8,6,2,2,0,0,2,4,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,891,2673,1934,811,745,41,0,739,1123,66,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,405,1215,879,368,339,19,0,336,511,29,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,324,972,703,295,271,15,0,269,408,24,1.8
+2022/2023,Male,ALL,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,417,1250,905,379,348,19,0,345,526,31,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,189,568,411,172,158,9,0,157,239,14,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,152,455,329,138,127,7,0,126,191,11,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,129,388,281,118,108,6,0,107,163,10,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,59,176,128,53,49,3,0,48,75,4,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,47,141,102,43,39,2,0,39,59,4,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,58,174,126,53,48,3,0,48,73,5,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,26,79,57,24,22,1,0,22,33,2,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,21,63,46,19,18,1,0,17,27,1,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,27,81,59,25,23,1,0,22,34,2,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,12,37,27,11,10,1,0,10,16,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,10,30,21,9,8,0,0,9,12,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,8,25,18,8,7,0,0,7,10,1,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4,11,8,3,3,0,0,3,5,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,3,9,7,3,3,0,0,2,4,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,950,2851,2063,864,794,44,0,788,1199,70,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,432,1296,938,393,361,20,0,358,545,32,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,346,1037,750,314,289,16,0,287,436,25,1.8
+2022/2023,Male,ALL,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,445,1334,965,404,371,20,0,369,561,33,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,202,606,439,184,169,9,0,167,255,15,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,162,485,351,147,135,7,0,134,204,12,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,138,414,300,125,115,6,0,114,175,10,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,63,188,136,57,52,3,0,52,79,5,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,50,151,109,46,42,2,0,42,63,4,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,62,185,134,56,52,3,0,51,78,4,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,28,84,61,26,23,1,0,23,35,3,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,22,67,49,20,19,1,0,18,29,1,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,29,87,63,26,24,1,0,24,37,2,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,13,39,29,12,11,1,0,10,17,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,11,32,23,10,9,0,0,9,13,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,9,27,19,8,7,0,0,8,11,1,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,4,12,9,4,3,0,0,3,5,1,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3,10,7,3,3,0,0,3,4,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Shagamu,South West,Ogun,Shagamu,,,981,2944,2130,892,820,45,0,814,1238,72,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,446,1338,968,406,373,21,0,370,562,33,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,357,1071,775,325,298,16,0,296,450,27,1.8
+2022/2023,Male,ALL,NECO,University,lga,Shagamu,South West,Ogun,Shagamu,,,459,1377,996,417,383,21,0,381,579,34,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,209,626,453,190,174,10,0,173,263,16,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,167,501,362,152,139,8,0,139,210,13,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Shagamu,South West,Ogun,Shagamu,,,142,427,309,130,119,7,0,118,179,11,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,65,194,141,59,54,3,0,53,82,5,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,52,155,112,47,43,2,0,43,65,4,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Shagamu,South West,Ogun,Shagamu,,,64,191,138,58,53,3,0,53,80,5,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,29,87,63,26,24,1,0,24,37,2,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,23,70,50,21,19,1,0,20,29,2,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Shagamu,South West,Ogun,Shagamu,,,30,90,65,27,25,1,0,25,38,2,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,14,41,29,12,11,1,0,12,17,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,11,33,24,10,9,0,0,9,14,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Shagamu,South West,Ogun,Shagamu,,,9,28,20,8,8,0,0,8,12,0,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,4,13,9,4,4,0,0,4,5,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,3,10,7,3,3,0,0,3,4,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,560,1680,1216,509,468,26,0,464,707,41,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,255,764,553,232,213,12,0,211,321,19,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,204,611,442,185,170,9,0,169,257,15,1.8
+2022/2023,Male,ALL,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,262,786,569,238,219,12,0,217,331,19,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,119,357,259,108,100,6,0,98,151,8,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,95,286,207,87,80,4,0,79,120,7,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,81,244,177,74,68,4,0,67,103,6,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,37,111,80,34,31,2,0,31,46,3,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,30,89,64,27,25,1,0,25,37,2,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,36,109,79,33,30,2,0,30,46,3,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,17,50,36,15,14,1,0,14,21,1,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,13,40,29,12,11,1,0,11,17,1,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,17,51,37,15,14,1,0,14,22,1,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,8,23,17,7,6,0,0,6,10,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,6,19,13,6,5,0,0,6,7,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,5,16,11,5,4,0,0,5,6,1,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,624,1843,1342,575,529,29,0,501,767,46,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,284,838,610,261,241,13,0,228,349,20,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,227,670,488,209,192,11,0,182,279,17,1.8
+2023/2024,Female,ALL,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,292,862,628,269,248,14,0,234,359,21,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,133,392,285,122,113,6,0,107,163,9,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,106,313,228,98,90,5,0,85,130,8,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,91,268,195,83,77,4,0,73,112,6,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,41,122,89,38,35,2,0,33,51,3,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,33,97,71,30,28,2,0,26,41,2,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,41,120,87,37,34,2,0,33,50,3,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,18,54,40,17,16,1,0,14,23,1,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,15,44,32,14,13,1,0,12,18,1,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,19,56,41,17,16,1,0,15,24,1,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,9,25,19,8,7,0,0,6,11,1,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,7,20,15,6,6,0,0,5,9,0,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,6,17,13,5,5,0,0,4,8,0,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3,8,6,2,2,0,0,2,4,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,2,6,5,2,2,0,0,1,3,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,925,2730,1988,851,784,43,0,742,1137,67,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,420,1241,903,387,356,20,0,338,516,31,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,336,993,723,309,285,16,0,270,414,24,1.8
+2023/2024,Female,ALL,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,433,1277,930,398,367,20,0,347,532,31,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,197,580,423,181,167,9,0,157,242,14,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,157,464,338,145,133,7,0,126,193,12,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,134,396,289,124,114,6,0,107,165,10,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,61,180,131,56,52,3,0,49,75,4,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,49,144,105,45,41,2,0,39,60,4,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,60,177,129,55,51,3,0,48,74,4,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,27,81,59,25,23,1,0,22,34,2,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,22,65,47,20,19,1,0,18,27,1,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,28,83,60,26,24,1,0,23,34,2,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,13,38,27,12,11,1,0,11,15,1,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,10,30,22,9,9,0,0,8,13,0,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,9,26,19,8,7,0,0,7,11,1,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4,12,9,4,3,0,0,3,5,1,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,3,9,7,3,3,0,0,2,4,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,987,2911,2120,907,836,46,0,791,1213,71,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,448,1323,963,412,380,21,0,360,551,32,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,359,1059,771,330,304,17,0,288,441,26,1.8
+2023/2024,Female,ALL,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,461,1362,991,424,391,22,0,371,567,33,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,210,619,451,193,178,10,0,168,258,15,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,168,495,361,154,142,8,0,134,207,12,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,143,423,308,132,121,7,0,115,176,11,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,65,192,140,60,55,3,0,52,80,5,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,52,154,112,48,44,2,0,42,64,4,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,64,189,138,59,54,3,0,51,79,5,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,29,86,63,27,25,1,0,23,36,2,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,23,69,50,21,20,1,0,19,29,1,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,30,89,64,28,25,1,0,25,36,3,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,14,40,29,13,12,1,0,11,16,1,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,11,32,23,10,9,0,0,9,13,1,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,9,27,20,9,8,0,0,7,11,1,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,4,12,9,4,4,0,0,3,5,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3,10,7,3,3,0,0,3,4,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Shagamu,South West,Ogun,Shagamu,,,1019,3006,2189,937,863,47,0,817,1252,74,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,463,1366,995,426,392,22,0,371,569,34,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,370,1093,796,341,314,17,0,297,455,27,1.8
+2023/2024,Female,ALL,NECO,University,lga,Shagamu,South West,Ogun,Shagamu,,,476,1406,1024,438,404,22,0,382,586,34,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,217,639,465,199,184,10,0,174,266,15,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,173,511,372,159,147,8,0,139,213,12,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Shagamu,South West,Ogun,Shagamu,,,148,436,318,136,125,7,0,118,182,11,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,67,198,144,62,57,3,0,54,82,5,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,54,159,116,49,46,3,0,43,67,3,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Shagamu,South West,Ogun,Shagamu,,,66,195,142,61,56,3,0,53,81,5,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,30,89,65,28,26,1,0,24,37,2,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,24,71,52,22,20,1,0,19,30,2,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Shagamu,South West,Ogun,Shagamu,,,31,91,67,28,26,1,0,24,39,2,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,14,42,30,13,12,1,0,12,17,1,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,11,33,24,10,10,1,0,9,14,0,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Shagamu,South West,Ogun,Shagamu,,,10,28,21,9,8,0,0,7,12,1,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,4,13,9,4,4,0,0,4,5,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,3,10,8,3,3,0,0,2,5,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,581,1716,1249,535,493,27,0,467,714,42,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,264,780,568,243,224,12,0,212,325,19,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,211,624,454,195,179,10,0,170,259,16,1.8
+2023/2024,Female,ALL,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,272,803,584,250,230,13,0,219,334,20,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,124,365,266,114,105,6,0,99,152,9,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,99,292,213,91,84,5,0,79,122,7,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,84,249,181,78,72,4,0,68,103,6,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,38,113,82,35,33,2,0,31,47,2,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,31,91,66,28,26,1,0,25,38,2,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,38,112,81,35,32,2,0,31,46,3,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,17,51,37,16,15,1,0,14,21,1,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,14,41,30,13,12,1,0,11,17,1,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,18,52,38,16,15,1,0,14,22,1,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,8,24,17,7,7,0,0,7,10,0,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,6,19,14,6,5,0,0,5,8,1,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,5,16,12,5,5,0,0,4,7,0,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,635,1873,1364,584,538,30,0,509,780,46,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,289,852,620,266,245,13,0,232,354,21,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,231,681,496,212,196,11,0,185,284,16,1.8
+2023/2024,Male,ALL,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,297,876,638,273,252,14,0,238,365,21,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,135,398,290,124,114,6,0,108,166,10,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,108,319,232,99,92,5,0,87,133,7,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,92,272,198,85,78,4,0,74,113,7,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,42,124,90,39,36,2,0,34,51,3,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,34,99,72,31,28,2,0,27,41,3,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,41,122,89,38,35,2,0,33,51,3,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,19,55,40,17,16,1,0,15,23,1,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,15,44,32,14,13,1,0,12,18,1,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,19,57,41,18,16,1,0,16,23,2,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,9,26,19,8,7,0,0,7,11,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,7,21,15,6,6,0,0,6,9,0,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,6,18,13,6,5,0,0,5,7,1,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3,8,6,3,2,0,0,2,3,1,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,2,6,5,2,2,0,0,1,3,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,940,2775,2020,865,797,44,0,755,1155,68,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,427,1261,918,393,362,20,0,343,525,31,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,342,1009,735,314,290,16,0,274,421,24,1.8
+2023/2024,Male,ALL,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,440,1298,945,404,373,21,0,353,541,31,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,200,590,430,184,169,9,0,160,246,15,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,160,472,344,147,136,7,0,128,197,11,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,136,403,293,126,116,6,0,110,167,10,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,62,183,133,57,53,3,0,50,76,4,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,50,146,107,46,42,2,0,39,61,4,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,61,180,131,56,52,3,0,49,75,4,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,28,82,60,26,24,1,0,22,34,2,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,22,66,48,20,19,1,0,18,28,1,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,29,84,61,26,24,1,0,23,35,2,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,13,38,28,12,11,1,0,10,16,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,10,31,22,10,9,0,0,9,12,1,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,9,26,19,8,8,0,0,7,11,0,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4,12,9,4,3,0,0,3,5,1,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,3,10,7,3,3,0,0,3,4,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1003,2960,2155,922,850,47,0,805,1233,72,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,456,1345,979,419,386,21,0,366,560,33,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,365,1076,784,335,309,17,0,292,449,26,1.8
+2023/2024,Male,ALL,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,469,1384,1008,431,397,22,0,376,577,34,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,213,629,458,196,181,10,0,171,262,15,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,171,503,367,157,145,8,0,136,210,12,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,146,430,313,134,123,7,0,117,179,11,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,66,195,142,61,56,3,0,53,81,5,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,53,156,114,49,45,2,0,42,65,4,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,65,192,140,60,55,3,0,52,80,5,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,30,87,64,27,25,1,0,23,37,2,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,24,70,51,22,20,1,0,19,29,2,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,30,90,66,28,26,1,0,24,38,2,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,14,41,30,13,12,1,0,11,17,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,11,33,24,10,9,0,0,9,14,1,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,9,28,20,9,8,0,0,8,11,1,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,4,13,9,4,4,0,0,4,5,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3,10,7,3,3,0,0,3,4,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Shagamu,South West,Ogun,Shagamu,,,1035,3056,2225,952,878,48,0,831,1273,74,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,471,1389,1011,433,399,22,0,378,578,34,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,376,1111,809,346,319,18,0,302,463,27,1.8
+2023/2024,Male,ALL,NECO,University,lga,Shagamu,South West,Ogun,Shagamu,,,484,1429,1041,445,411,23,0,388,596,34,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,220,650,473,202,187,10,0,177,271,15,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,176,520,378,162,149,8,0,142,216,13,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Shagamu,South West,Ogun,Shagamu,,,150,444,323,138,127,7,0,121,185,11,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,68,202,147,63,58,3,0,55,84,5,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,55,161,117,50,46,3,0,44,67,4,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Shagamu,South West,Ogun,Shagamu,,,67,199,145,62,57,3,0,54,83,5,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,31,90,66,28,26,1,0,24,38,2,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,24,72,53,23,21,1,0,19,30,2,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Shagamu,South West,Ogun,Shagamu,,,31,93,68,29,27,1,0,25,39,2,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,14,42,31,13,12,1,0,11,18,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,11,34,25,11,10,1,0,9,14,1,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Shagamu,South West,Ogun,Shagamu,,,10,29,21,9,8,0,0,8,12,1,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,4,13,10,4,4,0,0,3,6,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,4,10,8,3,3,0,0,2,5,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,591,1745,1270,544,501,28,0,475,726,43,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,269,793,577,247,228,13,0,216,330,19,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,215,634,462,198,182,10,0,172,264,16,1.8
+2023/2024,Male,ALL,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,276,816,594,254,234,13,0,222,340,20,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,126,371,270,116,107,6,0,101,154,9,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,101,297,216,93,85,5,0,81,123,8,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,86,253,184,79,73,4,0,69,105,6,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,39,115,84,36,33,2,0,31,48,3,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,31,92,67,29,26,1,0,25,38,3,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,38,113,83,35,33,2,0,30,48,2,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,17,52,38,16,15,1,0,14,22,1,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,14,41,30,13,12,1,0,11,17,1,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,18,53,39,17,15,1,0,14,22,2,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,8,24,18,8,7,0,0,6,10,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,7,19,14,6,6,0,0,5,8,0,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,6,16,12,5,5,0,0,4,7,0,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,3,7,5,2,2,0,0,2,3,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,651,1932,1402,596,548,30,0,530,806,48,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,296,878,637,271,249,14,0,241,366,22,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,237,703,510,217,199,11,0,193,293,18,1.8
+2024/2025,Female,ALL,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,304,904,656,279,256,14,0,248,377,23,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,138,411,298,127,117,6,0,113,171,10,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,111,329,238,101,93,5,0,91,137,8,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,94,280,203,86,80,4,0,77,117,6,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,43,127,92,39,36,2,0,35,53,3,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,34,102,74,31,29,2,0,28,43,2,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,42,126,91,39,36,2,0,35,52,3,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,19,57,41,18,16,1,0,16,23,2,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,15,46,33,14,13,1,0,13,19,1,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,20,59,43,18,17,1,0,16,25,1,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,9,27,19,8,8,0,0,8,11,0,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,7,21,15,7,6,0,0,6,8,1,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,6,18,13,6,5,0,0,5,7,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3,8,6,3,2,0,0,2,3,1,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,963,2862,2076,883,812,45,0,786,1193,71,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,438,1301,944,401,369,20,0,357,543,32,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,350,1041,755,321,295,16,0,286,434,26,1.8
+2024/2025,Female,ALL,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,451,1339,971,413,380,21,0,368,558,33,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,205,609,441,188,173,10,0,168,253,15,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,164,487,353,150,138,8,0,134,203,12,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,140,416,301,128,118,6,0,115,173,10,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,64,189,137,58,54,3,0,52,79,4,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,51,151,110,47,43,2,0,41,63,4,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,63,186,135,57,53,3,0,51,78,4,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,28,85,61,26,24,1,0,24,35,2,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,23,68,49,21,19,1,0,19,28,2,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,29,87,63,27,25,1,0,24,36,2,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,13,40,29,12,11,1,0,11,17,1,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,11,32,23,10,9,0,0,9,13,1,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,9,27,20,8,8,0,0,7,12,0,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4,12,9,4,3,0,0,3,5,1,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,3,10,7,3,3,0,0,3,4,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1027,3053,2214,941,866,48,0,839,1273,75,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,467,1388,1006,428,394,22,0,382,578,34,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,374,1110,805,342,315,17,0,305,463,27,1.8
+2024/2025,Female,ALL,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,481,1428,1036,440,405,22,0,392,596,35,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,218,649,471,200,184,10,0,178,271,16,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,175,519,377,160,147,8,0,142,217,13,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,149,443,321,137,126,7,0,122,184,11,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,68,201,146,62,57,3,0,55,84,5,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,54,161,117,50,46,3,0,44,67,4,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,67,198,144,61,56,3,0,54,83,5,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,30,90,65,28,26,1,0,25,37,2,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,24,72,52,22,20,1,0,20,30,2,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,31,93,67,29,26,1,0,26,38,3,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,14,42,31,13,12,1,0,11,18,1,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,11,34,24,10,10,1,0,10,14,0,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,10,29,21,9,8,0,0,8,12,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,4,13,9,4,4,0,0,4,5,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,4,10,8,3,3,0,0,2,5,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Shagamu,South West,Ogun,Shagamu,,,1061,3152,2286,972,894,49,0,866,1314,78,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,482,1433,1039,442,406,22,0,394,597,36,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,386,1146,831,353,325,18,0,315,478,28,1.8
+2024/2025,Female,ALL,NECO,University,lga,Shagamu,South West,Ogun,Shagamu,,,496,1474,1069,454,418,23,0,405,615,36,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,226,670,486,207,190,10,0,184,279,17,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,180,536,389,165,152,8,0,147,224,13,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Shagamu,South West,Ogun,Shagamu,,,154,458,332,141,130,7,0,126,191,11,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,70,208,151,64,59,3,0,57,87,5,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,56,166,121,51,47,3,0,45,70,4,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Shagamu,South West,Ogun,Shagamu,,,69,205,149,63,58,3,0,56,86,5,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,31,93,68,29,26,1,0,25,39,3,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,25,74,54,23,21,1,0,20,31,2,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Shagamu,South West,Ogun,Shagamu,,,32,96,70,30,27,1,0,26,40,3,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,15,44,32,13,12,1,0,12,19,1,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,12,35,25,11,10,1,0,10,14,1,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Shagamu,South West,Ogun,Shagamu,,,10,30,22,9,8,0,0,8,13,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,5,14,10,4,4,0,0,4,6,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,4,11,8,3,3,0,0,3,5,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,606,1799,1305,555,510,28,0,494,750,45,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,275,818,593,252,232,13,0,225,341,20,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,220,654,475,202,186,10,0,179,273,16,1.8
+2024/2025,Female,ALL,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,283,842,610,260,239,13,0,232,350,21,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,129,383,277,118,109,6,0,106,159,9,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,103,306,222,94,87,5,0,84,128,7,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,88,261,189,81,74,4,0,72,108,7,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,40,119,86,37,34,2,0,33,49,3,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,32,95,69,29,27,1,0,26,40,2,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,39,117,85,36,33,2,0,32,49,3,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,18,53,39,16,15,1,0,14,23,1,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,14,43,31,13,12,1,0,12,18,1,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,18,55,40,17,16,1,0,15,23,1,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,8,25,18,8,7,0,0,7,10,1,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,7,20,14,6,6,0,0,6,8,0,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,6,17,12,5,5,0,0,5,7,0,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,3,8,6,2,2,0,0,2,4,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,2,6,4,2,2,0,0,2,2,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,661,1964,1425,606,557,31,0,539,819,49,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,301,893,648,275,253,14,0,245,373,22,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,240,714,518,220,203,11,0,196,298,17,1.8
+2024/2025,Male,ALL,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,309,919,666,283,261,14,0,253,383,22,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,141,418,303,129,118,6,0,115,174,11,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,112,334,242,103,95,5,0,92,139,8,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,96,285,207,88,81,4,0,78,119,7,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,44,130,94,40,37,2,0,36,54,3,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,35,104,75,32,29,2,0,29,43,3,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,43,128,93,39,36,2,0,35,54,3,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,20,58,42,18,16,1,0,16,24,2,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,16,46,34,14,13,1,0,12,20,1,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,20,60,43,18,17,1,0,17,25,1,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,9,27,20,8,8,0,0,7,12,0,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,7,22,16,7,6,0,0,6,9,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,6,19,13,6,5,0,0,6,7,1,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3,8,6,3,2,0,0,2,3,1,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,2,7,5,2,2,0,0,2,3,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,979,2909,2110,897,825,45,0,799,1213,72,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,445,1322,959,408,375,21,0,363,551,33,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,356,1058,767,326,300,16,0,291,441,26,1.8
+2024/2025,Male,ALL,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,458,1361,987,419,386,21,0,374,568,33,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,208,619,449,191,175,10,0,170,258,16,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,167,495,359,153,140,8,0,136,206,13,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,142,422,306,130,120,7,0,116,176,10,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,65,192,139,59,54,3,0,53,80,5,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,52,154,111,47,44,2,0,43,64,3,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,64,189,137,58,54,3,0,52,79,4,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,29,86,62,26,24,1,0,24,36,2,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,23,69,50,21,20,1,0,19,29,1,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,30,88,64,27,25,1,0,24,37,2,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,14,40,29,12,11,1,0,11,17,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,11,32,23,10,9,0,0,9,13,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,9,27,20,8,8,0,0,7,12,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4,12,9,4,4,0,0,3,5,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,3,10,7,3,3,0,0,3,4,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1044,3103,2251,957,880,48,0,852,1294,77,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,475,1410,1023,435,400,22,0,387,588,35,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,380,1128,819,348,320,18,0,309,471,28,1.8
+2024/2025,Male,ALL,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,489,1451,1053,447,412,23,0,398,606,35,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,222,660,479,203,187,10,0,181,276,16,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,178,528,383,163,150,8,0,145,220,13,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,152,450,327,139,128,7,0,123,188,11,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,69,205,149,63,58,3,0,56,86,5,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,55,164,119,50,46,3,0,45,69,4,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,68,202,146,62,57,3,0,56,84,5,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,31,92,67,28,26,1,0,25,39,2,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,25,73,53,23,21,1,0,20,30,2,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,32,94,68,29,27,1,0,26,39,2,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,14,43,31,13,12,1,0,12,18,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,12,34,25,11,10,1,0,9,14,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,10,29,21,9,8,0,0,8,12,1,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,4,13,10,4,4,0,0,3,6,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,4,11,8,3,3,0,0,3,5,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Shagamu,South West,Ogun,Shagamu,,,1078,3204,2324,988,909,50,0,880,1336,79,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,490,1456,1056,449,413,23,0,400,607,36,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,392,1165,845,359,330,18,0,320,486,29,1.8
+2024/2025,Male,ALL,NECO,University,lga,Shagamu,South West,Ogun,Shagamu,,,504,1499,1087,462,425,23,0,412,625,37,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,229,681,494,210,193,11,0,187,284,17,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,183,545,395,168,155,9,0,150,227,13,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Shagamu,South West,Ogun,Shagamu,,,157,465,337,143,132,7,0,128,194,11,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,71,211,153,65,60,3,0,58,88,5,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,57,169,123,52,48,3,0,46,71,4,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Shagamu,South West,Ogun,Shagamu,,,70,208,151,64,59,3,0,57,87,5,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,32,95,69,29,27,1,0,26,40,2,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,25,76,55,23,21,1,0,21,32,2,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Shagamu,South West,Ogun,Shagamu,,,33,97,71,30,28,2,0,26,41,2,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,15,44,32,14,13,1,0,12,18,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,12,35,26,11,10,1,0,9,15,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Shagamu,South West,Ogun,Shagamu,,,10,30,22,9,9,0,0,8,13,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Shagamu,South West,Ogun,Shagamu,,,5,14,10,4,4,0,0,4,6,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Shagamu,South West,Ogun,Shagamu,,,4,11,8,3,3,0,0,3,5,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,616,1829,1327,564,519,29,0,502,763,45,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,280,831,603,256,236,13,0,228,347,20,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,224,665,482,205,189,10,0,183,277,16,1.8
+2024/2025,Male,ALL,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,288,856,621,264,243,13,0,235,357,21,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,131,389,282,120,110,6,0,107,162,10,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,105,311,226,96,88,5,0,85,130,8,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,89,266,193,82,75,4,0,73,111,7,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,41,121,88,37,34,2,0,33,51,3,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,33,97,70,30,27,1,0,27,40,3,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Remo North,South West,Ogun,Remo North,,,40,119,86,37,34,2,0,33,49,3,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,18,54,39,17,15,1,0,15,22,2,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Remo North,South West,Ogun,Remo North,,,15,43,31,13,12,1,0,12,18,1,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Remo North,South West,Ogun,Remo North,,,19,56,40,17,16,1,0,16,23,1,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,9,25,18,8,7,0,0,7,10,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Remo North,South West,Ogun,Remo North,,,7,20,15,6,6,0,0,5,9,0,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Remo North,South West,Ogun,Remo North,,,6,17,13,5,5,0,0,4,8,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Remo North,South West,Ogun,Remo North,,,3,8,6,2,2,0,0,2,4,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Remo North,South West,Ogun,Remo North,,,2,6,5,2,2,0,0,1,3,0,1.8

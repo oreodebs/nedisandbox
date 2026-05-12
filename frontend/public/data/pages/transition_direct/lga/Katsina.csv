@@ -1,541 +1,541 @@
-session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,176,453,508,150,136,0,44,0,137,6
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,160,411,453,136,134,0,40,0,121,1
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,208,536,587,169,152,30,52,0,160,8
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,144,370,418,123,112,0,36,0,113,5
-2022/2023,Female,ALL,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,69,180,203,57,53,0,17,0,56,2
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,47,120,129,35,29,0,12,0,36,3
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,132,341,357,103,90,0,33,0,97,6
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,132,341,366,95,90,0,33,0,105,2
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,230,594,646,191,178,0,57,0,174,6
-2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,122,315,374,123,110,0,30,0,95,6
-2022/2023,Female,ALL,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,170,437,475,409,359,59,42,0,6,23
-2022/2023,Female,ALL,NABTEB,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,107,276,307,205,196,0,27,0,31,4
-2022/2023,Female,ALL,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,71,185,206,167,161,0,17,0,7,3
-2022/2023,Female,ALL,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,27,70,72,55,53,0,7,0,4,1
-2022/2023,Female,ALL,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,261,674,745,515,462,59,64,0,67,24
-2022/2023,Female,ALL,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,322,828,904,275,249,30,80,0,240,12
-2022/2023,Female,ALL,NECO,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,295,758,844,262,242,30,74,0,222,9
-2022/2023,Female,ALL,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,393,1013,1112,326,299,30,97,0,301,12
-2022/2023,Female,ALL,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,252,651,713,225,202,30,62,0,186,10
-2022/2023,Female,ALL,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,128,331,361,106,101,0,32,0,98,2
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,91,237,270,86,79,0,22,0,70,3
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,266,687,735,211,196,30,65,0,201,7
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,239,617,666,187,172,30,59,0,184,7
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,411,1062,1151,319,288,30,101,0,320,14
-2022/2023,Female,ALL,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,235,604,691,194,176,30,59,0,191,8
-2022/2023,Female,ALL,NECO,University,lga,Daura,North West,Katsina,Daura,,,304,781,869,687,629,59,76,0,39,26
-2022/2023,Female,ALL,NECO,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,209,539,562,392,370,30,52,0,49,10
-2022/2023,Female,ALL,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,137,354,381,260,229,30,34,0,36,14
-2022/2023,Female,ALL,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,49,128,144,114,108,0,12,0,6,3
-2022/2023,Female,ALL,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,466,1203,1278,883,794,89,115,0,115,40
-2022/2023,Female,ALL,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,406,1047,1159,335,306,30,101,0,316,13
-2022/2023,Female,ALL,WAEC,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,389,1002,1077,313,286,30,96,0,293,12
-2022/2023,Female,ALL,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,521,1341,1434,405,370,30,130,0,395,16
-2022/2023,Female,ALL,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,325,838,943,280,262,30,80,0,254,8
-2022/2023,Female,ALL,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,170,437,500,147,139,0,42,0,135,4
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,123,318,332,101,92,0,30,0,88,4
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,333,859,921,269,251,30,82,0,250,8
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,309,794,881,255,242,0,77,0,240,6
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,549,1416,1548,438,403,30,136,0,426,16
-2022/2023,Female,ALL,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,322,828,948,286,271,30,80,0,253,7
-2022/2023,Female,ALL,WAEC,University,lga,Daura,North West,Katsina,Daura,,,420,1083,1186,946,880,59,104,0,49,30
-2022/2023,Female,ALL,WAEC,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,263,679,708,513,473,30,65,0,53,18
-2022/2023,Female,ALL,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,163,419,473,381,359,30,41,0,18,10
-2022/2023,Female,ALL,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,69,177,201,143,141,0,17,0,16,1
-2022/2023,Female,ALL,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,632,1630,1743,1334,1241,89,156,0,98,42
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,17,44,45,18,15,0,4,0,10,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,17,44,45,18,15,0,4,0,10,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,19,49,47,18,15,0,5,0,11,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,14,36,40,13,11,0,3,0,10,1
-2022/2023,Female,Disabled,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,6,13,15,9,7,0,2,0,2,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,4,10,12,4,2,0,1,0,3,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,10,26,22,9,7,0,2,1,5,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,11,29,27,9,7,0,3,0,7,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,17,44,47,22,20,0,4,0,9,1
-2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,10,26,27,15,13,0,2,0,4,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,15,39,42,62,57,0,3,0,0,2
-2022/2023,Female,Disabled,NABTEB,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,8,21,22,22,20,0,2,0,0,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,7,21,22,24,22,0,1,0,0,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,2,8,7,15,13,0,0,0,0,1
-2022/2023,Female,Disabled,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,23,60,67,48,46,0,6,0,5,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,25,65,69,26,22,0,6,0,16,2
-2022/2023,Female,Disabled,NECO,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,24,62,69,24,20,0,6,0,17,2
-2022/2023,Female,Disabled,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,32,81,92,29,24,0,8,0,24,2
-2022/2023,Female,Disabled,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,19,47,52,18,15,0,5,0,13,1
-2022/2023,Female,Disabled,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,9,23,22,9,7,0,2,0,5,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,7,18,20,4,2,0,2,0,6,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,20,52,57,15,13,0,5,0,16,1
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,18,47,50,22,18,0,4,0,10,2
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,28,73,77,22,18,0,7,0,21,2
-2022/2023,Female,Disabled,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,20,52,57,15,13,0,5,0,16,1
-2022/2023,Female,Disabled,NECO,University,lga,Daura,North West,Katsina,Daura,,,23,57,62,62,53,0,6,0,0,4
-2022/2023,Female,Disabled,NECO,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,15,39,40,37,33,0,4,0,0,2
-2022/2023,Female,Disabled,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,14,34,37,22,20,0,4,0,5,1
-2022/2023,Female,Disabled,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,3,10,10,11,9,0,0,0,0,1
-2022/2023,Female,Disabled,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,38,96,109,64,55,0,10,0,15,4
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,33,86,99,22,20,0,8,0,30,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,34,89,97,22,20,0,8,0,29,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,40,102,114,26,24,0,10,0,34,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,26,68,72,18,15,0,6,0,21,1
-2022/2023,Female,Disabled,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,12,31,37,7,4,0,3,0,12,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,11,26,27,9,7,0,3,0,7,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,26,68,77,13,11,0,6,0,25,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,21,55,62,18,15,0,5,0,17,1
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,40,104,114,26,22,0,10,0,34,2
-2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,26,68,79,22,20,0,6,0,22,1
-2022/2023,Female,Disabled,WAEC,University,lga,Daura,North West,Katsina,Daura,,,33,83,97,62,57,0,9,0,11,2
-2022/2023,Female,Disabled,WAEC,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,19,49,52,31,26,0,5,0,7,2
-2022/2023,Female,Disabled,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,16,42,50,31,29,0,4,0,6,1
-2022/2023,Female,Disabled,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,5,10,12,11,9,0,2,0,0,1
-2022/2023,Female,Disabled,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,50,128,141,90,84,0,13,0,16,3
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,212,549,592,121,99,30,52,0,184,10
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,187,484,545,123,112,0,46,0,164,5
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,231,594,626,143,130,0,58,0,188,6
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,162,419,475,121,119,0,40,0,137,1
-2022/2023,Male,ALL,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,82,213,233,48,46,0,20,0,72,1
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,48,125,136,35,29,0,12,0,39,3
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,167,432,478,110,97,0,41,0,143,6
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,153,393,423,88,84,0,38,0,131,2
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,257,664,725,150,141,0,63,0,225,4
-2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,128,328,354,81,66,30,32,0,106,7
-2022/2023,Male,ALL,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,196,502,562,315,297,30,49,0,84,8
-2022/2023,Male,ALL,NABTEB,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,119,307,344,167,161,0,29,0,63,3
-2022/2023,Male,ALL,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,78,200,213,128,121,0,20,0,28,3
-2022/2023,Male,ALL,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,31,78,89,37,35,0,8,0,19,1
-2022/2023,Male,ALL,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,290,750,817,427,379,59,71,0,136,22
-2022/2023,Male,ALL,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,384,989,1077,264,233,30,95,0,315,14
-2022/2023,Male,ALL,NECO,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,351,906,1000,236,216,30,87,0,297,9
-2022/2023,Male,ALL,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,459,1182,1278,293,266,30,114,0,383,12
-2022/2023,Male,ALL,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,297,765,859,231,209,30,74,0,242,10
-2022/2023,Male,ALL,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,153,393,418,112,101,0,38,0,118,5
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,96,250,280,66,59,0,23,0,83,3
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,318,823,936,200,178,30,78,0,287,10
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,305,786,827,176,158,30,75,0,254,8
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,502,1294,1436,343,321,30,124,0,424,10
-2022/2023,Male,ALL,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,263,677,740,187,169,30,65,0,214,8
-2022/2023,Male,ALL,NECO,University,lga,Daura,North West,Katsina,Daura,,,353,909,1003,678,612,59,88,0,97,30
-2022/2023,Male,ALL,NECO,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,231,594,639,308,268,30,58,0,118,18
-2022/2023,Male,ALL,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,157,404,426,277,246,30,39,0,46,14
-2022/2023,Male,ALL,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,57,146,163,114,108,0,14,0,14,3
-2022/2023,Male,ALL,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,514,1325,1453,911,812,119,127,0,173,45
-2022/2023,Male,ALL,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,507,1309,1421,339,317,30,125,0,420,10
-2022/2023,Male,ALL,WAEC,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,467,1203,1302,299,282,30,116,0,390,8
-2022/2023,Male,ALL,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,579,1492,1632,370,346,30,144,0,491,11
-2022/2023,Male,ALL,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,389,1002,1117,293,275,30,97,0,318,8
-2022/2023,Male,ALL,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,194,500,565,136,119,30,48,0,166,8
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,125,323,359,79,77,0,31,0,109,1
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,424,1093,1208,286,271,30,105,0,358,7
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,408,1052,1141,253,235,30,101,0,346,8
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,636,1637,1751,396,370,30,158,0,527,12
-2022/2023,Male,ALL,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,337,870,1000,249,229,30,83,0,291,9
-2022/2023,Male,ALL,WAEC,University,lga,Daura,North West,Katsina,Daura,,,513,1322,1471,1015,931,89,127,0,133,38
-2022/2023,Male,ALL,WAEC,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,279,719,770,458,427,30,69,0,103,14
-2022/2023,Male,ALL,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,189,487,522,328,315,0,47,0,62,6
-2022/2023,Male,ALL,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,83,213,225,156,143,0,21,0,20,6
-2022/2023,Male,ALL,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,710,1830,1949,1222,1136,89,176,0,232,39
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,19,49,47,0,0,0,4,0,19,0
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,19,47,52,9,7,0,5,0,17,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,21,55,57,18,15,0,5,0,15,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,16,42,47,13,11,0,4,0,13,1
-2022/2023,Male,Disabled,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,6,16,17,4,2,0,1,0,5,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,4,10,12,4,2,0,1,0,3,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,12,31,40,9,7,0,3,0,12,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,13,34,37,9,7,0,3,0,11,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,20,52,52,15,13,0,5,0,14,1
-2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,11,26,30,11,9,0,3,0,7,1
-2022/2023,Male,Disabled,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,16,42,42,22,20,0,4,0,7,1
-2022/2023,Male,Disabled,NABTEB,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,9,23,25,0,0,0,2,0,10,0
-2022/2023,Male,Disabled,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,8,21,25,24,22,0,2,0,0,1
-2022/2023,Male,Disabled,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,2,8,7,0,0,0,0,0,3,0
-2022/2023,Male,Disabled,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,26,68,77,48,46,0,6,0,9,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,32,83,87,18,15,0,8,0,27,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,30,75,84,24,20,0,8,0,23,2
-2022/2023,Male,Disabled,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,37,96,106,24,20,0,9,0,32,2
-2022/2023,Male,Disabled,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,23,60,62,22,20,0,6,0,15,1
-2022/2023,Male,Disabled,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,11,26,32,9,7,0,3,0,9,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,7,18,22,4,2,0,2,0,7,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,24,62,74,11,9,0,6,0,25,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,22,57,62,11,9,0,5,0,20,1
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,36,94,106,26,22,0,9,0,31,2
-2022/2023,Male,Disabled,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,21,55,64,15,13,0,5,0,19,1
-2022/2023,Male,Disabled,NECO,University,lga,Daura,North West,Katsina,Daura,,,26,68,72,62,53,0,6,0,1,4
-2022/2023,Male,Disabled,NECO,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,17,44,42,13,11,0,4,0,11,1
-2022/2023,Male,Disabled,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,15,39,40,24,22,0,4,0,5,1
-2022/2023,Male,Disabled,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,5,13,15,13,11,0,1,0,0,1
-2022/2023,Male,Disabled,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,42,109,119,73,66,0,10,0,15,3
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,44,112,121,22,20,0,11,0,39,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,40,102,109,22,20,0,10,0,34,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,48,122,134,22,20,0,12,0,44,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,30,78,82,18,15,0,7,0,25,1
-2022/2023,Male,Disabled,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,14,36,40,7,4,0,3,0,13,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,10,26,27,9,7,0,2,0,7,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,32,81,92,22,20,0,8,0,27,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,27,70,77,18,15,0,7,0,23,1
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,48,125,131,26,22,0,12,0,41,2
-2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,27,70,77,18,15,0,7,0,23,1
-2022/2023,Male,Disabled,WAEC,University,lga,Daura,North West,Katsina,Daura,,,37,96,106,62,57,0,9,0,15,2
-2022/2023,Male,Disabled,WAEC,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,20,52,57,31,29,0,5,0,9,1
-2022/2023,Male,Disabled,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,17,42,50,31,29,0,5,0,6,1
-2022/2023,Male,Disabled,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,6,18,17,11,9,0,1,0,2,1
-2022/2023,Male,Disabled,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,59,151,166,81,77,0,15,0,30,2
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,177,458,490,95,88,0,43,0,155,3
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,172,443,473,95,92,0,43,0,148,1
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,221,570,629,128,114,0,55,0,196,6
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,142,367,394,95,92,0,35,0,116,1
-2023/2024,Female,ALL,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,69,177,191,48,46,0,17,0,55,1
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,57,146,154,35,31,0,14,0,46,2
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,141,364,406,103,95,0,35,0,117,4
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,138,357,386,86,75,0,34,0,117,5
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,240,620,701,163,147,30,59,0,209,7
-2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,133,344,381,92,84,0,33,0,112,4
-2023/2024,Female,ALL,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,183,469,540,354,319,30,46,0,57,16
-2023/2024,Female,ALL,NABTEB,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,111,286,307,167,145,30,28,0,48,10
-2023/2024,Female,ALL,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,77,198,223,167,165,0,19,0,14,1
-2023/2024,Female,ALL,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,27,68,69,51,48,0,7,0,5,1
-2023/2024,Female,ALL,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,274,708,758,489,478,0,67,0,84,5
-2023/2024,Female,ALL,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,320,825,906,189,174,30,79,0,280,7
-2023/2024,Female,ALL,NECO,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,310,799,881,180,161,30,77,0,274,9
-2023/2024,Female,ALL,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,415,1070,1161,236,213,30,103,0,362,10
-2023/2024,Female,ALL,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,267,690,765,172,150,30,66,0,231,10
-2023/2024,Female,ALL,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,130,336,369,81,73,0,32,0,112,4
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,112,289,312,79,68,0,28,0,90,5
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,290,747,807,185,169,30,72,0,242,7
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,252,651,698,161,147,0,62,0,209,6
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,435,1122,1245,297,275,30,107,0,368,10
-2023/2024,Female,ALL,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,259,666,743,185,169,30,64,0,216,7
-2023/2024,Female,ALL,NECO,University,lga,Daura,North West,Katsina,Daura,,,347,893,993,674,629,59,86,0,95,20
-2023/2024,Female,ALL,NECO,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,200,518,515,330,293,30,49,0,58,17
-2023/2024,Female,ALL,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,128,331,354,231,200,30,32,0,38,14
-2023/2024,Female,ALL,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,50,130,136,99,92,0,12,0,10,3
-2023/2024,Female,ALL,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,490,1265,1396,887,801,89,121,0,161,39
-2023/2024,Female,ALL,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,444,1145,1253,273,255,30,110,0,382,8
-2023/2024,Female,ALL,WAEC,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,414,1067,1169,251,227,30,102,0,358,11
-2023/2024,Female,ALL,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,582,1500,1595,339,312,30,144,0,490,12
-2023/2024,Female,ALL,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,347,893,998,222,202,30,86,0,302,9
-2023/2024,Female,ALL,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,166,430,465,99,90,0,41,0,143,4
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,138,357,416,90,84,0,34,0,127,3
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,353,911,1030,233,211,30,87,0,310,10
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,343,883,951,200,187,0,85,0,293,6
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,570,1473,1627,379,352,30,140,0,485,12
-2023/2024,Female,ALL,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,352,909,1010,282,266,30,87,0,280,7
-2023/2024,Female,ALL,WAEC,University,lga,Daura,North West,Katsina,Daura,,,439,1132,1255,971,887,89,108,0,66,38
-2023/2024,Female,ALL,WAEC,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,300,773,825,524,489,30,74,0,95,16
-2023/2024,Female,ALL,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,183,471,505,317,299,30,46,0,60,8
-2023/2024,Female,ALL,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,71,185,203,143,128,30,17,0,17,7
-2023/2024,Female,ALL,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,675,1742,1879,1178,1103,89,167,0,224,34
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,19,47,50,7,4,0,5,0,17,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,19,47,50,11,9,0,5,0,15,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,20,52,54,15,13,0,5,0,15,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,15,39,42,20,18,0,4,0,8,1
-2023/2024,Female,Disabled,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,6,16,15,7,4,0,1,0,3,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,4,10,10,4,2,0,1,0,2,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,11,26,32,13,11,0,3,0,7,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,12,31,32,13,11,0,3,0,7,1
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,19,49,50,20,15,0,4,0,11,2
-2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,11,29,32,13,11,0,3,0,7,1
-2023/2024,Female,Disabled,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,16,42,47,37,33,0,4,0,2,2
-2023/2024,Female,Disabled,NABTEB,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,9,23,25,24,22,0,2,0,0,1
-2023/2024,Female,Disabled,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,8,21,25,24,22,0,2,0,0,1
-2023/2024,Female,Disabled,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,3,8,7,13,11,0,1,0,0,1
-2023/2024,Female,Disabled,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,26,68,74,73,66,0,6,0,0,3
-2023/2024,Female,Disabled,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,26,68,72,18,15,0,6,0,21,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,24,62,67,15,13,0,6,0,20,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,32,83,92,15,13,0,8,0,30,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,19,47,54,15,13,0,5,0,15,1
-2023/2024,Female,Disabled,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,11,26,30,7,4,0,3,0,9,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,10,23,27,9,7,0,3,0,7,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,20,52,54,11,9,0,5,0,17,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,17,44,45,15,13,0,4,0,11,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,32,81,89,22,20,0,8,0,26,1
-2023/2024,Female,Disabled,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,22,55,62,11,9,0,6,0,20,1
-2023/2024,Female,Disabled,NECO,University,lga,Daura,North West,Katsina,Daura,,,26,65,74,51,44,0,7,0,7,3
-2023/2024,Female,Disabled,NECO,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,13,34,30,29,26,0,3,1,0,1
-2023/2024,Female,Disabled,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,13,31,35,22,18,0,4,0,4,2
-2023/2024,Female,Disabled,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,3,10,10,9,7,0,0,0,0,1
-2023/2024,Female,Disabled,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,39,99,111,81,73,0,10,0,8,4
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,36,94,104,18,15,0,9,0,34,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,33,86,97,18,15,0,8,0,31,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,47,120,126,22,20,0,12,0,41,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,27,68,74,13,11,0,7,0,24,1
-2023/2024,Female,Disabled,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,13,34,37,4,2,0,3,0,13,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,12,31,37,7,4,0,3,0,12,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,25,65,72,13,11,0,6,0,23,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,23,57,67,13,11,0,6,0,21,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,44,112,126,26,24,0,11,0,39,1
-2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,32,81,94,22,18,0,8,0,28,2
-2023/2024,Female,Disabled,WAEC,University,lga,Daura,North West,Katsina,Daura,,,34,89,97,62,55,0,8,0,11,3
-2023/2024,Female,Disabled,WAEC,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,20,55,54,31,29,0,4,0,8,1
-2023/2024,Female,Disabled,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,16,42,47,24,22,0,4,0,8,1
-2023/2024,Female,Disabled,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,6,16,17,9,7,0,1,0,3,1
-2023/2024,Female,Disabled,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,57,143,156,70,68,0,15,0,31,1
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,214,552,609,95,92,0,53,0,203,1
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,208,539,569,86,81,0,51,0,191,2
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,241,620,686,117,103,0,60,0,224,6
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,166,427,470,79,75,0,41,0,154,2
-2023/2024,Male,ALL,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,83,213,245,42,35,0,21,0,80,3
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,62,161,168,40,37,0,15,0,50,1
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,173,445,478,86,75,0,43,0,154,5
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,175,448,473,73,70,0,44,0,158,1
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,284,734,795,139,125,0,70,0,258,6
-2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,140,362,431,86,75,0,34,0,135,5
-2023/2024,Male,ALL,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,211,544,617,337,317,30,52,0,96,9
-2023/2024,Male,ALL,NABTEB,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,135,349,376,150,145,0,33,0,84,2
-2023/2024,Male,ALL,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,89,229,260,134,132,0,22,0,44,1
-2023/2024,Male,ALL,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,35,89,99,68,66,0,9,0,9,1
-2023/2024,Male,ALL,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,305,786,857,405,361,59,75,0,162,20
-2023/2024,Male,ALL,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,408,1052,1154,189,174,30,101,0,380,7
-2023/2024,Male,ALL,NECO,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,381,981,1060,180,165,30,95,0,346,7
-2023/2024,Male,ALL,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,465,1198,1322,222,202,30,115,0,433,9
-2023/2024,Male,ALL,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,320,825,896,178,161,30,79,0,281,8
-2023/2024,Male,ALL,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,157,404,456,77,68,0,39,0,149,4
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,115,294,327,59,53,0,29,0,105,3
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,339,875,985,205,185,30,84,0,305,9
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,309,799,857,161,147,0,76,0,273,6
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,509,1312,1461,284,260,30,126,0,461,11
-2023/2024,Male,ALL,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,266,685,768,152,143,0,66,0,241,4
-2023/2024,Male,ALL,NECO,University,lga,Daura,North West,Katsina,Daura,,,399,1028,1124,658,583,89,99,0,155,34
-2023/2024,Male,ALL,NECO,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,232,599,646,330,293,30,57,0,111,17
-2023/2024,Male,ALL,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,153,396,416,247,218,30,38,0,56,13
-2023/2024,Male,ALL,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,62,159,176,99,92,0,16,0,26,3
-2023/2024,Male,ALL,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,561,1447,1548,821,737,89,139,0,252,38
-2023/2024,Male,ALL,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,557,1437,1587,273,253,30,138,0,517,9
-2023/2024,Male,ALL,WAEC,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,508,1309,1419,251,231,30,126,0,459,9
-2023/2024,Male,ALL,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,654,1687,1872,332,310,30,161,0,605,10
-2023/2024,Male,ALL,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,400,1031,1119,205,189,30,99,0,359,7
-2023/2024,Male,ALL,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,217,557,619,112,99,0,54,0,199,6
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,134,346,389,75,68,0,33,0,123,3
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,435,1125,1213,227,211,30,107,0,387,7
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,414,1070,1114,200,183,30,102,0,359,8
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,689,1778,1914,379,354,30,170,0,601,11
-2023/2024,Male,ALL,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,367,945,1072,222,211,0,91,0,332,5
-2023/2024,Male,ALL,WAEC,University,lga,Daura,North West,Katsina,Daura,,,511,1317,1458,825,764,59,127,0,214,28
-2023/2024,Male,ALL,WAEC,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,320,825,904,460,429,30,79,0,156,14
-2023/2024,Male,ALL,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,193,497,540,299,284,30,48,0,82,7
-2023/2024,Male,ALL,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,90,232,260,132,114,30,22,0,45,8
-2023/2024,Male,ALL,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,751,1937,2075,1140,1045,89,186,0,320,43
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,21,55,59,11,9,0,5,0,19,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,21,55,54,7,4,0,5,0,19,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,23,57,57,11,9,0,6,0,18,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,16,42,45,7,4,0,4,0,15,1
-2023/2024,Male,Disabled,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,6,16,17,0,0,0,2,0,7,0
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,5,13,12,4,2,0,1,0,3,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,12,31,32,9,7,0,3,0,9,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,15,36,37,4,2,0,4,0,13,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,22,57,59,13,11,0,5,0,18,1
-2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,12,31,37,13,11,0,3,0,9,1
-2023/2024,Male,Disabled,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,18,44,52,37,33,0,5,0,4,2
-2023/2024,Male,Disabled,NABTEB,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,10,26,27,0,0,0,2,0,11,0
-2023/2024,Male,Disabled,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,9,23,27,24,22,0,2,0,0,1
-2023/2024,Male,Disabled,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,3,8,7,13,11,0,1,0,0,1
-2023/2024,Male,Disabled,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,31,81,89,24,22,0,7,0,25,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,34,89,97,20,18,0,8,0,30,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,28,75,82,15,13,0,6,0,26,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,36,91,102,18,15,0,9,0,33,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,23,60,64,15,13,0,6,0,19,1
-2023/2024,Male,Disabled,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,11,29,35,7,4,0,3,0,11,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,9,23,25,4,2,0,2,0,8,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,26,65,74,11,9,0,7,0,25,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,20,52,57,11,9,0,5,0,18,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,35,91,102,22,20,0,8,0,31,1
-2023/2024,Male,Disabled,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,23,57,64,11,9,0,6,0,21,1
-2023/2024,Male,Disabled,NECO,University,lga,Daura,North West,Katsina,Daura,,,32,81,92,53,46,0,8,0,13,3
-2023/2024,Male,Disabled,NECO,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,16,42,45,29,26,0,4,0,5,1
-2023/2024,Male,Disabled,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,15,39,40,22,18,0,4,0,6,2
-2023/2024,Male,Disabled,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,5,13,15,11,9,0,1,0,1,1
-2023/2024,Male,Disabled,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,45,117,126,53,46,0,11,0,27,3
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,46,120,131,22,20,0,11,0,43,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,41,107,119,18,15,0,10,0,40,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,53,135,149,22,20,0,14,0,50,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,32,81,87,13,11,0,8,0,29,1
-2023/2024,Male,Disabled,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,15,39,42,7,4,0,4,0,14,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,13,31,37,7,4,0,4,0,12,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,32,83,92,13,11,0,8,0,31,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,29,75,77,13,11,0,7,0,25,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,51,130,144,20,18,0,13,0,49,1
-2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,32,81,92,13,11,0,8,0,31,1
-2023/2024,Male,Disabled,WAEC,University,lga,Daura,North West,Katsina,Daura,,,39,99,114,51,46,0,10,0,23,2
-2023/2024,Male,Disabled,WAEC,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,23,60,69,29,26,0,6,0,15,1
-2023/2024,Male,Disabled,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,19,47,52,26,24,0,5,0,9,1
-2023/2024,Male,Disabled,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,7,18,20,9,7,0,2,0,4,1
-2023/2024,Male,Disabled,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,62,159,178,70,68,0,16,0,40,1
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,349,898,599,255,233,20,87,103,126,10
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,338,870,579,247,227,20,84,100,122,9
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,425,1096,728,310,286,25,105,127,153,11
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,281,724,483,205,189,16,70,83,102,7
-2024/2025,Female,ALL,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,137,354,235,99,92,8,34,41,50,3
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,116,299,201,86,77,7,29,34,42,4
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,289,745,495,211,194,17,72,86,104,8
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,270,695,463,196,180,16,67,80,98,7
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,492,1270,844,359,330,29,121,147,178,13
-2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,294,758,505,214,198,17,73,87,107,7
-2024/2025,Female,ALL,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,349,898,599,255,233,20,87,103,126,10
-2024/2025,Female,ALL,NABTEB,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,231,596,396,169,154,13,57,69,83,7
-2024/2025,Female,ALL,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,136,349,233,99,90,8,34,40,49,4
-2024/2025,Female,ALL,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,53,138,92,40,35,3,13,16,19,2
-2024/2025,Female,ALL,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,549,1416,941,401,368,32,135,164,198,15
-2024/2025,Female,ALL,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,647,1669,1112,473,434,38,160,192,234,18
-2024/2025,Female,ALL,NECO,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,595,1536,1023,434,401,35,147,177,216,15
-2024/2025,Female,ALL,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,789,2036,1354,577,530,46,195,235,285,21
-2024/2025,Female,ALL,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,511,1320,879,374,343,30,126,152,185,14
-2024/2025,Female,ALL,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,267,687,458,194,178,16,66,79,97,7
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,179,461,307,130,121,10,45,53,65,4
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,526,1356,904,383,354,31,130,156,191,13
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,481,1239,825,350,323,28,119,143,174,12
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,875,2257,1503,638,588,51,216,260,317,23
-2024/2025,Female,ALL,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,545,1406,936,398,365,32,135,162,197,15
-2024/2025,Female,ALL,NECO,University,lga,Daura,North West,Katsina,Daura,,,642,1656,1102,469,431,38,159,191,232,17
-2024/2025,Female,ALL,NECO,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,428,1104,735,313,286,25,106,127,155,12
-2024/2025,Female,ALL,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,280,721,480,205,187,16,69,83,101,8
-2024/2025,Female,ALL,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,111,286,191,81,75,7,28,33,40,3
-2024/2025,Female,ALL,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,940,2424,1612,685,632,55,232,280,340,24
-2024/2025,Female,ALL,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,852,2197,1463,623,572,50,211,253,308,23
-2024/2025,Female,ALL,WAEC,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,807,2080,1387,590,541,47,200,239,292,22
-2024/2025,Female,ALL,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,1090,2809,1869,795,731,64,270,324,394,29
-2024/2025,Female,ALL,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,694,1788,1191,506,467,41,172,206,251,18
-2024/2025,Female,ALL,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,359,924,614,262,240,21,89,107,129,10
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,252,648,433,183,169,15,63,74,92,6
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,723,1864,1240,528,486,42,179,215,261,19
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,702,1809,1206,513,471,41,174,208,254,19
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,1174,3025,2015,856,788,69,291,348,425,31
-2024/2025,Female,ALL,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,692,1786,1188,506,464,40,171,206,250,19
-2024/2025,Female,ALL,WAEC,University,lga,Daura,North West,Katsina,Daura,,,868,2239,1491,634,583,51,215,258,314,23
-2024/2025,Female,ALL,WAEC,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,519,1341,891,379,350,30,128,155,188,13
-2024/2025,Female,ALL,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,373,961,639,273,251,22,93,111,134,10
-2024/2025,Female,ALL,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,137,354,235,99,92,8,34,41,50,3
-2024/2025,Female,ALL,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,1340,3455,2300,977,900,78,332,398,485,35
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,36,91,62,26,24,2,9,10,13,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,36,91,62,26,24,2,9,10,13,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,39,99,67,29,26,2,10,11,14,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,29,75,50,22,20,2,7,9,10,1
-2024/2025,Female,Disabled,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,11,29,20,9,9,1,3,3,4,0
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,10,26,17,7,7,1,2,3,4,0
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,19,49,32,13,13,1,5,6,7,0
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,23,57,40,18,15,1,6,6,8,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,37,96,64,26,24,2,9,11,14,1
-2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,24,62,42,18,15,1,6,7,9,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,31,78,52,22,20,2,8,9,11,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,18,47,30,13,11,1,4,6,6,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,15,36,25,11,9,1,4,4,5,1
-2024/2025,Female,Disabled,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,5,13,7,4,4,0,1,2,1,0
-2024/2025,Female,Disabled,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,48,125,82,35,33,3,12,15,17,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,53,138,92,40,35,3,13,16,19,2
-2024/2025,Female,Disabled,NECO,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,50,128,87,37,33,3,13,14,18,2
-2024/2025,Female,Disabled,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,63,161,109,46,42,4,16,18,23,2
-2024/2025,Female,Disabled,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,37,96,64,26,24,2,9,11,14,1
-2024/2025,Female,Disabled,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,21,55,35,15,13,1,5,7,7,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,16,42,27,11,11,1,4,5,6,0
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,40,104,69,29,26,2,10,12,15,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,32,83,54,24,22,2,8,10,11,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,58,148,99,42,40,3,15,17,21,1
-2024/2025,Female,Disabled,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,44,112,74,31,29,3,11,13,16,1
-2024/2025,Female,Disabled,NECO,University,lga,Daura,North West,Katsina,Daura,,,47,120,79,35,31,3,12,14,16,2
-2024/2025,Female,Disabled,NECO,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,32,83,54,24,22,2,8,10,11,1
-2024/2025,Female,Disabled,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,29,75,50,22,20,2,7,9,10,1
-2024/2025,Female,Disabled,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,10,26,17,7,7,1,2,3,4,0
-2024/2025,Female,Disabled,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,78,200,134,57,53,5,19,23,28,2
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,73,187,124,53,48,4,18,22,26,2
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,65,167,111,46,44,4,16,19,24,1
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,88,229,151,64,59,5,21,27,32,2
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,50,128,87,37,33,3,13,14,18,2
-2024/2025,Female,Disabled,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,27,70,47,20,18,2,7,8,10,1
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,23,57,40,15,15,1,6,6,9,0
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,55,141,94,40,37,3,14,16,20,1
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,47,120,79,35,31,3,12,14,16,2
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,88,229,151,64,59,5,21,27,32,2
-2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,57,146,97,42,37,3,14,17,20,2
-2024/2025,Female,Disabled,WAEC,University,lga,Daura,North West,Katsina,Daura,,,65,167,111,46,44,4,16,19,24,1
-2024/2025,Female,Disabled,WAEC,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,40,104,69,29,26,2,10,12,15,1
-2024/2025,Female,Disabled,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,32,83,54,24,22,2,8,10,11,1
-2024/2025,Female,Disabled,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,11,29,20,9,7,1,3,3,4,1
-2024/2025,Female,Disabled,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,109,284,188,79,73,6,26,33,40,3
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,431,1112,740,315,288,25,107,128,156,12
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,394,1015,676,288,264,23,98,117,142,11
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,473,1218,812,346,317,28,117,140,171,13
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,338,870,579,247,227,20,84,100,122,9
-2024/2025,Male,ALL,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,160,411,275,117,108,9,40,47,58,4
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,124,320,213,90,84,7,31,37,45,3
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,355,916,609,260,238,21,88,106,128,10
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,305,786,522,222,205,18,76,91,110,8
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,550,1419,946,403,370,32,136,163,199,15
-2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,299,771,513,218,200,17,74,89,108,8
-2024/2025,Male,ALL,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,401,1034,686,293,268,23,99,120,144,11
-2024/2025,Male,ALL,NABTEB,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,254,653,436,185,169,15,63,75,92,7
-2024/2025,Male,ALL,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,155,401,265,112,103,9,38,47,56,4
-2024/2025,Male,ALL,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,63,161,109,46,42,4,16,18,23,2
-2024/2025,Male,ALL,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,592,1528,1018,431,398,35,146,176,215,15
-2024/2025,Male,ALL,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,794,2049,1364,579,533,46,196,236,288,21
-2024/2025,Male,ALL,NECO,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,730,1882,1253,533,491,43,180,217,264,19
-2024/2025,Male,ALL,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,893,2301,1533,652,599,52,221,265,323,24
-2024/2025,Male,ALL,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,605,1562,1040,442,407,35,149,180,219,16
-2024/2025,Male,ALL,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,312,804,535,227,209,18,77,93,113,8
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,204,523,349,147,136,12,51,60,74,5
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,657,1695,1127,480,440,38,162,196,237,18
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,570,1468,978,416,383,33,141,169,206,15
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,1046,2697,1795,764,702,61,259,311,378,28
-2024/2025,Male,ALL,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,542,1398,931,396,363,32,134,161,196,15
-2024/2025,Male,ALL,NECO,University,lga,Daura,North West,Katsina,Daura,,,713,1841,1226,522,480,42,176,212,258,19
-2024/2025,Male,ALL,NECO,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,489,1260,839,357,328,29,121,145,177,13
-2024/2025,Male,ALL,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,318,820,545,231,213,19,79,95,115,8
-2024/2025,Male,ALL,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,134,346,230,97,90,8,33,40,49,3
-2024/2025,Male,ALL,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,1109,2858,1904,810,744,65,275,329,401,30
-2024/2025,Male,ALL,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,1032,2661,1770,753,693,60,255,307,373,27
-2024/2025,Male,ALL,WAEC,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,999,2577,1716,729,671,58,247,297,362,26
-2024/2025,Male,ALL,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,1274,3283,2186,929,854,74,316,378,461,34
-2024/2025,Male,ALL,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,849,2189,1458,621,570,50,210,252,307,23
-2024/2025,Male,ALL,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,444,1145,763,324,297,26,110,132,161,12
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,286,737,490,209,191,17,71,85,103,8
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,864,2226,1483,629,579,50,214,256,313,23
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,825,2127,1416,601,555,48,204,245,299,21
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,1439,3710,2469,1048,966,84,356,428,521,37
-2024/2025,Male,ALL,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,710,1830,1218,517,478,41,176,211,257,18
-2024/2025,Male,ALL,WAEC,University,lga,Daura,North West,Katsina,Daura,,,1024,2640,1755,746,687,60,253,305,370,27
-2024/2025,Male,ALL,WAEC,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,612,1578,1050,447,412,36,151,182,221,16
-2024/2025,Male,ALL,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,406,1044,696,295,273,24,101,120,147,10
-2024/2025,Male,ALL,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,176,453,302,128,119,10,44,52,64,4
-2024/2025,Male,ALL,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,1477,3809,2535,1076,993,86,365,439,535,38
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,39,99,67,29,26,2,10,11,14,1
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,39,99,67,29,26,2,10,11,14,1
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,42,107,72,31,29,2,11,12,15,1
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,34,86,57,24,22,2,9,10,12,1
-2024/2025,Male,Disabled,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,13,34,22,9,9,1,3,4,5,0
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,10,26,17,7,7,1,2,3,4,0
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,23,57,40,15,15,1,6,6,9,0
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,26,68,45,20,18,2,6,8,9,1
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,44,112,74,31,29,3,11,13,16,1
-2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,26,68,45,20,18,2,6,8,9,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,34,89,57,24,22,2,8,11,12,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,19,49,32,13,13,1,5,6,7,0
-2024/2025,Male,Disabled,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,18,47,30,13,11,1,4,6,6,1
-2024/2025,Male,Disabled,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,6,16,10,4,4,0,2,2,2,0
-2024/2025,Male,Disabled,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,57,146,97,42,37,3,14,17,20,2
-2024/2025,Male,Disabled,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,65,167,111,46,44,4,16,19,24,1
-2024/2025,Male,Disabled,NECO,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,63,161,109,46,42,4,16,18,23,2
-2024/2025,Male,Disabled,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,73,187,124,53,48,4,18,22,26,2
-2024/2025,Male,Disabled,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,44,112,74,31,29,3,11,13,16,1
-2024/2025,Male,Disabled,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,24,62,42,18,15,1,6,7,9,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,18,47,30,13,11,1,4,6,6,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,52,133,89,37,35,3,13,15,19,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,39,99,67,29,26,2,10,11,14,1
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,80,208,139,59,55,5,19,24,29,2
-2024/2025,Male,Disabled,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,45,117,77,33,31,3,11,14,16,1
-2024/2025,Male,Disabled,NECO,University,lga,Daura,North West,Katsina,Daura,,,53,138,92,40,35,3,13,16,19,2
-2024/2025,Male,Disabled,NECO,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,36,91,62,26,24,2,9,10,13,1
-2024/2025,Male,Disabled,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,32,83,54,24,22,2,8,10,11,1
-2024/2025,Male,Disabled,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,10,26,17,7,7,1,2,3,4,0
-2024/2025,Male,Disabled,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,85,221,146,62,57,5,20,26,31,2
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,86,224,149,64,59,5,21,26,31,2
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Dutsinma,North West,Katsina,Dutsinma,,,80,208,139,59,55,5,19,24,29,2
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,98,253,168,73,66,6,24,29,35,3
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,66,169,114,48,44,4,17,19,24,2
-2024/2025,Male,Disabled,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,32,83,54,24,22,2,8,10,11,1
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,23,57,40,15,15,1,6,6,9,0
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Dutsinma,North West,Katsina,Dutsinma,,,66,169,114,48,44,4,17,19,24,2
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,55,141,94,40,37,3,14,16,20,1
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,106,273,183,77,73,6,26,31,39,2
-2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,63,161,109,46,42,4,16,18,23,2
-2024/2025,Male,Disabled,WAEC,University,lga,Daura,North West,Katsina,Daura,,,78,200,134,57,53,5,19,23,28,2
-2024/2025,Male,Disabled,WAEC,University,lga,Dutsinma,North West,Katsina,Dutsinma,,,44,112,74,31,29,3,11,13,16,1
-2024/2025,Male,Disabled,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,37,96,64,26,24,2,9,11,14,1
-2024/2025,Male,Disabled,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,13,34,22,9,9,1,3,4,5,0
-2024/2025,Male,Disabled,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,117,305,203,86,79,7,28,35,43,3
+session,gender,disability,exam_body,institution_type,loc_level,loc_label,zone,state,lga,ward,school,ss3_total,o_level_candidates,utme_participants,admitted_students,matriculated_students,delayed_transition_students,loss_ss3_to_olevel,loss_olevel_to_utme,loss_utme_to_admitted,loss_admitted_to_matriculated,median_time_to_matriculation_years
+2022/2023,Female,ALL,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,2833,8499,6150,2576,2367,130,0,2349,3574,209,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,1288,3863,2795,1171,1076,59,0,1068,1624,95,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,1030,3090,2236,937,861,47,0,854,1299,76,1.8
+2022/2023,Female,ALL,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,1325,3975,2877,1205,1107,61,0,1098,1672,98,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,602,1807,1308,548,503,28,0,499,760,45,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,482,1446,1046,438,403,22,0,400,608,35,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,411,1234,893,374,344,19,0,341,519,30,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,187,561,406,170,156,9,0,155,236,14,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,150,449,325,136,125,7,0,124,189,11,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,184,552,400,167,154,8,0,152,233,13,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,84,251,182,76,70,4,0,69,106,6,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,67,201,145,61,56,3,0,56,84,5,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,86,258,187,78,72,4,0,71,109,6,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,39,117,85,36,33,2,0,32,49,3,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,31,94,68,28,26,1,0,26,40,2,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,27,80,58,24,22,1,0,22,34,2,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,12,36,26,11,10,1,0,10,15,1,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,10,29,21,9,8,0,0,8,12,1,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Daura,North West,Katsina,Daura,,,1311,3933,2846,1192,1095,60,0,1087,1654,97,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,596,1788,1294,542,498,27,0,494,752,44,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,477,1430,1035,434,398,22,0,395,601,36,1.8
+2022/2023,Female,ALL,NECO,University,lga,Daura,North West,Katsina,Daura,,,613,1840,1331,558,512,28,0,509,773,46,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,279,836,605,253,233,13,0,231,352,20,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,223,669,484,203,186,10,0,185,281,17,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,190,571,413,173,159,9,0,158,240,14,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,87,260,188,79,72,4,0,72,109,7,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,69,208,150,63,58,3,0,58,87,5,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Daura,North West,Katsina,Daura,,,85,256,185,77,71,4,0,71,108,6,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,39,116,84,35,32,2,0,32,49,3,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,31,93,67,28,26,1,0,26,39,2,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Daura,North West,Katsina,Daura,,,40,120,87,36,33,2,0,33,51,3,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,18,54,39,16,15,1,0,15,23,1,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,14,43,31,13,12,1,0,12,18,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,12,37,27,11,10,1,0,10,16,1,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,6,17,12,5,5,0,0,5,7,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,4,13,10,4,4,0,0,3,6,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,1466,4398,3183,1333,1225,67,0,1215,1850,108,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,666,1999,1447,606,557,31,0,552,841,49,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,533,1599,1157,485,445,24,0,442,672,40,1.8
+2022/2023,Female,ALL,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,686,2057,1489,624,573,32,0,568,865,51,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,312,935,677,283,260,14,0,258,394,23,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,249,748,541,227,208,11,0,207,314,19,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,213,638,462,194,178,10,0,176,268,16,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,97,290,210,88,81,4,0,80,122,7,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,77,232,168,70,65,4,0,64,98,5,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,95,286,207,87,80,4,0,79,120,7,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,43,130,94,39,36,2,0,36,55,3,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,35,104,75,32,29,2,0,29,43,3,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,45,134,97,41,37,2,0,37,56,4,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,20,61,44,18,17,1,0,17,26,1,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,16,49,35,15,14,1,0,14,20,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,14,41,30,13,12,1,0,11,17,1,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,6,19,14,6,5,0,0,5,8,1,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,5,15,11,5,4,0,0,4,6,1,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,1441,4323,3128,1310,1204,66,0,1195,1818,106,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,655,1965,1422,596,547,30,0,543,826,49,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,524,1572,1138,477,438,24,0,434,661,39,1.8
+2022/2023,Female,ALL,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,674,2022,1463,613,563,31,0,559,850,50,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,306,919,665,279,256,14,0,254,386,23,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,245,735,532,223,205,11,0,203,309,18,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,209,628,454,190,175,10,0,174,264,15,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,95,285,206,86,79,4,0,79,120,7,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,76,228,165,69,64,4,0,63,96,5,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,94,281,203,85,78,4,0,78,118,7,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,43,128,92,39,36,2,0,36,53,3,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,34,102,74,31,28,2,0,28,43,3,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,44,131,95,40,37,2,0,36,55,3,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,20,60,43,18,17,1,0,17,25,1,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,16,48,35,14,13,1,0,13,21,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,14,41,30,12,11,1,0,11,18,1,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,6,19,13,6,5,0,0,6,7,1,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,5,15,11,4,4,0,0,4,7,0,1.8
+2022/2023,Female,ALL,WAEC,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,1316,3948,2857,1197,1099,60,0,1091,1660,98,1.8
+2022/2023,Female,ALL,WAEC,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,598,1794,1299,544,500,28,0,495,755,44,1.8
+2022/2023,Female,ALL,WAEC,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,479,1436,1039,435,400,22,0,397,604,35,1.8
+2022/2023,Female,ALL,NECO,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,616,1847,1336,560,514,28,0,511,776,46,1.8
+2022/2023,Female,ALL,NECO,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,280,839,607,254,234,13,0,232,353,20,1.8
+2022/2023,Female,ALL,NECO,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,224,671,486,204,187,10,0,185,282,17,1.8
+2022/2023,Female,ALL,NABTEB,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,191,573,415,174,160,9,0,158,241,14,1.8
+2022/2023,Female,ALL,NABTEB,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,87,260,189,79,73,4,0,71,110,6,1.8
+2022/2023,Female,ALL,NABTEB,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,69,208,151,63,58,3,0,57,88,5,1.8
+2022/2023,Female,Disabled,WAEC,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,86,257,186,78,71,4,0,71,108,7,1.8
+2022/2023,Female,Disabled,WAEC,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,39,117,84,35,32,2,0,33,49,3,1.8
+2022/2023,Female,Disabled,WAEC,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,31,93,68,28,26,1,0,25,40,2,1.8
+2022/2023,Female,Disabled,NECO,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,40,120,87,36,33,2,0,33,51,3,1.8
+2022/2023,Female,Disabled,NECO,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,18,55,39,17,15,1,0,16,22,2,1.8
+2022/2023,Female,Disabled,NECO,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,15,44,32,13,12,1,0,12,19,1,1.8
+2022/2023,Female,Disabled,NABTEB,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,12,37,27,11,10,1,0,10,16,1,1.8
+2022/2023,Female,Disabled,NABTEB,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,6,17,12,5,5,0,0,5,7,0,1.8
+2022/2023,Female,Disabled,NABTEB,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,5,14,10,4,4,0,0,4,6,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,2357,7070,5116,2143,1969,108,0,1954,2973,174,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,1071,3214,2325,974,895,49,0,889,1351,79,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,857,2571,1860,779,716,39,0,711,1081,63,1.8
+2022/2023,Male,ALL,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,1102,3307,2393,1002,921,51,0,914,1391,81,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,501,1503,1088,456,419,23,0,415,632,37,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,401,1203,870,364,335,18,0,333,506,29,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,342,1026,743,311,286,16,0,283,432,25,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,155,466,338,141,130,7,0,128,197,11,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,124,373,270,113,104,6,0,103,157,9,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,153,460,333,139,128,7,0,127,194,11,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,70,209,151,63,58,3,0,58,88,5,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,56,167,121,51,47,3,0,46,70,4,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,72,215,156,65,60,3,0,59,91,5,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,33,98,71,30,27,1,0,27,41,3,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,26,78,57,24,22,1,0,21,33,2,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,22,67,48,20,19,1,0,19,28,1,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,10,30,22,9,8,0,0,8,13,1,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,8,24,18,7,7,0,0,6,11,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Daura,North West,Katsina,Daura,,,1091,3272,2368,992,911,50,0,904,1376,81,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,496,1487,1076,451,414,23,0,411,625,37,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,397,1190,861,361,331,18,0,329,500,30,1.8
+2022/2023,Male,ALL,NECO,University,lga,Daura,North West,Katsina,Daura,,,510,1531,1108,464,426,23,0,423,644,38,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,232,696,503,211,194,11,0,193,292,17,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,186,557,403,169,155,9,0,154,234,14,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,158,475,344,144,132,7,0,131,200,12,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,72,216,156,65,60,3,0,60,91,5,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,58,173,125,52,48,3,0,48,73,4,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Daura,North West,Katsina,Daura,,,71,213,154,64,59,3,0,59,90,5,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,32,97,70,29,27,1,0,27,41,2,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,26,77,56,23,22,1,0,21,33,1,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Daura,North West,Katsina,Daura,,,33,99,72,30,28,2,0,27,42,2,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,15,45,33,14,13,1,0,12,19,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,12,36,26,11,10,1,0,10,15,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,10,31,22,9,9,0,0,9,13,0,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,5,14,10,4,4,0,0,4,6,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,4,11,8,3,3,0,0,3,5,0,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,1219,3659,2648,1109,1019,56,0,1011,1539,90,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,554,1663,1203,504,463,25,0,460,699,41,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,443,1330,963,403,371,20,0,367,560,32,1.8
+2022/2023,Male,ALL,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,570,1711,1238,519,477,26,0,473,719,42,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,259,778,563,236,217,12,0,215,327,19,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,207,622,450,189,173,10,0,172,261,16,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,177,531,384,161,148,8,0,147,223,13,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,80,241,175,73,67,4,0,66,102,6,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,64,193,140,59,54,3,0,53,81,5,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,79,238,172,72,66,4,0,66,100,6,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,36,108,78,33,30,2,0,30,45,3,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,29,86,63,26,24,1,0,23,37,2,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,37,111,80,34,31,2,0,31,46,3,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,17,51,37,15,14,1,0,14,22,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,13,40,29,12,11,1,0,11,17,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,12,35,25,10,10,1,0,10,15,0,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,5,16,11,5,4,0,0,5,6,1,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,4,13,9,4,3,0,0,4,5,1,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,1199,3596,2603,1090,1002,55,0,993,1513,88,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,545,1635,1183,496,455,25,0,452,687,41,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,436,1308,946,396,364,20,0,362,550,32,1.8
+2022/2023,Male,ALL,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,561,1682,1217,510,468,26,0,465,707,42,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,255,765,553,232,213,12,0,212,321,19,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,204,612,443,185,170,9,0,169,258,15,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,174,522,378,158,145,8,0,144,220,13,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,79,237,172,72,66,4,0,65,100,6,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,63,190,137,58,53,3,0,53,79,5,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,78,234,169,71,65,4,0,65,98,6,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,35,106,77,32,30,2,0,29,45,2,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,28,85,62,26,24,1,0,23,36,2,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,36,109,79,33,30,2,0,30,46,3,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,17,50,36,15,14,1,0,14,21,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,13,40,29,12,11,1,0,11,17,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,11,34,25,10,9,0,0,9,15,1,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,5,15,11,5,4,0,0,4,6,1,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,4,12,9,4,3,0,0,3,5,1,1.8
+2022/2023,Male,ALL,WAEC,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,1095,3284,2376,996,915,50,0,908,1380,81,1.8
+2022/2023,Male,ALL,WAEC,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,498,1493,1080,453,416,23,0,413,627,37,1.8
+2022/2023,Male,ALL,WAEC,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,398,1194,864,362,333,18,0,330,502,29,1.8
+2022/2023,Male,ALL,NECO,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,512,1536,1112,466,428,24,0,424,646,38,1.8
+2022/2023,Male,ALL,NECO,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,233,698,505,212,194,11,0,193,293,18,1.8
+2022/2023,Male,ALL,NECO,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,186,559,404,169,156,9,0,155,235,13,1.8
+2022/2023,Male,ALL,NABTEB,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,159,477,345,145,133,7,0,132,200,12,1.8
+2022/2023,Male,ALL,NABTEB,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,72,217,157,66,60,3,0,60,91,6,1.8
+2022/2023,Male,ALL,NABTEB,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,58,173,125,53,48,3,0,48,72,5,1.8
+2022/2023,Male,Disabled,WAEC,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,71,213,154,65,59,3,0,59,89,6,1.8
+2022/2023,Male,Disabled,WAEC,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,32,97,70,29,27,1,0,27,41,2,1.8
+2022/2023,Male,Disabled,WAEC,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,26,78,56,24,22,1,0,22,32,2,1.8
+2022/2023,Male,Disabled,NECO,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,33,100,72,30,28,2,0,28,42,2,1.8
+2022/2023,Male,Disabled,NECO,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,15,45,33,14,13,1,0,12,19,1,1.8
+2022/2023,Male,Disabled,NECO,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,12,36,26,11,10,1,0,10,15,1,1.8
+2022/2023,Male,Disabled,NABTEB,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,10,31,22,9,9,0,0,9,13,0,1.8
+2022/2023,Male,Disabled,NABTEB,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,5,14,10,4,4,0,0,4,6,0,1.8
+2022/2023,Male,Disabled,NABTEB,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,4,11,8,3,3,0,0,3,5,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,2989,8822,6422,2749,2533,139,0,2400,3673,216,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,1358,4010,2919,1250,1151,63,0,1091,1669,99,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,1087,3208,2335,1000,921,51,0,873,1335,79,1.8
+2023/2024,Female,ALL,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,1398,4126,3004,1286,1185,65,0,1122,1718,101,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,635,1876,1365,585,539,30,0,511,780,46,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,508,1501,1092,468,431,24,0,409,624,37,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,434,1281,932,399,368,20,0,349,533,31,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,197,582,424,181,167,9,0,158,243,14,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,158,466,339,145,134,7,0,127,194,11,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,194,573,417,179,165,9,0,156,238,14,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,88,261,190,81,75,4,0,71,109,6,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,71,209,152,65,60,3,0,57,87,5,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,91,268,195,84,77,4,0,73,111,7,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,41,122,89,38,35,2,0,33,51,3,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,33,98,71,30,28,2,0,27,41,2,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,28,83,61,26,24,1,0,22,35,2,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,13,38,28,12,11,1,0,10,16,1,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,10,30,22,9,9,0,0,8,13,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Daura,North West,Katsina,Daura,,,1383,4083,2972,1273,1172,64,0,1111,1699,101,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,629,1856,1351,578,533,29,0,505,773,45,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,503,1485,1081,463,426,23,0,404,618,37,1.8
+2023/2024,Female,ALL,NECO,University,lga,Daura,North West,Katsina,Daura,,,647,1910,1390,595,548,30,0,520,795,47,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,294,868,632,271,249,14,0,236,361,22,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,235,694,506,216,199,11,0,188,290,17,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,201,593,431,185,170,9,0,162,246,15,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,91,269,196,84,77,4,0,73,112,7,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,73,216,157,67,62,3,0,59,90,5,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Daura,North West,Katsina,Daura,,,90,265,193,83,76,4,0,72,110,7,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,41,121,88,38,35,2,0,33,50,3,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,33,97,70,30,28,2,0,27,40,2,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Daura,North West,Katsina,Daura,,,42,124,90,39,36,2,0,34,51,3,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,19,56,41,18,16,1,0,15,23,2,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,15,45,33,14,13,1,0,12,19,1,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,13,39,28,12,11,1,0,11,16,1,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,6,18,13,5,5,0,0,5,8,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,5,14,10,4,4,0,0,4,6,0,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,1547,4565,3324,1423,1311,72,0,1241,1901,112,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,703,2075,1511,647,596,33,0,564,864,51,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,562,1660,1209,517,477,26,0,451,692,40,1.8
+2023/2024,Female,ALL,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,723,2135,1555,666,613,34,0,580,889,53,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,329,971,707,303,279,15,0,264,404,24,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,263,777,565,242,223,12,0,212,323,19,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,225,663,482,207,190,10,0,181,275,17,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,102,301,219,94,87,5,0,82,125,7,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,82,241,175,75,69,4,0,66,100,6,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,101,297,216,92,85,5,0,81,124,7,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,46,135,98,42,39,2,0,37,56,3,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,37,108,79,34,31,2,0,29,45,3,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,47,139,101,43,40,2,0,38,58,3,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,21,63,46,20,18,1,0,17,26,2,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,17,50,37,16,14,1,0,13,21,2,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,15,43,31,13,12,1,0,12,18,1,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,7,20,14,6,6,0,0,6,8,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,5,16,11,5,4,0,0,5,6,1,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,1520,4488,3267,1398,1289,71,0,1221,1869,109,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,691,2040,1485,636,586,32,0,555,849,50,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,553,1632,1188,509,469,26,0,444,679,40,1.8
+2023/2024,Female,ALL,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,711,2099,1528,654,603,33,0,571,874,51,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,323,954,695,297,274,15,0,259,398,23,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,259,763,556,238,219,12,0,207,318,19,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,221,651,474,203,187,10,0,177,271,16,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,100,296,216,92,85,5,0,80,124,7,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,80,237,172,74,68,4,0,65,98,6,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,99,292,212,91,84,5,0,80,121,7,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,45,133,97,41,38,2,0,36,56,3,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,36,106,77,33,30,2,0,29,44,3,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,46,136,99,43,39,2,0,37,56,4,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,21,62,45,19,18,1,0,17,26,1,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,17,50,36,15,14,1,0,14,21,1,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,14,42,31,13,12,1,0,11,18,1,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,7,19,14,6,6,0,0,5,8,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,5,15,11,5,4,0,0,4,6,1,1.8
+2023/2024,Female,ALL,WAEC,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,1388,4098,2983,1277,1177,65,0,1115,1706,100,1.8
+2023/2024,Female,ALL,WAEC,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,631,1863,1356,581,535,29,0,507,775,46,1.8
+2023/2024,Female,ALL,WAEC,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,505,1490,1085,465,428,24,0,405,620,37,1.8
+2023/2024,Female,ALL,NECO,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,649,1917,1395,597,550,30,0,522,798,47,1.8
+2023/2024,Female,ALL,NECO,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,295,871,634,272,250,14,0,237,362,22,1.8
+2023/2024,Female,ALL,NECO,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,236,697,507,217,200,11,0,190,290,17,1.8
+2023/2024,Female,ALL,NABTEB,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,202,595,433,185,171,9,0,162,248,14,1.8
+2023/2024,Female,ALL,NABTEB,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,92,270,197,84,78,4,0,73,113,6,1.8
+2023/2024,Female,ALL,NABTEB,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,73,216,157,67,62,3,0,59,90,5,1.8
+2023/2024,Female,Disabled,WAEC,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,90,266,194,83,76,4,0,72,111,7,1.8
+2023/2024,Female,Disabled,WAEC,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,41,121,88,38,35,2,0,33,50,3,1.8
+2023/2024,Female,Disabled,WAEC,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,33,97,71,30,28,2,0,26,41,2,1.8
+2023/2024,Female,Disabled,NECO,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,42,125,91,39,36,2,0,34,52,3,1.8
+2023/2024,Female,Disabled,NECO,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,19,57,41,18,16,1,0,16,23,2,1.8
+2023/2024,Female,Disabled,NECO,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,15,45,33,14,13,1,0,12,19,1,1.8
+2023/2024,Female,Disabled,NABTEB,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,13,39,28,12,11,1,0,11,16,1,1.8
+2023/2024,Female,Disabled,NABTEB,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,6,18,13,5,5,0,0,5,8,0,1.8
+2023/2024,Female,Disabled,NABTEB,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,5,14,10,4,4,0,0,4,6,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,2486,7339,5343,2287,2107,116,0,1996,3056,180,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,1130,3336,2429,1040,958,53,0,907,1389,82,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,904,2669,1943,832,766,42,0,726,1111,66,1.8
+2023/2024,Male,ALL,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,1163,3433,2499,1070,986,54,0,934,1429,84,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,529,1560,1136,486,448,25,0,424,650,38,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,423,1248,909,389,358,20,0,339,520,31,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,361,1065,776,332,306,17,0,289,444,26,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,164,484,353,151,139,8,0,131,202,12,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,131,387,282,121,111,6,0,105,161,10,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,162,477,347,149,137,8,0,130,198,12,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,73,217,158,68,62,3,0,59,90,6,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,59,173,126,54,50,3,0,47,72,4,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,76,223,162,70,64,4,0,61,92,6,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,34,101,74,32,29,2,0,27,42,3,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,27,81,59,25,23,1,0,22,34,2,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,23,69,50,22,20,1,0,19,28,2,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,11,31,23,10,9,0,0,8,13,1,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,9,25,18,8,7,0,0,7,10,1,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Daura,North West,Katsina,Daura,,,1151,3396,2473,1059,975,54,0,923,1414,84,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,523,1544,1124,481,443,24,0,420,643,38,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,418,1235,899,385,355,20,0,336,514,30,1.8
+2023/2024,Male,ALL,NECO,University,lga,Daura,North West,Katsina,Daura,,,538,1589,1157,495,456,25,0,432,662,39,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,245,722,526,225,207,11,0,196,301,18,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,196,578,421,180,166,9,0,157,241,14,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,167,493,359,154,142,8,0,134,205,12,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,76,224,163,70,64,4,0,61,93,6,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,61,179,131,56,51,3,0,48,75,5,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Daura,North West,Katsina,Daura,,,75,221,161,69,63,3,0,60,92,6,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,34,100,73,31,29,2,0,27,42,2,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,27,80,58,25,23,1,0,22,33,2,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Daura,North West,Katsina,Daura,,,35,103,75,32,30,2,0,28,43,2,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,16,47,34,15,13,1,0,13,19,2,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,13,38,27,12,11,1,0,11,15,1,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,11,32,23,10,9,0,0,9,13,1,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,5,15,11,5,4,0,0,4,6,1,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,4,12,8,4,3,0,0,4,4,1,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,1287,3798,2765,1184,1091,60,0,1033,1581,93,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,585,1726,1257,538,496,27,0,469,719,42,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,468,1381,1005,430,397,22,0,376,575,33,1.8
+2023/2024,Male,ALL,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,602,1777,1293,554,510,28,0,484,739,44,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,274,808,588,252,232,13,0,220,336,20,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,219,646,470,201,185,10,0,176,269,16,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,187,551,401,172,158,9,0,150,229,14,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,85,251,182,78,72,4,0,69,104,6,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,68,200,146,62,58,3,0,54,84,4,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,84,247,180,77,71,4,0,67,103,6,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,38,112,82,35,32,2,0,30,47,3,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,30,90,65,28,26,1,0,25,37,2,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,39,115,84,36,33,2,0,31,48,3,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,18,52,38,16,15,1,0,14,22,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,14,42,31,13,12,1,0,11,18,1,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,12,36,26,11,10,1,0,10,15,1,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,6,16,12,5,5,0,0,4,7,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,4,13,9,4,4,0,0,4,5,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,1265,3733,2718,1163,1072,59,0,1015,1555,91,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,575,1697,1235,529,487,27,0,462,706,42,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,460,1357,988,423,390,21,0,369,565,33,1.8
+2023/2024,Male,ALL,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,592,1746,1271,544,501,28,0,475,727,43,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,269,794,578,247,228,13,0,216,331,19,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,215,635,462,198,182,10,0,173,264,16,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,184,542,395,169,156,9,0,147,226,13,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,83,246,179,77,71,4,0,67,102,6,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,67,197,143,61,57,3,0,54,82,4,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,82,243,177,76,70,4,0,66,101,6,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,37,110,80,34,32,2,0,30,46,2,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,30,88,64,28,25,1,0,24,36,3,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,38,113,83,35,33,2,0,30,48,2,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,17,52,38,16,15,1,0,14,22,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,14,41,30,13,12,1,0,11,17,1,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,12,35,26,11,10,1,0,9,15,1,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,5,16,12,5,5,0,0,4,7,0,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,4,13,9,4,4,0,0,4,5,0,1.8
+2023/2024,Male,ALL,WAEC,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,1155,3409,2482,1063,979,54,0,927,1419,84,1.8
+2023/2024,Male,ALL,WAEC,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,525,1550,1128,483,445,24,0,422,645,38,1.8
+2023/2024,Male,ALL,WAEC,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,420,1240,903,386,356,20,0,337,517,30,1.8
+2023/2024,Male,ALL,NECO,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,540,1595,1161,497,458,25,0,434,664,39,1.8
+2023/2024,Male,ALL,NECO,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,246,725,528,226,208,11,0,197,302,18,1.8
+2023/2024,Male,ALL,NECO,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,196,580,422,181,167,9,0,158,241,14,1.8
+2023/2024,Male,ALL,NABTEB,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,168,495,360,154,142,8,0,135,206,12,1.8
+2023/2024,Male,ALL,NABTEB,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,76,225,164,70,65,4,0,61,94,5,1.8
+2023/2024,Male,ALL,NABTEB,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,61,180,131,56,52,3,0,49,75,4,1.8
+2023/2024,Male,Disabled,WAEC,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,75,222,161,69,64,4,0,61,92,5,1.8
+2023/2024,Male,Disabled,WAEC,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,34,101,73,31,29,2,0,28,42,2,1.8
+2023/2024,Male,Disabled,WAEC,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,27,81,59,25,23,1,0,22,34,2,1.8
+2023/2024,Male,Disabled,NECO,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,35,104,75,32,30,2,0,29,43,2,1.8
+2023/2024,Male,Disabled,NECO,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,16,47,34,15,14,1,0,13,19,1,1.8
+2023/2024,Male,Disabled,NECO,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,13,38,27,12,11,1,0,11,15,1,1.8
+2023/2024,Male,Disabled,NABTEB,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,11,32,23,10,9,0,0,9,13,1,1.8
+2023/2024,Male,Disabled,NABTEB,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,5,15,11,5,4,0,0,4,6,1,1.8
+2023/2024,Male,Disabled,NABTEB,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,4,12,9,4,3,0,0,3,5,1,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,3113,9249,6709,2851,2623,144,0,2540,3858,228,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,1415,4204,3049,1296,1192,66,0,1155,1753,104,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,1132,3363,2440,1037,954,52,0,923,1403,83,1.8
+2024/2025,Female,ALL,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,1456,4326,3138,1334,1227,67,0,1188,1804,107,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,662,1966,1426,606,558,31,0,540,820,48,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,529,1573,1141,485,446,25,0,432,656,39,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,452,1343,974,414,381,21,0,369,560,33,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,205,610,443,188,173,10,0,167,255,15,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,164,488,354,150,138,8,0,134,204,12,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,202,601,436,185,170,9,0,165,251,15,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,92,273,198,84,77,4,0,75,114,7,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,74,219,159,67,62,3,0,60,92,5,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,95,281,204,87,80,4,0,77,117,7,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,43,128,93,39,36,2,0,35,54,3,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,34,102,74,32,29,2,0,28,42,3,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,29,87,63,27,25,1,0,24,36,2,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,13,40,29,12,11,1,0,11,17,1,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,11,32,23,10,9,0,0,9,13,1,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Daura,North West,Katsina,Daura,,,1441,4281,3105,1320,1214,67,0,1176,1785,106,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,655,1946,1411,600,552,30,0,535,811,48,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,524,1557,1129,480,441,24,0,428,649,39,1.8
+2024/2025,Female,ALL,NECO,University,lga,Daura,North West,Katsina,Daura,,,674,2002,1452,617,568,31,0,550,835,49,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,306,910,660,281,258,14,0,250,379,23,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,245,728,528,224,206,11,0,200,304,18,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,209,621,451,192,176,10,0,170,259,16,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,95,282,205,87,80,4,0,77,118,7,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,76,226,164,70,64,4,0,62,94,6,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Daura,North West,Katsina,Daura,,,94,278,202,86,79,4,0,76,116,7,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,43,126,92,39,36,2,0,34,53,3,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,34,101,73,31,29,2,0,28,42,2,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Daura,North West,Katsina,Daura,,,44,130,94,40,37,2,0,36,54,3,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,20,59,43,18,17,1,0,16,25,1,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,16,47,34,15,13,1,0,13,19,2,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,14,40,29,12,11,1,0,11,17,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,6,18,13,6,5,0,0,5,7,1,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,5,15,11,5,4,0,0,4,6,1,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,1611,4786,3472,1476,1358,75,0,1314,1996,118,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,732,2176,1578,671,617,34,0,598,907,54,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,586,1740,1262,537,494,27,0,478,725,43,1.8
+2024/2025,Female,ALL,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,754,2239,1624,690,635,35,0,615,934,55,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,343,1018,738,314,289,16,0,280,424,25,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,274,814,590,251,231,13,0,224,339,20,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,234,695,504,214,197,11,0,191,290,17,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,106,316,229,97,90,5,0,87,132,7,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,85,253,183,78,72,4,0,70,105,6,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,105,311,226,96,88,5,0,85,130,8,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,48,141,103,44,40,2,0,38,59,4,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,38,113,82,35,32,2,0,31,47,3,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,49,146,106,45,41,2,0,40,61,4,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,22,66,48,20,19,1,0,18,28,1,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,18,53,38,16,15,1,0,15,22,1,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,15,45,33,14,13,1,0,12,19,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,7,21,15,6,6,0,0,6,9,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,6,16,12,5,5,0,0,4,7,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,1584,4705,3413,1450,1334,73,0,1292,1963,116,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,720,2139,1551,659,607,33,0,588,892,52,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,576,1711,1241,527,485,27,0,470,714,42,1.8
+2024/2025,Female,ALL,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,741,2201,1596,678,624,34,0,605,918,54,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,337,1000,726,308,284,16,0,274,418,24,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,269,800,580,247,227,12,0,220,333,20,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,230,683,495,211,194,11,0,188,284,17,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,104,310,225,96,88,5,0,85,129,8,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,84,248,180,77,70,4,0,68,103,7,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,103,306,222,94,87,5,0,84,128,7,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,47,139,101,43,39,2,0,38,58,4,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,37,111,81,34,32,2,0,30,47,2,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,48,143,104,44,41,2,0,39,60,3,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,22,65,47,20,18,1,0,18,27,2,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,18,52,38,16,15,1,0,14,22,1,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,15,44,32,14,13,1,0,12,18,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,7,20,15,6,6,0,0,5,9,0,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,5,16,12,5,5,0,0,4,7,0,1.8
+2024/2025,Female,ALL,WAEC,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,1446,4296,3116,1325,1219,67,0,1180,1791,106,1.8
+2024/2025,Female,ALL,WAEC,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,657,1953,1417,602,554,30,0,536,815,48,1.8
+2024/2025,Female,ALL,WAEC,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,526,1562,1133,482,443,24,0,429,651,39,1.8
+2024/2025,Female,ALL,NECO,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,676,2010,1458,620,570,31,0,552,838,50,1.8
+2024/2025,Female,ALL,NECO,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,307,913,663,282,259,14,0,250,381,23,1.8
+2024/2025,Female,ALL,NECO,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,246,731,530,225,207,11,0,201,305,18,1.8
+2024/2025,Female,ALL,NABTEB,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,210,624,452,192,177,10,0,172,260,15,1.8
+2024/2025,Female,ALL,NABTEB,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,95,283,206,87,80,4,0,77,119,7,1.8
+2024/2025,Female,ALL,NABTEB,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,76,227,165,70,64,4,0,62,95,6,1.8
+2024/2025,Female,Disabled,WAEC,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,94,279,203,86,79,4,0,76,117,7,1.8
+2024/2025,Female,Disabled,WAEC,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,43,127,92,39,36,2,0,35,53,3,1.8
+2024/2025,Female,Disabled,WAEC,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,34,102,74,31,29,2,0,28,43,2,1.8
+2024/2025,Female,Disabled,NECO,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,44,131,95,40,37,2,0,36,55,3,1.8
+2024/2025,Female,Disabled,NECO,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,20,59,43,18,17,1,0,16,25,1,1.8
+2024/2025,Female,Disabled,NECO,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,16,47,34,15,13,1,0,13,19,2,1.8
+2024/2025,Female,Disabled,NABTEB,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,14,41,29,12,11,1,0,12,17,1,1.8
+2024/2025,Female,Disabled,NABTEB,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,6,18,13,6,5,0,0,5,7,1,1.8
+2024/2025,Female,Disabled,NABTEB,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,5,15,11,5,4,0,0,4,6,1,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,2590,7694,5581,2372,2182,120,0,2113,3209,190,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,1177,3497,2537,1078,992,55,0,960,1459,86,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,942,2798,2029,863,793,44,0,769,1166,70,1.8
+2024/2025,Male,ALL,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,1211,3599,2610,1109,1021,56,0,989,1501,88,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,551,1636,1187,504,464,26,0,449,683,40,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,440,1309,949,403,371,20,0,360,546,32,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,376,1117,810,344,317,17,0,307,466,27,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,171,508,368,157,144,8,0,140,211,13,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,137,406,295,125,115,6,0,111,170,10,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Katsina,North West,Katsina,Katsina,,,168,500,363,154,142,8,0,137,209,12,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,77,227,165,70,64,4,0,62,95,6,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Katsina,North West,Katsina,Katsina,,,61,182,132,56,52,3,0,50,76,4,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Katsina,North West,Katsina,Katsina,,,79,234,170,72,66,4,0,64,98,6,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,36,106,77,33,30,2,0,29,44,3,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Katsina,North West,Katsina,Katsina,,,29,85,62,26,24,1,0,23,36,2,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Katsina,North West,Katsina,Katsina,,,24,73,53,22,21,1,0,20,31,1,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Katsina,North West,Katsina,Katsina,,,11,33,24,10,9,0,0,9,14,1,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Katsina,North West,Katsina,Katsina,,,9,26,19,8,7,0,0,7,11,1,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Daura,North West,Katsina,Daura,,,1199,3561,2583,1098,1010,56,0,978,1485,88,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,545,1619,1174,499,459,25,0,445,675,40,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,436,1295,939,399,367,20,0,356,540,32,1.8
+2024/2025,Male,ALL,NECO,University,lga,Daura,North West,Katsina,Daura,,,561,1665,1208,513,472,26,0,457,695,41,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,255,757,549,233,215,12,0,208,316,18,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,204,606,439,187,172,9,0,167,252,15,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,174,517,375,159,147,8,0,142,216,12,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,79,235,170,72,67,4,0,65,98,5,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,63,188,136,58,53,3,0,52,78,5,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Daura,North West,Katsina,Daura,,,78,231,168,71,66,4,0,63,97,5,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Daura,North West,Katsina,Daura,,,35,105,76,32,30,2,0,29,44,2,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Daura,North West,Katsina,Daura,,,28,84,61,26,24,1,0,23,35,2,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Daura,North West,Katsina,Daura,,,36,108,79,33,31,2,0,29,46,2,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Daura,North West,Katsina,Daura,,,17,49,36,15,14,1,0,13,21,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Daura,North West,Katsina,Daura,,,13,39,29,12,11,1,0,10,17,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Daura,North West,Katsina,Daura,,,11,34,24,10,10,1,0,10,14,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Daura,North West,Katsina,Daura,,,5,15,11,5,4,0,0,4,6,1,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Daura,North West,Katsina,Daura,,,4,12,9,4,3,0,0,3,5,1,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,1340,3982,2888,1228,1129,62,0,1094,1660,99,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,609,1810,1313,558,513,28,0,497,755,45,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,487,1448,1050,446,411,23,0,398,604,35,1.8
+2024/2025,Male,ALL,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,627,1862,1351,574,528,29,0,511,777,46,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,285,847,614,261,240,13,0,233,353,21,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,228,677,491,209,192,11,0,186,282,17,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,195,578,419,178,164,9,0,159,241,14,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,88,263,191,81,75,4,0,72,110,6,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,71,210,152,65,60,3,0,58,87,5,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Funtua,North West,Katsina,Funtua,,,87,259,188,80,73,4,0,71,108,7,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,40,118,85,36,33,2,0,33,49,3,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Funtua,North West,Katsina,Funtua,,,32,94,68,29,27,1,0,26,39,2,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Funtua,North West,Katsina,Funtua,,,41,121,88,37,34,2,0,33,51,3,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,19,55,40,17,16,1,0,15,23,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Funtua,North West,Katsina,Funtua,,,15,44,32,14,12,1,0,12,18,2,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Funtua,North West,Katsina,Funtua,,,13,38,27,12,11,1,0,11,15,1,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Funtua,North West,Katsina,Funtua,,,6,17,12,5,5,0,0,5,7,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Funtua,North West,Katsina,Funtua,,,5,14,10,4,4,0,0,4,6,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,1317,3914,2839,1206,1110,61,0,1075,1633,96,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,599,1779,1290,548,505,28,0,489,742,43,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,479,1423,1032,439,404,22,0,391,593,35,1.8
+2024/2025,Male,ALL,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,616,1831,1328,564,519,29,0,503,764,45,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,280,832,604,257,236,13,0,228,347,21,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,224,666,483,205,189,10,0,183,278,16,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,191,568,412,175,161,9,0,156,237,14,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,87,258,187,80,73,4,0,71,107,7,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,70,207,150,64,59,3,0,57,86,5,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Mashi,North West,Katsina,Mashi,,,86,254,185,78,72,4,0,69,107,6,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,39,116,84,36,33,2,0,32,48,3,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Mashi,North West,Katsina,Mashi,,,31,93,67,29,26,1,0,26,38,3,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Mashi,North West,Katsina,Mashi,,,40,119,86,37,34,2,0,33,49,3,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,18,54,39,17,15,1,0,15,22,2,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Mashi,North West,Katsina,Mashi,,,15,43,31,13,12,1,0,12,18,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Mashi,North West,Katsina,Mashi,,,12,37,27,11,10,1,0,10,16,1,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Mashi,North West,Katsina,Mashi,,,6,17,12,5,5,0,0,5,7,0,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Mashi,North West,Katsina,Mashi,,,5,13,10,4,4,0,0,3,6,0,1.8
+2024/2025,Male,ALL,WAEC,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,1203,3574,2593,1102,1014,56,0,981,1491,88,1.8
+2024/2025,Male,ALL,WAEC,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,547,1625,1178,501,461,25,0,447,677,40,1.8
+2024/2025,Male,ALL,WAEC,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,437,1300,943,401,369,20,0,357,542,32,1.8
+2024/2025,Male,ALL,NECO,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,563,1672,1213,516,474,26,0,459,697,42,1.8
+2024/2025,Male,ALL,NECO,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,256,760,551,234,216,12,0,209,317,18,1.8
+2024/2025,Male,ALL,NECO,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,205,608,441,187,172,9,0,167,254,15,1.8
+2024/2025,Male,ALL,NABTEB,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,175,519,376,160,147,8,0,143,216,13,1.8
+2024/2025,Male,ALL,NABTEB,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,79,236,171,73,67,4,0,65,98,6,1.8
+2024/2025,Male,ALL,NABTEB,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,64,189,137,58,54,3,0,52,79,4,1.8
+2024/2025,Male,Disabled,WAEC,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,78,232,169,72,66,4,0,63,97,6,1.8
+2024/2025,Male,Disabled,WAEC,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,36,106,77,33,30,2,0,29,44,3,1.8
+2024/2025,Male,Disabled,WAEC,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,28,84,61,26,24,1,0,23,35,2,1.8
+2024/2025,Male,Disabled,NECO,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,37,109,79,34,31,2,0,30,45,3,1.8
+2024/2025,Male,Disabled,NECO,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,17,49,36,15,14,1,0,13,21,1,1.8
+2024/2025,Male,Disabled,NECO,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,13,40,29,12,11,1,0,11,17,1,1.8
+2024/2025,Male,Disabled,NABTEB,University,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,11,34,24,10,10,1,0,10,14,0,1.8
+2024/2025,Male,Disabled,NABTEB,Polytechnic,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,5,15,11,5,4,0,0,4,6,1,1.8
+2024/2025,Male,Disabled,NABTEB,College of Education,lga,Dutsin Ma,North West,Katsina,Dutsin Ma,,,4,12,9,4,3,0,0,3,5,1,1.8

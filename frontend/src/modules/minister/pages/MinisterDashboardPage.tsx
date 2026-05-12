@@ -16,8 +16,7 @@ import type {
   SchoolLevelFilter,
   SchoolTypeFilter,
 } from "../types";
-import { loadCSV } from "../utils/loadCSV";
-import { canonicalState, loadRefinedFile } from "../utils/refinedPageData";
+import { canonicalGapBand, canonicalState, loadRefinedFile } from "../utils/refinedPageData";
 import {
   filterAllowedSessions,
   GENERAL_OVERVIEW_FILTER_SESSIONS,
@@ -276,10 +275,7 @@ function hasText(value: unknown): boolean {
 
 
 function normalizeTransitionGapBand(value: string): string {
-  const normalized = value.trim().toLowerCase();
-  if (normalized === "3-5 years" || normalized === "3-5-year") return "3-5-year";
-  if (normalized === "5+ years" || normalized === "5+-year") return "5+-year";
-  return value;
+  return canonicalGapBand(value);
 }
 
 function normalizePolicyDisciplineGroup(value: string): string {
@@ -528,28 +524,11 @@ export default function MinisterDashboardPage({
       try {
         setLoadingDims(true);
         setDataErr(null);
-        const baseUrl = (import.meta as { env?: { BASE_URL?: string } }).env?.BASE_URL ?? "/";
-        const dataBase = baseUrl.endsWith("/") ? `${baseUrl}data` : `${baseUrl}/data`;
         const tryLoadDim = async <T extends Record<string, unknown>>(path: string, requiredKey: string): Promise<T[]> => {
-          const candidates = [
-            `${dataBase}/dimensions/${path}`,
-            `/data/dimensions/${path}`,
-            `${dataBase}/${path}`,
-            `/data/${path}`,
-          ];
-          let lastErr: unknown = null;
-          for (const url of candidates) {
-            try {
-              const rows = await loadCSV<T>(url);
-              if (!rows.length) continue;
-              const first = rows[0] as Record<string, unknown>;
-              if (Object.prototype.hasOwnProperty.call(first, requiredKey)) return rows;
-              // Wrong file shape (often HTML fallback or unrelated CSV); try next candidate.
-            } catch (error) {
-              lastErr = error;
-            }
-          }
-          throw lastErr instanceof Error ? lastErr : new Error(`Failed to load ${path}`);
+          const rows = await loadRefinedFile<T>(`dimensions/${path}`);
+          const first = rows[0] as Record<string, unknown> | undefined;
+          if (first && Object.prototype.hasOwnProperty.call(first, requiredKey)) return rows;
+          throw new Error(`Failed to load dimensions/${path}`);
         };
 
         const [sessionsRaw, statesRaw, lgasRaw, wardsRaw, schoolsRaw] = await Promise.all([
