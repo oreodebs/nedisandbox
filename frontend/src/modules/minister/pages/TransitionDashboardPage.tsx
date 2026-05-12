@@ -530,7 +530,7 @@ function getNextLevel(currentLevel: LocationLevel): LocationLevel | null {
   if (currentLevel === "zone") return "state";
   if (currentLevel === "state") return "lga";
   if (currentLevel === "lga") return "ward";
-  if (currentLevel === "ward") return "school";
+  if (currentLevel === "ward") return null;
   return null;
 }
 
@@ -593,7 +593,7 @@ function resolveLocationRows(
   }
   if (drill.ward) {
     effectiveRows = effectiveRows.filter((row) => row.ward === drill.ward);
-    level = "school";
+    level = "ward";
   }
 
   return { level, rows: effectiveRows };

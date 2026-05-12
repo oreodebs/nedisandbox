@@ -1376,7 +1376,6 @@ function locationLabel(row: AccessWardRow, level: LocationLevel): string {
 function scopedBreakdownLevel(filters: MinisterFilters, explicitState?: string): LocationLevel {
   const activeState = explicitState ?? filters.state;
   if (!activeState) return "state";
-  if (filters.school) return "school";
   if (filters.lga || filters.ward) return "ward";
   return "lga";
 }
@@ -1739,11 +1738,10 @@ function filterRowsByDrill(rows: AccessWardRow[], drill: DrillState): AccessWard
   });
 }
 
-function getNextChartLevel(drill: DrillState): "state" | "lga" | "ward" | "school" {
+function getNextChartLevel(drill: DrillState): "state" | "lga" | "ward" {
   if (!drill.state) return "state";
   if (!drill.lga) return "lga";
-  if (!drill.ward) return "ward";
-  return "school";
+  return "ward";
 }
 
 function buildDrillFromSelection(rows: AccessWardRow[], drill: DrillState, label: string): DrillState {
@@ -1752,9 +1750,7 @@ function buildDrillFromSelection(rows: AccessWardRow[], drill: DrillState, label
   const scopedRows = filterRowsByDrill(rows, drill);
   if (nextLevel === "state") return scopedRows.some((row) => row.state === selectedLabel) ? { state: selectedLabel } : drill;
   if (nextLevel === "lga") return scopedRows.some((row) => row.lga === selectedLabel) ? { ...drill, lga: selectedLabel } : drill;
-  if (nextLevel === "ward") return scopedRows.some((row) => row.ward === selectedLabel) ? { ...drill, ward: selectedLabel } : drill;
-  const match = scopedRows.find((row) => rowIncludesSchool(row, selectedLabel));
-  return match ? { ...drill, school: selectedLabel } : drill;
+  return scopedRows.some((row) => row.ward === selectedLabel) ? { ...drill, ward: selectedLabel } : drill;
 }
 
 
@@ -3257,12 +3253,6 @@ export default function AccessCoverageDashboard({
     } else if (loadedLocation.ward) {
       stable.ward = loadedLocation.ward;
     }
-    if (!stable.ward) return stable;
-    if (drill.school && loadedLocation.school === drill.school) {
-      stable.school = drill.school;
-    } else if (loadedLocation.school) {
-      stable.school = loadedLocation.school;
-    }
     return stable;
   };
 
@@ -3774,8 +3764,7 @@ export default function AccessCoverageDashboard({
     const level = getNextChartLevel(drill);
     if (level === "state") return stateGroups;
     if (level === "lga") return aggregateBy(scopedRows, "lga").sort((a, b) => a.label.localeCompare(b.label));
-    if (level === "ward") return [...new Set(scopedRows.map((row) => row.ward).filter(Boolean))].sort((a, b) => a.localeCompare(b)).map((label) => ({ label, metrics: mergeMetrics(scopedRows.filter((row) => row.ward === label)) }));
-    return buildSchoolAllocationRows(scopedRows);
+    return [...new Set(scopedRows.map((row) => row.ward).filter(Boolean))].sort((a, b) => a.localeCompare(b)).map((label) => ({ label, metrics: mergeMetrics(scopedRows.filter((row) => row.ward === label)) }));
   };
 
   const buildPublicPrivateCountChart = (metric: "schools" | "students", drill: DrillState, sortMode: SortMode): { bundle: ChartBundle; level: "state" | "lga" | "ward" | "school" } => {

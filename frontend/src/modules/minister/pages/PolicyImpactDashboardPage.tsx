@@ -331,8 +331,8 @@ const COLORS = {
 
 const CHART_HELP: Record<ChartKey, string> = {
   mix: "Programme Mix shows the share of STEMM versus Non-STEMM students in the current view. When the Admitted toggle is off it shows matriculated students, and when it is on it shows admitted students.",
-  zone: "This chart starts at Zone level and can drill deeper through State, LGA, and Institution. It compares STEMM and Non-STEMM side by side within the current selected stage.",
-  state: "This chart starts at State level and can drill deeper through LGA and Institution. Use it to compare how strongly each state leans toward STEMM or Non-STEMM.",
+  zone: "This chart starts at Zone level and drills through State to LGA. LGA is the final visible drill level, so clicking the final level will not drill into Institution or School.",
+  state: "This chart starts at State level and drills to LGA. LGA is the final visible drill level, so clicking the final level will not drill into Institution or School.",
   gender: "This grouped bar chart compares male and female students across STEMM and Non-STEMM in the selected stage.",
   disciplineMix: "This donut chart shows matriculated students by discipline family. All STEMM disciplines are combined into one STEMM slice, while Non-STEMM is grouped into ART, Social Sciences, and Education.",
   topMatriculatedCourses: "This ranked horizontal bar chart shows top courses by matriculated students in the selected session and filters. Each course inherits the color of its discipline family from the discipline donut chart beside it.",
@@ -472,7 +472,7 @@ function buildHorizontalStackedChart(
   const displayLabels = fullDisplayLabels.map((label) => (level === "institution" ? compactPolicyLabel(label, 48) : label));
   const stemmValues = sorted.map((row) => row.stemm);
   const nonStemmValues = sorted.map((row) => row.nonStemm);
-  const [stemmVisualValues, nonStemmVisualValues] = minimumVisibleStackValues([stemmValues, nonStemmValues], 0.06);
+  const [stemmVisualValues, nonStemmVisualValues] = minimumVisibleStackValues([stemmValues, nonStemmValues], 0.1);
   const dynamicHeight = Math.max(380, sorted.length * 36 + 112);
   const maxVisualTotal = Math.max(...stemmVisualValues.map((value, index) => value + (nonStemmVisualValues[index] ?? 0)), 1);
 
@@ -487,9 +487,9 @@ function buildHorizontalStackedChart(
         text: stemmValues.map((value) => (value > 0 ? fmtInt(value) : "")),
         textposition: "inside",
         textangle: 0,
-        insidetextanchor: "middle",
+        insidetextanchor: "start",
         constraintext: "none",
-        textfont: { color: "white", size: 11 },
+        textfont: { color: "white", size: 10.5 },
         cliponaxis: false,
         marker: { color: COLORS.stemm, line: { width: 0 } },
         customdata: sorted.map((row, index) => [sourceLabels[index], fullDisplayLabels[index], row.stemm]),
@@ -504,9 +504,9 @@ function buildHorizontalStackedChart(
         text: nonStemmValues.map((value) => (value > 0 ? fmtInt(value) : "")),
         textposition: "inside",
         textangle: 0,
-        insidetextanchor: "middle",
+        insidetextanchor: "end",
         constraintext: "none",
-        textfont: { color: "white", size: 11 },
+        textfont: { color: "white", size: 10.5 },
         cliponaxis: false,
         marker: { color: COLORS.nonStemm, line: { width: 0 } },
         customdata: sorted.map((row, index) => [sourceLabels[index], fullDisplayLabels[index], row.nonStemm]),
@@ -530,6 +530,7 @@ function buildHorizontalStackedChart(
       },
       yaxis: { ...baseLayout().yaxis, automargin: false, tickfont: { color: COLORS.sub, size: 10.5 }, autorange: "reversed", showgrid: false },
       title: undefined,
+      uirevision: `policy-${level}-${sortMode}-${displayLabels.join("|")}-${stemmValues.join("|")}-${nonStemmValues.join("|")}`,
     },
     fixedLegend: [
       { label: "STEMM", color: COLORS.stemm },
@@ -636,6 +637,11 @@ function buildMultiColorRankedChart(rows: Array<RankedRow & { color: string; hov
 
 function buildChartTitle(base: string): string {
   return `${base} — Matriculated`;
+}
+
+function displayPolicyDrillLevelName(level: "zone" | "state" | "lga"): string {
+  if (level === "lga") return "LGA";
+  return `${level.charAt(0).toUpperCase()}${level.slice(1)}`;
 }
 
 function AlphabeticalSortIcon() {
@@ -779,6 +785,7 @@ function KpiCard({ item, previousSessionLabel }: { item: MetricCard; previousSes
     return () => document.removeEventListener("mousedown", onDocumentClick);
   }, [showHelp]);
 
+
   return (
     <div className="relative overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm">
       <div className="px-3.5 py-3">
@@ -883,6 +890,22 @@ function ChartCard({
     return () => document.removeEventListener("mousedown", onDocumentClick);
   }, [showHelp]);
 
+  const plotRenderKey = [
+    title,
+    bundle.titleNote ?? "",
+    String(bundle.scrollable ?? false),
+    String((bundle.layout.height as number | undefined) ?? ""),
+    bundle.data
+      .map((trace) => {
+        const item = trace as Record<string, unknown>;
+        const x = Array.isArray(item.x) ? item.x.join("|") : String(item.x ?? "");
+        const y = Array.isArray(item.y) ? item.y.join("|") : String(item.y ?? "");
+        const text = Array.isArray(item.text) ? item.text.join("|") : String(item.text ?? "");
+        return `${String(item.name ?? "trace")}:${x}:${y}:${text}`;
+      })
+      .join("::"),
+  ].join("__");
+
   return (
     <div className="relative overflow-visible rounded-xl border border-slate-200 bg-white shadow-sm">
       <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-3.5 py-2.5">
@@ -944,6 +967,7 @@ function ChartCard({
         {bundle.scrollable ? (
           <div className="overflow-y-auto overflow-x-hidden pr-1" style={{ maxHeight: bundle.scrollMaxHeight ?? 320 }}>
             <Plot
+              key={plotRenderKey}
               data={bundle.data}
               layout={{ ...bundle.layout, showlegend: bundle.fixedLegend?.length ? false : bundle.layout.showlegend }}
               config={bundle.config ?? { displayModeBar: false, responsive: true }}
@@ -954,6 +978,7 @@ function ChartCard({
           </div>
         ) : (
           <Plot
+            key={plotRenderKey}
             data={bundle.data}
             layout={{ ...bundle.layout, showlegend: bundle.fixedLegend?.length ? false : bundle.layout.showlegend }}
             config={bundle.config ?? { displayModeBar: false, responsive: true }}
@@ -1054,6 +1079,25 @@ export default function PolicyImpactDashboard({
     filters.programme,
     disabilityMode,
     ]);
+
+  // General Reset in the parent clears the location filters but does not press this
+  // chart's own refresh button. When every location filter is empty, clear the
+  // internal drill state as well so the State chart returns to the national view
+  // and cannot stay stuck on an old selected State/LGA.
+  useEffect(() => {
+    if (
+      filters.zone ||
+      filters.state ||
+      filters.lga ||
+      filters.ward ||
+      filters.school ||
+      filters.tertiary_institution
+    ) {
+      return;
+    }
+    setZoneDrill({});
+    setStateDrill({});
+  }, [filters.zone, filters.state, filters.lga, filters.ward, filters.school, filters.tertiary_institution]);
 
   const previousSession = useMemo(
     () => dimSessions.find((row) => row.session_id === filters.session)?.prev_session_id ?? "",
@@ -1390,8 +1434,8 @@ export default function PolicyImpactDashboard({
     });
   }, [drillBaseRows, effectiveStateDrill]);
 
-  const zoneLevel = effectiveZoneDrill.lga ? "institution" : effectiveZoneDrill.state ? "lga" : effectiveZoneDrill.zone ? "state" : "zone";
-  const stateLevel = effectiveStateDrill.lga ? "institution" : effectiveStateDrill.state ? "lga" : "state";
+  const zoneLevel = effectiveZoneDrill.state ? "lga" : effectiveZoneDrill.zone ? "state" : "zone";
+  const stateLevel = effectiveStateDrill.state ? "lga" : "state";
 
   const zoneRows = useMemo(() => {
     let rows: Array<{ label: string; stemm: number; nonStemm: number }>;
@@ -1699,12 +1743,75 @@ export default function PolicyImpactDashboard({
     const nonStemmMatric = sessions.map((session) => scaledSessionValue(session, trendRows
       .filter((row) => row.session === session && row.programme_cluster === "Non-STEMM")
       .reduce((sum, row) => sum + safeNum(row.matriculated_count), 0)));
+    const allTrendValues = [...stemmMatric, ...nonStemmMatric].filter((value) => Number.isFinite(value));
+    const trendMin = Math.min(...allTrendValues, 0);
+    const trendMax = Math.max(...allTrendValues, 1);
+    const labelOffset = Math.max((trendMax - trendMin) * 0.045, trendMax * 0.008, 1);
+    const stemmLabelY = stemmMatric.map((value, index) => Math.max(0, value - (index === 1 ? labelOffset * 1.65 : labelOffset)));
+    const nonStemmLabelY = nonStemmMatric.map((value, index) => value + (index === 1 ? labelOffset * 1.65 : labelOffset));
+
     return {
       data: [
-        { type: "scatter", mode: "text+lines+markers", name: "STEMM Matriculated", x: sessions, y: stemmMatric, text: stemmMatric.map((v) => fmtInt(v)), textposition: "top center", line: { color: COLORS.stemm, width: 3 }, marker: { size: 8, symbol: "circle" }, hovertemplate: "%{x}<br>STEMM Matriculated: %{y:,}<extra></extra>" },
-        { type: "scatter", mode: "text+lines+markers", name: "Non-STEMM Matriculated", x: sessions, y: nonStemmMatric, text: nonStemmMatric.map((v) => fmtInt(v)), textposition: "bottom center", line: { color: COLORS.nonStemm, width: 3, dash: "dot" }, marker: { size: 8, symbol: "diamond" }, hovertemplate: "%{x}<br>Non-STEMM Matriculated: %{y:,}<extra></extra>" },
+        {
+          type: "scatter",
+          mode: "lines+markers",
+          name: "STEMM Matriculated",
+          x: sessions,
+          y: stemmMatric,
+          line: { color: COLORS.stemm, width: 3 },
+          marker: { size: 8, symbol: "circle" },
+          hovertemplate: "%{x}<br>STEMM Matriculated: %{y:,}<extra></extra>",
+        },
+        {
+          type: "scatter",
+          mode: "lines+markers",
+          name: "Non-STEMM Matriculated",
+          x: sessions,
+          y: nonStemmMatric,
+          line: { color: COLORS.nonStemm, width: 3, dash: "dot" },
+          marker: { size: 8, symbol: "diamond" },
+          hovertemplate: "%{x}<br>Non-STEMM Matriculated: %{y:,}<extra></extra>",
+        },
+        {
+          type: "scatter",
+          mode: "text",
+          name: "STEMM labels",
+          x: sessions,
+          y: stemmLabelY,
+          text: stemmMatric.map((value) => fmtInt(value)),
+          textposition: "middle center",
+          textfont: { color: COLORS.text, size: 11 },
+          hoverinfo: "skip",
+          showlegend: false,
+          cliponaxis: false,
+        },
+        {
+          type: "scatter",
+          mode: "text",
+          name: "Non-STEMM labels",
+          x: sessions,
+          y: nonStemmLabelY,
+          text: nonStemmMatric.map((value) => fmtInt(value)),
+          textposition: "middle center",
+          textfont: { color: COLORS.text, size: 11 },
+          hoverinfo: "skip",
+          showlegend: false,
+          cliponaxis: false,
+        },
       ],
-      layout: { ...baseLayout(340), showlegend: false, yaxis: { ...baseLayout().yaxis, title: { text: "Matriculated students" } } },
+      layout: {
+        ...baseLayout(340),
+        showlegend: false,
+        margin: { l: 58, r: 28, t: 28, b: 54 },
+        yaxis: {
+          ...baseLayout().yaxis,
+          title: { text: "Matriculated students" },
+          range: [
+            Math.max(0, Math.min(...stemmLabelY, ...nonStemmLabelY, ...allTrendValues) * 0.98),
+            Math.max(...stemmLabelY, ...nonStemmLabelY, ...allTrendValues, 1) * 1.03,
+          ],
+        },
+      },
       fixedLegend: [{ label: "STEMM Matriculated", color: COLORS.stemm }, { label: "Non-STEMM Matriculated", color: COLORS.nonStemm, dashed: true }],
       titleNote: matriculatedGrandTotal,
     };
@@ -1925,9 +2032,18 @@ export default function PolicyImpactDashboard({
         barmode: "stack",
         bargap: 0.24,
         showlegend: false,
-        xaxis: { range: [0, Math.ceil(maxVisualTotal * 1.06)], showgrid: false, showticklabels: true, zeroline: false, tickfont: { color: COLORS.sub, size: 10.5 }, separatethousands: true, fixedrange: true },
-        yaxis: { automargin: true, tickfont: { color: COLORS.sub, size: 11 }, showgrid: false },
-        margin: { l: 188, r: 28, t: 24, b: 42 },
+        xaxis: {
+          range: [0, Math.ceil(maxVisualTotal * 1.06)],
+          visible: false,
+          showgrid: false,
+          showticklabels: false,
+          zeroline: false,
+          ticks: "",
+          fixedrange: true,
+          title: undefined,
+        },
+        yaxis: { automargin: true, tickfont: { color: COLORS.sub, size: 11 }, showgrid: false, ticks: "" },
+        margin: { l: 188, r: 28, t: 24, b: 18 },
       },
       fixedLegend: [{ label: "Approved", color: COLORS.applications }, { label: "Disbursed", color: COLORS.disbursed }],
       scrollable: grouped.length > 8,
@@ -1959,10 +2075,8 @@ export default function PolicyImpactDashboard({
       setStateDrill((prev) => ({ ...prev, zone: matchedZone, state: label }));
       setFilters((prev) => ({ ...prev, zone: matchedZone || prev.zone, state: label, lga: "", tertiary_institution: "" }));
     } else if (zoneLevel === "lga") {
-      // Clicked an LGA — drill into institutions
-      setZoneDrill((prev) => ({ ...prev, lga: label }));
-      setStateDrill((prev) => ({ ...prev, lga: label }));
-      setFilters((prev) => ({ ...prev, lga: label, tertiary_institution: "" }));
+      // LGA is the final visible drill level on this page, so do not drill into Institution/School.
+      return;
     }
   };
 
@@ -1983,9 +2097,8 @@ export default function PolicyImpactDashboard({
         setFilters((prev) => ({ ...prev, zone: matchedZone || prev.zone, state: label, lga: "", tertiary_institution: "" }));
       }
     } else if (stateLevel === "lga") {
-      setStateDrill((prev) => ({ ...prev, lga: label }));
-      setZoneDrill((prev) => ({ ...prev, lga: label }));
-      setFilters((prev) => ({ ...prev, lga: label, tertiary_institution: "" }));
+      // LGA is the final visible drill level on this page, so do not drill into Institution/School.
+      return;
     }
   };
 
@@ -2044,8 +2157,8 @@ export default function PolicyImpactDashboard({
 
       <div id="policy-impact-breakdown" className="space-y-4 scroll-mt-36">
         <div className="grid gap-4 lg:grid-cols-2">
-          <ChartCard title={buildChartTitle(`STEMM vs Non-STEMM by ${zoneLevel === "institution" ? "Institution" : zoneLevel[0].toUpperCase() + zoneLevel.slice(1)}`)} explanation={CHART_HELP.zone} bundle={zoneBundle} sortControl={sortControlFor("zone")} onExpand={() => setExpandState({ key: "zone", title: buildChartTitle("STEMM vs Non-STEMM by Zone") })} onRefresh={() => { setZoneDrill({}); setStateDrill({}); setFilters((prev) => ({ ...prev, zone: "", state: "", lga: "", tertiary_institution: "" })); }} onPlotClick={handleZoneClick} />
-          <ChartCard title={buildChartTitle(`STEMM vs Non-STEMM by ${stateLevel === "institution" ? "Institution" : stateLevel[0].toUpperCase() + stateLevel.slice(1)}`)} explanation={CHART_HELP.state} bundle={stateBundle} sortControl={sortControlFor("state")} onExpand={() => setExpandState({ key: "state", title: buildChartTitle("STEMM vs Non-STEMM by State") })} onRefresh={() => { setStateDrill({}); setZoneDrill({}); setFilters((prev) => ({ ...prev, zone: "", state: "", lga: "", tertiary_institution: "" })); }} onPlotClick={handleStateClick} />
+          <ChartCard title={buildChartTitle(`STEMM vs Non-STEMM by ${displayPolicyDrillLevelName(zoneLevel)}`)} explanation={CHART_HELP.zone} bundle={zoneBundle} sortControl={sortControlFor("zone")} onExpand={() => setExpandState({ key: "zone", title: buildChartTitle("STEMM vs Non-STEMM by Zone") })} onRefresh={() => { setZoneDrill({}); setStateDrill({}); setFilters((prev) => ({ ...prev, zone: "", state: "", lga: "", ward: "", school: "", tertiary_institution: "" })); }} onPlotClick={handleZoneClick} />
+          <ChartCard title={buildChartTitle(`STEMM vs Non-STEMM by ${displayPolicyDrillLevelName(stateLevel)}`)} explanation={CHART_HELP.state} bundle={stateBundle} sortControl={sortControlFor("state")} onExpand={() => setExpandState({ key: "state", title: buildChartTitle("STEMM vs Non-STEMM by State") })} onRefresh={() => { setStateDrill({}); setZoneDrill({}); setFilters((prev) => ({ ...prev, zone: "", state: "", lga: "", ward: "", school: "", tertiary_institution: "" })); }} onPlotClick={handleStateClick} />
         </div>
         <div className="grid gap-4 lg:grid-cols-2">
           <ChartCard title="Matriculation by Discipline" explanation={CHART_HELP.disciplineMix} bundle={disciplineMixBundle} onExpand={() => setExpandState({ key: "disciplineMix", title: "Matriculation by Discipline" })} onRefresh={() => undefined} />

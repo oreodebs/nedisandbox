@@ -17,7 +17,6 @@ import {
 import type { DimSession, MinisterFilters } from "../types";
 import {
   canonicalState,
-  expectedLocLevelForLocation,
   loadRefinedFile,
   loadRefinedScopedRows,
   scopeDepthForLocation,
@@ -537,13 +536,19 @@ function locationBucketLabel(row: TeacherCapacityRow, level: LocationLevel): str
 }
 
 
+function expectedTeacherLocLevelForLocation(filters: MinisterFilters): LocationLevel {
+  if (filters.lga || filters.ward) return "ward";
+  if (filters.state) return "lga";
+  return "state";
+}
+
 function filterTeacherRows(
   rows: TeacherCapacityRow[],
   filters: MinisterFilters,
   options?: { ignoreSession?: boolean; ignoreQualificationStatus?: boolean },
   disabilityMode = false,
 ): TeacherCapacityRow[] {
-  const expectedLocLevel = expectedLocLevelForLocation(filters);
+  const expectedLocLevel = expectedTeacherLocLevelForLocation(filters);
   return rows.filter((row) => {
     if (!options?.ignoreSession && row.session !== filters.session) return false;
     if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
@@ -625,7 +630,7 @@ function resolveLocationRows(
 
   if (filters.ward) {
     scopedRows = scopedRows.filter((row) => row.ward === filters.ward);
-    currentLevel = "school";
+    currentLevel = "ward";
   }
 
   return { level: currentLevel, rows: scopedRows };
@@ -2145,7 +2150,7 @@ export default function TeacherCapacityDashboard({
       try {
         setLoading(true);
         setError(null);
-        const depth = scopeDepthForLocation(filters);
+        const depth = filters.ward ? "ward" : scopeDepthForLocation(filters);
 
         const [teacherRows, benchmarkRows] = await Promise.all([
           loadRefinedScopedRows<TeacherCapacityRow>("teacher_capacity", filters.state, depth),

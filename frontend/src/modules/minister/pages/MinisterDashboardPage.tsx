@@ -1211,7 +1211,11 @@ export default function MinisterDashboardPage({
     },
     [filters, latestSessionId, dimLatestSessionId],
   );
-  const dashboardFilters = useDeferredValue(effectiveFilters);
+  const wardFinalFilters = useMemo(
+    () => ({ ...effectiveFilters, school: "" }),
+    [effectiveFilters],
+  );
+  const dashboardFilters = useDeferredValue(wardFinalFilters);
 
   // Use dimLatestSessionId as the guaranteed fallback — once dims have loaded, ready is always true
   const ready = !loadingDims && !dataErr && !!(effectiveFilters.session || latestSessionId || dimLatestSessionId);
@@ -1424,17 +1428,6 @@ export default function MinisterDashboardPage({
                 onChange={(value) => setFilters((prev) => ({ ...prev, ward: value, school: "" }))}
                 disabled={!filters.lga}
                 title={!filters.lga ? "Pick LGA first" : undefined}
-              />
-            ) : null}
-            {category !== "policy_impact" && category !== "general_overview" ? (
-              <FilterSelect
-                value={filters.school}
-                placeholder="School"
-                options={schoolOptions}
-                onChange={(value) => setFilters((prev) => ({ ...prev, school: value }))}
-                disabled={!filters.ward}
-                title={!filters.ward ? "Pick Ward first" : undefined}
-                maxWidth="max-w-[180px]"
               />
             ) : null}
             {category === "policy_impact" ? (

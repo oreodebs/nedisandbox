@@ -20,9 +20,7 @@ import {
 import type { DimSession, MinisterFilters } from "../types";
 import {
   canonicalState,
-  expectedLocLevelForLocation,
   loadRefinedScopedRows,
-  scopeDepthForLocation,
 } from "../utils/refinedPageData";
 import {
   PERFORMANCE_SESSIONS,
@@ -363,6 +361,24 @@ function fmtDelta(value: number | null): string {
   return `${sign}${value.toFixed(1)}%`;
 }
 
+function ratePointDelta(current: number, previous: number | null): number | null {
+  if (previous === null || !Number.isFinite(previous)) return null;
+  const value = round1(current - previous);
+  return Object.is(value, -0) ? 0 : value;
+}
+
+function rateDeltaWithCountFallback(
+  currentRate: number,
+  previousRate: number | null,
+  currentCount: number,
+  previousCount: number,
+): number | null {
+  const pointDelta = ratePointDelta(currentRate, previousRate);
+  if (pointDelta === null) return null;
+  if (Math.abs(pointDelta) >= 0.1 || previousCount <= 0 || currentCount === previousCount) return pointDelta;
+  return round1(((currentCount - previousCount) / previousCount) * 100);
+}
+
 function fmtInt(value: number): string {
   return Math.round(value).toLocaleString();
 }
@@ -568,19 +584,37 @@ function locationLabel(row: PerformanceRow, level: LocationLevel): string {
   return row.school;
 }
 
+type WardFinalScopeDepth = "top" | "lga" | "ward";
+
+function expectedWardFinalLocLevel(filters: MinisterFilters): LocationLevel {
+  if (filters.lga || filters.ward) return "ward";
+  if (filters.state) return "lga";
+  return "state";
+}
+
+function scopeDepthForWardFinal(filters: MinisterFilters): WardFinalScopeDepth {
+  if (!filters.state) return "top";
+  if (filters.lga || filters.ward) return "ward";
+  return "lga";
+}
+
+function withoutSchoolFilter(filters: MinisterFilters): MinisterFilters {
+  return filters.school ? { ...filters, school: "" } : filters;
+}
+
 
 function filterRows(rows: PerformanceRow[], filters: MinisterFilters, disabilityMode: boolean, ignoreSession = false): PerformanceRow[] {
-  const expectedLocLevel = expectedLocLevelForLocation(filters);
+  const effectiveFilters = withoutSchoolFilter(filters);
+  const expectedLocLevel = expectedWardFinalLocLevel(effectiveFilters);
   return rows.filter((row) => {
-    if (!ignoreSession && row.session !== filters.session) return false;
+    if (!ignoreSession && row.session !== effectiveFilters.session) return false;
     if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
-    if (filters.zone && row.zone !== filters.zone) return false;
-    if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
-    if (filters.lga && row.lga !== filters.lga) return false;
-    if (filters.ward && row.ward !== filters.ward) return false;
-    if (filters.school && row.school !== filters.school) return false;
-    if (filters.gender && row.gender !== filters.gender) return false;
-    if (filters.exam_body && row.olevel_exam_body !== filters.exam_body) return false;
+    if (effectiveFilters.zone && row.zone !== effectiveFilters.zone) return false;
+    if (effectiveFilters.state && canonicalState(row.state) !== canonicalState(effectiveFilters.state)) return false;
+    if (effectiveFilters.lga && row.lga !== effectiveFilters.lga) return false;
+    if (effectiveFilters.ward && row.ward !== effectiveFilters.ward) return false;
+    if (effectiveFilters.gender && row.gender !== effectiveFilters.gender) return false;
+    if (effectiveFilters.exam_body && row.olevel_exam_body !== effectiveFilters.exam_body) return false;
     if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
     return true;
   });
@@ -772,22 +806,19 @@ function resolveLocationRows(
   baseLevel: LocationLevel,
   filters: MinisterFilters,
 ): { level: LocationLevel; rows: PerformanceRow[] } {
+  const effectiveFilters = withoutSchoolFilter(filters);
   let level = baseLevel;
 
-  if (filters.zone && baseLevel === "zone") {
+  if (effectiveFilters.zone && baseLevel === "zone") {
     level = "state";
   }
 
-  if (filters.state) {
-    level = baseLevel === "zone" ? "lga" : "lga";
+  if (effectiveFilters.state) {
+    level = "lga";
   }
 
-  if (filters.lga) {
+  if (effectiveFilters.lga || effectiveFilters.ward) {
     level = "ward";
-  }
-
-  if (filters.ward) {
-    level = "school";
   }
 
   return { level, rows };
@@ -1361,7 +1392,7 @@ function buildLocationChart(
   const grouped = buildLocationGenderSplits(resolved.rows, resolved.level, metric, sortMode, filters.zone || "");
   if (!grouped.length) return null;
 
-  const isScrollable = startLevel === "state";
+  const isScrollable = startLevel === "state" || startLevel === "zone" || grouped.length > 8;
   const chartHeight = Math.max(isScrollable ? 500 : 340, grouped.length * (isScrollable ? 40 : 32) + 130);
   const numeratorLabel = metric === "pass" ? "Passed" : "Scored >180";
   const denominatorLabel = metric === "pass" ? "Candidates" : "UTME Candidates";
@@ -1658,15 +1689,15 @@ export default function PerformanceDashboard({
   const [sortModes, setSortModes] = useState<Record<SortablePerformanceChartKey, SortMode>>(DEFAULT_PERFORMANCE_SORT_MODES);
   const expandedPanelRef = useRef<HTMLDivElement | null>(null);
   const requestedScopeKey = useMemo(
-    () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}|${filters.school}`,
-    [filters.state, filters.lga, filters.ward, filters.school],
+    () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}`,
+    [filters.state, filters.lga, filters.ward],
   );
   const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
   const [loadedLocation, setLoadedLocation] = useState({
     state: filters.state,
     lga: filters.lga,
     ward: filters.ward,
-    school: filters.school,
+    school: "",
   });
 
   useEffect(() => {
@@ -1683,10 +1714,11 @@ export default function PerformanceDashboard({
       try {
         setLoading(true);
         setError(null);
-        const depth = scopeDepthForLocation(filters);
+        const effectiveLocationFilters = withoutSchoolFilter(filters);
+        const depth = scopeDepthForWardFinal(effectiveLocationFilters);
         const [factRows, transitionRows] = await Promise.all([
-          loadRefinedScopedRows<PerformanceRow>("performance", filters.state, depth),
-          loadRefinedScopedRows<CanonicalTransitionRow>("transition_direct", filters.state, depth),
+          loadRefinedScopedRows<PerformanceRow>("performance", effectiveLocationFilters.state, depth),
+          loadRefinedScopedRows<CanonicalTransitionRow>("transition_direct", effectiveLocationFilters.state, depth),
         ]);
 
         if (!mounted) return;
@@ -1694,10 +1726,10 @@ export default function PerformanceDashboard({
         setCanonicalTransitionRows(filterRowsBySessionWindow(transitionRows, TRANSITION_SESSIONS));
         setLoadedScopeKey(requestedScopeKey);
         setLoadedLocation({
-          state: filters.state,
-          lga: filters.lga,
-          ward: filters.ward,
-          school: filters.school,
+          state: effectiveLocationFilters.state,
+          lga: effectiveLocationFilters.lga,
+          ward: effectiveLocationFilters.ward,
+          school: "",
         });
       } catch (loadError) {
         if (!mounted) return;
@@ -1714,7 +1746,7 @@ export default function PerformanceDashboard({
     return () => {
       mounted = false;
     };
-  }, [filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey]);
+  }, [filters.state, filters.lga, filters.ward, requestedScopeKey]);
 
   useEffect(() => {
     if (!expandState) return undefined;
@@ -1737,7 +1769,7 @@ export default function PerformanceDashboard({
   }, [dimSessions, filters.session]);
   const scopePending = requestedScopeKey !== loadedScopeKey;
   const renderFilters = useMemo(
-    () => (scopePending ? { ...filters, ...loadedLocation } : filters),
+    () => withoutSchoolFilter(scopePending ? { ...filters, ...loadedLocation } : filters),
     [scopePending, filters, loadedLocation],
   );
 
@@ -1805,9 +1837,13 @@ export default function PerformanceDashboard({
       : { admitted: 0, matriculated: 0 };
     const sourceAdmitted = baseRows.reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
     const sourceMatriculated = baseRows.reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
+    const previousSourceAdmitted = previousRows.reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
+    const previousSourceMatriculated = previousRows.reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
     const admitted = canonicalCurrent.admitted || sourceAdmitted;
     const utmeQualifyingBase = baseRows.reduce((sum, row) => sum + safeNum(row.utme_qualified_count), 0);
     const matriculated = canonicalCurrent.matriculated || sourceMatriculated;
+    const previousAdmitted = canonicalPrevious.admitted || previousSourceAdmitted;
+    const previousMatriculated = canonicalPrevious.matriculated || previousSourceMatriculated;
     const admittedForMatric = admitted;
     const currentAdmissionCanonical = utmeQualifyingBase > 0 ? round1((admitted / utmeQualifyingBase) * 100) : currentAdmission;
     const previousUtmeQualifyingBase = previousRows.reduce((sum, row) => sum + safeNum(row.utme_qualified_count), 0);
@@ -1922,7 +1958,7 @@ export default function PerformanceDashboard({
         label: "Admission Rate",
         help: "Admission destination breakdown.",
         value: currentAdmissionCanonical,
-        delta: prevAdmissionCanonical === null ? null : round1(currentAdmissionCanonical - prevAdmissionCanonical),
+        delta: rateDeltaWithCountFallback(currentAdmissionCanonical, prevAdmissionCanonical, admitted, previousAdmitted),
         icon: <School className="h-5 w-5" />,
         accent: COLORS.admission,
         bg: "rgba(14,165,233,0.10)",
@@ -1936,7 +1972,7 @@ export default function PerformanceDashboard({
         label: "Matriculation Completion Rate",
         help: "Matriculation destination breakdown.",
         value: currentMatricCanonical,
-        delta: prevMatricCanonical === null ? null : round1(currentMatricCanonical - prevMatricCanonical),
+        delta: rateDeltaWithCountFallback(currentMatricCanonical, prevMatricCanonical, matriculated, previousMatriculated),
         icon: <UserCheck className="h-5 w-5" />,
         accent: COLORS.matric,
         bg: "rgba(20,184,166,0.10)",
