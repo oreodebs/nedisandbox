@@ -528,26 +528,6 @@ function scaleValuesToTotal(values: number[], targetTotal: number): number[] {
   return roundedDown;
 }
 
-function splitTotalByShares(total: number, shares: number[]): number[] {
-  const cleanTotal = Math.max(0, Math.round(safeNum(total)));
-  if (cleanTotal <= 0) return shares.map(() => 0);
-
-  const rawValues = shares.map((share) => Math.max(0, share) * cleanTotal);
-  const roundedDown = rawValues.map((value) => Math.floor(value));
-  let remainder = cleanTotal - roundedDown.reduce((sum, value) => sum + value, 0);
-  const order = rawValues
-    .map((value, index) => ({ index, fraction: value - Math.floor(value) }))
-    .sort((left, right) => right.fraction - left.fraction);
-
-  for (const item of order) {
-    if (remainder <= 0) break;
-    roundedDown[item.index] += 1;
-    remainder -= 1;
-  }
-
-  return roundedDown;
-}
-
 function titleGrandTotal(label: string, value: number): string {
   return `Grand Total: ${fmtInt(value)} ${label}`;
 }
@@ -1847,31 +1827,6 @@ export default function PerformanceDashboard({
       ? weightedRate(canonicalPrevious.matriculated, canonicalPrevious.admitted)
       : prevMatricRaw;
 
-    const institutionLabels = ["University", "Polytechnic", "College of Education"];
-    const fallbackInstitutionShares = [0.52, 0.30, 0.18];
-    const normalizeInstitution = (value?: string) => {
-      const clean = String(value ?? "").trim().toLowerCase();
-      if (clean.includes("university")) return "University";
-      if (clean.includes("poly")) return "Polytechnic";
-      if (clean.includes("college") || clean.includes("education")) return "College of Education";
-      return "";
-    };
-    const institutionBreakdown = (valueKey: "admitted_count" | "matriculated_count", total: number) => {
-      const rawValues = institutionLabels.map((label) =>
-        baseRows
-          .filter((row) => normalizeInstitution(row.institution_type) === label)
-          .reduce((sum, row) => sum + safeNum(row[valueKey]), 0),
-      );
-      const rawTotal = rawValues.reduce((sum, value) => sum + value, 0);
-      const displayValues = rawTotal > 0
-        ? scaleValuesToTotal(rawValues, total)
-        : splitTotalByShares(total, fallbackInstitutionShares);
-
-      return institutionLabels.map((label, index) => ({
-        label,
-        value: formatBreakdownShare(displayValues[index] ?? 0, total),
-      }));
-    };
 
     return [
       {
@@ -1948,7 +1903,7 @@ export default function PerformanceDashboard({
       },
       {
         label: "Admission Rate",
-        help: "Admission rate = admitted students divided by UTME participants. Destination split is shown after the rate-base breakdown.",
+        help: "Admission rate = admitted students divided by UTME participants.",
         value: currentAdmissionCanonical,
         delta: sessionDelta(currentAdmissionCanonicalRaw, prevAdmissionCanonicalRaw),
         icon: <School className="h-5 w-5" />,
@@ -1966,7 +1921,7 @@ export default function PerformanceDashboard({
       },
       {
         label: "Matriculation Completion Rate",
-        help: "Matriculation completion rate = matriculated students divided by admitted students. Destination split is shown after the rate-base breakdown.",
+        help: "Matriculation completion rate = matriculated students divided by admitted students.",
         value: currentMatricCanonical,
         delta: sessionDelta(currentMatricCanonicalRaw, prevMatricCanonicalRaw),
         icon: <UserCheck className="h-5 w-5" />,
@@ -1979,7 +1934,7 @@ export default function PerformanceDashboard({
         breakdown: [
           { label: "Total Admitted", value: fmtInt(admittedForMatric) },
           { label: "Matriculated", value: formatCappedBreakdownShare(matriculated, admittedForMatric) },
-          { label: "Not Matriculated", value: formatCappedBreakdownShare(notMatriculated, admittedForMatric) },s
+          { label: "Not Matriculated", value: formatCappedBreakdownShare(notMatriculated, admittedForMatric) },
         ],
       },
     ];
