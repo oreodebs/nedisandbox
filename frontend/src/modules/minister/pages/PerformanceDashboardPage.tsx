@@ -505,29 +505,6 @@ function formatCappedBreakdownShare(value: number, total: number): string {
   return `${fmtInt(value)} (${pct.toFixed(1)}%)`;
 }
 
-function scaleValuesToTotal(values: number[], targetTotal: number): number[] {
-  const cleanValues = values.map((value) => Math.max(0, safeNum(value)));
-  const cleanTarget = Math.max(0, Math.round(safeNum(targetTotal)));
-  const currentTotal = cleanValues.reduce((sum, value) => sum + value, 0);
-
-  if (cleanTarget <= 0 || currentTotal <= 0) return cleanValues.map(() => 0);
-
-  const scaled = cleanValues.map((value) => (value / currentTotal) * cleanTarget);
-  const roundedDown = scaled.map((value) => Math.floor(value));
-  let remainder = cleanTarget - roundedDown.reduce((sum, value) => sum + value, 0);
-  const order = scaled
-    .map((value, index) => ({ index, fraction: value - Math.floor(value) }))
-    .sort((left, right) => right.fraction - left.fraction);
-
-  for (const item of order) {
-    if (remainder <= 0) break;
-    roundedDown[item.index] += 1;
-    remainder -= 1;
-  }
-
-  return roundedDown;
-}
-
 function titleGrandTotal(label: string, value: number): string {
   return `Grand Total: ${fmtInt(value)} ${label}`;
 }
