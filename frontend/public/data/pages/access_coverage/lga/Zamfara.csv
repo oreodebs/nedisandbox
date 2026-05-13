@@ -1,561 +1,561 @@
 session,gender,disability,school_type,school_level,class_grade,key_entry_level,loc_level,loc_label,zone,state,lga,ward,school,student_count,is_o_level_student,school_count,classroom_count,computer_count,avg_students_per_school,learners_per_classroom,students_per_computer,usable_classroom_count,laboratory_count,computer_access_count,water_source_count,handwashing_facility_count,toilet_count,infrastructure_score
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,2639.0,0,1466.1352,22,7,1.8,119.9545,377.0,13,7,3,10,9,6,41.8
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,800.0,0,2011.8431,25,14,0.3976,32.0,57.1429,15,8,6,12,11,6,41.8
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,754.0,0,1895.4254,23,13,0.3978,32.7826,58.0,14,7,6,11,10,6,41.8
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,731.0,0,1837.2166,23,13,0.3979,31.7826,56.2308,14,7,6,11,10,6,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,3352.0,0,5617.1533,80,29,0.5967,41.9,115.5862,47,25,13,38,34,21,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,3220.0,0,5395.232,77,28,0.5968,41.8182,115.0,46,24,13,37,32,20,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,3126.0,0,5238.7958,74,27,0.5967,42.2432,115.7778,44,23,12,35,31,19,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,3031.0,0,5078.7215,72,26,0.5968,42.0972,116.5769,43,22,12,34,30,19,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,3051.0,0,5111.4639,73,26,0.5969,41.7945,117.3462,43,23,12,35,31,19,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,3051.0,0,5111.4639,73,26,0.5969,41.7945,117.3462,43,23,12,35,31,19,41.8
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,745.0,708,1458.8591,17,13,0.5107,43.8235,57.3077,10,5,6,8,7,4,41.8
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,683.0,649,1338.8034,16,12,0.5102,42.6875,56.9167,9,5,5,8,7,4,41.8
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,642.0,610,1258.7662,15,11,0.51,42.8,58.3636,9,5,5,7,6,4,41.8
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,16.0,0,178.2646,3,2,0.0898,5.3333,8.0,2,1,1,1,1,1,41.8
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,9354.0,0,3072.0815,79,24,3.0448,118.4051,389.75,47,25,11,38,33,20,41.8
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,2835.0,0,1886.7902,88,51,1.5026,32.2159,55.5882,52,27,23,42,37,23,41.8
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,2673.0,0,1779.6648,83,48,1.502,32.2048,55.6875,49,26,22,39,35,21,41.8
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,2592.0,0,1727.8299,81,46,1.5001,32.0,56.3478,48,25,21,38,34,21,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,11887.0,0,5383.9179,284,103,2.2079,41.8556,115.4078,168,88,46,135,120,74,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,11419.0,0,5173.1227,272,99,2.2074,41.9816,115.3434,161,85,45,129,115,70,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,11085.0,0,5021.0737,264,96,2.2077,41.9886,115.4688,156,82,43,125,111,68,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,10752.0,0,4869.0246,256,93,2.2082,42.0,115.6129,151,80,42,122,108,66,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,10818.0,0,4900.1256,258,93,2.2077,41.9302,116.3226,152,80,42,123,109,67,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,10818.0,0,4900.1256,258,93,2.2077,41.9302,116.3226,152,80,42,123,109,67,41.8
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,2642.0,2511,870.8263,61,46,3.0339,43.3115,57.4348,36,19,21,29,26,16,41.8
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,2422.0,2302,798.2574,56,42,3.0341,43.25,57.6667,33,17,19,27,24,15,41.8
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,2275.0,2162,749.8782,53,39,3.0338,42.9245,58.3333,31,16,18,25,22,14,41.8
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,57.0,0,79.4802,10,8,0.7172,5.7,7.125,6,3,4,5,4,3,41.8
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,2704.0,0,2608.4837,39,12,1.0366,69.3333,225.3333,23,12,5,19,16,10,41.8
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,1066.0,0,2659.4165,33,19,0.4008,32.303,56.1053,20,10,9,16,14,9,41.8
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,1005.0,0,2506.6183,31,18,0.4009,32.4194,55.8333,18,10,8,15,13,8,41.8
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,975.0,0,2430.2192,30,17,0.4012,32.5,57.3529,18,9,8,14,13,8,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,4914.0,0,7792.7087,111,40,0.6306,44.2703,122.85,66,35,18,53,47,29,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,4720.0,0,7487.1123,106,39,0.6304,44.5283,121.0256,63,33,18,50,45,27,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,4582.0,0,7268.8291,103,37,0.6304,44.4854,123.8378,61,32,17,49,43,27,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,4443.0,0,7050.546,100,36,0.6302,44.43,123.4167,59,31,16,48,42,26,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,4471.0,0,7094.2026,101,37,0.6302,44.2673,120.8378,60,31,17,48,43,26,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,4471.0,0,7094.2026,101,37,0.6302,44.2673,120.8378,60,31,17,48,43,26,41.8
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,1149.0,1027,2117.3466,25,19,0.5427,45.96,60.4737,15,8,9,12,11,6,41.8
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,1053.0,941,1939.0821,23,17,0.543,45.7826,61.9412,14,7,8,11,10,6,41.8
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,989.0,884,1822.6644,22,16,0.5426,44.9545,61.8125,13,7,7,10,9,6,41.8
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,268.0,0,432.9283,6,5,0.619,44.6667,53.6,4,2,2,3,3,2,41.8
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,9584.0,0,5463.3981,140,43,1.7542,68.4571,222.8837,83,44,19,66,59,36,41.8
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,3782.0,0,2498.442,117,67,1.5137,32.3248,56.4478,69,36,30,56,49,30,41.8
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,3566.0,0,2353.3043,110,63,1.5153,32.4182,56.6032,65,34,28,52,46,28,41.8
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,3458.0,0,2284.1911,107,61,1.5139,32.3178,56.6885,63,33,27,51,45,28,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,17420.0,0,7471.1364,393,142,2.3316,44.3257,122.6761,232,122,64,187,166,102,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,16735.0,0,7177.4054,378,137,2.3316,44.2725,122.1533,223,118,62,180,160,98,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,16245.0,0,6966.6101,366,133,2.3318,44.3852,122.1429,216,114,60,174,154,95,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,15756.0,0,6755.8149,355,129,2.3322,44.3831,122.1395,210,110,58,169,150,92,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,15854.0,0,6797.2828,358,130,2.3324,44.2849,121.9538,212,111,58,170,151,93,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,15854.0,0,6797.2828,358,129,2.3324,44.2849,122.8992,212,111,58,170,151,93,41.8
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,4075.0,3643,1264.7715,89,66,3.2219,45.7865,61.7424,53,28,30,42,38,23,41.8
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,3735.0,3339,1157.646,81,61,3.2264,46.1111,61.2295,48,25,27,38,34,21,41.8
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,3509.0,3137,1088.5328,77,57,3.2236,45.5714,61.5614,46,24,26,37,32,20,41.8
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,953.0,0,190.0613,23,18,5.0142,41.4348,52.9444,14,7,8,11,10,6,41.8
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,171.0,0,94.5894,1,1,1.8078,171.0,171.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,52.0,0,130.9699,2,1,0.397,26.0,52.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,49.0,0,123.6938,2,1,0.3961,24.5,49.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,48.0,0,120.0557,1,1,0.3998,48.0,48.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,218.0,0,363.8053,5,2,0.5992,43.6,109.0,3,2,1,2,2,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,209.0,0,349.2531,5,2,0.5984,41.8,104.5,3,2,1,2,2,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,203.0,0,341.9769,5,2,0.5936,40.6,101.5,3,2,1,2,2,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,197.0,0,331.0628,5,1,0.5951,39.4,197.0,3,2,0,2,2,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,199.0,0,331.0628,5,1,0.6011,39.8,199.0,3,2,0,2,2,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,199.0,0,331.0628,5,1,0.6011,39.8,199.0,3,2,0,2,2,1,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,48.0,46,94.5894,1,1,0.5075,48.0,48.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,44.0,42,87.3133,1,1,0.5039,44.0,44.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,42.0,40,83.6752,1,1,0.5019,42.0,42.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,1.0,0,10.9142,1,1,0.0916,1.0,1.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,608.0,0,200.4283,5,2,3.0335,121.6,304.0,3,2,1,2,2,1,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,184.0,0,124.4038,6,3,1.4791,30.6667,61.3333,4,2,1,3,3,2,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,174.0,0,114.0368,5,3,1.5258,34.8,58.0,3,2,1,2,2,1,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,168.0,0,110.5811,5,3,1.5192,33.6,56.0,3,2,1,2,2,1,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,773.0,0,349.0216,18,7,2.2148,42.9444,110.4286,11,6,3,9,8,5,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,743.0,0,335.199,17,7,2.2166,43.7059,106.1429,10,5,3,8,7,4,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,721.0,0,324.832,17,6,2.2196,42.4118,120.1667,10,5,3,8,7,4,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,700.0,0,317.9207,16,6,2.2018,43.75,116.6667,9,5,3,8,7,4,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,703.0,0,317.9207,17,6,2.2112,41.3529,117.1667,10,5,3,8,7,4,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,704.0,0,317.9207,17,6,2.2144,41.4118,117.3333,10,5,3,8,7,4,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,172.0,163,55.2906,4,3,3.1108,43.0,57.3333,2,1,1,2,2,1,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,158.0,150,51.8349,4,3,3.0481,39.5,52.6667,2,1,1,2,2,1,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,148.0,141,48.3792,3,3,3.0592,49.3333,49.3333,2,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,4.0,0,3.4557,1,1,1.1575,4.0,4.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,176.0,0,170.9885,3,1,1.0293,58.6667,176.0,2,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,69.0,0,174.6265,2,1,0.3951,34.5,69.0,1,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,66.0,0,163.7124,2,1,0.4031,33.0,66.0,1,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,63.0,0,156.4363,2,1,0.4027,31.5,63.0,1,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,320.0,0,505.6893,7,3,0.6328,45.7143,106.6667,4,2,1,3,3,2,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,307.0,0,487.4991,7,3,0.6297,43.8571,102.3333,4,2,1,3,3,2,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,298.0,0,472.9468,7,2,0.6301,42.5714,149.0,4,2,1,3,3,2,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,289.0,0,458.3946,6,2,0.6305,48.1667,144.5,4,2,1,3,3,2,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,291.0,0,462.0327,6,2,0.6298,48.5,145.5,4,2,1,3,3,2,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,291.0,0,462.0327,7,2,0.6298,41.5714,145.5,4,2,1,3,3,2,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,75.0,67,138.246,2,1,0.5425,37.5,75.0,1,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,68.0,61,127.3318,1,1,0.534,68.0,68.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,64.0,57,116.4177,1,1,0.5497,64.0,64.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,18.0,0,29.1044,1,1,0.6185,18.0,18.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,623.0,0,355.933,9,3,1.7503,69.2222,207.6667,5,3,1,4,4,2,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,246.0,0,162.416,8,4,1.5146,30.75,61.5,5,2,2,4,3,2,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,232.0,0,152.049,7,4,1.5258,33.1429,58.0,4,2,2,3,3,2,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,225.0,0,148.5934,7,4,1.5142,32.1429,56.25,4,2,2,3,3,2,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,1132.0,0,487.248,26,9,2.3233,43.5385,125.7778,15,8,4,12,11,7,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,1088.0,0,466.5141,24,9,2.3322,45.3333,120.8889,14,7,4,11,10,6,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,1056.0,0,452.6914,24,9,2.3327,44.0,117.3333,14,7,4,11,10,6,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,1024.0,0,438.8688,23,8,2.3333,44.5217,128.0,14,7,4,11,10,6,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,1031.0,0,442.3245,23,8,2.3309,44.8261,128.875,14,7,4,11,10,6,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,1031.0,0,442.3245,23,8,2.3309,44.8261,128.875,14,7,4,11,10,6,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,265.0,237,82.9358,6,4,3.1952,44.1667,66.25,4,2,2,3,3,2,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,243.0,217,76.0245,5,4,3.1963,48.6,60.75,3,2,2,2,2,1,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,228.0,204,69.1132,5,4,3.2989,45.6,57.0,3,2,2,2,2,1,41.8
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,61.0,0,13.8226,2,1,4.4131,30.5,61.0,1,1,0,1,1,1,41.8
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,977.0,0,542.0698,8,3,1.8024,122.125,325.6667,5,2,1,4,3,2,41.8
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,296.0,0,745.8008,9,5,0.3969,32.8889,59.2,5,3,2,4,4,2,41.8
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,279.0,0,702.1442,9,5,0.3974,31.0,55.8,5,3,2,4,4,2,41.8
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,271.0,0,680.3158,8,5,0.3983,33.875,54.2,5,2,2,4,3,2,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,1241.0,0,2080.9661,30,11,0.5964,41.3667,112.8182,18,9,5,14,13,8,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,1192.0,0,1997.2909,28,10,0.5968,42.5714,119.2,17,9,4,13,12,7,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,1158.0,0,1939.0821,28,10,0.5972,41.3571,115.8,17,9,4,13,12,7,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,1123.0,0,1880.8732,27,10,0.5971,41.5926,112.3,16,8,4,13,11,7,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,1131.0,0,1891.7874,27,10,0.5978,41.8889,113.1,16,8,4,13,11,7,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,1131.0,0,1891.7874,27,10,0.5978,41.8889,113.1,16,8,4,13,11,7,41.8
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,277.0,263,542.0698,6,5,0.511,46.1667,55.4,4,2,2,3,3,2,41.8
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,253.0,241,498.4132,6,4,0.5076,42.1667,63.25,4,2,2,3,3,2,41.8
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,238.0,226,465.6707,6,4,0.5111,39.6667,59.5,4,2,2,3,3,2,41.8
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,6.0,0,65.4849,1,1,0.0916,6.0,6.0,1,0,0,0,0,0,41.8
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,3460.0,0,1136.9121,29,9,3.0433,119.3103,384.4444,17,9,4,14,12,8,41.8
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,1049.0,0,698.0433,33,19,1.5028,31.7879,55.2105,20,10,9,16,14,9,41.8
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,990.0,0,660.031,31,18,1.4999,31.9355,55.0,18,10,8,15,13,8,41.8
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,960.0,0,639.2971,30,17,1.5016,32.0,56.4706,18,9,8,14,13,8,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,4401.0,0,1993.9157,105,38,2.2072,41.9143,115.8158,62,33,17,50,44,27,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,4228.0,0,1914.4355,101,37,2.2085,41.8614,114.2703,60,31,17,48,43,26,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,4104.0,0,1859.145,98,35,2.2075,41.8776,117.2571,58,30,16,47,41,25,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,3981.0,0,1803.8544,95,34,2.2069,41.9053,117.0882,56,30,15,45,40,25,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,4005.0,0,1814.2214,95,35,2.2076,42.1579,114.4286,56,30,16,45,40,25,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,4005.0,0,1814.2214,95,35,2.2076,42.1579,114.4286,56,30,16,45,40,25,41.8
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,978.0,930,321.3764,23,17,3.0432,42.5217,57.5294,14,7,8,11,10,6,41.8
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,897.0,853,297.1867,21,16,3.0183,42.7143,56.0625,12,7,7,10,9,5,41.8
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,843.0,801,276.4528,20,15,3.0493,42.15,56.2,12,6,7,10,8,5,41.8
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,21.0,0,31.1009,4,3,0.6752,5.25,7.0,2,1,1,2,2,1,41.8
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,1000.0,0,964.0839,15,4,1.0373,66.6667,250.0,9,5,2,7,6,4,41.8
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,395.0,0,985.9123,12,7,0.4006,32.9167,56.4286,7,4,3,6,5,3,41.8
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,373.0,0,931.3415,11,7,0.4005,33.9091,53.2857,7,3,3,5,5,3,41.8
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,362.0,0,902.2371,11,6,0.4012,32.9091,60.3333,7,3,3,5,5,3,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,1820.0,0,2884.9757,41,15,0.6309,44.3902,121.3333,24,13,7,19,17,11,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,1748.0,0,2772.1961,40,14,0.6305,43.7,124.8571,24,12,6,19,17,10,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,1697.0,0,2692.1589,38,14,0.6303,44.6579,121.2143,22,12,6,18,16,10,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,1646.0,0,2612.1218,37,13,0.6301,44.4865,126.6154,22,12,6,18,16,10,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,1656.0,0,2626.674,37,13,0.6305,44.7568,127.3846,22,12,6,18,16,10,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,1656.0,0,2626.674,37,13,0.6305,44.7568,127.3846,22,12,6,18,16,10,41.8
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,426.0,381,785.8194,9,7,0.5421,47.3333,60.8571,5,3,3,4,4,2,41.8
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,390.0,349,720.3344,9,6,0.5414,43.3333,65.0,5,3,3,4,4,2,41.8
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,367.0,328,676.6778,8,6,0.5424,45.875,61.1667,5,2,3,4,3,2,41.8
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,100.0,0,160.0743,2,2,0.6247,50.0,50.0,1,1,1,1,1,1,41.8
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,3548.0,0,2025.0166,52,16,1.7521,68.2308,221.75,31,16,7,25,22,13,41.8
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,1400.0,0,922.6612,43,25,1.5174,32.5581,56.0,25,13,11,20,18,11,41.8
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,1320.0,0,870.8263,41,23,1.5158,32.1951,57.3913,24,13,10,19,17,11,41.8
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,1280.0,0,846.6366,39,23,1.5119,32.8205,55.6522,23,12,10,19,16,10,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,6448.0,0,2764.5278,145,53,2.3324,44.469,121.6604,86,45,24,69,61,38,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,6195.0,0,2657.4024,140,50,2.3312,44.25,123.9,83,44,22,66,59,36,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,6014.0,0,2577.9222,136,49,2.3329,44.2206,122.7347,80,42,22,65,57,35,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,5832.0,0,2501.8977,131,48,2.331,44.5191,121.5,77,41,22,62,55,34,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,5869.0,0,2515.7203,132,48,2.3329,44.4621,122.2708,78,41,22,63,56,34,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,5869.0,0,2515.7203,132,48,2.3329,44.4621,122.2708,78,41,22,63,56,34,41.8
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,1509.0,1349,469.9697,33,25,3.2108,45.7273,60.36,20,10,11,16,14,9,41.8
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,1384.0,1237,428.5018,30,22,3.2299,46.1333,62.9091,18,9,10,14,13,8,41.8
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,1300.0,1162,404.3122,28,21,3.2153,46.4286,61.9048,17,9,9,13,12,7,41.8
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,352.0,0,69.1132,9,7,5.0931,39.1111,50.2857,5,3,3,4,4,2,41.8
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,63.0,0,36.3805,1,1,1.7317,63.0,63.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,19.0,0,50.9327,1,1,0.373,19.0,19.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,18.0,0,43.6566,1,1,0.4123,18.0,18.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,18.0,0,43.6566,1,1,0.4123,18.0,18.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,80.0,0,134.6079,2,2,0.5943,40.0,40.0,1,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,77.0,0,127.3318,2,2,0.6047,38.5,38.5,1,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,75.0,0,123.6938,2,1,0.6063,37.5,75.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,73.0,0,120.0557,1,1,0.6081,73.0,73.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,73.0,0,123.6938,2,1,0.5902,36.5,73.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,73.0,0,123.6938,1,1,0.5902,73.0,73.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,18.0,17,36.3805,1,1,0.4948,18.0,18.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,17.0,16,32.7425,1,1,0.5192,17.0,17.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,16.0,15,32.7425,1,1,0.4887,16.0,16.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,0.0,0,3.6381,1,1,0.0,0.0,0.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,226.0,0,72.5689,2,1,3.1143,113.0,226.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,68.0,0,44.9236,2,1,1.5137,34.0,68.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,64.0,0,41.4679,2,1,1.5434,32.0,64.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,62.0,0,41.4679,2,1,1.4951,31.0,62.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,286.0,0,127.8594,7,3,2.2368,40.8571,95.3333,4,2,1,3,3,2,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,275.0,0,124.4038,7,3,2.2105,39.2857,91.6667,4,2,1,3,3,2,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,266.0,0,120.9481,7,2,2.1993,38.0,133.0,4,2,1,3,3,2,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,259.0,0,117.4924,6,2,2.2044,43.1667,129.5,4,2,1,3,3,2,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,260.0,0,117.4924,6,2,2.2129,43.3333,130.0,4,2,1,3,3,2,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,261.0,0,117.4924,6,2,2.2214,43.5,130.5,4,2,1,3,3,2,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,63.0,60,20.734,1,1,3.0385,63.0,63.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,58.0,55,20.734,1,1,2.7973,58.0,58.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,55.0,52,17.2783,1,1,3.1832,55.0,55.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,1.0,0,3.4557,1,1,0.2894,1.0,1.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,64.0,0,61.8469,1,1,1.0348,64.0,64.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,26.0,0,65.4849,1,1,0.397,26.0,26.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,24.0,0,61.8469,1,1,0.3881,24.0,24.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,23.0,0,58.2088,1,1,0.3951,23.0,23.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,118.0,0,189.1787,3,2,0.6237,39.3333,59.0,2,1,1,1,1,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,114.0,0,181.9026,3,2,0.6267,38.0,57.0,2,1,1,1,1,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,111.0,0,174.6265,3,1,0.6356,37.0,111.0,2,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,107.0,0,170.9885,2,1,0.6258,53.5,107.0,1,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,107.0,0,170.9885,3,1,0.6258,35.6667,107.0,2,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,107.0,0,170.9885,2,1,0.6258,53.5,107.0,1,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,28.0,25,50.9327,1,1,0.5497,28.0,28.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,26.0,23,47.2947,1,1,0.5497,26.0,26.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,24.0,21,43.6566,1,1,0.5497,24.0,24.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,6.0,0,10.9142,1,1,0.5497,6.0,6.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,231.0,0,131.3151,3,1,1.7591,77.0,231.0,2,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,91.0,0,62.2019,3,2,1.463,30.3333,45.5,2,1,1,1,1,1,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,86.0,0,55.2906,3,2,1.5554,28.6667,43.0,2,1,1,1,1,1,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,83.0,0,55.2906,3,1,1.5012,27.6667,83.0,2,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,419.0,0,179.6943,9,4,2.3317,46.5556,104.75,5,3,2,4,4,2,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,403.0,0,172.783,9,3,2.3324,44.7778,134.3333,5,3,1,4,4,2,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,391.0,0,169.3273,9,3,2.3091,43.4444,130.3333,5,3,1,4,4,2,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,378.0,0,162.416,8,3,2.3274,47.25,126.0,5,2,1,4,3,2,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,382.0,0,162.416,9,3,2.352,42.4444,127.3333,5,3,1,4,4,2,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,382.0,0,162.416,9,3,2.352,42.4444,127.3333,5,3,1,4,4,2,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,98.0,88,31.1009,2,2,3.151,49.0,49.0,1,1,1,1,1,1,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,90.0,80,27.6453,2,1,3.2555,45.0,90.0,1,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,85.0,76,27.6453,2,1,3.0747,42.5,85.0,1,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,23.0,0,3.4557,1,1,6.6557,23.0,23.0,1,0,0,0,0,0,41.8
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1252.0,0,694.8681,11,3,1.8018,113.8182,417.3333,7,3,1,5,5,3,41.8
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,380.0,0,956.8078,12,7,0.3972,31.6667,54.2857,7,4,3,6,5,3,41.8
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,358.0,0,902.2371,11,6,0.3968,32.5455,59.6667,7,3,3,5,5,3,41.8
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,347.0,0,873.1326,11,6,0.3974,31.5455,57.8333,7,3,3,5,5,3,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1592.0,0,2666.6926,38,14,0.597,41.8947,113.7143,22,12,6,18,16,10,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1530.0,0,2561.189,37,13,0.5974,41.3514,117.6923,22,12,6,18,16,10,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1485.0,0,2488.428,35,13,0.5968,42.4286,114.2308,21,11,6,17,15,9,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1440.0,0,2412.0289,34,12,0.597,42.3529,120.0,20,11,5,16,14,9,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1449.0,0,2426.5811,35,13,0.5971,41.4,111.4615,21,11,6,17,15,9,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1449.0,0,2426.5811,35,13,0.5971,41.4,111.4615,21,11,6,17,15,9,41.8
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,353.0,336,691.23,8,6,0.5107,44.125,58.8333,5,2,3,4,3,2,41.8
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,325.0,309,636.6592,8,6,0.5105,40.625,54.1667,5,2,3,4,3,2,41.8
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,305.0,290,596.6406,7,5,0.5112,43.5714,61.0,4,2,2,3,3,2,41.8
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,8.0,0,87.3133,1,1,0.0916,8.0,8.0,1,0,0,0,0,0,41.8
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,4441.0,0,1458.2884,37,11,3.0454,120.027,403.7273,22,12,5,18,16,10,41.8
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1346.0,0,898.4715,42,24,1.4981,32.0476,56.0833,25,13,11,20,18,11,41.8
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1269.0,0,846.6366,39,23,1.4989,32.5385,55.1739,23,12,10,19,16,10,41.8
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1231.0,0,818.9914,38,22,1.5031,32.3947,55.9545,22,12,10,18,16,10,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,5644.0,0,2557.1882,135,49,2.2071,41.8074,115.1837,80,42,22,64,57,35,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,5422.0,0,2456.9741,129,47,2.2068,42.031,115.3617,76,40,21,61,54,33,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,5264.0,0,2384.4052,125,45,2.2077,42.112,116.9778,74,39,20,59,53,32,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,5106.0,0,2311.8364,122,44,2.2086,41.8525,116.0455,72,38,20,58,51,32,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,5137.0,0,2325.659,122,44,2.2088,42.1066,116.75,72,38,20,58,51,32,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,5137.0,0,2325.659,122,44,2.2088,42.1066,116.75,72,38,20,58,51,32,41.8
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1255.0,1193,414.6792,29,22,3.0264,43.2759,57.0455,17,9,10,14,12,8,41.8
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1150.0,1093,380.1226,27,20,3.0253,42.5926,57.5,16,8,9,13,11,7,41.8
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1080.0,1027,355.933,25,19,3.0343,43.2,56.8421,15,8,9,12,11,6,41.8
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,27.0,0,38.0123,5,4,0.7103,5.4,6.75,3,2,2,2,2,1,41.8
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1283.0,0,1236.9379,19,6,1.0372,67.5263,213.8333,11,6,3,9,8,5,41.8
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,506.0,0,1262.4043,16,9,0.4008,31.625,56.2222,9,5,4,8,7,4,41.8
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,478.0,0,1189.6432,15,8,0.4018,31.8667,59.75,9,5,4,7,6,4,41.8
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,463.0,0,1156.9007,14,8,0.4002,33.0714,57.875,8,4,4,7,6,4,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,2333.0,0,3699.8995,53,19,0.6306,44.0189,122.7895,31,16,9,25,22,14,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,2242.0,0,3554.3774,50,18,0.6308,44.84,124.5556,30,16,8,24,21,13,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,2175.0,0,3452.5119,49,18,0.63,44.3878,120.8333,29,15,8,23,21,13,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,2110.0,0,3347.0084,48,17,0.6304,43.9583,124.1176,28,15,8,23,20,12,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,2123.0,0,3368.8367,48,18,0.6302,44.2292,117.9444,28,15,8,23,20,12,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,2123.0,0,3368.8367,48,17,0.6302,44.2292,124.8824,28,15,8,23,20,12,41.8
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,546.0,488,1007.7406,12,9,0.5418,45.5,60.6667,7,4,4,6,5,3,41.8
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,501.0,448,924.0654,11,8,0.5422,45.5455,62.625,7,3,4,5,5,3,41.8
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,470.0,420,865.8565,10,8,0.5428,47.0,58.75,6,3,4,5,4,3,41.8
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,128.0,0,207.369,3,2,0.6173,42.6667,64.0,2,1,1,1,1,1,41.8
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,4550.0,0,2595.2005,66,20,1.7532,68.9394,227.5,39,21,9,31,28,17,41.8
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1796.0,0,1185.2913,55,32,1.5152,32.6545,56.125,33,17,14,26,23,14,41.8
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1694.0,0,1119.6338,52,30,1.513,32.5769,56.4667,31,16,14,25,22,13,41.8
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1642.0,0,1085.0772,51,29,1.5133,32.1961,56.6207,30,16,13,24,22,13,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,8271.0,0,3545.5069,186,67,2.3328,44.4677,123.4478,110,58,30,88,78,48,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,7947.0,0,3407.2805,179,65,2.3324,44.3966,122.2615,106,56,29,85,76,46,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,7715.0,0,3307.0664,174,63,2.3329,44.3391,122.4603,103,54,28,83,73,45,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,7481.0,0,3206.8523,169,61,2.3328,44.2663,122.6393,100,53,27,80,71,44,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,7528.0,0,3227.5862,170,61,2.3324,44.2824,123.4098,100,53,27,81,72,44,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,7528.0,0,3227.5862,170,61,2.3324,44.2824,123.4098,100,53,27,81,72,44,41.8
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1935.0,1730,601.2848,42,31,3.2181,46.0714,62.4194,25,13,14,20,18,11,41.8
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1774.0,1586,549.4499,39,29,3.2287,45.4872,61.1724,23,12,13,19,16,10,41.8
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1667.0,1490,518.349,36,27,3.216,46.3056,61.7407,21,11,12,17,15,9,41.8
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,453.0,0,89.8472,11,9,5.0419,41.1818,50.3333,7,3,4,5,5,3,41.8
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,82.0,0,47.2947,1,1,1.7338,82.0,82.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,25.0,0,61.8469,1,1,0.4042,25.0,25.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,23.0,0,58.2088,1,1,0.3951,23.0,23.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,22.0,0,58.2088,1,1,0.3779,22.0,22.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,104.0,0,174.6265,3,2,0.5956,34.6667,52.0,2,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,99.0,0,167.3504,3,2,0.5916,33.0,49.5,2,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,97.0,0,160.0743,2,1,0.606,48.5,97.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,94.0,0,156.4363,2,1,0.6009,47.0,94.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,94.0,0,156.4363,2,1,0.6009,47.0,94.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,94.0,0,156.4363,2,1,0.6009,47.0,94.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,23.0,22,47.2947,1,1,0.4863,23.0,23.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,21.0,20,40.0186,1,1,0.5248,21.0,21.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,20.0,19,40.0186,1,1,0.4998,20.0,20.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,0.0,0,3.6381,1,1,0.0,0.0,0.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,289.0,0,96.7585,2,1,2.9868,144.5,289.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,88.0,0,58.7462,3,2,1.498,29.3333,44.0,2,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,82.0,0,55.2906,3,1,1.4831,27.3333,82.0,2,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,80.0,0,51.8349,2,1,1.5434,40.0,80.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,367.0,0,165.8717,9,3,2.2126,40.7778,122.3333,5,3,1,4,4,2,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,351.0,0,158.9603,8,3,2.2081,43.875,117.0,5,2,1,4,3,2,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,341.0,0,155.5047,8,3,2.1929,42.625,113.6667,5,2,1,4,3,2,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,332.0,0,148.5934,8,2,2.2343,41.5,166.0,5,2,1,4,3,2,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,334.0,0,152.049,8,3,2.1967,41.75,111.3333,5,2,1,4,3,2,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,334.0,0,152.049,8,3,2.1967,41.75,111.3333,5,2,1,4,3,2,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,82.0,78,27.6453,2,1,2.9661,41.0,82.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,75.0,71,24.1896,2,1,3.1005,37.5,75.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,71.0,67,24.1896,2,1,2.9351,35.5,71.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,2.0,0,3.4557,1,1,0.5788,2.0,2.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,84.0,0,80.0372,1,1,1.0495,84.0,84.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,33.0,0,83.6752,1,1,0.3944,33.0,33.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,31.0,0,76.3991,1,1,0.4058,31.0,31.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,30.0,0,76.3991,1,1,0.3927,30.0,30.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,152.0,0,240.1115,4,2,0.633,38.0,76.0,2,1,1,2,2,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,146.0,0,232.8354,3,2,0.6271,48.6667,73.0,2,1,1,1,1,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,141.0,0,225.5593,3,1,0.6251,47.0,141.0,2,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,138.0,0,218.2832,3,1,0.6322,46.0,138.0,2,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,138.0,0,218.2832,3,1,0.6322,46.0,138.0,2,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,138.0,0,218.2832,3,1,0.6322,46.0,138.0,2,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,36.0,32,65.4849,1,1,0.5497,36.0,36.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,32.0,29,58.2088,1,1,0.5497,32.0,32.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,30.0,27,54.5708,1,1,0.5497,30.0,30.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,9.0,0,14.5522,1,1,0.6185,9.0,9.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,295.0,0,169.3273,4,1,1.7422,73.75,295.0,2,1,0,2,2,1,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,117.0,0,76.0245,4,2,1.539,29.25,58.5,2,1,1,2,2,1,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,110.0,0,72.5689,3,2,1.5158,36.6667,55.0,2,1,1,1,1,1,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,106.0,0,69.1132,3,2,1.5337,35.3333,53.0,2,1,1,1,1,1,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,538.0,0,231.5292,13,4,2.3237,41.3846,134.5,8,4,2,6,5,3,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,516.0,0,221.1622,12,4,2.3331,43.0,129.0,7,4,2,6,5,3,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,502.0,0,214.2509,12,4,2.343,41.8333,125.5,7,4,2,6,5,3,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,487.0,0,207.3396,11,3,2.3488,44.2727,162.3333,7,3,1,5,5,3,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,489.0,0,210.7952,11,4,2.3198,44.4545,122.25,7,3,2,5,5,3,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,489.0,0,210.7952,11,4,2.3198,44.4545,122.25,7,3,2,5,5,3,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,125.0,112,38.0123,3,2,3.2884,41.6667,62.5,2,1,1,1,1,1,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,115.0,103,34.5566,3,2,3.3279,38.3333,57.5,2,1,1,1,1,1,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,109.0,97,34.5566,2,2,3.1542,54.5,54.5,1,1,1,1,1,1,41.8
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,29.0,0,6.9113,1,1,4.196,29.0,29.0,1,0,0,0,0,0,41.8
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,2490.0,0,1386.0981,21,6,1.7964,118.5714,415.0,12,7,3,10,9,5,41.8
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,755.0,0,1899.0635,23,13,0.3976,32.8261,58.0769,14,7,6,11,10,6,41.8
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,712.0,0,1793.5599,22,13,0.397,32.3636,54.7692,13,7,6,10,9,6,41.8
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,690.0,0,1735.3511,21,12,0.3976,32.8571,57.5,12,7,5,10,9,5,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,3166.0,0,5304.2807,75,27,0.5969,42.2133,117.2593,44,23,12,36,32,19,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,3042.0,0,5096.9117,72,26,0.5968,42.25,117.0,43,22,12,34,30,19,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,2953.0,0,4947.7516,70,25,0.5968,42.1857,118.12,41,22,11,33,30,18,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,2864.0,0,4798.5914,68,24,0.5968,42.1176,119.3333,40,21,11,32,29,18,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,2882.0,0,4827.6958,69,25,0.597,41.7681,115.28,41,21,11,33,29,18,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,2882.0,0,4827.6958,68,25,0.597,42.3824,115.28,40,21,11,32,29,18,41.8
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,704.0,669,1378.8219,16,12,0.5106,44.0,58.6667,9,5,5,8,7,4,41.8
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,645.0,613,1266.0423,15,11,0.5095,43.0,58.6364,9,5,5,7,6,4,41.8
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,606.0,576,1189.6432,14,10,0.5094,43.2857,60.6,8,4,4,7,6,4,41.8
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,15.0,0,167.3504,3,2,0.0896,5.0,7.5,2,1,1,1,1,1,41.8
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,8834.0,0,2902.7542,74,23,3.0433,119.3784,384.087,44,23,10,35,31,19,41.8
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,2679.0,0,1783.1204,83,48,1.5024,32.2771,55.8125,49,26,22,39,35,21,41.8
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,2525.0,0,1682.9063,79,45,1.5004,31.962,56.1111,47,25,20,38,33,20,41.8
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,2449.0,0,1631.0714,76,44,1.5015,32.2237,55.6591,45,24,20,36,32,20,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,11230.0,0,5086.7312,268,97,2.2077,41.903,115.7732,158,83,44,127,113,69,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,10788.0,0,4886.3029,257,93,2.2078,41.9767,116.0,152,80,42,122,108,67,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,10473.0,0,4744.6209,249,90,2.2073,42.0602,116.3667,147,77,40,118,105,64,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,10157.0,0,4599.4832,242,87,2.2083,41.9711,116.7471,143,75,39,115,102,63,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,10220.0,0,4630.5841,243,88,2.2071,42.0576,116.1364,144,76,40,115,103,63,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,10221.0,0,4627.1284,243,88,2.2089,42.0617,116.1477,144,76,40,115,103,63,41.8
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,2497.0,2373,822.447,58,43,3.0361,43.0517,58.0698,34,18,19,28,24,15,41.8
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,2288.0,2175,753.3338,53,40,3.0372,43.1698,57.2,31,16,18,25,22,14,41.8
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,2149.0,2043,708.4103,50,37,3.0336,42.98,58.0811,30,16,17,24,21,13,41.8
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,54.0,0,76.0245,9,7,0.7103,6.0,7.7143,5,3,3,4,4,2,41.8
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,2555.0,0,2466.5997,37,11,1.0358,69.0541,232.2727,22,12,5,18,16,10,41.8
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,1008.0,0,2513.8944,31,18,0.401,32.5161,56.0,18,10,8,15,13,8,41.8
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,950.0,0,2368.3723,29,17,0.4011,32.7586,55.8824,17,9,8,14,12,8,41.8
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,921.0,0,2295.6112,28,16,0.4012,32.8929,57.5625,17,9,7,13,12,7,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,4642.0,0,7363.4185,105,38,0.6304,44.2095,122.1579,62,33,17,50,44,27,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,4459.0,0,7072.3743,100,37,0.6305,44.59,120.5135,59,31,17,48,42,26,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,4329.0,0,6868.6434,98,35,0.6303,44.1735,123.6857,58,30,16,47,41,25,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,4198.0,0,6661.2744,95,34,0.6302,44.1895,123.4706,56,30,15,45,40,25,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,4224.0,0,6701.2929,95,35,0.6303,44.4632,120.6857,56,30,16,45,40,25,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,4225.0,0,6701.2929,95,35,0.6305,44.4737,120.7143,56,30,16,45,40,25,41.8
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,1086.0,971,2004.567,24,18,0.5418,45.25,60.3333,14,7,8,11,10,6,41.8
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,995.0,889,1833.5785,22,16,0.5427,45.2273,62.1875,13,7,7,10,9,6,41.8
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,935.0,836,1724.4369,20,15,0.5422,46.75,62.3333,12,6,7,10,8,5,41.8
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,254.0,0,407.4619,6,5,0.6234,42.3333,50.8,4,2,2,3,3,2,41.8
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,9056.0,0,5162.7557,132,40,1.7541,68.6061,226.4,78,41,18,63,56,34,41.8
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,3573.0,0,2360.2156,110,63,1.5138,32.4818,56.7143,65,34,28,52,46,28,41.8
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,3369.0,0,2225.4449,104,60,1.5139,32.3942,56.15,61,32,27,49,44,27,41.8
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,3267.0,0,2156.3317,101,58,1.5151,32.3465,56.3276,60,31,26,48,43,26,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,16457.0,0,7056.4573,371,134,2.3322,44.3585,122.8134,219,115,60,176,157,96,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,15810.0,0,6780.0045,356,129,2.3319,44.4101,122.5581,210,111,58,169,150,92,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,15347.0,0,6583.0319,346,125,2.3313,44.3555,122.776,204,108,56,164,146,90,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,14885.0,0,6382.6036,335,121,2.3321,44.4328,123.0165,198,104,54,159,141,87,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,14977.0,0,6424.0715,338,122,2.3314,44.3107,122.7623,200,105,55,161,143,88,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,14977.0,0,6424.0715,338,122,2.3314,44.3107,122.7623,200,105,55,161,143,88,41.8
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,3849.0,3441,1195.6583,84,63,3.2191,45.8214,61.0952,50,26,28,40,35,22,41.8
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,3529.0,3155,1095.4441,77,57,3.2215,45.8312,61.9123,46,24,26,37,32,20,41.8
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,3314.0,2963,1029.7866,72,54,3.2181,46.0278,61.3704,43,22,24,34,30,19,41.8
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,899.0,0,179.6943,22,17,5.0029,40.8636,52.8824,13,7,8,10,9,6,41.8
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,163.0,0,90.9513,1,1,1.7922,163.0,163.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,49.0,0,123.6938,2,1,0.3961,24.5,49.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,46.0,0,116.4177,1,1,0.3951,46.0,46.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,45.0,0,112.7796,1,1,0.399,45.0,45.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,206.0,0,345.615,5,2,0.596,41.2,103.0,3,2,1,2,2,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,198.0,0,331.0628,5,2,0.5981,39.6,99.0,3,2,1,2,2,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,192.0,0,323.7867,5,1,0.593,38.4,192.0,3,2,0,2,2,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,187.0,0,312.8725,4,1,0.5977,46.75,187.0,2,1,0,2,2,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,188.0,0,312.8725,5,1,0.6009,37.6,188.0,3,2,0,2,2,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,188.0,0,312.8725,4,1,0.6009,47.0,188.0,2,1,0,2,2,1,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,45.0,43,87.3133,1,1,0.5154,45.0,45.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,42.0,40,83.6752,1,1,0.5019,42.0,42.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,39.0,37,76.3991,1,1,0.5105,39.0,39.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,1.0,0,10.9142,1,1,0.0916,1.0,1.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,575.0,0,190.0613,5,1,3.0253,115.0,575.0,3,2,0,2,2,1,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,174.0,0,117.4924,5,3,1.4809,34.8,58.0,3,2,1,2,2,1,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,164.0,0,110.5811,5,3,1.4831,32.8,54.6667,3,2,1,2,2,1,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,159.0,0,107.1255,5,3,1.4842,31.8,53.0,3,2,1,2,2,1,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,729.0,0,331.7433,17,6,2.1975,42.8824,121.5,10,5,3,8,7,4,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,702.0,0,317.9207,17,6,2.2081,41.2941,117.0,10,5,3,8,7,4,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,681.0,0,307.5537,16,6,2.2142,42.5625,113.5,9,5,3,8,7,4,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,660.0,0,300.6424,16,6,2.1953,41.25,110.0,9,5,3,8,7,4,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,664.0,0,300.6424,16,6,2.2086,41.5,110.6667,9,5,3,8,7,4,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,664.0,0,300.6424,16,6,2.2086,41.5,110.6667,9,5,3,8,7,4,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,162.0,154,51.8349,4,3,3.1253,40.5,54.0,2,1,1,2,2,1,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,148.0,141,48.3792,3,3,3.0592,49.3333,49.3333,2,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,140.0,133,44.9236,3,2,3.1164,46.6667,70.0,2,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,4.0,0,3.4557,1,1,1.1575,4.0,4.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,167.0,0,160.0743,2,1,1.0433,83.5,167.0,1,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,66.0,0,163.7124,2,1,0.4031,33.0,66.0,1,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,62.0,0,152.7982,2,1,0.4058,31.0,62.0,1,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,60.0,0,149.1602,2,1,0.4023,30.0,60.0,1,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,302.0,0,480.2229,7,3,0.6289,43.1429,100.6667,4,2,1,3,3,2,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,291.0,0,458.3946,7,3,0.6348,41.5714,97.0,4,2,1,3,3,2,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,281.0,0,447.4805,7,2,0.628,40.1429,140.5,4,2,1,3,3,2,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,273.0,0,432.9283,6,2,0.6306,45.5,136.5,4,2,1,3,3,2,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,274.0,0,436.5663,6,2,0.6276,45.6667,137.0,4,2,1,3,3,2,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,274.0,0,436.5663,6,2,0.6276,45.6667,137.0,4,2,1,3,3,2,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,70.0,63,130.9699,2,1,0.5345,35.0,70.0,1,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,65.0,58,120.0557,1,1,0.5414,65.0,65.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,60.0,54,112.7796,1,1,0.532,60.0,60.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,16.0,0,25.4664,1,1,0.6283,16.0,16.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,589.0,0,335.199,9,3,1.7572,65.4444,196.3333,5,3,1,4,4,2,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,232.0,0,152.049,7,4,1.5258,33.1429,58.0,4,2,2,3,3,2,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,219.0,0,145.1377,7,4,1.5089,31.2857,54.75,4,2,2,3,3,2,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,212.0,0,141.6821,7,4,1.4963,30.2857,53.0,4,2,2,3,3,2,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,1070.0,0,459.6027,24,9,2.3281,44.5833,118.8889,14,7,4,11,10,6,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,1028.0,0,442.3245,24,8,2.3241,42.8333,128.5,14,7,4,11,10,6,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,998.0,0,428.5018,23,8,2.329,43.3913,124.75,14,7,4,11,10,6,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,967.0,0,414.6792,22,8,2.3319,43.9545,120.875,13,7,4,10,9,6,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,973.0,0,418.1348,22,8,2.327,44.2273,121.625,13,7,4,10,9,6,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,973.0,0,418.1348,22,8,2.327,44.2273,121.625,13,7,4,10,9,6,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,251.0,224,79.4802,5,4,3.158,50.2,62.75,3,2,2,2,2,1,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,229.0,205,72.5689,5,4,3.1556,45.8,57.25,3,2,2,2,2,1,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,216.0,193,65.6575,5,4,3.2898,43.2,54.0,3,2,2,2,2,1,41.8
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,59.0,0,10.367,1,1,5.6911,59.0,59.0,1,0,0,0,0,0,41.8
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1553.0,0,862.2185,13,4,1.8012,119.4615,388.25,8,4,2,6,5,3,41.8
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,470.0,0,1182.3671,15,8,0.3975,31.3333,58.75,9,5,4,7,6,4,41.8
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,444.0,0,1116.8822,14,8,0.3975,31.7143,55.5,8,4,4,7,6,4,41.8
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,431.0,0,1084.1397,13,8,0.3976,33.1538,53.875,8,4,4,6,5,3,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1975.0,0,3306.9898,47,17,0.5972,42.0213,116.1765,28,15,8,22,20,12,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1898.0,0,3179.658,45,16,0.5969,42.1778,118.625,27,14,7,21,19,12,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1841.0,0,3085.0686,44,16,0.5967,41.8409,115.0625,26,14,7,21,19,11,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1786.0,0,2990.4793,42,15,0.5972,42.5238,119.0667,25,13,7,20,18,11,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1797.0,0,3012.3076,43,16,0.5966,41.7907,112.3125,25,13,7,20,18,11,41.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1797.0,0,3012.3076,42,16,0.5966,42.7857,112.3125,25,13,7,20,18,11,41.8
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,439.0,417,858.5804,10,8,0.5113,43.9,54.875,6,3,4,5,4,3,41.8
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,402.0,382,789.4574,9,7,0.5092,44.6667,57.4286,5,3,3,4,4,2,41.8
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,378.0,359,742.1627,9,7,0.5093,42.0,54.0,5,3,3,4,4,2,41.8
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,9.0,0,105.5035,2,1,0.0853,4.5,9.0,1,1,0,1,1,1,41.8
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,5507.0,0,1810.7657,46,14,3.0413,119.7174,393.3571,27,14,6,22,19,12,41.8
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1670.0,0,1112.7224,52,30,1.5008,32.1154,55.6667,31,16,14,25,22,13,41.8
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1574.0,0,1047.0649,49,28,1.5032,32.1224,56.2143,29,15,13,23,21,13,41.8
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1526.0,0,1015.964,47,27,1.502,32.4681,56.5185,28,15,12,22,20,12,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,6999.0,0,3168.84,167,60,2.2087,41.9102,116.65,99,52,27,79,70,43,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,6724.0,0,3044.4363,160,58,2.2086,42.025,115.931,95,50,26,76,68,41,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,6527.0,0,2954.5891,155,56,2.2091,42.1097,116.5536,92,48,25,74,65,40,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,6330.0,0,2868.1976,151,54,2.207,41.9205,117.2222,89,47,24,72,64,39,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,6370.0,0,2885.4759,152,55,2.2076,41.9079,115.8182,90,47,25,72,64,39,41.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,6369.0,0,2885.4759,152,55,2.2073,41.9013,115.8,90,47,25,72,64,39,41.8
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1556.0,1479,514.8933,36,27,3.022,43.2222,57.6296,21,11,12,17,15,9,41.8
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1426.0,1355,469.9697,33,25,3.0342,43.2121,57.04,20,10,11,16,14,9,41.8
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1340.0,1274,442.3245,31,23,3.0295,43.2258,58.2609,18,10,10,15,13,8,41.8
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,33.0,0,44.9236,6,4,0.7346,5.5,8.25,4,2,2,3,3,2,41.8
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1591.0,0,1535.2582,23,7,1.0363,69.1739,227.2857,14,7,3,11,10,6,41.8
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,628.0,0,1564.3626,19,11,0.4014,33.0526,57.0909,11,6,5,9,8,5,41.8
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,592.0,0,1477.0494,18,10,0.4008,32.8889,59.2,11,6,4,9,8,5,41.8
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,574.0,0,1433.3927,18,10,0.4004,31.8889,57.4,11,6,4,9,8,5,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2892.0,0,4587.5844,65,24,0.6304,44.4923,120.5,38,20,11,31,27,17,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2779.0,0,4409.3198,63,23,0.6303,44.1111,120.8261,37,20,10,30,27,16,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2697.0,0,4278.3499,61,22,0.6304,44.2131,122.5909,36,19,10,29,26,16,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2617.0,0,4151.018,59,21,0.6304,44.3559,124.619,35,18,9,28,25,15,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2632.0,0,4176.4844,59,21,0.6302,44.6102,125.3333,35,18,9,28,25,15,41.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2632.0,0,4176.4844,60,22,0.6302,43.8667,119.6364,35,19,10,28,25,16,41.8
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,677.0,605,1247.8521,15,11,0.5425,45.1333,61.5455,9,5,5,7,6,4,41.8
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,621.0,555,1145.9866,14,10,0.5419,44.3571,62.1,8,4,4,7,6,4,41.8
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,583.0,521,1073.2255,13,9,0.5432,44.8462,64.7778,8,4,4,6,5,3,41.8
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,158.0,0,254.6637,4,3,0.6204,39.5,52.6667,2,1,1,2,2,1,41.8
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,5644.0,0,3217.2192,82,25,1.7543,68.8293,225.76,48,26,11,39,35,21,41.8
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2227.0,0,1468.6554,69,39,1.5164,32.2754,57.1026,41,21,18,33,29,18,41.8
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2100.0,0,1385.7196,65,37,1.5155,32.3077,56.7568,38,20,17,31,27,17,41.8
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2036.0,0,1344.2517,63,36,1.5146,32.3175,56.5556,37,20,16,30,27,16,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,10256.0,0,4399.0549,231,84,2.3314,44.3983,122.0952,137,72,38,110,97,60,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,9853.0,0,4226.2719,222,80,2.3314,44.3829,123.1625,131,69,36,105,94,57,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,9564.0,0,4101.8682,216,78,2.3316,44.2778,122.6154,128,67,35,103,91,56,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,9276.0,0,3977.4644,209,76,2.3321,44.3828,122.0526,124,65,34,99,88,54,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,9334.0,0,4001.654,210,76,2.3325,44.4476,122.8158,124,65,34,100,89,54,41.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,9334.0,0,4001.654,210,76,2.3325,44.4476,122.8158,124,65,34,100,89,54,41.8
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2399.0,2145,742.9669,52,39,3.2289,46.1346,61.5128,31,16,18,25,22,13,41.8
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2199.0,1966,684.2206,48,36,3.2139,45.8125,61.0833,28,15,16,23,20,12,41.8
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2066.0,1847,642.7527,45,34,3.2143,45.9111,60.7647,27,14,15,21,19,12,41.8
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,560.0,0,110.5811,14,11,5.0642,40.0,50.9091,8,4,5,7,6,4,41.8
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,100.0,0,54.5708,1,1,1.8325,100.0,100.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,31.0,0,76.3991,1,1,0.4058,31.0,31.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,29.0,0,72.7611,1,1,0.3986,29.0,29.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,28.0,0,69.123,1,1,0.4051,28.0,28.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,128.0,0,214.6451,3,2,0.5963,42.6667,64.0,2,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,124.0,0,207.369,3,2,0.598,41.3333,62.0,2,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,119.0,0,200.0929,3,1,0.5947,39.6667,119.0,2,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,116.0,0,192.8168,2,1,0.6016,58.0,116.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,117.0,0,196.4548,3,1,0.5956,39.0,117.0,2,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,117.0,0,196.4548,2,1,0.5956,58.5,117.0,1,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,29.0,27,54.5708,1,1,0.5314,29.0,29.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,26.0,25,50.9327,1,1,0.5105,26.0,26.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,24.0,23,47.2947,1,1,0.5075,24.0,24.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1.0,0,7.2761,1,1,0.1374,1.0,1.0,1,0,0,0,0,0,41.8
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,356.0,0,117.4924,3,1,3.03,118.6667,356.0,2,1,0,1,1,1,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,109.0,0,72.5689,3,2,1.502,36.3333,54.5,2,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,103.0,0,69.1132,3,2,1.4903,34.3333,51.5,2,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,100.0,0,65.6575,3,2,1.5231,33.3333,50.0,2,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,454.0,0,207.3396,11,4,2.1896,41.2727,113.5,7,3,2,5,5,3,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,437.0,0,196.9726,11,4,2.2186,39.7273,109.25,7,3,2,5,5,3,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,424.0,0,193.5169,10,4,2.191,42.4,106.0,6,3,2,5,4,3,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,411.0,0,186.6056,10,3,2.2025,41.1,137.0,6,3,1,5,4,3,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,414.0,0,186.6056,10,4,2.2186,41.4,103.5,6,3,2,5,4,3,41.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,414.0,0,186.6056,10,3,2.2186,41.4,138.0,6,3,1,5,4,3,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,101.0,96,34.5566,2,2,2.9227,50.5,50.5,1,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,93.0,88,31.1009,2,2,2.9903,46.5,46.5,1,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,87.0,83,27.6453,2,2,3.147,43.5,43.5,1,1,1,1,1,1,41.8
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2.0,0,3.4557,1,1,0.5788,2.0,2.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,103.0,0,98.2274,2,1,1.0486,51.5,103.0,1,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,41.0,0,101.8655,1,1,0.4025,41.0,41.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,38.0,0,94.5894,1,1,0.4017,38.0,38.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,37.0,0,90.9513,1,1,0.4068,37.0,37.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,188.0,0,298.3203,4,2,0.6302,47.0,94.0,2,1,1,2,2,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,181.0,0,287.4062,4,2,0.6298,45.25,90.5,2,1,1,2,2,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,175.0,0,276.492,4,1,0.6329,43.75,175.0,2,1,0,2,2,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,170.0,0,269.2159,3,1,0.6315,56.6667,170.0,2,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,170.0,0,269.2159,4,1,0.6315,42.5,170.0,2,1,0,2,2,1,41.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,170.0,0,272.8539,3,1,0.623,56.6667,170.0,2,1,0,1,1,1,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,44.0,39,80.0372,1,1,0.5497,44.0,44.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,40.0,36,72.7611,1,1,0.5497,40.0,40.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,38.0,34,69.123,1,1,0.5497,38.0,38.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,10.0,0,18.1903,1,1,0.5497,10.0,10.0,1,0,0,0,0,0,41.8
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,366.0,0,207.3396,5,2,1.7652,73.2,183.0,3,2,1,2,2,1,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,145.0,0,96.7585,4,3,1.4986,36.25,48.3333,2,1,1,2,2,1,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,137.0,0,89.8472,4,2,1.5248,34.25,68.5,2,1,1,2,2,1,41.8
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,132.0,0,86.3915,4,2,1.5279,33.0,66.0,2,1,1,2,2,1,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,666.0,0,286.8198,15,5,2.322,44.4,133.2,9,5,2,7,6,4,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,641.0,0,272.9971,14,5,2.348,45.7857,128.2,8,4,2,7,6,4,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,621.0,0,266.0858,14,5,2.3338,44.3571,124.2,8,4,2,7,6,4,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,602.0,0,259.1745,13,5,2.3228,46.3077,120.4,8,4,2,6,5,3,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,607.0,0,259.1745,14,5,2.3421,43.3571,121.4,8,4,2,7,6,4,41.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,607.0,0,259.1745,14,5,2.3421,43.3571,121.4,8,4,2,7,6,4,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,156.0,139,48.3792,3,3,3.2245,52.0,52.0,2,1,1,1,1,1,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,143.0,128,44.9236,3,2,3.1832,47.6667,71.5,2,1,1,1,1,1,41.8
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,134.0,120,41.4679,3,2,3.2314,44.6667,67.0,2,1,1,1,1,1,41.8
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,37.0,0,6.9113,1,1,5.3536,37.0,37.0,1,0,0,0,0,0,41.8
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,2639.0,0,1466.1352,22,7,1.8,119.9545,377.0,12.0543,5.6696,3.485,10.9518,9.2978,6.4404,43.1
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,800.0,0,2011.8431,25,14,0.3976,32.0,57.1429,13.6981,6.4428,6.9699,12.4452,10.5657,7.3186,43.1
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,754.0,0,1895.4254,23,13,0.3978,32.7826,58.0,12.6022,5.9273,6.4721,11.4496,9.7205,6.7331,43.1
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,731.0,0,1837.2166,23,13,0.3979,31.7826,56.2308,12.6022,5.9273,6.4721,11.4496,9.7205,6.7331,43.1
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,3352.0,0,5617.1533,80,29,0.5967,41.9,115.5862,43.8338,20.6168,14.4377,39.8245,33.8103,23.4196,43.1
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,3220.0,0,5395.232,77,28,0.5968,41.8182,115.0,42.1901,19.8437,13.9399,38.3311,32.5424,22.5414,43.1
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,3126.0,0,5238.7958,74,27,0.5967,42.2432,115.7778,40.5463,19.0705,13.442,36.8377,31.2745,21.6632,43.1
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,3031.0,0,5078.7215,72,26,0.5968,42.0972,116.5769,39.4504,18.5551,12.9442,35.8421,30.4292,21.0777,43.1
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,3051.0,0,5111.4639,73,26,0.5969,41.7945,117.3462,39.9984,18.8128,12.9442,36.3399,30.8519,21.3704,43.1
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,3051.0,0,5111.4639,73,26,0.5969,41.7945,117.3462,39.9984,18.8128,12.9442,36.3399,30.8519,21.3704,43.1
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,745.0,708,1458.8591,17,13,0.5107,43.8235,57.3077,9.3147,4.3811,6.4721,8.4627,7.1847,4.9767,43.1
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,683.0,649,1338.8034,16,12,0.5102,42.6875,56.9167,8.7668,4.1234,5.9742,7.9649,6.7621,4.6839,43.1
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,642.0,610,1258.7662,15,11,0.51,42.8,58.3636,8.2188,3.8657,5.4764,7.4671,6.3394,4.3912,43.1
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,16.0,0,178.2646,3,2,0.0898,5.3333,8.0,1.6438,0.7731,0.9957,1.4934,1.2679,0.8782,43.1
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,9354.0,0,3072.0815,79,24,3.0448,118.4051,389.75,43.2859,20.3591,11.9484,39.3267,33.3876,23.1269,43.1
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,2835.0,0,1886.7902,88,51,1.5026,32.2159,55.5882,48.2172,22.6785,25.3904,43.807,37.1913,25.7616,43.1
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,2673.0,0,1779.6648,83,48,1.502,32.2048,55.6875,45.4776,21.3899,23.8969,41.318,35.0782,24.2979,43.1
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,2592.0,0,1727.8299,81,46,1.5001,32.0,56.3478,44.3818,20.8745,22.9012,40.3224,34.2329,23.7124,43.1
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,11887.0,0,5383.9179,284,103,2.2079,41.8556,115.4078,155.6101,73.1897,51.2788,141.3771,120.0265,83.1398,43.1
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,11419.0,0,5173.1227,272,99,2.2074,41.9816,115.3434,149.035,70.0971,49.2873,135.4035,114.9549,79.6268,43.1
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,11085.0,0,5021.0737,264,96,2.2077,41.9886,115.4688,144.6516,68.0355,47.7938,131.421,111.5739,77.2848,43.1
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,10752.0,0,4869.0246,256,93,2.2082,42.0,115.6129,140.2683,65.9738,46.3002,127.4386,108.1929,74.9429,43.1
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,10818.0,0,4900.1256,258,93,2.2077,41.9302,116.3226,141.3641,66.4892,46.3002,128.4342,109.0381,75.5284,43.1
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,10818.0,0,4900.1256,258,93,2.2077,41.9302,116.3226,141.3641,66.4892,46.3002,128.4342,109.0381,75.5284,43.1
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,2642.0,2511,870.8263,61,46,3.0339,43.3115,57.4348,33.4233,15.7203,22.9012,30.3662,25.7803,17.8575,43.1
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,2422.0,2302,798.2574,56,42,3.0341,43.25,57.6667,30.6837,14.4318,20.9098,27.8772,23.6672,16.3938,43.1
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,2275.0,2162,749.8782,53,39,3.0338,42.9245,58.3333,29.0399,13.6586,19.4162,26.3838,22.3993,15.5155,43.1
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,57.0,0,79.4802,10,8,0.7172,5.7,7.125,5.4792,2.5771,3.9828,4.9781,4.2263,2.9275,43.1
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,2704.0,0,2608.4837,39,12,1.0366,69.3333,225.3333,21.369,10.0507,5.9742,19.4145,16.4825,11.4171,43.1
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,1066.0,0,2659.4165,33,19,0.4008,32.303,56.1053,18.0815,8.5044,9.4592,16.4276,13.9467,9.6606,43.1
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,1005.0,0,2506.6183,31,18,0.4009,32.4194,55.8333,16.9856,7.989,8.9613,15.432,13.1015,9.0751,43.1
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,975.0,0,2430.2192,30,17,0.4012,32.5,57.3529,16.4377,7.7313,8.4635,14.9342,12.6789,8.7824,43.1
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,4914.0,0,7792.7087,111,40,0.6306,44.2703,122.85,60.8194,28.6058,19.9141,55.2566,46.9118,32.4948,43.1
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,4720.0,0,7487.1123,106,39,0.6304,44.5283,121.0256,58.0798,27.3173,19.4162,52.7675,44.7986,31.031,43.1
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,4582.0,0,7268.8291,103,37,0.6304,44.4854,123.8378,56.4361,26.5441,18.4205,51.2741,43.5307,30.1528,43.1
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,4443.0,0,7050.546,100,36,0.6302,44.43,123.4167,54.7923,25.771,17.9227,49.7807,42.2628,29.2746,43.1
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,4471.0,0,7094.2026,101,37,0.6302,44.2673,120.8378,55.3402,26.0287,18.4205,50.2785,42.6855,29.5673,43.1
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,4471.0,0,7094.2026,101,37,0.6302,44.2673,120.8378,55.3402,26.0287,18.4205,50.2785,42.6855,29.5673,43.1
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,1149.0,1027,2117.3466,25,19,0.5427,45.96,60.4737,13.6981,6.4428,9.4592,12.4452,10.5657,7.3186,43.1
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,1053.0,941,1939.0821,23,17,0.543,45.7826,61.9412,12.6022,5.9273,8.4635,11.4496,9.7205,6.7331,43.1
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,989.0,884,1822.6644,22,16,0.5426,44.9545,61.8125,12.0543,5.6696,7.9656,10.9518,9.2978,6.4404,43.1
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,268.0,0,432.9283,6,5,0.619,44.6667,53.6,3.2875,1.5463,2.4893,2.9868,2.5358,1.7565,43.1
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,9584.0,0,5463.3981,140,43,1.7542,68.4571,222.8837,76.7092,36.0794,21.4076,69.693,59.168,40.9844,43.1
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,3782.0,0,2498.442,117,67,1.5137,32.3248,56.4478,64.107,30.1521,33.3561,58.2434,49.4475,34.2512,43.1
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,3566.0,0,2353.3043,110,63,1.5153,32.4182,56.6032,60.2715,28.3481,31.3647,54.7588,46.4891,32.202,43.1
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,3458.0,0,2284.1911,107,61,1.5139,32.3178,56.6885,58.6277,27.575,30.369,53.2653,45.2212,31.3238,43.1
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,17420.0,0,7471.1364,393,142,2.3316,44.3257,122.6761,215.3337,101.2801,70.695,195.6381,166.093,115.049,43.1
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,16735.0,0,7177.4054,378,137,2.3316,44.2725,122.1533,207.1149,97.4144,68.2057,188.171,159.7536,110.6578,43.1
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,16245.0,0,6966.6101,366,133,2.3318,44.3852,122.1429,200.5398,94.3219,66.2143,182.1973,154.682,107.1449,43.1
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,15756.0,0,6755.8149,355,129,2.3322,44.3831,122.1395,194.5126,91.4871,64.2229,176.7214,150.0331,103.9247,43.1
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,15854.0,0,6797.2828,358,130,2.3324,44.2849,121.9538,196.1564,92.2602,64.7208,178.2149,151.301,104.8029,43.1
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,15854.0,0,6797.2828,358,129,2.3324,44.2849,122.8992,196.1564,92.2602,64.2229,178.2149,151.301,104.8029,43.1
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,4075.0,3643,1264.7715,89,66,3.2219,45.7865,61.7424,48.7651,22.9362,32.8582,44.3048,37.6139,26.0544,43.1
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,3735.0,3339,1157.646,81,61,3.2264,46.1111,61.2295,44.3818,20.8745,30.369,40.3224,34.2329,23.7124,43.1
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,3509.0,3137,1088.5328,77,57,3.2236,45.5714,61.5614,42.1901,19.8437,28.3776,38.3311,32.5424,22.5414,43.1
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,953.0,0,190.0613,23,18,5.0142,41.4348,52.9444,12.6022,5.9273,8.9613,11.4496,9.7205,6.7331,43.1
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,171.0,0,94.5894,1,1,1.8078,171.0,171.0,0.5479,0.2577,0.4979,0.4978,0.4226,0.2927,43.1
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,52.0,0,130.9699,2,1,0.397,26.0,52.0,1.0958,0.5154,0.4979,0.9956,0.8453,0.5855,43.1
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,49.0,0,123.6938,2,1,0.3961,24.5,49.0,1.0958,0.5154,0.4979,0.9956,0.8453,0.5855,43.1
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,48.0,0,120.0557,1,1,0.3998,48.0,48.0,0.5479,0.2577,0.4979,0.4978,0.4226,0.2927,43.1
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,218.0,0,363.8053,5,2,0.5992,43.6,109.0,2.7396,1.2886,0.9957,2.489,2.1131,1.4637,43.1
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,209.0,0,349.2531,5,2,0.5984,41.8,104.5,2.7396,1.2886,0.9957,2.489,2.1131,1.4637,43.1
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,203.0,0,341.9769,5,2,0.5936,40.6,101.5,2.7396,1.2886,0.9957,2.489,2.1131,1.4637,43.1
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,197.0,0,331.0628,5,1,0.5951,39.4,197.0,2.7396,1.2886,0.4979,2.489,2.1131,1.4637,43.1
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,199.0,0,331.0628,5,1,0.6011,39.8,199.0,2.7396,1.2886,0.4979,2.489,2.1131,1.4637,43.1
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,199.0,0,331.0628,5,1,0.6011,39.8,199.0,2.7396,1.2886,0.4979,2.489,2.1131,1.4637,43.1
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,48.0,46,94.5894,1,1,0.5075,48.0,48.0,0.5479,0.2577,0.4979,0.4978,0.4226,0.2927,43.1
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,44.0,42,87.3133,1,1,0.5039,44.0,44.0,0.5479,0.2577,0.4979,0.4978,0.4226,0.2927,43.1
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,42.0,40,83.6752,1,1,0.5019,42.0,42.0,0.5479,0.2577,0.4979,0.4978,0.4226,0.2927,43.1
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,1.0,0,10.9142,1,1,0.0916,1.0,1.0,0.5479,0.2577,0.4979,0.4978,0.4226,0.2927,43.1
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,608.0,0,200.4283,5,2,3.0335,121.6,304.0,2.7396,1.2886,0.9957,2.489,2.1131,1.4637,43.1
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,184.0,0,124.4038,6,3,1.4791,30.6667,61.3333,3.2875,1.5463,1.4936,2.9868,2.5358,1.7565,43.1
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,174.0,0,114.0368,5,3,1.5258,34.8,58.0,2.7396,1.2886,1.4936,2.489,2.1131,1.4637,43.1
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,168.0,0,110.5811,5,3,1.5192,33.6,56.0,2.7396,1.2886,1.4936,2.489,2.1131,1.4637,43.1
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,773.0,0,349.0216,18,7,2.2148,42.9444,110.4286,9.8626,4.6388,3.485,8.9605,7.6073,5.2694,43.1
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,743.0,0,335.199,17,7,2.2166,43.7059,106.1429,9.3147,4.3811,3.485,8.4627,7.1847,4.9767,43.1
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,721.0,0,324.832,17,6,2.2196,42.4118,120.1667,9.3147,4.3811,2.9871,8.4627,7.1847,4.9767,43.1
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,700.0,0,317.9207,16,6,2.2018,43.75,116.6667,8.7668,4.1234,2.9871,7.9649,6.7621,4.6839,43.1
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,703.0,0,317.9207,17,6,2.2112,41.3529,117.1667,9.3147,4.3811,2.9871,8.4627,7.1847,4.9767,43.1
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,704.0,0,317.9207,17,6,2.2144,41.4118,117.3333,9.3147,4.3811,2.9871,8.4627,7.1847,4.9767,43.1
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,172.0,163,55.2906,4,3,3.1108,43.0,57.3333,2.1917,1.0308,1.4936,1.9912,1.6905,1.171,43.1
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,158.0,150,51.8349,4,3,3.0481,39.5,52.6667,2.1917,1.0308,1.4936,1.9912,1.6905,1.171,43.1
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,148.0,141,48.3792,3,3,3.0592,49.3333,49.3333,1.6438,0.7731,1.4936,1.4934,1.2679,0.8782,43.1
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,4.0,0,3.4557,1,1,1.1575,4.0,4.0,0.5479,0.2577,0.4979,0.4978,0.4226,0.2927,43.1
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,176.0,0,170.9885,3,1,1.0293,58.6667,176.0,1.6438,0.7731,0.4979,1.4934,1.2679,0.8782,43.1
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,69.0,0,174.6265,2,1,0.3951,34.5,69.0,1.0958,0.5154,0.4979,0.9956,0.8453,0.5855,43.1
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,66.0,0,163.7124,2,1,0.4031,33.0,66.0,1.0958,0.5154,0.4979,0.9956,0.8453,0.5855,43.1
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,63.0,0,156.4363,2,1,0.4027,31.5,63.0,1.0958,0.5154,0.4979,0.9956,0.8453,0.5855,43.1
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,320.0,0,505.6893,7,3,0.6328,45.7143,106.6667,3.8355,1.804,1.4936,3.4846,2.9584,2.0492,43.1
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,307.0,0,487.4991,7,3,0.6297,43.8571,102.3333,3.8355,1.804,1.4936,3.4846,2.9584,2.0492,43.1
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,298.0,0,472.9468,7,2,0.6301,42.5714,149.0,3.8355,1.804,0.9957,3.4846,2.9584,2.0492,43.1
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,289.0,0,458.3946,6,2,0.6305,48.1667,144.5,3.2875,1.5463,0.9957,2.9868,2.5358,1.7565,43.1
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,291.0,0,462.0327,6,2,0.6298,48.5,145.5,3.2875,1.5463,0.9957,2.9868,2.5358,1.7565,43.1
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,291.0,0,462.0327,7,2,0.6298,41.5714,145.5,3.8355,1.804,0.9957,3.4846,2.9584,2.0492,43.1
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,75.0,67,138.246,2,1,0.5425,37.5,75.0,1.0958,0.5154,0.4979,0.9956,0.8453,0.5855,43.1
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,68.0,61,127.3318,1,1,0.534,68.0,68.0,0.5479,0.2577,0.4979,0.4978,0.4226,0.2927,43.1
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,64.0,57,116.4177,1,1,0.5497,64.0,64.0,0.5479,0.2577,0.4979,0.4978,0.4226,0.2927,43.1
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,18.0,0,29.1044,1,1,0.6185,18.0,18.0,0.5479,0.2577,0.4979,0.4978,0.4226,0.2927,43.1
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Bungudu,North West,Zamfara,Bungudu,,,623.0,0,355.933,9,3,1.7503,69.2222,207.6667,4.9313,2.3194,1.4936,4.4803,3.8037,2.6347,43.1
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,246.0,0,162.416,8,4,1.5146,30.75,61.5,4.3834,2.0617,1.9914,3.9825,3.381,2.342,43.1
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,232.0,0,152.049,7,4,1.5258,33.1429,58.0,3.8355,1.804,1.9914,3.4846,2.9584,2.0492,43.1
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,225.0,0,148.5934,7,4,1.5142,32.1429,56.25,3.8355,1.804,1.9914,3.4846,2.9584,2.0492,43.1
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Bungudu,North West,Zamfara,Bungudu,,,1132.0,0,487.248,26,9,2.3233,43.5385,125.7778,14.246,6.7005,4.4807,12.943,10.9883,7.6114,43.1
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Bungudu,North West,Zamfara,Bungudu,,,1088.0,0,466.5141,24,9,2.3322,45.3333,120.8889,13.1501,6.185,4.4807,11.9474,10.1431,7.0259,43.1
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Bungudu,North West,Zamfara,Bungudu,,,1056.0,0,452.6914,24,9,2.3327,44.0,117.3333,13.1501,6.185,4.4807,11.9474,10.1431,7.0259,43.1
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Bungudu,North West,Zamfara,Bungudu,,,1024.0,0,438.8688,23,8,2.3333,44.5217,128.0,12.6022,5.9273,3.9828,11.4496,9.7205,6.7331,43.1
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Bungudu,North West,Zamfara,Bungudu,,,1031.0,0,442.3245,23,8,2.3309,44.8261,128.875,12.6022,5.9273,3.9828,11.4496,9.7205,6.7331,43.1
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Bungudu,North West,Zamfara,Bungudu,,,1031.0,0,442.3245,23,8,2.3309,44.8261,128.875,12.6022,5.9273,3.9828,11.4496,9.7205,6.7331,43.1
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Bungudu,North West,Zamfara,Bungudu,,,265.0,237,82.9358,6,4,3.1952,44.1667,66.25,3.2875,1.5463,1.9914,2.9868,2.5358,1.7565,43.1
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Bungudu,North West,Zamfara,Bungudu,,,243.0,217,76.0245,5,4,3.1963,48.6,60.75,2.7396,1.2886,1.9914,2.489,2.1131,1.4637,43.1
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Bungudu,North West,Zamfara,Bungudu,,,228.0,204,69.1132,5,4,3.2989,45.6,57.0,2.7396,1.2886,1.9914,2.489,2.1131,1.4637,43.1
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Bungudu,North West,Zamfara,Bungudu,,,61.0,0,13.8226,2,1,4.4131,30.5,61.0,1.0958,0.5154,0.4979,0.9956,0.8453,0.5855,43.1
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,977.0,0,542.0698,8,3,1.8024,122.125,325.6667,5.3461,2.5203,1.4178,3.947,3.2695,2.2188,45.73
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,296.0,0,745.8008,9,5,0.3969,32.8889,59.2,6.0144,2.8354,2.363,4.4403,3.6781,2.4962,45.73
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,279.0,0,702.1442,9,5,0.3974,31.0,55.8,6.0144,2.8354,2.363,4.4403,3.6781,2.4962,45.73
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,271.0,0,680.3158,8,5,0.3983,33.875,54.2,5.3461,2.5203,2.363,3.947,3.2695,2.2188,45.73
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,1241.0,0,2080.9661,30,11,0.5964,41.3667,112.8182,20.048,9.4513,5.1986,14.8012,12.2604,8.3207,45.73
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,1192.0,0,1997.2909,28,10,0.5968,42.5714,119.2,18.7115,8.8212,4.726,13.8144,11.4431,7.766,45.73
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,1158.0,0,1939.0821,28,10,0.5972,41.3571,115.8,18.7115,8.8212,4.726,13.8144,11.4431,7.766,45.73
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,1123.0,0,1880.8732,27,10,0.5971,41.5926,112.3,18.0432,8.5062,4.726,13.321,11.0344,7.4886,45.73
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,1131.0,0,1891.7874,27,10,0.5978,41.8889,113.1,18.0432,8.5062,4.726,13.321,11.0344,7.4886,45.73
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,1131.0,0,1891.7874,27,10,0.5978,41.8889,113.1,18.0432,8.5062,4.726,13.321,11.0344,7.4886,45.73
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,277.0,263,542.0698,6,5,0.511,46.1667,55.4,4.0096,1.8903,2.363,2.9602,2.4521,1.6641,45.73
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,253.0,241,498.4132,6,4,0.5076,42.1667,63.25,4.0096,1.8903,1.8904,2.9602,2.4521,1.6641,45.73
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,238.0,226,465.6707,6,4,0.5111,39.6667,59.5,4.0096,1.8903,1.8904,2.9602,2.4521,1.6641,45.73
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,6.0,0,65.4849,1,1,0.0916,6.0,6.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,3460.0,0,1136.9121,29,9,3.0433,119.3103,384.4444,19.3797,9.1362,4.2534,14.3078,11.8518,8.0433,45.73
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,1049.0,0,698.0433,33,19,1.5028,31.7879,55.2105,22.0528,10.3964,8.9794,16.2813,13.4865,9.1527,45.73
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,990.0,0,660.031,31,18,1.4999,31.9355,55.0,20.7162,9.7663,8.5068,15.2945,12.6691,8.598,45.73
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,960.0,0,639.2971,30,17,1.5016,32.0,56.4706,20.048,9.4513,8.0342,14.8012,12.2604,8.3207,45.73
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,4401.0,0,1993.9157,105,38,2.2072,41.9143,115.8158,70.1679,33.0795,17.9589,51.804,42.9115,29.1223,45.73
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,4228.0,0,1914.4355,101,37,2.2085,41.8614,114.2703,67.4949,31.8193,17.4863,49.8305,41.2768,28.0129,45.73
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,4104.0,0,1859.145,98,35,2.2075,41.8776,117.2571,65.4901,30.8742,16.5411,48.3504,40.0508,27.1808,45.73
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,3981.0,0,1803.8544,95,34,2.2069,41.9053,117.0882,63.4853,29.9291,16.0685,46.8703,38.8247,26.3488,45.73
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,4005.0,0,1814.2214,95,35,2.2076,42.1579,114.4286,63.4853,29.9291,16.5411,46.8703,38.8247,26.3488,45.73
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,4005.0,0,1814.2214,95,35,2.2076,42.1579,114.4286,63.4853,29.9291,16.5411,46.8703,38.8247,26.3488,45.73
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,978.0,930,321.3764,23,17,3.0432,42.5217,57.5294,15.3701,7.246,8.0342,11.3476,9.3997,6.3792,45.73
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,897.0,853,297.1867,21,16,3.0183,42.7143,56.0625,14.0336,6.6159,7.5616,10.3608,8.5823,5.8245,45.73
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,843.0,801,276.4528,20,15,3.0493,42.15,56.2,13.3653,6.3009,7.089,9.8674,8.1736,5.5471,45.73
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,21.0,0,31.1009,4,3,0.6752,5.25,7.0,2.6731,1.2602,1.4178,1.9735,1.6347,1.1094,45.73
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,1000.0,0,964.0839,15,4,1.0373,66.6667,250.0,10.024,4.7256,1.8904,7.4006,6.1302,4.1603,45.73
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,395.0,0,985.9123,12,7,0.4006,32.9167,56.4286,8.0192,3.7805,3.3082,5.9205,4.9042,3.3283,45.73
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,373.0,0,931.3415,11,7,0.4005,33.9091,53.2857,7.3509,3.4655,3.3082,5.4271,4.4955,3.0509,45.73
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,362.0,0,902.2371,11,6,0.4012,32.9091,60.3333,7.3509,3.4655,2.8356,5.4271,4.4955,3.0509,45.73
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,1820.0,0,2884.9757,41,15,0.6309,44.3902,121.3333,27.3989,12.9168,7.089,20.2282,16.7559,11.3716,45.73
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,1748.0,0,2772.1961,40,14,0.6305,43.7,124.8571,26.7306,12.6017,6.6164,19.7349,16.3473,11.0942,45.73
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,1697.0,0,2692.1589,38,14,0.6303,44.6579,121.2143,25.3941,11.9716,6.6164,18.7481,15.5299,10.5395,45.73
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,1646.0,0,2612.1218,37,13,0.6301,44.4865,126.6154,24.7258,11.6566,6.1438,18.2548,15.1212,10.2622,45.73
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,1656.0,0,2626.674,37,13,0.6305,44.7568,127.3846,24.7258,11.6566,6.1438,18.2548,15.1212,10.2622,45.73
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,1656.0,0,2626.674,37,13,0.6305,44.7568,127.3846,24.7258,11.6566,6.1438,18.2548,15.1212,10.2622,45.73
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,426.0,381,785.8194,9,7,0.5421,47.3333,60.8571,6.0144,2.8354,3.3082,4.4403,3.6781,2.4962,45.73
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,390.0,349,720.3344,9,6,0.5414,43.3333,65.0,6.0144,2.8354,2.8356,4.4403,3.6781,2.4962,45.73
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,367.0,328,676.6778,8,6,0.5424,45.875,61.1667,5.3461,2.5203,2.8356,3.947,3.2695,2.2188,45.73
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,100.0,0,160.0743,2,2,0.6247,50.0,50.0,1.3365,0.6301,0.9452,0.9867,0.8174,0.5547,45.73
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,3548.0,0,2025.0166,52,16,1.7521,68.2308,221.75,34.7498,16.3822,7.5616,25.6553,21.2514,14.4225,45.73
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,1400.0,0,922.6612,43,25,1.5174,32.5581,56.0,28.7354,13.5468,11.815,21.215,17.5733,11.9263,45.73
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,1320.0,0,870.8263,41,23,1.5158,32.1951,57.3913,27.3989,12.9168,10.8698,20.2282,16.7559,11.3716,45.73
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,1280.0,0,846.6366,39,23,1.5119,32.8205,55.6522,26.0624,12.2867,10.8698,19.2415,15.9386,10.8169,45.73
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,6448.0,0,2764.5278,145,53,2.3324,44.469,121.6604,96.8986,45.6812,25.0479,71.5389,59.2588,40.2166,45.73
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,6195.0,0,2657.4024,140,50,2.3312,44.25,123.9,93.5573,44.106,23.6301,69.072,57.2154,38.8298,45.73
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,6014.0,0,2577.9222,136,49,2.3329,44.2206,122.7347,90.8842,42.8458,23.1575,67.0986,55.5807,37.7204,45.73
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,5832.0,0,2501.8977,131,48,2.331,44.5191,121.5,87.5429,41.2706,22.6849,64.6317,53.5372,36.3336,45.73
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,5869.0,0,2515.7203,132,48,2.3329,44.4621,122.2708,88.2111,41.5857,22.6849,65.1251,53.9459,36.6109,45.73
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,5869.0,0,2515.7203,132,48,2.3329,44.4621,122.2708,88.2111,41.5857,22.6849,65.1251,53.9459,36.6109,45.73
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,1509.0,1349,469.9697,33,25,3.2108,45.7273,60.36,22.0528,10.3964,11.815,16.2813,13.4865,9.1527,45.73
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,1384.0,1237,428.5018,30,22,3.2299,46.1333,62.9091,20.048,9.4513,10.3972,14.8012,12.2604,8.3207,45.73
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,1300.0,1162,404.3122,28,21,3.2153,46.4286,61.9048,18.7115,8.8212,9.9246,13.8144,11.4431,7.766,45.73
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,352.0,0,69.1132,9,7,5.0931,39.1111,50.2857,6.0144,2.8354,3.3082,4.4403,3.6781,2.4962,45.73
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,63.0,0,36.3805,1,1,1.7317,63.0,63.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,19.0,0,50.9327,1,1,0.373,19.0,19.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,18.0,0,43.6566,1,1,0.4123,18.0,18.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,18.0,0,43.6566,1,1,0.4123,18.0,18.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,80.0,0,134.6079,2,2,0.5943,40.0,40.0,1.3365,0.6301,0.9452,0.9867,0.8174,0.5547,45.73
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,77.0,0,127.3318,2,2,0.6047,38.5,38.5,1.3365,0.6301,0.9452,0.9867,0.8174,0.5547,45.73
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,75.0,0,123.6938,2,1,0.6063,37.5,75.0,1.3365,0.6301,0.4726,0.9867,0.8174,0.5547,45.73
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,73.0,0,120.0557,1,1,0.6081,73.0,73.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,73.0,0,123.6938,2,1,0.5902,36.5,73.0,1.3365,0.6301,0.4726,0.9867,0.8174,0.5547,45.73
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,73.0,0,123.6938,1,1,0.5902,73.0,73.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,18.0,17,36.3805,1,1,0.4948,18.0,18.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,17.0,16,32.7425,1,1,0.5192,17.0,17.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,16.0,15,32.7425,1,1,0.4887,16.0,16.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,0.0,0,3.6381,1,1,0.0,0.0,0.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,226.0,0,72.5689,2,1,3.1143,113.0,226.0,1.3365,0.6301,0.4726,0.9867,0.8174,0.5547,45.73
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,68.0,0,44.9236,2,1,1.5137,34.0,68.0,1.3365,0.6301,0.4726,0.9867,0.8174,0.5547,45.73
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,64.0,0,41.4679,2,1,1.5434,32.0,64.0,1.3365,0.6301,0.4726,0.9867,0.8174,0.5547,45.73
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,62.0,0,41.4679,2,1,1.4951,31.0,62.0,1.3365,0.6301,0.4726,0.9867,0.8174,0.5547,45.73
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,286.0,0,127.8594,7,3,2.2368,40.8571,95.3333,4.6779,2.2053,1.4178,3.4536,2.8608,1.9415,45.73
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,275.0,0,124.4038,7,3,2.2105,39.2857,91.6667,4.6779,2.2053,1.4178,3.4536,2.8608,1.9415,45.73
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,266.0,0,120.9481,7,2,2.1993,38.0,133.0,4.6779,2.2053,0.9452,3.4536,2.8608,1.9415,45.73
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,259.0,0,117.4924,6,2,2.2044,43.1667,129.5,4.0096,1.8903,0.9452,2.9602,2.4521,1.6641,45.73
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,260.0,0,117.4924,6,2,2.2129,43.3333,130.0,4.0096,1.8903,0.9452,2.9602,2.4521,1.6641,45.73
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,261.0,0,117.4924,6,2,2.2214,43.5,130.5,4.0096,1.8903,0.9452,2.9602,2.4521,1.6641,45.73
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,63.0,60,20.734,1,1,3.0385,63.0,63.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,58.0,55,20.734,1,1,2.7973,58.0,58.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,55.0,52,17.2783,1,1,3.1832,55.0,55.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,1.0,0,3.4557,1,1,0.2894,1.0,1.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,64.0,0,61.8469,1,1,1.0348,64.0,64.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,26.0,0,65.4849,1,1,0.397,26.0,26.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,24.0,0,61.8469,1,1,0.3881,24.0,24.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,23.0,0,58.2088,1,1,0.3951,23.0,23.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,118.0,0,189.1787,3,2,0.6237,39.3333,59.0,2.0048,0.9451,0.9452,1.4801,1.226,0.8321,45.73
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,114.0,0,181.9026,3,2,0.6267,38.0,57.0,2.0048,0.9451,0.9452,1.4801,1.226,0.8321,45.73
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,111.0,0,174.6265,3,1,0.6356,37.0,111.0,2.0048,0.9451,0.4726,1.4801,1.226,0.8321,45.73
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,107.0,0,170.9885,2,1,0.6258,53.5,107.0,1.3365,0.6301,0.4726,0.9867,0.8174,0.5547,45.73
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,107.0,0,170.9885,3,1,0.6258,35.6667,107.0,2.0048,0.9451,0.4726,1.4801,1.226,0.8321,45.73
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,107.0,0,170.9885,2,1,0.6258,53.5,107.0,1.3365,0.6301,0.4726,0.9867,0.8174,0.5547,45.73
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,28.0,25,50.9327,1,1,0.5497,28.0,28.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,26.0,23,47.2947,1,1,0.5497,26.0,26.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,24.0,21,43.6566,1,1,0.5497,24.0,24.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,6.0,0,10.9142,1,1,0.5497,6.0,6.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gusau,North West,Zamfara,Gusau,,,231.0,0,131.3151,3,1,1.7591,77.0,231.0,2.0048,0.9451,0.4726,1.4801,1.226,0.8321,45.73
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Gusau,North West,Zamfara,Gusau,,,91.0,0,62.2019,3,2,1.463,30.3333,45.5,2.0048,0.9451,0.9452,1.4801,1.226,0.8321,45.73
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Gusau,North West,Zamfara,Gusau,,,86.0,0,55.2906,3,2,1.5554,28.6667,43.0,2.0048,0.9451,0.9452,1.4801,1.226,0.8321,45.73
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Gusau,North West,Zamfara,Gusau,,,83.0,0,55.2906,3,1,1.5012,27.6667,83.0,2.0048,0.9451,0.4726,1.4801,1.226,0.8321,45.73
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gusau,North West,Zamfara,Gusau,,,419.0,0,179.6943,9,4,2.3317,46.5556,104.75,6.0144,2.8354,1.8904,4.4403,3.6781,2.4962,45.73
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Gusau,North West,Zamfara,Gusau,,,403.0,0,172.783,9,3,2.3324,44.7778,134.3333,6.0144,2.8354,1.4178,4.4403,3.6781,2.4962,45.73
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Gusau,North West,Zamfara,Gusau,,,391.0,0,169.3273,9,3,2.3091,43.4444,130.3333,6.0144,2.8354,1.4178,4.4403,3.6781,2.4962,45.73
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Gusau,North West,Zamfara,Gusau,,,378.0,0,162.416,8,3,2.3274,47.25,126.0,5.3461,2.5203,1.4178,3.947,3.2695,2.2188,45.73
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Gusau,North West,Zamfara,Gusau,,,382.0,0,162.416,9,3,2.352,42.4444,127.3333,6.0144,2.8354,1.4178,4.4403,3.6781,2.4962,45.73
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Gusau,North West,Zamfara,Gusau,,,382.0,0,162.416,9,3,2.352,42.4444,127.3333,6.0144,2.8354,1.4178,4.4403,3.6781,2.4962,45.73
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Gusau,North West,Zamfara,Gusau,,,98.0,88,31.1009,2,2,3.151,49.0,49.0,1.3365,0.6301,0.9452,0.9867,0.8174,0.5547,45.73
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Gusau,North West,Zamfara,Gusau,,,90.0,80,27.6453,2,1,3.2555,45.0,90.0,1.3365,0.6301,0.4726,0.9867,0.8174,0.5547,45.73
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Gusau,North West,Zamfara,Gusau,,,85.0,76,27.6453,2,1,3.0747,42.5,85.0,1.3365,0.6301,0.4726,0.9867,0.8174,0.5547,45.73
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Gusau,North West,Zamfara,Gusau,,,23.0,0,3.4557,1,1,6.6557,23.0,23.0,0.6683,0.315,0.4726,0.4934,0.4087,0.2774,45.73
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1252.0,0,694.8681,11,3,1.8018,113.8182,417.3333,7.0369,3.0093,1.2842,5.5931,4.2515,3.0315,43.77
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,380.0,0,956.8078,12,7,0.3972,31.6667,54.2857,7.6766,3.2829,2.9964,6.1016,4.638,3.3071,43.77
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,358.0,0,902.2371,11,6,0.3968,32.5455,59.6667,7.0369,3.0093,2.5684,5.5931,4.2515,3.0315,43.77
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,347.0,0,873.1326,11,6,0.3974,31.5455,57.8333,7.0369,3.0093,2.5684,5.5931,4.2515,3.0315,43.77
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1592.0,0,2666.6926,38,14,0.597,41.8947,113.7143,24.3094,10.3958,5.9928,19.3217,14.687,10.4724,43.77
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1530.0,0,2561.189,37,13,0.5974,41.3514,117.6923,23.6696,10.1223,5.5648,18.8132,14.3005,10.1968,43.77
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1485.0,0,2488.428,35,13,0.5968,42.4286,114.2308,22.3902,9.5751,5.5648,17.7963,13.5275,9.6456,43.77
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1440.0,0,2412.0289,34,12,0.597,42.3529,120.0,21.7505,9.3015,5.1367,17.2878,13.141,9.3701,43.77
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1449.0,0,2426.5811,35,13,0.5971,41.4,111.4615,22.3902,9.5751,5.5648,17.7963,13.5275,9.6456,43.77
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1449.0,0,2426.5811,35,13,0.5971,41.4,111.4615,22.3902,9.5751,5.5648,17.7963,13.5275,9.6456,43.77
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,353.0,336,691.23,8,6,0.5107,44.125,58.8333,5.1178,2.1886,2.5684,4.0677,3.092,2.2047,43.77
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,325.0,309,636.6592,8,6,0.5105,40.625,54.1667,5.1178,2.1886,2.5684,4.0677,3.092,2.2047,43.77
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,305.0,290,596.6406,7,5,0.5112,43.5714,61.0,4.478,1.915,2.1403,3.5593,2.7055,1.9291,43.77
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,8.0,0,87.3133,1,1,0.0916,8.0,8.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,4441.0,0,1458.2884,37,11,3.0454,120.027,403.7273,23.6696,10.1223,4.7086,18.8132,14.3005,10.1968,43.77
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1346.0,0,898.4715,42,24,1.4981,32.0476,56.0833,26.8682,11.4901,10.2734,21.3556,16.233,11.5748,43.77
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1269.0,0,846.6366,39,23,1.4989,32.5385,55.1739,24.9491,10.6694,9.8454,19.8302,15.0735,10.748,43.77
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1231.0,0,818.9914,38,22,1.5031,32.3947,55.9545,24.3094,10.3958,9.4173,19.3217,14.687,10.4724,43.77
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,5644.0,0,2557.1882,135,49,2.2071,41.8074,115.1837,86.3622,36.9326,20.9749,68.6429,52.1776,37.2046,43.77
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,5422.0,0,2456.9741,129,47,2.2068,42.031,115.3617,82.5239,35.2911,20.1188,65.5921,49.8586,35.5511,43.77
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,5264.0,0,2384.4052,125,45,2.2077,42.112,116.9778,79.965,34.1968,19.2627,63.5583,48.3126,34.4487,43.77
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,5106.0,0,2311.8364,122,44,2.2086,41.8525,116.0455,78.0459,33.3761,18.8346,62.0329,47.1531,33.622,43.77
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,5137.0,0,2325.659,122,44,2.2088,42.1066,116.75,78.0459,33.3761,18.8346,62.0329,47.1531,33.622,43.77
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,5137.0,0,2325.659,122,44,2.2088,42.1066,116.75,78.0459,33.3761,18.8346,62.0329,47.1531,33.622,43.77
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1255.0,1193,414.6792,29,22,3.0264,43.2759,57.0455,18.5519,7.9337,9.4173,14.7455,11.2085,7.9921,43.77
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1150.0,1093,380.1226,27,20,3.0253,42.5926,57.5,17.2724,7.3865,8.5612,13.7286,10.4355,7.4409,43.77
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1080.0,1027,355.933,25,19,3.0343,43.2,56.8421,15.993,6.8394,8.1331,12.7117,9.6625,6.8897,43.77
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,27.0,0,38.0123,5,4,0.7103,5.4,6.75,3.1986,1.3679,1.7122,2.5423,1.9325,1.3779,43.77
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1283.0,0,1236.9379,19,6,1.0372,67.5263,213.8333,12.1547,5.1979,2.5684,9.6609,7.3435,5.2362,43.77
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,506.0,0,1262.4043,16,9,0.4008,31.625,56.2222,10.2355,4.3772,3.8525,8.1355,6.184,4.4094,43.77
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,478.0,0,1189.6432,15,8,0.4018,31.8667,59.75,9.5958,4.1036,3.4245,7.627,5.7975,4.1338,43.77
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,463.0,0,1156.9007,14,8,0.4002,33.0714,57.875,8.9561,3.83,3.4245,7.1185,5.411,3.8583,43.77
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,2333.0,0,3699.8995,53,19,0.6306,44.0189,122.7895,33.9052,14.4995,8.1331,26.9487,20.4846,14.6063,43.77
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,2242.0,0,3554.3774,50,18,0.6308,44.84,124.5556,31.986,13.6787,7.7051,25.4233,19.325,13.7795,43.77
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,2175.0,0,3452.5119,49,18,0.63,44.3878,120.8333,31.3463,13.4052,7.7051,24.9148,18.9385,13.5039,43.77
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,2110.0,0,3347.0084,48,17,0.6304,43.9583,124.1176,30.7066,13.1316,7.277,24.4064,18.552,13.2283,43.77
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,2123.0,0,3368.8367,48,18,0.6302,44.2292,117.9444,30.7066,13.1316,7.7051,24.4064,18.552,13.2283,43.77
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,2123.0,0,3368.8367,48,17,0.6302,44.2292,124.8824,30.7066,13.1316,7.277,24.4064,18.552,13.2283,43.77
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,546.0,488,1007.7406,12,9,0.5418,45.5,60.6667,7.6766,3.2829,3.8525,6.1016,4.638,3.3071,43.77
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,501.0,448,924.0654,11,8,0.5422,45.5455,62.625,7.0369,3.0093,3.4245,5.5931,4.2515,3.0315,43.77
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,470.0,420,865.8565,10,8,0.5428,47.0,58.75,6.3972,2.7357,3.4245,5.0847,3.865,2.7559,43.77
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,128.0,0,207.369,3,2,0.6173,42.6667,64.0,1.9192,0.8207,0.8561,1.5254,1.1595,0.8268,43.77
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,4550.0,0,2595.2005,66,20,1.7532,68.9394,227.5,42.2215,18.0559,8.5612,33.5588,25.5091,18.1889,43.77
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1796.0,0,1185.2913,55,32,1.5152,32.6545,56.125,35.1846,15.0466,13.6979,27.9656,21.2576,15.1574,43.77
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1694.0,0,1119.6338,52,30,1.513,32.5769,56.4667,33.2654,14.2259,12.8418,26.4402,20.098,14.3307,43.77
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1642.0,0,1085.0772,51,29,1.5133,32.1961,56.6207,32.6257,13.9523,12.4137,25.9318,19.7115,14.0551,43.77
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,8271.0,0,3545.5069,186,67,2.3328,44.4677,123.4478,118.9879,50.8849,28.6799,94.5747,71.8892,51.2597,43.77
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,7947.0,0,3407.2805,179,65,2.3324,44.3966,122.2615,114.5099,48.9699,27.8238,91.0154,69.1837,49.3306,43.77
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,7715.0,0,3307.0664,174,63,2.3329,44.3391,122.4603,111.3113,47.602,26.9677,88.4731,67.2512,47.9526,43.77
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,7481.0,0,3206.8523,169,61,2.3328,44.2663,122.6393,108.1127,46.2341,26.1116,85.9308,65.3187,46.5747,43.77
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,7528.0,0,3227.5862,170,61,2.3324,44.2824,123.4098,108.7524,46.5077,26.1116,86.4392,65.7052,46.8503,43.77
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,7528.0,0,3227.5862,170,61,2.3324,44.2824,123.4098,108.7524,46.5077,26.1116,86.4392,65.7052,46.8503,43.77
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1935.0,1730,601.2848,42,31,3.2181,46.0714,62.4194,26.8682,11.4901,13.2698,21.3556,16.233,11.5748,43.77
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1774.0,1586,549.4499,39,29,3.2287,45.4872,61.1724,24.9491,10.6694,12.4137,19.8302,15.0735,10.748,43.77
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,1667.0,1490,518.349,36,27,3.216,46.3056,61.7407,23.0299,9.8487,11.5576,18.3048,13.914,9.9212,43.77
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,453.0,0,89.8472,11,9,5.0419,41.1818,50.3333,7.0369,3.0093,3.8525,5.5931,4.2515,3.0315,43.77
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,82.0,0,47.2947,1,1,1.7338,82.0,82.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,25.0,0,61.8469,1,1,0.4042,25.0,25.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,23.0,0,58.2088,1,1,0.3951,23.0,23.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,22.0,0,58.2088,1,1,0.3779,22.0,22.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,104.0,0,174.6265,3,2,0.5956,34.6667,52.0,1.9192,0.8207,0.8561,1.5254,1.1595,0.8268,43.77
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,99.0,0,167.3504,3,2,0.5916,33.0,49.5,1.9192,0.8207,0.8561,1.5254,1.1595,0.8268,43.77
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,97.0,0,160.0743,2,1,0.606,48.5,97.0,1.2794,0.5471,0.4281,1.0169,0.773,0.5512,43.77
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,94.0,0,156.4363,2,1,0.6009,47.0,94.0,1.2794,0.5471,0.4281,1.0169,0.773,0.5512,43.77
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,94.0,0,156.4363,2,1,0.6009,47.0,94.0,1.2794,0.5471,0.4281,1.0169,0.773,0.5512,43.77
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,94.0,0,156.4363,2,1,0.6009,47.0,94.0,1.2794,0.5471,0.4281,1.0169,0.773,0.5512,43.77
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,23.0,22,47.2947,1,1,0.4863,23.0,23.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,21.0,20,40.0186,1,1,0.5248,21.0,21.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,20.0,19,40.0186,1,1,0.4998,20.0,20.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,0.0,0,3.6381,1,1,0.0,0.0,0.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,289.0,0,96.7585,2,1,2.9868,144.5,289.0,1.2794,0.5471,0.4281,1.0169,0.773,0.5512,43.77
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,88.0,0,58.7462,3,2,1.498,29.3333,44.0,1.9192,0.8207,0.8561,1.5254,1.1595,0.8268,43.77
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,82.0,0,55.2906,3,1,1.4831,27.3333,82.0,1.9192,0.8207,0.4281,1.5254,1.1595,0.8268,43.77
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,80.0,0,51.8349,2,1,1.5434,40.0,80.0,1.2794,0.5471,0.4281,1.0169,0.773,0.5512,43.77
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,367.0,0,165.8717,9,3,2.2126,40.7778,122.3333,5.7575,2.4622,1.2842,4.5762,3.4785,2.4803,43.77
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,351.0,0,158.9603,8,3,2.2081,43.875,117.0,5.1178,2.1886,1.2842,4.0677,3.092,2.2047,43.77
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,341.0,0,155.5047,8,3,2.1929,42.625,113.6667,5.1178,2.1886,1.2842,4.0677,3.092,2.2047,43.77
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,332.0,0,148.5934,8,2,2.2343,41.5,166.0,5.1178,2.1886,0.8561,4.0677,3.092,2.2047,43.77
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,334.0,0,152.049,8,3,2.1967,41.75,111.3333,5.1178,2.1886,1.2842,4.0677,3.092,2.2047,43.77
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,334.0,0,152.049,8,3,2.1967,41.75,111.3333,5.1178,2.1886,1.2842,4.0677,3.092,2.2047,43.77
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,82.0,78,27.6453,2,1,2.9661,41.0,82.0,1.2794,0.5471,0.4281,1.0169,0.773,0.5512,43.77
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,75.0,71,24.1896,2,1,3.1005,37.5,75.0,1.2794,0.5471,0.4281,1.0169,0.773,0.5512,43.77
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,71.0,67,24.1896,2,1,2.9351,35.5,71.0,1.2794,0.5471,0.4281,1.0169,0.773,0.5512,43.77
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,2.0,0,3.4557,1,1,0.5788,2.0,2.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,84.0,0,80.0372,1,1,1.0495,84.0,84.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,33.0,0,83.6752,1,1,0.3944,33.0,33.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,31.0,0,76.3991,1,1,0.4058,31.0,31.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,30.0,0,76.3991,1,1,0.3927,30.0,30.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,152.0,0,240.1115,4,2,0.633,38.0,76.0,2.5589,1.0943,0.8561,2.0339,1.546,1.1024,43.77
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,146.0,0,232.8354,3,2,0.6271,48.6667,73.0,1.9192,0.8207,0.8561,1.5254,1.1595,0.8268,43.77
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,141.0,0,225.5593,3,1,0.6251,47.0,141.0,1.9192,0.8207,0.4281,1.5254,1.1595,0.8268,43.77
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,138.0,0,218.2832,3,1,0.6322,46.0,138.0,1.9192,0.8207,0.4281,1.5254,1.1595,0.8268,43.77
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,138.0,0,218.2832,3,1,0.6322,46.0,138.0,1.9192,0.8207,0.4281,1.5254,1.1595,0.8268,43.77
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,138.0,0,218.2832,3,1,0.6322,46.0,138.0,1.9192,0.8207,0.4281,1.5254,1.1595,0.8268,43.77
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,36.0,32,65.4849,1,1,0.5497,36.0,36.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,32.0,29,58.2088,1,1,0.5497,32.0,32.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,30.0,27,54.5708,1,1,0.5497,30.0,30.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,9.0,0,14.5522,1,1,0.6185,9.0,9.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,295.0,0,169.3273,4,1,1.7422,73.75,295.0,2.5589,1.0943,0.4281,2.0339,1.546,1.1024,43.77
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,117.0,0,76.0245,4,2,1.539,29.25,58.5,2.5589,1.0943,0.8561,2.0339,1.546,1.1024,43.77
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,110.0,0,72.5689,3,2,1.5158,36.6667,55.0,1.9192,0.8207,0.8561,1.5254,1.1595,0.8268,43.77
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,106.0,0,69.1132,3,2,1.5337,35.3333,53.0,1.9192,0.8207,0.8561,1.5254,1.1595,0.8268,43.77
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,538.0,0,231.5292,13,4,2.3237,41.3846,134.5,8.3164,3.5565,1.7122,6.6101,5.0245,3.5827,43.77
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,516.0,0,221.1622,12,4,2.3331,43.0,129.0,7.6766,3.2829,1.7122,6.1016,4.638,3.3071,43.77
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,502.0,0,214.2509,12,4,2.343,41.8333,125.5,7.6766,3.2829,1.7122,6.1016,4.638,3.3071,43.77
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,487.0,0,207.3396,11,3,2.3488,44.2727,162.3333,7.0369,3.0093,1.2842,5.5931,4.2515,3.0315,43.77
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,489.0,0,210.7952,11,4,2.3198,44.4545,122.25,7.0369,3.0093,1.7122,5.5931,4.2515,3.0315,43.77
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,489.0,0,210.7952,11,4,2.3198,44.4545,122.25,7.0369,3.0093,1.7122,5.5931,4.2515,3.0315,43.77
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,125.0,112,38.0123,3,2,3.2884,41.6667,62.5,1.9192,0.8207,0.8561,1.5254,1.1595,0.8268,43.77
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,115.0,103,34.5566,3,2,3.3279,38.3333,57.5,1.9192,0.8207,0.8561,1.5254,1.1595,0.8268,43.77
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,109.0,97,34.5566,2,2,3.1542,54.5,54.5,1.2794,0.5471,0.8561,1.0169,0.773,0.5512,43.77
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Kaura Namoda,North West,Zamfara,Kaura Namoda,,,29.0,0,6.9113,1,1,4.196,29.0,29.0,0.6397,0.2736,0.4281,0.5085,0.3865,0.2756,43.77
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,2490.0,0,1386.0981,21,6,1.7964,118.5714,415.0,11.1744,7.905,2.3216,8.8996,9.8592,4.9419,40.6
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,755.0,0,1899.0635,23,13,0.3976,32.8261,58.0769,12.2387,8.6579,5.0301,9.7472,10.7982,5.4126,40.6
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,712.0,0,1793.5599,22,13,0.397,32.3636,54.7692,11.7066,8.2815,5.0301,9.3234,10.3287,5.1772,40.6
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,690.0,0,1735.3511,21,12,0.3976,32.8571,57.5,11.1744,7.905,4.6432,8.8996,9.8592,4.9419,40.6
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,3166.0,0,5304.2807,75,27,0.5969,42.2133,117.2593,39.9087,28.2322,10.4472,31.7842,35.2115,17.6496,40.6
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,3042.0,0,5096.9117,72,26,0.5968,42.25,117.0,38.3124,27.1029,10.0603,30.5128,33.803,16.9437,40.6
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,2953.0,0,4947.7516,70,25,0.5968,42.1857,118.12,37.2482,26.3501,9.6734,29.6653,32.864,16.473,40.6
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,2864.0,0,4798.5914,68,24,0.5968,42.1176,119.3333,36.1839,25.5972,9.2864,28.8177,31.9251,16.0023,40.6
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,2882.0,0,4827.6958,69,25,0.597,41.7681,115.28,36.716,25.9737,9.6734,29.2415,32.3946,16.2377,40.6
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,2882.0,0,4827.6958,68,25,0.597,42.3824,115.28,36.1839,25.5972,9.6734,28.8177,31.9251,16.0023,40.6
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,704.0,669,1378.8219,16,12,0.5106,44.0,58.6667,8.5139,6.0229,4.6432,6.7806,7.5118,3.7653,40.6
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,645.0,613,1266.0423,15,11,0.5095,43.0,58.6364,7.9817,5.6464,4.2563,6.3568,7.0423,3.5299,40.6
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,606.0,576,1189.6432,14,10,0.5094,43.2857,60.6,7.4496,5.27,3.8693,5.9331,6.5728,3.2946,40.6
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,15.0,0,167.3504,3,2,0.0896,5.0,7.5,1.5963,1.1293,0.7739,1.2714,1.4085,0.706,40.6
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,8834.0,0,2902.7542,74,23,3.0433,119.3784,384.087,39.3766,27.8558,8.8995,31.3604,34.742,17.4143,40.6
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,2679.0,0,1783.1204,83,48,1.5024,32.2771,55.8125,44.1657,31.2437,18.5729,35.1745,38.9674,19.5323,40.6
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,2525.0,0,1682.9063,79,45,1.5004,31.962,56.1111,42.0372,29.738,17.4121,33.4794,37.0894,18.591,40.6
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,2449.0,0,1631.0714,76,44,1.5015,32.2237,55.6591,40.4409,28.6087,17.0251,32.208,35.681,17.885,40.6
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,11230.0,0,5086.7312,268,97,2.2077,41.903,115.7732,142.6073,100.8832,37.5327,113.5755,125.8223,63.0681,40.6
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,10788.0,0,4886.3029,257,93,2.2078,41.9767,116.0,136.754,96.7425,35.9849,108.9139,120.658,60.4794,40.6
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,10473.0,0,4744.6209,249,90,2.2073,42.0602,116.3667,132.497,93.731,34.8241,105.5235,116.9021,58.5968,40.6
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,10157.0,0,4599.4832,242,87,2.2083,41.9711,116.7471,128.7722,91.096,33.6633,102.557,113.6157,56.9495,40.6
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,10220.0,0,4630.5841,243,88,2.2071,42.0576,116.1364,129.3043,91.4724,34.0502,102.9808,114.0852,57.1848,40.6
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,10221.0,0,4627.1284,243,88,2.2089,42.0617,116.1477,129.3043,91.4724,34.0502,102.9808,114.0852,57.1848,40.6
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,2497.0,2373,822.447,58,43,3.0361,43.0517,58.0698,30.8628,21.8329,16.6382,24.5798,27.2302,13.6491,40.6
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,2288.0,2175,753.3338,53,40,3.0372,43.1698,57.2,28.2022,19.9508,15.4774,22.4608,24.8828,12.4724,40.6
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,2149.0,2043,708.4103,50,37,3.0336,42.98,58.0811,26.6058,18.8215,14.3166,21.1895,23.4743,11.7664,40.6
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,54.0,0,76.0245,9,7,0.7103,6.0,7.7143,4.789,3.3879,2.7085,3.8141,4.2254,2.118,40.6
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,2555.0,0,2466.5997,37,11,1.0358,69.0541,232.2727,19.6883,13.9279,4.2563,15.6802,17.371,8.7072,40.6
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,1008.0,0,2513.8944,31,18,0.401,32.5161,56.0,16.4956,11.6693,6.9648,13.1375,14.5541,7.2952,40.6
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,950.0,0,2368.3723,29,17,0.4011,32.7586,55.8824,15.4314,10.9165,6.5779,12.2899,13.6151,6.8245,40.6
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,921.0,0,2295.6112,28,16,0.4012,32.8929,57.5625,14.8993,10.54,6.191,11.8661,13.1456,6.5892,40.6
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,4642.0,0,7363.4185,105,38,0.6304,44.2095,122.1579,55.8722,39.5251,14.7035,44.4979,49.2961,24.7095,40.6
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,4459.0,0,7072.3743,100,37,0.6305,44.59,120.5135,53.2117,37.643,14.3166,42.3789,46.9486,23.5329,40.6
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,4329.0,0,6868.6434,98,35,0.6303,44.1735,123.6857,52.1474,36.8901,13.5427,41.5314,46.0097,23.0622,40.6
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,4198.0,0,6661.2744,95,34,0.6302,44.1895,123.4706,50.5511,35.7608,13.1558,40.26,44.6012,22.3562,40.6
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,4224.0,0,6701.2929,95,35,0.6303,44.4632,120.6857,50.5511,35.7608,13.5427,40.26,44.6012,22.3562,40.6
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,4225.0,0,6701.2929,95,35,0.6305,44.4737,120.7143,50.5511,35.7608,13.5427,40.26,44.6012,22.3562,40.6
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,1086.0,971,2004.567,24,18,0.5418,45.25,60.3333,12.7708,9.0343,6.9648,10.1709,11.2677,5.6479,40.6
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,995.0,889,1833.5785,22,16,0.5427,45.2273,62.1875,11.7066,8.2815,6.191,9.3234,10.3287,5.1772,40.6
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,935.0,836,1724.4369,20,15,0.5422,46.75,62.3333,10.6423,7.5286,5.804,8.4758,9.3897,4.7066,40.6
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,254.0,0,407.4619,6,5,0.6234,42.3333,50.8,3.1927,2.2586,1.9347,2.5427,2.8169,1.412,40.6
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,9056.0,0,5162.7557,132,40,1.7541,68.6061,226.4,70.2394,49.6887,15.4774,55.9402,61.9722,31.0634,40.6
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,3573.0,0,2360.2156,110,63,1.5138,32.4818,56.7143,58.5328,41.4073,24.3769,46.6168,51.6435,25.8861,40.6
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,3369.0,0,2225.4449,104,60,1.5139,32.3942,56.15,55.3401,39.1487,23.2161,44.0741,48.8266,24.4742,40.6
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,3267.0,0,2156.3317,101,58,1.5151,32.3465,56.3276,53.7438,38.0194,22.4422,42.8027,47.4181,23.7682,40.6
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,16457.0,0,7056.4573,371,134,2.3322,44.3585,122.8134,197.4153,139.6555,51.8492,157.2258,174.1794,87.3069,40.6
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,15810.0,0,6780.0045,356,129,2.3319,44.4101,122.5581,189.4335,134.009,49.9146,150.869,167.1371,83.777,40.6
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,15347.0,0,6583.0319,346,125,2.3313,44.3555,122.776,184.1123,130.2447,48.3668,146.6311,162.4423,81.4237,40.6
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,14885.0,0,6382.6036,335,121,2.3321,44.4328,123.0165,178.2591,126.104,46.8191,141.9694,157.2779,78.8351,40.6
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,14977.0,0,6424.0715,338,122,2.3314,44.3107,122.7623,179.8554,127.2333,47.206,143.2408,158.6864,79.5411,40.6
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,14977.0,0,6424.0715,338,122,2.3314,44.3107,122.7623,179.8554,127.2333,47.206,143.2408,158.6864,79.5411,40.6
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,3849.0,3441,1195.6583,84,63,3.2191,45.8214,61.0952,44.6978,31.6201,24.3769,35.5983,39.4369,19.7676,40.6
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,3529.0,3155,1095.4441,77,57,3.2215,45.8312,61.9123,40.973,28.9851,22.0553,32.6318,36.1504,18.1203,40.6
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,3314.0,2963,1029.7866,72,54,3.2181,46.0278,61.3704,38.3124,27.1029,20.8945,30.5128,33.803,16.9437,40.6
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,899.0,0,179.6943,22,17,5.0029,40.8636,52.8824,11.7066,8.2815,6.5779,9.3234,10.3287,5.1772,40.6
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,163.0,0,90.9513,1,1,1.7922,163.0,163.0,0.5321,0.3764,0.3869,0.4238,0.4695,0.2353,40.6
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,49.0,0,123.6938,2,1,0.3961,24.5,49.0,1.0642,0.7529,0.3869,0.8476,0.939,0.4707,40.6
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,46.0,0,116.4177,1,1,0.3951,46.0,46.0,0.5321,0.3764,0.3869,0.4238,0.4695,0.2353,40.6
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,45.0,0,112.7796,1,1,0.399,45.0,45.0,0.5321,0.3764,0.3869,0.4238,0.4695,0.2353,40.6
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,206.0,0,345.615,5,2,0.596,41.2,103.0,2.6606,1.8821,0.7739,2.1189,2.3474,1.1766,40.6
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,198.0,0,331.0628,5,2,0.5981,39.6,99.0,2.6606,1.8821,0.7739,2.1189,2.3474,1.1766,40.6
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,192.0,0,323.7867,5,1,0.593,38.4,192.0,2.6606,1.8821,0.3869,2.1189,2.3474,1.1766,40.6
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,187.0,0,312.8725,4,1,0.5977,46.75,187.0,2.1285,1.5057,0.3869,1.6952,1.8779,0.9413,40.6
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,188.0,0,312.8725,5,1,0.6009,37.6,188.0,2.6606,1.8821,0.3869,2.1189,2.3474,1.1766,40.6
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,188.0,0,312.8725,4,1,0.6009,47.0,188.0,2.1285,1.5057,0.3869,1.6952,1.8779,0.9413,40.6
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,45.0,43,87.3133,1,1,0.5154,45.0,45.0,0.5321,0.3764,0.3869,0.4238,0.4695,0.2353,40.6
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,42.0,40,83.6752,1,1,0.5019,42.0,42.0,0.5321,0.3764,0.3869,0.4238,0.4695,0.2353,40.6
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,39.0,37,76.3991,1,1,0.5105,39.0,39.0,0.5321,0.3764,0.3869,0.4238,0.4695,0.2353,40.6
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,1.0,0,10.9142,1,1,0.0916,1.0,1.0,0.5321,0.3764,0.3869,0.4238,0.4695,0.2353,40.6
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,575.0,0,190.0613,5,1,3.0253,115.0,575.0,2.6606,1.8821,0.3869,2.1189,2.3474,1.1766,40.6
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,174.0,0,117.4924,5,3,1.4809,34.8,58.0,2.6606,1.8821,1.1608,2.1189,2.3474,1.1766,40.6
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,164.0,0,110.5811,5,3,1.4831,32.8,54.6667,2.6606,1.8821,1.1608,2.1189,2.3474,1.1766,40.6
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,159.0,0,107.1255,5,3,1.4842,31.8,53.0,2.6606,1.8821,1.1608,2.1189,2.3474,1.1766,40.6
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,729.0,0,331.7433,17,6,2.1975,42.8824,121.5,9.046,6.3993,2.3216,7.2044,7.9813,4.0006,40.6
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,702.0,0,317.9207,17,6,2.2081,41.2941,117.0,9.046,6.3993,2.3216,7.2044,7.9813,4.0006,40.6
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,681.0,0,307.5537,16,6,2.2142,42.5625,113.5,8.5139,6.0229,2.3216,6.7806,7.5118,3.7653,40.6
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,660.0,0,300.6424,16,6,2.1953,41.25,110.0,8.5139,6.0229,2.3216,6.7806,7.5118,3.7653,40.6
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,664.0,0,300.6424,16,6,2.2086,41.5,110.6667,8.5139,6.0229,2.3216,6.7806,7.5118,3.7653,40.6
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,664.0,0,300.6424,16,6,2.2086,41.5,110.6667,8.5139,6.0229,2.3216,6.7806,7.5118,3.7653,40.6
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,162.0,154,51.8349,4,3,3.1253,40.5,54.0,2.1285,1.5057,1.1608,1.6952,1.8779,0.9413,40.6
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,148.0,141,48.3792,3,3,3.0592,49.3333,49.3333,1.5963,1.1293,1.1608,1.2714,1.4085,0.706,40.6
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,140.0,133,44.9236,3,2,3.1164,46.6667,70.0,1.5963,1.1293,0.7739,1.2714,1.4085,0.706,40.6
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,4.0,0,3.4557,1,1,1.1575,4.0,4.0,0.5321,0.3764,0.3869,0.4238,0.4695,0.2353,40.6
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,167.0,0,160.0743,2,1,1.0433,83.5,167.0,1.0642,0.7529,0.3869,0.8476,0.939,0.4707,40.6
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,66.0,0,163.7124,2,1,0.4031,33.0,66.0,1.0642,0.7529,0.3869,0.8476,0.939,0.4707,40.6
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,62.0,0,152.7982,2,1,0.4058,31.0,62.0,1.0642,0.7529,0.3869,0.8476,0.939,0.4707,40.6
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,60.0,0,149.1602,2,1,0.4023,30.0,60.0,1.0642,0.7529,0.3869,0.8476,0.939,0.4707,40.6
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,302.0,0,480.2229,7,3,0.6289,43.1429,100.6667,3.7248,2.635,1.1608,2.9665,3.2864,1.6473,40.6
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,291.0,0,458.3946,7,3,0.6348,41.5714,97.0,3.7248,2.635,1.1608,2.9665,3.2864,1.6473,40.6
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,281.0,0,447.4805,7,2,0.628,40.1429,140.5,3.7248,2.635,0.7739,2.9665,3.2864,1.6473,40.6
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,273.0,0,432.9283,6,2,0.6306,45.5,136.5,3.1927,2.2586,0.7739,2.5427,2.8169,1.412,40.6
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,274.0,0,436.5663,6,2,0.6276,45.6667,137.0,3.1927,2.2586,0.7739,2.5427,2.8169,1.412,40.6
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,274.0,0,436.5663,6,2,0.6276,45.6667,137.0,3.1927,2.2586,0.7739,2.5427,2.8169,1.412,40.6
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,70.0,63,130.9699,2,1,0.5345,35.0,70.0,1.0642,0.7529,0.3869,0.8476,0.939,0.4707,40.6
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,65.0,58,120.0557,1,1,0.5414,65.0,65.0,0.5321,0.3764,0.3869,0.4238,0.4695,0.2353,40.6
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,60.0,54,112.7796,1,1,0.532,60.0,60.0,0.5321,0.3764,0.3869,0.4238,0.4695,0.2353,40.6
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,16.0,0,25.4664,1,1,0.6283,16.0,16.0,0.5321,0.3764,0.3869,0.4238,0.4695,0.2353,40.6
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Maru,North West,Zamfara,Maru,,,589.0,0,335.199,9,3,1.7572,65.4444,196.3333,4.789,3.3879,1.1608,3.8141,4.2254,2.118,40.6
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Maru,North West,Zamfara,Maru,,,232.0,0,152.049,7,4,1.5258,33.1429,58.0,3.7248,2.635,1.5477,2.9665,3.2864,1.6473,40.6
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Maru,North West,Zamfara,Maru,,,219.0,0,145.1377,7,4,1.5089,31.2857,54.75,3.7248,2.635,1.5477,2.9665,3.2864,1.6473,40.6
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Maru,North West,Zamfara,Maru,,,212.0,0,141.6821,7,4,1.4963,30.2857,53.0,3.7248,2.635,1.5477,2.9665,3.2864,1.6473,40.6
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Maru,North West,Zamfara,Maru,,,1070.0,0,459.6027,24,9,2.3281,44.5833,118.8889,12.7708,9.0343,3.4824,10.1709,11.2677,5.6479,40.6
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Maru,North West,Zamfara,Maru,,,1028.0,0,442.3245,24,8,2.3241,42.8333,128.5,12.7708,9.0343,3.0955,10.1709,11.2677,5.6479,40.6
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Maru,North West,Zamfara,Maru,,,998.0,0,428.5018,23,8,2.329,43.3913,124.75,12.2387,8.6579,3.0955,9.7472,10.7982,5.4126,40.6
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Maru,North West,Zamfara,Maru,,,967.0,0,414.6792,22,8,2.3319,43.9545,120.875,11.7066,8.2815,3.0955,9.3234,10.3287,5.1772,40.6
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Maru,North West,Zamfara,Maru,,,973.0,0,418.1348,22,8,2.327,44.2273,121.625,11.7066,8.2815,3.0955,9.3234,10.3287,5.1772,40.6
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Maru,North West,Zamfara,Maru,,,973.0,0,418.1348,22,8,2.327,44.2273,121.625,11.7066,8.2815,3.0955,9.3234,10.3287,5.1772,40.6
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Maru,North West,Zamfara,Maru,,,251.0,224,79.4802,5,4,3.158,50.2,62.75,2.6606,1.8821,1.5477,2.1189,2.3474,1.1766,40.6
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Maru,North West,Zamfara,Maru,,,229.0,205,72.5689,5,4,3.1556,45.8,57.25,2.6606,1.8821,1.5477,2.1189,2.3474,1.1766,40.6
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Maru,North West,Zamfara,Maru,,,216.0,193,65.6575,5,4,3.2898,43.2,54.0,2.6606,1.8821,1.5477,2.1189,2.3474,1.1766,40.6
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Maru,North West,Zamfara,Maru,,,59.0,0,10.367,1,1,5.6911,59.0,59.0,0.5321,0.3764,0.3869,0.4238,0.4695,0.2353,40.6
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1553.0,0,862.2185,13,4,1.8012,119.4615,388.25,8.7166,4.2163,1.892,6.2364,4.9643,2.7899,44.1
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,470.0,0,1182.3671,15,8,0.3975,31.3333,58.75,10.0576,4.8649,3.7839,7.1959,5.728,3.2191,44.1
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,444.0,0,1116.8822,14,8,0.3975,31.7143,55.5,9.3871,4.5406,3.7839,6.7161,5.3461,3.0045,44.1
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,431.0,0,1084.1397,13,8,0.3976,33.1538,53.875,8.7166,4.2163,3.7839,6.2364,4.9643,2.7899,44.1
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1975.0,0,3306.9898,47,17,0.5972,42.0213,116.1765,31.5137,15.2434,8.0408,22.5471,17.9477,10.0864,44.1
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1898.0,0,3179.658,45,16,0.5969,42.1778,118.625,30.1727,14.5948,7.5678,21.5876,17.184,9.6572,44.1
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1841.0,0,3085.0686,44,16,0.5967,41.8409,115.0625,29.5022,14.2704,7.5678,21.1079,16.8021,9.4426,44.1
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1786.0,0,2990.4793,42,15,0.5972,42.5238,119.0667,28.1612,13.6218,7.0948,20.1484,16.0384,9.0134,44.1
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1797.0,0,3012.3076,43,16,0.5966,41.7907,112.3125,28.8317,13.9461,7.5678,20.6282,16.4203,9.228,44.1
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1797.0,0,3012.3076,42,16,0.5966,42.7857,112.3125,28.1612,13.6218,7.5678,20.1484,16.0384,9.0134,44.1
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,439.0,417,858.5804,10,8,0.5113,43.9,54.875,6.705,3.2433,3.7839,4.7972,3.8187,2.1461,44.1
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,402.0,382,789.4574,9,7,0.5092,44.6667,57.4286,6.0345,2.919,3.3109,4.3175,3.4368,1.9314,44.1
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,378.0,359,742.1627,9,7,0.5093,42.0,54.0,6.0345,2.919,3.3109,4.3175,3.4368,1.9314,44.1
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,9.0,0,105.5035,2,1,0.0853,4.5,9.0,1.341,0.6487,0.473,0.9594,0.7637,0.4292,44.1
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,5507.0,0,1810.7657,46,14,3.0413,119.7174,393.3571,30.8432,14.9191,6.6218,22.0673,17.5659,9.8718,44.1
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1670.0,0,1112.7224,52,30,1.5008,32.1154,55.6667,34.8662,16.8651,14.1897,24.9457,19.8571,11.1595,44.1
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1574.0,0,1047.0649,49,28,1.5032,32.1224,56.2143,32.8547,15.8921,13.2437,23.5065,18.7115,10.5156,44.1
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1526.0,0,1015.964,47,27,1.502,32.4681,56.5185,31.5137,15.2434,12.7707,22.5471,17.9477,10.0864,44.1
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,6999.0,0,3168.84,167,60,2.2087,41.9102,116.65,111.9743,54.1628,28.3794,80.114,63.7718,35.839,44.1
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,6724.0,0,3044.4363,160,58,2.2086,42.025,115.931,107.2808,51.8925,27.4334,76.756,61.0987,34.3368,44.1
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,6527.0,0,2954.5891,155,56,2.2091,42.1097,116.5536,103.9282,50.2709,26.4874,74.3573,59.1894,33.2638,44.1
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,6330.0,0,2868.1976,151,54,2.207,41.9205,117.2222,101.2462,48.9736,25.5414,72.4384,57.6619,32.4054,44.1
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,6370.0,0,2885.4759,152,55,2.2076,41.9079,115.8182,101.9167,49.2979,26.0144,72.9182,58.0438,32.62,44.1
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,6369.0,0,2885.4759,152,55,2.2073,41.9013,115.8,101.9167,49.2979,26.0144,72.9182,58.0438,32.62,44.1
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1556.0,1479,514.8933,36,27,3.022,43.2222,57.6296,24.1382,11.6758,12.7707,17.2701,13.7472,7.7258,44.1
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1426.0,1355,469.9697,33,25,3.0342,43.2121,57.04,22.1267,10.7028,11.8247,15.8309,12.6016,7.082,44.1
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1340.0,1274,442.3245,31,23,3.0295,43.2258,58.2609,20.7856,10.0542,10.8788,14.8715,11.8379,6.6528,44.1
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,33.0,0,44.9236,6,4,0.7346,5.5,8.25,4.023,1.946,1.892,2.8783,2.2912,1.2876,44.1
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1591.0,0,1535.2582,23,7,1.0363,69.1739,227.2857,15.4216,7.4595,3.3109,11.0337,8.7829,4.9359,44.1
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,628.0,0,1564.3626,19,11,0.4014,33.0526,57.0909,12.7396,6.1622,5.2029,9.1148,7.2555,4.0775,44.1
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,592.0,0,1477.0494,18,10,0.4008,32.8889,59.2,12.0691,5.8379,4.7299,8.635,6.8736,3.8629,44.1
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,574.0,0,1433.3927,18,10,0.4004,31.8889,57.4,12.0691,5.8379,4.7299,8.635,6.8736,3.8629,44.1
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2892.0,0,4587.5844,65,24,0.6304,44.4923,120.5,43.5828,21.0813,11.3517,31.1821,24.8214,13.9493,44.1
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2779.0,0,4409.3198,63,23,0.6303,44.1111,120.8261,42.2418,20.4327,10.8788,30.2227,24.0576,13.5201,44.1
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2697.0,0,4278.3499,61,22,0.6304,44.2131,122.5909,40.9008,19.784,10.4058,29.2632,23.2939,13.0909,44.1
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2617.0,0,4151.018,59,21,0.6304,44.3559,124.619,39.5598,19.1354,9.9328,28.3038,22.5301,12.6617,44.1
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2632.0,0,4176.4844,59,21,0.6302,44.6102,125.3333,39.5598,19.1354,9.9328,28.3038,22.5301,12.6617,44.1
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2632.0,0,4176.4844,60,22,0.6302,43.8667,119.6364,40.2303,19.4597,10.4058,28.7835,22.912,12.8763,44.1
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,677.0,605,1247.8521,15,11,0.5425,45.1333,61.5455,10.0576,4.8649,5.2029,7.1959,5.728,3.2191,44.1
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,621.0,555,1145.9866,14,10,0.5419,44.3571,62.1,9.3871,4.5406,4.7299,6.7161,5.3461,3.0045,44.1
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,583.0,521,1073.2255,13,9,0.5432,44.8462,64.7778,8.7166,4.2163,4.2569,6.2364,4.9643,2.7899,44.1
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,158.0,0,254.6637,4,3,0.6204,39.5,52.6667,2.682,1.2973,1.419,1.9189,1.5275,0.8584,44.1
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,5644.0,0,3217.2192,82,25,1.7543,68.8293,225.76,54.9814,26.5949,11.8247,39.3374,31.3131,17.5976,44.1
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2227.0,0,1468.6554,69,39,1.5164,32.2754,57.1026,46.2648,22.3786,18.4466,33.101,26.3488,14.8078,44.1
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2100.0,0,1385.7196,65,37,1.5155,32.3077,56.7568,43.5828,21.0813,17.5006,31.1821,24.8214,13.9493,44.1
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2036.0,0,1344.2517,63,36,1.5146,32.3175,56.5556,42.2418,20.4327,17.0276,30.2227,24.0576,13.5201,44.1
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,10256.0,0,4399.0549,231,84,2.3314,44.3983,122.0952,154.8866,74.9198,39.7311,110.8164,88.2113,49.5738,44.1
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,9853.0,0,4226.2719,222,80,2.3314,44.3829,123.1625,148.852,72.0009,37.8391,106.4989,84.7745,47.6423,44.1
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,9564.0,0,4101.8682,216,78,2.3316,44.2778,122.6154,144.829,70.0549,36.8932,103.6206,82.4833,46.3547,44.1
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,9276.0,0,3977.4644,209,76,2.3321,44.3828,122.0526,140.1355,67.7846,35.9472,100.2625,79.8102,44.8525,44.1
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,9334.0,0,4001.654,210,76,2.3325,44.4476,122.8158,140.806,68.1089,35.9472,100.7422,80.1921,45.0671,44.1
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,9334.0,0,4001.654,210,76,2.3325,44.4476,122.8158,140.806,68.1089,35.9472,100.7422,80.1921,45.0671,44.1
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2399.0,2145,742.9669,52,39,3.2289,46.1346,61.5128,34.8662,16.8651,18.4466,24.9457,19.8571,11.1595,44.1
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2199.0,1966,684.2206,48,36,3.2139,45.8125,61.0833,32.1842,15.5678,17.0276,23.0268,18.3296,10.301,44.1
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2066.0,1847,642.7527,45,34,3.2143,45.9111,60.7647,30.1727,14.5948,16.0816,21.5876,17.184,9.6572,44.1
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,560.0,0,110.5811,14,11,5.0642,40.0,50.9091,9.3871,4.5406,5.2029,6.7161,5.3461,3.0045,44.1
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,100.0,0,54.5708,1,1,1.8325,100.0,100.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,31.0,0,76.3991,1,1,0.4058,31.0,31.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,29.0,0,72.7611,1,1,0.3986,29.0,29.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,28.0,0,69.123,1,1,0.4051,28.0,28.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,128.0,0,214.6451,3,2,0.5963,42.6667,64.0,2.0115,0.973,0.946,1.4392,1.1456,0.6438,44.1
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,124.0,0,207.369,3,2,0.598,41.3333,62.0,2.0115,0.973,0.946,1.4392,1.1456,0.6438,44.1
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,119.0,0,200.0929,3,1,0.5947,39.6667,119.0,2.0115,0.973,0.473,1.4392,1.1456,0.6438,44.1
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,116.0,0,192.8168,2,1,0.6016,58.0,116.0,1.341,0.6487,0.473,0.9594,0.7637,0.4292,44.1
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,117.0,0,196.4548,3,1,0.5956,39.0,117.0,2.0115,0.973,0.473,1.4392,1.1456,0.6438,44.1
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,117.0,0,196.4548,2,1,0.5956,58.5,117.0,1.341,0.6487,0.473,0.9594,0.7637,0.4292,44.1
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,29.0,27,54.5708,1,1,0.5314,29.0,29.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,26.0,25,50.9327,1,1,0.5105,26.0,26.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,24.0,23,47.2947,1,1,0.5075,24.0,24.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,1.0,0,7.2761,1,1,0.1374,1.0,1.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,356.0,0,117.4924,3,1,3.03,118.6667,356.0,2.0115,0.973,0.473,1.4392,1.1456,0.6438,44.1
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,109.0,0,72.5689,3,2,1.502,36.3333,54.5,2.0115,0.973,0.946,1.4392,1.1456,0.6438,44.1
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,103.0,0,69.1132,3,2,1.4903,34.3333,51.5,2.0115,0.973,0.946,1.4392,1.1456,0.6438,44.1
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,100.0,0,65.6575,3,2,1.5231,33.3333,50.0,2.0115,0.973,0.946,1.4392,1.1456,0.6438,44.1
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,454.0,0,207.3396,11,4,2.1896,41.2727,113.5,7.3756,3.5676,1.892,5.277,4.2005,2.3607,44.1
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,437.0,0,196.9726,11,4,2.2186,39.7273,109.25,7.3756,3.5676,1.892,5.277,4.2005,2.3607,44.1
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,424.0,0,193.5169,10,4,2.191,42.4,106.0,6.705,3.2433,1.892,4.7972,3.8187,2.1461,44.1
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,411.0,0,186.6056,10,3,2.2025,41.1,137.0,6.705,3.2433,1.419,4.7972,3.8187,2.1461,44.1
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,414.0,0,186.6056,10,4,2.2186,41.4,103.5,6.705,3.2433,1.892,4.7972,3.8187,2.1461,44.1
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,414.0,0,186.6056,10,3,2.2186,41.4,138.0,6.705,3.2433,1.419,4.7972,3.8187,2.1461,44.1
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,101.0,96,34.5566,2,2,2.9227,50.5,50.5,1.341,0.6487,0.946,0.9594,0.7637,0.4292,44.1
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,93.0,88,31.1009,2,2,2.9903,46.5,46.5,1.341,0.6487,0.946,0.9594,0.7637,0.4292,44.1
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,87.0,83,27.6453,2,2,3.147,43.5,43.5,1.341,0.6487,0.946,0.9594,0.7637,0.4292,44.1
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,2.0,0,3.4557,1,1,0.5788,2.0,2.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,103.0,0,98.2274,2,1,1.0486,51.5,103.0,1.341,0.6487,0.473,0.9594,0.7637,0.4292,44.1
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,41.0,0,101.8655,1,1,0.4025,41.0,41.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,38.0,0,94.5894,1,1,0.4017,38.0,38.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,37.0,0,90.9513,1,1,0.4068,37.0,37.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,188.0,0,298.3203,4,2,0.6302,47.0,94.0,2.682,1.2973,0.946,1.9189,1.5275,0.8584,44.1
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,181.0,0,287.4062,4,2,0.6298,45.25,90.5,2.682,1.2973,0.946,1.9189,1.5275,0.8584,44.1
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,175.0,0,276.492,4,1,0.6329,43.75,175.0,2.682,1.2973,0.473,1.9189,1.5275,0.8584,44.1
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,170.0,0,269.2159,3,1,0.6315,56.6667,170.0,2.0115,0.973,0.473,1.4392,1.1456,0.6438,44.1
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,170.0,0,269.2159,4,1,0.6315,42.5,170.0,2.682,1.2973,0.473,1.9189,1.5275,0.8584,44.1
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,170.0,0,272.8539,3,1,0.623,56.6667,170.0,2.0115,0.973,0.473,1.4392,1.1456,0.6438,44.1
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,44.0,39,80.0372,1,1,0.5497,44.0,44.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,40.0,36,72.7611,1,1,0.5497,40.0,40.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,38.0,34,69.123,1,1,0.5497,38.0,38.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,10.0,0,18.1903,1,1,0.5497,10.0,10.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,366.0,0,207.3396,5,2,1.7652,73.2,183.0,3.3525,1.6216,0.946,2.3986,1.9093,1.073,44.1
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,145.0,0,96.7585,4,3,1.4986,36.25,48.3333,2.682,1.2973,1.419,1.9189,1.5275,0.8584,44.1
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,137.0,0,89.8472,4,2,1.5248,34.25,68.5,2.682,1.2973,0.946,1.9189,1.5275,0.8584,44.1
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,132.0,0,86.3915,4,2,1.5279,33.0,66.0,2.682,1.2973,0.946,1.9189,1.5275,0.8584,44.1
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,666.0,0,286.8198,15,5,2.322,44.4,133.2,10.0576,4.8649,2.3649,7.1959,5.728,3.2191,44.1
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,641.0,0,272.9971,14,5,2.348,45.7857,128.2,9.3871,4.5406,2.3649,6.7161,5.3461,3.0045,44.1
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,621.0,0,266.0858,14,5,2.3338,44.3571,124.2,9.3871,4.5406,2.3649,6.7161,5.3461,3.0045,44.1
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,602.0,0,259.1745,13,5,2.3228,46.3077,120.4,8.7166,4.2163,2.3649,6.2364,4.9643,2.7899,44.1
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,607.0,0,259.1745,14,5,2.3421,43.3571,121.4,9.3871,4.5406,2.3649,6.7161,5.3461,3.0045,44.1
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,607.0,0,259.1745,14,5,2.3421,43.3571,121.4,9.3871,4.5406,2.3649,6.7161,5.3461,3.0045,44.1
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,156.0,139,48.3792,3,3,3.2245,52.0,52.0,2.0115,0.973,1.419,1.4392,1.1456,0.6438,44.1
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,143.0,128,44.9236,3,2,3.1832,47.6667,71.5,2.0115,0.973,0.946,1.4392,1.1456,0.6438,44.1
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,134.0,120,41.4679,3,2,3.2314,44.6667,67.0,2.0115,0.973,0.946,1.4392,1.1456,0.6438,44.1
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Talata Mafara,North West,Zamfara,Talata Mafara,,,37.0,0,6.9113,1,1,5.3536,37.0,37.0,0.6705,0.3243,0.473,0.4797,0.3819,0.2146,44.1

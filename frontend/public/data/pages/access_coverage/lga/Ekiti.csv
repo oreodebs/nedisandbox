@@ -1,561 +1,561 @@
 session,gender,disability,school_type,school_level,class_grade,key_entry_level,loc_level,loc_label,zone,state,lga,ward,school,student_count,is_o_level_student,school_count,classroom_count,computer_count,avg_students_per_school,learners_per_classroom,students_per_computer,usable_classroom_count,laboratory_count,computer_access_count,water_source_count,handwashing_facility_count,toilet_count,infrastructure_score
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,1378.8219,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,828.0,0,1840.8546,12,8,0.4498,69.0,103.5,5,5,2,5,3,6,37.45
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,781.0,0,1735.3511,13,7,0.4501,60.0769,111.5714,6,5,2,5,4,7,37.45
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,758.0,0,1684.4184,13,7,0.45,58.3077,108.2857,6,5,2,5,4,7,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,930.0,0,5162.3967,47,10,0.1801,19.7872,93.0,20,19,2,18,14,24,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,893.0,0,4962.3038,45,10,0.18,19.8444,89.3,19,18,2,17,13,23,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,867.0,0,4816.7817,44,10,0.18,19.7045,86.7,19,18,2,17,13,22,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,841.0,0,4671.2596,46,9,0.18,18.2826,93.4444,20,19,2,17,13,23,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,846.0,0,4700.364,45,9,0.18,18.8,94.0,19,18,2,17,13,23,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,846.0,0,4700.364,46,9,0.18,18.3913,94.0,20,19,2,17,13,23,37.45
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1021.0,451,1349.7175,12,7,0.7565,85.0833,145.8571,5,5,2,5,3,6,37.45
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,935.0,413,1236.9379,12,6,0.7559,77.9167,155.8333,5,5,1,5,3,6,37.45
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,879.0,388,1160.5388,9,6,0.7574,97.6667,146.5,4,4,1,3,3,5,37.45
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,40.0,0,170.9885,2,1,0.2339,20.0,40.0,1,1,0,1,1,1,37.45
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1760.0,0,1727.8299,24,6,1.0186,73.3333,293.3333,10,10,1,9,7,12,37.45
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1660.0,0,1631.0714,25,5,1.0177,66.4,332.0,11,10,1,9,7,13,37.45
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1610.0,0,1579.2365,28,5,1.0195,57.5,322.0,12,11,1,11,8,14,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1976.0,0,4948.5048,69,18,0.3993,28.6377,109.7778,29,28,4,26,20,35,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1898.0,0,4754.9878,90,17,0.3992,21.0889,111.6471,38,36,4,34,26,46,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1843.0,0,4616.7615,71,17,0.3992,25.9577,108.4118,30,29,4,27,21,36,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1787.0,0,4475.0794,89,16,0.3993,20.0787,111.6875,38,36,4,34,26,45,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1798.0,0,4502.7247,81,16,0.3993,22.1975,112.375,34,33,4,31,24,41,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1798.0,0,4502.7247,75,16,0.3993,23.9733,112.375,32,30,4,28,22,38,37.45
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,2169.0,958,805.1687,23,7,2.6938,94.3043,309.8571,10,9,2,9,7,12,37.45
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1988.0,878,736.0555,18,6,2.7009,110.4444,331.3333,8,7,1,7,5,9,37.45
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1868.0,825,691.132,17,6,2.7028,109.8824,311.3333,7,7,1,6,5,9,37.45
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,86.0,0,76.0245,2,1,1.1312,43.0,86.0,1,1,0,1,1,1,37.45
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,1378.8219,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,810.0,0,1651.6759,11,7,0.4904,73.6364,115.7143,5,4,2,4,3,6,37.45
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,764.0,0,1557.0865,11,7,0.4907,69.4545,109.1429,5,4,2,4,3,6,37.45
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,740.0,0,1509.7918,12,6,0.4901,61.6667,123.3333,5,5,1,5,3,6,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,902.0,0,4860.4383,44,10,0.1856,20.5,90.2,19,18,2,17,13,22,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,866.0,0,4667.6215,42,9,0.1855,20.619,96.2222,18,17,2,16,12,21,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,841.0,0,4533.0136,42,9,0.1855,20.0238,93.4444,18,17,2,16,12,21,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,816.0,0,4394.7676,43,9,0.1857,18.9767,90.6667,18,17,2,16,13,22,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,821.0,0,4423.872,42,9,0.1856,19.5476,91.2222,18,17,2,16,12,21,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,820.0,0,4423.872,43,9,0.1854,19.0698,91.1111,18,17,2,16,13,22,37.45
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,832.0,444,1327.8892,12,7,0.6266,69.3333,118.8571,5,5,2,5,3,6,37.45
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,762.0,407,1218.7476,12,6,0.6252,63.5,127.0,5,5,1,5,3,6,37.45
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,715.0,382,1142.3485,9,6,0.6259,79.4444,119.1667,4,4,1,3,3,5,37.45
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,123.0,0,283.7681,4,1,0.4335,30.75,123.0,2,2,0,2,1,2,37.45
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1721.0,0,1548.1356,21,5,1.1117,81.9524,344.2,9,8,1,8,6,11,37.45
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1623.0,0,1461.7441,23,5,1.1103,70.5652,324.6,10,9,1,9,7,12,37.45
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1574.0,0,1416.8205,25,5,1.1109,62.96,314.8,11,10,1,9,7,13,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1916.0,0,4658.2294,65,17,0.4113,29.4769,112.7059,28,26,4,25,19,33,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1841.0,0,4475.0794,85,16,0.4114,21.6588,115.0625,36,34,4,32,25,43,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1787.0,0,4343.7643,67,16,0.4114,26.6716,111.6875,28,27,4,25,19,34,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1733.0,0,4212.4493,84,15,0.4114,20.631,115.5333,36,34,4,32,24,43,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1744.0,0,4240.0945,76,15,0.4113,22.9474,116.2667,32,31,4,29,22,39,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1744.0,0,4240.0945,70,15,0.4113,24.9143,116.2667,30,28,4,27,20,36,37.45
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1766.0,943,791.3461,23,6,2.2316,76.7826,294.3333,10,9,1,9,7,12,37.45
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1618.0,864,725.6886,18,6,2.2296,89.8889,269.6667,8,7,1,7,5,9,37.45
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1521.0,812,680.765,17,6,2.2343,89.4706,253.5,7,7,1,6,5,9,37.45
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,263.0,0,124.4038,4,1,2.1141,65.75,263.0,2,2,0,2,1,2,37.45
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,53.0,0,116.4177,1,1,0.4553,53.0,53.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,50.0,0,112.7796,1,1,0.4433,50.0,50.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,49.0,0,109.1416,1,1,0.449,49.0,49.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,60.0,0,334.7008,3,1,0.1793,20.0,60.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,58.0,0,323.7867,3,1,0.1791,19.3333,58.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,57.0,0,312.8725,3,1,0.1822,19.0,57.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,55.0,0,305.5964,3,1,0.18,18.3333,55.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,55.0,0,305.5964,3,1,0.18,18.3333,55.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,55.0,0,305.5964,3,1,0.18,18.3333,55.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,66.0,29,87.3133,1,1,0.7559,66.0,66.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,61.0,27,80.0372,1,1,0.7621,61.0,61.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,57.0,25,76.3991,1,1,0.7461,57.0,57.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,2.0,0,7.2761,1,1,0.2749,2.0,2.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,190.0613,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,114.0,0,110.5811,2,1,1.0309,57.0,114.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,108.0,0,107.1255,2,1,1.0082,54.0,108.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,105.0,0,103.6698,2,1,1.0128,52.5,105.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,129.0,0,321.3764,4,1,0.4014,32.25,129.0,2,2,0,2,1,2,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,123.0,0,307.5537,6,1,0.3999,20.5,123.0,3,2,0,2,2,3,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,120.0,0,300.6424,5,1,0.3991,24.0,120.0,2,2,0,2,1,3,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,116.0,0,290.2754,6,1,0.3996,19.3333,116.0,3,2,0,2,2,3,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,117.0,0,293.7311,5,1,0.3983,23.4,117.0,2,2,0,2,1,3,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,117.0,0,293.7311,5,1,0.3983,23.4,117.0,2,2,0,2,1,3,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,141.0,62,51.8349,2,1,2.7202,70.5,141.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,129.0,57,48.3792,1,1,2.6664,129.0,129.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,122.0,54,44.9236,1,1,2.7157,122.0,122.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,6.0,0,3.4557,1,1,1.7363,6.0,6.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,53.0,0,109.1416,1,1,0.4856,53.0,53.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,50.0,0,101.8655,1,1,0.4908,50.0,50.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,48.0,0,98.2274,1,1,0.4887,48.0,48.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,58.0,0,316.5106,3,1,0.1832,19.3333,58.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,56.0,0,301.9584,3,1,0.1855,18.6667,56.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,55.0,0,294.6823,3,1,0.1866,18.3333,55.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,53.0,0,287.4062,3,1,0.1844,17.6667,53.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,53.0,0,287.4062,3,1,0.1844,17.6667,53.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,53.0,0,287.4062,3,1,0.1844,17.6667,53.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,54.0,29,87.3133,1,1,0.6185,54.0,54.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,49.0,26,76.3991,1,1,0.6414,49.0,49.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,47.0,25,76.3991,1,1,0.6152,47.0,47.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,8.0,0,18.1903,1,1,0.4398,8.0,8.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,190.0613,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,111.0,0,100.2141,1,1,1.1076,111.0,111.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,106.0,0,96.7585,1,1,1.0955,106.0,106.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,103.0,0,93.3028,2,1,1.1039,51.5,103.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,125.0,0,304.0981,4,1,0.4111,31.25,125.0,2,2,0,2,1,2,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,120.0,0,290.2754,5,1,0.4134,24.0,120.0,2,2,0,2,1,3,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,116.0,0,283.3641,4,1,0.4094,29.0,116.0,2,2,0,2,1,2,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,113.0,0,272.9971,5,1,0.4139,22.6,113.0,2,2,0,2,1,3,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,113.0,0,276.4528,5,1,0.4087,22.6,113.0,2,2,0,2,1,3,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,113.0,0,276.4528,4,1,0.4087,28.25,113.0,2,2,0,2,1,2,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,115.0,61,51.8349,2,1,2.2186,57.5,115.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,105.0,56,48.3792,1,1,2.1704,105.0,105.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,100.0,53,44.9236,1,1,2.226,100.0,100.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,17.0,0,6.9113,1,1,2.4597,17.0,17.0,0,0,0,0,0,1,37.45
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,1378.8219,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,507.0,0,1124.1583,8,3,0.451,63.375,169.0,3,3,1,3,2,4,37.45
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,478.0,0,1062.3114,8,3,0.45,59.75,159.3333,3,3,1,3,2,4,37.45
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,463.0,0,1029.5689,10,3,0.4497,46.3,154.3333,4,4,1,4,3,5,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,568.0,0,3154.1916,30,7,0.1801,18.9333,81.1429,13,12,2,11,9,15,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,545.0,0,3030.4978,22,6,0.1798,24.7727,90.8333,9,9,1,8,6,11,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,530.0,0,2939.5465,32,6,0.1803,16.5625,88.3333,14,13,1,12,9,16,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,513.0,0,2852.2333,34,6,0.1799,15.0882,85.5,14,14,1,13,10,17,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,517.0,0,2870.4235,29,6,0.1801,17.8276,86.1667,12,12,1,11,8,15,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,517.0,0,2870.4235,27,6,0.1801,19.1481,86.1667,11,11,1,10,8,14,37.45
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,623.0,275,822.1999,7,2,0.7577,89.0,311.5,3,3,0,3,2,4,37.45
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,573.0,253,756.7149,7,2,0.7572,81.8571,286.5,3,3,0,3,2,4,37.45
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,537.0,237,709.4203,6,2,0.757,89.5,268.5,3,2,0,2,2,3,37.45
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,24.0,0,105.5035,1,1,0.2275,24.0,24.0,0,0,0,0,0,1,37.45
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,1076.0,0,1057.4319,13,4,1.0176,82.7692,269.0,6,5,1,5,4,7,37.45
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,1013.0,0,995.23,13,4,1.0179,77.9231,253.25,6,5,1,5,4,7,37.45
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,983.0,0,964.1291,16,4,1.0196,61.4375,245.75,7,6,1,6,5,8,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,1207.0,0,3023.7023,44,13,0.3992,27.4318,92.8462,19,18,3,17,13,22,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,1159.0,0,2902.7542,45,13,0.3993,25.7556,89.1538,19,18,3,17,13,23,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,1125.0,0,2819.8184,53,12,0.399,21.2264,93.75,22,21,3,20,15,27,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,1091.0,0,2733.4269,53,12,0.3991,20.5849,90.9167,22,21,3,20,15,27,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,1098.0,0,2750.7052,41,12,0.3992,26.7805,91.5,17,17,3,16,12,21,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,1098.0,0,2750.7052,36,12,0.3992,30.5,91.5,15,15,3,14,10,18,37.45
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,1325.0,585,490.7037,19,4,2.7002,69.7368,331.25,8,8,1,7,6,10,37.45
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,1216.0,537,449.2358,10,4,2.7068,121.6,304.0,4,4,1,4,3,5,37.45
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,1141.0,504,421.5905,13,3,2.7064,87.7692,380.3333,6,5,1,5,4,7,37.45
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,52.0,0,44.9236,2,1,1.1575,26.0,52.0,1,1,0,1,1,1,37.45
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,495.0,0,1007.7406,7,3,0.4912,70.7143,165.0,3,3,1,3,2,4,37.45
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,468.0,0,953.1698,7,3,0.491,66.8571,156.0,3,3,1,3,2,4,37.45
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,453.0,0,924.0654,9,3,0.4902,50.3333,151.0,4,4,1,3,3,5,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,551.0,0,2968.6509,28,6,0.1856,19.6786,91.8333,12,11,1,11,8,14,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,529.0,0,2852.2333,21,6,0.1855,25.1905,88.1667,9,8,1,8,6,11,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,514.0,0,2768.558,30,6,0.1857,17.1333,85.6667,13,12,1,11,9,15,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,499.0,0,2684.8828,32,6,0.1859,15.5938,83.1667,14,13,1,12,9,16,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,501.0,0,2699.435,27,6,0.1856,18.5556,83.5,11,11,1,10,8,14,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,501.0,0,2703.0731,25,6,0.1853,20.04,83.5,11,10,1,9,7,13,37.45
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,508.0,271,811.2857,7,2,0.6262,72.5714,254.0,3,3,0,3,2,4,37.45
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,466.0,249,745.8008,7,2,0.6248,66.5714,233.0,3,3,0,3,2,4,37.45
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,438.0,234,698.5061,6,2,0.6271,73.0,219.0,3,2,0,2,2,3,37.45
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,76.0,0,174.6265,2,1,0.4352,38.0,76.0,1,1,0,1,1,1,37.45
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,1052.0,0,946.8508,11,4,1.1111,95.6364,263.0,5,4,1,4,3,6,37.45
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,993.0,0,895.0159,12,3,1.1095,82.75,331.0,5,5,1,5,3,6,37.45
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,961.0,0,863.9149,14,3,1.1124,68.6429,320.3333,6,6,1,5,4,7,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,1170.0,0,2844.008,42,12,0.4114,27.8571,97.5,18,17,3,16,12,21,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,1124.0,0,2733.4269,42,12,0.4112,26.7619,93.6667,18,17,3,16,12,21,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,1091.0,0,2653.9467,50,12,0.4111,21.82,90.9167,21,20,3,19,15,25,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,1058.0,0,2571.0109,50,11,0.4115,21.16,96.1818,21,20,3,19,15,25,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,1065.0,0,2588.2892,39,11,0.4115,27.3077,96.8182,17,16,3,15,11,20,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,1065.0,0,2588.2892,34,11,0.4115,31.3235,96.8182,14,14,3,13,10,17,37.45
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,1079.0,576,483.7924,19,4,2.2303,56.7895,269.75,8,8,1,7,6,10,37.45
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,989.0,528,442.3245,10,4,2.2359,98.9,247.25,4,4,1,4,3,5,37.45
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,929.0,496,418.1348,13,3,2.2218,71.4615,309.6667,6,5,1,5,4,7,37.45
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,161.0,0,76.0245,3,1,2.1177,53.6667,161.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,33.0,0,72.7611,1,1,0.4535,33.0,33.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,30.0,0,69.123,1,1,0.434,30.0,30.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,30.0,0,69.123,1,1,0.434,30.0,30.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,37.0,0,203.7309,2,1,0.1816,18.5,37.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,36.0,0,196.4548,1,1,0.1832,36.0,36.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,34.0,0,189.1787,2,1,0.1797,17.0,34.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,33.0,0,185.5407,2,1,0.1779,16.5,33.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,33.0,0,185.5407,2,1,0.1779,16.5,33.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,34.0,0,185.5407,2,1,0.1832,17.0,34.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,41.0,18,54.5708,1,1,0.7513,41.0,41.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,36.0,16,47.2947,1,1,0.7612,36.0,36.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,34.0,15,43.6566,1,1,0.7788,34.0,34.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,1.0,0,3.6381,1,1,0.2749,1.0,1.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,190.0613,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,70.0,0,69.1132,1,1,1.0128,70.0,70.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,65.0,0,65.6575,1,1,0.99,65.0,65.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,64.0,0,62.2019,1,1,1.0289,64.0,64.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,78.0,0,196.9726,3,1,0.396,26.0,78.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,75.0,0,190.0613,3,1,0.3946,25.0,75.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,73.0,0,183.15,3,1,0.3986,24.3333,73.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,71.0,0,176.2386,3,1,0.4029,23.6667,71.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,72.0,0,179.6943,3,1,0.4007,24.0,72.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,72.0,0,179.6943,2,1,0.4007,36.0,72.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,86.0,38,31.1009,1,1,2.7652,86.0,86.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,79.0,35,27.6453,1,1,2.8576,79.0,79.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,75.0,33,27.6453,1,1,2.7129,75.0,75.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,3.0,0,3.4557,1,1,0.8681,3.0,3.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,32.0,0,65.4849,1,1,0.4887,32.0,32.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,30.0,0,61.8469,1,1,0.4851,30.0,30.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,30.0,0,61.8469,1,1,0.4851,30.0,30.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,36.0,0,192.8168,2,1,0.1867,18.0,36.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,34.0,0,185.5407,1,1,0.1832,34.0,34.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,34.0,0,181.9026,2,1,0.1869,17.0,34.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,32.0,0,174.6265,2,1,0.1832,16.0,32.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,32.0,0,174.6265,2,1,0.1832,16.0,32.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,33.0,0,174.6265,2,1,0.189,16.5,33.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,34.0,18,54.5708,1,1,0.623,34.0,34.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,30.0,16,47.2947,1,1,0.6343,30.0,30.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,28.0,15,43.6566,1,1,0.6414,28.0,28.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,6.0,0,14.5522,1,1,0.4123,6.0,6.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,68.0,0,62.2019,1,1,1.0932,68.0,68.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,65.0,0,58.7462,1,1,1.1065,65.0,65.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,63.0,0,55.2906,1,1,1.1394,63.0,63.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,76.0,0,183.15,3,1,0.415,25.3333,76.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,73.0,0,176.2386,3,1,0.4142,24.3333,73.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,71.0,0,172.783,3,1,0.4109,23.6667,71.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,69.0,0,165.8717,3,1,0.416,23.0,69.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,69.0,0,169.3273,2,1,0.4075,34.5,69.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,69.0,0,169.3273,2,1,0.4075,34.5,69.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,69.0,37,31.1009,1,1,2.2186,69.0,69.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,64.0,34,27.6453,1,1,2.315,64.0,64.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,60.0,32,27.6453,1,1,2.1704,60.0,60.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,9.0,0,3.4557,1,1,2.6044,9.0,9.0,0,0,0,0,0,1,37.45
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,814.0,0,1808.1122,15,3,0.4502,54.2667,271.3333,6,6,1,6,4,8,37.45
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,767.0,0,1702.6086,11,3,0.4505,69.7273,255.6667,5,4,1,4,3,6,37.45
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,744.0,0,1651.6759,10,3,0.4505,74.4,248.0,4,4,1,4,3,5,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,914.0,0,5075.0834,45,12,0.1801,20.3111,76.1667,19,18,3,17,13,23,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,878.0,0,4874.9905,51,12,0.1801,17.2157,73.1667,22,21,3,19,15,26,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,852.0,0,4733.1065,47,11,0.18,18.1277,77.4545,20,19,3,18,14,24,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,826.0,0,4591.2224,46,11,0.1799,17.9565,75.0909,20,19,3,17,13,23,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,832.0,0,4616.6888,31,11,0.1802,26.8387,75.6364,13,12,3,12,9,16,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,832.0,0,4616.6888,44,11,0.1802,18.9091,75.6364,19,18,3,17,13,22,37.45
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,1003.0,443,1324.2512,13,5,0.7574,77.1538,200.6,6,5,1,5,4,7,37.45
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,919.0,406,1215.1096,13,4,0.7563,70.6923,229.75,6,5,1,5,4,7,37.45
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,865.0,382,1142.3485,15,4,0.7572,57.6667,216.25,6,6,1,6,4,8,37.45
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,40.0,0,170.9885,2,1,0.2339,20.0,40.0,1,1,0,1,1,1,37.45
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,1730.0,0,1700.1846,26,7,1.0175,66.5385,247.1429,11,10,2,10,8,13,37.45
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,1631.0,0,1599.9705,24,7,1.0194,67.9583,233.0,10,10,2,9,7,12,37.45
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,1581.0,0,1551.5912,27,7,1.019,58.5556,225.8571,11,11,2,10,8,14,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,1942.0,0,4862.1133,62,39,0.3994,31.3226,49.7949,26,25,9,23,18,32,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,1865.0,0,4672.052,66,38,0.3992,28.2576,49.0789,28,27,9,25,19,34,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,1810.0,0,4533.8256,74,37,0.3992,24.4595,48.9189,31,30,9,28,22,38,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,1756.0,0,4399.0549,60,36,0.3992,29.2667,48.7778,25,24,9,23,17,31,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,1767.0,0,4426.7002,76,36,0.3992,23.25,49.0833,32,31,9,29,22,39,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,1767.0,0,4426.7002,70,36,0.3992,25.2429,49.0833,30,28,9,27,20,36,37.45
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,2133.0,942,791.3461,21,7,2.6954,101.5714,304.7143,9,8,2,8,6,11,37.45
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,1954.0,863,725.6886,23,6,2.6926,84.9565,325.6667,10,9,1,9,7,12,37.45
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,1837.0,811,680.765,18,6,2.6984,102.0556,306.1667,8,7,1,7,5,9,37.45
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,83.0,0,76.0245,2,1,1.0918,41.5,83.0,1,1,0,1,1,1,37.45
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,795.0,0,1618.9334,13,3,0.4911,61.1538,265.0,6,5,1,5,4,7,37.45
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,750.0,0,1527.9821,10,2,0.4908,75.0,375.0,4,4,0,4,3,5,37.45
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,729.0,0,1484.3255,9,2,0.4911,81.0,364.5,4,4,0,3,3,5,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,886.0,0,4773.125,42,12,0.1856,21.0952,73.8333,18,17,3,16,12,21,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,851.0,0,4587.5844,48,11,0.1855,17.7292,77.3636,20,19,3,18,14,24,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,826.0,0,4452.9764,44,11,0.1855,18.7727,75.0909,19,18,3,17,13,22,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,801.0,0,4318.3685,44,10,0.1855,18.2045,80.1,19,18,2,17,13,22,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,806.0,0,4343.8348,29,11,0.1856,27.7931,73.2727,12,12,3,11,8,15,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,806.0,0,4343.8348,42,11,0.1856,19.1905,73.2727,18,17,3,16,12,21,37.45
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,817.0,436,1306.0609,13,5,0.6255,62.8462,163.4,6,5,1,5,4,7,37.45
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,747.0,399,1193.2813,12,4,0.626,62.25,186.75,5,5,1,5,3,6,37.45
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,702.0,375,1120.5202,15,4,0.6265,46.8,175.5,6,6,1,6,4,8,37.45
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,122.0,0,280.1301,2,1,0.4355,61.0,122.0,1,1,0,1,1,1,37.45
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,1691.0,0,1520.4903,23,7,1.1121,73.5217,241.5714,10,9,2,9,7,12,37.45
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,1595.0,0,1434.0988,22,6,1.1122,72.5,265.8333,9,9,1,8,6,11,37.45
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,1547.0,0,1392.6309,24,6,1.1108,64.4583,257.8333,10,10,1,9,7,12,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,1883.0,0,4578.7492,59,37,0.4112,31.9153,50.8919,25,24,9,22,17,30,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,1809.0,0,4395.5992,62,36,0.4115,29.1774,50.25,26,25,9,23,18,32,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,1756.0,0,4267.7398,70,35,0.4115,25.0857,50.1714,30,28,8,27,20,36,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,1703.0,0,4139.8804,56,33,0.4114,30.4107,51.6061,24,23,8,21,16,29,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,1714.0,0,4164.07,72,34,0.4116,23.8056,50.4118,31,29,8,27,21,37,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,1714.0,0,4164.07,65,34,0.4116,26.3692,50.4118,28,26,8,25,19,33,37.45
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,1736.0,927,777.5234,20,7,2.2327,86.8,248.0,8,8,2,8,6,10,37.45
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,1592.0,850,715.3216,23,6,2.2256,69.2174,265.3333,10,9,1,9,7,12,37.45
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,1493.0,797,670.398,18,6,2.227,82.9444,248.8333,8,7,1,7,5,9,37.45
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,257.0,0,120.9481,4,1,2.1249,64.25,257.0,2,2,0,2,1,2,37.45
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,53.0,0,116.4177,1,1,0.4553,53.0,53.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,50.0,0,112.7796,1,1,0.4433,50.0,50.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,49.0,0,109.1416,1,1,0.449,49.0,49.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,59.0,0,331.0628,3,1,0.1782,19.6667,59.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,57.0,0,316.5106,3,1,0.1801,19.0,57.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,55.0,0,305.5964,3,1,0.18,18.3333,55.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,54.0,0,298.3203,3,1,0.181,18.0,54.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,54.0,0,298.3203,2,1,0.181,27.0,54.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,54.0,0,298.3203,3,1,0.181,18.0,54.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,66.0,29,87.3133,1,1,0.7559,66.0,66.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,59.0,26,76.3991,1,1,0.7723,59.0,59.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,57.0,25,76.3991,1,1,0.7461,57.0,57.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,2.0,0,10.9142,1,1,0.1832,2.0,2.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,113.0,0,110.5811,2,1,1.0219,56.5,113.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,106.0,0,103.6698,2,1,1.0225,53.0,106.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,103.0,0,100.2141,2,1,1.0278,51.5,103.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,126.0,0,314.465,4,3,0.4007,31.5,42.0,2,2,1,2,1,2,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,121.0,0,304.0981,4,2,0.3979,30.25,60.5,2,2,0,2,1,2,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,117.0,0,293.7311,5,2,0.3983,23.4,58.5,2,2,0,2,1,3,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,114.0,0,286.8198,4,2,0.3975,28.5,57.0,2,2,0,2,1,2,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,115.0,0,286.8198,5,2,0.4009,23.0,57.5,2,2,0,2,1,3,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,115.0,0,286.8198,4,2,0.4009,28.75,57.5,2,2,0,2,1,2,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,138.0,61,51.8349,1,1,2.6623,138.0,138.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,127.0,56,48.3792,2,1,2.6251,63.5,127.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,120.0,53,44.9236,1,1,2.6712,120.0,120.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,6.0,0,3.4557,1,1,1.7363,6.0,6.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,51.0,0,105.5035,1,1,0.4834,51.0,51.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,48.0,0,98.2274,1,1,0.4887,48.0,48.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,48.0,0,98.2274,1,1,0.4887,48.0,48.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,58.0,0,309.2345,3,1,0.1876,19.3333,58.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,55.0,0,298.3203,3,1,0.1844,18.3333,55.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,54.0,0,291.0442,3,1,0.1855,18.0,54.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,52.0,0,280.1301,3,1,0.1856,17.3333,52.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,52.0,0,283.7681,2,1,0.1832,26.0,52.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,52.0,0,283.7681,3,1,0.1832,17.3333,52.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,53.0,28,83.6752,1,1,0.6334,53.0,53.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,49.0,26,76.3991,1,1,0.6414,49.0,49.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,45.0,24,72.7611,1,1,0.6185,45.0,45.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,8.0,0,18.1903,1,1,0.4398,8.0,8.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,110.0,0,96.7585,1,1,1.1369,110.0,110.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,103.0,0,93.3028,1,1,1.1039,103.0,103.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,101.0,0,89.8472,2,1,1.1241,50.5,101.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,122.0,0,297.1867,4,2,0.4105,30.5,61.0,2,2,0,2,1,2,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,118.0,0,286.8198,4,2,0.4114,29.5,59.0,2,2,0,2,1,2,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,114.0,0,276.4528,4,2,0.4124,28.5,57.0,2,2,0,2,1,2,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,111.0,0,269.5415,4,2,0.4118,27.75,55.5,2,2,0,2,1,2,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,112.0,0,269.5415,5,2,0.4155,22.4,56.0,2,2,0,2,1,3,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,112.0,0,269.5415,4,2,0.4155,28.0,56.0,2,2,0,2,1,2,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,113.0,60,51.8349,1,1,2.18,113.0,113.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,103.0,55,44.9236,2,1,2.2928,51.5,103.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,98.0,52,44.9236,1,1,2.1815,98.0,98.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,17.0,0,10.367,1,1,1.6398,17.0,17.0,0,0,0,0,0,1,37.45
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,960.0,0,2131.8988,17,4,0.4503,56.4706,240.0,7,7,1,6,5,9,37.45
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,905.0,0,2011.8431,13,4,0.4498,69.6154,226.25,6,5,1,5,4,7,37.45
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,878.0,0,1949.9962,16,4,0.4503,54.875,219.5,7,6,1,6,5,8,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1079.0,0,5988.2346,51,15,0.1802,21.1569,71.9333,22,21,4,19,15,26,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1036.0,0,5751.7612,40,14,0.1801,25.9,74.0,17,16,3,15,12,20,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1006.0,0,5584.4108,45,14,0.1801,22.3556,71.8571,19,18,3,17,13,23,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,975.0,0,5417.0604,47,14,0.18,20.7447,69.6429,20,19,3,18,14,24,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,981.0,0,5449.8028,52,14,0.18,18.8654,70.0714,22,21,3,20,15,26,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,981.0,0,5449.8028,41,14,0.18,23.9268,70.0714,17,17,3,16,12,21,37.45
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1184.0,523,1564.3626,14,11,0.7569,84.5714,107.6364,6,6,3,5,4,7,37.45
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1085.0,479,1433.3927,11,10,0.7569,98.6364,108.5,5,4,2,4,3,6,37.45
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1019.0,450,1346.0795,11,9,0.757,92.6364,113.2222,5,4,2,4,3,6,37.45
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,47.0,0,203.7309,2,1,0.2307,23.5,47.0,1,1,0,1,1,1,37.45
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2040.0,0,2004.2827,28,18,1.0178,72.8571,113.3333,12,11,4,11,8,14,37.45
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1925.0,0,1890.2459,23,17,1.0184,83.6957,113.2353,10,9,4,9,7,12,37.45
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1865.0,0,1831.4997,26,16,1.0183,71.7308,116.5625,11,10,4,10,8,13,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2292.0,0,5739.8509,92,42,0.3993,24.913,54.5714,39,37,10,35,27,47,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2202.0,0,5515.233,100,41,0.3993,22.02,53.7073,42,40,10,38,29,51,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2137.0,0,5352.817,102,39,0.3992,20.951,54.7949,43,41,9,39,30,52,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2073.0,0,5190.401,90,38,0.3994,23.0333,54.5526,38,36,9,34,26,46,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2085.0,0,5224.9576,87,38,0.399,23.9655,54.8684,37,35,9,33,25,44,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2085.0,0,5224.9576,72,38,0.399,28.9583,54.8684,31,29,9,27,21,37,37.45
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2516.0,1111,933.0281,21,6,2.6966,119.8095,419.3333,9,8,1,8,6,11,37.45
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2307.0,1019,857.0036,21,6,2.6919,109.8571,384.5,9,8,1,8,6,11,37.45
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2167.0,957,805.1687,24,5,2.6914,90.2917,433.4,10,10,1,9,7,12,37.45
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,99.0,0,89.8472,3,1,1.1019,33.0,99.0,1,1,0,1,1,2,37.45
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,939.0,0,1913.6157,15,4,0.4907,62.6,234.75,6,6,1,6,4,8,37.45
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,886.0,0,1804.4741,12,4,0.491,73.8333,221.5,5,5,1,5,3,6,37.45
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,858.0,0,1749.9033,15,3,0.4903,57.2,286.0,6,6,1,6,4,8,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1046.0,0,5635.3435,48,14,0.1856,21.7917,74.7143,20,19,3,18,14,24,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1005.0,0,5413.4223,38,14,0.1856,26.4474,71.7857,16,15,3,14,11,19,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,975.0,0,5256.986,43,13,0.1855,22.6744,75.0,18,17,3,16,13,22,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,946.0,0,5096.9117,45,13,0.1856,21.0222,72.7692,19,18,3,17,13,23,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,951.0,0,5129.6542,49,13,0.1854,19.4082,73.1538,21,20,3,19,14,25,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,952.0,0,5129.6542,39,13,0.1856,24.4103,73.2308,17,16,3,15,11,20,37.45
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,963.0,514,1538.8963,14,11,0.6258,68.7857,87.5455,6,6,3,5,4,7,37.45
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,882.0,471,1407.9264,11,10,0.6265,80.1818,88.2,5,4,2,4,3,6,37.45
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,830.0,443,1324.2512,11,9,0.6268,75.4545,92.2222,5,4,2,4,3,6,37.45
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,143.0,0,327.4247,3,1,0.4367,47.6667,143.0,1,1,0,1,1,2,37.45
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,2882.0203,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1997.0,0,1796.9431,25,16,1.1113,79.88,124.8125,11,10,4,9,7,13,37.45
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1882.0,0,1693.2733,21,15,1.1115,89.619,125.4667,9,8,4,8,6,11,37.45
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1826.0,0,1644.8941,23,15,1.1101,79.3913,121.7333,10,9,4,9,7,12,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2222.0,0,5401.1962,86,40,0.4114,25.8372,55.55,36,35,10,33,25,44,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2135.0,0,5190.401,94,38,0.4113,22.7128,56.1842,40,38,9,36,27,48,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2073.0,0,5038.352,96,37,0.4114,21.5938,56.027,41,39,9,36,28,49,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2010.0,0,4886.3029,85,36,0.4114,23.6471,55.8333,36,34,9,32,25,43,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2022.0,0,4917.4039,82,36,0.4112,24.6585,56.1667,35,33,9,31,24,42,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2022.0,0,4917.4039,68,36,0.4112,29.7353,56.1667,29,27,9,26,20,35,37.45
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2047.0,1093,919.2055,20,6,2.2269,102.35,341.1667,8,8,1,8,6,10,37.45
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1877.0,1002,843.181,20,5,2.2261,93.85,375.4,8,8,1,8,6,10,37.45
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1763.0,941,791.3461,24,5,2.2278,73.4583,352.6,10,10,1,9,7,12,37.45
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,304.0,0,145.1377,5,1,2.0946,60.8,304.0,2,2,0,2,1,3,37.45
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,62.0,0,138.246,1,1,0.4485,62.0,62.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,59.0,0,130.9699,1,1,0.4505,59.0,59.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,58.0,0,127.3318,1,1,0.4555,58.0,58.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,70.0,0,389.2716,3,1,0.1798,23.3333,70.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,67.0,0,374.7194,3,1,0.1788,22.3333,67.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,66.0,0,363.8053,3,1,0.1814,22.0,66.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,63.0,0,352.8911,3,1,0.1785,21.0,63.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,64.0,0,352.8911,3,1,0.1814,21.3333,64.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,64.0,0,352.8911,3,1,0.1814,21.3333,64.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,77.0,34,101.8655,1,1,0.7559,77.0,77.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,70.0,31,94.5894,1,1,0.74,70.0,70.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,66.0,29,87.3133,1,1,0.7559,66.0,66.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,3.0,0,14.5522,1,1,0.2062,3.0,3.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,132.0,0,131.3151,2,1,1.0052,66.0,132.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,125.0,0,120.9481,2,1,1.0335,62.5,125.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,122.0,0,120.9481,2,1,1.0087,61.0,122.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,149.0,0,373.2113,6,3,0.3992,24.8333,49.6667,3,2,1,2,2,3,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,143.0,0,359.3886,6,3,0.3979,23.8333,47.6667,3,2,1,2,2,3,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,139.0,0,349.0216,6,3,0.3983,23.1667,46.3333,3,2,1,2,2,3,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,135.0,0,338.6547,6,2,0.3986,22.5,67.5,3,2,0,2,2,3,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,136.0,0,338.6547,6,3,0.4016,22.6667,45.3333,3,2,1,2,2,3,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,135.0,0,338.6547,5,2,0.3986,27.0,67.5,2,2,0,2,1,3,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,163.0,72,58.7462,1,1,2.7746,163.0,163.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,150.0,66,55.2906,1,1,2.7129,150.0,150.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,141.0,62,51.8349,2,1,2.7202,70.5,141.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,7.0,0,6.9113,1,1,1.0128,7.0,7.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,61.0,0,123.6938,1,1,0.4932,61.0,61.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,58.0,0,116.4177,1,1,0.4982,58.0,58.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,56.0,0,116.4177,1,1,0.481,56.0,56.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,68.0,0,367.4433,3,1,0.1851,22.6667,68.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,65.0,0,352.8911,2,1,0.1842,32.5,65.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,63.0,0,341.9769,3,1,0.1842,21.0,63.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,61.0,0,331.0628,3,1,0.1843,20.3333,61.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,62.0,0,334.7008,3,1,0.1852,20.6667,62.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,62.0,0,334.7008,2,1,0.1852,31.0,62.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,62.0,33,98.2274,1,1,0.6312,62.0,62.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,58.0,31,94.5894,1,1,0.6132,58.0,58.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,54.0,29,87.3133,1,1,0.6185,54.0,54.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,10.0,0,21.8283,1,1,0.4581,10.0,10.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,129.0,0,117.4924,2,1,1.0979,64.5,129.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,123.0,0,110.5811,1,1,1.1123,123.0,123.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,119.0,0,107.1255,2,1,1.1108,59.5,119.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,144.0,0,352.4773,5,3,0.4085,28.8,48.0,2,2,1,2,1,3,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,139.0,0,338.6547,6,2,0.4104,23.1667,69.5,3,2,0,2,2,3,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,135.0,0,328.2877,6,2,0.4112,22.5,67.5,3,2,0,2,2,3,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,131.0,0,317.9207,5,2,0.4121,26.2,65.5,2,2,0,2,1,3,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,131.0,0,317.9207,5,2,0.4121,26.2,65.5,2,2,0,2,1,3,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,131.0,0,317.9207,4,2,0.4121,32.75,65.5,2,2,0,2,1,2,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,133.0,71,58.7462,1,1,2.264,133.0,133.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,122.0,65,55.2906,1,1,2.2065,122.0,122.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,115.0,61,51.8349,2,1,2.2186,57.5,115.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,19.0,0,10.367,1,1,1.8327,19.0,19.0,0,0,0,0,0,1,37.45
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,636.0,0,1411.5644,12,2,0.4506,53.0,318.0,5,5,0,5,3,6,37.45
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,599.0,0,1331.5273,10,2,0.4499,59.9,299.5,4,4,0,4,3,5,37.45
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,581.0,0,1291.5087,14,2,0.4499,41.5,290.5,6,6,0,5,4,7,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,713.0,0,3961.8393,35,6,0.18,20.3714,118.8333,15,14,1,13,10,18,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,685.0,0,3805.403,38,6,0.18,18.0263,114.1667,16,15,1,14,11,19,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,665.0,0,3692.6234,38,5,0.1801,17.5,133.0,16,15,1,14,11,19,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,645.0,0,3583.4818,30,5,0.18,21.5,129.0,13,12,1,11,9,15,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,649.0,0,3605.3102,42,5,0.18,15.4524,129.8,18,17,1,16,12,21,37.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,649.0,0,3605.3102,35,5,0.18,18.5429,129.8,15,14,1,13,10,18,37.45
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,784.0,346,1033.2069,10,3,0.7588,78.4,261.3333,4,4,1,4,3,5,37.45
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,718.0,317,949.5317,9,2,0.7562,79.7778,359.0,4,4,0,3,3,5,37.45
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,675.0,298,891.3229,10,2,0.7573,67.5,337.5,4,4,0,4,3,5,37.45
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,30.0,0,130.9699,1,1,0.2291,30.0,30.0,0,0,0,0,0,1,37.45
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,2882.0203,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,1351.0,0,1326.9734,23,5,1.0181,58.7391,270.2,10,9,1,9,7,12,37.45
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,1274.0,0,1250.9488,17,4,1.0184,74.9412,318.5,7,7,1,6,5,9,37.45
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,1235.0,0,1212.9366,15,4,1.0182,82.3333,308.75,6,6,1,6,4,8,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,1516.0,0,3797.7701,50,13,0.3992,30.32,116.6154,21,20,3,19,15,25,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,1457.0,0,3649.1767,80,13,0.3993,18.2125,112.0769,34,32,3,30,23,41,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,1414.0,0,3542.0513,47,12,0.3992,30.0851,117.8333,20,19,3,18,14,24,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,1371.0,0,3434.9258,49,12,0.3991,27.9796,114.25,21,20,3,19,14,25,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,1379.0,0,3455.6598,51,12,0.3991,27.0392,114.9167,22,21,3,19,15,26,37.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,1379.0,0,3455.6598,47,12,0.3991,29.3404,114.9167,20,19,3,18,14,24,37.45
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,1664.0,735,618.5631,14,16,2.6901,118.8571,104.0,6,6,4,5,4,7,37.45
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,1526.0,674,566.7282,13,15,2.6926,117.3846,101.7333,6,5,4,5,4,7,37.45
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,1433.0,633,532.1716,16,14,2.6927,89.5625,102.3571,7,6,3,6,5,8,37.45
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,65.0,0,58.7462,2,1,1.1065,32.5,65.0,1,1,0,1,1,1,37.45
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,622.0,0,1269.6804,10,2,0.4899,62.2,311.0,4,4,0,4,3,5,37.45
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,586.0,0,1193.2813,9,2,0.4911,65.1111,293.0,4,4,0,3,3,5,37.45
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,569.0,0,1160.5388,13,2,0.4903,43.7692,284.5,6,5,0,5,4,7,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,692.0,0,3729.0039,33,6,0.1856,20.9697,115.3333,14,13,1,13,10,17,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,665.0,0,3583.4818,36,5,0.1856,18.4722,133.0,15,15,1,14,10,18,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,646.0,0,3477.9783,36,5,0.1857,17.9444,129.2,15,15,1,14,10,18,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,626.0,0,3372.4748,28,5,0.1856,22.3571,125.2,12,11,1,11,8,14,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,629.0,0,3394.3031,39,5,0.1853,16.1282,125.8,17,16,1,15,11,20,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,629.0,0,3394.3031,33,5,0.1853,19.0606,125.8,14,13,1,13,10,17,37.45
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,637.0,340,1018.6547,10,3,0.6253,63.7,212.3333,4,4,1,4,3,5,37.45
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,584.0,312,934.9795,9,2,0.6246,64.8889,292.0,4,4,0,3,3,5,37.45
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,549.0,293,876.7707,10,2,0.6262,54.9,274.5,4,4,0,4,3,5,37.45
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,94.0,0,218.2832,2,1,0.4306,47.0,94.0,1,1,0,1,1,1,37.45
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,2882.0203,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,1321.0,0,1188.747,21,4,1.1113,62.9048,330.25,9,8,1,8,6,11,37.45
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,1245.0,0,1119.6338,16,4,1.112,77.8125,311.25,7,6,1,6,5,8,37.45
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,1208.0,0,1088.5328,14,4,1.1098,86.2857,302.0,6,6,1,5,4,7,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,1470.0,0,3573.1522,47,12,0.4114,31.2766,122.5,20,19,3,18,14,24,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,1412.0,0,3434.9258,75,12,0.4111,18.8267,117.6667,32,30,3,28,22,38,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,1371.0,0,3331.256,44,12,0.4116,31.1591,114.25,19,18,3,17,13,22,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,1330.0,0,3231.0419,46,11,0.4116,28.913,120.9091,20,19,3,17,13,23,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,1338.0,0,3251.7758,48,11,0.4115,27.875,121.6364,20,19,3,18,14,24,37.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,1338.0,0,3251.7758,44,11,0.4115,30.4091,121.6364,19,18,3,17,13,22,37.45
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,1354.0,723,608.1961,14,16,2.2263,96.7143,84.625,6,6,4,5,4,7,37.45
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,1242.0,663,556.3612,13,14,2.2324,95.5385,88.7143,6,5,3,5,4,7,37.45
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,1167.0,623,521.8046,15,13,2.2365,77.8,89.7692,6,6,3,6,4,8,37.45
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,202.0,0,96.7585,4,1,2.0877,50.5,202.0,2,2,0,2,1,2,37.45
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,41.0,0,90.9513,1,1,0.4508,41.0,41.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,40.0,0,87.3133,1,1,0.4581,40.0,40.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,38.0,0,83.6752,1,1,0.4541,38.0,38.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,46.0,0,258.3017,2,1,0.1781,23.0,46.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,45.0,0,247.3876,2,1,0.1819,22.5,45.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,43.0,0,240.1115,2,1,0.1791,21.5,43.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,42.0,0,232.8354,2,1,0.1804,21.0,42.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,42.0,0,232.8354,3,1,0.1804,14.0,42.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,42.0,0,232.8354,2,1,0.1804,21.0,42.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,50.0,22,65.4849,1,1,0.7635,50.0,50.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,48.0,21,61.8469,1,1,0.7761,48.0,48.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,43.0,19,58.2088,1,1,0.7387,43.0,43.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,2.0,0,10.9142,1,1,0.1832,2.0,2.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,88.0,0,86.3915,2,1,1.0186,44.0,88.0,1,1,0,1,1,1,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,82.0,0,79.4802,1,1,1.0317,82.0,82.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,81.0,0,79.4802,1,1,1.0191,81.0,81.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,99.0,0,245.3518,3,1,0.4035,33.0,99.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,94.0,0,238.4405,5,1,0.3942,18.8,94.0,2,2,0,2,1,3,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,92.0,0,231.5292,3,1,0.3974,30.6667,92.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,89.0,0,221.1622,3,1,0.4024,29.6667,89.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,90.0,0,224.6179,3,1,0.4007,30.0,90.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,90.0,0,224.6179,3,1,0.4007,30.0,90.0,1,1,0,1,1,2,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,109.0,48,41.4679,1,1,2.6285,109.0,109.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,100.0,44,38.0123,1,1,2.6307,100.0,100.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,93.0,41,34.5566,1,1,2.6912,93.0,93.0,0,0,0,0,0,1,37.45
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,5.0,0,3.4557,1,1,1.4469,5.0,5.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,40.0,0,80.0372,1,1,0.4998,40.0,40.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,38.0,0,76.3991,1,1,0.4974,38.0,38.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,37.0,0,72.7611,1,1,0.5085,37.0,37.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,45.0,0,243.7495,2,1,0.1846,22.5,45.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,43.0,0,232.8354,2,1,0.1847,21.5,43.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,42.0,0,225.5593,2,1,0.1862,21.0,42.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,41.0,0,218.2832,2,1,0.1878,20.5,41.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,41.0,0,221.9212,2,1,0.1848,20.5,41.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,41.0,0,221.9212,2,1,0.1848,20.5,41.0,1,1,0,1,1,1,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,41.0,22,65.4849,1,1,0.6261,41.0,41.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,38.0,20,61.8469,1,1,0.6144,38.0,38.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,36.0,19,58.2088,1,1,0.6185,36.0,36.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,6.0,0,14.5522,1,1,0.4123,6.0,6.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,0,0,0,0,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,86.0,0,76.0245,1,1,1.1312,86.0,86.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,81.0,0,72.5689,1,1,1.1162,81.0,81.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,78.0,0,69.1132,1,1,1.1286,78.0,78.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,96.0,0,231.5292,3,1,0.4146,32.0,96.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,92.0,0,224.6179,5,1,0.4096,18.4,92.0,2,2,0,2,1,3,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,89.0,0,217.7066,3,1,0.4088,29.6667,89.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,87.0,0,210.7952,3,1,0.4127,29.0,87.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,87.0,0,210.7952,3,1,0.4127,29.0,87.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,87.0,0,210.7952,3,1,0.4127,29.0,87.0,1,1,0,1,1,2,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,88.0,47,38.0123,1,1,2.315,88.0,88.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,81.0,43,34.5566,1,1,2.344,81.0,81.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,75.0,40,34.5566,1,1,2.1704,75.0,75.0,0,0,0,0,0,1,37.45
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,13.0,0,6.9113,1,1,1.881,13.0,13.0,0,0,0,0,0,1,37.45
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,1378.8219,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.15
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,828.0,0,1840.8546,12,8,0.4498,69.0,103.5,4.9642,4.1499,1.6742,4.2817,2.9436,6.6446,37.15
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,781.0,0,1735.3511,13,7,0.4501,60.0769,111.5714,5.3779,4.4957,1.4649,4.6385,3.1889,7.1984,37.15
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,758.0,0,1684.4184,13,7,0.45,58.3077,108.2857,5.3779,4.4957,1.4649,4.6385,3.1889,7.1984,37.15
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,930.0,0,5162.3967,47,10,0.1801,19.7872,93.0,19.4431,16.2536,2.0927,16.7698,11.5289,26.0249,37.15
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,893.0,0,4962.3038,45,10,0.18,19.8444,89.3,18.6157,15.562,2.0927,16.0562,11.0383,24.9174,37.15
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,867.0,0,4816.7817,44,10,0.18,19.7045,86.7,18.202,15.2162,2.0927,15.6994,10.7931,24.3637,37.15
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,841.0,0,4671.2596,46,9,0.18,18.2826,93.4444,19.0294,15.9078,1.8835,16.413,11.2836,25.4712,37.15
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,846.0,0,4700.364,45,9,0.18,18.8,94.0,18.6157,15.562,1.8835,16.0562,11.0383,24.9174,37.15
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,846.0,0,4700.364,46,9,0.18,18.3913,94.0,19.0294,15.9078,1.8835,16.413,11.2836,25.4712,37.15
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1021.0,451,1349.7175,12,7,0.7565,85.0833,145.8571,4.9642,4.1499,1.4649,4.2817,2.9436,6.6446,37.15
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,935.0,413,1236.9379,12,6,0.7559,77.9167,155.8333,4.9642,4.1499,1.2556,4.2817,2.9436,6.6446,37.15
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,879.0,388,1160.5388,9,6,0.7574,97.6667,146.5,3.7231,3.1124,1.2556,3.2112,2.2077,4.9835,37.15
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,40.0,0,170.9885,2,1,0.2339,20.0,40.0,0.8274,0.6916,0.2093,0.7136,0.4906,1.1074,37.15
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.15
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1760.0,0,1727.8299,24,6,1.0186,73.3333,293.3333,9.9284,8.2997,1.2556,8.5633,5.8871,13.2893,37.15
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1660.0,0,1631.0714,25,5,1.0177,66.4,332.0,10.3421,8.6456,1.0464,8.9201,6.1324,13.843,37.15
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1610.0,0,1579.2365,28,5,1.0195,57.5,322.0,11.5831,9.683,1.0464,9.9905,6.8683,15.5042,37.15
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1976.0,0,4948.5048,69,18,0.3993,28.6377,109.7778,28.5441,23.8617,3.7669,24.6195,16.9255,38.2067,37.15
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1898.0,0,4754.9878,90,17,0.3992,21.0889,111.6471,37.2314,31.124,3.5577,32.1124,22.0767,49.8349,37.15
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1843.0,0,4616.7615,71,17,0.3992,25.9577,108.4118,29.3714,24.5534,3.5577,25.3331,17.4161,39.3142,37.15
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1787.0,0,4475.0794,89,16,0.3993,20.0787,111.6875,36.8177,30.7782,3.3484,31.7556,21.8314,49.2811,37.15
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1798.0,0,4502.7247,81,16,0.3993,22.1975,112.375,33.5083,28.0116,3.3484,28.9012,19.869,44.8514,37.15
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1798.0,0,4502.7247,75,16,0.3993,23.9733,112.375,31.0262,25.9367,3.3484,26.7603,18.3972,41.5291,37.15
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,2169.0,958,805.1687,23,7,2.6938,94.3043,309.8571,9.5147,7.9539,1.4649,8.2065,5.6418,12.7356,37.15
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1988.0,878,736.0555,18,6,2.7009,110.4444,331.3333,7.4463,6.2248,1.2556,6.4225,4.4153,9.967,37.15
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1868.0,825,691.132,17,6,2.7028,109.8824,311.3333,7.0326,5.879,1.2556,6.0657,4.17,9.4133,37.15
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,86.0,0,76.0245,2,1,1.1312,43.0,86.0,0.8274,0.6916,0.2093,0.7136,0.4906,1.1074,37.15
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,1378.8219,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.15
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,810.0,0,1651.6759,11,7,0.4904,73.6364,115.7143,4.5505,3.804,1.4649,3.9248,2.6983,6.0909,37.15
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,764.0,0,1557.0865,11,7,0.4907,69.4545,109.1429,4.5505,3.804,1.4649,3.9248,2.6983,6.0909,37.15
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,740.0,0,1509.7918,12,6,0.4901,61.6667,123.3333,4.9642,4.1499,1.2556,4.2817,2.9436,6.6446,37.15
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,902.0,0,4860.4383,44,10,0.1856,20.5,90.2,18.202,15.2162,2.0927,15.6994,10.7931,24.3637,37.15
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,866.0,0,4667.6215,42,9,0.1855,20.619,96.2222,17.3747,14.5245,1.8835,14.9858,10.3025,23.2563,37.15
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,841.0,0,4533.0136,42,9,0.1855,20.0238,93.4444,17.3747,14.5245,1.8835,14.9858,10.3025,23.2563,37.15
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,816.0,0,4394.7676,43,9,0.1857,18.9767,90.6667,17.7883,14.8704,1.8835,15.3426,10.5478,23.81,37.15
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,821.0,0,4423.872,42,9,0.1856,19.5476,91.2222,17.3747,14.5245,1.8835,14.9858,10.3025,23.2563,37.15
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,820.0,0,4423.872,43,9,0.1854,19.0698,91.1111,17.7883,14.8704,1.8835,15.3426,10.5478,23.81,37.15
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,832.0,444,1327.8892,12,7,0.6266,69.3333,118.8571,4.9642,4.1499,1.4649,4.2817,2.9436,6.6446,37.15
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,762.0,407,1218.7476,12,6,0.6252,63.5,127.0,4.9642,4.1499,1.2556,4.2817,2.9436,6.6446,37.15
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,715.0,382,1142.3485,9,6,0.6259,79.4444,119.1667,3.7231,3.1124,1.2556,3.2112,2.2077,4.9835,37.15
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,123.0,0,283.7681,4,1,0.4335,30.75,123.0,1.6547,1.3833,0.2093,1.4272,0.9812,2.2149,37.15
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.15
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1721.0,0,1548.1356,21,5,1.1117,81.9524,344.2,8.6873,7.2623,1.0464,7.4929,5.1512,11.6281,37.15
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1623.0,0,1461.7441,23,5,1.1103,70.5652,324.6,9.5147,7.9539,1.0464,8.2065,5.6418,12.7356,37.15
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1574.0,0,1416.8205,25,5,1.1109,62.96,314.8,10.3421,8.6456,1.0464,8.9201,6.1324,13.843,37.15
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1916.0,0,4658.2294,65,17,0.4113,29.4769,112.7059,26.8893,22.4784,3.5577,23.1923,15.9443,35.9918,37.15
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1841.0,0,4475.0794,85,16,0.4114,21.6588,115.0625,35.163,29.3949,3.3484,30.3284,20.8502,47.0663,37.15
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1787.0,0,4343.7643,67,16,0.4114,26.6716,111.6875,27.7167,23.1701,3.3484,23.9059,16.4349,37.0993,37.15
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1733.0,0,4212.4493,84,15,0.4114,20.631,115.5333,34.7493,29.0491,3.1391,29.9716,20.6049,46.5125,37.15
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1744.0,0,4240.0945,76,15,0.4113,22.9474,116.2667,31.4398,26.2825,3.1391,27.1171,18.6425,42.0828,37.15
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1744.0,0,4240.0945,70,15,0.4113,24.9143,116.2667,28.9578,24.2076,3.1391,24.9763,17.1708,38.7604,37.15
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1766.0,943,791.3461,23,6,2.2316,76.7826,294.3333,9.5147,7.9539,1.2556,8.2065,5.6418,12.7356,37.15
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1618.0,864,725.6886,18,6,2.2296,89.8889,269.6667,7.4463,6.2248,1.2556,6.4225,4.4153,9.967,37.15
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,1521.0,812,680.765,17,6,2.2343,89.4706,253.5,7.0326,5.879,1.2556,6.0657,4.17,9.4133,37.15
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,263.0,0,124.4038,4,1,2.1141,65.75,263.0,1.6547,1.3833,0.2093,1.4272,0.9812,2.2149,37.15
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.15
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,53.0,0,116.4177,1,1,0.4553,53.0,53.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,50.0,0,112.7796,1,1,0.4433,50.0,50.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,49.0,0,109.1416,1,1,0.449,49.0,49.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,60.0,0,334.7008,3,1,0.1793,20.0,60.0,1.241,1.0375,0.2093,1.0704,0.7359,1.6612,37.15
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,58.0,0,323.7867,3,1,0.1791,19.3333,58.0,1.241,1.0375,0.2093,1.0704,0.7359,1.6612,37.15
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,57.0,0,312.8725,3,1,0.1822,19.0,57.0,1.241,1.0375,0.2093,1.0704,0.7359,1.6612,37.15
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,55.0,0,305.5964,3,1,0.18,18.3333,55.0,1.241,1.0375,0.2093,1.0704,0.7359,1.6612,37.15
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,55.0,0,305.5964,3,1,0.18,18.3333,55.0,1.241,1.0375,0.2093,1.0704,0.7359,1.6612,37.15
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,55.0,0,305.5964,3,1,0.18,18.3333,55.0,1.241,1.0375,0.2093,1.0704,0.7359,1.6612,37.15
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,66.0,29,87.3133,1,1,0.7559,66.0,66.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,61.0,27,80.0372,1,1,0.7621,61.0,61.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,57.0,25,76.3991,1,1,0.7461,57.0,57.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,2.0,0,7.2761,1,1,0.2749,2.0,2.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,190.0613,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.15
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,114.0,0,110.5811,2,1,1.0309,57.0,114.0,0.8274,0.6916,0.2093,0.7136,0.4906,1.1074,37.15
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,108.0,0,107.1255,2,1,1.0082,54.0,108.0,0.8274,0.6916,0.2093,0.7136,0.4906,1.1074,37.15
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,105.0,0,103.6698,2,1,1.0128,52.5,105.0,0.8274,0.6916,0.2093,0.7136,0.4906,1.1074,37.15
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,129.0,0,321.3764,4,1,0.4014,32.25,129.0,1.6547,1.3833,0.2093,1.4272,0.9812,2.2149,37.15
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,123.0,0,307.5537,6,1,0.3999,20.5,123.0,2.4821,2.0749,0.2093,2.1408,1.4718,3.3223,37.15
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,120.0,0,300.6424,5,1,0.3991,24.0,120.0,2.0684,1.7291,0.2093,1.784,1.2265,2.7686,37.15
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,116.0,0,290.2754,6,1,0.3996,19.3333,116.0,2.4821,2.0749,0.2093,2.1408,1.4718,3.3223,37.15
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,117.0,0,293.7311,5,1,0.3983,23.4,117.0,2.0684,1.7291,0.2093,1.784,1.2265,2.7686,37.15
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,117.0,0,293.7311,5,1,0.3983,23.4,117.0,2.0684,1.7291,0.2093,1.784,1.2265,2.7686,37.15
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,141.0,62,51.8349,2,1,2.7202,70.5,141.0,0.8274,0.6916,0.2093,0.7136,0.4906,1.1074,37.15
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,129.0,57,48.3792,1,1,2.6664,129.0,129.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,122.0,54,44.9236,1,1,2.7157,122.0,122.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,6.0,0,3.4557,1,1,1.7363,6.0,6.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.15
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,53.0,0,109.1416,1,1,0.4856,53.0,53.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,50.0,0,101.8655,1,1,0.4908,50.0,50.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,48.0,0,98.2274,1,1,0.4887,48.0,48.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,58.0,0,316.5106,3,1,0.1832,19.3333,58.0,1.241,1.0375,0.2093,1.0704,0.7359,1.6612,37.15
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,56.0,0,301.9584,3,1,0.1855,18.6667,56.0,1.241,1.0375,0.2093,1.0704,0.7359,1.6612,37.15
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,55.0,0,294.6823,3,1,0.1866,18.3333,55.0,1.241,1.0375,0.2093,1.0704,0.7359,1.6612,37.15
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,53.0,0,287.4062,3,1,0.1844,17.6667,53.0,1.241,1.0375,0.2093,1.0704,0.7359,1.6612,37.15
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,53.0,0,287.4062,3,1,0.1844,17.6667,53.0,1.241,1.0375,0.2093,1.0704,0.7359,1.6612,37.15
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,53.0,0,287.4062,3,1,0.1844,17.6667,53.0,1.241,1.0375,0.2093,1.0704,0.7359,1.6612,37.15
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,54.0,29,87.3133,1,1,0.6185,54.0,54.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,49.0,26,76.3991,1,1,0.6414,49.0,49.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,47.0,25,76.3991,1,1,0.6152,47.0,47.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,8.0,0,18.1903,1,1,0.4398,8.0,8.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,0.0,0,190.0613,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.15
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,111.0,0,100.2141,1,1,1.1076,111.0,111.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,106.0,0,96.7585,1,1,1.0955,106.0,106.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,103.0,0,93.3028,2,1,1.1039,51.5,103.0,0.8274,0.6916,0.2093,0.7136,0.4906,1.1074,37.15
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,125.0,0,304.0981,4,1,0.4111,31.25,125.0,1.6547,1.3833,0.2093,1.4272,0.9812,2.2149,37.15
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,120.0,0,290.2754,5,1,0.4134,24.0,120.0,2.0684,1.7291,0.2093,1.784,1.2265,2.7686,37.15
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,116.0,0,283.3641,4,1,0.4094,29.0,116.0,1.6547,1.3833,0.2093,1.4272,0.9812,2.2149,37.15
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,113.0,0,272.9971,5,1,0.4139,22.6,113.0,2.0684,1.7291,0.2093,1.784,1.2265,2.7686,37.15
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,113.0,0,276.4528,5,1,0.4087,22.6,113.0,2.0684,1.7291,0.2093,1.784,1.2265,2.7686,37.15
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,113.0,0,276.4528,4,1,0.4087,28.25,113.0,1.6547,1.3833,0.2093,1.4272,0.9812,2.2149,37.15
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,115.0,61,51.8349,2,1,2.2186,57.5,115.0,0.8274,0.6916,0.2093,0.7136,0.4906,1.1074,37.15
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,105.0,56,48.3792,1,1,2.1704,105.0,105.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,100.0,53,44.9236,1,1,2.226,100.0,100.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Ado-Ekiti,South West,Ekiti,Ado-Ekiti,,,17.0,0,6.9113,1,1,2.4597,17.0,17.0,0.4137,0.3458,0.2093,0.3568,0.2453,0.5537,37.15
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,1378.8219,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.9
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,507.0,0,1124.1583,8,3,0.451,63.375,169.0,3.2192,2.7819,0.8384,2.7693,2.4603,4.1489,37.9
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,478.0,0,1062.3114,8,3,0.45,59.75,159.3333,3.2192,2.7819,0.8384,2.7693,2.4603,4.1489,37.9
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,463.0,0,1029.5689,10,3,0.4497,46.3,154.3333,4.0241,3.4773,0.8384,3.4616,3.0754,5.1862,37.9
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,568.0,0,3154.1916,30,7,0.1801,18.9333,81.1429,12.0722,10.432,1.9563,10.3849,9.2263,15.5585,37.9
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,545.0,0,3030.4978,22,6,0.1798,24.7727,90.8333,8.8529,7.6501,1.6768,7.6156,6.766,11.4096,37.9
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,530.0,0,2939.5465,32,6,0.1803,16.5625,88.3333,12.877,11.1275,1.6768,11.0772,9.8414,16.5958,37.9
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,513.0,0,2852.2333,34,6,0.1799,15.0882,85.5,13.6818,11.8229,1.6768,11.7695,10.4565,17.633,37.9
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,517.0,0,2870.4235,29,6,0.1801,17.8276,86.1667,11.6698,10.0843,1.6768,10.0387,8.9188,15.0399,37.9
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,517.0,0,2870.4235,27,6,0.1801,19.1481,86.1667,10.8649,9.3888,1.6768,9.3464,8.3037,14.0027,37.9
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,623.0,275,822.1999,7,2,0.7577,89.0,311.5,2.8168,2.4341,0.5589,2.4231,2.1528,3.6303,37.9
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,573.0,253,756.7149,7,2,0.7572,81.8571,286.5,2.8168,2.4341,0.5589,2.4231,2.1528,3.6303,37.9
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,537.0,237,709.4203,6,2,0.757,89.5,268.5,2.4144,2.0864,0.5589,2.077,1.8453,3.1117,37.9
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,24.0,0,105.5035,1,1,0.2275,24.0,24.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.9
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,1076.0,0,1057.4319,13,4,1.0176,82.7692,269.0,5.2313,4.5205,1.1179,4.5001,3.9981,6.742,37.9
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,1013.0,0,995.23,13,4,1.0179,77.9231,253.25,5.2313,4.5205,1.1179,4.5001,3.9981,6.742,37.9
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,983.0,0,964.1291,16,4,1.0196,61.4375,245.75,6.4385,5.5637,1.1179,5.5386,4.9207,8.2979,37.9
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,1207.0,0,3023.7023,44,13,0.3992,27.4318,92.8462,17.7058,15.3003,3.6331,15.2311,13.5319,22.8192,37.9
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,1159.0,0,2902.7542,45,13,0.3993,25.7556,89.1538,18.1082,15.648,3.6331,15.5773,13.8394,23.3378,37.9
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,1125.0,0,2819.8184,53,12,0.399,21.2264,93.75,21.3275,18.4299,3.3536,18.3466,16.2998,27.4867,37.9
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,1091.0,0,2733.4269,53,12,0.3991,20.5849,90.9167,21.3275,18.4299,3.3536,18.3466,16.2998,27.4867,37.9
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,1098.0,0,2750.7052,41,12,0.3992,26.7805,91.5,16.4986,14.2571,3.3536,14.1926,12.6093,21.2633,37.9
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,1098.0,0,2750.7052,36,12,0.3992,30.5,91.5,14.4866,12.5184,3.3536,12.4618,11.0716,18.6702,37.9
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,1325.0,585,490.7037,19,4,2.7002,69.7368,331.25,7.6457,6.6069,1.1179,6.5771,5.8433,9.8537,37.9
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,1216.0,537,449.2358,10,4,2.7068,121.6,304.0,4.0241,3.4773,1.1179,3.4616,3.0754,5.1862,37.9
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,1141.0,504,421.5905,13,3,2.7064,87.7692,380.3333,5.2313,4.5205,0.8384,4.5001,3.9981,6.742,37.9
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,52.0,0,44.9236,2,1,1.1575,26.0,52.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.9
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,495.0,0,1007.7406,7,3,0.4912,70.7143,165.0,2.8168,2.4341,0.8384,2.4231,2.1528,3.6303,37.9
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,468.0,0,953.1698,7,3,0.491,66.8571,156.0,2.8168,2.4341,0.8384,2.4231,2.1528,3.6303,37.9
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,453.0,0,924.0654,9,3,0.4902,50.3333,151.0,3.6216,3.1296,0.8384,3.1155,2.7679,4.6676,37.9
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,551.0,0,2968.6509,28,6,0.1856,19.6786,91.8333,11.2673,9.7365,1.6768,9.6925,8.6112,14.5213,37.9
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,529.0,0,2852.2333,21,6,0.1855,25.1905,88.1667,8.4505,7.3024,1.6768,7.2694,6.4584,10.891,37.9
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,514.0,0,2768.558,30,6,0.1857,17.1333,85.6667,12.0722,10.432,1.6768,10.3849,9.2263,15.5585,37.9
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,499.0,0,2684.8828,32,6,0.1859,15.5938,83.1667,12.877,11.1275,1.6768,11.0772,9.8414,16.5958,37.9
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,501.0,0,2699.435,27,6,0.1856,18.5556,83.5,10.8649,9.3888,1.6768,9.3464,8.3037,14.0027,37.9
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,501.0,0,2703.0731,25,6,0.1853,20.04,83.5,10.0601,8.6933,1.6768,8.654,7.6886,12.9654,37.9
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,508.0,271,811.2857,7,2,0.6262,72.5714,254.0,2.8168,2.4341,0.5589,2.4231,2.1528,3.6303,37.9
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,466.0,249,745.8008,7,2,0.6248,66.5714,233.0,2.8168,2.4341,0.5589,2.4231,2.1528,3.6303,37.9
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,438.0,234,698.5061,6,2,0.6271,73.0,219.0,2.4144,2.0864,0.5589,2.077,1.8453,3.1117,37.9
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,76.0,0,174.6265,2,1,0.4352,38.0,76.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.9
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,1052.0,0,946.8508,11,4,1.1111,95.6364,263.0,4.4265,3.8251,1.1179,3.8078,3.383,5.7048,37.9
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,993.0,0,895.0159,12,3,1.1095,82.75,331.0,4.8289,4.1728,0.8384,4.1539,3.6905,6.2234,37.9
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,961.0,0,863.9149,14,3,1.1124,68.6429,320.3333,5.6337,4.8683,0.8384,4.8463,4.3056,7.2606,37.9
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,1170.0,0,2844.008,42,12,0.4114,27.8571,97.5,16.901,14.6048,3.3536,14.5388,12.9168,21.7819,37.9
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,1124.0,0,2733.4269,42,12,0.4112,26.7619,93.6667,16.901,14.6048,3.3536,14.5388,12.9168,21.7819,37.9
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,1091.0,0,2653.9467,50,12,0.4111,21.82,90.9167,20.1203,17.3867,3.3536,17.3081,15.3772,25.9309,37.9
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,1058.0,0,2571.0109,50,11,0.4115,21.16,96.1818,20.1203,17.3867,3.0741,17.3081,15.3772,25.9309,37.9
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,1065.0,0,2588.2892,39,11,0.4115,27.3077,96.8182,15.6938,13.5616,3.0741,13.5003,11.9942,20.2261,37.9
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,1065.0,0,2588.2892,34,11,0.4115,31.3235,96.8182,13.6818,11.8229,3.0741,11.7695,10.4565,17.633,37.9
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,1079.0,576,483.7924,19,4,2.2303,56.7895,269.75,7.6457,6.6069,1.1179,6.5771,5.8433,9.8537,37.9
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,989.0,528,442.3245,10,4,2.2359,98.9,247.25,4.0241,3.4773,1.1179,3.4616,3.0754,5.1862,37.9
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,929.0,496,418.1348,13,3,2.2218,71.4615,309.6667,5.2313,4.5205,0.8384,4.5001,3.9981,6.742,37.9
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,161.0,0,76.0245,3,1,2.1177,53.6667,161.0,1.2072,1.0432,0.2795,1.0385,0.9226,1.5559,37.9
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.9
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,33.0,0,72.7611,1,1,0.4535,33.0,33.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,30.0,0,69.123,1,1,0.434,30.0,30.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,30.0,0,69.123,1,1,0.434,30.0,30.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,37.0,0,203.7309,2,1,0.1816,18.5,37.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,36.0,0,196.4548,1,1,0.1832,36.0,36.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,34.0,0,189.1787,2,1,0.1797,17.0,34.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,33.0,0,185.5407,2,1,0.1779,16.5,33.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,33.0,0,185.5407,2,1,0.1779,16.5,33.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,34.0,0,185.5407,2,1,0.1832,17.0,34.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,41.0,18,54.5708,1,1,0.7513,41.0,41.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,36.0,16,47.2947,1,1,0.7612,36.0,36.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,34.0,15,43.6566,1,1,0.7788,34.0,34.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,1.0,0,3.6381,1,1,0.2749,1.0,1.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,190.0613,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.9
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,70.0,0,69.1132,1,1,1.0128,70.0,70.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,65.0,0,65.6575,1,1,0.99,65.0,65.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,64.0,0,62.2019,1,1,1.0289,64.0,64.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,78.0,0,196.9726,3,1,0.396,26.0,78.0,1.2072,1.0432,0.2795,1.0385,0.9226,1.5559,37.9
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,75.0,0,190.0613,3,1,0.3946,25.0,75.0,1.2072,1.0432,0.2795,1.0385,0.9226,1.5559,37.9
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,73.0,0,183.15,3,1,0.3986,24.3333,73.0,1.2072,1.0432,0.2795,1.0385,0.9226,1.5559,37.9
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,71.0,0,176.2386,3,1,0.4029,23.6667,71.0,1.2072,1.0432,0.2795,1.0385,0.9226,1.5559,37.9
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,72.0,0,179.6943,3,1,0.4007,24.0,72.0,1.2072,1.0432,0.2795,1.0385,0.9226,1.5559,37.9
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,72.0,0,179.6943,2,1,0.4007,36.0,72.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,86.0,38,31.1009,1,1,2.7652,86.0,86.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,79.0,35,27.6453,1,1,2.8576,79.0,79.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,75.0,33,27.6453,1,1,2.7129,75.0,75.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,3.0,0,3.4557,1,1,0.8681,3.0,3.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.9
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,32.0,0,65.4849,1,1,0.4887,32.0,32.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,30.0,0,61.8469,1,1,0.4851,30.0,30.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,30.0,0,61.8469,1,1,0.4851,30.0,30.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,36.0,0,192.8168,2,1,0.1867,18.0,36.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,34.0,0,185.5407,1,1,0.1832,34.0,34.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,34.0,0,181.9026,2,1,0.1869,17.0,34.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,32.0,0,174.6265,2,1,0.1832,16.0,32.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,32.0,0,174.6265,2,1,0.1832,16.0,32.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,33.0,0,174.6265,2,1,0.189,16.5,33.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,34.0,18,54.5708,1,1,0.623,34.0,34.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,30.0,16,47.2947,1,1,0.6343,30.0,30.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,28.0,15,43.6566,1,1,0.6414,28.0,28.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,6.0,0,14.5522,1,1,0.4123,6.0,6.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Efon,South West,Ekiti,Efon,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.9
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Efon,South West,Ekiti,Efon,,,68.0,0,62.2019,1,1,1.0932,68.0,68.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Efon,South West,Ekiti,Efon,,,65.0,0,58.7462,1,1,1.1065,65.0,65.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Efon,South West,Ekiti,Efon,,,63.0,0,55.2906,1,1,1.1394,63.0,63.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Efon,South West,Ekiti,Efon,,,76.0,0,183.15,3,1,0.415,25.3333,76.0,1.2072,1.0432,0.2795,1.0385,0.9226,1.5559,37.9
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Efon,South West,Ekiti,Efon,,,73.0,0,176.2386,3,1,0.4142,24.3333,73.0,1.2072,1.0432,0.2795,1.0385,0.9226,1.5559,37.9
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Efon,South West,Ekiti,Efon,,,71.0,0,172.783,3,1,0.4109,23.6667,71.0,1.2072,1.0432,0.2795,1.0385,0.9226,1.5559,37.9
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Efon,South West,Ekiti,Efon,,,69.0,0,165.8717,3,1,0.416,23.0,69.0,1.2072,1.0432,0.2795,1.0385,0.9226,1.5559,37.9
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Efon,South West,Ekiti,Efon,,,69.0,0,169.3273,2,1,0.4075,34.5,69.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Efon,South West,Ekiti,Efon,,,69.0,0,169.3273,2,1,0.4075,34.5,69.0,0.8048,0.6955,0.2795,0.6923,0.6151,1.0372,37.9
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Efon,South West,Ekiti,Efon,,,69.0,37,31.1009,1,1,2.2186,69.0,69.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Efon,South West,Ekiti,Efon,,,64.0,34,27.6453,1,1,2.315,64.0,64.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Efon,South West,Ekiti,Efon,,,60.0,32,27.6453,1,1,2.1704,60.0,60.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Efon,South West,Ekiti,Efon,,,9.0,0,3.4557,1,1,2.6044,9.0,9.0,0.4024,0.3477,0.2795,0.3462,0.3075,0.5186,37.9
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.95
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,814.0,0,1808.1122,15,3,0.4502,54.2667,271.3333,7.3141,6.2596,0.6845,6.6171,4.4476,6.7274,39.95
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,767.0,0,1702.6086,11,3,0.4505,69.7273,255.6667,5.3637,4.5904,0.6845,4.8526,3.2616,4.9334,39.95
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,744.0,0,1651.6759,10,3,0.4505,74.4,248.0,4.8761,4.173,0.6845,4.4114,2.9651,4.4849,39.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,914.0,0,5075.0834,45,12,0.1801,20.3111,76.1667,21.9424,18.7787,2.7381,19.8514,13.3429,20.1821,39.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,878.0,0,4874.9905,51,12,0.1801,17.2157,73.1667,24.868,21.2825,2.7381,22.4982,15.122,22.873,39.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,852.0,0,4733.1065,47,11,0.18,18.1277,77.4545,22.9176,19.6133,2.51,20.7336,13.9359,21.0791,39.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,826.0,0,4591.2224,46,11,0.1799,17.9565,75.0909,22.43,19.196,2.51,20.2925,13.6394,20.6306,39.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,832.0,0,4616.6888,31,11,0.1802,26.8387,75.6364,15.1158,12.9364,2.51,13.6754,9.1918,13.9032,39.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,832.0,0,4616.6888,44,11,0.1802,18.9091,75.6364,21.4548,18.3614,2.51,19.4102,13.0464,19.7336,39.95
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,1003.0,443,1324.2512,13,5,0.7574,77.1538,200.6,6.3389,5.425,1.1409,5.7348,3.8546,5.8304,39.95
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,919.0,406,1215.1096,13,4,0.7563,70.6923,229.75,6.3389,5.425,0.9127,5.7348,3.8546,5.8304,39.95
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,865.0,382,1142.3485,15,4,0.7572,57.6667,216.25,7.3141,6.2596,0.9127,6.6171,4.4476,6.7274,39.95
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,40.0,0,170.9885,2,1,0.2339,20.0,40.0,0.9752,0.8346,0.2282,0.8823,0.593,0.897,39.95
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.95
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,1730.0,0,1700.1846,26,7,1.0175,66.5385,247.1429,12.6778,10.8499,1.5973,11.4697,7.7092,11.6608,39.95
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,1631.0,0,1599.9705,24,7,1.0194,67.9583,233.0,11.7026,10.0153,1.5973,10.5874,7.1162,10.7638,39.95
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,1581.0,0,1551.5912,27,7,1.019,58.5556,225.8571,13.1654,11.2672,1.5973,11.9108,8.0058,12.1092,39.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,1942.0,0,4862.1133,62,39,0.3994,31.3226,49.7949,30.2317,25.8729,8.899,27.3508,18.3836,27.8064,39.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,1865.0,0,4672.052,66,38,0.3992,28.2576,49.0789,32.1821,27.5421,8.6708,29.1153,19.5696,29.6004,39.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,1810.0,0,4533.8256,74,37,0.3992,24.4595,48.9189,36.083,30.8806,8.4426,32.6445,21.9417,33.1883,39.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,1756.0,0,4399.0549,60,36,0.3992,29.2667,48.7778,29.2565,25.0383,8.2144,26.4685,17.7906,26.9094,39.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,1767.0,0,4426.7002,76,36,0.3992,23.25,49.0833,37.0582,31.7152,8.2144,33.5267,22.5347,34.0853,39.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,1767.0,0,4426.7002,70,36,0.3992,25.2429,49.0833,34.1326,29.2113,8.2144,30.8799,20.7557,31.3943,39.95
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,2133.0,942,791.3461,21,7,2.6954,101.5714,304.7143,10.2398,8.7634,1.5973,9.264,6.2267,9.4183,39.95
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,1954.0,863,725.6886,23,6,2.6926,84.9565,325.6667,11.215,9.598,1.3691,10.1462,6.8197,10.3153,39.95
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,1837.0,811,680.765,18,6,2.6984,102.0556,306.1667,8.7769,7.5115,1.3691,7.9405,5.3372,8.0728,39.95
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,83.0,0,76.0245,2,1,1.0918,41.5,83.0,0.9752,0.8346,0.2282,0.8823,0.593,0.897,39.95
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.95
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,795.0,0,1618.9334,13,3,0.4911,61.1538,265.0,6.3389,5.425,0.6845,5.7348,3.8546,5.8304,39.95
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,750.0,0,1527.9821,10,2,0.4908,75.0,375.0,4.8761,4.173,0.4564,4.4114,2.9651,4.4849,39.95
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,729.0,0,1484.3255,9,2,0.4911,81.0,364.5,4.3885,3.7557,0.4564,3.9703,2.6686,4.0364,39.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,886.0,0,4773.125,42,12,0.1856,21.0952,73.8333,20.4795,17.5268,2.7381,18.5279,12.4534,18.8366,39.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,851.0,0,4587.5844,48,11,0.1855,17.7292,77.3636,23.4052,20.0306,2.51,21.1748,14.2324,21.5276,39.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,826.0,0,4452.9764,44,11,0.1855,18.7727,75.0909,21.4548,18.3614,2.51,19.4102,13.0464,19.7336,39.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,801.0,0,4318.3685,44,10,0.1855,18.2045,80.1,21.4548,18.3614,2.2818,19.4102,13.0464,19.7336,39.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,806.0,0,4343.8348,29,11,0.1856,27.7931,73.2727,14.1406,12.1018,2.51,12.7931,8.5988,13.0062,39.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,806.0,0,4343.8348,42,11,0.1856,19.1905,73.2727,20.4795,17.5268,2.51,18.5279,12.4534,18.8366,39.95
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,817.0,436,1306.0609,13,5,0.6255,62.8462,163.4,6.3389,5.425,1.1409,5.7348,3.8546,5.8304,39.95
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,747.0,399,1193.2813,12,4,0.626,62.25,186.75,5.8513,5.0077,0.9127,5.2937,3.5581,5.3819,39.95
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,702.0,375,1120.5202,15,4,0.6265,46.8,175.5,7.3141,6.2596,0.9127,6.6171,4.4476,6.7274,39.95
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,122.0,0,280.1301,2,1,0.4355,61.0,122.0,0.9752,0.8346,0.2282,0.8823,0.593,0.897,39.95
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.95
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,1691.0,0,1520.4903,23,7,1.1121,73.5217,241.5714,11.215,9.598,1.5973,10.1462,6.8197,10.3153,39.95
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,1595.0,0,1434.0988,22,6,1.1122,72.5,265.8333,10.7274,9.1807,1.3691,9.7051,6.5232,9.8668,39.95
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,1547.0,0,1392.6309,24,6,1.1108,64.4583,257.8333,11.7026,10.0153,1.3691,10.5874,7.1162,10.7638,39.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,1883.0,0,4578.7492,59,37,0.4112,31.9153,50.8919,28.7689,24.621,8.4426,26.0273,17.4941,26.461,39.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,1809.0,0,4395.5992,62,36,0.4115,29.1774,50.25,30.2317,25.8729,8.2144,27.3508,18.3836,27.8064,39.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,1756.0,0,4267.7398,70,35,0.4115,25.0857,50.1714,34.1326,29.2113,7.9863,30.8799,20.7557,31.3943,39.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,1703.0,0,4139.8804,56,33,0.4114,30.4107,51.6061,27.3061,23.3691,7.5299,24.7039,16.6045,25.1155,39.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,1714.0,0,4164.07,72,34,0.4116,23.8056,50.4118,35.1078,30.0459,7.7581,31.7622,21.3487,32.2913,39.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,1714.0,0,4164.07,65,34,0.4116,26.3692,50.4118,31.6945,27.1248,7.7581,28.6742,19.2731,29.1519,39.95
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,1736.0,927,777.5234,20,7,2.2327,86.8,248.0,9.7522,8.3461,1.5973,8.8228,5.9302,8.9698,39.95
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,1592.0,850,715.3216,23,6,2.2256,69.2174,265.3333,11.215,9.598,1.3691,10.1462,6.8197,10.3153,39.95
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,1493.0,797,670.398,18,6,2.227,82.9444,248.8333,8.7769,7.5115,1.3691,7.9405,5.3372,8.0728,39.95
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,257.0,0,120.9481,4,1,2.1249,64.25,257.0,1.9504,1.6692,0.2282,1.7646,1.186,1.794,39.95
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.95
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,53.0,0,116.4177,1,1,0.4553,53.0,53.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,50.0,0,112.7796,1,1,0.4433,50.0,50.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,49.0,0,109.1416,1,1,0.449,49.0,49.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,59.0,0,331.0628,3,1,0.1782,19.6667,59.0,1.4628,1.2519,0.2282,1.3234,0.8895,1.3455,39.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,57.0,0,316.5106,3,1,0.1801,19.0,57.0,1.4628,1.2519,0.2282,1.3234,0.8895,1.3455,39.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,55.0,0,305.5964,3,1,0.18,18.3333,55.0,1.4628,1.2519,0.2282,1.3234,0.8895,1.3455,39.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,54.0,0,298.3203,3,1,0.181,18.0,54.0,1.4628,1.2519,0.2282,1.3234,0.8895,1.3455,39.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,54.0,0,298.3203,2,1,0.181,27.0,54.0,0.9752,0.8346,0.2282,0.8823,0.593,0.897,39.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,54.0,0,298.3203,3,1,0.181,18.0,54.0,1.4628,1.2519,0.2282,1.3234,0.8895,1.3455,39.95
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,66.0,29,87.3133,1,1,0.7559,66.0,66.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,59.0,26,76.3991,1,1,0.7723,59.0,59.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,57.0,25,76.3991,1,1,0.7461,57.0,57.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,2.0,0,10.9142,1,1,0.1832,2.0,2.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.95
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,113.0,0,110.5811,2,1,1.0219,56.5,113.0,0.9752,0.8346,0.2282,0.8823,0.593,0.897,39.95
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,106.0,0,103.6698,2,1,1.0225,53.0,106.0,0.9752,0.8346,0.2282,0.8823,0.593,0.897,39.95
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,103.0,0,100.2141,2,1,1.0278,51.5,103.0,0.9752,0.8346,0.2282,0.8823,0.593,0.897,39.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,126.0,0,314.465,4,3,0.4007,31.5,42.0,1.9504,1.6692,0.6845,1.7646,1.186,1.794,39.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,121.0,0,304.0981,4,2,0.3979,30.25,60.5,1.9504,1.6692,0.4564,1.7646,1.186,1.794,39.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,117.0,0,293.7311,5,2,0.3983,23.4,58.5,2.438,2.0865,0.4564,2.2057,1.4825,2.2425,39.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,114.0,0,286.8198,4,2,0.3975,28.5,57.0,1.9504,1.6692,0.4564,1.7646,1.186,1.794,39.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,115.0,0,286.8198,5,2,0.4009,23.0,57.5,2.438,2.0865,0.4564,2.2057,1.4825,2.2425,39.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,115.0,0,286.8198,4,2,0.4009,28.75,57.5,1.9504,1.6692,0.4564,1.7646,1.186,1.794,39.95
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,138.0,61,51.8349,1,1,2.6623,138.0,138.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,127.0,56,48.3792,2,1,2.6251,63.5,127.0,0.9752,0.8346,0.2282,0.8823,0.593,0.897,39.95
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,120.0,53,44.9236,1,1,2.6712,120.0,120.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,6.0,0,3.4557,1,1,1.7363,6.0,6.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.95
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,51.0,0,105.5035,1,1,0.4834,51.0,51.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,48.0,0,98.2274,1,1,0.4887,48.0,48.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,48.0,0,98.2274,1,1,0.4887,48.0,48.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,58.0,0,309.2345,3,1,0.1876,19.3333,58.0,1.4628,1.2519,0.2282,1.3234,0.8895,1.3455,39.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,55.0,0,298.3203,3,1,0.1844,18.3333,55.0,1.4628,1.2519,0.2282,1.3234,0.8895,1.3455,39.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,54.0,0,291.0442,3,1,0.1855,18.0,54.0,1.4628,1.2519,0.2282,1.3234,0.8895,1.3455,39.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,52.0,0,280.1301,3,1,0.1856,17.3333,52.0,1.4628,1.2519,0.2282,1.3234,0.8895,1.3455,39.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,52.0,0,283.7681,2,1,0.1832,26.0,52.0,0.9752,0.8346,0.2282,0.8823,0.593,0.897,39.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,52.0,0,283.7681,3,1,0.1832,17.3333,52.0,1.4628,1.2519,0.2282,1.3234,0.8895,1.3455,39.95
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,53.0,28,83.6752,1,1,0.6334,53.0,53.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,49.0,26,76.3991,1,1,0.6414,49.0,49.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,45.0,24,72.7611,1,1,0.6185,45.0,45.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,8.0,0,18.1903,1,1,0.4398,8.0,8.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Emure,South West,Ekiti,Emure,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.95
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Emure,South West,Ekiti,Emure,,,110.0,0,96.7585,1,1,1.1369,110.0,110.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Emure,South West,Ekiti,Emure,,,103.0,0,93.3028,1,1,1.1039,103.0,103.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Emure,South West,Ekiti,Emure,,,101.0,0,89.8472,2,1,1.1241,50.5,101.0,0.9752,0.8346,0.2282,0.8823,0.593,0.897,39.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Emure,South West,Ekiti,Emure,,,122.0,0,297.1867,4,2,0.4105,30.5,61.0,1.9504,1.6692,0.4564,1.7646,1.186,1.794,39.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Emure,South West,Ekiti,Emure,,,118.0,0,286.8198,4,2,0.4114,29.5,59.0,1.9504,1.6692,0.4564,1.7646,1.186,1.794,39.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Emure,South West,Ekiti,Emure,,,114.0,0,276.4528,4,2,0.4124,28.5,57.0,1.9504,1.6692,0.4564,1.7646,1.186,1.794,39.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Emure,South West,Ekiti,Emure,,,111.0,0,269.5415,4,2,0.4118,27.75,55.5,1.9504,1.6692,0.4564,1.7646,1.186,1.794,39.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Emure,South West,Ekiti,Emure,,,112.0,0,269.5415,5,2,0.4155,22.4,56.0,2.438,2.0865,0.4564,2.2057,1.4825,2.2425,39.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Emure,South West,Ekiti,Emure,,,112.0,0,269.5415,4,2,0.4155,28.0,56.0,1.9504,1.6692,0.4564,1.7646,1.186,1.794,39.95
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Emure,South West,Ekiti,Emure,,,113.0,60,51.8349,1,1,2.18,113.0,113.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Emure,South West,Ekiti,Emure,,,103.0,55,44.9236,2,1,2.2928,51.5,103.0,0.9752,0.8346,0.2282,0.8823,0.593,0.897,39.95
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Emure,South West,Ekiti,Emure,,,98.0,52,44.9236,1,1,2.1815,98.0,98.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Emure,South West,Ekiti,Emure,,,17.0,0,10.367,1,1,1.6398,17.0,17.0,0.4876,0.4173,0.2282,0.4411,0.2965,0.4485,39.95
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.71
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,960.0,0,2131.8988,17,4,0.4503,56.4706,240.0,6.58,7.4266,1.005,6.0665,5.4945,9.836,39.71
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,905.0,0,2011.8431,13,4,0.4498,69.6154,226.25,5.0317,5.6791,1.005,4.6391,4.2017,7.5216,39.71
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,878.0,0,1949.9962,16,4,0.4503,54.875,219.5,6.1929,6.9897,1.005,5.7096,5.1713,9.2574,39.71
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1079.0,0,5988.2346,51,15,0.1802,21.1569,71.9333,19.7399,22.2797,3.7687,18.1994,16.4835,29.5079,39.71
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1036.0,0,5751.7612,40,14,0.1801,25.9,74.0,15.4823,17.4743,3.5175,14.274,12.9282,23.1434,39.71
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1006.0,0,5584.4108,45,14,0.1801,22.3556,71.8571,17.4175,19.6586,3.5175,16.0583,14.5443,26.0364,39.71
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,975.0,0,5417.0604,47,14,0.18,20.7447,69.6429,18.1917,20.5323,3.5175,16.772,15.1907,27.1935,39.71
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,981.0,0,5449.8028,52,14,0.18,18.8654,70.0714,20.1269,22.7166,3.5175,18.5562,16.8067,30.0865,39.71
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,981.0,0,5449.8028,41,14,0.18,23.9268,70.0714,15.8693,17.9112,3.5175,14.6309,13.2514,23.722,39.71
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1184.0,523,1564.3626,14,11,0.7569,84.5714,107.6364,5.4188,6.116,2.7637,4.9959,4.5249,8.1002,39.71
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1085.0,479,1433.3927,11,10,0.7569,98.6364,108.5,4.2576,4.8054,2.5125,3.9254,3.5553,6.3644,39.71
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1019.0,450,1346.0795,11,9,0.757,92.6364,113.2222,4.2576,4.8054,2.2612,3.9254,3.5553,6.3644,39.71
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,47.0,0,203.7309,2,1,0.2307,23.5,47.0,0.7741,0.8737,0.2512,0.7137,0.6464,1.1572,39.71
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.71
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2040.0,0,2004.2827,28,18,1.0178,72.8571,113.3333,10.8376,12.232,4.5225,9.9918,9.0498,16.2004,39.71
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1925.0,0,1890.2459,23,17,1.0184,83.6957,113.2353,8.9023,10.0477,4.2712,8.2076,7.4337,13.3075,39.71
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1865.0,0,1831.4997,26,16,1.0183,71.7308,116.5625,10.0635,11.3583,4.02,9.2781,8.4034,15.0432,39.71
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2292.0,0,5739.8509,92,42,0.3993,24.913,54.5714,35.6092,40.1909,10.5524,32.8303,29.735,53.2299,39.71
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2202.0,0,5515.233,100,41,0.3993,22.02,53.7073,38.7057,43.6857,10.3012,35.6851,32.3206,57.8586,39.71
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2137.0,0,5352.817,102,39,0.3992,20.951,54.7949,39.4798,44.5595,9.7987,36.3988,32.967,59.0158,39.71
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2073.0,0,5190.401,90,38,0.3994,23.0333,54.5526,34.8351,39.3172,9.5474,32.1166,29.0885,52.0727,39.71
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2085.0,0,5224.9576,87,38,0.399,23.9655,54.8684,33.6739,38.0066,9.5474,31.046,28.1189,50.337,39.71
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2085.0,0,5224.9576,72,38,0.399,28.9583,54.8684,27.8681,31.4537,9.5474,25.6933,23.2708,41.6582,39.71
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2516.0,1111,933.0281,21,6,2.6966,119.8095,419.3333,8.1282,9.174,1.5075,7.4939,6.7873,12.1503,39.71
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2307.0,1019,857.0036,21,6,2.6919,109.8571,384.5,8.1282,9.174,1.5075,7.4939,6.7873,12.1503,39.71
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2167.0,957,805.1687,24,5,2.6914,90.2917,433.4,9.2894,10.4846,1.2562,8.5644,7.7569,13.8861,39.71
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,99.0,0,89.8472,3,1,1.1019,33.0,99.0,1.1612,1.3106,0.2512,1.0706,0.9696,1.7358,39.71
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.71
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,939.0,0,1913.6157,15,4,0.4907,62.6,234.75,5.8058,6.5529,1.005,5.3528,4.8481,8.6788,39.71
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,886.0,0,1804.4741,12,4,0.491,73.8333,221.5,4.6447,5.2423,1.005,4.2822,3.8785,6.943,39.71
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,858.0,0,1749.9033,15,3,0.4903,57.2,286.0,5.8058,6.5529,0.7537,5.3528,4.8481,8.6788,39.71
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1046.0,0,5635.3435,48,14,0.1856,21.7917,74.7143,18.5787,20.9692,3.5175,17.1288,15.5139,27.7721,39.71
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1005.0,0,5413.4223,38,14,0.1856,26.4474,71.7857,14.7081,16.6006,3.5175,13.5603,12.2818,21.9863,39.71
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,975.0,0,5256.986,43,13,0.1855,22.6744,75.0,16.6434,18.7849,3.2662,15.3446,13.8979,24.8792,39.71
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,946.0,0,5096.9117,45,13,0.1856,21.0222,72.7692,17.4175,19.6586,3.2662,16.0583,14.5443,26.0364,39.71
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,951.0,0,5129.6542,49,13,0.1854,19.4082,73.1538,18.9658,21.406,3.2662,17.4857,15.8371,28.3507,39.71
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,952.0,0,5129.6542,39,13,0.1856,24.4103,73.2308,15.0952,17.0374,3.2662,13.9172,12.605,22.5649,39.71
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,963.0,514,1538.8963,14,11,0.6258,68.7857,87.5455,5.4188,6.116,2.7637,4.9959,4.5249,8.1002,39.71
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,882.0,471,1407.9264,11,10,0.6265,80.1818,88.2,4.2576,4.8054,2.5125,3.9254,3.5553,6.3644,39.71
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,830.0,443,1324.2512,11,9,0.6268,75.4545,92.2222,4.2576,4.8054,2.2612,3.9254,3.5553,6.3644,39.71
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,143.0,0,327.4247,3,1,0.4367,47.6667,143.0,1.1612,1.3106,0.2512,1.0706,0.9696,1.7358,39.71
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,2882.0203,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.71
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1997.0,0,1796.9431,25,16,1.1113,79.88,124.8125,9.6764,10.9214,4.02,8.9213,8.0801,14.4647,39.71
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1882.0,0,1693.2733,21,15,1.1115,89.619,125.4667,8.1282,9.174,3.7687,7.4939,6.7873,12.1503,39.71
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1826.0,0,1644.8941,23,15,1.1101,79.3913,121.7333,8.9023,10.0477,3.7687,8.2076,7.4337,13.3075,39.71
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2222.0,0,5401.1962,86,40,0.4114,25.8372,55.55,33.2869,37.5697,10.0499,30.6892,27.7957,49.7584,39.71
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2135.0,0,5190.401,94,38,0.4113,22.7128,56.1842,36.3833,41.0646,9.5474,33.544,30.3814,54.3871,39.71
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2073.0,0,5038.352,96,37,0.4114,21.5938,56.027,37.1574,41.9383,9.2962,34.2577,31.0278,55.5443,39.71
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2010.0,0,4886.3029,85,36,0.4114,23.6471,55.8333,32.8998,37.1329,9.045,30.3323,27.4725,49.1798,39.71
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2022.0,0,4917.4039,82,36,0.4112,24.6585,56.1667,31.7386,35.8223,9.045,29.2618,26.5029,47.4441,39.71
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2022.0,0,4917.4039,68,36,0.4112,29.7353,56.1667,26.3198,29.7063,9.045,24.2659,21.978,39.3439,39.71
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,2047.0,1093,919.2055,20,6,2.2269,102.35,341.1667,7.7411,8.7371,1.5075,7.137,6.4641,11.5717,39.71
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1877.0,1002,843.181,20,5,2.2261,93.85,375.4,7.7411,8.7371,1.2562,7.137,6.4641,11.5717,39.71
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,1763.0,941,791.3461,24,5,2.2278,73.4583,352.6,9.2894,10.4846,1.2562,8.5644,7.7569,13.8861,39.71
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,304.0,0,145.1377,5,1,2.0946,60.8,304.0,1.9353,2.1843,0.2512,1.7843,1.616,2.8929,39.71
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.71
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,62.0,0,138.246,1,1,0.4485,62.0,62.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,59.0,0,130.9699,1,1,0.4505,59.0,59.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,58.0,0,127.3318,1,1,0.4555,58.0,58.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,70.0,0,389.2716,3,1,0.1798,23.3333,70.0,1.1612,1.3106,0.2512,1.0706,0.9696,1.7358,39.71
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,67.0,0,374.7194,3,1,0.1788,22.3333,67.0,1.1612,1.3106,0.2512,1.0706,0.9696,1.7358,39.71
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,66.0,0,363.8053,3,1,0.1814,22.0,66.0,1.1612,1.3106,0.2512,1.0706,0.9696,1.7358,39.71
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,63.0,0,352.8911,3,1,0.1785,21.0,63.0,1.1612,1.3106,0.2512,1.0706,0.9696,1.7358,39.71
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,64.0,0,352.8911,3,1,0.1814,21.3333,64.0,1.1612,1.3106,0.2512,1.0706,0.9696,1.7358,39.71
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,64.0,0,352.8911,3,1,0.1814,21.3333,64.0,1.1612,1.3106,0.2512,1.0706,0.9696,1.7358,39.71
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,77.0,34,101.8655,1,1,0.7559,77.0,77.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,70.0,31,94.5894,1,1,0.74,70.0,70.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,66.0,29,87.3133,1,1,0.7559,66.0,66.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,3.0,0,14.5522,1,1,0.2062,3.0,3.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.71
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,132.0,0,131.3151,2,1,1.0052,66.0,132.0,0.7741,0.8737,0.2512,0.7137,0.6464,1.1572,39.71
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,125.0,0,120.9481,2,1,1.0335,62.5,125.0,0.7741,0.8737,0.2512,0.7137,0.6464,1.1572,39.71
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,122.0,0,120.9481,2,1,1.0087,61.0,122.0,0.7741,0.8737,0.2512,0.7137,0.6464,1.1572,39.71
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,149.0,0,373.2113,6,3,0.3992,24.8333,49.6667,2.3223,2.6211,0.7537,2.1411,1.9392,3.4715,39.71
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,143.0,0,359.3886,6,3,0.3979,23.8333,47.6667,2.3223,2.6211,0.7537,2.1411,1.9392,3.4715,39.71
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,139.0,0,349.0216,6,3,0.3983,23.1667,46.3333,2.3223,2.6211,0.7537,2.1411,1.9392,3.4715,39.71
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,135.0,0,338.6547,6,2,0.3986,22.5,67.5,2.3223,2.6211,0.5025,2.1411,1.9392,3.4715,39.71
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,136.0,0,338.6547,6,3,0.4016,22.6667,45.3333,2.3223,2.6211,0.7537,2.1411,1.9392,3.4715,39.71
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,135.0,0,338.6547,5,2,0.3986,27.0,67.5,1.9353,2.1843,0.5025,1.7843,1.616,2.8929,39.71
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,163.0,72,58.7462,1,1,2.7746,163.0,163.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,150.0,66,55.2906,1,1,2.7129,150.0,150.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,141.0,62,51.8349,2,1,2.7202,70.5,141.0,0.7741,0.8737,0.2512,0.7137,0.6464,1.1572,39.71
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,7.0,0,6.9113,1,1,1.0128,7.0,7.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.71
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,61.0,0,123.6938,1,1,0.4932,61.0,61.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,58.0,0,116.4177,1,1,0.4982,58.0,58.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,56.0,0,116.4177,1,1,0.481,56.0,56.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,68.0,0,367.4433,3,1,0.1851,22.6667,68.0,1.1612,1.3106,0.2512,1.0706,0.9696,1.7358,39.71
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,65.0,0,352.8911,2,1,0.1842,32.5,65.0,0.7741,0.8737,0.2512,0.7137,0.6464,1.1572,39.71
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,63.0,0,341.9769,3,1,0.1842,21.0,63.0,1.1612,1.3106,0.2512,1.0706,0.9696,1.7358,39.71
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,61.0,0,331.0628,3,1,0.1843,20.3333,61.0,1.1612,1.3106,0.2512,1.0706,0.9696,1.7358,39.71
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,62.0,0,334.7008,3,1,0.1852,20.6667,62.0,1.1612,1.3106,0.2512,1.0706,0.9696,1.7358,39.71
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,62.0,0,334.7008,2,1,0.1852,31.0,62.0,0.7741,0.8737,0.2512,0.7137,0.6464,1.1572,39.71
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,62.0,33,98.2274,1,1,0.6312,62.0,62.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,58.0,31,94.5894,1,1,0.6132,58.0,58.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,54.0,29,87.3133,1,1,0.6185,54.0,54.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,10.0,0,21.8283,1,1,0.4581,10.0,10.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.71
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,129.0,0,117.4924,2,1,1.0979,64.5,129.0,0.7741,0.8737,0.2512,0.7137,0.6464,1.1572,39.71
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,123.0,0,110.5811,1,1,1.1123,123.0,123.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,119.0,0,107.1255,2,1,1.1108,59.5,119.0,0.7741,0.8737,0.2512,0.7137,0.6464,1.1572,39.71
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,144.0,0,352.4773,5,3,0.4085,28.8,48.0,1.9353,2.1843,0.7537,1.7843,1.616,2.8929,39.71
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,139.0,0,338.6547,6,2,0.4104,23.1667,69.5,2.3223,2.6211,0.5025,2.1411,1.9392,3.4715,39.71
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,135.0,0,328.2877,6,2,0.4112,22.5,67.5,2.3223,2.6211,0.5025,2.1411,1.9392,3.4715,39.71
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,131.0,0,317.9207,5,2,0.4121,26.2,65.5,1.9353,2.1843,0.5025,1.7843,1.616,2.8929,39.71
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,131.0,0,317.9207,5,2,0.4121,26.2,65.5,1.9353,2.1843,0.5025,1.7843,1.616,2.8929,39.71
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,131.0,0,317.9207,4,2,0.4121,32.75,65.5,1.5482,1.7474,0.5025,1.4274,1.2928,2.3143,39.71
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Gbonyin,South West,Ekiti,Gbonyin,,,133.0,71,58.7462,1,1,2.264,133.0,133.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,122.0,65,55.2906,1,1,2.2065,122.0,122.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,115.0,61,51.8349,2,1,2.2186,57.5,115.0,0.7741,0.8737,0.2512,0.7137,0.6464,1.1572,39.71
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Gbonyin,South West,Ekiti,Gbonyin,,,19.0,0,10.367,1,1,1.8327,19.0,19.0,0.3871,0.4369,0.2512,0.3569,0.3232,0.5786,39.71
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.74
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,636.0,0,1411.5644,12,2,0.4506,53.0,318.0,5.1634,5.4926,0.498,4.6867,3.4162,4.9657,37.74
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,599.0,0,1331.5273,10,2,0.4499,59.9,299.5,4.3028,4.5772,0.498,3.9056,2.8469,4.1381,37.74
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,581.0,0,1291.5087,14,2,0.4499,41.5,290.5,6.0239,6.4081,0.498,5.4678,3.9856,5.7934,37.74
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,713.0,0,3961.8393,35,6,0.18,20.3714,118.8333,15.0598,16.0202,1.494,13.6696,9.964,14.4834,37.74
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,685.0,0,3805.403,38,6,0.18,18.0263,114.1667,16.3506,17.3933,1.494,14.8413,10.818,15.7248,37.74
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,665.0,0,3692.6234,38,5,0.1801,17.5,133.0,16.3506,17.3933,1.245,14.8413,10.818,15.7248,37.74
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,645.0,0,3583.4818,30,5,0.18,21.5,129.0,12.9084,13.7316,1.245,11.7168,8.5406,12.4143,37.74
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,649.0,0,3605.3102,42,5,0.18,15.4524,129.8,18.0718,19.2242,1.245,16.4035,11.9568,17.3801,37.74
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,649.0,0,3605.3102,35,5,0.18,18.5429,129.8,15.0598,16.0202,1.245,13.6696,9.964,14.4834,37.74
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,784.0,346,1033.2069,10,3,0.7588,78.4,261.3333,4.3028,4.5772,0.747,3.9056,2.8469,4.1381,37.74
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,718.0,317,949.5317,9,2,0.7562,79.7778,359.0,3.8725,4.1195,0.498,3.515,2.5622,3.7243,37.74
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,675.0,298,891.3229,10,2,0.7573,67.5,337.5,4.3028,4.5772,0.498,3.9056,2.8469,4.1381,37.74
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,30.0,0,130.9699,1,1,0.2291,30.0,30.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,2882.0203,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.74
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,1351.0,0,1326.9734,23,5,1.0181,58.7391,270.2,9.8964,10.5275,1.245,8.9829,6.5478,9.5177,37.74
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,1274.0,0,1250.9488,17,4,1.0184,74.9412,318.5,7.3148,7.7812,0.996,6.6395,4.8397,7.0348,37.74
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,1235.0,0,1212.9366,15,4,1.0182,82.3333,308.75,6.4542,6.8658,0.996,5.8584,4.2703,6.2072,37.74
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,1516.0,0,3797.7701,50,13,0.3992,30.32,116.6154,21.514,22.886,3.2371,19.528,14.2343,20.6906,37.74
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,1457.0,0,3649.1767,80,13,0.3993,18.2125,112.0769,34.4224,36.6175,3.2371,31.2447,22.7748,33.1049,37.74
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,1414.0,0,3542.0513,47,12,0.3992,30.0851,117.8333,20.2232,21.5128,2.9881,18.3563,13.3802,19.4491,37.74
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,1371.0,0,3434.9258,49,12,0.3991,27.9796,114.25,21.0837,22.4282,2.9881,19.1374,13.9496,20.2767,37.74
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,1379.0,0,3455.6598,51,12,0.3991,27.0392,114.9167,21.9443,23.3437,2.9881,19.9185,14.519,21.1044,37.74
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,1379.0,0,3455.6598,47,12,0.3991,29.3404,114.9167,20.2232,21.5128,2.9881,18.3563,13.3802,19.4491,37.74
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,1664.0,735,618.5631,14,16,2.6901,118.8571,104.0,6.0239,6.4081,3.9841,5.4678,3.9856,5.7934,37.74
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,1526.0,674,566.7282,13,15,2.6926,117.3846,101.7333,5.5936,5.9503,3.7351,5.0773,3.7009,5.3795,37.74
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,1433.0,633,532.1716,16,14,2.6927,89.5625,102.3571,6.8845,7.3235,3.4861,6.2489,4.555,6.621,37.74
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,65.0,0,58.7462,2,1,1.1065,32.5,65.0,0.8606,0.9154,0.249,0.7811,0.5694,0.8276,37.74
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.74
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,622.0,0,1269.6804,10,2,0.4899,62.2,311.0,4.3028,4.5772,0.498,3.9056,2.8469,4.1381,37.74
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,586.0,0,1193.2813,9,2,0.4911,65.1111,293.0,3.8725,4.1195,0.498,3.515,2.5622,3.7243,37.74
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,569.0,0,1160.5388,13,2,0.4903,43.7692,284.5,5.5936,5.9503,0.498,5.0773,3.7009,5.3795,37.74
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,692.0,0,3729.0039,33,6,0.1856,20.9697,115.3333,14.1992,15.1047,1.494,12.8885,9.3946,13.6558,37.74
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,665.0,0,3583.4818,36,5,0.1856,18.4722,133.0,15.4901,16.4779,1.245,14.0601,10.2487,14.8972,37.74
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,646.0,0,3477.9783,36,5,0.1857,17.9444,129.2,15.4901,16.4779,1.245,14.0601,10.2487,14.8972,37.74
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,626.0,0,3372.4748,28,5,0.1856,22.3571,125.2,12.0478,12.8161,1.245,10.9357,7.9712,11.5867,37.74
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,629.0,0,3394.3031,39,5,0.1853,16.1282,125.8,16.7809,17.851,1.245,15.2318,11.1027,16.1386,37.74
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,629.0,0,3394.3031,33,5,0.1853,19.0606,125.8,14.1992,15.1047,1.245,12.8885,9.3946,13.6558,37.74
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,637.0,340,1018.6547,10,3,0.6253,63.7,212.3333,4.3028,4.5772,0.747,3.9056,2.8469,4.1381,37.74
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,584.0,312,934.9795,9,2,0.6246,64.8889,292.0,3.8725,4.1195,0.498,3.515,2.5622,3.7243,37.74
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,549.0,293,876.7707,10,2,0.6262,54.9,274.5,4.3028,4.5772,0.498,3.9056,2.8469,4.1381,37.74
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,94.0,0,218.2832,2,1,0.4306,47.0,94.0,0.8606,0.9154,0.249,0.7811,0.5694,0.8276,37.74
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,2882.0203,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.74
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,1321.0,0,1188.747,21,4,1.1113,62.9048,330.25,9.0359,9.6121,0.996,8.2017,5.9784,8.69,37.74
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,1245.0,0,1119.6338,16,4,1.112,77.8125,311.25,6.8845,7.3235,0.996,6.2489,4.555,6.621,37.74
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,1208.0,0,1088.5328,14,4,1.1098,86.2857,302.0,6.0239,6.4081,0.996,5.4678,3.9856,5.7934,37.74
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,1470.0,0,3573.1522,47,12,0.4114,31.2766,122.5,20.2232,21.5128,2.9881,18.3563,13.3802,19.4491,37.74
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,1412.0,0,3434.9258,75,12,0.4111,18.8267,117.6667,32.271,34.3289,2.9881,29.2919,21.3514,31.0358,37.74
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,1371.0,0,3331.256,44,12,0.4116,31.1591,114.25,18.9323,20.1396,2.9881,17.1846,12.5262,18.2077,37.74
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,1330.0,0,3231.0419,46,11,0.4116,28.913,120.9091,19.7929,21.0551,2.7391,17.9657,13.0955,19.0353,37.74
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,1338.0,0,3251.7758,48,11,0.4115,27.875,121.6364,20.6534,21.9705,2.7391,18.7468,13.6649,19.8629,37.74
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,1338.0,0,3251.7758,44,11,0.4115,30.4091,121.6364,18.9323,20.1396,2.7391,17.1846,12.5262,18.2077,37.74
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,1354.0,723,608.1961,14,16,2.2263,96.7143,84.625,6.0239,6.4081,3.9841,5.4678,3.9856,5.7934,37.74
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,1242.0,663,556.3612,13,14,2.2324,95.5385,88.7143,5.5936,5.9503,3.4861,5.0773,3.7009,5.3795,37.74
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,1167.0,623,521.8046,15,13,2.2365,77.8,89.7692,6.4542,6.8658,3.2371,5.8584,4.2703,6.2072,37.74
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,202.0,0,96.7585,4,1,2.0877,50.5,202.0,1.7211,1.8309,0.249,1.5622,1.1387,1.6552,37.74
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.74
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,41.0,0,90.9513,1,1,0.4508,41.0,41.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,40.0,0,87.3133,1,1,0.4581,40.0,40.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,38.0,0,83.6752,1,1,0.4541,38.0,38.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,46.0,0,258.3017,2,1,0.1781,23.0,46.0,0.8606,0.9154,0.249,0.7811,0.5694,0.8276,37.74
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,45.0,0,247.3876,2,1,0.1819,22.5,45.0,0.8606,0.9154,0.249,0.7811,0.5694,0.8276,37.74
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,43.0,0,240.1115,2,1,0.1791,21.5,43.0,0.8606,0.9154,0.249,0.7811,0.5694,0.8276,37.74
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,42.0,0,232.8354,2,1,0.1804,21.0,42.0,0.8606,0.9154,0.249,0.7811,0.5694,0.8276,37.74
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,42.0,0,232.8354,3,1,0.1804,14.0,42.0,1.2908,1.3732,0.249,1.1717,0.8541,1.2414,37.74
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,42.0,0,232.8354,2,1,0.1804,21.0,42.0,0.8606,0.9154,0.249,0.7811,0.5694,0.8276,37.74
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,50.0,22,65.4849,1,1,0.7635,50.0,50.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,48.0,21,61.8469,1,1,0.7761,48.0,48.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,43.0,19,58.2088,1,1,0.7387,43.0,43.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,2.0,0,10.9142,1,1,0.1832,2.0,2.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.74
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,88.0,0,86.3915,2,1,1.0186,44.0,88.0,0.8606,0.9154,0.249,0.7811,0.5694,0.8276,37.74
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,82.0,0,79.4802,1,1,1.0317,82.0,82.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,81.0,0,79.4802,1,1,1.0191,81.0,81.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,99.0,0,245.3518,3,1,0.4035,33.0,99.0,1.2908,1.3732,0.249,1.1717,0.8541,1.2414,37.74
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,94.0,0,238.4405,5,1,0.3942,18.8,94.0,2.1514,2.2886,0.249,1.9528,1.4234,2.0691,37.74
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,92.0,0,231.5292,3,1,0.3974,30.6667,92.0,1.2908,1.3732,0.249,1.1717,0.8541,1.2414,37.74
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,89.0,0,221.1622,3,1,0.4024,29.6667,89.0,1.2908,1.3732,0.249,1.1717,0.8541,1.2414,37.74
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,90.0,0,224.6179,3,1,0.4007,30.0,90.0,1.2908,1.3732,0.249,1.1717,0.8541,1.2414,37.74
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,90.0,0,224.6179,3,1,0.4007,30.0,90.0,1.2908,1.3732,0.249,1.1717,0.8541,1.2414,37.74
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,109.0,48,41.4679,1,1,2.6285,109.0,109.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,100.0,44,38.0123,1,1,2.6307,100.0,100.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,93.0,41,34.5566,1,1,2.6912,93.0,93.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,5.0,0,3.4557,1,1,1.4469,5.0,5.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.74
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,40.0,0,80.0372,1,1,0.4998,40.0,40.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,38.0,0,76.3991,1,1,0.4974,38.0,38.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,37.0,0,72.7611,1,1,0.5085,37.0,37.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,45.0,0,243.7495,2,1,0.1846,22.5,45.0,0.8606,0.9154,0.249,0.7811,0.5694,0.8276,37.74
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,43.0,0,232.8354,2,1,0.1847,21.5,43.0,0.8606,0.9154,0.249,0.7811,0.5694,0.8276,37.74
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,42.0,0,225.5593,2,1,0.1862,21.0,42.0,0.8606,0.9154,0.249,0.7811,0.5694,0.8276,37.74
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,41.0,0,218.2832,2,1,0.1878,20.5,41.0,0.8606,0.9154,0.249,0.7811,0.5694,0.8276,37.74
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,41.0,0,221.9212,2,1,0.1848,20.5,41.0,0.8606,0.9154,0.249,0.7811,0.5694,0.8276,37.74
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,41.0,0,221.9212,2,1,0.1848,20.5,41.0,0.8606,0.9154,0.249,0.7811,0.5694,0.8276,37.74
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,41.0,22,65.4849,1,1,0.6261,41.0,41.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,38.0,20,61.8469,1,1,0.6144,38.0,38.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,36.0,19,58.2088,1,1,0.6185,36.0,36.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,6.0,0,14.5522,1,1,0.4123,6.0,6.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijero,South West,Ekiti,Ijero,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.74
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Ijero,South West,Ekiti,Ijero,,,86.0,0,76.0245,1,1,1.1312,86.0,86.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Ijero,South West,Ekiti,Ijero,,,81.0,0,72.5689,1,1,1.1162,81.0,81.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Ijero,South West,Ekiti,Ijero,,,78.0,0,69.1132,1,1,1.1286,78.0,78.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijero,South West,Ekiti,Ijero,,,96.0,0,231.5292,3,1,0.4146,32.0,96.0,1.2908,1.3732,0.249,1.1717,0.8541,1.2414,37.74
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ijero,South West,Ekiti,Ijero,,,92.0,0,224.6179,5,1,0.4096,18.4,92.0,2.1514,2.2886,0.249,1.9528,1.4234,2.0691,37.74
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ijero,South West,Ekiti,Ijero,,,89.0,0,217.7066,3,1,0.4088,29.6667,89.0,1.2908,1.3732,0.249,1.1717,0.8541,1.2414,37.74
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ijero,South West,Ekiti,Ijero,,,87.0,0,210.7952,3,1,0.4127,29.0,87.0,1.2908,1.3732,0.249,1.1717,0.8541,1.2414,37.74
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ijero,South West,Ekiti,Ijero,,,87.0,0,210.7952,3,1,0.4127,29.0,87.0,1.2908,1.3732,0.249,1.1717,0.8541,1.2414,37.74
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ijero,South West,Ekiti,Ijero,,,87.0,0,210.7952,3,1,0.4127,29.0,87.0,1.2908,1.3732,0.249,1.1717,0.8541,1.2414,37.74
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Ijero,South West,Ekiti,Ijero,,,88.0,47,38.0123,1,1,2.315,88.0,88.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Ijero,South West,Ekiti,Ijero,,,81.0,43,34.5566,1,1,2.344,81.0,81.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Ijero,South West,Ekiti,Ijero,,,75.0,40,34.5566,1,1,2.1704,75.0,75.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Ijero,South West,Ekiti,Ijero,,,13.0,0,6.9113,1,1,1.881,13.0,13.0,0.4303,0.4577,0.249,0.3906,0.2847,0.4138,37.74

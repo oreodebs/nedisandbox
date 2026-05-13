@@ -38,11 +38,6 @@ yola-north,Yola North,adamawa,Adamawa,North East
 yola-south,Yola South,adamawa,Adamawa,North East
 numan,Numan,adamawa,Adamawa,North East
 mubi-north,Mubi North,adamawa,Adamawa,North East
-maiduguri,Maiduguri,borno,Borno,North East
-jere,Jere,borno,Borno,North East
-biu,Biu,borno,Borno,North East
-gwoza,Gwoza,borno,Borno,North East
-chibok,Chibok,borno,Borno,North East
 gombe,Gombe,gombe,Gombe,North East
 yamaltu-deba,Yamaltu/Deba,gombe,Gombe,North East
 kaltungo,Kaltungo,gombe,Gombe,North East
@@ -152,11 +147,6 @@ abeokuta-south,Abeokuta South,ogun,Ogun,South West
 ijebu-ode,Ijebu Ode,ogun,Ogun,South West
 sagamu,Shagamu,ogun,Ogun,South West
 remo-north,Remo North,ogun,Ogun,South West
-akure-north,Akure North,ondo,Ondo,South West
-akure-south,Akure South,ondo,Ondo,South West
-ondo-east,Ondo East,ondo,Ondo,South West
-ondo-west,Ondo West,ondo,Ondo,South West
-odigbo,Odigbo,ondo,Ondo,South West
 osogbo,Osogbo,osun,Osun,South West
 ife-central,Ife Central,osun,Osun,South West
 ilesha-east,Ilesha East,osun,Osun,South West
@@ -214,20 +204,65 @@ tafawa-balewa,Tafawa-Balewa,bauchi,Bauchi,North East
 toro,Toro,bauchi,Bauchi,North East
 warji,Warji,bauchi,Bauchi,North East
 zaki,Zaki,bauchi,Bauchi,North East
-aninri,Aninri,enugu,Enugu,South East
-awgu,Awgu,enugu,Enugu,South East
-enugu-east,Enugu East,enugu,Enugu,South East
-enugu-north,Enugu North,enugu,Enugu,South East
-enugu-south,Enugu South,enugu,Enugu,South East
-ezeagu,Ezeagu,enugu,Enugu,South East
-igbo-etiti,Igbo-Etiti,enugu,Enugu,South East
-igbo-eze-north,Igbo-Eze North,enugu,Enugu,South East
-igbo-eze-south,Igbo-Eze South,enugu,Enugu,South East
-isi-uzo,Isi-Uzo,enugu,Enugu,South East
-nkanu-east,Nkanu East,enugu,Enugu,South East
-nkanu-west,Nkanu West,enugu,Enugu,South East
-nsukka,Nsukka,enugu,Enugu,South East
-oji-river,Oji-River,enugu,Enugu,South East
-udenu,Udenu,enugu,Enugu,South East
-udi,Udi,enugu,Enugu,South East
-uzo-uwani,Uzo-Uwani,enugu,Enugu,South East
+enugu-aninri,Aninri,enugu,Enugu,South East
+enugu-awgu,Awgu,enugu,Enugu,South East
+enugu-enugu-east,Enugu East,enugu,Enugu,South East
+enugu-enugu-north,Enugu North,enugu,Enugu,South East
+enugu-enugu-south,Enugu South,enugu,Enugu,South East
+enugu-ezeagu,Ezeagu,enugu,Enugu,South East
+enugu-igbo-etiti,Igbo-Etiti,enugu,Enugu,South East
+enugu-igbo-eze-north,Igbo-Eze North,enugu,Enugu,South East
+enugu-igbo-eze-south,Igbo-Eze South,enugu,Enugu,South East
+enugu-isi-uzo,Isi-Uzo,enugu,Enugu,South East
+enugu-nkanu-east,Nkanu East,enugu,Enugu,South East
+enugu-nkanu-west,Nkanu West,enugu,Enugu,South East
+enugu-nsukka,Nsukka,enugu,Enugu,South East
+enugu-oji-river,Oji River,enugu,Enugu,South East
+enugu-udenu,Udenu,enugu,Enugu,South East
+enugu-udi,Udi,enugu,Enugu,South East
+enugu-uzo-uwani,Uzo-Uwani,enugu,Enugu,South East
+borno-abadam,Abadam,borno,Borno,North East
+borno-askira-uba,Askira/Uba,borno,Borno,North East
+borno-bama,Bama,borno,Borno,North East
+borno-bayo,Bayo,borno,Borno,North East
+borno-biu,Biu,borno,Borno,North East
+borno-chibok,Chibok,borno,Borno,North East
+borno-damboa,Damboa,borno,Borno,North East
+borno-dikwa,Dikwa,borno,Borno,North East
+borno-gubio,Gubio,borno,Borno,North East
+borno-guzamala,Guzamala,borno,Borno,North East
+borno-gwoza,Gwoza,borno,Borno,North East
+borno-hawul,Hawul,borno,Borno,North East
+borno-jere,Jere,borno,Borno,North East
+borno-kaga,Kaga,borno,Borno,North East
+borno-kala-balge,Kala/Balge,borno,Borno,North East
+borno-konduga,Konduga,borno,Borno,North East
+borno-kukawa,Kukawa,borno,Borno,North East
+borno-kwaya-kusar,Kwaya Kusar,borno,Borno,North East
+borno-mafa,Mafa,borno,Borno,North East
+borno-magumeri,Magumeri,borno,Borno,North East
+borno-maiduguri,Maiduguri,borno,Borno,North East
+borno-marte,Marte,borno,Borno,North East
+borno-mobbar,Mobbar,borno,Borno,North East
+borno-monguno,Monguno,borno,Borno,North East
+borno-ngala,Ngala,borno,Borno,North East
+borno-nganzai,Nganzai,borno,Borno,North East
+borno-shani,Shani,borno,Borno,North East
+ondo-akoko-north-east,Akoko North East,ondo,Ondo,South West
+ondo-akoko-north-west,Akoko North West,ondo,Ondo,South West
+ondo-akoko-south-east,Akoko South East,ondo,Ondo,South West
+ondo-akoko-south-west,Akoko South West,ondo,Ondo,South West
+ondo-akure-north,Akure North,ondo,Ondo,South West
+ondo-akure-south,Akure South,ondo,Ondo,South West
+ondo-ese-odo,Ese Odo,ondo,Ondo,South West
+ondo-idanre,Idanre,ondo,Ondo,South West
+ondo-ifedore,Ifedore,ondo,Ondo,South West
+ondo-ilaje,Ilaje,ondo,Ondo,South West
+ondo-ile-oluji-okeigbo,Ile-Oluji/Okeigbo,ondo,Ondo,South West
+ondo-irele,Irele,ondo,Ondo,South West
+ondo-odigbo,Odigbo,ondo,Ondo,South West
+ondo-okitipupa,Okitipupa,ondo,Ondo,South West
+ondo-ondo-east,Ondo East,ondo,Ondo,South West
+ondo-ondo-west,Ondo West,ondo,Ondo,South West
+ondo-ose,Ose,ondo,Ondo,South West
+ondo-owo,Owo,ondo,Ondo,South West
