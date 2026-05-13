@@ -154,24 +154,27 @@ export default function MinisterLayout({
                 </div>
 
                 <div className="p-1.5">
-                  <button
-                    type="button"
-                    role="menuitem"
-                    onClick={() => runMenuAction(onGoDashboard)}
-                    className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-100"
-                  >
-                    <LayoutDashboard className="h-4 w-4 text-slate-500" />
-                    Dashboard
-                  </button>
-                  <button
-                    type="button"
-                    role="menuitem"
-                    onClick={() => runMenuAction(onOpenSettings)}
-                    className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-100"
-                  >
-                    <Settings className="h-4 w-4 text-slate-500" />
-                    Settings
-                  </button>
+                  {currentPage === "settings" ? (
+                    <button
+                      type="button"
+                      role="menuitem"
+                      onClick={() => runMenuAction(onGoDashboard)}
+                      className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-100"
+                    >
+                      <LayoutDashboard className="h-4 w-4 text-slate-500" />
+                      Dashboard
+                    </button>
+                  ) : (
+                    <button
+                      type="button"
+                      role="menuitem"
+                      onClick={() => runMenuAction(onOpenSettings)}
+                      className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-100"
+                    >
+                      <Settings className="h-4 w-4 text-slate-500" />
+                      Settings
+                    </button>
+                  )}
                 </div>
 
                 <div className="border-t border-slate-100 p-1.5">
