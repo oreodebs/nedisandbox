@@ -297,11 +297,6 @@ const NATIONAL_TEACHER_ANCHORS = {
   privateFemale: 324_411,
 } as const;
 
-const teacherAnchorUnclassifiedTotal = Math.max(
-  0,
-  NATIONAL_TEACHER_ANCHORS.total - NATIONAL_TEACHER_ANCHORS.public - NATIONAL_TEACHER_ANCHORS.private,
-);
-
 function horizontalValueAxis(rangeMax: number): Record<string, unknown> {
   return {
     range: [0, Math.max(1, Math.ceil(rangeMax * 1.1))],
@@ -417,10 +412,6 @@ function normalizeTeacherSchoolLevel(value: string): string {
   if (value === "JSS") return "JSS";
   if (value === "SSS") return "SSS";
   return value;
-}
-
-function isKnownSchoolType(value: string): boolean {
-  return value === "Public" || value === "Private";
 }
 
 function normalizeTeacherSchoolType(value: string): "Public" | "Private" | "Unclassified" {
@@ -2330,15 +2321,11 @@ export default function TeacherCapacityDashboard({
       .reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
     const students = currentStudentRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
     const teachers = currentTeacherRows.reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
-    const unclassifiedTeachers = totalTeachers === NATIONAL_TEACHER_ANCHORS.total ? teacherAnchorUnclassifiedTotal : Math.max(0, totalTeachers - publicTeachers - privateTeachers);
     const publicStudents = currentStudentRows
       .filter((row) => row.school_type === "Public")
       .reduce((sum, row) => sum + safeNum(row.student_count), 0);
     const privateStudents = currentStudentRows
       .filter((row) => row.school_type === "Private")
-      .reduce((sum, row) => sum + safeNum(row.student_count), 0);
-    const unclassifiedStudents = currentStudentRows
-      .filter((row) => !isKnownSchoolType(row.school_type))
       .reduce((sum, row) => sum + safeNum(row.student_count), 0);
     return [
       {

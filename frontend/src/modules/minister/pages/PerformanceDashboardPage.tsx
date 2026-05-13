@@ -1797,9 +1797,6 @@ export default function PerformanceDashboard({
     const currentNeco = round1(currentNecoRaw);
     const currentNabteb = round1(currentNabtebRaw);
     const currentUtme = round1(currentUtmeRaw);
-    const currentAdmission = round1(currentAdmissionRaw);
-    const currentMatric = round1(currentMatricRaw);
-
     const prevWaecRaw = previousWaecRows.length ? passRate(previousWaecRows) : null;
     const prevNecoRaw = previousNecoRows.length ? passRate(previousNecoRows) : null;
     const prevNabtebRaw = previousNabtebRows.length ? passRate(previousNabtebRows) : null;
