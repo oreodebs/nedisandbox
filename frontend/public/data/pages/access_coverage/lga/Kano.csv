@@ -1,561 +1,561 @@
 session,gender,disability,school_type,school_level,class_grade,key_entry_level,loc_level,loc_label,zone,state,lga,ward,school,student_count,is_o_level_student,school_count,classroom_count,computer_count,avg_students_per_school,learners_per_classroom,students_per_computer,usable_classroom_count,laboratory_count,computer_access_count,water_source_count,handwashing_facility_count,toilet_count,infrastructure_score
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,954,0,10.0156,4,5,95.2511,238.5,190.8,3,2,3,2,0,1,49.6
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,4710,0,18.6905,113,31,251.9997,41.6814,151.9355,90,43,25,54,2,25,51.98
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,4441,0,17.623,121,30,252.0002,36.7025,148.0333,82,47,27,68,2,24,51.13
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,4307,0,17.0913,120,29,251.9996,35.8917,148.5172,85,52,26,80,2,24,54.18
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,13367,0,53.0426,302,118,252.005,44.2616,113.2797,238,127,104,175,6,70,55.28
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,12841,0,50.9566,307,113,251.9988,41.8274,113.6372,166,116,68,170,6,75,43.2
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,12466,0,49.4667,385,110,252.0079,32.3792,113.3273,303,138,68,185,8,105,49.54
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,12090,0,47.9767,389,107,251.9973,31.0797,112.9907,259,165,86,187,6,78,48.42
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,12165,0,48.2747,424,107,251.9954,28.691,113.6916,322,151,74,228,9,111,50.61
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,12165,0,48.2747,265,107,251.9954,45.9057,113.6916,155,103,76,181,5,74,49.07
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,3121,3121,12.3849,103,15,252.0004,30.301,208.0667,67,36,12,51,2,23,47.75
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,2861,2861,11.3532,82,14,251.9994,34.8902,204.3571,51,35,12,50,2,25,52.3
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,2688,2688,10.6667,89,13,251.9992,30.2022,206.7692,51,28,8,46,2,27,44.18
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,460,0,1.8254,21,7,251.9996,21.9048,65.7143,17,6,6,12,0,6,54.67
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,3380,0,35.4852,15,62,95.2511,225.3333,54.5161,11,5,53,7,0,3,49.68
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,16700,0,49.8507,423,193,335.0003,39.4799,86.5285,245,177,147,258,9,126,49.31
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,15746,0,47.003,314,182,334.9999,50.1465,86.5165,217,93,126,149,5,96,47.82
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,15268,0,45.5761,419,176,335.0001,36.4391,86.75,331,131,129,206,8,86,49.72
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,47391,0,141.4648,1287,239,335.0021,36.8228,198.2887,1025,545,197,767,25,273,54.5
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,45527,0,135.9016,1269,230,334.9997,35.8763,197.9435,896,423,162,811,19,353,50.95
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,44196,0,131.9279,946,223,335.0012,46.7188,198.1883,667,272,188,583,18,193,50.77
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,42864,0,127.9542,968,216,334.9949,44.281,198.4444,557,306,183,605,22,271,49.24
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,43131,0,128.7489,1398,217,335.0009,30.8519,198.7604,766,428,184,792,22,408,47.61
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,43131,0,128.7489,1136,217,335.0009,37.9674,198.7604,764,376,189,740,19,245,51.61
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,11065,11065,33.0299,230,65,334.9995,48.1087,170.2308,131,65,50,106,5,71,45.37
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,10143,10143,30.2776,235,60,335.0001,43.1617,169.05,126,77,42,141,5,69,45.79
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,9528,9528,28.4418,173,56,334.9999,55.0751,170.1429,97,54,51,94,3,48,48.4
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,1632,0,4.8716,47,17,335.0029,34.7234,96.0,34,15,14,26,1,11,50.96
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,1104,0,11.5904,5,6,95.2511,220.8,184.0,3,2,4,2,0,1,42.67
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,4051,0,16.0754,97,27,252.0,41.7629,150.037,78,37,22,46,2,22,52.42
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,3819,0,15.1548,104,26,251.9994,36.7212,146.8846,71,41,24,58,2,21,51.73
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,3704,0,14.6984,103,25,252.0002,35.9612,148.16,73,45,22,69,2,21,54.12
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,12067,0,47.8848,273,106,252.0006,44.2015,113.8396,215,114,93,158,5,63,55.12
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,11592,0,46.0017,277,102,251.9907,41.8484,113.6471,150,105,62,154,5,67,43.31
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,11254,0,44.6566,348,99,252.012,32.3391,113.6768,274,124,61,167,7,95,49.48
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,10915,0,43.3116,351,96,252.011,31.0969,113.6979,234,149,77,169,6,70,48.42
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,10982,0,43.5806,383,97,251.9929,28.6736,113.2165,291,136,67,206,8,100,50.58
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,10982,0,43.5806,239,97,251.9929,45.9498,113.2165,140,93,69,164,5,67,49.21
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,2945,2945,11.6865,97,14,252.0002,30.3608,210.3571,64,34,11,48,2,22,47.87
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,2700,2700,10.7143,77,13,251.9997,35.0649,207.6923,48,33,11,47,2,23,52.08
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,2536,2536,10.0635,84,12,251.9998,30.1905,211.3333,48,27,8,44,1,25,44.95
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,725,0,2.877,33,10,251.9986,21.9697,72.5,26,10,9,19,1,9,55.01
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,3912,0,41.0704,17,72,95.2511,230.1176,54.3333,12,6,61,8,0,4,49.79
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,14363,0,42.8746,364,166,335.0002,39.4588,86.5241,211,152,127,222,8,108,49.35
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,13542,0,40.4239,270,156,334.9998,50.1556,86.8077,187,80,108,128,5,82,47.83
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,13132,0,39.2,360,152,335.0,36.4778,86.3947,284,113,111,177,7,74,49.67
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,42782,0,127.7079,1162,216,334.9989,36.8176,198.0648,925,492,178,692,23,247,54.49
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,41100,0,122.6856,1145,207,335.0026,35.8952,198.5507,808,381,146,731,17,318,50.93
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,39898,0,119.0983,854,201,335.0006,46.719,198.4975,602,246,169,526,16,174,50.73
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,38696,0,115.511,874,195,334.9984,44.2746,198.441,503,276,165,546,20,245,49.23
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,38936,0,116.2285,1262,196,334.9953,30.8526,198.6531,691,387,167,715,20,369,47.68
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,38937,0,116.2285,1026,196,335.0039,37.9503,198.6582,690,339,170,668,17,222,51.55
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,10442,10442,31.1701,217,62,335.0005,48.1198,168.4194,124,62,48,100,5,67,45.55
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,9572,9572,28.5731,222,57,335.0004,43.1171,167.9298,119,73,40,133,5,65,45.8
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,8992,8992,26.8418,163,53,334.9999,55.1656,169.6604,91,51,48,88,3,46,48.31
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,2571,0,7.6746,73,26,335.0012,35.2192,98.8846,53,23,22,41,2,18,51.79
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,62,0,0.6507,0,1,95.2796,0.0,62.0,0,0,1,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,306,0,1.2143,7,2,251.997,43.7143,153.0,6,3,2,3,0,2,57.71
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,289,0,1.1468,8,2,252.0056,36.125,144.5,5,3,2,4,0,2,51.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,280,0,1.1111,8,2,252.0025,35.0,140.0,6,3,2,5,0,2,56.5
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,869,0,3.4477,20,8,252.0521,43.45,108.625,16,8,7,12,0,5,55.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,834,0,3.3121,20,7,251.804,41.7,119.1429,11,8,4,11,0,5,43.14
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,810,0,3.2152,25,7,251.9283,32.4,115.7143,20,9,4,12,1,7,49.46
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,786,0,3.1184,25,7,252.0523,31.44,112.2857,17,11,6,12,0,5,49.71
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,791,0,3.1378,28,7,252.0874,28.25,113.0,21,10,5,15,1,7,50.57
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,791,0,3.1378,17,7,252.0874,46.5294,113.0,10,7,5,12,0,5,50.02
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,203,203,0.8056,7,1,251.9861,29.0,203.0,5,2,1,3,0,2,52.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,186,186,0.7381,5,1,251.9984,37.2,186.0,3,2,1,3,0,2,55.2
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,175,175,0.6944,6,1,252.0161,29.1667,175.0,3,2,1,3,0,2,48.67
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,30,0,0.119,1,1,252.1008,30.0,30.0,1,0,1,1,0,0,60.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,220,0,2.309,1,4,95.2796,220.0,55.0,1,0,3,0,0,0,40.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,1086,0,3.2418,28,13,334.9991,38.7857,83.5385,16,12,10,17,1,8,49.16
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,1023,0,3.0537,20,12,335.0034,51.15,85.25,14,6,8,9,0,6,47.07
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,992,0,2.9612,27,11,334.9993,36.7407,90.1818,21,8,8,13,1,6,49.41
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,3080,0,9.1954,84,16,334.9501,36.6667,192.5,67,36,13,50,2,18,54.48
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,2959,0,8.8338,82,15,334.9634,36.0854,197.2667,58,27,11,52,1,23,51.34
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,2873,0,8.5755,61,14,335.0242,47.0984,205.2143,43,18,12,38,1,12,51.03
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,2786,0,8.3172,63,14,334.9685,44.2222,199.0,36,20,12,39,1,18,49.27
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,2804,0,8.3689,91,14,335.05,30.8132,200.2857,50,28,12,52,1,27,47.96
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,2804,0,8.3689,74,14,335.05,37.8919,200.2857,50,24,12,48,1,16,51.34
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,719,719,2.1463,15,4,334.9951,47.9333,179.75,9,4,3,7,0,5,46.13
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,659,659,1.9672,15,4,334.9939,43.9333,164.75,8,5,3,9,0,4,45.87
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,619,619,1.8478,11,4,334.993,56.2727,154.75,6,3,4,6,0,3,48.73
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,106,0,0.3164,3,1,335.019,35.3333,106.0,2,1,1,2,0,1,56.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,72,0,0.7557,0,1,95.2796,0.0,72.0,0,0,1,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,263,0,1.0437,6,2,251.9881,43.8333,131.5,5,2,2,3,0,1,54.67
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,248,0,0.9841,7,2,252.0069,35.4286,124.0,5,3,2,4,0,1,53.14
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,241,0,0.9563,7,2,252.013,34.4286,120.5,5,3,2,5,0,1,55.43
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,784,0,3.1136,18,7,251.7986,43.5556,112.0,14,8,6,10,0,4,54.16
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,754,0,2.9911,18,7,252.0812,41.8889,107.7143,10,7,4,10,0,4,42.7
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,732,0,2.9037,23,6,252.0922,31.8261,122.0,18,8,4,11,0,6,49.62
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,710,0,2.8162,23,6,252.1128,30.8696,118.3333,15,10,5,11,0,5,48.81
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,714,0,2.8337,25,6,251.9674,28.56,119.0,19,9,4,13,1,7,50.51
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,714,0,2.8337,16,6,251.9674,44.625,119.0,9,6,4,11,0,4,46.92
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,191,191,0.7579,6,1,252.0121,31.8333,191.0,4,2,1,3,0,1,50.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,176,176,0.6984,5,1,252.0046,35.2,176.0,3,2,1,3,0,2,55.2
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,165,165,0.6548,5,1,251.9853,33.0,165.0,3,2,1,3,0,1,51.2
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,47,0,0.1865,2,1,252.0107,23.5,47.0,2,1,1,1,0,1,68.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,254,0,2.6658,1,5,95.2796,254.0,50.8,1,0,4,0,0,0,40.8
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,934,0,2.7881,24,11,334.9952,38.9167,84.9091,14,10,8,15,1,7,49.14
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,880,0,2.6269,18,10,334.9956,48.8889,88.0,12,5,7,9,0,5,46.76
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,854,0,2.5493,23,10,334.9939,37.1304,85.4,18,7,7,11,0,5,48.77
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,2781,0,8.3007,75,14,335.032,37.08,198.6429,60,32,12,45,1,16,55.21
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,2671,0,7.9742,74,13,334.9552,36.0946,205.4615,52,25,9,47,1,21,50.75
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,2593,0,7.7411,55,13,334.9653,47.1455,199.4615,39,16,11,34,1,11,50.92
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,2515,0,7.5079,57,13,334.9805,44.1228,193.4615,33,18,11,36,1,16,49.4
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,2531,0,7.5545,82,13,335.0321,30.8659,194.6923,45,25,11,46,1,24,47.49
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,2531,0,7.5545,67,13,335.0321,37.7761,194.6923,45,22,11,44,1,14,51.09
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,679,679,2.0269,14,4,334.9943,48.5,169.75,8,4,3,6,0,4,44.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,622,622,1.8567,14,4,335.003,44.4286,155.5,8,5,3,8,0,4,47.14
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,584,584,1.7433,11,3,334.9968,53.0909,194.6667,6,3,3,6,0,3,48.73
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,167,0,0.4985,5,2,335.005,33.4,83.5,4,2,2,3,0,1,56.8
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,1193,0,12.5248,5,22,95.2511,238.6,54.2273,3,2,16,2,0,1,43.64
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,5893,0,23.3849,204,64,252.0002,28.8873,92.0781,130,88,46,94,4,55,47.44
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,5556,0,22.0476,205,60,252.0002,27.1024,92.6,110,77,43,118,4,49,45.14
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,5388,0,21.381,115,58,251.9994,46.8522,92.8966,75,49,39,76,2,28,49.72
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,16724,0,66.3629,573,101,252.0083,29.1867,165.5842,437,231,85,292,9,158,53.45
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,16066,0,63.7531,523,97,252.0034,30.7189,165.6289,394,221,84,324,11,153,55.95
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,15596,0,61.889,414,94,251.9995,37.6715,165.9149,256,172,60,208,7,102,45.61
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,15126,0,60.0249,414,91,251.9954,36.5362,166.2198,219,147,60,280,9,99,45.4
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,15220,0,60.3977,424,92,251.9964,35.8962,165.4348,328,128,75,237,7,118,52.97
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,15220,0,60.3977,416,92,251.9964,36.5865,165.4348,260,180,85,195,9,112,50.53
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,3904,3904,15.4921,99,85,251.9994,39.4343,45.9294,76,38,67,53,2,28,53.1
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,3579,3579,14.2024,93,78,251.9997,38.4839,45.8846,74,31,72,62,2,26,57.48
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,3362,3362,13.3413,104,73,251.9994,32.3269,46.0548,64,31,68,61,2,23,49.67
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,576,0,2.2857,26,4,252.0016,22.1538,144.0,18,11,3,14,0,6,49.69
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,4230,0,44.4089,18,24,95.2511,235.0,176.25,14,6,14,10,0,5,49.56
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,20894,0,62.3701,538,192,335.0003,38.8364,108.8229,317,188,123,348,11,154,47.18
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,19700,0,58.806,417,181,334.9998,47.2422,108.8398,308,155,131,265,8,126,53.09
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,19103,0,57.0239,342,176,334.9999,55.8567,108.5398,189,135,134,187,6,91,46.6
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,59293,0,176.9936,1978,297,335.0008,29.9762,199.6397,1055,860,263,1243,30,563,50.19
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,56961,0,170.0332,1140,286,334.9993,49.9658,199.1643,783,390,252,566,26,232,49.63
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,55296,0,165.0615,1496,277,335.0024,36.9626,199.6245,837,635,188,884,32,445,47.19
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,53630,0,160.0897,1057,269,334.9997,50.7379,199.368,693,467,241,697,21,259,53.6
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,53963,0,161.0841,1201,271,334.9989,44.9317,199.1255,785,466,174,618,23,249,45.76
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,53963,0,161.0841,1439,271,334.9989,37.5003,199.1255,1047,554,220,650,29,383,50.69
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,13844,13844,41.3254,277,107,334.9998,49.9783,129.3832,185,92,74,158,6,59,47.31
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,12691,12691,37.8836,437,98,334.9998,29.0412,129.5,241,139,81,270,8,120,48.01
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,11921,11921,35.5851,230,92,334.9998,51.8304,129.5761,139,72,84,106,5,54,47.53
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,2041,0,6.0925,71,14,335.0021,28.7465,145.7857,55,28,10,37,1,14,50.25
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,1381,0,14.4985,6,25,95.2511,230.1667,55.24,4,2,18,3,0,2,48.85
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,5068,0,20.1111,175,55,252.0001,28.96,92.1455,111,75,39,80,4,47,47.12
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,4779,0,18.9643,176,52,251.9998,27.1534,91.9038,95,66,37,101,3,42,45.09
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,4634,0,18.3889,99,50,251.9998,46.8081,92.68,64,42,34,65,2,24,49.59
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,15097,0,59.9097,518,91,251.9959,29.1448,165.9011,395,209,76,264,8,143,53.35
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,14504,0,57.5537,472,87,252.0081,30.7288,166.7126,355,199,75,293,10,138,55.86
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,14080,0,55.8708,374,85,252.01,37.6471,165.6471,231,156,54,188,6,92,45.56
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,13655,0,54.188,374,82,251.9931,36.5107,166.5244,198,132,54,253,8,89,45.35
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,13740,0,54.5246,382,83,251.9963,35.9686,165.5422,296,115,67,213,6,107,52.87
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,13740,0,54.5246,376,83,251.9963,36.5426,165.5422,235,162,76,177,8,102,50.45
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,3685,3685,14.623,94,80,252.0003,39.2021,46.0625,72,36,63,50,2,26,52.86
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,3378,3378,13.4048,88,73,251.9993,38.3864,46.274,70,30,67,59,2,25,57.64
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,3173,3173,12.5913,98,69,251.9994,32.3776,45.9855,61,30,64,57,2,22,49.9
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,907,0,3.5992,41,6,252.0004,22.122,151.1667,28,17,5,22,1,9,50.6
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,4895,0,51.3905,21,28,95.2511,233.0952,174.8214,16,6,17,12,0,5,48.38
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,17970,0,53.6418,463,165,334.9999,38.8121,108.9091,272,162,106,300,10,132,47.17
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,16943,0,50.5761,359,156,335.0001,47.195,108.609,265,133,113,228,7,109,53.09
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,16429,0,49.0418,294,151,334.9999,55.881,108.8013,162,116,115,161,5,78,46.55
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,53527,0,159.7813,1785,269,335.0017,29.9871,198.9851,952,776,238,1122,27,508,50.18
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,51422,0,153.4978,1029,258,335.0015,49.9728,199.3101,707,352,227,511,23,209,49.61
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,49918,0,149.0095,1350,250,334.9988,36.9763,199.672,755,573,170,798,28,402,47.21
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,48415,0,144.5213,954,243,335.0025,50.7495,199.2387,626,421,218,629,19,234,53.64
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,48715,0,145.4189,1084,244,334.9977,44.94,199.6516,709,421,157,558,21,225,45.81
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,48715,0,145.4189,1299,244,334.9977,37.5019,199.6516,945,500,199,586,26,346,50.74
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,13065,13065,39.0,262,101,335.0,49.8664,129.3564,175,87,70,150,6,56,47.39
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,11976,11976,35.7493,413,93,334.9996,28.9976,128.7742,228,131,77,255,7,114,48.05
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,11250,11250,33.5821,217,87,334.9999,51.8433,129.3103,131,68,80,100,4,51,47.6
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,3217,0,9.603,112,23,334.9995,28.7232,139.8696,87,44,17,59,2,22,50.79
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,78,0,0.8186,1,1,95.2796,78.0,78.0,1,0,1,0,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,383,0,1.5198,13,4,252.0068,29.4615,95.75,8,6,3,6,0,4,48.31
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,361,0,1.4325,13,4,252.007,27.7692,90.25,7,5,3,7,0,3,44.92
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,350,0,1.3889,7,4,251.998,50.0,87.5,5,3,3,5,0,2,54.29
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,1087,0,4.313,37,7,252.0288,29.3784,155.2857,28,15,6,19,1,10,53.61
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,1044,0,4.1434,34,6,251.967,30.7059,174.0,26,14,5,21,1,10,55.69
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,1014,0,4.0222,27,6,252.1008,37.5556,169.0,17,11,4,14,0,7,46.67
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,983,0,3.9011,27,6,251.9802,36.4074,163.8333,14,10,4,18,1,6,45.04
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,989,0,3.9253,27,6,251.9553,36.6296,164.8333,21,8,5,15,0,8,53.48
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,989,0,3.9253,27,6,251.9553,36.6296,164.8333,17,12,6,13,1,7,52.15
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,254,254,1.0079,6,6,252.0091,42.3333,42.3333,5,2,5,3,0,2,55.33
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,233,233,0.9246,6,5,252.0009,38.8333,46.6,5,2,5,4,0,2,60.67
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,219,219,0.869,7,5,252.0138,31.2857,43.8,4,2,5,4,0,2,50.29
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,37,0,0.1468,2,1,252.0436,18.5,37.0,1,1,1,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,275,0,2.8862,1,2,95.2796,275.0,137.5,1,0,1,1,0,0,52.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,1358,0,4.0537,35,12,335.0026,38.8,113.1667,21,12,8,23,1,10,48.04
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,1280,0,3.8209,27,12,334.9996,47.4074,106.6667,20,10,9,17,1,8,53.48
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,1242,0,3.7075,22,11,334.9966,56.4545,112.9091,12,9,8,12,0,6,46.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,3854,0,11.5041,129,19,335.011,29.876,202.8421,69,56,17,81,2,37,50.41
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,3702,0,11.0517,74,19,334.9711,50.027,194.8421,51,25,17,37,2,15,49.94
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,3594,0,10.7286,97,18,334.9925,37.0515,199.6667,54,41,12,57,2,29,46.87
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,3486,0,10.4054,69,17,335.0184,50.5217,205.0588,45,30,15,45,1,17,53.07
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,3507,0,10.47,78,18,334.957,44.9615,194.8333,51,30,12,40,1,16,46.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,3508,0,10.47,93,18,335.0525,37.7204,194.8889,68,36,15,42,2,25,51.23
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,900,900,2.6866,18,7,334.9959,50.0,128.5714,12,6,5,10,0,4,47.43
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,825,825,2.4627,28,6,334.9982,29.4643,137.5,15,9,5,17,1,8,47.9
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,775,775,2.3134,15,6,335.0048,51.6667,129.1667,9,5,6,7,0,4,49.6
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,133,0,0.397,5,1,335.0126,26.6,133.0,4,2,1,3,0,1,56.8
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,90,0,0.9446,1,2,95.2796,90.0,45.0,1,0,1,0,0,0,36.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,329,0,1.3056,11,4,251.9914,29.9091,82.25,7,5,3,5,0,3,48.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,311,0,1.2341,12,3,252.0055,25.9167,103.6667,6,4,2,7,0,3,43.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,301,0,1.1944,6,3,252.0094,50.1667,100.3333,4,3,2,4,0,1,49.33
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,981,0,3.8934,34,6,251.9649,28.8529,163.5,26,14,5,17,1,9,53.22
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,943,0,3.7403,31,6,252.1188,30.4194,157.1667,23,13,5,19,1,9,55.01
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,915,0,3.6309,24,6,252.0036,38.125,152.5,15,10,4,12,0,6,46.17
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,887,0,3.5215,24,5,251.8813,36.9583,177.4,13,9,3,16,1,6,45.27
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,893,0,3.5434,25,5,252.0178,35.72,178.6,19,8,4,14,0,7,52.48
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,893,0,3.5434,24,5,252.0178,37.2083,178.6,15,10,5,11,1,6,51.17
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,240,240,0.9524,6,5,251.995,40.0,48.0,5,2,4,3,0,2,54.8
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,220,220,0.873,6,5,252.0046,36.6667,44.0,5,2,5,4,0,2,60.67
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,206,206,0.8175,6,4,251.9878,34.3333,51.5,4,2,4,3,0,1,50.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,59,0,0.2341,3,1,252.029,19.6667,59.0,2,1,1,2,0,1,56.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,318,0,3.3375,2,2,95.2796,159.0,159.0,2,1,1,1,0,1,60.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,1168,0,3.4866,30,11,334.9968,38.9333,106.1818,18,10,7,19,1,9,47.38
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,1101,0,3.2866,23,10,334.9967,47.8696,110.1,17,9,7,15,0,7,53.11
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,1068,0,3.1881,19,10,334.9958,56.2105,106.8,11,8,8,10,0,5,47.75
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,3479,0,10.3856,116,17,334.9831,29.9914,204.6471,62,50,15,73,2,33,50.15
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,3342,0,9.9772,67,17,334.9637,49.8806,196.5882,46,23,15,33,2,14,49.76
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,3245,0,9.6855,88,16,335.0369,36.875,202.8125,49,37,11,52,2,26,47.18
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,3147,0,9.3937,62,16,335.0118,50.7581,196.6875,41,27,14,41,1,15,53.29
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,3166,0,9.4521,70,16,334.952,45.2286,197.875,46,27,10,36,1,15,45.66
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,3167,0,9.4521,84,16,335.0578,37.7024,197.9375,61,32,13,38,2,22,50.57
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,849,849,2.5343,17,7,335.0037,49.9412,121.2857,11,6,5,10,0,4,47.9
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,778,778,2.3224,27,6,334.9983,28.8148,129.6667,15,9,5,17,0,7,48.15
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,731,731,2.1821,14,6,334.9984,52.2143,121.8333,8,4,6,6,0,3,46.57
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,209,0,0.6239,7,1,334.9896,29.8571,209.0,5,3,1,4,0,1,53.14
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,995,0,10.4461,4,20,95.2511,248.75,49.75,3,2,16,3,0,1,56.8
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,4915,0,19.504,158,28,251.9996,31.1076,175.5357,99,64,18,88,4,49,48.01
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,4634,0,18.3889,106,27,251.9998,43.717,171.6296,58,30,22,56,2,27,45.45
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,4494,0,17.8333,130,26,252.0005,34.5692,172.8462,103,55,16,68,3,28,49.97
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,13948,0,55.3488,336,182,252.0019,41.5119,76.6374,196,124,128,216,6,103,48.57
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,13399,0,53.1721,307,175,251.9931,43.645,76.5657,215,95,120,191,6,90,50.27
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,13008,0,51.6174,320,170,252.008,40.65,76.5176,234,116,141,198,6,82,53.27
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,12616,0,50.0627,356,165,252.004,35.4382,76.4606,275,115,129,225,6,93,53.49
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,12694,0,50.3736,491,166,251.9971,25.8534,76.4699,335,187,133,225,9,98,47.96
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,12694,0,50.3736,487,166,251.9971,26.0657,76.4699,321,146,137,222,11,140,48.48
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,3257,3257,12.9246,77,59,252.0001,42.2987,55.2034,49,24,46,43,2,21,48.63
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,2986,2986,11.8492,119,54,252.0001,25.0924,55.2963,62,43,45,70,3,34,47.59
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,2804,2804,11.127,70,51,251.9996,40.0571,54.9804,52,24,41,32,1,18,50.35
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,480,0,1.9048,22,3,251.995,21.8182,160.0,17,7,2,14,0,6,51.76
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,3527,0,37.0284,15,25,95.2511,235.1333,141.08,9,5,21,8,0,3,46.77
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,17426,0,52.0179,286,288,335.0001,60.9301,60.5069,216,117,246,189,5,59,54.56
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,16431,0,49.0478,313,272,334.9997,52.4952,60.4081,194,91,208,147,5,95,46.79
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,15933,0,47.5612,341,263,335.0,46.7243,60.5817,184,128,204,158,8,100,45.49
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,49452,0,147.6178,1294,420,335.0003,38.2164,117.7429,820,430,323,784,27,268,48.04
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,47507,0,141.8126,1003,403,334.9984,47.3649,117.8834,553,283,290,626,15,267,45.77
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,46118,0,137.666,1335,391,334.9992,34.5453,117.9488,698,435,259,717,23,366,43.36
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,44729,0,133.5194,814,380,335.0,54.9496,117.7079,553,349,345,477,16,185,52.77
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,45007,0,134.3488,917,382,335.0011,49.0807,117.8194,478,372,231,570,20,243,44.56
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,45007,0,134.3488,993,382,335.0011,45.3243,117.8194,616,405,236,502,19,237,45.16
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,11547,11547,34.4687,265,144,334.9996,43.5736,80.1875,189,115,107,180,6,57,52.42
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,10584,10584,31.594,208,132,335.0003,50.8846,80.1818,154,76,101,144,3,51,53.45
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,9943,9943,29.6806,277,124,335.0,35.8953,80.1855,191,82,84,193,6,72,50.22
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,1702,0,5.0806,72,9,334.9998,23.6389,189.1111,46,27,8,45,1,15,50.89
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,1151,0,12.0839,5,23,95.2511,230.2,50.0435,4,2,19,3,0,1,54.02
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,4227,0,16.7738,136,24,252.0001,31.0809,176.125,85,55,16,75,3,42,48.2
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,3986,0,15.8175,91,23,251.9994,43.8022,173.3043,50,26,19,48,1,23,45.61
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,3865,0,15.3373,112,22,252.0,34.5089,175.6818,89,47,14,59,2,24,50.32
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,12591,0,49.965,303,165,251.9964,41.5545,76.3091,176,111,116,195,5,93,48.48
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,12096,0,48.0001,277,158,251.9995,43.6679,76.557,194,86,109,173,5,81,50.36
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,11742,0,46.5966,289,154,251.9926,40.6298,76.2468,212,105,128,178,6,74,53.34
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,11389,0,45.1931,322,149,252.0075,35.3696,76.4362,248,104,116,204,5,84,53.38
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,11460,0,45.4738,443,150,252.0132,25.8691,76.4,302,169,120,203,8,88,47.92
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,11459,0,45.4738,439,150,251.9913,26.1025,76.3933,289,132,124,200,10,126,48.48
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,3073,3073,12.1944,73,56,252.0009,42.0959,54.875,46,23,43,41,2,20,48.4
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,2817,2817,11.1786,112,51,251.9994,25.1518,55.2353,59,41,42,66,3,32,47.68
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,2647,2647,10.504,66,48,251.9992,40.1061,55.1458,49,23,39,30,1,17,50.52
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,757,0,3.004,35,4,251.9973,21.6286,189.25,28,12,3,23,1,10,54.97
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,4082,0,42.8552,18,29,95.2511,226.7778,140.7586,11,6,24,10,0,4,47.69
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,14987,0,44.7373,246,248,335.0001,60.9228,60.4315,186,101,212,163,4,50,54.57
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,14131,0,42.1821,269,234,334.9999,52.5316,60.3889,167,79,179,126,5,82,46.89
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,13703,0,40.9045,294,226,334.9998,46.6088,60.6327,159,110,175,136,7,86,45.46
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,44642,0,133.2609,1168,379,334.997,38.2209,117.7889,740,388,291,707,24,242,48.0
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,42887,0,128.0203,905,364,335.0016,47.389,117.8214,499,256,262,565,14,241,45.79
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,41633,0,124.277,1206,353,335.0016,34.5216,117.9405,630,393,234,648,20,330,43.35
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,40379,0,120.5337,735,343,335.0017,54.9374,117.723,500,315,312,430,15,167,52.81
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,40630,0,121.2824,828,345,335.0033,49.07,117.7681,431,336,209,514,18,220,44.56
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,40629,0,121.2824,896,345,334.995,45.3449,117.7652,556,365,213,453,17,213,45.14
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,10897,10897,32.5284,250,136,334.9996,43.588,80.125,179,108,101,169,6,54,52.44
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,9988,9988,29.8149,196,125,335.0003,50.9592,79.904,145,72,95,136,3,48,53.4
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,9383,9383,28.009,261,117,334.9995,35.9502,80.1966,180,77,79,181,6,68,50.14
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,2683,0,8.009,114,14,334.9981,23.5351,191.6429,73,42,13,72,2,24,51.66
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,65,0,0.6822,0,1,95.2796,0.0,65.0,0,0,1,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,319,0,1.2659,10,2,251.9946,31.9,159.5,6,4,1,6,0,3,45.2
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,301,0,1.1944,7,2,252.0094,43.0,150.5,4,2,2,4,0,2,50.29
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,292,0,1.1587,8,2,252.0066,36.5,146.0,6,3,1,4,0,2,46.5
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,907,0,3.5981,22,12,252.0775,41.2273,75.5833,13,8,8,14,0,7,48.12
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,871,0,3.4566,20,11,251.9817,43.55,79.1818,14,6,8,12,0,6,50.44
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,846,0,3.3556,21,11,252.1159,40.2857,76.9091,15,8,9,13,0,5,52.33
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,820,0,3.2545,23,11,251.9588,35.6522,74.5455,18,7,9,15,0,6,54.31
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,825,0,3.2747,32,11,251.9315,25.7812,75.0,22,12,9,15,1,6,48.34
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,825,0,3.2747,32,11,251.9315,25.7812,75.0,21,10,9,15,1,9,48.59
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,212,212,0.8413,5,4,251.991,42.4,53.0,3,2,3,3,0,1,47.2
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,194,194,0.7698,8,4,252.0135,24.25,48.5,4,3,3,5,0,2,45.5
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,182,182,0.7222,5,3,252.0078,36.4,60.6667,4,2,2,2,0,1,48.27
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,31,0,0.123,1,1,252.0325,31.0,31.0,1,0,1,1,0,0,60.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,229,0,2.4035,1,2,95.2796,229.0,114.5,1,0,2,1,0,0,60.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,1133,0,3.3821,19,19,334.999,59.6316,59.6316,14,8,16,13,0,4,54.32
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,1068,0,3.1881,20,18,334.9958,53.4,59.3333,12,6,14,9,0,6,46.04
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,1036,0,3.0925,22,17,335.004,47.0909,60.9412,12,8,13,10,1,6,44.96
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,3214,0,9.595,84,27,334.9661,38.2619,119.037,53,28,21,51,2,17,48.06
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,3088,0,9.2177,65,26,335.0076,47.5077,118.7692,36,18,19,41,1,17,45.97
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,2998,0,8.9481,87,25,335.0432,34.4598,119.92,45,28,17,47,1,24,43.48
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,2907,0,8.6786,53,25,334.9619,54.8491,116.28,36,23,23,31,1,12,52.98
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,2925,0,8.7325,60,25,334.9556,48.75,117.0,31,24,15,37,1,16,44.2
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,2926,0,8.7325,64,25,335.0701,45.7188,117.04,40,26,15,32,1,15,44.79
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,751,751,2.2418,17,9,334.9987,44.1765,83.4444,12,7,7,12,0,4,53.15
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,688,688,2.0537,14,9,335.0051,49.1429,76.4444,10,5,7,10,0,3,52.44
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,646,646,1.9284,18,8,334.9927,35.8889,80.75,12,5,5,13,0,5,49.11
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,111,0,0.3313,5,1,335.0438,22.2,111.0,3,2,1,3,0,1,51.2
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,75,0,0.7872,0,2,95.2796,0.0,37.5,0,0,2,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,275,0,1.0913,9,2,251.993,30.5556,137.5,6,4,1,5,0,3,47.56
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,259,0,1.0278,6,1,251.9946,43.1667,259.0,3,2,1,3,0,2,48.67
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,251,0,0.996,7,1,252.008,35.8571,251.0,6,3,1,4,0,2,60.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,819,0,3.2492,20,11,252.062,40.95,74.4545,12,7,8,13,0,6,49.04
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,787,0,3.1214,18,10,252.1305,43.7222,78.7,13,6,7,11,0,5,50.76
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,764,0,3.0301,19,10,252.1369,40.2105,76.4,14,7,8,12,0,5,53.22
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,740,0,2.9389,21,10,251.7949,35.2381,74.0,16,7,8,13,0,5,52.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,745,0,2.9571,29,10,251.936,25.6897,74.5,20,11,8,13,1,6,48.25
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,745,0,2.9571,29,10,251.936,25.6897,74.5,19,9,8,13,1,8,47.83
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,200,200,0.7937,5,4,251.9844,40.0,50.0,3,2,3,3,0,1,47.2
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,183,183,0.7262,7,3,251.9967,26.1429,61.0,4,3,2,4,0,2,46.67
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,172,172,0.6825,4,3,252.0147,43.0,57.3333,3,1,2,2,0,1,47.67
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,49,0,0.1944,2,1,252.0576,24.5,49.0,2,1,1,1,0,1,68.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,265,0,2.7813,1,2,95.2796,265.0,132.5,1,0,2,1,0,0,60.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,974,0,2.9075,16,16,334.9957,60.875,60.875,12,7,14,11,0,3,55.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,919,0,2.7433,18,15,334.998,51.0556,61.2667,11,5,11,8,0,5,44.84
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,891,0,2.6597,19,15,335.0002,46.8947,59.4,10,7,12,9,0,6,45.85
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,2902,0,8.662,76,25,335.0266,38.1842,116.08,48,25,19,46,2,16,47.9
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,2788,0,8.3213,59,24,335.0438,47.2542,116.1667,33,17,17,37,1,16,46.05
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,2706,0,8.078,78,23,334.9839,34.6923,117.6522,41,25,15,42,1,21,43.1
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,2624,0,7.8347,48,22,334.9203,54.6667,119.2727,33,21,20,28,1,11,53.13
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,2641,0,7.8834,54,22,335.0077,48.9074,120.0455,28,22,13,34,1,14,44.27
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,2641,0,7.8834,58,22,335.0077,45.5345,120.0455,36,24,14,29,1,14,45.49
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,708,708,2.1134,16,9,335.0052,44.25,78.6667,11,7,7,11,0,3,51.69
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,649,649,1.9373,13,8,335.0023,49.9231,81.125,10,5,6,9,0,3,53.85
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,610,610,1.8209,17,8,334.9992,35.8824,76.25,12,5,5,12,0,4,49.29
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,174,0,0.5194,7,1,335.0019,24.8571,174.0,4,3,1,4,0,1,49.14
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1092,0,11.4644,5,6,95.2511,218.4,182.0,3,2,5,3,0,1,48.53
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,5396,0,21.4127,169,47,252.0,31.929,114.8085,91,53,43,119,4,44,50.14
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,5087,0,20.1865,116,44,252.0001,43.8534,115.6136,71,46,33,76,3,30,49.76
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,4933,0,19.5754,118,43,252.0,41.8051,114.7209,68,35,36,73,3,25,47.43
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,15311,0,60.7581,368,339,251.9993,41.606,45.1652,270,128,206,192,6,92,47.92
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,14709,0,58.3687,427,325,252.0015,34.4473,45.2585,315,180,219,201,7,101,48.89
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,14279,0,56.662,348,316,252.0031,41.0316,45.1867,201,129,208,182,6,87,44.66
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,13848,0,54.9553,528,306,251.9866,26.2273,45.2549,374,189,254,330,10,141,52.9
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,13935,0,55.2967,430,308,252.0042,32.407,45.2435,324,173,216,243,10,105,51.26
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,13935,0,55.2967,349,308,252.0042,39.9284,45.2435,206,135,275,219,6,96,51.13
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3575,3575,14.1865,111,27,252.0001,32.2072,132.4074,80,36,22,68,2,24,51.38
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3277,3277,13.004,124,25,251.9994,26.4274,131.08,92,46,16,76,2,36,51.21
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3079,3079,12.2183,77,24,251.9991,39.987,128.2917,46,32,19,43,1,23,49.39
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,527,0,2.0913,19,9,251.9964,27.7368,58.5556,10,8,8,10,0,6,48.75
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3872,0,40.6505,17,34,95.2511,227.7647,113.8824,12,7,24,11,0,4,51.06
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,19129,0,57.1015,398,313,335.0,48.0628,61.115,210,143,229,237,6,104,45.67
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,18036,0,53.8388,505,295,335.0,35.7149,61.139,348,192,212,275,10,132,49.45
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,17490,0,52.209,369,286,334.9997,47.3984,61.1538,225,163,264,223,7,96,52.17
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,54285,0,162.0459,1258,340,334.9977,43.1518,159.6618,848,401,202,836,24,270,47.28
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,52150,0,155.6733,1491,326,334.9964,34.9765,159.9693,1197,444,268,724,35,315,51.39
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,50626,0,151.1214,1343,317,335.0022,37.6962,159.7035,1052,549,205,684,28,290,49.82
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,49101,0,146.5696,911,307,335.0013,53.8979,159.9381,701,279,206,487,14,188,48.76
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,49406,0,147.48,1512,309,335.0014,32.6759,159.89,1037,559,224,704,28,403,48.17
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,49406,0,147.48,1410,309,335.0014,35.0397,159.89,927,590,239,880,32,418,51.9
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,12675,12675,37.8358,324,62,335.0002,39.1204,204.4355,177,136,43,166,6,66,43.85
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,11619,11619,34.6836,275,57,334.9998,42.2509,203.8421,155,102,43,125,5,85,45.9
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,10915,10915,32.5821,237,53,334.9999,46.0549,205.9434,169,89,38,150,5,63,51.56
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1869,0,5.5791,61,21,335.0003,30.6393,89.0,39,20,17,37,1,15,49.54
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1264,0,13.2702,6,6,95.2511,210.6667,210.6667,4,2,5,4,0,2,53.33
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,4641,0,18.4167,146,40,251.9995,31.7877,116.025,79,46,37,102,3,38,50.28
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,4375,0,17.3611,99,38,252.0002,44.1919,115.1316,61,39,28,65,2,26,49.69
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,4242,0,16.8333,102,37,252.0005,41.5882,114.6486,59,30,31,63,2,22,47.48
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,13822,0,54.8494,332,306,251.9991,41.6325,45.1699,244,116,186,173,5,83,47.95
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,13278,0,52.6924,386,294,251.9908,34.399,45.1633,284,162,198,182,7,91,48.82
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,12890,0,51.1517,314,285,251.9955,41.051,45.2281,181,116,188,165,5,78,44.63
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,12502,0,49.611,476,276,252.0006,26.2647,45.2971,337,171,229,297,9,127,52.88
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,12580,0,49.9191,388,278,252.0077,32.4227,45.2518,292,156,195,219,9,95,51.23
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,12580,0,49.9191,315,278,252.0077,39.9365,45.2518,186,122,248,198,5,86,51.1
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3374,3374,13.3889,105,26,251.9998,32.1333,129.7692,75,34,21,65,2,22,51.06
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3093,3093,12.2738,117,24,252.0002,26.4359,128.875,87,43,15,72,2,34,51.03
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,2905,2905,11.5278,73,22,251.9995,39.7945,132.0455,44,30,18,40,1,22,49.8
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,831,0,3.2976,30,15,252.0015,27.7,55.4,16,13,14,16,1,9,49.87
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,4482,0,47.0546,20,40,95.2511,224.1,112.05,14,8,28,13,0,5,51.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,16452,0,49.1104,343,269,335.0003,47.965,61.1599,181,123,196,204,5,90,45.62
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,15512,0,46.3045,434,254,334.9998,35.7419,61.0709,299,165,182,237,8,114,49.46
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,15042,0,44.9015,317,246,334.9999,47.4511,61.1463,193,140,227,192,6,82,52.13
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,49006,0,146.2873,1136,307,334.9983,43.1391,159.6287,765,362,183,755,22,244,47.3
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,47079,0,140.5345,1346,294,334.9996,34.977,160.1327,1080,401,241,654,31,284,51.34
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,45703,0,136.4253,1213,286,335.0038,37.6777,159.8007,951,496,185,618,25,262,49.85
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,44326,0,132.3161,822,277,335.0008,53.9246,160.0217,633,251,186,440,12,169,48.76
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,44601,0,133.1379,1365,279,334.9985,32.6747,159.8602,936,505,202,635,26,364,48.15
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,44601,0,133.1379,1273,279,334.9985,35.0361,159.8602,837,532,216,794,29,377,51.9
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,11961,11961,35.7045,306,58,334.9998,39.0882,206.2241,167,128,40,157,6,62,43.75
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,10964,10964,32.7284,260,53,334.9996,42.1692,206.8679,147,96,40,118,5,81,45.98
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,10300,10300,30.7463,224,50,334.9997,45.9821,206.0,159,85,36,142,4,60,51.59
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,2945,0,8.791,96,33,335.0017,30.6771,89.2424,62,32,26,59,2,24,49.69
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,71,0,0.7452,0,1,95.2796,0.0,71.0,0,0,1,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,351,0,1.3929,11,3,251.9922,31.9091,117.0,6,3,3,8,0,3,51.64
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,331,0,1.3135,8,3,251.9985,41.375,110.3333,5,3,2,5,0,2,47.67
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,321,0,1.2738,8,3,252.0019,40.125,107.0,5,2,3,5,0,2,51.5
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,996,0,3.9499,24,22,252.1583,41.5,45.2727,18,8,13,13,0,6,48.12
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,956,0,3.7946,28,21,251.937,34.1429,45.5238,21,12,14,13,0,7,49.24
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,928,0,3.6836,23,21,251.9275,40.3478,44.1905,13,9,14,12,0,6,44.75
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,900,0,3.5727,34,20,251.9103,26.4706,45.0,24,12,17,21,1,9,53.01
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,906,0,3.5949,28,20,252.0237,32.3571,45.3,21,11,14,16,1,7,51.34
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,906,0,3.5949,23,20,252.0237,39.3913,45.3,14,9,18,14,0,6,51.1
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,232,232,0.9206,7,2,252.0096,33.1429,116.0,5,2,2,4,0,1,51.43
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,213,213,0.8452,8,2,252.0114,26.625,106.5,6,3,1,5,0,2,48.5
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,200,200,0.7937,5,2,251.9844,40.0,100.0,3,2,2,3,0,2,55.2
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,34,0,0.1349,1,1,252.0385,34.0,34.0,1,0,1,1,0,0,60.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,252,0,2.6448,1,2,95.2796,252.0,126.0,1,0,1,1,0,0,52.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1243,0,3.7104,26,20,335.0043,47.8077,62.15,14,9,15,15,0,7,45.85
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1172,0,3.4985,33,19,335.0007,35.5152,61.6842,23,13,14,18,1,9,50.46
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1137,0,3.394,24,19,335.0029,47.375,59.8421,15,11,18,15,0,6,53.16
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3528,0,10.5323,82,22,334.9696,43.0244,160.3636,55,26,13,54,2,18,47.16
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3390,0,10.1181,97,21,335.0431,34.9485,161.4286,78,29,17,47,2,20,51.1
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3291,0,9.8222,87,21,335.0573,37.8276,156.7143,68,36,14,44,2,19,50.16
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3191,0,9.5264,59,20,334.9639,54.0847,159.55,45,18,13,32,1,12,48.3
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3211,0,9.5856,98,20,334.9816,32.7653,160.55,67,36,15,46,2,26,48.53
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3211,0,9.5856,92,20,334.9816,34.9022,160.55,60,38,15,57,2,27,51.17
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,824,824,2.4597,21,4,335.0002,39.2381,206.0,11,9,3,11,0,4,44.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,755,755,2.2537,18,4,335.0047,41.9444,188.75,10,7,3,8,0,6,46.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,709,709,2.1164,15,3,335.0028,47.2667,236.3333,11,6,2,10,0,4,52.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,121,0,0.3612,4,1,334.9945,30.25,121.0,3,1,1,2,0,1,53.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,82,0,0.8606,1,1,95.2796,82.0,82.0,1,0,1,1,0,0,60.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,302,0,1.1984,10,3,252.0027,30.2,100.6667,5,3,3,7,0,3,50.8
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,284,0,1.127,6,2,251.9965,47.3333,142.0,4,2,1,4,0,2,48.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,276,0,1.0952,7,2,252.0088,39.4286,138.0,4,2,2,4,0,1,47.43
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,898,0,3.5657,22,20,251.844,40.8182,44.9,16,8,12,11,0,6,47.78
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,863,0,3.4255,25,19,251.934,34.52,45.4211,18,11,13,12,0,6,48.87
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,838,0,3.3253,20,19,252.0073,41.9,44.1053,12,7,13,10,0,5,44.95
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,813,0,3.2252,31,18,252.0774,26.2258,45.1667,22,11,15,19,1,8,52.69
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,818,0,3.2452,25,18,252.0646,32.72,45.4444,19,10,13,14,1,6,51.72
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,818,0,3.2452,20,18,252.0646,40.9,45.4444,12,8,16,13,0,5,51.22
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,219,219,0.869,7,2,252.0138,31.2857,109.5,5,2,2,4,0,1,51.43
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,201,201,0.7976,8,2,252.006,25.125,100.5,6,3,1,5,0,2,48.5
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,189,189,0.75,5,1,252.0,37.8,189.0,3,2,1,3,0,2,55.2
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,54,0,0.2143,2,1,251.9832,27.0,54.0,1,1,1,1,0,1,54.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,291,0,3.0542,1,3,95.2796,291.0,97.0,1,0,2,1,0,0,54.67
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1069,0,3.191,22,17,335.0047,48.5909,62.8824,12,8,12,13,0,6,45.84
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1008,0,3.009,28,16,334.995,36.0,63.0,19,11,11,15,1,7,48.57
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,978,0,2.9194,21,16,335.0003,46.5714,61.125,13,9,15,13,0,5,52.14
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3186,0,9.5089,74,20,335.0545,43.0541,159.3,50,24,12,49,1,16,47.44
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3060,0,9.135,87,19,334.9754,35.1724,161.0526,70,26,16,42,2,18,51.63
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,2971,0,8.8679,79,19,335.0286,37.6076,156.3684,62,32,12,40,2,17,49.55
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,2881,0,8.6008,53,18,334.9688,54.3585,160.0556,41,16,12,28,1,11,48.7
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,2899,0,8.6542,89,18,334.9819,32.573,161.0556,61,33,13,41,2,24,48.14
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,2899,0,8.6542,83,18,334.9819,34.9277,161.0556,55,35,14,52,2,25,52.3
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,777,777,2.3194,20,4,335.0004,38.85,194.25,11,8,3,10,0,4,44.2
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,713,713,2.1284,17,3,334.9934,41.9412,237.6667,10,6,2,8,0,5,44.78
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,670,670,2.0,15,3,335.0,44.6667,223.3333,11,6,2,10,0,4,52.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,191,0,0.5701,6,2,335.0289,31.8333,95.5,4,2,2,4,0,1,52.67
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,807,0,8.4723,4,14,95.2511,201.75,57.6429,2,1,12,3,0,1,47.71
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,3987,0,15.8214,137,72,252.0005,29.1022,55.375,91,59,50,65,3,31,47.17
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,3760,0,14.9206,90,68,252.0006,41.7778,55.2941,54,27,42,48,2,19,43.22
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,3645,0,14.4643,103,66,251.9998,35.3883,55.2273,65,34,59,59,2,21,49.33
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,11315,0,44.8991,388,76,252.0095,29.1624,148.8816,286,162,53,239,9,104,52.21
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,10870,0,43.1334,272,73,252.0089,39.9632,148.9041,151,84,44,170,5,80,44.92
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,10552,0,41.8722,426,71,252.0049,24.77,148.6197,309,156,53,264,8,118,52.25
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,10234,0,40.611,237,69,252.0007,43.1814,148.3188,181,76,50,142,5,64,51.98
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,10297,0,40.8632,317,69,251.9871,32.4826,149.2319,207,92,45,180,7,96,47.52
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,10297,0,40.8632,366,69,251.9871,28.1339,149.2319,292,121,41,248,8,76,50.98
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,2642,2642,10.4841,65,34,252.0006,40.6462,77.7059,39,21,29,35,1,20,49.22
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,2422,2422,9.6111,70,31,252.0003,34.6,78.129,47,21,27,33,1,21,49.99
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,2275,2275,9.0278,78,29,251.9994,29.1667,78.4483,44,33,21,42,1,22,46.82
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,390,0,1.5476,19,2,252.0031,20.5263,195.0,13,6,1,13,0,4,46.11
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,2862,0,30.0469,12,42,95.2511,238.5,68.1429,8,5,31,8,0,3,51.14
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,14136,0,42.197,275,89,335.0001,51.4036,158.8315,156,104,73,142,4,64,46.58
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,13328,0,39.7851,291,84,334.9998,45.8007,158.6667,209,121,61,191,6,76,52.61
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,12924,0,38.5791,286,82,335.0,45.1888,157.6098,218,105,59,133,6,72,49.9
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,40115,0,119.7456,927,627,335.0019,43.274,63.9793,650,280,441,465,20,284,48.84
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,38537,0,115.0365,1042,602,334.998,36.9837,64.015,734,455,493,601,21,211,51.51
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,37410,0,111.6729,1089,584,334.9962,34.3526,64.0582,690,308,506,678,18,320,50.97
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,36284,0,108.3092,995,567,335.0039,36.4663,63.9929,589,368,413,679,16,230,48.34
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,36509,0,108.982,1001,570,335.0003,36.4725,64.0509,672,408,448,632,16,230,51.09
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,36509,0,108.982,1247,570,335.0003,29.2775,64.0509,812,474,422,741,27,270,48.65
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,9367,9367,27.9612,177,45,334.9999,52.9209,208.1556,97,56,37,106,3,54,48.12
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,8586,8586,25.6299,185,42,334.9994,46.4108,204.4286,138,74,33,90,3,42,50.71
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,8066,8066,24.0776,188,39,335.0002,42.9043,206.8205,141,72,28,99,4,56,51.64
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,1381,0,4.1224,37,25,334.999,37.3243,55.24,26,11,23,24,1,10,53.96
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,934,0,9.8057,4,16,95.2511,233.5,58.375,2,1,14,3,0,1,48.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,3429,0,13.6071,118,62,252.0008,29.0593,55.3065,78,51,43,56,3,27,47.16
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,3233,0,12.8294,77,58,251.9993,41.987,55.7414,46,23,36,41,1,16,43.02
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,3135,0,12.4405,89,56,251.9995,35.2247,55.9821,56,29,50,51,2,19,49.43
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,10214,0,40.5331,351,69,251.9916,29.0997,148.029,259,147,48,216,8,94,52.2
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,9813,0,38.9391,245,66,252.0089,40.0531,148.6818,136,76,40,153,5,72,44.99
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,9526,0,37.8006,385,64,252.0066,24.7429,148.8438,279,141,48,239,7,107,52.32
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,9239,0,36.662,214,62,252.0048,43.1729,149.0161,163,68,45,128,4,58,51.89
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,9296,0,36.8897,286,63,251.9945,32.5035,147.5556,186,83,41,162,6,87,47.42
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,9296,0,36.8897,331,63,251.9945,28.0846,147.5556,264,109,38,224,7,69,51.1
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,2493,2493,9.8929,62,32,251.9989,40.2097,77.9062,37,20,27,33,1,19,48.85
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,2285,2285,9.0675,66,29,251.9989,34.6212,78.7931,44,20,25,31,1,19,49.49
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,2147,2147,8.5198,74,27,252.0012,29.0135,79.5185,41,31,19,40,1,21,46.23
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,614,0,2.4365,30,3,252.0008,20.4667,204.6667,21,9,2,21,1,7,50.0
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,3312,0,34.7713,14,49,95.2511,236.5714,67.5918,9,6,36,9,0,4,50.9
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,12158,0,36.2925,237,77,335.0003,51.2996,157.8961,135,89,63,123,4,55,46.63
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,11463,0,34.2179,250,73,335.0001,45.852,157.0274,180,104,53,164,5,65,52.62
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,11116,0,33.1821,246,70,334.9999,45.187,158.8,188,91,50,114,5,62,49.88
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,36214,0,108.1002,837,566,335.004,43.2664,63.9823,587,253,398,420,18,257,48.86
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,34790,0,103.8491,941,543,335.0053,36.9713,64.07,663,410,445,543,19,191,51.52
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,33772,0,100.8125,983,528,334.9981,34.3561,63.9621,623,278,457,612,17,289,50.97
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,32755,0,97.776,898,512,335.0004,36.4755,63.9746,531,332,373,613,14,208,48.33
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,32958,0,98.3833,904,515,334.9959,36.458,63.9961,607,369,405,571,15,208,51.12
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,32958,0,98.3833,1125,515,334.9959,29.296,63.9961,732,428,381,669,24,244,48.64
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,8839,8839,26.3851,167,43,334.9997,52.9281,205.5581,92,53,36,100,3,51,48.46
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,8103,8103,24.1881,174,39,334.9994,46.569,207.7692,130,69,31,85,3,39,50.83
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,7612,7612,22.7224,178,37,334.9998,42.764,205.7297,134,68,27,94,4,53,51.92
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,2176,0,6.4955,59,39,335.0012,36.8814,55.7949,42,18,36,39,1,15,54.16
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,52,0,0.5458,0,1,95.2796,0.0,52.0,0,0,1,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,259,0,1.0278,9,5,251.9946,28.7778,51.8,6,4,3,4,0,2,45.16
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,244,0,0.9683,6,4,251.988,40.6667,61.0,4,2,2,3,0,1,42.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,237,0,0.9405,7,4,251.9936,33.8571,59.25,4,2,4,4,0,1,47.43
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,735,0,2.9172,25,5,251.9539,29.4,147.0,18,10,4,15,1,7,53.28
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,706,0,2.8025,18,5,251.9179,39.2222,141.2,10,6,3,11,0,5,44.49
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,686,0,2.7206,28,5,252.1503,24.5,137.2,20,10,4,17,1,8,52.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,665,0,2.6386,15,4,252.0276,44.3333,166.25,11,5,3,9,0,4,51.47
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,669,0,2.655,21,5,251.9774,31.8571,133.8,14,6,3,12,0,6,46.55
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,669,0,2.655,24,5,251.9774,27.875,133.8,19,8,3,16,1,5,50.93
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,172,172,0.6825,4,2,252.0147,43.0,86.0,2,1,2,2,0,1,46.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,157,157,0.623,5,2,252.0064,31.4,78.5,3,2,2,2,0,1,48.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,148,148,0.5873,5,2,252.0007,29.6,74.0,3,2,1,3,0,1,43.2
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,25,0,0.0992,1,1,252.0161,25.0,25.0,1,0,1,1,0,0,60.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,186,0,1.9521,1,3,95.2796,186.0,62.0,1,0,2,1,0,0,54.67
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,919,0,2.7433,18,6,334.998,51.0556,153.1667,10,7,5,9,0,4,46.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,866,0,2.5851,19,5,334.9967,45.5789,173.2,14,8,4,12,0,5,53.85
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,840,0,2.5075,19,5,334.995,44.2105,168.0,14,7,4,9,0,5,50.69
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,2608,0,7.7837,60,41,335.0592,43.4667,63.6098,42,18,29,30,1,18,48.65
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,2505,0,7.4776,68,39,335.0005,36.8382,64.2308,48,30,32,39,1,14,51.6
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,2432,0,7.2589,71,38,335.037,34.2535,64.0,45,20,33,44,1,21,50.97
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,2358,0,7.0403,65,37,334.9289,36.2769,63.7297,38,24,27,44,1,15,48.04
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,2373,0,7.084,65,37,334.9802,36.5077,64.1351,44,27,29,41,1,15,51.31
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,2373,0,7.084,81,37,334.9802,29.2963,64.1351,53,31,27,48,2,18,48.71
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,609,609,1.8179,12,3,335.0019,50.75,203.0,7,4,2,7,0,4,47.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,558,558,1.6657,12,3,334.9943,46.5,186.0,9,5,2,6,0,3,49.67
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,524,524,1.5642,12,3,334.9955,43.6667,174.6667,9,5,2,6,0,4,51.33
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,90,0,0.2687,2,2,334.946,45.0,45.0,1,1,2,1,0,1,54.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,61,0,0.6402,0,1,95.2796,0.0,61.0,0,0,1,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,223,0,0.8849,8,4,252.0059,27.875,55.75,5,3,3,4,0,2,47.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,210,0,0.8333,5,4,252.0101,42.0,52.5,3,1,2,3,0,1,40.8
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,204,0,0.8095,6,4,252.0074,34.0,51.0,4,2,4,3,0,1,50.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,664,0,2.6347,23,4,252.0211,28.8696,166.0,17,10,3,14,1,6,53.22
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,638,0,2.5311,16,4,252.0643,39.875,159.5,9,5,2,10,0,5,43.75
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,619,0,2.4571,25,4,251.923,24.76,154.75,18,9,3,16,0,7,52.32
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,601,0,2.3831,14,4,252.1925,42.9286,150.25,11,4,3,8,0,4,52.29
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,604,0,2.3979,19,4,251.8871,31.7895,151.0,12,6,3,11,0,6,49.05
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,604,0,2.3979,21,4,251.8871,28.7619,151.0,17,7,2,14,0,4,49.14
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,162,162,0.6429,4,2,251.9832,40.5,81.0,2,1,2,2,0,1,46.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,149,149,0.5913,4,2,251.9871,37.25,74.5,3,1,2,2,0,1,53.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,140,140,0.5556,5,2,251.9798,28.0,70.0,3,2,1,3,0,1,43.2
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,40,0,0.1587,2,1,252.0479,20.0,40.0,1,1,1,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,215,0,2.2565,1,3,95.2796,215.0,71.6667,1,0,2,1,0,0,54.67
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,790,0,2.3582,15,5,335.0013,52.6667,158.0,9,6,4,8,0,3,46.93
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,745,0,2.2239,16,5,334.9971,46.5625,149.0,12,7,4,11,0,4,55.05
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,723,0,2.1582,16,5,335.0014,45.1875,144.6,12,6,4,7,0,4,50.3
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,2354,0,7.026,54,37,335.0413,43.5926,63.6216,38,16,26,27,1,17,48.95
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,2261,0,6.7497,61,35,334.9779,37.0656,64.6,43,27,29,35,1,12,51.55
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,2195,0,6.5523,64,34,334.9969,34.2969,64.5588,41,18,29,40,1,19,51.02
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,2129,0,6.3549,58,33,335.0171,36.7069,64.5152,34,21,24,40,1,13,48.05
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,2142,0,6.3944,59,33,334.9806,36.3051,64.9091,40,24,26,37,1,14,51.39
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,2142,0,6.3944,73,33,334.9806,29.3425,64.9091,48,28,24,43,2,16,48.68
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,575,575,1.7164,11,3,335.0035,52.2727,191.6667,6,3,2,7,0,3,44.85
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,527,527,1.5731,11,3,335.0073,47.9091,175.6667,8,4,2,5,0,2,46.3
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,495,495,1.4776,12,2,335.0027,41.25,247.5,9,5,1,6,0,4,48.67
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,141,0,0.4209,4,3,334.9964,35.25,47.0,3,1,3,3,0,1,57.0
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,606.0,0,1207.8335,4,5,0.5017,151.5,121.2,3,1,4,2,2,1,52.57
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,4153.0,0,1604.3812,113,31,2.5885,36.7522,133.9677,75,41,24,65,61,29,52.57
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,3915.0,0,1513.4299,121,30,2.5868,32.3554,130.5,81,44,23,70,65,31,52.57
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,3797.0,0,1466.1352,120,29,2.5898,31.6417,130.931,80,43,22,69,64,30,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,16359.0,0,4503.9092,302,118,3.6322,54.1689,138.6356,201,109,90,174,162,77,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,15716.0,0,4325.6446,307,113,3.6332,51.1922,139.0796,204,111,86,177,165,78,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,15257.0,0,4201.9508,385,110,3.6309,39.6286,138.7,256,139,83,222,206,98,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,14797.0,0,4074.6189,389,107,3.6315,38.0386,138.2897,259,141,81,224,209,99,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,14888.0,0,4100.0853,424,107,3.6311,35.1132,139.1402,282,153,81,245,227,108,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,14888.0,0,4100.0853,265,107,3.6311,56.1811,139.1402,176,96,81,153,142,67,52.57
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,3352.0,3121,1175.091,103,15,2.8525,32.5437,223.4667,69,37,11,59,55,26,52.57
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,3072.0,2861,1080.5016,82,14,2.8431,37.4634,219.4286,55,30,11,47,44,21,52.57
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,2887.0,2688,1015.0167,89,13,2.8443,32.4382,222.0769,59,32,10,51,48,23,52.57
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,405.0,0,152.7982,21,7,2.6506,19.2857,57.8571,14,8,5,12,11,5,52.57
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,2148.0,0,2529.543,15,62,0.8492,143.2,34.6452,10,5,47,9,8,4,52.57
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,14724.0,0,1506.6677,423,193,9.7726,34.8085,76.2902,282,153,146,244,227,107,52.57
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,13882.0,0,1420.2762,314,182,9.7742,44.2102,76.2747,209,114,138,181,168,80,52.57
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,13461.0,0,1378.8082,419,176,9.7628,32.1265,76.483,279,152,134,242,225,106,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,58000.0,0,4316.1191,1287,239,13.438,45.066,242.6778,857,466,181,743,690,327,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,55719.0,0,4146.7917,1269,230,13.4367,43.9078,242.2565,845,459,175,732,680,322,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,54090.0,0,4025.8436,946,223,13.4357,57.1776,242.5561,630,342,169,546,507,240,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,52460.0,0,3904.8955,968,216,13.4344,54.1942,242.8704,645,350,164,559,519,246,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,52787.0,0,3929.0852,1398,217,13.4349,37.7589,243.2581,931,506,165,807,749,355,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,52787.0,0,3929.0852,1136,217,13.4349,46.4674,243.2581,757,411,165,655,609,289,52.57
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,11883.0,11065,701.4989,230,65,16.9394,51.6652,182.8154,153,83,49,133,123,58,52.57
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,10892.0,10143,642.7527,235,60,16.9459,46.3489,181.5333,157,85,46,136,126,60,52.57
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,10232.0,9528,604.7405,173,56,16.9197,59.1445,182.7143,115,63,43,100,93,44,52.57
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,1438.0,0,65.6575,47,17,21.9015,30.5957,84.5882,31,17,13,27,25,12,52.57
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,187.0,0,1397.0122,5,6,0.1339,37.4,31.1667,3,2,5,3,3,1,52.57
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,3271.0,0,1378.8219,97,27,2.3723,33.7216,121.1481,65,35,20,56,52,25,52.57
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,3084.0,0,1302.4228,104,26,2.3679,29.6538,118.6154,69,38,20,60,56,26,52.57
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,2991.0,0,1262.4043,103,25,2.3693,29.0388,119.64,69,37,19,59,55,26,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,15159.0,0,4067.3428,273,106,3.727,55.5275,143.0094,182,99,80,158,146,69,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,14562.0,0,3907.2685,277,102,3.7269,52.5704,142.7647,184,100,77,160,148,70,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,14138.0,0,3790.8508,348,99,3.7295,40.6264,142.8081,232,126,75,201,187,88,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,13712.0,0,3678.0712,351,96,3.728,39.0655,142.8333,234,127,73,203,188,89,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,13796.0,0,3699.8995,383,97,3.7287,36.0209,142.2268,255,139,74,221,205,97,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,13796.0,0,3699.8995,239,97,3.7287,57.7238,142.2268,159,87,74,138,128,61,52.57
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,2828.0,2945,1109.6061,97,14,2.5487,29.1546,202.0,65,35,11,56,52,25,52.57
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,2592.0,2700,1018.6547,77,13,2.5445,33.6623,199.3846,51,28,10,44,41,20,52.57
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,2435.0,2536,956.8078,84,12,2.5449,28.9881,202.9167,56,30,9,48,45,21,52.57
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,857.0,0,240.1115,33,10,3.5692,25.9697,85.7,22,12,8,19,18,8,52.57
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,662.0,0,2926.9438,17,72,0.2262,38.9412,9.1944,11,6,55,10,9,4,52.57
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,11599.0,0,1295.8724,364,166,8.9507,31.8654,69.8735,242,132,126,210,195,92,52.57
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,10936.0,0,1223.3036,270,156,8.9397,40.5037,70.1026,180,98,118,156,145,69,52.57
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,10604.0,0,1185.2913,360,152,8.9463,29.4556,69.7632,240,130,115,208,193,91,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,53744.0,0,3897.9842,1162,216,13.7876,46.2513,248.8148,774,421,164,670,623,295,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,51631.0,0,3742.4795,1145,207,13.7959,45.0926,249.4251,763,414,157,661,614,291,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,50121.0,0,3635.3541,854,201,13.7871,58.6897,249.3582,569,309,153,493,458,217,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,48611.0,0,3524.773,874,195,13.7912,55.619,249.2872,582,316,148,504,468,222,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,48912.0,0,3545.5069,1262,196,13.7955,38.7575,249.551,840,457,149,728,676,321,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,48914.0,0,3545.5069,1026,196,13.7961,47.6745,249.5612,683,371,149,592,550,261,52.57
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,10026.0,10442,663.4867,217,62,15.1111,46.2028,161.7097,145,79,47,125,116,55,52.57
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,9190.0,9572,608.1961,222,57,15.1103,41.3964,161.2281,148,80,43,128,119,56,52.57
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,8633.0,8992,570.1839,163,53,15.1407,52.9632,162.8868,109,59,40,94,87,41,52.57
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,3040.0,0,107.1255,73,26,28.3779,41.6438,116.9231,49,26,20,42,39,19,52.57
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,39.0,0,80.0372,0,1,0.4873,0.0,39.0,0,0,1,0,0,0,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,270.0,0,105.5035,7,2,2.5592,38.5714,135.0,5,3,2,4,4,2,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,255.0,0,98.2274,8,2,2.596,31.875,127.5,5,3,2,5,4,2,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,247.0,0,94.5894,8,2,2.6113,30.875,123.5,5,3,2,5,4,2,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,1064.0,0,291.0442,20,8,3.6558,53.2,133.0,13,7,6,12,11,5,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,1021.0,0,280.1301,20,7,3.6447,51.05,145.8571,13,7,5,12,11,5,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,991.0,0,272.8539,25,7,3.632,39.64,141.5714,17,9,5,14,13,6,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,962.0,0,265.5778,25,7,3.6223,38.48,137.4286,17,9,5,14,13,6,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,968.0,0,265.5778,28,7,3.6449,34.5714,138.2857,19,10,5,16,15,7,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,968.0,0,265.5778,17,7,3.6449,56.9412,138.2857,11,6,5,10,9,4,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,218.0,203,76.3991,7,1,2.8534,31.1429,218.0,5,3,1,4,4,2,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,200.0,186,69.123,5,1,2.8934,40.0,200.0,3,2,1,3,3,1,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,188.0,175,65.4849,6,1,2.8709,31.3333,188.0,4,2,1,3,3,2,52.57
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,26.0,0,10.9142,1,1,2.3822,26.0,26.0,1,0,1,1,1,0,52.57
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,140.0,0,165.8717,1,4,0.844,140.0,35.0,1,0,3,1,1,0,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,958.0,0,96.7585,28,13,9.9009,34.2143,73.6923,19,10,10,16,15,7,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,902.0,0,93.3028,20,12,9.6674,45.1,75.1667,13,7,9,12,11,5,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,875.0,0,89.8472,27,11,9.7388,32.4074,79.5455,18,10,8,16,14,7,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,3770.0,0,279.9084,84,16,13.4687,44.881,235.625,56,30,12,48,45,21,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,3621.0,0,269.5415,82,15,13.4339,44.1585,241.4,55,30,11,47,44,21,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,3516.0,0,262.6301,61,14,13.3877,57.6393,251.1429,41,22,11,35,33,15,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,3410.0,0,252.2632,63,14,13.5176,54.127,243.5714,42,23,11,36,34,16,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,3432.0,0,255.7188,91,14,13.421,37.7143,245.1429,61,33,11,53,49,23,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,3432.0,0,255.7188,74,14,13.421,46.3784,245.1429,49,27,11,43,40,19,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,772.0,719,44.9236,15,4,17.1847,51.4667,193.0,10,5,3,9,8,4,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,708.0,659,41.4679,15,4,17.0734,47.2,177.0,10,5,3,9,8,4,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,665.0,619,38.0123,11,4,17.4943,60.4545,166.25,7,4,3,6,6,3,52.57
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,94.0,0,3.4557,3,1,27.2014,31.3333,94.0,2,1,1,2,2,1,52.57
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,12.0,0,90.9513,0,1,0.1319,0.0,12.0,0,0,1,0,0,0,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,212.0,0,90.9513,6,2,2.3309,35.3333,106.0,4,2,2,3,3,2,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,200.0,0,83.6752,7,2,2.3902,28.5714,100.0,5,3,2,4,4,2,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,195.0,0,83.6752,7,2,2.3304,27.8571,97.5,5,3,2,4,4,2,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,985.0,0,265.5778,18,7,3.7089,54.7222,140.7143,12,7,5,10,10,5,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,947.0,0,254.6637,18,7,3.7186,52.6111,135.2857,12,7,5,10,10,5,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,920.0,0,247.3876,23,6,3.7189,40.0,153.3333,15,8,5,13,12,6,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,892.0,0,240.1115,23,6,3.7149,38.7826,148.6667,15,8,5,13,12,6,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,897.0,0,240.1115,25,6,3.7358,35.88,149.5,17,9,5,14,13,6,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,897.0,0,240.1115,16,6,3.7358,56.0625,149.5,11,6,5,9,9,4,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,183.0,191,72.7611,6,1,2.5151,30.5,183.0,4,2,1,3,3,2,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,169.0,176,65.4849,5,1,2.5807,33.8,169.0,3,2,1,3,3,1,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,158.0,165,61.8469,5,1,2.5547,31.6,158.0,3,2,1,3,3,1,52.57
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,56.0,0,14.5522,2,1,3.8482,28.0,56.0,1,1,1,1,1,1,52.57
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Dala,North West,Kano,Dala,,,43.0,0,190.0613,1,5,0.2262,43.0,8.6,1,0,4,1,1,0,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Dala,North West,Kano,Dala,,,754.0,0,82.9358,24,11,9.0914,31.4167,68.5455,16,9,8,14,13,6,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Dala,North West,Kano,Dala,,,711.0,0,79.4802,18,10,8.9456,39.5,71.1,12,7,8,10,10,5,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Dala,North West,Kano,Dala,,,690.0,0,76.0245,23,10,9.076,30.0,69.0,15,8,8,13,12,6,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Dala,North West,Kano,Dala,,,3494.0,0,252.2632,75,14,13.8506,46.5867,249.5714,50,27,11,43,40,19,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Dala,North West,Kano,Dala,,,3355.0,0,241.8962,74,13,13.8696,45.3378,258.0769,49,27,10,43,40,19,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Dala,North West,Kano,Dala,,,3257.0,0,234.9849,55,13,13.8605,59.2182,250.5385,37,20,10,32,29,14,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Dala,North West,Kano,Dala,,,3159.0,0,228.0735,57,13,13.8508,55.4211,243.0,38,21,10,33,31,14,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Dala,North West,Kano,Dala,,,3179.0,0,231.5292,82,13,13.7304,38.7683,244.5385,55,30,10,47,44,21,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Dala,North West,Kano,Dala,,,3179.0,0,231.5292,67,13,13.7304,47.4478,244.5385,45,24,10,39,36,17,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Dala,North West,Kano,Dala,,,652.0,679,44.9236,14,4,14.5135,46.5714,163.0,9,5,3,8,8,4,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Dala,North West,Kano,Dala,,,597.0,622,38.0123,14,4,15.7054,42.6429,149.25,9,5,3,8,8,4,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Dala,North West,Kano,Dala,,,561.0,584,38.0123,11,3,14.7584,51.0,187.0,7,4,2,6,6,3,52.57
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Dala,North West,Kano,Dala,,,198.0,0,6.9113,5,2,28.6487,39.6,99.0,3,2,2,3,3,1,52.57
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,758.0,0,1509.7918,5,22,0.5021,151.6,34.4545,3,2,17,3,3,1,52.57
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,5196.0,0,2008.2051,204,64,2.5874,25.4706,81.1875,136,74,49,118,109,52,52.57
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,4899.0,0,1891.7874,205,60,2.5896,23.8976,81.65,137,74,46,118,110,52,52.57
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,4750.0,0,1837.2166,115,58,2.5854,41.3043,81.8966,77,42,44,66,62,29,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,20468.0,0,5635.3435,573,101,3.6321,35.7208,202.6535,382,207,77,331,307,146,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,19663.0,0,5413.4223,523,97,3.6323,37.5966,202.7113,348,189,74,302,280,133,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,19087.0,0,5256.986,414,94,3.6308,46.1039,203.0532,276,150,71,239,222,105,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,18512.0,0,5096.9117,414,91,3.632,44.715,203.4286,276,150,69,239,222,105,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,18627.0,0,5129.6542,424,92,3.6312,43.9316,202.4674,282,153,70,245,227,108,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,18627.0,0,5129.6542,416,92,3.6312,44.7764,202.4674,277,151,70,240,223,106,52.57
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,4192.0,3904,1473.4113,99,85,2.8451,42.3434,49.3176,66,36,65,57,53,25,52.57
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,3843.0,3579,1349.7175,93,78,2.8473,41.3226,49.2692,62,34,59,54,50,24,52.57
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,3610.0,3362,1266.0423,104,73,2.8514,34.7115,49.4521,69,38,55,60,56,26,52.57
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,508.0,0,189.1787,26,4,2.6853,19.5385,127.0,17,9,3,15,14,7,52.57
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,2689.0,0,3165.3844,18,24,0.8495,149.3889,112.0417,12,7,18,10,10,5,52.57
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,18421.0,0,1886.7902,538,192,9.7631,34.2398,95.9427,358,195,146,310,288,137,52.57
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,17368.0,0,1776.2091,417,181,9.7781,41.6499,95.9558,278,151,137,241,224,106,52.57
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,16842.0,0,1724.3742,342,176,9.767,49.2456,95.6932,228,124,134,197,183,87,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,72567.0,0,5401.1962,1978,297,13.4354,36.6871,244.3333,1317,716,225,1141,1060,502,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,69713.0,0,5190.401,1140,286,13.4311,61.1518,243.7517,759,413,217,658,611,290,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,67675.0,0,5038.352,1496,277,13.432,45.2373,244.3141,996,542,210,863,802,380,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,65636.0,0,4886.3029,1057,269,13.4327,62.0965,244.0,704,383,204,610,567,268,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,66044.0,0,4917.4039,1201,271,13.4307,54.9908,243.7048,800,435,206,693,644,305,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,66044.0,0,4917.4039,1439,271,13.4307,45.8958,243.7048,958,521,206,830,771,366,52.57
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,14867.0,13844,877.7376,277,107,16.9379,53.6715,138.9439,184,100,81,160,148,70,52.57
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,13629.0,12691,805.1687,437,98,16.9269,31.1876,139.0714,291,158,74,252,234,111,52.57
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,12802.0,11921,756.7895,230,92,16.9162,55.6609,139.1522,153,83,70,133,123,58,52.57
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,1798.0,0,82.9358,71,14,21.6794,25.3239,128.4286,47,26,11,41,38,18,52.57
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,234.0,0,1746.2653,6,25,0.134,39.0,9.36,4,2,19,3,3,2,52.57
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,4093.0,0,1728.075,175,55,2.3685,23.3886,74.4182,117,63,42,101,94,44,52.57
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,3859.0,0,1629.8476,176,52,2.3677,21.9261,74.2115,117,64,39,102,94,45,52.57
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,3742.0,0,1578.9148,99,50,2.37,37.798,74.84,66,36,38,57,53,25,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,18965.0,0,5085.9976,518,91,3.7289,36.612,208.4066,345,188,69,299,278,132,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,18220.0,0,4885.9047,472,87,3.7291,38.6017,209.4253,314,171,66,272,253,120,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,17688.0,0,4744.0206,374,85,3.7285,47.2941,208.0941,249,135,65,216,200,95,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,17154.0,0,4602.1366,374,82,3.7274,45.8663,209.1951,249,135,62,216,200,95,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,17260.0,0,4631.241,382,83,3.7269,45.1832,207.9518,254,138,63,220,205,97,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,17260.0,0,4631.241,376,83,3.7269,45.9043,207.9518,250,136,63,217,202,96,52.57
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,3538.0,3685,1389.7361,94,80,2.5458,37.6383,44.225,63,34,61,54,50,24,52.57
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,3243.0,3378,1273.3184,88,73,2.5469,36.8523,44.4247,59,32,55,51,47,22,52.57
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,3047.0,3173,1196.9193,98,69,2.5457,31.0918,44.1594,65,35,52,57,53,25,52.57
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,1073.0,0,298.3203,41,6,3.5968,26.1707,178.8333,27,15,5,24,22,10,52.57
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,828.0,0,3662.9994,21,28,0.226,39.4286,29.5714,14,8,21,12,11,5,52.57
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,14511.0,0,1620.7044,463,165,8.9535,31.3413,87.9455,308,168,125,267,248,118,52.57
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,13682.0,0,1527.4016,359,156,8.9577,38.1114,87.7051,239,130,118,207,192,91,52.57
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,13267.0,0,1482.478,294,151,8.9492,45.1259,87.8609,196,106,115,170,158,75,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,67242.0,0,4875.9359,1785,269,13.7906,37.6706,249.9703,1189,646,204,1030,957,453,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,64598.0,0,4685.8747,1029,258,13.7857,62.7775,250.3798,685,372,196,594,552,261,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,62708.0,0,4547.6483,1350,250,13.7891,46.4504,250.832,899,489,190,779,724,343,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,60820.0,0,4409.4219,954,243,13.7932,63.7526,250.2881,635,345,184,550,511,242,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,61197.0,0,4437.0671,1084,244,13.7922,56.4548,250.8074,722,392,185,625,581,275,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,61197.0,0,4437.0671,1299,244,13.7922,47.1109,250.8074,865,470,185,750,696,330,52.57
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,12544.0,13065,829.3583,262,101,15.1249,47.8779,124.198,174,95,77,151,140,67,52.57
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,11498.0,11976,760.2452,413,93,15.1241,27.8402,123.6344,275,150,71,238,221,105,52.57
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,10801.0,11250,715.3216,217,87,15.0995,49.7742,124.1494,145,79,66,125,116,55,52.57
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,3804.0,0,131.3151,112,23,28.9685,33.9643,165.3913,75,41,17,65,60,28,52.57
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,50.0,0,98.2274,1,1,0.509,50.0,50.0,1,0,1,1,1,0,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,338.0,0,130.9699,13,4,2.5807,26.0,84.5,9,5,3,8,7,3,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,318.0,0,123.6938,13,4,2.5709,24.4615,79.5,9,5,3,8,7,3,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,309.0,0,120.0557,7,4,2.5738,44.1429,77.25,5,3,3,4,4,2,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,1330.0,0,367.4433,37,7,3.6196,35.9459,190.0,25,13,5,21,20,9,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,1278.0,0,352.8911,34,6,3.6215,37.5882,213.0,23,12,5,20,18,9,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,1241.0,0,341.9769,27,6,3.6289,45.963,206.8333,18,10,5,16,14,7,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,1203.0,0,331.0628,27,6,3.6338,44.5556,200.5,18,10,5,16,14,7,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,1210.0,0,334.7008,27,6,3.6152,44.8148,201.6667,18,10,5,16,14,7,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,1210.0,0,334.7008,27,6,3.6152,44.8148,201.6667,18,10,5,16,14,7,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,273.0,254,94.5894,6,6,2.8862,45.5,45.5,4,2,5,3,3,2,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,250.0,233,87.3133,6,5,2.8633,41.6667,50.0,4,2,4,3,3,2,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,235.0,219,83.6752,7,5,2.8085,33.5714,47.0,5,3,4,4,4,2,52.57
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,33.0,0,10.9142,2,1,3.0236,16.5,33.0,1,1,1,1,1,1,52.57
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,175.0,0,207.3396,1,2,0.844,175.0,87.5,1,0,2,1,1,0,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,1197.0,0,120.9481,35,12,9.8968,34.2,99.75,23,13,9,20,19,9,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,1129.0,0,114.0368,27,12,9.9003,41.8148,94.0833,18,10,9,16,14,7,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,1095.0,0,110.5811,22,11,9.9022,49.7727,99.5455,15,8,8,13,12,6,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,4717.0,0,352.4773,129,19,13.3824,36.5659,248.2632,86,47,14,74,69,33,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,4531.0,0,338.6547,74,19,13.3794,61.2297,238.4737,49,27,14,43,40,19,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,4399.0,0,328.2877,97,18,13.3998,45.3505,244.3889,65,35,14,56,52,25,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,4266.0,0,317.9207,69,17,13.4184,61.8261,250.9412,46,25,13,40,37,18,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,4292.0,0,317.9207,78,18,13.5002,55.0256,238.4444,52,28,14,45,42,20,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,4293.0,0,317.9207,93,18,13.5034,46.1613,238.5,62,34,14,54,50,24,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,966.0,900,58.7462,18,7,16.4436,53.6667,138.0,12,7,5,10,10,5,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,886.0,825,51.8349,28,6,17.0927,31.6429,147.6667,19,10,5,16,15,7,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,832.0,775,48.3792,15,6,17.1975,55.4667,138.6667,10,5,5,9,8,4,52.57
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,117.0,0,6.9113,5,1,16.9288,23.4,117.0,3,2,1,3,3,1,52.57
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,15.0,0,112.7796,1,2,0.133,15.0,7.5,1,0,2,1,1,0,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,266.0,0,112.7796,11,4,2.3586,24.1818,66.5,7,4,3,6,6,3,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,251.0,0,105.5035,12,3,2.3791,20.9167,83.6667,8,4,2,7,6,3,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,243.0,0,101.8655,6,3,2.3855,40.5,81.0,4,2,2,3,3,2,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,1232.0,0,331.0628,34,6,3.7213,36.2353,205.3333,23,12,5,20,18,9,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,1185.0,0,316.5106,31,6,3.744,38.2258,197.5,21,11,5,18,17,8,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,1149.0,0,309.2345,24,6,3.7156,47.875,191.5,16,9,5,14,13,6,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,1114.0,0,298.3203,24,5,3.7342,46.4167,222.8,16,9,4,14,13,6,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,1122.0,0,301.9584,25,5,3.7157,44.88,224.4,17,9,4,14,13,6,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,1122.0,0,301.9584,24,5,3.7157,46.75,224.4,16,9,4,14,13,6,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,230.0,240,90.9513,6,5,2.5288,38.3333,46.0,4,2,4,3,3,2,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,211.0,220,83.6752,6,5,2.5217,35.1667,42.2,4,2,4,3,3,2,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,198.0,206,76.3991,6,4,2.5917,33.0,49.5,4,2,3,3,3,2,52.57
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,70.0,0,18.1903,3,1,3.8482,23.3333,70.0,2,1,1,2,2,1,52.57
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Fagge,North West,Kano,Fagge,,,54.0,0,238.4405,2,2,0.2265,27.0,27.0,1,1,2,1,1,1,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Fagge,North West,Kano,Fagge,,,943.0,0,107.1255,30,11,8.8028,31.4333,85.7273,20,11,8,17,16,8,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Fagge,North West,Kano,Fagge,,,889.0,0,100.2141,23,10,8.871,38.6522,88.9,15,8,8,13,12,6,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Fagge,North West,Kano,Fagge,,,862.0,0,96.7585,19,10,8.9088,45.3684,86.2,13,7,8,11,10,5,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Fagge,North West,Kano,Fagge,,,4370.0,0,317.9207,116,17,13.7456,37.6724,257.0588,77,42,13,67,62,29,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Fagge,North West,Kano,Fagge,,,4198.0,0,304.0981,67,17,13.8048,62.6567,246.9412,45,24,13,39,36,17,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Fagge,North West,Kano,Fagge,,,4076.0,0,297.1867,88,16,13.7153,46.3182,254.75,59,32,12,51,47,22,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Fagge,North West,Kano,Fagge,,,3953.0,0,286.8198,62,16,13.7822,63.7581,247.0625,41,22,12,36,33,16,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Fagge,North West,Kano,Fagge,,,3977.0,0,286.8198,70,16,13.8658,56.8143,248.5625,47,25,12,40,38,18,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Fagge,North West,Kano,Fagge,,,3978.0,0,286.8198,84,16,13.8693,47.3571,248.625,56,30,12,48,45,21,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Fagge,North West,Kano,Fagge,,,815.0,849,55.2906,17,7,14.7403,47.9412,116.4286,11,6,5,10,9,4,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Fagge,North West,Kano,Fagge,,,747.0,778,48.3792,27,6,15.4405,27.6667,124.5,18,10,5,16,14,7,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Fagge,North West,Kano,Fagge,,,702.0,731,44.9236,14,6,15.6265,50.1429,117.0,9,5,5,8,8,4,52.57
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Fagge,North West,Kano,Fagge,,,247.0,0,10.367,7,1,23.8256,35.2857,247.0,5,3,1,4,4,2,52.57
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,633.0,0,1258.7662,4,20,0.5029,158.25,31.65,3,1,15,2,2,1,52.57
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,4333.0,0,1673.5042,158,28,2.5892,27.4241,154.75,105,57,21,91,85,40,52.57
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,4086.0,0,1578.9148,106,27,2.5879,38.5472,151.3333,71,38,20,61,57,27,52.57
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,3962.0,0,1531.6202,130,26,2.5868,30.4769,152.3846,87,47,20,75,70,33,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,17071.0,0,4700.364,336,182,3.6318,50.8065,93.7967,224,122,138,194,180,85,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,16399.0,0,4514.8233,307,175,3.6323,53.4169,93.7086,204,111,133,177,165,78,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,15920.0,0,4383.8534,320,170,3.6315,49.75,93.6471,213,116,129,185,172,81,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,15440.0,0,4252.8835,356,165,3.6305,43.3708,93.5758,237,129,125,205,191,90,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,15536.0,0,4278.3499,491,166,3.6313,31.6415,93.5904,327,178,126,283,263,125,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,15536.0,0,4278.3499,487,166,3.6313,31.9014,93.5904,324,176,126,281,261,124,52.57
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,3498.0,3257,1229.6618,77,59,2.8447,45.4286,59.2881,51,28,45,44,41,20,52.57
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,3207.0,2986,1124.1583,119,54,2.8528,26.9496,59.3889,79,43,41,69,64,30,52.57
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,3011.0,2804,1058.6733,70,51,2.8441,43.0143,59.0392,47,25,39,40,38,18,52.57
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,423.0,0,156.4363,22,3,2.704,19.2273,141.0,15,8,2,13,12,6,52.57
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,2242.0,0,2636.6684,15,25,0.8503,149.4667,89.68,10,5,19,9,8,4,52.57
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,15364.0,0,1572.3252,286,288,9.7715,53.7203,53.3472,190,104,219,165,153,73,52.57
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,14486.0,0,1482.478,313,272,9.7715,46.2812,53.2574,208,113,206,181,168,80,52.57
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,14047.0,0,1437.5545,341,263,9.7715,41.1935,53.4106,227,123,200,197,183,87,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,60523.0,0,4506.1803,1294,420,13.4311,46.772,144.1024,862,468,319,747,694,329,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,58142.0,0,4326.486,1003,403,13.4386,57.9681,144.273,668,363,306,579,538,255,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,56442.0,0,4202.0823,1335,391,13.4319,42.2787,144.3529,889,483,297,770,716,339,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,54742.0,0,4074.2229,814,380,13.4362,67.2506,144.0579,542,295,288,470,436,207,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,55083.0,0,4098.4125,917,382,13.4401,60.0687,144.1963,611,332,290,529,492,233,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,55083.0,0,4098.4125,993,382,13.4401,55.4713,144.1963,661,359,290,573,532,252,52.57
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,12400.0,11547,732.5999,265,144,16.926,46.7925,86.1111,176,96,109,153,142,67,52.57
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,11366.0,10584,670.398,208,132,16.9541,54.6442,86.1061,139,75,100,120,111,53,52.57
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,10678.0,9943,632.3857,277,124,16.8853,38.5487,86.1129,184,100,94,160,148,70,52.57
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,1500.0,0,69.1132,72,9,21.7035,20.8333,166.6667,48,26,7,42,39,18,52.57
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,195.0,0,1455.2211,5,23,0.134,39.0,8.4783,3,2,17,3,3,1,52.57
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,3413.0,0,1440.6688,136,24,2.369,25.0956,142.2083,91,49,18,78,73,35,52.57
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,3219.0,0,1356.9936,91,23,2.3722,35.3736,139.9565,61,33,17,53,49,23,52.57
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,3121.0,0,1316.9751,112,22,2.3698,27.8661,141.8636,75,41,17,65,60,28,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,15817.0,0,4241.9694,303,165,3.7287,52.2013,95.8606,202,110,125,175,162,77,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,15195.0,0,4074.6189,277,158,3.7292,54.8556,96.1709,184,100,120,160,148,70,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,14751.0,0,3958.2013,289,154,3.7267,51.0415,95.7857,192,105,117,167,155,73,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,14307.0,0,3838.1455,322,149,3.7276,44.4317,96.0201,214,117,113,186,173,82,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,14396.0,0,3863.6119,443,150,3.726,32.4966,95.9733,295,160,114,256,237,113,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,14395.0,0,3859.9738,439,150,3.7293,32.7904,95.9667,292,159,114,253,235,112,52.57
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,2950.0,3073,1160.5388,73,56,2.5419,40.411,52.6786,49,26,43,42,39,19,52.57
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,2705.0,2817,1062.3114,112,51,2.5463,24.1518,53.0392,75,41,39,65,60,28,52.57
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,2541.0,2647,996.8264,66,48,2.5491,38.5,52.9375,44,24,36,38,35,17,52.57
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,895.0,0,251.0256,35,4,3.5654,25.5714,223.75,23,13,3,20,19,9,52.57
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,690.0,0,3054.8032,18,29,0.2259,38.3333,23.7931,12,7,22,10,10,5,52.57
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,12102.0,0,1351.163,246,248,8.9567,49.1951,48.7984,164,89,188,142,132,62,52.57
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,11411.0,0,1275.1385,269,234,8.9488,42.4201,48.765,179,97,178,155,144,68,52.57
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,11066.0,0,1237.1262,294,226,8.9449,37.6395,48.9646,196,106,172,170,158,75,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,56080.0,0,4067.3116,1168,379,13.788,48.0137,147.9683,778,423,288,674,626,297,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,53876.0,0,3908.3512,905,364,13.7848,59.5315,148.011,603,328,276,522,485,230,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,52300.0,0,3794.3144,1206,353,13.7838,43.3665,148.1586,803,437,268,696,646,306,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,50725.0,0,3676.822,735,343,13.7959,69.0136,147.8863,490,266,260,424,394,187,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,51040.0,0,3701.0116,828,345,13.7908,61.6425,147.942,551,300,262,478,444,210,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,51039.0,0,3701.0116,896,345,13.7906,56.9632,147.9391,597,324,262,517,480,228,52.57
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,10462.0,10897,691.132,250,136,15.1375,41.848,76.9265,166,90,103,144,134,64,52.57
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,9590.0,9988,635.8414,196,125,15.0824,48.9286,76.72,131,71,95,113,105,50,52.57
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,9009.0,9383,594.3735,261,117,15.1571,34.5172,77.0,174,94,89,151,140,66,52.57
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,3172.0,0,110.5811,114,14,28.6848,27.8246,226.5714,76,41,11,66,61,29,52.57
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,41.0,0,83.6752,0,1,0.49,0.0,41.0,0,0,1,0,0,0,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,281.0,0,109.1416,10,2,2.5746,28.1,140.5,7,4,2,6,5,3,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,265.0,0,101.8655,7,2,2.6015,37.8571,132.5,5,3,2,4,4,2,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,257.0,0,98.2274,8,2,2.6164,32.125,128.5,5,3,2,5,4,2,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,1110.0,0,305.5964,22,12,3.6322,50.4545,92.5,15,8,9,13,12,6,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,1066.0,0,294.6823,20,11,3.6175,53.3,96.9091,13,7,8,12,11,5,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,1035.0,0,283.7681,21,11,3.6473,49.2857,94.0909,14,8,8,12,11,5,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,1004.0,0,276.492,23,11,3.6312,43.6522,91.2727,15,8,8,13,12,6,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,1010.0,0,276.492,32,11,3.6529,31.5625,91.8182,21,12,8,18,17,8,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,1010.0,0,276.492,32,11,3.6529,31.5625,91.8182,21,12,8,18,17,8,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,228.0,212,80.0372,5,4,2.8487,45.6,57.0,3,2,3,3,3,1,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,208.0,194,72.7611,8,4,2.8587,26.0,52.0,5,3,3,5,4,2,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,195.0,182,69.123,5,3,2.8211,39.0,65.0,3,2,2,3,3,1,52.57
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,27.0,0,10.9142,1,1,2.4738,27.0,27.0,1,0,1,1,1,0,52.57
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,146.0,0,172.783,1,2,0.845,146.0,73.0,1,0,2,1,1,0,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,999.0,0,103.6698,19,19,9.6364,52.5789,52.5789,13,7,14,11,10,5,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,942.0,0,96.7585,20,18,9.7356,47.1,52.3333,13,7,14,12,11,5,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,913.0,0,93.3028,22,17,9.7853,41.5,53.7059,15,8,13,13,12,6,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,3934.0,0,293.7311,84,27,13.3932,46.8333,145.7037,56,30,20,48,45,21,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,3779.0,0,279.9084,65,26,13.5008,58.1385,145.3462,43,24,20,38,35,17,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,3669.0,0,272.9971,87,25,13.4397,42.1724,146.76,58,31,19,50,47,22,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,3558.0,0,266.0858,53,25,13.3716,67.1321,142.32,35,19,19,31,28,13,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,3580.0,0,266.0858,60,25,13.4543,59.6667,143.2,40,22,19,35,32,15,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,3581.0,0,266.0858,64,25,13.4581,55.9531,143.24,43,23,19,37,34,16,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,806.0,751,48.3792,17,9,16.6601,47.4118,89.5556,11,6,7,10,9,4,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,739.0,688,44.9236,14,9,16.4502,52.7857,82.1111,9,5,7,8,8,4,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,694.0,646,41.4679,18,8,16.7358,38.5556,86.75,12,7,6,10,10,5,52.57
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,98.0,0,3.4557,5,1,28.3589,19.6,98.0,3,2,1,3,3,1,52.57
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,13.0,0,94.5894,0,2,0.1374,0.0,6.5,0,0,2,0,0,0,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,222.0,0,94.5894,9,2,2.347,24.6667,111.0,6,3,2,5,5,2,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,209.0,0,87.3133,6,1,2.3937,34.8333,209.0,4,2,1,3,3,2,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,203.0,0,83.6752,7,1,2.426,29.0,203.0,5,3,1,4,4,2,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,1029.0,0,276.492,20,11,3.7216,51.45,93.5455,13,7,8,12,11,5,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,989.0,0,265.5778,18,10,3.724,54.9444,98.9,12,7,8,10,10,5,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,960.0,0,258.3017,19,10,3.7166,50.5263,96.0,13,7,8,11,10,5,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,930.0,0,251.0256,21,10,3.7048,44.2857,93.0,14,8,8,12,11,5,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,936.0,0,251.0256,29,10,3.7287,32.2759,93.6,19,10,8,17,16,7,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,936.0,0,251.0256,29,10,3.7287,32.2759,93.6,19,10,8,17,16,7,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,192.0,200,76.3991,5,4,2.5131,38.4,48.0,3,2,3,3,3,1,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,176.0,183,69.123,7,3,2.5462,25.1429,58.6667,5,3,2,4,4,2,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,165.0,172,65.4849,4,3,2.5197,41.25,55.0,3,1,2,2,2,1,52.57
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,58.0,0,18.1903,2,1,3.1885,29.0,58.0,1,1,1,1,1,1,52.57
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Gwale,North West,Kano,Gwale,,,45.0,0,196.9726,1,2,0.2285,45.0,22.5,1,0,2,1,1,0,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Gwale,North West,Kano,Gwale,,,786.0,0,86.3915,16,16,9.0981,49.125,49.125,11,6,12,9,9,4,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Gwale,North West,Kano,Gwale,,,742.0,0,82.9358,18,15,8.9467,41.2222,49.4667,12,7,11,10,10,5,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Gwale,North West,Kano,Gwale,,,719.0,0,79.4802,19,15,9.0463,37.8421,47.9333,13,7,11,11,10,5,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Gwale,North West,Kano,Gwale,,,3646.0,0,266.0858,76,25,13.7023,47.9737,145.84,51,28,19,44,41,19,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Gwale,North West,Kano,Gwale,,,3502.0,0,255.7188,59,24,13.6947,59.3559,145.9167,39,21,18,34,32,15,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Gwale,North West,Kano,Gwale,,,3399.0,0,245.3518,78,23,13.8536,43.5769,147.7826,52,28,17,45,42,20,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Gwale,North West,Kano,Gwale,,,3296.0,0,238.4405,48,22,13.8232,68.6667,149.8182,32,17,17,28,26,12,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Gwale,North West,Kano,Gwale,,,3318.0,0,241.8962,54,22,13.7166,61.4444,150.8182,36,20,17,31,29,14,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Gwale,North West,Kano,Gwale,,,3318.0,0,241.8962,58,22,13.7166,57.2069,150.8182,39,21,17,33,31,15,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Gwale,North West,Kano,Gwale,,,680.0,708,44.9236,16,9,15.1368,42.5,75.5556,11,6,7,9,9,4,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Gwale,North West,Kano,Gwale,,,623.0,649,41.4679,13,8,15.0237,47.9231,77.875,9,5,6,8,7,3,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Gwale,North West,Kano,Gwale,,,586.0,610,38.0123,17,8,15.4161,34.4706,73.25,11,6,6,10,9,4,52.57
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Gwale,North West,Kano,Gwale,,,206.0,0,6.9113,7,1,29.8063,29.4286,206.0,5,3,1,4,4,2,52.57
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,694.0,0,1382.46,5,6,0.502,138.8,115.6667,3,2,5,3,3,1,52.57
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,4757.0,0,1837.2166,169,47,2.5892,28.1479,101.2128,113,61,36,98,91,43,52.57
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,4485.0,0,1735.3511,116,44,2.5845,38.6638,101.9318,77,42,33,67,62,29,52.57
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,4349.0,0,1680.7803,118,43,2.5875,36.8559,101.1395,79,43,33,68,63,30,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,18739.0,0,5158.7586,368,339,3.6325,50.9212,55.2773,245,133,257,212,197,93,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,18002.0,0,4955.0277,427,325,3.6331,42.1593,55.3908,284,155,247,246,229,108,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,17476.0,0,4813.1436,348,316,3.6309,50.2184,55.3038,232,126,240,201,187,88,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,16948.0,0,4667.6215,528,306,3.631,32.0985,55.3856,352,191,232,305,283,134,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,17055.0,0,4696.7259,430,308,3.6313,39.6628,55.3734,286,156,234,248,230,109,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,17055.0,0,4696.7259,349,308,3.6313,48.8682,55.3734,232,126,234,201,187,89,52.57
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3839.0,3575,1349.7175,111,27,2.8443,34.5856,142.1852,74,40,20,64,59,28,52.57
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3519.0,3277,1236.9379,124,25,2.8449,28.379,140.76,83,45,19,72,66,31,52.57
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3307.0,3079,1160.5388,77,24,2.8495,42.9481,137.7917,51,28,18,44,41,20,52.57
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,464.0,0,174.6265,19,9,2.6571,24.4211,51.5556,13,7,7,11,10,5,52.57
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,2461.0,0,2895.8429,17,34,0.8498,144.7647,72.3824,11,6,26,10,9,4,52.57
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,16865.0,0,1727.8299,398,313,9.7608,42.3744,53.8818,265,144,238,230,213,101,52.57
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,15901.0,0,1627.6158,505,295,9.7695,31.4871,53.9017,336,183,224,291,271,128,52.57
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,15420.0,0,1579.2365,369,286,9.7642,41.7886,53.9161,246,134,217,213,198,94,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,66438.0,0,4945.0491,1258,340,13.4353,52.8124,195.4059,838,455,258,726,674,320,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,63825.0,0,4751.5322,1491,326,13.4325,42.8068,195.7822,993,540,247,860,799,379,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,61960.0,0,4613.3058,1343,317,13.4307,46.1355,195.4574,894,486,241,775,720,341,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,60093.0,0,4471.6237,911,307,13.4387,65.9638,195.7427,607,330,233,526,488,231,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,60466.0,0,4499.269,1512,309,13.4391,39.9907,195.6828,1007,547,235,872,810,384,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,60466.0,0,4499.269,1410,309,13.4391,42.8837,195.6828,939,510,235,814,756,358,52.57
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,13612.0,12675,805.1687,324,62,16.9058,42.0123,219.5484,216,117,47,187,174,82,52.57
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,12477.0,11619,739.5112,275,57,16.872,45.3709,218.8947,183,100,43,159,147,70,52.57
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,11721.0,10915,694.5876,237,53,16.8748,49.4557,221.1509,158,86,40,137,127,60,52.57
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1647.0,0,76.0245,61,21,21.6641,27.0,78.4286,41,22,16,35,33,15,52.57
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,214.0,0,1600.7432,6,6,0.1337,35.6667,35.6667,4,2,5,3,3,2,52.57
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3748.0,0,1582.5529,146,40,2.3683,25.6712,93.7,97,53,30,84,78,37,52.57
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3533.0,0,1491.6016,99,38,2.3686,35.6869,92.9737,66,36,29,57,53,25,52.57
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3426.0,0,1444.3069,102,37,2.3721,33.5882,92.5946,68,37,28,59,55,26,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,17364.0,0,4656.7074,332,306,3.7288,52.3012,56.7451,221,120,232,192,178,84,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,16680.0,0,4474.8047,386,294,3.7275,43.2124,56.7347,257,140,223,223,207,98,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,16193.0,0,4343.8348,314,285,3.7278,51.5701,56.8175,209,114,216,181,168,80,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,15705.0,0,4212.8649,476,276,3.7279,32.9937,56.9022,317,172,209,275,255,121,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,15803.0,0,4238.3313,388,278,3.7286,40.7294,56.8453,258,140,211,224,208,99,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,15803.0,0,4238.3313,315,278,3.7286,50.1683,56.8453,210,114,211,182,169,80,52.57
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3239.0,3374,1273.3184,105,26,2.5437,30.8476,124.5769,70,38,20,61,56,27,52.57
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,2970.0,3093,1167.8149,117,24,2.5432,25.3846,123.75,78,42,18,68,63,30,52.57
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,2789.0,2905,1095.0538,73,22,2.5469,38.2055,126.7727,49,26,17,42,39,19,52.57
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,983.0,0,272.8539,30,15,3.6027,32.7667,65.5333,20,11,11,17,16,8,52.57
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,758.0,0,3351.99,20,40,0.2261,37.9,18.95,13,7,30,12,11,5,52.57
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,13285.0,0,1485.9337,343,269,8.9405,38.7318,49.3866,228,124,204,198,184,87,52.57
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,12526.0,0,1399.5422,434,254,8.9501,28.8618,49.315,289,157,193,250,233,110,52.57
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,12147.0,0,1358.0743,317,246,8.9443,38.3186,49.378,211,115,187,183,170,81,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,61563.0,0,4464.7124,1136,307,13.7888,54.1928,200.5309,757,411,233,655,609,289,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,59142.0,0,4288.4738,1346,294,13.7909,43.9391,201.1633,896,487,223,777,721,342,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,57413.0,0,4164.07,1213,286,13.7877,47.3314,200.7448,808,439,217,700,650,308,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,55683.0,0,4039.6663,822,277,13.7841,67.7409,201.0217,547,298,210,474,441,209,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,56029.0,0,4063.8559,1365,279,13.7872,41.0469,200.8208,909,494,212,788,732,347,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,56029.0,0,4063.8559,1273,279,13.7872,44.0134,200.8208,848,461,212,735,682,323,52.57
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,11484.0,11961,760.2452,306,58,15.1057,37.5294,198.0,204,111,44,177,164,78,52.57
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,10527.0,10964,694.5876,260,53,15.1558,40.4885,198.6226,173,94,40,150,139,66,52.57
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,9889.0,10300,653.1197,224,50,15.1412,44.1473,197.78,149,81,38,129,120,57,52.57
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3482.0,0,120.9481,96,33,28.7892,36.2708,105.5152,64,35,25,55,51,24,52.57
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,45.0,0,90.9513,0,1,0.4948,0.0,45.0,0,0,1,0,0,0,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,309.0,0,120.0557,11,3,2.5738,28.0909,103.0,7,4,2,6,6,3,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,292.0,0,112.7796,8,3,2.5891,36.5,97.3333,5,3,2,5,4,2,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,283.0,0,109.1416,8,3,2.593,35.375,94.3333,5,3,2,5,4,2,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1219.0,0,334.7008,24,22,3.6421,50.7917,55.4091,16,9,17,14,13,6,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1170.0,0,320.1486,28,21,3.6546,41.7857,55.7143,19,10,16,16,15,7,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1136.0,0,312.8725,23,21,3.6309,49.3913,54.0952,15,8,16,13,12,6,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1101.0,0,301.9584,34,20,3.6462,32.3824,55.05,23,12,15,20,18,9,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1109.0,0,305.5964,28,20,3.629,39.6071,55.45,19,10,15,16,15,7,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1109.0,0,305.5964,23,20,3.629,48.2174,55.45,15,8,15,13,12,6,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,249.0,232,87.3133,7,2,2.8518,35.5714,124.5,5,3,2,4,4,2,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,229.0,213,80.0372,8,2,2.8612,28.625,114.5,5,3,2,5,4,2,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,215.0,200,76.3991,5,2,2.8142,43.0,107.5,3,2,2,3,3,1,52.57
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,30.0,0,10.9142,1,1,2.7487,30.0,30.0,1,0,1,1,1,0,52.57
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,160.0,0,190.0613,1,2,0.8418,160.0,80.0,1,0,2,1,1,0,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1096.0,0,110.5811,26,20,9.9113,42.1538,54.8,17,9,15,15,14,7,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1033.0,0,107.1255,33,19,9.6429,31.303,54.3684,22,12,14,19,18,8,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1002.0,0,103.6698,24,19,9.6653,41.75,52.7368,16,9,14,14,13,6,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,4318.0,0,321.3764,82,22,13.436,52.6585,196.2727,55,30,17,47,44,21,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,4149.0,0,307.5537,97,21,13.4903,42.7732,197.5714,65,35,16,56,52,25,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,4028.0,0,300.6424,87,21,13.398,46.2989,191.8095,58,31,16,50,47,22,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3905.0,0,290.2754,59,20,13.4527,66.1864,195.25,39,21,15,34,32,15,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3930.0,0,293.7311,98,20,13.3796,40.102,196.5,65,35,15,57,53,25,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3930.0,0,293.7311,92,20,13.3796,42.7174,196.5,61,33,15,53,49,23,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,885.0,824,51.8349,21,4,17.0734,42.1429,221.25,14,8,3,12,11,5,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,811.0,755,48.3792,18,4,16.7634,45.0556,202.75,12,7,3,10,10,5,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,761.0,709,44.9236,15,3,16.9399,50.7333,253.6667,10,5,2,9,8,4,52.57
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,107.0,0,3.4557,4,1,30.9633,26.75,107.0,3,1,1,2,2,1,52.57
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,14.0,0,101.8655,1,1,0.1374,14.0,14.0,1,0,1,1,1,0,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,244.0,0,101.8655,10,3,2.3953,24.4,81.3333,7,4,2,6,5,3,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,229.0,0,98.2274,6,2,2.3313,38.1667,114.5,4,2,2,3,3,2,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,223.0,0,94.5894,7,2,2.3576,31.8571,111.5,5,3,2,4,4,2,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1128.0,0,301.9584,22,20,3.7356,51.2727,56.4,15,8,15,13,12,6,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1084.0,0,291.0442,25,19,3.7245,43.36,57.0526,17,9,14,14,13,6,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1053.0,0,283.7681,20,19,3.7108,52.65,55.4211,13,7,14,12,11,5,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1021.0,0,272.8539,31,18,3.7419,32.9355,56.7222,21,11,14,18,17,8,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1028.0,0,276.492,25,18,3.718,41.12,57.1111,17,9,14,14,13,6,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,1028.0,0,276.492,20,18,3.718,51.4,57.1111,13,7,14,12,11,5,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,210.0,219,83.6752,7,2,2.5097,30.0,105.0,5,3,2,4,4,2,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,193.0,201,76.3991,8,2,2.5262,24.125,96.5,5,3,2,5,4,2,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,181.0,189,72.7611,5,1,2.4876,36.2,181.0,3,2,1,3,3,1,52.57
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,64.0,0,18.1903,2,1,3.5184,32.0,64.0,1,1,1,1,1,1,52.57
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,49.0,0,217.7066,1,3,0.2251,49.0,16.3333,1,0,2,1,1,0,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,863.0,0,96.7585,22,17,8.9191,39.2273,50.7647,15,8,13,13,12,6,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,814.0,0,89.8472,28,16,9.0598,29.0714,50.875,19,10,12,16,15,7,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,790.0,0,89.8472,21,16,8.7927,37.619,49.375,14,8,12,12,11,5,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,4002.0,0,290.2754,74,20,13.7869,54.0811,200.1,49,27,15,43,40,19,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3844.0,0,279.9084,87,19,13.7331,44.1839,202.3158,58,31,14,50,47,22,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3732.0,0,269.5415,79,19,13.8457,47.2405,196.4211,53,29,14,46,42,20,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3619.0,0,262.6301,53,18,13.7798,68.283,201.0556,35,19,14,31,28,13,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3642.0,0,262.6301,89,18,13.8674,40.9213,202.3333,59,32,14,51,48,23,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,3642.0,0,262.6301,83,18,13.8674,43.8795,202.3333,55,30,14,48,44,21,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Kano Municipal,North West,Kano,Kano Municipal,,,746.0,777,48.3792,20,4,15.4198,37.3,186.5,13,7,3,12,11,5,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,685.0,713,44.9236,17,3,15.2481,40.2941,228.3333,11,6,2,10,9,4,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,643.0,670,41.4679,15,3,15.506,42.8667,214.3333,10,5,2,9,8,4,52.57
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Kano Municipal,North West,Kano,Kano Municipal,,,226.0,0,6.9113,6,2,32.7001,37.6667,113.0,4,2,2,3,3,2,52.57
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,513.0,0,1022.2928,4,14,0.5018,128.25,36.6429,3,1,11,2,2,1,52.57
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,3515.0,0,1360.6317,137,72,2.5834,25.6569,48.8194,91,50,55,79,73,35,52.57
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,3315.0,0,1280.5945,90,68,2.5886,36.8333,48.75,60,33,52,52,48,23,52.57
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,3214.0,0,1240.5759,103,66,2.5907,31.2039,48.697,69,37,50,59,55,26,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,13848.0,0,3812.6792,388,76,3.6321,35.6907,182.2105,258,140,58,224,208,99,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,13303.0,0,3663.519,272,73,3.6312,48.9081,182.2329,181,98,55,157,146,69,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,12914.0,0,3554.3774,426,71,3.6333,30.3146,181.8873,284,154,54,246,228,108,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,12525.0,0,3448.8739,237,69,3.6316,52.8481,181.5217,158,86,52,137,127,60,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,12602.0,0,3470.7022,317,69,3.631,39.7539,182.6377,211,115,52,183,170,81,52.57
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,12602.0,0,3470.7022,366,69,3.631,34.4317,182.6377,244,132,52,211,196,93,52.57
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,2837.0,2642,996.8264,65,34,2.846,43.6462,83.4412,43,24,26,38,35,17,52.57
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,2601.0,2422,913.1512,70,31,2.8484,37.1571,83.9032,47,25,24,40,38,18,52.57
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,2443.0,2275,858.5804,78,29,2.8454,31.3205,84.2414,52,28,22,45,42,20,52.57
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,344.0,0,127.3318,19,2,2.7016,18.1053,172.0,13,7,2,11,10,5,52.57
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,1819.0,0,2142.5091,12,42,0.849,151.5833,43.3095,8,4,32,7,6,3,52.57
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,12463.0,0,1275.1385,275,89,9.7738,45.32,140.0337,183,100,68,159,147,70,52.57
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,11751.0,0,1202.5696,291,84,9.7716,40.3814,139.8929,194,105,64,168,156,74,52.57
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,11394.0,0,1164.5573,286,82,9.784,39.8392,138.9512,190,104,62,165,153,73,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,49096.0,0,3656.088,927,627,13.4286,52.9622,78.303,617,336,476,535,497,235,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,47164.0,0,3510.9503,1042,602,13.4334,45.263,78.3455,694,377,457,601,559,265,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,45785.0,0,3407.2805,1089,584,13.4374,42.0432,78.399,725,394,443,628,584,277,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,44407.0,0,3307.0664,995,567,13.4279,44.6302,78.3192,663,360,430,574,533,253,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,44682.0,0,3324.3447,1001,570,13.4408,44.6374,78.3895,667,362,433,578,537,254,52.57
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,44682.0,0,3324.3447,1247,570,13.4408,35.8316,78.3895,831,451,433,720,668,317,52.57
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,10059.0,9367,594.3735,177,45,16.9237,56.8305,223.5333,118,64,34,102,95,45,52.57
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,9220.0,8586,545.9942,185,42,16.8866,49.8378,219.5238,123,67,32,107,99,47,52.57
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,8662.0,8066,511.4376,188,39,16.9366,46.0745,222.1026,125,68,30,108,101,48,52.57
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,1217.0,0,55.2906,37,25,22.011,32.8919,48.68,25,13,19,21,20,9,52.57
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,158.0,0,1182.3671,4,16,0.1336,39.5,9.875,3,1,12,2,2,1,52.57
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,2769.0,0,1167.8149,118,62,2.3711,23.4661,44.6613,79,43,47,68,63,30,52.57
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,2611.0,0,1102.3299,77,58,2.3686,33.9091,45.0172,51,28,44,44,41,20,52.57
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,2532.0,0,1069.5875,89,56,2.3673,28.4494,45.2143,59,32,43,51,48,23,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,12831.0,0,3441.5978,351,69,3.7282,36.5556,185.9565,234,127,52,203,188,89,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,12327.0,0,3306.9898,245,66,3.7276,50.3143,186.7727,163,89,50,141,131,62,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,11967.0,0,3208.7624,385,64,3.7295,31.0831,186.9844,256,139,49,222,206,98,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,11606.0,0,3114.173,214,62,3.7268,54.2336,187.1935,143,77,47,123,115,54,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,11678.0,0,3132.3633,286,63,3.7282,40.8322,185.3651,190,104,48,165,153,73,52.57
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,11678.0,0,3132.3633,331,63,3.7282,35.281,185.3651,220,120,48,191,177,84,52.57
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,2394.0,2493,938.6176,62,32,2.5506,38.6129,74.8125,41,22,24,36,33,16,52.57
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,2194.0,2285,862.2185,66,29,2.5446,33.2424,75.6552,44,24,22,38,35,17,52.57
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,2061.0,2147,811.2857,74,27,2.5404,27.8514,76.3333,49,27,20,43,40,19,52.57
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,726.0,0,203.7309,30,3,3.5635,24.2,242.0,20,11,2,17,16,8,52.57
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,560.0,0,2477.7081,14,49,0.226,40.0,11.4286,9,5,37,8,8,4,52.57
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,9818.0,0,1095.4441,237,77,8.9626,41.4262,127.5065,158,86,58,137,127,60,52.57
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,9257.0,0,1033.2423,250,73,8.9592,37.028,126.8082,166,90,55,144,134,64,52.57
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,8976.0,0,1002.1413,246,70,8.9568,36.4878,128.2286,164,89,53,142,132,62,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,45493.0,0,3300.1551,837,566,13.7851,54.3524,80.3763,557,303,430,483,449,213,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,43704.0,0,3168.84,941,543,13.7918,46.4442,80.4862,627,341,412,543,504,239,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,42425.0,0,3075.5372,983,528,13.7943,43.1587,80.3504,655,356,401,567,527,250,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,41148.0,0,2982.2344,898,512,13.7977,45.8218,80.3672,598,325,389,518,481,228,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,41403.0,0,3002.9683,904,515,13.7874,45.7998,80.3942,602,327,391,522,485,230,52.57
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,41403.0,0,3002.9683,1125,515,13.7874,36.8027,80.3942,749,407,391,649,603,286,52.57
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,8487.0,8839,559.8169,167,43,15.1603,50.8204,197.3721,111,60,33,96,90,42,52.57
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,7780.0,8103,514.8933,174,39,15.1099,44.7126,199.4872,116,63,30,100,93,44,52.57
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,7308.0,7612,483.7924,178,37,15.1057,41.0562,197.5135,119,64,28,103,95,45,52.57
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,2573.0,0,89.8472,59,39,28.6375,43.6102,65.9744,39,21,30,34,32,15,52.57
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,33.0,0,65.4849,0,1,0.5039,0.0,33.0,0,0,1,0,0,0,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,228.0,0,87.3133,9,5,2.6113,25.3333,45.6,6,3,4,5,5,2,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,215.0,0,83.6752,6,4,2.5695,35.8333,53.75,4,2,3,3,3,2,52.57
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,209.0,0,80.0372,7,4,2.6113,29.8571,52.25,5,3,3,4,4,2,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,900.0,0,247.3876,25,5,3.638,36.0,180.0,17,9,4,14,13,6,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,864.0,0,236.4734,18,5,3.6537,48.0,172.8,12,7,4,10,10,5,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,840.0,0,229.1973,28,5,3.665,30.0,168.0,19,10,4,16,15,7,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,814.0,0,225.5593,15,4,3.6088,54.2667,203.5,10,5,3,9,8,4,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,819.0,0,225.5593,21,5,3.631,39.0,163.8,14,8,4,12,11,5,52.57
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,819.0,0,225.5593,24,5,3.631,34.125,163.8,16,9,4,14,13,6,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,185.0,172,65.4849,4,2,2.8251,46.25,92.5,3,1,2,2,2,1,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,169.0,157,58.2088,5,2,2.9033,33.8,84.5,3,2,2,3,3,1,52.57
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,159.0,148,54.5708,5,2,2.9136,31.8,79.5,3,2,2,3,3,1,52.57
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,22.0,0,7.2761,1,1,3.0236,22.0,22.0,1,0,1,1,1,0,52.57
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,118.0,0,138.2264,1,3,0.8537,118.0,39.3333,1,0,2,1,1,0,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,810.0,0,82.9358,18,6,9.7666,45.0,135.0,12,7,5,10,10,5,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,764.0,0,79.4802,19,5,9.6125,40.2105,152.8,13,7,4,11,10,5,52.57
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,741.0,0,76.0245,19,5,9.7469,39.0,148.2,13,7,4,11,10,5,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,3192.0,0,238.4405,60,41,13.387,53.2,77.8537,40,22,31,35,32,15,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,3066.0,0,228.0735,68,39,13.443,45.0882,78.6154,45,25,30,39,36,17,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,2977.0,0,221.1622,71,38,13.4607,41.9296,78.3421,47,26,29,41,38,18,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,2886.0,0,214.2509,65,37,13.4702,44.4,78.0,43,24,28,38,35,17,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,2904.0,0,217.7066,65,37,13.3391,44.6769,78.4865,43,24,28,38,35,17,52.57
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,2904.0,0,217.7066,81,37,13.3391,35.8519,78.4865,54,29,28,47,43,21,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,654.0,609,38.0123,12,3,17.205,54.5,218.0,8,4,2,7,6,3,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,599.0,558,34.5566,12,3,17.3339,49.9167,199.6667,8,4,2,7,6,3,52.57
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,563.0,524,34.5566,12,3,16.2921,46.9167,187.6667,8,4,2,7,6,3,52.57
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,79.0,0,3.4557,2,2,22.8608,39.5,39.5,1,1,2,1,1,1,52.57
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,10.0,0,76.3991,0,1,0.1309,0.0,10.0,0,0,1,0,0,0,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,180.0,0,76.3991,8,4,2.356,22.5,45.0,5,3,3,5,4,2,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,170.0,0,72.7611,5,4,2.3364,34.0,42.5,3,2,3,3,3,1,52.57
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,165.0,0,69.123,6,4,2.387,27.5,41.25,4,2,3,3,3,2,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,834.0,0,221.9212,23,4,3.7581,36.2609,208.5,15,8,3,13,12,6,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,801.0,0,214.6451,16,4,3.7317,50.0625,200.25,11,6,3,9,9,4,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,778.0,0,207.369,25,4,3.7518,31.12,194.5,17,9,3,14,13,6,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,755.0,0,203.7309,14,4,3.7059,53.9286,188.75,9,5,3,8,8,4,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,759.0,0,203.7309,19,4,3.7255,39.9474,189.75,13,7,3,11,10,5,52.57
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,759.0,0,203.7309,21,4,3.7255,36.1429,189.75,14,8,3,12,11,5,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,156.0,162,61.8469,4,2,2.5224,39.0,78.0,3,1,2,2,2,1,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,143.0,149,54.5708,4,2,2.6204,35.75,71.5,3,1,2,2,2,1,52.57
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,134.0,140,50.9327,5,2,2.6309,26.8,67.0,3,2,2,3,3,1,52.57
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,47.0,0,14.5522,2,1,3.2298,23.5,47.0,1,1,1,1,1,1,52.57
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Nasarawa,North West,Kano,Nasarawa,,,37.0,0,158.9603,1,3,0.2328,37.0,12.3333,1,0,2,1,1,0,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,638.0,0,72.5689,15,5,8.7916,42.5333,127.6,10,5,4,9,8,4,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,602.0,0,65.6575,16,5,9.1688,37.625,120.4,11,6,4,9,9,4,52.57
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,584.0,0,65.6575,16,5,8.8946,36.5,116.8,11,6,4,9,9,4,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Nasarawa,North West,Kano,Nasarawa,,,2957.0,0,214.2509,54,37,13.8016,54.7593,79.9189,36,20,28,31,29,14,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Nasarawa,North West,Kano,Nasarawa,,,2840.0,0,207.3396,61,35,13.6973,46.5574,81.1429,41,22,27,35,33,15,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Nasarawa,North West,Kano,Nasarawa,,,2757.0,0,200.4283,64,34,13.7555,43.0781,81.0882,43,23,26,37,34,16,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Nasarawa,North West,Kano,Nasarawa,,,2675.0,0,193.5169,58,33,13.8231,46.1207,81.0606,39,21,25,33,31,15,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Nasarawa,North West,Kano,Nasarawa,,,2691.0,0,193.5169,59,33,13.9058,45.6102,81.5455,39,21,25,34,32,15,52.57
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Nasarawa,North West,Kano,Nasarawa,,,2691.0,0,193.5169,73,33,13.9058,36.863,81.5455,49,26,25,42,39,19,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Nasarawa,North West,Kano,Nasarawa,,,552.0,575,38.0123,11,3,14.5216,50.1818,184.0,7,4,2,6,6,3,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Nasarawa,North West,Kano,Nasarawa,,,506.0,527,34.5566,11,3,14.6426,46.0,168.6667,7,4,2,6,6,3,52.57
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Nasarawa,North West,Kano,Nasarawa,,,475.0,495,31.1009,12,2,15.2729,39.5833,237.5,8,4,2,7,6,3,52.57
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Nasarawa,North West,Kano,Nasarawa,,,167.0,0,6.9113,4,3,24.1633,41.75,55.6667,3,1,2,2,2,1,52.57

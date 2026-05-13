@@ -1,449 +1,449 @@
 session,gender,disability,school_type,school_level,class_grade,key_entry_level,loc_level,loc_label,zone,state,lga,ward,school,student_count,is_o_level_student,school_count,classroom_count,computer_count,avg_students_per_school,learners_per_classroom,students_per_computer,usable_classroom_count,laboratory_count,computer_access_count,water_source_count,handwashing_facility_count,toilet_count,infrastructure_score
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,817,0,3.2421,21,12,251.9972,38.9048,68.0833,11,5,4,9,0,2,31.62
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,770,0,3.0556,22,12,251.9963,35.0,64.1667,13,4,5,7,0,3,33.21
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,747,0,2.9643,21,11,251.9988,35.5714,67.9091,12,3,3,9,0,3,31.79
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,2318,0,9.1981,61,14,252.0086,38.0,165.5714,30,11,5,22,1,9,30.5
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,2227,0,8.8364,57,13,252.0257,39.0702,171.3077,28,10,4,24,1,8,30.47
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,2162,0,8.578,51,13,252.0401,42.3922,166.3077,32,11,4,15,1,7,32.69
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,2096,0,8.3196,53,13,251.9352,39.5472,161.2308,27,12,5,20,1,7,31.97
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,2110,0,8.3713,57,13,252.0517,37.0175,162.3077,31,11,4,22,1,8,31.59
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,2109,0,8.3713,80,13,251.9322,26.3625,162.2308,39,17,4,26,1,12,29.42
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,677,677,2.6865,19,15,252.0007,35.6316,45.1333,11,3,5,8,0,3,33.33
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,620,620,2.4603,17,13,252.0018,36.4706,47.6923,9,4,4,6,0,2,30.57
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,582,582,2.3095,15,13,252.0026,38.8,44.7692,7,3,6,6,0,2,31.92
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,57,0,0.2262,3,1,251.9894,19.0,57.0,2,0,0,1,0,0,24.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,1175,0,3.5075,23,6,334.9964,51.087,195.8333,13,5,3,9,0,3,35.3
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,1108,0,3.3075,19,6,334.9962,58.3158,184.6667,8,4,2,8,0,3,29.54
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,1075,0,3.209,26,6,334.9953,41.3462,179.1667,14,4,2,9,0,4,30.87
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,3335,0,9.9563,88,27,334.9638,37.8977,123.5185,43,15,12,31,1,13,31.52
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,3204,0,9.5647,75,26,334.9818,42.72,123.2308,44,16,8,21,1,12,31.7
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,3110,0,9.2851,83,25,334.9452,37.4699,124.4,35,18,8,30,1,9,27.58
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,3017,0,9.0054,67,24,335.0212,45.0299,125.7083,42,15,7,20,1,8,32.19
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,3036,0,9.0613,78,24,335.0513,38.9231,126.5,38,18,7,30,1,12,30.41
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,3036,0,9.0613,87,24,335.0513,34.8966,126.5,42,13,10,34,1,12,31.08
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,973,973,2.9045,21,6,334.9974,46.3333,162.1667,11,4,2,8,0,2,30.29
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,893,893,2.6657,16,6,334.9964,55.8125,148.8333,10,4,2,5,0,2,33.33
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,839,839,2.5045,24,6,334.997,34.9583,139.8333,10,5,2,7,0,3,26.67
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,83,0,0.2478,3,1,334.9475,27.6667,83.0,2,1,0,1,0,0,28.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,1452,0,5.7619,37,22,252.0002,39.2432,66.0,19,8,8,16,1,4,32.09
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,1369,0,5.4325,40,21,252.0018,34.225,65.1905,25,6,8,12,1,5,32.9
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,1327,0,5.2659,37,20,251.9987,35.8649,66.35,21,6,6,15,1,5,32.04
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,4325,0,17.1622,113,26,252.0073,38.2743,166.3462,55,20,9,41,2,17,30.25
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,4155,0,16.4873,106,25,252.0122,39.1981,166.2,53,19,8,45,2,16,31.23
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,4033,0,16.0052,95,24,251.9806,42.4526,168.0417,60,21,7,28,1,14,32.75
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,3912,0,15.5231,98,23,252.0115,39.9184,170.087,51,22,9,36,1,12,31.93
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,3936,0,15.6195,107,24,251.9927,36.785,164.0,58,21,7,41,2,15,31.28
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,3936,0,15.6195,150,24,251.9927,26.24,164.0,72,31,7,49,2,22,28.85
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,1320,1320,5.2381,36,28,251.9998,36.6667,47.1429,21,6,9,14,0,5,32.48
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,1209,1209,4.7976,32,26,252.001,37.7812,46.5,18,7,8,11,0,4,31.3
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,1136,1136,4.5079,30,24,252.002,37.8667,47.3333,15,6,11,13,0,4,33.33
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,187,0,0.7421,9,3,251.9876,20.7778,62.3333,5,1,1,3,0,1,29.78
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,2090,0,6.2388,41,11,335.0003,50.9756,190.0,23,9,5,16,1,6,34.98
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,1970,0,5.8806,34,10,334.9998,57.9412,197.0,14,7,4,14,1,5,30.16
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,1910,0,5.7015,47,10,334.9996,40.6383,191.0,24,7,3,17,1,7,29.82
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,6223,0,18.5768,165,50,334.9877,37.7152,124.46,80,28,21,57,3,25,31.04
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,5978,0,17.8463,140,48,334.9714,42.7,124.5417,82,30,15,40,2,22,31.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,5804,0,17.3245,154,46,335.0169,37.6883,126.1739,64,34,16,56,2,16,27.85
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,5629,0,16.8026,125,45,335.0077,45.032,125.0889,78,28,13,38,2,15,32.17
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,5664,0,16.907,146,45,335.0092,38.7945,125.8667,72,34,13,56,2,23,30.62
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,5664,0,16.907,163,45,335.0092,34.7485,125.8667,78,25,20,63,2,22,31.33
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,1899,1899,5.6687,40,13,334.9974,47.475,146.0769,21,8,5,15,1,4,31.45
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,1740,1740,5.194,31,11,335.0019,56.129,158.1818,19,7,4,9,0,4,32.91
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,1635,1635,4.8806,47,11,334.9998,34.7872,148.6364,20,9,4,13,1,6,27.18
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,269,0,0.803,8,4,334.9938,33.625,67.25,5,2,1,3,0,1,33.0
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,53,0,0.2103,1,1,252.0209,53.0,53.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,50,0,0.1984,2,1,252.0161,25.0,50.0,1,0,0,1,0,0,22.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,49,0,0.1944,1,1,252.0576,49.0,49.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,151,0,0.5983,4,1,252.3817,37.75,151.0,2,1,0,1,0,1,26.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,145,0,0.5747,4,1,252.3056,36.25,145.0,2,1,0,2,0,1,30.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,141,0,0.5579,3,1,252.7335,47.0,141.0,2,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,136,0,0.5411,3,1,251.3399,45.3333,136.0,2,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,137,0,0.5445,4,1,251.607,34.25,137.0,2,1,0,2,0,1,30.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,137,0,0.5445,5,1,251.607,27.4,137.0,2,1,0,2,0,1,24.0
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,44,44,0.1746,1,1,252.0046,44.0,44.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,40,40,0.1587,1,1,252.0479,40.0,40.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,38,38,0.1508,1,1,251.9894,38.0,38.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,4,0,0.0159,1,1,251.5723,4.0,4.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,76,0,0.2269,2,1,334.9493,38.0,76.0,1,0,0,1,0,0,22.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,72,0,0.2149,1,1,335.0396,72.0,72.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,70,0,0.209,2,1,334.9282,35.0,70.0,1,0,0,1,0,0,22.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,217,0,0.6467,6,2,335.5497,36.1667,108.5,3,1,1,2,0,1,32.67
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,208,0,0.6212,5,2,334.8358,41.6,104.0,3,1,1,1,0,1,34.4
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,202,0,0.6031,5,2,334.9362,40.4,101.0,2,1,1,2,0,1,32.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,196,0,0.5849,4,2,335.1,49.0,98.0,2,1,1,1,0,0,29.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,197,0,0.5885,5,2,334.7494,39.4,98.5,2,1,1,2,0,1,32.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,197,0,0.5885,6,2,334.7494,32.8333,98.5,3,1,1,2,0,1,32.67
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,63,63,0.1881,1,1,334.9282,63.0,63.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,58,58,0.1731,1,1,335.0664,58.0,58.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,55,55,0.1642,2,1,334.9574,27.5,55.0,1,0,0,1,0,0,22.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,5,0,0.0149,1,1,335.5705,5.0,5.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,94,0,0.373,2,1,252.0107,47.0,94.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,89,0,0.3532,3,1,251.9819,29.6667,89.0,2,0,0,1,0,0,24.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,86,0,0.3413,2,1,251.9777,43.0,86.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,281,0,1.1146,7,2,252.1084,40.1429,140.5,3,1,1,3,0,1,31.43
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,270,0,1.0708,7,2,252.1479,38.5714,135.0,3,1,1,3,0,1,31.43
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,262,0,1.0395,6,2,252.0443,43.6667,131.0,4,1,1,2,0,1,37.33
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,254,0,1.0081,6,2,251.9591,42.3333,127.0,3,1,1,2,0,1,32.67
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,256,0,1.0144,7,2,252.3659,36.5714,128.0,4,1,1,3,0,1,35.43
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,255,0,1.0144,10,2,251.3801,25.5,127.5,5,2,1,3,0,1,31.2
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,86,86,0.3413,2,2,251.9777,43.0,43.0,1,0,1,1,0,0,30.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,79,79,0.3135,2,2,251.9936,39.5,39.5,1,0,1,1,0,0,30.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,74,74,0.2937,2,2,251.9578,37.0,37.0,1,0,1,1,0,0,30.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,12,0,0.0476,1,1,252.1008,12.0,12.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,136,0,0.406,3,1,334.9754,45.3333,136.0,2,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,128,0,0.3821,2,1,334.9908,64.0,128.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,124,0,0.3701,3,1,335.0446,41.3333,124.0,2,0,0,1,0,0,24.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,404,0,1.2072,11,3,334.6587,36.7273,134.6667,5,2,1,4,0,2,29.7
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,389,0,1.1598,9,3,335.4027,43.2222,129.6667,5,2,1,3,0,1,31.11
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,377,0,1.1258,10,3,334.873,37.7,125.6667,4,2,1,4,0,1,27.33
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,366,0,1.0919,8,3,335.1955,45.75,122.0,5,2,1,2,0,1,32.33
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,368,0,1.0987,9,3,334.9413,40.8889,122.6667,4,2,1,3,0,1,28.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,368,0,1.0987,11,3,334.9413,33.4545,122.6667,5,2,1,4,0,1,27.88
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,123,123,0.3672,3,1,334.9673,41.0,123.0,2,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,113,113,0.3373,2,1,335.0133,56.5,113.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,106,106,0.3164,3,1,335.019,35.3333,106.0,1,1,0,1,0,0,18.67
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,17,0,0.0507,1,1,335.3057,17.0,17.0,1,0,0,0,0,0,28.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,1385,0,5.496,37,14,252.0015,37.4324,98.9286,17,8,6,16,1,4,31.61
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,1306,0,5.1825,36,14,252.0019,36.2778,93.2857,21,7,6,11,1,5,33.41
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,1266,0,5.0238,33,13,252.0005,38.3636,97.3846,19,7,5,12,0,4,33.06
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,3930,0,15.5969,125,23,251.9731,31.44,170.8696,69,25,8,39,2,14,30.78
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,3776,0,14.9836,133,22,252.0089,28.391,171.6364,67,32,7,50,2,17,30.78
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,3666,0,14.5454,112,21,252.0384,32.7321,174.5714,71,17,8,42,1,15,34.42
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,3555,0,14.1073,127,21,251.9972,27.9921,169.2857,61,26,8,49,2,14,30.5
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,3577,0,14.1949,128,21,251.9919,27.9453,170.3333,66,31,7,52,1,19,32.21
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,3577,0,14.1949,101,21,251.9919,35.4158,170.3333,56,24,8,34,1,11,32.12
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,1147,1147,4.5516,35,6,251.9993,32.7714,191.1667,15,6,3,15,0,4,31.2
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,1051,1051,4.1706,29,5,252.0021,36.2414,210.2,14,5,2,11,0,3,30.12
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,987,987,3.9167,23,5,251.9979,42.913,197.4,12,5,2,9,0,3,32.49
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,98,0,0.3889,5,1,251.9928,19.6,98.0,2,1,0,2,0,1,24.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,1993,0,5.9493,46,44,334.9974,43.3261,45.2955,25,8,16,15,1,6,31.12
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,1879,0,5.609,40,42,334.9973,46.975,44.7381,17,7,17,15,0,5,28.98
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,1822,0,5.4388,29,40,335.0004,62.8276,45.55,16,7,17,10,0,4,33.42
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,5657,0,16.8856,106,36,335.0192,53.3679,157.1389,58,19,15,40,2,11,32.4
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,5434,0,16.2215,126,35,334.9875,43.127,155.2571,67,21,10,52,2,16,30.73
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,5275,0,15.7472,116,34,334.9802,45.4741,155.1471,65,22,11,39,2,14,31.07
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,5117,0,15.2729,137,33,335.0379,37.3504,155.0606,83,28,13,53,2,15,34.22
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,5148,0,15.3678,94,33,334.9861,54.766,156.0,53,18,11,40,1,12,32.87
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,5148,0,15.3678,105,33,334.9861,49.0286,156.0,44,18,13,38,2,16,29.08
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,1651,1651,4.9284,29,33,334.9972,56.931,50.0303,15,5,11,10,0,4,30.16
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,1513,1513,4.5164,31,30,335.0013,48.8065,50.4333,19,7,12,10,0,4,34.01
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,1421,1421,4.2418,30,28,334.9993,47.3667,50.75,16,6,10,13,0,4,32.65
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,140,0,0.4179,4,3,335.0084,35.0,46.6667,3,1,1,1,0,0,33.33
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,2462,0,9.7698,66,26,252.0011,37.303,94.6923,30,14,12,28,1,7,31.69
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,2321,0,9.2103,65,24,252.0005,35.7077,96.7083,38,13,11,20,1,9,33.92
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,2251,0,8.9325,59,24,252.0011,38.1525,93.7917,35,12,10,22,1,8,34.53
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,7335,0,29.1065,233,43,252.0056,31.4807,170.5814,129,46,15,72,3,25,30.65
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,7046,0,27.9619,248,41,251.9857,28.4113,171.8537,125,59,12,94,3,32,30.39
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,6840,0,27.1443,209,40,251.9866,32.7273,171.0,132,33,16,78,3,28,34.74
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,6634,0,26.3267,236,39,251.9875,28.1102,170.1026,114,49,15,90,4,25,30.53
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,6676,0,26.4902,239,39,252.0177,27.9331,171.1795,123,57,13,98,3,35,32.2
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,6676,0,26.4902,189,39,252.0177,35.3228,171.1795,105,44,14,64,2,21,31.82
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,2237,2237,8.877,69,11,251.9995,32.4203,203.3636,29,12,5,29,1,7,30.0
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,2051,2051,8.1389,56,10,251.9997,36.625,205.1,27,10,4,20,1,6,30.04
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,1927,1927,7.6468,46,10,252.0008,41.8913,192.7,24,10,4,18,1,6,32.66
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,318,0,1.2619,16,2,252.001,19.875,159.0,7,3,1,5,0,2,30.0
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,3543,0,10.5761,83,79,335.0006,42.6867,44.8481,44,14,28,27,1,11,30.49
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,3341,0,9.9731,71,74,335.0012,47.0563,45.1486,31,12,31,26,1,9,29.46
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,3240,0,9.6716,52,72,335.0014,62.3077,45.0,29,12,31,18,1,8,34.04
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,10555,0,31.5081,199,67,334.9932,53.0402,157.5373,110,36,27,76,3,21,32.44
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,10140,0,30.2691,236,65,334.9951,42.9661,156.0,125,39,19,97,4,31,30.83
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,9844,0,29.384,216,63,335.0123,45.5741,156.254,121,41,21,73,3,26,31.22
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,9547,0,28.4989,256,61,334.9954,37.293,156.5082,155,53,24,100,4,27,34.22
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,9607,0,28.6759,175,61,335.02,54.8971,157.4918,100,33,20,74,2,22,32.88
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,9606,0,28.6759,196,61,334.9851,49.0102,157.4754,83,34,25,71,3,30,29.48
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,3220,3220,9.6119,56,64,335.0014,57.5,50.3125,30,10,21,19,1,8,30.82
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,2952,2952,8.8119,61,59,335.0015,48.3934,50.0339,38,14,23,20,1,8,34.43
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,2773,2773,8.2776,59,55,335.0005,47.0,50.4182,31,12,20,25,1,8,32.6
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,457,0,1.3642,13,9,334.9949,35.1538,50.7778,8,3,4,4,0,1,33.57
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,90,0,0.3571,3,1,252.0302,30.0,90.0,1,1,0,1,0,0,18.67
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,85,0,0.3373,2,1,252.0012,42.5,85.0,1,0,0,1,0,0,22.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,82,0,0.3254,2,1,251.9975,41.0,82.0,1,0,0,1,0,0,22.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,256,0,1.0143,8,1,252.3908,32.0,256.0,4,2,0,2,0,1,23.5
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,245,0,0.9744,9,1,251.4368,27.2222,245.0,5,2,0,3,0,1,25.78
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,238,0,0.9459,7,1,251.6122,34.0,238.0,4,1,0,3,0,1,27.43
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,231,0,0.9174,8,1,251.7986,28.875,231.0,4,2,0,3,0,1,25.5
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,233,0,0.9231,8,1,252.4104,29.125,233.0,4,2,0,3,0,1,25.5
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,233,0,0.9231,7,1,252.4104,33.2857,233.0,4,2,0,2,0,1,26.86
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,75,75,0.2976,2,1,252.0161,37.5,75.0,1,0,0,1,0,0,22.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,68,68,0.2698,2,1,252.0385,34.0,68.0,1,0,0,1,0,0,22.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,64,64,0.254,2,1,251.9685,32.0,64.0,1,0,0,1,0,0,22.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,6,0,0.0238,1,1,252.1008,6.0,6.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,130,0,0.3881,3,3,334.9652,43.3333,43.3333,2,1,1,1,0,0,33.33
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,122,0,0.3642,3,3,334.9808,40.6667,40.6667,1,1,1,1,0,0,24.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,118,0,0.3522,2,3,335.0369,59.0,39.3333,1,0,1,1,0,0,27.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,368,0,1.0983,7,2,335.0633,52.5714,184.0,4,1,1,3,0,1,35.43
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,353,0,1.0551,8,2,334.5654,44.125,176.5,4,1,1,3,0,1,32.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,343,0,1.0242,7,2,334.8955,49.0,171.5,4,1,1,2,0,1,33.14
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,333,0,0.9934,9,2,335.2124,37.0,166.5,5,2,1,4,0,1,35.56
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,335,0,0.9995,6,2,335.1676,55.8333,167.5,3,1,1,3,0,1,35.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,335,0,0.9995,7,2,335.1676,47.8571,167.5,3,1,1,3,0,1,31.43
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,107,107,0.3194,2,2,335.0031,53.5,53.5,1,0,1,1,0,0,30.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,98,98,0.2925,2,2,335.0427,49.0,49.0,1,0,1,1,0,0,30.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,92,92,0.2746,2,2,335.0328,46.0,46.0,1,0,1,1,0,0,30.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,9,0,0.0269,1,1,334.5725,9.0,9.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,160,0,0.6349,4,2,252.0082,40.0,80.0,2,1,1,2,0,0,33.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,151,0,0.5992,4,2,252.0027,37.75,75.5,2,1,1,1,0,1,34.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,146,0,0.5794,4,2,251.9848,36.5,73.0,2,1,1,2,0,1,38.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,477,0,1.8923,15,3,252.0742,31.8,159.0,8,3,1,5,0,2,30.67
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,458,0,1.8179,16,3,251.9391,28.625,152.6667,8,4,1,6,0,2,30.83
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,445,0,1.7648,14,3,252.1532,31.7857,148.3333,9,2,1,5,0,2,33.62
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,431,0,1.7116,15,3,251.8112,28.7333,143.6667,7,3,1,6,0,2,29.87
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,434,0,1.7222,15,3,252.0033,28.9333,144.6667,8,4,1,6,0,2,32.53
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,434,0,1.7222,12,3,252.0033,36.1667,144.6667,7,3,1,4,0,1,31.67
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,145,145,0.5754,4,1,251.9986,36.25,145.0,2,1,0,2,0,0,25.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,133,133,0.5278,4,1,251.9894,33.25,133.0,2,1,0,1,0,0,21.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,125,125,0.496,3,1,252.0161,41.6667,125.0,2,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,21,0,0.0833,1,1,252.1008,21.0,21.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,230,0,0.6866,5,5,334.984,46.0,46.0,3,1,2,2,0,1,36.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,217,0,0.6478,5,5,334.9799,43.4,43.4,2,1,2,2,0,1,30.4
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,211,0,0.6299,3,5,334.9738,70.3333,42.2,2,1,2,1,0,0,34.4
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,686,0,2.0478,13,4,334.9937,52.7692,171.5,7,2,2,5,0,1,32.62
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,659,0,1.9673,15,4,334.9769,43.9333,164.75,8,2,1,6,0,2,29.6
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,640,0,1.9097,14,4,335.1312,45.7143,160.0,8,3,1,5,0,2,31.14
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,621,0,1.8522,17,4,335.277,36.5294,155.25,10,4,2,7,0,2,36.24
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,624,0,1.8637,11,4,334.8178,56.7273,156.0,6,2,1,5,0,1,30.55
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,624,0,1.8637,13,4,334.8178,48.0,156.0,5,2,2,5,0,2,29.85
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,209,209,0.6239,4,4,334.9896,52.25,52.25,2,1,1,1,0,1,30.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,192,192,0.5731,4,4,335.0201,48.0,48.0,2,1,2,1,0,1,34.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,180,180,0.5373,4,4,335.0084,45.0,45.0,2,1,1,2,0,1,34.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,30,0,0.0896,1,1,334.8214,30.0,30.0,1,0,0,0,0,0,28.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,622,0,2.4683,16,6,251.9953,38.875,103.6667,7,3,3,7,0,2,32.0
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,586,0,2.3254,15,6,251.9997,39.0667,97.6667,6,3,3,6,0,2,30.67
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,569,0,2.2579,13,5,252.0041,43.7692,113.8,7,3,2,5,0,2,33.48
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,1764,0,7.0006,42,12,251.9784,42.0,147.0,26,8,5,13,0,5,33.62
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,1695,0,6.7253,56,11,252.0334,30.2679,154.0909,29,9,5,16,1,8,31.27
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,1645,0,6.5287,43,11,251.9644,38.2558,149.5455,20,9,5,13,1,5,30.16
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,1596,0,6.332,45,10,252.0531,35.4667,159.6,19,9,4,14,1,6,28.44
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,1605,0,6.3713,48,11,251.9109,33.4375,145.9091,30,11,4,18,1,6,34.73
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,1606,0,6.3713,57,11,252.0679,28.1754,146.0,33,14,4,19,1,8,33.26
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,515,515,2.0437,18,4,251.9939,28.6111,128.75,7,4,1,7,0,3,27.11
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,472,472,1.873,12,4,252.0021,39.3333,118.0,6,2,2,5,0,2,34.0
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,444,444,1.7619,14,4,252.0007,31.7143,111.0,9,2,2,6,0,1,36.0
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,44,0,0.1746,2,1,252.0046,22.0,44.0,1,0,0,1,0,0,22.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,895,0,2.6716,21,5,335.0052,42.619,179.0,10,4,2,7,0,3,30.21
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,844,0,2.5194,18,5,335.0004,46.8889,168.8,8,3,2,6,0,2,28.4
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,818,0,2.4418,15,5,334.9988,54.5333,163.6,9,3,1,4,0,2,29.33
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,2539,0,7.5785,58,25,335.0267,43.7759,101.56,34,13,9,25,1,7,34.31
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,2439,0,7.2805,56,24,335.0045,43.5536,101.625,35,11,8,18,1,8,33.33
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,2368,0,7.0676,63,23,335.0501,37.5873,102.9565,29,13,7,18,1,7,27.16
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,2296,0,6.8548,66,22,334.9478,34.7879,104.3636,35,15,7,23,1,8,30.79
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,2311,0,6.8973,57,23,335.0586,40.5439,100.4783,25,12,8,19,1,6,27.95
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,2310,0,6.8973,52,23,334.9137,44.4231,100.4348,29,10,8,15,1,8,31.33
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,741,741,2.2119,20,6,335.0061,37.05,123.5,9,4,2,9,0,2,29.53
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,679,679,2.0269,20,5,334.9943,33.95,135.8,12,5,2,7,0,3,34.8
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,638,638,1.9045,13,5,334.9961,49.0769,127.6,6,2,2,5,0,1,28.86
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,63,0,0.1881,2,1,334.9282,31.5,63.0,1,0,0,1,0,0,22.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,1105,0,4.3849,29,11,252.0012,38.1034,100.4545,13,5,5,12,0,4,31.27
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,1042,0,4.1349,27,10,252.0013,38.5926,104.2,11,5,4,10,0,4,28.92
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,1011,0,4.0119,23,10,252.0003,43.9565,101.1,12,5,4,9,0,3,32.49
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,3291,0,13.0604,79,22,251.9831,41.6582,149.5909,48,16,9,25,1,10,33.68
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,3162,0,12.5468,105,21,252.0165,30.1143,150.5714,54,17,9,30,1,14,30.51
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,3069,0,12.1799,79,20,251.9725,38.8481,153.45,37,17,8,23,1,9,29.13
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,2977,0,11.8131,84,19,252.0084,35.4405,156.6842,35,16,7,25,1,11,27.32
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,2995,0,11.8864,90,20,251.9686,33.2778,149.75,56,20,7,34,1,11,34.27
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,2996,0,11.8864,107,20,252.0528,28.0,149.8,62,25,7,36,2,15,32.96
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,1004,1004,3.9841,35,8,252.0017,28.6857,125.5,14,8,3,13,0,5,28.74
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,921,921,3.6548,23,7,251.9974,40.0435,131.5714,11,5,3,9,0,3,31.73
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,865,865,3.4325,27,7,252.0029,32.037,123.5714,17,5,3,12,0,3,36.04
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,143,0,0.5675,6,1,251.9824,23.8333,143.0,3,1,0,2,0,1,24.67
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,1590,0,4.7463,37,9,334.9978,42.973,176.6667,18,7,3,12,1,5,29.33
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,1499,0,4.4746,32,8,335.002,46.8438,187.375,15,6,3,11,0,4,29.38
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,1454,0,4.3403,27,8,334.9999,53.8519,181.75,17,5,2,8,0,3,30.81
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,4736,0,14.138,108,46,334.9837,43.8519,102.9565,64,23,17,47,1,13,34.51
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,4550,0,13.582,104,44,335.0022,43.75,103.4091,66,20,15,33,1,15,33.57
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,4417,0,13.1849,118,43,335.0044,37.4322,102.7209,55,24,13,33,2,12,26.97
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,4284,0,12.7877,122,42,335.0094,35.1148,102.0,64,27,12,42,2,15,30.01
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,4311,0,12.8672,107,42,335.0379,40.2897,102.6429,48,23,15,36,2,11,28.44
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,4310,0,12.8672,97,42,334.9602,44.433,102.619,55,19,15,28,1,14,31.53
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,1445,1445,4.3134,38,12,335.0026,38.0263,120.4167,17,8,4,16,1,5,29.96
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,1325,1325,3.9552,39,11,335.002,33.9744,120.4545,23,9,5,14,1,5,35.07
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,1245,1245,3.7164,26,10,335.0016,47.8846,124.5,12,4,4,11,0,3,30.25
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,205,0,0.6119,6,1,335.0221,34.1667,205.0,3,1,0,2,0,1,24.67
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,40,0,0.1587,1,1,252.0479,40.0,40.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,38,0,0.1508,1,1,251.9894,38.0,38.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,37,0,0.1468,1,1,252.0436,37.0,37.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,115,0,0.4549,3,1,252.8028,38.3333,115.0,2,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,110,0,0.437,4,1,251.7162,27.5,110.0,2,1,0,1,0,1,26.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,107,0,0.4242,3,1,252.2395,35.6667,107.0,1,1,0,1,0,0,18.67
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,104,0,0.4114,3,1,252.7953,34.6667,104.0,1,1,0,1,0,0,18.67
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,104,0,0.414,3,1,251.2077,34.6667,104.0,2,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,104,0,0.414,4,1,251.2077,26.0,104.0,2,1,0,1,0,1,26.0
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,33,33,0.131,1,1,251.9084,33.0,33.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,31,31,0.123,1,1,252.0325,31.0,31.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,29,29,0.1151,1,1,251.9548,29.0,29.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,3,0,0.0119,1,1,252.1008,3.0,3.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,58,0,0.1731,1,1,335.0664,58.0,58.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,55,0,0.1642,1,1,334.9574,55.0,55.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,53,0,0.1582,1,1,335.019,53.0,53.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,165,0,0.4931,4,2,334.6177,41.25,82.5,2,1,1,2,0,0,33.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,159,0,0.4737,4,2,335.6555,39.75,79.5,3,1,1,1,0,1,41.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,154,0,0.4599,4,2,334.8554,38.5,77.0,2,1,1,1,0,0,29.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,150,0,0.446,4,1,336.3229,37.5,150.0,2,1,0,1,0,0,21.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,150,0,0.4488,4,1,334.2246,37.5,150.0,2,1,0,1,0,0,21.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,150,0,0.4488,3,1,334.2246,50.0,150.0,2,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,48,48,0.1433,1,1,334.9616,48.0,48.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,44,44,0.1313,1,1,335.1104,44.0,44.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,41,41,0.1224,1,1,334.9673,41.0,41.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,4,0,0.0119,1,1,336.1345,4.0,4.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,72,0,0.2857,2,1,252.0126,36.0,72.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,68,0,0.2698,2,1,252.0385,34.0,68.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,66,0,0.2619,2,1,252.0046,33.0,66.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,214,0,0.8476,5,1,252.4776,42.8,214.0,3,1,0,2,0,1,29.6
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,205,0,0.8143,7,1,251.75,29.2857,205.0,4,1,0,2,0,1,25.14
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,199,0,0.7905,5,1,251.7394,39.8,199.0,2,1,0,1,0,1,20.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,193,0,0.7667,5,1,251.7282,38.6,193.0,2,1,0,2,0,1,24.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,195,0,0.7714,6,1,252.7871,32.5,195.0,4,1,0,2,0,1,29.33
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,194,0,0.7714,7,1,251.4908,27.7143,194.0,4,2,0,2,0,1,26.86
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,65,65,0.2579,2,1,252.0357,32.5,65.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,60,60,0.2381,1,1,251.995,60.0,60.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,56,56,0.2222,2,1,252.0252,28.0,56.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,9,0,0.0357,1,1,252.1008,9.0,9.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,103,0,0.3075,2,1,334.9593,51.5,103.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,97,0,0.2896,2,1,334.9448,48.5,97.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,95,0,0.2836,2,1,334.9788,47.5,95.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,308,0,0.9187,7,3,335.2563,44.0,102.6667,4,2,1,3,0,1,34.48
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,296,0,0.8826,7,3,335.3728,42.2857,98.6667,4,1,1,2,0,1,30.48
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,287,0,0.8568,8,3,334.9673,35.875,95.6667,4,2,1,2,0,1,28.83
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,278,0,0.831,8,3,334.5367,34.75,92.6667,4,2,1,3,0,1,30.83
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,280,0,0.8361,7,3,334.8882,40.0,93.3333,3,2,1,2,0,1,28.19
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,280,0,0.8361,6,3,334.8882,46.6667,93.3333,3,1,1,2,0,1,30.0
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,94,94,0.2806,2,1,334.9964,47.0,94.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,86,86,0.2567,3,1,335.0214,28.6667,86.0,2,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,81,81,0.2418,2,1,334.9876,40.5,81.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,13,0,0.0388,1,1,335.0515,13.0,13.0,1,0,0,0,0,0,28.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,564,0,2.2381,14,3,251.9995,40.2857,188.0,7,2,1,4,0,2,28.48
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,532,0,2.1111,12,3,252.0013,44.3333,177.3333,7,2,1,4,0,2,32.33
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,516,0,2.0476,17,3,252.0023,30.3529,172.0,9,4,1,7,0,2,31.92
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,1601,0,6.3529,53,8,252.0109,30.2075,200.125,29,9,3,20,1,7,32.19
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,1538,0,6.1031,51,8,252.0031,30.1569,192.25,24,8,3,20,1,8,30.63
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,1493,0,5.9246,38,8,252.0001,39.2895,186.625,19,6,3,13,1,4,29.68
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,1448,0,5.7462,33,8,251.9926,43.8788,181.0,15,6,3,13,0,5,30.24
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,1457,0,5.7818,42,8,251.9976,34.6905,182.125,21,8,3,13,1,5,29.81
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,1457,0,5.7818,47,8,251.9976,31.0,182.125,26,9,3,14,1,7,31.7
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,467,467,1.8532,11,3,251.9965,42.4545,155.6667,7,2,1,4,0,1,32.97
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,429,429,1.7024,14,3,251.9972,30.6429,143.0,6,3,1,6,0,2,29.62
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,403,403,1.5992,13,3,252.001,31.0,134.3333,8,3,1,4,0,2,33.33
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,40,0,0.1587,1,1,252.0479,40.0,40.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,812,0,2.4239,17,12,334.9973,47.7647,67.6667,11,4,5,6,0,2,35.61
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,766,0,2.2866,20,11,334.9952,38.3,69.6364,9,4,4,7,0,2,28.42
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,742,0,2.2149,15,11,335.0038,49.4667,67.4545,10,3,4,6,0,2,35.95
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,2304,0,6.8772,65,28,335.0201,35.4462,82.2857,41,14,12,23,1,9,35.66
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,2213,0,6.6068,45,27,334.9579,49.1778,81.963,22,8,11,16,1,7,31.32
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,2148,0,6.4136,47,26,334.9133,45.7021,82.6154,24,10,8,16,1,6,29.94
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,2084,0,6.2204,43,26,335.0267,48.4651,80.1538,27,8,10,18,0,6,35.46
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,2097,0,6.259,59,26,335.0375,35.5424,80.6538,37,11,9,17,1,7,32.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,2097,0,6.259,57,26,335.0375,36.7895,80.6538,24,9,11,16,1,8,27.89
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,673,673,2.009,15,6,334.9925,44.8667,112.1667,8,3,2,5,0,2,30.67
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,617,617,1.8418,12,5,334.9984,51.4167,123.4,7,2,2,5,0,2,34.73
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,579,579,1.7284,14,5,334.9919,41.3571,115.8,9,3,2,5,0,2,35.54
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,57,0,0.1701,2,1,335.097,28.5,57.0,1,0,0,1,0,0,22.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,1003,0,3.9802,26,6,251.9974,38.5769,167.1667,13,4,2,7,0,3,27.79
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,946,0,3.754,21,5,251.9979,45.0476,189.2,12,4,1,8,0,3,30.44
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,917,0,3.6389,31,5,251.9992,29.5806,183.4,16,6,2,12,0,4,31.95
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,2987,0,11.8539,99,16,251.9846,30.1717,186.6875,54,16,5,38,1,14,31.26
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,2870,0,11.3878,96,15,252.0241,29.8958,191.3333,46,15,6,38,1,15,31.23
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,2786,0,11.0548,70,15,252.0172,39.8,185.7333,35,11,6,24,1,8,30.17
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,2702,0,10.7218,61,14,252.0099,44.2951,193.0,28,11,6,25,1,9,31.51
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,2719,0,10.7884,79,14,252.03,34.4177,194.2143,40,16,5,24,1,9,29.56
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,2718,0,10.7884,87,14,251.9373,31.2414,194.1429,48,16,5,26,1,12,31.0
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,912,912,3.619,21,6,252.0033,43.4286,152.0,13,3,2,7,0,2,31.62
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,836,836,3.3175,27,6,251.997,30.963,139.3333,13,5,2,11,0,3,29.78
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,785,785,3.1151,25,6,251.9983,31.4,130.8333,15,6,2,9,0,4,33.97
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,129,0,0.5119,4,1,252.0023,32.25,129.0,2,1,0,1,0,0,21.0
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,1443,0,4.3075,31,20,334.9971,46.5484,72.15,19,7,8,12,0,3,34.4
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,1361,0,4.0627,36,19,334.9989,37.8056,71.6316,17,7,7,13,0,4,29.45
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,1320,0,3.9403,26,19,334.9999,50.7692,69.4737,17,5,8,10,0,3,35.81
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,4298,0,12.8309,121,53,334.9726,35.5207,81.0943,77,26,22,42,2,17,35.53
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,4129,0,12.3263,83,51,334.9748,49.747,80.9608,40,14,21,30,1,13,31.12
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,4009,0,11.9659,88,49,335.0354,45.5568,81.8163,44,18,16,30,1,11,29.72
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,3888,0,11.6054,81,48,335.0165,48.0,81.0,51,15,18,34,1,12,35.63
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,3912,0,11.6775,110,48,335.0032,35.5636,81.5,69,21,18,32,2,14,33.2
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,3912,0,11.6775,106,48,335.0032,36.9057,81.5,46,17,20,30,2,15,28.25
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,1312,1312,3.9164,28,11,335.0015,46.8571,119.2727,15,6,4,8,0,4,30.82
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,1202,1202,3.5881,23,10,334.9962,52.2609,120.2,14,5,4,9,0,3,34.92
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,1129,1129,3.3701,27,10,335.0049,41.8148,112.9,17,5,4,9,0,4,34.55
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,186,0,0.5552,5,1,335.0144,37.2,186.0,3,1,0,2,0,1,29.6
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,37,0,0.1468,1,1,252.0436,37.0,37.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,35,0,0.1389,1,1,251.9798,35.0,35.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,34,0,0.1349,1,1,252.0385,34.0,34.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,104,0,0.4125,3,1,252.1212,34.6667,104.0,2,0,0,1,0,0,24.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,100,0,0.3963,3,1,252.3341,33.3333,100.0,1,0,0,1,0,0,14.67
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,97,0,0.3847,2,1,252.1445,48.5,97.0,1,0,0,1,0,0,22.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,94,0,0.3731,2,1,251.9432,47.0,94.0,1,0,0,1,0,0,22.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,95,0,0.3755,3,1,252.996,31.6667,95.0,2,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,94,0,0.3755,3,1,250.3329,31.3333,94.0,2,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,30,30,0.119,1,1,252.1008,30.0,30.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,28,28,0.1111,1,1,252.0252,28.0,28.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,26,26,0.1032,1,1,251.938,26.0,26.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,3,0,0.0119,1,1,252.1008,3.0,3.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,53,0,0.1582,1,1,335.019,53.0,53.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,50,0,0.1493,1,1,334.8962,50.0,50.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,48,0,0.1433,1,1,334.9616,48.0,48.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,150,0,0.4468,4,2,335.7207,37.5,75.0,3,1,1,1,0,1,41.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,144,0,0.4293,3,2,335.4298,48.0,72.0,1,1,1,1,0,0,26.67
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,140,0,0.4167,3,2,335.9731,46.6667,70.0,2,1,1,1,0,0,36.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,135,0,0.4042,3,2,333.9931,45.0,67.5,2,1,1,1,0,0,36.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,136,0,0.4067,4,2,334.3988,34.0,68.0,3,1,1,1,0,0,36.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,136,0,0.4067,4,2,334.3988,34.0,68.0,2,1,1,1,0,1,34.0
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,44,44,0.1313,1,1,335.1104,44.0,44.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,40,40,0.1194,1,1,335.0084,40.0,40.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,38,38,0.1134,1,1,335.097,38.0,38.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,4,0,0.0119,1,1,336.1345,4.0,4.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,65,0,0.2579,2,1,252.0357,32.5,65.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,61,0,0.2421,1,1,251.962,61.0,61.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,60,0,0.2381,2,1,251.995,30.0,60.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,194,0,0.7699,6,1,251.9808,32.3333,194.0,3,1,0,2,0,1,24.67
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,186,0,0.7396,6,1,251.4873,31.0,186.0,3,1,0,2,0,1,24.67
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,181,0,0.718,5,1,252.0891,36.2,181.0,3,1,0,2,0,1,29.6
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,175,0,0.6964,4,1,251.2924,43.75,175.0,2,1,0,2,0,1,30.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,177,0,0.7007,5,1,252.6045,35.4,177.0,3,1,0,2,0,1,29.6
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,177,0,0.7007,6,1,252.6045,29.5,177.0,3,1,0,2,0,1,24.67
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,59,59,0.2341,1,1,252.029,59.0,59.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,54,54,0.2143,2,1,251.9832,27.0,54.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,51,51,0.2024,2,1,251.9763,25.5,51.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,8,0,0.0317,1,1,252.3659,8.0,8.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,94,0,0.2806,2,1,334.9964,47.0,94.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,88,0,0.2627,2,1,334.9829,44.0,88.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,86,0,0.2567,2,1,335.0214,43.0,86.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,279,0,0.8342,8,3,334.4522,34.875,93.0,5,2,1,3,0,1,34.33
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,269,0,0.8014,5,3,335.6626,53.8,89.6667,2,1,1,2,0,1,29.33
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,261,0,0.778,6,3,335.4756,43.5,87.0,3,1,1,2,0,1,30.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,253,0,0.7546,5,3,335.277,50.6,84.3333,3,1,1,2,0,1,34.93
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,254,0,0.7592,7,3,334.5627,36.2857,84.6667,4,1,1,2,0,1,30.48
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,254,0,0.7592,7,3,334.5627,36.2857,84.6667,3,1,1,2,0,1,26.48
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,85,85,0.2537,2,1,335.0414,42.5,85.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,78,78,0.2328,1,1,335.0515,78.0,78.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,73,73,0.2179,2,1,335.0161,36.5,73.0,1,0,0,1,0,0,22.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,12,0,0.0358,1,1,335.1955,12.0,12.0,1,0,0,0,0,0,28.0
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,1720.7989,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,1055.0,0,1371.5458,21,12,0.7692,50.2381,87.9167,11,4,4,8,6,3,31.32
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,994.0,0,1291.5087,22,12,0.7696,45.1818,82.8333,11,4,4,8,7,3,31.32
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,964.0,0,1251.4901,21,11,0.7703,45.9048,87.6364,11,4,4,8,6,3,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,2358.0,0,3812.6792,61,14,0.6185,38.6557,168.4286,32,12,5,22,19,8,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,2265.0,0,3659.8809,57,13,0.6189,39.7368,174.2308,30,11,5,20,17,7,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,2199.0,0,3554.3774,51,13,0.6187,43.1176,169.1538,27,10,5,18,16,7,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,2132.0,0,3448.8739,53,13,0.6182,40.2264,164.0,28,10,5,19,16,7,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,2146.0,0,3470.7022,57,13,0.6183,37.6491,165.0769,30,11,5,20,17,7,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,2145.0,0,3470.7022,80,13,0.618,26.8125,165.0,42,16,5,29,25,10,31.32
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,1030.0,677,989.5503,19,15,1.0409,54.2105,68.6667,10,4,6,7,6,2,31.32
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,943.0,620,905.8751,17,13,1.041,55.4706,72.5385,9,3,5,6,5,2,31.32
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,886.0,582,851.3043,15,13,1.0408,59.0667,68.1538,8,3,5,5,5,2,31.32
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,116.4177,3,1,0.0,0.0,0.0,2,1,0,1,1,0,31.32
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,3607.7088,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,1517.0,0,1285.5054,23,6,1.1801,65.9565,252.8333,12,5,2,8,7,3,31.32
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,1430.0,0,1212.9366,19,6,1.179,75.2632,238.3333,10,4,2,7,6,2,31.32
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,1388.0,0,1174.9243,26,6,1.1814,53.3846,231.3333,14,5,2,9,8,3,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,3392.0,0,3652.6324,88,27,0.9286,38.5455,125.6296,46,17,10,32,27,11,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,3259.0,0,3510.9503,75,26,0.9282,43.4533,125.3462,39,15,10,27,23,10,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,3163.0,0,3407.2805,83,25,0.9283,38.1084,126.52,43,16,9,30,25,11,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,3069.0,0,3303.6107,67,24,0.929,45.806,127.875,35,13,9,24,21,9,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,3088.0,0,3324.3447,78,24,0.9289,39.5897,128.6667,41,15,9,28,24,10,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,3088.0,0,3324.3447,87,24,0.9289,35.4943,128.6667,45,17,9,31,27,11,31.32
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,1481.0,973,590.9178,21,6,2.5063,70.5238,246.8333,11,4,2,8,6,3,31.32
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,1359.0,893,542.5386,16,6,2.5049,84.9375,226.5,8,3,2,6,5,2,31.32
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,1277.0,839,507.982,24,6,2.5139,53.2083,212.8333,13,5,2,9,7,3,31.32
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,51.8349,3,1,0.0,0.0,0.0,2,1,0,1,1,0,31.32
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,1720.7989,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,1019.0,0,2433.8572,37,22,0.4187,27.5405,46.3182,19,7,8,13,11,5,31.32
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,961.0,0,2295.6112,40,21,0.4186,24.025,45.7619,21,8,8,14,12,5,31.32
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,932.0,0,2226.4882,37,20,0.4186,25.1892,46.6,19,7,7,13,11,5,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,5375.0,0,7112.3929,113,26,0.7557,47.5664,206.7308,59,22,10,40,35,15,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,5164.0,0,6832.2628,106,25,0.7558,48.717,206.56,55,21,9,38,33,14,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,5012.0,0,6632.1699,95,24,0.7557,52.7579,208.8333,49,19,9,34,29,12,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,4862.0,0,6432.077,98,23,0.7559,49.6122,211.3913,51,19,8,35,30,13,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,4891.0,0,6472.0956,107,24,0.7557,45.7103,203.7917,56,21,9,38,33,14,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,4891.0,0,6472.0956,150,24,0.7557,32.6067,203.7917,78,29,9,54,46,20,31.32
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,833.0,1320,1928.1679,36,28,0.432,23.1389,29.75,19,7,10,13,11,5,31.32
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,762.0,1209,1768.0936,32,26,0.431,23.8125,29.3077,17,6,10,11,10,4,31.32
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,716.0,1136,1658.952,30,24,0.4316,23.8667,29.8333,16,6,9,11,9,4,31.32
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,378.3575,9,3,0.0,0.0,0.0,5,2,1,3,3,1,31.32
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,3607.7088,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,1467.0,0,2287.6468,41,11,0.6413,35.7805,133.3636,21,8,4,15,13,5,31.32
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,1383.0,0,2156.3317,34,10,0.6414,40.6765,138.3,18,7,4,12,10,4,31.32
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,1341.0,0,2090.6742,47,10,0.6414,28.5319,134.1,24,9,4,17,14,6,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,7734.0,0,6818.0167,165,50,1.1343,46.8727,154.68,86,32,18,59,51,21,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,7429.0,0,6548.4753,140,48,1.1345,53.0643,154.7708,73,27,18,50,43,18,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,7213.0,0,6358.414,154,46,1.1344,46.8377,156.8043,80,30,17,55,47,20,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,6995.0,0,6164.897,125,45,1.1346,55.96,155.4444,65,24,17,45,38,16,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,7039.0,0,6202.9093,146,45,1.1348,48.2123,156.4222,76,29,17,52,45,19,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,7039.0,0,6202.9093,163,45,1.1348,43.184,156.4222,85,32,17,58,50,21,31.32
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,1198.0,1899,1150.7347,40,13,1.0411,29.95,92.1538,21,8,5,14,12,5,31.32
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,1097.0,1740,1053.9762,31,11,1.0408,35.3871,99.7273,16,6,4,11,10,4,31.32
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,1031.0,1635,991.7744,47,11,1.0396,21.9362,93.7273,24,9,4,17,14,6,31.32
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,169.3273,8,4,0.0,0.0,0.0,4,2,1,3,2,1,31.32
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,112.7796,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,68.0,0,87.3133,1,1,0.7788,68.0,68.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,65.0,0,83.6752,2,1,0.7768,32.5,65.0,1,0,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,63.0,0,83.6752,1,1,0.7529,63.0,63.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,154.0,0,247.3876,4,1,0.6225,38.5,154.0,2,1,0,1,1,1,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,147.0,0,236.4734,4,1,0.6216,36.75,147.0,2,1,0,1,1,1,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,143.0,0,232.8354,3,1,0.6142,47.6667,143.0,2,1,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,138.0,0,225.5593,3,1,0.6118,46.0,138.0,2,1,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,139.0,0,225.5593,4,1,0.6162,34.75,139.0,2,1,0,1,1,1,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,139.0,0,225.5593,5,1,0.6162,27.8,139.0,3,1,0,2,2,1,31.32
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,67.0,44,65.4849,1,1,1.0231,67.0,67.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,61.0,40,58.2088,1,1,1.048,61.0,61.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,58.0,38,54.5708,1,1,1.0628,58.0,58.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,7.2761,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,234.9849,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,98.0,0,82.9358,2,1,1.1816,49.0,98.0,1,0,0,1,1,0,31.32
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,93.0,0,79.4802,1,1,1.1701,93.0,93.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,90.0,0,76.0245,2,1,1.1838,45.0,90.0,1,0,0,1,1,0,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,221.0,0,238.4405,6,2,0.9269,36.8333,110.5,3,1,1,2,2,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,211.0,0,228.0735,5,2,0.9251,42.2,105.5,3,1,1,2,2,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,205.0,0,221.1622,5,2,0.9269,41.0,102.5,3,1,1,2,2,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,199.0,0,214.2509,4,2,0.9288,49.75,99.5,2,1,1,1,1,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,200.0,0,214.2509,5,2,0.9335,40.0,100.0,3,1,1,2,2,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,200.0,0,214.2509,6,2,0.9335,33.3333,100.0,3,1,1,2,2,1,31.32
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,96.0,63,38.0123,1,1,2.5255,96.0,96.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,88.0,58,34.5566,1,1,2.5465,88.0,88.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,84.0,55,34.5566,2,1,2.4308,42.0,84.0,1,0,0,1,1,0,31.32
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,112.7796,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,66.0,0,156.4363,2,1,0.4219,33.0,66.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,62.0,0,149.1602,3,1,0.4157,20.6667,62.0,2,1,0,1,1,0,31.32
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,60.0,0,145.5221,2,1,0.4123,30.0,60.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,349.0,0,462.0327,7,2,0.7554,49.8571,174.5,4,1,1,3,2,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,336.0,0,443.8424,7,2,0.757,48.0,168.0,4,1,1,3,2,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,326.0,0,429.2902,6,2,0.7594,54.3333,163.0,3,1,1,2,2,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,316.0,0,418.3761,6,2,0.7553,52.6667,158.0,3,1,1,2,2,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,318.0,0,422.0141,7,2,0.7535,45.4286,159.0,4,1,1,3,2,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,317.0,0,422.0141,10,2,0.7512,31.7,158.5,5,2,1,4,3,1,31.32
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,54.0,86,127.3318,2,2,0.4241,27.0,27.0,1,0,1,1,1,0,31.32
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,50.0,79,116.4177,2,2,0.4295,25.0,25.0,1,0,1,1,1,0,31.32
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,47.0,74,109.1416,2,2,0.4306,23.5,23.5,1,0,1,1,1,0,31.32
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,25.4664,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,234.9849,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Esan Central,South South,Edo,Esan Central,,,96.0,0,148.5934,3,1,0.6461,32.0,96.0,2,1,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Esan Central,South South,Edo,Esan Central,,,90.0,0,138.2264,2,1,0.6511,45.0,90.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Esan Central,South South,Edo,Esan Central,,,87.0,0,134.7707,3,1,0.6455,29.0,87.0,2,1,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Esan Central,South South,Edo,Esan Central,,,502.0,0,442.3245,11,3,1.1349,45.6364,167.3333,6,2,1,4,3,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Esan Central,South South,Edo,Esan Central,,,484.0,0,425.0462,9,3,1.1387,53.7778,161.3333,5,2,1,3,3,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Esan Central,South South,Edo,Esan Central,,,469.0,0,411.2235,10,3,1.1405,46.9,156.3333,5,2,1,4,3,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Esan Central,South South,Edo,Esan Central,,,455.0,0,400.8565,8,3,1.1351,56.875,151.6667,4,2,1,3,2,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Esan Central,South South,Edo,Esan Central,,,457.0,0,404.3122,9,3,1.1303,50.7778,152.3333,5,2,1,3,3,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Esan Central,South South,Edo,Esan Central,,,457.0,0,404.3122,11,3,1.1303,41.5455,152.3333,6,2,1,4,3,1,31.32
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Esan Central,South South,Edo,Esan Central,,,78.0,123,72.5689,3,1,1.0748,26.0,78.0,2,1,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Esan Central,South South,Edo,Esan Central,,,71.0,113,69.1132,2,1,1.0273,35.5,71.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Esan Central,South South,Edo,Esan Central,,,67.0,106,65.6575,3,1,1.0204,22.3333,67.0,2,1,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Esan Central,South South,Edo,Esan Central,,,0.0,0,10.367,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,1720.7989,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,1788.0,0,2324.7156,37,14,0.7691,48.3243,127.7143,19,7,5,13,11,5,31.32
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,1686.0,0,2190.1077,36,14,0.7698,46.8333,120.4286,19,7,5,13,11,5,31.32
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,1634.0,0,2124.6227,33,13,0.7691,49.5152,125.6923,17,6,5,12,10,4,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,3997.0,0,6464.8195,125,23,0.6183,31.976,173.7826,65,24,8,45,38,16,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,3841.0,0,6210.1558,133,22,0.6185,28.8797,174.5909,69,26,8,48,41,17,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,3729.0,0,6028.2532,112,21,0.6186,33.2946,177.5714,58,22,8,40,34,15,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,3616.0,0,5846.3506,127,21,0.6185,28.4724,172.1905,66,25,8,45,39,17,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,3638.0,0,5882.7311,128,21,0.6184,28.4219,173.2381,67,25,8,46,39,17,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,3638.0,0,5882.7311,101,21,0.6184,36.0198,173.2381,53,20,8,36,31,13,31.32
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,1745.0,1147,1677.1423,35,6,1.0405,49.8571,290.8333,18,7,2,13,11,5,31.32
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,1599.0,1051,1535.2582,29,5,1.0415,55.1379,319.8,15,6,2,10,9,4,31.32
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,1502.0,987,1440.6688,23,5,1.0426,65.3043,300.4,12,5,2,8,7,3,31.32
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,200.0929,5,1,0.0,0.0,0.0,3,1,0,2,2,1,31.32
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,3607.7088,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,2573.0,0,2180.5213,46,44,1.18,55.9348,58.4773,24,9,16,16,14,6,31.32
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,2426.0,0,2056.1176,40,42,1.1799,60.65,57.7619,21,8,15,14,12,5,31.32
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,2352.0,0,1993.9157,29,40,1.1796,81.1034,58.8,15,6,15,10,9,4,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,5754.0,0,6195.998,106,36,0.9287,54.283,159.8333,55,21,13,38,33,14,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,5527.0,0,5950.6461,126,35,0.9288,43.8651,157.9143,66,25,13,45,39,16,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,5365.0,0,5777.8631,116,34,0.9285,46.25,157.7941,60,23,12,42,36,15,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,5205.0,0,5605.0802,137,33,0.9286,37.9927,157.7273,71,27,12,49,42,18,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,5236.0,0,5639.6368,94,33,0.9284,55.7021,158.6667,49,18,12,34,29,12,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,5236.0,0,5639.6368,105,33,0.9284,49.8667,158.6667,55,21,12,38,32,14,31.32
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,2512.0,1651,998.6857,29,33,2.5153,86.6207,76.1212,15,6,12,10,9,4,31.32
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,2302.0,1513,915.7498,31,30,2.5138,74.2581,76.7333,16,6,11,11,10,4,31.32
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,2162.0,1421,860.4593,30,28,2.5126,72.0667,77.2143,16,6,10,11,9,4,31.32
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,86.3915,4,3,0.0,0.0,0.0,2,1,1,1,1,1,31.32
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,1720.7989,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,1729.0,0,4129.1897,66,26,0.4187,26.197,66.5,34,13,10,24,20,9,31.32
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,1630.0,0,3892.7163,65,24,0.4187,25.0769,67.9167,34,13,9,23,20,8,31.32
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,1581.0,0,3776.2986,59,24,0.4187,26.7966,65.875,31,12,9,21,18,8,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,9116.0,0,12063.7825,233,43,0.7557,39.1245,212.0,121,46,16,83,72,30,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,8756.0,0,11587.1976,248,41,0.7557,35.3065,213.561,129,49,15,89,76,32,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,8500.0,0,11248.8587,209,40,0.7556,40.6699,212.5,109,41,15,75,64,27,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,8244.0,0,10910.5198,236,39,0.7556,34.9322,211.3846,123,46,14,84,72,31,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,8297.0,0,10979.6428,239,39,0.7557,34.7155,212.7436,125,47,14,86,73,31,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,8297.0,0,10979.6428,189,39,0.7557,43.8995,212.7436,98,37,14,68,58,25,31.32
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,1411.0,2237,3266.9713,69,11,0.4319,20.4493,128.2727,36,14,4,25,21,9,31.32
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,1293.0,2051,2997.7554,56,10,0.4313,23.0893,129.3,29,11,4,20,17,7,31.32
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,1215.0,1927,2815.8527,46,10,0.4315,26.413,121.5,24,9,4,16,14,6,31.32
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,647.5734,16,2,0.0,0.0,0.0,8,3,1,6,5,2,31.32
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,3604.2531,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,2488.0,0,3877.2503,83,79,0.6417,29.9759,31.4937,43,16,29,30,25,11,31.32
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,2346.0,0,3656.088,71,74,0.6417,33.0423,31.7027,37,14,27,25,22,9,31.32
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,2275.0,0,3545.5069,52,72,0.6417,43.75,31.5972,27,10,26,19,16,7,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,13117.0,0,11562.6376,199,67,1.1344,65.9146,195.7761,104,39,25,71,61,26,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,12601.0,0,11106.4905,236,65,1.1346,53.3941,193.8615,123,46,24,84,72,31,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,12234.0,0,10781.6585,216,63,1.1347,56.6389,194.1905,113,42,23,77,66,28,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,11865.0,0,10456.8265,256,61,1.1347,46.3477,194.5082,133,50,22,92,79,33,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,11939.0,0,10522.484,175,61,1.1346,68.2229,195.7213,91,34,22,63,54,23,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,11938.0,0,10522.484,196,61,1.1345,60.9082,195.7049,102,38,22,70,60,25,31.32
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,2031.0,3220,1952.4478,56,64,1.0402,36.2679,31.7344,29,11,23,20,17,7,31.32
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,1862.0,2952,1790.0318,61,59,1.0402,30.5246,31.5593,32,12,22,22,19,8,31.32
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,1749.0,2773,1679.4507,59,55,1.0414,29.6441,31.8,31,12,20,21,18,8,31.32
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,283.3641,13,9,0.0,0.0,0.0,7,3,3,5,4,2,31.32
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,112.7796,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,116.0,0,152.7982,3,1,0.7592,38.6667,116.0,2,1,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,110.0,0,141.8841,2,1,0.7753,55.0,110.0,1,0,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,106.0,0,138.246,2,1,0.7667,53.0,106.0,1,0,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,260.0,0,422.0141,8,1,0.6161,32.5,260.0,4,2,0,3,2,1,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,249.0,0,403.8238,9,1,0.6166,27.6667,249.0,5,2,0,3,3,1,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,242.0,0,392.9097,7,1,0.6159,34.5714,242.0,4,1,0,3,2,1,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,235.0,0,378.3575,8,1,0.6211,29.375,235.0,4,2,0,3,2,1,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,237.0,0,381.9955,8,1,0.6204,29.625,237.0,4,2,0,3,2,1,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,237.0,0,381.9955,7,1,0.6204,33.8571,237.0,4,1,0,3,2,1,31.32
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,114.0,75,109.1416,2,1,1.0445,57.0,114.0,1,0,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,104.0,68,98.2274,2,1,1.0588,52.0,104.0,1,0,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,98.0,64,94.5894,2,1,1.0361,49.0,98.0,1,0,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,10.9142,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,234.9849,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,168.0,0,141.6821,3,3,1.1858,56.0,56.0,2,1,1,1,1,0,31.32
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,157.0,0,134.7707,3,3,1.1649,52.3333,52.3333,2,1,1,1,1,0,31.32
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,152.0,0,127.8594,2,3,1.1888,76.0,50.6667,1,0,1,1,1,0,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,374.0,0,404.3122,7,2,0.925,53.4286,187.0,4,1,1,3,2,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,359.0,0,387.0339,8,2,0.9276,44.875,179.5,4,2,1,3,2,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,349.0,0,376.6669,7,2,0.9265,49.8571,174.5,4,1,1,3,2,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,339.0,0,362.8443,9,2,0.9343,37.6667,169.5,5,2,1,3,3,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,341.0,0,366.2999,6,2,0.9309,56.8333,170.5,3,1,1,2,2,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,341.0,0,366.2999,7,2,0.9309,48.7143,170.5,4,1,1,3,2,1,31.32
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,163.0,107,65.6575,2,2,2.4826,81.5,81.5,1,0,1,1,1,0,31.32
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,149.0,98,58.7462,2,2,2.5363,74.5,74.5,1,0,1,1,1,0,31.32
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,140.0,92,55.2906,2,2,2.5321,70.0,70.0,1,0,1,1,1,0,31.32
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,112.7796,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,112.0,0,269.2159,4,2,0.416,28.0,56.0,2,1,1,1,1,1,31.32
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,106.0,0,254.6637,4,2,0.4162,26.5,53.0,2,1,1,1,1,1,31.32
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,103.0,0,243.7495,4,2,0.4226,25.75,51.5,2,1,1,1,1,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,593.0,0,785.8194,15,3,0.7546,39.5333,197.6667,8,3,1,5,5,2,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,569.0,0,753.0769,16,3,0.7556,35.5625,189.6667,8,3,1,6,5,2,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,553.0,0,731.2486,14,3,0.7562,39.5,184.3333,7,3,1,5,4,2,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,536.0,0,709.4203,15,3,0.7555,35.7333,178.6667,8,3,1,5,5,2,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,539.0,0,713.0583,15,3,0.7559,35.9333,179.6667,8,3,1,5,5,2,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,540.0,0,713.0583,12,3,0.7573,45.0,180.0,6,2,1,4,4,2,31.32
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,92.0,145,211.0071,4,1,0.436,23.0,92.0,2,1,0,1,1,1,31.32
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,84.0,133,192.8168,4,1,0.4356,21.0,84.0,2,1,0,1,1,1,31.32
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,79.0,125,181.9026,3,1,0.4343,26.3333,79.0,2,1,0,1,1,0,31.32
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,43.6566,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,234.9849,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Etsako West,South South,Edo,Etsako West,,,162.0,0,252.2632,5,5,0.6422,32.4,32.4,3,1,2,2,2,1,31.32
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Etsako West,South South,Edo,Etsako West,,,152.0,0,238.4405,5,5,0.6375,30.4,30.4,3,1,2,2,2,1,31.32
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Etsako West,South South,Edo,Etsako West,,,148.0,0,231.5292,3,5,0.6392,49.3333,29.6,2,1,2,1,1,0,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Etsako West,South South,Edo,Etsako West,,,853.0,0,749.8782,13,4,1.1375,65.6154,213.25,7,3,1,5,4,2,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Etsako West,South South,Edo,Etsako West,,,819.0,0,722.2329,15,4,1.134,54.6,204.75,8,3,1,5,5,2,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Etsako West,South South,Edo,Etsako West,,,796.0,0,701.4989,14,4,1.1347,56.8571,199.0,7,3,1,5,4,2,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Etsako West,South South,Edo,Etsako West,,,772.0,0,680.765,17,4,1.134,45.4118,193.0,9,3,1,6,5,2,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Etsako West,South South,Edo,Etsako West,,,776.0,0,684.2206,11,4,1.1341,70.5455,194.0,6,2,1,4,3,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Etsako West,South South,Edo,Etsako West,,,776.0,0,684.2206,13,4,1.1341,59.6923,194.0,7,3,1,5,4,2,31.32
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Etsako West,South South,Edo,Etsako West,,,132.0,209,127.8594,4,4,1.0324,33.0,33.0,2,1,1,1,1,1,31.32
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Etsako West,South South,Edo,Etsako West,,,121.0,192,117.4924,4,4,1.0299,30.25,30.25,2,1,1,1,1,1,31.32
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Etsako West,South South,Edo,Etsako West,,,114.0,180,107.1255,4,4,1.0642,28.5,28.5,2,1,1,1,1,1,31.32
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Etsako West,South South,Edo,Etsako West,,,0.0,0,17.2783,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,1720.7989,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,803.0,0,1044.1211,16,6,0.7691,50.1875,133.8333,8,3,2,6,5,2,31.32
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,756.0,0,982.2742,15,6,0.7696,50.4,126.0,8,3,2,5,5,2,31.32
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,735.0,0,953.1698,13,5,0.7711,56.5385,147.0,7,3,2,5,4,2,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,1794.0,0,2899.5279,42,12,0.6187,42.7143,149.5,22,8,4,15,13,5,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,1724.0,0,2786.7483,56,11,0.6186,30.7857,156.7273,29,11,4,20,17,7,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,1673.0,0,2706.7112,43,11,0.6181,38.907,152.0909,22,8,4,15,13,6,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,1623.0,0,2623.0359,45,10,0.6187,36.0667,162.3,23,9,4,16,14,6,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,1633.0,0,2641.2262,48,11,0.6183,34.0208,148.4545,25,9,4,17,15,6,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,1634.0,0,2641.2262,57,11,0.6187,28.6667,148.5455,30,11,4,20,17,7,31.32
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,784.0,515,753.0769,18,4,1.0411,43.5556,196.0,9,4,1,6,6,2,31.32
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,718.0,472,691.23,12,4,1.0387,59.8333,179.5,6,2,1,4,4,2,31.32
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,676.0,444,647.5734,14,4,1.0439,48.2857,169.0,7,3,1,5,4,2,31.32
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,90.9513,2,1,0.0,0.0,0.0,1,0,0,1,1,0,31.32
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,3604.2531,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,1155.0,0,977.9517,21,5,1.181,55.0,231.0,11,4,2,8,6,3,31.32
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,1090.0,0,922.6612,18,5,1.1814,60.5556,218.0,9,4,2,6,6,2,31.32
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,1056.0,0,895.0159,15,5,1.1799,70.4,211.2,8,3,2,5,5,2,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,2583.0,0,2781.8061,58,25,0.9285,44.5345,103.32,30,11,9,21,18,8,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,2481.0,0,2671.225,56,24,0.9288,44.3036,103.375,29,11,9,20,17,7,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,2409.0,0,2591.7448,63,23,0.9295,38.2381,104.7391,33,12,8,23,19,8,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,2335.0,0,2515.7203,66,22,0.9282,35.3788,106.1364,34,13,8,24,20,9,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,2351.0,0,2529.543,57,23,0.9294,41.2456,102.2174,30,11,8,20,17,7,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,2350.0,0,2529.543,52,23,0.929,45.1923,102.1739,27,10,8,19,16,7,31.32
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,1128.0,741,449.2358,20,6,2.5109,56.4,188.0,10,4,2,7,6,3,31.32
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,1033.0,679,411.2235,20,5,2.512,51.65,206.6,10,4,2,7,6,3,31.32
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,971.0,638,387.0339,13,5,2.5088,74.6923,194.2,7,3,2,5,4,2,31.32
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,38.0123,2,1,0.0,0.0,0.0,1,0,0,1,1,0,31.32
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,1720.7989,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,776.0,0,1855.4068,29,11,0.4182,26.7586,70.5455,15,6,4,10,9,4,31.32
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,732.0,0,1746.2653,27,10,0.4192,27.1111,73.2,14,5,4,10,8,4,31.32
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,710.0,0,1695.3325,23,10,0.4188,30.8696,71.0,12,5,4,8,7,3,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,4090.0,0,5413.4223,79,22,0.7555,51.7722,185.9091,41,15,8,28,24,10,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,3930.0,0,5198.7772,105,21,0.7559,37.4286,187.1429,55,21,8,38,32,14,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,3814.0,0,5045.979,79,20,0.7558,48.2785,190.7,41,15,7,28,24,10,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,3700.0,0,4896.8188,84,19,0.7556,44.0476,194.7368,44,16,7,30,26,11,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,3722.0,0,4925.9233,90,20,0.7556,41.3556,186.1,47,18,7,32,28,12,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,3723.0,0,4925.9233,107,20,0.7558,34.7944,186.15,56,21,7,38,33,14,31.32
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,633.0,1004,1466.1352,35,8,0.4317,18.0857,79.125,18,7,3,13,11,5,31.32
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,581.0,921,1346.0795,23,7,0.4316,25.2609,83.0,12,5,3,8,7,3,31.32
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,546.0,865,1262.4043,27,7,0.4325,20.2222,78.0,14,5,3,10,8,4,31.32
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,291.0442,6,1,0.0,0.0,0.0,3,1,0,2,2,1,31.32
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,3604.2531,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,1116.0,0,1738.1969,37,9,0.642,30.1622,124.0,19,7,3,13,11,5,31.32
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,1053.0,0,1641.4384,32,8,0.6415,32.9062,131.625,17,6,3,11,10,4,31.32
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,1021.0,0,1589.6035,27,8,0.6423,37.8148,127.625,14,5,3,10,8,4,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,5886.0,0,5186.9453,108,46,1.1348,54.5,127.9565,56,21,17,39,33,14,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,5655.0,0,4983.0614,104,44,1.1348,54.375,128.5227,54,20,16,37,32,14,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,5489.0,0,4837.9237,118,43,1.1346,46.5169,127.6512,61,23,16,42,36,15,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,5324.0,0,4692.786,122,42,1.1345,43.6393,126.7619,64,24,15,44,37,16,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,5357.0,0,4720.4313,107,42,1.1349,50.0654,127.5476,56,21,15,38,33,14,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,5356.0,0,4720.4313,97,42,1.1346,55.2165,127.5238,51,19,15,35,30,13,31.32
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,911.0,1445,874.2819,38,12,1.042,23.9737,75.9167,20,7,4,14,12,5,31.32
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,836.0,1325,801.7131,39,11,1.0428,21.4359,76.0,20,8,4,14,12,5,31.32
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,785.0,1245,753.3338,26,10,1.042,30.1923,78.5,14,5,4,9,8,3,31.32
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,127.8594,6,1,0.0,0.0,0.0,3,1,0,2,2,1,31.32
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,112.7796,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,52.0,0,65.4849,1,1,0.7941,52.0,52.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,49.0,0,65.4849,1,1,0.7483,49.0,49.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,48.0,0,61.8469,1,1,0.7761,48.0,48.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,117.0,0,189.1787,3,1,0.6185,39.0,117.0,2,1,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,112.0,0,181.9026,4,1,0.6157,28.0,112.0,2,1,0,1,1,1,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,109.0,0,174.6265,3,1,0.6242,36.3333,109.0,2,1,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,106.0,0,170.9885,3,1,0.6199,35.3333,106.0,2,1,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,106.0,0,170.9885,3,1,0.6199,35.3333,106.0,2,1,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,106.0,0,170.9885,4,1,0.6199,26.5,106.0,2,1,0,1,1,1,31.32
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,50.0,33,47.2947,1,1,1.0572,50.0,50.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,47.0,31,43.6566,1,1,1.0766,47.0,47.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,44.0,29,43.6566,1,1,1.0079,44.0,44.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,7.2761,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,234.9849,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,75.0,0,62.2019,1,1,1.2058,75.0,75.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,71.0,0,58.7462,1,1,1.2086,71.0,71.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,68.0,0,58.7462,1,1,1.1575,68.0,68.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,168.0,0,179.6943,4,2,0.9349,42.0,84.0,2,1,1,1,1,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,162.0,0,172.783,4,2,0.9376,40.5,81.0,2,1,1,1,1,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,157.0,0,169.3273,4,2,0.9272,39.25,78.5,2,1,1,1,1,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,153.0,0,162.416,4,1,0.942,38.25,153.0,2,1,0,1,1,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,152.0,0,165.8717,4,1,0.9164,38.0,152.0,2,1,0,1,1,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,153.0,0,165.8717,3,1,0.9224,51.0,153.0,2,1,0,1,1,0,31.32
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,73.0,48,27.6453,1,1,2.6406,73.0,73.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,67.0,44,27.6453,1,1,2.4236,67.0,67.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,62.0,41,24.1896,1,1,2.5631,62.0,62.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,112.7796,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,51.0,0,120.0557,2,1,0.4248,25.5,51.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,48.0,0,112.7796,2,1,0.4256,24.0,48.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,46.0,0,109.1416,2,1,0.4215,23.0,46.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,266.0,0,352.8911,5,1,0.7538,53.2,266.0,3,1,0,2,2,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,255.0,0,338.3389,7,1,0.7537,36.4286,255.0,4,1,0,3,2,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,247.0,0,327.4247,5,1,0.7544,49.4,247.0,3,1,0,2,2,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,240.0,0,316.5106,5,1,0.7583,48.0,240.0,3,1,0,2,2,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,242.0,0,320.1486,6,1,0.7559,40.3333,242.0,3,1,0,2,2,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,241.0,0,320.1486,7,1,0.7528,34.4286,241.0,4,1,0,3,2,1,31.32
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,41.0,65,94.5894,2,1,0.4335,20.5,41.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,38.0,60,87.3133,1,1,0.4352,38.0,38.0,1,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,36.0,56,83.6752,2,1,0.4302,18.0,36.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,18.1903,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,234.9849,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Oredo,South South,Edo,Oredo,,,72.0,0,114.0368,2,1,0.6314,36.0,72.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Oredo,South South,Edo,Oredo,,,68.0,0,107.1255,2,1,0.6348,34.0,68.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Oredo,South South,Edo,Oredo,,,67.0,0,103.6698,2,1,0.6463,33.5,67.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Oredo,South South,Edo,Oredo,,,383.0,0,335.199,7,3,1.1426,54.7143,127.6667,4,1,1,3,2,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Oredo,South South,Edo,Oredo,,,368.0,0,324.832,7,3,1.1329,52.5714,122.6667,4,1,1,3,2,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Oredo,South South,Edo,Oredo,,,357.0,0,314.465,8,3,1.1353,44.625,119.0,4,2,1,3,2,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Oredo,South South,Edo,Oredo,,,346.0,0,304.0981,8,3,1.1378,43.25,115.3333,4,2,1,3,2,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Oredo,South South,Edo,Oredo,,,348.0,0,307.5537,7,3,1.1315,49.7143,116.0,4,1,1,3,2,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Oredo,South South,Edo,Oredo,,,348.0,0,307.5537,6,3,1.1315,58.0,116.0,3,1,1,2,2,1,31.32
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Oredo,South South,Edo,Oredo,,,59.0,94,55.2906,2,1,1.0671,29.5,59.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Oredo,South South,Edo,Oredo,,,54.0,86,51.8349,3,1,1.0418,18.0,54.0,2,1,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Oredo,South South,Edo,Oredo,,,51.0,81,48.3792,2,1,1.0542,25.5,51.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Oredo,South South,Edo,Oredo,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,1720.7989,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,728.0,0,945.8937,14,3,0.7696,52.0,242.6667,7,3,1,5,4,2,31.32
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,687.0,0,891.3229,12,3,0.7708,57.25,229.0,6,2,1,4,4,2,31.32
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,666.0,0,865.8565,17,3,0.7692,39.1765,222.0,9,3,1,6,5,2,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,1628.0,0,2633.9501,53,8,0.6181,30.717,203.5,28,10,3,19,16,7,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,1564.0,0,2528.4466,51,8,0.6186,30.6667,195.5,27,10,3,18,16,7,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,1519.0,0,2455.6855,38,8,0.6186,39.9737,189.875,20,7,3,14,12,5,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,1473.0,0,2379.2864,33,8,0.6191,44.6364,184.125,17,6,3,12,10,4,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,1482.0,0,2397.4767,42,8,0.6181,35.2857,185.25,22,8,3,15,13,5,31.32
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,1482.0,0,2397.4767,47,8,0.6181,31.5319,185.25,24,9,3,17,14,6,31.32
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,711.0,467,683.9539,11,3,1.0395,64.6364,237.0,6,2,1,4,3,1,31.32
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,653.0,429,625.7451,14,3,1.0436,46.6429,217.6667,7,3,1,5,4,2,31.32
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,613.0,403,589.3645,13,3,1.0401,47.1538,204.3333,7,3,1,5,4,2,31.32
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,80.0372,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,3604.2531,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,1048.0,0,888.1046,17,12,1.18,61.6471,87.3333,9,3,4,6,5,2,31.32
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,989.0,0,839.7253,20,11,1.1778,49.45,89.9091,10,4,4,7,6,3,31.32
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,958.0,0,812.08,15,11,1.1797,63.8667,87.0909,8,3,4,5,5,2,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,2343.0,0,2522.6316,65,28,0.9288,36.0462,83.6786,34,13,10,23,20,8,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,2251.0,0,2425.8732,45,27,0.9279,50.0222,83.3704,23,9,10,16,14,6,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,2185.0,0,2353.3043,47,26,0.9285,46.4894,84.0385,24,9,10,17,14,6,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,2120.0,0,2280.7355,43,26,0.9295,49.3023,81.5385,22,8,10,15,13,6,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,2133.0,0,2298.0137,59,26,0.9282,36.1525,82.0385,31,12,10,21,18,8,31.32
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,2133.0,0,2298.0137,57,26,0.9282,37.4211,82.0385,30,11,10,20,17,7,31.32
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,1024.0,673,407.7679,15,6,2.5112,68.2667,170.6667,8,3,2,5,5,2,31.32
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,939.0,617,373.2113,12,5,2.516,78.25,187.8,6,2,2,4,4,2,31.32
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,881.0,579,349.0216,14,5,2.5242,62.9286,176.2,7,3,2,5,4,2,31.32
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,34.5566,2,1,0.0,0.0,0.0,1,0,0,1,1,0,31.32
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,1717.1608,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,704.0,0,1680.7803,26,6,0.4189,27.0769,117.3333,14,5,2,9,8,3,31.32
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,664.0,0,1586.1909,21,5,0.4186,31.619,132.8,11,4,2,8,6,3,31.32
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,644.0,0,1538.8963,31,5,0.4185,20.7742,128.8,16,6,2,11,10,4,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,3712.0,0,4911.371,99,16,0.7558,37.4949,232.0,52,19,6,35,30,13,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,3567.0,0,4718.5543,96,15,0.756,37.1562,237.8,50,19,6,34,29,12,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,3462.0,0,4580.3083,70,15,0.7558,49.4571,230.8,36,14,6,25,21,9,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,3358.0,0,4442.0623,61,14,0.756,55.0492,239.8571,32,12,5,22,19,8,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,3379.0,0,4471.1667,79,14,0.7557,42.7722,241.3571,41,15,5,28,24,10,31.32
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,3378.0,0,4471.1667,87,14,0.7555,38.8276,241.2857,45,17,5,31,27,11,31.32
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,575.0,912,1331.5273,21,6,0.4318,27.381,95.8333,11,4,2,8,6,3,31.32
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,527.0,836,1222.3857,27,6,0.4311,19.5185,87.8333,14,5,2,10,8,4,31.32
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,495.0,785,1145.9866,25,6,0.4319,19.8,82.5,13,5,2,9,8,3,31.32
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,261.9398,4,1,0.0,0.0,0.0,2,1,0,1,1,1,31.32
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,3604.2531,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,1013.0,0,1579.2365,31,20,0.6414,32.6774,50.65,16,6,7,11,10,4,31.32
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,956.0,0,1489.3894,36,19,0.6419,26.5556,50.3158,19,7,7,13,11,5,31.32
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,927.0,0,1444.4658,26,19,0.6418,35.6538,48.7895,14,5,7,9,8,3,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,5341.0,0,4706.6086,121,53,1.1348,44.1405,100.7736,63,24,19,43,37,16,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,5131.0,0,4523.4586,83,51,1.1343,61.8193,100.6078,43,16,19,30,25,11,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,4982.0,0,4392.1436,88,49,1.1343,56.6136,101.6735,46,17,18,32,27,11,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,4832.0,0,4257.3728,81,48,1.135,59.6543,100.6667,42,16,18,29,25,11,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,4862.0,0,4285.0181,110,48,1.1347,44.2,101.2917,57,22,18,39,34,14,31.32
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,4862.0,0,4285.0181,106,48,1.1347,45.8679,101.2917,55,21,18,38,33,14,31.32
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,827.0,1312,794.8017,28,11,1.0405,29.5357,75.1818,15,5,4,10,9,4,31.32
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,758.0,1202,729.1442,23,10,1.0396,32.9565,75.8,12,5,4,8,7,3,31.32
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,712.0,1129,684.2206,27,10,1.0406,26.3704,71.2,14,5,4,10,8,4,31.32
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,117.4924,5,1,0.0,0.0,0.0,3,1,0,2,2,1,31.32
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,109.1416,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,48.0,0,61.8469,1,1,0.7761,48.0,48.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,45.0,0,58.2088,1,1,0.7731,45.0,45.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,44.0,0,58.2088,1,1,0.7559,44.0,44.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,106.0,0,170.9885,3,1,0.6199,35.3333,106.0,2,1,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,102.0,0,163.7124,3,1,0.623,34.0,102.0,2,1,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,99.0,0,160.0743,2,1,0.6185,49.5,99.0,1,0,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,96.0,0,152.7982,2,1,0.6283,48.0,96.0,1,0,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,97.0,0,156.4363,3,1,0.6201,32.3333,97.0,2,1,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,96.0,0,156.4363,3,1,0.6137,32.0,96.0,2,1,0,1,1,0,31.32
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,46.0,30,43.6566,1,1,1.0537,46.0,46.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,43.0,28,40.0186,1,1,1.0745,43.0,43.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,40.0,26,36.3805,1,1,1.0995,40.0,40.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,7.2761,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,234.9849,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,68.0,0,58.7462,1,1,1.1575,68.0,68.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,65.0,0,55.2906,1,1,1.1756,65.0,65.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,62.0,0,51.8349,1,1,1.1961,62.0,62.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,152.0,0,162.416,4,2,0.9359,38.0,76.0,2,1,1,1,1,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,146.0,0,158.9603,3,2,0.9185,48.6667,73.0,2,1,1,1,1,0,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,142.0,0,152.049,3,2,0.9339,47.3333,71.0,2,1,1,1,1,0,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,137.0,0,148.5934,3,2,0.922,45.6667,68.5,2,1,1,1,1,0,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,138.0,0,148.5934,4,2,0.9287,34.5,69.0,2,1,1,1,1,1,31.32
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,138.0,0,148.5934,4,2,0.9287,34.5,69.0,2,1,1,1,1,1,31.32
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,67.0,44,27.6453,1,1,2.4236,67.0,67.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,61.0,40,24.1896,1,1,2.5217,61.0,61.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,58.0,38,24.1896,1,1,2.3977,58.0,58.0,1,0,0,0,0,0,31.32
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,109.1416,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,46.0,0,109.1416,2,1,0.4215,23.0,46.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,43.0,0,101.8655,1,1,0.4221,43.0,43.0,1,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,42.0,0,101.8655,2,1,0.4123,21.0,42.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,241.0,0,320.1486,6,1,0.7528,40.1667,241.0,3,1,0,2,2,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,231.0,0,305.5964,6,1,0.7559,38.5,231.0,3,1,0,2,2,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,225.0,0,298.3203,5,1,0.7542,45.0,225.0,3,1,0,2,2,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,218.0,0,287.4062,4,1,0.7585,54.5,218.0,2,1,0,1,1,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,220.0,0,291.0442,5,1,0.7559,44.0,220.0,3,1,0,2,2,1,31.32
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,220.0,0,291.0442,6,1,0.7559,36.6667,220.0,3,1,0,2,2,1,31.32
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,37.0,59,87.3133,1,1,0.4238,37.0,37.0,1,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,34.0,54,80.0372,2,1,0.4248,17.0,34.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,32.0,51,76.3991,2,1,0.4189,16.0,32.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,14.5522,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,231.5292,0,0,0.0,0.0,0.0,0,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Owan East,South South,Edo,Owan East,,,66.0,0,103.6698,2,1,0.6366,33.0,66.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Owan East,South South,Edo,Owan East,,,62.0,0,96.7585,2,1,0.6408,31.0,62.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Owan East,South South,Edo,Owan East,,,60.0,0,93.3028,2,1,0.6431,30.0,60.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Owan East,South South,Edo,Owan East,,,347.0,0,307.5537,8,3,1.1283,43.375,115.6667,4,2,1,3,2,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Owan East,South South,Edo,Owan East,,,334.0,0,293.7311,5,3,1.1371,66.8,111.3333,3,1,1,2,2,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Owan East,South South,Edo,Owan East,,,324.0,0,286.8198,6,3,1.1296,54.0,108.0,3,1,1,2,2,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Owan East,South South,Edo,Owan East,,,314.0,0,276.4528,5,3,1.1358,62.8,104.6667,3,1,1,2,2,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Owan East,South South,Edo,Owan East,,,316.0,0,279.9084,7,3,1.1289,45.1429,105.3333,4,1,1,3,2,1,31.32
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Owan East,South South,Edo,Owan East,,,316.0,0,279.9084,7,3,1.1289,45.1429,105.3333,4,1,1,3,2,1,31.32
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Owan East,South South,Edo,Owan East,,,54.0,85,51.8349,2,1,1.0418,27.0,54.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Owan East,South South,Edo,Owan East,,,49.0,78,48.3792,1,1,1.0128,49.0,49.0,1,0,0,0,0,0,31.32
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Owan East,South South,Edo,Owan East,,,46.0,73,44.9236,2,1,1.024,23.0,46.0,1,0,0,1,1,0,31.32
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Owan East,South South,Edo,Owan East,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,1,0,0,0,0,0,31.32

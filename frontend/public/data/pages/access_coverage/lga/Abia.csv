@@ -1,561 +1,561 @@
 session,gender,disability,school_type,school_level,class_grade,key_entry_level,loc_level,loc_label,zone,state,lga,ward,school,student_count,is_o_level_student,school_count,classroom_count,computer_count,avg_students_per_school,learners_per_classroom,students_per_computer,usable_classroom_count,laboratory_count,computer_access_count,water_source_count,handwashing_facility_count,toilet_count,infrastructure_score
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,53,0,0.2611,0,1,202.9516,0.0,53.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,313,0,1.2421,7,5,251.9926,44.7143,62.6,5,3,0,5,0,0,36.57
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,295,0,1.1706,9,5,252.0075,32.7778,59.0,7,3,0,7,0,0,38.22
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,286,0,1.1349,7,4,252.0046,40.8571,71.5,6,3,0,4,0,0,38.29
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,888,0,3.5261,26,6,251.8363,34.1538,148.0,23,10,0,21,0,0,42.31
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,853,0,3.3874,24,6,251.8156,35.5417,142.1667,19,8,0,20,0,0,39.5
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,829,0,3.2884,27,6,252.0983,30.7037,138.1667,20,13,0,20,0,0,38.37
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,804,0,3.1893,24,6,252.0929,33.5,134.0,16,9,0,18,0,0,35.17
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,809,0,3.2092,21,6,252.0877,38.5238,134.8333,16,8,0,17,0,0,38.86
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,809,0,3.2092,24,6,252.0877,33.7083,134.8333,16,8,0,22,0,0,37.33
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,259,259,1.0278,8,1,251.9946,32.375,259.0,7,3,0,6,0,0,41.0
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,238,238,0.9444,8,1,252.0119,29.75,238.0,5,3,0,7,0,0,36.0
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,223,223,0.8849,6,1,252.0059,37.1667,223.0,4,3,0,4,0,0,35.33
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,22,0,0.0873,1,1,252.0046,22.0,22.0,1,0,0,1,0,0,44.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,112,0,0.5519,0,1,202.9516,0.0,112.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,666,0,1.9881,12,5,334.9932,55.5,133.2,8,4,0,8,0,0,33.33
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,627,0,1.8716,14,5,335.0075,44.7857,125.4,11,7,0,9,0,0,38.29
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,609,0,1.8179,12,5,335.0019,50.75,121.8,9,5,0,10,0,0,39.33
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,1889,0,5.6386,55,10,335.0122,34.3455,188.9,50,22,0,34,1,1,40.65
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,1815,0,5.4169,40,10,335.0625,45.375,181.5,37,15,0,25,1,1,41.1
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,1762,0,5.2585,42,10,335.0765,41.9524,176.2,39,20,0,33,1,1,44.95
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,1708,0,5.1001,41,9,334.8954,41.6585,189.7778,25,16,0,26,1,1,32.59
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,1719,0,5.1318,34,9,334.9702,50.5588,191.0,31,15,0,26,0,1,43.65
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,1719,0,5.1318,43,9,334.9702,39.9767,191.0,38,19,0,36,1,1,44.09
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,551,551,1.6448,14,3,334.9951,39.3571,183.6667,10,6,0,9,0,0,35.43
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,505,505,1.5075,13,3,334.9917,38.8462,168.3333,11,6,0,9,0,0,40.31
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,475,475,1.4179,13,3,335.0025,36.5385,158.3333,10,6,0,10,0,0,39.38
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,47,0,0.1403,2,1,334.9964,23.5,47.0,2,1,0,2,0,0,50.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,67,0,0.3301,0,1,202.9516,0.0,67.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,295,0,1.1706,6,5,252.0075,49.1667,59.0,4,2,0,5,0,0,36.0
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,278,0,1.1032,8,4,251.9942,34.75,69.5,6,3,0,7,0,0,39.5
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,270,0,1.0714,7,4,252.0067,38.5714,67.5,6,3,0,4,0,0,38.29
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,878,0,3.4851,25,6,251.9296,35.12,146.3333,22,9,0,20,0,0,41.76
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,844,0,3.3481,23,6,252.0833,36.6957,140.6667,18,8,0,20,0,0,40.0
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,819,0,3.2502,26,6,251.9845,31.5,136.5,19,12,0,19,0,0,37.69
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,795,0,3.1523,24,6,252.1968,33.125,132.5,16,9,0,18,0,0,35.17
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,799,0,3.1718,21,6,251.9074,38.0476,133.1667,16,8,0,17,0,0,38.86
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,799,0,3.1718,24,6,251.9074,33.2917,133.1667,16,8,0,22,0,0,37.33
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,268,268,1.0635,8,1,251.9981,33.5,268.0,7,3,0,6,0,0,41.0
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,245,245,0.9722,9,1,252.0058,27.2222,245.0,6,3,0,8,0,0,36.89
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,231,231,0.9167,6,1,251.9908,38.5,231.0,4,3,0,4,0,0,35.33
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,38,0,0.1508,1,1,251.9894,38.0,38.0,1,0,0,1,0,0,44.0
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,142,0,0.6997,1,2,202.9516,142.0,71.0,1,0,0,1,0,0,44.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,627,0,1.8716,11,5,335.0075,57.0,125.4,7,4,0,7,0,0,32.36
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,591,0,1.7642,13,4,334.996,45.4615,147.75,10,7,0,8,0,0,37.85
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,573,0,1.7104,11,4,335.0094,52.0909,143.25,9,4,0,9,0,0,40.36
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,1866,0,5.5706,54,10,334.9729,34.5556,186.6,49,22,0,33,1,1,40.59
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,1793,0,5.3515,40,10,335.0462,44.825,179.3,37,15,0,25,1,1,41.1
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,1740,0,5.1951,42,10,334.931,41.4286,174.0,39,20,0,33,1,1,44.95
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,1688,0,5.0386,40,9,335.0137,42.2,187.5556,24,16,0,26,1,1,32.7
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,1698,0,5.0699,34,9,334.9178,49.9412,188.6667,31,15,0,26,0,1,43.65
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,1699,0,5.0699,43,9,335.1151,39.5116,188.7778,38,19,0,36,1,1,44.09
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,569,569,1.6985,14,3,335.0015,40.6429,189.6667,10,6,0,9,0,0,35.43
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,522,522,1.5582,13,3,335.0019,40.1538,174.0,11,6,0,9,0,0,40.31
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,490,490,1.4627,13,3,334.9969,37.6923,163.3333,10,6,0,10,0,0,39.38
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,81,0,0.2418,3,1,334.9876,27.0,81.0,2,2,0,3,0,0,42.67
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,3,0,0.0147,0,1,203.6335,0.0,3.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,20,0,0.0794,1,1,251.8892,20.0,20.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,19,0,0.0754,1,1,251.9894,19.0,19.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,19,0,0.0754,1,1,251.9894,19.0,19.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,58,0,0.2289,2,1,253.3858,29.0,58.0,2,1,0,2,0,0,50.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,55,0,0.2199,2,1,250.1137,27.5,55.0,2,1,0,2,0,0,50.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,54,0,0.2134,2,1,253.0459,27.0,54.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,52,0,0.207,2,1,251.2077,26.0,52.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,52,0,0.2083,1,1,249.6399,52.0,52.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,53,0,0.2083,2,1,254.4407,26.5,53.0,1,1,0,2,0,0,36.0
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,17,17,0.0675,1,1,251.8519,17.0,17.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,15,15,0.0595,1,1,252.1008,15.0,15.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,14,14,0.0556,1,1,251.7986,14.0,14.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,1,0,0.004,1,1,250.0,1.0,1.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,7,0,0.0344,0,1,203.6335,0.0,7.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,43,0,0.1284,1,1,334.891,43.0,43.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,41,0,0.1224,1,1,334.9673,41.0,41.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,40,0,0.1194,1,1,335.0084,40.0,40.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,123,0,0.3666,4,1,335.5155,30.75,123.0,4,2,0,2,0,0,42.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,118,0,0.3522,3,1,335.0369,39.3333,118.0,3,1,0,2,0,0,42.67
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,114,0,0.3419,3,1,333.4308,38.0,114.0,3,1,0,2,0,0,42.67
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,111,0,0.3316,3,1,334.7407,37.0,111.0,2,1,0,2,0,0,33.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,112,0,0.3337,2,1,335.6308,56.0,112.0,2,1,0,2,0,0,50.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,112,0,0.3337,3,1,335.6308,37.3333,112.0,3,1,0,3,0,0,48.0
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,36,36,0.1075,1,1,334.8837,36.0,36.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,33,33,0.0985,1,1,335.0254,33.0,33.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,31,31,0.0925,1,1,335.1351,31.0,31.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,3,0,0.009,1,1,333.3333,3.0,3.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,4,0,0.0196,0,1,203.6335,0.0,4.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,19,0,0.0754,1,1,251.9894,19.0,19.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,18,0,0.0714,1,1,252.1008,18.0,18.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,18,0,0.0714,1,1,252.1008,18.0,18.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,57,0,0.226,2,1,252.2124,28.5,57.0,2,1,0,2,0,0,50.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,55,0,0.2171,2,1,253.3395,27.5,55.0,2,1,0,2,0,0,50.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,53,0,0.2108,2,1,251.4231,26.5,53.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,51,0,0.2044,2,1,249.5108,25.5,51.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,52,0,0.2057,1,1,252.7953,52.0,52.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,52,0,0.2057,2,1,252.7953,26.0,52.0,1,1,0,2,0,0,36.0
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,17,17,0.0675,1,1,251.8519,17.0,17.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,16,16,0.0635,1,1,251.9685,16.0,16.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,15,15,0.0595,1,1,252.1008,15.0,15.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,2,0,0.0079,1,1,253.1646,2.0,2.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,10,0,0.0491,0,1,203.6335,0.0,10.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,41,0,0.1224,1,1,334.9673,41.0,41.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,38,0,0.1134,1,1,335.097,38.0,38.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,37,0,0.1104,1,1,335.1449,37.0,37.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,121,0,0.3618,4,1,334.4389,30.25,121.0,4,2,0,2,0,0,42.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,117,0,0.3476,3,1,336.5938,39.0,117.0,3,1,0,2,0,0,42.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,113,0,0.3374,3,1,334.914,37.6667,113.0,3,1,0,2,0,0,42.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,110,0,0.3273,3,1,336.0831,36.6667,110.0,2,1,0,2,0,0,33.33
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,110,0,0.3293,2,1,334.0419,55.0,110.0,2,1,0,2,0,0,50.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,110,0,0.3293,3,1,334.0419,36.6667,110.0,3,1,0,3,0,0,48.0
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,37,37,0.1104,1,1,335.1449,37.0,37.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,34,34,0.1015,1,1,334.9754,34.0,34.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,32,32,0.0955,1,1,335.0785,32.0,32.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,5,0,0.0149,1,1,335.5705,5.0,5.0,1,1,0,1,0,0,56.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,43,0,0.2119,0,1,202.9516,0.0,43.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,255,0,1.0119,7,1,252.0012,36.4286,255.0,4,3,0,4,0,0,30.29
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,240,0,0.9524,5,1,251.995,48.0,240.0,4,2,0,4,0,0,40.0
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,233,0,0.9246,5,1,252.0009,46.6,233.0,4,2,0,3,0,0,36.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,722,0,2.8664,25,14,251.8839,28.88,51.5714,16,13,0,20,0,0,36.96
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,694,0,2.7536,21,13,252.0337,33.0476,53.3846,19,9,0,19,0,0,44.95
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,674,0,2.6731,21,13,252.1417,32.0952,51.8462,17,7,1,14,0,0,38.56
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,653,0,2.5926,18,12,251.8707,36.2778,54.4167,13,8,0,11,0,0,35.33
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,657,0,2.6087,18,12,251.8496,36.5,54.75,15,6,0,15,0,0,40.67
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,658,0,2.6087,22,12,252.2329,29.9091,54.8333,14,11,0,18,0,0,36.91
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,211,211,0.8373,5,2,252.0005,42.2,105.5,4,2,0,4,0,0,40.0
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,193,193,0.7659,5,2,251.9911,38.6,96.5,4,2,0,4,0,0,40.0
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,182,182,0.7222,5,1,252.0078,36.4,182.0,5,2,0,4,0,0,45.6
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,18,0,0.0714,1,1,252.1008,18.0,18.0,1,1,0,1,0,0,56.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,91,0,0.4484,0,1,202.9516,0.0,91.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,541,0,1.6149,15,9,335.0053,36.0667,60.1111,11,6,0,11,0,0,37.07
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,510,0,1.5224,12,8,334.9974,42.5,63.75,10,5,0,7,0,0,37.67
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,495,0,1.4776,12,8,335.0027,41.25,61.875,7,6,0,9,0,0,34.33
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,1535,0,4.5812,42,8,335.065,36.5476,191.875,35,21,0,26,1,1,39.9
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,1474,0,4.4011,38,8,334.9163,38.7895,184.25,25,16,0,25,1,1,34.74
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,1431,0,4.2724,36,7,334.9405,39.75,204.4286,24,16,0,31,1,0,38.0
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,1388,0,4.1437,36,7,334.9663,38.5556,198.2857,28,15,0,31,0,1,41.11
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,1397,0,4.1694,27,7,335.0602,51.7407,199.5714,25,10,0,19,0,0,41.63
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,1397,0,4.1694,39,7,335.0602,35.8205,199.5714,28,15,0,33,0,1,38.77
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,448,448,1.3373,9,2,335.0034,49.7778,224.0,8,4,0,6,0,0,40.89
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,411,411,1.2269,13,2,334.9906,31.6154,205.5,10,5,0,8,0,0,36.0
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,386,386,1.1522,8,2,335.0113,48.25,193.0,7,3,0,6,0,0,41.0
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,38,0,0.1134,1,1,335.097,38.0,38.0,1,0,0,1,0,0,44.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,54,0,0.2661,0,1,202.9516,0.0,54.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,240,0,0.9524,6,1,251.995,40.0,240.0,4,3,0,4,0,0,35.33
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,226,0,0.8968,5,1,252.0071,45.2,226.0,4,2,0,4,0,0,40.0
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,219,0,0.869,5,1,252.0138,43.8,219.0,4,2,0,3,0,0,36.8
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,714,0,2.8318,25,13,252.1365,28.56,54.9231,16,13,0,20,0,0,36.96
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,686,0,2.7204,20,13,252.1688,34.3,52.7692,18,8,0,18,0,0,44.4
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,666,0,2.6409,21,13,252.1868,31.7143,51.2308,17,7,1,14,0,0,38.56
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,645,0,2.5613,18,12,251.8252,35.8333,53.75,13,8,0,11,0,0,35.33
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,649,0,2.5772,18,12,251.8237,36.0556,54.0833,15,6,0,15,0,0,40.67
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,649,0,2.5772,21,12,251.8237,30.9048,54.0833,13,10,0,17,0,0,36.0
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,218,218,0.8651,5,2,251.994,43.6,109.0,4,2,0,4,0,0,40.0
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,200,200,0.7937,5,2,251.9844,40.0,100.0,4,2,0,4,0,0,40.0
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,188,188,0.746,5,1,252.0107,37.6,188.0,5,2,0,4,0,0,45.6
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,31,0,0.123,1,1,252.0325,31.0,31.0,1,1,0,1,0,0,56.0
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,116,0,0.5716,1,1,202.9516,116.0,116.0,1,0,0,1,0,0,44.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,509,0,1.5194,14,8,335.0007,36.3571,63.625,10,5,0,10,0,0,35.71
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,480,0,1.4328,11,8,335.0084,43.6364,60.0,9,4,0,7,0,0,37.45
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,466,0,1.391,12,8,335.0108,38.8333,58.25,7,6,0,9,0,0,34.33
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,1517,0,4.5276,42,8,335.0561,36.119,189.625,35,21,0,26,1,1,39.9
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,1457,0,4.3495,38,8,334.981,38.3421,182.125,25,16,0,25,1,1,34.74
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,1415,0,4.2224,36,7,335.1175,39.3056,202.1429,24,16,0,31,1,0,38.0
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,1372,0,4.0952,35,7,335.0264,39.2,196.0,27,14,0,30,0,1,40.69
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,1380,0,4.1206,27,7,334.9027,51.1111,197.1429,25,10,0,19,0,0,41.63
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,1380,0,4.1206,38,7,334.9027,36.3158,197.1429,28,14,0,32,0,1,39.05
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,463,463,1.3821,9,2,334.9975,51.4444,231.5,8,4,0,6,0,0,40.89
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,424,424,1.2657,13,2,334.9925,32.6154,212.0,10,5,0,8,0,0,36.0
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,399,399,1.191,9,2,335.0126,44.3333,199.5,7,3,0,7,0,0,38.22
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,66,0,0.197,2,1,335.0254,33.0,66.0,1,1,0,2,0,0,36.0
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,3,0,0.0147,0,1,203.6335,0.0,3.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,17,0,0.0675,1,1,251.8519,17.0,17.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,16,0,0.0635,1,1,251.9685,16.0,16.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,15,0,0.0595,1,1,252.1008,15.0,15.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,47,0,0.1858,2,1,252.9602,23.5,47.0,1,1,0,2,0,0,36.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,45,0,0.1785,1,1,252.1008,45.0,45.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,44,0,0.1733,1,1,253.895,44.0,44.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,42,0,0.1681,1,1,249.8513,42.0,42.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,43,0,0.1691,1,1,254.2874,43.0,43.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,42,0,0.1691,1,1,248.3737,42.0,42.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,14,14,0.0556,1,1,251.7986,14.0,14.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,13,13,0.0516,1,1,251.938,13.0,13.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,12,12,0.0476,1,1,252.1008,12.0,12.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,1,0,0.004,1,1,250.0,1.0,1.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,6,0,0.0295,0,1,203.6335,0.0,6.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,35,0,0.1045,1,1,334.9282,35.0,35.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,33,0,0.0985,1,1,335.0254,33.0,33.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,32,0,0.0955,1,1,335.0785,32.0,32.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,99,0,0.2976,3,1,332.6613,33.0,99.0,3,1,0,2,0,0,42.67
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,96,0,0.2859,3,1,335.7817,32.0,96.0,2,1,0,2,0,0,33.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,93,0,0.2775,2,1,335.1351,46.5,93.0,1,1,0,2,0,0,36.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,90,0,0.2692,2,1,334.3239,45.0,90.0,2,1,0,2,0,0,50.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,91,0,0.2708,2,1,336.0414,45.5,91.0,2,1,0,1,0,0,42.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,91,0,0.2708,3,1,336.0414,30.3333,91.0,2,1,0,3,0,0,38.67
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,29,29,0.0866,1,1,334.873,29.0,29.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,27,27,0.0806,1,1,334.9876,27.0,27.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,25,25,0.0746,1,1,335.1206,25.0,25.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,2,0,0.006,1,1,333.3333,2.0,2.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,3,0,0.0147,0,1,203.6335,0.0,3.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,16,0,0.0635,1,1,251.9685,16.0,16.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,15,0,0.0595,1,1,252.1008,15.0,15.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,14,0,0.0556,1,1,251.7986,14.0,14.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,47,0,0.1844,2,1,254.8807,23.5,47.0,1,1,0,2,0,0,36.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,45,0,0.1771,1,1,254.0937,45.0,45.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,43,0,0.172,1,1,250.0,43.0,43.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,42,0,0.1668,1,1,251.7986,42.0,42.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,42,0,0.1678,1,1,250.298,42.0,42.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,42,0,0.1678,1,1,250.298,42.0,42.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,14,14,0.0556,1,1,251.7986,14.0,14.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,13,13,0.0516,1,1,251.938,13.0,13.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,12,12,0.0476,1,1,252.1008,12.0,12.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,2,0,0.0079,1,1,253.1646,2.0,2.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,7,0,0.0344,0,1,203.6335,0.0,7.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,33,0,0.0985,1,1,335.0254,33.0,33.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,31,0,0.0925,1,1,335.1351,31.0,31.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,30,0,0.0896,1,1,334.8214,30.0,30.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,98,0,0.2938,3,1,333.5602,32.6667,98.0,3,1,0,2,0,0,42.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,94,0,0.2823,3,1,332.9791,31.3333,94.0,2,1,0,2,0,0,33.33
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,92,0,0.274,2,1,335.7664,46.0,92.0,1,1,0,2,0,0,36.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,89,0,0.2658,2,1,334.8382,44.5,89.0,2,1,0,2,0,0,50.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,90,0,0.2674,2,1,336.5744,45.0,90.0,2,1,0,1,0,0,42.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,90,0,0.2674,3,1,336.5744,30.0,90.0,2,1,0,3,0,0,38.67
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,30,30,0.0896,1,1,334.8214,30.0,30.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,28,28,0.0836,1,1,334.9282,28.0,28.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,26,26,0.0776,1,1,335.0515,26.0,26.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,4,0,0.0119,1,1,336.1345,4.0,4.0,1,0,0,1,0,0,44.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,54,0,0.2661,0,1,202.9516,0.0,54.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,322,0,1.2778,7,2,251.9956,46.0,161.0,5,3,0,6,0,0,38.86
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,304,0,1.2063,7,2,252.0103,43.4286,152.0,4,3,0,6,0,0,34.86
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,294,0,1.1667,7,2,251.9928,42.0,147.0,5,3,0,5,0,0,36.57
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,915,0,3.6299,33,14,252.0731,27.7273,65.3571,30,14,1,23,1,0,43.08
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,879,0,3.4872,32,13,252.0647,27.4688,67.6154,28,15,0,29,1,1,45.5
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,853,0,3.3852,22,13,251.9792,38.7727,65.6154,17,8,0,14,0,0,36.18
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,827,0,3.2832,27,12,251.8884,30.6296,68.9167,25,12,0,22,0,0,44.3
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,832,0,3.3036,21,12,251.8465,39.619,69.3333,18,10,0,15,0,0,41.14
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,833,0,3.3036,25,12,252.1492,33.32,69.4167,15,11,1,21,0,0,36.85
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,267,267,1.0595,8,1,252.0057,33.375,267.0,7,3,0,5,0,0,39.0
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,244,244,0.9683,6,1,251.988,40.6667,244.0,5,3,0,5,0,0,42.67
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,230,230,0.9127,6,1,251.9996,38.3333,230.0,5,2,0,5,0,0,40.67
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,22,0,0.0873,1,1,252.0046,22.0,22.0,1,1,0,1,0,0,56.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,116,0,0.5716,0,1,202.9516,0.0,116.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,685,0,2.0448,14,6,334.9961,48.9286,114.1667,10,6,0,11,0,0,37.71
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,646,0,1.9284,17,6,334.9927,38.0,107.6667,16,6,0,15,0,0,44.71
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,626,0,1.8687,14,6,334.9922,44.7143,104.3333,12,6,0,11,0,0,41.71
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,1943,0,5.8012,39,15,334.9307,49.8205,129.5333,36,20,0,26,1,1,43.38
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,1867,0,5.5731,49,15,335.0021,38.102,124.4667,36,22,0,31,1,1,36.65
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,1812,0,5.4101,38,14,334.9291,47.6842,129.4286,26,15,0,24,1,1,34.74
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,1758,0,5.2472,48,14,335.0358,36.625,125.5714,40,23,0,35,1,1,41.33
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,1769,0,5.2797,55,14,335.0569,32.1636,126.3571,43,28,1,45,1,1,42.74
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,1769,0,5.2797,43,14,335.0569,41.1395,126.3571,35,21,1,38,1,1,44.58
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,567,567,1.6925,15,4,335.0074,37.8,141.75,13,7,0,10,0,0,40.53
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,520,520,1.5522,11,4,335.0084,47.2727,130.0,9,6,0,9,0,0,42.55
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,488,488,1.4567,9,4,335.0038,54.2222,122.0,7,4,0,8,0,0,41.33
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,49,0,0.1463,2,1,334.9282,24.5,49.0,2,1,0,2,0,0,50.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,69,0,0.34,0,1,202.9516,0.0,69.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,303,0,1.2024,6,2,251.996,50.5,151.5,5,3,0,5,0,0,42.67
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,286,0,1.1349,7,2,252.0046,40.8571,143.0,4,3,0,6,0,0,34.86
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,277,0,1.0992,6,2,252.0015,46.1667,138.5,5,2,0,4,0,0,38.0
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,904,0,3.5868,32,13,252.0352,28.25,69.5385,29,13,0,22,1,0,41.5
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,868,0,3.4458,32,13,251.9009,27.125,66.7692,28,15,0,29,1,1,45.5
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,843,0,3.345,22,13,252.0179,38.3182,64.8462,17,8,0,14,0,0,36.18
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,817,0,3.2443,27,12,251.8263,30.2593,68.0833,25,12,0,22,0,0,44.3
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,823,0,3.2644,21,12,252.1137,39.1905,68.5833,18,10,0,15,0,0,41.14
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,823,0,3.2644,24,12,252.1137,34.2917,68.5833,15,11,1,21,0,0,38.33
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,275,275,1.0913,8,1,251.993,34.375,275.0,7,3,0,5,0,0,39.0
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,253,253,1.004,6,1,251.992,42.1667,253.0,5,3,0,5,0,0,42.67
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,237,237,0.9405,6,1,251.9936,39.5,237.0,5,2,0,5,0,0,40.67
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,39,0,0.1548,1,1,251.938,39.0,39.0,1,1,0,1,0,0,56.0
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,147,0,0.7243,1,1,202.9516,147.0,147.0,1,0,0,1,0,0,44.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,645,0,1.9254,13,6,334.9953,49.6154,107.5,9,6,0,11,0,0,38.46
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,608,0,1.8149,16,6,335.0047,38.0,101.3333,15,6,0,14,0,0,44.75
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,589,0,1.7582,13,5,335.0017,45.3077,117.8,11,5,0,10,0,0,40.62
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,1920,0,5.7316,39,15,334.985,49.2308,128.0,36,20,0,26,1,1,43.38
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,1845,0,5.5062,49,14,335.0768,37.6531,131.7857,36,22,0,31,1,1,36.65
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,1791,0,5.3452,37,14,335.067,48.4054,127.9286,25,14,0,24,1,1,34.59
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,1737,0,5.1842,48,14,335.0565,36.1875,124.0714,40,23,0,35,1,1,41.33
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,1747,0,5.2164,55,14,334.9053,31.7636,124.7857,43,28,1,45,1,1,42.74
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,1747,0,5.2164,43,14,334.9053,40.6279,124.7857,35,21,1,38,1,1,44.58
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,586,586,1.7493,15,4,334.9911,39.0667,146.5,13,7,0,10,0,0,40.53
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,537,537,1.603,11,4,334.9969,48.8182,134.25,9,6,0,9,0,0,42.55
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,504,504,1.5045,9,4,334.995,56.0,126.0,7,4,0,8,0,0,41.33
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,83,0,0.2478,3,1,334.9475,27.6667,83.0,3,1,0,3,0,0,48.0
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,3,0,0.0147,0,1,203.6335,0.0,3.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,21,0,0.0833,1,1,252.1008,21.0,21.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,20,0,0.0794,1,1,251.8892,20.0,20.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,19,0,0.0754,1,1,251.9894,19.0,19.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,59,0,0.2352,2,1,250.8503,29.5,59.0,2,1,0,1,0,0,42.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,57,0,0.226,2,1,252.2124,28.5,57.0,2,1,0,2,0,0,50.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,55,0,0.2194,1,1,250.6837,55.0,55.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,54,0,0.2128,2,1,253.7594,27.0,54.0,2,1,0,2,0,0,50.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,54,0,0.2141,1,1,252.2186,54.0,54.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,54,0,0.2141,2,1,252.2186,27.0,54.0,1,1,0,2,0,0,36.0
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,17,17,0.0675,1,1,251.8519,17.0,17.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,16,16,0.0635,1,1,251.9685,16.0,16.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,15,15,0.0595,1,1,252.1008,15.0,15.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,1,0,0.004,1,1,250.0,1.0,1.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,7,0,0.0344,0,1,203.6335,0.0,7.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,45,0,0.1343,1,1,335.0707,45.0,45.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,42,0,0.1254,1,1,334.9282,42.0,42.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,41,0,0.1224,1,1,334.9673,41.0,41.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,126,0,0.3773,3,1,333.9518,42.0,126.0,3,2,0,2,0,0,46.67
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,122,0,0.3624,3,1,336.6446,40.6667,122.0,2,1,0,2,0,0,33.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,118,0,0.3518,2,1,335.4179,59.0,118.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,114,0,0.3412,3,1,334.1149,38.0,114.0,3,1,0,2,0,0,42.67
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,115,0,0.3433,4,1,334.984,28.75,115.0,3,2,0,3,0,0,39.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,115,0,0.3433,3,1,334.984,38.3333,115.0,2,1,0,3,0,0,38.67
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,37,37,0.1104,1,1,335.1449,37.0,37.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,34,34,0.1015,1,1,334.9754,34.0,34.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,32,32,0.0955,1,1,335.0785,32.0,32.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,3,0,0.009,1,1,333.3333,3.0,3.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,5,0,0.0246,0,1,203.6335,0.0,5.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,20,0,0.0794,1,1,251.8892,20.0,20.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,19,0,0.0754,1,1,251.9894,19.0,19.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,18,0,0.0714,1,1,252.1008,18.0,18.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,59,0,0.2331,2,1,253.1103,29.5,59.0,2,1,0,1,0,0,42.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,56,0,0.2239,2,1,250.1117,28.0,56.0,2,1,0,2,0,0,50.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,55,0,0.2174,1,1,252.9899,55.0,55.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,53,0,0.2108,2,1,251.4231,26.5,53.0,2,1,0,2,0,0,50.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,53,0,0.2122,1,1,249.7644,53.0,53.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,54,0,0.2122,2,1,254.4769,27.0,54.0,1,1,0,2,0,0,36.0
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,18,18,0.0714,1,1,252.1008,18.0,18.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,16,16,0.0635,1,1,251.9685,16.0,16.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,15,15,0.0595,1,1,252.1008,15.0,15.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,3,0,0.0119,1,1,252.1008,3.0,3.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,10,0,0.0491,0,1,203.6335,0.0,10.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,42,0,0.1254,1,1,334.9282,42.0,42.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,40,0,0.1194,1,1,335.0084,40.0,40.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,38,0,0.1134,1,1,335.097,38.0,38.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,125,0,0.373,3,1,335.1206,41.6667,125.0,3,2,0,2,0,0,46.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,120,0,0.3583,3,1,334.9149,40.0,120.0,2,1,0,2,0,0,33.33
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,116,0,0.3479,2,1,333.4291,58.0,116.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,113,0,0.3374,3,1,334.914,37.6667,113.0,3,1,0,2,0,0,42.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,114,0,0.3395,4,1,335.7879,28.5,114.0,3,2,0,3,0,0,39.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,114,0,0.3395,3,1,335.7879,38.0,114.0,2,1,0,3,0,0,38.67
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,38,38,0.1134,1,1,335.097,38.0,38.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,35,35,0.1045,1,1,334.9282,35.0,35.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,33,33,0.0985,1,1,335.0254,33.0,33.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,5,0,0.0149,1,1,335.5705,5.0,5.0,1,0,0,1,0,0,44.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,33,0,0.1626,0,1,202.9516,0.0,33.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,195,0,0.7738,5,3,252.0031,39.0,65.0,5,2,0,4,0,0,45.6
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,184,0,0.7302,6,3,251.9858,30.6667,61.3333,5,3,0,5,0,0,42.67
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,179,0,0.7103,5,3,252.0062,35.8,59.6667,3,2,0,3,0,0,31.2
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,554,0,2.201,13,5,251.7038,42.6154,110.8,10,4,0,10,0,0,37.54
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,533,0,2.1144,22,4,252.081,24.2273,133.25,14,10,0,20,0,0,37.82
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,517,0,2.0526,18,4,251.8757,28.7222,129.25,14,7,0,13,0,0,38.0
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,502,0,1.9908,17,4,252.1599,29.5294,125.5,15,7,0,12,0,0,40.94
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,505,0,2.0032,15,4,252.0966,33.6667,126.25,13,8,0,11,0,0,42.4
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,505,0,2.0032,11,4,252.0966,45.9091,126.25,9,4,0,8,0,0,38.91
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,162,162,0.6429,3,1,251.9832,54.0,162.0,2,1,0,2,0,0,33.33
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,149,149,0.5913,5,1,251.9871,29.8,149.0,4,2,0,4,0,0,40.0
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,139,139,0.5516,4,1,251.9942,34.75,139.0,4,2,0,3,0,0,46.0
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,14,0,0.0556,1,1,251.7986,14.0,14.0,1,0,0,1,0,0,44.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,70,0,0.3449,0,1,202.9516,0.0,70.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,415,0,1.2388,9,8,335.0016,46.1111,51.875,6,4,0,6,0,0,34.67
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,391,0,1.1672,9,8,334.9897,43.4444,48.875,8,3,0,7,0,0,41.33
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,380,0,1.1343,9,8,335.0084,42.2222,47.5,8,4,0,8,0,0,44.44
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,1178,0,3.5154,38,12,335.097,31.0,98.1667,31,16,0,27,1,0,39.47
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,1131,0,3.3771,31,11,334.9027,36.4839,102.8182,21,14,0,21,1,0,35.48
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,1098,0,3.2784,20,11,334.9195,54.9,99.8182,13,8,0,18,0,0,37.4
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,1065,0,3.1797,22,11,334.9373,48.4091,96.8182,17,11,0,19,0,0,41.45
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,1072,0,3.1994,23,11,335.0628,46.6087,97.4545,21,11,0,15,0,0,41.74
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,1072,0,3.1994,24,11,335.0628,44.6667,97.4545,16,12,0,18,0,0,36.67
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,344,344,1.0269,7,2,334.9888,49.1429,172.0,6,4,0,4,0,0,40.0
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,315,315,0.9403,6,2,334.9995,52.5,157.5,4,2,0,6,0,0,38.67
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,296,296,0.8836,6,1,334.9932,49.3333,296.0,4,3,0,5,0,0,38.0
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,29,0,0.0866,1,1,334.873,29.0,29.0,1,0,0,1,0,0,44.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,42,0,0.2069,0,1,202.9516,0.0,42.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,184,0,0.7302,5,3,251.9858,36.8,61.3333,5,2,0,4,0,0,45.6
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,173,0,0.6865,5,2,252.0029,34.6,86.5,5,2,0,4,0,0,45.6
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,168,0,0.6667,4,2,251.9874,42.0,84.0,3,1,0,3,0,0,36.0
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,548,0,2.1748,13,5,251.9772,42.1538,109.6,10,4,0,10,0,0,37.54
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,526,0,2.0893,22,4,251.759,23.9091,131.5,14,10,0,20,0,0,37.82
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,511,0,2.0282,18,4,251.9475,28.3889,127.75,14,7,0,13,0,0,38.0
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,496,0,1.9671,17,4,252.1478,29.1765,124.0,15,7,0,12,0,0,40.94
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,499,0,1.9793,15,4,252.1093,33.2667,124.75,13,8,0,11,0,0,42.4
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,499,0,1.9793,11,4,252.1093,45.3636,124.75,9,4,0,8,0,0,38.91
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,167,167,0.6627,3,1,251.9994,55.6667,167.0,2,1,0,2,0,0,33.33
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,153,153,0.6071,5,1,252.0178,30.6,153.0,4,2,0,4,0,0,40.0
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,144,144,0.5714,4,1,252.0126,36.0,144.0,4,2,0,3,0,0,46.0
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,24,0,0.0952,1,1,252.1008,24.0,24.0,1,0,0,1,0,0,44.0
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,88,0,0.4336,0,1,202.9516,0.0,88.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,391,0,1.1672,9,8,334.9897,43.4444,48.875,6,4,0,6,0,0,34.67
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,368,0,1.0985,8,7,335.0023,46.0,52.5714,7,3,0,6,0,0,41.0
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,357,0,1.0657,8,7,334.9911,44.625,51.0,7,3,0,7,0,0,43.0
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,1164,0,3.4739,37,12,335.0701,31.4595,97.0,31,16,0,26,1,0,40.11
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,1118,0,3.3373,30,11,335.0013,37.2667,101.6364,20,13,0,20,1,0,34.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,1085,0,3.2397,20,11,334.9076,54.25,98.6364,13,8,0,18,0,0,37.4
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,1053,0,3.1421,22,10,335.1262,47.8636,105.3,17,11,0,19,0,0,41.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,1059,0,3.1616,23,10,334.957,46.0435,105.9,21,11,0,15,0,0,41.74
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,1059,0,3.1616,23,10,334.957,46.0435,105.9,15,11,0,17,0,0,35.83
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,355,355,1.0597,7,2,335.0005,50.7143,177.5,6,4,0,4,0,0,40.0
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,326,326,0.9731,6,2,335.0118,54.3333,163.0,4,2,0,6,0,0,38.67
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,306,306,0.9134,6,1,335.012,51.0,306.0,4,3,0,5,0,0,38.0
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,50,0,0.1493,2,1,334.8962,25.0,50.0,1,1,0,2,0,0,36.0
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,2,0,0.0098,0,1,203.6335,0.0,2.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,13,0,0.0516,1,1,251.938,13.0,13.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,12,0,0.0476,1,1,252.1008,12.0,12.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,12,0,0.0476,1,1,252.1008,12.0,12.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,36,0,0.1413,1,1,254.7771,36.0,36.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,34,0,0.1357,1,1,250.5527,34.0,34.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,33,0,0.1318,1,1,250.3794,33.0,33.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,32,0,0.1278,1,1,250.3912,32.0,32.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,33,0,0.1286,1,1,256.6096,33.0,33.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,32,0,0.1286,1,1,248.8336,32.0,32.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,11,11,0.0437,1,1,251.7162,11.0,11.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,10,10,0.0397,1,1,251.8892,10.0,10.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,9,9,0.0357,1,1,252.1008,9.0,9.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,1,0,0.004,1,1,250.0,1.0,1.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,5,0,0.0246,0,1,203.6335,0.0,5.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,27,0,0.0806,1,1,334.9876,27.0,27.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,25,0,0.0746,1,1,335.1206,25.0,25.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,25,0,0.0746,1,1,335.1206,25.0,25.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,77,0,0.2285,3,1,336.9803,25.6667,77.0,2,1,0,2,0,0,33.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,73,0,0.2195,2,1,332.574,36.5,73.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,71,0,0.2131,1,1,333.1769,71.0,71.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,69,0,0.2067,1,1,333.8171,69.0,69.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,70,0,0.208,2,1,336.5385,35.0,70.0,2,1,0,1,0,0,42.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,70,0,0.208,2,1,336.5385,35.0,70.0,1,1,0,2,0,0,36.0
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,22,22,0.0657,1,1,334.8554,22.0,22.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,20,20,0.0597,1,1,335.0084,20.0,20.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,19,19,0.0567,1,1,335.097,19.0,19.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,2,0,0.006,1,1,333.3333,2.0,2.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,3,0,0.0147,0,1,203.6335,0.0,3.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,12,0,0.0476,1,1,252.1008,12.0,12.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,11,0,0.0437,1,1,251.7162,11.0,11.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,11,0,0.0437,1,1,251.7162,11.0,11.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,36,0,0.1413,1,1,254.7771,36.0,36.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,34,0,0.1357,1,1,250.5527,34.0,34.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,33,0,0.1318,1,1,250.3794,33.0,33.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,32,0,0.1278,1,1,250.3912,32.0,32.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,33,0,0.1286,1,1,256.6096,33.0,33.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,32,0,0.1286,1,1,248.8336,32.0,32.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,11,11,0.0437,1,1,251.7162,11.0,11.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,10,10,0.0397,1,1,251.8892,10.0,10.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,9,9,0.0357,1,1,252.1008,9.0,9.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,2,0,0.0079,1,1,253.1646,2.0,2.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,6,0,0.0295,0,1,203.6335,0.0,6.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,25,0,0.0746,1,1,335.1206,25.0,25.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,24,0,0.0716,1,1,335.1955,24.0,24.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,23,0,0.0687,1,1,334.7889,23.0,23.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,76,0,0.2258,2,1,336.581,38.0,76.0,2,1,0,1,0,0,42.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,73,0,0.2169,2,1,336.5606,36.5,73.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,70,0,0.2106,1,1,332.3837,70.0,70.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,68,0,0.2043,1,1,332.8439,68.0,68.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,69,0,0.2055,2,1,335.7664,34.5,69.0,2,1,0,1,0,0,42.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,69,0,0.2055,2,1,335.7664,34.5,69.0,1,1,0,2,0,0,36.0
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,23,23,0.0687,1,1,334.7889,23.0,23.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,21,21,0.0627,1,1,334.9282,21.0,21.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,20,20,0.0597,1,1,335.0084,20.0,20.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,3,0,0.009,1,1,333.3333,3.0,3.0,1,0,0,1,0,0,44.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,38,0,0.1872,0,1,202.9516,0.0,38.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,224,0,0.8889,7,1,251.9969,32.0,224.0,6,3,0,6,0,0,42.86
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,212,0,0.8413,6,1,251.991,35.3333,212.0,5,2,0,4,0,0,38.0
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,205,0,0.8135,5,1,251.9975,41.0,205.0,4,2,0,4,0,0,40.0
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,636,0,2.5231,24,13,252.0709,26.5,48.9231,18,11,0,21,0,0,40.5
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,611,0,2.4239,23,12,252.0731,26.5652,50.9167,20,11,0,17,0,0,41.91
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,593,0,2.353,18,12,252.0187,32.9444,49.4167,16,9,1,15,0,0,45.56
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,575,0,2.2821,14,11,251.9609,41.0714,52.2727,11,7,0,12,0,0,41.71
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,579,0,2.2963,17,11,252.1448,34.0588,52.6364,11,6,0,13,0,0,34.59
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,578,0,2.2963,15,11,251.7093,38.5333,52.5455,14,7,0,14,0,0,46.67
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,185,185,0.7341,4,1,252.0093,46.25,185.0,3,2,0,3,0,0,39.0
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,170,170,0.6746,4,1,252.0012,42.5,170.0,2,2,0,4,0,0,36.0
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,160,160,0.6349,5,1,252.0082,32.0,160.0,3,2,0,4,0,0,34.4
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,16,0,0.0635,1,1,251.9685,16.0,16.0,1,0,0,1,0,0,44.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,80,0,0.3942,0,1,202.9516,0.0,80.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,476,0,1.4209,13,2,334.9989,36.6154,238.0,9,5,0,10,0,0,36.31
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,449,0,1.3403,8,2,334.9996,56.125,224.5,6,3,0,6,0,0,37.5
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,435,0,1.2985,10,2,335.0019,43.5,217.5,9,3,0,9,0,0,43.2
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,1352,0,4.034,28,10,335.1512,48.2857,135.2,18,9,0,22,0,0,34.43
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,1298,0,3.8753,37,9,334.9418,35.0811,144.2222,25,16,0,31,1,1,38.27
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,1260,0,3.762,30,9,334.9282,42.0,140.0,19,14,0,22,0,0,35.07
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,1222,0,3.6487,23,9,334.9138,53.1304,135.7778,18,8,0,14,0,0,35.83
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,1230,0,3.6714,28,9,335.0221,43.9286,136.6667,20,10,0,25,0,0,38.57
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,1230,0,3.6714,28,9,335.0221,43.9286,136.6667,27,14,0,24,1,0,47.0
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,395,395,1.1791,11,3,335.0013,35.9091,131.6667,10,5,0,8,0,0,42.55
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,362,362,1.0806,9,3,334.9991,40.2222,120.6667,7,4,0,6,0,0,37.78
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,340,340,1.0149,6,2,335.0084,56.6667,170.0,5,2,0,4,0,0,38.0
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,34,0,0.1015,1,1,334.9754,34.0,34.0,1,0,0,1,0,0,44.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,48,0,0.2365,0,1,202.9516,0.0,48.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,211,0,0.8373,6,1,252.0005,35.1667,211.0,5,2,0,5,0,0,40.67
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,199,0,0.7897,6,1,251.9944,33.1667,199.0,5,2,0,4,0,0,38.0
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,193,0,0.7659,5,1,251.9911,38.6,193.0,4,2,0,4,0,0,40.0
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,628,0,2.4934,24,12,251.8649,26.1667,52.3333,18,11,0,21,0,0,40.5
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,604,0,2.3954,23,12,252.15,26.2609,50.3333,20,11,0,17,0,0,41.91
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,586,0,2.3253,18,12,252.0105,32.5556,48.8333,16,9,1,15,0,0,45.56
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,568,0,2.2553,14,11,251.8512,40.5714,51.6364,11,7,0,12,0,0,41.71
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,572,0,2.2693,17,11,252.0601,33.6471,52.0,11,6,0,13,0,0,34.59
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,572,0,2.2693,15,11,252.0601,38.1333,52.0,14,7,0,14,0,0,46.67
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,192,192,0.7619,5,1,252.0016,38.4,192.0,4,2,0,4,0,0,40.0
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,176,176,0.6984,5,1,252.0046,35.2,176.0,3,2,0,4,0,0,34.4
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,165,165,0.6548,5,1,251.9853,33.0,165.0,3,2,0,4,0,0,34.4
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,27,0,0.1071,1,1,252.1008,27.0,27.0,1,0,0,1,0,0,44.0
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,102,0,0.5026,0,1,202.9516,0.0,102.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,448,0,1.3373,12,2,335.0034,37.3333,224.0,8,5,0,9,0,0,35.67
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,423,0,1.2627,7,2,334.9964,60.4286,211.5,5,3,0,5,0,0,36.57
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,410,0,1.2239,9,2,334.9947,45.5556,205.0,8,3,0,8,0,0,43.11
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,1336,0,3.9861,28,10,335.1647,47.7143,133.6,18,9,0,22,0,0,34.43
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,1283,0,3.8294,37,9,335.0394,34.6757,142.5556,25,16,0,31,1,1,38.27
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,1245,0,3.7174,29,9,334.9115,42.931,138.3333,18,13,0,22,0,0,34.9
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,1208,0,3.6054,23,9,335.053,52.5217,134.2222,18,8,0,14,0,0,35.83
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,1215,0,3.6278,28,9,334.9137,43.3929,135.0,20,10,0,25,0,0,38.57
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,1215,0,3.6278,27,9,334.9137,45.0,135.0,26,13,0,24,0,0,46.96
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,408,408,1.2179,11,3,335.0029,37.0909,136.0,10,5,0,8,0,0,42.55
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,373,373,1.1134,9,3,335.0099,41.4444,124.3333,7,4,0,6,0,0,37.78
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,351,351,1.0478,7,3,334.9876,50.1429,117.0,6,3,0,4,0,0,38.29
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,58,0,0.1731,2,1,335.0664,29.0,58.0,2,1,0,2,0,0,50.0
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,3,0,0.0147,0,1,203.6335,0.0,3.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,15,0,0.0595,1,1,252.1008,15.0,15.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,14,0,0.0556,1,1,251.7986,14.0,14.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,13,0,0.0516,1,1,251.938,13.0,13.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,41,0,0.1632,2,1,251.2255,20.5,41.0,2,1,0,2,0,0,50.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,40,0,0.1568,2,1,255.102,20.0,40.0,2,1,0,1,0,0,42.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,38,0,0.1522,1,1,249.6715,38.0,38.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,37,0,0.1476,1,1,250.6775,37.0,37.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,38,0,0.1485,1,1,255.8923,38.0,38.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,37,0,0.1485,1,1,249.1582,37.0,37.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,12,12,0.0476,1,1,252.1008,12.0,12.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,11,11,0.0437,1,1,251.7162,11.0,11.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,10,10,0.0397,1,1,251.8892,10.0,10.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,1,0,0.004,1,1,250.0,1.0,1.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,5,0,0.0246,0,1,203.6335,0.0,5.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,31,0,0.0925,1,1,335.1351,31.0,31.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,29,0,0.0866,1,1,334.873,29.0,29.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,28,0,0.0836,1,1,334.9282,28.0,28.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,88,0,0.2625,2,1,335.2381,44.0,88.0,1,1,0,2,0,0,36.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,84,0,0.2522,2,1,333.069,42.0,84.0,1,1,0,2,0,0,36.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,82,0,0.2448,2,1,334.9673,41.0,82.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,80,0,0.2374,2,1,336.984,40.0,80.0,2,1,0,1,0,0,42.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,80,0,0.2389,2,1,334.8681,40.0,80.0,1,1,0,2,0,0,36.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,80,0,0.2389,2,1,334.8681,40.0,80.0,2,1,0,2,0,0,50.0
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,26,26,0.0776,1,1,335.0515,26.0,26.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,24,24,0.0716,1,1,335.1955,24.0,24.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,22,22,0.0657,1,1,334.8554,22.0,22.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,2,0,0.006,1,1,333.3333,2.0,2.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,3,0,0.0147,0,1,203.6335,0.0,3.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,14,0,0.0556,1,1,251.7986,14.0,14.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,13,0,0.0516,1,1,251.938,13.0,13.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,13,0,0.0516,1,1,251.938,13.0,13.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,41,0,0.1625,2,1,252.3077,20.5,41.0,2,1,0,2,0,0,50.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,40,0,0.1561,2,1,256.246,20.0,40.0,2,1,0,1,0,0,42.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,38,0,0.1515,1,1,250.8251,38.0,38.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,37,0,0.147,1,1,251.7007,37.0,37.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,37,0,0.1479,1,1,250.169,37.0,37.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,37,0,0.1479,1,1,250.169,37.0,37.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,12,12,0.0476,1,1,252.1008,12.0,12.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,11,11,0.0437,1,1,251.7162,11.0,11.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,11,11,0.0437,1,1,251.7162,11.0,11.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,2,0,0.0079,1,1,253.1646,2.0,2.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,7,0,0.0344,0,1,203.6335,0.0,7.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,29,0,0.0866,1,1,334.873,29.0,29.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,27,0,0.0806,1,1,334.9876,27.0,27.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,27,0,0.0806,1,1,334.9876,27.0,27.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,87,0,0.2593,2,1,335.5187,43.5,87.0,1,1,0,2,0,0,36.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,83,0,0.2491,2,1,333.1995,41.5,83.0,1,1,0,2,0,0,36.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,81,0,0.2418,2,1,334.9876,40.5,81.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,79,0,0.2345,1,1,336.887,79.0,79.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,79,0,0.236,2,1,334.7458,39.5,79.0,1,1,0,2,0,0,36.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,79,0,0.236,2,1,334.7458,39.5,79.0,2,1,0,2,0,0,50.0
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,27,27,0.0806,1,1,334.9876,27.0,27.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,24,24,0.0716,1,1,335.1955,24.0,24.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,23,23,0.0687,1,1,334.7889,23.0,23.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,4,0,0.0119,1,1,336.1345,4.0,4.0,1,0,0,1,0,0,44.0
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,1455.2211,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,13.0,0,1942.7201,7,5,0.0067,1.8571,2.6,5,3,0,5,6,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,12.0,0,1829.9405,9,5,0.0066,1.3333,2.4,7,4,0,7,8,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,12.0,0,1775.3697,7,4,0.0068,1.7143,3.0,5,3,0,5,6,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,1475.0,0,5449.8028,26,6,0.2707,56.7308,245.8333,20,11,0,20,22,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,1417.0,0,5235.1577,24,6,0.2707,59.0417,236.1667,19,10,0,18,20,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,1377.0,0,5082.3595,27,6,0.2709,51.0,229.5,21,12,0,21,23,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,1335.0,0,4929.5613,24,6,0.2708,55.625,222.5,19,10,0,18,20,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,1344.0,0,4958.6657,21,6,0.271,64.0,224.0,16,9,0,16,18,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,1344.0,0,4958.6657,24,6,0.271,56.0,224.0,19,10,0,18,20,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,0.0,259,1422.4786,8,1,0.0,0.0,0.0,6,3,0,6,7,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,0.0,238,1306.0609,8,1,0.0,0.0,0.0,6,3,0,6,7,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,0.0,223,1222.3857,6,1,0.0,0.0,0.0,5,3,0,5,5,0,48.02
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,181.9026,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,3037.5249,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,27.0,0,1828.044,12,5,0.0148,2.25,5.4,9,5,0,9,10,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,26.0,0,1720.9186,14,5,0.0151,1.8571,5.2,11,6,0,11,12,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,25.0,0,1669.0837,12,5,0.015,2.0833,5.0,9,5,0,9,10,0,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,3138.0,0,5224.9576,55,10,0.6006,57.0545,313.8,43,24,0,42,47,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,3015.0,0,5021.0737,40,10,0.6005,75.375,301.5,31,17,0,31,34,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,2927.0,0,4872.4803,42,10,0.6007,69.6905,292.7,33,18,0,32,36,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,2837.0,0,4727.3426,41,9,0.6001,69.1951,315.2222,32,18,0,32,35,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,2855.0,0,4754.9878,34,9,0.6004,83.9706,317.2222,27,15,0,26,29,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,2855.0,0,4754.9878,43,9,0.6004,66.3953,317.2222,34,18,0,33,37,1,48.02
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,0.0,551,850.0923,14,3,0.0,0.0,0.0,11,6,0,11,12,0,48.02
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,0.0,505,777.5234,13,3,0.0,0.0,0.0,10,6,0,10,11,0,48.02
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,0.0,475,732.5999,13,3,0.0,0.0,0.0,10,6,0,10,11,0,48.02
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,79.4802,2,1,0.0,0.0,0.0,2,1,0,2,2,0,48.02
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,1840.8546,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,14.0,0,1829.9405,6,5,0.0077,2.3333,2.8,5,3,0,5,5,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,13.0,0,1724.4369,8,4,0.0075,1.625,3.25,6,3,0,6,7,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,13.0,0,1677.1423,7,4,0.0078,1.8571,3.25,5,3,0,5,6,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,1464.0,0,5384.3179,25,6,0.2719,58.56,244.0,20,11,0,19,21,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,1407.0,0,5173.3108,23,6,0.272,61.1739,234.5,18,10,0,18,20,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,1365.0,0,5024.1507,26,6,0.2717,52.5,227.5,20,11,0,20,22,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,1325.0,0,4871.3525,24,6,0.272,55.2083,220.8333,19,10,0,18,20,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,1332.0,0,4900.4569,21,6,0.2718,63.4286,222.0,16,9,0,16,18,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,1332.0,0,4900.4569,24,6,0.2718,55.5,222.0,19,10,0,18,20,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,0.0,268,1469.7733,8,1,0.0,0.0,0.0,6,3,0,6,7,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,0.0,245,1342.4414,9,1,0.0,0.0,0.0,7,4,0,7,8,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,0.0,231,1266.0423,6,1,0.0,0.0,0.0,5,3,0,5,5,0,48.02
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,312.8725,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,3849.605,1,2,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,29.0,0,1720.9186,11,5,0.0169,2.6364,5.8,9,5,0,8,9,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,27.0,0,1620.7044,13,4,0.0167,2.0769,6.75,10,6,0,10,11,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,27.0,0,1572.3252,11,4,0.0172,2.4545,6.75,9,5,0,8,9,0,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,3111.0,0,5162.7557,54,10,0.6026,57.6111,311.1,42,23,0,42,46,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,2989.0,0,4958.8718,40,10,0.6028,74.725,298.9,31,17,0,31,34,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,2901.0,0,4813.7341,42,10,0.6027,69.0714,290.1,33,18,0,32,36,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,2814.0,0,4668.5964,40,9,0.6028,70.35,312.6667,31,17,0,31,34,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,2831.0,0,4699.6973,34,9,0.6024,83.2647,314.5556,27,15,0,26,29,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,2832.0,0,4699.6973,43,9,0.6026,65.8605,314.6667,34,18,0,33,37,1,48.02
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,0.0,569,877.7376,14,3,0.0,0.0,0.0,11,6,0,11,12,0,48.02
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,0.0,522,805.1687,13,3,0.0,0.0,0.0,10,6,0,10,11,0,48.02
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,0.0,490,753.3338,13,3,0.0,0.0,0.0,10,6,0,10,11,0,48.02
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,138.2264,3,1,0.0,0.0,0.0,2,1,0,2,3,0,48.02
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,83.6752,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,1.0,0,123.6938,1,1,0.0081,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,1.0,0,116.4177,1,1,0.0086,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,1.0,0,116.4177,1,1,0.0086,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,96.0,0,352.8911,2,1,0.272,48.0,96.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,91.0,0,341.9769,2,1,0.2661,45.5,91.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,90.0,0,331.0628,2,1,0.2719,45.0,90.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,86.0,0,320.1486,2,1,0.2686,43.0,86.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,86.0,0,323.7867,1,1,0.2656,86.0,86.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,88.0,0,323.7867,2,1,0.2718,44.0,88.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,0.0,17,94.5894,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,0.0,15,83.6752,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,0.0,14,76.3991,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,7.2761,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,186.6056,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,2.0,0,117.4924,1,1,0.017,2.0,2.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,2.0,0,114.0368,1,1,0.0175,2.0,2.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,2.0,0,110.5811,1,1,0.0181,2.0,2.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,205.0,0,338.6547,4,1,0.6053,51.25,205.0,3,2,0,3,3,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,196.0,0,324.832,3,1,0.6034,65.3333,196.0,2,1,0,2,3,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,190.0,0,317.9207,3,1,0.5976,63.3333,190.0,2,1,0,2,3,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,185.0,0,307.5537,3,1,0.6015,61.6667,185.0,2,1,0,2,3,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,186.0,0,311.0094,2,1,0.5981,93.0,186.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,186.0,0,311.0094,3,1,0.5981,62.0,186.0,2,1,0,2,3,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,0.0,36,55.2906,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,0.0,33,51.8349,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,0.0,31,48.3792,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,112.7796,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,1.0,0,116.4177,1,1,0.0086,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,1.0,0,112.7796,1,1,0.0089,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,1.0,0,109.1416,1,1,0.0092,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,95.0,0,349.2531,2,1,0.272,47.5,95.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,92.0,0,334.7008,2,1,0.2749,46.0,92.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,88.0,0,327.4247,2,1,0.2688,44.0,88.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,85.0,0,316.5106,2,1,0.2686,42.5,85.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,87.0,0,320.1486,1,1,0.2717,87.0,87.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,87.0,0,320.1486,2,1,0.2717,43.5,87.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,0.0,17,94.5894,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,0.0,16,87.3133,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,0.0,15,83.6752,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,18.1903,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,266.0858,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Aba North,South East,Abia,Aba North,,,2.0,0,114.0368,1,1,0.0175,2.0,2.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Aba North,South East,Abia,Aba North,,,2.0,0,103.6698,1,1,0.0193,2.0,2.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Aba North,South East,Abia,Aba North,,,2.0,0,100.2141,1,1,0.02,2.0,2.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba North,South East,Abia,Aba North,,,202.0,0,335.199,4,1,0.6026,50.5,202.0,3,2,0,3,3,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Aba North,South East,Abia,Aba North,,,195.0,0,321.3764,3,1,0.6068,65.0,195.0,2,1,0,2,3,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Aba North,South East,Abia,Aba North,,,189.0,0,311.0094,3,1,0.6077,63.0,189.0,2,1,0,2,3,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Aba North,South East,Abia,Aba North,,,183.0,0,304.0981,3,1,0.6018,61.0,183.0,2,1,0,2,3,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Aba North,South East,Abia,Aba North,,,183.0,0,304.0981,2,1,0.6018,91.5,183.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Aba North,South East,Abia,Aba North,,,183.0,0,304.0981,3,1,0.6018,61.0,183.0,2,1,0,2,3,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Aba North,South East,Abia,Aba North,,,0.0,37,55.2906,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Aba North,South East,Abia,Aba North,,,0.0,34,51.8349,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Aba North,South East,Abia,Aba North,,,0.0,32,48.3792,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Aba North,South East,Abia,Aba North,,,0.0,0,10.367,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,1182.3671,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,10.0,0,1582.5529,7,1,0.0063,1.4286,10.0,5,3,0,5,6,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,10.0,0,1491.6016,5,1,0.0067,2.0,10.0,4,2,0,4,4,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,10.0,0,1447.9449,5,1,0.0069,2.0,10.0,4,2,0,4,4,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,1199.0,0,4431.1481,25,14,0.2706,47.96,85.6429,20,11,0,19,21,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,1153.0,0,4256.5216,21,13,0.2709,54.9048,88.6923,16,9,0,16,18,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,1119.0,0,4129.1897,21,13,0.271,53.2857,86.0769,16,9,0,16,18,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,1085.0,0,4005.4959,18,12,0.2709,60.2778,90.4167,14,8,0,14,15,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,1091.0,0,4030.9623,18,12,0.2707,60.6111,90.9167,14,8,0,14,15,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,1093.0,0,4030.9623,22,12,0.2712,49.6818,91.0833,17,9,0,17,19,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,0.0,211,1156.9007,5,2,0.0,0.0,0.0,4,2,0,4,4,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,0.0,193,1058.6733,5,2,0.0,0.0,0.0,4,2,0,4,4,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,0.0,182,996.8264,5,1,0.0,0.0,0.0,4,2,0,4,4,0,48.02
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,149.1602,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,2467.3411,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,22.0,0,1482.478,15,9,0.0148,1.4667,2.4444,12,6,0,12,13,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,21.0,0,1399.5422,12,8,0.015,1.75,2.625,9,5,0,9,10,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,20.0,0,1358.0743,12,8,0.0147,1.6667,2.5,9,5,0,9,10,0,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,2550.0,0,4243.5502,42,8,0.6009,60.7143,318.75,33,18,0,32,36,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,2448.0,0,4077.6785,38,8,0.6003,64.4211,306.0,30,16,0,29,32,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,2377.0,0,3960.1861,36,7,0.6002,66.0278,339.5714,28,15,0,28,31,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,2305.0,0,3839.238,36,7,0.6004,64.0278,329.2857,28,15,0,28,31,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,2320.0,0,3863.4276,27,7,0.6005,85.9259,331.4286,21,12,0,21,23,0,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,2320.0,0,3863.4276,39,7,0.6005,59.4872,331.4286,31,17,0,30,33,1,48.02
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,0.0,448,691.132,9,2,0.0,0.0,0.0,7,4,0,7,8,0,48.02
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,0.0,411,632.3857,13,2,0.0,0.0,0.0,10,6,0,10,11,0,48.02
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,0.0,386,594.3735,8,2,0.0,0.0,0.0,6,3,0,6,7,0,48.02
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,65.6575,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,1484.3255,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,11.0,0,1491.6016,6,1,0.0074,1.8333,11.0,5,3,0,5,5,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,10.0,0,1404.2883,5,1,0.0071,2.0,10.0,4,2,0,4,4,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,10.0,0,1360.6317,5,1,0.0073,2.0,10.0,4,2,0,4,4,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,1190.0,0,4376.5773,25,13,0.2719,47.6,91.5385,20,11,0,19,21,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,1144.0,0,4205.5888,20,13,0.272,57.2,88.0,16,9,0,15,17,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,1110.0,0,4081.895,21,13,0.2719,52.8571,85.3846,16,9,0,16,18,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,1075.0,0,3958.2013,18,12,0.2716,59.7222,89.5833,14,8,0,14,15,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,1082.0,0,3983.6676,18,12,0.2716,60.1111,90.1667,14,8,0,14,15,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,1082.0,0,3983.6676,21,12,0.2716,51.5238,90.1667,16,9,0,16,18,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,0.0,218,1196.9193,5,2,0.0,0.0,0.0,4,2,0,4,4,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,0.0,200,1098.6919,5,2,0.0,0.0,0.0,4,2,0,4,4,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,0.0,188,1033.2069,5,1,0.0,0.0,0.0,4,2,0,4,4,0,48.02
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,254.6637,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,3144.6504,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,24.0,0,1396.0865,14,8,0.0172,1.7143,3.0,11,6,0,11,12,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,22.0,0,1316.6064,11,8,0.0167,2.0,2.75,9,5,0,8,9,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,22.0,0,1278.5941,12,8,0.0172,1.8333,2.75,9,5,0,9,10,0,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,2529.0,0,4195.171,42,8,0.6028,60.2143,316.125,33,18,0,32,36,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,2429.0,0,4029.2993,38,8,0.6028,63.9211,303.625,30,16,0,29,32,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,2359.0,0,3911.8069,36,7,0.603,65.5278,337.0,28,15,0,28,31,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,2287.0,0,3794.3144,35,7,0.6027,65.3429,326.7143,27,15,0,27,30,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,2301.0,0,3818.5041,27,7,0.6026,85.2222,328.7143,21,12,0,21,23,0,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,2301.0,0,3818.5041,38,7,0.6026,60.5526,328.7143,30,16,0,29,32,1,48.02
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,0.0,463,711.8659,9,2,0.0,0.0,0.0,7,4,0,7,8,0,48.02
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,0.0,424,653.1197,13,2,0.0,0.0,0.0,10,6,0,10,11,0,48.02
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,0.0,399,615.1074,9,2,0.0,0.0,0.0,7,4,0,7,8,0,48.02
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,110.5811,2,1,0.0,0.0,0.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,83.6752,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,1.0,0,105.5035,1,1,0.0095,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,1.0,0,98.2274,1,1,0.0102,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,1.0,0,90.9513,1,1,0.011,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,78.0,0,287.4062,2,1,0.2714,39.0,78.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,75.0,0,276.492,1,1,0.2713,75.0,75.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,73.0,0,269.2159,1,1,0.2712,73.0,73.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,70.0,0,261.9398,1,1,0.2672,70.0,70.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,72.0,0,261.9398,1,1,0.2749,72.0,72.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,70.0,0,261.9398,1,1,0.2672,70.0,70.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,0.0,14,76.3991,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,0.0,13,72.7611,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,0.0,12,65.4849,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,7.2761,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,162.416,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,1.0,0,96.7585,1,1,0.0103,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,1.0,0,89.8472,1,1,0.0111,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,1.0,0,86.3915,1,1,0.0116,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,165.0,0,276.4528,3,1,0.5968,55.0,165.0,2,1,0,2,3,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,160.0,0,266.0858,3,1,0.6013,53.3333,160.0,2,1,0,2,3,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,155.0,0,255.7188,2,1,0.6061,77.5,155.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,150.0,0,248.8075,2,1,0.6029,75.0,150.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,151.0,0,252.2632,2,1,0.5986,75.5,151.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,151.0,0,252.2632,3,1,0.5986,50.3333,151.0,2,1,0,2,3,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,0.0,29,44.9236,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,0.0,27,41.4679,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,0.0,25,38.0123,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,83.6752,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,1.0,0,98.2274,1,1,0.0102,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,1.0,0,90.9513,1,1,0.011,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,1.0,0,87.3133,1,1,0.0115,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,78.0,0,287.4062,2,1,0.2714,39.0,78.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,75.0,0,272.8539,1,1,0.2749,75.0,75.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,72.0,0,265.5778,1,1,0.2711,72.0,72.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,70.0,0,258.3017,1,1,0.271,70.0,70.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,70.0,0,258.3017,1,1,0.271,70.0,70.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,70.0,0,258.3017,1,1,0.271,70.0,70.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,0.0,14,76.3991,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,0.0,13,72.7611,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,0.0,12,65.4849,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,18.1903,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,186.6056,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Aba South,South East,Abia,Aba South,,,1.0,0,89.8472,1,1,0.0111,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Aba South,South East,Abia,Aba South,,,1.0,0,86.3915,1,1,0.0116,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Aba South,South East,Abia,Aba South,,,1.0,0,82.9358,1,1,0.0121,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Aba South,South East,Abia,Aba South,,,163.0,0,272.9971,3,1,0.5971,54.3333,163.0,2,1,0,2,3,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Aba South,South East,Abia,Aba South,,,157.0,0,262.6301,3,1,0.5978,52.3333,157.0,2,1,0,2,3,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Aba South,South East,Abia,Aba South,,,153.0,0,252.2632,2,1,0.6065,76.5,153.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Aba South,South East,Abia,Aba South,,,148.0,0,245.3518,2,1,0.6032,74.0,148.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Aba South,South East,Abia,Aba South,,,150.0,0,248.8075,2,1,0.6029,75.0,150.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Aba South,South East,Abia,Aba South,,,150.0,0,248.8075,3,1,0.6029,50.0,150.0,2,1,0,2,3,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Aba South,South East,Abia,Aba South,,,0.0,30,44.9236,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Aba South,South East,Abia,Aba South,,,0.0,28,41.4679,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Aba South,South East,Abia,Aba South,,,0.0,26,41.4679,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Aba South,South East,Abia,Aba South,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,1484.3255,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,13.0,0,1997.2909,7,2,0.0065,1.8571,6.5,5,3,0,5,6,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,12.0,0,1888.1493,7,2,0.0064,1.7143,6.0,5,3,0,5,6,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,12.0,0,1826.3024,7,2,0.0066,1.7143,6.0,5,3,0,5,6,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,1520.0,0,5609.8772,33,14,0.271,46.0606,108.5714,26,14,0,25,28,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,1460.0,0,5387.9559,32,13,0.271,45.625,112.3077,25,14,0,25,27,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,1417.0,0,5231.5197,22,13,0.2709,64.4091,109.0,17,9,0,17,19,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,1374.0,0,5075.0834,27,12,0.2707,50.8889,114.5,21,12,0,21,23,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,1382.0,0,5104.1878,21,12,0.2708,65.8095,115.1667,16,9,0,16,18,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,1384.0,0,5104.1878,25,12,0.2711,55.36,115.3333,20,11,0,19,21,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,267,1466.1352,8,1,0.0,0.0,0.0,6,3,0,6,7,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,244,1338.8034,6,1,0.0,0.0,0.0,5,3,0,5,5,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,230,1262.4043,6,1,0.0,0.0,0.0,5,3,0,5,5,0,48.02
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,181.9026,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,3144.6504,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,28.0,0,1879.8789,14,6,0.0149,2.0,4.6667,11,6,0,11,12,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,26.0,0,1772.7535,17,6,0.0147,1.5294,4.3333,13,7,0,13,14,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,26.0,0,1717.4629,14,6,0.0151,1.8571,4.3333,11,6,0,11,12,0,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,3227.0,0,5377.0066,39,15,0.6001,82.7436,215.1333,31,17,1,30,33,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,3101.0,0,5162.7557,49,15,0.6006,63.2857,206.7333,38,21,1,38,42,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,3010.0,0,5014.1623,38,14,0.6003,79.2105,215.0,30,16,0,29,32,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,2920.0,0,4862.1133,48,14,0.6006,60.8333,208.5714,38,21,0,37,41,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,2938.0,0,4893.2142,55,14,0.6004,53.4182,209.8571,43,24,0,42,47,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,2938.0,0,4893.2142,43,14,0.6004,68.3256,209.8571,34,18,0,33,37,1,48.02
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,567,874.2819,15,4,0.0,0.0,0.0,12,6,0,12,13,0,48.02
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,520,801.7131,11,4,0.0,0.0,0.0,9,5,0,8,9,0,48.02
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,488,753.3338,9,4,0.0,0.0,0.0,7,4,0,7,8,0,48.02
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,82.9358,2,1,0.0,0.0,0.0,2,1,0,2,2,0,48.02
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,1895.4254,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,14.0,0,1880.8732,6,2,0.0074,2.3333,7.0,5,3,0,5,5,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,13.0,0,1775.3697,7,2,0.0073,1.8571,6.5,5,3,0,5,6,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,13.0,0,1720.7989,6,2,0.0076,2.1667,6.5,5,3,0,5,5,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,1507.0,0,5544.3922,32,13,0.2718,47.0938,115.9231,25,14,0,25,27,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,1447.0,0,5326.109,32,13,0.2717,45.2188,111.3077,25,14,0,25,27,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,1405.0,0,5169.6728,22,13,0.2718,63.8636,108.0769,17,9,0,17,19,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,1362.0,0,5013.2365,27,12,0.2717,50.4444,113.5,21,12,0,21,23,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,1372.0,0,5045.979,21,12,0.2719,65.3333,114.3333,16,9,0,16,18,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,1372.0,0,5045.979,24,12,0.2719,57.1667,114.3333,19,10,0,18,20,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,275,1509.7918,8,1,0.0,0.0,0.0,6,3,0,6,7,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,253,1389.7361,6,1,0.0,0.0,0.0,5,3,0,5,5,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,237,1298.7848,6,1,0.0,0.0,0.0,5,3,0,5,5,0,48.02
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,320.1486,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,3984.3757,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,30.0,0,1769.2978,13,6,0.017,2.3077,5.0,10,6,0,10,11,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,28.0,0,1665.628,16,6,0.0168,1.75,4.6667,13,7,0,12,14,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,27.0,0,1613.7931,13,5,0.0167,2.0769,5.4,10,6,0,10,11,0,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,3201.0,0,5311.3491,39,15,0.6027,82.0769,213.4,31,17,1,30,33,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,3076.0,0,5104.0095,49,14,0.6027,62.7755,219.7143,38,21,0,38,42,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,2986.0,0,4951.9605,37,14,0.603,80.7027,213.2857,29,16,0,28,31,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,2896.0,0,4803.3671,48,14,0.6029,60.3333,206.8571,38,21,0,37,41,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,2913.0,0,4834.468,55,14,0.6025,52.9636,208.0714,43,24,0,42,47,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,2913.0,0,4834.468,43,14,0.6025,67.7442,208.0714,34,18,0,33,37,1,48.02
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,586,901.9272,15,4,0.0,0.0,0.0,12,6,0,12,13,0,48.02
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,537,825.9027,11,4,0.0,0.0,0.0,9,5,0,8,9,0,48.02
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,504,777.5234,9,4,0.0,0.0,0.0,7,4,0,7,8,0,48.02
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,141.6821,3,1,0.0,0.0,0.0,2,1,0,2,3,0,48.02
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,83.6752,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,1.0,0,130.9699,1,1,0.0076,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,1.0,0,123.6938,1,1,0.0081,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,1.0,0,116.4177,1,1,0.0086,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,98.0,0,363.8053,2,1,0.2694,49.0,98.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,95.0,0,349.2531,2,1,0.272,47.5,95.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,91.0,0,338.3389,1,1,0.269,91.0,91.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,90.0,0,331.0628,2,1,0.2719,45.0,90.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,90.0,0,331.0628,1,1,0.2719,90.0,90.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,90.0,0,331.0628,2,1,0.2719,45.0,90.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,17,94.5894,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,16,87.3133,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,15,83.6752,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,7.2761,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,186.6056,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,2.0,0,124.4038,1,1,0.0161,2.0,2.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,2.0,0,114.0368,1,1,0.0175,2.0,2.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,2.0,0,114.0368,1,1,0.0175,2.0,2.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,210.0,0,349.0216,3,1,0.6017,70.0,210.0,2,1,0,2,3,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,203.0,0,335.199,3,1,0.6056,67.6667,203.0,2,1,0,2,3,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,196.0,0,324.832,2,1,0.6034,98.0,196.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,190.0,0,317.9207,3,1,0.5976,63.3333,190.0,2,1,0,2,3,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,191.0,0,317.9207,4,1,0.6008,47.75,191.0,3,2,0,3,3,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,191.0,0,317.9207,3,1,0.6008,63.6667,191.0,2,1,0,2,3,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,37,55.2906,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,34,51.8349,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,32,48.3792,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,141.8841,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,1.0,0,123.6938,1,1,0.0081,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,1.0,0,116.4177,1,1,0.0086,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,1.0,0,112.7796,1,1,0.0089,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,98.0,0,360.1672,2,1,0.2721,49.0,98.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,93.0,0,345.615,2,1,0.2691,46.5,93.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,92.0,0,338.3389,1,1,0.2719,92.0,92.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,88.0,0,327.4247,2,1,0.2688,44.0,88.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,88.0,0,327.4247,1,1,0.2688,88.0,88.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,90.0,0,327.4247,2,1,0.2749,45.0,90.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,18,98.2274,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,16,87.3133,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,15,83.6752,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,25.4664,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,269.5415,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,2.0,0,114.0368,1,1,0.0175,2.0,2.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,2.0,0,110.5811,1,1,0.0181,2.0,2.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,2.0,0,103.6698,1,1,0.0193,2.0,2.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Arochukwu,South East,Abia,Arochukwu,,,209.0,0,345.566,3,1,0.6048,69.6667,209.0,2,1,0,2,3,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Arochukwu,South East,Abia,Arochukwu,,,200.0,0,331.7433,3,1,0.6029,66.6667,200.0,2,1,0,2,3,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Arochukwu,South East,Abia,Arochukwu,,,194.0,0,321.3764,2,1,0.6037,97.0,194.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Arochukwu,South East,Abia,Arochukwu,,,189.0,0,311.0094,3,1,0.6077,63.0,189.0,2,1,0,2,3,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Arochukwu,South East,Abia,Arochukwu,,,190.0,0,314.465,4,1,0.6042,47.5,190.0,3,2,0,3,3,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Arochukwu,South East,Abia,Arochukwu,,,190.0,0,314.465,3,1,0.6042,63.3333,190.0,2,1,0,2,3,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,38,58.7462,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,35,55.2906,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,33,51.8349,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Arochukwu,South East,Abia,Arochukwu,,,0.0,0,10.367,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,905.8751,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,8.0,0,1211.4715,5,3,0.0066,1.6,2.6667,4,2,0,4,4,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,8.0,0,1142.3485,6,3,0.007,1.3333,2.6667,5,3,0,5,5,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,7.0,0,1109.6061,5,3,0.0063,1.4,2.3333,4,2,0,4,4,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,920.0,0,3401.5792,13,5,0.2705,70.7692,184.0,10,6,0,10,11,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,885.0,0,3266.9713,22,4,0.2709,40.2273,221.25,17,9,0,17,19,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,859.0,0,3172.3819,18,4,0.2708,47.7222,214.75,14,8,0,14,15,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,834.0,0,3077.7925,17,4,0.271,49.0588,208.5,13,7,0,13,14,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,839.0,0,3095.9828,15,4,0.271,55.9333,209.75,12,6,0,12,13,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,839.0,0,3095.9828,11,4,0.271,76.2727,209.75,9,5,0,8,9,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,162,887.6848,3,1,0.0,0.0,0.0,2,1,0,2,3,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,149,818.5618,5,1,0.0,0.0,0.0,4,2,0,4,4,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,139,763.9911,4,1,0.0,0.0,0.0,3,2,0,3,3,0,48.02
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,116.4177,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,1897.1572,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,17.0,0,1136.9121,9,8,0.015,1.8889,2.125,7,4,0,7,8,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,16.0,0,1071.2545,9,8,0.0149,1.7778,2.0,7,4,0,7,8,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,16.0,0,1043.6093,9,8,0.0153,1.7778,2.0,7,4,0,7,8,0,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,1957.0,0,3258.6872,38,12,0.6005,51.5,163.0833,30,16,0,29,32,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,1878.0,0,3130.8278,31,11,0.5998,60.5806,170.7273,24,13,0,24,26,0,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,1824.0,0,3037.5249,20,11,0.6005,91.2,165.8182,16,9,0,15,17,0,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,1769.0,0,2947.6778,22,11,0.6001,80.4091,160.8182,17,9,0,17,19,0,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,1781.0,0,2964.9561,23,11,0.6007,77.4348,161.9091,18,10,0,18,20,0,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,1780.0,0,2964.9561,24,11,0.6003,74.1667,161.8182,19,10,0,18,20,0,48.02
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,344,528.7159,7,2,0.0,0.0,0.0,5,3,0,5,6,0,48.02
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,315,483.7924,6,2,0.0,0.0,0.0,5,3,0,5,5,0,48.02
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,296,456.1471,6,1,0.0,0.0,0.0,5,3,0,5,5,0,48.02
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,48.3792,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,1153.2627,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,9.0,0,1142.3485,5,3,0.0079,1.8,3.0,4,2,0,4,4,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,8.0,0,1073.2255,5,2,0.0075,1.6,4.0,4,2,0,4,4,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,8.0,0,1044.1211,4,2,0.0077,2.0,4.0,3,2,0,3,3,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,914.0,0,3361.5606,13,5,0.2719,70.3077,182.8,10,6,0,10,11,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,877.0,0,3226.9527,22,4,0.2718,39.8636,219.25,17,9,0,17,19,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,852.0,0,3136.0014,18,4,0.2717,47.3333,213.0,14,8,0,14,15,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,827.0,0,3041.412,17,4,0.2719,48.6471,206.75,13,7,0,13,14,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,832.0,0,3059.6023,15,4,0.2719,55.4667,208.0,12,6,0,12,13,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,832.0,0,3059.6023,11,4,0.2719,75.6364,208.0,9,5,0,8,9,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,167,916.7893,3,1,0.0,0.0,0.0,2,1,0,2,3,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,153,840.3902,5,1,0.0,0.0,0.0,4,2,0,4,4,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,144,789.4574,4,1,0.0,0.0,0.0,3,2,0,3,3,0,48.02
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,196.4548,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,2384.4052,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,18.0,0,1071.2545,9,8,0.0168,2.0,2.25,7,4,0,7,8,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,17.0,0,1009.0527,8,7,0.0168,2.125,2.4286,6,3,0,6,7,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,17.0,0,977.9517,8,7,0.0174,2.125,2.4286,6,3,0,6,7,0,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,1941.0,0,3220.6749,37,12,0.6027,52.4595,161.75,29,16,0,28,31,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,1864.0,0,3092.8155,30,11,0.6027,62.1333,169.4545,23,13,0,23,26,0,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,1809.0,0,3002.9683,20,11,0.6024,90.45,164.4545,16,9,0,15,17,0,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,1755.0,0,2913.1212,22,10,0.6024,79.7727,175.5,17,9,0,17,19,0,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,1766.0,0,2930.3995,23,10,0.6026,76.7826,176.6,18,10,0,18,20,0,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,1765.0,0,2930.3995,23,10,0.6023,76.7391,176.5,18,10,0,18,20,0,48.02
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,355,545.9942,7,2,0.0,0.0,0.0,5,3,0,5,6,0,48.02
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,326,501.0707,6,2,0.0,0.0,0.0,5,3,0,5,5,0,48.02
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,306,469.9697,6,1,0.0,0.0,0.0,5,3,0,5,5,0,48.02
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,86.3915,2,1,0.0,0.0,0.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,54.5708,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,80.0372,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,72.7611,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,72.7611,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,60.0,0,218.2832,1,1,0.2749,60.0,60.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,57.0,0,211.0071,1,1,0.2701,57.0,57.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,55.0,0,203.7309,1,1,0.27,55.0,55.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,53.0,0,196.4548,1,1,0.2698,53.0,53.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,55.0,0,200.0929,1,1,0.2749,55.0,55.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,53.0,0,200.0929,1,1,0.2649,53.0,53.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,11,61.8469,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,10,54.5708,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,9,47.2947,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,7.2761,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,134.7707,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,1.0,0,72.5689,1,1,0.0138,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,1.0,0,69.1132,1,1,0.0145,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,1.0,0,69.1132,1,1,0.0145,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,128.0,0,210.7952,3,1,0.6072,42.6667,128.0,2,1,0,2,3,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,121.0,0,203.8839,2,1,0.5935,60.5,121.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,118.0,0,196.9726,1,1,0.5991,118.0,118.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,115.0,0,190.0613,1,1,0.6051,115.0,115.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,116.0,0,193.5169,2,1,0.5994,58.0,116.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,116.0,0,193.5169,2,1,0.5994,58.0,116.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,22,34.5566,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,20,31.1009,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,19,27.6453,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,83.6752,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,72.7611,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,69.123,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,69.123,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,60.0,0,218.2832,1,1,0.2749,60.0,60.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,57.0,0,211.0071,1,1,0.2701,57.0,57.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,55.0,0,203.7309,1,1,0.27,55.0,55.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,53.0,0,196.4548,1,1,0.2698,53.0,53.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,55.0,0,200.0929,1,1,0.2749,55.0,55.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,53.0,0,200.0929,1,1,0.2649,53.0,53.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,11,61.8469,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,10,54.5708,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,9,47.2947,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,18.1903,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,162.416,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,1.0,0,69.1132,1,1,0.0145,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,1.0,0,65.6575,1,1,0.0152,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,1.0,0,62.2019,1,1,0.0161,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia North,South East,Abia,Umuahia North,,,127.0,0,210.7952,2,1,0.6025,63.5,127.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia North,South East,Abia,Umuahia North,,,122.0,0,200.4283,2,1,0.6087,61.0,122.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia North,South East,Abia,Umuahia North,,,117.0,0,193.5169,1,1,0.6046,117.0,117.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia North,South East,Abia,Umuahia North,,,113.0,0,190.0613,1,1,0.5945,113.0,113.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia North,South East,Abia,Umuahia North,,,115.0,0,190.0613,2,1,0.6051,57.5,115.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia North,South East,Abia,Umuahia North,,,115.0,0,190.0613,2,1,0.6051,57.5,115.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,23,34.5566,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,21,31.1009,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,20,31.1009,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Umuahia North,South East,Abia,Umuahia North,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,1044.1211,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,9.0,0,1389.7361,7,1,0.0065,1.2857,9.0,5,3,0,5,6,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,9.0,0,1316.9751,6,1,0.0068,1.5,9.0,5,3,0,5,5,0,48.02
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,8.0,0,1273.3184,5,1,0.0063,1.6,8.0,4,2,0,4,4,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,1056.0,0,3899.9924,24,13,0.2708,44.0,81.2308,19,10,0,18,20,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,1015.0,0,3747.1942,23,12,0.2709,44.1304,84.5833,18,10,0,18,20,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,985.0,0,3634.4146,18,12,0.271,54.7222,82.0833,14,8,0,14,15,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,955.0,0,3525.273,14,11,0.2709,68.2143,86.8182,11,6,0,11,12,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,962.0,0,3547.1013,17,11,0.2712,56.5882,87.4545,13,7,0,13,14,0,48.02
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,960.0,0,3547.1013,15,11,0.2706,64.0,87.2727,12,6,0,12,13,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,185,1015.0167,4,1,0.0,0.0,0.0,3,2,0,3,3,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,170,931.3415,4,1,0.0,0.0,0.0,3,2,0,3,3,0,48.02
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,160,876.7707,5,1,0.0,0.0,0.0,4,2,0,4,4,0,48.02
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,130.9699,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,2170.1543,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,19.0,0,1306.2394,13,2,0.0145,1.4615,9.5,10,6,0,10,11,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,18.0,0,1230.2149,8,2,0.0146,2.25,9.0,6,3,0,6,7,0,48.02
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,18.0,0,1192.2026,10,2,0.0151,1.8,9.0,8,4,0,8,8,0,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,2246.0,0,3739.0239,28,10,0.6007,80.2143,224.6,22,12,0,22,24,0,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,2156.0,0,3590.4305,37,9,0.6005,58.2703,239.5556,29,16,0,28,31,1,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,2093.0,0,3486.7607,30,9,0.6003,69.7667,232.5556,23,13,0,23,26,0,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,2030.0,0,3379.6353,23,9,0.6007,88.2609,225.5556,18,10,0,18,20,0,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,2043.0,0,3403.8249,28,9,0.6002,72.9643,227.0,22,12,0,22,24,0,48.02
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,2043.0,0,3403.8249,28,9,0.6002,72.9643,227.0,22,12,0,22,24,0,48.02
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,395,608.1961,11,3,0.0,0.0,0.0,9,5,0,8,9,0,48.02
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,362,556.3612,9,3,0.0,0.0,0.0,7,4,0,7,8,0,48.02
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,340,525.2603,6,2,0.0,0.0,0.0,5,3,0,5,5,0,48.02
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,58.7462,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,1316.9751,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,10.0,0,1309.6989,6,1,0.0076,1.6667,10.0,5,3,0,5,5,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,9.0,0,1236.9379,6,1,0.0073,1.5,9.0,5,3,0,5,5,0,48.02
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,9.0,0,1196.9193,5,1,0.0075,1.8,9.0,4,2,0,4,4,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,1047.0,0,3852.6977,24,12,0.2718,43.625,87.25,19,10,0,18,20,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,1007.0,0,3703.5376,23,12,0.2719,43.7826,83.9167,18,10,0,18,20,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,977.0,0,3594.396,18,12,0.2718,54.2778,81.4167,14,8,0,14,15,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,947.0,0,3485.2544,14,11,0.2717,67.6429,86.0909,11,6,0,11,12,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,954.0,0,3507.0827,17,11,0.272,56.1176,86.7273,13,7,0,13,14,0,48.02
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,954.0,0,3507.0827,15,11,0.272,63.6,86.7273,12,6,0,12,13,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,192,1055.0353,5,1,0.0,0.0,0.0,4,2,0,4,4,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,176,964.0839,5,1,0.0,0.0,0.0,4,2,0,4,4,0,48.02
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,165,905.8751,5,1,0.0,0.0,0.0,4,2,0,4,4,0,48.02
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,221.9212,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,2764.5278,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,21.0,0,1230.2149,12,2,0.0171,1.75,10.5,9,5,0,9,10,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,20.0,0,1161.1017,7,2,0.0172,2.8571,10.0,5,3,0,5,6,0,48.02
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,19.0,0,1123.0894,9,2,0.0169,2.1111,9.5,7,4,0,7,8,0,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,2227.0,0,3694.1003,28,10,0.6029,79.5357,222.7,22,12,0,22,24,0,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,2139.0,0,3548.9626,37,9,0.6027,57.8108,237.6667,29,16,0,28,31,1,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,2076.0,0,3445.2928,29,9,0.6026,71.5862,230.6667,23,12,0,22,25,0,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,2014.0,0,3341.623,23,9,0.6027,87.5652,223.7778,18,10,0,18,20,0,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,2026.0,0,3362.357,28,9,0.6026,72.3571,225.1111,22,12,0,22,24,0,48.02
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,2026.0,0,3362.357,27,9,0.6026,75.037,225.1111,21,12,0,21,23,0,48.02
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,408,628.9301,11,3,0.0,0.0,0.0,9,5,0,8,9,0,48.02
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,373,573.6395,9,3,0.0,0.0,0.0,7,4,0,7,8,0,48.02
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,351,542.5386,7,3,0.0,0.0,0.0,5,3,0,5,6,0,48.02
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,96.7585,2,1,0.0,0.0,0.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,83.6752,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,1.0,0,90.9513,1,1,0.011,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,87.3133,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,80.0372,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,68.0,0,251.0256,2,1,0.2709,34.0,68.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,67.0,0,243.7495,2,1,0.2749,33.5,67.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,63.0,0,236.4734,1,1,0.2664,63.0,63.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,62.0,0,229.1973,1,1,0.2705,62.0,62.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,63.0,0,229.1973,1,1,0.2749,63.0,63.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,62.0,0,229.1973,1,1,0.2705,62.0,62.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,12,65.4849,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,11,61.8469,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,10,54.5708,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,7.2761,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,134.7707,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,1.0,0,86.3915,1,1,0.0116,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,1.0,0,79.4802,1,1,0.0126,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,1.0,0,76.0245,1,1,0.0132,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,146.0,0,241.8962,2,1,0.6036,73.0,146.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,140.0,0,234.9849,2,1,0.5958,70.0,140.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,136.0,0,228.0735,2,1,0.5963,68.0,136.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,133.0,0,221.1622,2,1,0.6014,66.5,133.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,133.0,0,221.1622,2,1,0.6014,66.5,133.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,133.0,0,221.1622,2,1,0.6014,66.5,133.0,2,1,0,2,2,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,26,41.4679,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,24,38.0123,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,22,34.5566,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,83.6752,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,1.0,0,87.3133,1,1,0.0115,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,1.0,0,80.0372,1,1,0.0125,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,1.0,0,80.0372,1,1,0.0125,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,68.0,0,251.0256,2,1,0.2709,34.0,68.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,67.0,0,240.1115,2,1,0.279,33.5,67.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,63.0,0,236.4734,1,1,0.2664,63.0,63.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,62.0,0,229.1973,1,1,0.2705,62.0,62.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,62.0,0,229.1973,1,1,0.2705,62.0,62.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,62.0,0,229.1973,1,1,0.2705,62.0,62.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,12,65.4849,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,11,61.8469,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,11,61.8469,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,18.1903,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,186.6056,0,1,0.0,0.0,0.0,0,0,0,0,0,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,1.0,0,79.4802,1,1,0.0126,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,1.0,0,72.5689,1,1,0.0138,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,1.0,0,76.0245,1,1,0.0132,1.0,1.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Umuahia South,South East,Abia,Umuahia South,,,145.0,0,241.8962,2,1,0.5994,72.5,145.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Umuahia South,South East,Abia,Umuahia South,,,138.0,0,231.5292,2,1,0.596,69.0,138.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Umuahia South,South East,Abia,Umuahia South,,,135.0,0,224.6179,2,1,0.601,67.5,135.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Umuahia South,South East,Abia,Umuahia South,,,132.0,0,217.7066,1,1,0.6063,132.0,132.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Umuahia South,South East,Abia,Umuahia South,,,132.0,0,217.7066,2,1,0.6063,66.0,132.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Umuahia South,South East,Abia,Umuahia South,,,132.0,0,217.7066,2,1,0.6063,66.0,132.0,2,1,0,2,2,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,27,41.4679,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,24,38.0123,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,23,34.5566,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Umuahia South,South East,Abia,Umuahia South,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,1,0,0,1,1,0,48.02

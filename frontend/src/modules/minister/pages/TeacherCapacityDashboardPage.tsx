@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Dispatch, ReactNode, SetStateAction } from "react";
 import Plot from "react-plotly.js";
 import {
@@ -284,8 +284,23 @@ function titleGrandTotal(label: string, value: number): string {
   return `Grand Total: ${fmtInt(value)} ${label}`;
 }
 
-const ACCESS_PRIMARY_STUDENTS_TOTAL = 23_894_885;
-const ACCESS_TOTAL_STUDENTS_BASIC_SENIOR_SECONDARY = 32_263_190;
+const ACCESS_PRIMARY_STUDENTS_TOTAL = 24_112_364;
+const ACCESS_TOTAL_STUDENTS_BASIC_SENIOR_SECONDARY = 32_483_855;
+
+const NATIONAL_TEACHER_ANCHORS = {
+  total: 1_124_820,
+  public: 422_766,
+  publicMale: 219_323,
+  publicFemale: 203_443,
+  private: 547_603,
+  privateMale: 223_192,
+  privateFemale: 324_411,
+} as const;
+
+const teacherAnchorUnclassifiedTotal = Math.max(
+  0,
+  NATIONAL_TEACHER_ANCHORS.total - NATIONAL_TEACHER_ANCHORS.public - NATIONAL_TEACHER_ANCHORS.private,
+);
 
 function horizontalValueAxis(rangeMax: number): Record<string, unknown> {
   return {
@@ -305,6 +320,7 @@ const COLORS = {
   bg: "rgba(0,0,0,0)",
   public: "#2563eb",
   private: "#10b981",
+  unclassified: "#94a3b8",
   qualified: "#7c3aed",
   unqualified: "#f97316",
   benchmark: "#ef4444",
@@ -316,7 +332,7 @@ const COLORS = {
 
 const SCHOOL_LEVEL_ORDER = ["Pre/Primary", "JSS", "SSS", "Non Formal"] as const;
 const GENDER_ORDER = ["Male", "Female"] as const;
-const SCHOOL_TYPE_ORDER = ["Public", "Private"] as const;
+const SCHOOL_TYPE_ORDER = ["Public", "Private", "Unclassified"] as const;
 const QUALIFICATION_GROUP_ORDER = [
   "NCE",
   "PGDE",
@@ -401,6 +417,15 @@ function normalizeTeacherSchoolLevel(value: string): string {
   if (value === "JSS") return "JSS";
   if (value === "SSS") return "SSS";
   return value;
+}
+
+function isKnownSchoolType(value: string): boolean {
+  return value === "Public" || value === "Private";
+}
+
+function normalizeTeacherSchoolType(value: string): "Public" | "Private" | "Unclassified" {
+  if (value === "Public" || value === "Private") return value;
+  return "Unclassified";
 }
 
 function fmtDelta(value: number | null | undefined): string {
@@ -1066,6 +1091,8 @@ function buildPupilTeacherRatioBySchoolTypeChart(
     publicTeachers: number;
     privateStudents: number;
     privateTeachers: number;
+    unclassifiedStudents: number;
+    unclassifiedTeachers: number;
   }>();
   const createTotals = () => ({
     students: 0,
@@ -1074,6 +1101,8 @@ function buildPupilTeacherRatioBySchoolTypeChart(
     publicTeachers: 0,
     privateStudents: 0,
     privateTeachers: 0,
+    unclassifiedStudents: 0,
+    unclassifiedTeachers: 0,
   });
 
   ensureLocationBuckets(bucket, resolved.rows, filters, resolved.level, createTotals);
@@ -1092,6 +1121,9 @@ function buildPupilTeacherRatioBySchoolTypeChart(
     } else if (row.school_type === "Private") {
       previous.privateStudents += students;
       previous.privateTeachers += teachers;
+    } else {
+      previous.unclassifiedStudents += students;
+      previous.unclassifiedTeachers += teachers;
     }
     bucket.set(label, previous);
   });
@@ -1105,10 +1137,13 @@ function buildPupilTeacherRatioBySchoolTypeChart(
       ratio: weightedRatio(totals.students, totals.teachers),
       publicRatio: weightedRatio(totals.publicStudents, totals.publicTeachers),
       privateRatio: weightedRatio(totals.privateStudents, totals.privateTeachers),
+      unclassifiedRatio: weightedRatio(totals.unclassifiedStudents, totals.unclassifiedTeachers),
       publicStudents: totals.publicStudents,
       publicTeachers: totals.publicTeachers,
       privateStudents: totals.privateStudents,
       privateTeachers: totals.privateTeachers,
+      unclassifiedStudents: totals.unclassifiedStudents,
+      unclassifiedTeachers: totals.unclassifiedTeachers,
     })),
     sortMode,
     (item) => item.ratio,
@@ -1118,7 +1153,11 @@ function buildPupilTeacherRatioBySchoolTypeChart(
   if (!grouped.length) return null;
 
   const height = Math.max(560, grouped.length * 42 + 140);
-  const maxStackedRatio = Math.max(...grouped.map((item) => item.publicRatio + item.privateRatio), UBEC_PRIMARY_BENCHMARK.value, 0);
+  const maxStackedRatio = Math.max(
+    ...grouped.map((item) => item.publicRatio + item.privateRatio),
+    UBEC_PRIMARY_BENCHMARK.value,
+    0,
+  );
   const publicVisualRatios = minVisibleStackValues(grouped.map((item) => item.publicRatio), maxStackedRatio, 0.08);
   const privateVisualRatios = minVisibleStackValues(grouped.map((item) => item.privateRatio), maxStackedRatio, 0.08);
   const maxVisualStackedRatio = Math.max(
@@ -1213,8 +1252,8 @@ function buildPublicPrivateByLocationChart(
   sortMode: SortMode = DEFAULT_SORT_MODE,
 ): LocationChartResult | null {
   const resolved = resolveLocationRows(rows, filters, "state");
-  const bucket = new Map<string, { publicValue: number; privateValue: number }>();
-  const createTotals = () => ({ publicValue: 0, privateValue: 0 });
+  const bucket = new Map<string, { publicValue: number; privateValue: number; unclassifiedValue: number }>();
+  const createTotals = () => ({ publicValue: 0, privateValue: 0, unclassifiedValue: 0 });
 
   ensureLocationBuckets(bucket, resolved.rows, filters, resolved.level, createTotals);
 
@@ -1223,11 +1262,14 @@ function buildPublicPrivateByLocationChart(
     if (!label) return;
     const previous = bucket.get(label) ?? createTotals();
     const delta = safeNum(row[valueKey]);
+    const schoolType = normalizeTeacherSchoolType(row.school_type);
 
-    if (row.school_type === "Private") {
+    if (schoolType === "Public") {
+      previous.publicValue += delta;
+    } else if (schoolType === "Private") {
       previous.privateValue += delta;
     } else {
-      previous.publicValue += delta;
+      previous.unclassifiedValue += delta;
     }
 
     bucket.set(label, previous);
@@ -1238,7 +1280,7 @@ function buildPublicPrivateByLocationChart(
       label,
       displayLabel: displayLocationLabel(label, resolved.level),
       ...totals,
-      total: totals.publicValue + totals.privateValue,
+      total: totals.publicValue + totals.privateValue + totals.unclassifiedValue,
     })),
     sortMode,
     (item) => item.total,
@@ -1248,10 +1290,13 @@ function buildPublicPrivateByLocationChart(
   if (!grouped.length) return null;
 
   const height = Math.max(560, grouped.length * 42 + 140);
-  const maxTotal = Math.max(...grouped.map((item) => item.total), 0);
+  const maxTotal = Math.max(...grouped.map((item) => item.publicValue + item.privateValue), 0);
   const publicVisualValues = minVisibleStackValues(grouped.map((item) => item.publicValue), maxTotal, 0.065);
   const privateVisualValues = minVisibleStackValues(grouped.map((item) => item.privateValue), maxTotal, 0.065);
-  const maxVisualTotal = Math.max(...publicVisualValues.map((value, index) => value + (privateVisualValues[index] ?? 0)), 0);
+  const maxVisualTotal = Math.max(
+    ...publicVisualValues.map((value, index) => value + (privateVisualValues[index] ?? 0)),
+    0,
+  );
 
   const data: PlotDatum[] = [
     {
@@ -1435,18 +1480,36 @@ function buildQualifiedUnqualifiedByLocationChart(
 }
 
 function buildPupilTeacherRatioBySchoolLevel(rows: TeacherCapacityRow[]): ChartBundle | null {
-  const bucket = new Map<string, { publicStudents: number; publicTeachers: number; privateStudents: number; privateTeachers: number }>();
+  const bucket = new Map<string, {
+    publicStudents: number;
+    publicTeachers: number;
+    privateStudents: number;
+    privateTeachers: number;
+    unclassifiedStudents: number;
+    unclassifiedTeachers: number;
+  }>();
 
   rows.forEach((row) => {
     const level = normalizeTeacherSchoolLevel(row.school_level);
     if (!level) return;
-    const previous = bucket.get(level) ?? { publicStudents: 0, publicTeachers: 0, privateStudents: 0, privateTeachers: 0 };
-    if (row.school_type === "Private") {
+    const previous = bucket.get(level) ?? {
+      publicStudents: 0,
+      publicTeachers: 0,
+      privateStudents: 0,
+      privateTeachers: 0,
+      unclassifiedStudents: 0,
+      unclassifiedTeachers: 0,
+    };
+    const schoolType = normalizeTeacherSchoolType(row.school_type);
+    if (schoolType === "Private") {
       previous.privateStudents += safeNum(row.student_count);
       previous.privateTeachers += safeNum(row.teacher_count);
-    } else {
+    } else if (schoolType === "Public") {
       previous.publicStudents += safeNum(row.student_count);
       previous.publicTeachers += safeNum(row.teacher_count);
+    } else {
+      previous.unclassifiedStudents += safeNum(row.student_count);
+      previous.unclassifiedTeachers += safeNum(row.teacher_count);
     }
     bucket.set(level, previous);
   });
@@ -1462,7 +1525,6 @@ function buildPupilTeacherRatioBySchoolLevel(rows: TeacherCapacityRow[]): ChartB
     const item = bucket.get(level);
     return weightedRatio(item?.privateStudents ?? 0, item?.privateTeachers ?? 0);
   });
-
   const benchmarkValues = [35, 40];
 
   const maxRatio = Math.max(...publicRatios, ...privateRatios, ...benchmarkValues, 0);
@@ -1527,16 +1589,19 @@ function buildPupilTeacherRatioBySchoolLevel(rows: TeacherCapacityRow[]): ChartB
 }
 
 function buildTeacherSplitBySchoolLevel(rows: TeacherCapacityRow[]): ChartBundle | null {
-  const bucket = new Map<string, { publicTeachers: number; privateTeachers: number }>();
+  const bucket = new Map<string, { publicTeachers: number; privateTeachers: number; unclassifiedTeachers: number }>();
 
   rows.forEach((row) => {
     const level = normalizeTeacherSchoolLevel(row.school_level);
     if (!level) return;
-    const previous = bucket.get(level) ?? { publicTeachers: 0, privateTeachers: 0 };
-    if (row.school_type === "Private") {
+    const previous = bucket.get(level) ?? { publicTeachers: 0, privateTeachers: 0, unclassifiedTeachers: 0 };
+    const schoolType = normalizeTeacherSchoolType(row.school_type);
+    if (schoolType === "Private") {
       previous.privateTeachers += safeNum(row.teacher_count);
-    } else {
+    } else if (schoolType === "Public") {
       previous.publicTeachers += safeNum(row.teacher_count);
+    } else {
+      previous.unclassifiedTeachers += safeNum(row.teacher_count);
     }
     bucket.set(level, previous);
   });
@@ -1546,7 +1611,7 @@ function buildTeacherSplitBySchoolLevel(rows: TeacherCapacityRow[]): ChartBundle
 
   const totalTeachers = orderedLevels.reduce((sum, level) => {
     const item = bucket.get(level);
-    return sum + safeNum(item?.publicTeachers) + safeNum(item?.privateTeachers);
+    return sum + safeNum(item?.publicTeachers) + safeNum(item?.privateTeachers) + safeNum(item?.unclassifiedTeachers);
   }, 0);
 
   const layout = buildCommonLayout(360);
@@ -2120,6 +2185,10 @@ export default function TeacherCapacityDashboard({
     () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}|${filters.school}`,
     [filters.state, filters.lga, filters.ward, filters.school],
   );
+  const requestedDepth = useMemo(
+    () => (filters.ward ? "ward" : scopeDepthForLocation({ state: filters.state, lga: filters.lga, ward: filters.ward, school: filters.school })),
+    [filters.state, filters.lga, filters.ward, filters.school],
+  );
   const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
   const [loadedLocation, setLoadedLocation] = useState({
     state: filters.state,
@@ -2150,10 +2219,8 @@ export default function TeacherCapacityDashboard({
       try {
         setLoading(true);
         setError(null);
-        const depth = filters.ward ? "ward" : scopeDepthForLocation(filters);
-
         const [teacherRows, benchmarkRows] = await Promise.all([
-          loadRefinedScopedRows<TeacherCapacityRow>("teacher_capacity", filters.state, depth),
+          loadRefinedScopedRows<TeacherCapacityRow>("teacher_capacity", filters.state, requestedDepth),
           loadRefinedFile<TeacherBenchmarkRow>("dimensions/dim_teacher_capacity_benchmarks.csv"),
         ]);
 
@@ -2179,7 +2246,7 @@ export default function TeacherCapacityDashboard({
     return () => {
       alive = false;
     };
-  }, [filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey]);
+  }, [filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey, requestedDepth]);
 
   useEffect(() => {
     if (!expandState) return undefined;
@@ -2263,22 +2330,29 @@ export default function TeacherCapacityDashboard({
       .reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
     const students = currentStudentRows.reduce((sum, row) => sum + safeNum(row.student_count), 0);
     const teachers = currentTeacherRows.reduce((sum, row) => sum + safeNum(row.teacher_count), 0);
+    const unclassifiedTeachers = totalTeachers === NATIONAL_TEACHER_ANCHORS.total ? teacherAnchorUnclassifiedTotal : Math.max(0, totalTeachers - publicTeachers - privateTeachers);
     const publicStudents = currentStudentRows
       .filter((row) => row.school_type === "Public")
       .reduce((sum, row) => sum + safeNum(row.student_count), 0);
     const privateStudents = currentStudentRows
       .filter((row) => row.school_type === "Private")
       .reduce((sum, row) => sum + safeNum(row.student_count), 0);
+    const unclassifiedStudents = currentStudentRows
+      .filter((row) => !isKnownSchoolType(row.school_type))
+      .reduce((sum, row) => sum + safeNum(row.student_count), 0);
     return [
       {
         label: "Total Teachers",
         value: fmtInt(totalTeachers),
-        help: "All teachers captured .",
+        help: "Teachers Breakdown.",
         breakdown: [
           { label: "Public Teachers", value: fmtInt(publicTeachers) },
+          { label: "Public Male", value: fmtInt(publicMaleTeachers) },
+          { label: "Public Female", value: fmtInt(publicFemaleTeachers) },
           { label: "Private Teachers", value: fmtInt(privateTeachers) },
-          { label: "Male Teachers", value: fmtInt(maleTeachers) },
-          { label: "Female Teachers", value: fmtInt(femaleTeachers) },
+          { label: "Private Male", value: fmtInt(privateMaleTeachers) },
+          { label: "Private Female", value: fmtInt(privateFemaleTeachers) },
+    
         ],
         icon: <School className="h-5 w-5" />,
         accent: COLORS.public,
@@ -2317,6 +2391,7 @@ export default function TeacherCapacityDashboard({
           { label: "Total Teachers", value: fmtInt(teachers) },
           { label: "Public PTR", value: fmtRatio(weightedRatio(publicStudents, publicTeachers)) },
           { label: "Private PTR", value: fmtRatio(weightedRatio(privateStudents, privateTeachers)) },
+
         ],
         icon: <BadgePercent className="h-5 w-5" />,
         accent: COLORS.ratio,
@@ -2325,26 +2400,32 @@ export default function TeacherCapacityDashboard({
     ];
   }, [currentTeacherRows, currentStudentRows]);
 
-  const chartSortMode = (chartKey: SortableChartKey) => sortModes[chartKey] ?? DEFAULT_SORT_MODE;
-  const updateChartSortMode = (chartKey: SortableChartKey, mode: SortMode) => {
+  const chartSortMode = useCallback(
+    (chartKey: SortableChartKey) => sortModes[chartKey] ?? DEFAULT_SORT_MODE,
+    [sortModes],
+  );
+  const updateChartSortMode = useCallback((chartKey: SortableChartKey, mode: SortMode) => {
     setSortModes((previous) => ({ ...previous, [chartKey]: mode }));
-  };
-  const renderSortControl = (chartKey: SortableChartKey) => (
-    <ChartSortControl value={chartSortMode(chartKey)} onChange={(mode) => updateChartSortMode(chartKey, mode)} />
+  }, []);
+  const renderSortControl = useCallback(
+    (chartKey: SortableChartKey) => (
+      <ChartSortControl value={chartSortMode(chartKey)} onChange={(mode) => updateChartSortMode(chartKey, mode)} />
+    ),
+    [chartSortMode, updateChartSortMode],
   );
 
   const ptrSchoolTypeChart = useMemo(
     () => buildPupilTeacherRatioBySchoolTypeChart(studentRows, renderFilters, chartSortMode("ptrState")),
-    [studentRows, renderFilters, sortModes],
+    [studentRows, renderFilters, chartSortMode],
   );
   const ptrSchoolLevelChart = useMemo(() => buildPupilTeacherRatioBySchoolLevel(studentRows), [studentRows]);
   const teachersStateChart = useMemo(
     () => buildPublicPrivateByLocationChart(teacherRows, renderFilters, "teacher_count", "Teachers", chartSortMode("teachersState")),
-    [teacherRows, renderFilters, sortModes],
+    [teacherRows, renderFilters, chartSortMode],
   );
   const studentsStateChart = useMemo(
     () => buildPublicPrivateByLocationChart(studentRows, renderFilters, "student_count", "Students", chartSortMode("studentsState")),
-    [studentRows, renderFilters, sortModes],
+    [studentRows, renderFilters, chartSortMode],
   );
   const teacherSplitChart = useMemo(() => buildTeacherSplitBySchoolLevel(teacherRows), [teacherRows]);
   const qualificationGroupChart = useMemo(() => buildQualificationGroupDonut(qualificationRows), [qualificationRows]);
@@ -2354,7 +2435,7 @@ export default function TeacherCapacityDashboard({
   );
   const qualificationStateChart = useMemo(
     () => buildQualifiedUnqualifiedByLocationChart(qualificationRows, renderFilters, chartSortMode("qualificationState")),
-    [qualificationRows, renderFilters, sortModes],
+    [qualificationRows, renderFilters, chartSortMode],
   );
   const qualificationGenderChart = useMemo(() => buildQualifiedRateByGender(qualificationRows), [qualificationRows]);
   const qualificationSchoolTypeChart = useMemo(
@@ -2365,14 +2446,14 @@ export default function TeacherCapacityDashboard({
 
   const qualificationTrendChart = useMemo(() => buildQualificationTrend(trendRows, dimSessions), [trendRows, dimSessions]);
 
-  const handleLocationChartClick = (result: LocationChartResult | null, event: PlotPointEvent) => {
+  const handleLocationChartClick = useCallback((result: LocationChartResult | null, event: PlotPointEvent) => {
     if (!result) return;
     const label = extractPointLabel(event);
     if (!label) return;
     syncFiltersForDrill(setFilters, result.level, label);
-  };
+  }, [setFilters]);
 
-  const resetDrill = () => resetLocationFilters(setFilters);
+  const resetDrill = useCallback(() => resetLocationFilters(setFilters), [setFilters]);
 
   const expandedEntry = useMemo<ExpandedEntry | undefined>(() => {
     if (!expandState) return undefined;
@@ -2430,6 +2511,7 @@ export default function TeacherCapacityDashboard({
     qualificationGenderChart,
     qualificationSchoolTypeChart,
     qualificationTrendChart,
+    handleLocationChartClick,
   ]);
 
   const expandedBundle = expandedEntry?.bundle;

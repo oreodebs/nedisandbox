@@ -20,7 +20,9 @@ import {
 import type { DimSession, MinisterFilters } from "../types";
 import {
   canonicalState,
+  expectedLocLevelForLocation,
   loadRefinedScopedRows,
+  scopeDepthForLocation,
 } from "../utils/refinedPageData";
 import {
   PERFORMANCE_SESSIONS,
@@ -355,28 +357,23 @@ function round1(value: number): number {
   return Math.round(value * 10) / 10;
 }
 
+function roundSessionDelta(value: number): number {
+  if (!Number.isFinite(value)) return 0;
+  const rounded = round1(value);
+  if (rounded === 0 && value !== 0) return value > 0 ? 0.1 : -0.1;
+  return rounded;
+}
+
+function sessionDelta(current: number, previous: number | null | undefined): number | null {
+  if (previous === null || previous === undefined || !Number.isFinite(previous)) return null;
+  return roundSessionDelta(current - previous);
+}
+
 function fmtDelta(value: number | null): string {
   if (value === null || !Number.isFinite(value)) return "—";
+  if (value === 0) return "No change";
   const sign = value > 0 ? "+" : "";
   return `${sign}${value.toFixed(1)}%`;
-}
-
-function ratePointDelta(current: number, previous: number | null): number | null {
-  if (previous === null || !Number.isFinite(previous)) return null;
-  const value = round1(current - previous);
-  return Object.is(value, -0) ? 0 : value;
-}
-
-function rateDeltaWithCountFallback(
-  currentRate: number,
-  previousRate: number | null,
-  currentCount: number,
-  previousCount: number,
-): number | null {
-  const pointDelta = ratePointDelta(currentRate, previousRate);
-  if (pointDelta === null) return null;
-  if (Math.abs(pointDelta) >= 0.1 || previousCount <= 0 || currentCount === previousCount) return pointDelta;
-  return round1(((currentCount - previousCount) / previousCount) * 100);
 }
 
 function fmtInt(value: number): string {
@@ -584,37 +581,19 @@ function locationLabel(row: PerformanceRow, level: LocationLevel): string {
   return row.school;
 }
 
-type WardFinalScopeDepth = "top" | "lga" | "ward";
-
-function expectedWardFinalLocLevel(filters: MinisterFilters): LocationLevel {
-  if (filters.lga || filters.ward) return "ward";
-  if (filters.state) return "lga";
-  return "state";
-}
-
-function scopeDepthForWardFinal(filters: MinisterFilters): WardFinalScopeDepth {
-  if (!filters.state) return "top";
-  if (filters.lga || filters.ward) return "ward";
-  return "lga";
-}
-
-function withoutSchoolFilter(filters: MinisterFilters): MinisterFilters {
-  return filters.school ? { ...filters, school: "" } : filters;
-}
-
 
 function filterRows(rows: PerformanceRow[], filters: MinisterFilters, disabilityMode: boolean, ignoreSession = false): PerformanceRow[] {
-  const effectiveFilters = withoutSchoolFilter(filters);
-  const expectedLocLevel = expectedWardFinalLocLevel(effectiveFilters);
+  const expectedLocLevel = expectedLocLevelForLocation(filters);
   return rows.filter((row) => {
-    if (!ignoreSession && row.session !== effectiveFilters.session) return false;
+    if (!ignoreSession && row.session !== filters.session) return false;
     if (row.loc_level && row.loc_level.toLowerCase() !== expectedLocLevel) return false;
-    if (effectiveFilters.zone && row.zone !== effectiveFilters.zone) return false;
-    if (effectiveFilters.state && canonicalState(row.state) !== canonicalState(effectiveFilters.state)) return false;
-    if (effectiveFilters.lga && row.lga !== effectiveFilters.lga) return false;
-    if (effectiveFilters.ward && row.ward !== effectiveFilters.ward) return false;
-    if (effectiveFilters.gender && row.gender !== effectiveFilters.gender) return false;
-    if (effectiveFilters.exam_body && row.olevel_exam_body !== effectiveFilters.exam_body) return false;
+    if (filters.zone && row.zone !== filters.zone) return false;
+    if (filters.state && canonicalState(row.state) !== canonicalState(filters.state)) return false;
+    if (filters.lga && row.lga !== filters.lga) return false;
+    if (filters.ward && row.ward !== filters.ward) return false;
+    if (filters.school && row.school !== filters.school) return false;
+    if (filters.gender && row.gender !== filters.gender) return false;
+    if (filters.exam_body && row.olevel_exam_body !== filters.exam_body) return false;
     if (disabilityMode ? row.disability !== "Disabled" : row.disability === "Disabled") return false;
     return true;
   });
@@ -806,19 +785,22 @@ function resolveLocationRows(
   baseLevel: LocationLevel,
   filters: MinisterFilters,
 ): { level: LocationLevel; rows: PerformanceRow[] } {
-  const effectiveFilters = withoutSchoolFilter(filters);
   let level = baseLevel;
 
-  if (effectiveFilters.zone && baseLevel === "zone") {
+  if (filters.zone && baseLevel === "zone") {
     level = "state";
   }
 
-  if (effectiveFilters.state) {
-    level = "lga";
+  if (filters.state) {
+    level = baseLevel === "zone" ? "lga" : "lga";
   }
 
-  if (effectiveFilters.lga || effectiveFilters.ward) {
+  if (filters.lga) {
     level = "ward";
+  }
+
+  if (filters.ward) {
+    level = "school";
   }
 
   return { level, rows };
@@ -1392,7 +1374,7 @@ function buildLocationChart(
   const grouped = buildLocationGenderSplits(resolved.rows, resolved.level, metric, sortMode, filters.zone || "");
   if (!grouped.length) return null;
 
-  const isScrollable = startLevel === "state" || startLevel === "zone" || grouped.length > 8;
+  const isScrollable = startLevel === "state";
   const chartHeight = Math.max(isScrollable ? 500 : 340, grouped.length * (isScrollable ? 40 : 32) + 130);
   const numeratorLabel = metric === "pass" ? "Passed" : "Scored >180";
   const denominatorLabel = metric === "pass" ? "Candidates" : "UTME Candidates";
@@ -1689,15 +1671,15 @@ export default function PerformanceDashboard({
   const [sortModes, setSortModes] = useState<Record<SortablePerformanceChartKey, SortMode>>(DEFAULT_PERFORMANCE_SORT_MODES);
   const expandedPanelRef = useRef<HTMLDivElement | null>(null);
   const requestedScopeKey = useMemo(
-    () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}`,
-    [filters.state, filters.lga, filters.ward],
+    () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}|${filters.school}`,
+    [filters.state, filters.lga, filters.ward, filters.school],
   );
   const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
   const [loadedLocation, setLoadedLocation] = useState({
     state: filters.state,
     lga: filters.lga,
     ward: filters.ward,
-    school: "",
+    school: filters.school,
   });
 
   useEffect(() => {
@@ -1714,11 +1696,10 @@ export default function PerformanceDashboard({
       try {
         setLoading(true);
         setError(null);
-        const effectiveLocationFilters = withoutSchoolFilter(filters);
-        const depth = scopeDepthForWardFinal(effectiveLocationFilters);
+        const depth = scopeDepthForLocation(filters);
         const [factRows, transitionRows] = await Promise.all([
-          loadRefinedScopedRows<PerformanceRow>("performance", effectiveLocationFilters.state, depth),
-          loadRefinedScopedRows<CanonicalTransitionRow>("transition_direct", effectiveLocationFilters.state, depth),
+          loadRefinedScopedRows<PerformanceRow>("performance", filters.state, depth),
+          loadRefinedScopedRows<CanonicalTransitionRow>("transition_direct", filters.state, depth),
         ]);
 
         if (!mounted) return;
@@ -1726,10 +1707,10 @@ export default function PerformanceDashboard({
         setCanonicalTransitionRows(filterRowsBySessionWindow(transitionRows, TRANSITION_SESSIONS));
         setLoadedScopeKey(requestedScopeKey);
         setLoadedLocation({
-          state: effectiveLocationFilters.state,
-          lga: effectiveLocationFilters.lga,
-          ward: effectiveLocationFilters.ward,
-          school: "",
+          state: filters.state,
+          lga: filters.lga,
+          ward: filters.ward,
+          school: filters.school,
         });
       } catch (loadError) {
         if (!mounted) return;
@@ -1746,7 +1727,7 @@ export default function PerformanceDashboard({
     return () => {
       mounted = false;
     };
-  }, [filters.state, filters.lga, filters.ward, requestedScopeKey]);
+  }, [filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey]);
 
   useEffect(() => {
     if (!expandState) return undefined;
@@ -1769,7 +1750,7 @@ export default function PerformanceDashboard({
   }, [dimSessions, filters.session]);
   const scopePending = requestedScopeKey !== loadedScopeKey;
   const renderFilters = useMemo(
-    () => withoutSchoolFilter(scopePending ? { ...filters, ...loadedLocation } : filters),
+    () => (scopePending ? { ...filters, ...loadedLocation } : filters),
     [scopePending, filters, loadedLocation],
   );
 
@@ -1805,19 +1786,26 @@ export default function PerformanceDashboard({
   const previousNabtebRows = useMemo(() => filterRowsForExam(previousRows, "NABTEB"), [previousRows]);
 
   const cards = useMemo<MetricCard[]>(() => {
-    const currentWaec = round1(passRate(waecRows));
-    const currentNeco = round1(passRate(necoRows));
-    const currentNabteb = round1(passRate(nabtebRows));
-    const currentUtme = round1(utmeRate(baseRows));
-    const currentAdmission = round1(admissionRate(baseRows));
-    const currentMatric = round1(matricRate(baseRows));
+    const currentWaecRaw = passRate(waecRows);
+    const currentNecoRaw = passRate(necoRows);
+    const currentNabtebRaw = passRate(nabtebRows);
+    const currentUtmeRaw = utmeRate(baseRows);
+    const currentAdmissionRaw = admissionRate(baseRows);
+    const currentMatricRaw = matricRate(baseRows);
 
-    const prevWaec = previousWaecRows.length ? round1(passRate(previousWaecRows)) : null;
-    const prevNeco = previousNecoRows.length ? round1(passRate(previousNecoRows)) : null;
-    const prevNabteb = previousNabtebRows.length ? round1(passRate(previousNabtebRows)) : null;
-    const prevUtme = previousRows.length ? round1(utmeRate(previousRows)) : null;
-    const prevAdmission = previousRows.length ? round1(admissionRate(previousRows)) : null;
-    const prevMatric = previousRows.length ? round1(matricRate(previousRows)) : null;
+    const currentWaec = round1(currentWaecRaw);
+    const currentNeco = round1(currentNecoRaw);
+    const currentNabteb = round1(currentNabtebRaw);
+    const currentUtme = round1(currentUtmeRaw);
+    const currentAdmission = round1(currentAdmissionRaw);
+    const currentMatric = round1(currentMatricRaw);
+
+    const prevWaecRaw = previousWaecRows.length ? passRate(previousWaecRows) : null;
+    const prevNecoRaw = previousNecoRows.length ? passRate(previousNecoRows) : null;
+    const prevNabtebRaw = previousNabtebRows.length ? passRate(previousNabtebRows) : null;
+    const prevUtmeRaw = previousRows.length ? utmeRate(previousRows) : null;
+    const prevAdmissionRaw = previousRows.length ? admissionRate(previousRows) : null;
+    const prevMatricRaw = previousRows.length ? matricRate(previousRows) : null;
 
     const waecPassed = waecRows.reduce((sum, row) => sum + safeNum(row.passed_count), 0);
     const waecTotal = waecRows.reduce((sum, row) => sum + safeNum(row.candidate_count), 0);
@@ -1837,23 +1825,21 @@ export default function PerformanceDashboard({
       : { admitted: 0, matriculated: 0 };
     const sourceAdmitted = baseRows.reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
     const sourceMatriculated = baseRows.reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
-    const previousSourceAdmitted = previousRows.reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
-    const previousSourceMatriculated = previousRows.reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
     const admitted = canonicalCurrent.admitted || sourceAdmitted;
     const utmeQualifyingBase = baseRows.reduce((sum, row) => sum + safeNum(row.utme_qualified_count), 0);
     const matriculated = canonicalCurrent.matriculated || sourceMatriculated;
-    const previousAdmitted = canonicalPrevious.admitted || previousSourceAdmitted;
-    const previousMatriculated = canonicalPrevious.matriculated || previousSourceMatriculated;
     const admittedForMatric = admitted;
-    const currentAdmissionCanonical = utmeQualifyingBase > 0 ? round1((admitted / utmeQualifyingBase) * 100) : currentAdmission;
+    const currentAdmissionCanonicalRaw = utmeQualifyingBase > 0 ? (admitted / utmeQualifyingBase) * 100 : currentAdmissionRaw;
+    const currentAdmissionCanonical = round1(currentAdmissionCanonicalRaw);
     const previousUtmeQualifyingBase = previousRows.reduce((sum, row) => sum + safeNum(row.utme_qualified_count), 0);
-    const prevAdmissionCanonical = canonicalPrevious.admitted > 0 && previousUtmeQualifyingBase > 0
-      ? round1((canonicalPrevious.admitted / previousUtmeQualifyingBase) * 100)
-      : prevAdmission;
-    const currentMatricCanonical = admittedForMatric > 0 ? round1((matriculated / admittedForMatric) * 100) : currentMatric;
-    const prevMatricCanonical = canonicalPrevious.admitted > 0
-      ? round1((canonicalPrevious.matriculated / canonicalPrevious.admitted) * 100)
-      : prevMatric;
+    const prevAdmissionCanonicalRaw = canonicalPrevious.admitted > 0 && previousUtmeQualifyingBase > 0
+      ? (canonicalPrevious.admitted / previousUtmeQualifyingBase) * 100
+      : prevAdmissionRaw;
+    const currentMatricCanonicalRaw = admittedForMatric > 0 ? (matriculated / admittedForMatric) * 100 : currentMatricRaw;
+    const currentMatricCanonical = round1(currentMatricCanonicalRaw);
+    const prevMatricCanonicalRaw = canonicalPrevious.admitted > 0
+      ? (canonicalPrevious.matriculated / canonicalPrevious.admitted) * 100
+      : prevMatricRaw;
 
     const institutionLabels = ["University", "Polytechnic", "College of Education"];
     const fallbackInstitutionShares = [0.52, 0.30, 0.18];
@@ -1886,7 +1872,7 @@ export default function PerformanceDashboard({
         label: "WAEC Pass Rate",
         help: "WAEC pass rate breakdown.",
         value: currentWaec,
-        delta: prevWaec === null ? null : round1(currentWaec - prevWaec),
+        delta: sessionDelta(currentWaecRaw, prevWaecRaw),
         icon: <BadgePercent className="h-5 w-5" />,
         accent: COLORS.waec,
         bg: "rgba(37,99,235,0.10)",
@@ -1904,7 +1890,7 @@ export default function PerformanceDashboard({
         label: "NECO Pass Rate",
         help: "NECO pass rate breakdown.",
         value: currentNeco,
-        delta: prevNeco === null ? null : round1(currentNeco - prevNeco),
+        delta: sessionDelta(currentNecoRaw, prevNecoRaw),
         icon: <FileBarChart2 className="h-5 w-5" />,
         accent: COLORS.neco,
         bg: "rgba(16,185,129,0.10)",
@@ -1922,7 +1908,7 @@ export default function PerformanceDashboard({
         label: "NABTEB Pass Rate",
         help: "NABTEB pass rate breakdown.",
         value: currentNabteb,
-        delta: prevNabteb === null ? null : round1(currentNabteb - prevNabteb),
+        delta: sessionDelta(currentNabtebRaw, prevNabtebRaw),
         icon: <Landmark className="h-5 w-5" />,
         accent: COLORS.nabteb,
         bg: "rgba(245,158,11,0.10)",
@@ -1940,7 +1926,7 @@ export default function PerformanceDashboard({
         label: "UTME Qualifying Rate",
         help: "UTME qualifying rate breakdown.",
         value: currentUtme,
-        delta: prevUtme === null ? null : round1(currentUtme - prevUtme),
+        delta: sessionDelta(currentUtmeRaw, prevUtmeRaw),
         icon: <GraduationCap className="h-5 w-5" />,
         accent: COLORS.utme,
         bg: "rgba(139,92,246,0.10)",
@@ -1958,7 +1944,7 @@ export default function PerformanceDashboard({
         label: "Admission Rate",
         help: "Admission destination breakdown.",
         value: currentAdmissionCanonical,
-        delta: rateDeltaWithCountFallback(currentAdmissionCanonical, prevAdmissionCanonical, admitted, previousAdmitted),
+        delta: sessionDelta(currentAdmissionCanonicalRaw, prevAdmissionCanonicalRaw),
         icon: <School className="h-5 w-5" />,
         accent: COLORS.admission,
         bg: "rgba(14,165,233,0.10)",
@@ -1972,7 +1958,7 @@ export default function PerformanceDashboard({
         label: "Matriculation Completion Rate",
         help: "Matriculation destination breakdown.",
         value: currentMatricCanonical,
-        delta: rateDeltaWithCountFallback(currentMatricCanonical, prevMatricCanonical, matriculated, previousMatriculated),
+        delta: sessionDelta(currentMatricCanonicalRaw, prevMatricCanonicalRaw),
         icon: <UserCheck className="h-5 w-5" />,
         accent: COLORS.matric,
         bg: "rgba(20,184,166,0.10)",

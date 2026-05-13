@@ -119,6 +119,7 @@ type LossRow = {
   to: number;
   lost: number;
   lostPct: number;
+  direction: "gain" | "dropoff" | "none";
 };
 
 type ExpandChartKey =
@@ -441,28 +442,45 @@ function constrainDirectRows(directRows: TransitionDirectRow[], _generalRows: Tr
   return directRows;
 }
 
-function estimateSs3OLevelCohort(metrics: AggregateMetrics): number {
-  const ss3Total = Math.max(0, safeNum(metrics.ss3_total));
-  const reportedOLevel = Math.max(0, safeNum(metrics.o_level_candidates));
+function gainDropoffFromStage(
+  from: number,
+  to: number,
+  options?: { forceNoDropoff?: boolean },
+): Pick<LossRow, "lost" | "lostPct" | "direction"> {
+  const start = Math.max(0, safeNum(from));
+  const end = Math.max(0, safeNum(to));
+  const rawChange = end - start;
 
-  if (ss3Total <= 0) return 0;
-  if (reportedOLevel > 0 && reportedOLevel < ss3Total) return Math.round(reportedOLevel);
+  if (options?.forceNoDropoff) {
+    const gain = Math.max(0, rawChange);
+    return {
+      lost: gain,
+      lostPct: start > 0 ? (gain / start) * 100 : 0,
+      direction: gain > 0 ? "gain" : "none",
+    };
+  }
 
-  // Total O-Level can include non-current SS3 candidates, so this keeps the SS3 drop-off row cohort-based.
-  return Math.round(ss3Total * 0.92);
+  const magnitude = Math.abs(rawChange);
+  return {
+    lost: magnitude,
+    lostPct: start > 0 ? (magnitude / start) * 100 : 0,
+    direction: rawChange > 0 ? "gain" : rawChange < 0 ? "dropoff" : "none",
+  };
 }
 
 function buildLossRows(metrics: AggregateMetrics, _mode: Mode): LossRow[] {
-  const ss3OLevelCohort = estimateSs3OLevelCohort(metrics);
-  return [
-    { stage: "SS3 → O-Level", from: metrics.ss3_total, to: ss3OLevelCohort, lost: 0, lostPct: 0 },
-    { stage: "O-Level → UTME", from: metrics.o_level_candidates, to: metrics.utme_participants, lost: 0, lostPct: 0 },
-    { stage: "UTME → Admitted", from: metrics.utme_participants, to: metrics.admitted_students, lost: 0, lostPct: 0 },
-    { stage: "Admitted → Matriculated", from: metrics.admitted_students, to: metrics.matriculated_students, lost: 0, lostPct: 0 },
-  ].map((row) => ({
-    ...row,
-    lost: Math.max(0, row.from - row.to),
-    lostPct: row.from > 0 ? (Math.max(0, row.from - row.to) / row.from) * 100 : 0,
+  const stages: Array<{ stage: string; from: number; to: number; forceNoDropoff?: boolean }> = [
+    { stage: "SS3 → O-Level", from: metrics.ss3_total, to: metrics.o_level_candidates, forceNoDropoff: true },
+    { stage: "O-Level → UTME", from: metrics.o_level_candidates, to: metrics.utme_participants },
+    { stage: "UTME → Admitted", from: metrics.utme_participants, to: metrics.admitted_students },
+    { stage: "Admitted → Matriculated", from: metrics.admitted_students, to: metrics.matriculated_students },
+  ];
+
+  return stages.map((row) => ({
+    stage: row.stage,
+    from: row.from,
+    to: row.to,
+    ...gainDropoffFromStage(row.from, row.to, { forceNoDropoff: row.forceNoDropoff }),
   }));
 }
 
@@ -827,6 +845,22 @@ function EmptyState({ title }: { title: string }) {
 }
 
 function SummaryTable({ rows }: { rows: LossRow[] }) {
+  const valueClass = (direction: LossRow["direction"]) => {
+    if (direction === "gain") return "text-emerald-700";
+    if (direction === "dropoff") return "text-red-600";
+    return "text-slate-500";
+  };
+  const signedValue = (row: LossRow) => {
+    if (row.direction === "gain") return `+${fmtInt(row.lost)}`;
+    if (row.direction === "dropoff") return `-${fmtInt(row.lost)}`;
+    return fmtInt(0);
+  };
+  const signedPct = (row: LossRow) => {
+    if (row.direction === "gain") return `+${row.lostPct.toFixed(1)}%`;
+    if (row.direction === "dropoff") return `-${row.lostPct.toFixed(1)}%`;
+    return "0.0%";
+  };
+
   return (
     <div className="overflow-x-auto">
       <table className="w-full text-sm">
@@ -835,8 +869,8 @@ function SummaryTable({ rows }: { rows: LossRow[] }) {
             <th className="px-3 py-2 text-left">Stage</th>
             <th className="px-3 py-2 text-right">Start</th>
             <th className="px-3 py-2 text-right">End</th>
-            <th className="px-3 py-2 text-right">Drop Off</th>
-            <th className="px-3 py-2 text-right">Drop Off %</th>
+            <th className="px-3 py-2 text-right">Gain / Drop-off</th>
+            <th className="px-3 py-2 text-right">Gain / Drop-off %</th>
           </tr>
         </thead>
         <tbody>
@@ -845,8 +879,8 @@ function SummaryTable({ rows }: { rows: LossRow[] }) {
               <td className="px-3 py-2 font-medium text-slate-800">{row.stage}</td>
               <td className="px-3 py-2 text-right">{fmtInt(row.from)}</td>
               <td className="px-3 py-2 text-right">{fmtInt(row.to)}</td>
-              <td className="px-3 py-2 text-right font-semibold text-red-600">{fmtInt(row.lost)}</td>
-              <td className="px-3 py-2 text-right">{row.lostPct.toFixed(1)}%</td>
+              <td className={["px-3 py-2 text-right font-semibold", valueClass(row.direction)].join(" ")}>{signedValue(row)}</td>
+              <td className={["px-3 py-2 text-right font-medium", valueClass(row.direction)].join(" ")}>{signedPct(row)}</td>
             </tr>
           ))}
         </tbody>
@@ -1366,6 +1400,11 @@ export default function TransitionDashboard(props: {
       examLabels.map((exam) => aggregateRows(filteredCurrentRows.filter((row) => row.exam_body === exam)).o_level_candidates),
       currentMetrics.o_level_candidates,
     );
+    const utmeBreakdown = buildScaledBreakdown(
+      examLabels,
+      examLabels.map((exam) => aggregateRows(filteredCurrentRows.filter((row) => row.exam_body === exam)).utme_participants),
+      currentMetrics.utme_participants,
+    );
     const admissionBreakdown = buildScaledBreakdown(
       institutionLabels,
       institutionLabels.map((institutionType) => aggregateRows(filteredCurrentRows.filter((row) => row.institution_type === institutionType)).admitted_students),
@@ -1378,7 +1417,7 @@ export default function TransitionDashboard(props: {
     );
 
     const oLevelHelp = "O-Level exam body breakdown.";
-    const utmeHelp = "Learners who sat the Unified Tertiary Matriculation Examination after obtaining their O-Level results. This measures how many are actively pursuing tertiary education.";
+    const utmeHelp = "UTME participants by O-Level exam body breakdown.";
     const admittedHelp = "Admission destination breakdown.";
     const matriculatedHelp = "Matriculation destination breakdown.";
 
@@ -1406,6 +1445,7 @@ export default function TransitionDashboard(props: {
         {
           label: "UTME Participants",
           help: utmeHelp,
+          breakdown: utmeBreakdown,
           value: currentMetrics.utme_participants,
           delta: delta(currentMetrics.utme_participants, previousMetrics.utme_participants),
           icon: <GraduationCap className="h-5 w-5" />,
@@ -1521,15 +1561,34 @@ const progressionChart = useMemo<ChartBundle>(() => {
     currentMetrics.matriculated_students,
   ];
   const max = Math.max(...values, 1);
-  const ss3OLevelCohort = estimateSs3OLevelCohort(currentMetrics);
-  const pctOfPrevious = (value: number, previous: number, label: string) => {
-    if (previous <= 0 || value > previous) return "";
-    return ` (${((value / previous) * 100).toFixed(1)}% of ${label})`;
+  const ss3Baseline = Math.max(1, currentMetrics.ss3_total);
+  const examLabels = ["WAEC", "NECO", "NABTEB"];
+  const examBodyHoverBreakdown = (metricKey: "o_level_candidates" | "utme_participants", total: number) => {
+    const scaledValues = scaleValuesToTotal(
+      examLabels.map((exam) => aggregateRows(filteredCurrentRows.filter((row) => row.exam_body === exam))[metricKey]),
+      total,
+    );
+    const lines = examLabels.map((exam, index) => {
+      const value = scaledValues[index] ?? 0;
+      const pct = total > 0 ? (value / total) * 100 : 0;
+      return `${exam}: <b>${fmtInt(value)}</b> (${pct.toFixed(1)}%)`;
+    });
+    return total > 0 ? lines.join("<br>") : "No exam-body breakdown available";
   };
+  const pctOfPrevious = (value: number, previous: number, label: string) => {
+    if (previous <= 0) return "";
+    return `<br>${((value / previous) * 100).toFixed(1)}% of ${label}`;
+  };
+  const oLevelGain = Math.max(0, currentMetrics.o_level_candidates - currentMetrics.ss3_total);
+  const funnelWidths = values.map((value) => (currentMetrics.ss3_total > 0 ? (value / ss3Baseline) * 100 : (value / max) * 100));
   const hoverTexts = [
-    `SS3 Students<br><b>${fmtInt(currentMetrics.ss3_total)}</b><br>`,
-    `O-Level Candidates<br><b>${fmtInt(currentMetrics.o_level_candidates)}</b><br>Total O-Level include non-current SS3 candidates.<br>SS3 cohort that sat O-Level: <b>${fmtInt(ss3OLevelCohort)}</b>`,
-    `UTME Participants<br><b>${fmtInt(currentMetrics.utme_participants)}</b>${pctOfPrevious(currentMetrics.utme_participants, currentMetrics.o_level_candidates, "O-Level")}`,
+    `SS3 Students<br><b>${fmtInt(currentMetrics.ss3_total)}</b><br>Baseline: <b>100.0%</b>`,
+    `O-Level Candidates<br><b>${fmtInt(currentMetrics.o_level_candidates)}</b>${pctOfPrevious(currentMetrics.o_level_candidates, currentMetrics.ss3_total, "SS3 baseline")}<br>${
+      oLevelGain > 0
+        ? `Gain above SS3 baseline: <b>+${fmtInt(oLevelGain)}</b>`
+        : "No SS3 → O-Level drop-off recorded"
+    }<br><br><b>O-Level breakdown by exam body</b><br>${examBodyHoverBreakdown("o_level_candidates", currentMetrics.o_level_candidates)}`,
+    `UTME Participants<br><b>${fmtInt(currentMetrics.utme_participants)}</b>${pctOfPrevious(currentMetrics.utme_participants, currentMetrics.o_level_candidates, "O-Level")}<br><br><b>UTME breakdown by O-Level exam body</b><br>${examBodyHoverBreakdown("utme_participants", currentMetrics.utme_participants)}`,
     `Admitted Students<br><b>${fmtInt(currentMetrics.admitted_students)}</b>${pctOfPrevious(currentMetrics.admitted_students, currentMetrics.utme_participants, "UTME")}`,
     `Matriculated Students<br><b>${fmtInt(currentMetrics.matriculated_students)}</b>${pctOfPrevious(currentMetrics.matriculated_students, currentMetrics.admitted_students, "Admitted")}`,
   ];
@@ -1539,7 +1598,7 @@ const progressionChart = useMemo<ChartBundle>(() => {
       {
         type: "funnel",
         y: labels,
-        x: values.map((value) => (value / max) * 100),
+        x: funnelWidths,
         text: values.map((value, index) => `${labels[index]}<br><b>${fmtInt(value)}</b>`),
         textposition: "inside",
         textinfo: "text",
@@ -1558,7 +1617,7 @@ const progressionChart = useMemo<ChartBundle>(() => {
       showlegend: false,
     },
   };
-}, [currentMetrics]);
+}, [currentMetrics, filteredCurrentRows]);
 
 
   const genderChart = useMemo<ChartBundle>(() => {
@@ -1727,19 +1786,17 @@ const progressionChart = useMemo<ChartBundle>(() => {
   const lossByGenderChart = useMemo<ChartBundle>(() => {
     const male = aggregateRows(filteredCurrentRows.filter((row) => row.gender === "Male"));
     const female = aggregateRows(filteredCurrentRows.filter((row) => row.gender === "Female"));
-    const labels = ["SS3 → O-Level", "O-Level → UTME", "UTME → Admitted", "Admitted → Matric"];
+    const labels = ["SS3 → O-Level Gain", "O-Level → UTME", "UTME → Admitted", "Admitted → Matric"];
 
-    const maleSs3OLevel = estimateSs3OLevelCohort(male);
-    const femaleSs3OLevel = estimateSs3OLevelCohort(female);
     const maleLosses = [
-      Math.max(0, male.ss3_total - maleSs3OLevel),
+      Math.max(0, male.o_level_candidates - male.ss3_total),
       Math.max(0, male.o_level_candidates - male.utme_participants),
       Math.max(0, male.utme_participants - male.admitted_students),
       Math.max(0, male.admitted_students - male.matriculated_students),
     ];
 
     const femaleLosses = [
-      Math.max(0, female.ss3_total - femaleSs3OLevel),
+      Math.max(0, female.o_level_candidates - female.ss3_total),
       Math.max(0, female.o_level_candidates - female.utme_participants),
       Math.max(0, female.utme_participants - female.admitted_students),
       Math.max(0, female.admitted_students - female.matriculated_students),
@@ -1835,8 +1892,7 @@ const buildDropoffLocationChart = (
     resolved.level,
     sortMode,
     (row) => {
-      const ss3OLevelCohort = estimateSs3OLevelCohort(row.metrics);
-      return Math.max(0, row.metrics.ss3_total - ss3OLevelCohort) +
+      return Math.max(0, row.metrics.o_level_candidates - row.metrics.ss3_total) +
         Math.max(0, row.metrics.o_level_candidates - row.metrics.utme_participants) +
         Math.max(0, row.metrics.utme_participants - row.metrics.admitted_students) +
         Math.max(0, row.metrics.admitted_students - row.metrics.matriculated_students);
@@ -1848,9 +1904,8 @@ const buildDropoffLocationChart = (
   const height = Math.max(isScrollable ? 560 : 380, labels.length * (isScrollable ? 44 : 36) + 148);
 
   const ss3Values = grouped.map((row) => row.metrics.ss3_total);
-  const ss3OLevelCohortValues = grouped.map((row) => estimateSs3OLevelCohort(row.metrics));
   const realSeries = [
-    grouped.map((row, index) => Math.max(0, row.metrics.ss3_total - (ss3OLevelCohortValues[index] ?? 0))),
+    grouped.map((row) => Math.max(0, row.metrics.o_level_candidates - row.metrics.ss3_total)),
     grouped.map((row) => Math.max(0, row.metrics.o_level_candidates - row.metrics.utme_participants)),
     grouped.map((row) => Math.max(0, row.metrics.utme_participants - row.metrics.admitted_students)),
     grouped.map((row) => Math.max(0, row.metrics.admitted_students - row.metrics.matriculated_students)),
@@ -1862,12 +1917,12 @@ const buildDropoffLocationChart = (
   );
 
   const data: PlotlyData[] = [
-    horizontalBarTrace("SS3 → O-Level", labels, realSeries[0] ?? [], COLORS.ss3, "inside", 11, ss3Values, visualSeries[0]),
-    horizontalBarTrace("O-Level → UTME", labels, realSeries[1] ?? [], COLORS.utme, "inside", 11, ss3Values, visualSeries[1]),
-    horizontalBarTrace("UTME → Admitted", labels, realSeries[2] ?? [], COLORS.admit, "inside", 11, ss3Values, visualSeries[2]),
-    horizontalBarTrace("Admitted → Matric", labels, realSeries[3] ?? [], COLORS.matric, "inside", 11, ss3Values, visualSeries[3]),
+    horizontalBarTrace("SS3 → O-Level Gain", labels, realSeries[0] ?? [], COLORS.olevel, "inside", 11, ss3Values, visualSeries[0]),
+    horizontalBarTrace("O-Level → UTME Drop-off", labels, realSeries[1] ?? [], COLORS.utme, "inside", 11, ss3Values, visualSeries[1]),
+    horizontalBarTrace("UTME → Admitted Drop-off", labels, realSeries[2] ?? [], COLORS.admit, "inside", 11, ss3Values, visualSeries[2]),
+    horizontalBarTrace("Admitted → Matric Drop-off", labels, realSeries[3] ?? [], COLORS.matric, "inside", 11, ss3Values, visualSeries[3]),
   ];
-  const totalDropoff = realSeries.reduce((sum, series) => sum + series.reduce((inner, value) => inner + safeNum(value), 0), 0);
+  const totalGainDropoff = realSeries.reduce((sum, series) => sum + series.reduce((inner, value) => inner + safeNum(value), 0), 0);
 
   return {
     level: resolved.level,
@@ -1883,7 +1938,7 @@ const buildDropoffLocationChart = (
         xaxis: horizontalValueAxis(maxVisualTotal),
         yaxis: { showgrid: false, automargin: false, autorange: "reversed", tickfont: { color: COLORS.sub, size: 10.5 } },
       },
-      titleNote: titleGrandTotal("Students Dropped Off", totalDropoff),
+      titleNote: titleGrandTotal("Students Gained / Dropped Off", totalGainDropoff),
       scrollable: isScrollable,
       scrollMaxHeight: isScrollable ? 360 : undefined,
       expandedMaxHeight: isScrollable ? 530 : 430,
@@ -1927,16 +1982,16 @@ const buildDropoffLocationChart = (
   );
 
   const helpText = {
-    progression: "This funnel shows SS3 alongside the wider O-Level/UTME/admission pathway. O-Level can be higher than SS3 because it may include non-current SS3 candidates; the SS3 drop-off is handled in the loss table using the SS3 cohort that sat O-Level.",
-    lossTable: "This table shows learner loss across the pathway. SS3 → O-Level uses the same-session SS3 cohort that sat O-Level, while the O-Level card/funnel total may include non-current SS3 candidates.",
+    progression: "This funnel shows SS3 as the 100% Direct baseline, then shows the wider O-Level/UTME/admission pathway. O-Level can be higher than SS3 because it may include repeat, external, or non-current SS3 candidates; UTME hover now includes the same WAEC/NECO/NABTEB breakdown.",
+    lossTable: "This table shows gain / drop-off across the pathway. SS3 → O-Level is treated as a no-drop-off stage; any increase is shown as a green gain because O-Level can include candidates beyond same-session SS3.",
     timing: "This shows how General pathway matriculated learners are split by time taken after O-Level.",
     timingInst: "This compares time-to-matriculation bands across University, Polytechnic, and College of Education destinations.",
     gender: "This compares male and female learner volumes at each stage so you can quickly spot gender imbalance across the transition journey.",
     zone: "This chart starts at Zone level and can drill deeper through State, LGA, Ward, and School. Use refresh to reset that chart only.",
     state: "This chart starts at State level and can drill deeper through LGA, Ward, and School. Use refresh to reset that chart only.",
-    dropoffGender: "This compares how many male and female learners are lost between each transition stage.",
-    dropoffZone: "This loss chart starts at Zone level and can drill deeper through State, LGA, Ward, and School.",
-    dropoffState: "This loss chart starts at State level and can drill deeper through LGA, Ward, and School.",
+    dropoffGender: "This compares gain / drop-off between each transition stage by gender. SS3 → O-Level is shown as gain/no-drop-off, not a red loss.",
+    dropoffZone: "This gain / drop-off chart starts at Zone level and can drill deeper through State, LGA, Ward, and School.",
+    dropoffState: "This gain / drop-off chart starts at State level and can drill deeper through LGA, Ward, and School.",
   };
 
   const sortControlForKey = (chartKey: ExpandChartKey): ReactNode => {
@@ -2113,7 +2168,7 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
           <SectionLabel
             id="transition-general-overview"
             title="Transition Overview"
-            subtitle="Core learner journey and stage-loss summary for the General pathway."
+            subtitle="Core learner journey and gain / drop-off summary for the General pathway."
           />
           <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
             <ChartCard
@@ -2124,10 +2179,10 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
               onExpand={() => setExpandState({ title: "Students Progression Overview", chartKey: "progression" })}
             />
             <ChartCard
-              title="Student Loss by Stage"
+              title="Student Gain / Drop-off by Stage"
               explanation={helpText.lossTable}
               onRefresh={() => undefined}
-              onExpand={() => setExpandState({ title: "Student Loss by Stage", tableRows: lossRows })}
+              onExpand={() => setExpandState({ title: "Student Gain / Drop-off by Stage", tableRows: lossRows })}
             >
               <SummaryTable rows={lossRows} />
             </ChartCard>
@@ -2209,29 +2264,29 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
 
           <SectionLabel
             id="transition-general-dropoff"
-            title="Drop-off Analysis"
-            subtitle="Loss-focused charts laid out to mirror the approved General mockup sequence."
+            title="Gain / Drop-off Analysis"
+            subtitle="Gain / drop-off charts laid out to mirror the approved General mockup sequence."
           />
           <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
             <ChartCard
-              title="Drop-off by Zone"
+              title="Gain / Drop-off by Zone"
               bundle={generalDropoffZoneChart.bundle}
               sortControl={sortControlForKey("generalDropoffZone")}
               explanation={helpText.dropoffZone}
               onRefresh={() => { setGeneralDropoffZoneDrill({}); resetLocationFilters(); }}
-              onExpand={() => setExpandState({ title: "Drop-off by Zone", chartKey: "generalDropoffZone" })}
+              onExpand={() => setExpandState({ title: "Gain / Drop-off by Zone", chartKey: "generalDropoffZone" })}
               onPlotClick={(event) => {
                 const label = extractPointLabel(event);
                 applyDrill(setGeneralDropoffZoneDrill, generalDropoffZoneChart.level, label);
               }}
             />
             <ChartCard
-              title="Drop-off by State"
+              title="Gain / Drop-off by State"
               bundle={generalDropoffStateChart.bundle}
               sortControl={sortControlForKey("generalDropoffState")}
               explanation={helpText.dropoffState}
               onRefresh={() => { setGeneralDropoffStateDrill({}); resetLocationFilters(); }}
-              onExpand={() => setExpandState({ title: "Drop-off by State", chartKey: "generalDropoffState" })}
+              onExpand={() => setExpandState({ title: "Gain / Drop-off by State", chartKey: "generalDropoffState" })}
               onPlotClick={(event) => {
                 const label = extractPointLabel(event);
                 applyDrill(setGeneralDropoffStateDrill, generalDropoffStateChart.level, label);
@@ -2239,11 +2294,11 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
             />
           </div>
           <ChartCard
-            title="Drop-off by Gender"
+            title="Gain / Drop-off by Gender"
             bundle={lossByGenderChart}
             explanation={helpText.dropoffGender}
             onRefresh={() => undefined}
-            onExpand={() => setExpandState({ title: "Drop-off by Gender", chartKey: "lossByGender" })}
+            onExpand={() => setExpandState({ title: "Gain / Drop-off by Gender", chartKey: "lossByGender" })}
           />
         </>
       ) : (
@@ -2251,7 +2306,7 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
           <SectionLabel
             id="transition-direct-overview"
             title="Transition Overview"
-            subtitle="Same-session SS3 journey and stage-loss summary for the Direct pathway."
+            subtitle="Same-session SS3 journey and gain / drop-off summary for the Direct pathway."
           />
           <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
             <ChartCard
@@ -2262,10 +2317,10 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
               onExpand={() => setExpandState({ title: "Students Progression Overview", chartKey: "progression" })}
             />
             <ChartCard
-              title="Student Loss by Stage"
+              title="Student Gain / Drop-off by Stage"
               explanation={helpText.lossTable}
               onRefresh={() => undefined}
-              onExpand={() => setExpandState({ title: "Student Loss by Stage", tableRows: lossRows })}
+              onExpand={() => setExpandState({ title: "Student Gain / Drop-off by Stage", tableRows: lossRows })}
             >
               <SummaryTable rows={lossRows} />
             </ChartCard>
@@ -2313,29 +2368,29 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
 
           <SectionLabel
             id="transition-direct-dropoff"
-            title="Drop-off Analysis"
-            subtitle="Loss-focused charts laid out to mirror the approved Direct mockup sequence."
+            title="Gain / Drop-off Analysis"
+            subtitle="Gain / drop-off charts laid out to mirror the approved Direct mockup sequence."
           />
           <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
             <ChartCard
-              title="Drop-off by Zone"
+              title="Gain / Drop-off by Zone"
               bundle={directDropoffZoneChart.bundle}
               sortControl={sortControlForKey("directDropoffZone")}
               explanation={helpText.dropoffZone}
               onRefresh={() => { setDirectDropoffZoneDrill({}); resetLocationFilters(); }}
-              onExpand={() => setExpandState({ title: "Drop-off by Zone", chartKey: "directDropoffZone" })}
+              onExpand={() => setExpandState({ title: "Gain / Drop-off by Zone", chartKey: "directDropoffZone" })}
               onPlotClick={(event) => {
                 const label = extractPointLabel(event);
                 applyDrill(setDirectDropoffZoneDrill, directDropoffZoneChart.level, label);
               }}
             />
             <ChartCard
-              title="Drop-off by State"
+              title="Gain / Drop-off by State"
               bundle={directDropoffStateChart.bundle}
               sortControl={sortControlForKey("directDropoffState")}
               explanation={helpText.dropoffState}
               onRefresh={() => { setDirectDropoffStateDrill({}); resetLocationFilters(); }}
-              onExpand={() => setExpandState({ title: "Drop-off by State", chartKey: "directDropoffState" })}
+              onExpand={() => setExpandState({ title: "Gain / Drop-off by State", chartKey: "directDropoffState" })}
               onPlotClick={(event) => {
                 const label = extractPointLabel(event);
                 applyDrill(setDirectDropoffStateDrill, directDropoffStateChart.level, label);
@@ -2343,11 +2398,11 @@ const expandedChart = expandState && "chartKey" in expandState && expandState.ch
             />
           </div>
           <ChartCard
-            title="Drop-off by Gender"
+            title="Gain / Drop-off by Gender"
             bundle={lossByGenderChart}
             explanation={helpText.dropoffGender}
             onRefresh={() => undefined}
-            onExpand={() => setExpandState({ title: "Drop-off by Gender", chartKey: "lossByGender" })}
+            onExpand={() => setExpandState({ title: "Gain / Drop-off by Gender", chartKey: "lossByGender" })}
           />
         </>
       )}

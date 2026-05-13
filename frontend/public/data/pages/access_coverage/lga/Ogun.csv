@@ -1,561 +1,561 @@
 session,gender,disability,school_type,school_level,class_grade,key_entry_level,loc_level,loc_label,zone,state,lga,ward,school,student_count,is_o_level_student,school_count,classroom_count,computer_count,avg_students_per_school,learners_per_classroom,students_per_computer,usable_classroom_count,laboratory_count,computer_access_count,water_source_count,handwashing_facility_count,toilet_count,infrastructure_score
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1255,0,4.9802,34,6,251.9979,36.9118,209.1667,6,3,3,6,0,27,32.71
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1183,0,4.6944,26,6,252.0024,45.5,197.1667,7,2,4,4,0,18,35.44
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1147,0,4.5516,33,5,251.9993,34.7576,229.4,8,2,3,4,0,21,31.78
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3560,0,14.127,95,20,251.9997,37.4737,178.0,18,6,10,13,1,74,31.92
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3420,0,13.5714,85,19,252.0005,40.2353,180.0,20,7,13,11,1,54,33.39
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3320,0,13.1746,91,18,252.0001,36.4835,184.4444,19,7,14,11,1,85,39.92
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3220,0,12.7778,96,18,251.9996,33.5417,178.8889,22,8,10,15,1,62,31.81
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3240,0,12.8571,80,18,252.0008,40.5,180.0,15,7,12,11,1,76,38.27
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3240,0,12.8571,113,18,252.0008,28.6726,180.0,22,10,13,19,1,88,36.41
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1039,1039,4.123,26,15,252.001,39.9615,69.2667,6,2,8,4,0,25,37.61
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,953,953,3.7817,32,14,252.0031,29.7812,68.0714,6,2,8,4,0,24,32.14
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,895,895,3.5516,20,13,251.9991,44.75,68.8462,4,1,10,3,0,18,38.91
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,123,0,0.4881,5,1,251.9975,24.6,123.0,1,0,1,1,0,3,36.8
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1359,0,4.0567,32,11,335.0014,42.4688,123.5455,8,2,6,4,0,21,31.6
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1282,0,3.8269,31,11,334.997,41.3548,116.5455,5,2,6,5,0,21,30.15
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1243,0,3.7104,23,11,335.0043,54.0435,113.0,6,2,8,3,0,16,35.98
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3857,0,11.5126,87,67,335.0242,44.3333,57.5672,20,5,48,10,1,83,39.6
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3705,0,11.0599,110,64,334.994,33.6818,57.8906,21,7,36,15,1,75,31.0
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3597,0,10.7365,91,62,335.0254,39.5275,58.0161,17,7,43,15,1,76,36.68
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3488,0,10.4131,72,61,334.9627,48.4444,57.1803,14,5,35,12,1,62,35.46
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3510,0,10.4778,88,61,334.994,39.8864,57.541,18,7,37,12,1,76,35.93
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3510,0,10.4778,92,61,334.994,38.1522,57.541,20,6,41,15,1,79,37.49
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1126,1126,3.3612,25,13,334.9994,45.04,86.6154,4,1,10,4,0,20,35.83
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1032,1032,3.0806,18,12,334.9997,57.3333,86.0,5,1,8,2,0,12,34.22
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,970,970,2.8955,22,11,335.0026,44.0909,88.1818,5,1,6,3,0,19,35.09
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,133,0,0.397,4,2,335.0126,33.25,66.5,1,0,1,1,0,4,39.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1162,0,4.6111,32,6,252.0006,36.3125,193.6667,6,2,3,5,0,25,32.12
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1096,0,4.3492,24,5,252.0004,45.6667,219.2,6,1,3,4,0,17,33.93
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1063,0,4.2183,31,5,251.9973,34.2903,212.6,8,2,3,4,0,20,32.57
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3462,0,13.7385,92,19,251.9926,37.6304,182.2105,17,6,10,12,1,71,31.99
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3326,0,13.1982,83,18,252.0041,40.0723,184.7778,19,7,12,11,1,53,33.08
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3229,0,12.8123,88,18,252.0234,36.6932,179.3889,19,7,14,11,1,82,40.17
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3131,0,12.4264,93,17,251.9636,33.6667,184.1765,21,8,10,14,1,60,32.16
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3151,0,12.5036,78,17,252.0074,40.3974,185.3529,14,7,11,11,1,74,37.79
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3151,0,12.5036,110,17,252.0074,28.6455,185.3529,21,10,12,18,1,86,36.06
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1056,1056,4.1905,27,16,251.9986,39.1111,66.0,6,2,8,4,0,26,36.74
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,969,969,3.8452,33,14,252.0025,29.3636,69.2143,6,2,8,4,0,24,31.45
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,910,910,3.6111,20,13,252.0008,45.5,70.0,4,1,10,3,0,18,38.91
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,208,0,0.8254,9,1,251.999,23.1111,208.0,2,1,1,1,0,6,38.67
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1259,0,3.7582,30,11,335.0008,41.9667,114.4545,7,2,6,4,0,19,30.86
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1187,0,3.5433,29,10,334.9984,40.931,118.7,5,2,6,5,0,20,31.81
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1151,0,3.4358,22,10,335.002,52.3182,115.1,5,2,7,3,0,15,34.47
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3751,0,11.1954,85,65,335.0483,44.1294,57.7077,20,5,46,10,1,81,39.65
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3603,0,10.7552,107,63,335.0007,33.6729,57.1905,20,6,35,14,1,73,30.61
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3498,0,10.4407,88,61,335.035,39.75,57.3443,17,7,42,14,1,74,36.83
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3392,0,10.1262,70,59,334.9726,48.4571,57.4915,14,5,34,11,1,60,35.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3413,0,10.1891,85,59,334.9658,40.1529,57.8475,18,7,36,12,1,74,36.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,3413,0,10.1891,89,59,334.9658,38.3483,57.8475,20,6,40,15,1,76,37.81
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1145,1145,3.4179,25,13,335.001,45.8,88.0769,4,1,10,4,0,20,35.83
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1049,1049,3.1313,18,12,335.0046,58.2778,87.4167,5,1,8,2,0,12,34.22
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,986,986,2.9433,23,11,334.9981,42.8696,89.6364,6,1,6,3,0,20,36.03
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,225,0,0.6716,7,4,335.0208,32.1429,56.25,1,1,2,1,0,7,36.0
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,82,0,0.3254,2,1,251.9975,41.0,82.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,77,0,0.3056,2,1,251.9634,38.5,77.0,1,0,1,0,0,1,40.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,75,0,0.2976,2,1,252.0161,37.5,75.0,0,0,1,0,0,1,26.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,231,0,0.9176,6,1,251.7437,38.5,231.0,1,0,1,1,0,5,40.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,222,0,0.8815,6,1,251.8434,37.0,222.0,1,1,1,1,0,4,38.67
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,216,0,0.8557,6,1,252.4249,36.0,216.0,1,0,1,1,0,6,43.33
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,209,0,0.8299,6,1,251.8376,34.8333,209.0,1,0,1,1,0,4,36.67
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,211,0,0.8351,5,1,252.6644,42.2,211.0,1,0,1,1,0,5,44.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,210,0,0.8351,7,1,251.4669,30.0,210.0,1,1,1,1,0,5,38.29
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,68,68,0.2698,2,1,252.0385,34.0,68.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,62,62,0.246,2,1,252.0325,31.0,62.0,0,0,1,0,0,1,26.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,58,58,0.2302,1,1,251.9548,58.0,58.0,0,0,1,0,0,1,36.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,8,0,0.0317,1,1,252.3659,8.0,8.0,0,0,1,0,0,1,36.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,88,0,0.2627,2,1,334.9829,44.0,88.0,0,0,1,0,0,1,26.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,83,0,0.2478,2,1,334.9475,41.5,83.0,0,0,1,0,0,1,26.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,81,0,0.2418,2,1,334.9876,40.5,81.0,0,0,1,0,0,1,26.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,250,0,0.7482,6,4,334.1353,41.6667,62.5,1,0,3,1,0,6,39.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,241,0,0.7187,7,4,335.3277,34.4286,60.25,1,0,2,1,0,5,28.57
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,234,0,0.6977,6,4,335.3877,39.0,58.5,1,0,3,1,0,5,36.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,227,0,0.6767,5,4,335.4515,45.4,56.75,1,0,2,1,0,4,32.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,228,0,0.6809,6,4,334.8509,38.0,57.0,1,0,2,1,0,5,32.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,228,0,0.6809,6,4,334.8509,38.0,57.0,1,0,3,1,0,5,36.0
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,73,73,0.2179,2,1,335.0161,36.5,73.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,67,67,0.2,1,1,335.0,67.0,67.0,0,0,1,0,0,1,36.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,63,63,0.1881,1,1,334.9282,63.0,63.0,0,0,1,0,0,1,36.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,9,0,0.0269,1,1,334.5725,9.0,9.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,76,0,0.3016,2,1,251.9894,38.0,76.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,71,0,0.2817,2,1,252.0412,35.5,71.0,1,0,1,0,0,1,40.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,69,0,0.2738,2,1,252.0088,34.5,69.0,0,0,1,0,0,1,26.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,225,0,0.8921,6,1,252.2139,37.5,225.0,1,0,1,1,0,5,40.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,216,0,0.8571,5,1,252.0126,43.2,216.0,1,0,1,1,0,3,36.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,210,0,0.832,6,1,252.4038,35.0,210.0,1,0,1,1,0,6,43.33
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,203,0,0.8069,6,1,251.5801,33.8333,203.0,1,0,1,1,0,4,36.67
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,205,0,0.8119,5,1,252.4941,41.0,205.0,1,0,1,1,0,5,44.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,204,0,0.8119,7,1,251.2625,29.1429,204.0,1,1,1,1,0,5,38.29
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,69,69,0.2738,2,1,252.0088,34.5,69.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,63,63,0.25,2,1,252.0,31.5,63.0,0,0,1,0,0,1,26.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,59,59,0.2341,1,1,252.029,59.0,59.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,14,0,0.0556,1,1,251.7986,14.0,14.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,82,0,0.2448,2,1,334.9673,41.0,82.0,0,0,1,0,0,1,26.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,77,0,0.2299,2,1,334.9282,38.5,77.0,0,0,1,0,0,1,26.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,75,0,0.2239,1,1,334.971,75.0,75.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,244,0,0.7279,5,4,335.2109,48.8,61.0,1,0,3,1,0,5,40.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,234,0,0.6993,7,4,334.6203,33.4286,58.5,1,0,2,1,0,5,28.57
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,227,0,0.6788,6,4,334.4137,37.8333,56.75,1,0,3,1,0,5,36.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,221,0,0.6584,5,4,335.6622,44.2,55.25,1,0,2,1,0,4,32.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,222,0,0.6625,6,4,335.0943,37.0,55.5,1,0,2,1,0,5,32.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,222,0,0.6625,6,4,335.0943,37.0,55.5,1,0,3,1,0,5,36.0
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,74,74,0.2209,2,1,334.9932,37.0,74.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,68,68,0.203,1,1,334.9754,68.0,68.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,64,64,0.191,1,1,335.0785,64.0,64.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,15,0,0.0448,1,1,334.8214,15.0,15.0,0,0,1,0,0,1,36.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1689,0,6.7024,39,9,251.9993,43.3077,187.6667,10,3,5,5,0,33,35.97
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1592,0,6.3175,45,8,251.9984,35.3778,199.0,8,3,5,8,0,36,34.62
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1544,0,6.127,39,8,251.9993,39.5897,193.0,7,3,6,6,0,28,34.77
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4792,0,19.0177,156,32,251.9758,30.7179,149.75,35,11,19,18,1,110,32.63
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4604,0,18.2698,130,31,252.0006,35.4154,148.5161,26,12,18,18,1,94,32.74
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4469,0,17.7356,115,30,251.9791,38.8609,148.9667,26,9,23,16,1,74,34.7
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4335,0,17.2014,134,29,252.0144,32.3507,149.4828,25,11,21,15,1,102,34.87
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4362,0,17.3083,129,29,252.0178,33.814,150.4138,24,10,15,18,1,112,34.07
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4362,0,17.3083,125,29,252.0178,34.896,150.4138,28,8,16,19,1,112,36.28
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1399,1399,5.5516,29,13,251.9994,48.2414,107.6154,6,2,7,4,0,19,30.55
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1282,1282,5.0873,38,11,252.0001,33.7368,116.5455,7,3,6,6,0,30,33.15
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1205,1205,4.7817,35,11,252.0024,34.4286,109.5455,9,2,6,5,0,28,34.9
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,165,0,0.6548,6,1,251.9853,27.5,165.0,1,0,1,1,0,5,40.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1829,0,5.4597,45,10,335.0001,40.6444,182.9,11,3,7,6,0,30,34.31
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1725,0,5.1493,28,9,334.997,61.6071,191.6667,6,2,6,4,0,23,36.24
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1673,0,4.994,31,9,335.002,53.9677,185.8889,6,2,6,5,0,26,36.22
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,5192,0,15.4988,159,64,334.9937,32.6541,81.125,40,10,45,25,1,108,35.2
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4988,0,14.8893,112,61,335.0057,44.5357,81.7705,27,9,44,15,1,71,34.15
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4842,0,14.4539,136,59,334.9961,35.6029,82.0678,29,8,32,19,1,129,36.62
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4696,0,14.0185,139,58,334.9859,33.7842,80.9655,25,10,34,18,1,94,30.93
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4726,0,14.1056,117,58,335.0442,40.3932,81.4828,25,8,43,13,1,98,37.26
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4725,0,14.1056,113,58,334.9733,41.8142,81.4655,24,9,30,16,1,74,30.61
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1515,1515,4.5224,37,18,334.9991,40.9459,84.1667,9,3,11,5,0,27,34.32
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1389,1389,4.1463,25,16,334.9975,55.56,86.8125,6,2,11,4,0,22,38.84
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1305,1305,3.8955,28,15,335.0019,46.6071,87.0,6,2,9,3,0,19,31.74
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,179,0,0.5343,7,2,335.0178,25.5714,89.5,1,1,1,1,0,6,33.14
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1564,0,6.2063,36,8,252.002,43.4444,195.5,9,3,4,4,0,30,34.44
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1475,0,5.8532,42,8,251.9989,35.119,184.375,8,3,5,7,0,34,35.05
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1430,0,5.6746,36,8,252.0001,39.7222,178.75,6,3,6,5,0,26,34.33
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4660,0,18.4936,152,31,251.9791,30.6579,150.3226,34,10,19,18,1,108,33.02
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4477,0,17.7664,127,30,251.9925,35.252,149.2333,25,11,17,18,1,92,32.44
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4346,0,17.2469,112,29,251.9873,38.8036,149.8621,25,9,22,16,1,72,34.57
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4215,0,16.7274,130,28,251.9818,32.4231,150.5357,24,11,21,14,1,99,35.2
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4242,0,16.8313,125,28,252.0304,33.936,151.5,23,10,14,17,1,108,33.63
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4242,0,16.8313,121,28,252.0304,35.0579,151.5,27,8,16,18,1,108,36.48
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1422,1422,5.6429,30,13,251.9981,47.4,109.3846,6,2,7,4,0,20,30.48
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1303,1303,5.1706,39,12,252.0017,33.4103,108.5833,7,3,7,6,0,30,33.13
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1225,1225,4.8611,35,11,252.0006,35.0,111.3636,9,2,6,5,0,28,34.9
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,280,0,1.1111,10,2,252.0025,28.0,140.0,2,1,1,1,0,9,34.4
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1695,0,5.0597,42,9,335.0001,40.3571,188.3333,11,3,6,6,0,28,34.48
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1598,0,4.7701,26,8,335.0035,61.4615,199.75,6,2,5,4,0,22,36.77
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1550,0,4.6269,29,8,334.9975,53.4483,193.75,5,2,5,4,0,24,34.41
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,5049,0,15.071,155,62,335.0143,32.5742,81.4355,39,10,43,24,1,105,34.99
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4850,0,14.4784,109,59,334.9818,44.4954,82.2034,26,9,42,15,1,69,34.0
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4708,0,14.055,132,58,334.9698,35.6667,81.1724,28,8,32,19,1,125,36.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4567,0,13.6317,135,56,335.0279,33.8296,81.5536,25,10,33,18,1,91,31.18
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4595,0,13.7163,114,56,335.0029,40.307,82.0536,24,8,42,13,1,96,37.47
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,4595,0,13.7163,110,56,335.0029,41.7727,82.0536,24,9,29,16,1,72,30.87
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1540,1540,4.597,37,18,335.0011,41.6216,85.5556,9,3,11,5,0,27,34.32
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1412,1412,4.2149,25,17,335.002,56.48,83.0588,6,2,12,4,0,22,39.13
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1327,1327,3.9612,28,16,334.9995,47.3929,82.9375,6,2,10,3,0,19,32.14
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,304,0,0.9075,11,4,334.9862,27.6364,76.0,2,1,2,2,0,9,33.45
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,110,0,0.4365,3,1,252.0046,36.6667,110.0,1,0,1,0,0,3,45.33
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,103,0,0.4087,3,1,252.0186,34.3333,103.0,1,0,1,1,0,2,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,100,0,0.3968,3,1,252.0161,33.3333,100.0,1,0,1,0,0,2,38.67
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,312,0,1.2368,10,2,252.2639,31.2,156.0,2,1,1,1,0,7,30.4
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,299,0,1.1881,8,2,251.6623,37.375,149.5,2,1,1,1,0,6,33.5
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,291,0,1.1534,7,2,252.2976,41.5714,145.5,2,1,2,1,0,4,39.43
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,282,0,1.1187,9,2,252.0783,31.3333,141.0,2,1,1,1,0,7,32.89
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,284,0,1.1256,8,2,252.3099,35.5,142.0,1,1,1,1,0,7,32.5
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,283,0,1.1256,8,2,251.4215,35.375,141.5,2,1,1,1,0,7,36.0
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,91,91,0.3611,2,1,252.0078,45.5,91.0,0,0,1,0,0,1,26.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,83,83,0.3294,2,1,251.9733,41.5,83.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,78,78,0.3095,2,1,252.0194,39.0,78.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,11,0,0.0437,1,1,251.7162,11.0,11.0,0,0,1,0,0,1,36.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,119,0,0.3552,3,1,335.0225,39.6667,119.0,1,0,1,0,0,2,38.67
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,112,0,0.3343,2,1,335.0284,56.0,112.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,109,0,0.3254,2,1,334.9723,54.5,109.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,338,0,1.0074,10,4,335.5172,33.8,84.5,3,1,3,2,0,7,38.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,324,0,0.9678,7,4,334.7799,46.2857,81.0,2,1,3,1,0,4,35.43
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,315,0,0.9395,9,4,335.2847,35.0,78.75,2,1,2,1,0,9,37.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,305,0,0.9112,9,4,334.7234,33.8889,76.25,2,1,2,1,0,6,30.67
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,307,0,0.9169,8,4,334.8239,38.375,76.75,2,1,3,1,0,7,40.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,307,0,0.9169,7,4,334.8239,43.8571,76.75,1,1,2,1,0,5,30.29
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,98,98,0.2925,2,1,335.0427,49.0,98.0,0,0,1,0,0,1,26.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,90,90,0.2687,2,1,334.946,45.0,90.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,85,85,0.2537,2,1,335.0414,42.5,85.0,0,0,1,0,0,1,26.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,12,0,0.0358,1,1,335.1955,12.0,12.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,102,0,0.4048,2,1,251.9763,51.0,102.0,1,0,1,0,0,2,50.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,96,0,0.381,3,1,251.9685,32.0,96.0,1,0,1,1,0,2,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,93,0,0.369,2,1,252.0325,46.5,93.0,0,0,1,0,0,1,26.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,303,0,1.2022,10,2,252.0379,30.3,151.5,2,1,1,1,0,7,30.4
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,291,0,1.1549,8,2,251.9699,36.375,145.5,2,1,1,1,0,6,33.5
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,282,0,1.1211,7,2,251.5387,40.2857,141.0,2,1,2,1,0,4,39.43
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,274,0,1.0874,8,2,251.9772,34.25,137.0,1,1,1,1,0,6,30.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,276,0,1.0941,8,2,252.2621,34.5,138.0,1,1,1,1,0,7,32.5
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,276,0,1.0941,8,2,252.2621,34.5,138.0,2,1,1,1,0,7,36.0
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,92,92,0.3651,2,1,251.9858,46.0,92.0,0,0,1,0,0,1,26.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,85,85,0.3373,3,1,252.0012,28.3333,85.0,1,0,1,0,0,2,38.67
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,80,80,0.3175,2,1,251.9685,40.0,80.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,18,0,0.0714,1,1,252.1008,18.0,18.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,110,0,0.3284,3,1,334.9574,36.6667,110.0,1,0,1,0,0,2,38.67
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,104,0,0.3104,2,1,335.0515,52.0,104.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,101,0,0.3015,2,1,334.9917,50.5,101.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,328,0,0.9788,10,4,335.1042,32.8,82.0,3,1,3,2,0,7,38.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,315,0,0.9403,7,4,334.9995,45.0,78.75,2,1,3,1,0,4,35.43
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,306,0,0.9128,9,4,335.2323,34.0,76.5,2,1,2,1,0,9,37.33
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,297,0,0.8853,9,4,335.4795,33.0,74.25,2,1,2,1,0,6,30.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,298,0,0.8908,7,4,334.5308,42.5714,74.5,2,1,3,1,0,6,41.14
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,298,0,0.8908,7,4,334.5308,42.5714,74.5,1,1,2,1,0,5,30.29
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,100,100,0.2985,2,1,335.0084,50.0,100.0,0,0,1,0,0,1,26.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,92,92,0.2746,2,1,335.0328,46.0,92.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,86,86,0.2567,2,1,335.0214,43.0,86.0,0,0,1,0,0,1,26.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,20,0,0.0597,1,1,335.0084,20.0,20.0,0,0,1,0,0,1,36.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2271,0,9.0119,56,19,252.0001,40.5536,119.5263,12,4,11,7,1,45,34.33
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2141,0,8.496,60,18,252.0009,35.6833,118.9444,10,4,10,7,0,49,32.56
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2076,0,8.2381,47,17,251.9999,44.1702,122.1176,9,3,10,7,0,30,30.69
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6444,0,25.5719,190,123,251.9954,33.9158,52.3902,37,12,72,26,1,124,30.86
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6191,0,24.5663,143,118,252.0119,43.2937,52.4661,29,9,76,20,1,110,34.42
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6010,0,23.848,144,115,252.0127,41.7361,52.2609,25,9,86,19,1,91,32.38
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,5828,0,23.1297,195,111,251.9704,29.8872,52.5045,38,13,66,25,1,167,34.99
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,5865,0,23.2733,125,112,252.0055,46.92,52.3661,29,10,83,20,1,119,40.98
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,5865,0,23.2733,168,112,252.0055,34.9107,52.3661,43,11,64,25,2,160,38.62
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1881,1881,7.4643,59,10,251.9995,31.8814,188.1,10,4,7,8,1,45,34.32
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1724,1724,6.8413,58,9,251.9989,29.7241,191.5556,13,4,6,9,0,54,38.87
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1619,1619,6.4246,49,8,252.0001,33.0408,202.375,11,3,6,7,0,37,36.41
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,222,0,0.881,7,3,251.9864,31.7143,74.0,1,0,2,1,0,7,36.95
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2460,0,7.3433,55,16,334.9993,44.7273,153.75,14,5,8,7,0,52,37.16
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2319,0,6.9224,56,15,334.9994,41.4107,154.6,12,4,10,6,0,49,36.74
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2249,0,6.7134,43,14,335.0016,52.3023,160.6429,11,3,10,6,0,37,38.87
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6981,0,20.8393,170,43,334.9921,41.0647,162.3488,40,12,27,19,2,147,36.66
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6707,0,20.0198,131,41,335.0183,51.1985,163.5854,22,11,26,16,1,99,32.99
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6510,0,19.4344,157,40,334.973,41.465,162.75,27,9,25,24,1,129,34.43
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6314,0,18.849,131,39,334.978,48.1985,161.8974,28,9,24,15,1,97,33.36
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6354,0,18.9661,185,39,335.0188,34.3459,162.9231,35,12,29,22,2,153,36.5
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6354,0,18.9661,171,39,335.0188,37.1579,162.9231,33,13,28,22,2,147,37.15
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2037,2037,6.0806,42,11,334.9998,48.5,185.1818,8,3,8,6,0,31,34.87
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1868,1868,5.5761,32,10,335.0012,58.375,186.8,7,2,7,5,0,30,39.33
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1754,1754,5.2358,31,9,335.0013,56.5806,194.8889,6,2,6,5,0,26,36.22
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,240,0,0.7164,8,1,335.0084,30.0,240.0,2,1,1,1,0,5,39.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2104,0,8.3492,52,17,252.0002,40.4615,123.7647,11,4,10,6,0,41,33.87
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1984,0,7.873,56,16,252.0005,35.4286,124.0,10,4,9,7,0,45,32.93
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1923,0,7.631,44,16,251.9984,43.7045,120.1875,8,3,9,7,0,28,30.18
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6267,0,24.8691,184,120,251.9995,34.0598,52.225,36,12,71,25,1,120,30.99
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6021,0,23.8911,139,115,252.0185,43.3165,52.3565,28,9,74,19,1,107,34.35
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,5844,0,23.1926,140,111,251.9769,41.7429,52.6486,24,9,83,18,1,89,32.36
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,5668,0,22.494,190,108,251.9783,29.8316,52.4815,38,13,64,24,1,163,35.12
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,5704,0,22.6337,121,109,252.0136,47.1405,52.3303,28,10,81,20,1,115,41.08
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,5704,0,22.6337,163,109,252.0136,34.9939,52.3303,42,11,62,24,2,155,38.6
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1912,1912,7.5873,60,10,252.0001,31.8667,191.2,10,4,7,8,1,46,34.27
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1753,1753,6.9563,59,9,252.0018,29.7119,194.7778,14,4,6,10,0,55,39.48
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1646,1646,6.5317,50,9,252.0018,32.92,182.8889,12,3,6,7,0,38,35.55
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,377,0,1.496,13,6,252.0053,29.0,62.8333,3,1,3,1,0,12,35.08
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2279,0,6.803,51,15,334.9993,44.6863,151.9333,13,4,8,7,0,48,37.63
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2149,0,6.4149,52,14,335.0013,41.3269,153.5,11,4,9,6,0,45,36.29
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2084,0,6.2209,40,13,334.9998,52.1,160.3077,10,3,10,6,0,34,39.61
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6789,0,20.2644,165,42,335.021,41.1455,161.6429,39,12,27,19,2,143,37.05
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6522,0,19.4675,128,40,335.0199,50.9531,163.05,22,11,25,16,1,97,33.06
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6331,0,18.8983,153,39,335.0037,41.3791,162.3333,27,9,24,24,1,126,34.53
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6140,0,18.329,128,38,334.9883,47.9688,161.5789,27,9,23,15,1,95,33.22
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6178,0,18.4429,180,38,334.9799,34.3222,162.5789,35,12,28,21,2,149,36.55
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,6178,0,18.4429,166,38,334.9799,37.2169,162.5789,32,13,27,21,1,143,37.01
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2071,2071,6.1821,42,11,334.9994,49.3095,188.2727,8,3,8,6,0,31,34.87
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1898,1898,5.6657,33,10,334.9983,57.5152,189.8,7,3,7,5,0,31,39.44
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1783,1783,5.3224,31,9,334.9992,57.5161,198.1111,6,2,6,5,0,26,36.22
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,408,0,1.2179,14,2,335.0029,29.1429,204.0,3,1,1,2,0,9,30.0
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,148,0,0.5873,4,1,252.0007,37.0,148.0,1,0,1,0,0,3,38.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,139,0,0.5516,4,1,251.9942,34.75,139.0,1,0,1,0,0,3,38.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,135,0,0.5357,3,1,252.0067,45.0,135.0,1,0,1,0,0,2,38.67
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,419,0,1.6613,12,8,252.2121,34.9167,52.375,2,1,5,2,0,8,31.67
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,402,0,1.596,9,8,251.8797,44.6667,50.25,2,1,5,1,0,7,34.89
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,390,0,1.5493,9,7,251.7266,43.3333,55.7143,2,1,5,1,0,6,34.1
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,379,0,1.5027,13,7,252.2127,29.1538,54.1429,3,1,4,2,0,11,35.91
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,381,0,1.512,8,7,251.9841,47.625,54.4286,2,1,5,1,0,8,41.93
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,381,0,1.512,11,7,251.9841,34.6364,54.4286,3,1,4,2,0,10,38.96
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,122,122,0.4841,4,1,252.014,30.5,122.0,1,0,1,1,0,3,42.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,112,112,0.4444,4,1,252.0252,28.0,112.0,1,0,1,1,0,4,47.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,105,105,0.4167,3,1,251.9798,35.0,105.0,1,0,1,0,0,2,38.67
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,14,0,0.0556,1,1,251.7986,14.0,14.0,0,0,1,0,0,1,36.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,160,0,0.4776,4,1,335.0084,40.0,160.0,1,0,1,1,0,4,47.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,151,0,0.4507,4,1,335.0344,37.75,151.0,1,0,1,0,0,3,38.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,146,0,0.4358,3,1,335.0161,48.6667,146.0,1,0,1,0,0,3,45.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,454,0,1.3549,11,3,335.0801,41.2727,151.3333,3,1,2,1,0,10,39.03
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,436,0,1.3017,9,3,334.9466,48.4444,145.3333,2,1,2,1,0,7,35.56
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,423,0,1.2636,10,3,334.7578,42.3,141.0,2,1,2,2,0,8,36.67
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,411,0,1.2255,9,3,335.3733,45.6667,137.0,2,1,2,1,0,7,35.56
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,413,0,1.2331,12,3,334.9282,34.4167,137.6667,2,1,2,1,0,10,34.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,413,0,1.2331,11,3,334.9282,37.5455,137.6667,2,1,2,1,0,9,34.67
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,132,132,0.394,3,1,335.0254,44.0,132.0,1,0,1,0,0,2,38.67
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,121,121,0.3612,2,1,334.9945,60.5,121.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,114,114,0.3403,2,1,334.9985,57.0,114.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,16,0,0.0478,1,1,334.728,16.0,16.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,137,0,0.5437,3,1,251.9772,45.6667,137.0,1,0,1,0,0,2,38.67
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,129,0,0.5119,4,1,252.0023,32.25,129.0,1,0,1,0,0,3,38.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,125,0,0.496,3,1,252.0161,41.6667,125.0,1,0,1,0,0,2,38.67
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,407,0,1.6168,12,8,251.7318,33.9167,50.875,2,1,5,2,0,8,31.67
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,391,0,1.5532,9,7,251.7383,43.4444,55.8571,2,1,4,1,0,7,34.03
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,380,0,1.5078,9,7,252.0228,42.2222,54.2857,2,1,5,1,0,6,34.1
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,369,0,1.4624,12,7,252.3249,30.75,52.7143,2,1,4,2,0,10,34.14
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,371,0,1.4715,8,7,252.1237,46.375,53.0,2,1,5,1,0,8,41.93
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,371,0,1.4715,11,7,252.1237,33.7273,53.0,3,1,4,2,0,10,38.96
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,124,124,0.4921,4,1,251.9813,31.0,124.0,1,0,1,1,0,3,42.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,114,114,0.4524,4,1,251.9894,28.5,114.0,1,0,1,1,0,4,47.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,107,107,0.4246,3,1,252.0019,35.6667,107.0,1,0,1,0,0,2,38.67
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,25,0,0.0992,1,1,252.0161,25.0,25.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,148,0,0.4418,3,1,334.9932,49.3333,148.0,1,0,1,0,0,3,45.33
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,140,0,0.4179,3,1,335.0084,46.6667,140.0,1,0,1,0,0,3,45.33
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,135,0,0.403,3,1,334.9876,45.0,135.0,1,0,1,0,0,3,45.33
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,441,0,1.3172,11,3,334.8011,40.0909,147.0,3,1,2,1,0,10,39.03
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,424,0,1.2654,8,3,335.0719,53.0,141.3333,1,1,2,1,0,6,32.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,411,0,1.2284,10,3,334.5816,41.1,137.0,2,1,2,2,0,8,36.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,399,0,1.1914,8,2,334.9001,49.875,199.5,2,1,1,1,0,6,33.5
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,402,0,1.1988,12,2,335.3353,33.5,201.0,2,1,1,1,0,10,31.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,402,0,1.1988,11,2,335.3353,36.5455,201.0,2,1,1,1,0,9,32.0
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,135,135,0.403,3,1,334.9876,45.0,135.0,1,0,1,0,0,2,38.67
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,123,123,0.3672,2,1,334.9673,61.5,123.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,116,116,0.3463,2,1,334.9697,58.0,116.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,27,0,0.0806,1,1,334.9876,27.0,27.0,0,0,1,0,0,1,36.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,1829,0,7.2579,55,16,252.0013,33.2545,114.3125,12,5,9,8,0,48,35.98
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,1725,0,6.8452,39,15,252.0014,44.2308,115.0,7,3,10,5,0,32,35.08
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,1673,0,6.6389,41,15,251.9996,40.8049,111.5333,8,3,8,6,0,34,33.8
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,5192,0,20.6021,157,51,252.0131,33.0701,101.8039,38,10,37,25,1,112,36.02
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,4987,0,19.7919,164,49,251.9718,30.4085,101.7755,32,13,30,25,1,119,33.21
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,4842,0,19.2132,122,47,252.0142,39.6885,103.0213,30,11,28,18,1,98,35.99
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,4696,0,18.6345,159,46,252.0057,29.5346,102.087,28,10,23,22,1,146,34.31
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,4725,0,18.7502,149,46,251.9973,31.7114,102.7174,31,12,32,25,1,126,37.57
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,4725,0,18.7502,137,46,251.9973,34.4891,102.7174,32,10,23,18,1,121,35.24
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,1515,1515,6.0119,45,20,252.0002,33.6667,75.75,11,3,15,6,0,42,40.44
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,1389,1389,5.5119,47,19,252.0002,29.5532,73.1053,8,4,11,7,0,38,33.6
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,1305,1305,5.1786,44,17,251.9986,29.6591,76.7647,9,3,12,7,0,28,33.11
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,179,0,0.7103,6,3,252.0062,29.8333,59.6667,1,0,2,1,0,6,38.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,1982,0,5.9164,37,15,335.001,53.5676,132.1333,9,2,9,4,0,32,36.09
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,1869,0,5.5791,37,14,335.0003,50.5135,133.5,6,3,11,4,0,33,37.65
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,1812,0,5.409,36,13,334.9972,50.3333,139.3846,7,3,8,5,0,30,35.18
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,5625,0,16.7904,109,60,335.0129,51.6055,93.75,20,7,37,15,1,104,37.13
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,5404,0,16.1301,107,57,335.0258,50.5047,94.807,19,8,37,17,1,89,35.51
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,5246,0,15.6585,137,56,335.0257,38.292,93.6786,29,8,34,20,1,107,34.36
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,5087,0,15.1868,101,54,334.9619,50.3663,94.2037,24,9,31,11,1,94,37.34
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,5119,0,15.2812,158,54,334.9868,32.3987,94.7963,36,11,35,20,2,125,35.53
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,5119,0,15.2812,110,54,334.9868,46.5364,94.7963,22,8,32,16,1,104,37.26
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,1642,1642,4.9015,38,20,334.9995,43.2105,82.1,9,2,13,6,0,32,37.03
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,1505,1505,4.4925,31,19,335.0028,48.5484,79.2105,8,2,12,4,0,28,38.23
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,1413,1413,4.2179,24,17,335.0008,58.875,83.1176,4,1,10,4,0,20,33.91
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,194,0,0.5791,6,2,335.0026,32.3333,97.0,1,0,1,1,0,4,28.67
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,1695,0,6.7262,51,15,251.9996,33.2353,113.0,11,4,9,8,0,45,36.74
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,1598,0,6.3413,36,14,251.9988,44.3889,114.1429,7,3,9,5,0,29,35.06
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,1550,0,6.1508,38,14,251.9997,40.7895,110.7143,8,2,8,5,0,32,34.62
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,5048,0,20.0335,153,49,251.9779,32.9935,103.0204,37,10,35,25,1,110,36.03
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,4850,0,19.2457,159,47,252.0043,30.5031,103.1915,31,12,29,24,1,115,33.17
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,4708,0,18.6829,119,46,251.9951,39.563,102.3478,30,11,28,17,1,95,36.23
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,4566,0,18.1202,155,45,251.984,29.4581,101.4667,27,10,22,22,1,142,34.12
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,4595,0,18.2327,145,45,252.0197,31.6897,102.1111,31,11,31,24,1,122,37.45
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,4595,0,18.2327,133,45,252.0197,34.5489,102.1111,31,9,22,17,1,118,35.01
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,1540,1540,6.1111,46,21,252.0005,33.4783,73.3333,11,3,16,6,0,43,40.45
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,1412,1412,5.6032,47,19,251.9989,30.0426,74.3158,8,4,11,7,0,38,33.6
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,1326,1326,5.2619,45,18,252.0002,29.4667,73.6667,9,3,13,7,0,29,33.33
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,303,0,1.2024,10,4,251.996,30.3,75.75,2,1,2,2,0,10,38.0
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,1836,0,5.4806,34,14,334.9998,54.0,131.1429,9,2,8,4,0,29,36.2
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,1731,0,5.1672,35,13,334.9977,49.4571,133.1538,6,3,10,4,0,31,37.68
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,1679,0,5.0119,33,13,335.0027,50.8788,129.1538,7,3,8,5,0,28,36.27
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,5469,0,16.3266,106,58,334.9748,51.5943,94.2931,19,7,36,15,1,101,37.14
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,5254,0,15.6845,104,56,334.9804,50.5192,93.8214,18,7,37,17,1,86,35.46
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,5101,0,15.2259,133,54,335.0212,38.3534,94.463,28,8,32,19,1,104,34.08
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,4947,0,14.7673,98,52,334.9969,50.4796,95.1346,23,8,30,11,1,91,37.23
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,4978,0,14.859,154,53,335.0158,32.3247,93.9245,35,11,34,20,1,122,35.46
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,4978,0,14.859,107,53,335.0158,46.5234,93.9245,22,8,31,16,1,102,37.55
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,1669,1669,4.9821,39,21,334.9993,42.7949,79.4762,9,2,14,6,0,33,37.13
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,1530,1530,4.5672,31,19,334.9974,49.3548,80.5263,8,2,12,4,0,28,38.23
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,1437,1437,4.2896,24,18,334.9963,59.875,79.8333,4,1,11,4,0,20,34.28
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,329,0,0.9821,10,3,334.9964,32.9,109.6667,2,1,2,1,0,7,33.07
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,119,0,0.4722,4,1,252.0119,29.75,119.0,1,0,1,1,0,4,47.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,112,0,0.4444,3,1,252.0252,37.3333,112.0,1,0,1,0,0,2,38.67
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,109,0,0.4325,3,1,252.0231,36.3333,109.0,1,0,1,0,0,2,38.67
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,338,0,1.3393,10,3,252.3706,33.8,112.6667,2,1,2,2,0,7,34.67
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,324,0,1.2866,11,3,251.8265,29.4545,108.0,2,1,2,2,0,8,34.3
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,315,0,1.249,8,3,252.2018,39.375,105.0,2,1,2,1,0,6,36.17
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,305,0,1.2114,10,3,251.7748,30.5,101.6667,2,1,1,1,0,9,31.73
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,307,0,1.2189,10,3,251.8664,30.7,102.3333,2,1,2,2,0,8,36.67
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,307,0,1.2189,9,3,251.8664,34.1111,102.3333,2,1,1,1,0,8,32.44
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,98,98,0.3889,3,1,251.9928,32.6667,98.0,1,0,1,0,0,3,45.33
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,90,90,0.3571,3,1,252.0302,30.0,90.0,1,0,1,0,0,2,38.67
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,85,85,0.3373,3,1,252.0012,28.3333,85.0,1,0,1,0,0,2,38.67
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,12,0,0.0476,1,1,252.1008,12.0,12.0,0,0,1,0,0,1,36.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,129,0,0.3851,2,1,334.9779,64.5,129.0,1,0,1,0,0,2,50.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,121,0,0.3612,2,1,334.9945,60.5,121.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,118,0,0.3522,2,1,335.0369,59.0,118.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,365,0,1.0914,7,4,334.4328,52.1429,91.25,1,0,2,1,0,7,34.29
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,351,0,1.0485,7,4,334.7639,50.1429,87.75,1,0,3,1,0,6,35.43
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,341,0,1.0178,9,4,335.0364,37.8889,85.25,2,1,2,1,0,7,32.89
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,331,0,0.9872,7,4,335.2917,47.2857,82.75,2,1,2,1,0,7,40.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,333,0,0.9933,10,4,335.2461,33.3,83.25,2,1,3,1,0,8,36.4
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,333,0,0.9933,7,4,335.2461,47.5714,83.25,1,1,2,1,0,7,36.0
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,107,107,0.3194,2,1,335.0031,53.5,107.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,98,98,0.2925,2,1,335.0427,49.0,98.0,1,0,1,0,0,2,50.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,92,92,0.2746,2,1,335.0328,46.0,92.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,13,0,0.0388,1,1,335.0515,13.0,13.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,110,0,0.4365,3,1,252.0046,36.6667,110.0,1,0,1,0,0,3,45.33
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,104,0,0.4127,2,1,251.999,52.0,104.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,101,0,0.4008,2,1,251.996,50.5,101.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,328,0,1.3011,10,3,252.0944,32.8,109.3333,2,1,2,2,0,7,34.67
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,315,0,1.2499,10,3,252.0202,31.5,105.0,2,1,2,1,0,7,33.07
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,306,0,1.2134,8,3,252.1839,38.25,102.0,2,1,2,1,0,6,36.17
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,297,0,1.1768,10,3,252.3793,29.7,99.0,2,1,1,1,0,9,31.73
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,298,0,1.1842,9,3,251.6467,33.1111,99.3333,2,1,2,2,0,8,39.56
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,298,0,1.1842,9,3,251.6467,33.1111,99.3333,2,1,1,1,0,8,32.44
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,100,100,0.3968,3,1,252.0161,33.3333,100.0,1,0,1,0,0,3,45.33
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,92,92,0.3651,3,1,251.9858,30.6667,92.0,1,0,1,0,0,2,38.67
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,86,86,0.3413,3,1,251.9777,28.6667,86.0,1,0,1,0,0,2,38.67
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,20,0,0.0794,1,1,251.8892,20.0,20.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,119,0,0.3552,2,1,335.0225,59.5,119.0,1,0,1,0,0,2,50.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,113,0,0.3373,2,1,335.0133,56.5,113.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,109,0,0.3254,2,1,334.9723,54.5,109.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,356,0,1.0627,7,4,334.9958,50.8571,89.0,1,0,2,1,0,7,34.29
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,342,0,1.0209,7,4,334.9985,48.8571,85.5,1,0,3,1,0,6,35.43
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,332,0,0.9911,9,4,334.9813,36.8889,83.0,2,1,2,1,0,7,32.89
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,322,0,0.9612,6,3,334.9979,53.6667,107.3333,1,1,2,1,0,6,40.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,324,0,0.9672,10,3,334.9876,32.4,108.0,2,1,2,1,0,8,35.07
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,324,0,0.9672,7,3,334.9876,46.2857,108.0,1,1,2,1,0,7,38.67
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,108,108,0.3224,3,1,334.9876,36.0,108.0,1,0,1,0,0,3,45.33
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,99,99,0.2955,2,1,335.0254,49.5,99.0,1,0,1,0,0,2,50.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,93,93,0.2776,2,1,335.0144,46.5,93.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,21,0,0.0627,1,1,334.9282,21.0,21.0,0,0,1,0,0,1,36.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,1458,0,5.7857,38,8,252.0006,38.3684,182.25,9,3,5,5,0,30,35.47
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,1375,0,5.4563,36,8,252.0023,38.1944,171.875,7,2,5,5,0,34,37.22
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,1333,0,5.2897,35,7,251.9992,38.0857,190.4286,8,3,5,6,0,32,39.89
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,4138,0,16.4198,122,38,252.0128,33.918,108.8947,31,9,28,15,1,109,39.69
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,3975,0,15.7741,98,36,251.9954,40.5612,110.4167,21,7,19,14,1,78,33.59
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,3859,0,15.3128,118,35,252.0114,32.7034,110.2571,26,9,25,16,1,85,35.16
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,3742,0,14.8516,136,34,251.9594,27.5147,110.0588,32,12,20,17,1,90,32.35
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,3766,0,14.9439,84,34,252.0092,44.8333,110.7647,21,7,18,10,1,58,32.28
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,3766,0,14.9439,128,34,252.0092,29.4219,110.7647,24,11,20,20,1,91,32.47
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,1208,1208,4.7937,29,12,251.9974,41.6552,100.6667,6,2,6,5,0,23,33.24
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,1107,1107,4.3929,30,11,251.9975,36.9,100.6364,6,2,8,5,0,25,37.37
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,1040,1040,4.127,27,10,251.999,38.5185,104.0,5,2,6,4,0,23,35.08
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,142,0,0.5635,6,1,251.9965,23.6667,142.0,2,1,1,1,0,4,43.33
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,1580,0,4.7164,31,9,335.0013,50.9677,175.5556,8,2,5,5,0,23,34.31
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,1489,0,4.4448,28,8,334.9982,53.1786,186.125,7,2,5,4,0,18,33.0
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,1444,0,4.3104,38,8,335.0037,38.0,180.5,9,3,5,6,0,34,38.0
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,4482,0,13.3792,93,22,334.9976,48.1935,203.7273,16,6,17,13,1,65,34.26
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,4306,0,12.8531,81,22,335.0165,53.1605,195.7273,18,7,13,11,1,61,34.05
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,4180,0,12.4772,86,21,335.0111,48.6047,199.0476,18,7,12,11,1,82,37.19
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,4054,0,12.1014,79,20,335.0026,51.3165,202.7,15,5,12,13,1,74,37.14
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,4079,0,12.1766,128,20,334.9868,31.8672,203.95,22,8,11,14,1,94,30.86
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,4079,0,12.1766,92,20,334.9868,44.337,203.95,24,7,15,11,1,67,36.78
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,1308,1308,3.9045,21,8,334.9981,62.2857,163.5,5,2,5,3,0,19,38.19
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,1199,1199,3.5791,25,7,335.0004,47.96,171.2857,5,2,4,4,0,24,37.46
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,1127,1127,3.3642,27,7,334.9979,41.7407,161.0,7,2,4,3,0,25,37.59
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,154,0,0.4597,7,1,335.0011,22.0,154.0,1,0,1,1,0,6,39.43
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,1351,0,5.3611,35,8,252.0005,38.6,168.875,8,2,5,4,0,27,34.34
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,1274,0,5.0556,33,7,251.9978,38.6061,182.0,6,2,5,4,0,31,37.97
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,1235,0,4.9008,33,7,251.9997,37.4242,176.4286,7,3,5,5,0,31,39.67
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,4024,0,15.9677,118,37,252.0087,34.1017,108.7568,30,8,27,15,1,105,39.51
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,3866,0,15.3398,95,35,252.0241,40.6947,110.4571,20,7,19,14,1,76,33.91
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,3753,0,14.8912,115,34,252.028,32.6348,110.3824,26,9,24,15,1,83,35.15
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,3639,0,14.4427,132,33,251.9612,27.5682,110.2727,31,11,20,16,1,88,32.61
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,3662,0,14.5324,81,33,251.9887,45.2099,110.9697,21,7,17,9,1,56,32.24
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,3662,0,14.5324,125,33,251.9887,29.296,110.9697,24,10,19,19,1,89,32.28
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,1228,1228,4.873,29,12,252.0008,42.3448,102.3333,6,2,6,5,0,23,33.24
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,1125,1125,4.4643,31,11,251.9992,36.2903,102.2727,6,3,8,5,0,26,37.57
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,1057,1057,4.1944,28,10,252.0027,37.75,105.7,5,2,6,5,0,24,35.46
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,242,0,0.9603,10,1,252.0046,24.2,242.0,3,1,1,1,0,7,41.2
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,1464,0,4.3701,29,8,335.0038,50.4828,183.0,7,2,5,4,0,21,34.28
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,1380,0,4.1194,26,8,335.0002,53.0769,172.5,7,2,5,4,0,17,34.0
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,1338,0,3.994,36,7,335.0025,37.1667,191.1429,8,3,4,6,0,32,36.81
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,4359,0,13.012,91,22,334.9985,47.9011,198.1364,15,6,17,13,1,64,34.21
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,4188,0,12.5003,79,21,335.032,53.0127,199.4286,17,7,12,11,1,59,33.5
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,4065,0,12.1348,83,20,334.987,48.9759,203.25,18,7,11,10,1,79,36.94
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,3943,0,11.7693,76,20,335.0242,51.8816,197.15,15,5,12,12,1,71,37.23
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,3967,0,11.8424,124,20,334.9828,31.9919,198.35,21,8,11,14,1,91,30.86
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,3967,0,11.8424,90,20,334.9828,44.0778,198.35,23,7,15,11,1,66,36.8
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,1330,1330,3.9701,22,8,335.0042,60.4545,166.25,5,2,5,3,0,20,37.82
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,1219,1219,3.6388,25,7,335.0005,48.76,174.1429,5,2,4,4,0,24,37.46
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,1145,1145,3.4179,27,7,335.001,42.4074,163.5714,7,2,4,3,0,25,37.59
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,262,0,0.7821,11,2,334.9955,23.8182,131.0,2,1,1,2,0,10,35.27
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,95,0,0.377,3,1,251.9894,31.6667,95.0,1,0,1,0,0,2,38.67
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,89,0,0.3532,2,1,251.9819,44.5,89.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,87,0,0.3452,2,1,252.0278,43.5,87.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,269,0,1.0673,8,2,252.0379,33.625,134.5,2,1,1,1,0,7,36.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,258,0,1.0253,6,2,251.6337,43.0,129.0,1,0,1,1,0,5,32.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,251,0,0.9953,8,2,252.1853,31.375,125.5,2,1,1,1,0,6,33.5
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,243,0,0.9654,9,2,251.7091,27.0,121.5,2,1,1,1,0,6,30.67
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,245,0,0.9714,5,2,252.2133,49.0,122.5,1,0,1,1,0,3,28.8
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,245,0,0.9714,8,2,252.2133,30.625,122.5,2,1,1,1,0,6,33.5
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,79,79,0.3135,2,1,251.9936,39.5,79.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,72,72,0.2857,2,1,252.0126,36.0,72.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,68,68,0.2698,2,1,252.0385,34.0,68.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,9,0,0.0357,1,1,252.1008,9.0,9.0,0,0,1,0,0,1,36.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,103,0,0.3075,2,1,334.9593,51.5,103.0,0,0,1,0,0,1,26.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,97,0,0.2896,2,1,334.9448,48.5,97.0,1,0,1,0,0,1,40.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,94,0,0.2806,3,1,334.9964,31.3333,94.0,1,0,1,1,0,3,50.67
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,292,0,0.8703,6,1,335.5165,48.6667,292.0,1,0,1,1,0,4,36.67
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,280,0,0.8361,5,1,334.8882,56.0,280.0,1,0,1,1,0,4,40.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,272,0,0.8117,6,1,335.0992,45.3333,272.0,1,1,1,1,0,6,45.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,264,0,0.7872,5,1,335.3659,52.8,264.0,1,0,1,1,0,5,44.8
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,265,0,0.7921,8,1,334.5537,33.125,265.0,1,0,1,1,0,6,36.5
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,265,0,0.7921,6,1,334.5537,44.1667,265.0,2,0,1,1,0,4,41.33
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,85,85,0.2537,1,1,335.0414,85.0,85.0,0,0,1,0,0,1,36.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,78,78,0.2328,2,1,335.0515,39.0,78.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,73,73,0.2179,2,1,335.0161,36.5,73.0,0,0,1,0,0,2,36.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,10,0,0.0299,1,1,334.4482,10.0,10.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,88,0,0.3492,2,1,252.0046,44.0,88.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,83,0,0.3294,2,1,251.9733,41.5,83.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,80,0,0.3175,2,1,251.9685,40.0,80.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,262,0,1.0383,8,2,252.3355,32.75,131.0,2,1,1,1,0,7,36.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,251,0,0.9975,6,2,251.6291,41.8333,125.5,1,0,1,1,0,5,32.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,244,0,0.9683,7,2,251.988,34.8571,122.0,2,1,1,1,0,5,34.29
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,237,0,0.9392,9,2,252.3424,26.3333,118.5,2,1,1,1,0,6,30.67
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,238,0,0.945,5,2,251.8519,47.6,119.0,1,0,1,1,0,3,28.8
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,238,0,0.945,8,2,251.8519,29.75,119.0,2,1,1,1,0,6,33.5
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,80,80,0.3175,2,1,251.9685,40.0,80.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,73,73,0.2897,2,1,251.9848,36.5,73.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,69,69,0.2738,2,1,252.0088,34.5,69.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,16,0,0.0635,1,1,251.9685,16.0,16.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,95,0,0.2836,2,1,334.9788,47.5,95.0,0,0,1,0,0,1,26.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,90,0,0.2687,2,1,334.946,45.0,90.0,1,0,1,0,0,1,40.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,87,0,0.2597,2,1,335.0019,43.5,87.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,284,0,0.8459,6,1,335.7371,47.3333,284.0,1,0,1,1,0,4,36.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,272,0,0.8126,5,1,334.728,54.4,272.0,1,0,1,1,0,4,40.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,264,0,0.7889,5,1,334.6432,52.8,264.0,1,0,1,1,0,5,44.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,256,0,0.7651,5,1,334.5968,51.2,256.0,1,0,1,1,0,5,44.8
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,258,0,0.7699,8,1,335.1085,32.25,258.0,1,0,1,1,0,6,36.5
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,258,0,0.7699,6,1,335.1085,43.0,258.0,2,0,1,1,0,4,41.33
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,86,86,0.2567,1,1,335.0214,86.0,86.0,0,0,1,0,0,1,36.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,79,79,0.2358,2,1,335.0297,39.5,79.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,74,74,0.2209,2,1,334.9932,37.0,74.0,0,0,1,0,0,2,36.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,17,0,0.0507,1,1,335.3057,17.0,17.0,0,0,1,0,0,1,36.0
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,1378.8219,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1621.0,0,1207.8335,34,6,1.3421,47.6765,270.1667,7,2,4,5,4,28,33.2
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1528.0,0,1138.7105,26,6,1.3419,58.7692,254.6667,6,2,4,4,3,21,33.2
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1481.0,0,1105.968,33,5,1.3391,44.8788,296.2,7,2,3,5,4,27,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1633.0,0,3390.665,95,20,0.4816,17.1895,81.65,20,7,13,13,12,77,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1569.0,0,3256.0571,85,19,0.4819,18.4588,82.5789,18,6,12,12,10,69,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1523.0,0,3161.4677,91,18,0.4817,16.7363,84.6111,20,7,11,13,11,74,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1477.0,0,3066.8784,96,18,0.4816,15.3854,82.0556,21,7,11,13,12,78,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1486.0,0,3085.0686,80,18,0.4817,18.575,82.5556,17,6,11,11,10,65,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1486.0,0,3085.0686,113,18,0.4817,13.1504,82.5556,24,8,11,16,14,91,33.2
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,826.0,1039,884.0468,26,15,0.9343,31.7692,55.0667,6,2,9,4,3,21,33.2
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,758.0,953,811.2857,32,14,0.9343,23.6875,54.1429,7,2,9,4,4,26,33.2
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,712.0,895,763.9911,20,13,0.9319,35.6,54.7692,4,1,8,3,2,16,33.2
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,112.7796,5,1,0.0,0.0,0.0,1,0,1,1,1,4,33.2
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1755.0,0,1133.4564,32,11,1.5484,54.8438,159.5455,7,2,7,4,4,26,33.2
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1656.0,0,1071.2545,31,11,1.5459,53.4194,150.5455,7,2,7,4,4,25,33.2
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1605.0,0,1036.6979,23,11,1.5482,69.7826,145.9091,5,2,7,3,3,19,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1769.0,0,3248.3202,87,67,0.5446,20.3333,26.403,19,6,42,12,11,70,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1699.0,0,3120.4608,110,64,0.5445,15.4455,26.5469,24,8,41,15,14,89,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1650.0,0,3030.6136,91,62,0.5444,18.1319,26.6129,20,7,39,13,11,74,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1600.0,0,2937.3108,72,61,0.5447,22.2222,26.2295,15,5,39,10,9,58,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1610.0,0,2958.0448,88,61,0.5443,18.2955,26.3934,19,6,39,12,11,71,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1610.0,0,2958.0448,92,61,0.5443,17.5,26.3934,20,7,39,13,11,74,33.2
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,895.0,1126,528.7159,25,13,1.6928,35.8,68.8462,5,2,8,3,3,20,33.2
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,820.0,1032,483.7924,18,12,1.6949,45.5556,68.3333,4,1,8,3,2,15,33.2
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,771.0,970,456.1471,22,11,1.6902,35.0455,70.0909,5,2,7,3,3,18,33.2
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,51.8349,4,2,0.0,0.0,0.0,1,0,1,1,0,3,33.2
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,1378.8219,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1589.0,0,1120.5202,32,6,1.4181,49.6562,264.8333,7,2,4,4,4,26,33.2
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1499.0,0,1055.0353,24,5,1.4208,62.4583,299.8,5,2,3,3,3,19,33.2
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1453.0,0,1025.9308,31,5,1.4163,46.871,290.6,7,2,3,4,4,25,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1692.0,0,3296.0757,92,19,0.5133,18.3913,89.0526,20,7,12,13,11,74,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1626.0,0,3165.1058,83,18,0.5137,19.5904,90.3333,18,6,11,12,10,67,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1578.0,0,3074.1545,88,18,0.5133,17.9318,87.6667,19,6,11,12,11,71,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1530.0,0,2983.2032,93,17,0.5129,16.4516,90.0,20,7,11,13,11,75,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1540.0,0,3001.3934,78,17,0.5131,19.7436,90.5882,17,6,11,11,10,63,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1540.0,0,3001.3934,110,17,0.5131,14.0,90.5882,24,8,11,15,14,89,33.2
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,847.0,1056,898.599,27,16,0.9426,31.3704,52.9375,6,2,10,4,3,22,33.2
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,777.0,969,825.8379,33,14,0.9409,23.5455,55.5,7,2,9,5,4,27,33.2
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,729.0,910,774.9052,20,13,0.9408,36.45,56.0769,4,1,8,3,2,16,33.2
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,192.8168,9,1,0.0,0.0,0.0,2,1,1,1,1,7,33.2
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1722.0,0,1050.5206,30,11,1.6392,57.4,156.5455,6,2,7,4,4,24,33.2
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1623.0,0,991.7744,29,10,1.6365,55.9655,162.3,6,2,6,4,4,23,33.2
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1574.0,0,960.6734,22,10,1.6384,71.5455,157.4,5,2,6,3,3,18,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1833.0,0,3158.473,85,65,0.5803,21.5647,28.2,18,6,41,12,10,69,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1761.0,0,3034.0693,107,63,0.5804,16.4579,27.9524,23,8,40,15,13,87,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1710.0,0,2947.6778,88,61,0.5801,19.4318,28.0328,19,6,39,12,11,71,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1658.0,0,2857.8306,70,59,0.5802,23.6857,28.1017,15,5,37,10,9,57,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1668.0,0,2875.1089,85,59,0.5802,19.6235,28.2712,18,6,37,12,10,69,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,1668.0,0,2875.1089,89,59,0.5802,18.7416,28.2712,19,6,37,12,11,72,33.2
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,918.0,1145,535.6273,25,13,1.7139,36.72,70.6154,5,2,8,3,3,20,33.2
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,841.0,1049,490.7037,18,12,1.7139,46.7222,70.0833,4,1,8,3,2,15,33.2
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,790.0,986,463.0584,23,11,1.706,34.3478,71.8182,5,2,7,3,3,19,33.2
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,82.9358,7,4,0.0,0.0,0.0,2,1,3,1,1,6,33.2
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,106.0,0,80.0372,2,1,1.3244,53.0,106.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,99.0,0,72.7611,2,1,1.3606,49.5,99.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,97.0,0,72.7611,2,1,1.3331,48.5,97.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,106.0,0,221.9212,6,1,0.4776,17.6667,106.0,1,0,1,1,1,5,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,102.0,0,211.0071,6,1,0.4834,17.0,102.0,1,0,1,1,1,5,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,99.0,0,203.7309,6,1,0.4859,16.5,99.0,1,0,1,1,1,5,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,96.0,0,200.0929,6,1,0.4798,16.0,96.0,1,0,1,1,1,5,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,97.0,0,200.0929,5,1,0.4848,19.4,97.0,1,0,1,1,1,4,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,96.0,0,200.0929,7,1,0.4798,13.7143,96.0,2,1,1,1,1,6,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,54.0,68,58.2088,2,1,0.9277,27.0,54.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,49.0,62,50.9327,2,1,0.9621,24.5,49.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,46.0,58,50.9327,1,1,0.9032,46.0,46.0,0,0,1,0,0,1,33.2
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,7.2761,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,190.0613,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,114.0,0,72.5689,2,1,1.5709,57.0,114.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,107.0,0,69.1132,2,1,1.5482,53.5,107.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,105.0,0,69.1132,2,1,1.5192,52.5,105.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,115.0,0,210.7952,6,4,0.5456,19.1667,28.75,1,0,3,1,1,5,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,111.0,0,203.8839,7,4,0.5444,15.8571,27.75,2,1,3,1,1,6,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,107.0,0,196.9726,6,4,0.5432,17.8333,26.75,1,0,3,1,1,5,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,104.0,0,190.0613,5,4,0.5472,20.8,26.0,1,0,3,1,1,4,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,105.0,0,193.5169,6,4,0.5426,17.5,26.25,1,0,3,1,1,5,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,105.0,0,193.5169,6,4,0.5426,17.5,26.25,1,0,3,1,1,5,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,58.0,73,34.5566,2,1,1.6784,29.0,58.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,53.0,67,31.1009,1,1,1.7041,53.0,53.0,0,0,1,0,0,1,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,50.0,63,31.1009,1,1,1.6077,50.0,50.0,0,0,1,0,0,1,33.2
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,104.0,0,72.7611,2,1,1.4293,52.0,104.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,97.0,0,69.123,2,1,1.4033,48.5,97.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,94.0,0,65.4849,2,1,1.4354,47.0,94.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,110.0,0,214.6451,6,1,0.5125,18.3333,110.0,1,0,1,1,1,5,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,106.0,0,207.369,5,1,0.5112,21.2,106.0,1,0,1,1,1,4,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,103.0,0,200.0929,6,1,0.5148,17.1667,103.0,1,0,1,1,1,5,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,99.0,0,192.8168,6,1,0.5134,16.5,99.0,1,0,1,1,1,5,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,100.0,0,196.4548,5,1,0.509,20.0,100.0,1,0,1,1,1,4,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,100.0,0,196.4548,7,1,0.509,14.2857,100.0,2,1,1,1,1,6,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,55.0,69,58.2088,2,1,0.9449,27.5,55.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,51.0,63,54.5708,2,1,0.9346,25.5,51.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,47.0,59,50.9327,1,1,0.9228,47.0,47.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,14.5522,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,190.0613,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,112.0,0,69.1132,2,1,1.6205,56.0,112.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,105.0,0,65.6575,2,1,1.5992,52.5,105.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,103.0,0,62.2019,1,1,1.6559,103.0,103.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,119.0,0,203.8839,5,4,0.5837,23.8,29.75,1,0,3,1,1,4,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,114.0,0,196.9726,7,4,0.5788,16.2857,28.5,2,1,3,1,1,6,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,111.0,0,190.0613,6,4,0.584,18.5,27.75,1,0,3,1,1,5,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,108.0,0,186.6056,5,4,0.5788,21.6,27.0,1,0,3,1,1,4,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,109.0,0,186.6056,6,4,0.5841,18.1667,27.25,1,0,3,1,1,5,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,109.0,0,186.6056,6,4,0.5841,18.1667,27.25,1,0,3,1,1,5,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,59.0,74,34.5566,2,1,1.7073,29.5,59.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,55.0,68,31.1009,1,1,1.7684,55.0,55.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,51.0,64,31.1009,1,1,1.6398,51.0,51.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Abeokuta North,South West,Ogun,Abeokuta North,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,1378.8219,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2181.0,0,1626.2095,39,9,1.3412,55.9231,242.3333,8,3,6,5,5,32,33.2
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2056.0,0,1535.2582,45,8,1.3392,45.6889,257.0,10,3,5,6,6,36,33.2
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1994.0,0,1487.9635,39,8,1.3401,51.1282,249.25,8,3,5,5,5,32,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2198.0,0,4562.118,156,32,0.4818,14.0897,68.6875,34,11,20,22,19,126,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2112.0,0,4383.8534,130,31,0.4818,16.2462,68.129,28,9,20,18,16,105,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2050.0,0,4256.5216,115,30,0.4816,17.8261,68.3333,25,8,19,16,14,93,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1988.0,0,4125.5517,134,29,0.4819,14.8358,68.5517,29,10,18,19,16,108,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2001.0,0,4151.018,129,29,0.4821,15.5116,69.0,28,9,18,18,16,104,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2001.0,0,4151.018,125,29,0.4821,16.008,69.0,27,9,18,17,15,101,33.2
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1112.0,1399,1193.2813,29,13,0.9319,38.3448,85.5385,6,2,8,4,4,23,33.2
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1019.0,1282,1091.4158,38,11,0.9336,26.8158,92.6364,8,3,7,5,5,31,33.2
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,958.0,1205,1025.9308,35,11,0.9338,27.3714,87.0909,8,3,7,5,4,28,33.2
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,152.7982,6,1,0.0,0.0,0.0,1,0,1,1,1,5,33.2
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2362.0,0,1527.4016,45,10,1.5464,52.4889,236.2,10,3,6,6,6,36,33.2
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2228.0,0,1441.0101,28,9,1.5461,79.5714,247.5556,6,2,6,4,3,23,33.2
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2161.0,0,1396.0865,31,9,1.5479,69.7097,240.1111,7,2,6,4,4,25,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2381.0,0,4374.8653,159,64,0.5442,14.9748,37.2031,34,12,41,22,20,129,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2288.0,0,4202.0823,112,61,0.5445,20.4286,37.5082,24,8,39,16,14,91,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2221.0,0,4077.6785,136,59,0.5447,16.3309,37.6441,29,10,37,19,17,110,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2154.0,0,3956.7304,139,58,0.5444,15.4964,37.1379,30,10,37,19,17,112,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2168.0,0,3980.9201,117,58,0.5446,18.5299,37.3793,25,9,37,16,14,95,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2167.0,0,3980.9201,113,58,0.5443,19.177,37.3621,24,8,37,16,14,91,33.2
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1205.0,1515,711.8659,37,18,1.6927,32.5676,66.9444,8,3,11,5,5,30,33.2
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1104.0,1389,653.1197,25,16,1.6903,44.16,69.0,5,2,10,3,3,20,33.2
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1038.0,1305,611.6518,28,15,1.697,37.0714,69.2,6,2,9,4,3,23,33.2
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,65.6575,7,2,0.0,0.0,0.0,2,1,1,1,1,6,33.2
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2139.0,0,1506.1538,36,8,1.4202,59.4167,267.375,8,3,5,5,4,29,33.2
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2017.0,0,1422.4786,42,8,1.4179,48.0238,252.125,9,3,5,6,5,34,33.2
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1955.0,0,1378.8219,36,8,1.4179,54.3056,244.375,8,3,5,5,4,29,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2278.0,0,4438.4242,152,31,0.5132,14.9868,73.4839,33,11,20,21,19,123,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2188.0,0,4263.7977,127,30,0.5132,17.2283,72.9333,27,9,19,18,16,103,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2124.0,0,4136.4658,112,29,0.5135,18.9643,73.2414,24,8,18,16,14,91,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2060.0,0,4012.772,130,28,0.5134,15.8462,73.5714,28,9,18,18,16,105,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2073.0,0,4038.2384,125,28,0.5133,16.584,74.0357,27,9,18,17,15,101,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2073.0,0,4038.2384,121,28,0.5133,17.1322,74.0357,26,9,18,17,15,98,33.2
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1140.0,1422,1211.4715,30,13,0.941,38.0,87.6923,6,2,8,4,4,24,33.2
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1045.0,1303,1109.6061,39,12,0.9418,26.7949,87.0833,8,3,8,5,5,32,33.2
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,982.0,1225,1044.1211,35,11,0.9405,28.0571,89.2727,8,3,7,5,4,28,33.2
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,258.3017,10,2,0.0,0.0,0.0,2,1,1,1,1,8,33.2
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2318.0,0,1416.8205,42,9,1.6361,55.1905,257.5556,9,3,6,6,5,34,33.2
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2185.0,0,1333.8847,26,8,1.6381,84.0385,273.125,6,2,5,4,3,21,33.2
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2119.0,0,1295.8724,29,8,1.6352,73.069,264.875,6,2,5,4,4,23,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2468.0,0,4253.9172,155,62,0.5802,15.9226,39.8065,33,11,39,22,19,125,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2370.0,0,4084.5899,109,59,0.5802,21.7431,40.1695,23,8,37,15,13,88,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2301.0,0,3967.0974,132,58,0.58,17.4318,39.6724,28,10,37,18,16,107,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2232.0,0,3846.1493,135,56,0.5803,16.5333,39.8571,29,10,35,19,17,109,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2246.0,0,3870.3389,114,56,0.5803,19.7018,40.1071,25,8,35,16,14,92,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,2246.0,0,3870.3389,110,56,0.5803,20.4182,40.1071,24,8,35,15,14,89,33.2
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1235.0,1540,722.2329,37,18,1.71,33.3784,68.6111,8,3,11,5,5,30,33.2
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1132.0,1412,663.4867,25,17,1.7061,45.28,66.5882,5,2,11,3,3,20,33.2
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,1064.0,1327,622.0188,28,16,1.7106,38.0,66.5,6,2,10,4,3,23,33.2
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,114.0368,11,4,0.0,0.0,0.0,2,1,3,2,1,9,33.2
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,142.0,0,105.5035,3,1,1.3459,47.3333,142.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,133.0,0,98.2274,3,1,1.354,44.3333,133.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,129.0,0,94.5894,3,1,1.3638,43.0,129.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,143.0,0,298.3203,10,2,0.4794,14.3,71.5,2,1,1,1,1,8,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,137.0,0,283.7681,8,2,0.4828,17.125,68.5,2,1,1,1,1,6,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,133.0,0,276.492,7,2,0.481,19.0,66.5,2,1,1,1,1,6,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,129.0,0,269.2159,9,2,0.4792,14.3333,64.5,2,1,1,1,1,7,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,130.0,0,269.2159,8,2,0.4829,16.25,65.0,2,1,1,1,1,6,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,130.0,0,269.2159,8,2,0.4829,16.25,65.0,2,1,1,1,1,6,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,72.0,91,76.3991,2,1,0.9424,36.0,72.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,66.0,83,69.123,2,1,0.9548,33.0,66.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,62.0,78,65.4849,2,1,0.9468,31.0,62.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,10.9142,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,190.0613,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,154.0,0,100.2141,3,1,1.5367,51.3333,154.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,145.0,0,93.3028,2,1,1.5541,72.5,145.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,141.0,0,89.8472,2,1,1.5693,70.5,141.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,155.0,0,283.3641,10,4,0.547,15.5,38.75,2,1,3,1,1,8,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,149.0,0,272.9971,7,4,0.5458,21.2857,37.25,2,1,3,1,1,6,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,144.0,0,266.0858,9,4,0.5412,16.0,36.0,2,1,3,1,1,7,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,140.0,0,255.7188,9,4,0.5475,15.5556,35.0,2,1,3,1,1,7,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,141.0,0,259.1745,8,4,0.544,17.625,35.25,2,1,3,1,1,6,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,141.0,0,259.1745,7,4,0.544,20.1429,35.25,2,1,3,1,1,6,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,78.0,98,44.9236,2,1,1.7363,39.0,78.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,72.0,90,41.4679,2,1,1.7363,36.0,72.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,68.0,85,41.4679,2,1,1.6398,34.0,68.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,140.0,0,98.2274,2,1,1.4253,70.0,140.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,131.0,0,90.9513,3,1,1.4403,43.6667,131.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,127.0,0,90.9513,2,1,1.3964,63.5,127.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,148.0,0,287.4062,10,2,0.515,14.8,74.0,2,1,1,1,1,8,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,142.0,0,276.492,8,2,0.5136,17.75,71.0,2,1,1,1,1,6,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,138.0,0,269.2159,7,2,0.5126,19.7143,69.0,2,1,1,1,1,6,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,134.0,0,261.9398,8,2,0.5116,16.75,67.0,2,1,1,1,1,6,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,135.0,0,261.9398,8,2,0.5154,16.875,67.5,2,1,1,1,1,6,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,135.0,0,261.9398,8,2,0.5154,16.875,67.5,2,1,1,1,1,6,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,74.0,92,80.0372,2,1,0.9246,37.0,74.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,68.0,85,72.7611,3,1,0.9346,22.6667,68.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,64.0,80,69.123,2,1,0.9259,32.0,64.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,18.1903,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,150.0,0,93.3028,3,1,1.6077,50.0,150.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,142.0,0,86.3915,2,1,1.6437,71.0,142.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,138.0,0,82.9358,2,1,1.6639,69.0,138.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,160.0,0,276.4528,10,4,0.5788,16.0,40.0,2,1,3,1,1,8,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,154.0,0,266.0858,7,4,0.5788,22.0,38.5,2,1,3,1,1,6,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,150.0,0,259.1745,9,4,0.5788,16.6667,37.5,2,1,3,1,1,7,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,145.0,0,248.8075,9,4,0.5828,16.1111,36.25,2,1,3,1,1,7,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,146.0,0,252.2632,7,4,0.5788,20.8571,36.5,2,1,3,1,1,6,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,146.0,0,252.2632,7,4,0.5788,20.8571,36.5,2,1,3,1,1,6,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,80.0,100,48.3792,2,1,1.6536,40.0,80.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,74.0,92,41.4679,2,1,1.7845,37.0,74.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,69.0,86,41.4679,2,1,1.6639,34.5,69.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Abeokuta South,South West,Ogun,Abeokuta South,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2933.0,0,2190.1077,56,19,1.3392,52.375,154.3684,12,4,12,8,7,45,33.2
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2765.0,0,2062.7758,60,18,1.3404,46.0833,153.6111,13,4,11,8,7,49,33.2
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2681.0,0,2000.9289,47,17,1.3399,57.0426,157.7059,10,3,11,7,6,38,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2956.0,0,6133.7567,190,123,0.4819,15.5579,24.0325,41,14,78,26,23,154,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2839.0,0,5893.6453,143,118,0.4817,19.8531,24.0593,31,10,75,20,18,116,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2756.0,0,5722.6568,144,115,0.4816,19.1389,23.9652,31,11,73,20,18,116,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2673.0,0,5548.0303,195,111,0.4818,13.7077,24.0811,42,14,70,27,24,158,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2690.0,0,5584.4108,125,112,0.4817,21.52,24.0179,27,9,71,17,15,101,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2690.0,0,5584.4108,168,112,0.4817,16.0119,24.0179,36,12,71,23,21,136,33.2
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1496.0,1881,1600.7432,59,10,0.9346,25.3559,149.6,13,4,6,8,7,48,33.2
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1371.0,1724,1469.7733,58,9,0.9328,23.6379,152.3333,12,4,6,8,7,47,33.2
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1287.0,1619,1378.8219,49,8,0.9334,26.2653,160.875,11,4,5,7,6,40,33.2
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,203.7309,7,3,0.0,0.0,0.0,2,1,2,1,1,6,33.2
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3177.0,0,2052.6619,55,16,1.5477,57.7636,198.5625,12,4,10,8,7,44,33.2
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2995.0,0,1935.1695,56,15,1.5477,53.4821,199.6667,12,4,9,8,7,45,33.2
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2905.0,0,1879.8789,43,14,1.5453,67.5581,207.5,9,3,9,6,5,35,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3202.0,0,5881.5329,170,43,0.5444,18.8353,74.4651,37,12,27,24,21,138,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3076.0,0,5650.0037,131,41,0.5444,23.4809,75.0244,28,10,26,18,16,106,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2986.0,0,5484.1321,157,40,0.5445,19.0191,74.65,34,11,25,22,19,127,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2896.0,0,5318.2604,131,39,0.5445,22.1069,74.2564,28,10,25,18,16,106,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2914.0,0,5352.817,185,39,0.5444,15.7514,74.7179,40,14,25,26,23,150,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2914.0,0,5352.817,171,39,0.5444,17.0409,74.7179,37,12,25,24,21,138,33.2
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1620.0,2037,953.7621,42,11,1.6985,38.5714,147.2727,9,3,7,6,5,34,33.2
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1485.0,1868,877.7376,32,10,1.6918,46.4062,148.5,7,2,6,4,4,26,33.2
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1395.0,1754,822.447,31,9,1.6962,45.0,155.0,7,2,6,4,4,25,33.2
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,89.8472,8,1,0.0,0.0,0.0,2,1,1,1,1,6,33.2
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2877.0,0,2026.3953,52,17,1.4198,55.3269,169.2353,11,4,11,7,6,42,33.2
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2713.0,0,1913.6157,56,16,1.4177,48.4464,169.5625,12,4,10,8,7,45,33.2
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2629.0,0,1851.7688,44,16,1.4197,59.75,164.3125,9,3,10,6,5,36,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3063.0,0,5966.4063,184,120,0.5134,16.6467,25.525,40,13,76,26,23,149,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2943.0,0,5733.5709,139,115,0.5133,21.1727,25.5913,30,10,73,19,17,112,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2856.0,0,5566.2205,140,111,0.5131,20.4,25.7297,30,10,70,19,17,113,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2770.0,0,5398.8701,190,108,0.5131,14.5789,25.6481,41,14,68,26,23,154,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2788.0,0,5431.6126,121,109,0.5133,23.0413,25.578,26,9,69,17,15,98,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2788.0,0,5431.6126,163,109,0.5133,17.1043,25.578,35,12,69,23,20,132,33.2
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1533.0,1912,1629.8476,60,10,0.9406,25.55,153.3,13,4,6,8,7,49,33.2
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1405.0,1753,1491.6016,59,9,0.9419,23.8136,156.1111,13,4,6,8,7,48,33.2
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1320.0,1646,1400.6503,50,9,0.9424,26.4,146.6667,11,4,6,7,6,40,33.2
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,349.2531,13,6,0.0,0.0,0.0,3,1,4,2,2,11,33.2
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3116.0,0,1904.0685,51,15,1.6365,61.098,207.7333,11,4,9,7,6,41,33.2
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2939.0,0,1793.4874,52,14,1.6387,56.5192,209.9286,11,4,9,7,6,42,33.2
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,2850.0,0,1741.6525,40,13,1.6364,71.25,219.2308,9,3,8,6,5,32,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3318.0,0,5719.1169,165,42,0.5802,20.1091,79.0,35,12,27,23,20,133,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3188.0,0,5494.499,128,40,0.5802,24.9062,79.7,28,9,25,18,16,104,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3094.0,0,5332.083,153,39,0.5803,20.2222,79.3333,33,11,25,21,19,124,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3001.0,0,5173.1227,128,38,0.5801,23.4453,78.9737,28,9,24,18,16,104,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3020.0,0,5204.2236,180,38,0.5803,16.7778,79.4737,39,13,24,25,22,146,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,3020.0,0,5204.2236,166,38,0.5803,18.1928,79.4737,36,12,24,23,20,134,33.2
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1660.0,2071,971.0404,42,11,1.7095,39.5238,150.9091,9,3,7,6,5,34,33.2
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1522.0,1898,891.5602,33,10,1.7071,46.1212,152.2,7,2,6,5,4,27,33.2
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,1429.0,1783,836.2697,31,9,1.7088,46.0968,158.7778,7,2,6,4,4,25,33.2
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,152.049,14,2,0.0,0.0,0.0,3,1,1,2,2,11,33.2
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,191.0,0,141.8841,4,1,1.3462,47.75,191.0,1,0,1,1,0,3,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,179.0,0,134.6079,4,1,1.3298,44.75,179.0,1,0,1,1,0,3,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,174.0,0,130.9699,3,1,1.3285,58.0,174.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,192.0,0,400.1858,12,8,0.4798,16.0,24.0,3,1,5,2,1,10,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,184.0,0,381.9955,9,8,0.4817,20.4444,23.0,2,1,5,1,1,7,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,179.0,0,371.0814,9,7,0.4824,19.8889,25.5714,2,1,4,1,1,7,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,174.0,0,360.1672,13,7,0.4831,13.3846,24.8571,3,1,4,2,2,11,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,175.0,0,363.8053,8,7,0.481,21.875,25.0,2,1,4,1,1,6,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,175.0,0,363.8053,11,7,0.481,15.9091,25.0,2,1,4,2,1,9,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,97.0,122,105.5035,4,1,0.9194,24.25,97.0,1,0,1,1,0,3,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,89.0,112,94.5894,4,1,0.9409,22.25,89.0,1,0,1,1,0,3,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,84.0,105,90.9513,3,1,0.9236,28.0,84.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,10.9142,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,206.0,0,134.7707,4,1,1.5285,51.5,206.0,1,0,1,1,0,3,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,195.0,0,124.4038,4,1,1.5675,48.75,195.0,1,0,1,1,0,3,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,188.0,0,120.9481,3,1,1.5544,62.6667,188.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,208.0,0,383.5782,11,3,0.5423,18.9091,69.3333,2,1,2,2,1,9,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,200.0,0,366.2999,9,3,0.546,22.2222,66.6667,2,1,2,1,1,7,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,194.0,0,355.933,10,3,0.545,19.4,64.6667,2,1,2,1,1,8,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,189.0,0,345.566,9,3,0.5469,21.0,63.0,2,1,2,1,1,7,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,189.0,0,349.0216,12,3,0.5415,15.75,63.0,3,1,2,2,1,10,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,189.0,0,349.0216,11,3,0.5415,17.1818,63.0,2,1,2,2,1,9,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,105.0,132,62.2019,3,1,1.6881,35.0,105.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,96.0,121,55.2906,2,1,1.7363,48.0,96.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,91.0,114,51.8349,2,1,1.7556,45.5,91.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,187.0,0,130.9699,3,1,1.4278,62.3333,187.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,176.0,0,123.6938,4,1,1.4229,44.0,176.0,1,0,1,1,0,3,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,171.0,0,120.0557,3,1,1.4243,57.0,171.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,199.0,0,389.2716,12,8,0.5112,16.5833,24.875,3,1,5,2,1,10,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,191.0,0,371.0814,9,7,0.5147,21.2222,27.2857,2,1,4,1,1,7,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,186.0,0,360.1672,9,7,0.5164,20.6667,26.5714,2,1,4,1,1,7,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,180.0,0,352.8911,12,7,0.5101,15.0,25.7143,3,1,4,2,1,10,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,181.0,0,352.8911,8,7,0.5129,22.625,25.8571,2,1,4,1,1,6,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,181.0,0,352.8911,11,7,0.5129,16.4545,25.8571,2,1,4,2,1,9,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,100.0,124,105.5035,4,1,0.9478,25.0,100.0,1,0,1,1,0,3,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,92.0,114,98.2274,4,1,0.9366,23.0,92.0,1,0,1,1,0,3,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,86.0,107,90.9513,3,1,0.9456,28.6667,86.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,21.8283,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,202.0,0,124.4038,3,1,1.6237,67.3333,202.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,191.0,0,117.4924,3,1,1.6256,63.6667,191.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,185.0,0,114.0368,3,1,1.6223,61.6667,185.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,216.0,0,373.2113,11,3,0.5788,19.6364,72.0,2,1,2,2,1,9,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,207.0,0,355.933,8,3,0.5816,25.875,69.0,2,1,2,1,1,6,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,201.0,0,345.566,10,3,0.5817,20.1,67.0,2,1,2,1,1,8,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,195.0,0,335.199,8,2,0.5817,24.375,97.5,2,1,1,1,1,6,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,197.0,0,338.6547,12,2,0.5817,16.4167,98.5,3,1,1,2,1,10,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,196.0,0,338.6547,11,2,0.5788,17.8182,98.0,2,1,1,2,1,9,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,108.0,135,62.2019,3,1,1.7363,36.0,108.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,99.0,123,58.7462,2,1,1.6852,49.5,99.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,93.0,116,55.2906,2,1,1.682,46.5,93.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Ijebu Ode,South West,Ogun,Ijebu Ode,,,0.0,0,10.367,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,2362.0,0,1764.4555,55,16,1.3387,42.9455,147.625,12,4,10,8,7,44,33.2
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,2228.0,0,1662.5901,39,15,1.3401,57.1282,148.5333,8,3,9,5,5,32,33.2
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,2161.0,0,1611.6573,41,15,1.3409,52.7073,144.0667,9,3,9,6,5,33,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,2381.0,0,4944.1135,157,51,0.4816,15.1656,46.6863,34,11,32,22,19,127,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,2287.0,0,4747.6587,164,49,0.4817,13.9451,46.6735,35,12,31,23,20,133,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,2221.0,0,4609.4127,122,47,0.4818,18.2049,47.2553,26,9,30,17,15,99,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,2154.0,0,4471.1667,159,46,0.4818,13.5472,46.8261,34,12,29,22,20,129,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,2167.0,0,4500.2711,149,46,0.4815,14.5436,47.1087,32,11,29,21,18,121,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,2167.0,0,4500.2711,137,46,0.4815,15.8175,47.1087,29,10,29,19,17,111,33.2
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,1205.0,1515,1291.5087,45,20,0.933,26.7778,60.25,10,3,13,6,6,36,33.2
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,1104.0,1389,1182.3671,47,19,0.9337,23.4894,58.1053,10,3,12,7,6,38,33.2
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,1038.0,1305,1113.2441,44,17,0.9324,23.5909,61.0588,9,3,11,6,5,36,33.2
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,163.7124,6,3,0.0,0.0,0.0,1,0,2,1,1,5,33.2
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,2560.0,0,1655.261,37,15,1.5466,69.1892,170.6667,8,3,9,5,5,30,33.2
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,2414.0,0,1561.9582,37,14,1.5455,65.2432,172.4286,8,3,9,5,5,30,33.2
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,2340.0,0,1513.579,36,13,1.546,65.0,180.0,8,3,8,5,4,29,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,2580.0,0,4737.7096,109,60,0.5446,23.6697,43.0,23,8,38,15,13,88,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,2479.0,0,4551.1039,107,57,0.5447,23.1682,43.4912,23,8,36,15,13,87,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,2406.0,0,4419.7889,137,56,0.5444,17.562,42.9643,29,10,35,19,17,111,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,2333.0,0,4285.0181,101,54,0.5445,23.099,43.2037,22,7,34,14,12,82,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,2348.0,0,4312.6634,158,54,0.5444,14.8608,43.4815,34,12,34,22,19,128,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,2348.0,0,4312.6634,110,54,0.5444,21.3455,43.4815,24,8,34,15,14,89,33.2
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,1305.0,1642,770.6121,38,20,1.6935,34.3421,65.25,8,3,13,5,5,31,33.2
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,1197.0,1505,704.9546,31,19,1.698,38.6129,63.0,7,2,12,4,4,25,33.2
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,1123.0,1413,663.4867,24,17,1.6926,46.7917,66.0588,5,2,11,3,3,19,33.2
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,72.5689,6,2,0.0,0.0,0.0,1,0,1,1,1,5,33.2
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,2318.0,0,1633.4856,51,15,1.4191,45.451,154.5333,11,4,9,7,6,41,33.2
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,2185.0,0,1538.8963,36,14,1.4198,60.6944,156.0714,8,3,9,5,4,29,33.2
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,2119.0,0,1495.2396,38,14,1.4172,55.7632,151.3571,8,3,9,5,5,31,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,2467.0,0,4805.8675,153,49,0.5133,16.1242,50.3469,33,11,31,21,19,124,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,2370.0,0,4616.6888,159,47,0.5134,14.9057,50.4255,34,12,30,22,20,129,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,2301.0,0,4482.0808,119,46,0.5134,19.3361,50.0217,26,9,29,17,15,96,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,2232.0,0,4347.4729,155,45,0.5134,14.4,49.6,33,11,28,22,19,125,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,2246.0,0,4372.9393,145,45,0.5136,15.4897,49.9111,31,11,28,20,18,117,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,2246.0,0,4372.9393,133,45,0.5136,16.8872,49.9111,29,10,28,18,16,108,33.2
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,1235.0,1540,1313.337,46,21,0.9404,26.8478,58.8095,10,3,13,6,6,37,33.2
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,1132.0,1412,1204.1954,47,19,0.94,24.0851,59.5789,10,3,12,7,6,38,33.2
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,1063.0,1326,1127.7963,45,18,0.9425,23.6222,59.0556,10,3,11,6,6,36,33.2
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,280.1301,10,4,0.0,0.0,0.0,2,1,3,1,1,8,33.2
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,2882.0203,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,2511.0,0,1534.3129,34,14,1.6366,73.8529,179.3571,7,2,9,5,4,28,33.2
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,2367.0,0,1444.4658,35,13,1.6387,67.6286,182.0769,8,3,8,5,4,28,33.2
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,2296.0,0,1402.9979,33,13,1.6365,69.5758,176.6154,7,2,8,5,4,27,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,2673.0,0,4606.3945,106,58,0.5803,25.217,46.0862,23,8,37,15,13,86,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,2568.0,0,4426.7002,104,56,0.5801,24.6923,45.8571,22,8,35,14,13,84,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,2493.0,0,4295.3851,133,54,0.5804,18.7444,46.1667,29,10,34,18,16,108,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,2418.0,0,4167.5257,98,52,0.5802,24.6735,46.5,21,7,33,14,12,79,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,2433.0,0,4191.7153,154,53,0.5804,15.7987,45.9057,33,11,34,21,19,125,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,2433.0,0,4191.7153,107,53,0.5804,22.7383,45.9057,23,8,34,15,13,87,33.2
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,1338.0,1669,784.4348,39,21,1.7057,34.3077,63.7143,8,3,13,5,5,32,33.2
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,1227.0,1530,718.7772,31,19,1.7071,39.5806,64.5789,7,2,12,4,4,25,33.2
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,1152.0,1437,673.8537,24,18,1.7096,48.0,64.0,5,2,11,3,3,19,33.2
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,124.4038,10,3,0.0,0.0,0.0,2,1,2,1,1,8,33.2
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,154.0,0,116.4177,4,1,1.3228,38.5,154.0,1,0,1,1,0,3,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,145.0,0,109.1416,3,1,1.3285,48.3333,145.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,141.0,0,105.5035,3,1,1.3364,47.0,141.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,155.0,0,320.1486,10,3,0.4842,15.5,51.6667,2,1,2,1,1,8,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,149.0,0,309.2345,11,3,0.4818,13.5455,49.6667,2,1,2,2,1,9,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,144.0,0,298.3203,8,3,0.4827,18.0,48.0,2,1,2,1,1,6,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,140.0,0,291.0442,10,3,0.481,14.0,46.6667,2,1,2,1,1,8,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,141.0,0,291.0442,10,3,0.4845,14.1,47.0,2,1,2,1,1,8,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,141.0,0,291.0442,9,3,0.4845,15.6667,47.0,2,1,2,1,1,7,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,78.0,98,83.6752,3,1,0.9322,26.0,78.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,72.0,90,76.3991,3,1,0.9424,24.0,72.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,68.0,85,72.7611,3,1,0.9346,22.6667,68.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,10.9142,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,166.0,0,107.1255,2,1,1.5496,83.0,166.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,156.0,0,100.2141,2,1,1.5567,78.0,156.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,152.0,0,96.7585,2,1,1.5709,76.0,152.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,167.0,0,307.5537,7,4,0.543,23.8571,41.75,2,1,3,1,1,6,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,161.0,0,297.1867,7,4,0.5417,23.0,40.25,2,1,3,1,1,6,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,156.0,0,286.8198,9,4,0.5439,17.3333,39.0,2,1,3,1,1,7,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,152.0,0,279.9084,7,4,0.543,21.7143,38.0,2,1,3,1,1,6,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,153.0,0,279.9084,10,4,0.5466,15.3,38.25,2,1,3,1,1,8,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,153.0,0,279.9084,7,4,0.5466,21.8571,38.25,2,1,3,1,1,6,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,85.0,107,48.3792,2,1,1.757,42.5,85.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,78.0,98,44.9236,2,1,1.7363,39.0,78.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,73.0,92,41.4679,2,1,1.7604,36.5,73.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,150.0,0,105.5035,3,1,1.4218,50.0,150.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,142.0,0,101.8655,2,1,1.394,71.0,142.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,138.0,0,98.2274,2,1,1.4049,69.0,138.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,160.0,0,312.8725,10,3,0.5114,16.0,53.3333,2,1,2,1,1,8,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,154.0,0,298.3203,10,3,0.5162,15.4,51.3333,2,1,2,1,1,8,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,150.0,0,291.0442,8,3,0.5154,18.75,50.0,2,1,2,1,1,6,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,145.0,0,283.7681,10,3,0.511,14.5,48.3333,2,1,2,1,1,8,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,146.0,0,283.7681,9,3,0.5145,16.2222,48.6667,2,1,2,1,1,7,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,146.0,0,283.7681,9,3,0.5145,16.2222,48.6667,2,1,2,1,1,7,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,80.0,100,83.6752,3,1,0.9561,26.6667,80.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,74.0,92,76.3991,3,1,0.9686,24.6667,74.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,69.0,86,72.7611,3,1,0.9483,23.0,69.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,18.1903,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Remo North,South West,Ogun,Remo North,,,163.0,0,100.2141,2,1,1.6265,81.5,163.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Remo North,South West,Ogun,Remo North,,,155.0,0,93.3028,2,1,1.6613,77.5,155.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Remo North,South West,Ogun,Remo North,,,149.0,0,89.8472,2,1,1.6584,74.5,149.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Remo North,South West,Ogun,Remo North,,,174.0,0,300.6424,7,4,0.5788,24.8571,43.5,2,1,3,1,1,6,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Remo North,South West,Ogun,Remo North,,,167.0,0,286.8198,7,4,0.5822,23.8571,41.75,2,1,3,1,1,6,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Remo North,South West,Ogun,Remo North,,,162.0,0,279.9084,9,4,0.5788,18.0,40.5,2,1,3,1,1,7,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Remo North,South West,Ogun,Remo North,,,157.0,0,269.5415,6,3,0.5825,26.1667,52.3333,1,0,2,1,1,5,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Remo North,South West,Ogun,Remo North,,,158.0,0,272.9971,10,3,0.5788,15.8,52.6667,2,1,2,1,1,8,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Remo North,South West,Ogun,Remo North,,,158.0,0,272.9971,7,3,0.5788,22.5714,52.6667,2,1,2,1,1,6,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Remo North,South West,Ogun,Remo North,,,87.0,108,51.8349,3,1,1.6784,29.0,87.0,1,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Remo North,South West,Ogun,Remo North,,,80.0,99,44.9236,2,1,1.7808,40.0,80.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Remo North,South West,Ogun,Remo North,,,75.0,93,44.9236,2,1,1.6695,37.5,75.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Remo North,South West,Ogun,Remo North,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,1883.0,0,1404.2883,38,8,1.3409,49.5526,235.375,8,3,5,5,5,31,33.2
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,1776.0,0,1324.2512,36,8,1.3411,49.3333,222.0,8,3,5,5,4,29,33.2
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,1722.0,0,1284.2326,35,7,1.3409,49.2,246.0,8,3,4,5,4,28,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,1898.0,0,3940.011,122,38,0.4817,15.5574,49.9474,26,9,24,17,15,99,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,1823.0,0,3783.5747,98,36,0.4818,18.602,50.6389,21,7,23,14,12,79,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,1770.0,0,3674.4332,118,35,0.4817,15.0,50.5714,25,9,22,16,15,95,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,1716.0,0,3561.6535,136,34,0.4818,12.6176,50.4706,29,10,22,19,17,110,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,1727.0,0,3587.1199,84,34,0.4814,20.5595,50.7941,18,6,22,12,10,68,33.2
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,1727.0,0,3587.1199,128,34,0.4814,13.4922,50.7941,28,9,22,18,16,104,33.2
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,960.0,1208,1029.5689,29,12,0.9324,33.1034,80.0,6,2,8,4,4,23,33.2
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,880.0,1107,942.2556,30,11,0.9339,29.3333,80.0,6,2,7,4,4,24,33.2
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,827.0,1040,887.6848,27,10,0.9316,30.6296,82.7,6,2,6,4,3,22,33.2
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,130.9699,6,1,0.0,0.0,0.0,1,0,1,1,1,5,33.2
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,2882.0203,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,2041.0,0,1320.062,31,9,1.5461,65.8387,226.7778,7,2,6,4,4,25,33.2
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,1923.0,0,1244.0375,28,8,1.5458,68.6786,240.375,6,2,5,4,3,23,33.2
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,1865.0,0,1206.0253,38,8,1.5464,49.0789,233.125,8,3,5,5,5,31,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,2056.0,0,3773.5805,93,22,0.5448,22.1075,93.4545,20,7,14,13,11,75,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,1975.0,0,3628.4428,81,22,0.5443,24.3827,89.7727,17,6,14,11,10,66,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,1917.0,0,3521.3173,86,21,0.5444,22.2907,91.2857,18,6,13,12,11,70,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,1859.0,0,3414.1919,79,20,0.5445,23.5316,92.95,17,6,13,11,10,64,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,1871.0,0,3434.9258,128,20,0.5447,14.6172,93.55,28,9,13,18,16,104,33.2
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,1871.0,0,3434.9258,92,20,0.5447,20.337,93.55,20,7,13,13,11,74,33.2
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,1040.0,1308,615.1074,21,8,1.6908,49.5238,130.0,5,2,5,3,3,17,33.2
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,953.0,1199,563.2725,25,7,1.6919,38.12,136.1429,5,2,4,3,3,20,33.2
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,896.0,1127,528.7159,27,7,1.6947,33.1852,128.0,6,2,4,4,3,22,33.2
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,58.7462,7,1,0.0,0.0,0.0,2,1,1,1,1,6,33.2
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,1847.0,0,1302.4228,35,8,1.4181,52.7714,230.875,8,3,5,5,4,28,33.2
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,1742.0,0,1226.0237,33,7,1.4209,52.7879,248.8571,7,2,4,5,4,27,33.2
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,1689.0,0,1189.6432,33,7,1.4198,51.1818,241.2857,7,2,4,5,4,27,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,1967.0,0,3830.8694,118,37,0.5135,16.6695,53.1622,25,9,23,16,15,95,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,1890.0,0,3681.7093,95,35,0.5133,19.8947,54.0,20,7,22,13,12,77,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,1834.0,0,3572.5677,115,34,0.5134,15.9478,53.9412,25,8,22,16,14,93,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,1779.0,0,3467.0642,132,33,0.5131,13.4773,53.9091,28,10,21,18,16,107,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,1790.0,0,3485.2544,81,33,0.5136,22.0988,54.2424,17,6,21,11,10,66,33.2
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,1790.0,0,3485.2544,125,33,0.5136,14.32,54.2424,27,9,21,17,15,101,33.2
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,984.0,1228,1047.7592,29,12,0.9391,33.931,82.0,6,2,8,4,4,23,33.2
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,902.0,1125,956.8078,31,11,0.9427,29.0968,82.0,7,2,7,4,4,25,33.2
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,847.0,1057,898.599,28,10,0.9426,30.25,84.7,6,2,6,4,3,23,33.2
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,221.9212,10,1,0.0,0.0,0.0,2,1,1,1,1,8,33.2
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,2882.0203,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,2002.0,0,1223.3036,29,8,1.6366,69.0345,250.25,6,2,5,4,4,23,33.2
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,1887.0,0,1150.7347,26,8,1.6398,72.5769,235.875,6,2,5,4,3,21,33.2
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,1830.0,0,1116.1781,36,7,1.6395,50.8333,261.4286,8,3,4,5,4,29,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,2131.0,0,3673.3663,91,22,0.5801,23.4176,96.8636,20,7,14,13,11,74,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,2047.0,0,3528.2286,79,21,0.5802,25.9114,97.4762,17,6,13,11,10,64,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,1987.0,0,3424.5588,83,20,0.5802,23.9398,99.35,18,6,13,12,10,67,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,1927.0,0,3320.889,76,20,0.5803,25.3553,96.35,16,6,13,11,9,61,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,1939.0,0,3341.623,124,20,0.5803,15.6371,96.95,27,9,13,17,15,100,33.2
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,1939.0,0,3341.623,90,20,0.5803,21.5444,96.95,19,7,13,13,11,73,33.2
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,1066.0,1330,625.4744,22,8,1.7043,48.4545,133.25,5,2,5,3,3,18,33.2
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,977.0,1219,570.1839,25,7,1.7135,39.08,139.5714,5,2,4,3,3,20,33.2
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,918.0,1145,535.6273,27,7,1.7139,34.0,131.1429,6,2,4,4,3,22,33.2
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,96.7585,11,2,0.0,0.0,0.0,2,1,1,2,1,9,33.2
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,123.0,0,90.9513,3,1,1.3524,41.0,123.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,115.0,0,87.3133,2,1,1.3171,57.5,115.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,112.0,0,83.6752,2,1,1.3385,56.0,112.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,123.0,0,254.6637,8,2,0.483,15.375,61.5,2,1,1,1,1,6,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,118.0,0,247.3876,6,2,0.477,19.6667,59.0,1,0,1,1,1,5,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,115.0,0,240.1115,8,2,0.4789,14.375,57.5,2,1,1,1,1,6,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,111.0,0,232.8354,9,2,0.4767,12.3333,55.5,2,1,1,1,1,7,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,112.0,0,232.8354,5,2,0.481,22.4,56.0,1,0,1,1,1,4,33.2
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,112.0,0,232.8354,8,2,0.481,14.0,56.0,2,1,1,1,1,6,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,63.0,79,65.4849,2,1,0.9621,31.5,63.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,57.0,72,61.8469,2,1,0.9216,28.5,57.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,54.0,68,58.2088,2,1,0.9277,27.0,54.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,7.2761,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,133.0,0,86.3915,2,1,1.5395,66.5,133.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,125.0,0,79.4802,2,1,1.5727,62.5,125.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,121.0,0,79.4802,3,1,1.5224,40.3333,121.0,1,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,134.0,0,245.3518,6,1,0.5462,22.3333,134.0,1,0,1,1,1,5,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,128.0,0,234.9849,5,1,0.5447,25.6,128.0,1,0,1,1,1,4,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,125.0,0,228.0735,6,1,0.5481,20.8333,125.0,1,0,1,1,1,5,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,121.0,0,221.1622,5,1,0.5471,24.2,121.0,1,0,1,1,1,4,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,122.0,0,224.6179,8,1,0.5431,15.25,122.0,2,1,1,1,1,6,33.2
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,122.0,0,224.6179,6,1,0.5431,20.3333,122.0,1,0,1,1,1,5,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,68.0,85,41.4679,1,1,1.6398,68.0,68.0,0,0,1,0,0,1,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,62.0,78,38.0123,2,1,1.6311,31.0,62.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,58.0,73,34.5566,2,1,1.6784,29.0,58.0,0,0,1,0,0,2,33.2
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,120.0,0,83.6752,2,1,1.4341,60.0,120.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,114.0,0,80.0372,2,1,1.4243,57.0,114.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,109.0,0,76.3991,2,1,1.4267,54.5,109.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,128.0,0,251.0256,8,2,0.5099,16.0,64.0,2,1,1,1,1,6,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,123.0,0,240.1115,6,2,0.5123,20.5,61.5,1,0,1,1,1,5,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,119.0,0,232.8354,7,2,0.5111,17.0,59.5,2,1,1,1,1,6,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,116.0,0,225.5593,9,2,0.5143,12.8889,58.0,2,1,1,1,1,7,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,116.0,0,225.5593,5,2,0.5143,23.2,58.0,1,0,1,1,1,4,33.2
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,116.0,0,225.5593,8,2,0.5143,14.5,58.0,2,1,1,1,1,6,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,64.0,80,69.123,2,1,0.9259,32.0,64.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,59.0,73,61.8469,2,1,0.954,29.5,59.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,55.0,69,58.2088,2,1,0.9449,27.5,55.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,14.5522,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,1,0,0,0,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Shagamu,South West,Ogun,Shagamu,,,130.0,0,79.4802,2,1,1.6356,65.0,130.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,123.0,0,76.0245,2,1,1.6179,61.5,123.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,119.0,0,72.5689,2,1,1.6398,59.5,119.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Shagamu,South West,Ogun,Shagamu,,,139.0,0,238.4405,6,1,0.583,23.1667,139.0,1,0,1,1,1,5,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Shagamu,South West,Ogun,Shagamu,,,133.0,0,228.0735,5,1,0.5831,26.6,133.0,1,0,1,1,1,4,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Shagamu,South West,Ogun,Shagamu,,,129.0,0,221.1622,5,1,0.5833,25.8,129.0,1,0,1,1,1,4,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Shagamu,South West,Ogun,Shagamu,,,125.0,0,214.2509,5,1,0.5834,25.0,125.0,1,0,1,1,1,4,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Shagamu,South West,Ogun,Shagamu,,,126.0,0,217.7066,8,1,0.5788,15.75,126.0,2,1,1,1,1,6,33.2
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Shagamu,South West,Ogun,Shagamu,,,126.0,0,217.7066,6,1,0.5788,21.0,126.0,1,0,1,1,1,5,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Shagamu,South West,Ogun,Shagamu,,,69.0,86,41.4679,1,1,1.6639,69.0,69.0,0,0,1,0,0,1,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Shagamu,South West,Ogun,Shagamu,,,63.0,79,38.0123,2,1,1.6574,31.5,63.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Shagamu,South West,Ogun,Shagamu,,,59.0,74,34.5566,2,1,1.7073,29.5,59.0,0,0,1,0,0,2,33.2
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Shagamu,South West,Ogun,Shagamu,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,0,0,1,0,0,1,33.2

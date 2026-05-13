@@ -60,6 +60,16 @@ type AccessWardRow = {
   school?: string;
 };
 
+type AccessKpiSummaryRow = {
+  session: string;
+  disability_scope: string;
+  student_count?: number;
+  school_count?: number;
+  public_school_count?: number;
+  private_school_count?: number;
+  submitted_reports?: number;
+};
+
 type TeacherCapacityRow = {
   session: string;
   zone: string;
@@ -652,7 +662,7 @@ const CHART_HELP: Record<ChartKey, string> = {
   jss: "JSS Schools and Student Enrollment by State compares JSS enrollment with the number of JSS schools. Bars show school count and the line shows student enrollment.",
   sss: "SSS Schools and Student Enrollment by State compares SSS enrollment with the number of SSS schools. Bars show school count and the line shows student enrollment.",
   vocational: "Vocational Schools and Student Enrollment by State compares vocational enrollment with the number of vocational schools. Bars show school count and the line shows student enrollment.",
-  iqs: "Non Formal (IQS/IQTE) Schools and Student Enrollment by State compares non-formal enrollment with the number of centres. Bars show centre count and the line shows student enrollment.",
+  iqs: "Non Formal Schools and Student Enrollment by State compares Non Formal enrollment with the number of centres. Bars show centre count and the line shows student enrollment.",
 };
 
 function safeNum(value: unknown): number {
@@ -2858,6 +2868,20 @@ function lerpColor(start: string, end: string, t: number): string {
   return `rgb(${Math.round(r1+(r2-r1)*t)},${Math.round(g1+(g2-g1)*t)},${Math.round(b1+(b2-b1)*t)})`;
 }
 
+function mapAreaLabelText(name: string, level?: MapLevel): string {
+  const label = displayLocationLabel(name, level);
+  if (level === "state") return label;
+
+  // Keep drilled labels short because the text is now intentionally bigger/readable.
+  // Full LGA/Ward names still remain available through the map hover tooltip.
+  const maxLength = level === "ward" ? 10 : 13;
+  return label.length > maxLength ? `${label.slice(0, maxLength - 1)}…` : label;
+}
+
+function mapTextStrokeWidth(fontSize: number): number {
+  return Math.max(0.8, fontSize * 0.26);
+}
+
 type SvgMapProps = {
   values: Record<string, number>;
   metricLabel: string;
@@ -2949,6 +2973,34 @@ function NigeriaStateSvgMap({
     [partitionItems.length, parentBBox],
   );
 
+  const stateLabelItems = useMemo(() => Object.entries(NGA_PATHS).map(([name, path]) => {
+    const [x0, y0, x1, y1] = pathBBox(path);
+    return {
+      name,
+      label: mapAreaLabelText(name, "state"),
+      x: (x0 + x1) / 2,
+      y: (y0 + y1) / 2,
+    };
+  }), []);
+
+  const mapLabelFontSize = useMemo(() => {
+    if (!isDrilled) return 11.6;
+
+    const [bx0, by0, bx1, by1] = parentBBox;
+    const width = Math.max(1, bx1 - bx0);
+    const height = Math.max(1, by1 - by0);
+    const pad = Math.max(width, height) * 0.18;
+    const viewWidth = width + pad * 2;
+
+    // Match the state label size visually when drilling to LGA/Ward.
+    const targetPixels = 11.6;
+
+    return Math.max(
+      1.0,
+      Math.min(6.4, (targetPixels * viewWidth) / 520),
+    );
+  }, [isDrilled, parentBBox]);
+
   const cbTicks = [0, 0.2, 0.4, 0.6, 0.8, 1];
   const tooltipLines = tip?.text.split(/\s(?:—|-)\s/g).filter(Boolean) ?? [];
   const tooltipStyle = useMemo<CSSProperties>(() => {
@@ -3001,25 +3053,49 @@ function NigeriaStateSvgMap({
           shapeRendering="geometricPrecision"
         >
           {!isDrilled ? (
-            Object.entries(NGA_PATHS).map(([name, d]) => (
-              <path
-                key={name}
-                d={d}
-                fill={getStateColor(name)}
-                stroke="#ffffff"
-                strokeWidth={0.8}
-                strokeLinejoin="round"
-                style={{ cursor: "pointer", transition: "fill 0.25s" }}
-                onClick={() => onStateClick?.(name)}
-                onMouseEnter={(e: ReactMouseEvent<SVGPathElement>) => {
-                  const v = values[name] ?? 0;
-                  const text = formatTooltip ? formatTooltip(name, v) : `${displayLocationLabel(name, "state")}: ${fmtVal(v)}`;
-                  setTip({ x: e.clientX, y: e.clientY, text });
-                }}
-                onMouseMove={(e: ReactMouseEvent<SVGPathElement>) => setTip((p) => p ? { ...p, x: e.clientX, y: e.clientY } : null)}
-                onMouseLeave={() => setTip(null)}
-              />
-            ))
+            <>
+              {Object.entries(NGA_PATHS).map(([name, d]) => (
+                <path
+                  key={name}
+                  d={d}
+                  fill={getStateColor(name)}
+                  stroke="#ffffff"
+                  strokeWidth={0.8}
+                  strokeLinejoin="round"
+                  style={{ cursor: "pointer", transition: "fill 0.25s" }}
+                  onClick={() => onStateClick?.(name)}
+                  onMouseEnter={(e: ReactMouseEvent<SVGPathElement>) => {
+                    const v = values[name] ?? 0;
+                    const text = formatTooltip ? formatTooltip(name, v) : `${displayLocationLabel(name, "state")}: ${fmtVal(v)}`;
+                    setTip({ x: e.clientX, y: e.clientY, text });
+                  }}
+                  onMouseMove={(e: ReactMouseEvent<SVGPathElement>) => setTip((p) => p ? { ...p, x: e.clientX, y: e.clientY } : null)}
+                  onMouseLeave={() => setTip(null)}
+                />
+              ))}
+
+              <g pointerEvents="none" aria-hidden="true">
+                {stateLabelItems.map((item) => (
+                  <text
+                    key={`label-${item.name}`}
+                    x={item.x}
+                    y={item.y}
+                    textAnchor="middle"
+                    dominantBaseline="middle"
+                    fontFamily="Inter, system-ui, sans-serif"
+                    fontSize={mapLabelFontSize}
+                    fontWeight={800}
+                    fill="#0f172a"
+                    stroke="#ffffff"
+                    strokeWidth={mapTextStrokeWidth(mapLabelFontSize)}
+                    paintOrder="stroke"
+                    opacity={0.96}
+                  >
+                    {item.label}
+                  </text>
+                ))}
+              </g>
+            </>
           ) : parentPath ? (
             <>
               <defs>
@@ -3062,6 +3138,32 @@ function NigeriaStateSvgMap({
                       onMouseMove={(e: ReactMouseEvent<SVGPathElement>) => setTip((p) => p ? { ...p, x: e.clientX, y: e.clientY } : null)}
                       onMouseLeave={() => setTip(null)}
                     />
+                  );
+                })}
+              </g>
+              <g clipPath={`url(#${clipId})`} pointerEvents="none" aria-hidden="true">
+                {partitionItems.map(([name], index) => {
+                  const cell = partitionCells[index];
+                  if (!cell) return null;
+
+                  return (
+                    <text
+                      key={`label-${name}`}
+                      x={cell.cx}
+                      y={cell.cy}
+                      textAnchor="middle"
+                      dominantBaseline="middle"
+                      fontFamily="Inter, system-ui, sans-serif"
+                      fontSize={mapLabelFontSize}
+                      fontWeight={800}
+                      fill="#0f172a"
+                      stroke="#ffffff"
+                      strokeWidth={mapTextStrokeWidth(mapLabelFontSize)}
+                      paintOrder="stroke"
+                      opacity={0.96}
+                    >
+                      {mapAreaLabelText(name, level)}
+                    </text>
                   );
                 })}
               </g>
@@ -3310,6 +3412,7 @@ export default function AccessCoverageDashboard({
 }) {
   const [wardRows, setWardRows] = useState<AccessWardRow[]>([]);
   const [teacherRows, setTeacherRows] = useState<TeacherCapacityRow[]>([]);
+  const [accessKpiRows, setAccessKpiRows] = useState<AccessKpiSummaryRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -3368,8 +3471,8 @@ export default function AccessCoverageDashboard({
   const setSortModeFor = (key: ChartKey, value: SortMode) => {
     setChartSortModes((previous) => ({ ...previous, [key]: value }));
   };
-  const stateSortControl = (key: ChartKey, enabled: boolean): ReactNode =>
-    enabled ? <ChartSortControl value={sortModeFor(key)} onChange={(value) => setSortModeFor(key, value)} /> : null;
+  const stateSortControl = (key: ChartKey, _enabled: boolean): ReactNode =>
+    <ChartSortControl value={sortModeFor(key)} onChange={(value) => setSortModeFor(key, value)} />;
 
   const locationFiltersAreClear = !filters.zone && !filters.state && !filters.lga && !filters.ward && !filters.school;
   const hasDrillLocation = hasDrillSelection;
@@ -3422,14 +3525,16 @@ export default function AccessCoverageDashboard({
         setLoading(true);
         setError(null);
         const depth = scopeDepthForLocation(filters);
-        const [topWardData, scopedWardData, topTeacherData, scopedTeacherData] = await Promise.all([
+        const [topWardData, scopedWardData, topTeacherData, scopedTeacherData, accessKpiData] = await Promise.all([
           loadRefinedFile<AccessWardRow>("pages/access_coverage/top_rollup.csv"),
           loadRefinedScopedRows<AccessWardRow>("access_coverage", filters.state, depth),
           loadRefinedFile<TeacherCapacityRow>("pages/teacher_capacity/top_rollup.csv"),
           loadRefinedScopedRows<TeacherCapacityRow>("teacher_capacity", filters.state, depth),
+          loadRefinedFile<AccessKpiSummaryRow>("pages/access_coverage/access_kpi_summary.csv").catch(() => [] as AccessKpiSummaryRow[]),
         ]);
 
         if (!active) return;
+        setAccessKpiRows(accessKpiData);
         const filteredTopWardData = filterRowsBySessionWindow(
           topWardData,
           BASIC_SECONDARY_SESSIONS,
@@ -3708,12 +3813,33 @@ export default function AccessCoverageDashboard({
     const isVocational = (row: AccessWardRow | TeacherCapacityRow) => row.school_level === "Vocational";
     const isNonFormal = (row: AccessWardRow | TeacherCapacityRow) =>
       row.school_level === "Adult & Non-Formal" || row.school_level === "Adult & Non-Formal Education";
-    const isSecondaryOrAlternative = (row: AccessWardRow) =>
-      isFormalSecondary(row) || isVocational(row) || isNonFormal(row);
-    const isBasicAndSeniorSecondary = (row: AccessWardRow) => isPrimary(row) || isJss(row) || isSss(row);
+    const isAllBasicSeniorAndAlternative = (row: AccessWardRow) =>
+      isPrimary(row) || isJss(row) || isSss(row) || isVocational(row) || isNonFormal(row);
+    const isNationalUnfilteredCardView =
+      !renderFilters.zone &&
+      !renderFilters.state &&
+      !renderFilters.lga &&
+      !renderFilters.ward &&
+      !renderFilters.school &&
+      !renderFilters.gender &&
+      !renderFilters.school_type &&
+      !renderFilters.school_level &&
+      !renderFilters.class_grade;
+    const kpiSummary = accessKpiRows.find(
+      (row) => row.session === filters.session && row.disability_scope === (disabilityMode ? "disabled" : "all"),
+    );
 
-    const totalStudents = sumStudents(isBasicAndSeniorSecondary);
+    const totalStudents = sumStudents(isAllBasicSeniorAndAlternative);
     const totalTeachers = sumTeachers(() => true);
+    const totalSubmittedReports = isNationalUnfilteredCardView && kpiSummary
+      ? safeNum(kpiSummary.submitted_reports)
+      : countSchools(() => true);
+    const totalPublicSchools = isNationalUnfilteredCardView && kpiSummary
+      ? safeNum(kpiSummary.public_school_count)
+      : countSchools(isPublic);
+    const totalPrivateSchools = isNationalUnfilteredCardView && kpiSummary
+      ? safeNum(kpiSummary.private_school_count)
+      : countSchools(isPrivate);
 
     const cards: MetricCard[] = [
       {
@@ -3723,10 +3849,13 @@ export default function AccessCoverageDashboard({
         accent: "#2563eb",
         bg: "rgba(37,99,235,0.12)",
         icon: <Users className="h-5 w-5" />,
-        help: "Basic and senior secondary student breakdown by school ownership.",
+        help: "Total learner enrollment across Pre/Primary, JSS, SSS, Non Formal, and Tech/Voc.",
         breakdown: [
-          { label: "Public", value: sumStudents((row) => isBasicAndSeniorSecondary(row) && isPublic(row)) },
-          { label: "Private", value: sumStudents((row) => isBasicAndSeniorSecondary(row) && isPrivate(row)) },
+          { label: "Pre/Primary", value: sumStudents(isPrimary) },
+          { label: "JSS", value: sumStudents(isJss) },
+          { label: "SSS", value: sumStudents(isSss) },
+          { label: "Non Formal", value: sumStudents(isNonFormal) },
+          { label: "Tech/Voc", value: sumStudents(isVocational) },
         ],
         showDelta: false,
       },
@@ -3779,24 +3908,24 @@ export default function AccessCoverageDashboard({
         accent: "#7c3aed",
         bg: "rgba(124,58,237,0.12)",
         icon: <GraduationCap className="h-5 w-5" />,
-        help: "Adult and non-formal student breakdown.",
+        help: "Non Formal learner total.",
         breakdown: [
-          { label: "Public", value: sumStudents((row) => isNonFormal(row) && isPublic(row)) },
-          { label: "Private", value: sumStudents((row) => isNonFormal(row) && isPrivate(row)) },
+          { label: "Male", value: sumStudents((row) => isNonFormal(row) && row.gender === "Male") },
+          { label: "Female", value: sumStudents((row) => isNonFormal(row) && row.gender === "Female") },
         ],
         showDelta: false,
       },
       {
         label: "Total Schools",
-        value: countSchools(() => true),
+        value: totalSubmittedReports,
         delta: null,
         accent: "#0891b2",
         bg: "rgba(8,145,178,0.12)",
         icon: <School className="h-5 w-5" />,
-        help: "Breakdown by school ownership.",
+        help: "Public and Private school breakdown.",
         breakdown: [
-          { label: "Private", value: countSchools(isPrivate) },
-          { label: "Public", value: countSchools(isPublic) },
+          { label: "Public Schools", value: totalPublicSchools },
+          { label: "Private Schools", value: totalPrivateSchools },
         ],
         showDelta: false,
       },
@@ -3807,7 +3936,7 @@ export default function AccessCoverageDashboard({
         accent: "#2563eb",
         bg: "rgba(37,99,235,0.12)",
         icon: <Landmark className="h-5 w-5" />,
-        help: "Pre-primary and primary school breakdown.",
+        help: "Pre/Primary school count breakdown.",
         breakdown: [
           { label: "Private", value: countSchools((row) => isPrimary(row) && isPrivate(row)) },
           { label: "Public", value: countSchools((row) => isPrimary(row) && isPublic(row)) },
@@ -3816,17 +3945,19 @@ export default function AccessCoverageDashboard({
       },
       {
         label: "Total Secondary Schools",
-        value: countSchools(isSecondaryOrAlternative),
+        value: countSchools(isFormalSecondary),
         delta: null,
         accent: "#f59e0b",
         bg: "rgba(245,158,11,0.14)",
         icon: <Building2 className="h-5 w-5" />,
-        help: "Secondary, technical/vocational, and non-formal school breakdown.",
+        help: "Formal secondary school count ",
         breakdown: [
-          { label: "Private", value: countSchools((row) => isFormalSecondary(row) && isPrivate(row)) },
-          { label: "Public", value: countSchools((row) => isFormalSecondary(row) && isPublic(row)) },
-          { label: "SVT", value: countSchools(isVocational) },
-          { label: "Non-Formal", value: countSchools(isNonFormal) },
+          { label: "JSS", value: countSchools(isJss) },
+          { label: "SSS", value: countSchools(isSss) },
+          { label: "Public Secondary", value: countSchools((row) => isFormalSecondary(row) && isPublic(row)) },
+          { label: "Private Secondary", value: countSchools((row) => isFormalSecondary(row) && isPrivate(row)) },
+          // { label: "Tech/Voc Separate", value: countSchools(isVocational) },
+          // { label: "Non Formal Separate", value: countSchools(isNonFormal) },
         ],
         showDelta: false,
       },
@@ -3864,11 +3995,10 @@ export default function AccessCoverageDashboard({
     ];
 
     return cards;
-  }, [currentRows, currentTeacherRows, renderFilters, disabilityMode]);
+  }, [currentRows, currentTeacherRows, accessKpiRows, filters.session, renderFilters, disabilityMode]);
 
   const metricCardValue = (label: string): number => cardMetrics.find((card) => card.label === label)?.value ?? 0;
   const totalStudentsBasicSeniorSecondary = metricCardValue("Total Students Basic & Senior Secondary");
-  const totalSchoolsCardValue = metricCardValue("Total Schools");
   const totalPrimarySchoolsCardValue = metricCardValue("Total Primary Schools");
   const totalSecondarySchoolsCardValue = metricCardValue("Total Secondary Schools");
 
@@ -3989,13 +4119,13 @@ export default function AccessCoverageDashboard({
       const privateValue = metric === "schools" ? privateMetrics.schools : privateMetrics.students;
       return { label, publicValue, privateValue, total: publicValue + privateValue };
     });
-    const sortedItems = nextLevel === "state" ? sortByMode(rowItems, sortMode, (item) => item.total, "state") : rowItems;
+    const sortedItems = sortByMode(rowItems, sortMode, (item) => item.total, nextLevel);
     const labels = sortedItems.map((item) => item.label);
     const displayLabels = labels.map((label) => displayLocationLabel(label, nextLevel));
     const publicValues = sortedItems.map((item) => item.publicValue);
     const privateValues = sortedItems.map((item) => item.privateValue);
     const [publicVisualValues, privateVisualValues] = minimumVisibleStackValues([publicValues, privateValues]);
-    const chartGrandTotal = metric === "schools" ? totalSchoolsCardValue : totalStudentsBasicSeniorSecondary;
+    const chartGrandTotal = metric === "schools" ? rowItems.reduce((sum, item) => sum + item.total, 0) : totalStudentsBasicSeniorSecondary;
     const totalLabel = metric === "schools" ? "Schools" : "Basic and Senior Secondary Students";
 
     const data: PlotlyData[] = [
@@ -4203,9 +4333,7 @@ export default function AccessCoverageDashboard({
       : balancedGroupsBase;
     const balancedGroups = balancedSchoolGroups
       .map((item) => ({ ...item, total: item.publicValue + item.privateValue }));
-    const groups = level === "state"
-      ? sortByMode(balancedGroups, sortMode, (item) => item.total, "state")
-      : [...balancedGroups].sort((left, right) => left.label.localeCompare(right.label));
+    const groups = sortByMode(balancedGroups, sortMode, (item) => item.total, level);
 
     const labels = groups.map((item) => String(item.label));
     const displayLabels = labels.map((label) => displayLocationLabel(label, level));
@@ -4438,9 +4566,7 @@ export default function AccessCoverageDashboard({
       ...item,
       total: item.publicMale + item.publicFemale + item.privateMale + item.privateFemale,
     }));
-    const groups = level === "state"
-      ? sortByMode(balancedGroups, sortMode, (item) => item.total, "state")
-      : [...balancedGroups].sort((left, right) => left.label.localeCompare(right.label));
+    const groups = sortByMode(balancedGroups, sortMode, (item) => item.total, level);
 
     const labels = groups.map((item) => String(item.label));
     const displayLabels = labels.map((label) => displayLocationLabel(label, level));
@@ -4882,9 +5008,7 @@ export default function AccessCoverageDashboard({
     });
     const balancedRows = rebalanceStackedDisplayRows(unsortedRows, ["publicRatio", "privateRatio"], level)
       .map((item) => ({ ...item, totalRatio: item.publicRatio + item.privateRatio }));
-    const groupedRows = level === "state"
-      ? sortByMode(balancedRows, sortMode, (item) => item.totalRatio, "state")
-      : [...balancedRows].sort((left, right) => right.totalRatio - left.totalRatio || left.label.localeCompare(right.label));
+    const groupedRows = sortByMode(balancedRows, sortMode, (item) => item.totalRatio, level);
 
     const labels = groupedRows.map((row) => row.label);
     const displayLabels = labels.map((label) => displayLocationLabel(label, level));
@@ -5118,9 +5242,7 @@ export default function AccessCoverageDashboard({
         ...item,
         total: KEY_ENTRY_LEVELS.reduce((sum, entryLevel) => sum + safeNum(item[entryLevel]), 0),
       }));
-    const sortedItems = level === "state"
-      ? sortByMode(balancedRowItems, sortModeFor("keyEntryState"), (item) => item.total, "state")
-      : [...balancedRowItems].sort((left, right) => compareLocationLabels(left.label, right.label, level));
+    const sortedItems = sortByMode(balancedRowItems, sortModeFor("keyEntryState"), (item) => item.total, level);
     const labels = sortedItems.map((item) => item.label);
     const displayLabels = labels.map((label) => displayLocationLabel(label, level));
     const itemByLabel = new Map(sortedItems.map((item) => [item.label, item]));
@@ -5276,9 +5398,7 @@ export default function AccessCoverageDashboard({
       value: group.metrics.classrooms > 0 ? group.metrics.students / group.metrics.classrooms : 0,
       zone: group.zone,
     }));
-    const sortedItems = level === "state"
-      ? sortByMode(rowItems, sortModeFor("classroomState"), (item) => item.value, "state")
-      : rowItems;
+    const sortedItems = sortByMode(rowItems, sortModeFor("classroomState"), (item) => item.value, level);
     const labels = sortedItems.map((group) => group.label);
     const displayLabels = labels.map((label) => displayLocationLabel(label, level));
     const values = sortedItems.map((group) => group.value);
@@ -5748,9 +5868,7 @@ export default function AccessCoverageDashboard({
         schools: balancedSchools.get(group.label) ?? group.metrics.schools,
       },
     }));
-    const groups = levelComboChartLevel === "state"
-      ? sortByMode(displayGroups, sortModeFor(chartTitle), (group) => group.metrics.students, "state")
-      : [...displayGroups].sort((left, right) => compareLocationLabels(left.label, right.label, levelComboChartLevel));
+    const groups = sortByMode(displayGroups, sortModeFor(chartTitle), (group) => group.metrics.students, levelComboChartLevel);
     const labels = groups.map((group) => group.label);
     const displayLabels = labels.map((label) => displayLocationLabel(label, levelComboChartLevel));
     const enrollments = groups.map((group) => group.metrics.students);
@@ -5837,9 +5955,7 @@ export default function AccessCoverageDashboard({
           : 0;
         return { group, readiness, learnersPerComputer, label: group.label, value: group.metrics.students };
       });
-    const groups = levelComboChartLevel === "state"
-      ? sortByMode(infrastructureItems, sortModeFor("infrastructureMap"), (item) => item.value, "state")
-      : [...infrastructureItems].sort((left, right) => compareLocationLabels(left.group.label, right.group.label, levelComboChartLevel));
+    const groups = sortByMode(infrastructureItems, sortModeFor("infrastructureMap"), (item) => item.value, levelComboChartLevel);
 
     const balancedScoreRows = rebalanceScalarDisplayRows(
       groups.map((item) => ({ label: item.group.label, value: item.readiness.readinessIndex })),
@@ -6317,11 +6433,11 @@ export default function AccessCoverageDashboard({
           onPlotClick={handleLevelComboPlotClick}
         />
         <ChartCard
-          title="Non Formal (IQS/IQTE) Schools and Student Enrollment by State"
+          title="Non Formal Schools and Student Enrollment by State"
           explanation={CHART_HELP.iqs}
           bundle={iqsChart}
           sortControl={stateSortControl("iqs", levelComboChartLevel === "state")}
-          onExpand={() => setExpandState({ key: "iqs", title: "Non Formal (IQS/IQTE) Schools and Student Enrollment by State" })}
+          onExpand={() => setExpandState({ key: "iqs", title: "Non Formal Schools and Student Enrollment by State" })}
           onRefresh={clearLocationSelection}
           onPlotClick={handleLevelComboPlotClick}
         />

@@ -1,561 +1,561 @@
 session,gender,disability,school_type,school_level,class_grade,key_entry_level,loc_level,loc_label,zone,state,lga,ward,school,student_count,is_o_level_student,school_count,classroom_count,computer_count,avg_students_per_school,learners_per_classroom,students_per_computer,usable_classroom_count,laboratory_count,computer_access_count,water_source_count,handwashing_facility_count,toilet_count,infrastructure_score
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,362,0,1.4365,9,2,252.0014,40.2222,181.0,5,5,1,5,0,3,45.78
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,341,0,1.3532,8,2,251.9953,42.625,170.5,4,3,1,5,0,2,41.5
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,331,0,1.3135,9,2,251.9985,36.7778,165.5,6,4,1,4,0,3,45.78
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,1026,0,4.0721,34,13,251.9584,30.1765,78.9231,18,13,5,15,1,7,36.98
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,986,0,3.912,35,13,252.045,28.1714,75.8462,23,16,4,15,1,10,41.61
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,957,0,3.7976,32,12,252.0013,29.9062,79.75,22,16,3,18,1,7,42.88
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,928,0,3.6832,30,12,251.9548,30.9333,77.3333,19,13,4,14,1,8,41.33
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,934,0,3.7061,36,12,252.0169,25.9444,77.8333,25,13,3,23,0,8,42.44
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,934,0,3.7061,31,12,252.0169,30.129,77.8333,19,12,5,18,1,6,41.89
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,299,299,1.1865,8,2,252.0017,37.375,149.5,4,4,1,5,0,2,43.0
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,275,275,1.0913,10,2,251.993,27.5,137.5,5,5,1,4,0,3,40.4
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,258,258,1.0238,7,2,252.0023,36.8571,129.0,5,3,1,3,0,1,42.86
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,26,0,0.1032,1,1,251.938,26.0,26.0,1,0,0,1,0,0,44.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,769,0,2.2955,13,11,335.0033,59.1538,69.9091,8,7,3,7,0,3,41.29
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,725,0,2.1642,17,10,334.9968,42.6471,72.5,9,7,3,9,0,4,37.74
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,703,0,2.0985,16,10,335.0012,43.9375,70.3,9,8,3,10,0,4,41.55
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,2180,0,6.5084,54,43,334.9518,40.3704,50.6977,37,20,17,28,1,15,43.96
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,2095,0,6.2524,56,42,335.0713,37.4107,49.881,29,26,17,26,1,15,39.48
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,2033,0,6.0696,42,40,334.9479,48.4048,50.825,30,22,11,22,1,9,43.54
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,1972,0,5.8868,55,39,334.9868,35.8545,50.5641,34,26,13,24,1,14,40.53
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,1985,0,5.9234,55,39,335.1116,36.0909,50.8974,27,24,11,29,1,15,37.53
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,1984,0,5.9234,39,39,334.9428,50.8718,50.8718,28,16,15,23,1,11,46.46
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,637,637,1.9015,12,4,334.9987,53.0833,159.25,7,6,2,7,0,3,44.67
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,583,583,1.7403,14,3,334.9997,41.6429,194.3333,8,6,1,8,0,3,39.9
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,548,548,1.6358,10,3,335.0043,54.8,182.6667,6,5,1,6,0,2,41.73
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,54,0,0.1612,2,1,334.9876,27.0,54.0,1,1,0,1,0,1,38.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,327,0,1.2976,8,2,252.0037,40.875,163.5,4,4,1,5,0,2,43.0
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,309,0,1.2262,7,2,251.998,44.1429,154.5,3,3,1,4,0,2,40.0
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,299,0,1.1865,8,2,252.0017,37.375,149.5,5,4,1,4,0,2,44.5
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,975,0,3.8701,32,13,251.9315,30.4688,75.0,17,13,5,14,1,7,37.53
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,937,0,3.7179,33,12,252.024,28.3939,78.0833,22,15,4,14,0,9,41.7
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,909,0,3.6092,31,12,251.8564,29.3226,75.75,22,15,3,17,1,7,43.23
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,882,0,3.5005,28,11,251.964,31.5,80.1818,18,12,4,13,1,7,41.68
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,888,0,3.5222,34,11,252.1152,26.1176,80.7273,23,12,3,22,0,8,42.6
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,888,0,3.5222,30,11,252.1152,29.6,80.7273,19,12,4,17,1,6,41.68
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,297,297,1.1786,8,2,251.9939,37.125,148.5,4,4,1,5,0,2,43.0
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,273,273,1.0833,10,2,252.0078,27.3,136.5,5,5,1,4,0,3,40.4
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,256,256,1.0159,7,2,251.9933,36.5714,128.0,5,3,1,3,0,1,42.86
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,42,0,0.1667,1,1,251.9496,42.0,42.0,1,0,0,1,0,0,44.0
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,696,0,2.0776,12,10,335.0019,58.0,69.6,7,6,3,7,0,3,41.47
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,656,0,1.9582,16,9,335.0015,41.0,72.8889,9,6,3,8,0,4,38.58
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,636,0,1.8985,14,9,335.0013,45.4286,70.6667,8,7,3,9,0,4,43.33
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,2073,0,6.188,51,41,335.0032,40.6471,50.561,35,19,16,26,1,14,43.73
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,1991,0,5.9447,53,39,334.9202,37.566,51.0513,27,24,16,25,1,14,39.24
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,1933,0,5.7709,40,38,334.9564,48.325,50.8684,29,21,11,21,1,9,44.33
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,1875,0,5.597,52,37,335.0009,36.0577,50.6757,32,25,12,23,1,14,40.8
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,1887,0,5.6318,53,37,335.0616,35.6038,51.0,26,23,10,28,1,15,37.53
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,1887,0,5.6318,38,37,335.0616,49.6579,51.0,27,16,14,23,1,11,46.69
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,633,633,1.8896,12,3,334.9915,52.75,211.0,7,6,1,7,0,3,42.0
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,580,580,1.7313,14,3,335.0084,41.4286,193.3333,8,6,1,8,0,3,39.9
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,545,545,1.6269,10,3,334.9929,54.5,181.6667,6,5,1,6,0,2,41.73
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,90,0,0.2687,3,2,334.946,30.0,45.0,2,1,1,2,0,1,48.0
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,24,0,0.0952,1,1,252.1008,24.0,24.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,22,0,0.0873,1,1,252.0046,22.0,22.0,0,0,0,1,0,0,16.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,22,0,0.0873,1,1,252.0046,22.0,22.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,66,0,0.2642,2,1,249.8107,33.0,66.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,64,0,0.2538,2,1,252.1671,32.0,64.0,1,1,0,1,0,1,38.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,62,0,0.2463,2,1,251.7255,31.0,62.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,60,0,0.2389,2,1,251.1511,30.0,60.0,1,1,0,1,0,1,38.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,61,0,0.2404,2,1,253.7438,30.5,61.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,61,0,0.2404,2,1,253.7438,30.5,61.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,19,19,0.0754,1,1,251.9894,19.0,19.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,18,18,0.0714,1,1,252.1008,18.0,18.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,17,17,0.0675,1,1,251.8519,17.0,17.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,2,0,0.0079,1,1,253.1646,2.0,2.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,50,0,0.1493,1,1,334.8962,50.0,50.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,47,0,0.1403,1,1,334.9964,47.0,47.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,46,0,0.1373,1,1,335.0328,46.0,46.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,142,0,0.4235,4,3,335.3011,35.5,47.3333,3,1,1,2,0,1,42.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,136,0,0.4068,4,3,334.3166,34.0,45.3333,2,2,1,2,0,1,38.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,132,0,0.3949,3,3,334.2618,44.0,44.0,2,2,1,2,0,1,49.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,129,0,0.383,4,3,336.8146,32.25,43.0,2,2,1,2,0,1,38.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,129,0,0.3854,4,3,334.7172,32.25,43.0,2,2,1,2,0,1,38.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,129,0,0.3854,3,3,334.7172,43.0,43.0,2,1,1,2,0,1,45.33
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,41,41,0.1224,1,1,334.9673,41.0,41.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,38,38,0.1134,1,1,335.097,38.0,38.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,36,36,0.1075,1,1,334.8837,36.0,36.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,4,0,0.0119,1,1,336.1345,4.0,4.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,21,0,0.0833,1,1,252.1008,21.0,21.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,20,0,0.0794,1,1,251.8892,20.0,20.0,0,0,0,1,0,0,16.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,19,0,0.0754,1,1,251.9894,19.0,19.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,64,0,0.2529,2,1,253.0645,32.0,64.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,61,0,0.2429,2,1,251.1322,30.5,61.0,1,1,0,1,0,1,38.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,59,0,0.2358,2,1,250.212,29.5,59.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,58,0,0.2287,2,1,253.6073,29.0,58.0,1,1,0,1,0,1,38.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,58,0,0.2302,2,1,251.9548,29.0,58.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,58,0,0.2302,2,1,251.9548,29.0,58.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,19,19,0.0754,1,1,251.9894,19.0,19.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,18,18,0.0714,1,1,252.1008,18.0,18.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,17,17,0.0675,1,1,251.8519,17.0,17.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,3,0,0.0119,1,1,252.1008,3.0,3.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,45,0,0.1343,1,1,335.0707,45.0,45.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,43,0,0.1284,1,1,334.891,43.0,43.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,41,0,0.1224,1,1,334.9673,41.0,41.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,135,0,0.4028,3,3,335.1539,45.0,45.0,2,1,1,2,0,1,45.33
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,129,0,0.3869,3,3,333.4195,43.0,43.0,2,1,1,1,0,1,40.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,126,0,0.3756,3,2,335.4633,42.0,63.0,2,2,1,2,0,1,52.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,122,0,0.3643,3,2,334.8888,40.6667,61.0,2,1,1,1,0,1,42.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,123,0,0.3666,3,2,335.5155,41.0,61.5,1,1,1,2,0,1,38.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,123,0,0.3666,2,2,335.5155,61.5,61.5,1,1,1,1,0,1,46.0
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,41,41,0.1224,1,1,334.9673,41.0,41.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,38,38,0.1134,1,1,335.097,38.0,38.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,35,35,0.1045,1,1,334.9282,35.0,35.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,6,0,0.0179,1,1,335.1955,6.0,6.0,1,0,0,1,0,0,44.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,191,0,0.7579,4,1,252.0121,47.75,191.0,3,2,0,2,0,1,40.0
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,180,0,0.7143,6,1,251.995,30.0,180.0,4,2,0,3,0,2,37.33
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,174,0,0.6905,5,1,251.9913,34.8,174.0,3,2,0,2,0,1,32.0
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,541,0,2.1459,16,4,252.1087,33.8125,135.25,8,7,1,9,0,4,37.25
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,520,0,2.0615,12,4,252.2435,43.3333,130.0,7,7,1,7,0,4,43.33
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,504,0,2.0012,16,4,251.8489,31.5,126.0,9,7,1,7,0,3,35.75
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,489,0,1.9409,11,4,251.945,44.4545,122.25,6,4,1,5,0,2,34.55
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,492,0,1.953,13,4,251.9201,37.8462,123.0,8,7,1,7,0,3,40.92
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,492,0,1.953,13,4,251.9201,37.8462,123.0,10,7,1,8,0,3,46.46
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,158,158,0.627,5,2,251.9936,31.6,79.0,3,2,1,2,0,1,40.0
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,145,145,0.5754,4,1,251.9986,36.25,145.0,2,2,0,2,0,1,33.0
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,136,136,0.5397,3,1,251.9918,45.3333,136.0,2,1,0,1,0,1,34.67
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,13,0,0.0516,1,1,251.938,13.0,13.0,1,0,0,1,0,0,44.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,405,0,1.209,7,2,334.9876,57.8571,202.5,5,3,1,4,0,2,48.0
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,382,0,1.1403,7,2,334.9996,54.5714,191.0,4,3,1,4,0,2,44.0
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,370,0,1.1045,7,2,334.9932,52.8571,185.0,4,3,1,3,0,2,41.71
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,1149,0,3.4288,33,11,335.1027,34.8182,104.4545,17,14,3,15,0,9,36.61
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,1104,0,3.2939,29,11,335.165,38.069,100.3636,19,10,3,14,0,6,38.71
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,1071,0,3.1976,26,10,334.9387,41.1923,107.1,13,13,3,14,0,7,38.8
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,1039,0,3.1013,22,10,335.0208,47.2273,103.9,16,10,4,11,0,6,45.67
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,1045,0,3.1206,24,10,334.8715,43.5417,104.5,13,9,3,14,0,5,37.97
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,1045,0,3.1206,29,10,334.8715,36.0345,104.5,14,14,4,14,0,7,38.26
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,335,335,1.0,8,2,335.0,41.875,167.5,5,3,1,4,0,2,43.0
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,308,308,0.9194,7,2,335.0011,44.0,154.0,5,3,1,4,0,2,48.0
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,289,289,0.8627,7,2,334.9948,41.2857,144.5,4,4,1,4,0,2,45.71
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,29,0,0.0866,1,1,334.873,29.0,29.0,1,0,0,1,0,0,44.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,173,0,0.6865,4,1,252.0029,43.25,173.0,3,2,0,2,0,1,40.0
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,163,0,0.6468,5,1,252.0099,32.6,163.0,4,2,0,3,0,1,40.8
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,158,0,0.627,4,1,251.9936,39.5,158.0,3,2,0,2,0,1,40.0
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,515,0,2.0413,15,4,252.2902,34.3333,128.75,8,7,1,8,0,4,38.4
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,494,0,1.961,11,4,251.9123,44.9091,123.5,7,6,1,6,0,3,42.55
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,480,0,1.9037,15,4,252.1406,32.0,120.0,9,6,1,7,0,3,37.07
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,465,0,1.8464,11,4,251.8414,42.2727,116.25,6,4,1,5,0,2,34.55
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,468,0,1.8578,12,4,251.9109,39.0,117.0,7,6,1,7,0,3,40.67
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,468,0,1.8578,12,4,251.9109,39.0,117.0,9,6,1,7,0,3,45.33
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,157,157,0.623,5,2,252.0064,31.4,78.5,3,2,1,2,0,1,40.0
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,144,144,0.5714,4,1,252.0126,36.0,144.0,2,2,0,2,0,1,33.0
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,135,135,0.5357,3,1,252.0067,45.0,135.0,2,1,0,1,0,1,34.67
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,22,0,0.0873,1,1,252.0046,22.0,22.0,1,0,0,1,0,0,44.0
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,367,0,1.0955,6,2,335.0068,61.1667,183.5,4,3,1,4,0,2,50.0
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,346,0,1.0328,7,2,335.0116,49.4286,173.0,4,3,1,4,0,2,44.0
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,336,0,1.003,6,2,334.995,56.0,168.0,3,3,1,3,0,2,42.67
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,1092,0,3.2588,32,10,335.0927,34.125,109.2,17,14,3,15,0,9,38.05
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,1049,0,3.1306,28,10,335.0795,37.4643,104.9,18,10,3,14,0,6,39.37
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,1018,0,3.0391,25,10,334.9676,40.72,101.8,13,12,3,13,0,7,39.04
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,987,0,2.9475,20,9,334.8601,49.35,109.6667,14,10,4,10,0,5,45.71
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,993,0,2.9658,23,10,334.8169,43.1739,99.3,12,9,3,13,0,5,37.5
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,994,0,2.9658,27,10,335.1541,36.8148,99.4,13,13,4,13,0,6,37.81
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,333,333,0.994,8,2,335.0101,41.625,166.5,5,3,1,4,0,2,43.0
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,306,306,0.9134,7,2,335.012,43.7143,153.0,5,3,1,4,0,2,48.0
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,287,287,0.8567,7,2,335.0064,41.0,143.5,4,4,1,4,0,2,45.71
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,47,0,0.1403,2,1,334.9964,23.5,47.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,12,0,0.0476,1,1,252.1008,12.0,12.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,12,0,0.0476,1,1,252.1008,12.0,12.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,11,0,0.0437,1,1,251.7162,11.0,11.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,36,0,0.1413,1,1,254.7771,36.0,36.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,34,0,0.1357,1,1,250.5527,34.0,34.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,33,0,0.1318,1,1,250.3794,33.0,33.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,32,0,0.1278,1,1,250.3912,32.0,32.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,33,0,0.1286,1,1,256.6096,33.0,33.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,32,0,0.1286,1,1,248.8336,32.0,32.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,10,10,0.0397,1,1,251.8892,10.0,10.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,9,9,0.0357,1,1,252.1008,9.0,9.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,9,9,0.0357,1,1,252.1008,9.0,9.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,1,0,0.004,1,1,250.0,1.0,1.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,26,0,0.0776,1,1,335.0515,26.0,26.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,25,0,0.0746,1,1,335.1206,25.0,25.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,24,0,0.0716,1,1,335.1955,24.0,24.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,75,0,0.2232,2,1,336.0215,37.5,75.0,1,1,0,1,0,1,38.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,72,0,0.2144,2,1,335.8209,36.0,72.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,70,0,0.2081,2,1,336.3767,35.0,70.0,1,1,0,1,0,1,38.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,67,0,0.2018,1,1,332.0119,67.0,67.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,68,0,0.2031,2,1,334.8104,34.0,68.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,68,0,0.2031,2,1,334.8104,34.0,68.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,22,22,0.0657,1,1,334.8554,22.0,22.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,20,20,0.0597,1,1,335.0084,20.0,20.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,19,19,0.0567,1,1,335.097,19.0,19.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,2,0,0.006,1,1,333.3333,2.0,2.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,11,0,0.0437,1,1,251.7162,11.0,11.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,11,0,0.0437,1,1,251.7162,11.0,11.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,10,0,0.0397,1,1,251.8892,10.0,10.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,33,0,0.1314,1,1,251.1416,33.0,33.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,32,0,0.1262,1,1,253.5658,32.0,32.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,31,0,0.1225,1,1,253.0612,31.0,31.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,30,0,0.1188,1,1,252.5253,30.0,30.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,30,0,0.1196,1,1,250.8361,30.0,30.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,30,0,0.1196,1,1,250.8361,30.0,30.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,10,10,0.0397,1,1,251.8892,10.0,10.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,9,9,0.0357,1,1,252.1008,9.0,9.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,9,9,0.0357,1,1,252.1008,9.0,9.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,1,0,0.004,1,1,250.0,1.0,1.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,24,0,0.0716,1,1,335.1955,24.0,24.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,22,0,0.0657,1,1,334.8554,22.0,22.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,22,0,0.0657,1,1,334.8554,22.0,22.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,71,0,0.2125,2,1,334.1176,35.5,71.0,1,1,0,1,0,1,38.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,69,0,0.2042,2,1,337.904,34.5,69.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,66,0,0.1982,2,1,332.997,33.0,66.0,1,1,0,1,0,1,38.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,64,0,0.1923,1,1,332.8133,64.0,64.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,65,0,0.1934,2,1,336.091,32.5,65.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,65,0,0.1934,2,1,336.091,32.5,65.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,22,22,0.0657,1,1,334.8554,22.0,22.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,20,20,0.0597,1,1,335.0084,20.0,20.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,19,19,0.0567,1,1,335.097,19.0,19.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,3,0,0.009,1,1,333.3333,3.0,3.0,1,0,0,1,0,0,44.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,567,0,2.25,20,5,252.0,28.35,113.4,11,10,2,11,0,5,41.6
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,535,0,2.123,15,4,252.0019,35.6667,133.75,11,5,1,8,0,4,42.4
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,519,0,2.0595,11,4,252.0029,47.1818,129.75,8,5,1,5,0,3,42.55
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,1610,0,6.3911,54,8,251.9128,29.8148,201.25,26,26,2,33,1,16,39.11
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,1547,0,6.1397,36,8,251.9667,42.9722,193.375,20,13,3,17,1,9,38.67
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,1502,0,5.9602,54,8,252.005,27.8148,187.75,31,21,2,29,1,12,37.93
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,1457,0,5.7807,52,8,252.0456,28.0192,182.125,26,20,2,21,1,15,35.0
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,1466,0,5.8166,40,8,252.0373,36.65,183.25,23,22,3,25,1,8,42.9
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,1466,0,5.8166,52,8,252.0373,28.1923,183.25,36,25,2,28,1,11,42.15
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,470,470,1.8651,13,3,251.9972,36.1538,156.6667,6,6,1,8,0,3,38.26
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,431,431,1.7103,12,2,252.0026,35.9167,215.5,8,5,1,7,0,3,46.0
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,404,404,1.6032,9,2,251.996,44.8889,202.0,4,4,1,4,0,2,37.33
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,40,0,0.1587,1,1,252.0479,40.0,40.0,1,0,0,1,0,0,44.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,1206,0,3.6,26,14,335.0,46.3846,86.1429,15,11,5,12,0,8,40.48
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,1137,0,3.394,21,13,335.0029,54.1429,87.4615,13,8,5,10,0,5,40.44
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,1103,0,3.2925,23,13,335.0038,47.9565,84.8462,13,11,4,14,0,6,41.44
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,3423,0,10.2188,75,61,334.9708,45.64,56.1148,54,36,19,35,1,20,43.81
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,3289,0,9.8169,66,59,335.0345,49.8333,55.7458,40,35,24,39,1,17,44.57
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,3192,0,9.5299,64,57,334.9458,49.875,56.0,34,33,16,28,1,19,38.62
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,3096,0,9.2428,73,55,334.9634,42.411,56.2909,38,31,20,47,1,19,41.11
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,3116,0,9.3003,91,56,335.043,34.2418,55.6429,50,39,17,55,1,25,40.64
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,3116,0,9.3003,84,56,335.043,37.0952,55.6429,41,35,19,51,1,18,38.19
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,999,999,2.9821,27,6,334.9988,37.0,166.5,13,12,2,12,0,6,35.7
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,915,915,2.7313,17,6,335.0053,53.8235,152.5,11,8,2,10,0,3,42.04
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,860,860,2.5672,21,5,334.9953,40.9524,172.0,14,9,2,10,0,6,43.54
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,85,0,0.2537,3,1,335.0414,28.3333,85.0,2,1,0,2,0,1,40.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,514,0,2.0397,18,4,251.9978,28.5556,128.5,10,9,2,10,0,5,44.0
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,484,0,1.9206,14,4,252.0046,34.5714,121.0,10,5,1,8,0,4,43.14
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,470,0,1.8651,10,4,251.9972,47.0,117.5,7,4,1,5,0,3,42.4
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,1531,0,6.0739,51,8,252.0621,30.0196,191.375,25,25,2,31,1,15,39.37
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,1470,0,5.835,35,8,251.928,42.0,183.75,20,13,3,17,1,9,39.6
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,1427,0,5.6644,51,7,251.9243,27.9804,203.8571,30,20,2,27,1,11,38.69
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,1385,0,5.4938,50,7,252.1024,27.7,197.8571,25,19,2,21,1,14,35.61
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,1393,0,5.5279,38,7,251.9944,36.6579,199.0,21,21,3,23,1,7,42.54
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,1393,0,5.5279,50,7,251.9944,27.86,199.0,34,24,2,27,1,10,42.17
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,467,467,1.8532,13,3,251.9965,35.9231,155.6667,6,6,1,8,0,3,38.26
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,428,428,1.6984,12,2,252.0019,35.6667,214.0,8,5,1,7,0,3,46.0
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,402,402,1.5952,9,2,252.006,44.6667,201.0,4,4,1,4,0,2,37.33
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,66,0,0.2619,2,1,252.0046,33.0,66.0,1,1,0,1,0,0,28.0
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,1092,0,3.2597,24,13,335.0002,45.5,84.0,13,10,4,11,0,7,38.26
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,1030,0,3.0746,19,12,335.0029,54.2105,85.8333,12,8,5,9,0,4,41.19
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,998,0,2.9791,21,12,335.0005,47.5238,83.1667,12,10,4,13,0,5,41.71
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,3254,0,9.7124,71,58,335.0356,45.831,56.1034,51,34,18,33,1,19,43.73
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,3126,0,9.3305,63,56,335.0303,49.619,55.8214,38,34,23,37,1,17,44.86
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,3034,0,9.0576,61,54,334.9673,49.7377,56.1852,33,31,15,26,1,18,38.54
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,2943,0,8.7848,69,53,335.0105,42.6522,55.5283,36,30,20,44,1,18,41.4
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,2961,0,8.8394,86,53,334.9775,34.4302,55.8679,48,37,16,52,1,23,40.74
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,2961,0,8.8394,80,53,334.9775,37.0125,55.8679,39,33,18,49,1,17,38.18
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,993,993,2.9642,27,6,334.9976,36.7778,165.5,13,12,2,12,0,6,35.7
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,910,910,2.7164,17,6,335.0022,53.5294,151.6667,11,8,2,10,0,3,42.04
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,855,855,2.5522,21,5,335.0051,40.7143,171.0,14,9,2,10,0,6,43.54
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,141,0,0.4209,6,1,334.9964,23.5,141.0,4,3,0,3,0,2,39.33
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,37,0,0.1468,2,1,252.0436,18.5,37.0,1,1,0,1,0,1,38.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,35,0,0.1389,1,1,251.9798,35.0,35.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,34,0,0.1349,1,1,252.0385,34.0,34.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,105,0,0.4153,4,1,252.8293,26.25,105.0,2,2,0,2,0,1,33.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,100,0,0.399,2,1,250.6266,50.0,100.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,98,0,0.3873,4,1,253.0338,24.5,98.0,2,2,0,2,0,1,33.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,95,0,0.3757,3,1,252.8613,31.6667,95.0,1,1,0,1,0,1,25.33
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,95,0,0.378,3,1,251.3228,31.6667,95.0,2,2,0,2,0,1,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,95,0,0.378,3,1,251.3228,31.6667,95.0,2,1,0,2,0,1,40.0
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,31,31,0.123,1,1,252.0325,31.0,31.0,0,0,0,1,0,0,16.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,28,28,0.1111,1,1,252.0252,28.0,28.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,26,26,0.1032,1,1,251.938,26.0,26.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,3,0,0.0119,1,1,252.1008,3.0,3.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,78,0,0.2328,2,1,335.0515,39.0,78.0,1,1,0,1,0,1,38.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,74,0,0.2209,2,1,334.9932,37.0,74.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,72,0,0.2149,2,1,335.0396,36.0,72.0,1,1,0,1,0,1,38.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,222,0,0.6637,5,4,334.4885,44.4,55.5,4,2,1,2,0,1,41.6
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,214,0,0.6376,4,4,335.6336,53.5,53.5,2,2,2,2,0,1,41.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,207,0,0.6189,4,4,334.4644,51.75,51.75,2,2,1,2,0,1,37.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,201,0,0.6003,5,4,334.8326,40.2,50.25,3,2,1,3,0,1,39.2
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,203,0,0.604,6,4,336.0927,33.8333,50.75,3,3,1,4,0,2,41.33
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,202,0,0.604,5,4,334.4371,40.4,50.5,2,2,1,3,0,1,33.6
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,65,65,0.194,2,1,335.0515,32.5,65.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,59,59,0.1761,1,1,335.0369,59.0,59.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,56,56,0.1672,1,1,334.9282,56.0,56.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,6,0,0.0179,1,1,335.1955,6.0,6.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,33,0,0.131,1,1,251.9084,33.0,33.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,31,0,0.123,1,1,252.0325,31.0,31.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,31,0,0.123,1,1,252.0325,31.0,31.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,99,0,0.3948,3,1,250.7599,33.0,99.0,1,1,0,2,0,1,30.67
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,96,0,0.3793,2,1,253.0978,48.0,96.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,93,0,0.3682,3,1,252.5801,31.0,93.0,2,1,0,2,0,1,40.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,90,0,0.3571,3,1,252.0302,30.0,90.0,1,1,0,1,0,1,25.33
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,91,0,0.3593,2,1,253.2702,45.5,91.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,90,0,0.3593,3,1,250.4871,30.0,90.0,2,1,0,2,0,1,40.0
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,30,30,0.119,1,1,252.1008,30.0,30.0,0,0,0,1,0,0,16.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,28,28,0.1111,1,1,252.0252,28.0,28.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,26,26,0.1032,1,1,251.938,26.0,26.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,4,0,0.0159,1,1,251.5723,4.0,4.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,71,0,0.2119,2,1,335.0637,35.5,71.0,1,1,0,1,0,1,38.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,67,0,0.2,1,1,335.0,67.0,67.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,65,0,0.194,2,1,335.0515,32.5,65.0,1,1,0,1,0,1,38.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,212,0,0.6312,5,4,335.8682,42.4,53.0,4,2,1,2,0,1,41.6
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,203,0,0.6064,4,4,334.7625,50.75,50.75,2,2,2,2,0,1,41.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,197,0,0.5887,4,4,334.6356,49.25,49.25,2,2,1,2,0,1,37.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,191,0,0.5709,4,3,334.5595,47.75,63.6667,2,2,1,3,0,1,42.33
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,193,0,0.5745,6,3,335.9443,32.1667,64.3333,3,3,1,4,0,2,42.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,192,0,0.5745,5,3,334.2037,38.4,64.0,2,2,1,3,0,1,34.93
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,65,65,0.194,2,1,335.0515,32.5,65.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,59,59,0.1761,1,1,335.0369,59.0,59.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,56,56,0.1672,1,1,334.9282,56.0,56.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,9,0,0.0269,1,1,334.5725,9.0,9.0,1,0,0,1,0,0,44.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,312,0,1.2381,8,3,251.999,39.0,104.0,4,3,1,4,0,2,36.83
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,294,0,1.1667,6,3,251.9928,49.0,98.0,4,3,1,3,0,2,44.67
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,285,0,1.131,9,2,251.9894,31.6667,142.5,5,5,1,6,0,2,45.33
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,886,0,3.5162,26,6,251.9766,34.0769,147.6667,16,11,2,14,0,6,40.87
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,851,0,3.378,26,6,251.9242,32.7308,141.8333,19,14,2,11,0,7,44.41
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,826,0,3.2792,24,6,251.8907,34.4167,137.6667,16,13,2,12,0,5,42.67
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,802,0,3.1804,23,6,252.1695,34.8696,133.6667,15,8,2,10,0,6,39.94
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,807,0,3.2002,23,6,252.1717,35.087,134.5,14,10,2,13,0,6,41.86
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,806,0,3.2002,21,6,251.8593,38.381,134.3333,14,8,2,11,0,6,42.67
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,259,259,1.0278,7,5,251.9946,37.0,51.8,5,2,1,4,0,2,41.49
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,237,237,0.9405,7,4,251.9936,33.8571,59.25,5,4,1,4,0,1,42.86
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,223,223,0.8849,6,4,252.0059,37.1667,55.75,4,3,2,3,0,2,47.33
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,22,0,0.0873,1,1,252.0046,22.0,22.0,1,0,0,1,0,0,44.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,663,0,1.9791,18,4,335.0008,36.8333,165.75,11,10,1,11,0,5,43.11
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,625,0,1.8657,17,4,334.9949,36.7647,156.25,11,7,2,11,0,5,47.29
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,606,0,1.809,13,4,334.9917,46.6154,151.5,7,6,1,7,0,3,37.85
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,1883,0,5.6206,44,13,335.0176,42.7955,144.8462,24,23,4,19,1,11,38.56
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,1809,0,5.3995,47,13,335.031,38.4894,139.1538,22,21,4,24,1,11,36.41
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,1756,0,5.2416,42,12,335.0122,41.8095,146.3333,24,18,3,24,1,8,38.29
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,1703,0,5.0838,34,12,334.9856,50.0882,141.9167,24,13,4,15,1,8,41.69
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,1714,0,5.1153,42,12,335.0732,40.8095,142.8333,23,22,5,21,1,12,42.19
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,1713,0,5.1153,46,12,334.8777,37.2391,142.75,28,22,4,27,1,10,42.03
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,550,550,1.6418,18,3,334.9982,30.5556,183.3333,11,9,1,9,0,5,42.0
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,504,504,1.5045,11,3,334.995,45.8182,168.0,6,6,1,5,0,3,39.88
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,473,473,1.4119,11,2,335.0096,43.0,236.5,6,5,1,7,0,2,42.55
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,47,0,0.1403,1,1,334.9964,47.0,47.0,1,0,0,0,0,0,28.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,283,0,1.123,7,2,252.0036,40.4286,141.5,4,3,1,4,0,2,44.0
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,266,0,1.0556,6,2,251.9894,44.3333,133.0,4,3,1,3,0,2,47.33
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,259,0,1.0278,8,2,251.9946,32.375,129.5,4,4,1,5,0,2,43.0
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,842,0,3.341,25,6,252.0204,33.68,140.3333,16,11,2,14,0,6,42.29
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,809,0,3.2096,25,6,252.0563,32.36,134.8333,18,13,2,11,0,6,43.57
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,785,0,3.1158,23,6,251.9417,34.1304,130.8333,15,12,2,11,0,5,41.86
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,762,0,3.0219,22,5,252.1592,34.6364,152.4,15,8,2,10,0,6,42.58
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,766,0,3.0407,21,5,251.9157,36.4762,153.2,13,9,2,12,0,5,42.78
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,766,0,3.0407,20,5,251.9157,38.3,153.2,14,8,2,10,0,6,44.8
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,257,257,1.0198,7,5,252.0102,36.7143,51.4,5,2,1,4,0,2,41.49
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,235,235,0.9325,7,4,252.0107,33.5714,58.75,5,4,1,4,0,1,42.86
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,221,221,0.877,6,4,251.9954,36.8333,55.25,4,3,2,3,0,2,47.33
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,37,0,0.1468,2,1,252.0436,18.5,37.0,1,1,0,1,0,1,38.0
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,601,0,1.794,16,4,335.0056,37.5625,150.25,10,9,1,10,0,4,43.25
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,566,0,1.6896,16,4,334.9905,35.375,141.5,10,6,2,10,0,4,45.0
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,549,0,1.6388,11,4,335.0012,49.9091,137.25,6,5,1,6,0,3,38.91
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,1789,0,5.3405,42,12,334.9874,42.5952,149.0833,22,22,4,19,1,11,38.95
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,1719,0,5.1305,45,12,335.0551,38.2,143.25,22,20,4,23,1,10,37.16
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,1669,0,4.9805,40,12,335.1069,41.725,139.0833,23,17,3,22,1,8,38.2
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,1618,0,4.8305,33,11,334.955,49.0303,147.0909,23,12,4,14,1,8,41.58
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,1628,0,4.8605,40,11,334.945,40.7,148.0,22,21,4,20,1,11,41.22
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,1628,0,4.8605,43,11,334.945,37.8605,148.0,26,21,4,25,1,9,42.28
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,546,546,1.6299,17,3,334.9899,32.1176,182.0,11,9,1,9,0,5,44.16
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,500,500,1.4925,11,2,335.0084,45.4545,250.0,6,6,1,5,0,3,42.55
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,470,470,1.403,10,2,334.9964,47.0,235.0,6,5,1,6,0,2,44.4
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,78,0,0.2328,2,2,335.0515,39.0,39.0,1,1,1,1,0,0,36.0
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,20,0,0.0794,1,1,251.8892,20.0,20.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,19,0,0.0754,1,1,251.9894,19.0,19.0,1,1,0,0,0,0,40.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,19,0,0.0754,1,1,251.9894,19.0,19.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,57,0,0.2274,2,1,250.6596,28.5,57.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,55,0,0.2185,2,1,251.7162,27.5,55.0,1,1,0,1,0,1,38.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,54,0,0.2121,2,1,254.5969,27.0,54.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,52,0,0.2057,2,1,252.7953,26.0,52.0,1,1,0,1,0,1,38.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,52,0,0.207,1,1,251.2077,52.0,52.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,52,0,0.207,1,1,251.2077,52.0,52.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,17,17,0.0675,1,1,251.8519,17.0,17.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,15,15,0.0595,1,1,252.1008,15.0,15.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,14,14,0.0556,1,1,251.7986,14.0,14.0,1,1,0,0,0,0,40.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,1,0,0.004,1,1,250.0,1.0,1.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,43,0,0.1284,1,1,334.891,43.0,43.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,41,0,0.1224,1,1,334.9673,41.0,41.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,39,0,0.1164,1,1,335.0515,39.0,39.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,123,0,0.3656,3,1,336.4333,41.0,123.0,2,2,0,1,0,1,38.67
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,118,0,0.3512,3,1,335.9909,39.3333,118.0,1,1,0,2,0,1,30.67
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,114,0,0.3409,3,1,334.4089,38.0,114.0,2,1,0,2,0,1,40.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,111,0,0.3307,2,1,335.6516,55.5,111.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,111,0,0.3327,3,1,333.6339,37.0,111.0,2,2,0,2,0,1,44.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,111,0,0.3327,3,1,333.6339,37.0,111.0,2,1,0,2,0,1,40.0
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,36,36,0.1075,1,1,334.8837,36.0,36.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,33,33,0.0985,1,1,335.0254,33.0,33.0,1,1,0,0,0,0,40.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,31,31,0.0925,1,1,335.1351,31.0,31.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,3,0,0.009,1,1,333.3333,3.0,3.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,18,0,0.0714,1,1,252.1008,18.0,18.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,17,0,0.0675,1,1,251.8519,17.0,17.0,1,1,0,0,0,0,40.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,17,0,0.0675,1,1,251.8519,17.0,17.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,55,0,0.2176,2,1,252.7574,27.5,55.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,53,0,0.209,2,1,253.5885,26.5,53.0,1,1,0,1,0,1,38.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,51,0,0.2029,2,1,251.3553,25.5,51.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,49,0,0.1968,1,1,248.9837,49.0,49.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,50,0,0.198,1,1,252.5253,50.0,50.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,50,0,0.198,1,1,252.5253,50.0,50.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,17,17,0.0675,1,1,251.8519,17.0,17.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,15,15,0.0595,1,1,252.1008,15.0,15.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,14,14,0.0556,1,1,251.7986,14.0,14.0,1,1,0,0,0,0,40.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,2,0,0.0079,1,1,253.1646,2.0,2.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,39,0,0.1164,1,1,335.0515,39.0,39.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,37,0,0.1104,1,1,335.1449,37.0,37.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,36,0,0.1075,1,1,334.8837,36.0,36.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,116,0,0.347,3,1,334.2939,38.6667,116.0,2,2,0,1,0,1,38.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,112,0,0.3333,3,1,336.0336,37.3333,112.0,1,1,0,2,0,1,30.67
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,108,0,0.3236,3,1,333.7454,36.0,108.0,2,1,0,2,0,1,40.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,105,0,0.3138,2,1,334.608,52.5,105.0,1,1,0,1,0,0,28.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,106,0,0.3158,3,1,335.6555,35.3333,106.0,2,2,0,2,0,1,44.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,106,0,0.3158,3,1,335.6555,35.3333,106.0,2,1,0,2,0,1,40.0
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,35,35,0.1045,1,1,334.9282,35.0,35.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,32,32,0.0955,1,1,335.0785,32.0,32.0,1,1,0,0,0,0,40.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,31,31,0.0925,1,1,335.1351,31.0,31.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,5,0,0.0149,1,1,335.5705,5.0,5.0,1,0,0,0,0,0,28.0
-2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,247,0,0.9802,5,2,251.9894,49.4,123.5,3,2,1,2,0,1,40.0
-2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,233,0,0.9246,6,2,252.0009,38.8333,116.5,4,2,1,3,0,1,42.0
-2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,226,0,0.8968,5,2,252.0071,45.2,113.0,4,2,1,2,0,1,45.6
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,700,0,2.7766,20,4,252.1069,35.0,175.0,14,10,1,11,0,4,42.4
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,672,0,2.6674,20,4,251.9307,33.6,168.0,15,8,1,11,0,6,44.6
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,652,0,2.5895,16,4,251.7861,40.75,163.0,9,9,1,8,0,3,38.25
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,633,0,2.5115,18,4,252.0406,35.1667,158.25,12,6,1,11,0,5,42.0
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,637,0,2.5271,16,4,252.0676,39.8125,159.25,10,8,2,8,0,4,44.5
-2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,637,0,2.5271,23,4,252.0676,27.6957,159.25,14,9,2,14,0,5,43.83
-2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,204,204,0.8095,5,1,252.0074,40.8,204.0,2,2,0,3,0,1,29.6
-2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,187,187,0.7421,4,1,251.9876,46.75,187.0,3,2,0,3,0,1,44.0
-2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,176,176,0.6984,4,1,252.0046,44.0,176.0,3,2,0,2,0,1,40.0
-2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,17,0,0.0675,1,1,251.8519,17.0,17.0,1,0,0,1,0,0,44.0
-2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,524,0,1.5642,13,7,334.9955,40.3077,74.8571,9,5,2,7,0,3,41.8
-2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,494,0,1.4746,12,7,335.0061,41.1667,70.5714,7,5,2,6,0,3,38.9
-2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,479,0,1.4299,11,6,334.9885,43.5455,79.8333,6,5,2,5,0,3,38.79
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,1487,0,4.4388,32,27,335.0005,46.4688,55.0741,18,17,8,17,1,8,40.62
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,1429,0,4.2643,30,26,335.1078,47.6333,54.9615,15,16,8,15,1,6,37.59
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,1387,0,4.1396,40,25,335.0565,34.675,55.48,25,15,8,24,1,12,42.92
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,1345,0,4.0149,30,25,335.0021,44.8333,53.8,15,16,7,13,1,6,36.08
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,1353,0,4.0398,36,25,334.9176,37.5833,54.12,22,13,10,15,1,7,38.62
-2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,1353,0,4.0398,35,25,334.9176,38.6571,54.12,24,17,8,16,0,9,42.61
-2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,434,434,1.2955,9,3,335.0058,48.2222,144.6667,5,3,1,5,0,2,38.22
-2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,398,398,1.1881,9,2,334.9886,44.2222,199.0,7,5,1,4,0,2,48.0
-2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,374,374,1.1164,8,2,335.0054,46.75,187.0,4,4,1,5,0,2,43.0
-2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,37,0,0.1104,2,1,335.1449,18.5,37.0,1,1,0,1,0,0,28.0
-2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,223,0,0.8849,5,2,252.0059,44.6,111.5,3,2,1,2,0,1,40.0
-2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,211,0,0.8373,6,2,252.0005,35.1667,105.5,4,2,1,3,0,1,42.0
-2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,204,0,0.8095,5,2,252.0074,40.8,102.0,4,2,1,2,0,1,45.6
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,665,0,2.6396,19,4,251.9321,35.0,166.25,13,10,1,10,0,4,42.11
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,639,0,2.5358,19,4,251.9915,33.6316,159.75,14,8,1,11,0,6,45.26
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,620,0,2.4617,16,4,251.8585,38.75,155.0,9,9,1,8,0,3,38.25
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,602,0,2.3875,17,3,252.1466,35.4118,200.6667,11,6,1,10,0,5,42.98
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,606,0,2.4024,15,3,252.2478,40.4,202.0,10,8,1,8,0,4,44.27
-2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,605,0,2.4024,22,3,251.8315,27.5,201.6667,13,8,1,14,0,5,40.97
-2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,203,203,0.8056,5,1,251.9861,40.6,203.0,2,2,0,3,0,1,29.6
-2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,186,186,0.7381,4,1,251.9984,46.5,186.0,3,2,0,3,0,1,44.0
-2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,175,175,0.6944,4,1,252.0161,43.75,175.0,3,2,0,2,0,1,40.0
-2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,29,0,0.1151,1,1,251.9548,29.0,29.0,1,0,0,1,0,0,44.0
-2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,474,0,1.4149,11,6,335.006,43.0909,79.0,8,4,2,6,0,2,42.42
-2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,447,0,1.3343,11,6,335.0071,40.6364,74.5,6,4,2,6,0,2,37.33
-2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,434,0,1.2955,10,6,335.0058,43.4,72.3333,5,5,2,4,0,2,35.73
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,1413,0,4.2178,30,26,335.0088,47.1,54.3462,17,16,8,16,0,8,41.06
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,1357,0,4.0519,28,25,334.9046,48.4643,54.28,14,15,8,14,1,6,38.12
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,1318,0,3.9334,38,24,335.0791,34.6842,54.9167,24,15,8,23,1,11,43.44
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,1278,0,3.815,29,23,334.9934,44.069,55.5652,15,15,6,13,1,6,36.45
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,1286,0,3.8387,34,23,335.0092,37.8235,55.913,20,12,9,14,1,7,37.91
-2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,1286,0,3.8387,33,23,335.0092,38.9697,55.913,22,16,8,16,0,8,42.66
-2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,431,431,1.2866,9,2,334.9915,47.8889,215.5,5,3,1,5,0,2,40.89
-2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,395,395,1.1791,9,2,335.0013,43.8889,197.5,7,5,1,4,0,2,48.0
-2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,371,371,1.1075,8,2,334.9887,46.375,185.5,4,4,1,5,0,2,43.0
-2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,61,0,0.1821,2,1,334.9808,30.5,61.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,16,0,0.0635,1,1,251.9685,16.0,16.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,15,0,0.0595,1,1,252.1008,15.0,15.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,15,0,0.0595,1,1,252.1008,15.0,15.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,46,0,0.1816,1,1,253.304,46.0,46.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,44,0,0.1744,1,1,252.2936,44.0,44.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,43,0,0.1693,1,1,253.987,43.0,43.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,41,0,0.1642,1,1,249.6955,41.0,41.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,42,0,0.1652,1,1,254.2373,42.0,42.0,1,1,0,1,0,0,56.0
-2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,41,0,0.1652,2,1,248.184,20.5,41.0,1,1,0,1,0,0,28.0
-2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,13,13,0.0516,1,1,251.938,13.0,13.0,0,0,0,1,0,0,16.0
-2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,12,12,0.0476,1,1,252.1008,12.0,12.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,11,11,0.0437,1,1,251.7162,11.0,11.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,1,0,0.004,1,1,250.0,1.0,1.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,34,0,0.1015,1,1,334.9754,34.0,34.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,32,0,0.0955,1,1,335.0785,32.0,32.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,31,0,0.0925,1,1,335.1351,31.0,31.0,1,0,0,0,0,0,28.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,97,0,0.2885,2,2,336.2218,48.5,48.5,1,1,1,1,0,1,46.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,93,0,0.2772,2,2,335.4978,46.5,46.5,1,1,1,1,0,0,36.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,90,0,0.2691,3,2,334.4482,30.0,45.0,2,1,1,2,0,1,48.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,87,0,0.261,2,2,333.3333,43.5,43.5,1,1,1,1,0,0,36.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,88,0,0.2626,2,2,335.1104,44.0,44.0,1,1,1,1,0,0,36.0
-2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,88,0,0.2626,2,2,335.1104,44.0,44.0,1,1,1,1,0,0,36.0
-2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,28,28,0.0836,1,1,334.9282,28.0,28.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,26,26,0.0776,1,1,335.0515,26.0,26.0,1,1,0,0,0,0,40.0
-2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,24,24,0.0716,1,1,335.1955,24.0,24.0,1,0,0,1,0,0,44.0
-2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,2,0,0.006,1,1,333.3333,2.0,2.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,14,0,0.0556,1,1,251.7986,14.0,14.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,14,0,0.0556,1,1,251.7986,14.0,14.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,13,0,0.0516,1,1,251.938,13.0,13.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,43,0,0.1709,1,1,251.6091,43.0,43.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,42,0,0.1642,1,1,255.7856,42.0,42.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,40,0,0.1594,1,1,250.941,40.0,40.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,39,0,0.1546,1,1,252.2639,39.0,39.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,39,0,0.1556,1,1,250.6427,39.0,39.0,1,1,0,1,0,0,56.0
-2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,39,0,0.1556,1,1,250.6427,39.0,39.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,13,13,0.0516,1,1,251.938,13.0,13.0,0,0,0,1,0,0,16.0
-2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,12,12,0.0476,1,1,252.1008,12.0,12.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,11,11,0.0437,1,1,251.7162,11.0,11.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,2,0,0.0079,1,1,253.1646,2.0,2.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0,0,0.0,0,0,0.0,0.0,0.0,0,0,0,0,0,0,0.0
-2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,31,0,0.0925,1,1,335.1351,31.0,31.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,29,0,0.0866,1,1,334.873,29.0,29.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,28,0,0.0836,1,1,334.9282,28.0,28.0,1,0,0,0,0,0,28.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,92,0,0.2742,2,2,335.5215,46.0,46.0,1,1,1,1,0,1,46.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,88,0,0.2634,2,2,334.0926,44.0,44.0,1,1,1,1,0,0,36.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,86,0,0.2557,3,2,336.3316,28.6667,43.0,2,1,1,2,0,1,48.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,83,0,0.248,2,2,334.6774,41.5,41.5,1,1,1,1,0,0,36.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,83,0,0.2495,2,2,332.6653,41.5,41.5,1,1,1,1,0,0,36.0
-2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,84,0,0.2495,2,2,336.6733,42.0,42.0,1,1,1,1,0,0,36.0
-2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,28,28,0.0836,1,1,334.9282,28.0,28.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,26,26,0.0776,1,1,335.0515,26.0,26.0,1,1,0,0,0,0,40.0
-2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,24,24,0.0716,1,1,335.1955,24.0,24.0,1,0,0,1,0,0,44.0
-2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,4,0,0.0119,1,1,336.1345,4.0,4.0,1,1,0,1,0,0,56.0
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,1378.8219,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,397.0,0,1786.2838,9,2,0.2222,44.1111,198.5,5,4,1,5,5,2,45.95
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,374.0,0,1680.7803,8,2,0.2225,46.75,187.0,5,4,1,4,5,2,45.95
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,363.0,0,1633.4856,9,2,0.2222,40.3333,181.5,5,4,1,5,5,2,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,1290.0,0,5005.9604,34,13,0.2577,37.9412,99.2308,21,15,4,18,20,8,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,1240.0,0,4805.8675,35,13,0.258,35.4286,95.3846,21,16,4,19,21,9,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,1203.0,0,4667.6215,32,12,0.2577,37.5938,100.25,19,14,4,17,19,8,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,1167.0,0,4525.7375,30,12,0.2579,38.9,97.25,18,13,4,16,18,7,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,1174.0,0,4554.8419,36,12,0.2577,32.6111,97.8333,22,16,4,19,21,9,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,1174.0,0,4554.8419,31,12,0.2577,37.871,97.8333,19,14,4,16,18,8,45.95
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,0.0,299,1306.0609,8,2,0.0,0.0,0.0,5,4,1,4,5,2,45.95
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,0.0,275,1200.5574,10,2,0.0,0.0,0.0,6,4,1,5,6,2,45.95
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,0.0,258,1127.7963,7,2,0.0,0.0,0.0,4,3,1,4,4,2,45.95
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,170.9885,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,843.0,0,1675.995,13,11,0.503,64.8462,76.6364,8,6,4,7,8,3,45.95
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,795.0,0,1579.2365,17,10,0.5034,46.7647,79.5,10,8,3,9,10,4,45.95
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,771.0,0,1534.3129,16,10,0.5025,48.1875,77.1,10,7,3,8,9,4,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,2741.0,0,4796.4558,54,43,0.5715,50.7593,63.7442,33,24,15,29,32,13,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,2634.0,0,4606.3945,56,42,0.5718,47.0357,62.7143,34,25,14,30,33,14,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,2556.0,0,4471.6237,42,40,0.5716,60.8571,63.9,25,19,14,22,25,10,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,2479.0,0,4336.853,55,39,0.5716,45.0727,63.5641,33,25,13,29,32,14,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,2496.0,0,4364.4983,55,39,0.5719,45.3818,64.0,33,25,13,29,32,14,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,2494.0,0,4364.4983,39,39,0.5714,63.9487,63.9487,24,17,13,21,23,10,45.95
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,0.0,637,780.9791,12,4,0.0,0.0,0.0,7,5,1,6,7,3,45.95
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,0.0,583,715.3216,14,3,0.0,0.0,0.0,8,6,1,7,8,3,45.95
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,0.0,548,670.398,10,3,0.0,0.0,0.0,6,4,1,5,6,2,45.95
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,72.5689,2,1,0.0,0.0,0.0,1,1,0,1,1,0,45.95
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,1378.8219,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,371.0,0,1611.6573,8,2,0.2302,46.375,185.5,5,4,1,4,5,2,45.95
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,351.0,0,1524.3441,7,2,0.2303,50.1429,175.5,4,3,1,4,4,2,45.95
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,339.0,0,1477.0494,8,2,0.2295,42.375,169.5,5,4,1,4,5,2,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,1238.0,0,4754.9348,32,13,0.2604,38.6875,95.2308,19,14,4,17,19,8,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,1190.0,0,4569.3941,33,12,0.2604,36.0606,99.1667,20,15,4,17,19,8,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,1154.0,0,4434.7862,31,12,0.2602,37.2258,96.1667,19,14,4,16,18,8,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,1120.0,0,4300.1782,28,11,0.2605,40.0,101.8182,17,13,4,15,16,7,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,1128.0,0,4329.2826,34,11,0.2606,33.1765,102.5455,21,15,4,18,20,8,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,1128.0,0,4329.2826,30,11,0.2606,37.6,102.5455,18,13,4,16,18,7,45.95
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,0.0,297,1295.1467,8,2,0.0,0.0,0.0,5,4,1,4,5,2,45.95
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,0.0,273,1193.2813,10,2,0.0,0.0,0.0,6,4,1,5,6,2,45.95
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,0.0,256,1116.8822,7,2,0.0,0.0,0.0,4,3,1,4,4,2,45.95
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,276.492,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,790.0,0,1517.0346,12,10,0.5208,65.8333,79.0,7,5,3,6,7,3,45.95
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,745.0,0,1430.6431,16,9,0.5207,46.5625,82.7778,10,7,3,8,9,4,45.95
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,722.0,0,1385.7196,14,9,0.521,51.5714,80.2222,8,6,3,7,8,3,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,2632.0,0,4561.4709,51,41,0.577,51.6078,64.1951,31,23,14,27,30,13,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,2528.0,0,4381.7766,53,39,0.5769,47.6981,64.8205,32,24,13,28,31,13,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,2454.0,0,4253.9172,40,38,0.5769,61.35,64.5789,24,18,13,21,24,10,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,2381.0,0,4126.0578,52,37,0.5771,45.7885,64.3514,31,23,13,28,31,13,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,2396.0,0,4150.2474,53,37,0.5773,45.2075,64.7568,32,24,13,28,31,13,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,2396.0,0,4150.2474,38,37,0.5773,63.0526,64.7568,23,17,13,20,22,9,45.95
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,0.0,633,774.0678,12,3,0.0,0.0,0.0,7,5,1,6,7,3,45.95
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,0.0,580,711.8659,14,3,0.0,0.0,0.0,8,6,1,7,8,3,45.95
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,0.0,545,666.9423,10,3,0.0,0.0,0.0,6,4,1,5,6,2,45.95
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,120.9481,3,2,0.0,0.0,0.0,2,1,1,2,2,1,45.95
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,26.0,0,120.0557,1,1,0.2166,26.0,26.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,24.0,0,109.1416,1,1,0.2199,24.0,24.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,24.0,0,109.1416,1,1,0.2199,24.0,24.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,83.0,0,323.7867,2,1,0.2563,41.5,83.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,80.0,0,312.8725,2,1,0.2557,40.0,80.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,78.0,0,301.9584,2,1,0.2583,39.0,78.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,75.0,0,294.6823,2,1,0.2545,37.5,75.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,77.0,0,294.6823,2,1,0.2613,38.5,77.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,77.0,0,294.6823,2,1,0.2613,38.5,77.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,0.0,19,83.6752,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,0.0,18,80.0372,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,0.0,17,76.3991,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,14.5522,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,190.0613,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,55.0,0,110.5811,1,1,0.4974,55.0,55.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,52.0,0,103.6698,1,1,0.5016,52.0,52.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,50.0,0,100.2141,1,1,0.4989,50.0,50.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,178.0,0,311.0094,4,3,0.5723,44.5,59.3333,2,2,1,2,2,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,171.0,0,300.6424,4,3,0.5688,42.75,57.0,2,2,1,2,2,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,166.0,0,290.2754,3,3,0.5719,55.3333,55.3333,2,1,1,2,2,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,162.0,0,283.3641,4,3,0.5717,40.5,54.0,2,2,1,2,2,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,162.0,0,283.3641,4,3,0.5717,40.5,54.0,2,2,1,2,2,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,162.0,0,283.3641,3,3,0.5717,54.0,54.0,2,1,1,2,2,1,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,0.0,41,51.8349,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,0.0,38,44.9236,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,0.0,36,44.9236,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,24.0,0,105.5035,1,1,0.2275,24.0,24.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,23.0,0,98.2274,1,1,0.2342,23.0,23.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,22.0,0,94.5894,1,1,0.2326,22.0,22.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,81.0,0,309.2345,2,1,0.2619,40.5,81.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,77.0,0,298.3203,2,1,0.2581,38.5,77.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,75.0,0,291.0442,2,1,0.2577,37.5,75.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,74.0,0,280.1301,2,1,0.2642,37.0,74.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,74.0,0,283.7681,2,1,0.2608,37.0,74.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,74.0,0,283.7681,2,1,0.2608,37.0,74.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,0.0,19,83.6752,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,0.0,18,80.0372,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,0.0,17,76.3991,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,18.1903,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,190.0613,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Ede North,South West,Osun,Ede North,,,51.0,0,96.7585,1,1,0.5271,51.0,51.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Ede North,South West,Osun,Ede North,,,49.0,0,93.3028,1,1,0.5252,49.0,49.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Ede North,South West,Osun,Ede North,,,47.0,0,89.8472,1,1,0.5231,47.0,47.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ede North,South West,Osun,Ede North,,,171.0,0,297.1867,3,3,0.5754,57.0,57.0,2,1,1,2,2,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ede North,South West,Osun,Ede North,,,164.0,0,283.3641,3,3,0.5788,54.6667,54.6667,2,1,1,2,2,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ede North,South West,Osun,Ede North,,,160.0,0,276.4528,3,2,0.5788,53.3333,80.0,2,1,1,2,2,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ede North,South West,Osun,Ede North,,,155.0,0,269.5415,3,2,0.5751,51.6667,77.5,2,1,1,2,2,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ede North,South West,Osun,Ede North,,,156.0,0,269.5415,3,2,0.5788,52.0,78.0,2,1,1,2,2,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ede North,South West,Osun,Ede North,,,156.0,0,269.5415,2,2,0.5788,78.0,78.0,1,1,1,1,1,0,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Ede North,South West,Osun,Ede North,,,0.0,41,51.8349,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Ede North,South West,Osun,Ede North,,,0.0,38,44.9236,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Ede North,South West,Osun,Ede North,,,0.0,35,41.4679,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Ede North,South West,Osun,Ede North,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,1378.8219,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,209.0,0,942.2556,4,1,0.2218,52.25,209.0,2,2,0,2,2,1,45.95
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,197.0,0,887.6848,6,1,0.2219,32.8333,197.0,4,3,0,3,4,1,45.95
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,191.0,0,858.5804,5,1,0.2225,38.2,191.0,3,2,0,3,3,1,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,680.0,0,2637.5882,16,4,0.2578,42.5,170.0,10,7,1,8,9,4,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,654.0,0,2532.0846,12,4,0.2583,54.5,163.5,7,5,1,6,7,3,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,634.0,0,2459.3236,16,4,0.2578,39.625,158.5,10,7,1,8,9,4,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,615.0,0,2386.5625,11,4,0.2577,55.9091,153.75,7,5,1,6,6,3,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,619.0,0,2401.1147,13,4,0.2578,47.6154,154.75,8,6,1,7,8,3,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,619.0,0,2401.1147,13,4,0.2578,47.6154,154.75,8,6,1,7,8,3,45.95
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,0.0,158,691.23,5,2,0.0,0.0,0.0,3,2,1,3,3,1,45.95
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,145,633.0212,4,1,0.0,0.0,0.0,2,2,0,2,2,1,45.95
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,136,593.0026,3,1,0.0,0.0,0.0,2,1,0,2,2,1,45.95
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,87.3133,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,444.0,0,884.6489,7,2,0.5019,63.4286,222.0,4,3,1,4,4,2,45.95
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,419.0,0,832.814,7,2,0.5031,59.8571,209.5,4,3,1,4,4,2,45.95
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,406.0,0,805.1687,7,2,0.5042,58.0,203.0,4,3,1,4,4,2,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,1445.0,0,2526.0873,33,11,0.572,43.7879,131.3636,20,15,4,17,19,8,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,1388.0,0,2425.8732,29,11,0.5722,47.8621,126.1818,18,13,4,15,17,7,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,1347.0,0,2356.76,26,10,0.5715,51.8077,134.7,16,12,3,14,15,6,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,1306.0,0,2284.1911,22,10,0.5718,59.3636,130.6,13,10,3,12,13,5,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,1314.0,0,2298.0137,24,10,0.5718,54.75,131.4,15,11,3,13,14,6,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,1314.0,0,2298.0137,29,10,0.5718,45.3103,131.4,18,13,3,15,17,7,45.95
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,0.0,335,411.2235,8,2,0.0,0.0,0.0,5,4,1,4,5,2,45.95
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,308,376.6669,7,2,0.0,0.0,0.0,4,3,1,4,4,2,45.95
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,289,352.4773,7,2,0.0,0.0,0.0,4,3,1,4,4,2,45.95
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,38.0123,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,196.0,0,854.9424,4,1,0.2293,49.0,196.0,2,2,0,2,2,1,45.95
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,185.0,0,804.0096,5,1,0.2301,37.0,185.0,3,2,0,3,3,1,45.95
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,179.0,0,778.5433,4,1,0.2299,44.75,179.0,2,2,0,2,2,1,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,654.0,0,2510.2563,15,4,0.2605,43.6,163.5,9,7,1,8,9,4,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,627.0,0,2408.3908,11,4,0.2603,57.0,156.75,7,5,1,6,6,3,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,609.0,0,2339.2678,15,4,0.2603,40.6,152.25,9,7,1,8,9,4,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,590.0,0,2270.1448,11,4,0.2599,53.6364,147.5,7,5,1,6,6,3,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,594.0,0,2284.6971,12,4,0.26,49.5,148.5,7,5,1,6,7,3,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,594.0,0,2284.6971,12,4,0.26,49.5,148.5,7,5,1,6,7,3,45.95
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,0.0,157,683.9539,5,2,0.0,0.0,0.0,3,2,1,3,3,1,45.95
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,144,629.3831,4,1,0.0,0.0,0.0,2,2,0,2,2,1,45.95
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,135,589.3645,3,1,0.0,0.0,0.0,2,1,0,2,2,1,45.95
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,145.5221,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,417.0,0,801.7131,6,2,0.5201,69.5,208.5,4,3,1,3,4,1,45.95
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,393.0,0,753.3338,7,2,0.5217,56.1429,196.5,4,3,1,4,4,2,45.95
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,381.0,0,732.5999,6,2,0.5201,63.5,190.5,4,3,1,3,4,1,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,1387.0,0,2401.6835,32,10,0.5775,43.3438,138.7,19,14,3,17,19,8,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,1332.0,0,2308.3807,28,10,0.577,47.5714,133.2,17,13,3,15,16,7,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,1293.0,0,2239.2675,25,10,0.5774,51.72,129.3,15,11,3,13,15,6,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,1253.0,0,2173.61,20,9,0.5765,62.65,139.2222,12,9,3,11,12,5,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,1261.0,0,2183.977,23,10,0.5774,54.8261,126.1,14,10,3,12,14,6,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,1262.0,0,2183.977,27,10,0.5778,46.7407,126.2,16,12,3,14,16,7,45.95
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,0.0,333,407.7679,8,2,0.0,0.0,0.0,5,4,1,4,5,2,45.95
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,306,373.2113,7,2,0.0,0.0,0.0,4,3,1,4,4,2,45.95
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,287,352.4773,7,2,0.0,0.0,0.0,4,3,1,4,4,2,45.95
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,65.6575,2,1,0.0,0.0,0.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,13.0,0,58.2088,1,1,0.2233,13.0,13.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,13.0,0,58.2088,1,1,0.2233,13.0,13.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,12.0,0,54.5708,1,1,0.2199,12.0,12.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,45.0,0,174.6265,1,1,0.2577,45.0,45.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,43.0,0,167.3504,1,1,0.2569,43.0,43.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,41.0,0,163.7124,1,1,0.2504,41.0,41.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,40.0,0,156.4363,1,1,0.2557,40.0,40.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,42.0,0,156.4363,1,1,0.2685,42.0,42.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,40.0,0,156.4363,1,1,0.2557,40.0,40.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,0.0,10,43.6566,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,9,40.0186,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,9,40.0186,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,7.2761,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,190.0613,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,29.0,0,55.2906,1,1,0.5245,29.0,29.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,27.0,0,55.2906,1,1,0.4883,27.0,27.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,26.0,0,51.8349,1,1,0.5016,26.0,26.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,94.0,0,165.8717,2,1,0.5667,47.0,94.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,91.0,0,158.9603,2,1,0.5725,45.5,91.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,88.0,0,152.049,2,1,0.5788,44.0,88.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,84.0,0,148.5934,1,1,0.5653,84.0,84.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,85.0,0,148.5934,2,1,0.572,42.5,85.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,85.0,0,148.5934,2,1,0.572,42.5,85.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,0.0,22,27.6453,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,20,24.1896,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,19,24.1896,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,13.0,0,54.5708,1,1,0.2382,13.0,13.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,13.0,0,54.5708,1,1,0.2382,13.0,13.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,11.0,0,50.9327,1,1,0.216,11.0,11.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,42.0,0,160.0743,1,1,0.2624,42.0,42.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,41.0,0,156.4363,1,1,0.2621,41.0,41.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,39.0,0,149.1602,1,1,0.2615,39.0,39.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,38.0,0,145.5221,1,1,0.2611,38.0,38.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,38.0,0,145.5221,1,1,0.2611,38.0,38.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,38.0,0,145.5221,1,1,0.2611,38.0,38.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,0.0,10,43.6566,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,9,40.0186,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,9,40.0186,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,7.2761,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Ife Central,South West,Osun,Ife Central,,,27.0,0,51.8349,1,1,0.5209,27.0,27.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Ife Central,South West,Osun,Ife Central,,,25.0,0,48.3792,1,1,0.5168,25.0,25.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Ife Central,South West,Osun,Ife Central,,,25.0,0,48.3792,1,1,0.5168,25.0,25.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ife Central,South West,Osun,Ife Central,,,90.0,0,155.5047,2,1,0.5788,45.0,90.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ife Central,South West,Osun,Ife Central,,,88.0,0,152.049,2,1,0.5788,44.0,88.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ife Central,South West,Osun,Ife Central,,,84.0,0,145.1377,2,1,0.5788,42.0,84.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ife Central,South West,Osun,Ife Central,,,81.0,0,141.6821,1,1,0.5717,81.0,81.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ife Central,South West,Osun,Ife Central,,,83.0,0,141.6821,2,1,0.5858,41.5,83.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ife Central,South West,Osun,Ife Central,,,83.0,0,141.6821,2,1,0.5858,41.5,83.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Ife Central,South West,Osun,Ife Central,,,0.0,22,27.6453,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,20,24.1896,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,19,24.1896,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Ife Central,South West,Osun,Ife Central,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,622.0,0,2797.6625,20,5,0.2223,31.1,124.4,12,9,2,11,12,5,45.95
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,587.0,0,2641.2262,15,4,0.2222,39.1333,146.75,9,7,1,8,9,4,45.95
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,569.0,0,2561.189,11,4,0.2222,51.7273,142.25,7,5,1,6,6,3,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,2024.0,0,7854.5556,54,8,0.2577,37.4815,253.0,33,24,3,29,32,13,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,1945.0,0,7545.3211,36,8,0.2578,54.0278,243.125,22,16,3,19,21,9,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,1888.0,0,7323.3999,54,8,0.2578,34.963,236.0,33,24,3,29,32,13,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,1832.0,0,7105.1168,52,8,0.2578,35.2308,229.0,31,23,3,28,31,13,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,1843.0,0,7148.7734,40,8,0.2578,46.075,230.375,24,18,3,21,24,10,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,1843.0,0,7148.7734,52,8,0.2578,35.4423,230.375,31,23,3,28,31,13,45.95
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,470,2051.8617,13,3,0.0,0.0,0.0,8,6,1,7,8,3,45.95
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,431,1880.8732,12,2,0.0,0.0,0.0,7,5,1,6,7,3,45.95
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,404,1764.4555,9,2,0.0,0.0,0.0,5,4,1,5,5,2,45.95
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,261.9398,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,1323.0,0,2629.7571,26,14,0.5031,50.8846,94.5,16,12,5,14,15,6,45.95
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,1247.0,0,2477.7081,21,13,0.5033,59.381,95.9231,13,9,4,11,12,5,45.95
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,1210.0,0,2405.1392,23,13,0.5031,52.6087,93.0769,14,10,4,12,14,6,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,4304.0,0,7529.8826,75,61,0.5716,57.3867,70.5574,45,34,21,40,44,19,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,4135.0,0,7232.6959,66,59,0.5717,62.6515,70.0847,40,30,20,35,39,16,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,4013.0,0,7021.9007,64,57,0.5715,62.7031,70.4035,39,29,19,34,38,16,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,3893.0,0,6811.1054,73,55,0.5716,53.3288,70.7818,44,33,19,39,43,18,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,3918.0,0,6852.5733,91,56,0.5718,43.0549,69.9643,55,41,19,48,54,23,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,3918.0,0,6852.5733,84,56,0.5718,46.6429,69.9643,51,38,19,44,49,21,45.95
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,999,1223.3036,27,6,0.0,0.0,0.0,16,12,2,14,16,7,45.95
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,915,1119.6338,17,6,0.0,0.0,0.0,10,8,2,9,10,4,45.95
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,860,1053.9762,21,5,0.0,0.0,0.0,13,9,2,11,12,5,45.95
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,114.0368,3,1,0.0,0.0,0.0,2,1,0,2,2,1,45.95
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,583.0,0,2535.7227,18,4,0.2299,32.3889,145.75,11,8,1,10,11,4,45.95
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,549.0,0,2386.5625,14,4,0.23,39.2143,137.25,8,6,1,7,8,3,45.95
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,534.0,0,2317.4395,10,4,0.2304,53.4,133.5,6,4,1,5,6,2,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,1944.0,0,7465.284,51,8,0.2604,38.1176,243.0,31,23,3,27,30,13,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,1867.0,0,7170.6017,35,8,0.2604,53.3429,233.375,21,16,3,19,21,9,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,1812.0,0,6959.5947,51,7,0.2604,35.5294,258.8571,31,23,2,27,30,13,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,1759.0,0,6752.2257,50,7,0.2605,35.18,251.2857,30,22,2,26,29,12,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,1769.0,0,6792.2443,38,7,0.2604,46.5526,252.7143,23,17,2,20,22,9,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,1769.0,0,6792.2443,50,7,0.2604,35.38,252.7143,30,22,2,26,29,12,45.95
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,467,2037.3095,13,3,0.0,0.0,0.0,8,6,1,7,8,3,45.95
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,428,1866.321,12,2,0.0,0.0,0.0,7,5,1,6,7,3,45.95
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,402,1753.5414,9,2,0.0,0.0,0.0,5,4,1,5,5,2,45.95
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,432.9283,2,1,0.0,0.0,0.0,1,1,0,1,1,0,45.95
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,1240.0,0,2380.9496,24,13,0.5208,51.6667,95.3846,15,11,4,13,14,6,45.95
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,1169.0,0,2246.1789,19,12,0.5204,61.5263,97.4167,11,9,4,10,11,5,45.95
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,1133.0,0,2177.0657,21,12,0.5204,53.9524,94.4167,13,9,4,11,12,5,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,4132.0,0,7156.6714,71,58,0.5774,58.1972,71.2414,43,32,20,38,42,18,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,3969.0,0,6876.763,63,56,0.5772,63.0,70.875,38,28,19,33,37,16,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,3852.0,0,6672.879,61,54,0.5773,63.1475,71.3333,37,27,18,32,36,15,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,3737.0,0,6472.4508,69,53,0.5774,54.1594,70.5094,42,31,18,37,41,17,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,3760.0,0,6513.9187,86,53,0.5772,43.7209,70.9434,52,39,18,45,51,21,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,3760.0,0,6513.9187,80,53,0.5772,47.0,70.9434,48,36,18,42,47,20,45.95
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,993,1216.3922,27,6,0.0,0.0,0.0,16,12,2,14,16,7,45.95
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,910,1116.1781,17,6,0.0,0.0,0.0,10,8,2,9,10,4,45.95
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,855,1047.0649,21,5,0.0,0.0,0.0,13,9,2,11,12,5,45.95
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,190.0613,6,1,0.0,0.0,0.0,4,3,0,3,4,1,45.95
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,41.0,0,181.9026,2,1,0.2254,20.5,41.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,38.0,0,174.6265,1,1,0.2176,38.0,38.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,37.0,0,167.3504,1,1,0.2211,37.0,37.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,132.0,0,509.3274,4,1,0.2592,33.0,132.0,2,2,0,2,2,1,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,126.0,0,491.1371,2,1,0.2565,63.0,126.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,123.0,0,476.5849,4,1,0.2581,30.75,123.0,2,2,0,2,2,1,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,119.0,0,462.0327,3,1,0.2576,39.6667,119.0,2,1,0,2,2,1,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,119.0,0,465.6707,3,1,0.2555,39.6667,119.0,2,1,0,2,2,1,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,119.0,0,465.6707,3,1,0.2555,39.6667,119.0,2,1,0,2,2,1,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,31,134.6079,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,28,123.6938,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,26,112.7796,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,18.1903,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,86.0,0,169.3273,2,1,0.5079,43.0,86.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,81.0,0,162.416,2,1,0.4987,40.5,81.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,79.0,0,155.5047,2,1,0.508,39.5,79.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,279.0,0,487.248,5,4,0.5726,55.8,69.75,3,2,1,3,3,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,269.0,0,469.9697,4,4,0.5724,67.25,67.25,2,2,1,2,2,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,260.0,0,456.1471,4,4,0.57,65.0,65.0,2,2,1,2,2,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,253.0,0,442.3245,5,4,0.572,50.6,63.25,3,2,1,3,3,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,255.0,0,445.7801,6,4,0.572,42.5,63.75,4,3,1,3,4,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,254.0,0,445.7801,5,4,0.5698,50.8,63.5,3,2,1,3,3,1,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,65,79.4802,2,1,0.0,0.0,0.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,59,72.5689,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,56,69.1132,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,90.9513,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,38.0,0,163.7124,1,1,0.2321,38.0,38.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,35.0,0,152.7982,1,1,0.2291,35.0,35.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,35.0,0,152.7982,1,1,0.2291,35.0,35.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,126.0,0,483.861,3,1,0.2604,42.0,126.0,2,1,0,2,2,1,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,122.0,0,465.6707,2,1,0.262,61.0,122.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,118.0,0,451.1185,3,1,0.2616,39.3333,118.0,2,1,0,2,2,1,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,114.0,0,440.2044,3,1,0.259,38.0,114.0,2,1,0,2,2,1,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,116.0,0,440.2044,2,1,0.2635,58.0,116.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,114.0,0,440.2044,3,1,0.259,38.0,114.0,2,1,0,2,2,1,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,30,130.9699,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,28,123.6938,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,26,112.7796,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,25.4664,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,81.0,0,155.5047,2,1,0.5209,40.5,81.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,76.0,0,145.1377,1,1,0.5236,76.0,76.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,74.0,0,141.6821,2,1,0.5223,37.0,74.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha East,South West,Osun,Ilesha East,,,269.0,0,466.5141,5,4,0.5766,53.8,67.25,3,2,1,3,3,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha East,South West,Osun,Ilesha East,,,258.0,0,445.7801,4,4,0.5788,64.5,64.5,2,2,1,2,2,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha East,South West,Osun,Ilesha East,,,250.0,0,435.4131,4,4,0.5742,62.5,62.5,2,2,1,2,2,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha East,South West,Osun,Ilesha East,,,242.0,0,421.5905,4,3,0.574,60.5,80.6667,2,2,1,2,2,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha East,South West,Osun,Ilesha East,,,245.0,0,421.5905,6,3,0.5811,40.8333,81.6667,4,3,1,3,4,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha East,South West,Osun,Ilesha East,,,244.0,0,421.5905,5,3,0.5788,48.8,81.3333,3,2,1,3,3,1,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,65,79.4802,2,1,0.0,0.0,0.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,59,72.5689,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,56,69.1132,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Ilesha East,South West,Osun,Ilesha East,,,0.0,0,10.367,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,342.0,0,1538.8963,8,3,0.2222,42.75,114.0,5,4,1,4,5,2,45.95
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,322.0,0,1451.583,6,3,0.2218,53.6667,107.3333,4,3,1,3,4,1,45.95
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,313.0,0,1407.9264,9,2,0.2223,34.7778,156.5,5,4,1,5,5,2,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,1114.0,0,4322.0065,26,6,0.2578,42.8462,185.6667,16,12,2,14,15,6,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,1070.0,0,4151.018,26,6,0.2578,41.1538,178.3333,16,12,2,14,15,6,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,1039.0,0,4030.9623,24,6,0.2578,43.2917,173.1667,15,11,2,13,14,6,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,1008.0,0,3907.2685,23,6,0.258,43.8261,168.0,14,10,2,12,14,6,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,1015.0,0,3932.7349,23,6,0.2581,44.1304,169.1667,14,10,2,12,14,6,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,1013.0,0,3932.7349,21,6,0.2576,48.2381,168.8333,13,9,2,11,12,5,45.95
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,259,1131.4344,7,5,0.0,0.0,0.0,4,3,2,4,4,2,45.95
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,237,1033.2069,7,4,0.0,0.0,0.0,4,3,1,4,4,2,45.95
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,223,974.9981,6,4,0.0,0.0,0.0,4,3,1,3,4,1,45.95
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,145.5221,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,2885.4759,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,727.0,0,1444.4658,18,4,0.5033,40.3889,181.75,11,8,1,10,11,4,45.95
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,685.0,0,1361.53,17,4,0.5031,40.2941,171.25,10,8,1,9,10,4,45.95
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,665.0,0,1320.062,13,4,0.5038,51.1538,166.25,8,6,1,7,8,3,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,2367.0,0,4143.3361,44,13,0.5713,53.7955,182.0769,27,20,4,23,26,11,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,2274.0,0,3977.4644,47,13,0.5717,48.383,174.9231,28,21,4,25,28,12,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,2208.0,0,3863.4276,42,12,0.5715,52.5714,184.0,25,19,4,22,25,10,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,2141.0,0,3745.9352,34,12,0.5716,62.9706,178.4167,21,15,4,18,20,8,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,2155.0,0,3770.1248,42,12,0.5716,51.3095,179.5833,25,19,4,22,25,10,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,2154.0,0,3770.1248,46,12,0.5713,46.8261,179.5,28,21,4,24,27,11,45.95
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,550,673.8537,18,3,0.0,0.0,0.0,11,8,1,10,11,4,45.95
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,504,618.5631,11,3,0.0,0.0,0.0,7,5,1,6,6,3,45.95
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,473,580.5508,11,2,0.0,0.0,0.0,7,5,1,6,6,3,45.95
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,65.6575,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,321.0,0,1397.0122,7,2,0.2298,45.8571,160.5,4,3,1,4,4,2,45.95
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,302.0,0,1313.337,6,2,0.2299,50.3333,151.0,4,3,1,3,4,1,45.95
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,294.0,0,1276.9565,8,2,0.2302,36.75,147.0,5,4,1,4,5,2,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,1069.0,0,4107.3614,25,6,0.2603,42.76,178.1667,15,11,2,13,15,6,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,1027.0,0,3943.649,25,6,0.2604,41.08,171.1667,15,11,2,13,15,6,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,997.0,0,3827.2314,23,6,0.2605,43.3478,166.1667,14,10,2,12,14,6,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,968.0,0,3714.4517,22,5,0.2606,44.0,193.6,13,10,2,12,13,5,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,973.0,0,3736.28,21,5,0.2604,46.3333,194.6,13,9,2,11,12,5,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,973.0,0,3736.28,20,5,0.2604,48.65,194.6,12,9,2,11,12,5,45.95
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,257,1120.5202,7,5,0.0,0.0,0.0,4,3,2,4,4,2,45.95
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,235,1025.9308,7,4,0.0,0.0,0.0,4,3,1,4,4,2,45.95
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,221,964.0839,6,4,0.0,0.0,0.0,4,3,1,3,4,1,45.95
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,243.7495,2,1,0.0,0.0,0.0,1,1,0,1,1,0,45.95
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,2882.0203,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,682.0,0,1309.6951,16,4,0.5207,42.625,170.5,10,7,1,8,9,4,45.95
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,642.0,0,1233.6705,16,4,0.5204,40.125,160.5,10,7,1,8,9,4,45.95
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,623.0,0,1195.6583,11,4,0.5211,56.6364,155.75,7,5,1,6,6,3,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,2272.0,0,3935.9965,42,12,0.5772,54.0952,189.3333,25,19,4,22,25,10,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,2183.0,0,3780.4918,45,12,0.5774,48.5111,181.9167,27,20,4,24,26,11,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,2119.0,0,3669.9107,40,12,0.5774,52.975,176.5833,24,18,4,21,24,10,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,2055.0,0,3559.3296,33,11,0.5774,62.2727,186.8182,20,15,4,17,19,8,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,2067.0,0,3580.0635,40,11,0.5774,51.675,187.9091,24,18,4,21,24,10,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,2067.0,0,3583.5192,43,11,0.5768,48.0698,187.9091,26,19,4,23,25,11,45.95
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,546,670.398,17,3,0.0,0.0,0.0,10,8,1,9,10,4,45.95
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,500,611.6518,11,2,0.0,0.0,0.0,7,5,1,6,6,3,45.95
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,470,577.0952,10,2,0.0,0.0,0.0,6,4,1,5,6,2,45.95
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,107.1255,2,2,0.0,0.0,0.0,1,1,1,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,22.0,0,98.2274,1,1,0.224,22.0,22.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,21.0,0,94.5894,1,1,0.222,21.0,21.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,21.0,0,94.5894,1,1,0.222,21.0,21.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,72.0,0,280.1301,2,1,0.257,36.0,72.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,69.0,0,269.2159,2,1,0.2563,34.5,69.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,68.0,0,261.9398,2,1,0.2596,34.0,68.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,65.0,0,251.0256,2,1,0.2589,32.5,65.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,65.0,0,254.6637,1,1,0.2552,65.0,65.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,65.0,0,254.6637,1,1,0.2552,65.0,65.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,17,72.7611,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,15,65.4849,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,14,61.8469,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,7.2761,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,47.0,0,93.3028,1,1,0.5037,47.0,47.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,45.0,0,89.8472,1,1,0.5009,45.0,45.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,43.0,0,86.3915,1,1,0.4977,43.0,43.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,155.0,0,269.5415,3,1,0.5751,51.6667,155.0,2,1,0,2,2,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,148.0,0,259.1745,3,1,0.571,49.3333,148.0,2,1,0,2,2,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,143.0,0,252.2632,3,1,0.5669,47.6667,143.0,2,1,0,2,2,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,140.0,0,245.3518,2,1,0.5706,70.0,140.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,140.0,0,245.3518,3,1,0.5706,46.6667,140.0,2,1,0,2,2,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,140.0,0,245.3518,3,1,0.5706,46.6667,140.0,2,1,0,2,2,1,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,36,44.9236,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,33,41.4679,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,31,38.0123,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,20.0,0,87.3133,1,1,0.2291,20.0,20.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,19.0,0,83.6752,1,1,0.2271,19.0,19.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,19.0,0,83.6752,1,1,0.2271,19.0,19.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,70.0,0,265.5778,2,1,0.2636,35.0,70.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,67.0,0,258.3017,2,1,0.2594,33.5,67.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,65.0,0,251.0256,2,1,0.2589,32.5,65.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,62.0,0,240.1115,1,1,0.2582,62.0,62.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,63.0,0,243.7495,1,1,0.2585,63.0,63.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,63.0,0,243.7495,1,1,0.2585,63.0,63.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,17,76.3991,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,15,65.4849,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,14,61.8469,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,14.5522,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,44.0,0,86.3915,1,1,0.5093,44.0,44.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,42.0,0,79.4802,1,1,0.5284,42.0,42.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,41.0,0,79.4802,1,1,0.5159,41.0,41.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Ilesha West,South West,Osun,Ilesha West,,,147.0,0,255.7188,3,1,0.5749,49.0,147.0,2,1,0,2,2,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Ilesha West,South West,Osun,Ilesha West,,,142.0,0,245.3518,3,1,0.5788,47.3333,142.0,2,1,0,2,2,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Ilesha West,South West,Osun,Ilesha West,,,137.0,0,238.4405,3,1,0.5746,45.6667,137.0,2,1,0,2,2,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Ilesha West,South West,Osun,Ilesha West,,,133.0,0,231.5292,2,1,0.5744,66.5,133.0,1,1,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Ilesha West,South West,Osun,Ilesha West,,,135.0,0,231.5292,3,1,0.5831,45.0,135.0,2,1,0,2,2,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Ilesha West,South West,Osun,Ilesha West,,,135.0,0,231.5292,3,1,0.5831,45.0,135.0,2,1,0,2,2,1,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,35,41.4679,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,32,38.0123,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,31,38.0123,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Ilesha West,South West,Osun,Ilesha West,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,ALL,Private,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,271.0,0,1218.7476,5,2,0.2224,54.2,135.5,3,2,1,3,3,1,45.95
+2024/2025,Female,ALL,Private,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,255.0,0,1149.6246,6,2,0.2218,42.5,127.5,4,3,1,3,4,1,45.95
+2024/2025,Female,ALL,Private,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,248.0,0,1113.2441,5,2,0.2228,49.6,124.0,3,2,1,3,3,1,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,880.0,0,3412.4934,20,4,0.2579,44.0,220.0,12,9,1,11,12,5,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,845.0,0,3277.8854,20,4,0.2578,42.25,211.25,12,9,1,11,12,5,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,820.0,0,3183.296,16,4,0.2576,51.25,205.0,10,7,1,8,9,4,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,796.0,0,3085.0686,18,4,0.258,44.2222,199.0,11,8,1,10,11,4,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,801.0,0,3106.8969,16,4,0.2578,50.0625,200.25,10,7,1,8,9,4,45.95
+2024/2025,Female,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,801.0,0,3106.8969,23,4,0.2578,34.8261,200.25,14,10,1,12,14,6,45.95
+2024/2025,Female,ALL,Private,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,0.0,204,891.3229,5,1,0.0,0.0,0.0,3,2,0,3,3,1,45.95
+2024/2025,Female,ALL,Private,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,187,814.9238,4,1,0.0,0.0,0.0,2,2,0,2,2,1,45.95
+2024/2025,Female,ALL,Private,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,176,767.6291,4,1,0.0,0.0,0.0,2,2,0,2,2,1,45.95
+2024/2025,Female,ALL,Private,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,112.7796,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,2882.0203,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,ALL,Public,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,575.0,0,1143.8234,13,7,0.5027,44.2308,82.1429,8,6,2,7,8,3,45.95
+2024/2025,Female,ALL,Public,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,542.0,0,1078.1658,12,7,0.5027,45.1667,77.4286,7,5,2,6,7,3,45.95
+2024/2025,Female,ALL,Public,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,525.0,0,1043.6093,11,6,0.5031,47.7273,87.5,7,5,2,6,6,3,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,1870.0,0,3272.5098,32,27,0.5714,58.4375,69.2593,19,14,9,17,19,8,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,1797.0,0,3141.1947,30,26,0.5721,59.9,69.1154,18,13,9,16,18,7,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,1744.0,0,3051.3476,40,25,0.5716,43.6,69.76,24,18,8,21,24,10,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,1691.0,0,2958.0448,30,25,0.5717,56.3667,67.64,18,13,8,16,18,7,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,1701.0,0,2975.3231,36,25,0.5717,47.25,68.04,22,16,8,19,21,9,45.95
+2024/2025,Female,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,1701.0,0,2975.3231,35,25,0.5717,48.6,68.04,21,16,8,19,21,9,45.95
+2024/2025,Female,ALL,Public,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,0.0,434,532.1716,9,3,0.0,0.0,0.0,5,4,1,5,5,2,45.95
+2024/2025,Female,ALL,Public,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,398,487.248,9,2,0.0,0.0,0.0,5,4,1,5,5,2,45.95
+2024/2025,Female,ALL,Public,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,374,459.6027,8,2,0.0,0.0,0.0,5,4,1,4,5,2,45.95
+2024/2025,Female,ALL,Public,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,51.8349,2,1,0.0,0.0,0.0,1,1,0,1,1,0,45.95
+2024/2025,Male,ALL,Private,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,1375.1839,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,ALL,Private,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,253.0,0,1098.6919,5,2,0.2303,50.6,126.5,3,2,1,3,3,1,45.95
+2024/2025,Male,ALL,Private,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,240.0,0,1040.4831,6,2,0.2307,40.0,120.0,4,3,1,3,4,1,45.95
+2024/2025,Male,ALL,Private,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,232.0,0,1007.7406,5,2,0.2302,46.4,116.0,3,2,1,3,3,1,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,844.0,0,3245.1429,19,4,0.2601,44.4211,211.0,11,9,1,10,11,5,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,811.0,0,3117.8111,19,4,0.2601,42.6842,202.75,11,9,1,10,11,5,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,787.0,0,3026.8598,16,4,0.26,49.1875,196.75,10,7,1,8,9,4,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,764.0,0,2932.2704,17,3,0.2605,44.9412,254.6667,10,8,1,9,10,4,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,769.0,0,2954.0987,15,3,0.2603,51.2667,256.3333,9,7,1,8,9,4,45.95
+2024/2025,Male,ALL,Private,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,768.0,0,2950.4607,22,3,0.2603,34.9091,256.0,13,10,1,12,13,5,45.95
+2024/2025,Male,ALL,Private,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,0.0,203,887.6848,5,1,0.0,0.0,0.0,3,2,0,3,3,1,45.95
+2024/2025,Male,ALL,Private,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,186,811.2857,4,1,0.0,0.0,0.0,2,2,0,2,2,1,45.95
+2024/2025,Male,ALL,Private,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,175,763.9911,4,1,0.0,0.0,0.0,2,2,0,2,2,1,45.95
+2024/2025,Male,ALL,Private,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,189.1787,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,ALL,Public,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,2882.0203,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,ALL,Public,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,538.0,0,1033.2423,11,6,0.5207,48.9091,89.6667,7,5,2,6,6,3,45.95
+2024/2025,Male,ALL,Public,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,507.0,0,974.4961,11,6,0.5203,46.0909,84.5,7,5,2,6,6,3,45.95
+2024/2025,Male,ALL,Public,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,493.0,0,946.8508,10,6,0.5207,49.3,82.1667,6,4,2,5,6,2,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,1794.0,0,3106.6381,30,26,0.5775,59.8,69.0,18,13,9,16,18,7,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,1723.0,0,2985.69,28,25,0.5771,61.5357,68.92,17,13,8,15,16,7,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,1674.0,0,2899.2986,38,24,0.5774,44.0526,69.75,23,17,8,20,22,9,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,1623.0,0,2812.9071,29,23,0.577,55.9655,70.5652,18,13,8,15,17,7,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,1633.0,0,2830.1854,34,23,0.577,48.0294,71.0,21,15,8,18,20,8,45.95
+2024/2025,Male,ALL,Public,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,1633.0,0,2830.1854,33,23,0.577,49.4848,71.0,20,15,8,17,19,8,45.95
+2024/2025,Male,ALL,Public,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,0.0,431,528.7159,9,2,0.0,0.0,0.0,5,4,1,5,5,2,45.95
+2024/2025,Male,ALL,Public,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,395,483.7924,9,2,0.0,0.0,0.0,5,4,1,5,5,2,45.95
+2024/2025,Male,ALL,Public,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,371,456.1471,8,2,0.0,0.0,0.0,5,4,1,4,5,2,45.95
+2024/2025,Male,ALL,Public,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,82.9358,2,1,0.0,0.0,0.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,18.0,0,80.0372,1,1,0.2249,18.0,18.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,16.0,0,72.7611,1,1,0.2199,16.0,16.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,16.0,0,72.7611,1,1,0.2199,16.0,16.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,58.0,0,221.9212,1,1,0.2614,58.0,58.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,55.0,0,214.6451,1,1,0.2562,55.0,55.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,54.0,0,207.369,1,1,0.2604,54.0,54.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,52.0,0,200.0929,1,1,0.2599,52.0,52.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,53.0,0,203.7309,1,1,0.2601,53.0,53.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,52.0,0,203.7309,2,1,0.2552,26.0,52.0,1,1,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,0.0,13,58.2088,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,12,50.9327,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,11,47.2947,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Private,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,7.2761,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,37.0,0,72.5689,1,1,0.5099,37.0,37.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,35.0,0,69.1132,1,1,0.5064,35.0,35.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,34.0,0,69.1132,1,1,0.4919,34.0,34.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,122.0,0,214.2509,2,2,0.5694,61.0,61.0,1,1,1,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,117.0,0,203.8839,2,2,0.5739,58.5,58.5,1,1,1,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,113.0,0,196.9726,3,2,0.5737,37.6667,56.5,2,1,1,2,2,1,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,109.0,0,193.5169,2,2,0.5633,54.5,54.5,1,1,1,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,111.0,0,193.5169,2,2,0.5736,55.5,55.5,1,1,1,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,111.0,0,193.5169,2,2,0.5736,55.5,55.5,1,1,1,1,1,0,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,0.0,28,34.5566,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,26,31.1009,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,24,27.6453,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Female,Disabled,Public,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,3.4557,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,87.3133,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,16.0,0,69.123,1,1,0.2315,16.0,16.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,16.0,0,69.123,1,1,0.2315,16.0,16.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,15.0,0,65.4849,1,1,0.2291,15.0,15.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,55.0,0,211.0071,1,1,0.2607,55.0,55.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,53.0,0,200.0929,1,1,0.2649,53.0,53.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,51.0,0,196.4548,1,1,0.2596,51.0,51.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,49.0,0,189.1787,1,1,0.259,49.0,49.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,49.0,0,192.8168,1,1,0.2541,49.0,49.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,49.0,0,192.8168,1,1,0.2541,49.0,49.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,0.0,13,58.2088,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,12,50.9327,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,11,47.2947,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Private,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,14.5522,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Adult & Non-Formal,IQS/IQTE,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,186.6056,0,0,0.0,0.0,0.0,0,0,0,0,0,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS1,JSS1,lga,Osogbo,South West,Osun,Osogbo,,,35.0,0,65.6575,1,1,0.5331,35.0,35.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS2,,lga,Osogbo,South West,Osun,Osogbo,,,33.0,0,62.2019,1,1,0.5305,33.0,33.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,JSS,JSS3,,lga,Osogbo,South West,Osun,Osogbo,,,32.0,0,62.2019,1,1,0.5145,32.0,32.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 1,Primary 1,lga,Osogbo,South West,Osun,Osogbo,,,117.0,0,200.4283,2,2,0.5837,58.5,58.5,1,1,1,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 2,,lga,Osogbo,South West,Osun,Osogbo,,,112.0,0,193.5169,2,2,0.5788,56.0,56.0,1,1,1,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 3,,lga,Osogbo,South West,Osun,Osogbo,,,109.0,0,190.0613,3,2,0.5735,36.3333,54.5,2,1,1,2,2,1,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 4,,lga,Osogbo,South West,Osun,Osogbo,,,105.0,0,183.15,2,2,0.5733,52.5,52.5,1,1,1,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 5,,lga,Osogbo,South West,Osun,Osogbo,,,105.0,0,183.15,2,2,0.5733,52.5,52.5,1,1,1,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Pre-Primary/Primary,Primary 6,,lga,Osogbo,South West,Osun,Osogbo,,,107.0,0,183.15,2,2,0.5842,53.5,53.5,1,1,1,1,1,0,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS1,SSS1,lga,Osogbo,South West,Osun,Osogbo,,,0.0,28,34.5566,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS2,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,26,31.1009,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,SSS,SSS3,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,24,27.6453,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
+2024/2025,Male,Disabled,Public,Vocational,Tech/Voc,,lga,Osogbo,South West,Osun,Osogbo,,,0.0,0,6.9113,1,1,0.0,0.0,0.0,1,0,0,1,1,0,45.95
