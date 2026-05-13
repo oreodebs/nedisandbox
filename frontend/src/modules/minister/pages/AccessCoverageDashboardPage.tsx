@@ -630,11 +630,11 @@ const CHART_HELP: Record<ChartKey, string> = {
   densityMapPrivate: "Average Primary Learners per Private School shows average learner load per private primary school by state. Click a state to switch into a ranked LGA view, then use the back action to return to the map.",
   densityDrillPublic: "Average Primary Learners per Public School by LGA ranks all LGAs within the selected state and uses a heat-style gradient so higher-pressure LGAs stand out immediately.",
   densityDrillPrivate: "Average Primary Learners per Private School by LGA ranks all LGAs within the selected state and uses a heat-style gradient so higher-pressure LGAs stand out immediately.",
-  densityCombined: "Average Learners per School shows primary learner load by map area using the same continuous green heatmap scale. Click a state to drill into a filled LGA partition, then click an LGA to view filled Ward sections. Available LGAs/Wards fill the parent outline without blank spaces.",
+  densityCombined: "Average Learners per School shows primary learner load by map area using the same continuous green heatmap scale. Click a state to drill into LGA partition, then click an LGA to view Ward sections.",
   densityCombinedDrill: "Average Learners per School drilldown uses continuous green heatmap partitions so available LGAs or Wards fill the selected parent outline and remain map-like without blank missing areas.",
   densitySchoolLevel: "Average Learners per School by School Level compares learner load per school across Pre/Primary, JSS, SSS, and Non Formal.",
   schoolCountState: "Public vs Private School Count by State compares actual school counts by management type. It stays scrollable and drills deeper from state to LGA so you can compare supply structure clearly.",
-  schoolCountPrimaryState: "Primary Level Public vs Private School Count by State compares actual school counts across public and private school type for the pre-primary and primary pipeline only.",
+  schoolCountPrimaryState: "Primary Level Public vs Private School Count by State compares actual school counts across public and private school type for pre/primary",
   schoolCountSecondaryState: "Secondary Level Public vs Private School Count by State compares actual school counts across public and private school type for JSS and SSS together.",
   studentCountState: "Public vs Private Student Count by State compares enrolled learner volume carried by public and private schools. It uses the same state ordering as the school-count chart so side-by-side comparison remains clean.",
   studentCountPrimaryState: "Primary Level Public vs Private Student Count by State compares enrolled learner volume across public and private school type for the pre-primary and primary pipeline only.",
@@ -643,12 +643,12 @@ const CHART_HELP: Record<ChartKey, string> = {
   secondaryStudentPublicGenderState: "Secondary Level Public Student Count by Gender by State compares enrolled male and female learner volume across public JSS and SSS schools by state.",
   primaryStudentPrivateGenderState: "Primary Level Private Student Count by Gender by State compares enrolled male and female learner volume across private primary schools by state.",
   secondaryStudentPrivateGenderState: "Secondary Level Private Student Count by Gender by State compares enrolled male and female learner volume across private JSS and SSS schools by state.",
-  primaryStudentCombinedGenderState: "Primary Student Count by State (Public/Private and Gender) shows one stacked bar per state with Public Male, Public Female, Private Male, and Private Female segments. Click a state in normal mode to drill to LGA.",
-  secondaryStudentCombinedGenderState: "Secondary Student Count by State (Public/Private and Gender) shows one stacked bar per state with Public Male, Public Female, Private Male, and Private Female segments. Click a state in normal mode to drill to LGA.",
+  primaryStudentCombinedGenderState: "Primary Student Count by State (Public/Private and Gender) shows one stacked bar per state with Public Male, Public Female, Private Male, and Private Female segments. Click a state to drill to LGA.",
+  secondaryStudentCombinedGenderState: "Secondary Student Count by State (Public/Private and Gender) shows one stacked bar per state with Public Male, Public Female, Private Male, and Private Female segments. Click a state to drill to LGA.",
   studentCountGender: "Public vs Private Student Count by Gender compares male and female enrollment volume across public and private schooling.",
-  funnel: "Enrollment Trend by Class Level shows the most recent academic sessions as separate progression lines from Primary 1 to SSS3. Each line is spaced and labelled so you can compare drop-off patterns clearly across sessions.",
+  funnel: "Enrollment Trend by Class Level shows the most recent academic sessions as separate progression lines from Primary 1 to SSS3.",
   progression: "Enrollment Progression Table compares each class level between the previous session and the current session so the movement is easier to read. It shows previous learners, current learners, net change, and change rate by class level.",
-  keyEntryState: "Enrollment by Key Entry Level and State compares Primary 1, JSS1, and SSS1 by state using horizontal stacked bars. It stays scrollable and drills from state to LGA.",
+  keyEntryState: "Enrollment by Key Entry Level and State compares Primary 1, JSS1, and SSS1 by state using horizontal stacked bars. Drills from state to LGA.",
   keyEntryGender: "Enrollment by Key Entry Level and Gender compares male and female enrollment at Primary 1, JSS1, and SSS1 so early access gaps are easy to spot.",
   classroomZone: "National view. Learners per Classroom by Zone compares classroom pressure across zones against the UBE benchmark of 35 learners per classroom.",
   classroomState: "National view. Learners per Classroom by State compares classroom pressure across states and stays scrollable. Click a state bar to drill deeper to LGA.",
@@ -6220,7 +6220,7 @@ export default function AccessCoverageDashboard({
         <div className="grid gap-3 lg:grid-cols-2">
           <ChartCard
             title="Primary Level Public vs Private School Count by State"
-            explanation="Primary Level Public vs Private School Count by State compares actual school counts across public and private school type for the pre-primary and primary pipeline only."
+            explanation="Primary Level Public vs Private School Count by State compares actual school counts across public and private school type for pre/primary."
             bundle={primarySchoolCountStateChart.bundle}
             sortControl={stateSortControl("schoolCountPrimaryState", primarySchoolCountStateChart.level === "state")}
             onExpand={() => setExpandState({ key: "schoolCountPrimaryState", title: "Primary Level Public vs Private School Count by State" })}
@@ -6249,7 +6249,7 @@ export default function AccessCoverageDashboard({
         <div className="grid gap-3 lg:grid-cols-2">
           <ChartCard
             title="Primary Level Public vs Private Student Count by State"
-            explanation="Primary Level Public vs Private Student Count by State compares enrolled learner volume across public and private school type for the pre-primary and primary pipeline only."
+            explanation="Primary Level Public vs Private Student Count by State compares enrolled learner volume across public and private school type for the pre/primary."
             bundle={primaryStudentCountStateChart.bundle}
             sortControl={stateSortControl("studentCountPrimaryState", primaryStudentCountStateChart.level === "state")}
             onExpand={() => setExpandState({ key: "studentCountPrimaryState", title: "Primary Level Public vs Private Student Count by State" })}

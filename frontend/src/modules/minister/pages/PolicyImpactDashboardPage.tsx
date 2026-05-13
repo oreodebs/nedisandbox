@@ -330,9 +330,9 @@ const COLORS = {
 };
 
 const CHART_HELP: Record<ChartKey, string> = {
-  mix: "Programme Mix shows the share of STEMM versus Non-STEMM students in the current view. When the Admitted toggle is off it shows matriculated students, and when it is on it shows admitted students.",
-  zone: "This chart starts at Zone level and drills through State to LGA. LGA is the final visible drill level, so clicking the final level will not drill into Institution or School.",
-  state: "This chart starts at State level and drills to LGA. LGA is the final visible drill level, so clicking the final level will not drill into Institution or School.",
+  mix: "Programme Mix shows the share of STEMM versus Non-STEMM students in the current view.",
+  zone: "Compares matriculated students in STEMM and Non-STEMM programmes across zones.",
+  state: "Compares matriculated students in STEMM and Non-STEMM programmes across states.",
   gender: "This grouped bar chart compares male and female students across STEMM and Non-STEMM in the selected stage.",
   disciplineMix: "This donut chart shows matriculated students by discipline family. All STEMM disciplines are combined into one STEMM slice, while Non-STEMM is grouped into ART, Social Sciences, and Education.",
   topMatriculatedCourses: "This ranked horizontal bar chart shows top courses by matriculated students in the selected session and filters. Each course inherits the color of its discipline family from the discipline donut chart beside it.",
@@ -344,8 +344,8 @@ const CHART_HELP: Record<ChartKey, string> = {
   lowestStemmInstitutions: "This chart ranks the lowest institutions by matriculated students for the selected session and filters.",
   topNonStemmInstitutions: "This chart ranks the institutions with the highest Non-STEMM learner volume in the current stage.",
   lowestNonStemmInstitutions: "This chart ranks the institutions with the lowest Non-STEMM learner volume in the current stage.",
-  stemmNonStemmTrend: "This trend chart shows STEMM and Non-STEMM matriculated students side by side from 2021/2022 onward so the recent tertiary intake pattern is easier to compare.",
-  loanTrend: "This vertical grouped bar chart compares loan applications and loans disbursed by academic session, using the same style as the institution-type loan chart.",
+  stemmNonStemmTrend: "This trend chart shows STEMM and Non-STEMM matriculated students side by side.",
+  loanTrend: "This vertical grouped bar chart compares loan applications and loans disbursed by academic session.",
   loanInstitution: "This chart shows how approved and disbursed student loans are distributed across institution types.",
   loanDiscipline: "This chart shows how approved and disbursed student loans are distributed across discipline groups.",
 };

@@ -1,17 +1,8 @@
 export type DashboardSessionWindowKey =
-  | "general_overview"
   | "basic_secondary"
   | "transition"
   | "performance"
   | "policy_impact";
-
-export const GENERAL_OVERVIEW_SESSIONS = [
-  "2022/2023",
-  "2023/2024",
-  "2024/2025",
-] as const;
-
-export const GENERAL_OVERVIEW_FILTER_SESSIONS = ["2024/2025"] as const;
 
 export const BASIC_SECONDARY_SESSIONS = ["2024/2025"] as const;
 
@@ -47,9 +38,8 @@ export function getDashboardSessionWindow(
       return PERFORMANCE_SESSIONS;
     case "policy_impact":
       return POLICY_IMPACT_SESSIONS;
-    case "general_overview":
     default:
-      return GENERAL_OVERVIEW_SESSIONS;
+      return BASIC_SECONDARY_SESSIONS;
   }
 }
 

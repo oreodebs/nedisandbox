@@ -15,6 +15,7 @@ import AdminSystemPage from "../modules/admin/pages/AdminSystemPage";
 import AdminUsersPage from "../modules/admin/pages/AdminUsersPage";
 import MinisterDashboardPage from "../modules/minister/pages/MinisterDashboardPage";
 import ForgotPasswordPage from "../pages/ForgotPasswordPage";
+import LoginPage from "../pages/LoginPage";
 import NotFoundPage from "../pages/NotFoundPage";
 import PasswordTokenPage from "../pages/PasswordTokenPage";
 import SettingsPage from "../pages/SettingsPage";
@@ -25,6 +26,7 @@ import {
   homeRouteForRole,
   isAuthed,
   isMinister,
+  isStateAdmin,
   isSystemAdmin,
   logoutDummy,
   setAuthNotice,
@@ -47,12 +49,12 @@ function ScrollToTop() {
 }
 
 function RequireAuth({ children }: { children: ReactNode }) {
-  if (!isAuthed()) return <Navigate to="/minister" replace />;
+  if (!isAuthed()) return <Navigate to="/login" replace />;
   return <>{children}</>;
 }
 
 function HomeRedirect() {
-  return <Navigate to="/minister" replace />;
+  return <Navigate to={isAuthed() ? homeRouteForRole() : "/login"} replace />;
 }
 
 function RequireSystemAdmin({ children }: { children: ReactNode }) {
@@ -76,7 +78,7 @@ export default function App() {
     logoutDummy();
     setAuthed(false);
     if (redirectToLogin) {
-      navigate("/minister", { replace: true });
+      navigate("/login", { replace: true });
     }
   };
 
@@ -91,8 +93,10 @@ export default function App() {
 
   const goSettings = () => navigate("/settings");
   const goDashboard = () => navigate(homeRouteForRole());
-
-  void authed;
+  const handleLogin = () => {
+    setAuthed(true);
+    navigate(homeRouteForRole(), { replace: true });
+  };
 
   useEffect(() => {
     if (!authed) return;
@@ -177,6 +181,16 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<HomeRedirect />} />
+        <Route
+          path="/login"
+          element={
+            isAuthed() ? (
+              <Navigate to={homeRouteForRole()} replace />
+            ) : (
+              <LoginPage onLogin={handleLogin} />
+            )
+          }
+        />
         <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route
           path="/reset-password"
@@ -190,12 +204,14 @@ export default function App() {
         <Route
           path="/minister"
           element={
-            <RequireMinisterPortal>
-              <MinisterDashboardPage
-                onOpenSettings={goSettings}
-                onLogout={logout}
-              />
-            </RequireMinisterPortal>
+            <RequireAuth>
+              <RequireMinisterPortal>
+                <MinisterDashboardPage
+                  onOpenSettings={goSettings}
+                  onLogout={logout}
+                />
+              </RequireMinisterPortal>
+            </RequireAuth>
           }
         />
 
@@ -270,7 +286,7 @@ export default function App() {
             <RequireAuth>
               {isSystemAdmin() ? (
                 <Navigate to="/admin/settings" replace />
-              ) : isMinister() ? (
+              ) : isMinister() || isStateAdmin() ? (
                 <MinisterLayout
                   onLogout={logout}
                   onOpenSettings={goSettings}

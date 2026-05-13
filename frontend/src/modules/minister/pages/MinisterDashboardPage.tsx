@@ -19,7 +19,6 @@ import type {
 import { canonicalGapBand, canonicalState, loadRefinedFile } from "../utils/refinedPageData";
 import {
   filterAllowedSessions,
-  GENERAL_OVERVIEW_FILTER_SESSIONS,
   getDashboardSessionWindow,
 } from "../utils/sessionWindows";
 
@@ -28,10 +27,8 @@ const PerformanceDashboard = lazy(() => import("./PerformanceDashboardPage"));
 const TeacherCapacityDashboard = lazy(() => import("./TeacherCapacityDashboardPage"));
 const AccessCoverageDashboard = lazy(() => import("./AccessCoverageDashboardPage"));
 const PolicyImpactDashboard = lazy(() => import("./PolicyImpactDashboardPage"));
-const GeneralOverviewDashboard = lazy(() => import("./GeneralOverviewDashboardPage"));
 
 type CategoryKey =
-  | "general_overview"
   | "basic_secondary"
   | "transition"
   | "performance"
@@ -112,7 +109,6 @@ type PerformanceFilterSeed = {
 const GAP_BANDS: Array<MinisterFilters["gap_band"]> = ["1-year", "2-year", "3-5-year", "5+-year"];
 const EXAM_BODIES: Array<MinisterFilters["exam_body"]> = ["WAEC", "NECO", "NABTEB"];
 const CATEGORY_LABELS: Record<CategoryKey, string> = {
-  general_overview: "General Overview",
   basic_secondary: "Basic and Senior Secondary",
   transition: "General Transition",
   performance: "Performance",
@@ -176,14 +172,6 @@ const POLICY_IMPACT_SECTIONS: SectionDef[] = [
   { id: "policy-impact-loans", label: "Student Loan Support" },
 ];
 
-const GENERAL_OVERVIEW_SECTIONS: SectionDef[] = [
-  { id: "general-kpi", label: "System Overview KPIs" },
-  { id: "general-access", label: "Access & School Coverage" },
-  { id: "general-transition", label: "Transition & Learner Flow" },
-  { id: "general-tertiary", label: "Tertiary Pathway Trends" },
-  { id: "general-loans", label: "Student Loan Support" },
-];
-
 const SCHOOL_TYPE_FILTER_ORDER = ["Public", "Private"] as const;
 const SCHOOL_LEVEL_FILTER_ORDER = ["Pre-Primary/Primary", "JSS", "SSS", "Adult & Non-Formal"] as const;
 const ACCESS_SCHOOL_TYPE_FILTER_ORDER = ["Public", "Private"] as const;
@@ -228,10 +216,6 @@ const CLASS_GRADE_FILTER_ORDER = [
   "SSS2",
   "SSS3",
 ] as const;
-
-const PLACEHOLDER_SECTIONS: Record<Exclude<CategoryKey, "transition" | "performance" | "basic_secondary" | "general_overview">, SectionDef[]> = {
-  policy_impact: [{ id: "placeholder-policy-impact", label: "Coming Soon" }],
-};
 
 function truncateLabel(value: string | null | undefined, max = 32): string {
   const safeValue = typeof value === "string" ? value : "";
@@ -335,30 +319,6 @@ const FCT_STATE_NAME = "Abuja Federal Capital Territory";
 
 function displayStateLabel(value: string): string {
   return canonicalState(value) === FCT_STATE_NAME ? "FCT" : value;
-}
-
-function PlaceholderPage({ title, sections }: { title: string; sections: SectionDef[] }) {
-  return (
-    <div className="mt-6 space-y-6">
-      <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-        <div className="text-2xl font-extrabold tracking-tight text-slate-900">{title}</div>
-        <div className="mt-2 text-sm text-slate-500">
-          This page is already placed in the selector flow and ready for the next build pass.
-        </div>
-      </div>
-
-      {sections.map((section) => (
-        <div
-          key={section.id}
-          id={section.id}
-          className="scroll-mt-36 rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-8"
-        >
-          <div className="text-base font-bold text-slate-900">{title}</div>
-          <div className="mt-2 text-sm text-slate-500">{section.label}</div>
-        </div>
-      ))}
-    </div>
-  );
 }
 
 function FilterSelect({
@@ -992,10 +952,7 @@ export default function MinisterDashboardPage({
     if (category === "policy_impact") {
       return POLICY_IMPACT_SECTIONS;
     }
-    if (category === "general_overview") {
-      return GENERAL_OVERVIEW_SECTIONS;
-    }
-    return PLACEHOLDER_SECTIONS[category as Exclude<CategoryKey, "transition" | "performance" | "basic_secondary" | "general_overview">];
+    return ACCESS_COVERAGE_SECTIONS;
   }, [category, directMode, basicSecondaryView]);
 
   const policyZones = Array.from(new Set(policyImpactSeedRows.map((row) => row.zone).filter(Boolean))) as string[];
@@ -1018,9 +975,7 @@ export default function MinisterDashboardPage({
   const sessionWindow = getDashboardSessionWindow(
     category === "basic_secondary" ? "basic_secondary" : category,
   );
-  const effectiveSessionWindow = category === "general_overview"
-    ? GENERAL_OVERVIEW_FILTER_SESSIONS
-    : sessionWindow;
+  const effectiveSessionWindow = sessionWindow;
 
   const activeSessionValues = showAccessCoverage
     ? accessScopeRowsForSessions
@@ -1373,14 +1328,12 @@ export default function MinisterDashboardPage({
                 onChange={(value) => setFilters((prev) => ({ ...prev, exam_body: value as MinisterFilters["exam_body"] }))}
               />
             ) : null}
-            {category !== "general_overview" ? (
-              <FilterSelect
-                value={filters.gender}
-                placeholder="Gender"
-                options={genderOptions}
-                onChange={(value) => setFilters((prev) => ({ ...prev, gender: value as GenderFilter }))}
-              />
-            ) : null}
+            <FilterSelect
+              value={filters.gender}
+              placeholder="Gender"
+              options={genderOptions}
+              onChange={(value) => setFilters((prev) => ({ ...prev, gender: value as GenderFilter }))}
+            />
             {!isStateScopedAdmin ? (
               <FilterSelect
                 value={filters.zone}
@@ -1420,7 +1373,7 @@ export default function MinisterDashboardPage({
               disabled={!filters.state}
               title={!filters.state ? "Pick State first" : undefined}
             />
-            {category !== "policy_impact" && category !== "general_overview" ? (
+            {category !== "policy_impact" ? (
               <FilterSelect
                 value={filters.ward}
                 placeholder="Ward"
@@ -1610,24 +1563,7 @@ export default function MinisterDashboardPage({
               </div>
             ) : null}
 
-            {category === "general_overview" ? (
-              <div className="mt-6">
-                <GeneralOverviewDashboard
-                  filters={dashboardFilters}
-                  setFilters={setFilters}
-                  dimSessions={dimSessions}
-                  disabilityMode={disabilityMode}
-                />
-              </div>
-            ) : null}
           </Suspense>
-        ) : null}
-
-        {ready && category !== "transition" && category !== "performance" && category !== "basic_secondary" && category !== "policy_impact" && category !== "general_overview" ? (
-          <PlaceholderPage
-            title={CATEGORY_LABELS[category]}
-            sections={PLACEHOLDER_SECTIONS[category as Exclude<CategoryKey, "transition" | "performance" | "basic_secondary" | "general_overview">]}
-          />
         ) : null}
       </div>
 

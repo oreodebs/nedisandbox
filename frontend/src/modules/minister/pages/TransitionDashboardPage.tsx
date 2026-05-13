@@ -1417,7 +1417,7 @@ export default function TransitionDashboard(props: {
     );
 
     const oLevelHelp = "O-Level exam body breakdown.";
-    const utmeHelp = "UTME participants by O-Level exam body breakdown.";
+    const utmeHelp = "Total candidates who sat for UTME in the selected academic session and location.";
     const admittedHelp = "Admission destination breakdown.";
     const matriculatedHelp = "Matriculation destination breakdown.";
 
@@ -1425,7 +1425,7 @@ export default function TransitionDashboard(props: {
       return [
         {
           label: "Total SS3 Students",
-          help: "Same-session SS3 students who form the starting pool for the Direct transition pipeline.",
+          help: "Total SS3 students in the selected academic session. These are final-year senior secondary learners whose progress is tracked into O-Level exams, UTME, admission, and matriculation.",
           value: currentMetrics.ss3_total,
           delta: delta(currentMetrics.ss3_total, previousMetrics.ss3_total),
           icon: <Users className="h-5 w-5" />,
@@ -1478,7 +1478,7 @@ export default function TransitionDashboard(props: {
     return [
       {
         label: "Total SS3 Students",
-        help: "Same-session SS3 students who form the starting pool for the transition pipeline.",
+        help: "Total SS3 students in the selected academic session. These are final-year senior secondary learners whose progress is tracked into O-Level exams, UTME, admission, and matriculation.",
         value: currentMetrics.ss3_total,
         delta: delta(currentMetrics.ss3_total, previousMetrics.ss3_total),
         icon: <Users className="h-5 w-5" />,
@@ -1982,7 +1982,7 @@ const buildDropoffLocationChart = (
   );
 
   const helpText = {
-    progression: "This funnel shows SS3 as the 100% Direct baseline, then shows the wider O-Level/UTME/admission pathway. O-Level can be higher than SS3 because it may include repeat, external, or non-current SS3 candidates; UTME hover now includes the same WAEC/NECO/NABTEB breakdown.",
+    progression: "Shows how learners move from SS3 through O-Level, UTME, admission, and matriculation for the selected session and location.",
     lossTable: "This table shows gain / drop-off across the pathway. SS3 → O-Level is treated as a no-drop-off stage; any increase is shown as a green gain because O-Level can include candidates beyond same-session SS3.",
     timing: "This shows how General pathway matriculated learners are split by time taken after O-Level.",
     timingInst: "This compares time-to-matriculation bands across University, Polytechnic, and College of Education destinations.",
