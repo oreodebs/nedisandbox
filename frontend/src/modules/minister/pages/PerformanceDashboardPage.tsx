@@ -454,8 +454,10 @@ function expandedChartBundle(bundle?: ChartBundle, chartKey?: ExpandChartKey): C
 }
 
 function weightedRate(numerator: number, denominator: number): number {
-  if (denominator <= 0) return 0;
-  return (numerator / denominator) * 100;
+  const safeNumerator = Math.max(0, safeNum(numerator));
+  const safeDenominator = Math.max(0, safeNum(denominator));
+  if (safeDenominator <= 0) return 0;
+  return Math.min(100, (safeNumerator / safeDenominator) * 100);
 }
 
 function yearFromSession(session: string): string {
@@ -495,6 +497,11 @@ function isSortablePerformanceChartKey(chartKey: ExpandChartKey): chartKey is So
 
 function formatBreakdownShare(value: number, total: number): string {
   const pct = total > 0 ? (value / total) * 100 : 0;
+  return `${fmtInt(value)} (${pct.toFixed(1)}%)`;
+}
+
+function formatCappedBreakdownShare(value: number, total: number): string {
+  const pct = total > 0 ? Math.max(0, Math.min(100, (value / total) * 100)) : 0;
   return `${fmtInt(value)} (${pct.toFixed(1)}%)`;
 }
 
@@ -617,7 +624,7 @@ function utmeRate(rows: PerformanceRow[]): number {
 
 function admissionRate(rows: PerformanceRow[]): number {
   const numerator = rows.reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
-  const denominator = rows.reduce((sum, row) => sum + safeNum(row.utme_qualified_count), 0);
+  const denominator = rows.reduce((sum, row) => sum + safeNum(row.utme_candidate_count), 0);
   return weightedRate(numerator, denominator);
 }
 
@@ -1823,19 +1830,21 @@ export default function PerformanceDashboard({
     const sourceAdmitted = baseRows.reduce((sum, row) => sum + safeNum(row.admitted_count), 0);
     const sourceMatriculated = baseRows.reduce((sum, row) => sum + safeNum(row.matriculated_count), 0);
     const admitted = canonicalCurrent.admitted || sourceAdmitted;
-    const utmeQualifyingBase = baseRows.reduce((sum, row) => sum + safeNum(row.utme_qualified_count), 0);
+    const admissionBase = utmeTotal;
+    const notAdmitted = Math.max(0, admissionBase - Math.min(admitted, admissionBase));
     const matriculated = canonicalCurrent.matriculated || sourceMatriculated;
     const admittedForMatric = admitted;
-    const currentAdmissionCanonicalRaw = utmeQualifyingBase > 0 ? (admitted / utmeQualifyingBase) * 100 : currentAdmissionRaw;
+    const notMatriculated = Math.max(0, admittedForMatric - Math.min(matriculated, admittedForMatric));
+    const currentAdmissionCanonicalRaw = admissionBase > 0 ? weightedRate(admitted, admissionBase) : currentAdmissionRaw;
     const currentAdmissionCanonical = round1(currentAdmissionCanonicalRaw);
-    const previousUtmeQualifyingBase = previousRows.reduce((sum, row) => sum + safeNum(row.utme_qualified_count), 0);
-    const prevAdmissionCanonicalRaw = canonicalPrevious.admitted > 0 && previousUtmeQualifyingBase > 0
-      ? (canonicalPrevious.admitted / previousUtmeQualifyingBase) * 100
+    const previousAdmissionBase = previousRows.reduce((sum, row) => sum + safeNum(row.utme_candidate_count), 0);
+    const prevAdmissionCanonicalRaw = canonicalPrevious.admitted > 0 && previousAdmissionBase > 0
+      ? weightedRate(canonicalPrevious.admitted, previousAdmissionBase)
       : prevAdmissionRaw;
-    const currentMatricCanonicalRaw = admittedForMatric > 0 ? (matriculated / admittedForMatric) * 100 : currentMatricRaw;
+    const currentMatricCanonicalRaw = admittedForMatric > 0 ? weightedRate(matriculated, admittedForMatric) : currentMatricRaw;
     const currentMatricCanonical = round1(currentMatricCanonicalRaw);
     const prevMatricCanonicalRaw = canonicalPrevious.admitted > 0
-      ? (canonicalPrevious.matriculated / canonicalPrevious.admitted) * 100
+      ? weightedRate(canonicalPrevious.matriculated, canonicalPrevious.admitted)
       : prevMatricRaw;
 
     const institutionLabels = ["University", "Polytechnic", "College of Education"];
@@ -1939,21 +1948,25 @@ export default function PerformanceDashboard({
       },
       {
         label: "Admission Rate",
-        help: "Admission destination breakdown.",
+        help: "Admission rate = admitted students divided by UTME participants. Destination split is shown after the rate-base breakdown.",
         value: currentAdmissionCanonical,
         delta: sessionDelta(currentAdmissionCanonicalRaw, prevAdmissionCanonicalRaw),
         icon: <School className="h-5 w-5" />,
         accent: COLORS.admission,
         bg: "rgba(14,165,233,0.10)",
         numerator: admitted,
-        denominator: utmeQualifyingBase,
+        denominator: admissionBase,
         numeratorLabel: "Admitted",
-        denominatorLabel: "UTME Qualified",
-        breakdown: institutionBreakdown("admitted_count", admitted),
+        denominatorLabel: "UTME Participants",
+        breakdown: [
+          { label: "Total UTME Participants", value: fmtInt(admissionBase) },
+          { label: "Admitted", value: formatCappedBreakdownShare(admitted, admissionBase) },
+          { label: "Not Admitted", value: formatCappedBreakdownShare(notAdmitted, admissionBase) },
+        ],
       },
       {
         label: "Matriculation Completion Rate",
-        help: "Matriculation destination breakdown.",
+        help: "Matriculation completion rate = matriculated students divided by admitted students. Destination split is shown after the rate-base breakdown.",
         value: currentMatricCanonical,
         delta: sessionDelta(currentMatricCanonicalRaw, prevMatricCanonicalRaw),
         icon: <UserCheck className="h-5 w-5" />,
@@ -1963,7 +1976,11 @@ export default function PerformanceDashboard({
         denominator: admittedForMatric,
         numeratorLabel: "Matriculated",
         denominatorLabel: "Admitted",
-        breakdown: institutionBreakdown("matriculated_count", matriculated),
+        breakdown: [
+          { label: "Total Admitted", value: fmtInt(admittedForMatric) },
+          { label: "Matriculated", value: formatCappedBreakdownShare(matriculated, admittedForMatric) },
+          { label: "Not Matriculated", value: formatCappedBreakdownShare(notMatriculated, admittedForMatric) },s
+        ],
       },
     ];
   }, [waecRows, necoRows, nabtebRows, baseRows, previousWaecRows, previousNecoRows, previousNabtebRows, previousRows, canonicalTransitionRows, renderFilters, disabilityMode, previousSession]);
