@@ -287,15 +287,6 @@ function titleGrandTotal(label: string, value: number): string {
 const ACCESS_PRIMARY_STUDENTS_TOTAL = 24_112_364;
 const ACCESS_TOTAL_STUDENTS_BASIC_SENIOR_SECONDARY = 32_483_855;
 
-const NATIONAL_TEACHER_ANCHORS = {
-  total: 1_124_820,
-  public: 422_766,
-  publicMale: 219_323,
-  publicFemale: 203_443,
-  private: 547_603,
-  privateMale: 223_192,
-  privateFemale: 324_411,
-} as const;
 
 function horizontalValueAxis(rangeMax: number): Record<string, unknown> {
   return {
