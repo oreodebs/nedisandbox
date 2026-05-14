@@ -1634,11 +1634,15 @@ export default function PerformanceDashboard({
   const [expandState, setExpandState] = useState<ExpandState>(null);
   const [sortModes, setSortModes] = useState<Record<SortablePerformanceChartKey, SortMode>>(DEFAULT_PERFORMANCE_SORT_MODES);
   const expandedPanelRef = useRef<HTMLDivElement | null>(null);
-  const requestedScopeKey = useMemo(
-    () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}|${filters.school}`,
+  const requestedDepth = useMemo(
+    () => scopeDepthForLocation(filters),
     [filters.state, filters.lga, filters.ward, filters.school],
   );
-  const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
+  const requestedDataKey = useMemo(
+    () => `${canonicalState(filters.state)}|${requestedDepth}`,
+    [filters.state, requestedDepth],
+  );
+  const [loadedDataKey, setLoadedDataKey] = useState(requestedDataKey);
   const [loadedLocation, setLoadedLocation] = useState({
     state: filters.state,
     lga: filters.lga,
@@ -1660,16 +1664,15 @@ export default function PerformanceDashboard({
       try {
         setLoading(true);
         setError(null);
-        const depth = scopeDepthForLocation(filters);
         const [factRows, transitionRows] = await Promise.all([
-          loadRefinedScopedRows<PerformanceRow>("performance", filters.state, depth),
-          loadRefinedScopedRows<CanonicalTransitionRow>("transition_direct", filters.state, depth),
+          loadRefinedScopedRows<PerformanceRow>("performance", filters.state, requestedDepth),
+          loadRefinedScopedRows<CanonicalTransitionRow>("transition_direct", filters.state, requestedDepth),
         ]);
 
         if (!mounted) return;
         setRows(filterRowsBySessionWindow(factRows, PERFORMANCE_SESSIONS));
         setCanonicalTransitionRows(filterRowsBySessionWindow(transitionRows, TRANSITION_SESSIONS));
-        setLoadedScopeKey(requestedScopeKey);
+        setLoadedDataKey(requestedDataKey);
         setLoadedLocation({
           state: filters.state,
           lga: filters.lga,
@@ -1691,7 +1694,7 @@ export default function PerformanceDashboard({
     return () => {
       mounted = false;
     };
-  }, [filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey]);
+  }, [filters.state, requestedDepth, requestedDataKey]);
 
   useEffect(() => {
     if (!expandState) return undefined;
@@ -1712,7 +1715,7 @@ export default function PerformanceDashboard({
     const current = dimSessions.find((item) => item.session_id === filters.session);
     return current?.prev_session_id ?? "";
   }, [dimSessions, filters.session]);
-  const scopePending = requestedScopeKey !== loadedScopeKey;
+  const scopePending = requestedDataKey !== loadedDataKey;
   const renderFilters = useMemo(
     () => (scopePending ? { ...filters, ...loadedLocation } : filters),
     [scopePending, filters, loadedLocation],

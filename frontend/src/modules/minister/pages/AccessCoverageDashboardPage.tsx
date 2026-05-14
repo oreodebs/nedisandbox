@@ -643,8 +643,8 @@ const CHART_HELP: Record<ChartKey, string> = {
   secondaryStudentPublicGenderState: "Secondary Level Public Student Count by Gender by State compares enrolled male and female learner volume across public JSS and SSS schools by state.",
   primaryStudentPrivateGenderState: "Primary Level Private Student Count by Gender by State compares enrolled male and female learner volume across private primary schools by state.",
   secondaryStudentPrivateGenderState: "Secondary Level Private Student Count by Gender by State compares enrolled male and female learner volume across private JSS and SSS schools by state.",
-  primaryStudentCombinedGenderState: "Primary Student Count by State (Public/Private and Gender) shows one stacked bar per state with Public Male, Public Female, Private Male, and Private Female segments. Click a state to drill to LGA.",
-  secondaryStudentCombinedGenderState: "Secondary Student Count by State (Public/Private and Gender) shows one stacked bar per state with Public Male, Public Female, Private Male, and Private Female segments. Click a state to drill to LGA.",
+  primaryStudentCombinedGenderState: "Primary Student Count by State by Gender shows one stacked horizontal bar per state with Male and Female segments combined across school types. Click a state to drill to LGA.",
+  secondaryStudentCombinedGenderState: "Secondary Student Count by State by Gender shows one stacked horizontal bar per state with Male and Female segments combined across school types. Click a state to drill to LGA.",
   studentCountGender: "Public vs Private Student Count by Gender compares male and female enrollment volume across public and private schooling.",
   funnel: "Enrollment Trend by Class Level shows the most recent academic sessions as separate progression lines from Primary 1 to SSS3.",
   progression: "Enrollment Progression Table compares each class level between the previous session and the current session so the movement is easier to read. It shows previous learners, current learners, net change, and change rate by class level.",
@@ -3448,11 +3448,15 @@ export default function AccessCoverageDashboard({
   };
   const [expandState, setExpandState] = useState<ExpandState>(null);
   const [chartSortModes, setChartSortModes] = useState<Partial<Record<ChartKey, SortMode>>>({});
-  const requestedScopeKey = useMemo(
-    () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}|${filters.school}`,
+  const requestedDepth = useMemo(
+    () => scopeDepthForLocation(filters),
     [filters.state, filters.lga, filters.ward, filters.school],
   );
-  const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
+  const requestedDataKey = useMemo(
+    () => `${canonicalState(filters.state)}|${requestedDepth}`,
+    [filters.state, requestedDepth],
+  );
+  const [loadedDataKey, setLoadedDataKey] = useState(requestedDataKey);
   const [loadedLocation, setLoadedLocation] = useState({
     zone: filters.zone,
     state: filters.state,
@@ -3460,7 +3464,7 @@ export default function AccessCoverageDashboard({
     ward: filters.ward,
     school: filters.school,
   });
-  const scopePending = requestedScopeKey !== loadedScopeKey;
+  const scopePending = requestedDataKey !== loadedDataKey;
   const renderFilters = useMemo(
     () => (scopePending ? { ...filters, ...loadedLocation } : filters),
     [scopePending, filters, loadedLocation],
@@ -3524,12 +3528,11 @@ export default function AccessCoverageDashboard({
       try {
         setLoading(true);
         setError(null);
-        const depth = scopeDepthForLocation(filters);
         const [topWardData, scopedWardData, topTeacherData, scopedTeacherData, accessKpiData] = await Promise.all([
           loadRefinedFile<AccessWardRow>("pages/access_coverage/top_rollup.csv"),
-          loadRefinedScopedRows<AccessWardRow>("access_coverage", filters.state, depth),
+          loadRefinedScopedRows<AccessWardRow>("access_coverage", filters.state, requestedDepth),
           loadRefinedFile<TeacherCapacityRow>("pages/teacher_capacity/top_rollup.csv"),
-          loadRefinedScopedRows<TeacherCapacityRow>("teacher_capacity", filters.state, depth),
+          loadRefinedScopedRows<TeacherCapacityRow>("teacher_capacity", filters.state, requestedDepth),
           loadRefinedFile<AccessKpiSummaryRow>("pages/access_coverage/access_kpi_summary.csv").catch(() => [] as AccessKpiSummaryRow[]),
         ]);
 
@@ -3561,7 +3564,7 @@ export default function AccessCoverageDashboard({
             ? [...filteredTopTeacherData, ...filteredScopedTeacherData]
             : filteredScopedTeacherData,
         );
-        setLoadedScopeKey(requestedScopeKey);
+        setLoadedDataKey(requestedDataKey);
         setLoadedLocation({
           zone: filters.zone,
           state: filters.state,
@@ -3581,7 +3584,7 @@ export default function AccessCoverageDashboard({
     return () => {
       active = false;
     };
-  }, [filters.zone, filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey]);
+  }, [filters.state, requestedDepth, requestedDataKey]);
 
   useEffect(() => {
     if (!locationFiltersAreClear) return;
@@ -4530,55 +4533,44 @@ export default function AccessCoverageDashboard({
         .map((group) => group.label)
         .filter(Boolean);
 
-    const grouped = new Map<string, { publicMale: number; publicFemale: number; privateMale: number; privateFemale: number }>();
+    const grouped = new Map<string, { male: number; female: number }>();
 
     scopedRows.forEach((row) => {
       const label = locationLabel(row, level);
       if (!label) return;
-      const bucket = grouped.get(label) ?? { publicMale: 0, publicFemale: 0, privateMale: 0, privateFemale: 0 };
+      const bucket = grouped.get(label) ?? { male: 0, female: 0 };
       const students = safeNum(row.student_count);
-      if (row.school_type === "Public") {
-        if (row.gender === "Male") bucket.publicMale += students;
-        if (row.gender === "Female") bucket.publicFemale += students;
-      } else if (row.school_type === "Private") {
-        if (row.gender === "Male") bucket.privateMale += students;
-        if (row.gender === "Female") bucket.privateFemale += students;
-      }
+      if (row.gender === "Male") bucket.male += students;
+      if (row.gender === "Female") bucket.female += students;
       grouped.set(label, bucket);
     });
 
     const unsortedGroups = baselineLabels.map((label) => {
-      const bucket = grouped.get(label) ?? { publicMale: 0, publicFemale: 0, privateMale: 0, privateFemale: 0 };
+      const bucket = grouped.get(label) ?? { male: 0, female: 0 };
       return {
         label,
-        publicMale: bucket.publicMale,
-        publicFemale: bucket.publicFemale,
-        privateMale: bucket.privateMale,
-        privateFemale: bucket.privateFemale,
-        total: bucket.publicMale + bucket.publicFemale + bucket.privateMale + bucket.privateFemale,
+        male: bucket.male,
+        female: bucket.female,
+        total: bucket.male + bucket.female,
       };
     });
     const balancedGroups = rebalanceStackedDisplayRows(
       unsortedGroups,
-      ["publicMale", "publicFemale", "privateMale", "privateFemale"],
+      ["male", "female"],
       level,
     ).map((item) => ({
       ...item,
-      total: item.publicMale + item.publicFemale + item.privateMale + item.privateFemale,
+      total: item.male + item.female,
     }));
     const groups = sortByMode(balancedGroups, sortMode, (item) => item.total, level);
 
     const labels = groups.map((item) => String(item.label));
     const displayLabels = labels.map((label) => displayLocationLabel(label, level));
-    const publicMaleValues = groups.map((item) => item.publicMale);
-    const publicFemaleValues = groups.map((item) => item.publicFemale);
-    const privateMaleValues = groups.map((item) => item.privateMale);
-    const privateFemaleValues = groups.map((item) => item.privateFemale);
-    const [publicMaleVisualValues, publicFemaleVisualValues, privateMaleVisualValues, privateFemaleVisualValues] = minimumVisibleStackValues([
-      publicMaleValues,
-      publicFemaleValues,
-      privateMaleValues,
-      privateFemaleValues,
+    const maleValues = groups.map((item) => item.male);
+    const femaleValues = groups.map((item) => item.female);
+    const [maleVisualValues, femaleVisualValues] = minimumVisibleStackValues([
+      maleValues,
+      femaleValues,
     ], 0.12);
 
     const isScrollable = labels.length > 8;
@@ -4590,69 +4582,35 @@ export default function AccessCoverageDashboard({
       {
         type: "bar",
         orientation: "h",
-        name: "Public - Male",
+        name: "Male",
         y: displayLabels,
-        x: publicMaleVisualValues,
-        marker: { color: "#1d4ed8", line: { color: "#1e3a8a", width: 0.6 } },
-        text: publicMaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
+        x: maleVisualValues,
+        marker: { color: COLORS.male, line: { color: COLORS.male, width: 0.6 } },
+        text: maleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
         textposition: "inside",
         textangle: 0,
         textfont: { color: "#ffffff", size: 11 },
         insidetextanchor: "middle",
         constraintext: "none",
-        customdata: labelValueCustomData(displayLabels, publicMaleValues),
-        hovertemplate: "<b>%{customdata[0]}</b><br>Public Male: %{customdata[1]:,.0f}<extra></extra>",
+        customdata: labelValueCustomData(displayLabels, maleValues),
+        hovertemplate: "<b>%{customdata[0]}</b><br>Male: %{customdata[1]:,.0f}<extra></extra>",
         cliponaxis: false,
       },
       {
         type: "bar",
         orientation: "h",
-        name: "Public - Female",
+        name: "Female",
         y: displayLabels,
-        x: publicFemaleVisualValues,
-        marker: { color: "#60a5fa", line: { color: "#2563eb", width: 0.6 } },
-        text: publicFemaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
-        textposition: "inside",
-        textangle: 0,
-        textfont: { color: "#0f172a", size: 11 },
-        insidetextanchor: "middle",
-        constraintext: "none",
-        customdata: labelValueCustomData(displayLabels, publicFemaleValues),
-        hovertemplate: "<b>%{customdata[0]}</b><br>Public Female: %{customdata[1]:,.0f}<extra></extra>",
-        cliponaxis: false,
-      },
-      {
-        type: "bar",
-        orientation: "h",
-        name: "Private - Male",
-        y: displayLabels,
-        x: privateMaleVisualValues,
-        marker: { color: "#c2410c", line: { color: "#9a3412", width: 0.6 } },
-        text: privateMaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
+        x: femaleVisualValues,
+        marker: { color: COLORS.female, line: { color: COLORS.female, width: 0.6 } },
+        text: femaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
         textposition: "inside",
         textangle: 0,
         textfont: { color: "#ffffff", size: 11 },
         insidetextanchor: "middle",
         constraintext: "none",
-        customdata: labelValueCustomData(displayLabels, privateMaleValues),
-        hovertemplate: "<b>%{customdata[0]}</b><br>Private Male: %{customdata[1]:,.0f}<extra></extra>",
-        cliponaxis: false,
-      },
-      {
-        type: "bar",
-        orientation: "h",
-        name: "Private - Female",
-        y: displayLabels,
-        x: privateFemaleVisualValues,
-        marker: { color: "#fdba74", line: { color: "#ea580c", width: 0.6 } },
-        text: privateFemaleValues.map((value) => (value > 0 ? fmtShort(value) : "")),
-        textposition: "inside",
-        textangle: 0,
-        textfont: { color: "#431407", size: 11 },
-        insidetextanchor: "middle",
-        constraintext: "none",
-        customdata: labelValueCustomData(displayLabels, privateFemaleValues),
-        hovertemplate: "<b>%{customdata[0]}</b><br>Private Female: %{customdata[1]:,.0f}<extra></extra>",
+        customdata: labelValueCustomData(displayLabels, femaleValues),
+        hovertemplate: "<b>%{customdata[0]}</b><br>Female: %{customdata[1]:,.0f}<extra></extra>",
         cliponaxis: false,
       },
     ];
@@ -6277,11 +6235,11 @@ export default function AccessCoverageDashboard({
 
         <div className="grid gap-3 lg:grid-cols-2">
           <ChartCard
-            title="Primary Student Count by State (Public/Private and Gender)"
+            title="Primary Student Count by State by Gender"
             explanation={CHART_HELP.primaryStudentCombinedGenderState}
             bundle={primaryStudentCombinedGenderStateChart.bundle}
             sortControl={stateSortControl("primaryStudentCombinedGenderState", primaryStudentCombinedGenderStateChart.level === "state")}
-            onExpand={() => setExpandState({ key: "primaryStudentCombinedGenderState", title: "Primary Student Count by State (Public/Private and Gender)" })}
+            onExpand={() => setExpandState({ key: "primaryStudentCombinedGenderState", title: "Primary Student Count by State by Gender" })}
             onRefresh={clearLocationSelection}
             onPlotClick={(event) => {
               const label = extractPointLabel(event);
@@ -6290,11 +6248,11 @@ export default function AccessCoverageDashboard({
             }}
           />
           <ChartCard
-            title="Secondary Student Count by State (Public/Private and Gender)"
+            title="Secondary Student Count by State by Gender"
             explanation={CHART_HELP.secondaryStudentCombinedGenderState}
             bundle={secondaryStudentCombinedGenderStateChart.bundle}
             sortControl={stateSortControl("secondaryStudentCombinedGenderState", secondaryStudentCombinedGenderStateChart.level === "state")}
-            onExpand={() => setExpandState({ key: "secondaryStudentCombinedGenderState", title: "Secondary Student Count by State (Public/Private and Gender)" })}
+            onExpand={() => setExpandState({ key: "secondaryStudentCombinedGenderState", title: "Secondary Student Count by State by Gender" })}
             onRefresh={clearLocationSelection}
             onPlotClick={(event) => {
               const label = extractPointLabel(event);

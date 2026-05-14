@@ -1204,18 +1204,22 @@ export default function TransitionDashboard(props: {
   const [sortModes, setSortModes] = useState<Record<SortableTransitionChartKey, SortMode>>(DEFAULT_TRANSITION_SORT_MODES);
 
   const [expandState, setExpandState] = useState<ExpandState>(null);
-  const requestedScopeKey = useMemo(
-    () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}|${filters.school}`,
+  const requestedDepth = useMemo(
+    () => scopeDepthForLocation(filters),
     [filters.state, filters.lga, filters.ward, filters.school],
   );
-  const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
+  const requestedDataKey = useMemo(
+    () => `${canonicalState(filters.state)}|${requestedDepth}`,
+    [filters.state, requestedDepth],
+  );
+  const [loadedDataKey, setLoadedDataKey] = useState(requestedDataKey);
   const [loadedLocation, setLoadedLocation] = useState({
     state: filters.state,
     lga: filters.lga,
     ward: filters.ward,
     school: filters.school,
   });
-  const scopePending = requestedScopeKey !== loadedScopeKey;
+  const scopePending = requestedDataKey !== loadedDataKey;
   const renderFilters = useMemo(
     () => (scopePending ? { ...filters, ...loadedLocation } : filters),
     [scopePending, filters, loadedLocation],
@@ -1235,16 +1239,15 @@ export default function TransitionDashboard(props: {
       try {
         setLoading(true);
         setError(null);
-        const depth = scopeDepthForLocation(filters);
         const [generalData, directData] = await Promise.all([
-          loadRefinedScopedRows<TransitionGeneralRow>("transition_general", filters.state, depth),
-          loadRefinedScopedRows<TransitionDirectRow>("transition_direct", filters.state, depth),
+          loadRefinedScopedRows<TransitionGeneralRow>("transition_general", filters.state, requestedDepth),
+          loadRefinedScopedRows<TransitionDirectRow>("transition_direct", filters.state, requestedDepth),
         ]);
 
         if (!mounted) return;
         setGeneralRows(filterRowsBySessionWindow(generalData, TRANSITION_SESSIONS));
         setDirectRows(filterRowsBySessionWindow(directData, TRANSITION_SESSIONS));
-        setLoadedScopeKey(requestedScopeKey);
+        setLoadedDataKey(requestedDataKey);
         setLoadedLocation({
           state: filters.state,
           lga: filters.lga,
@@ -1264,7 +1267,7 @@ export default function TransitionDashboard(props: {
     return () => {
       mounted = false;
     };
-  }, [dimSessions, filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey]);
+  }, [filters.state, requestedDepth, requestedDataKey]);
 
   useEffect(() => {
     setGeneralTransitionZoneDrill({});

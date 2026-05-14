@@ -1,4 +1,4 @@
-import { Suspense, lazy, useDeferredValue, useEffect, useMemo, useState } from "react";
+import { Suspense, lazy, useEffect, useMemo, useState } from "react";
 import type { ChangeEvent, ReactNode } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Accessibility, BookOpen, ChevronUp, Users } from "lucide-react";
@@ -117,8 +117,8 @@ const CATEGORY_LABELS: Record<CategoryKey, string> = {
 
 const DASHBOARD_TABS: Array<{ key: CategoryKey; label: string }> = [
   { key: "basic_secondary", label: "Basic and Senior Secondary" },
-  { key: "transition", label: "Transition" },
   { key: "performance", label: "Performance" },
+  { key: "transition", label: "Transition" },
   { key: "policy_impact", label: "Policy Impact" },
 ];
 
@@ -1170,7 +1170,7 @@ export default function MinisterDashboardPage({
     () => ({ ...effectiveFilters, school: "" }),
     [effectiveFilters],
   );
-  const dashboardFilters = useDeferredValue(wardFinalFilters);
+  const dashboardFilters = wardFinalFilters;
 
   // Use dimLatestSessionId as the guaranteed fallback — once dims have loaded, ready is always true
   const ready = !loadingDims && !dataErr && !!(effectiveFilters.session || latestSessionId || dimLatestSessionId);

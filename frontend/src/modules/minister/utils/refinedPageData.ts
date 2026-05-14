@@ -1,6 +1,10 @@
 import { loadCSV } from './loadCSV';
 
 type AnyRow = Record<string, unknown>;
+type StateShardLevel = 'lga' | 'ward' | 'school';
+
+const normalizedFileCache = new Map<string, Promise<AnyRow[]>>();
+const stateShardCache = new Map<string, Promise<AnyRow[]>>();
 
 function getDataBaseUrl(): string {
   const baseUrl = (import.meta as { env?: { BASE_URL?: string } }).env?.BASE_URL ?? '/';
@@ -130,28 +134,42 @@ export function normalizeRefinedRows<T extends AnyRow>(rows: T[]): T[] {
   });
 }
 
+async function loadNormalizedPath<T extends AnyRow>(path: string): Promise<T[]> {
+  if (!normalizedFileCache.has(path)) {
+    normalizedFileCache.set(
+      path,
+      tryLoadPath<T>(path).then((rows) => normalizeRefinedRows(rows) as AnyRow[]),
+    );
+  }
+
+  try {
+    return (await normalizedFileCache.get(path)) as T[];
+  } catch (error) {
+    normalizedFileCache.delete(path);
+    throw error;
+  }
+}
+
 export async function loadRefinedPageRows<T extends AnyRow>(page: string, state?: string): Promise<T[]> {
   if (!state) {
-    const rows = await tryLoadPath<T>(`pages/${page}/top_rollup.csv`);
-    return normalizeRefinedRows(rows);
+    return loadNormalizedPath<T>(`pages/${page}/top_rollup.csv`);
   }
   return loadRefinedStateShardRows<T>(page, state, 'school');
 }
 
-export async function loadRefinedStateShardRows<T extends AnyRow>(page: string, state: string, level: 'lga' | 'ward' | 'school' = 'school'): Promise<T[]> {
+async function loadStateShardRows<T extends AnyRow>(page: string, state: string, level: StateShardLevel): Promise<T[]> {
   const candidates = stateFileCandidates(state);
   let lastError: unknown = null;
   for (const candidate of candidates) {
     try {
-      const rows = await tryLoadPath<T>(`pages/${page}/${level}/${candidate}.csv`);
-      return normalizeRefinedRows(rows);
+      return loadNormalizedPath<T>(`pages/${page}/${level}/${candidate}.csv`);
     } catch (error) {
       lastError = error;
       const partRows: T[] = [];
       let loadedPart = false;
       for (let part = 1; part <= 12; part += 1) {
         try {
-          const rows = await tryLoadPath<T>(`pages/${page}/${level}/${candidate}_part${part}.csv`);
+          const rows = await loadNormalizedPath<T>(`pages/${page}/${level}/${candidate}_part${part}.csv`);
           if (rows.length) {
             partRows.push(...rows);
             loadedPart = true;
@@ -161,22 +179,34 @@ export async function loadRefinedStateShardRows<T extends AnyRow>(page: string, 
         }
       }
       if (loadedPart) {
-        return normalizeRefinedRows(partRows);
+        return partRows;
       }
     }
   }
   throw lastError instanceof Error ? lastError : new Error(`Failed to load ${page} ${level} shard for ${state}`);
 }
 
+export async function loadRefinedStateShardRows<T extends AnyRow>(page: string, state: string, level: StateShardLevel = 'school'): Promise<T[]> {
+  const cacheKey = `${page}|${canonicalState(state)}|${level}`;
+  if (!stateShardCache.has(cacheKey)) {
+    stateShardCache.set(cacheKey, loadStateShardRows<T>(page, state, level) as Promise<AnyRow[]>);
+  }
+
+  try {
+    return (await stateShardCache.get(cacheKey)) as T[];
+  } catch (error) {
+    stateShardCache.delete(cacheKey);
+    throw error;
+  }
+}
+
 export async function loadRefinedScopedRows<T extends AnyRow>(page: string, state?: string, depth: 'top' | 'lga' | 'ward' | 'school' = 'top'): Promise<T[]> {
   if (!state || depth === 'top') {
-    const rows = await tryLoadPath<T>(`pages/${page}/top_rollup.csv`);
-    return normalizeRefinedRows(rows);
+    return loadNormalizedPath<T>(`pages/${page}/top_rollup.csv`);
   }
   return loadRefinedStateShardRows<T>(page, state, depth);
 }
 
 export async function loadRefinedFile<T extends AnyRow>(path: string): Promise<T[]> {
-  const rows = await tryLoadPath<T>(path);
-  return normalizeRefinedRows(rows);
+  return loadNormalizedPath<T>(path);
 }

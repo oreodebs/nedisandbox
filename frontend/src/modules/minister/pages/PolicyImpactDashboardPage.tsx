@@ -1013,6 +1013,10 @@ export default function PolicyImpactDashboard({
   const [stateDrill, setStateDrill] = useState<DrillState>({});
   const [expandState, setExpandState] = useState<ExpandState>(null);
   const [sortModes, setSortModes] = useState<Record<SortablePolicyChartKey, SortMode>>(DEFAULT_POLICY_SORT_MODES);
+  const canonicalTransitionDepth = useMemo(
+    () => scopeDepthForLocation(filters),
+    [filters.state, filters.lga, filters.ward, filters.school],
+  );
 
   useEffect(() => {
     let mounted = true;
@@ -1043,8 +1047,7 @@ export default function PolicyImpactDashboard({
     let mounted = true;
     (async () => {
       try {
-        const depth = scopeDepthForLocation(filters);
-        const transitionRows = await loadRefinedScopedRows<CanonicalTransitionRow>("transition_direct", filters.state, depth);
+        const transitionRows = await loadRefinedScopedRows<CanonicalTransitionRow>("transition_direct", filters.state, canonicalTransitionDepth);
         if (!mounted) return;
         setCanonicalTransitionRows(filterRowsBySessionWindow(transitionRows, TRANSITION_SESSIONS));
       } catch {
@@ -1055,7 +1058,7 @@ export default function PolicyImpactDashboard({
     return () => {
       mounted = false;
     };
-  }, [filters.state, filters.lga, filters.ward, filters.school]);
+  }, [filters.state, canonicalTransitionDepth]);
 
   useEffect(() => {
     if (!filters.state) return;

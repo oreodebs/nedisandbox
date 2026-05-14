@@ -2163,22 +2163,22 @@ export default function TeacherCapacityDashboard({
   const [expandState, setExpandState] = useState<ExpandState>(null);
   const [sortModes, setSortModes] = useState<Record<SortableChartKey, SortMode>>(DEFAULT_SORT_MODES);
   const expandedPanelRef = useRef<HTMLDivElement | null>(null);
-  const requestedScopeKey = useMemo(
-    () => `${canonicalState(filters.state)}|${filters.lga}|${filters.ward}|${filters.school}`,
-    [filters.state, filters.lga, filters.ward, filters.school],
-  );
   const requestedDepth = useMemo(
     () => (filters.ward ? "ward" : scopeDepthForLocation({ state: filters.state, lga: filters.lga, ward: filters.ward, school: filters.school })),
     [filters.state, filters.lga, filters.ward, filters.school],
   );
-  const [loadedScopeKey, setLoadedScopeKey] = useState(requestedScopeKey);
+  const requestedDataKey = useMemo(
+    () => `${canonicalState(filters.state)}|${requestedDepth}`,
+    [filters.state, requestedDepth],
+  );
+  const [loadedDataKey, setLoadedDataKey] = useState(requestedDataKey);
   const [loadedLocation, setLoadedLocation] = useState({
     state: filters.state,
     lga: filters.lga,
     ward: filters.ward,
     school: filters.school,
   });
-  const scopePending = requestedScopeKey !== loadedScopeKey;
+  const scopePending = requestedDataKey !== loadedDataKey;
   const renderFilters = useMemo(
     () => (scopePending ? { ...filters, ...loadedLocation } : filters),
     [scopePending, filters, loadedLocation],
@@ -2210,7 +2210,7 @@ export default function TeacherCapacityDashboard({
 
         setRows(filterRowsBySessionWindow(teacherRows, BASIC_SECONDARY_SESSIONS));
         setBenchmarks(benchmarkRows);
-        setLoadedScopeKey(requestedScopeKey);
+        setLoadedDataKey(requestedDataKey);
         setLoadedLocation({
           state: filters.state,
           lga: filters.lga,
@@ -2228,7 +2228,7 @@ export default function TeacherCapacityDashboard({
     return () => {
       alive = false;
     };
-  }, [filters.state, filters.lga, filters.ward, filters.school, requestedScopeKey, requestedDepth]);
+  }, [filters.state, requestedDepth, requestedDataKey]);
 
   useEffect(() => {
     if (!expandState) return undefined;
